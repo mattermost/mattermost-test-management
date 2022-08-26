@@ -1,0 +1,55 @@
+{
+  "id": 3742362,
+  "key": "MM-T169",
+  "name": "RN apps: Upper-case and lower-case at-mentions link",
+  "createdOn": "2019-12-20T20:37:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: upper- and lower-case at-mentions link<br />--------------------<br />1. In a test channel, at-mention a test user in both upper and lower-case (e.g. @testuser @TestUser)",
+        "testData": null,
+        "expectedResult": "Ensure both mentions are links<br /><br />Both mentions render in all lowercase<br /><br />Tapping on a mention should open up the user's profile pop-over",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a3f2824c3bfb6dbfc8397b3749154b459f323b6fa273c2bede355675f4aa7b3088b7caa6f552902eb92cd981c60dd58d",
+  "stepsHashed": "4aa41d95c541787c6c355a430a73843e4cb7e09b5a4d6f3fdefe829da6302747d0439681af9ff5829e8685005f7b2af5"
+}

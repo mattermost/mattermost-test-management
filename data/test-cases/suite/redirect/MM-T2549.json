@@ -1,0 +1,55 @@
+{
+  "id": 5534945,
+  "key": "MM-T2549",
+  "name": "User leaves a channel while viewing that channel. (websocket event handling)",
+  "createdOn": "2020-05-27T17:36:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738571,
+    "name": "Redirect",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Cloud", "in Production", "Webapp"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Redirect"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User leaves a channel and the user is viewing that channel. (websocket event handling)<br>————————————————————————————<ol><li>Join or create a channel</li><li>Leave the channel (channel drop-down ➜ Leave Channel)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel is left and the previous channel viewed is displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86a9d0c42ef6aa6da06e651185517b384c5a7e5d9dbb3f3afd71cbbee7f649812d46957f3230a47d9fae4d94df2e2eca",
+  "stepsHashed": "59bc32097c1f35da178a7f981941aef43aae7a1ae7cf7282a77f19677b3b47a700054011306d0aba01ba5b61095bf90d"
+}

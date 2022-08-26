@@ -1,0 +1,55 @@
+{
+  "id": 20128870,
+  "key": "MM-T4756",
+  "name": "Insights - Team insights - Top Threads",
+  "createdOn": "2022-04-04T19:56:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2420042,
+    "name": "Team Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "Team Insights"],
+    "fullPath": "suite/activity-and-insights/insights/team-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as SysAdmin<br />2. Create <strong>TeamA</strong><br />3. Create <strong>ChannelA</strong> and create a<br />thread with 50 posts<br />4. Create <strong>ChannelB</strong> and create a<br />thread with 25 posts<br />5. Create <strong>ChannelC</strong> and create a<br />thread with 15 posts<br />6. Create <strong>ChannelD</strong> and create a<br />thread with 5 posts<br />7. Create 6 more <strong>Channels</strong> with<br />different number of threads.<br />8. Create <strong>UserA</strong> and add to <strong>TeamA</strong><br />9. Login as <strong>UserA</strong><br />10. Select <strong>Activity &amp; Insigh</strong><strong>t</strong> from LHS.<br />11. select <strong>Team insight</strong> from <strong>My insight</strong> drop down menu<br />12. Click <strong>See more </strong>icon.<br />13. verify Pagination",
+        "testData": null,
+        "expectedResult": "11.1. <strong>Top thread </strong>widget should be displayed<br />containing following description <strong>Most active<br />thread i've followed</strong><br />11.2. <strong>See more</strong> icon should be displayed at the<br />top right of the widget.<br />11.3. <strong>Top Threads</strong> should be displayed in following<br />orders.<br />- <strong>User avatar</strong><br />- <strong>Username</strong><br />- <strong>Channels Name</strong>(ChannelA,ChannelB,<br />ChannelsC)<br />- <strong>Reply ico</strong>n<br />- <strong>Number of replies (50)</strong><br />- <strong>Post messages</strong><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1649170015292-1649170015292.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />11.3.<strong> See more </strong>icon should be displayed at the<br />top right of the widget.<br />12.1. Close(<strong>x</strong>) icon should be displayed at top right<br />12.2 Time Period dropdown should be displayed next to<br />close icon,<br />12.3. <strong>Top Threads</strong> heading should be<br />displayed at the top left.<br />12.4. <strong>Most active threads that<br />I've followed description</strong> should be displayed<br />under the My Top threads.<br />12.5 Following column should be displayed<br />- <strong>Rank</strong> (Number in descending orders)<br />- <strong>Threads</strong> (Channels Name)<br />- <strong>Participants</strong> (Number of members)<br />- <strong>Replies</strong><br />- Down arrow icon<br />12.6 5 Threads should be displayed in descending<br />order<br />12.7 Following text should displayed at bottom right:<br />. <strong>1-9 of 100</strong><br />- Previous (<strong>&lt;</strong>)icon should be disabled<br />- Next (<strong>&gt;</strong>)icon should be enabled<br />13.1. More channels should be displayed.<br />13.2. Previous and Next pagination are working fine",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e8f3ef7044075eaf23c2f246b80c562bd664e5cca81c4cf7c331a48d3763ba9e41f7773dee0c7b6b3735d134b24d9a7",
+  "stepsHashed": "2587c79de25105c5b8d6aaf91efd439af087440497673bd0ee678df2f7ebe57c4ad633913e4dbf0015c43c945a47f841"
+}

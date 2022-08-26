@@ -1,0 +1,55 @@
+{
+  "id": 3741724,
+  "key": "MM-T93",
+  "name": "Replying to an older bot post that has no post content and no attachment pretext",
+  "createdOn": "2019-12-20T16:32:59Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Test on</span>&nbsp;</strong><a href=\"https://community-release.mattermost.com/\"><strong>community-release.mattermost.com</strong></a>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Replying to an older bot post that has no post content and no attachment pretext<br />--------------------<br />**Test this one on community-release.mattermost.com**<br /><br />1. Go to &quot;UI Automation&quot; channel, scroll up to find a Mattermost Build post that is at least one day old, and has had subsequent messages posted after it in the channel (those are the posts with the big Jenkins pictures)<br />2. Click &quot;reply&quot; from [...] menu to reply to a message <br />3. In right hand sidebar, make a reply post (it's okay to make a test post in that channel)<br />4. Verify the reply appears (non-RN apps will see comment with shaded background)<br />5. Close the RHS / go back to center channel view<br />6. When you're done testing, please delete your test post",
+        "testData": "Test on <a href=\"https://community-release.mattermost.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://community-release.mattermost.com</a>",
+        "expectedResult": "After 5) you should see &quot;Commented on [bot]&sbquo;&Auml;&ocirc;s message: [attachment_title]&quot;<br /><br />e.g. &quot;Commented on Mattermost Build's message: UI Automation Build #1110 SUCCESS!&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fee71c99818b0bea1b72025865ad24e2cee93f9b5679418b2e1477f355bef59c19f13bbac1f949baffd3c97b40b51816",
+  "stepsHashed": "ddd02a31d596405752b4852e383be47d2bfeef526d2781343a765d2ffafb956e5cb731d57e14768941b73f641dd7175b"
+}

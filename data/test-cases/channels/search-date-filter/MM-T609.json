@@ -1,0 +1,55 @@
+{
+  "id": 3923253,
+  "key": "MM-T609",
+  "name": "Negative after: filter",
+  "createdOn": "2020-01-06T19:21:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Negative after: filter<br>–––––––––––––––––––––––––<ol><li>Post a message with a unique word (ex. foobarbaz)</li><li>Search for the unique word and with a filter of \"after:YESTERDAYS_DATE\" (YESTERDAYS_DATE should be selected via the date picker).</li><li>Search for the unique word with a negative filter of \"-after:YESTERDAYS_DATE\" (YESTERDAYS_DATE should be selected via the date picker).</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>On step 2, search results that include the post with your unique word.</li><li>On step 3, search results should not include your new post</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19487\" rel=\"noopener noreferrer\" target=\"_blank\">Negative search filters can lead to incorrect highlighting of search results — MM-19487</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-11359\" rel=\"noopener noreferrer\" target=\"_blank\">Search: Exclude results containing specific words — MM-11359</a></li><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19518\">Create E2E Cypress tests for negative search filters — MM-19518</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b24358026a36acd71bd140861439b167c80409cb97ad1e9429560fabe51ab914eacb6199098e4010d5529d7b5e85910",
+  "stepsHashed": "3d42a035f584f61cbf06f14fd77e49d8dfa943a1955ddc9053a0e5611f879f6ee0d3e61ff055a94a682f9ad102421be3"
+}

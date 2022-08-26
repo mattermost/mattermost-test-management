@@ -1,0 +1,55 @@
+{
+  "id": 8022823,
+  "key": "MM-T3558",
+  "name": "WordMatch - Designate non-syadmin user",
+  "createdOn": "2020-11-26T20:33:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Select a non sysadnin user and copy their user ID<br />2. Save the ID in &quot;Admin User IDs&quot; field<br />3. Login as targe user <br />4. Use several Auto-Link commands including some such as enable  diable that modify  the data",
+        "testData": null,
+        "expectedResult": "Non-sysadmin user can use the autolink slash commands",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf7342f59408a148d93c9c5e1b7321bea42df718ecf1745daf96d6d69fa4c3bd70f488c5459b806b2082ddea5d4985da",
+  "stepsHashed": "7a57364726260f4c58b687e65a10bebc37bdd402d8b3b81f707dc8719d9522ca059a27f9360fcc39daf702e103081272"
+}

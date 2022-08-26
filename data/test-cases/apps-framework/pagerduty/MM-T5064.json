@@ -1,0 +1,55 @@
+{
+  "id": 28674899,
+  "key": "MM-T5064",
+  "name": "Set up PagerDuty master account",
+  "createdOn": "2022-08-16T21:15:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Verify there is not a previous master configuration<br />2. On a Mattermost instance, login as a sysadmin user and run command `/pd configure`  on any channel<br />3. Record Client ID and Client Secret from the configuration generated through PagerDuty and click `Submit`",
+        "testData": null,
+        "expectedResult": "On 2. A configuration modal will appear on screen<br />On 3. Configuration data is saved and any user could be able to see ` connect` and `disconnect` from commands",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "137e02f7b96ba786a5dd7a057f0fcfb88f8303ce0013df154314cfae4e8b2289c18009df98bbd044eef7d06098fc6583",
+  "stepsHashed": "b358befd064029f36b7e1db5d4aeb594858f047814f52c0fdace64796dd1b5778ad051c51bcc302a3cde27a1390f06cd"
+}

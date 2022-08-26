@@ -1,0 +1,55 @@
+{
+  "id": 13721538,
+  "key": "MM-T4215",
+  "name": "exclude-org-member shows events from non-members of an org",
+  "createdOn": "2021-08-30T15:34:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194690,
+    "name": "Notifications",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Notifications"],
+    "fullPath": "plugins/github/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Subscribe to an org such as /github subscribe dkh-org/Hello-World --exclude-org-member  <br />2. As GitHub user who is not a member of the organization performe an action that would deliver an event such as creating an Issue, Branch or PR",
+        "testData": null,
+        "expectedResult": "The event is delivered via the subscription",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9256cd41ac8f83df73c4768d3a2bb120fbcd69743d106c8b0e08960bd7fc108e61e63a0ffea8fe67a9b8a255eeca302e",
+  "stepsHashed": "3d28dcf2061022af0e4b78cf624458e88dca7c3513631f0db6c90f9818c1704abb638b44800f09601df42fc14772ef83"
+}

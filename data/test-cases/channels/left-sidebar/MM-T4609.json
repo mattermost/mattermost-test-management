@@ -1,0 +1,55 @@
+{
+  "id": 17910054,
+  "key": "MM-T4609",
+  "name": "Channel is unread when new message is posted",
+  "createdOn": "2022-01-28T17:58:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>As  <strong>UserA</strong>, send a plain message (w/no mentions) in the test channel.</li><li>Switch to <strong>UserB.</strong></li></ol>",
+        "testData": "a channel with 2 users - <strong>UserA</strong> and <strong>UserB</strong>, where <strong>UserB</strong> has already dismissed the unread and mention badge from being added to the channel (see MM-T4607)<br /><br />",
+        "expectedResult": "the channel has an unread highlight",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c3c63793ed5e88514e7c5c5d5bdbf647fb0aa879133321d99379eb1a02342bb239bfc052276d67ffb4c43a862716e478",
+  "stepsHashed": "677271f10c9fcbef5d156a07013eade36318d4d9dbcdd1ee474b6c1c04aef5b6cc795e2d8ba1624f788868517e38c815"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4051790,
+  "key": "MM-T1035",
+  "name": "Customization\nBlank Privacy hides the link",
+  "createdOn": "2020-01-21T22:18:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>&nbsp;Leave the \"Privacy Policy\" field BLANK.</li><li>Save</li><li>Return to a team and click main hamburger menu and About Mattermost</li><li>Log out, and visit login and signup pages</li></ol>",
+        "testData": "NEW 5.10<br>MM-13975<br><br>Also tested on RN apps v5.10<br><br>Updated by: <a href=\"https://mattermost.atlassian.net/browse/MM-19759\" rel=\"noreferrer\" target=\"_blank\">MM-19759</a>",
+        "expectedResult": "On 3, privacy policy shows a permanent link to Mattermost policy - <a data-renderer-mark=\"true\" href=\"https://about.mattermost.com/default-privacy-policy/\" title=\"https://about.mattermost.com/default-privacy-policy/\">https://about.mattermost.com/default-privacy-policy/</a><br>On 4, no Privacy Policy link is shown<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "368dcb70536daeaae1a4b5fcc3d6d033097c2188abacb13a34d5ca903905750d7e2a5742d7faa0b5032dd3553a6fbbba",
+  "stepsHashed": "7ead7cde45330c56c6e7e24ad23830afcb752aca8fdcc76711f7d71c9137434ce093a1282a2ba85282cbf85c9ca807de"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8620274,
+  "key": "MM-T3727",
+  "name": "Plugin - Install : already installed plugin without force",
+  "createdOn": "2021-01-18T11:33:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin install-url [already-installed-plugin-URL]",
+        "testData": null,
+        "expectedResult": "Returns an error as the plugin is already installed.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fbdbbeac512f76adde2afde3fb184213310b3d90a24227ecf42502a383dec3452259d75f7c6007d753ae1884dca189de",
+  "stepsHashed": "fe4eb31a5b57433039a3cd6fcc9c960755b9a5398cbc4cc676618ac9a8173c181e53876272b1a9deac3f536bce57b1ca"
+}

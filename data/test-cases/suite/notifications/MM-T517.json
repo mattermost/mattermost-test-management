@@ -1,0 +1,55 @@
+{
+  "id": 3905544,
+  "key": "MM-T517",
+  "name": "RN apps: Push Notifications `@` *is* included before Username",
+  "createdOn": "2020-01-03T19:01:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "21 Sep 9 - (LI) - Not able to test push notifications in RF",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In a browser, Account Settings ➜ Display ➜ Teammate Name Display = \"Show username\"<br />2. Also in a browser, Account Settings ➜ Notifications ➜ Mobile Push Notifications = \"For all activity\" AND \"Online, away or offline\"<br />3. In an incognito window, log in as another test user and post a message that will fire a push notification to your user from step 1)",
+        "testData": "",
+        "expectedResult": "<ul><li>Push notification is received showing message received from \"@username\"</li><li>There IS an \"@\" before the username</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)", "v5.15 (Sept 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"http://MMTHTTPS%3A//MATTERMOST.ATLASSIAN.NET/BROWSE/MM-12795\">Remove \"@\" for full name display in push notifications — MM-12795</a></li><li><a href=\"HTTPS://MATTERMOST.ATLASSIAN.NET/BROWSE/MM-16093\">Missing @ in front of username in push notifications — 16093</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fe87e390dde416f8ac01e7075cd4cf57399e72330fa1ed00178cad61ecc7c0d62db52348e05ce3e644482f7af246e8c4",
+  "stepsHashed": "212b47ff3b4a526dae19ed884d90884958bc17de2dc81896d8a479cc9f6fe79837948cc57609d15eadd2566ccd9a90e5"
+}

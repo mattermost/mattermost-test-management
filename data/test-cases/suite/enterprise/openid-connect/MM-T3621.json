@@ -1,0 +1,55 @@
+{
+  "id": 8069638,
+  "key": "MM-T3621",
+  "name": "Set to GitLab OpenID",
+  "createdOn": "2020-12-01T18:54:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "enterprise"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1052242,
+    "name": "OpenId Connect",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
+    "fullPath": "suite/enterprise/openid-connect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Steve Mudie — Friday, March 19, 2021 7:02 AM<br>• Cypress Automation working as expected <br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as Admin.</li><li>Go to System Console.</li><li>Click <strong>OpenID Connect</strong></li><li>Select <strong>Gitlab</strong> from the Drop Down List.</li><li>&nbsp;Input in <strong>GitLab Site URL</strong></li><li>&nbsp;Input in <strong>Client ID</strong></li><li>&nbsp;Input in <strong>Client Secret</strong></li><li>&nbsp;Click <strong>Save</strong> button</li><li>&nbsp;Logout&nbsp;</li><li>&nbsp;Go to Login</li></ol><br><br>",
+        "testData": "4. Type 'https://gitlab.com'<br>5. Type GitlabId<br>6. Type GitlabSecret",
+        "expectedResult": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1606907016316-Screenshot+from+2020-12-02+05-45-34.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">10. <strong>GitLab</strong> button will be appeared",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fc084870a23201d5aa990825da27dfadb8e7fc5408f342a590175fd4e2ebf8892c5912653a31055059dc9063606e6a98",
+  "stepsHashed": "22f02deee09a9ae1c3c899825624708d51eb9f4bc35fed19e8a0f4a8da0fec74435b8aa23d28084137a961637eb99a7c"
+}

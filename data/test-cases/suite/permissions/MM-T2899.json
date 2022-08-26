@@ -1,0 +1,55 @@
+{
+  "id": 5659450,
+  "key": "MM-T2899",
+  "name": "Team A Channel admin permissions are properly applied",
+  "createdOn": "2020-06-04T18:02:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team A Channel admin permissions are properly applied<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Login as the test user and select TeamA",
+        "testData": null,
+        "expectedResult": "Town Square is displayed for the team you've selected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "aa16097e02664a365359f3a97b1661d51d63e6b40b9691485217959d9b08959c4630d734576d34c3fa7d12914272eb70",
+  "stepsHashed": "178e8de5d8712d627912169c985f6284440817439b2922c70635ba24be96b64162a3bfad9edb19c6268b2d23ca90ed03"
+}

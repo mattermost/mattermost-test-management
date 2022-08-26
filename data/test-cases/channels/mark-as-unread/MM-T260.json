@@ -1,0 +1,55 @@
+{
+  "id": 3768066,
+  "key": "MM-T260",
+  "name": "Mark as Unread New Messages line extra space moves with it",
+  "createdOn": "2019-12-27T20:26:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark as Unread New Messages line extra space moves with it<br>–––––––––––––––––––––––––<ol><li>Have a channel with unread messages</li><li> Switch to that channel</li><li>Alt+click on another post to mark somewhere else in the channel as unread</li></ol>",
+        "testData": "",
+        "expectedResult": "<ol><li>The extra space around the New Messages line moves with it</li></ol>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18860\">Web: Extra space between posts around the New Messages line when marking a different post as unread — MM-18860</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d40c148484c88a591d857d238196c4de12d373ca3190b9a9d6b5c951b3ad538ad0b910fed20f6b5e97a5ddb20020bd0",
+  "stepsHashed": "549d3746cc5f3bc62e5f47e58806817fda961e41425c5c629b7242443d6c9d249c69ccc473056dee3f2cb694bf9c0680"
+}

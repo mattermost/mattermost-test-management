@@ -1,0 +1,55 @@
+{
+  "id": 5444650,
+  "key": "MM-T2102",
+  "name": "Display Language: Español",
+  "createdOn": "2020-05-20T05:50:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Display: Español<br />————————————————————————————<br />1. Go to  Settings -&gt; Display -&gt; Language<br />2. Change to the language shown at the top of these steps<br />3. Save, observe language change in various parts of UI<br />4. Log out<br />5. Log in",
+        "testData": null,
+        "expectedResult": "After logout, no errors shown.<br /><br />After login, language preference has stayed in the language you selected.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1ca8566b2672c3441b3aad6129c08492215682c6fc03e25c0c8ef735857530d580fb875fabce66e2e1301de0b126a525",
+  "stepsHashed": "c36fd642d3d6a61a88bcc6a8cb1ec89209e2b7644902976b23a4f615cffeaba9c15e36ee433d79202caac783bf7ebe68"
+}

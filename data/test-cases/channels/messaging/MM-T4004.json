@@ -1,0 +1,55 @@
+{
+  "id": 10173052,
+  "key": "MM-T4004",
+  "name": "Out-of-office automatic reply sends one only in a direct message within one calendar day",
+  "createdOn": "2021-04-15T04:44:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p data-pm-slice=\"1 1 []\">Set \"ExperimentalEnableAutomaticReplies\" to true in System Console <a href=\"https://docs.mattermost.com/administration/config-settings.html#enable-automatic-replies-experimental\">https://docs.mattermost.com/administration/config-settings.html#enable-automatic-replies-experimental</a></p></li><li><p data-pm-slice=\"1 1 []\">Go to Account Settings &gt; Notifications and set \"Automatic Direct Message Replies\" to \"on\" with some text</p></li><li><p>Use another account to send you three direct messages</p></li></ol><br>",
+        "testData": null,
+        "expectedResult": "<p data-pm-slice=\"1 1 []\">Only one direct message reply within <em>one calendar day</em>.</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0175f7fe2186f04612bd9388f1eb845219074c1861c19b7fba7ae27f12109a2a20ee994ed94dbf1aefeac9b045894e53",
+  "stepsHashed": "2bd3d38afae9254fb0f0cdffa0af041003aad46f5ac289f420f9272131e4dda437b654b84f59700591a52d936c2b47ea"
+}

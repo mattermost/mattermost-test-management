@@ -1,0 +1,55 @@
+{
+  "id": 13721686,
+  "key": "MM-T4240",
+  "name": "Create issue modal can add Labels and Milestones where your group has Write permissions",
+  "createdOn": "2021-08-30T15:45:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to GitHub as a user in an Enterprise group with Write permissions  <br />2. Open the GitHub create modal for a Mattermost post<br />3. Select the repo from the Enterprise Org where you have Write permissions<br />4. Use the modal to set Labels and Milestone<br />5. Click Submit",
+        "testData": null,
+        "expectedResult": "Issue successfully created with labels and milestones",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0b1d526de72c69b219375d70a481c5ca622ddcd7226ef231b84d031937478204608bb98ed5490c9a87c2fb4771bba657",
+  "stepsHashed": "29374bea23d3ca640dcaab0d266121b94cbd23d777d5103a5b031c1019a63e5eafb60187efcba8b6652fd2c286631b4b"
+}

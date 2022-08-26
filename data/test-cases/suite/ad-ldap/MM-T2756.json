@@ -1,0 +1,55 @@
+{
+  "id": 5601928,
+  "key": "MM-T2756",
+  "name": "Upon group being deleted MM group is deleted",
+  "createdOn": "2020-06-01T20:58:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Upon group being deleted MM group is deleted<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Identify an LDAP group that is linked to Mm team/channel<br />2. In LDAP, delete the group<br /><br />(Filtered is tested above)",
+        "testData": null,
+        "expectedResult": "Group no longer appears in Mm Groups list<br /><br />Existing users are unchanged, including no auto-remove from team/channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "becc910dd80e641174fb229e694508db0e49e5e209b82ad2b81c95a01556c4d9785376fcd22e7e429167b8a6db41367b",
+  "stepsHashed": "97ea235859c33c8a47e7e31b9b45b74176bf83cab945fde008bada1f8a049ec7d17ca31b539cbde160f71241608f214d"
+}

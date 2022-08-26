@@ -1,0 +1,60 @@
+{
+  "id": 5280640,
+  "key": "MM-T1828",
+  "name": "DM/GM search list on channel switcher (CTRL/CMD+K)",
+  "createdOn": "2020-05-04T17:36:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710225,
+    "name": "BOT tags are shown and no status is displayed",
+    "parentId": 710222,
+    "fullNames": [
+      "Integrations",
+      "Bot Accounts",
+      "User Side UX",
+      "BOT tags are shown and no status is displayed"
+    ],
+    "fullPath": "integrations/bot-accounts/user-side-ux/bot-tags-are-shown-and-no-status-is-displayed"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "DM/GM search list on channel switcher (CTRL/CMD+K)<br>————————————————————————————<br>1. Open the DM/GM channel switcher by pressing ctrl+k. For RN use \"Jump To\"<br>2. Begin typing the name of a BOT until you locate a BOT on the list",
+        "testData": null,
+        "expectedResult": "The BOT has a tag to identify it and no status is displayed<br />No email is displayed<br />On RN the bot icon is shown",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8dd8e3bdb26b136180511f5441a96378b1145c4240b6a2459f2116edd662a142db6569364d026582df68a1223f2d6945",
+  "stepsHashed": "a61e8163952f5d8a1a2d4be2d3220cc4336735743a850390df1c66024f54eef93a9cd8863713445b9019ea6ff660e0bb"
+}

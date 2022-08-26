@@ -1,0 +1,55 @@
+{
+  "id": 4032085,
+  "key": "MM-T811",
+  "name": "Paste in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Go to Edit &gt; Paste in the Menu Bar",
+        "testData": null,
+        "expectedResult": "Pastes text into the message box, if message box is in focus",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c1d5dfb5f2c3bd13f1f6fb6ef42699ab7b1c2c5ea8608d411df6e468c1212153cf190be323ae9917cc9ce9dc280bd6a5",
+  "stepsHashed": "7108b3ad61554910c849e30909d575aa391367e33e8ab15aa75e4eb64c83c636017558c73b95601b8504402e60e7e99b"
+}

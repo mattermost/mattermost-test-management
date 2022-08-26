@@ -1,0 +1,55 @@
+{
+  "id": 5294789,
+  "key": "MM-T2014",
+  "name": "Bot icon",
+  "createdOn": "2020-05-06T05:05:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007287,
+    "name": "UX hover animation alignment",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "UX hover animation alignment"],
+    "fullPath": "channels/left-sidebar/ux-hover-animation-alignment"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open Mattermost, login to an account that has a DM with a bot",
+        "testData": null,
+        "expectedResult": "Verify that the bot has an icon in the LHS.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "957681e6db23a5af220b38642fb7319ca6713d0ec73ef558b653f9c2e35ea93dbd125a2f5adf4c1fe088e3fb05eb8580",
+  "stepsHashed": "ab412a2ebc281310657978ef5b7b9de0b692985027c8f0f639a73fc2100ab4aa312372a9f2a15d50ebcd2ee2146900f5"
+}

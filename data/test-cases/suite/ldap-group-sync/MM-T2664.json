@@ -1,0 +1,55 @@
+{
+  "id": 5566850,
+  "key": "MM-T2664",
+  "name": "New user detail page in System Console:",
+  "createdOn": "2020-05-29T20:22:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "New user detail page in System Console:<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Filed https://mattermost.atlassian.net/browse/MM-19370 for UI not giving feedback failing to add user to constrained team",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8348a83d1180b0524ebf245587120e408beb162dca631ed53bf5bb2ef262a62ce94cca44c4cf697e70379f98bc95cb46",
+  "stepsHashed": "5b7176766595ed95c12af99167ea154b4a2ca02e1bd1298354181dd845d3ca4e8d178141867e400c2c120b58fe53e040"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4089238,
+  "key": "MM-T1314",
+  "name": "Focus text input",
+  "createdOn": "2020-01-27T23:44:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565216,
+    "name": "Focus behavior",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
+    "fullPath": "desktop-app--native-specific-/focus-behavior"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Mattermost &gt; Sign in to Another Server to open Add Server modal</li><li>Focus text input</li><li>Use keyboard shortcuts to switch to another application<ul><li><strong>Windows:</strong> Alt + Tab, hold Alt and press Tab until you reach the application you want to switch to</li><li><strong>Mac:</strong> Cmd + Tab</li></ul></li><li>Use keyboard shortcuts to return back to Mattermost desktop app</li></ol>",
+        "testData": null,
+        "expectedResult": "Previously focused text input is still focused when returning to application",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ad4949edbed78fe0fc434dd38119734bce0f0875c0a79c517d21e5a7f3fe40b72e54cb0bf41482eb0024c46b9e4a561",
+  "stepsHashed": "79cf2f0a1ef492b39c1ee2b2e28844996cbfbad5073edd13fab222c0d718b5d52530e859d8e4733d1c9ba10a575c33c5"
+}

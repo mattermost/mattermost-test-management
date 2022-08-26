@@ -1,0 +1,55 @@
+{
+  "id": 5444593,
+  "key": "MM-T2046",
+  "name": "Full Name - Truncated in popover",
+  "createdOn": "2020-05-20T05:50:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Full Name - Truncated in popover<br />————————————————————————<br />1. Go to User menu &gt; Profile&gt; Profile Settings &gt; Full Name -&gt; Edit<br />2. Enter First Name `This Is a Very Long Name`<br />3. Enter Last Name `That Should Truncate`<br />4. Save",
+        "testData": null,
+        "expectedResult": "Full name field shows first and last name.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ff58b887004d56141110864eb5cfd0f69bc5213ceb43d426654fa467893d3e8d33daae6771070041617a81579ee9139e",
+  "stepsHashed": "eab49a12cb9458298e5b349caaf721769dce75261b6b9d43a1ab20d4d1c432e86070ffc76c3634f591caf3d15e23318e"
+}

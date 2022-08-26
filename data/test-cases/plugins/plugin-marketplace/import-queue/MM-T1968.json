@@ -1,0 +1,55 @@
+{
+  "id": 5293909,
+  "key": "MM-T1968",
+  "name": "The “System Console” link in the error message is linked correctly to Plugins config page",
+  "createdOn": "2020-05-06T01:44:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "The &ldquo;System Console&rdquo; link in the error message is linked correctly to Plugins config page<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />On the error message getting displayed, click on the &ldquo;System Console&rdquo; link",
+        "testData": null,
+        "expectedResult": "The user is redirected to the System Console&rsquo;s Plugin Management page with the URL: /admin_console/plugins/plugin_management",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4b9b040e108d8d2ed11ccf27eb56590866552084b72b79b3dcd357f0e070a3ad644900370f17c880124a80d4ca6f5e29",
+  "stepsHashed": "a3f5806c26cdea6a75fede7fdaaf6782f7ecdac2eed355bfb83f03aef6825545000ba5641be8406e85ba23f2904caa55"
+}

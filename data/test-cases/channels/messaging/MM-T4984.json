@@ -1,0 +1,81 @@
+{
+  "id": 28517355,
+  "key": "MM-T4984",
+  "name": "Message Display: Colorized usernames in compact view",
+  "createdOn": "2022-08-12T18:00:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span><u>Message Display: colorize usernames option should not exist in standard mode<br /></u></span><ol><li><span>Select 'Standard' option</span></li><li><span>Set the default text color</span></li><li>Go to Settings modal - Display section - Message Display<ol><li>Verify Colorize usernames option doesn't exist in Standard view</li></ol></li><li>Save and close the modal</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Message Display: colorize usernames option should exist in Compact mode and function as expected<br /></u><ol><li>Select 'Compact' option</li><li>Go to Settings modal - Display section - Message Display<ol><li>Verify Colorize usernames option exists and checked by default</li></ol></li><li>Save and close the modal</li><li>Remember the color of the usernames for different users<ol><li>Verify that colors are different </li></ol></li><li>Refresh<ol><li>Verify that after reload colors are the same</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span><u>Message Display: disabling colorize should revert to colors to normal color</u></span><ol><li>Select 'Compact' option</li><li>Go to Settings modal - Display section - Message Display<ol><li>Verify Colorize usernames option exists and make it unchecked</li></ol></li><li>Save and close the modal<ol><li>Verify that colors are reverted to normal</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d47a43d1c3ef2c0cab54638e588779953ccda3da471ddf732ed46d70718d481fc9e1420bf8c904d55eaeb3afc3149b1",
+  "stepsHashed": "419a5de73579d4c37e40b682e73f4e41b931acdb849f2e5db39e0134dc0c78b525f4df04074b00a1a164fb51213fb7c4"
+}

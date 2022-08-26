@@ -1,0 +1,55 @@
+{
+  "id": 5600848,
+  "key": "MM-T2699",
+  "name": "Connection test button - Successful",
+  "createdOn": "2020-06-01T17:46:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod", "ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Connection test button - Successful<br>————————————————————————————<ol><li>Load AD/LDAP page in system console, with all the settings filled in</li><li>At the bottom of the page, click \"AD/LDAP Test\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Confirmation message saying the connection is successful.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b559f178d0796a8f82b1aae9f05f9c4a82fa22a16922a4b4e8a2e72a03a0dbe09db8a9bcd75f27781f6becefa61964d",
+  "stepsHashed": "c8333893b21684dcb602179e596e457bee08f8f4b8df727f2cb5fe09c3a3e1cc4d4b9a4747a70be4dc3d64467847008c"
+}

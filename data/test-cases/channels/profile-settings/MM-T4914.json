@@ -1,0 +1,55 @@
+{
+  "id": 25863512,
+  "key": "MM-T4914",
+  "name": "Profile menu header is clickable, opens Profile settings",
+  "createdOn": "2022-07-13T17:30:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Profile menu header is clickable, opens Profile settings</u><ol><li>Click on user avatar on global header<ol><li>Verify menu opens</li></ol></li><li>Hover over menu header<ol><li>Verify mouse pointer changes to hand</li></ol></li><li>Click on the header<ol><li>Verify click on header opens Profile settings modal</li></ol></li></ol><br />",
+        "testData": null,
+        "expectedResult": "Profile menu header is clickable, opens Profile settings",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "20532387e5087bc446b41a11336ab1d2383a0231763985e277bc63dfb439d5737955a8037e16eefe5e442f177a738223",
+  "stepsHashed": "265fcc19aad01420c4de05a84e00aaf6cb6c0874bfe5094f4353f5604d2a55c86c407df1fad76e3f58c0868262b6f420"
+}

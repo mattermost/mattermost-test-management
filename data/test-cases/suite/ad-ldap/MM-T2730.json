@@ -1,0 +1,55 @@
+{
+  "id": 5600879,
+  "key": "MM-T2730",
+  "name": "Without ID Attribute set",
+  "createdOn": "2020-06-01T17:46:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.3 (September 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Without ID Attribute set<br>————————————————————————————<ol><li>Created user with SAML (synced with LDAP) test.one @mattermost.com (OKTA, Jumpcloud)</li><li>Delete user from OKTA</li><li>Create new user with that same email address and username</li><li>Log in to Mm using SAML</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User can see the \"old\" account's history (is logged in on the existing account)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.3 (September 2018)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-10532\">Make new LDAP login ID attribute to also work for SAML with LDAP sync — MM-10532</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ee43741374a744d9b8399c62eb02a4fc5823dcd6ca36ee93479e393554e4409b22838367beb5d6d48a7312ad488910e",
+  "stepsHashed": "f867842a79c32d34b64ac4f456888e1a3545a2d9ba4b756c55d45712da8036b18368f952c475fc818e89194ae085aaa7"
+}

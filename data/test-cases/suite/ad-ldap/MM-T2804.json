@@ -1,0 +1,55 @@
+{
+  "id": 5602333,
+  "key": "MM-T2804",
+  "name": "Mention users not in channel when channel is not group-constrained  - without permission to manage private channel members (the control case)",
+  "createdOn": "2020-06-01T22:09:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention users not in channel when channel is not group-constrained  - without permission to manage private channel members (the control case)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Create new private channel, at-mention three other users",
+        "testData": null,
+        "expectedResult": "Cannot add users as usual:<br /><br />@admin, @george.test-simulator.amazonses.com and @jesse.test-simulator.amazonses.com did not get notified by this mention because they are not in the channel.",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14417\">Update the behaviour of at-mentioning a user in a private, group-constrained channel — MM-14417</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b06c251fbee59a72418018da9df363dd1c0cbc4bf4064d4084658a93fe632ac1c2d5df882b0f699950516a8eec3c256f",
+  "stepsHashed": "0e0ce743f5ea6129ef1b2d07ced9988dec04f90116da4b88a6bcfffa41c477ac1439a30da836905ad190e18cc574be0c"
+}

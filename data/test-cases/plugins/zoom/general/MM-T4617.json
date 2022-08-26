@@ -1,0 +1,55 @@
+{
+  "id": 17980404,
+  "key": "MM-T4617",
+  "name": "Start a Zoom meeting in DM",
+  "createdOn": "2022-01-31T22:10:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2157124,
+    "name": "General",
+    "parentId": 2157120,
+    "fullNames": ["Plugins", "Zoom", "General"],
+    "fullPath": "plugins/zoom/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Sign in with a Mattermost account with a matching email address to your Zoom account.<br />2. In a DM channel, click the video icon in channel header",
+        "testData": null,
+        "expectedResult": "Zoom meeting posted to channel with<br /> - Posted by The meeting creators account<br /> - I have started a meeting as pretext<br /> - Meeting ID and a button to &quot;Join Meeting&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Note that this test can be run with Zomm configured using any authentication method."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a6987f836c660899101116e7a9a52168eeb904877dc0d8b288f49136f669c2c27c2f2347f03e92c9d5795c42f34e51e",
+  "stepsHashed": "6c02013a7181b33e3217dc3b7b46f1fa274effd089e52015b245fa90c5aaf3d01199fa7ab9bb30660684bfdb26fcdab2"
+}

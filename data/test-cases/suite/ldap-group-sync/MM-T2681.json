@@ -1,0 +1,55 @@
+{
+  "id": 5566867,
+  "key": "MM-T2681",
+  "name": "Highest permission should be allotted to user belonging to multiple groups",
+  "createdOn": "2020-05-29T20:22:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Highest permission should be allotted to user belonging to multiple groups<br>————————————————————————————<ol><li>Login as a LDAP user say User1 belonging to 2 groups, group1 and group</li><li>On a different browser, login as sysadmin and select a team and enable group sync.</li><li>Add the Groups with Roles as follows:<ul><li>Group1 ➜ Member</li><li>Group2 ➜ Team Admin</li></ul></li><li>Check the role the user User1 has</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User1 should have Team Admin permissions as the highest permission should be allotted to a user belonging to multiple groups.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a96e575870a17d1a116a71dff459110d3593e0b23b4d92775e663845013a790a171a5be20ee70f4a835adc40640cb67b",
+  "stepsHashed": "da83063b45cca0b5f2d21ce6b2414ef5488f0de31e162e4a43853a5e4005cb5c7d6dffc4ef9db7bde71c73068b56e3ee"
+}

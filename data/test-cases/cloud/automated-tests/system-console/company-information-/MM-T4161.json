@@ -1,0 +1,55 @@
+{
+  "id": 13506599,
+  "key": "MM-T4161",
+  "name": "Adding the Company Information",
+  "createdOn": "2021-08-16T22:37:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1641064,
+    "name": "Company Information ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Company Information ❗"],
+    "fullPath": "cloud/automated-tests/system-console/company-information-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click <strong>+ Add Company Information</strong> button</li><li>Type company name</li><li>Type number of employees (10)</li><li>Click Country dropdown</li><li>Type \"India\"</li><li>Input address</li><li>Input city</li><li>Input state</li><li>Input postal code</li><li>Click <strong>Save Info</strong> button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 9; the <strong>Save Info</strong> button should be active</li><li>After 10, the information should save and return you to the Company Information screen (and out of edit mode)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8397c0cc900c0e5ac7ab99c94bb9cbef048fc79fb1fdc3711f40f76704975582dd82b6fb9992eb588a1f14367cc58007",
+  "stepsHashed": "e057cbe252171e5dd8b6820e34973d5538f5393fbdf89097524410a31c2a736cd1a2f3d0805debefadf4ef09f9318274"
+}

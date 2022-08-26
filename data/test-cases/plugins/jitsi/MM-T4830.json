@@ -1,0 +1,55 @@
+{
+  "id": 22954597,
+  "key": "MM-T4830",
+  "name": "Configure preset to channel then start in a DM or GM",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /jitsi settings naming_scheme mattermost<br />2. Open a DM and click the Jitsi icon from the channel header<br />3. Open a GM and click the Jitsi icon from the channel header",
+        "testData": null,
+        "expectedResult": "On 2. and 3. naming scheme will fall back to personal in DM and GM channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3d8f22aeafe9f1fcda4750553755ded2872bf50768f096265e26ea048421ea76ef824359e34beaf770e3c5361ee4d4c9",
+  "stepsHashed": "304f1b585b4beeef7befde124211ec1f0dae3a3c8d6ac20ea86be6453e5b1ace2e5231ee78e4121215ee95cd49d316db"
+}

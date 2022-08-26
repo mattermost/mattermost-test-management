@@ -1,0 +1,55 @@
+{
+  "id": 26610451,
+  "key": "MM-T4946",
+  "name": "3 days left trial automatic modal",
+  "createdOn": "2022-07-27T18:25:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Start trial</li><li>Adjust end trial date down to 3 or less days in Stripe</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1658946463789-Screen+Shot+2022-07-27+at+2.26.30+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>'Your trial ends soon' modal automatically appears</li><li>Clicking the 'View plan options' button opens up the pricing modal</li><li>Refreshing the screen reloads the 'Trial ends soon' modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c115be079278b18e94441975f7140c97bc4d0d281a35964ba0f35b9b3ab7c493cb87562b4eaa5b785c194c1dbacc3b3f",
+  "stepsHashed": "a79cdb6f9a56ea852586ee51b3cc4137fa9403beae0fd42fcf24cd3df0ae57dd7d42b0c69c65b1d477aff9eb8582435f"
+}

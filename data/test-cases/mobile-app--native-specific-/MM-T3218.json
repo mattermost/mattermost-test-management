@@ -1,0 +1,55 @@
+{
+  "id": 6396894,
+  "key": "MM-T3218",
+  "name": "RN apps: Messaging - Reply to a message",
+  "createdOn": "2020-07-30T21:04:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to post a reply to a message<br>--------------------<br>1. Login to server and go to a channel<br>2. Tap on a post<br>3. Post a reply message<br>4. Tap on back button",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify channel thread is displayed with parent message and post draft</li></ul><br>After #3,<ul><li>Verify the reply message is posted and appears in channel thread</li></ul><br>After #4,<ul><li>Verify channel is displayed</li><li>Verify reply message is displayed after parent message with vertical line indicator</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "08e968705eb6d2a19f234c1ff8880b7c721ac7de9a6e0d67586153ecf89f100ade59efc8b56ad4d8f681b4f8e6cb1c55",
+  "stepsHashed": "4674eb69dd36397a0f7fb3932a4488c85cd12a4e2fcd57d407a8082de8e74e7c39c1fbbe70e941d283f2eeef30b369d5"
+}

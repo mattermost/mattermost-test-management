@@ -1,0 +1,55 @@
+{
+  "id": 6377919,
+  "key": "MM-T3165",
+  "name": "Delete Category",
+  "createdOn": "2020-07-29T19:36:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007282,
+    "name": "Custom Categories",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
+    "fullPath": "channels/left-sidebar/custom-categories"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Delete Category<br />——————————————<ol><li>Click on 3 dot to open custom category menu</li><li>Click on Delete Category menu option</li><li>Click on Delete</li></ol>",
+        "testData": null,
+        "expectedResult": "Category is deleted<br />All channels are moved back to Channels and DM category respectively<br />User is not removed out of any channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "78df323a8e0330acf732a61defceb7b827caf051f933bc5a5eabe0b1ccbb0c50f0765c61af095307260130d6d56e150e",
+  "stepsHashed": "4e362970a26e588c080372c3f6db6ef27e393d94b10bf416054caf79a689d1c4621904b7e986c95b9bd6de6870c1a47a"
+}

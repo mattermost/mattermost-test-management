@@ -1,0 +1,68 @@
+{
+  "id": 6787987,
+  "key": "MM-T3334",
+  "name": "Find Channels modal size and searching",
+  "createdOn": "2020-08-27T20:33:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.27 (September 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Find Channels modal size and searching<br />–––––––––––––––––––––––––<br /><ol><li>Open Find Channels modal (cmd + K or click on \"Jump to\")</li><li>Type a channel name you do not belong to and observe the results</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Find Channel modal should not shows  “No results…” state while API is in process and before additional search results are loaded and displayed (`other channels` section of the list)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Delete search term</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify the size of the modal does not change when term is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44b38115c40753883097d13f71f28265c09ff3a3b43ddbcce5dba251ab686c45d0828a5003fcecca34f930bdb15e4f70",
+  "stepsHashed": "3a89c1a1a348176bc0135b38451a38e4da79ead300d5f9e3186868fbf0f92f599a5f004a14389e082327c0cdb93a0555"
+}

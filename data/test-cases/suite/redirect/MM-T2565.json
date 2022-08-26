@@ -1,0 +1,55 @@
+{
+  "id": 5534961,
+  "key": "MM-T2565",
+  "name": "If you go to the signup page while you are already logged in",
+  "createdOn": "2020-05-27T17:37:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738571,
+    "name": "Redirect",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Redirect"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "If you go to the signup page while you are already logged in<br>————————————————————————————<ol><li>Log in to a server</li><li>In same browser/tab/session, open {serverURL}/signup_user_complete</li><li>Click `Click here to sign in`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mm content loads (not necessary to re-enter credentials)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7c2b614297572809d1e4cee7c8586a544b5d5ed9f91ef87a9db9b557e6e037b0fe876af34ed8882b66369949a41e2b89",
+  "stepsHashed": "e2f84691e61a4e599a51195a2c8a415a73ef4e5e7c38cfeb24c32ee72697013df0cc80019fe55a698dfd766984d781d1"
+}

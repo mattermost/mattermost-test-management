@@ -1,0 +1,55 @@
+{
+  "id": 5565337,
+  "key": "MM-T2630",
+  "name": "Default channel cannot be toggled to private",
+  "createdOn": "2020-05-29T15:27:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 7:19 PM<br>• No Cypress executions reporting back<br>• No previous manual test executions either<br>• Added link to Cypress code<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br>Joseph Baylon - Friday, November 6, 2020<br>- Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Default channel cannot be toggled to private<br>–––––––––––––––––––––––––<ol><li>Go to channel management page for a default channel (e.g. Town Square)</li><li>Observe the the toggle for public/private channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Toggle is grayed out and not clickable</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cbc20a9e5b8196d67b52fcc14cb953a29a2e51793c852331af85b3a4a87957adb5b70e98872181ead33f095532d47ce3",
+  "stepsHashed": "cf84468f7ef213eac1481ea593a4d1e83c3bf68e39cbea535656652db73188cc736fad4ed5dac3e1ca3309fbe0ce674f"
+}

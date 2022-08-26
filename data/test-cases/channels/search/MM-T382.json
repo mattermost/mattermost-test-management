@@ -1,0 +1,55 @@
+{
+  "id": 3877484,
+  "key": "MM-T382",
+  "name": "With search RHS open, scroll up in center to load older messages",
+  "createdOn": "2020-01-02T23:12:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "With search RHS open, scroll up in center to load older messages<br />--------------------<br />1. In a channel with more than one &quot;page's&quot; worth of messages (can post `/test posts 40` to create 40 posts if needed):<br />2. Search for a term that will have results (e.g. `test` on most servers) and leave RHS open<br />3. In center, scroll up to trigger older messages loading, keeping an eye on the dates as more messages load<br />4. Continue to scroll up in center a few more times to trigger a couple more &quot;batches&quot; of messages to load",
+        "testData": null,
+        "expectedResult": "Messages load smoothly and in correct chronological order in center<br /><br />No change in search results RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2a503bcb81ff020f3469df9e94167ef5baa562505de92d4c979a684c36afe6f7b705f3b2d853f68b3c0cf0512a85029c",
+  "stepsHashed": "5a845f1de04e283ca6c9f2034917e757ebcbf4fe24379a8930b0e4af12139bccba6367a984bc5594ae9af048a7feb91d"
+}

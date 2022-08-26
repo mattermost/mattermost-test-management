@@ -1,0 +1,94 @@
+{
+  "id": 5294786,
+  "key": "MM-T2012",
+  "name": "Expand Category chevron alignment",
+  "createdOn": "2020-05-06T05:05:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007287,
+    "name": "UX hover animation alignment",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "UX hover animation alignment"],
+    "fullPath": "channels/left-sidebar/ux-hover-animation-alignment"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "2. Verify expand/collapse category toggle is vertically centered relative to text",
+        "testData": null,
+        "expectedResult": "Chevron is vertically centered relative to text",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. Ensure there are mentions on the sidebar",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "3. Ensure few DMs and GMs are present",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "4. Verify alignment of mentions, + icons and close icons horizontally",
+        "testData": null,
+        "expectedResult": "Mentions, + icons and close icons are aligned horizontally on the right side of the sidebar",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "40ad2b35942973cd838797613c7ed2a16f8adb5df6fb3d7a857877d44229098a6423d2970ef0e161eafd62b0de7435a7",
+  "stepsHashed": "539d28f9d7563e607baadcee67239886309b933626878c29f7cc6efa1144d9000dcd5100859bf1f97dd91180e887c08c"
+}

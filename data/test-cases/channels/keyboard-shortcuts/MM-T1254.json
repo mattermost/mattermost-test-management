@@ -1,0 +1,55 @@
+{
+  "id": 4064377,
+  "key": "MM-T1254",
+  "name": "CTRL/CMD+UP or DOWN at center channel",
+  "createdOn": "2020-01-23T13:38:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Refresh the page<br />2. Post five messages in the center channel<br />3. Press CTRL+UP (Windows) or CMD+UP (Mac) repeatedly in the empty input box<br />4. Press CTRL+DOWN (Windows) or CMD+DOWN (Mac) repeatedly in the empty input box",
+        "testData": null,
+        "expectedResult": "1. Each time you press CTRL/CMD+UP, a previous message you have posted appears in the text box. Once you have repeated it five times (and reached the end of message history), CTRL/CMD+UP does no action <br />2. Similarly, each time you press CTRL/CMD+DOWN, the next message you have posted appears in the text box.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "43306d9bbe591385df38b0c574c34d87d9f15727a5f636f4951b5afda1b09e43df9838fa8bc8587fe7ad9f6bb424238e",
+  "stepsHashed": "ab295b5862f0e45ccea61c39e50fae74514054fd8a0bbfa9e9370f25685ff0e0feae6cd8959070b58064591e4e8496fd"
+}

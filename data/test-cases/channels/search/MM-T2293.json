@@ -1,0 +1,55 @@
+{
+  "id": 5445602,
+  "key": "MM-T2293",
+  "name": "Jump link shows archived view in center",
+  "createdOn": "2020-05-20T06:50:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Jump link shows archived view in center<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Search for `hello`<br />2. Click Jump next to a search result",
+        "testData": null,
+        "expectedResult": "That message displays in center in permalink view",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f936e20bc79684cf5c532c17caa13e06b14c3381b1202904a2e45608dd2d4cd7b35a59ee608a1d900f2829bb2240cb6f",
+  "stepsHashed": "a113efad7f9f2217a8a27308021469614e3f511be990b96c39bc1a9c56e1d0a55b1308e81631fd29e3b6086609eaf701"
+}

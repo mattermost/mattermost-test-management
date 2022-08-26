@@ -1,0 +1,55 @@
+{
+  "id": 7570404,
+  "key": "MM-T3439",
+  "name": "Download Compliance Export Files - S3 Bucket Storage",
+  "createdOn": "2020-10-22T14:01:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable", "system-console"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, January 26, 2021 11:21 AM<br>• Removed from Cloud testing pool",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": "N/A",
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Download Compliance Export Files - S3 Bucket Storage<br>–––––––––––––––––––––––––<ol><li>In server's config.json file, set DownloadExportResults config to true and restart the server.</li><li> Configure the File Storage in AWS S3 bucket.</li><li> Login as sysadmin and visit System Console &gt; Compliance Export page.</li><li> Configure the Export settings in CSV format and save.</li><li> Post few messages with attachments.</li><li> Run the Compliance Export and check if an option to Download files is provided.</li><li>Click on the Download link and check the contents of the exported zipped file. It should contain contents of the messages posted and also include file attachments</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Download Compliance Export in CSV format should work fine and have all the contents in it.&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6bbd85c1ec7486c2459bb4e473a88052c08a752afa9a6684794d589c529a47afa3db5e14960e4fde7cc1504644732a7e",
+  "stepsHashed": "7f84e9959214c38d522fed6d9363b5bb252961416d1cc17c34c06633d99b2d8e966b61468d2edd15f81cf1ad41c564e6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6231294,
+  "key": "MM-T3145",
+  "name": "Check for Filter in Members block of Team Configuration page",
+  "createdOn": "2020-07-16T13:20:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 751123,
+    "name": "Team and Channel",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Team and Channel"],
+    "fullPath": "suite/enterprise/team-and-channel"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Check for Filter in Members block of Team Configuration page<br>–––––––––––––––––––––––––<ol><li>Click on a Team which has few members in System Console ➜ Teams page.</li><li>Check if the option to apply Filters is displayed in the Members section.</li><li>Select one Role and check if only members of that role are displayed.</li><li>Select 2 roles and check if members of both the roles are displayed.</li><li>Search for a user with 2 roles applied and check that the search result shows users belonging to the 2 roles applied.</li><li>Click on Reset Filters and check if all the roles are cleared. The search term should not be cleared though.</li></ol>",
+        "testData": null,
+        "expectedResult": "<strong>After 2</strong>: Option to apply Filters should be shown with options like Guest, Member, Team Admin and System Admin.<br><strong>Note</strong>: Guest should not be shown if Guest Access is disabled.<br><br><strong>After 3:</strong> If one role is filtered, only members related to that role should be shown.<br><br><strong>After 4</strong>: If two roles are selected, only members related to both the role should be shown.<br><br><strong>After 5</strong>: Results should show users matching the search term and filter applied. If no results, then it should display \"No users found\"<br><br><strong>After 6</strong>: Clicking on reset filters should only clear the filters. It should not clear the search term. ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6e7a6455c6b736057a975cfb1e57557970a6f73f63e1b015b1f4181375fb6d24c90e9e2bda45d620cf3ae45a78a20bdd",
+  "stepsHashed": "12dccaa47f1f3db7ed7d645742b101ef468a07134676d852158eb86a3c6c4af79f9b681a3777699eeeed48519a0f6598"
+}

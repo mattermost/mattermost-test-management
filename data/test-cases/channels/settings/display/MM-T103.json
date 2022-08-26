@@ -1,0 +1,68 @@
+{
+  "id": 3741734,
+  "key": "MM-T103",
+  "name": "Line breaks remain intact after editing",
+  "createdOn": "2019-12-20T16:33:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "• Link to Cypress code can be found in the Traceability tab above<br />-----------------------------------<br />Prapti Shrestha - Thursday, April 15, 2021<ul><li>Updated Zephyr key in E2E test file.</li><li>Took off `TM4J-Key-Missing-In-Cypress` label</li><li>Set Cypress status to Production</li></ul><br />",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Compact view: Line breaks remain intact after editing<br />–––––––––––––––––––––––––<ol><li>In  Settings ➜ Display ➜ Message Display, click Edit</li><li> Select `Compact` and click Save</li><li> Close Settings modal</li><li>Now that you are in compact view, post the following three lines as a message (including the blank newline in the middle):<br /><br />First line of the post with a line break following<br /><br />Text after the line break<br /><br /></li><li>Edit the post by adding the characters `, edited` at the end of the last line (don't change the line breaks)</li><li>Save</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Line breaks do not change; blank line is still between the two lines of text</li><li>Edits are there</li><li>`(edited)` displays</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Standard view: Line breaks remain intact after editing<br />–––––––––––––––––––––––––<ol><li>In Settings ➜ Display ➜ Message Display, click Edit</li><li> Select `Standard` and click Save</li><li> Close Settings modal</li><li>Now that you are in Standard view, post the following three lines as a message (including the blank newline in the middle):<br /><br />First line of the post with a line break following<br /><br />Text after the line break<br /><br /></li><li>Edit the post by adding the characters `, edited` at the end of the last line (don't change the line breaks)</li><li>Save</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Line breaks do not change; blank line is still between the two lines of text</li><li>Edits are there</li><li>`(edited)` displays</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e8b57e23d3c01a77c767afc151a0b6cfcc202172824f0c9a78aebd9b091dae454a6182b80b205c3b72727a077c38f695",
+  "stepsHashed": "56bc5dc344d3fb905fc7475443c4dbc7a8d22042205695f26f4f21509e0b54750d24f9000ba5f4f694da3909c6500293"
+}

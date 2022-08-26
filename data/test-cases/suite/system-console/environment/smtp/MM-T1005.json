@@ -1,0 +1,55 @@
+{
+  "id": 4051760,
+  "key": "MM-T1005",
+  "name": "SMTP password masked",
+  "createdOn": "2020-01-21T22:18:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568174,
+    "name": "SMTP",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "SMTP"],
+    "fullPath": "suite/system-console/environment/smtp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SMTP password masked<br />--------------------<br />1. Update SMTP password, Save, refresh",
+        "testData": "FIXED v5.13 MM-16474",
+        "expectedResult": "SMTP password is masked and displays as `********************************",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "982d115400c2abe4319c5e13ceb297c5843d3b175b06731849f74a3e9e307cac35441ba2a552447fd9e5e1dd3286edbe",
+  "stepsHashed": "a51d7f849912105042a7704338a47996a7bb886a4e2b0e21cefe82da1689bb9ef1b8f66eb8d81884aeab36961691a25e"
+}

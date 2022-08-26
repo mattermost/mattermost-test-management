@@ -1,0 +1,55 @@
+{
+  "id": 13304695,
+  "key": "MM-T4138",
+  "name": "RN: Global Threads, individual item",
+  "createdOn": "2021-08-05T21:17:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create or follow few threads</li><li>Tap on Global threads to open<ol style=\"list-style-type:lower-alpha\"><li>Verify name of the last person that replied is listed as title of thread item</li><li>Verify label, name of the channel where  is positioned to the right of the name</li><li>Verify relative time stamp information on the top right corner of the thread item e.g `now`, `x minutes ago`, `x hours ago`, yesterday`, ` x days ago`, `x months ago` etc.</li><li>Verify thread item footer contains participants profile icons, up to 3 are displayed followed by the count bubble if more then 3 participants</li><li>Verify thread footer contains correct reply count</li></ol></li><li> to be edited </li></ol><br />",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ef267b2e1eb189f6ec8952a05e7ef322247281ab079f50b2b3754200e2479e1d829ec07a06bbe53d07d64524dee7a6c",
+  "stepsHashed": "8be2ecdfa2f7e6359019df1f0d90e4da1c3f10dbe909efe8acaa5ca4b5f3481e5fa6f54b2d09ee531429d4787616bf93"
+}

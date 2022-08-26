@@ -1,0 +1,55 @@
+{
+  "id": 8581818,
+  "key": "MM-T3712",
+  "name": "Config - Get : non-existent key",
+  "createdOn": "2021-01-14T11:21:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl config get [xyz]",
+        "testData": null,
+        "expectedResult": "returns an error as key is non-existent",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dcf151cfe45fb72cc41dcfb318f6fac8945aa0700089df5ec507034d61454c84936d1a7d338fd472eb78ec26ca1d78f3",
+  "stepsHashed": "32c56bdefc6321bdcf4d7a733b4c58c45020bf7df475bf3bb4aed24e5fa928bb36721c655a095d27da40b2728c120f85"
+}

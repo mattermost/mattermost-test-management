@@ -1,0 +1,55 @@
+{
+  "id": 4088956,
+  "key": "MM-T1298",
+  "name": "Show Mattermost icon in the menu bar (mac and linux)",
+  "createdOn": "2020-01-27T22:13:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565205,
+    "name": "Server Management",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Server Management"],
+    "fullPath": "desktop-app--native-specific-/server-management"
+  },
+  "customFields": {
+    "Fix Versions": ["Open"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop: Linux"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Navigate to settings/preferences:<br><strong>Linux</strong>: File ➜ Settings (<strong>CTRL+,</strong>) - <strong>Show icon in the notification area</strong><br><strong>Mac</strong>: Mattermost ➜ Preferences (<strong>⌘+,</strong>) - <strong>Show Mattermost icon in the menu bar</strong><br><br>Note: This setting is enabled by default for all new installs <ol><li>Select to show the icon</li><li>Close Settings&nbsp;</li><li>Restart app</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mattermost icon appears on the top menu bar, on top right corner of the system</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Open"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-26016\">Desktop: Notification icon in dark theme is not visible (ubuntu) — MM-26016</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d170b5bdb0dff6c9a7852a08e26e7d99d89aa201937ba043031272f29c9a8b8ab2e9f06ba748aa4b39d429f013f06254",
+  "stepsHashed": "6468473242763c794b4036a660d251bcf0f1af7c223217a4ef7abc745405fca9b060022cef8d5c9a873bd034d9cfd01d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5602302,
+  "key": "MM-T2773",
+  "name": "Can't join constrained team if not in group - Non– system admin",
+  "createdOn": "2020-06-01T22:09:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can't join constrained team if not in group - Non&ndash; system admin<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "Open team flips to non-open when it's constrained, so it doesn't appear in Join Another Team selection page",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e6675a9fe5dc2b7bb3782a59177a7c5d3efdcd4843b4262c34ca695487da7136231e059cc16d5f5077204b2702c41da7",
+  "stepsHashed": "7b72d39066a6286cc223f56bbeef378883700b7adcb50fdd342897c0d521b2fd733cdd51fe5d3811dbdf0039ac59ba02"
+}

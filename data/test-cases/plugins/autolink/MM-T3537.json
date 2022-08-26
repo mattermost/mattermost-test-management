@@ -1,0 +1,55 @@
+{
+  "id": 8022802,
+  "key": "MM-T3537",
+  "name": "Ticket links",
+  "createdOn": "2020-11-26T20:33:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post MM-11<br />2. Post https://mattermost.atlassian.net/browse/MM-11<br />3. Click the resulting links",
+        "testData": null,
+        "expectedResult": "Both covert to a link, with &quot;MM-11&quot; displayed to the user. Clicking the links take you to https://mattermost.atlassian.net/browse/MM-11",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d65e7ffba1bb6fec73be235e72de100914960c33fdc807b3bba1e69a0f30ef85cfe0b197cbad9c8bc21bdfef2ab58810",
+  "stepsHashed": "f340acc52d666e5910ed0aa592bae37d68fbd9769ab9053bd87e59a94f99674f5f7b2ece94af3aee6a447df402822a45"
+}

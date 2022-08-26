@@ -1,0 +1,55 @@
+{
+  "id": 8822151,
+  "key": "MM-T3818",
+  "name": "Commercial Support Dialog UI - Links",
+  "createdOn": "2021-02-01T19:49:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1151596,
+    "name": "Commercial Support",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Commercial Support"],
+    "fullPath": "suite/system-console/commercial-support"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>sysadmin</strong> with License<br>2. Go to System Control<br>3. Go to Environment &gt; Logging<br>4. set <strong>Output Logs to File</strong> to <strong>true</strong> and set <strong>File Log Level</strong> to <strong>ERROR</strong><br>5.From menu select <strong>\"Commercial Support\"</strong><br>6. Click <strong>submit a support ticket&nbsp;</strong>link<br>7. Click <strong>here&nbsp;</strong>link",
+        "testData": null,
+        "expectedResult": "6. Customer support page is opened in new tab<br>7. /admin_console/environment/logging page will be open in new tab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eace66af8f77a9fcd9bdffdaa2c29896cc6692dcda44eb89c5442460d37dbb6c1b5e54f0cc3e645c55308ace9a190602",
+  "stepsHashed": "c1d8be34ef7473f54ed801cd0223b6528593a11582b6200ea84a7615675345f278ec7f929461baf74bf212a897924e65"
+}

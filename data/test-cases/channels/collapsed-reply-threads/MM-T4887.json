@@ -1,0 +1,55 @@
+{
+  "id": 24564463,
+  "key": "MM-T4887",
+  "name": "CRT - should stay on threads view when switching teams",
+  "createdOn": "2022-06-24T20:01:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>should stay on threads view when switching teams<br /></u><ol><li>Navigate to the new teams town square</li><li>Switch to team B<ol><li>Verify team display name charges correctly</li></ol></li><li>Go to the ‘Threads’ view on Team B</li><li>Switch back to Team A<ol><li>Verify url is set up for threads view</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Should stay on threads view when switching teams<u><br /></u>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3ff5166dd5fe8abf57a453ee3d2c0bd57b3d9d6fa1b9070c2c2a2078419bf2146bf667e94fc6ca233f21e4eadd51d580",
+  "stepsHashed": "f06040422626ca0aaad514014a4c24b6dce80874564d15816ca3824793497c1df5cf0d7ef8adef1eb1b30c0778dba05b"
+}

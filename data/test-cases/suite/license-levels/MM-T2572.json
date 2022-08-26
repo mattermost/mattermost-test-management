@@ -1,0 +1,55 @@
+{
+  "id": 5535812,
+  "key": "MM-T2572",
+  "name": "System Console - Experimental",
+  "createdOn": "2020-05-27T18:34:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404291,
+    "name": "License Levels",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "License Levels"],
+    "fullPath": "suite/license-levels"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "License Levels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<table><thead><tr><th>Testing Area<br /></th><th>E20</th><th>E10</th><th>TE</th><th>KNOWN ISSUES<br /></th></tr></thead><colgroup><col></col><col></col><col></col><col></col><col></col></colgroup><tbody><tr><td>System Console - Experimental</td><td>LDAP group sync is available</td><td>LDAP group sync is not available</td><td>LDAP group sync is not available</td><td><a href=\"https://mattermost.atlassian.net/browse/MM-16403\">Enable AD/LDAP Group Sync shows in System Console &gt; Experimental settings in Team Edition — MM_16403</a><br /></td></tr></tbody></table>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86ce30a275061c36d31b565b5bfeb4e98994217167edda3d5b2865f37c074e35c0fa2e8f6976663f3c672a8e6ac7bb8d",
+  "stepsHashed": "6ce22cb64ff7a6d767709e0d2663b1a500707a0edbc9e34c502f6babb227e2477c42f3b50f6bd005b0c9b100c38c662e"
+}

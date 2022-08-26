@@ -1,0 +1,55 @@
+{
+  "id": 4043802,
+  "key": "MM-T898",
+  "name": "Individual plugins can be searched for via the System Console search box",
+  "createdOn": "2020-01-20T23:30:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538607,
+    "name": "Search box",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Search box"],
+    "fullPath": "suite/system-console/search-box"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 9:30 PM<br>• Added link to Cypress code in Traceability tabCypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>On a server with various plugins installed</strong>:<ol><li>Main Menu ➜ System Console ➜ Search box</li><li>Type the first few letters of a plugin you know exists on the server</li><li>Repeat once or twice more</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The relevant plugin is highlighted in the left-hand-side under PLUGINS (BETA)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-16313\">System Console &gt; Search doesn't return results for individual plugins — MM-16313</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "72c77441e9eb318c552b97f1489fc65b913c7d25e4acb3279ec3f19a9e50f2ad1ef51879a81daf2c51297e72cec9087f",
+  "stepsHashed": "bbcb20f081386591e69e92af37cb83e761f6a1819162e61d16fd29c589a2a6d47be17aac1e17e08f2fce79beb2b9fdd9"
+}

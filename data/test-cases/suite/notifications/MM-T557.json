@@ -1,0 +1,55 @@
+{
+  "id": 3905625,
+  "key": "MM-T557",
+  "name": "Browser tab unreads -  Viewing same team, different channel",
+  "createdOn": "2020-01-03T19:25:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Browser tab unreads -  Viewing same team, different channel<br />--------------------<br />1. With an account on more than one team, view Team A Town Square<br />2. User B: Post a message in Team A (a channel other than Town Square)",
+        "testData": null,
+        "expectedResult": "User A sees browser tab title with asterisk unread indicator: <br /><br />* Town Square - [team name] Mattermost",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "76b7297522da621f3e594ae777c240a37c527c20d586d13095005e2015031d36c15090d85d8e3163e5ae21cc894a30ba",
+  "stepsHashed": "854d9b6a63ab45708a06e719b69f923c8f63f8fc9ad2ec05d97f5dba4b3c1dc70769970aae74ac3929982019bb8a67ed"
+}

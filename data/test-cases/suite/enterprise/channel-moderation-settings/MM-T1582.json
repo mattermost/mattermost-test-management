@@ -1,0 +1,60 @@
+{
+  "id": 4773073,
+  "key": "MM-T1582",
+  "name": "Channel Moderation Settings should not be applied for Channel Admins",
+  "createdOn": "2020-03-11T16:15:51Z",
+  "objective": "Channel Moderation Settings should not be applied for Channel Admins",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "enterprise"
+  ],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a sysadmin and remove some permissions on Channel Moderation Settings for a Member like remove following permissions for Members:<br />Create Posts, Post Reactions, Manage Members, Channel Mentions<br />2. Login as a Channel Admin and check if user is still able to create post, use reactions, add or remove people from the channel, use special channel mentions like @all, @channel and @here",
+        "testData": null,
+        "expectedResult": "Channel Admins should still be able to create post, use reactions, add or remove people from the channel, use special channel mentions like @all, @channel and @here",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "220c986d2e4a39c5c77b1f8cb3859c754726540e2d2f7df38403ca3249f638fca1f0933540369f1b3aaf5949fe5e2f4b",
+  "stepsHashed": "7551f1d2ab1f0f361ffdc657adc3477bfe7bb041027f9550fd5db136a9837e6c3ac0d9804c0ec057afbb9e650bd81668"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5059757,
+  "key": "MM-T1650",
+  "name": "Pagination in Plugin Marketplace",
+  "createdOn": "2020-04-10T00:36:49Z",
+  "objective": "Verify&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-17546\">https://mattermost.atlassian.net/browse/MM-17546</a>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Install plugins so that the total number of all plugins in plugin marketplace exceeds 15.</li><li>Load plugin marketplace.</li><li>Scroll to the bottom of the page.</li><li>Verify that there is \"Next\" button.</li><li>Click on the \"Next\" button.</li><li>Verify that the next page loads successfully.</li><li>Verify that there is \"Previous\" button in the second page.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Clicking on the next button should load the 2nd plugins page. Tab is still in \"All Plugins\".</li><li>There is no \"Previous\" button on the 1st page.</li><li>Clicking on \"Previous\" button loads the 1st page still in \"All Plugins\" tab.</li></ol>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-17546\">Support plugin pagination in the Plugin Marketplace — MM-17546</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "617234e8f0e54851573fec806737c60e49cbe8813d07acc6c8177ccebf48fbd22eb7983a92065ce5a63fb59355abebde",
+  "stepsHashed": "6f20690324d6bdc8fc10f528c2116052c5d0cd04d5ec7437c3c2f97827641b1173e673e4a7c6a8367aef3ae4f29c0129"
+}

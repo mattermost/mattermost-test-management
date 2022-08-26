@@ -1,0 +1,55 @@
+{
+  "id": 29130834,
+  "key": "MM-T5103",
+  "name": "Mobile V2: Account - Settings - Advanced Settings",
+  "createdOn": "2022-08-23T00:44:53Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Log in to server, open account screen, open settings screen, and go to advanced settings screen<br /><br />For each test step:<br />1. Verify on advanced settings screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3287708,
+    "name": "Account",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Account"],
+    "fullPath": "mobile-v2/account"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on advanced settings screen</strong><br />--------------------<br />1. Verify basic elements on advanced settings screen:<br />- back button<br />- options: delete data",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9cb42c29bfd7faaf32f6bf4284dd521212c6dee8baa5b019d9b8c24439fc03f0abd495efdbb3703b9970edca48495e21",
+  "stepsHashed": "522f6f385a5b0d8c452a7f70a4df37a7125efcdb18757b247329c1ca97ce7cb6d6da108ea6a10017801858e3ea7eea3e"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6396949,
+  "key": "MM-T3273",
+  "name": "RN apps: Log out",
+  "createdOn": "2020-07-30T21:05:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to log out<br>--------------------<br>1. Login to server<br>2. Open settings sidebar (3-dot menu)<br>3. Tap <strong>Logout</strong> option",
+        "testData": null,
+        "expectedResult": "After #3,<br><ul><li>Verify user is redirect to select server screen</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4fd31cf10c097b90e24e73364a509696f1eae825295810d4e689dd7c41257a31c984df109617351b9ed040011c15688",
+  "stepsHashed": "eacf15b1060df2ffac869ec37251716bd332a64ca65b373b497cc47d46142dd94bf0624e543e470919c0ed32d9beb2e3"
+}

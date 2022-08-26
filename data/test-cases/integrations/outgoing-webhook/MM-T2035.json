@@ -1,0 +1,55 @@
+{
+  "id": 5434155,
+  "key": "MM-T2035",
+  "name": "02 — Outgoing webhook - default username and overridden profile pic (using command) Trigger = posting a trigger word in any channel",
+  "createdOn": "2020-05-19T10:59:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 727693,
+    "name": "Outgoing Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Outgoing Webhook"],
+    "fullPath": "integrations/outgoing-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 9:46 PM<br>• Added link to Cypress code in Traceability tabCypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Outgoing webhook - default username and overridden profile pic (using command)<br>Trigger = posting a trigger word in any channel<br>–––––––––––––––––––––––––<br><strong>After setting up as above (in step 1)</strong>:<ol><li>&nbsp;Go back to Mattermost and edit the outgoing webhook:<ul><li>Remove the channel you had selected</li><li>Add a trigger word</li><li>Paste \"http://via.placeholder.com/150/00F/888\" in Profile Picture field</li><li>Save</li></ul></li><li>Post the trigger word in any channel</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1589885973662-1589885973662.png\" class=\"fr-fic fr-dii\">",
+        "expectedResult": "<ul><li><span data-sheets-note=\"Incoming payload on /hook:\n{ channel_id: 'tk68jnwkfjn65jk83xcrnn1cgo',\n  channel_name: 'town-square',\n  file_ids: '',\n  post_id: 'jzh6uypjsprwpxmbff1qqh8wbr',\n  team_domain: 'lm25mar',\n  team_id: 'fzxtu4c8et885mmbrpudaphi9c',\n  text: 'hiyo',\n  timestamp: '1535669181',\n  token: 'kn9wuapdupnttjaqfxapow6m7a',\n  trigger_word: 'hiyo',\n  user_id: 'uirwutjnafgjuke6jg7ttugayr',\n  user_name: 'linda-bk' }\n\nIncoming header on /hook:\n{ host: 'd6ecdab9.ngrok.io',\n  'user-agent': 'Go-http-client/1.1',\n  'content-length': '298',\n  accept: 'application/json',\n  'content-type': 'application/x-www-form-urlencoded',\n  'accept-encoding': 'gzip',\n  'x-forwarded-proto': 'https',\n  'x-forwarded-for': '52.91.64.181' }\n\nOutgoing response: \n{ text: '#### Outgoing Webhook Response\\n - token: &quot;kn9wuapdupnttjaqfxapow6m7a&quot;\\n - trigger_word: &quot;hiyo&quot;\\n - text: &quot;hiyo&quot;\\n - channel_name: &quot;town-square&quot;\\n - team_domain: &quot;lm25mar&quot;\\n',\n  username: '',\n  icon_url: 'https://docs.mattermost.com/_images/icon-76x76.png',\n  type: '',\n  response_type: 'in_channel' }\" data-sheets-userformat='{\"2\":897,\"3\":{\"1\":0},\"10\":1,\"11\":4,\"12\":0}' data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;- After a user posts in the selected channel, observe the \\&quot;Outgoing webhook response\\&quot;, importantly verifying these fields:\\n  username: '',\\n  icon_url: 'http://www.mattermost.org/wp-content/uploads/2016/04/icon.png',\\n\\n- Response post appears in Mattermost as before, but this time it shows an image of two puppies as profile pic:&quot;}\">After a user posts in the selected channel, observe the webhook message and verify that it has expected payload and override</span></li><li><span data-sheets-note=\"Incoming payload on /hook:\n{ channel_id: 'tk68jnwkfjn65jk83xcrnn1cgo',\n  channel_name: 'town-square',\n  file_ids: '',\n  post_id: 'jzh6uypjsprwpxmbff1qqh8wbr',\n  team_domain: 'lm25mar',\n  team_id: 'fzxtu4c8et885mmbrpudaphi9c',\n  text: 'hiyo',\n  timestamp: '1535669181',\n  token: 'kn9wuapdupnttjaqfxapow6m7a',\n  trigger_word: 'hiyo',\n  user_id: 'uirwutjnafgjuke6jg7ttugayr',\n  user_name: 'linda-bk' }\n\nIncoming header on /hook:\n{ host: 'd6ecdab9.ngrok.io',\n  'user-agent': 'Go-http-client/1.1',\n  'content-length': '298',\n  accept: 'application/json',\n  'content-type': 'application/x-www-form-urlencoded',\n  'accept-encoding': 'gzip',\n  'x-forwarded-proto': 'https',\n  'x-forwarded-for': '52.91.64.181' }\n\nOutgoing response: \n{ text: '#### Outgoing Webhook Response\\n - token: &quot;kn9wuapdupnttjaqfxapow6m7a&quot;\\n - trigger_word: &quot;hiyo&quot;\\n - text: &quot;hiyo&quot;\\n - channel_name: &quot;town-square&quot;\\n - team_domain: &quot;lm25mar&quot;\\n',\n  username: '',\n  icon_url: 'https://docs.mattermost.com/_images/icon-76x76.png',\n  type: '',\n  response_type: 'in_channel' }\" data-sheets-userformat='{\"2\":897,\"3\":{\"1\":0},\"10\":1,\"11\":4,\"12\":0}' data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;- After a user posts in the selected channel, observe the \\&quot;Outgoing webhook response\\&quot;, importantly verifying these fields:\\n  username: '',\\n  icon_url: 'http://www.mattermost.org/wp-content/uploads/2016/04/icon.png',\\n\\n- Response post appears in Mattermost as before, but this time it shows an image of two puppies as profile pic:&quot;}\">Response post appears in Mattermost as before, but this time it shows an image of a blue circle as seen in the test data column to the left</span></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "90b823a293d9cda112efaa2365ec93ef1dc304330fdfd774052d75b0926d72da5b218327f064e78003040efbd4b7dfa7",
+  "stepsHashed": "a98e2b82ee7d508ffea9cccd19f7af34a53894dd27ce4254a6ac6630d9023a3d2376adaf0b437221edcb7957be775616"
+}

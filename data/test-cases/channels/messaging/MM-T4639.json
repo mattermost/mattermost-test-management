@@ -1,0 +1,55 @@
+{
+  "id": 18095182,
+  "key": "MM-T4639",
+  "name": "Message Drafts - Persisting a draft in the current channel",
+  "createdOn": "2022-02-04T21:48:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Persisting a draft in the current channel</u><ol><li>Go to Off Topic</li><li>Type some text into the post  textbox</li><li>Reload the page<ol><li>Verify post draft persists in the textbox</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Verify draft post persist after refresh.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "be6d650b799509115447c05b88ab590dfb22d67454a5afce00819a503ed203f5dcd16e6c967eee23450705e66b107d00",
+  "stepsHashed": "8e9c1a512a99b98420eaf5994196baeb6e50b758772e028e3b07ab5cade7215e1fd1b51f61bf8fe5a488d5f1bcab7f31"
+}

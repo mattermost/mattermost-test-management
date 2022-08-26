@@ -1,0 +1,55 @@
+{
+  "id": 10675246,
+  "key": "MM-T4051",
+  "name": "Config Patch (System Admin & Local)",
+  "createdOn": "2021-05-11T08:38:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a system admin account or from local setup:<br>- create a .json file containing the changes you want to make to the server's config<br>- mmctl config patch [newconfig.json]",
+        "testData": null,
+        "expectedResult": "Config of the server is changed/updated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "73d0fab65498679500d2b22a1260a9f2d0609dca268558a136f8df7429b1ab8d99dd9593ba2f0485f986216ec4ee58a9",
+  "stepsHashed": "b3f117e2d0356c209a6834337ce1a208dd60f09c77f26bc3cc72af8a180816af5e4ba21620931d7963ed6cb551e2ddfe"
+}

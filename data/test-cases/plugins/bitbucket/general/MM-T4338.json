@@ -1,0 +1,55 @@
+{
+  "id": 15984282,
+  "key": "MM-T4338",
+  "name": "bitbucket links show popover in main thread",
+  "createdOn": "2021-11-04T17:34:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1914726,
+    "name": "General",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "General"],
+    "fullPath": "plugins/bitbucket/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a channel and post a bitbucket link (ideally a public repo) such as:  https://bitbucket.com/DHaussermann/hello-world/issues/141<br />2. Mouse over the ink in the main thread",
+        "testData": null,
+        "expectedResult": "- popover is shown in main thread<br />- popover resolution is reasonable <br />- Text wraps to fit into popover<br />- Additional text is truncated<br />- User theme is applied",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "50a1651daf75792cb2591b67c40d871fff727b67b520f8406a31541d2aab5fedd7d7482f4c65788be674d8074ab97853",
+  "stepsHashed": "817e4439ee016d1712358b40c6c28bf230d27615b370863fafe65acf2d5a672e320e27359a389f345c466c278f8f500d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 10380878,
+  "key": "MM-T4030",
+  "name": "Only sysadmins in Mattermost have the option to configure ServiceNow oAuth",
+  "createdOn": "2021-04-26T04:45:05Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1244767,
+    "name": "Service Now",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Service Now"],
+    "fullPath": "apps-framework/service-now"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a user who is not a system admin<br>2. Type/service now<br><br>",
+        "testData": null,
+        "expectedResult": "Config subcommand does not appear.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "636f3ce3127fae649b10b3a4d4d3ba39b62aa191a39455159c12571786f5bd9f28e7f2918886e3ff8ad18adf28741776",
+  "stepsHashed": "8fed4cd047679f1b78281eb46ee45582e3d78e4322c620df0f1b01eea157c35f0d38a6663b63cb267fa42eae0d9244cc"
+}

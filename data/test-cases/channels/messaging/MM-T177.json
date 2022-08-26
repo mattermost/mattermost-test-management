@@ -1,0 +1,68 @@
+{
+  "id": 3742386,
+  "key": "MM-T177",
+  "name": "Copy a permalink and paste into another channel",
+  "createdOn": "2019-12-20T20:46:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.28 Mobile (Feb 2020)", "v1.29 Mobile (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Setup autolink to use &lt;jump to convo&gt;<br>1. Install the autolink plugin from the marketplace or download it from the release page<br>2. Enable the autolink plugin as well as the <em>Enable administration with /autolink command&nbsp;</em>option<br>3. Use the slash command to add a new link such as <em>/autolink add permalink</em><br>4. Set a Template: <em>/autolink set permalink Template [&lt;jump to convo&gt;](https://your-mattermost-url/core/pl/${id})</em><br>5<em>.&nbsp;</em>Set a Pattern: <em>https://<em>your-mattermost-url</em>\\\\.mattermost\\\\.com/core/pl/(?P&lt;id&gt;[a-zA-Z0-9]+)</em> <em>&nbsp;</em>",
+        "testData": "",
+        "expectedResult": "<ul><li>Autolink for &lt;jump to convo&gt; has been created for your server</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.28 Mobile (Feb 2020)", "v1.29 Mobile (March 2020)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Copy a permalink and paste into another channel<br>–––––––––––––––––––––––––<ol><li>Click on the 3-dot menu to the right of any message in any channel (mobile apps - long press on a message)</li><li>Click or tap \"Copy Link\"</li><li>Switch to another channel, DM, or GM</li><li>Paste the copied permalink into the message input box (CTRL/CMD+V on webapp, long press &amp; paste on mobile), and post</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Permalink should copy and paste properly</li><li>Once pasted into a new channel it should appear as a link (note that on community servers, it will convert to &lt;jump to convo&gt;)</li><li>Clicking or tapping on the permalink will take you to the conversation</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.28 Mobile (Feb 2020)", "v1.29 Mobile (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22096\">Handle links with no server URL provided — MM-22096</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "404e3122a45ed91f6eaaa83e6742ce04ff6785d1ac63b1457f09618d8e8af23ee94c4e8cdd13a64d93856ef81b3d6522",
+  "stepsHashed": "37716332a664f999f239fb5add67d17072d64074b64cc4bc87e8fad7f629431e41fd798eba959175103fe4d82e8c90c8"
+}

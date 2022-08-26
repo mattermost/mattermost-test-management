@@ -1,0 +1,55 @@
+{
+  "id": 7798298,
+  "key": "MM-T3479",
+  "name": "System Roles - Assign & Remove Users",
+  "createdOn": "2020-11-09T14:39:36Z",
+  "objective": "System Roles - Assign &amp; Remove Users",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 918602,
+    "name": "Admin Roles",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as Sysadmin and visit System Console &gt; System Roles page.<br>2. Click on System Manager role  and click on Add Member. <br>3. Select a Member and save. <br>4. Check if the selected user now has the System Manager role and can access System Console. <br>5. As sysadmin, remove the user from the System Manager role and save. <br>6. Check if that user no longer has access to the System Console. <br><br>Repeat the above steps for System User Manager and System Read Only Admin roles as well. ",
+        "testData": null,
+        "expectedResult": "<ul><li>If a user is assigned to a System Role, then that user should be able to access the System Console and access the role specific pages.&nbsp;</li><li>If a user is unassigned from a System Role, then that user should no longer be able to access the System Console.&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5fefa71b39068dbd9f95e7e30f9b73bc11f97628ee62346e612573ad0f7b04c4387a203354f9494a8c2bb84a4ff41d9d",
+  "stepsHashed": "9a93765292ec1f335e4846bab1a8d6deddf39f074d23c83da874ec16a0968ebfcff4cbde4bc7a6f527ebea83c2caad86"
+}

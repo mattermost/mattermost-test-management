@@ -1,0 +1,55 @@
+{
+  "id": 12056598,
+  "key": "MM-T4107",
+  "name": "Plugin - Marketplace : List (Admin User)",
+  "createdOn": "2021-07-07T18:04:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.36 (June 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "As an admin user type:<br />-  `mmctl plugin marketplace list'<br /><br />",
+        "testData": null,
+        "expectedResult": "A list of marketplace plugins available will be returned",
+        "customFields": {
+          "Fix Versions": ["v5.26 (August 2020)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "924331934ff53bc8a57dd53eb2748a14ea3b7507b69734880590810a77941e08554ebc4337493bf3dcc040c17d0e7cb6",
+  "stepsHashed": "044412009443bf8951acc6d451f38c14dc2143530f529ea0088bcd8461819165d4427f7a9e01577879b71eb68b1b3804"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5203659,
+  "key": "MM-T1706",
+  "name": "User can unarchive a private channel",
+  "createdOn": "2020-04-23T19:45:11Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
+  "estimatedTime": null,
+  "labels": ["cy-prod", "archived-channels"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404271,
+    "name": "Archived Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Archived Channels"],
+    "fullPath": "channels/archived-channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)", "v1.30 Mobile (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Archived Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User can unarchive a private channel<br>–––––––––––––––––––––––––<ol><li>As a user with appropriate permission, archive a public channel:<ol><li>Click or tap channel name to open menu (Info on RN apps)</li><li>&nbsp;Click or tap Archive Channel</li><li>Click Archive or tap Yes to confirm archiving the channel</li></ol></li><li>View the archived channel, noting that it is read-only</li><li>Unarchive the channel:<ol><li>Click or tap channel name to open menu (Info on RN apps)</li><li>Click or tap Unarchive Channel</li><li>Click Archive or tap Yes to confirm unarchiving the channel</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel is no longer read-only</li><li>Channel is displayed in LHS with the normal icon, not an archived channel icon</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)", "v1.30 Mobile (April 2020)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-12330\">[HW Candidate] Web/Desktop: Add \"Unarchive Channel\" option to archived channels menu — MM-12330</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-20804\">[HW Candidate] Mobile: Add \"Unarchive Channel\" option to the channel info screen — MM-20804</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fd863327d8f8e5628997d7367a5d161f7b28e927109f2957175b4ab0dd11dc39f8fc257ad721e4ee6ad8f11c05f4c3d5",
+  "stepsHashed": "a734d43dce07f1719b079df9a974eda0f8e4e5a5f64665b938f9e8beef2573a7cfc3d16cdb1f81cf33fbe2066dd94a61"
+}

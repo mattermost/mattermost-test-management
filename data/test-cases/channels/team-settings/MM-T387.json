@@ -1,0 +1,55 @@
+{
+  "id": 3877566,
+  "key": "MM-T387",
+  "name": "Try to join a closed team from a NON-mattermost email address via \"Get Team Invite Link\" while \"Allow only users with a specific email domain to join this team\" set to \"sample.mattermost.com\"",
+  "createdOn": "2020-01-02T23:43:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 8:32 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Ensure that Main Menu &gt; Team Settings &gt; Allow any user with an account on this server... is set to `No`</li><li>Ensure \"Allow only users with a specific email domain to join this team\" is set to sample.mattermost.com</li><li>Open Main Menu &gt; Invite People and click `Copy Link` next to the team invite link</li><li>Open an incognito browser tab or another browser and paste in the link</li><li>Type in an email address that has a domain different from sample.mattermost.com (e.g. a gmail.com address), a username and password and hit \"Enter\"</li></ol>",
+        "testData": "",
+        "expectedResult": "<strong>An error message should be displayed</strong>:<br>\"The following email addresses do not belong to an accepted domain: sample.mattermost.com. Please contact your System Administrator for details.\"",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li><strong><span style=\"color: rgb(65, 168, 95);\">(Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-13688\">Web: Strange behaviour when using invite link for a team with an email domain restriction — MM-13688</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22791\">When inviting a new user to a team with an email address that doesn't match the team's allowed domain, the user is still created. — MM-22791</a></li></ul>",
+          "Important notes about this step": "Story ticket written to address open UX questions about using invite link for a team with an email domain restriction"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "34d96b5b5c61c6ebee7225d10e16ce12ddf713408d2615711327a934a3d669f49b4b0af74c4a864543f37e210aa655a1",
+  "stepsHashed": "8e4236a21747ba9b193ec12de04f10f10a47213c6677be039802d65298ab93678d48bc85937a1badc3e3146743fc51d4"
+}

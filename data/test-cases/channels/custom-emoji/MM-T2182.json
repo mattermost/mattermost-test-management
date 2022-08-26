@@ -1,0 +1,55 @@
+{
+  "id": 5444782,
+  "key": "MM-T2182",
+  "name": "Custom emoji - animated gif",
+  "createdOn": "2020-05-20T06:05:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2960960,
+    "name": "Custom Emoji",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.3 Desktop App (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 6:43 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom emoji - animated gif<br>–––––––––––––––––––––––––<ol><li>Click on Main Menu ➜ Custom Emoji ➜ Add Custom Emoji</li><li>&nbsp;Enter an emoji name</li><li>Click \"Select\", and choose an animated GIF</li><li>Save</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Emoji saves and appears in emoji list.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.3 Desktop App (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-11896\">Desktop: Ctrl+M shortcut minimizes the Windows app and sends a message — MM-11896</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "db40e558d999c6292fe5477bff331aad34e7cc34875f91f7f246342f9703c3c95b81b1ef2058eb68ee390a4fc329210e",
+  "stepsHashed": "d09f285573027f256e2b4667f0cf57b34a995bd517bc8ee2016211ab89b7436a21dc88b67c22508b3305205c19dbfe72"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659432,
+  "key": "MM-T2882",
+  "name": "Member is able to edit their own posts",
+  "createdOn": "2020-06-04T18:02:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is able to edit their own posts<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a channel and locate a post you have made<br />2. Click on the [...] icon to open the options for the post<br />3. Click edit from the menu<br />4. Update the post text using the edit box<br />5. Click Save",
+        "testData": null,
+        "expectedResult": "2. Edit is avaliable in context menu<br />5. Udated post text is displayed and (edited) is now shown below the post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5652d178670c68811c03295adcbbe785ff575d5d2f97e48852a846612f97c9c609e40529ce6da3fac725c7c974759144",
+  "stepsHashed": "119b77820053454f1b58c4f46db02d20e06e7c0154fea4357dbe5505674a35f02a5890a62ec58d57ac082ee385fda14c"
+}

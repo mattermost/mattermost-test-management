@@ -1,0 +1,55 @@
+{
+  "id": 3742432,
+  "key": "MM-T223",
+  "name": "Correct Spacing between Emojis",
+  "createdOn": "2019-12-20T20:46:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Correct Spacing between Emojis<br>–––––––––––––––––––––––––<ol><li>On RN mobile app, add a variety of built-in emoji and custom emoji to the same post. Ensure at least 20 different emoji are selected.</li><li>Check if the emojis are stacked up with equal spaces and are lined up properly.</li></ol>",
+        "testData": "NEW 5.18<br />https://mattermost.atlassian.net/browse/MM-21062",
+        "expectedResult": "<ul><li>Emojis should be stacked up with equal spaces and are lined up properly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c08bcb162c8d705c3f1198bf9b21ce17c5157b0861a05637dec856fa748989b9c65b987c867df90f7b70f5ea2cb7616",
+  "stepsHashed": "d5608928f0a7d8b5b851a62036533c8f6bd58e562810b17186d86f67cb986029adca15e3b8b89258d8be38e938698176"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5566875,
+  "key": "MM-T2689",
+  "name": "Allow Bots to be removed from LDAP Group Synced Team",
+  "createdOn": "2020-05-29T20:22:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.21 (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Allow Bots to be removed from LDAP Group Synced Team<br>————————————————————————————<ol><li>Ensure a Bot account is added to the LDAP Group Synced Team and Channel. (Follow the steps mentioned in above testcase).</li><li>As a Team Admin for LDAP Group Synced Team, Click on Manage Members in Main Menu and then remove the bot account.</li><li>Reload the page and check if Bot account is still removed</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Application should allow a Bot account to be removed from a LDAP Group Synced Team</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21793\">Bots cannot be added to a group-synced channels (and possibly group-synced teams) — MM-21793</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58b6a649f9aee26ef16609804524d644ca014d1b4befea2295ebccedcd372b126c1298153636b8ca8b49d81b019bdd63",
+  "stepsHashed": "165d6f58b843bf0b884be6d88f0b1ec532be8a5fac1417148771be3628f1f802966a3ecf0d592e7af70aefad1078f100"
+}

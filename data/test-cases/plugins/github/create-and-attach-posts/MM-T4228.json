@@ -1,0 +1,55 @@
+{
+  "id": 13721673,
+  "key": "MM-T4228",
+  "name": "Attach a Mattermost Post to a GitHub issue",
+  "createdOn": "2021-08-30T15:45:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the ... post menu from a Mattermost post<br />2. Select Attach to GitHub<br />3. Use search to refine results and locate and select a traget repository <br />4. Click Attach",
+        "testData": null,
+        "expectedResult": "- Comment is created successfully<br />- A Mattermost post is created to show that a post was attached as a comment to a GitHub isuue",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e38f46fc916235812a2da516aeb1dba3aefab14b7e77bcf4ee5e82febcb7d608c211036369ed5bd4e7cb340d5cba6829",
+  "stepsHashed": "8ed90695bbedf02ae68cf8000a0a997f47604d5fadd55f49266c5587aa8634a5f46d72e10864944cc9bbd9a9b1fbba2e"
+}

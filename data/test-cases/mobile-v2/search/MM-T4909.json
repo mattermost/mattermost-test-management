@@ -1,0 +1,107 @@
+{
+  "id": 25645332,
+  "key": "MM-T4909",
+  "name": "Mobile V2: Search - Recent Mentions",
+  "createdOn": "2022-07-07T22:39:57Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3050574,
+    "name": "Search",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Search"],
+    "fullPath": "mobile-v2/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on recent mentions screen</strong><br />--------------------<br />1. Open recent mentions screen<br />2. Verify basic elements on recent mentions screen:<br />- large header title: <strong>Recent Mentions</strong><br />- large header subtitle: <strong>Messages you've been mentioned in</strong><br />- empty state title: <strong>No Mentions yet</strong><br />- empty state paragraph: <strong>You'll see messages here when someone mentions you or uses terms you're monitoring.</strong><br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to display a recent mention in recent mentions screen and navigate to message channel</strong><br />--------------------<br />1. Open a channel screen and post a message with at-mention to current user<br />2. Verify message with at-mention to current user is posted<br />3. Go back to channel list screen and open recent mentions screen<br />4. Verify on recent mentions screen and recent mention is displayed with channel info<br />5. Tap on post and jump to recent messages<br />6. Verify on channel screen and recent mention is displayed<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to edit, reply to, and delete a recent mention from recent mentions screen</strong><br />--------------------<br />1. Open a channel screen, post a message with at-mention to current user, go back to channel list screen, and open recent mentions screen<br />2. Verify on recent mentions screen<br />3. Open post options for recent mention and tap on edit option<br />4. Verify on edit post screen<br />5. Edit post message and tap save button<br />6. Verify post message is updated and displays edited indicator '(edited)'<br />7. Open post options for recent mention and tap on reply option<br />8. Verify on thread screen<br />9. Post a reply<br />10. Verify reply is posted<br />11. Go back to recent mentions screen<br />12. Verify reply count and following button<br />13. Open post options for updated recent mention and delete post<br />14. Verify updated recent mention is deleted<br />15. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to save/unsave a recent mention from recent mentions screen</strong><br />--------------------<br />1. Open a channel screen, post a message with at-mention to current user, go back to channel list screen, and open recent mentions screen<br />2. Verify on recent mentions screen<br />3. Open post options for recent mention, tap on save option, and open saved messages screen<br />4. Verify recent mention is displayed on saved messages screen<br />5. Go back to recent mentions screen, open post options for recent mention, tap on usave option, and open saved messages screen<br />6. Verify recent mention is not displayed anymore on saved messages screen<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to pin/unpin a recent mention from recent mentions screen</strong><br />--------------------<br />1. Open a channel screen, post a message with at-mention to current user, go back to channel list screen, and open recent mentions screen<br />2. Verify on recent mentions screen<br />3. Open post options for recent mention, tap on pin to channel option, go back to channel list screen, open the channel screen where recent mention is posted, open channel info screen, and open pinned messages screen<br />4. Verify recent mention is displayed on pinned messages screen<br />5. Go back to recent mentions screen, open post options for recent mention, tap on unpin from channel option, go back to channel list screen, open the channel screen where recent mention is posted, open channel info screen, and open pinned messages screen<br />6. Verify recent mention is not displayed anymore on pinned messages screen<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d26859cbe627324b28a3d98d63247a5610f7b6011675ed6e2d2770b29be223e63f3526ce3e078aef3e6b7ad45edea765",
+  "stepsHashed": "cfadf954e139c946d8e889dba9f70f7a0029e841a00b946e327b0efb2967e20ed5e323c820d77fbb5b89db15a2c4965f"
+}

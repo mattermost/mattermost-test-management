@@ -1,0 +1,55 @@
+{
+  "id": 9949899,
+  "key": "MM-T3976",
+  "name": "LDAP : List Groups (System Admin & Local)",
+  "createdOn": "2021-04-05T10:36:31Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.17 (Nov 2019)", "v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl ldap list groups",
+        "testData": null,
+        "expectedResult": "A list of LDAP groups is returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0c0e4a13d7b06aae64b9a2a47ee528ea60579cc0aa2144f751fb5076d520ec21d3ba85a753c4c97c0b71b6706404953e",
+  "stepsHashed": "771b02cd0b11658a4b37ca7b73cb7ab4ecddf65c548be8ef2527037d02c9c70af9e215dae3c5e6f9aa913f4e4778ee46"
+}

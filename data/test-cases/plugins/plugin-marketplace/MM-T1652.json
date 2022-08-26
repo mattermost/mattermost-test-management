@@ -1,0 +1,55 @@
+{
+  "id": 5064470,
+  "key": "MM-T1652",
+  "name": "Allow searching for files through plugin API",
+  "createdOn": "2020-04-10T23:08:51Z",
+  "objective": "Verify&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-17912\">https://mattermost.atlassian.net/browse/MM-17912</a>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Upload the latest version of demo plugin.</li><li>In test server, enable public link and enable custom slash commands from System Console.</li><li>In a normal channel, send some files of different formats (e.g. jpg, mov, csv etc.).</li><li>In the same channel, issue `/list_files` command.</li><li>Verify that info about the files posted in the channel including public links are displayed as system messages.</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17912\">Allow searching for files through plugin API — MM-17912</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d956b6ef1c04e2e1970701e158d9b73d78f53047418de556c7b649fbd88063d4311cbe6c58d560926814212a651a1172",
+  "stepsHashed": "835882558fd17df5c2ef3bc41099ddf8a223c2964e1cc58fc9bf1a3f90eb5ba5588562947265591f11c2e08b18d17683"
+}

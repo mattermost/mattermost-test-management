@@ -1,0 +1,55 @@
+{
+  "id": 4049515,
+  "key": "MM-T943",
+  "name": "Users - Deactivate a user - DM, GM in LHS (not actively viewing DM in another window)",
+  "createdOn": "2020-01-21T15:48:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["User-Management", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570073,
+    "name": "Users",
+    "parentId": 538610,
+    "fullNames": ["Suite", "System Console", "User Management", "Users"],
+    "fullPath": "suite/system-console/user-management/users"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a DM with a user you want to deactivate, post a message</li><li>Also open a GM with that user and a third user, post a message</li><li>Observe DM and GM in LHS</li><li>System Console &gt; Users</li><li>Find the user you want to deactivate &gt; user drop-down &gt; Deactivate, confirm</li><li>Go back to view team</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><strong>DM</strong>: On returning to the team the DM has been removed from LHS</li><li><strong>GM</strong> stays in LHS channel list</li><li><strong>GM</strong> still has message box (is not archived)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "72e025fc9a9b55c6529b6d0bd016f405735762049eff5ea2f02d57b5d7375eaa54f1fba305d4db744c96bcf45d7d16f9",
+  "stepsHashed": "b240491114f8a2ac3f5b35f7c302ca3a52eeaebe50956c7b362f07abd1a3b1c3ff85dada40a1bd89fd625624b0fbcfb0"
+}

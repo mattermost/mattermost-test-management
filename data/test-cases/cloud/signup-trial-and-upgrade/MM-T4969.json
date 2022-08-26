@@ -1,0 +1,55 @@
+{
+  "id": 27526440,
+  "key": "MM-T4969",
+  "name": "Login option for users creating a duplicate workspace",
+  "createdOn": "2022-08-10T16:27:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Step through Cloud sign-up process and type in an existing Workspace name when prompted with \"What’s the name of your organization?\"</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1660580392763-Screen+Shot+2022-08-15+at+12.19.49+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Error appears ➜ \"<em>This workspace URL is taken. Edit the URL to continue creating a new workspace.</em>\"</li><li>Prompt appears as well to \"<em>Join an existing workspace for</em> [name of Workspace/Company]\" with <strong>Join</strong> button</li><li>Clicking the <strong>Join</strong> button brings you to the Workspace</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c8e363ba564844b136ff2af89b1426fcb9724547d979499f725fa45b571123fdf483069616296ec3db47f2c94e640f0e",
+  "stepsHashed": "510acf448b392f0ca5f807bffc5e13a55d9ab140ee196bb58ca9c7709511ff502b0486707a4dec18551a21e22ca6bd43"
+}

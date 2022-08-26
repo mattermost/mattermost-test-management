@@ -1,0 +1,55 @@
+{
+  "id": 4058513,
+  "key": "MM-T1123",
+  "name": "Notification Settings\nMobile Push - DM and mention, sender name and channel name",
+  "createdOn": "2020-01-22T17:58:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br>Mobile Push - DM and mention, sender name and channel name<br>–––––––––––––––––––––––––<ol><li>As an Admin go to System Console ➜ Site Configuration ➜ Notifications</li><li>Set \"Push Notification Contents\" to \"Generic description with sender and channel names\"</li><li>Log in to a test account on your mobile device, and put mobile app in background</li><li>Set the test account to away, if notifications are set to fire when away or offline</li><li>Send a direct message to the test account</li><li>Verify push message</li><li>Send an at-mention to the account</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>DM push notification is received in the form of \"[other user] sent you a message\" (title is the other user, same as when set to show sender name only, since a DM's channel name is the other user)</li><li>Mention push notification shows the channel name as the title</li><li>Body appears as \"username mentioned you.\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "If you're still viewing the app on your mobile device, you'll see *desktop notifications*, which follow separate settings"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e152c9d34b6df7509c1a116d3904cc0eb41f4d093ea83f9bb440db739f59a79201d4e33b70dc66b795a91bafe366d365",
+  "stepsHashed": "e81a41cb9ef4cc9f4900faaf6d2c341e47e9cebf8060bcdfe5f1c2ea8657319f1777110bf68dd96b2cde7e5449babb61"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5293894,
+  "key": "MM-T1953",
+  "name": "Plugin Marketplace is not available to guest users",
+  "createdOn": "2020-05-06T01:44:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Cloud"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugin Marketplace is not available to guest users<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Log out and log in as a guest user.<br />2. Click the main menu.",
+        "testData": null,
+        "expectedResult": "There is no &ldquo;Plugin Marketplace&rdquo; available in the menu",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "082284d21d58f1f364fad3d910d0ad6d38c3d9b04a3f655a15519b858b67ad619a768e0b1d5bf05ab8dc0b758e1bd5de",
+  "stepsHashed": "dbf992f42adcb1e293ea727ba91e0bb9df6494d9fe3f2659a8b619eac578cf4e5d00521bb2520f5571caba7186e802c7"
+}

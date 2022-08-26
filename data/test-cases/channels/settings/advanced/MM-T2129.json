@@ -1,0 +1,55 @@
+{
+  "id": 5444677,
+  "key": "MM-T2129",
+  "name": "Advanced - Join/Leave messages off, another user joins channel",
+  "createdOn": "2020-05-20T05:50:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063264,
+    "name": "Advanced",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Advanced - Join/Leave messages off, another user joins channel<br />————————————————————————————<br />EE only (test on mysql.test or postgres.test):<br />1. Go to Settings -&gt; Advanced -&gt; Enable Join/Leave Messages -&gt; Edit<br />2. Set to \"Off\"<br />3. Have another user join a channel you are already in.<br />4. Have the other user leave the channel.",
+        "testData": null,
+        "expectedResult": "No system messages or notifications should be visible with regards to the _other_ user joining or leaving the channel.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c02bc1974a983780bc02f429362cead451a4c2418493afdb15f568db1f9ab0acef3dd5aa1f29788d6015460cb165164",
+  "stepsHashed": "cda9a6ebca55303e54924ebf3a451d1b821ed073078dc559d431b22fab6bb480e14cc589737f25eb26676b861f9907a0"
+}

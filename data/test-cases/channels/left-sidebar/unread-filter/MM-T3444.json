@@ -1,0 +1,55 @@
+{
+  "id": 7574062,
+  "key": "MM-T3444",
+  "name": "Channel Sidebar Unread Filter > Current channel is always shown",
+  "createdOn": "2020-10-22T19:23:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007284,
+    "name": "Unread filter",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Unread filter"],
+    "fullPath": "channels/left-sidebar/unread-filter"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 10:53 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed No Test Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as normal user<ol style=\"list-style-type:lower-alpha\"><li>Verify that unread filter is in all channels state, not enabled</li></ol></li><li>Switch to Town Square<ol style=\"list-style-type:lower-alpha\"><li>Verify that the Town Square is not unread</li></ol></li><li>Enable the unread filter<ol style=\"list-style-type:lower-alpha\"><li>Verify that the Town Square is still visible</li></ol></li><li>Disable the unread filter</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>We should always show the current channel, even if it is not unread</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "14421c7847954238f89b1ea6001cb539bd76b16e73ee432dd2a86761b63f2af8e88d9c8d5723e9a5930bc50becbfb94b",
+  "stepsHashed": "689befec39ee9799e1784536bccdd878c677e5f077386b8295b3bcdff6af619b1e3155fd2493303d51be37c97bb85023"
+}

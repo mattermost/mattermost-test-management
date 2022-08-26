@@ -1,0 +1,55 @@
+{
+  "id": 3951723,
+  "key": "MM-T612",
+  "name": "Regenerate token",
+  "createdOn": "2020-01-07T22:48:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 727693,
+    "name": "Outgoing Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Outgoing Webhook"],
+    "fullPath": "integrations/outgoing-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Outgoing Webhooks — Regenerate token<br>–––––––––––––––––––––––––<ol><li>Open Main Menu ➜ Integrations ➜ Outgoing Webhooks</li><li>Click \"Regenerate Token\" under the webhook you just created</li><li>Post the trigger word (or post in trigger channel) for the outgoing webhook</li></ol>",
+        "testData": null,
+        "expectedResult": "After step 2, verify that the token changed.<br>After step 3, webhook successfully triggers on use of keyword in the appropriate channel (in the case of this particular webhook, the response includes the updated token as well).",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "140cfaf2a90bf32a1f4875a168e86874ff21dc344d8bceae82bd29d0564f9bc4c2d10b876ca5d285e3f221c669930f9b",
+  "stepsHashed": "91da5e9300013ca22143fa5914e7e5143a0fd5f9c1593a56925156f033dad3a4f6069722a4da0346ebb3cbfd1d6251b8"
+}

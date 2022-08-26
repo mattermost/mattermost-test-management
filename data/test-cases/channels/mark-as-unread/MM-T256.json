@@ -1,0 +1,55 @@
+{
+  "id": 3768062,
+  "key": "MM-T256",
+  "name": "Mark as Unread New Messages line",
+  "createdOn": "2019-12-27T20:26:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Unstable"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 2:54 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark as Unread New Messages line<br />–––––––––––––––––––––––––<ol><li>Mark a channel as unread at least one page of posts above the bottom of the channel</li><li>Switch to another channel and then switch back</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The channel is opened with the New Messages line visible at the top of the screen</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<br /><a href=\"https://mattermost.atlassian.net/browse/MM-18859\">Web: Not loaded at the New Messages line after marking a channel as unread — MM-18859</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b6ea309198d477245f143f093905cc4cc82ca6dffbe56705480579a7a4de7a646b1bc91839989ddb7f7a3dfc69b6f889",
+  "stepsHashed": "86a5b8bcf863fa6976a34c6f3bcb12f9964b17bd20bfbbc5f35624a4bdf13b6a4532f5de7e8b72be46c42c5b9b5013c6"
+}

@@ -1,0 +1,95 @@
+{
+  "id": 6828901,
+  "key": "MM-T3342",
+  "name": "For 3+ instances Create, Attach and Subscribe modal correctly shows connected instances only",
+  "createdOn": "2020-08-31T15:50:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "Install 2 more Jira instances such that you have&nbsp;<em>Instance A,</em> <em>Instance B &nbsp;</em>and <em>Instance C </em>installed",
+        "testData": null,
+        "expectedResult": "3 Jira instances are installed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Connect the test user to a 2nd instance such that <em>Instance A,</em> <em>Instance B &nbsp;</em>and <em>Instance C&nbsp;</em>are installed but only <em>Instance A </em>and <em>Instance B </em>are connected.",
+        "testData": null,
+        "expectedResult": "3 Jira instances are installed and the test use is connected to 2 of them",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<em>..&nbsp;</em>Click the ... menu on a post and open the Jira create modal",
+        "testData": null,
+        "expectedResult": "The instance select drop down is shown along with the 2 connected instances<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Click the ... menu on a post and open the Jira attach modal",
+        "testData": null,
+        "expectedResult": "The instance select drop down is shown along with the 2 connected instances",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4d037701a282e346a7be2c26b207a809ed17cfc4bf5ac3b0456aa57bbf875451d22c0a8415708b396a02eddb2f8ace4d",
+  "stepsHashed": "7343367298007f3bd209074bb03f5355681cbc39d9710ee38deec3e49da6a9c7c337a84f596ca2f62230bc6c40788e90"
+}

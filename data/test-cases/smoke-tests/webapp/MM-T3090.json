@@ -1,0 +1,55 @@
+{
+  "id": 6181521,
+  "key": "MM-T3090",
+  "name": "Remove other user from public channel, filter user list",
+  "createdOn": "2020-07-13T19:12:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove other user from public channel, filter user list<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. In another window/browser, log in as the user you are going to remove from the public channel [user2] and view the channel<br />2. As user1 in the first browser, click on the &ldquo;v&rdquo; to the right of the channel name you're going to remove user2 from<br />3. Click on &ldquo;Manage Members&rdquo;<br />4. Click on the &quot;Remove&quot; button to the right of user2",
+        "testData": null,
+        "expectedResult": "Se does not verify multi-users in real time; logs out and back in to verify<br />- User2 is removed from the channel<br />- User1 sees system message in channel: &quot;[user2] was removed from the channel&quot;<br />- User2 sees an on-screen message &quot;[username] removed you from [channel_name]&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "12de10187e34c6dab4024f99705ec56141ff11d7789ed05ecce2b80c7c5ec99e207ece6bccdd361276e6142370d8d7b9",
+  "stepsHashed": "e8271e1f76bb19efb16c01d374e9155966ea29df0e7669f83705c595fbb4cee23dfcc5f5975938a795bdffecce950f01"
+}

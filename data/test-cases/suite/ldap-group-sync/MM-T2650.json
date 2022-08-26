@@ -1,0 +1,55 @@
+{
+  "id": 5566836,
+  "key": "MM-T2650",
+  "name": "Constrain channel, users are listed who will be removed",
+  "createdOn": "2020-05-29T20:22:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Constrain channel, users are listed who will be removed<br>————————————————————————————<br>General testing approach:<ol><li>Create a public channel</li><li>Have several users join it, including users who log in via:<ul><li>Email/password</li><li>LDAP, in the group you're going to sync with the channel (constrain)</li><li>LDAP, not in the group you're going to sync with the channel (constrain), but in ➜1 other LDAP groups</li><li>OAuthHave users who are in the group you're going to sync with the channel (constrain) log in but do not join the channel</li></ul></li><li>In System Console ➜ User Management ➜ Channels, find the channel ➜ Edit</li><li>Sync Group Members, Add Group, select qa group, click Add button</li><li>Observe warning message at bottom: Count of users who will be removed (link to view them, in modal the users' groups are listed (in links if more than one))</li><li>Click Save</li><li>Observe warning modal: Count of users who will be removed</li></ol>",
+        "testData": null,
+        "expectedResult": "<strong>This test does not cover</strong>:<ul><li>SAML (without SAML syncing with LDAP; try separately with SAML syncing with LDAP)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf4a5ec20972061f531bdbd99dca196e20f1870ac8c8551139db84a5138786cdcadce0564f01745c0609ef5400713669",
+  "stepsHashed": "e1bd8fcb1a0dcf7e0f72b236715e3b0196e0e9670ec13f0a95873d9f0e0f11caf9cbe252964a75bdf45ba1639a611232"
+}

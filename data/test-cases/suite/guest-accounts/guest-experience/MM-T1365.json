@@ -1,0 +1,55 @@
+{
+  "id": 4151526,
+  "key": "MM-T1365",
+  "name": "Guest User restricted from creating a direct Message or group Message with unauthorized users via slash command",
+  "createdOn": "2020-01-30T21:04:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as a Guest User and navigate to a channel.</li><li>Ensure that the guest user does not have access to user1 and user (they don't share any channels with the guest)</li><li>Issue the following command:</li><li>/groupmsg @user1,@user2 'message'</li><li>/msg @user1 'message'</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Group message is not created and a system message is shown:<br>\"<em>Unable to find the users: @user1,@user2</em>\"</li><li>Direct message is not created and a system message is shown:<br>\"<em>Unable to find the users: @user1</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-18229\">Guest Accounts: Guest User is able to create a Group Message with Unauthorized users by issuing a /groupmsg command — MM-18229</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-17919\">Guest Accounts: Guest User is allowed to send a DM to an unauthorized user by using the slash command — MM-17919</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6dabccfa0188cedfe4113af1d6e37f6668e66920646f1c8e5d269be90c670dea895c37a81024d66ad92f774f2d28487c",
+  "stepsHashed": "bd5b777076203e1dfb86042f3cf8902154198d560328b6476f3d8a2049b3fe5bde224e09f814884eabb519798e2868bf"
+}

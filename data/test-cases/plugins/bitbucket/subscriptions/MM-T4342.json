@@ -1,0 +1,55 @@
+{
+  "id": 15984356,
+  "key": "MM-T4342",
+  "name": "Bitbucket subscriptions are delivered",
+  "createdOn": "2021-11-04T17:43:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915243,
+    "name": "Subscriptions",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Go to DHaussermann/hello-world in bitbucket<br />2. Create test issue<br />3. Comment on the test issue<br />4. Create a test PR",
+        "testData": null,
+        "expectedResult": "Mattermost channel receives notifications for new issue and new pull request, but not issue comments",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7418146e72eded3d50f07b30ad728b53b612e2b7a981c12efa5c403e82f00933883dec028d9b31f578c4d54118965ebb",
+  "stepsHashed": "534bea99b6023d91995d0b64de8c4227bbd38b1aa7bd8b3cf416ed299261d152ef027253e30998da5082e899ac82c5f6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8723557,
+  "key": "MM-T3804",
+  "name": "Site Statistics displays expected content categories",
+  "createdOn": "2021-01-26T09:01:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570069,
+    "name": "Site Statistics",
+    "parentId": 538608,
+    "fullNames": ["Suite", "System Console", "Reporting", "Site Statistics"],
+    "fullPath": "suite/system-console/reporting/site-statistics"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "On server without license (team edition), click \"Site Statistics\" under Reporting.",
+        "testData": null,
+        "expectedResult": "Verify stats title and values for the ff contents:<ul><li>Total Active Users</li><li>Total Teams</li><li>Total Channels</li><li>Total Posts</li><li>Daily Active Users</li><li>Monthly Active Users</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1f6f137c54e5b2dd52e75b789de8d5850a4dece2c62b78dbdb68d0ebfef5376fd43d60d45e487705b7970eeb631f3b1",
+  "stepsHashed": "212f89f8bf288ef0c472bac7b320bd485f28666bf87f1fe8ae9bab0d0d9b3448e52559f2dffec3203e12cc6d9a6c038f"
+}

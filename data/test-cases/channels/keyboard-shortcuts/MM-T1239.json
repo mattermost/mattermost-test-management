@@ -1,0 +1,55 @@
+{
+  "id": 4064362,
+  "key": "MM-T1239",
+  "name": "CTRL+/ and CMD+/ and /shortcuts",
+  "createdOn": "2020-01-23T13:38:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 4 Mar 2021: Selenium Defer to Rainforest, removed dupe Se/RF, Manual Environments set to Automated.",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "Defer to Rainforest",
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL+/ and CMD+/<br />/shortcuts<br />--------------------<br />On Windows:<br />1. Press CTRL+/ (observe it open, then press again to close modal)<br />2. Type &quot;/shortcuts&quot; in message box and hit ENTER<br /><br />On Mac:<br />1. Press CMD+/ (observe it open, then press again to close modal)<br />2. Type &quot;/shortcuts&quot; in message box and hit ENTER",
+        "testData": null,
+        "expectedResult": "1. After each of the two steps, a list of keyboard shortcuts appears in a modal<br />2. The shortcut shown under &quot;Files&quot; section is:<br /> - CTRL+U for Windows<br /> - CMD+U for Mac (Mac displays symbol, not the letters c-m-d)<br />3. Read through command shortcuts and spot-check a couple<br />4. The modal can be closed by clicking 'x' on the top right corner or pressing `ESC`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af92b817a2add5ddd9107f652ad3c50e10a9448ce65a558fffee37680d4904d06c9a9a9e55213e449783f87a7894e353",
+  "stepsHashed": "4b835e9b88a37c5bab1ec179a06a0621bfbc0d4229cd5e1be59b581c1d8bbca2358e65b8e6d96b8a98c01fa063aaaf2b"
+}

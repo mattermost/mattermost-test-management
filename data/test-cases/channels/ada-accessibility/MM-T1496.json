@@ -1,0 +1,55 @@
+{
+  "id": 4403885,
+  "key": "MM-T1496",
+  "name": "Security Settings screen should read labels",
+  "createdOn": "2020-02-17T18:15:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Security Settings screen should read labels<br />–––––––––––––––––––––––––<ol><li>Open User Profile  &gt; Profile modal and select Security.</li><li>Press TAB key and focus on Edit button of Multi factor authentication.</li><li>Focus should be on \"Add MFA to your account\" button.</li><li>Hit Enter and it should open the step to configure MFA.</li><li>Go back and focus on Edit button of OAuth 2.0 Applications.</li><li>If OAuth application is configured, focus should be on first application.</li><li>Focus on Edit button of Sign-in Method and hit enter.</li><li>Focus should be on the first button 'Switch to using Google SSO\"</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The screen reader should highlight the first option under the security setting once it's expanded with the \"edit button\". ie Multi-factor auth, OAuth 2.0 apps, sign-in method</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16043\">ADA: Account settings &gt; Security screen reader tab flow is incorrect — MM-16043</a></li><li>(<strong>Task</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-22628\">Accessibility Cypress Test Automation: Accessibility Support in Account Settings — MM-22628</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "037032e9ce5f4d8c82fe952e4e29910317287530cd8bd868c9eba9410fb86cb7c887ca72ff6d662a56502f4961fd9702",
+  "stepsHashed": "bcdc4752b9436b175895c8944ce7bbeeb75d8258c5686b361a571d3b0bbef0227aac0f5c5534edf8e05b2a215976c906"
+}

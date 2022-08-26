@@ -1,0 +1,55 @@
+{
+  "id": 5445231,
+  "key": "MM-T2246",
+  "name": "Markdown code syntax",
+  "createdOn": "2020-05-20T06:34:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "Update",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Markdown code syntax<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post:<br />/test url test-syntax-highlighting<br />into a channel <br />2. Read through the resulting post",
+        "testData": null,
+        "expectedResult": "All code highlights as expected in the post.<br><br>Note: Latex rendering must be enabled in System Console.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b466ab60a8b1d8dca4a69363efcf39ffccaf33cc04617ede2e801737c51c6014186076afe639490c08670c0801110f5",
+  "stepsHashed": "38779a213cd6369bc35dc68f1bca69cb5c800ae2e245d2edd70dd378f341f4ca5f7848b9fedece7f8f6a38ae8f02ae4c"
+}

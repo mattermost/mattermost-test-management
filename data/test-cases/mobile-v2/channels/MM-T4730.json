@@ -1,0 +1,94 @@
+{
+  "id": 20029165,
+  "key": "MM-T4730",
+  "name": "Mobile V2: Channels - Create Direct Message",
+  "createdOn": "2022-03-31T21:13:26Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2419932,
+    "name": "Channels",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Channels"],
+    "fullPath": "mobile-v2/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on create direct message screen</strong><br />--------------------<br />1. Open create direct message screen<br />2. Verify basic elements on create direct message screen:<br />- close button<br />- start button<br />- search input<br />- sectioned user list<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to create a direct message</strong><br />--------------------<br />1. As admin, create a new user to open direct message with<br />2. Verify no direct message channel for the new user appears on channel list screen<br />3. Open create direct message screen and search for the new user<br />4. Verify search returns the new user item<br />5. Tap on the new user item<br />6. Verify the new user is selected<br />7. Tap on start button<br />8. Verify on direct message channel screen for the new user<br />9. Go back to channel list screen<br />10. Verify direct message channel for the new user is added to direct message list",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to create a group message</strong><br />--------------------<br />1. As admin, create two new users to open group message with<br />2. Verify no group message channel for the new users appears on channel list screen<br />3. Open create direct message screen, search for the first new user and tap on the first new user item<br />4. Verify the first new user is selected<br />5. Search for the second new user and tap on the second new user item<br />6. Verify the second new user is selected<br />7. Tap on start button<br />8. Verify on group message channel screen for the other two new users<br />9. Go back to channel list screen<br />10. Verify group message channel for the other two new users is added to direct message list",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should display empty search state for create direct message</strong><br />--------------------<br />1. Open browse channels screen and search for a non-existent user<br />2. Verify empty search state for create direct message<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7ac78cf1972f0f94cf6293c9a20669bef62844805755eca06905407dfd75b0b3103f8c17d41a0e955ceb696e51a56ff4",
+  "stepsHashed": "ffa406794966671d39f8c8c6bb91945a0d993315bc759d8044b7c5e5dd583d2fdda14a4e402e3d791d807cfc61809dac"
+}

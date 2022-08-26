@@ -1,0 +1,55 @@
+{
+  "id": 8562551,
+  "key": "MM-T3679",
+  "name": "Bot - Assign : without permission",
+  "createdOn": "2021-01-13T11:29:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot assign testbot user2",
+        "testData": null,
+        "expectedResult": "returns an error if you do not have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3879908635002a71ae7e4e3924b8962552af34ee497f667ec440d163506629cd035a4ae96d965e7b9fd8c620c915158a",
+  "stepsHashed": "5e519b27c3a8b6680cd48cde5748465dc5c91ac8524f42d0f0b7bb57d264de6f197c00f2c9110557fca992d3cc649f46"
+}

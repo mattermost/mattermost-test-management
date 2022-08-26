@@ -1,0 +1,55 @@
+{
+  "id": 5478974,
+  "key": "MM-T2463",
+  "name": "Check for Group Mention Errors",
+  "createdOn": "2020-05-22T12:43:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733337,
+    "name": "Enterprise",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Enterprise"],
+    "fullPath": "suite/enterprise"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure LDAP Groups are present.<br>2. Navigate to System Console &gt; Groups page and enable Group Mention for a group.<br>3. Clear the Group Mention field and try to save.<br>4. Specify the Group Mention name as \"testing#123\" and try to save.&nbsp;<br>5. Specify the Group mention name as a name which already exists and try to save.<br>6. Specify the Group mention name as \"Testing\" and check if no errors are displayed.&nbsp;",
+        "testData": null,
+        "expectedResult": "3. An error \"You must specify a group mention.\" should be displayed.<br>4. An error \"Only letters (a-z), numbers(0-9), periods, dashes and underscores are allowed.\" should be displayed.<br>5. An error \"Group mention is already taken.\" should be displayed.<br>6. Group name should be converted to lowercase and be saved as \"testing\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c131c1a7e3a00f7e93737b32bb29b5548854a4a1f97bd8f843d5bee70ef50f520186ddf21ad0bb39c37ea5229cd0a86b",
+  "stepsHashed": "171effa20789a18720b7ecdac1de2f0b157f85cc8d54fb3cdd683b4ae564135ab3f548a425e1805a8a3810b520075bc0"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 14133930,
+  "key": "MM-T4257",
+  "name": "Billing & Account — Billing History",
+  "createdOn": "2021-09-09T21:19:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1716689,
+    "name": "Billing and Account",
+    "parentId": 1716688,
+    "fullNames": ["Cloud", "WIP", "System Console", "Billing and Account"],
+    "fullPath": "cloud/wip/system-console/billing-and-account"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In a new account (not yet subscribed) go to <strong>System Console ➜ <strong>Billing &amp; Account ➜ </strong>Billing History</strong></li><li>Verify list of transactions</li><li>Verify PDF icon downloads invoice</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "30b7046e68bd45a0febe862d667c3869082af6023079d2cb0996cf2086be4723de95a3a316bc20087da6d1fb524894a0",
+  "stepsHashed": "6c47746c0ba56b40040a72360c64bc768adee1b4499651ec172f822d847dc8501a18750acba80caaa4d5f0edabe75ce4"
+}

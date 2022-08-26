@@ -1,0 +1,55 @@
+{
+  "id": 3742355,
+  "key": "MM-T166",
+  "name": "Large number of emoji reactions wrap into multiple lines",
+  "createdOn": "2019-12-20T20:36:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Large number of emoji reactions wrap into multiple lines<br>--------------------<br>1. Add a large number of emoji reactions to a post (&gt;15)<br>2. Open the post in the RHS<br>3. Observe the emoji in the center channel and in RHS",
+        "testData": "",
+        "expectedResult": "Emoji wrap into multiple lines and don't cause horizontal scroll, in both center channel and RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "Fixed in 5.14<br><a href=\"https://mattermost.atlassian.net/browse/MM-17806\">https://mattermost.atlassian.net/browse/MM-17806</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b51b82d8ba829e5300467f33bfdfd70e7f760e84ce80fe49562b20424bcc72046a6ea4996718e141cc41ec2c75213c44",
+  "stepsHashed": "5a45976c60a8cfe4d59bf8fb1d3cb1fc2f9597f7ab140eac1e57675b5f0a244cc8d9b4fbe43a0c609a7a04e3006596d6"
+}

@@ -1,0 +1,186 @@
+{
+  "id": 9504764,
+  "key": "MM-T3929",
+  "name": "Test app - Manage invalid responses",
+  "createdOn": "2021-03-17T16:53:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1236118,
+    "name": "test-app",
+    "parentId": 1236115,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": null,
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test valid no_option_static&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "Help tip shows \"No Matching options\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test valid external_nav&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "User is navigated away from the app",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available that is not Town Square<br>2. Type <em>/com.mattermost.test valid internal_nav&nbsp;</em>",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "User is directed to Town square",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_form_resonse<br>3. Send with out adding a text value<br>4. Add a text value in the form<br>5. Click submit on the form<br><br>",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "On 2. -- Text option appears<br>On 4. A for form open<br>On 5. Form closes and The apps makes an ephemeral system post that says \"Ok\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_form_resonse<br>3. Select --text and add <em>pickles</em><br>4. Send<br>5. Click submit on the form<br><br><br>",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "On 2. --text option appears<br>On 4. A for form open and <em>pickles</em> is in the text box<br>On 5. Form closes and The apps makes an ephemeral system post that says \"Ok\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_required_fields<br>3. Send the command without adding --text2<br>4. Dismiss the 1st error<br>5. Click Ok on the 2nd error",
+        "testData": null,
+        "expectedResult": "On 3. Error submitting command<br>On 4.The user see's a second error \"Required field missing `text2`\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_required_fields<br>3. select--text2 from to options but do not pass in a value<br>4. Dismiss the 1st error<br>5. Click Ok on the 2nd error",
+        "testData": null,
+        "expectedResult": "On 3. Error submitting command<br>On 4.The user see's a second error \"Required field missing `text2`\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_required_fields<br>3. select--text2 from to options and type&nbsp;<em>pickles</em><br>4. Send<br>5. Click Submit on the form",
+        "testData": null,
+        "expectedResult": "On 4. A form opens<br>On 5. Form closes and The apps makes an ephemeral system post that says \"Ok",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_multiword_options<br>3. Select <em>--static&nbsp;</em>from the options list<br>4. Select <em>multiword option 1</em><br><br>",
+        "testData": null,
+        "expectedResult": "on 4. `multiword option 1` &nbsp;appears with quotes automatically added for you ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_multiword_dynamic_option<br>3. Select <em>--dynamic&nbsp;</em>from the options list<br>3. Select <em>--static&nbsp;</em>from the options list<br>4. Select either of the 2 values and send the command which will look like <em>/com.mattermost.test valid with_multiword_dynamic_option --dynamic `static value 2`&nbsp;</em><br>5. Send",
+        "testData": null,
+        "expectedResult": "on 2. --<em>dynamic&nbsp;</em>is displayed<br>on 3. Static value 1 and 2 will be displayed<br>on 5. The command is submitted successfully but there is no response from the app",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c39f6b4847c254f5513a47104160864b934bfa98bd3621d136a427e5dceddf9e96ddb3cf4fceb7f67a87ca445af5358a",
+  "stepsHashed": "dbc6f5b76b9e67a2f7e18b736be26e00c2f1ca5d84a1d72b7e82883a47606d0d9eb59c96064c09043d4dac514cee73e4"
+}

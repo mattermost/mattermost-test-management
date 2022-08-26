@@ -1,0 +1,55 @@
+{
+  "id": 7570308,
+  "key": "MM-T3436",
+  "name": "Download Compliance Export Files - Actiance XML Format",
+  "createdOn": "2020-10-22T13:55:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console", "Cloud-N/A"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In server's config.json file, set DownloadExportResults config to true and restart the server.<br>2. Login as sysadmin and visit System Console &gt; Compliance Export page.<br>3. Configure the Export settings in Actiance XML format and save.<br>4. Post few messages with attachments.<br>5. Run the Compliance Export and check if an option to Download files is provided.<br>6. Click on the Download link and check the contents of the exported zipped file. It should contain contents of the messages posted and also include file attachments ",
+        "testData": null,
+        "expectedResult": "Download Compliance Export in Actiance XML format should work fine and have all the contents in it.&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd527f6662e1d7cc3cdff12ca26a9fa23993e93b4d790bdefa6742e7b3ce335b42e7c9b4bed58ae87e446f6f70cb0a43",
+  "stepsHashed": "9c53584e6970cc88061b1e8de415b52a3240afcac7c0f2316576d9be5fa85a486f8f90ab6a62dceab629a285003f538a"
+}

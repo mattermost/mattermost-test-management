@@ -1,0 +1,55 @@
+{
+  "id": 5444800,
+  "key": "MM-T2199",
+  "name": "@ autocomplete - username",
+  "createdOn": "2020-05-20T06:05:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ autocomplete - username<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Type &quot;@&quot; followed by someone's username <br />2. Select a result and press enter",
+        "testData": null,
+        "expectedResult": "Autocomplete properly filtered on username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "875075341af6a65b1c9eedd4c04da8f4d10f1f39378caf7c9f99b5118e5f51ad2b360beac4341a04ed424ee7ef2b5184",
+  "stepsHashed": "c6376fee8a81bf758e1570fb613327804cbc21624de1c3ff374681fabc356b6178e7e99405a6d96f6416ffcfafb4ed52"
+}

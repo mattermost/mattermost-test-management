@@ -1,0 +1,55 @@
+{
+  "id": 13721369,
+  "key": "MM-T4183",
+  "name": "Notifications disabled",
+  "createdOn": "2021-08-30T15:24:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. With another GitHub account, @-mention the GitHub user you connected previously in a GitHub issue.<br />2. Then assign the GitHub issue to them.<br />3. Finally request a review from them in a GitHub PR.",
+        "testData": null,
+        "expectedResult": "User receives no DMs from the GitHub bot for these actions.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2692960c2ded7e4dd0dae4043968a17a547911692d0042ac80daab5c1a79bbe87e055a45886ca55e85d0248b07cfb872",
+  "stepsHashed": "8bf72066dd4078ba2c0eb3abb99c949200cea35efad85828b737353764765aaa87b9d627ab2d7f7480b73d772e18c1d7"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 15454372,
+  "key": "MM-T4274",
+  "name": "Create an Empty Board",
+  "createdOn": "2021-10-14T08:23:57Z",
+  "objective": "Create an empty board and set title",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1840288,
+    "name": "Board creation and set-up",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board creation and set-up"],
+    "fullPath": "boards/board-creation-and-set-up"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click on the \"+\" icon at the top of the sidebar",
+        "testData": null,
+        "expectedResult": "\"Create a Board\" screen opens in the center view with template options",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Start with an Empty Board\"",
+        "testData": null,
+        "expectedResult": "Board titled \"Untitled Board\" is created and opened",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Untitled Board\" and type \"Testing\" and hit Enter",
+        "testData": null,
+        "expectedResult": "Title of the board updates to \"Testing\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3a865aad4adf7a782d6ef5813ae046b146897160533cdf9538c7f86ccbbc484782331f58fb552ddb441123c8593720a1",
+  "stepsHashed": "5633784fb4ccc594cf0e2d3cc9807750ff518630a3f164c5c0d5a0d286cf5410697cc9441f0ee9264f53b430e00844ce"
+}

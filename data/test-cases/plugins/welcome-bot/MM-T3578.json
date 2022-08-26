@@ -1,0 +1,68 @@
+{
+  "id": 8022876,
+  "key": "MM-T3578",
+  "name": "/welcomebot preview",
+  "createdOn": "2020-11-26T20:57:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054401,
+    "name": "Welcome Bot",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /welcomebot preview ",
+        "testData": null,
+        "expectedResult": "sends ephemeral messages to the user with the preview of the",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": null,
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "17c5674dda332476f3ef5604df8d6e3a4d915a7a9a950a8f570fba4e07fdd1b9eb2d13d940cce1e4f5bb3cdbb7bd2e9f",
+  "stepsHashed": "930829479ed3568c52e079d61a44068661b9ed6ed41a6a348efef80c550f7d659d4f44bfc85732b7d8408d26ebcf68a7"
+}

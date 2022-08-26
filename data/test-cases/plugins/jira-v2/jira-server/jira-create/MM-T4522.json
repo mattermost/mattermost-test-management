@@ -1,0 +1,55 @@
+{
+  "id": 17674322,
+  "key": "MM-T4522",
+  "name": "Create Modal Validation -  Validation ensures all mandatory fields have a value including different types of mandatory fields",
+  "createdOn": "2022-01-18T22:43:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the create modal<br />2. Leave a mandatory single select field empty<br />3. Attempt to save the modal<br />4. Leave a mandatory text field empty<br />5. Attempt to save the modal",
+        "testData": null,
+        "expectedResult": "On 3. and 5. A validation message informs the user that the field was mandatory",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "802c1f803907b645dfbe7d4cb594dd38ff2bd89d05e397b2a97d7102c8c31dee313d1c74e7d37f96926c9fa0c1f5553a",
+  "stepsHashed": "64cc27509530226d2264d9b96861fe0029d36c917988bc15d8fcdf79fc06534aeef6996acb5191811e300c6ab5a01e91"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3906169,
+  "key": "MM-T574",
+  "name": "/shrug test",
+  "createdOn": "2020-01-04T02:25:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": ["Help Wanted"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "/shrug test<br />–––––––––––––––––––––––––<ol><li>With User1 and User2 on same server and User2 has desktop notifications turned on</li><li>In a test channel User1 types \"/shrug test\" and post</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User1 and User2 see message \"test ¯\\_(ツ)_/¯\"</li><li>User2's desktop notification shows that the message is from User1 (not \"webhook\")</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Help Wanted"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-\">UI Automation: Write an automated test using Cypress for \"/shrug test\" — MM-19167</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "481790a83c3c6c7a5b1708fc876dbe35be4118d21965835b0e3669d071de6d4844ca1a29e1bcc44a14cd1ddee7ee62f0",
+  "stepsHashed": "0f97ddac17ba5ae3507c557beaa8aab63a618677f4267699ca14d864be4c892775b620ba541d457dcc4d7d054678a868"
+}

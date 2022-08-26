@@ -1,0 +1,81 @@
+{
+  "id": 12801920,
+  "key": "MM-T4131",
+  "name": "Start a WebEx on a subpath server",
+  "createdOn": "2021-07-22T16:38:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup or locate a Mattermost server running on a subpath (ex: https://subpath.test.mattermost.com)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Install Webex<br />2. Navigate to the WebEx plugin settings and enable it",
+        "testData": null,
+        "expectedResult": "<em>Convert Webex </em>URLs is set to <strong>True </strong>by default ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Navigate to the user side and set a valid meeting room<br />2. Type <em>/webex start </em><br />3. Click the Join button<br />4. Click the start meeting link from the ephemeral post",
+        "testData": null,
+        "expectedResult": "On 2.<br />- A Join meeting button is shown in a post<br />- A start meeting link is shown in a post<br />On 3. Webex meeting launches in browser to show join options<br />On 4. Webex meeting launches in browser to show join options",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a2e56517a32782fdfa8784d14c03c6dbd9aaaa99b5f731faa519250eda1e4e513d69e2535fffc7e3cb06e4785b922065",
+  "stepsHashed": "f8084c521873b880202e4191c9601f468d2acbb7e1bcd549e0f2dd5cdd781fa13f51aeb1c3de79e7927ce8f257fb68ae"
+}

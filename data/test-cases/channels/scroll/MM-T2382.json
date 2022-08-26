@@ -1,0 +1,55 @@
+{
+  "id": 5467498,
+  "key": "MM-T2382",
+  "name": "Center channel scroll",
+  "createdOn": "2020-05-21T22:33:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 2:31 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Center channel scroll<br>————————————————————————————<ol><li>As the test user open a channel and scroll all the way to the bottom</li><li> As another user, make several post in the channel</li><li>As the test user observe the open channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>As post appear from the other user, the channel is scrolled down so that post are always visible</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "049e049511840aea3e5095efc6f3acaeeb0dbff73e366a04beeb1a23a7e381d3048865e1b68b0dbe8cd138739ddd2975",
+  "stepsHashed": "e9423d321f40aedd4f27ffb0c7a97ea786856b64195f7db90e0da5b8f3b6443943b9dbaf4dcf1e5dbe43feb093b58ca0"
+}

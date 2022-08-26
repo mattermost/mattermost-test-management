@@ -1,0 +1,55 @@
+{
+  "id": 8646719,
+  "key": "MM-T3769",
+  "name": "User - Verify email without token : without permission",
+  "createdOn": "2021-01-20T09:53:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user verify [username]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the necessary permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "744114d9c94eaabdf33fcb4afea64e4f51a2a3c1dc1becd6c66ab06a1e42ddbbc22c8fda15ba8f0f7baa52a82a8c8943",
+  "stepsHashed": "c5eeba44b907d63e6758acccb9c04d39fd0bfee70b624713f731f55d9b8b9f0083f16c011813e48abec978c6ee7601a4"
+}

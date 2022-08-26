@@ -1,0 +1,55 @@
+{
+  "id": 6396913,
+  "key": "MM-T3237",
+  "name": "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well(and/or in combination with in:channel-name)",
+  "createdOn": "2020-07-30T21:05:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Search on channel, select from autocomplete, search in combination with a text string as well<br><br>(and/or in combination with in:channel-name)<br>————————————————————————————<ol><li>Tap the search icon (or if viewing Search, tap to clear the search box)</li><li> Tap `in:channel-name` to populate the search text box with `in:`</li><li> Type the beginning of a channel name</li><li> Observe the autocomplete list and tap a channel name to select</li><li> Observe the channel name populates in the search text box, followed by a space</li><li>Type a word to search on and tap `Search`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Messages that appear in the channel you selected, AND contain the text string you entered, display in search results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f42e4895f462c908063b14a737d0b9ae7765bfa085a1817be12a0e3d3ad510e1e1e5f8b2d2f9e528b8c799e5208dac81",
+  "stepsHashed": "4ffea099bf85320da56aae92490e5be280373ba41dc609ddd0796f526bb8f97c5b839b452c290f039d9a12c67c83ebe8"
+}

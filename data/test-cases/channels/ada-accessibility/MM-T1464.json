@@ -1,0 +1,55 @@
+{
+  "id": 4403853,
+  "key": "MM-T1464",
+  "name": "Channel Menu dropdown should be read out",
+  "createdOn": "2020-02-17T18:14:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)", "Triage"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel Menu dropdown should be read out<br>–––––––––––––––––––––––––<ol><li>Press CTRL+F6 (or just F6 on desktop app) until you are positioned in the \"Channel Header Region\"</li><li>Hit TAB twice</li><li>Reader reads out \"Channel menu button\"</li><li>Hit Enter (to open the channel drop-down menu)</li><li>Press TAB</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Pressing TAB should highlight the first option (View Info, or whatever appears for the specified channel) with the mouse hover effect (not the screen reader highlight).</li><li>Continuing to press TAB should move down the options and read them out.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)", "Triage"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15988\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Channel Menu dropdown inaccessible — MM-15988</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22627\">Accessibility Cypress Test Automation: Accessibility Support in Dropdown Menu — MM-22627</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f7cf971d64d009bf1cf7d7d3f4475a0d9052f6a01dca1c5d4b4b7a0d1f029444a7a69e3855085a70232d207f7b28a799",
+  "stepsHashed": "449fe2ef796c94f0cb13f0189d960f0d0d72436355ddc47f84e1f1a8045df21ad9099c9199be28c60bdd7d95c903733e"
+}

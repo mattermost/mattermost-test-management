@@ -1,0 +1,55 @@
+{
+  "id": 4058926,
+  "key": "MM-T1196",
+  "name": "RN apps: Custom TOS - Agree while using MFA",
+  "createdOn": "2020-01-22T19:26:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569417,
+    "name": "Custom Terms of Service",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
+    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to set up MFA on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Evaluating",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Custom TOS - Agree while using MFA<br>–––––––––––––––––––––––––<ol><li>Login as the test user on webapp and enable MFA on the account</li><li>As a sys admin update the TOS</li><li>Login as the user on mobile</li><li>Enter MFA</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User is shown TOS</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-17630\">RN Apps (iOS &amp; Android) Terms of Service show no \"Agree/Disagree\" buttons — MM-17630</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1625b43ca98401bd313dc595aa401c7505fc4dc34a79b2afa1de9461145474513ac9a5b061ae0a43915d2d255b311a7b",
+  "stepsHashed": "4451ae9d5982d04b3dbc9f8a0cd41891bf539e45deb92701e3f8ec668376090365ed4650b686f35edb216664b4583ed7"
+}

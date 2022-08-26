@@ -1,0 +1,55 @@
+{
+  "id": 5248330,
+  "key": "MM-T1740",
+  "name": "Clicking in / Tapping on the message attachment menu box opens list of selections",
+  "createdOn": "2020-04-29T21:02:00Z",
+  "objective": "<strong>Overview</strong>:<ul><li>Feature also available in RN</li><li>Enables integrations to post attachments with drop-down menus containing various selection options</li><li>Required to be set up: Integration with message attachment and interactive menu</li></ul><strong>RN</strong>:&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-11934\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11934</a><br><strong>Webapp</strong>:&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-8477\">https://mattermost.atlassian.net/browse/MM-8477</a><br><br><a href=\"https://mattermost.atlassian.net/browse/MM-11850\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11850</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-11932\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11932</a><br><br>Noting this ticket here as it was to REMOVE the \"\"Submitted\"\" button that had been implemented but was removed by&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-13114\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-13114</a><br><br><strong>Epic</strong>:<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-8479\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-8479</a></li><li><a href=\"https://github.com/mattermost/mattermost-webapp/pull/1612\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/mattermost/mattermost-webapp/pull/1612</a></li></ul><strong>Spec</strong>:<ul><li>We followed&nbsp;<a href=\"https://api.slack.com/docs/message-menus\" rel=\"noopener noreferrer\" target=\"_blank\">https://api.slack.com/docs/message-menus</a></li></ul>",
+  "precondition": "Set up on mysql.test in <a href=\"https://mysql.test.mattermost.com/a-team/channels/town-square\" rel=\"noopener noreferrer\" target=\"_blank\">Town Square of the \"Ayyyyy Team\"</a>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404287,
+    "name": "Interactive Menus Message Attachments",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
+    "fullPath": "integrations/interactive-menus-message-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:52 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Interactive Menus - Message Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clicking in / Tapping on the message attachment menu box opens list of selections<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Locate a message attachment menu<br />2. Click in / Tap on the message attachment menu box",
+        "testData": null,
+        "expectedResult": "- The list of selections opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7913f7595548858da80597edbc45d28108e09415c74c36a3e3684142104c86f53702e962960ec37c706ad1ca00116b99",
+  "stepsHashed": "ce335ef8061e2fa00e0ff2138f0f79dabc3177eb4ad1f91569ab7b5057cafc72e03a33c726ca18bce6e86260ba5ff693"
+}

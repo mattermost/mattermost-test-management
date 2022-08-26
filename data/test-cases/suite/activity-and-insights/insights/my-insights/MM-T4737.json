@@ -1,0 +1,55 @@
+{
+  "id": 20029494,
+  "key": "MM-T4737",
+  "name": "Insights - My insights - My top boards",
+  "createdOn": "2022-03-31T21:20:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>SysAdmin</strong><br />2. Create <strong>Board1</strong> with <strong>50 cards</strong><br />3. Create <strong>Board2</strong> with <strong>40 cards</strong><br />4. Create <strong>Board3</strong> with<strong> 30 cards</strong><br />5. Create <strong>Board4</strong> with <strong>40 cards</strong><br />6. Select<strong> Activity &amp; Insight </strong>from LHS.<br />7. Create 6 more Boars with<br />different number of cards.<br />8. Select <strong>Activity &amp; Insight</strong> from LHS.<br />9. Click<strong> See more</strong> icon.<br />10. Verify Pagination",
+        "testData": null,
+        "expectedResult": "6.1. <strong>My top boards</strong> widget should be displayed<br />containing following description <strong>Most active boards<br />I’ve participated in.</strong><br />6.2. <strong>See more </strong>icon should be displayed<br />at the top right of the widget.<br />6.3.<strong> Top boards</strong> should be displayed in following<br />orders.<br />- <strong>Board Icon</strong><br />- <strong>Board Nam</strong>e<br />-<strong> User avatar</strong><br />-<strong> Number of cards added</strong><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1649179991837-1649179991837.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />7. 10 Boards should be added.<br />9.1. Close(<strong>x</strong>) icon should be displayed at top right<br />9.2 Time Period dropdown should be displayed next to<br />close icon,<br />9.3.<strong> My top boards</strong> heading should be<br />displayed at the top left.<br />9.4. <strong>Most active boards<br />I’ve participated in of </strong>description should be displayed<br />under the <strong>My Top Channels.</strong><br />9.5 Following column should be displayed:<br />- <strong>Rank</strong><br />- <strong>Boards</strong><br />- <strong>Cards added<br /></strong>-<strong> Down arrow icon</strong><br />- <strong>Participants</strong><br />9.6 9 boards should be displayed.<br />9.7 Following text should displayed at bottom right:<br />. <strong>1-9 of 100</strong><br />- Previous (<strong>&lt;</strong>) icon should be disabled<br />- Next (<strong>&gt;</strong>) icon should be enabled<br />10.1. More channels should be displayed.<br />10.2. Previous and Next pagination are working fine",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "57c06cedd01423bae024c4e4354a1a71632922d6bf2a6ec3b96309e2261a6eb08b24741beca7e6545b659dc4e1d92ee3",
+  "stepsHashed": "eac6f90c5cade1f220a31fc5e5fa1ff7fe2ad25832df172a9e3e751cb26f3cc17e84c48764f4cf9bef1c6ee322ea1842"
+}

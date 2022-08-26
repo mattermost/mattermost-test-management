@@ -1,0 +1,61 @@
+{
+  "id": 4712172,
+  "key": "MM-T1541",
+  "name": "Create Post option for Guests",
+  "createdOn": "2020-03-03T12:43:35Z",
+  "objective": "Create Post option for Guests",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Consolidated-Test-Steps-To-Match-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "cy-prod",
+    "enterprise"
+  ],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:02 AM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as sysadmin and visit the Channels page and click on a channel.</li><li>Uncheck the Create Posts option for Guests and save.</li><li>Login as a Guest user and visit the same channel.</li><li>Check if the Guest user has the permission to create a post on that channel.</li><li>As a sysadmin, check the option to allow Create Posts for Guests and save.</li><li>Check if the Guest user has the permission to create a post on that channel.</li></ol>",
+        "testData": null,
+        "expectedResult": "After #4,<br><ul><li>Guest user should not have the permission to create a post on a channel when the option is removed.</li></ul>After #6,<br><ul><li>Guest user should have the permission to create a post on a channel when the option is allowed.</li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(147, 101, 184);\">Epic</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11670\">Channel Moderation Settings — MM-11670</a></li><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"http://mmthttps%3A//mattermost.atlassian.net/browse/MM-23102\">Add E2E tests + Unit tests for Channel Moderation Widget — MM-23102</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d69dcdb91be717e5609f4b79d63e56296dfe1e773c21d047108e5dc7d193f361a56be0186d22fbd26b33da232364b84e",
+  "stepsHashed": "c0ba1e7ddf6d51b92118cd62d7265a181eb456fccc7a300ecb9953c95f98df4470f12dd1f9db21a32ddbe1f4cb4e7b39"
+}

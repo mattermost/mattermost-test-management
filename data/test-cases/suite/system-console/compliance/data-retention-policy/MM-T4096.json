@@ -1,0 +1,55 @@
+{
+  "id": 11765914,
+  "key": "MM-T4096",
+  "name": "Assign Global Policy =  1 Year & Custom Policy = None to channel",
+  "createdOn": "2021-06-24T19:41:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Feature flag CustomDataRetentionEnabled = true.<br />2. Restart server<br />3. Login as System Admin<br />4. Create <strong>Team-A</strong> &gt; <strong>Channel-A</strong> and <strong>Channel-B</strong><br />5. Go to System Console &gt; Data Retention Policies<br />6. Set 1 year to Global Policy<br />7. Go to <strong>Channel-A </strong>and Post 1 year or older messages (use API)</span><br /><span>8. Go to<strong> Channel-B</strong> and Post less than 1 year  messages (use API)<br />9. Go to System Console &gt; Data Retention Policy<br />10. Click Run Deletion Job Now</span>",
+        "testData": null,
+        "expectedResult": "10.1 Job competed successfully<br />10.2 In <strong>Team-A</strong> &gt; <strong>Channel-A</strong> 1 year or older posts should be deleted<br />10.3 In <strong>Team-A</strong> &gt; <strong>Channel-B</strong> less than 1 year old posts should NOT be deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d80b0951599ade6cf44e0a5b15e4cfb62bfc5e81c2d759ee591daec7a47668ec473c34e3748c8d48b9983c1b69e5edcf",
+  "stepsHashed": "d713abb9438dc4256bb00cee584e91533e8059fd43622adfc85348bf89b5e085f99c63c727aa9c36b0c1dfff4968f613"
+}

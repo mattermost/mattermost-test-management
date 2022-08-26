@@ -1,0 +1,55 @@
+{
+  "id": 5445237,
+  "key": "MM-T2252",
+  "name": "Unknown emoji inside markdown link",
+  "createdOn": "2020-05-20T06:34:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Unknown emoji inside markdown link<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />On a server where :abcde: is not a known custom emoji, post:<br />[testing:abcde: test](www.google.ca)",
+        "testData": null,
+        "expectedResult": "Should render link with no extra spaces:<br />testing:abcde: test<br /><br />(Broken, with extra spaces, it looks like the following:)<br />testing   test",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "70ebb135596cd622f3c7cd6b5a7c85d8efe591b5eb81470118adfde0a59b2a11658a29044a7bf2a8e2da20a8d9c4ca07",
+  "stepsHashed": "7463614ed90525fa6e2d05bd6abb6f2a668d0255f80a97ec8e38787a3a107ce01e2b4da97d6274cb9a880843406b653a"
+}

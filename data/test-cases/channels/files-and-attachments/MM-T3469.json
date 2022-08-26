@@ -1,0 +1,55 @@
+{
+  "id": 7769057,
+  "key": "MM-T3469",
+  "name": "RN apps: Disable \"Allow File Uploads on Mobile\" - Copy and Paste",
+  "createdOn": "2020-11-06T00:56:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should show error message when user attempts to copy and paste file and mobile file upload is disabled<br>--------------------<br>1. As admin, go to <strong>Site Configuration &gt;&nbsp;</strong><strong>File Sharing and Downloads&nbsp;</strong>and set,<ul><li><strong>Allow File Sharing = true</strong></li><li><strong>Allow File Uploads on Mobile = false</strong></li></ul>2. As user, login to app and go to a channel then close app<br>3. Copy an image to clipboard, open app, and attempt to paste on post input",
+        "testData": null,
+        "expectedResult": "After #3,<ul><li>Post input should show error message,<ul><li><strong>File uploads from mobile are disabled.</strong></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.37 Mobile (November 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-29948\">https://mattermost.atlassian.net/browse/MM-29948</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b00f8a86cf1337e86922d38a63cd3638c2b29392079c9130bb7da4813f2d5207e38b5a7b312df983483dc53b771a299",
+  "stepsHashed": "9fd38170f18a45d5d29e54dd27f3741ffe65238e37e1c3d3b6f03c8a160685cdc17063435dda15afdd3633187b1e66e6"
+}

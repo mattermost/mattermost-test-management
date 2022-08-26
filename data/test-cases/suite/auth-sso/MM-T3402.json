@@ -1,0 +1,55 @@
+{
+  "id": 7399455,
+  "key": "MM-T3402",
+  "name": "Login on one tab takes effect on additional tab on that browser",
+  "createdOn": "2020-10-12T13:34:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["auth-sso"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Login - multiple tabs<br>______________________<ol><li>Open 2 tabs with the same server on the same browser e.g. rc.test.mattermost.com on Chrome - leave both on login screen</li><li>Log in on one tab</li><li>Click on the second tab&nbsp;</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><p data-pm-slice='1 1 [\"bulletList\",null,\"listItem\",null]'>Login is signaled to other tabs</p></li><li><p>Login on other tabs completes when focus is placed on those tabs and not immediately at the time of initial login at step 2.</p></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "17746601e11e4a5de0aaa8d3068a3d1aeb10cb8e06adabf824a080f7f5d45001c1cc482331c0c213e8c70e4e49fbaf3a",
+  "stepsHashed": "ec1a2dde1091d252b95b59ee902d58300c2ebd901976357cbf5dc7e7722137817a8c1a9ad64b48d7e704dd049be83dec"
+}

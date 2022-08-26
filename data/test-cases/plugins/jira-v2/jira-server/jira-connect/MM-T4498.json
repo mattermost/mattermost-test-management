@@ -1,0 +1,94 @@
+{
+  "id": 17673975,
+  "key": "MM-T4498",
+  "name": "Connect to Jira from Desktop client",
+  "createdOn": "2022-01-18T22:06:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2119059,
+    "name": "Jira Connect",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Connect"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-connect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira V2"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "- Test /jira connect<br />————————————————————————————<ol><li>Type \"/jira connect\" and post</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>An ephemeral post is created with an authentication link</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Click the authentication link that is generated</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>A child window opens to authentication into Jira</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>In the child window that opens login to Jira (optional)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>A browser informs you that the user is mapped.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Approve Mattermost have access to your Jira user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mattermost now shows Create and Attach</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3af7d713320f098d49a57f988df8b9bbaeadc01728c488e9fc1db61343e1f7d0e53db0113e192f1ba621e00b896d4e9b",
+  "stepsHashed": "9f5c85c79d70ebdacacc3f5f5657b58f4fa368c12b1e4f7b86df1925959c68d510fad5b28a98224ef2fd61cd402df911"
+}

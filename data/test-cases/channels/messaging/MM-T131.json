@@ -1,0 +1,55 @@
+{
+  "id": 3742301,
+  "key": "MM-T131",
+  "name": "Message Draft Persists, and Pencil Icon - CTRL/CMD+K & \"Jump to\"",
+  "createdOn": "2019-12-20T20:24:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, September 17, 2020 7:21 PM<br>• Added links to all Cypress points and Rainforest tests<br>• Removed test from manual pool<br>• Changed status to Active",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Message Draft Pencil Icon - CTRL/CMD+K &amp; \"Jump to\"<br>--------------------<br>1. In a test channel, type some text in the message input box<br>2. Do not send the post<br>3. Switch to another channel<br>4. Press CTRL/CMD+K (RN apps \"Jump to\")<br>5. Type the first few letters of the channel name you typed the message draft in<br>6. Click to switch back to the test channel",
+        "testData": null,
+        "expectedResult": "After 5) You should see a pencil icon to the left of the channel name in the filtered list<br>After 6) Draft is saved in the text input box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "29913ca4b380432201908bc5b0f1be5049785dfa7cca3d31e426ce58fac32f707dcdf53f36d56208e9164349d1ca8291",
+  "stepsHashed": "50fa59d67c55c82249002aededc177e2e5e9194a000ed4a9c2eb8822a53e7552073a8a35fb9f620182f62b4ad4093439"
+}

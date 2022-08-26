@@ -1,0 +1,55 @@
+{
+  "id": 19756769,
+  "key": "MM-T4719",
+  "name": "CRT - L11 - Open an unfollowed thread",
+  "createdOn": "2022-03-24T20:57:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Open an unfollowed thread</u><ol><li>As User1, create new root post in Off topic <ol><li>Verify for User1 this channel is <strong>not</strong> bolded</li><li>Verify channel item <strong>doesn't</strong> have mention badge</li><li>Verify global threads item is <strong>not</strong> bolded</li><li>Verify global threads item <strong>doesn't</strong> have mention badge</li><li>Verify main channel root post <strong>doesn't</strong> have a thread footer and <strong>no</strong> unread dot</li><li>Verify <strong>no</strong> new messages line on the channel</li></ol></li><li> Login as User2 and mark Off topic as read</li><li>As User2 switch to different channel<ol><li>Verify Off topic is <strong>not</strong> bolded</li></ol></li><li>As User1 add replies to post from step 1.<ol><li>Verify, for user1, root post has a thread footer, Following and <strong>no</strong> unread dot</li></ol></li><li>As User2 click on Off Topic to open <ol><li>Verify Off topic is <strong>not</strong> bolded</li><li>Verify global threads item is <strong>not</strong> bolded</li><li>Verify main channel post from step one has a thread footer, Follow and <strong>no</strong> unread dot</li><li>Verify <strong>no</strong> new messages line above the root post</li></ol></li><li>Click on the root post to open on RHS <ol><li>Verify Follow button</li><li>Verify <strong>no</strong> new message line</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Reading unfollowed threads should have no effect on badge/bolding behavior for the channel sidebar or thread sidebar items",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "037d181fe529cc92a094b674e75087b5ccf03816fad1c87466a4b313c12a808b5cab46a9a2e577eba33508eec6b71563",
+  "stepsHashed": "67d93e8b5ca80ab6a8e32c8e27f58572f565f17ce9b85bd53639f15ea708a365806609116d6b3ca59057479d6eeb625a"
+}

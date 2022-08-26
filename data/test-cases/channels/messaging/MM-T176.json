@@ -1,0 +1,55 @@
+{
+  "id": 3742385,
+  "key": "MM-T176",
+  "name": "Permalink - timestamp link opens permalink view, both center and RHS (mobile view, but not mobile apps)",
+  "createdOn": "2019-12-20T20:46:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Permalink - timestamp link opens permalink view, both center and RHS (mobile view, but not mobile apps)<br />--------------------<br />1. Click on the timestamp of a message in the RHS, and<br />2. Click on the timestamp of a message in the center channel",
+        "testData": null,
+        "expectedResult": "In both cases, permalink should open in same window, not a new window, both on browser and desktop app (N/A for mobile apps; not a link)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d82d9bd85f9a36f3187dbd803520f54005ff47793e66370850c5faed20acfc344c1f446316bc80650f3c2cb678ff9e2",
+  "stepsHashed": "cf0f5a6ddc63b12cf04f0dd76f990d39f0c9caa3fdef1f444c4ca67e45f92cc0b5cf3a0396bb02651aa99cabf34d39bb"
+}

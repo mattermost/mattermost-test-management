@@ -1,0 +1,55 @@
+{
+  "id": 5444648,
+  "key": "MM-T2100",
+  "name": "Display: Link Previews Expanded setting defaults link preview post to expanded",
+  "createdOn": "2020-05-20T05:50:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Display<br />————————————————————————————<br />1. Go to Settings -&gt; Display -&gt;Default Appearance of Image Previews -&gt; Edit<br />2. Select \"Expanded\"<br />3. Save<br />4. Post the link: http://www.mattermost.org/wp-content/uploads/2016/04/icon_WS.png",
+        "testData": null,
+        "expectedResult": "​​​​Link should show a preview of the Mattermost logo.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8f8a34c9925b7afabc6ef6f86683e199bfa3d11dba95dcfd099e4cb3f7872de89fa52880ba63f12a355b6b43f883ad77",
+  "stepsHashed": "d1a24cd520e560b35dc58f4b29ef11abd732d50e30347134b03272531f3284e0e6d6cc55ff7739a84e73533bbe359acc"
+}

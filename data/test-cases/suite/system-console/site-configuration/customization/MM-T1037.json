@@ -1,0 +1,55 @@
+{
+  "id": 4051792,
+  "key": "MM-T1037",
+  "name": "Customization\nCustom Support Email",
+  "createdOn": "2020-01-21T22:18:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Customization<br />Custom Support Email<br />--------------------<br />1. Change the &quot;Support Email&quot; to bot@mattermost.com<br />2. Save<br />3. Switch back to a team, and replace &quot;channels/town-square&quot; with &quot;/tutorial&quot;<br />(Note: that doesn't work anymore. Create new account)<br />4. Hit &quot;Next&quot; in the tutorial twice",
+        "testData": null,
+        "expectedResult": "Tutorial intro screen should display bot@mattermost.com as the support email",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2dc867097c103710e1ed49792cd09b4d9560b2002e1771be4a8a262e333be0db3d93babc4d58beff0e88d257f21add52",
+  "stepsHashed": "740c1a317cf1557aa9e71baabd1eaec84e15b3f51dc9b0034bf7131666641ca6d7df2c3c5372f66b8228ca2c737f7fc2"
+}

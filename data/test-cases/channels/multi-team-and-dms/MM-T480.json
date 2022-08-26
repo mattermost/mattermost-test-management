@@ -1,0 +1,55 @@
+{
+  "id": 3904534,
+  "key": "MM-T480",
+  "name": "Create GM with same members as a previous GM that has been removed from LHS",
+  "createdOn": "2020-01-03T14:24:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create GM with same members as a previous GM that has been removed from LHS<br />--------------------<br />1. Post a message in a GM<br />2. Make a note of all of the users in the GM (ensure that none of the users has been deactivated)<br />3. Click the &quot;x&quot; next to the GM channel name to remove it from sidebar (RN apps tap channel name and Close channel)<br />4. Click &quot;More...&quot; at the bottom of the DM channel list<br />5. Select the exact same users who were in the GM you deleted, and click &quot;Go&quot; / &quot;Start&quot;",
+        "testData": "FIXED v5.10 <a href=\"https://mattermost.atlassian.net/browse/MM-14386\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-14386</a>",
+        "expectedResult": "GM appears in LHS DM list again.<br />Previous messages in that GM's history display in center channel.<br /><br />NOTE: It is expected that you cannot re-open a GM that includes a deactivated user this way",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c689ac015c1c812be43181fe8d5056b70955e804643221b214d59f149e939a823de496699b2e0ecf46042199a3077c86",
+  "stepsHashed": "942a781b7055bcd726c877a4f9444cd2f1bfd8cbf10aac810c6770796057c5caf867eb1e98831b0d9384565121bfb442"
+}

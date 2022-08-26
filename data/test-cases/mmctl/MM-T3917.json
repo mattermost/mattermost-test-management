@@ -1,0 +1,55 @@
+{
+  "id": 9478812,
+  "key": "MM-T3917",
+  "name": "Group - Team : Enable (system admin & local)",
+  "createdOn": "2021-03-16T08:20:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl group team enable",
+        "testData": null,
+        "expectedResult": "Enables group constrains in the specified team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b39e6e6ef090987e5ad1e6be2f0e213c21a275c6c5bdec30c32ac3085f2e12493d1e56a322d233958b7129a38efe3efa",
+  "stepsHashed": "95d2d9f573a9971fb44ba940e8e5d26292f84ba0e6decef6b73c09203e96e7c0767fd2c5f3dc6b21f4e99f4b7fffbb16"
+}

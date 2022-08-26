@@ -1,0 +1,55 @@
+{
+  "id": 4058897,
+  "key": "MM-T1167",
+  "name": "Compliance Export job can be canceled",
+  "createdOn": "2020-01-22T19:26:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Start and Cancle Export Job<br />--------------------<br />Start a job and cancel while it's pending.",
+        "testData": null,
+        "expectedResult": "Job listed in table as &quot;Canceled&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eb5c5a6bec8b50406c65e54ee016af76695214104a84c931372da913f0bce6b6bf0dbc8f27b14f9f45fcb504afa22fea",
+  "stepsHashed": "1faf35615f7ff6386cd1d390f4ff6d053f9734ef0c541fd61e166116625dcf76efb6683e92aa034f020013cbb000cb19"
+}

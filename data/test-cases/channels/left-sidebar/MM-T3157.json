@@ -1,0 +1,237 @@
+{
+  "id": 6377911,
+  "key": "MM-T3157",
+  "name": "Drag and Drop Channels",
+  "createdOn": "2020-07-29T19:36:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drag and Drop Channels<br />————————————————————————————<ol><li>Hover over Channels</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Small drag handle displays on the left of the channel type icon</li><li>Mouse cursor changes to Hand Pointer Finger</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Drag handle?<br />no drag handle, spec doc updated"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Pick up any private or public channel to move</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mouse cursor becomes dragging cursor - closed hand</li><li>Channel being dragged should float beneath the mouse cursor</li><li>DM category dims and all channels within if expanded</li><li>Can't drop cursor is shown when hovering outside of sidebar or non-droppable areas on the sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel over DM category</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>DM category should not show any indication that the channel is droppable</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel over any Category header while category is expanded</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication that channel will drop in the first position</li><li>Channels can be dropped between exising channels</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel over any Category header while category is collapsed</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Category does not expand</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel in any direction</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Item can be dragged in any direction, vertically or horizontally</li><li>Can't drop cursor is shown when hovering outside of sidebar or non-droppable areas on the sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel to near top or bottom of the sidebar to trigger scrolling</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Scrolling while dragging is allowed</li><li>Scrolling should be smooth, not sticky or jumpy</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a channel and press ESC</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Dragging is canceled</li><li>Channel is returned to its original position</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Verify you can't drop any private or public channel into DM category</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Collapse category and Drop a read channel into a category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will placed at the top of the category</li><li>Category remains collapsed after the drop</li><li>Dropped read channel is not shown</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Expand a category and drop a read channel into category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will be placed at the top of the category</li><li>Dropped channel is placed on the top of the channel list within the category</li><li>Category remains expanded after the drop</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Collapse a category and drop an unread channel into a category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will be placed at the top of the category</li><li>Category remains collapsed after the drop with the unread channel showing</li><li>Dropped channel will be placed on the top of the channel list within the category</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Expand category and Drop an unread channel into category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will placed at the top of the category</li><li>Category remains expanded after the drop and newly dropped channel is placed at the top of the channel list</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drop a channel into New custom category header directly(new badge)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will placed at the top of the category</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Should name outline while new badge is present?"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drop a channel into New custom category drop zone (new badge)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication channel will placed at the top of the category</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Should the drop zone disappear on hover?"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f1835f9c38099945e500cea8b39aedba0cca8b9124e0998a0b70ff743b245c2ebf7c654e5ceb456af47c660b8fb60eeb",
+  "stepsHashed": "7d0e1c23b6d750de98d8f84c7d0f5ceea9f6d33dba9fb46a9f8c56ce0b8387b872d5aa9d1133a1c9b7982b4f3538e8ab"
+}

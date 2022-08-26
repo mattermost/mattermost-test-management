@@ -1,0 +1,55 @@
+{
+  "id": 3968361,
+  "key": "MM-T661",
+  "name": "/invite extra white space before @ in DM or GM",
+  "createdOn": "2020-01-08T12:57:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "/invite - could also add tests for:<br>–––––––––––––––––––––––––<ol><li>In a DM or GM use the /invite command to invite a user to a channel you have permission to add them to but place extra white space before the username<br>(e.g., \"/invite &nbsp; &nbsp; &nbsp; @username)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User added to channel as expected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-10406\">Extra white space character will prevent slash commands from finding the user in the @mention — MM-10406</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8ce8511404b82e6e0b4949db3ce910de3ba3a2b5c0f9d99d0a28a301670826af87796081c01772a54258fd8f63a7c2ac",
+  "stepsHashed": "5915942e0f027d80947e45e0fdc2f216cbbaf4bc84df3ba8d87743e37538ddd86d60fab87bd13dac59a8d15f090bf0dd"
+}

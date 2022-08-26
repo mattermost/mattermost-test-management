@@ -1,0 +1,56 @@
+{
+  "id": 28665882,
+  "key": "MM-T5058",
+  "name": "OpsGenie command: `/genie alert assign`",
+  "createdOn": "2022-08-16T14:52:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5049" } },
+    {
+      "inline": {
+        "description": "2. Run the `/genie alert assign` command<br />3. Add alert's tiny ID (number of alert)<br />4. Choose user to assign<br />5. Execute action",
+        "testData": null,
+        "expectedResult": "On 2. Both options to execute are shown: executing command or input options as part of commands<br />On 5. The data is validated. OpsGenie App bot returns an ephemeral post as a response:<br />- If the alert ID and user email are valid, the alert's ownership will be updated and the response will show `Assign alert's #[ID] ownership to [user's email] will be processed`<br />- If the alert ID is not valid, the post shows the `Alert with tiny [ID] not found.`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5ee5b2c087621d01130362f63db32f2e5588746caca7096885af97f4177475d86aff50bd6f3aec88da906eed2bfc79c8",
+  "stepsHashed": "3eb1df11ea2db27adfca8d0a785690604e13f10eafc3564349f9850caac27f3f2fc2a539e954bc0439ac64c5b7262d16"
+}

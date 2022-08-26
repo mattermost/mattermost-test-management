@@ -1,0 +1,55 @@
+{
+  "id": 4064396,
+  "key": "MM-T1272",
+  "name": "UP - RHS: Removing all text in edit deletes reply",
+  "createdOn": "2020-01-23T13:38:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post a message<br />2. Click reply arrow to open reply RHS, post a reply<br />3. Observe focus is still in RHS reply box<br />4. Press UP<br />5. Remove all text from the edit box and press ENTER<br />6. Observe confirmation modal and press ENTER again",
+        "testData": null,
+        "expectedResult": "Reply is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8edc5be10e62b55337b95d5b653dacd592648360e7a1420b38f01122e90f49e74baa2ad5fa92409af292f864624b64b7",
+  "stepsHashed": "12133c5ded69f17fa7540134e64fbfe41bb8e42bfd20bf72304a91d4a76a75298f595dc952a0ed2a8d28b3a944b77671"
+}

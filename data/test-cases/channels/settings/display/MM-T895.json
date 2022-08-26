@@ -1,0 +1,55 @@
+{
+  "id": 4042864,
+  "key": "MM-T895",
+  "name": "Theme Colors - Sidebar Unread",
+  "createdOn": "2020-01-20T18:31:51Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Settings &gt; Display &gt; Theme &gt; Custom Theme &gt; Sidebar Styles </li><li>Set the Sidebar Text and Sidebar Unread Text colors to be different from theme settings</li><li>View a channel and click off of the window</li><li>Have another user post a message in that channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The text for the channel in the LHS uses the Sidebar Unread Text color as if you were not viewing that channel</li></ul><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1579545640628-Screen+Shot+2019-11-28+at+1.44.19+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20672\" rel=\"noopener noreferrer\" target=\"_blank\">\"Sidebar Unread\" text colour isn't applied when viewing the channel — MM-20672</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9a60676be6c2dd70278bf5456985fd92e8b09a2cfbbb3ee0bcf852e4435b2887d38613c37ac61579ec0001362750c20f",
+  "stepsHashed": "5dbedbd4d6ea0c5446394a492ab39d4c2b30e00e98736256c872b67593b35ad9a505304684f5eec427ff11982751d2b4"
+}

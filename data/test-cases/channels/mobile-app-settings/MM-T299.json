@@ -1,0 +1,55 @@
+{
+  "id": 3808153,
+  "key": "MM-T299",
+  "name": "RN apps: Report a problem",
+  "createdOn": "2019-12-30T23:49:20Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it's not possible to set up an email account on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Report a problem - RN<br />–––––––––––––––––––––––––<ol><li>Tap the three-dot menu in the top right of your screen</li><li>Tap \"Settings\" ➜\"Report a Problem\"</li><li>Confirm to compose the email in your email client</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>A pre-filled email to \"feedback@mattermost.com\" should open.</li><li>You have the option to tap \"Send\" or type in additional information about the problem you have experienced.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-27532\">Settings -&gt; Report a Problem: Configured email app (FastMail) opens but the To: field is empty — MM-27532</a><br />Determined to be a FastMail issue. Closed as Invalid.",
+          "Important notes about this step": "​​​​This test assumes you have a native email client set up on your device."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8f547fd557582df5b31034b86012a455c4cf700fb2fe01f96da90cf1e2ff3525cede30b5bc4b210707288e3f1c06bd02",
+  "stepsHashed": "feeb4a19f12c2a9ec7a506701bba4c098cfc0f82a40ccbcdeb6df38da283b4389598e0f0f8c054ddb2e15f50f5f5b75b"
+}

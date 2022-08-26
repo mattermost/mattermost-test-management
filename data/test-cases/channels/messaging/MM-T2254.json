@@ -1,0 +1,55 @@
+{
+  "id": 5445239,
+  "key": "MM-T2254",
+  "name": "Retry Send (including multiple clicks)",
+  "createdOn": "2020-05-20T06:34:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Retry Send (including multiple clicks)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Turn off Internet connection (on mobile device, use airplane mode)<br />2. Type a post and press Enter<br />3. Click Retry a few times<br />4. Hover over timestamp and verify it's not a link<br />5. Turn Internet connection back on<br />6. Click Retry several times in quick succession as internet is reconnecting",
+        "testData": null,
+        "expectedResult": "No action when Retry is clicked with Internet connection still off<br /><br />Message ultimately only posts once",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4fb2615068cdd37fd7f6cb0f9fc3ba8a635dc3afe3a979fbc29fbebdb41ae8c942d3a114a9f2bb2e29aa6482ce62543",
+  "stepsHashed": "4c96d0e14ebbf49bd32da9263e2fb765aa400d2784e52219de4dd0ac272da82762920c3f9e0e2902136b3f95bca5ea01"
+}

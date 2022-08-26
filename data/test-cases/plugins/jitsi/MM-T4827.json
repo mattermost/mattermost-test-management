@@ -1,0 +1,55 @@
+{
+  "id": 22954594,
+  "key": "MM-T4827",
+  "name": "Set meeting name to `Allow user to select meeting name`",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as an admin and set the Jitsi Meeting Names to Allow user to select meeting name from the plugin config<br />2. Login as user who has never set meeting name type setting for Jitsi<br />3. Click the Jitsi icon from the channel header<br />4. Type /jitsi start",
+        "testData": null,
+        "expectedResult": "On 3. and 4. The user is shown a set of 4 options for what meeting name format to use",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6cbcecde6fc0deac0f9aa1d72a32f52c151a6638bc593f6f2a3d451246cb675279ee96214f1e0226865d618dcec53739",
+  "stepsHashed": "6659f5f1650ceb1e231f6777f5d79d9508be3c18713362952c601366a61251445fbfc7221c7f84d8821511ff127a4446"
+}

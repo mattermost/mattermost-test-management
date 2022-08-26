@@ -1,0 +1,62 @@
+{
+  "id": 4049523,
+  "key": "MM-T951",
+  "name": "Reopened DM with deactivated user shows archived icon in LHS, No status indicator in channel header, Message input replaced with messaging",
+  "createdOn": "2020-01-21T15:49:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "User-Management",
+    "Duplicate-Automated-Tests",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538610,
+    "name": "User Management",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "User Management"],
+    "fullPath": "suite/system-console/user-management"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 24, 2020 9:28 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Added Duplicate Automated tests (Selenium)<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a DM with a user and post a couple messages<br>2. Deactivate that user in System Console &gt; Users<br>3. Back to a team, use channel switcher to find that DM and reopen it",
+        "testData": null,
+        "expectedResult": "- Reopened DM shows archived icon in LHS<br>- No status indicator in channel header<br>- Message box replaced with `You are viewing an archived channel with a deactivated user. New messages cannot be posted` in center and RHS<br><br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c130743de945b3215c8f2b8522056cad0e8ff03a5b6c8f57877df2ef52c4de93492a6abad04faa848fe8454eadff2a1d",
+  "stepsHashed": "72b067228947925069593525d4873e942886f2d3c3850bd4c4d8c1fdaf3e7c5aaf875d2e1a841f3ec5a98193e40bb143"
+}

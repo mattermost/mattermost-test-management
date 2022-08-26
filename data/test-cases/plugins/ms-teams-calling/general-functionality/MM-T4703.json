@@ -1,0 +1,55 @@
+{
+  "id": 19703644,
+  "key": "MM-T4703",
+  "name": "Join a MS Teams meeting",
+  "createdOn": "2022-03-23T16:18:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Click the &quot;Join Meeting&quot; button",
+        "testData": null,
+        "expectedResult": "MS Teams client opens and you join the meeting",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bad068994d460d56d7505af80fcc662718719ee28cc5b69aeb17311f527b35f81d81ae047ec9852616aeff07df2d7c03",
+  "stepsHashed": "a68c65282c8395750c668dbf95794ebf3827c7311a023f918db280d72518358abfdb8314854cdfe96b897811cd3ae6c1"
+}

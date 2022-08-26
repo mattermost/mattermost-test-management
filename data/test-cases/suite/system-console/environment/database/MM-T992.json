@@ -1,0 +1,55 @@
+{
+  "id": 4050831,
+  "key": "MM-T992",
+  "name": "Database recycle connections doesn't crash :)",
+  "createdOn": "2020-01-21T20:14:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568111,
+    "name": "Database",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Database"],
+    "fullPath": "suite/system-console/environment/database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click Recycle Database Connections",
+        "testData": null,
+        "expectedResult": "<ul><li>After changing from Loading back to original button text, nothing else appears to have happened :) (no crash)</li><li>Page can be reloaded and values are as before</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d10285d1288f99fee1367ee47e349a5d6b299fcafa7abed0e333a5e4e6ad7982639ab610f24833d81c830f8c730dd64d",
+  "stepsHashed": "1962a8187dbe5c587d18d4703897dad6f18398bc16423fec1559f20e7acc2cfa6f8c8a33bd197628c0114534db61a18d"
+}

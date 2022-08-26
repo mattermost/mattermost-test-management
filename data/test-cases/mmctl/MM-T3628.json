@@ -1,0 +1,55 @@
+{
+  "id": 8093904,
+  "key": "MM-T3628",
+  "name": "Plugin - Add : admin and local can add a plugin if the config allows it",
+  "createdOn": "2020-12-03T11:04:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin add [plugin-name]",
+        "testData": null,
+        "expectedResult": "Adds the plugin as the config allows it",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "264851c05d7d38aa9c3aad3badf4069ddf9c32b7883522d99180e7a9dc10e82585e9689063e4ee8f297396d121ee38b1",
+  "stepsHashed": "da586a4879fa2f664c5c0efe39ae98f8ed973b469c5aa4863b9142807ab815e0ba12269dfa85150af97a1c7eed0f0ab0"
+}

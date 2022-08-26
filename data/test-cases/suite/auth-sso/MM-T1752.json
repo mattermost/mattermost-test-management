@@ -1,0 +1,55 @@
+{
+  "id": 5254436,
+  "key": "MM-T1752",
+  "name": "Enable account creation - true",
+  "createdOn": "2020-04-30T12:39:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enable account creation - true<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "- Account creation link available on login page<br />- Invite link appears at beginning of Town Square",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6dc5daf0afad17c85162280dba3eec788b51a5d3668d1670950adb6ff6eebb309a344f9ed99c137bc9b073f502ea6719",
+  "stepsHashed": "561515e96328b21c9b6cc2c359539ec581ebd01126600f0cf61e1b54fba38fbd7c81d1b7bcb6871fae270089512aa95d"
+}

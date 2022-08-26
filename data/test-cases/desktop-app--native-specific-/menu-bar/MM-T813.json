@@ -1,0 +1,55 @@
+{
+  "id": 4032087,
+  "key": "MM-T813",
+  "name": "Use Find option",
+  "createdOn": "2020-01-17T14:04:34Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.5 Desktop App (June 2020)"],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop: Linux"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Use Command/Control+F to activate the View &gt; Find menu option.<br /><br />",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1620411966531-Screen+Shot+2021-05-07+at+2.25.56+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Channel search field is activated</li><li>in: [channel_name] with the trailing space is pre-filled</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.7 Desktop app"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c8ab9515f2c6a4c029979a0fd27a88738e78e2a384abec9fd6ec8d53cd97ac944178165549b56ab1b5f9a9479b11416",
+  "stepsHashed": "70771caa8e222456a5f641fae49c583854dde376353c76f3eacae989e174178d9e0813bafd9a267923015a61fa07bfcb"
+}

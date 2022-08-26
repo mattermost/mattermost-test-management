@@ -1,0 +1,55 @@
+{
+  "id": 16261295,
+  "key": "MM-T4402",
+  "name": "Should upgrade config file from v0",
+  "createdOn": "2021-11-16T19:53:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1965772,
+    "name": "Startup",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Startup"],
+    "fullPath": "desktop-app--native-specific-/startup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Install Mattermost Desktop App v0.x, then configure a server<br />Install Mattermost Desktop App v5+ and start",
+        "testData": null,
+        "expectedResult": "Menu should contain one server called \"Primary team\" that has the URL configured in v0.x",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3a8550820ec1a61037318d49b55cc5c7f7259fdc54ea7da0b6a6014e049ec7c427d2987da042176bd766043be9faea3c",
+  "stepsHashed": "85c7466fa6b7a4639e12176a81ed761a0934b6ca2114af07fc8108699cacb2b269bd3fc4daee25a6a3dfe0816deb4b8a"
+}

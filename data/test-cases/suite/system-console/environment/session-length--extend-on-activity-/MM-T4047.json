@@ -1,0 +1,68 @@
+{
+  "id": 10646441,
+  "key": "MM-T4047",
+  "name": "Session length not extended with SAML/SSO login when ExtendSessionLengthWithActivity is disabled",
+  "createdOn": "2021-05-07T20:48:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738708,
+    "name": "Session Length (Extend on Activity)",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Session Length (Extend on Activity)"],
+    "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.36 (June 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "",
+        "testData": "On 3, note the timestamp.",
+        "expectedResult": "User session should <strong>not&nbsp;</strong>have expired at the 24th hour mark due to the post made in step 3.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "When enabled, it should have extended due to user activity.<br>_______________________<ol><li>At system admin console, enable \"Extend session length with activity\" and set \"Session Length SSO (days)\" to 1.</li><li>Login as SAML or Gitlab user, visit a channel and post a message.</li><li>Wait for 15 minutes then go back and make a second post. Making this post should extend the session length due to activity.</li><li>Wait for 24 hours then go back.</li></ol>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "When disabled, it should not extend even with user activity.<br>_______________________<ol><li>At system admin console, disable \"Extend session length with activity\" and remain \"Session Length SSO (days)\" to 1.</li><li>Login as SAML or Gitlab user, visit a channel and post a message.</li><li>Wait for 15 minutes then go back and make a second post.</li><li>Wait for 24 hours then go back.</li></ol>",
+        "testData": "On 3, note the timestamp.",
+        "expectedResult": "User session should<strong>&nbsp;</strong>have expired at the 24th hour mark even with a user activity of post made in step 3.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8fb835750101981a6682d1d05f92b57b629958addc577158df1141c6847da782d761e9ff79ed865ed83f10703524a1cc",
+  "stepsHashed": "af92f8372aadb4504d3980f9029704f4057c01bb93d954d30f1dd2d306091f999c3569bc160877116354b2d4e8f75c36"
+}

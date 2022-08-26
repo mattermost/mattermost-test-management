@@ -1,0 +1,55 @@
+{
+  "id": 5444745,
+  "key": "MM-T2145",
+  "name": "Other user sees `(edited)`",
+  "createdOn": "2020-05-20T06:05:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Other user sees `(edited)`<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post a message<br />2. Edit the message<br />3. Log in as another user in another browser / device<br />2. View the above edited message in center and reply thread as other user",
+        "testData": null,
+        "expectedResult": "1. Other user sees `(edited)` in center and RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d6b270e3fd545427dcce7baa812b1c13da93cfcd7fdabda5073aa1d6bf71836b49f15cfefa026e4783b59e620e8e5454",
+  "stepsHashed": "421cfbd80fe871cc43b803b6b069171dd635bff9e0ea8215e3cfa79936aca08528e1e718976157651f5711105a769893"
+}

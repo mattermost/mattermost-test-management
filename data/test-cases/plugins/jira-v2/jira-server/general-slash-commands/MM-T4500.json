@@ -1,0 +1,55 @@
+{
+  "id": 17674237,
+  "key": "MM-T4500",
+  "name": "/jira disconnect when no intance is installed",
+  "createdOn": "2022-01-18T22:32:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118488,
+    "name": "General Slash commands",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "General Slash commands"],
+    "fullPath": "plugins/jira-v2/jira-server/general-slash-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure there is no Jira instance installed<br />2.post /jira disconnect",
+        "testData": null,
+        "expectedResult": "Ephemeral post informs test user that no jira instance has been installed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e3c57b5e529a67a26ddbe9f2b419705cbff74948de4a44d4065274ebd86076b901b4b48d495981223c3ccb37aa31eadc",
+  "stepsHashed": "e031c94ded56e2f2acdefdb3c94a86d9f2d3e6a18d5b69475f9e1ec4470cd2cdb4a06b2ea02870135f5b21e2efb55f30"
+}

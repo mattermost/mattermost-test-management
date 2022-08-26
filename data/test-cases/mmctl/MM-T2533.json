@@ -1,0 +1,55 @@
+{
+  "id": 5530148,
+  "key": "MM-T2533",
+  "name": "User - allow searching for emails containing the / character",
+  "createdOn": "2020-05-27T13:10:26Z",
+  "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Include in monthly smoke-test</span></h1>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User - allow searching for emails containing the / character<br>————————————————————————————<br><strong><span style=\"color: rgb(184, 49, 47);\">DO THIS TEST ON POSTGRES.TEST</span></strong>(user with slash in email address already exists)<ol><li>In a command line window set to the directory where 'mmctl' is installed in</li><li>Run \"mmctl auth login https://postgres.test.mattermost.com --name postgres.test --username john.doe --password mysupersecret\"<br><br><strong>Note</strong>: Enter valid username and password for a system admin user<br><br></li><li>Search for \"lindy+/1@mattermost.com\" using \"mmctl user search lindy+/1@mattermost.com\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The details for the user should be displayed (starting with ID, username, nickname, etc)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22572\">Modify search user by email endpoint to allow searching for emails containing the / character — MM-22572</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "63dd0b5171b0babf3028e66f3d50048ea20c01d7f8b61de590152d60942c134a62e6ab4e8766b8db37f904e81d0756da",
+  "stepsHashed": "8f6ff67fada5727b5120dd1b94e658475df12f725a7b5d66fda06ac37b79d7118212198e2a7051ec85fedbf960524f6c"
+}

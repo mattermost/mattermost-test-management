@@ -1,0 +1,55 @@
+{
+  "id": 6977099,
+  "key": "MM-T3357",
+  "name": "Client side ping pong and disconnect banner",
+  "createdOn": "2020-09-10T13:48:38Z",
+  "objective": null,
+  "precondition": "Manual test only. Not able to automate.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738571,
+    "name": "Redirect",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "Redirect"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Client side ping pong and disconnect banner<br>_______________________________________________<br><ol><li>Open Dev Tools &gt; Network tab &gt; WS (to view active websocket connection)</li><li>Refresh the page after opening</li><li>Select the first WS event to see details on the right -observe ping events coming every 10 seconds&nbsp;</li><li>Disconnect Wifi and verify disconnect banner appears on the server</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599744025970-Screen+Shot+2020-09-10+at+8.46.48+AM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Verify 10 second ping&nbsp;</li><li>Verify banner is present after loss of connection&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c7850202f4d7e5e2e0a0d866b718a87474bca2f71f7bd6f9ffa7c0e2da219666a5703bfcdf11d7262d2ebb5f2c4a52b1",
+  "stepsHashed": "ab1b5aada308054850022f6d052b35cc77799d8d4e355f99384705d5b9ab1157e2e686526025cb208ef7e22690705359"
+}

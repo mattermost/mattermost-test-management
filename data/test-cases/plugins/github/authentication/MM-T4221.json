@@ -1,0 +1,55 @@
+{
+  "id": 13721560,
+  "key": "MM-T4221",
+  "name": "Enable private repositories",
+  "createdOn": "2021-08-30T15:37:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194687,
+    "name": "Authentication",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Authentication"],
+    "fullPath": "plugins/github/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Go to System Console &gt; Plugins &gt; GitHub\n<br />2. Set \"Enable Private Repositories\" to true\n<br />3. Post \"/github connect private\" into a Mattermost channel.\n<br />4. Complete the resulting user connection flow.\n<br />5. Post \"/github subscribe mattermost/mattermost-platform-private\"",
+        "testData": null,
+        "expectedResult": "Subscription is successful\n<br /><br />User see's a warning message: \"Warning: You subscribed to a private repository. Anyone with access to this channel will be able to read the events getting posted here.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bb349a4fe8d7c96a92f8ddc12208bdcb065f6be6634c1defacabb67420374eaea6503f03af3ad54a62dab5b07611339d",
+  "stepsHashed": "ec4bd87bd494e28cd63042a88ce1139ffeddee8a7975e755b0232c2e508be97c00e7d13c1e4970d9440045a8753d34e6"
+}

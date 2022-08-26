@@ -1,0 +1,55 @@
+{
+  "id": 5445615,
+  "key": "MM-T2306",
+  "name": "Quotes cause exact phrase search",
+  "createdOn": "2020-05-20T06:50:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Quotes cause exact phrase search<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post message `hello to the whole world`<br />2. Search for `&quot;hello world&quot;` (in quotes)",
+        "testData": null,
+        "expectedResult": "Post &quot;hello to the whole world&quot; is not returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c59b54b139adc8a96425b40b5e8489ba5680bbccbe14b76465ef0c95e70c47cf947e8ae7dac98b87a24c5be67ceb2e2",
+  "stepsHashed": "6a36bda65b016439c617e0cf854a9e8d992d2978bb7cc81b4a31039cd30cd53c17437d831da79dce0167b88cdd2fb684"
+}

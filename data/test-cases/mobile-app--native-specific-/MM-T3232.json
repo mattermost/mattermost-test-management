@@ -1,0 +1,55 @@
+{
+  "id": 6396908,
+  "key": "MM-T3232",
+  "name": "RN apps: Delete a Message - Accept",
+  "createdOn": "2020-07-30T21:05:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should remove message from channel when deleted<br>————————————————————————————<ol><li>Long press on a message in main channel</li><li>Tap on Delete post option</li><li>Tap on Delete button from modal</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After #2,<ul><li>The Delete Post modal with <strong>Cancel</strong> and <strong>Delete</strong> buttons is shown</li></ul></li><li>After #3,<ul><li>The message disappears from the channel</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ea29c45bd41f01a855e5328fb1b610f06018942d76afea930a9b71d8f7a5097baced99a481e8b90e39265c39a8b16c1",
+  "stepsHashed": "f335931f2c344f674e36627dac4472595ee5565e6fe83f734bc0458439487c6bf828007ee80c3a7f441f3d3a6dd04d69"
+}

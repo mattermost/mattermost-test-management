@@ -1,0 +1,55 @@
+{
+  "id": 15984476,
+  "key": "MM-T4367",
+  "name": "User is not permitted to comment",
+  "createdOn": "2021-11-04T17:56:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Locate an issue in bitbucket where you have access to the repo but don't have access to comment on an issue<br />2. Connect to bitbucket from mattermost and ope the attach modal<br />3. Search for and locate the issue from step 1. in the modal",
+        "testData": null,
+        "expectedResult": "Error is shown in the modal - Failed to create an issue comment. Unknown status code",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b1dc262152eba54aa3b2c6c453484959b169a915415296c1cee27108c51ecb1a29a36f3739258f8baf41fac116eb9360",
+  "stepsHashed": "384c7eab7add97f8eb832c1be43780cfc8685794ef50ab8eb7c01ee9ba3a9cc147298c5d66e77630444683c0603033b9"
+}

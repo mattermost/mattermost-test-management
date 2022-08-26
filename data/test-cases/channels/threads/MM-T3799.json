@@ -1,0 +1,81 @@
+{
+  "id": 8715826,
+  "key": "MM-T3799",
+  "name": "Thread followed when participating",
+  "createdOn": "2021-01-25T15:21:01Z",
+  "objective": "Verifying that a thread that the user participated in is followed and shows up on the Threads page",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1139421,
+    "name": "Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Threads"],
+    "fullPath": "channels/threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Threads"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log in and locate a post created a different user<br><br>Note: make sure the post isn't already followed",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Add a comment to the thread",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Open the Threads page in the LHS",
+        "testData": null,
+        "expectedResult": "Verify the thread that was commented on in step 2 is shown in the threads list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2ffeedc2a15627d73558ae5abeb2d2288d6abc2779cf95b2cdda1d01bf2cfb2ef352b60c86c260384dfbf8fe97e9ad44",
+  "stepsHashed": "c28c6656e01298897d265976ea51b66b01f942d7a36a4f97221927aef3c468ca86a2c48d8255b3a9c9fff76b1217ff0a"
+}

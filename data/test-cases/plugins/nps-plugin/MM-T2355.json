@@ -1,0 +1,55 @@
+{
+  "id": 5467319,
+  "key": "MM-T2355",
+  "name": "End user sends message in Surveybot DM",
+  "createdOn": "2020-05-21T21:40:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "5.34-p1"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404297,
+    "name": "NPS Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "NPS Plugin"],
+    "fullPath": "plugins/nps-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "NPS Plugin"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "End user sends message in Surveybot DM<br>————————————————————————————<ol><li>User posts a message in Surveybot DM channel (whether or not they have answered the survey)</li><li>&nbsp;Confirmation modal appears</li><li>User clicks Yes</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1590097775386-1590097775386.png\" style=\"width: 771px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>User's message is posted</li><li>Surveybot auto-reply appears in a thread:<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1590097821145-1590097821145.png\" style=\"width: 532px;\" class=\"fr-fic fr-fil fr-dib\"></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3edf65363bdf784edd1dd006416f7556e0dd835e62afb8735899f152e1c7e9a4959de64fc3d7a58684a5b47e0fea9aa2",
+  "stepsHashed": "0d839ce0c7664938d987d959d778ae1b476fc7f7bc0a456f61cda60b021f55e9d72ec3ea9e27f63cbcefbb1a2dba7695"
+}

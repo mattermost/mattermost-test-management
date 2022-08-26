@@ -1,0 +1,55 @@
+{
+  "id": 6935977,
+  "key": "MM-T3356",
+  "name": "Slash command auto-complete works as expected in RHS thread",
+  "createdOn": "2020-09-08T16:52:59Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires test demo plugin build here: <a href=\"https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation\">https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation</a>",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Install Agenda v0.3.0</li><li> Make a post and open the reply thread for it</li><li> Type /agenda queue and select any day of the week</li><li>Type an agenda item</li><li> Send the command</li><li>Type /todo and select list form the options list</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Slash command auto-complete options are visible in RHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-32684\">RHS Autocomplete options cover the input box for some reply threads — MM-32684</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a593af81122a29777603f2f97afab5abe3af43d162a6e1ad9e95ea232b1c491fba7ab73b9a3746cd9c721aa5ae0bf267",
+  "stepsHashed": "dab2e9843e7b16fff1d66da2788e0423bcbd139b547ad0ca1c8075f490396990ea5e0f7058f55cf8570bbf21b30e3196"
+}

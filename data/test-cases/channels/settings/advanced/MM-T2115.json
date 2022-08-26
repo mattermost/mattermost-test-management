@@ -1,0 +1,55 @@
+{
+  "id": 5444663,
+  "key": "MM-T2115",
+  "name": "Advanced - Ctrl-Enter (post text box)",
+  "createdOn": "2020-05-20T05:50:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063264,
+    "name": "Advanced",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Advanced - Ctrl-Enter (post text box)<br />————————————————————————————<br />1. Go to  Settings -&gt; Advanced -&gt; Send Messages on Ctrl + Enter -&gt; Edit<br />2. Set to \"On\"<br />3. Save<br />4. Type a message and press \"Enter\"<br />5. If on desktop, Press Control + Enter",
+        "testData": null,
+        "expectedResult": "Hitting \"Enter\" creates a new line in the message, and hitting \"Control + Enter\" sends the message.<br /><br />On mobile: Hitting Enter should create a new line.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0623e9a894269c5f8194738fac698d88cd3b57dfe1ba8dc2b4bffabe4bcd07175791c8782aff351c1c7d99635e2fe4ee",
+  "stepsHashed": "a6959483907cc192941ad97e3acfa55fab181beadd9bde91ad3dc3b3de6ae8b042ba078897bff5ccfe92229e44df46ab"
+}

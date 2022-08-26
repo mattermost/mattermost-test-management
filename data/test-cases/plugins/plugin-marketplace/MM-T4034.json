@@ -1,0 +1,55 @@
+{
+  "id": 10478610,
+  "key": "MM-T4034",
+  "name": "Plugin Marketplace is available for System Manager",
+  "createdOn": "2021-04-30T21:53:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugin Marketplace is available for System Manager<br>–––––––––––––––––––––––––<ol><li>Login as System Admin</li><li>Go to System Console &gt; User Management &gt; Permission</li><li>Click Edit for System Manager&nbsp;</li><li>Set permission to <strong>C</strong><strong>an edit&nbsp;</strong>of Plugin (Beta)</li><li>Click Add people and add a user</li><li>Login as System Manager&nbsp;</li><li>Click on the main menu (hamburger menu on the left top)</li></ol>",
+        "testData": "<br><br>",
+        "expectedResult": "4. Plugin (Beta) should &nbsp;be set to <strong>C</strong><strong>an edit</strong><br>8. “Marketplace\" is available in the menu<br><br><br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1619820607967-1619820607967.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b60b0e4d403df3d7760bd1d92203ef871b71820f0ada555337d5c4977f8ba21d58c098c102d2d86679692307c3ff95b6",
+  "stepsHashed": "fe7635ec489adbad93f458bcd79a4d3294586d3a7102d75b528e76f88d70152e69a8da9f8c2e6e6fa5591731abe1447f"
+}

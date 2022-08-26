@@ -1,0 +1,55 @@
+{
+  "id": 4138460,
+  "key": "MM-T1328",
+  "name": "Invite Members - Existing Member not on the team",
+  "createdOn": "2020-01-29T23:38:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 580214,
+    "name": "Members Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
+    "fullPath": "suite/guest-accounts/members-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In the \"Invite People\" field start typing a name of an existing user that is a member on another team</li><li>Select the user in the autocomplete dropdown</li><li>Click \"Invite Members\"</li></ol><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580757717641-2020-02-03_14-21-40.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "testData": null,
+        "expectedResult": "User is put in \"Successful\" section with the following details:<ul><li>\"<em>This member has been added to the team</em>\"</li></ul><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580756066824-2020-02-03_13-52-26.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18040\">UI Automation: Write an automated test using Cypress for \"Members Invitation Flow: Add New/Existing Users\" — MM-18040</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f6b02df1f93a9211e3e95d7386f44707d87eedeadf62b918e9d7daeaec11990ce8b10447fa90184732bc0766691699b2",
+  "stepsHashed": "7c635e86367960693a4d2ea78623e6e21103e32e31a7252d73c1d45a27c22accda4509d484918e4117b926435c5ee716"
+}

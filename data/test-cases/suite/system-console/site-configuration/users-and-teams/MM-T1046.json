@@ -1,0 +1,55 @@
+{
+  "id": 4058056,
+  "key": "MM-T1046",
+  "name": "Max Users per Team: Can't use invite link over max",
+  "createdOn": "2020-01-22T16:25:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Max Users per Team<br />--------------------<br />1. Set Max Users to number of users on the current team, Save<br />2. Have a user not on the team try to join the team using an invite link",
+        "testData": "Won't fix (when max no. is reduced to fewer than current users on team, no need to notify in real time): https://mattermost.atlassian.net/browse/PLT-4091",
+        "expectedResult": "User sees error message below the Create Button on trying to save new account info: &quot;This team has reached the maximum number of allowed accounts. Contact your systems administrator to set a higher limit.&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e350462999d1bd91dacad3f611f2c367c50a0eb8bc261d97deb9bbc84b4803fa46278ddd0631832fe72d35cd615dda16",
+  "stepsHashed": "8662faec21454c135d312ea943da83412ba8e1e30a0f02c449f129508c4cbb4dc786050f80e448f636cf21affbad250c"
+}

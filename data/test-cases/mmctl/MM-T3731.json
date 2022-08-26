@@ -1,0 +1,55 @@
+{
+  "id": 8620697,
+  "key": "MM-T3731",
+  "name": "Plugin - Marketplace : Install - invalid version",
+  "createdOn": "2021-01-18T11:47:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin marketplace install [name] [invalid-version]",
+        "testData": null,
+        "expectedResult": "Returns an error as the version of the plugin is invalid - \"Could not find the requested plugin\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "52cd6db84df1a0020a037986fb8bfbdea5179850757e0f2b68a27a51021fdae3e8df080337cccb26b104c82284b42460",
+  "stepsHashed": "c5f9696a3817eb308b38818771f843e7b08141b5a05fbe86a9a80da31d8107a8219bc5f542978c07734661dcddb89274"
+}

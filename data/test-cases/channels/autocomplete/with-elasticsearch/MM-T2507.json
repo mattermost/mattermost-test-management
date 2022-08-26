@@ -1,0 +1,55 @@
+{
+  "id": 5519367,
+  "key": "MM-T2507",
+  "name": "RN apps: Find DM channel – Username, first, last, nickname",
+  "createdOn": "2020-05-26T20:27:36Z",
+  "objective": "<span style=\"color:rgb(0, 0, 0)\">NOTE: Elasticsearch &gt; \"Enable <mark>Elasticsearch</mark> for autocomplete queries: \" must be set to True<br /><br />Users are auto-completed as expected, by username, nickname, firstname, lastname (e.g. I can search for `isherwood` and `lindy.isherwood` will be returned)</span>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Update"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN APPS: FIND CHANNEL<br />Users are auto-completed as expected, by username, nickname, firstname, lastname (e.g. I can search for `isherwood` and `lindy.isherwood` will be returned)<br />–––––––––––––––––––––––––<ol><li>Tap on hamburger menu (top left)</li><li>Tap in \"Find channel\" box</li><li>Type \"@username\" of a user you want to search for</li><li>Type \"@firstname\" of a user you want to search for</li><li>Type \"@lastname\" of a user you want to search for</li><li>Type \"@nickname\" of a user you want to search for</li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned<br /><ul><li>For #4,#5,#6 The user you're autocompleting should be returned <em><strong>IF</strong></em> they have a first, last and nickname set in Account Settings</li><li>Suggestions for users that are not on current channel but match the search term and are on my team will be returned</li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color:rgb(65, 168, 95)\">Story</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-30342\">Using @ in the mobile channel switcher doesn't return anything — MM-30342</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "63ea878ae6d8b6939b0bf52acc7cb0d8fbaaf8e311d5a4af459493129656c7a560c2ca1e298756cf15eb6ba2093a5198",
+  "stepsHashed": "f00df93b95a2b206949da7563fc924c4acea2813adeb33bc1648cd062e264f0ea7f482782b11928f522258025fd4ee19"
+}

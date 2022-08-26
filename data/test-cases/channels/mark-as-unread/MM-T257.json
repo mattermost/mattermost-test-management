@@ -1,0 +1,55 @@
+{
+  "id": 3768063,
+  "key": "MM-T257",
+  "name": "Mark as Unread when bringing window into focus",
+  "createdOn": "2019-12-27T20:26:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark as Unread when bringing window into focus<br>–––––––––––––––––––––––––<ol><li>Mark a channel as unread</li><li> Click off of the browser/app</li><li>Click back into the browser/app</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The channel stays marked as unread until the user switches off the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19491\">Focusing window marks current channel as read, even when channel was marked as unread — MM-19491</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b2c85a239944295944b967930d4d2ff9fe2c02ebb46c2835ac8f41220feaf252b809219d3853c20cf6037420f2c80b6c",
+  "stepsHashed": "9d4bd78539293ac134dd136c2117d6d989fe36655d5a46cb880d28aa57d588a54484e048ae8308f9e7b2d89affde285e"
+}

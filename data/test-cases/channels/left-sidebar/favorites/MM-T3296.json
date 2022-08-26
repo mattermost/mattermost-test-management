@@ -1,0 +1,55 @@
+{
+  "id": 6562666,
+  "key": "MM-T3296",
+  "name": "Messages sent successfully after adding a channel to favorites",
+  "createdOn": "2020-08-10T13:10:06Z",
+  "objective": "<br><br>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007308,
+    "name": "Favorites",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Favorites"],
+    "fullPath": "channels/left-sidebar/favorites"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Favourite a channel by dragging it into the Favorites category<br>2. Attempt to send a message ",
+        "testData": null,
+        "expectedResult": "Message is sent correctly",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d0db1807b9dcf85cee31240ffdc0523938ef01499f95a8927d12440c158f6152b1549c35e83fff6d1966aecb7ad97cd9",
+  "stepsHashed": "0dafff587e8c3e1e9d00ef5fc175b762af076a44dc35474c0a779a29ca589dc01d4db71a856cbfd4b43cfeaf774433b0"
+}

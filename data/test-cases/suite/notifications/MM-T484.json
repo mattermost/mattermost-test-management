@@ -1,0 +1,55 @@
+{
+  "id": 3905480,
+  "key": "MM-T484",
+  "name": "Channel-wide mentions with mixed case",
+  "createdOn": "2020-01-03T18:52:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel-wide mentions with uppercase<br>–––––––––––––––––––––––––<ol><li>1) Send a post containing `@channEL`. Note that the autocomplete will try to make that lowercase so you'll either need to paste it or hit escape to dismiss the autocomplete</li></ol>",
+        "testData": "@channEL",
+        "expectedResult": "<ul><li>Post appears as `@channEL`</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "34517dd0c8a953a172e618895e8fed9bb4371ab419e4a71e8cc70235e076b07172bcb7d07e3d4c1422aa0cd3dce689f4",
+  "stepsHashed": "a0105c49448abbaaa64a3cc12e89149ead48f3edbdf452c6c23a33831c13d445fc92812ffd238ada34389d896c98c8f6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8828774,
+  "key": "MM-T3821",
+  "name": "Group - Channel : Disable (without permission)",
+  "createdOn": "2021-02-02T10:34:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal account:<br><br>mmctl group channel disable",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. sysadmin)<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b1345b7e5de05781842986d0d5c59cd9fbe6f29ccd132412a586563714c42d0a582694558c41f13e9b127ca0908d97cc",
+  "stepsHashed": "d9022a13a07e8d1ed072d1d871c7646d1786b8bf64e72da4c0f8a97dd5692dfc81a5ac875046a30c271912532e26ef48"
+}

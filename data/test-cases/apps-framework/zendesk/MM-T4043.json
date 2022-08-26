@@ -1,0 +1,95 @@
+{
+  "id": 10560331,
+  "key": "MM-T4043",
+  "name": "Transferring subscriptions",
+  "createdOn": "2021-05-06T15:06:07Z",
+  "objective": null,
+  "precondition": "<strong>Requires a sandbox instance of Zendesk with an oAuth 2 application configured.</strong> <br><br>- No Support yet for RN mobile apps",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1244765,
+    "name": "Zendesk",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Zendesk"],
+    "fullPath": "apps-framework/zendesk"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4042" } },
+    {
+      "inline": {
+        "description": "1. Login to Mattermost as the user who setup the subscription by creating the target<br>2. Run <em>/zendesk disconnect</em>",
+        "testData": null,
+        "expectedResult": "On 2. The Zendesk Bot shows an ephemeral post:<br><em>This mattermost account is connected via oauth2 to Zendesk for subscription functionality and cannot be disconnected until the access token is updated to a new user access token. Please have another connected Mattermost System Admin user with Zendesk Admin privileges run <code>/zendesk setup-target</code> to update the access_token</em>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Login as the test user from step 6. who is also a Mattermost sys admin and an Admin in Zendesk<br>2. Type <em>/zendesk&nbsp;</em><br>3. Run <em>/zendesk&nbsp;</em><em>setup-target</em> to update the auth token being used by subscriptions",
+        "testData": null,
+        "expectedResult": "On 2. the <em>setup-target&nbsp;</em>command is visible<br>On 3. User see's an ephemeral post from the Zendesk bot that subscriptions target has been created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Login to Mattermost as the user from step 7. who created the subscription<br>2. Run <em>/zendesk disconnect</em>",
+        "testData": null,
+        "expectedResult": "The user can disconnect now that the subscriptions token has been transferred. <br>User see's a post from the Zendesk Bot confirming they have disconnected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. In any channel, locate or create a subscription<br>2. Note one or more of the fields targeted by the subscription<br>3. Login to Zendesk and select an ticket where the field(s) are on the form being used<br>4. Modify the target field<br>5. Wait about 30 seconds",
+        "testData": null,
+        "expectedResult": "The subscription event &nbsp;is delivered. <br>Subscriptions remain functional after oAuth token has been transferred",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a5c6371580db3605e2eb0fa43f0e4eceb4b9e4a678f815eb93bea5db57c74f359f6d9674bd734828cfbcdec79878ca9e",
+  "stepsHashed": "d48bd174e1eb77eebdf0876672d3224b7c6a0f51a96f6165ced56cca5fd069fe3cfa358fd227b937ab96b8a718581102"
+}

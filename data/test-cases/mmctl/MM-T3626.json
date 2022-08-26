@@ -1,0 +1,55 @@
+{
+  "id": 8093061,
+  "key": "MM-T3626",
+  "name": "Logs - Display single log line",
+  "createdOn": "2020-12-03T10:18:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl logs -n 1",
+        "testData": null,
+        "expectedResult": "returns 1 line of the logs",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ee14aa04f9241b104d8bb89057bb6c682fce0a53d2931aec9145574e3554a84f3342de74c5222fd4cfb11bd8740c4d56",
+  "stepsHashed": "232d8975bfe7b2f95b0e55ff185074550f96c7c91a5a26c2655c51d5078dea6676a76205fbb2f8bedb413c8fd48cd29f"
+}

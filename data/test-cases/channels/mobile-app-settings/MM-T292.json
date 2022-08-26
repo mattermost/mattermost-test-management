@@ -1,0 +1,55 @@
+{
+  "id": 3808131,
+  "key": "MM-T292",
+  "name": "RN apps: Settings - Display - Clock: 24-hour clock",
+  "createdOn": "2019-12-30T23:09:20Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Settings - Display - Clock: 24-hour clock<br>RN apps<br>–––––––––––––––––––––––––<ol><li>Three-dot menu ➜ Settings ➜ Display &gt; Clock Display</li><li>Select 24-hour clock (Android: Tap Save)</li><li>Tap back arrow ➜ back arrow ➜ `x` to close Settings</li><li>Find a message with timestamp after 12 noon and before midnight</li><li>Verify time format in center</li><li>Search on a word in that message</li><li>Verify time format in search results</li></ol>",
+        "testData": null,
+        "expectedResult": "In both center channel and search results:<ul><li>Time is displayed in 24-hour format, such as 9:08 and 19:16 (no AM or PM)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1efdb9f0ba32fea10627afc697a7c8c14886371d3161a5d369087c130a7fb915b88e88864b979ba1fc360c56ac431a6e",
+  "stepsHashed": "5e006504bea5c0af4d5daf92adf47dbc8a5f9a2d29dde0817ae8a7d681cb30373b989031a3f91d1e29573d26eb703401"
+}

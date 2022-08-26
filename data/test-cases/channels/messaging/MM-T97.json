@@ -1,0 +1,55 @@
+{
+  "id": 3741728,
+  "key": "MM-T97",
+  "name": "Open edit modal immediately after making a post",
+  "createdOn": "2019-12-20T16:33:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Open edit modal immediately after making a post<br />--------------------<br />1. Post a message in a channel<br />2. Type a second post, with different text from the first one, into the input box<br />3. Hit 'enter' key and then immediately (as FAST as you can) hit 'arrow-up' to open the edit box<br />4. If pressed while the new post was still pending, observe the edit box opens for the first post<br />5. Press ESC to close edit modal<br />6. Press UP again",
+        "testData": null,
+        "expectedResult": "Step 4: If you pressed UP while the post was still pending, edit modal opens for previous post<br /><br />Step 6: Edit modal opens for the second post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b830d52bf70d99aff49468e709f7e292c978d330a8b1d90e812e9185fc230be46a2d4607713b26e3f5ea6f2255261b21",
+  "stepsHashed": "51248afd84fa5f7eb1fa2ba3557f1e58981d71670ed77a7ac82e145a1f98625bed1b98f9f73422916577f67312b68d85"
+}

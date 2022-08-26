@@ -1,0 +1,55 @@
+{
+  "id": 4035711,
+  "key": "MM-T842",
+  "name": "All channel types highlight properly on sidebar",
+  "createdOn": "2020-01-18T01:00:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Hold the mouse pointer over a public or private channel in the drawer</li><li>Hold the mouse pointer over a DM or GM in the drawer</li></ol>",
+        "testData": "<strong>N/A for mobile</strong>",
+        "expectedResult": "<ul><li>on the channel becomes highlighted</li><li>on the channel becomes highlighted and an \"x\" is visible near the right edge to remove the channel from the drawer.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "306b0ab4ecb5dd0fda36902cdaf878792b71738dd3299a9329a47943f862d09e076b71d20baaa7a7486508a2d8b53fe7",
+  "stepsHashed": "f5ae447b49eafcce1f3729bc68963fdfe23f05a7af08b7544a5fec0e6989d5ef28645a9e0c2cf78fc20e74f8c7e8fa20"
+}

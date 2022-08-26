@@ -1,0 +1,55 @@
+{
+  "id": 8120423,
+  "key": "MM-T3637",
+  "name": "Bot - Disable",
+  "createdOn": "2020-12-07T10:22:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot disable [testbot]",
+        "testData": null,
+        "expectedResult": "disables bot account",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "868eca83e10303bd2500f979f6a7c968cf880c58f4dbef37db64413d193731d9eb9de6c62213d1d03f2d448fd6047594",
+  "stepsHashed": "28060ee739218ac6b171cf8ffe08bf51cff8874fb3f2a338b263c3392f1092974fa3c82069927dc1386b7b8f610c735e"
+}

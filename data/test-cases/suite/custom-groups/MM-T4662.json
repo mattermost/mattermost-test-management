@@ -1,0 +1,55 @@
+{
+  "id": 18856493,
+  "key": "MM-T4662",
+  "name": "User Groups Modal-Group List Menu",
+  "createdOn": "2022-03-02T15:32:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as <strong>UserA</strong></p></li><li><p>Click Product Switcher Menu </p></li><li><p>Click User Groups option</p></li><li><p>Click 3 dots menu icon next to Group members name</p></li></ol>",
+        "testData": null,
+        "expectedResult": "<p>4. Group List Menu should have following options,</p><ol><li><p>View Group should be displayed</p></li><li><p> Archive Group  should be displayed</p></li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "619223739cd70fd029e5c73a22af117ddb6b7eb189de72b2bad552caf5e5d40987c7d16c18447785c80be2afe5775799",
+  "stepsHashed": "9075495babe7f041e165ede18ef6f03305a79d758489d8e34e608ef955c722afee39e04a92463c264caefa89b736fb8b"
+}

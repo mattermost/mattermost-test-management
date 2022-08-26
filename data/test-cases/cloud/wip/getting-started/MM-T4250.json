@@ -1,0 +1,55 @@
+{
+  "id": 14103162,
+  "key": "MM-T4250",
+  "name": "Getting Started - Second admin",
+  "createdOn": "2021-09-08T18:04:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1716685,
+    "name": "Getting Started",
+    "parentId": 1686243,
+    "fullNames": ["Cloud", "WIP", "Getting Started"],
+    "fullPath": "cloud/wip/getting-started"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create a Workspace</li><li>Sign in as the first admin</li><li>Invite a member and have them log in then logout</li><li>Promote that new member to an admin role</li><li>Have that new admin log back in</li><li>As the new admin verify \"Your trial has started! There are 14 days left\" banner at top of screen with <strong>Subscribe Now</strong> button</li><li>Clicking <strong>Subscribe now</strong> button opens <strong>Provide Your Payment Details </strong>modal window</li><li>Tapping the Esc. key or clicking X in top right corner dismisses the modal window</li><li>Verify 3 (three) <strong>Getting Started </strong>Steps are present and contain expected elements<ol><li>Complete your profile<ul><li>Add a photo (Circle contains first letter of person logged in)<ul><li>Clicking pencil icon opens file browser</li><li><strong>Remove picture</strong> link appears after one has been added and vanishes if the picture is removed</li><li><strong>Note</strong>: Adding a photo is not required so this can be ignored</li></ul></li><li>Enter your name field</li><li>Save Profile button (remains grayed out until information is entered)</li></ul></li><li>Set up desktop notifications<ul><li>Contains single <strong>Set up notifications button</strong> with text outlining the purpose of notifications </li></ul></li><li>Invite members to the team<ul><li>Empty field to type/paste email addresses into (using a space or comma between addresses)</li><li><strong>Send</strong> button below email address field</li><li>Link to share for signup with <strong>Copy Link</strong> button</li><li><strong>Next</strong> button at bottom of step</li></ul></li></ol></li><li>Verify steps can be completed in any order</li><li>Verify <strong>Skip Getting Started</strong> link is present below the <strong>Getting Started</strong> steps</li><li>Verify <strong>Download the Desktop and Mobile apps</strong> image and links are present below the <strong>Getting Started</strong> steps</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-38430\">MM-38430 — Onboarding invite shows limits that no longer apply</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e15741ff292107a22a7b9a147114ef08ddc8544739ec28d102ae52421049a08c85334948864713af6e00a55d824de3a1",
+  "stepsHashed": "59d03ad52ad63eaad403c2c0be3b80b9e5008f5fc168e826a995ae1b78fe0932526c21728eae3cb4e39792426c6ddc02"
+}

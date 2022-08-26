@@ -1,0 +1,55 @@
+{
+  "id": 6618612,
+  "key": "MM-T3309",
+  "name": "Posts do not change order when being sent quickly",
+  "createdOn": "2020-08-13T11:13:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Cloud", "Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1 - Post a series of numbers rapidly one after the other — i.e., Type 1, hit enter, type 2, hit enter, etc. —",
+        "testData": null,
+        "expectedResult": "The posts don't reshuffle as you post but instead post in the order you sent them.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2de82ba5c3f5a43b07368ed702efc8bf6014e760fd2cff219f68cefd197be4b615b3e522540173448b312176dd8b27e5",
+  "stepsHashed": "86a41a303803932d7898bac5a84df909e44d151ef88f250f60074f64b9a674f7b808c8cc5a643c1d855503f445c9df67"
+}

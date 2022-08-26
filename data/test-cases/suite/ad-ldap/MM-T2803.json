@@ -1,0 +1,55 @@
+{
+  "id": 5602332,
+  "key": "MM-T2803",
+  "name": "Mention combinations of permitted and not permitted users - without permission to manage private channel members",
+  "createdOn": "2020-06-01T22:09:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention combinations of permitted and not permitted users - without permission to manage private channel members<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />linda.test does not have permission to add to constrained channel Constrain-QA-Channel:<br />1. Post the following: <br />Hello, @lindy.test, @jesse.test, @corey.test, and @george.test!",
+        "testData": null,
+        "expectedResult": "@george.test-simulator.amazonses.com and @lindy.test-simulator.amazonses.com did not get notified by this mention because they are not in the channel. @corey.test-simulator.amazonses.com and @jesse.test-simulator.amazonses.com did not get notified by this mention because they are not in the channel. They cannot be added to the channel because they are not a member of the linked groups. To add them to this channel, they must be added to the linked groups.",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14417\">Update the behaviour of at-mentioning a user in a private, group-constrained channel — MM-14417</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1426dae2beed5159fd04c9bd26485925c869f7dfae0d257e6fdb120fea82aa3e4c0fa715131e34985e014ac7b5949018",
+  "stepsHashed": "d31b40b4869376d90db09ae4866fa5dbb8a8c8a3bafa1c299c4ed254f0d9cf6e8397db8de6a93eda46e2245559df3e68"
+}

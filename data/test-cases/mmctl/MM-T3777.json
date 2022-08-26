@@ -1,0 +1,55 @@
+{
+  "id": 8646938,
+  "key": "MM-T3777",
+  "name": "User - Update Email : normal user doesn't have permission to change another user's email",
+  "createdOn": "2021-01-20T10:18:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user email [username] [new email]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2ea17919d6cc6d35921d22dbf9f518a4c09ec01eb68ddeecf8257f02783545007a8ad9bb7f2515be0311d2f1c1d5614f",
+  "stepsHashed": "f7f07ff5bd9f3dc417a406ece119bb5ac03743c7a3b87ae3eee3161a83c99bf9141915bf0c6806661681e57c25aaeb6b"
+}

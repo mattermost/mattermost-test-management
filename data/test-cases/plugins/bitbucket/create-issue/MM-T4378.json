@@ -1,0 +1,55 @@
+{
+  "id": 15984690,
+  "key": "MM-T4378",
+  "name": "\"Bitbucket\" icon correctly points to your instance of BitBucket and not bitbucket.com",
+  "createdOn": "2021-11-04T18:04:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915273,
+    "name": "Create Issue",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
+    "fullPath": "plugins/bitbucket/create-issue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Lock the Bitbucket plugin to an org such as DHaussermann<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1636409385507-1636409385507.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /><br />2. Return to the user side and type /bitbucket disconnect<br />3. Click the Bitbucket icon",
+        "testData": null,
+        "expectedResult": "Browser opens to the target organization instead of just bitbucket.org .",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4c2c80601445eb32215a945d850e8e9580f691a2c4e5db9dcc1bfc21031a39846518da4842efe30899e5944ad728b64",
+  "stepsHashed": "fc65ecd79058cbc100e60439e6e6b3627d436d3864955f312e4751633c1c5124ef4578e5f6e2a15d43375fe74d5e8581"
+}

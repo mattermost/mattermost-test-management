@@ -1,0 +1,55 @@
+{
+  "id": 5483724,
+  "key": "MM-T2493",
+  "name": "X closes the dialog",
+  "createdOn": "2020-05-22T17:42:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404285,
+    "name": "Interactive Dialogs",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Dialogs"],
+    "fullPath": "integrations/interactive-dialogs"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, January 05, 2021 10:28 AM<br>• Removed from Mobile testing pool as test appears to be aimed at desktop and Webapp which are currently covered by Cypress<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, September 28, 2020 2:46 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from 🖥️ Desktop &amp; 🌐 Webapp manual pools",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Interactive Dialogs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "X closes the dialog<br>–––––––––––––––––––––––––<ol><li>In a message input box (center channel or RHS), type \"/dialog\" and hit \"Enter\"</li><li>Click/tap the \"X\" in the top right corner</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Interactive dialog modal opens and ephemeral post confirming you used the slash command to open the dialog is made</li><li>Interactive dialog modal closes</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "36c034379936d0c9a9e52f36e62f20811ab5669485c1c354d4e04b09495a978adff5be739bcf1986ded296698647408c",
+  "stepsHashed": "42fe72c3a184e9305ebf7332ac8f1881f450954b43c158bcf88f8e4a56f8b1e61bf8f418f42151c78d0f86715896aee1"
+}

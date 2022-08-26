@@ -1,0 +1,68 @@
+{
+  "id": 4716687,
+  "key": "MM-T1564",
+  "name": "02 - Add user to a team",
+  "createdOn": "2020-03-04T02:50:31Z",
+  "objective": null,
+  "precondition": "A team should already have been created to add a user",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404278,
+    "name": "CLI",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "CLI"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Run `./mattermost team add ateam prapti.shrestha+praptiadmin@mattermost.com admin test7@test.com test.one`</li><li>Go to System Console &gt; Users &gt; select the new team from drop-down</li></ol>",
+        "testData": null,
+        "expectedResult": "Added users are listed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>As praptiadmin, refresh the app.</li><li>ateam is listed as an available team.</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "56ac7614a4f124a9b58c0fd6c704d54f1f61418ac311acefa17066b54695c6a7b7eb629c408d9cc0d2a6efb974e98d76",
+  "stepsHashed": "a4ced54edb58ba9e26a80700f70d1740b72dae7056972f97a779336c567c0c76f48cac18abd4296d14398620ff8bd42a"
+}

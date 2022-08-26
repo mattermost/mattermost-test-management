@@ -1,0 +1,55 @@
+{
+  "id": 5445604,
+  "key": "MM-T2295",
+  "name": "`from:` only returns results posted by specified user\n\nCombine with search term\n\nClick to select auto-complete option",
+  "createdOn": "2020-05-20T06:50:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "`from:` only returns results posted by specified user<br /><br />Combine with search term<br /><br />Click to select auto-complete option<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. First user posts message in Town Square `fromuser #verify`<br />2. Log out and back in as second user<br />3. Second user posts message in Off-Topic `fromuser`<br />4. Log out and back in as first user<br />5. First user searches for `from:[firstusername] fromuser`",
+        "testData": null,
+        "expectedResult": "1. Post by first user is returned<br />2. Post by second user is not returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9cfc1763486e6d5f28849e93057f14a1364d7bbaed47523bc717e058faf7c40efa9970a257c02b44d06d69199ce9272c",
+  "stepsHashed": "aa0cefd4f48a2145ae0d07536ea9591af8b81d2f4e428db62812b473a99b3e059a27fdd869e37b8088308ffbdc10351d"
+}

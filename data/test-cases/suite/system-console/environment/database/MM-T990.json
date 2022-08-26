@@ -1,0 +1,55 @@
+{
+  "id": 4050829,
+  "key": "MM-T990",
+  "name": "Database driver name",
+  "createdOn": "2020-01-21T20:14:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568111,
+    "name": "Database",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Database"],
+    "fullPath": "suite/system-console/environment/database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Check the Driver name</li><li>Go to the three dot menu &gt; About Mattermost</li><li>Check that the database matches the System Console Setting</li></ol>",
+        "testData": "",
+        "expectedResult": "The database in the About Dialog matches the database in the System Console, and the version number is correct.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "965f5da946690f6c58ab914526cfe4b369ef292f170e60324fec89d8f10cc32c7d1e1ef83f0e3f7ebbad70ad8e46706e",
+  "stepsHashed": "6d1e2db8f45382edf6a78134f917b851adf3fc2fc00cf7a2a6386a35831d45e2c6a7f96d412a67f97ebff3e40ca628e7"
+}

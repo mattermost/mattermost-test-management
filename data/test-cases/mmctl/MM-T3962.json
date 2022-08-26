@@ -1,0 +1,55 @@
+{
+  "id": 9948929,
+  "key": "MM-T3962",
+  "name": "Permissions - Role : Remove (System Admin & Local)",
+  "createdOn": "2021-04-05T08:53:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl permissions remove [user-ID]",
+        "testData": null,
+        "expectedResult": "<strong></strong>Removes permissions to the user",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f09745c276e942238b31b975b7a7b617cec1015209394d72c2e66b25dc52c972e86d5ae592b37006b33647ae2705d813",
+  "stepsHashed": "e5fad4660acddb7f8e5da45c000fd1a1dc5e484e780306afbb4ae799278db28f99a07903a2056c989d05b32b8330c0c8"
+}

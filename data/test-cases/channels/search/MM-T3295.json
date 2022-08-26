@@ -1,0 +1,55 @@
+{
+  "id": 6553553,
+  "key": "MM-T3295",
+  "name": "Elasticsearch should be able to search terms inside links",
+  "createdOn": "2020-08-10T09:42:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["search"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create post with this message:<br>\"http://www.wikipedia.org/dolphins\"<br>2. Search for \"wikipedia\"",
+        "testData": null,
+        "expectedResult": "Post is returned in search results",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4cf8bad5a0043744dc7eab0169939a7ab7d988036d724d6c2fe4e261c2d97f497383fc5769c449bcc8ae27cef04e943e",
+  "stepsHashed": "255b9ef0050737c138d6013d2497dee53649409ad96b27d5924db7cfc56caa63738b43a32b75f654c4a106280df23b9d"
+}

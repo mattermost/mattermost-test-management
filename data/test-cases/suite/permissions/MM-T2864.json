@@ -1,0 +1,55 @@
+{
+  "id": 5659414,
+  "key": "MM-T2864",
+  "name": "Edit post time limit is applied to override schemes",
+  "createdOn": "2020-06-04T18:02:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit post time limit is applied to override schemes<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As an admin user, open the console<br />2. Navigate to Permission Schemes and click Edit Scheme for the system level<br />3. Select the Anytime button and enter a number of seconds <br />4. Click Save Edit Time<br />5. Go back and open an existing override scheme and note the time value<br />6. Create a new team override scheme and note the time value",
+        "testData": null,
+        "expectedResult": "For 5, time limit value on edit is applied to existing override schemes<br />For 6, time limit value on edit is applied to new override schemes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4df7fd7bbb6cb60647a2d10bc25bc0e6e31138c5b080dbc8e8b4c66313689f7a0d2b44e2dfbc11345b88ea65f1a1c5b0",
+  "stepsHashed": "16cd5b6c420f0220d78285e351b9ce356c61ccc81ffcdb0bb552e4c649176c7851ed59749ff374a81d07fabd55bc51b7"
+}

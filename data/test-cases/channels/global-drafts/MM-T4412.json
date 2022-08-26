@@ -1,0 +1,55 @@
+{
+  "id": 16284247,
+  "key": "MM-T4412",
+  "name": "Global Drafts > Open draft on click",
+  "createdOn": "2021-11-17T22:17:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1969137,
+    "name": "Global Drafts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Global Drafts"],
+    "fullPath": "channels/global-drafts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open Town Square on Team1</li><li>Add some text to the text box e.g. pineapple<ol style=\"list-style-type:lower-alpha\"><li>Verify global Drafts item is added to LHS</li><li>Verify Town Square shows pencil icon on the right hand side</li><li>Verify draft count of 1</li></ol></li><li>Open Global Drafts <ol style=\"list-style-type:lower-alpha\"><li>Verify draft item is present, with text “pineapple”</li><li>Verify Draft label and time stamp “now”</li></ol></li><li>Click anywhere on global draft item to select<ol style=\"list-style-type:lower-alpha\"><li>Verify user is taken to Town Square</li><li>Verify text box is focused, ready for editing, contains draft text “pineapple”</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Clicking on draft item on drafts view opens the draft in channel ready for editing</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "67d96f3bffb82fb67634c83099d771d1148aa1d1a31fed745e72fb61016bf0ada91d9e43173af1858901cbb16937ed29",
+  "stepsHashed": "afcc1ae0e981c14b10c9d88ce33aba872cbd4b535afcc06142ce2735d81b3ea391f93b4273c840232f71ea3df59a268c"
+}

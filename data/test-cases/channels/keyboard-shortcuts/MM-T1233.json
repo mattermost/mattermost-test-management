@@ -1,0 +1,55 @@
+{
+  "id": 4064356,
+  "key": "MM-T1233",
+  "name": "UP - Other user posts reply to first user's post: Parent post opens for editing for first user",
+  "createdOn": "2020-01-23T13:38:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. As UserA make a post\n<br>2. As UserB, reply to UserA's post\n<br>3. As UserA, click on Reply icon for the post you made in 1) so the RHS opens\n<br>4. As UserA, press the UP arrow on your keyboard",
+        "testData": null,
+        "expectedResult": "After 4) UserA's parent post, made in step 1), opens to be edited.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a873151dd4c777fc9e843233f1346eda3db0d7b42697ad078e60366ae5889217b42eca9af74eb0344167dcfdc4764c8a",
+  "stepsHashed": "95b0da7ea579ab543bb2f1a5ec0558fc7f4dc400785220721678a660b2eddd0c214df0e681b10fbf9e7a0f667424154c"
+}

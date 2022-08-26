@@ -1,0 +1,55 @@
+{
+  "id": 2746252,
+  "key": "MM-T3",
+  "name": "Add User — Public ON / Private OFF",
+  "createdOn": "2019-08-26T23:03:54Z",
+  "objective": "<strong>Original test name from testing spreadsheet →&nbsp;</strong>If the user has manage channel member permissions for public OR private channels, show the option in the profile pop-over",
+  "precondition": "<br><br>",
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 399627,
+    "name": "Add user from popover",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Add user from popover"],
+    "fullPath": "channels/add-user-from-popover"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, February 03, 2021 2:24 PM<br />• Removed from manual pool as Cypress appears to be working as expected<br />–––––––––––––––––––––––––<br />(Saturn) Combined steps to easily automate",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Add user to channel from popover"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Step I:<ol><li>Login as a System Admin</li><li>Click on the Product Switcher menu</li><li>Click System Console</li><li>Navigate to User Management → Permissions → Edit Scheme</li></ol><br />Step II:<ol><li><strong>Check</strong> \"Manage Public Channels\" and <strong>uncheck</strong> \"Manage Private Channels\" in the All Members section at the top.</li></ol><br />Step III:<br /><ol><li>Login as a non-admin <strong>Member</strong> to the same server</li><li>Click the name of any user in a public or private channel</li></ol><br />Step IV:<br /><ol><li>Click Add to a channel</li><li>Type in the first few letters of the channel name</li></ol>",
+        "testData": "Step I:<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566316335687-1566316335686.png\" class=\"fr-fic fr-dii\" style=\"width:138.0px\" /><br /><br />Step II:<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653231134-1611653231134.png\" class=\"fr-fic fr-dii\" /><br /><br />Step III:<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653328349-1611653328349.png\" class=\"fr-fic fr-dii\" /><br /><br /><br />",
+        "expectedResult": "After step I:<ul><li>System Scheme settings appear</li></ul><br />After step II:<ul><li>\"Manage Public Channels\" are <strong>checked/enabled </strong>while \"Manage Private Channels\" boxes and all sub-settings under them are <strong>un</strong><strong>checked/disabled</strong>.</li></ul><br />After step III:<ul><li>You should see the option to add a user to a channel in the profile pop-up</li></ul><br />After step IV:<ul><li>Private channels will not appear in the autocomplete (even if you are a member of the private channel).</li></ul><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "939b1a2da3eee8ded9fc1c4545022c60cf4c387535e11fff78a363d52e1b30950755efdfa5760502449267ebd5d3a353",
+  "stepsHashed": "6035f068f97c975b2aa9421869c909716645dd6591730fff29d1145c56b99f501f22422be02df02be105d7b7cc53875d"
+}

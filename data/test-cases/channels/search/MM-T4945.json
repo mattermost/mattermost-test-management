@@ -1,0 +1,81 @@
+{
+  "id": 26535674,
+  "key": "MM-T4945",
+  "name": "Search bar popup",
+  "createdOn": "2022-07-26T21:50:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span><u>Search bar popup should be visible when focus changes to one of its buttons</u></span><ol><li><span>Click on the search box</span><ol><li>Verify search bar popup should be visible</li></ol></li><li>Moves the focus to the next button (in this case Messages)<ol><li>Verify search bar popup should be visible</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Search bar popup should be hidden when focus is out of search bar items</u><ol><li><span>Click on the search box</span><ol><li>Verify search bar popup should be visible</li></ol></li><li>Press tab three times to move focus out of the search bar componment<ol><li>Verify the popup should be closed</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Search bar popup should be open when focus back to search box</u><ol><li><span>Click on the search box</span><ol><li>Verify search bar popup should be visible</li></ol></li><li>Moves the focus to the next button (in this case Messages)<ol><li>Verify the popup should be visible</li></ol></li><li>Move the focus back to the search box<ol><li>Verify search bar popup should still be visible</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "693f04721890a2b051e74b0b4f65b7ff03c7e61380398440a271b14dfa45a42ad17d45774ec67dcc73f5732b4456d312",
+  "stepsHashed": "e81b0987cbf88e4e90c698cf1bc1ffa123fae55b89ad45c68fa74734b734a3d9cd62df0536bce44d3c97d579d7a22fa8"
+}

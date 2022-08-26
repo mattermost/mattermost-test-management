@@ -1,0 +1,55 @@
+{
+  "id": 5537293,
+  "key": "MM-T2612",
+  "name": "Change group name on LDAP side",
+  "createdOn": "2020-05-27T21:13:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Change group name on LDAP side<br>————————————————————————————<ul><li>Change the names of two groups on the LDAP side, then sync LDAP:<ul><li>One linked and one unlinked</li><li>Change at least one of them to something that will change their position in the alphabetical list</li><li>Change from linked to unlinked and vice-versa</li><li>Add a channel to the group that is linked and sync</li></ul></li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Group names update after sync</li><li>Alphabetical order adjusted as expected</li><li>Both linked and unlinked groups updated</li><li>Then linking the unlinked and unlinking the linked groups and re-syncing caused no issues (no changes on sync)</li><li>Adding a channel to linked group that had name change successfully added that channel to group member</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a1f7e743c974c5cfaf86775f226adb1f5be1f316586ffcc96e335130e454fbfcdf3489667bd1ec8570d5c24c3a028b6e",
+  "stepsHashed": "c64983661f18d680d1e6c8f8bd47cc6267708756348074d99d0b970d47348227e401309778a89625d97402182a8bce7a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4403905,
+  "key": "MM-T1516",
+  "name": "Keyboard usability of Emoji Picker",
+  "createdOn": "2020-02-17T18:15:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Need-To-Break-Steps-To-Match-Cypress"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Keyboard usability of Emoji Picker<br>–––––––––––––––––––––––––<ol><li>Open the emoji picker</li><li>Enter text into the search box</li><li>Use the arrow key to try to go back and correct text<br>(arrow key to move, shift and arrow to select, etc.)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ol><li>If the left arrow key is pressed while focus is on the emoji picker text box, the cursor should move left in the text.</li><li>If the right arrow key is pressed when the cursor is at the end of the word in the text box, move the selection to the right in the emoji picker, otherwise move the cursor to the right in the text.</li><li>If the down arrow key is pressed at any time, move the selection down in the emoji picker</li><li>If the up arrow is pressed when the emoji selector is already on the top row of emoji, set the cursor to the beginning of the string. Otherwise, up arrow moves the emoji selector up a row.</li><li>If CTRL/CMD + Arrow Left/Up is pressed at any time, set the cursor to the beginning of the string when the cursor is at the end of the string.</li><li>If CTRL/CMD + Arrow Right/Down is pressed at any time, set the cursor to the end of the string when the cursor is at the beginning of the string.</li><li>If Shift + Arrow Left/Right is pressed at any time, should select or deselect individual characters based on the cursor position and if characters have or have not been selected.</li><li>If Shift + CTRL/CMD + Arrow Left/Up is pressed at any time, selects the string to the left of the cursor.</li><li>If Shift + CTRL/CMD + Arrow Right/Down is pressed at any time, selects the string to the right of the cursor.</li></ol>",
+        "customFields": {
+          "Fix Versions": ["Help Wanted"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-13064\">Improve the keyboard usability of the emoji picker — MM-13064</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1810dd50794d3044db585a009fa065d92c8cedb000356b328411de82664a23bbeed04c16603469f901c3665e6ee655e4",
+  "stepsHashed": "052311b16edf5344848390587b0a09514b4234761f71b4b419750c672a678eca8b96d80e172756fd99a32250459d4efb"
+}

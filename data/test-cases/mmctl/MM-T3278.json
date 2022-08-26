@@ -1,0 +1,55 @@
+{
+  "id": 6424979,
+  "key": "MM-T3278",
+  "name": "Team - Restore",
+  "createdOn": "2020-08-03T09:59:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. archive a team using `mmctl team archive &lt;my_team&gt;`<br><br>2. restore the team using `mmctl team restore &lt;my_team&gt;`<br><br>",
+        "testData": null,
+        "expectedResult": "After 1) You will be asked to confirm that you have created a backup - type \"YES\" and hit Enter. &nbsp;You will be asked to confirm that you want to archive the team - type \"YES\" and hit Enter. You'll get feedback saying \"Archived team &lt;teamname&gt;<br><br>After 2) You'll get feedback saying \"Restored team &lt;teamname&gt;&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "73e892e778d295ac7f3392af32c605f87127f85cd0ad1029288b77ad190b51cbe2471859fca7e8faff4224993fc0cffa",
+  "stepsHashed": "671fcb7d484d0d8656e960b8d44e84373c7a454719d1ae2dfe8bfd7b420e287a400bd979dea6962e681c51084cf3ff29"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 6711287,
+  "key": "MM-T3323",
+  "name": "Connect to a second instance",
+  "createdOn": "2020-08-21T14:33:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Ensure your test user is only connected to 1 instance of jira<br>2. Use the slash command to connect to additional instances /jira instance connect and select the <em>--instance</em> form the autocomplete that is installed but the user is not connected to<br>3. Authenticate in the new browser tab or pop-up window(desktop)<br>4. Return to your Mattermost session after mapping your user &nbsp;",
+        "testData": null,
+        "expectedResult": "User is successfully connected to 2 instances",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "84e79982233a0fe8b21888e45f9571e849ede20bd5356be07165c9e7d8b4d1d82e3aa33f42e1ffcbf46a9018cba02341",
+  "stepsHashed": "b1c683eddaf7256ff09abaabfa48147407e784b7deb99b37e967571c4635b4ba7053e47b0eb0c1029bf17fe5704e4680"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3742343,
+  "key": "MM-T157",
+  "name": "Filtered emojis are sorted by recency, then begins with, then contains (alphabetically within each)",
+  "createdOn": "2019-12-20T20:33:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Filtered emojis are sorted by recency, then begins with, then contains (alphabetically within each)<br>–––––––––––––––––––––––––<ol><li>&nbsp;Post the following emoji in a message:<br><br>:guardsman:<br><br></li><li>In a separate message post the following emoji:<br><br>:white_small_square:<br><br></li><li>Click the emoji icon on the message box to open the emoji picker</li><li>Observe :white_small_square: is listed first, and :guardsman: is listed second, in Recently Used section</li><li>Type \"sma\" in the emoji search filter box</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>In filtered list, recently used emoji are first, in alphabetical order:<br><br>:guardsman: :white_small_square:<br><br></li><li>Followed by emoji that start with \"sma\" in alphabetical:<br><br>:small_airplane: :small_blue_diamond: :small_orange_diamond: :small_red_triangle: :small_red_triangle_down:<br><br></li><li>Followed by emoji that contain \"sma\" in alphabetical:<br><br>:arrow_down_small: :arrow_up_small: :black_medium_small_square: :black_small_square: :sun_behind_small_cloud: :white_medium_small_square:</li></ul><br><strong>Note</strong>: If you have recently used an emoji that matches the search term, you'll see it in the results as well, so it might not match exactly what is listed above",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "43fe9e7757fee92a97915a75ef2b4eaa2c6c97ca659798c6d575e3b9f2aa28b85989e0b4bcb9977e64b7422313bea071",
+  "stepsHashed": "3f2c7e7b9f4342fab8446a6bbc33a7a6a16693deaa8387a0f5ceeb954b0bfed113abbd19f2ae50f82f47f502d7065c58"
+}

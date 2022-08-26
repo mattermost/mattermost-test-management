@@ -1,0 +1,55 @@
+{
+  "id": 5566853,
+  "key": "MM-T2667",
+  "name": "Groups-related fields should be shown on LDAP page with E20 license",
+  "createdOn": "2020-05-29T20:22:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Groups-related fields should be shown on LDAP page with E20 license<br>————————————————————————————<ol><li>As system admin in System Console, add E20 license to a server</li><li>Go to LDAP page in System Console</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><strong>Groups-related fields are present</strong>:<ul><li>Group Filter</li><li>Group Display Name Attribute</li><li>Group ID Attribute</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<br>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-21207\">Remove Groups-related fields from LDAP page with E10 license — MM-21207</a>",
+          "Important notes about this step": "CLOUD: Cannot add E20 license -- already defaulted to cloud license"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "be19c3a24f36a0e68d18e2eb4ffd810da586ce9f5e1227eab6f6bae221ffb6bb1be21ecebd1148e05156baf8e09551ab",
+  "stepsHashed": "2581ae74ea78a8e97bd52bccc857ff1105937dacf9ea43e349490f3c3731d800479a951acf9e64f5429adf11349b4a10"
+}

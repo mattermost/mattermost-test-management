@@ -1,0 +1,55 @@
+{
+  "id": 3968341,
+  "key": "MM-T641",
+  "name": "🚀 Edit incoming webhook, webhook posts attachment",
+  "createdOn": "2020-01-08T12:57:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit webhook, webhook posts attachment<br>–––––––––––––––––––––––––<ol><li>Go to <a href=\"https://postgres.test.mattermost.com/webhooks/integrations/incoming_webhooks\">Main Menu ➜ Integrations ➜ Incoming Webhook</a> and click Edit on the incoming webhook you created above</li><li>Change the channel from Off Topic to another channel that you have access to, then click \"Update\"</li><li>Copy the URL listed under the name of the webhook you edited</li><li>In Postman, change \"GET\" to \"POST\" and paste the URL you copied</li><li>In Postman, under \"Body\" select \"raw\" and paste in the text in the Note attached to this cell. Then click \"Send\"</li></ol>",
+        "testData": "{\"attachments\":[{\"fallback\": \"fallback text\", \"pretext\": \"Optional text that appears above the attachment block\", \"author_name\": \"Author's Name\", \"author_link\": \"http://mattermost.org\", \"author_icon\": \"http://www.mattermost.org/wp-content/uploads/2016/04/icon.png\", \"text\":\"This is the text of the attachment. It should appear just above the image. \\nIt's very long, so it makes the text collapse behind a \\\"Show More\\\" button. If you click \\\"Show More\\\" the text should expand, and then if you click \\\"Show Less\\\" it should collapse again. The rest of the attachment should include one image of a graph and one thumbnail image of the Mattermost logo on the right hand side of the attachment. It should also include additional fields below the image that are formatted more like a table, in two columns. The left border of the attachment should be colored green. At the top of the attachment, there should be an author name followed by a bolded title. Both the author name and the title should be hyperlinks.\",\"thumb_url\":\"http://www.mattermost.org/wp-content/uploads/2016/04/icon.png\",\"title\":\"Testing Integration Attachments\", \"title_link\":\"https://www.google.com\",\"color\": \"#00ff00\",\"image_url\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/ScientificGraphSpeedVsTime.svg/2000px-ScientificGraphSpeedVsTime.svg.png\",\"fields\":[{\"short\":false,\"title\":\"Area\",\"value\":\"Testing with a very long piece of text that will take up the whole width of the table. And then some more space even because it is really not a short field.\"},{\"short\":true,\"title\":\"Iteration\",\"value\":\"Testing\"},{\"short\":true,\"title\":\"State\",\"value\":\"New\"},{\"short\":false,\"title\":\"Reason\",\"value\":\"New defect reported\"}]}]}",
+        "expectedResult": "<ul><li>A post is made by a webhook in the channel the webhook was created for, and the attachment formatting is as described in the attachment.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0542f9b490135c9bbed3ea8562ab9b060196a306efac176337c30093d1700cc2967f3d12167a6b44e76494b5776f2295",
+  "stepsHashed": "ed735dddb2677117f6044af8ab5c6cc2e0a56700bbc5964a86dbb152c37826309f495563c71fe41a4acd501f64dc719c"
+}

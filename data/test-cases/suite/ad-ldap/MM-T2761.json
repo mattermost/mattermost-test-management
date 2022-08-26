@@ -1,0 +1,55 @@
+{
+  "id": 5601933,
+  "key": "MM-T2761",
+  "name": "Group sync does not occur on E10",
+  "createdOn": "2020-06-01T20:58:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Group sync does not occur on E10<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Can continue from above TE test; ensure there were previously group(s) linked to team/channel(s) and at least one user who received linked team/channel(s) before removing E20 license, then remove E20 license and apply E10 license<br />2. Admin applies E10 license<br />3. Groups are not visible in System Console left nav<br />4. Admin syncs LDAP<br />5. Existing users see no change in team/channel(s)<br />6. New user signs in for the first time using LDAP, does not get linked team/channels<br />7. Re-apply E20 license, verify group links still there (do not need to re-link)<br />8. Sync LDAP, verify both users got all linked team/channel(s)",
+        "testData": null,
+        "expectedResult": "Even if previously licensed and group links were set up, if server is currently on E10 license, Groups are not visible in System Console and LDAP groups not take effect on new users or LDAP sync<br /><br />If E20 license then re-applied to the server, LDAP group sync is available and takes effect again (no need to re-link the groups)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "15e7f3bd639c8967d7f75d8a250e618339413772e64ca0ca6ff2d325d41267ed6f5854a78454018cefe7cca361713a65",
+  "stepsHashed": "b5739580a82c43b3a6798d83f92be3febc3b07146ee83b27425712f4dee9a3f60c050ef06dc6dfdcdd5d67275f6dbab2"
+}

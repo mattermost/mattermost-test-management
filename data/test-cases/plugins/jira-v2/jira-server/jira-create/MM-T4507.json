@@ -1,0 +1,55 @@
+{
+  "id": 17674307,
+  "key": "MM-T4507",
+  "name": "Create option is available in RHS",
+  "createdOn": "2022-01-18T22:43:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Click reply for any post to open the RHS<br />2. Select the post menu<br />3. Click the Create Jira Issue option",
+        "testData": null,
+        "expectedResult": "- Create modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c3cadfecd05e3054ede5470d9ae919157a3a5bbb0ae1702b1e93afecf4bbbc116e8fcde3a2174a69bb6fb6e22fc7ada7",
+  "stepsHashed": "eda425e125e683444dc70b4ded186ccb5a5142b2acd3eb3af25ef271d5e1548b6dc2d5d92af8d58f0700132ceeca989e"
+}

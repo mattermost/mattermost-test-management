@@ -1,0 +1,56 @@
+{
+  "id": 28674908,
+  "key": "MM-T5073",
+  "name": "Create new incident",
+  "createdOn": "2022-08-16T21:15:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5065" } },
+    {
+      "inline": {
+        "description": "2. From Mattermost with a user, execute the command to create incident, writing in the channel `/pd incident create`<br />3. Enter the information required to create an incident (service, title, description and assignment - description and assignment are optionals)",
+        "testData": null,
+        "expectedResult": "On 3. An interactive message will be displayed in the created alert channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f32f64da9c420a3f83066d4a095ec45e9ad8e695f0910f5f538620f6975a84917e226226eee75b6a929d22a7035322af",
+  "stepsHashed": "3f6a74d41a6aebb7e38d1e915d9b6986b43aa0732432052d1bacbc4c3f30e118d231ada62842cecbb3bfcef7b1eb619f"
+}

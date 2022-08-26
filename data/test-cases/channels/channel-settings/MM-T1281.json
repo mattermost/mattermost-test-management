@@ -1,0 +1,68 @@
+{
+  "id": 4066607,
+  "key": "MM-T1281",
+  "name": "Channel sidebar: channel scrolls into view in LHS when using Find Channel modal (or from permalink) (webapp)",
+  "createdOn": "2020-01-23T18:38:26Z",
+  "objective": null,
+  "precondition": "Blocked until&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-22371\">https://mattermost.atlassian.net/browse/MM-22371</a> and&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-19380\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-19380</a>&nbsp;are resolved.",
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["Triage"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Steve Mudie — Wednesday, September 16, 2020 6:39 PM<br>Two open tickets but no tests since spring. Not sure if it's blocked by them?",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>With enough channels in the LHS to scroll:</li><li>Press CTRL/CMD+K and select a channel that is out of view in the LHS then hit Enter</li></ol>",
+        "testData": null,
+        "expectedResult": "The LHS should scroll the channel you've switched to into view",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Get the permalink on any post in a test channel</li><li>Switch channels so the channel you got the permalink from is out of view in the LHS</li><li>Paste the permalink into the channel you've switched to, hit Enter to make the post</li><li> Click on the permalink you've just posted</li></ol>",
+        "testData": null,
+        "expectedResult": "The LHS should scroll the channel the permalink is from into view",
+        "customFields": {
+          "Fix Versions": ["Backlog", "Unscheduled"],
+          "Related ticket(s)": "<ul><li>(<span style=\"color:rgb(184, 49, 47)\">Re-opened, Unscheduled</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-19380\" rel=\"noopener noreferrer\" target=\"_blank\">Web: Scroll channel into view in LHS when switching to channel — MM-19380</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Backlog</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-22371\">Refactor team/channel switching state — MM-22371</a></li></ul>",
+          "Important notes about this step": "Original fix was in v5.20 then the ticket was reopened"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c3a2974f8a6a1dac6708ac715cca7c22e52d2917e20ba0df8d03a121bc74b7de897fc3bbe3c7930065def064dd57d547",
+  "stepsHashed": "33f76bc9ba1327d16e9827c15de5e887b6406cdfaee441bdafdfde17c1c3565a5be76cca916f1ae4d886ee5a5e1f5cce"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659443,
+  "key": "MM-T2892",
+  "name": "Permissions on TeamC are on affected by any team Scheme",
+  "createdOn": "2020-06-04T18:02:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Permissions on TeamC are on affected by any team Scheme<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. With the same test user, switch over to TeamC",
+        "testData": null,
+        "expectedResult": "Town Square is displayed for the team you've selected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d11cce050e0e9e99532af615ac5a2f23a7715f57e6dc2d9133948f281dd18100f5d1663f32b9c70cf578d1c1261d7bb1",
+  "stepsHashed": "3a0755f1c618481471a75b1b306aef2fd1bcd691671655ea64edfc8352f7668a909e7b7561a29d794eab1b1a45122f41"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3877452,
+  "key": "MM-T350",
+  "name": "Searching displays results in RHS",
+  "createdOn": "2020-01-02T23:12:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)", "v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "(SA) Combined multiple steps into a one step, following the code written in Cypress.",
+    "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Post the text in the test data box to the right to create test post</li><li>Type `hello` in the search box and press Enter.</li><li>In any channel, search for a word via the Search box.</li><li>Click \"Jump to\" one of the results.</li><li>Hover your mouse over the \"x\" to the right of the search term in the search box.</li><li>Click on the \"x\".</li></ol>",
+        "testData": "/test url test-search",
+        "expectedResult": "After step 2, search results display, highlighted, in RHS:<ul><li>Hello (basic word search)</li><li>Hello (markdown boldface)</li><li>Hello (code block)</li><li>Hello (inline code)</li><li>#hello (hashtag link)</li></ul>After step 4, the \"x\" on the right side of the search box remains in place.<br />After step 5, the \"x\" on the right side of the search box remains in place.<br />After step 6. the search query should clear and search results remain in the RHS.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-7331\">Highlight search results are case sensitive — MM-7331</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-21879\">\"x\" to clear search results disappears after jumping to a result — MM-21879</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22116\">\"x\" to clear search results disappears after jumping to a result — MM-22116</a></li><li>(Duplicate) <a href=\"https://mattermost.atlassian.net/browse/MM-22202\">X missing in search bar when searching via recent mentions icon — MM-22202</a></li></ul><br />",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9976504e6ce5800dc237c03fba1108057e14957465afa62b2ef57526d6aa0c2a2ed97c1e55b58052bd6096f065b7a073",
+  "stepsHashed": "06c4a695e8ff37a932bb5a8fae4f6112109f5f70a7aeb2c95cc2e1f21bbda34b05c8267b4fb99db74d70ad2f17dd984a"
+}

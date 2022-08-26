@@ -1,0 +1,56 @@
+{
+  "id": 28674910,
+  "key": "MM-T5075",
+  "name": "Subscription alerts from new incident/service",
+  "createdOn": "2022-08-16T21:15:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5065" } },
+    {
+      "inline": {
+        "description": "2. Create a service through the PD UI on your account<br />3. Subscribe to the service through Mattermost<br />4. Create an incident through the PD UI on the service in step 3",
+        "testData": null,
+        "expectedResult": "On 4. You should get a notification saying that the incident was created.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4870ed934deb85de864f196ad9449d3b863719b35019e62f80f6968ad64ed3d1171fed43efb6b5bb93f5c616260e2f2",
+  "stepsHashed": "1d88f6a9aa9a4d3ce3ed2420eb9249ab0b96772ab559f242fae0973a73a49fea0584aa361e4099c18293f20d3a8eac54"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6552393,
+  "key": "MM-T368",
+  "name": "Text in search box should not clear when Pinned or Saved posts icon is clicked",
+  "createdOn": "2020-08-10T07:52:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Text in search box should not clear when Pinned or Saved posts icon is clicked<br>--------------------<br>1. Make sure your browser or desktop app is wide enough to show search box (not the icon)<br>2. Type some text in the search box but do not press Enter<br>3. Click the Pinned posts icon (not necessary to have any pinned posts in the channel)<br>4. Observe the text still appears in the search box<br>5. Click the Saved posts icon (not necessary to have any saved posts)",
+        "testData": "",
+        "expectedResult": "Text remains in search box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e91e9346cdc398691d3a2854be85f16d51c2b7ef18fe58ccc964760539c659ede824a07fa1ad7cae9acb8b22a8733c5c",
+  "stepsHashed": "88500a4d4e77a2ba3b37de2057c833f86f57465d3dedf1580778d81433444ff0f5c4c9d8fd3d21ab8c185d41f2645d07"
+}

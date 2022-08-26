@@ -1,0 +1,55 @@
+{
+  "id": 8562102,
+  "key": "MM-T3671",
+  "name": "Bot - List all",
+  "createdOn": "2021-01-13T10:23:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot list all",
+        "testData": null,
+        "expectedResult": "returns a list of all bot accounts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6258cc9b3f17f3a64d9ac748b9426945b6283683adbc8f9165df5671aaf4751f12fa0c683c2eb304ad6c60e568a13c9f",
+  "stepsHashed": "b2e89a660d26151b15c40bafc0ec25b066884a990c4edeeaa8b9da2c7fbfa6b7bb3d1df839c1a1d0a1249e5d10193d18"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3904489,
+  "key": "MM-T435",
+  "name": "RN apps: Drawer - Team sidebar shouldn't show up when putting the focus in Find Channel box",
+  "createdOn": "2020-01-03T14:24:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Drawer: Team sidebar doesn't show up when putting the focus in Find Channel box<br />--------------------<br />1. Login as a user who belongs to multiple teams<br />2. Open channel drawer<br />3. Slide over to Team drawer<br />4. Tap the right edge to close the drawer while Teams are showing<br />5. Open the drawer again - Channel list is visible - as expected<br />6. Tap in the \"Find channel\"",
+        "testData": null,
+        "expectedResult": "Drawer remains on channel list while focus move to \"Find channel\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b2889a8aba945f63ed0f91454176e27bfb04ff28177b8b849d655b6aa2bd604ee9dd456dae631c6f97ce3130a6d2d07",
+  "stepsHashed": "db2bb43546c9772e825754024e400b867cc478c0d4242295c6a1cde2a108fb251f02e6b642d3027631ae11bf74cfc2fe"
+}

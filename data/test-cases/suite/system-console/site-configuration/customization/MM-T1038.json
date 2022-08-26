@@ -1,0 +1,55 @@
+{
+  "id": 4051793,
+  "key": "MM-T1038",
+  "name": "Customization\nApp download link - Change to different",
+  "createdOn": "2020-01-21T22:18:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Customization<br />App download link - Change to different<br />--------------------<br />1. Edit the link in the &quot;Mattermost Apps Download Page Link&quot; field <br />2. Save<br />3. Switch back to a team<br />4. Click Main Menu &gt; Download Apps",
+        "testData": null,
+        "expectedResult": "You should be taken to whatever link you set in the System Console.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4686c50addb2e1fb96e1b9f1cf95b139a9c1b1633c9f13626c911f40e850498cd396e0acfa4a9a1d2affae3155c65f85",
+  "stepsHashed": "105b81c65526fc3426203cf285c9041dcc912fa659b83fc8bfc48c6fddf2dbd15cc0c4c4ddce6e8b97024eb5cc2e3ef9"
+}

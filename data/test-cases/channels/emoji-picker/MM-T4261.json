@@ -1,0 +1,68 @@
+{
+  "id": 15258619,
+  "key": "MM-T4261",
+  "name": "One-click reactions on a post",
+  "createdOn": "2021-10-04T14:16:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1465976,
+    "name": "Emoji picker",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Emoji picker"],
+    "fullPath": "channels/emoji-picker"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>One-Click Reactions</u><ol><li>Ensure emoji picker is enabled in System console</li><li>Create a post and hover over post menu<ol><li>Verify One click reactions are <strong>not</strong> part of the post menu on hover</li></ol></li><li>Toggle One-click reactions option in Account Settings&gt;Display&gt;One-click reactions on messages to ON</li><li>Hover over the post menu<ol style=\"list-style-type:lower-greek\"><li>Verify One click reactions are part of the post menu on hover</li><li>Verify +1, grinning and white check mark are 3 default emoji shown</li></ol></li><li>Open the same post in RHS and hover over the post<ol style=\"list-style-type:lower-greek\"><li>Verify only one emoji is part of the post menu, +1</li></ol></li><li>Click on Expand Sidebar to expand RHS<ol><li>Verify all 3 default emoji are part of the post menu on hover</li></ol></li><li>React to post with new emoji e.g \"wave\" </li><li>Hover over post again<ol><li>Verify most recent emoji is shown slotted in the 1st place, pushing white check mark emoji out</li></ol></li><li>Use 2 more new emoji reactions (other then default) on the same post and hover <ol><li>Verify 3 most recent emoji are shown as one click reaction options, with the last used in the 1st slot and all default emoji have been pushed out, no longer visible.</li></ol></li><li>Use :wave: reaction again few times on different posts<ol><li>Verify :wave: is sorted on the left as most frequently used</li></ol></li><li>Use +1 reaction again<ol><li>Verify :wave: is still in the far left spot as the most frequently used reaction</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>One click reactions are part of the post menu on hover with  +1, grinning and white check mark being the starting 3 default emoji</li><li>New reactions will push default reactions out, but will not replace the most frequently use reactions.</li><li>RHS should show only one most recent reaction option on menu hover, shows 3 when expanded</li></ul><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>One-Click Reactions setting with Emoji Picker OFF</u><ol><li>Navigate to System Console&gt;Site Configuration&gt;Emoji&gt;Enable Emoji Picker, set it to FALSE and save</li><li>Open Account Settings &gt; Display<ol><li>Verify One-click reactions on messages option is not available </li></ol></li><li>Create a post and hover to reveal post menu <ol><li>Verify one click reactions are not shown on the post menu</li></ol></li></ol><br /><br />",
+        "testData": null,
+        "expectedResult": "<ul><li>When Emoji Picker is set to FALSE one-click reaction setting is not available in the Account Settings&gt;Display and one-click reactions are not shown on the post menu</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0fdc3a2b670e45b0f6d0dc032b7eec70da6c9d9a80df52e4e90a9530bb94c8456db4bc549fa2645b6f5c3e9ec14acbda",
+  "stepsHashed": "03a8327012a16402407c85f6337c7907a3385820ef66f1e441ff21204ae0c52265e6e126797eb8b217412898fc6f2d6d"
+}

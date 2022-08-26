@@ -1,0 +1,55 @@
+{
+  "id": 5602314,
+  "key": "MM-T2785",
+  "name": "Messaging at the beginning of a constrained channel (not Town Square)",
+  "createdOn": "2020-06-01T22:09:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Messaging at the beginning of a constrained channel (not Town Square)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "Add groups to this private channel",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15577\">\"Invite others to this private channel\" should be \"Add groups to this private channels\" — MM-15577</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf1ebe77dc982111b02a0a3d9ba6ce985a9ab946092ccfb4814948a32db114fc068be776983a79612dc3667f79d3808a",
+  "stepsHashed": "a987ccefc700c548ec96987cc17ccf10e63a773b2e90584e0aef70044ea1a3bdd2a17f3f7406a2d5c359091ce57fee9d"
+}

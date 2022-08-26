@@ -1,0 +1,81 @@
+{
+  "id": 6378476,
+  "key": "MM-T3176",
+  "name": "Individual read channel menu in Favorites",
+  "createdOn": "2020-07-29T21:00:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "menu"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007308,
+    "name": "Favorites",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Favorites"],
+    "fullPath": "channels/left-sidebar/favorites"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Individual read channel menu in Favorites</li><li>Hover over any channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>3 dot menu icon is present</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Hover over 3 dot icon</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel options tooltip on hover</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Click on the 3 dot menu icon</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>5 menu options are available (except on Town Square where users can't leave that channel)<ul><li>Unfavorite</li><li>Mute Channel</li><li>Move to</li><li>Copy Link</li><li>Leave Channel</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.26 (August 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-26411\">Copy Link menu option missing for private channels — MM-26411</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "81112ab18277e82720609112293203bf214e72f79eb77d94061132661d99be027e20f125f0fdb286785ea8bdcaa3a538",
+  "stepsHashed": "6bc88b1cbfaf30aea4064b980892cc908d69010d75b1dd9be5426534bb48a7378be7d2bdf43298d94c316f91c8a4c58a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 10697404,
+  "key": "MM-T4057",
+  "name": "DMs on Sidebar use avatars with status icon",
+  "createdOn": "2021-05-12T03:29:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>DMs on Left Sidebar use avatars with status icon<br /></u><ol><li>Open few DMs<ol style=\"list-style-type:lower-alpha\"><li>Verify DMs display user avatar with status</li></ol></li><li>Add few Plugins that add Bot to DM section e.g. TODO or Github<ol style=\"list-style-type:lower-alpha\"><li>Verify plugin bots are not displaying status</li></ol></li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1620789938414-Screen+Shot+2021-05-11+at+11.24.54+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /><br />",
+        "expectedResult": "<ul><li>Verify DMs display user avatar with status</li><li>Verify plugin bots are not displaying status</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ff91f76889b7c2365c87a60190a063ffab5edf1278d5bde272d25bf23b9446f699f6c1b460d5a27420adf71183830ddf",
+  "stepsHashed": "2bf7cd316550977bffe8423af6fb3719ebcd9501976d272f1b9c64f597324e5c77168aafbdc99e212062a4161c59a22d"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 21342448,
+  "key": "MM-T4784",
+  "name": "Mobile V2: Messaging - Message Delete",
+  "createdOn": "2022-04-27T20:05:36Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to delete a post message and confirm</strong><br />--------------------<br />1. Open a channel screen and post a message<br />2. Verify message is added to post list<br />3. Open post options for the message that was just posted, tap delete option and cancel<br />4. Verify post message is deleted<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to delete a post message and cancel</strong><br />--------------------<br />1. Open a channel screen and post a message<br />2. Verify message is added to post list<br />3. Open post options for the message that was just posted, tap delete option and cancel<br />4. Verify post message is not deleted<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to delete a post message from reply thread</strong><br />--------------------<br />1. Open a channel screen, post a message, and tap on the post to open reply thread<br />2. Verify on thread screen<br />3. Post a reply, open post options for the reply message, tap delete option and confirm<br />4. Verify reply message is deleted<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "173f4b4f9104a06a0bd91602ce40c36ed5f5dfba081284a22f0cf09e343831e1ca98faa5aeb335526566766e8be4ee66",
+  "stepsHashed": "95b7b04626a3a0ec00a9474f51f9eec7f53657d75af44b813f55083b4977d1e709b0fa625462c136479a13a3d30e9caa"
+}

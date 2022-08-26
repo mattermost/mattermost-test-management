@@ -1,0 +1,55 @@
+{
+  "id": 5444671,
+  "key": "MM-T2123",
+  "name": "Advanced - Code block Ctrl+Enter\nCTRL/CMD+ENTER closes multi-line code block and posts message",
+  "createdOn": "2020-05-20T05:50:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063264,
+    "name": "Advanced",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Advanced - Code block Ctrl+Enter<br />CTRL/CMD+ENTER closes multi-line code block and posts message<br />————————————————————————————<br />1. Ensure Settings &gt; Advanced &gt; `Send messages on CTRL+ENTER` is OFF<br />2. Ensure  Settings &gt; Advanced &gt; `Send code block messages on CTRL + ENTER` is ON<br />3. Type a line of text into the message input box<br />4. Press SHIFT+ENTER to move the cursor to a new line<br />5. Type three backticks \" ``` \" and press Enter<br />6. On the new line type out a line of text and press Enter again<br />7. Add a 2nd line of text to your code block<br />8. Press CTRL/CMD+ENTER",
+        "testData": null,
+        "expectedResult": "CTRL/CMD+ENTER closes the code block for you and posts the message, formatted as a code block",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3ab33593ce4b115333f00894eb7e318ac66055b66db433091f926b3e20212f9faaf4129ce8b406706c53cb32f0ded551",
+  "stepsHashed": "6238cec192b7397eec6a3c3fdebe51c03ff709a9f54b8eefc994155bf7f3f9bc370fa33d0c3ce05c3f74fdc8bec87797"
+}

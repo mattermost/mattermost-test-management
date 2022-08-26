@@ -1,0 +1,55 @@
+{
+  "id": 17697389,
+  "key": "MM-T4528",
+  "name": "Issue creation with unsupported mandatory field - Desktop",
+  "createdOn": "2022-01-19T18:10:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Navigate to field configuration in Jira<br />2. Select a target project and issue type to modify its field configuration scheme such that various custom fields will become mandatory.<br />3. Navigate to Settings &gt;&gt; Issues &gt;&gt; Custom fields and create a field of type multi select<br />4. Set the target custom filed you've created as mandatory from Settings &gt;&gt; Issues &gt;&gt; Field Configuration by modyfing the filed configuration used by the target project and issue type from step 1.<br />5. Retunr to mattermost in the desktop app and connect as a user who has access to create issues in the project from step 2. above   <br />6. Create and issue in the project where the field from step 3. will be mandatory but not show in the modal <br />7. Poulate all available fields and note that the madatory custom field is not shown<br />8. Attempt to save the issue<br />9. Click the link in the issue creation post",
+        "testData": null,
+        "expectedResult": "On8. <br />- An ephemeral post shows which field(s) is/are not supported<br />- The ephemeral post contains a link to Jira issue creation<br />On 9. <br />- The user is redirected to Jira issue creation screen<br />- All data entered inthe Mattermost is shown in the Jira UI",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0bf8d45f92e3cbb849b6529502ee6c172ebc605eb7f27da6d9ea486790cf8717d283ea46f08149eb5c652a5233e9ad97",
+  "stepsHashed": "1835b7665f550c2ccb326b42624da4c1287815cb50c28deee182f7936b3ebc105a88f7bc32f1dc94ac3e6e47db7f842a"
+}

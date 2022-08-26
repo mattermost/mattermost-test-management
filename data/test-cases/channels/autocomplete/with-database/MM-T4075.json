@@ -1,0 +1,81 @@
+{
+  "id": 10789675,
+  "key": "MM-T4075",
+  "name": "Usernames with dots, dashes and underscores are returned in autocomplete suggestions in Find Channels modal",
+  "createdOn": "2021-05-19T00:36:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1353114,
+    "name": "With Database",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Database"],
+    "fullPath": "channels/autocomplete/with-database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["QA Platform"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Mobile", "Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: This test requires Elasticsearch and Bleve to be disabled.<br /><br />Go to Find Channels modal by Ctrl/Cmd+K or clicking \"Find channel\" at LHS<br /><br />Usernames with dot are returned in autocomplete suggestions<br />–––––––––––––––––––––––––<ol><li>Change username of \"User A\" to include dot</li><li>Log in as UserB</li><li>UserB \"@mention\" UserA in any channel</li></ol>",
+        "testData": null,
+        "expectedResult": "UserA with with dot in username is returned in autocomplete suggestions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Usernames with dash are returned in autocomplete suggestions<br />–––––––––––––––––––––––––<ol><li>Change username of \"User A\" to include dash</li><li>Log in as UserB</li><li>UserB \"@mention\" UserA in any channel</li></ol>",
+        "testData": null,
+        "expectedResult": "UserA with with dash in username is returned in autocomplete suggestions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Usernames with underscore are returned in autocomplete suggestions<br />–––––––––––––––––––––––––<ol><li>Change username of \"User A\" to include underscore</li><li>Log in as UserB</li><li>UserB \"@mention\" UserA in any channel</li></ol>",
+        "testData": null,
+        "expectedResult": "UserA with with underscore in username is returned in autocomplete suggestions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf28f55b3f8890e6b5b1560a8d579d3545c75a52f81330714aaed1a37db655a71cf91c8e3f46f1f514aab589fb99aba4",
+  "stepsHashed": "8caaeafb0acb91fd307fe95b142db136eab713c74c09dce644c097d188f07ca1fc3c0023869e030895146e6db83c27d3"
+}

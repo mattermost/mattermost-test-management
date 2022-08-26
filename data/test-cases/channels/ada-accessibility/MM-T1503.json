@@ -1,0 +1,55 @@
+{
+  "id": 4403892,
+  "key": "MM-T1503",
+  "name": "SEARCH textbox reads characters when reviewing with arrow keys and text can be reviewed using INS+5 and INS+8 (numbers are on the number keypad with NumLock OFF)",
+  "createdOn": "2020-02-17T18:15:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SEARCH textbox reads characters when reviewing with arrow keys and text can be reviewed using INS+5 and INS+8 (numbers are on the number keypad with NumLock OFF)<br>–––––––––––––––––––––––––<ol><li>Type some characters in the search field (be sure to include `in:` and `from:`)</li><li>Use the arrow keys to move back and forth through the text</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Characters are read when arrowing through them and text can be reviewed with INSERT+5, INSERT+8</li><li>Search autocomplete is read out when you arrow through the results of in: or from:</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17974\">Accessibility: Search textbox does not read characters when reviewing with arrow keys — MM-17974</a>",
+          "Important notes about this step": "<span style=\"color: rgb(184, 49, 47);\">on:/before:/after: autocomplete does not support JAWS yet</span>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "740873bd93d5e606ffd17cfa2724b460ef2aa7d1c83168f61e59895280dcc75198d8946fc5e6c12a85de4be88b0bb29b",
+  "stepsHashed": "333371133dec1131d1c2f197b7e3d7b4f4a613b8c62c4af356bc383c137040359f521091e72de2d6ca212775debada3d"
+}

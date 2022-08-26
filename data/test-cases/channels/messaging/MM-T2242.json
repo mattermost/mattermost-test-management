@@ -1,0 +1,55 @@
+{
+  "id": 5445227,
+  "key": "MM-T2242",
+  "name": "Markdown Lists",
+  "createdOn": "2020-05-20T06:34:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "Update",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Markdown Lists<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post:<br />/test url test-markdown-lists.md<br />into a channel<br />2. Read through the resulting post",
+        "testData": null,
+        "expectedResult": "All lists render as described in the post.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f984a00de464ec4f4e765a9f3469809fa22baecf501034ea5e150546191c960400304bac087d2d8f4af65387db0bf153",
+  "stepsHashed": "5d9024a57f64cb45ef409f2c7ee82dae0071b910252c6634cff43d6fbf54b0ce3da894b4722a58fc8b3fa1d07dcd8101"
+}

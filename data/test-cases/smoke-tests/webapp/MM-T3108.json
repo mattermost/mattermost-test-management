@@ -1,0 +1,55 @@
+{
+  "id": 6181589,
+  "key": "MM-T3108",
+  "name": "Pasting Images",
+  "createdOn": "2020-07-13T19:27:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pasting Images<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Go to <br />https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png<br />2. Right click + &quot;Copy Image&quot;<br />3. Paste into Mattermost<br />4. Hit enter<br />5. Click reply on the message to view in RHS",
+        "testData": null,
+        "expectedResult": "Step 4: Image uploads + posts<br />Step 5: Image is properly sized in RHS, and not cut-off.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e0628c4b8cf39e0d28d0bcd526d2691b0193042b21536044e7fe43f338db200c22ecae36517037c834730e825868d2d4",
+  "stepsHashed": "4c4d5b698fa49662ab64a76c95f22bb63ffbf1b03226a9e05644c7f4455ef336f7bcf3c2ff5a35cefe9887cf95544ff0"
+}

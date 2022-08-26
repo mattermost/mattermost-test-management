@@ -1,0 +1,55 @@
+{
+  "id": 4712180,
+  "key": "MM-T1549",
+  "name": "Manage Members option removed for Members in System Scheme",
+  "createdOn": "2020-03-03T12:43:36Z",
+  "objective": "Manage Members option removed for Members in System Scheme",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "cy-prod", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:07 AM<br>•  Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as sysadmin and visit the Permissions page in the system console. <br />2. Edit the System Scheme and remove the Manage Members option for Members &amp; Save. <br />3. Visit the Channels page and click on a channel. <br />4. Note that the option to allow Manage Members to a Member should be disabled. A message should be displayed indicating the same. <br />5. Login as a Regular Member and visit any channel. <br />6. Check if the user has the permission to invite or remove people in the channel.",
+        "testData": null,
+        "expectedResult": "4. Manage Members option should be disabled for a Members. A message &quot;Manage members for members are disabled in the System Scheme&quot; should be displayed. <br />6. Member should not have the permission to add or remove people from any channel when the option is removed from the System Scheme.",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11670\">Channel Moderation Settings — MM-11670</a></li><li>(<strong>Story</strong>) <a href=\"http://mmthttps%3A//mattermost.atlassian.net/browse/MM-23102\">Add E2E tests + Unit tests for Channel Moderation Widget — MM-23102</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cf6294a256ebaef5e065c526f1251b84958620fd708b53468cf06c3f91248ff1c349252490e53557790f634c8f02767f",
+  "stepsHashed": "ca2bc4beb2b0b55270680f1ccccdc4a7fff36f23211a68408b1dac0aa063cadd6a06a5f13a62b58a6bad7c05cd51317d"
+}

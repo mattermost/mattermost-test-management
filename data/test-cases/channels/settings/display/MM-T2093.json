@@ -1,0 +1,55 @@
+{
+  "id": 5444641,
+  "key": "MM-T2093",
+  "name": "Theme Colors all teams",
+  "createdOn": "2020-05-20T05:50:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Theme Colors all teams<br />————————————————————————————<br />On EE multi-team server:<br />1. Go to  Settings -&gt; Display -&gt; Theme<br />2. Select \"Windows Dark\" Save<br />3. Copy the theme vector<br />4. Change to the \"Organization\" Theme, Save<br />5. Paste the Windows Dark theme vector back in, apply to all teams, Save",
+        "testData": null,
+        "expectedResult": "Windows Dark theme is loaded back in and appears the same as if Windows Dark is selected from the default themes<br /><br />Applied to all teams",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "edccd356d57392605dcedb1412efda24e25cc64d0cc18ad2cff59ef523934580b91fe850378ed6739857ec8dab6aea6e",
+  "stepsHashed": "7ab19e6adb9856f036866ad5957fdfe1a82a14b600ca8abd1a3d2a1ca3062471fc109ff33f4fd189b8e872d724926efe"
+}

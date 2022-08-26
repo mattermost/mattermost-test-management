@@ -1,0 +1,55 @@
+{
+  "id": 3923243,
+  "key": "MM-T599",
+  "name": "Edit date and search again",
+  "createdOn": "2020-01-06T19:21:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": ["Unscheduled"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Cloud", "in Production", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit date and search again<br />–––––––––––––––––––––––––<ol><li>Mobile apps - Use the calendar to select a new date</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Date value in filter is replaced without issue.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Unscheduled"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11995\" rel=\"noopener noreferrer\" target=\"_blank\">Updating date filter autocomplete term shifts characters to the right of the cursor rather than replacing the string — MM-11995</a></li><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "62c21f5b2031e445be6c073741ec021840fa0baec77fd3399be4b4ac9c88147ccbf6ccafecf2f83667ecc7c5cd0819b0",
+  "stepsHashed": "5e3c234868a6db336f1c4d0f262522ef395c527e98cc3964f691ea1febfce47d1ad891472c47a955e94f2f04a91fa71f"
+}

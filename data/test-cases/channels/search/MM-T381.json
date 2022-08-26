@@ -1,0 +1,55 @@
+{
+  "id": 3877483,
+  "key": "MM-T381",
+  "name": "Search results RHS: Delete a parent post",
+  "createdOn": "2020-01-02T23:12:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Search results RHS: Delete a parent post<br />--------------------<br />1. Post message `Test message`<br />2. Reply to that message with `Replying to test message`<br />3. Search for `test message`<br />4. In search results, find the parent post and click Delete and confirm",
+        "testData": null,
+        "expectedResult": "Both parent post and reply are deleted from RHS and center (in mobile, you won't see them simultaneously, of course, but make sure the message and reply do not appear in search results or center after deleting)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "be5abb8d68217ba69edf2ec14f59c2c857356b67e42db1a50193d81f615cbca88582672231a97d1d76d25f205d8106be",
+  "stepsHashed": "ca2da5e6711aca0bb9d8ae5fb55e7945a0fbaf0cdff3ed0aed1c53707de1db8224a4e92dfcd515695f8735e39bc60ca3"
+}

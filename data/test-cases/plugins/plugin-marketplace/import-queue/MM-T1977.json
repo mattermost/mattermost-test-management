@@ -1,0 +1,55 @@
+{
+  "id": 5293918,
+  "key": "MM-T1977",
+  "name": "“Installed” tab shows '0' when no plugins are installed",
+  "createdOn": "2020-05-06T01:44:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&ldquo;Installed&rdquo; tab shows correct number of installed plugins when no plugins are installed<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Go to Plugins Marketplace &gt; Installed tab",
+        "testData": null,
+        "expectedResult": "The tab heading displays correct number &rarr; (0) of plugins installed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3b4fff2632b187988c9544ade31896f53bdff8d6143610df9f1ec3df588f9696e80051694ecf92d90e13aa224b3d0ca9",
+  "stepsHashed": "a26d441f8b216d1678824b971457da2d9374b8c1fd7e1cd701a04c3347f8015439fb458b3b610efac1c25939c0555657"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 5293915,
+  "key": "MM-T1974",
+  "name": "System Console link on error banner navigates correctly on desktop app",
+  "createdOn": "2020-05-06T01:44:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": ["Open", "Queued"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "System Console link on error banner navigates correctly on desktop app<br />–––––––––––––––––––––––––<ol><li>Login as a system admin on desktop app.</li><li>Go to System Console ➜ PLUGINS ➜ Plugin Management.</li><li>Changes the value of Marketplace URL to an invalid address (eg: example.com).</li><li>Switch to a web browser app.</li><li>Go to main menu.</li><li>Launch “Plugin Marketplace”.</li><li>In the error banner, click on System Console.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The app navigates successfully to Plugin Management page of System Console.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "System Console link on error banner navigates correctly on desktop app<br />–––––––––––––––––––––––––<ol><li>Login as a system admin on desktop app.</li><li>Go to System Console ➜ PLUGINS ➜ Plugin Management.</li><li>Changes the value of Marketplace URL to an invalid address (eg: example.com).</li><li>Within the desktop app, switch to a channel view.</li><li>Go to main menu.</li><li>Launch “Plugin Marketplace”.</li><li>In the error banner, click on System Console.</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": ["Open", "Queued"],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-25848\">System Console link in marketplace does not navigate to the plugin management page in desktop app MM-25848</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e69856c52e7f0adc65426e0d7d6030ae892cbe84370170f9ec600cc161619b90a87a5e45b8cf2fd9dc727a2efeb2d863",
+  "stepsHashed": "a389baa5f967b6cce0887c370dd0abb9d5214b50bf12c194a5163d497f6d01d24edc911ab2d0dd9c95c47af37e8dce31"
+}

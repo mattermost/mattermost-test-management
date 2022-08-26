@@ -1,0 +1,55 @@
+{
+  "id": 5444774,
+  "key": "MM-T2174",
+  "name": "Switching channels in center also changes pinned posts RHS",
+  "createdOn": "2020-05-20T06:05:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Friday, December 18, 2020 11:14 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Switching channels in center also changes pinned posts RHS<br>————————————————————————————<br>1. In one channel with pinned posts, click the pin icon to display them in RHS<br>2. Click the name of a different channel in the LHS",
+        "testData": null,
+        "expectedResult": "RHS changes to display pinned posts for the channel that is now displaying in the center",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4d57a4e22645b1f75f474553330b21c74611489f20da4498a924968da4b2b49a153bbc2db81e750797d2485e73c15113",
+  "stepsHashed": "cbc8ab2da9add0699807dfd8887b03e44f6a9711fc79b5a3b668c789e9dc0a6dc28ccdbf845258c033f7145822f91edc"
+}

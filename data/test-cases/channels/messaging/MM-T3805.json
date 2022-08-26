@@ -1,0 +1,68 @@
+{
+  "id": 8728817,
+  "key": "MM-T3805",
+  "name": "RN apps: Messaging - Permalink should support _redirect",
+  "createdOn": "2021-01-26T16:22:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Update"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should support _redirect to public channel post<br>--------------------------<br>1. Post message to a public channel A<br>2. Copy link of post (long press &gt; Copy Link)<br>3. Go to channel B, paste link and modify the link such that,<br>[${permalinkLabel}](/_redirect/pl/${permalinkTargetPost.id})<br>e.g.<br>http://hostname/core/pl/123 --&gt; <strong>[redirect link](/_redirect/pl/123)</strong><br>4. Post modified link to channel B<br>5. Tap on permalink<br>6. Tap on <strong>Jump to recent messages</strong>",
+        "testData": null,
+        "expectedResult": "After #5,<ul><li>Verify permalink post list has the expected target message</li></ul>After #6,<ul><li>Verify user is on public channel A where message is posted</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should support _redirect to to DM post<br>--------------------------<br>1. Post message to a DM channel A<br>2. Copy link of post (long press &gt; Copy Link)<br>3. Go to channel B, paste link and modify the link such that,<br>[${permalinkLabel}](/_redirect/pl/${permalinkTargetPost.id})<br>e.g.<br>http://hostname/core/pl/123 --&gt; <strong>[redirect link](/_redirect/pl/123)</strong><br>4. Post modified link to channel B<br>5. Tap on permalink<br>6. Tap on <strong>Jump to recent messages</strong>",
+        "testData": null,
+        "expectedResult": "After #5,<ul><li>Verify permalink post list has the expected target message</li></ul>After #6,<ul><li>Verify user is on DM channel A where message is posted</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "787f6b16aaed32b712b445b10f6f38a40e24a07e3ae31e3839cbda5749aec21382003f7b62c7283e32deda50a10b4930",
+  "stepsHashed": "5098fb24e4cd7eceea21ebbb73cabfac8ad8820dfa0410ccd7a85553932a6b55f59660a828a2e9005fd0a461fe7956a3"
+}

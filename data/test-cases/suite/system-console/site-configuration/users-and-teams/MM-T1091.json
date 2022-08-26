@@ -1,0 +1,55 @@
+{
+  "id": 4058101,
+  "key": "MM-T1091",
+  "name": "Privacy\nEmail Address - Shown\nFull Name - Hidden\nChannel > View Members\nNon-System admin",
+  "createdOn": "2020-01-22T16:25:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Shown<br />Full Name - Hidden<br />Channel &gt; View Members<br />Non-System admin<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = true<br />2. Ensure &quot;Show Full Name&quot; = false<br /><br />Non-System admin clicks Town Square channel drop-down &gt; View Members",
+        "testData": null,
+        "expectedResult": "Non-System admin can see other users' email addresses<br /><br />Cannot see full names except their own",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ef0f25119885074ae8cd51887aa2b897e8ae4d40024deb29e6fe91f9ece17a94afff310003527a2ee9c71861df66b9f",
+  "stepsHashed": "6ef0c141174a914a5890aaf33af803e8f432c312064729e93ad5cc35028a84e262b3e40a5e638c651f67d4643e0ef4d3"
+}

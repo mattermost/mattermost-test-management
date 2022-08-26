@@ -1,0 +1,55 @@
+{
+  "id": 3969590,
+  "key": "MM-T690",
+  "name": "Add custom slash command: / error",
+  "createdOn": "2020-01-08T17:47:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, February 15, 2021 2:45 PM<br>• Cypress Automation working as expected 🎉<br>• Removed No Automated Executions label",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Add custom slash command: / error<br />--------------------<br />1. Open Main Menu &gt; Integrations &gt; Slash Commands &gt; Add Slash Command <br />2. Enter a Command Trigger Word starting with &quot;//&quot;<br />3. Click Add",
+        "testData": null,
+        "expectedResult": "Error message &quot;A trigger word cannot begin with a /&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "07f9d409b1e687b8e2466826349499e6edeba4cfb679ed03d4028fff2d6cad85558cec7d1a0c0dea5bfbc3ea57506e9a",
+  "stepsHashed": "771d1afa8ff2553d5eccac9cf084b69679c13f779aaab6a88e52eb067207351de9d26de9e64cd8e027e97cc64f86c851"
+}

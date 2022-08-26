@@ -1,0 +1,55 @@
+{
+  "id": 3968350,
+  "key": "MM-T650",
+  "name": "🔸 05 — Deauthorize Zapier",
+  "createdOn": "2020-01-08T12:57:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586859,
+    "name": "Zapier",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Deauthorize Zapier<br>–––––––––––––––––––––––––<ol><li>Go to Account Settings ➜ Security ➜ OAuth 2.0 Applications and hit \"Edit\"</li><li>For the Zapier app you created above, click \"Deauthorize\"</li><li>Attempt to trigger a post to Mattermost (with the Zapier app)</li></ol></li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578613234760-zapier-deauthorize.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>No Zapier post made to Mattermost</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color: rgb(184, 49, 47);\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-27610\">Account settings shows 'No OAuth 2.0 Applications are authorized' with a working OAuth app in place — MM-27610</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d847df4947270d6c8504e4c28c30b5f896b229382bcbb08559c5c710909b4b9d325298be67ad7d9120d7ab20c4b2ea8f",
+  "stepsHashed": "d77bb2dce51ab5f217c674cb1578158336679540b8375ff6414563ccdd5ada7612e8a9015481ff2eadddb37dc9d63485"
+}

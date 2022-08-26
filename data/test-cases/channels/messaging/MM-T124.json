@@ -1,0 +1,55 @@
+{
+  "id": 3742291,
+  "key": "MM-T124",
+  "name": "Saved parent post:  reply count remains in center channel and is correct",
+  "createdOn": "2019-12-20T20:19:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Saved parent post: &nbsp;reply count remains in center channel and is correct<br>–––––––––––––––––––––––––<ol><li>Using two test accounts, create a conversation of a parent post and 5 or so replies (or use conversation created above)</li><li>From the center channel, flag the parent post and then click on the \"saved posts\" icon to open saved posts in the RHS (observe at this stage that reply count is correct in center channel)</li><li>In the RHS reply to the flagged parent post</li><li>Without closing the RHS after you posted a reply in 3) click on the \"saved posts\" icon again</li></ol>",
+        "testData": "",
+        "expectedResult": "Reply count remains in center channel and is correct",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19371\">Reply count disappears from pinned and flagged conversations — MM-19371</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c5b96689c10dfbb2215e85e67146b69240889589695461ffb459983a07d02f94a7599a3245d1be17eb47b451b7192be8",
+  "stepsHashed": "eb38c69a5bd3765130e555c3ac77d2ea76ed4dafea55b6fe30b31e027a5f355a37cce6a73d82e66ddd6de0405eedfb1c"
+}

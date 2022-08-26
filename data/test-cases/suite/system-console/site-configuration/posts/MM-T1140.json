@@ -1,0 +1,55 @@
+{
+  "id": 4058870,
+  "key": "MM-T1140",
+  "name": "Link Previews - false",
+  "createdOn": "2020-01-22T19:26:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569361,
+    "name": "Posts",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Posts"],
+    "fullPath": "suite/system-console/site-configuration/posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Link Previews - false<br />--------------------<br />Set Posts &gt;  &quot;Enable Link Previews&quot; to &quot;false&quot; <br />Save<br />Return to a team<br />Go to Account Settings &gt; Display",
+        "testData": "New Se v5.12",
+        "expectedResult": "No option to enable Website Link Previews (note: different from &quot;Image link previews&quot;) in Account Settings &gt; Display. <br /><br />Posting <br />https://github.com/mattermost/mattermost-webapp<br />in a channel doesn't show a link preview",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4372d56c5169dea613fa39a8deafad33119193d096cfeb0fff35c4f69cc8e205bf2fb4cf8a52a3c2e103703c7a6595a3",
+  "stepsHashed": "9dbdc391c7504643772df698096a2e65b6df72e5c389f9b8b4cf596baff7e07ce1792872b187101351ed7524359af647"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8647062,
+  "key": "MM-T3780",
+  "name": "User - Delete : non-existent user",
+  "createdOn": "2021-01-20T10:25:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&nbsp;mmctl user delete [non-existent user email]",
+        "testData": null,
+        "expectedResult": "Returns an error as the user doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f952bf926ffaf79d80d4b838fee5c2400203d35457e9b9b2d66ee313e99481faca621587a27fc65896e8abe5fc555cc7",
+  "stepsHashed": "ac8ed112926783bab5b5ac9a676a13f89b13c5ada2e49511aabd8e2c29922d67ddc6b811ffbb4f8c6c7d9c5ce6efd812"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17496310,
+  "key": "MM-T4453",
+  "name": "Feature flag works to disable the app bar",
+  "createdOn": "2022-01-10T17:54:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start your server with the Feature Flag for the Apps Bar in a False state `<em>MM_FEATUREFLAGS_AppBarEnabled=false</em>`<br />2. Deploy a build of the Playbooks Plugin that has been retrofitted to use the Apps Bar instead of the channel header<br />3. Enable the Playbooks plugin",
+        "testData": null,
+        "expectedResult": "The Playbooks plugin is shown in the channel header",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a4ad5c110e61ae3c86b3f0a21dd782531ab9ae42b101867549d5e33947d24b7d9ef12fd579e9bd6e285f6a86f03fea93",
+  "stepsHashed": "43037c151a85b12a4c4db79fe5c99c4597fe7db2f8b91aefc443acc26f422f4af78dd424bec450b79f5d37d892519859"
+}

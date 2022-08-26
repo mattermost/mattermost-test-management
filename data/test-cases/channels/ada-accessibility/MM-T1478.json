@@ -1,0 +1,55 @@
+{
+  "id": 4403867,
+  "key": "MM-T1478",
+  "name": "Focus should be visually indicated",
+  "createdOn": "2020-02-17T18:14:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Focus should be visually indicated<br>–––––––––––––––––––––––––<ul><li>Tabbing through elements should have a visual display of what's in focus on screen.</li><li>Every element that can be focused should have this visual indicator</li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>Ensure the entire field/area is highlighted with a blue (depending on Theme) line - corners are rounded</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16142\">ADA: Create visual display of focus — MM-16142</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d8b57b9ee7d5470cda391802b7f2235d44762943bbd87217c9c26099e6a2e33e83bc918054cafb5a79dc33a30cd8cf46",
+  "stepsHashed": "4169dd1d2ddb6baf81c21c4ea7b977443a8f19d92d9234d39ffe60cdbea1238e27de1c0fc01469691d2528f19902a83c"
+}

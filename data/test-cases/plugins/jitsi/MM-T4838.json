@@ -1,0 +1,55 @@
+{
+  "id": 22954605,
+  "key": "MM-T4838",
+  "name": "Slash command /jitsi settings update",
+  "createdOn": "2022-05-26T15:32:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /jitsi settings embedded true<br />2. Type /jitsi settings embedded false",
+        "testData": null,
+        "expectedResult": "Embeded setting can be toggled on and off",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f125645872e26a79f2e9e234c6b984be2d8d575333cf562b5fbb4544cc8b91488710507a5cb03aa11670901c18d465f4",
+  "stepsHashed": "3312f753dec4f4d5b9cd7fe93c71bb26501d5744de369ee5f5cc7cd2b77e7269442887fbc77800a6c65107965eb943db"
+}

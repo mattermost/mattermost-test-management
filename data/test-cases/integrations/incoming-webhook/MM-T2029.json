@@ -1,0 +1,55 @@
+{
+  "id": 5410587,
+  "key": "MM-T2029",
+  "name": "🚀 Postman setup for incoming webhooks integrations tests",
+  "createdOn": "2020-05-15T16:02:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.25 (July 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, October 14, 2020 2:11 PM<br>• Added to manual test pool<br><br>Joseph Baylon - Tuesday, October 20, 2020 2:30 PM<ul><li>removed from manual test pool</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Summary</strong>: These tests are designed to test the ability of an admin to control what usernames &amp; profile pictures are used when an incoming webhook posts to Mattermost.<br /><a href=\"https://docs.google.com/document/d/1iNx4P3z7Nuf1tcQbt-Ewx7ZitDKT_8EqoAdrqc6QYjc/edit?usp=sharing\"></a><strong>Deep dive</strong>: The <a href=\"https://docs.google.com/document/d/1iNx4P3z7Nuf1tcQbt-Ewx7ZitDKT_8EqoAdrqc6QYjc/edit?usp=sharing\">more details version of the summary</a> if you're itching to look under the hood and understand all of this better.<br /><br /><strong>Really important time saver notes you really shouldn't overlook</strong>:<ul><li>Run these tests on <a href=\"https://postgres.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://postgres.test.mattermost.com/</a> as many of the links embedded within the tests go directly to locations on that server to streamline testing.</li><li>Oh! And you'll want to use the \"Webhooks\" team invite link in case you're not already a member ➜ <a href=\"https://postgres.test.mattermost.com/signup_user_complete/?id=s9njt1ey8b84d8567dayy5aora\">https://postgres.test.mattermost.com/signup_user_complete/?id=s9njt1ey8b84d8567dayy5aora</a></li></ul><strong>Initial setup instructions (aka: time to get to work)</strong>:<ol><li>Navigate to System Console ➜ Integrations ➜ Integration Management ➜ <a href=\"https://postgres.test.mattermost.com/admin_console/integrations/integration_management\" rel=\"noopener noreferrer\" target=\"_blank\">Enable Integrations on Postgres</a> (hint: open that link in a new tab and keep it open - you'll be glad you did)</li><li>Ensure that '<strong>Enable integrations to override usernames:</strong>' is set to true</li><li>Ensure that '<strong>Enable integrations to override profile picture icons:</strong>' is set to true</li><li>Go to Main Menu ➜ Integrations ➜ Incoming Webhook and click <a href=\"https://postgres.test.mattermost.com/webhooks/integrations/incoming_webhooks/add\" rel=\"noopener noreferrer\" target=\"_blank\">Add Incoming Webhook</a></li><li>Fill out the fields:<ul><li><strong>Title</strong>: (anything you'd like is fine)</li><li><strong>Description</strong>: (also entirely up to you)</li><li><strong>Channel</strong>: any channel other than Off-Topic (the payload will specify Off-Topic)</li><li><strong>Username</strong>: (leave blank)</li><li><strong>Profile Picture</strong>: (leave blank)</li></ul></li><li>Select Save</li><li>Select Done</li><li>Copy the URL on the Setup Successful page (e.g., it will look something like https://postgres.test.mattermost.com/hooks/9yg7sbhs73g6pjmd5figcaisuh)</li><li>Install the native (Mac, or Windows) Postman App: <a href=\"https://www.getpostman.com/downloads/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.getpostman.com/downloads/</a><br /><strong>Note</strong>: The <a href=\"https://blog.postman.com/2017/11/01/goodbye-postman-chrome-app/\" rel=\"noopener noreferrer\" target=\"_blank\">Chrome Postman app is deprecated</a> so you may not want to use it</li><li>Launch Postman and follow the steps below to set it up:<ol><li>Click the \"New\" button in the top left</li><li>Select \"Request\" in the modal window that appears</li><li>Give your request a name (e.g., \"Incoming Mattermost Webhook test\")</li><li>Create or save it to an existing folder</li><li>Click 'Get' just below the name of your request (near the top left corner)</li><li>Select \"POST\" from the dropdown menu<br /><img src=\"https://avst-atm-addon-attachments-rte.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580865191766-2020-02-04_20-12-15.png\" class=\"fr-fic fr-dii\" /></li><li>Paste the URL you copied in step 8 (the one above ⬆️ that starts with\"<em>Copy the URL…</em>\" not the one below 🤦) into the \"Enter request URL\" field just to the right of POST</li><li>Click the \"Body\" tab, select \"raw\" radio button, and paste in the text from below this step<br /><br />{\"channel\": \"off-topic\", \"username\": \"new_username\", \"text\": \"The following escaped characters should be appear normally (ampersand, open angle, close angle): &amp;amp; &amp;lt; &amp;gt; \\nThe following should appear as links: &lt;https://about.mattermost.com/|This is a link to about-dot-mattermost-dot-com&gt;! [Markdown Link also to About page](https://about.mattermost.com/) Normal Link: https://about.mattermost.com/ Mail Link: &lt;mailto:mail@example.com|Email&gt; \\nThe following should be markdown formatted (mouse emoji, strawberry emoji, then formatting as indicated): 🐹 :strawberry: **bold** _italic_ `code` ~~strike~~ #hashtag \\nThe following should turn into a mention if there is an account named test, and clicking it should open profile popover: @test \", \"icon_url\": \"http://www.mattermost.org/wp-content/uploads/2016/04/icon_WS.png\"}<br /><br /></li><li>Test it by clicking the \"Send\" button (you should see \"ok\" if it worked)</li></ol></li></ol><img src=\"https://avst-atm-addon-attachments-rte.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578694121882-2020-01-10_17-08-02.png\" class=\"fr-fic fr-dii\" /><br /><br /><strong>Note</strong>: Once you set this up you'll only need to change the payload text you pasted in step 8 above for different purposes.",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "115ba79e2bdf0b63f9b55f395eae274f74ea2c3df4b296c85e8c2f2243bcb3e882bf9ce5d74b2c12ac5d6a0ee7e8fe71",
+  "stepsHashed": "6c1368cfbb78b43b7909ffa6681447988c5f76aaeef4c8edcaf27797b40cd95004c7aba99ff0ca33a06e1dd95e6f9ae4"
+}

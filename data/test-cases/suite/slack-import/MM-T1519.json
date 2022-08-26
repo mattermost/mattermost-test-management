@@ -1,0 +1,55 @@
+{
+  "id": 4454301,
+  "key": "MM-T1519",
+  "name": "Long channel purpose",
+  "createdOn": "2020-02-19T23:12:47Z",
+  "objective": null,
+  "precondition": "Slack Import test files are kept <a href=\"https://drive.google.com/drive/folders/19y2KC_tcqJZa-BDucvpdmsNdBqy-UL8Q\">in Google Drive here</a><br>You will use the above files for the tests.<br>It is important you have an account on the Slack team before exporting, so you can test claiming a Mattermost account imported from Slack.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404338,
+    "name": "Slack Import",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Slack Import"],
+    "fullPath": "suite/slack-import"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Slack import"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Long channel purpose<br>–––––––––––––––––––––––––<ol><li>Join the \"files\" channel in Mattermost</li><li>Check the channel purpose imported correctly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The 250 character channel purpose imported properly (should go until the word \"end\").</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fabdffcee93f07a5311a6af02f1f3b08ec2d87122fbc8e4a4f87a111737bdc04b9c6bf2fa776275208501fc84ae2b742",
+  "stepsHashed": "ff34c9f3546f4150cd56bb9c63710903de60570b522b8f4de8f90762a38469520f0a7d734210adc02365f41835a973f1"
+}

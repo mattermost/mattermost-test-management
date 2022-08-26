@@ -1,0 +1,55 @@
+{
+  "id": 8112121,
+  "key": "MM-T3632",
+  "name": "/ commands have auto-complete with icon",
+  "createdOn": "2020-12-04T18:41:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as the test user<br>2. Type /webex ",
+        "testData": null,
+        "expectedResult": "1. The following commands are visible:<br>- help<br>- info<br>- start<br>- room<br>- room-reset<br>- join<br>2. All commands show the WebEx plugin icon",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "241122df683d30423350b71f1de32a532043c7497a2b076207a62adcd369d624d337e198ae40e9a26e491fe31d5735e7",
+  "stepsHashed": "58d6ff186bc23e14ca50b17185cf8d58924d78d3f816a09d00337595d29d55d400265d5739e823f25d2b5443041a0e64"
+}

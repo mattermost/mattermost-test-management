@@ -1,0 +1,55 @@
+{
+  "id": 5873104,
+  "key": "MM-T2990",
+  "name": "LHS channel scroll, list should not scroll if channel is still visible",
+  "createdOn": "2020-06-18T20:47:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "WIP Environ & Addl."
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1) Have enough channels in the sidebar that there are at least 2 screens worth of channels<br />2) Switch to one of the channels near the top of the sidebar<br />3) Scroll the sidebar to the top<br />4) Click on one of the last few channels on the screen",
+        "testData": null,
+        "expectedResult": "You're not scrolled in the LHS, since the channel is still visible",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a3a245cf0e850adb6396628e4e11819e7d95e1ff22d974d1b27edd54b4c0f8d0c43f55d7b87aebb348322bca533349a8",
+  "stepsHashed": "870adab9954448e75c994d062124cae376f6ef5151cb8a4dd7a3223f73b0853ca2923a19a7a438848f7c060d1c1c774a"
+}

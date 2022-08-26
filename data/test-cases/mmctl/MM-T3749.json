@@ -1,0 +1,55 @@
+{
+  "id": 8631421,
+  "key": "MM-T3749",
+  "name": "Team - Archive : without permission",
+  "createdOn": "2021-01-19T09:39:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team archive [teamname] --confirm",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6c5af438ee0f70f6dfb1aa6ca687c6497400ebcbb66c54b8f48d19edf3fbd4db1f925bf9cc3eeb9296d88afc72cc7322",
+  "stepsHashed": "a0bc02cbf87e752b2956c84720b71b3edd1afa94f4c7048c99419f519b5586ce1ef17e89f41a58f6a43afcbd2b84b43d"
+}

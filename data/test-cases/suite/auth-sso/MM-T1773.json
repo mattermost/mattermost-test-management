@@ -1,0 +1,55 @@
+{
+  "id": 5254459,
+  "key": "MM-T1773",
+  "name": "Minimum password length field resets to default after saving invalid value",
+  "createdOn": "2020-04-30T12:39:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Minimum password Length<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Set &quot;Minimum password Length&quot; to ten<br />2. Save",
+        "testData": null,
+        "expectedResult": "Save successful, resets to 5 as default value.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b8e5252c88a486c15c9da593bebba19e622ca69db67c34e11feee1281a0b21800544109c07bf8c16f22590d8415f9eaa",
+  "stepsHashed": "9fa0e1e7f8d3ecd13d178843f91e418356c641d777fd8839fdeb84aa9b25fa3a9c0d8d8faaad61561489581d73fbe008"
+}

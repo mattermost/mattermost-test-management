@@ -1,0 +1,55 @@
+{
+  "id": 5600852,
+  "key": "MM-T2703",
+  "name": "Incorrect Login ID Attribute",
+  "createdOn": "2020-06-01T17:46:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incorrect Login ID Attribute<br>————————————————————————————<br><strong>Test using an LDAP account that does not yet have an account on this Mattermost server</strong><ol><li>Change Login ID Attribute to be something different, such as `domainusername` and Save</li><li>Have an LDAP user try to create a new account using LDAP credentials, observe error message \"We couldn't find an account matching your login credentials.\"</li><li>Change Login ID Attribute back to what it was before, such as `uid` or `sAMAccountName` and Save</li><li>Try the LDAP user account creation again</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After switching back to correct Login ID Attribute such as sAMAccountName, account creation is successful</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "665202e773ec35e3195dbc289fcb4d6949d1089df3574eac11be433b3e0879d749ae28b5c22264fb133b66de83b44a67",
+  "stepsHashed": "7d278233253abe81b7286f43f0b9d23bd1de698746b06929c14117f8b6a500c1ae829790263ba8a16ad101ada8766faa"
+}

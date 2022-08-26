@@ -1,0 +1,55 @@
+{
+  "id": 8715681,
+  "key": "MM-T3796",
+  "name": "Threads: Empty state",
+  "createdOn": "2021-01-25T15:08:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1139421,
+    "name": "Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Threads"],
+    "fullPath": "channels/threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Threads"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log in as a user with no followed threads",
+        "testData": null,
+        "expectedResult": "User is presented with \"No followed threads yet\" message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cbdc0f4e0431bb9e450189f42f3e417ad6836e96e2c63b9995849ecfe86122199f374f800774827bd88c12275ed03085",
+  "stepsHashed": "dbf58dbbb76fa2c645055eaa1aa74e73fdd529907d851d2ce5542bc4a9cb06e8f7ac44bc8553089673c87c9e8a0e941e"
+}

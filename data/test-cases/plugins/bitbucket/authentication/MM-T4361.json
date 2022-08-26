@@ -1,0 +1,55 @@
+{
+  "id": 15984470,
+  "key": "MM-T4361",
+  "name": "Sidebar - Your assignments",
+  "createdOn": "2021-11-04T17:56:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to bitbucket <br />2. Click the Assignments Icon from the RHS or team sidebar",
+        "testData": null,
+        "expectedResult": "Data is shown accurately",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b5b7244d99504741d4ebaaa9e343e4e5ba7c500afde1a0b752321289e74a104d5ba4181406a3538aff9a3758e8f4f79",
+  "stepsHashed": "382644841ffc4f484219fd6b630d1d0d770bc766ed2452d16b2cac3fd5a387a82526934ca192afcf529b20ab40494943"
+}

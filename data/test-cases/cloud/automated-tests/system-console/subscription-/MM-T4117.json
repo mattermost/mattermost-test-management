@@ -1,0 +1,55 @@
+{
+  "id": 12695855,
+  "key": "MM-T4117",
+  "name": "Trail tag/label should not be displayed in the main page of subscription menu after subscribing to any of the plan",
+  "createdOn": "2021-07-19T20:15:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1577254,
+    "name": "Subscription ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
+    "fullPath": "cloud/automated-tests/system-console/subscription-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create a new Workspace account</li><li>Subscribe</li><li>Go to ☰ menu ➜ System Console ➜ Billing &amp; Account ➜ Subscription</li><li>Look for Trial tag</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Trial tag should not exist</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4bea7810758d1e9d8d1aeeaed8fbf3af5151e64734483d93b2986eb16e36281ebca681b6ef7fb2822dc7ec3d0078697",
+  "stepsHashed": "0e8db186133f88ae63bae3f7bbd09ec2cb1f4dc4ebb4f761f0f196c2f1a81566355b653ff91aff1af7174864977c8fb3"
+}

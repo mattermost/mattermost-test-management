@@ -1,0 +1,81 @@
+{
+  "id": 9184688,
+  "key": "MM-T3859",
+  "name": "Elasticsearch: Users are auto-completed in message input box by nickname",
+  "createdOn": "2021-02-24T17:23:09Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": ["Open", "Help Wanted", "v5.33 (March 2021)", "Cloud (February 24)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 7:43 AM<br>• &nbsp;Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: This test requires Elasticsearch to be enabled - autocomplete, indexing and searching.<br><br>Full nickname returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@nickname\" of a user you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": ["Open", "Help Wanted"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Unique but partial nickname returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by unique but partial text of a nickname you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": ["v5.33 (March 2021)", "Cloud (February 24)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Partial nickname returns all users that match<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by partial text of a nickname you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "Should show autocomplete for all users that matched",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "67f8e59d1698b5d04b9e972745b5ec24cfed1df29fa4bfe1ddf7df268c1d9c5d1bbe53de222732ac4e8d7a91d7f54df7",
+  "stepsHashed": "6e133348185d99bdb0ed4fd319605826d63b06a2df597f18697a8efa8dbee0e6244fca569ee63544a2f99aeda4b220e9"
+}

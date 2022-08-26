@@ -1,0 +1,55 @@
+{
+  "id": 3742276,
+  "key": "MM-T113",
+  "name": "Delete a Message during reply, other user sees \"(message deleted)\"",
+  "createdOn": "2019-12-20T20:17:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, December 21, 2020 11:50 AM<br />• Added link to Cypress code",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Delete a Message during reply, other user sees `(message deleted)`<br />--------------------<br />1. Have another user post a message in a channel you can see<br />2. Click the reply arrow to *start* to reply to the message (but do not post the reply; just view the reply thread and start to type a reply in the reply box)<br />3. Have the other user delete the message they posted, [...] &gt; Delete<br />4. After the other user has deleted the parent message, press Enter to send your reply<br />5. Observe the modal that appears, then click `Okay` to close it (leave RHS open)<br />6. Enter another reply and press Enter or tap to send",
+        "testData": null,
+        "expectedResult": "Your view:<br />The deleted parent post shows as (message deleted). <br />When try to post the reply anyway, a modal (FYI specifically the PostDeletedModal) is shown that tells you &quot;Someone deleted the message on which you tried to post a comment.&quot; The RHS / reply thread should remain open, and the reply draft remains in text box.<br /><br />The other user, who deleted the message, should not see &quot;(message deleted)&quot; in any way because of your unsent reply<br /><br />When you close the warning modal and try to send a second reply, the modal appears again.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d4cc0b454be23a05449b1ef1b746696ee9d57ed2f8a5a46ab5f34f12956fccf979762a325bf5ebe48bb4252adda8a6a",
+  "stepsHashed": "708a57ab55a1a1754be2e88e2574dec943db95810b4aafe16f16c0ccce1e79063db9372a7322e1ce9fe92f41a2c83bca"
+}

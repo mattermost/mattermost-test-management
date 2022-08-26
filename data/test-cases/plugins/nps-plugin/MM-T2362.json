@@ -1,0 +1,55 @@
+{
+  "id": 5467326,
+  "key": "MM-T2362",
+  "name": "Link in admin notifications opens NPS plugin config page",
+  "createdOn": "2020-05-21T21:40:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404297,
+    "name": "NPS Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "NPS Plugin"],
+    "fullPath": "plugins/nps-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "NPS Plugin"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Link in admin notifications opens NPS plugin config page<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Log in as the admin and find the admin notification post in the DM with Surveybot<br />2. Click on the hyperlinked &quot;Click here&quot; text in the post",
+        "testData": null,
+        "expectedResult": "<ul><li>NPS plugin config page in the system console</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e19b96382190163911007e7a107611e2535c7a755ce2357e84fcc882592b8f65157ec21d67c14e08549eb312f9810abc",
+  "stepsHashed": "0dc08daa7a8d290cb80f345682c59e6e3a369f433e0d2811b350c539ad9553d99d55144a9e77e4097b4b76d84313b349"
+}

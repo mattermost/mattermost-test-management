@@ -1,0 +1,61 @@
+{
+  "id": 4051781,
+  "key": "MM-T1026",
+  "name": "Custom Branding - Name character limit",
+  "createdOn": "2020-01-21T22:18:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom Branding - Name character limit<br />--------------------<br />1. Type Site Name to something &gt;30 characters<br />If you added &quot;-test&quot; at the end, just type 12345 and then it shouldn't let you type 6",
+        "testData": null,
+        "expectedResult": "Should not allow you to type more than 30 characters",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b6ed7b091bf2716171ecd4816f8650396bb595121d6c12c4bac4e261ff1c8a4f5b0c700d443c31d199ff93608d0a774",
+  "stepsHashed": "3272580041b14a1e40754812fc48d32c92585b737d60ef72a7c2b90acca465485cc09e59e27b8edd91fb569345942162"
+}

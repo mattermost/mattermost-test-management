@@ -1,0 +1,55 @@
+{
+  "id": 5480382,
+  "key": "MM-T2465",
+  "name": "Linux Dark Mode — Linux ONLY",
+  "createdOn": "2020-05-22T13:52:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 817021,
+    "name": "Windows and Linux ONLY",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Windows and Linux ONLY"],
+    "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "Devin - 11/1/2021 - Only for Linux now",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop: Win", "Desktop: Linux"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open the Mattermost Desktop app</li><li>Click on the three dot menu ➜ View ➜ Toggle Dark Mode<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1594408980015-1594408980014.png\" style=\"width: 379px;\" class=\"fr-fic fr-fil fr-dib\"></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>App header switches to dark color theme</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "67b95802b6f82408e875354830b7e51aedbda9ff3a7e443aa01f89051ea3578308229f8dc413c723b1ef11ae620fddd3",
+  "stepsHashed": "7d490cb61259531f5ee9ed229278c69930cd6c3a52c1082df313f6efebb7dfe5618c7b19f55072972ac57bf04af899a3"
+}

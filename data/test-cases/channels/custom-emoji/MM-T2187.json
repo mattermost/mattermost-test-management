@@ -1,0 +1,55 @@
+{
+  "id": 5444787,
+  "key": "MM-T2187",
+  "name": "Custom emoji reaction",
+  "createdOn": "2020-05-20T06:05:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2960960,
+    "name": "Custom Emoji",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom emoji reaction<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Add custom emoji reaction to most recent message by posting `+:emojiname:`",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b496cd336162c04f104f05bedc0c447fdb1f8fa920ebc7c52bbc9ef10f85f157ccd8c357078c052e08c6bea881d639f",
+  "stepsHashed": "e99a379bef9d3dc6a086d49dd6c7e277c5f1d454eebfd5dc65fc729fdaf16fd12518b46040555a2de84f212b52b8f2bf"
+}

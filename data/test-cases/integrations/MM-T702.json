@@ -1,0 +1,55 @@
+{
+  "id": 3969602,
+  "key": "MM-T702",
+  "name": "Edit to invalid URL",
+  "createdOn": "2020-01-08T17:47:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit to invalid URL<br>–––––––––––––––––––––––––<ol><li>Make a slash command in the UI</li><li>Update that slash command but change the URL to be something that doesn't start with http:// or https://</li><li>Click Update</li></ol>",
+        "testData": "",
+        "expectedResult": "On 2, rrror modal appears<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1586294859787-2020-04-07_17-24-00.png\" style=\"width: 505px;\" class=\"fr-fil fr-dib\"><br>On 3, error displays \"<em>Invalid URL. Must be a valid URL and start with http:// or https://</em>\" appears to left of Update button at bottom of page<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578599533827-2020-01-09_14-48-14.png\" class=\"fr-fic fr-dii\"><br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-7472\">PUT /api/v4/commands/{command_id} endpoint does not validate command input — MM-7472</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "42a1a3874d4d9bc592f7176b6f4668c0c982795375ea687ffa84881d2da6d5b30bb83011364c4937982428c2c704363b",
+  "stepsHashed": "a7de094b30e87104ce100e08694bb247bc7db35a80b22c97f824dfbfee0da079b983d92f5acb1f073bf341216868249b"
+}

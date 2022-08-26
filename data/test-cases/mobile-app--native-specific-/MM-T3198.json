@@ -1,0 +1,55 @@
+{
+  "id": 6396874,
+  "key": "MM-T3198",
+  "name": "RN apps: Manage members in channel",
+  "createdOn": "2020-07-30T21:04:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Manage members in channel<br>————————————————————————————<ol><li>In channel info screen, note the number of users in the channel</li><li> Tap on \"Manage members\"</li><li> Tap on the circle to the left of a user, observe it appears selected</li><li> Tap on \"remove\" at the top right of the screen, observe confirmation message</li><li>Tap on \"yes\" to remove the user from the channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The user should disappear from the list of users and be removed from the channel</li><li>A system message showing that the user has been removed from the channel should display in the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "52b6c90e5dbc82ae303cd2f73243ddffb531e1f6fa8e7634a945e0cb84a970d83c3189cbd6bcf676c1afc28f6d33b993",
+  "stepsHashed": "482f75a05af82155288704f366d97622ce297cce6778c23a260f22d69d54a0aa64167d0efdf68f13b92dc6350cd03c56"
+}

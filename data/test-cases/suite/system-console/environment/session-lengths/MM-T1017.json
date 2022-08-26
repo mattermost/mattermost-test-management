@@ -1,0 +1,55 @@
+{
+  "id": 4051772,
+  "key": "MM-T1017",
+  "name": "Sessions lengths - SSO",
+  "createdOn": "2020-01-21T22:18:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568180,
+    "name": "Session Lengths",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Session Lengths"],
+    "fullPath": "suite/system-console/environment/session-lengths"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Sessions lengths - SSO<br>–––––––––––––––––––––––––<ol><li>Set \"Session length for SSO (days):\" to 1</li><li>Save</li><li>Logout and then log back in via SSO (any)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Setting saved</li><li>Can log back in using SSO (any)<br>Set back to 30 when finished</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e97b314805380ce20d4196be1217ac11157f9b31a41cb2433225a773c7b455f1fd67ff58e5246a8b0aad4cbd146e2413",
+  "stepsHashed": "ce83b7547ac51ce3a4a0ecb5450ae2da1ec458101f8db539197f0ea8c6f22f3a88cf07bfa2215cecefbab52f80df2656"
+}

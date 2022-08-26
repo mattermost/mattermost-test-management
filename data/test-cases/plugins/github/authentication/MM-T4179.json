@@ -1,0 +1,55 @@
+{
+  "id": 13721313,
+  "key": "MM-T4179",
+  "name": "Links in DM link user to the spesific comment",
+  "createdOn": "2021-08-30T15:19:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194687,
+    "name": "Authentication",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Authentication"],
+    "fullPath": "plugins/github/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setuup a test user and connect to GitHub<br />2. As another user comment on the test user's PR<br />3. When you receive a DM click the link that says a user has commented on your PR",
+        "testData": null,
+        "expectedResult": "The link directs the user to the comment made in step 2. listed on the PR.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e0a3ea40c7d4ca7c917c229bf9b648289145fadadfd2067c243e3683e4e6721a8827e793ba097c23515dc8b9a6ffe58c",
+  "stepsHashed": "8f59ded5689f528dc6ab7336d44f56d1be1f1667d85f0102f96f85d0c9affb07a08edd80d114a150b5a46fcb4c79a7c9"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 5467489,
+  "key": "MM-T2373",
+  "name": "Removing a file attachment",
+  "createdOn": "2020-05-21T22:33:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post list does not scroll when deleting post with image attachment that is off-screen from above<br />————————————————————————————<ol><li>As another user, post a message with image attachment. Then, post again with 30 more messages.</li><li>Login as test user and view the same channel where messages were posted.</li><li>Scroll up a bit so that latest posts and older post with image attachment are off-screen.</li><li>As the test user, watch the vertical position of the thread while the off-screen post is deleted by the other user.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The post list does not move when the off-screen attachment is deleted.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Post list does not scroll when deleting post with image attachment that is off-screen from below<br />————————————————————————————<ol><li>As another user, post several messages (could be 30 or more). Then, post another message with image attachment.</li><li>Login as test user and view the same channel where messages were posted.</li><li>Scroll up a bit so that latest post with image attachment and older posts are off-screen.</li><li>As the test user, watch the vertical position of the thread while the off-screen post is deleted by the other user.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The post list does not move when the off-screen attachment is deleted.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "75e97f643251a67d7e7ea14e8f66e802629e684decaaf9527e2f1bdb86a8a4e50ee2c30a404a2a0fe31fde265c21c823",
+  "stepsHashed": "141d77c430acbe5b893fa1ab37ae4de3804b33853cb39d1396aa10e6bf287b3b1e4556fd4e948c6a73629166e924b5da"
+}

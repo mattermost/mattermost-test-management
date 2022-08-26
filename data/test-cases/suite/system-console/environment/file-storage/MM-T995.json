@@ -1,0 +1,55 @@
+{
+  "id": 4051750,
+  "key": "MM-T995",
+  "name": "Amazon S3 settings",
+  "createdOn": "2020-01-21T22:18:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568113,
+    "name": "File Storage",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
+    "fullPath": "suite/system-console/environment/file-storage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Amazon S3 settings<br />--------------------<br />1. Set &quot;File Storage System&quot; = Amazon S3<br />2. Change some fields<br />3. Save and refresh",
+        "testData": null,
+        "expectedResult": "All Amazon S3 fields should become editable<br />Changes persist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cbfdd13453ca5a5faeae00691d4791ef0431152256c9faf7e7bc19c5b4f563fc8e511095840e3e87eeadfc97dd67497a",
+  "stepsHashed": "880c62776ee44d844b044479532b0413670f806bb7e2c65f8340bc044b927d8ac58f14d966d1d03cef0b736d33805bae"
+}

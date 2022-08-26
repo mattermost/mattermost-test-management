@@ -1,0 +1,55 @@
+{
+  "id": 17862423,
+  "key": "MM-T4587",
+  "name": "Unsubscribe features do not deliver events",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. type /gitlab subscriptions delete dhaussermann/dkh-project3<br />2. In the target project, create or locate an issue<br />3. Add a comment to the issue",
+        "testData": null,
+        "expectedResult": "No event is delivered as `Issue comments` feature was not included in the subscription",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "29c8634b4fa34f321a16a516a0ce9a4a62cff50649e4ac82004f5af824c313c171b0d38e9ad6fcc6a6fdda3883760df7",
+  "stepsHashed": "1b2d06e99e62ab7a1342597735bee32b1a4f025e4e5e1bbc8c94c4f9ae73bf1dcff8d36ae0c8deeabe672c23257a2034"
+}

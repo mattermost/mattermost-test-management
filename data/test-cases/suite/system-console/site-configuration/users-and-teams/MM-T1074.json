@@ -1,0 +1,55 @@
+{
+  "id": 4058084,
+  "key": "MM-T1074",
+  "name": "Privacy\nEmail Address - Hidden\nFull Name - Shown\nMember icon drop-down > View Members\nNon-System admin",
+  "createdOn": "2020-01-22T16:25:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Hidden<br />Full Name - Shown<br />Member icon drop-down &gt; View Members<br />Non-System admin<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = false<br />2. Ensure &quot;Show Full Name&quot; = true<br /><br />Non-System admin clicks Town Square member icon &gt; View Members",
+        "testData": null,
+        "expectedResult": "Non-System admin cannot see any users' email addresses except their own<br /><br />Can see full names",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c6616daba9da8cc19828529b05f2c8e826391b5562ab1cacc1838c13214d84caa7da54f54a2d91690837ba778fce32e4",
+  "stepsHashed": "8c93380e5bce2caccf7017ecd2dd253beb0cfdc88bd0d893097a5e49f8b4a89f58bd067adbe47b13d01175171635f873"
+}

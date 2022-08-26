@@ -1,0 +1,55 @@
+{
+  "id": 12735851,
+  "key": "MM-T4120",
+  "name": "Contact Sales navigation from Subscription screen",
+  "createdOn": "2021-07-19T20:36:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1577254,
+    "name": "Subscription ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
+    "fullPath": "cloud/automated-tests/system-console/subscription-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create a new Workspace account</li><li>Go to ☰ menu ➜ System Console ➜ Billing &amp; Account ➜ Subscription</li><li>Look for Contact Sales button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Contact Sales should be present</li><li>Clicking \"Contact sales\" link should display \"https://portal.test.cloud.mattermost.com/cloud/contact-us?email=[user email address]&amp;name=%20&amp;inquiry=sales&amp;inquiry-issue=trial_questions\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ce90a4b05dc4fca924a46a3f1e677422e89c0ece8ba17bb686b76462e2ddac946f3ccfb5f356e5f58e374595d940697",
+  "stepsHashed": "0502105cc5f12ede04c5fed925a20ce9d5a15dcde1287df265b4e4f454b56f85cddea988d066119dc23d5eaf97208e95"
+}

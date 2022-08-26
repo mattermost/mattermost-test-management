@@ -1,0 +1,55 @@
+{
+  "id": 19703647,
+  "key": "MM-T4706",
+  "name": "Start a MS Teams meeting in DM",
+  "createdOn": "2022-03-23T16:18:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Sign in with a Mattermost account with a matching email address to your MS Teams account.<br />2. In a DM channel, click the video icon in channel header",
+        "testData": null,
+        "expectedResult": "MS Teams meeting posted to channel with<br /> - Posted by The meeting creators account<br /> - I have started a meeting as pretext<br /> - Meeting ID and a button to &quot;Join Meeting&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4eab45427f48cbbf62820c2206092bf2c8e7e49b936618b5cc4cfc57cbd6fe9717d337586b7652bdcadf0714ff839ec4",
+  "stepsHashed": "fc191320a66ebb14a9db7c3d5f9868172e0aa03c4025f2a8617894208c0be484070ded4d9f514e9769b190bcef451a5a"
+}

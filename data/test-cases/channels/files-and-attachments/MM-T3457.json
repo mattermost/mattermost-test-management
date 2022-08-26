@@ -1,0 +1,55 @@
+{
+  "id": 7634735,
+  "key": "MM-T3457",
+  "name": "RN apps: File preview gallery - Enable \"Allow File Downloads on Mobile\"",
+  "createdOn": "2020-10-28T22:07:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.38 Mobile (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should display share button when mobile file download is disabled<br>--------------------<br>1. As admin, go to <strong>Site Configuration &gt;&nbsp;</strong><strong>File Sharing and Downloads&nbsp;</strong>and set,<ul><li><strong>Allow File Sharing = true</strong></li><li><strong>Allow File Downloads on Mobile = true</strong></li></ul>2. As user, login to app and go to a channel<br>3. Post a file, image, or captured photo/video<br>4. Tap on the posted file, image, or captured photo/video<br>5. Tap on share button",
+        "testData": null,
+        "expectedResult": "After #4,<ul><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604004173316-Screen+Shot+2020-10-29+at+1.34.12+PM.png\" class=\"fr-fic fr-dii\">Verify share button is displayed on all attachment types (file, image, captured photo, captured video)</li></ul><br>After #5,<ul><li>Verify <strong>Preparing</strong> progress bar is displayed (see sample below) and then the native share screen is displayed</li></ul><br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604004353018-IMG_0303.PNG\" class=\"fr-fic fr-dii\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd5ff88db8060e1d0d4e38f662c928d650ba13fec204930114a0666538c2a001ce4069512a96f57bfb99d3a7f1752aa6",
+  "stepsHashed": "1d8cef0be0ed8b7225d4fc9822b601834943e1e248c9acbd52e4e512acc3e394eab98a18ae81d2e3458ca08647c4bf8a"
+}

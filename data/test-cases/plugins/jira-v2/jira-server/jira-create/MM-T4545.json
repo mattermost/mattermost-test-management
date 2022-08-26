@@ -1,0 +1,55 @@
+{
+  "id": 17698341,
+  "key": "MM-T4545",
+  "name": "Issue Create - Files can be attached to Jira comment",
+  "createdOn": "2022-01-19T18:23:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Make a post in Mattermost that contains a file attachment <br />2. Open the post menu and select attach to Jira<br />3. In the attach modal that opens, search for and select a Jira issue<br />4. Attach the comment to the issue<br />5. Open the Jira issue in a browser (can click the link posted after 4.)",
+        "testData": null,
+        "expectedResult": "On 4. the Jira plugin post a reply to the post confirming that post was attached and provides a link to the issue<br />On 5. the comment created via Mattermost post contains the file attachment",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7eaa8b346b0df61cbed48401e9f26100292a27b6a1d4cf0ea8ae742a5d224f54e7b78a87d3457c2817f9b04f219bd816",
+  "stepsHashed": "2f55d1590e926992a0bbd0ae996061f4a3a80ba41ca50fd0889414991b59ca016e313cc0b5282132514e0d5abe0a9e30"
+}

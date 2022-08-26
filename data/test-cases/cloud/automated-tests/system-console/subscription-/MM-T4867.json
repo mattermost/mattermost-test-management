@@ -1,0 +1,55 @@
+{
+  "id": 24143235,
+  "key": "MM-T4867",
+  "name": "Subscription page — Trial info panel",
+  "createdOn": "2022-06-17T18:52:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1577254,
+    "name": "Subscription ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
+    "fullPath": "cloud/automated-tests/system-console/subscription-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to a freemium workspace</li><li>Start a free trial</li><li>Go to the System Console ➜ Subscription page</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1655491849809-1655491849809.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>The trial info banner is shown presenting the ending date and the call to action buttons</li><li>The trial badge shows the remaining days just besides the Cloud Enterprise left card title</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "023e7994aca55f1f40e50fa8b746f08a19bc55dea4b9e90554536ba16f9dd348f7dc4f8d7b625db772a7c69f65f36437",
+  "stepsHashed": "0696b030eb681a287a857191b672d953e01d43e17ad866a9e7737544dfea9ab7562ae7401a357a5b2867405a655a3f6c"
+}

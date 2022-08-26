@@ -1,0 +1,55 @@
+{
+  "id": 4032096,
+  "key": "MM-T822",
+  "name": "History ➜ Back",
+  "createdOn": "2020-01-17T14:04:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "v5.0-N/A", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "10/18/21 - Lindy - Have disabled the Rainforest tests from running as they're deprecated post v5.0 desktop app release.",
+    "Rainforest": ["Temporarily Disabled", "in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Verify History arrows are positioned to the right of the Channels on the global header area of the Desktop app, aligned with the text and icons of the header</li><li><br /></li><li>Go to History ➜ Back</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651871781690-Screen+Shot+2022-05-06+at+5.13.32+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>User redirected to previous page in history</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d5b94807a6dc98aedfdeda41fa070b64d2130d67b6a6a45057b0e753a1dd2af95270be2c7fdc336134698a1ccd353f58",
+  "stepsHashed": "9325234eef4ba73655b691fd90f5870a4a5b332afd82e7ca1f8de387b9aa90d15161bfa4f69a1435cd8eb17f5ba427db"
+}

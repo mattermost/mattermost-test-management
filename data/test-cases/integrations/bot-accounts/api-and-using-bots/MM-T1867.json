@@ -1,0 +1,55 @@
+{
+  "id": 5280809,
+  "key": "MM-T1867",
+  "name": "Post as a bot and include an @ mention",
+  "createdOn": "2020-05-04T18:10:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710248,
+    "name": "API and using BOTs",
+    "parentId": 404274,
+    "fullNames": ["Integrations", "Bot Accounts", "API and using BOTs"],
+    "fullPath": "integrations/bot-accounts/api-and-using-bots"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, February 03, 2021 4:38 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post as a bot and include an @ mention<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Use the curl command from the step avove and include an @mention for a user in the text",
+        "testData": "<p dir=\"ltr\">curl -i -X POST -H 'Content-Type: application/json' -d '{\"channel_id\":\"&lt;Chanel ID&gt;\", \"message\":\"This is a message from a bot with mention for @dkh-sysadmin and @dkh-member\", \"props\":{\"attachments\": [{\"pretext\": \"Look some text\",\"text\": \"This is text\"}]}}' -H 'Authorization: Bearer &lt;Token&gt;' &lt;Server&gt;/api/v4/posts</p>",
+        "expectedResult": "Mentions work as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "19351efebfa36650608911a16069ca8c36653fbb7bca5edbd9be5bc16b13d2886d2d0c886e6e71b6b26022516bd540f2",
+  "stepsHashed": "f20a9e55677b114a1425cc6a382d0eafa618d428c25b87fd62d28e552ff5890e50b4e5f32ca50e68b0376c5d0403f94f"
+}

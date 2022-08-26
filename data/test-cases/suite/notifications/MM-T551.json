@@ -1,0 +1,55 @@
+{
+  "id": 3905619,
+  "key": "MM-T551",
+  "name": "Reply Notifications - not unless I'm mentioned",
+  "createdOn": "2020-01-03T19:25:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E2E-1", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 9:55 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Reply Notifications - not unless I'm mentioned<br>--------------------<br>1. Select \"Do not trigger notifications on reply threads unless I'm mentioned\"<br>2. Save<br>3. Make a parent post<br>4. Use a second test account to make a comment on the original parent post.<br>5. Again as second test account, post another comment but this time mentioning the first user.",
+        "testData": null,
+        "expectedResult": "On 4, no mention notification is sent.<br>On 5, mention notification is received.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "432ad93ecd0eb1ed573b69ee3df3942d20dfe4e9da1f1929e8e619a2f50b4705b35ecb34a9854f6e00be0ae83b10c91d",
+  "stepsHashed": "efadd2c1296b1f23704e298c3b7f7a03f8abb6963000ed45358ca6762ed47fe5ea967b165d6f09a65eda7d7f9f7e4645"
+}

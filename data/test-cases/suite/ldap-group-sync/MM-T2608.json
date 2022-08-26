@@ -1,0 +1,55 @@
+{
+  "id": 5537289,
+  "key": "MM-T2608",
+  "name": "Admin filters groups",
+  "createdOn": "2020-05-27T21:13:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Admin filters groups<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Enable LDAP signin and disable SAML sync w/LDAP, then continue:<br />Log in carlos.test using LDAP, observe he gets dev and eng teams<br />Add or adjust LDAP Group Filter on LDAP page to filter out ABC group:<br />(&amp;(objectClass=groupOfNames)(!(cn=Test Group *))(!(cn=abc)))<br />Filtered-out group abc does not appear in list on Groups page<br />Admin syncs LDAP<br />Log in jesse.test for the first time, observe [he gets no teams? he gets engineering team? Asking MK because current behavior is different from what I noted in previous testing]<br /><br /><br />Team and channel is linked to a group<br />Admin syncs LDAP<br />Verify user in that group is in that team/channel<br />Admin adds or adjusts LDAP Group Filter (on LDAP page) to filter OUT QA group:<br />(|(cn=engineering)(cn=developers)(cn=abc)(cn=xyz))<br />or<br />(&amp;(objectClass=groupOfNames)(!(cn=Test Group *))(!(cn=qa)))<br /><br />Filtered-out group does not appear in Groups list<br />Admin syncs LDAP<br /><br />Set filter back to:<br />(&amp;(objectClass=groupOfNames)(!(cn=Test Group *)))",
+        "testData": null,
+        "expectedResult": "New user in that group does not join the previously linked team/channel (but does join higher-up groups such as engineering when qa group is filtered out, because they're still in that group in AD/LDAP after all and it's still linked in Mm)<br /><br />Existing user in that group is NOT auto-removed from the previously linked team/channel, and also remains in the &quot;higher-up&quot; groups (because as far as LDAP is concerned, user is still a member of engineering because they are a member of qa which is a member of engineering, even though qa isn't linked)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1fb2782051a735c7d78de8c0b3e6d8532874cfe35707b03de103fd30d620436660e41272bf247a9777f6f85720ada1ef",
+  "stepsHashed": "9d8760e92b4fec771d0cfd01e100545b310aad02236fde31738f0fb4db0946129e2b859f9084244fbc924eca4f8567c2"
+}

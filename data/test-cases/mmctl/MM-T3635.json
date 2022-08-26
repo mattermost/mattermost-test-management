@@ -1,0 +1,55 @@
+{
+  "id": 8120323,
+  "key": "MM-T3635",
+  "name": "Bot - Enable",
+  "createdOn": "2020-12-07T10:11:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot enable",
+        "testData": null,
+        "expectedResult": "enables a disabled bot account",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "83e386f3cb40e1cd1bb411aeb00b161ce88f480e9d45eaf33d801bfbc1a7225f5f4dfe0885125b0afa5ab6bb75f8fe56",
+  "stepsHashed": "b1ceb9c0fa555bded6d35bff4f25b68213341247275beec13838b179bd5f1faea3a832374906ed8d3c8e9d98562f6e89"
+}

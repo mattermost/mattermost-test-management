@@ -1,0 +1,55 @@
+{
+  "id": 4050763,
+  "key": "MM-T973",
+  "name": "Subpath - Redirect to permalink on login",
+  "createdOn": "2020-01-21T19:55:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath - Redirect to permalink on login<br />--------------------<br />- Copy a permalink for a message in a private channel, open it in a new/incognito browser, log in, verify redirected to that permalink",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f01dac6d304226fe8b2878af4d2cb81f30eb392eed9e23c89702c785565461a56d74b27bf77c829b7eefa2aff3f18fcb",
+  "stepsHashed": "e1a462915b07ca50300dc51d6fb996afc2244374de4da1a2d7ebcafab6c0e766518556b590ac64cb239f4ad400699cad"
+}

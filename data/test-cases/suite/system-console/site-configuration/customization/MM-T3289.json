@@ -1,0 +1,133 @@
+{
+  "id": 6542676,
+  "key": "MM-T3289",
+  "name": "Help (Ask community link setting)",
+  "createdOn": "2020-08-07T20:25:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enable Ask community link<ol><li>Navigate to: System Console ➜ Site Configuration ➜ Customization</li><li>Scroll to Enable Ask Community Link section (above Help Link)</li><li>Verify true/false toggle, defaulted to true and help text</li><li>Set to true and Save</li><li>ALSO: Observe the URL in Help Link field</li><li>AND: Observe the URL in Report a Problem Link field</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1602046661070-Screen+Shot+2020-10-06+at+9.54.38+PM.png\" style=\"width: 340px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Help Text:<br>When true, 'Ask the community' link appears on the Mattermost user interface and Main Menu, which allows users to join the Mattermost Community to ask questions and help others troubleshoot issues. When false, the link is hidden from users.</li><li>Setting should be enabled</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Hover over Help icon</li><li>Click on the Help icon</li><li>After enabling the setting, verify Ask community link is available under Help icon menu</li></ol><br>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596829735594-Screen+Shot+2020-08-07+at+3.47.43+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Help icon (question mark within circle) shows \"Help\" text on mouse hover</li><li>Help menu should show 4 options<ul><li>Ask the community</li><li>Help resources</li><li>Report a problem</li><li>Keyboard shortcuts</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Click on Ask the community link</li></ol>",
+        "testData": null,
+        "expectedResult": "Link opens https://mattermost.com/ask-mattermost-community/ (if you're not logged in or redirects directly to https://community.mattermost.com/core/channels/peer-to-peer-help if you are logged in)<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596830099053-Screen+Shot+2020-08-07+at+3.54.42+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Disable the setting for Ask community<br>(Mark false in sys console and Save)</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596829996703-Screen+Shot+2020-08-07+at+3.52.53+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Help menu should show 3 options<ul><li>Help resources</li><li>Report a problem</li><li>Keyboard shortcuts</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on Help resources&nbsp;",
+        "testData": null,
+        "expectedResult": "Link opens in a new browser tab to the URL you observed in the Help Link field in step 1.<br><br>(May be https://academy.mattermost.com if another tester hasn't changed the setting.)<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596830251753-Screen+Shot+2020-08-07+at+3.57.21+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on Report a problem",
+        "testData": null,
+        "expectedResult": "Link opens in a new browser tab to the URL you observed in the Report a Problem Link field in step 1.<br><br>(If it hasn't been changed by another tester, it may be the default https://about.mattermost.com/default-report-a-problem)<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596832497389-Screen+Shot+2020-08-07+at+4.32.01+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on Keyboard shortcuts&nbsp;",
+        "testData": null,
+        "expectedResult": "Link opens keyboard shortcuts modal<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1596831323305-Screen+Shot+2020-08-07+at+4.15.01+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3b2afa807745819565c99cbe6ff9f2b03e92c11b7fe9c24daf5baa8b5a9c8d2378c7b3d1703eb87aa2748358bcef34cb",
+  "stepsHashed": "608d7076738295ce8aee9ac621d27c9e356d4e1573569d52b6f0353154fe495ee4d5b335ec1044fbccf11b60e07b3812"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4151530,
+  "key": "MM-T1368",
+  "name": "Guest User restriction to join a team by invite link",
+  "createdOn": "2020-01-30T21:04:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.21 (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login to application as a regular member and click on Invite People ➜ Invite Members and copy the Team Invite Link.</li><li>On a new browser, login as a Guest User who does not have access to the team invite link.</li><li>Paste the Team Invite link and check if an error is displayed and the guest user is not allowed to join a team using team invite link</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1583424893558-2020-03-05_11-12-13.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "An error should be displayed to the guest user when they try to join a team via invite link:<ul><li>\"<em>Guests are restricted from joining a team with an invite link. Please request a guest email invitation to the team.</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22188\" rel=\"noopener noreferrer\" target=\"_blank\">Minor grammatical error in Guest User restriction text — MM-22188</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c75c0e91a024b3344d9060c08f4e3572cb9c9caadb412c34408350e5ee24b37b318cf08342b8d8c657571654965a41c7",
+  "stepsHashed": "3ba63f23f6b72dfbc72669a6e612f6d87245e6b73c15b4faab94de20015316eb2bbca729f1d6b61d94056cf023fc015d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 18614379,
+  "key": "MM-T4652",
+  "name": "CRT - L7 - New Reply post to followed thread",
+  "createdOn": "2022-02-21T20:23:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>New Reply post to followed thread</u><u>, user level CRT enabled</u><ol><li>As User1, create new root post in Off topic</li><li>Reply to your own post<ol><li>Verify for user1 this channel is <strong>not</strong> bolded</li><li>Verify channel item <strong>doesn't</strong> have mention badge</li><li>Verify global threads item is <strong>not</strong> bolded</li><li>Verify global threads item <strong>doesn't</strong> have mention badge</li><li>Verify main channel root post has thread footer, shows \"Following\"  and <strong>no</strong> unread dot</li><li>Verify <strong>no</strong> new messages line on the channel</li></ol></li><li>Login as user2<ol><li>Verify for user2 this channel is bolded</li><li>Verify <strong>no</strong> mention badge on the channel item</li><li>Verify global threads item is <strong>not</strong> bolded, </li><li>Verify global threads item <strong>doesn't</strong> have a mention badge</li></ol></li><li>Click on the Off topic channel<ol><li>Verify main channel root post has a thread footer, shows \"Follow\"  and <strong>no</strong> unread dot </li><li>Verify new messages line is present above the post on the main channel view</li></ol></li><li>Open post in RHS and reply <ol><li>Verify for user2 this channel on the sidebar is <strong>not</strong> bolded, <strong>no</strong> mention badge</li><li>Verify global thread item is <strong>not</strong> bolded, <strong>no</strong> mention badge</li><li>Verify \"Following\" label in threads header (RHS)</li><li>Verify <strong>no</strong> new messages line in threads (RHS)</li><li>Verify Thread footer is present on main channel view, shows \"Following\" , <strong>no</strong> unread dot</li></ol></li><li>Login as user1<ol><li>Verify for user1 this channel is <strong>not</strong> bolded</li><li>Verify channel item <strong>doesn't</strong> have mention badge</li><li>Verify global threads item is bolded</li><li>Verify global threads item <strong>doesn't</strong> have mention badge</li><li>Verify main channel root post has a thread footer, Shows \"Following\" and an unread dot</li><li>Verify <strong>no</strong> new messages line on the main channel</li></ol></li><li>Open the thread in RHS<ol><li>Verify new messages line is present</li><li>Verify \"Following\" threads header label </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "77e3b3a2896dc0b982728f3615c8323e5688d476364f36d2f12277ae4e7844265c6b459f0570395eea6096290050c238",
+  "stepsHashed": "a0e6febf266237ef0236e17c61cb9dd3d770dcd58801b82d8a9ba14c2a4568a281e3d7d56551f37ac46dd72413469f26"
+}

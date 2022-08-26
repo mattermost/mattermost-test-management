@@ -1,0 +1,94 @@
+{
+  "id": 6354039,
+  "key": "MM-T3156",
+  "name": "DM category sorting",
+  "createdOn": "2020-07-28T07:13:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": { "id": 14322, "name": "Webapp" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007306,
+    "name": "DMs and GMs",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "DMs and GMs"],
+    "fullPath": "channels/left-sidebar/dms-and-gms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:08 PM<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "DM category:<br>–––––––––––––––––––––––––<ol><li>Click on + in the Direct Messages category header in the channel sidebar</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Opens direct messages modal</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select toggle by recency</li></ol>",
+        "testData": "<ol><li>Create users in alpha order, with prefixes of ['a', 'c', 'd', 'j', 'p', 'u', 'x', 'z']</li><li>Create DM channels with each of the users and post a message in each of the DM channel</li></ol>",
+        "expectedResult": "<ul><li>Recency is the default sort</li><li>Recency icon is shown (clock)</li><li>DM channels are sorted from the most recent</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select toggle by alpha sorting</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Messages are sorted from the most recent</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Try rearranging DM/GMs within the category</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>DM/GMs can't be manually reordered</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0eab8196fd626259ee687bee4f290f8d9cc808a430de442e9c50e01543b82377e77a599a1de810b9fd8687a6f42ee502",
+  "stepsHashed": "e19bdd3fd5a5da2394da6920f6866b2fcbb47ec1c7e483c2e91de25ccfa89cc4bfb81af45d6be569ca1c281aeb3dfaf9"
+}

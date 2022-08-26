@@ -1,0 +1,55 @@
+{
+  "id": 5199853,
+  "key": "MM-T1669",
+  "name": "Team icon shows active state on click",
+  "createdOn": "2020-04-23T13:33:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team icon shows active state on click<br>–––––––––––––––––––––––––<ol><li>With an account that is a member of a few teams, in the LHS team sidebar, click on a team icon that you're not currently in</li></ol>",
+        "testData": null,
+        "expectedResult": "You should see the outline of the team icon highlight as you click on it",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22869\">No Active state on team sidebar icon on click — MM-22869</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8bf9f59e4c791f6e26a51d54606aa316b7143eae8ec1f2e9f984db3b7c0c8c5c265817bd414dd5e6d0a94a159460ab11",
+  "stepsHashed": "3aa89f98a00d8d7c7388a7af5ccf7db95be36c71178bba5222421376b35a794722fc623da5acf5f82d6a3612bac8288c"
+}

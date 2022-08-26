@@ -1,0 +1,55 @@
+{
+  "id": 5280792,
+  "key": "MM-T1859",
+  "name": "Bot is kept active when owner is disabled",
+  "createdOn": "2020-05-04T18:06:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710247,
+    "name": "Bot Ownership",
+    "parentId": 404274,
+    "fullNames": ["Integrations", "Bot Accounts", "Bot Ownership"],
+    "fullPath": "integrations/bot-accounts/bot-ownership"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 10:19 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Bot is kept active when owner is disabled<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Create or locate a System Admin<br />2. Set Disable bot accounts when owner is deactivated: to False<br />3. As the sys admin create a BOT account<br />4. As a 2nd admin deactivate the admin that created the BOT<br />5. Go to Integrations&gt;&gt; Bots  and locate the bot created in step 2.",
+        "testData": null,
+        "expectedResult": "- The bot is still active<br>- All system admins receive a DM <strong>from themselves</strong> listing which bots have no Active owner",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1ee844ebec95b2575b54cf313f8daa7927f7a51c2e93288ed99e1bdab035210537eaece4d4ed988dd414937d1ffb8d2",
+  "stepsHashed": "73628c926cf82a5c993fd9270cdd65453c7f308b93cf398c630e0ff4bfc7c0e0f68e26a2e47315b70c6e077748cd95fa"
+}

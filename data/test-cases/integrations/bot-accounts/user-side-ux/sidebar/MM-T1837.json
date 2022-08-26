@@ -1,0 +1,68 @@
+{
+  "id": 5280663,
+  "key": "MM-T1837",
+  "name": "Bot  DM channels display a normal Header",
+  "createdOn": "2020-05-04T17:41:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710234,
+    "name": "Sidebar",
+    "parentId": 710222,
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Sidebar"],
+    "fullPath": "integrations/bot-accounts/user-side-ux/sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Bot DM channels display a normal Header<br>————————————————————————————<br>1. Open a DM channel with Bot that was created",
+        "testData": null,
+        "expectedResult": "​​​​In all cases Bot DMs have a header visible just like any other DM channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. Open a DM Channel with a plugin bot such as SurveyBot or RemindBot",
+        "testData": null,
+        "expectedResult": "​​​​In all cases Bot DMs have a header visible just like any other DM channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "de00547e910f1f780443694ef5b5ac3d3d1d2a6b90a09609ce8934ddfd9fefcd47b17afd51ea78ab0059e45f5431c251",
+  "stepsHashed": "d3f85824b2fb075b8e143a1e240e1edd51a2b61042c25ca248a9b9f1429f98916ea29bf1e67c75a21971dbcbb0fbba43"
+}

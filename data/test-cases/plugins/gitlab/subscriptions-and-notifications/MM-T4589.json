@@ -1,0 +1,55 @@
+{
+  "id": 17862425,
+  "key": "MM-T4589",
+  "name": "Subscriptions comment created event",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In the target project, create or locate an issue<br />2. Add a comment to the issue",
+        "testData": null,
+        "expectedResult": "Subscriptions event is now delivered when a comment is added which show a link and the creator",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cae4607c88f4fdcb12a44984200fd5cfed4673d36e262763c7b8decf6f44e9bef7568d61ed3b7e42cc0d27a96ca15553",
+  "stepsHashed": "21fce8232e3c1d86f125b4f3dfbfbf38fec30f708f5e09cbdeb436064a5ca23a7cf2c238a1383b3bbc55208b47cda72c"
+}

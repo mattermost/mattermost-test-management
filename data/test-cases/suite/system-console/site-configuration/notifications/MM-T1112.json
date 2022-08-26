@@ -1,0 +1,55 @@
+{
+  "id": 4058502,
+  "key": "MM-T1112",
+  "name": "Notification Settings\nEmail\nCustomized name, address, etc",
+  "createdOn": "2020-01-22T17:58:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br />Email<br />Customized name, address, etc<br />--------------------<br />Set &quot;Notification Display Name:&quot; = Edited Mattermost<br />Set &quot;Notification From Address:&quot; = edited-feedback@mattermost.com (make sure whatever you edit it to is still in valid email address format; I added an extra `m` to the end once and it couldn't connect, but it wasn't obvious why)<br />Set &quot;Notification Footer Mailing Address:&quot; = &quot;Mattermost, 12345 test avenue, City, 90210&quot;<br />Save<br />Send an email notification by mentioning your account with another test account",
+        "testData": null,
+        "expectedResult": "Email notification received is from the name and email address specified, and the email has the correct footer address.<br /><br /><br /><br />FYI defaults to re-set to:<br />Display Name: Feedback MM-postgres.test<br />From Address: feedback@mattermost.com<br />Mailing Address: {blank}",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ea2847e6955d00e5e01ba6e37959d76bff122c7785038714f4871e31756a7bfa8c4328d948f2d97849378358323e170",
+  "stepsHashed": "ade1d50d384f0bf90c6a98363364525931bc5491a40beca19513419fbf948bed5cdd3ff321fe32a5f22e2ace66890f3b"
+}

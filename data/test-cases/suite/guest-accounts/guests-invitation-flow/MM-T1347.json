@@ -1,0 +1,55 @@
+{
+  "id": 4151137,
+  "key": "MM-T1347",
+  "name": "0 people use case",
+  "createdOn": "2020-01-30T19:20:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Select Invite People -&gt; Invite Members option</li><li>In the \"Invite People\" field enter an email of a user that's already a member on the system</li><li>Click \"Invite Members\"</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The message on the confirmation screen reads:<br>\"<em>1 invitation was not sent</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17334\">Invitation Flow - Confirmation Screen - 0 people use case — MM-17334</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a54c3b3e395783003d91f63039e8dadebfd689c01c833b62f5fc0d9358a8f7f42565ee2b059342d40feef4c007b56a18",
+  "stepsHashed": "fb659d3097ce6a6359fb932ea0db35a7b3d1912fa77ab1a4ae45d826308385cb1cd66e9a244a61667ada3e242916ebe2"
+}

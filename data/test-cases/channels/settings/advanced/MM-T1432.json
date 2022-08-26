@@ -1,0 +1,68 @@
+{
+  "id": 4184988,
+  "key": "MM-T1432",
+  "name": "Settings ➜ Advanced ➜ Send messages on… (MacOS steps, Win steps)",
+  "createdOn": "2020-02-03T15:22:31Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063264,
+    "name": "Advanced",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "28 Jan 21, Linda: Appears to have been marked N/A for Cypress and Rainforest because of different test steps for MacOS vs. Win. P4, so not a priority to get automated anyway.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>On a Mac</strong>:<ol><li>Navigate to Settings ➜ Advanced ➜ Send messages on…</li></ol><br />",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580743441068-2020-02-03_09-52-21.png\" style=\"width:481px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>The text is Mac specific:<ul><li>\"<em>Send messages on ⌘+ENTER</em>\"</li><li>\"<em>When enabled, ⌘ + ENTER will send the message and ENTER inserts a new line.</em>\"</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18609\" rel=\"noopener noreferrer\" target=\"_blank\">\"Send message on Ctrl+Enter\" should say \"Cmd+Enter\" on a Mac — MM-18609</a>",
+          "Important notes about this step": "<strong><span style=\"color:rgb(184, 49, 47)\">Note</span></strong>: If you are testing on Windows please mark this step as Passed"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>On Windows</strong>:<ol><li>Navigate to Settings ➜ Advanced ➜ Send messages on…</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580743807923-2020-02-03_10-08-11.png\" style=\"width:467px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>The text is Windows specific:<ul><li>\"<em>Send messages on CTRL+ENTER</em>\"</li><li>\"<em>When enabled, CTRL + ENTER will send the message and ENTER inserts a new line.</em>\"</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<strong><span style=\"color:rgb(184, 49, 47)\">Note</span></strong>: If you are testing on Mac please mark this step as Passed"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "79ce8caaa01b30b7b3a6834dd93b609ae7a3a57708f87e46b992e4b4b7cdc1f354ded211252e98847d47e9a43485fa8c",
+  "stepsHashed": "cff352109bf4d852a789cd8fd015d57ffe9316e45d74dd44795de63c7a47279b16c8d8e73afcb5777893e905fb3bce5c"
+}

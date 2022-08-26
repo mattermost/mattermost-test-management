@@ -1,0 +1,120 @@
+{
+  "id": 6377924,
+  "key": "MM-T3170",
+  "name": "Favorites Category",
+  "createdOn": "2020-07-29T19:36:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007308,
+    "name": "Favorites",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Favorites"],
+    "fullPath": "channels/left-sidebar/favorites"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Favorites Category<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Select any channel in Channels category",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on channel 3-dot menu and select Favorite",
+        "testData": null,
+        "expectedResult": "Favorites category is added on top of LHS<br />Newly favoroted channel is listed in Favorites",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the channel 3-dot menu and select Unfavorite",
+        "testData": null,
+        "expectedResult": "Channel is removed from Favorites",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Remove all channels from Favorites",
+        "testData": null,
+        "expectedResult": "Favorites category is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Drag a channel (or Dm) from any category to Favorites category&nbsp;",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel is removed from the existing category and shows in Favorites category</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Drag a channel (or DM) out of Favorites category and drop in Channels or any other custom category",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel is removed from Favorites and show in new category&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "64e7f6827f9dfa274a921519018c6cfbf050f0a1768c005fd0aec756090779bd11ad7b5640142e6b413e63b7adce7fd7",
+  "stepsHashed": "fa086c79ae793519db3de746f2f91b7acf7bc4a0e85fe63182c364481c869c5b188469901b0204d09f95b726f8e5f615"
+}

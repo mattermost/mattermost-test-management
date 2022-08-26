@@ -1,0 +1,55 @@
+{
+  "id": 3742270,
+  "key": "MM-T108",
+  "name": "RN apps: Long message expands message box; no delay in posting it",
+  "createdOn": "2019-12-20T20:17:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Long message expands message box; no delay in posting it<br />--------------------<br />1. In any channel, type a multi-line message (can copy a phrase and paste it repeatedly; don't post it yet)<br />2. At the end of the message, type a bunch of characters as quickly as you can, then immediately tap on the &quot;aeroplane&quot; icon",
+        "testData": null,
+        "expectedResult": "The text box should expand to multiple lines as the message is typed. There should be no lag between pushing the send button and the message posting.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a85f36fd39f46b9ab2230e2d4d0ad004d9283b06f7183bd10868c5ef8e8d54d2298011e3ec97d62f879a0d5b7de7d77a",
+  "stepsHashed": "91639c45963482359b2afa178f32481ca966c079ba731e0be48c2c64fb3c7da5699f475e1aea4bcad1d99fe022d3f327"
+}

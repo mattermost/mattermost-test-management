@@ -1,0 +1,55 @@
+{
+  "id": 5601878,
+  "key": "MM-T2738",
+  "name": "user is added to channel and team because of newly linked group and channel syncable.",
+  "createdOn": "2020-06-01T20:47:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "user is added to channel and team because of newly linked group and channel syncable.<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. User already exists in group and Mm; group is not linked to any team or channel<br />2. Admin newly configures a group and links to a team<br />3. Admin then selects via the channel list a channel on that same team to link<br />4. User is not added to the team immediately<br />5. Admin syncs AD/LDAP",
+        "testData": null,
+        "expectedResult": "User is added to the newly linked team / channel on sync",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "760068a584e6b5ca103c78b13c1585de2922469acdfe044b51d4404de70e1d5386e4d1f5b0d3f936bad1956e61488d06",
+  "stepsHashed": "eda84306dfd92a21ac2a2153572ef2a81a9e68c7bb9afe991a0337057f9b587afd167a9513f519cffddb8b905a922649"
+}

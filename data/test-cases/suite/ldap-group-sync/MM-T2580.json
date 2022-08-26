@@ -1,0 +1,55 @@
+{
+  "id": 5537261,
+  "key": "MM-T2580",
+  "name": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)",
+  "createdOn": "2020-05-27T21:13:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />LDAP signin disabled, LDAP sync enabled &gt; Group fields editable",
+        "testData": null,
+        "expectedResult": "Group fields:<br />Group Filter<br />Group Display Name Attribute<br />Group ID Attribute",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dde28c948c17ecfcc05c19d54e516ad2c6c975e3f57c87000d4bb0b5e9842f60566b345ea405dbabe320b7d7ea27ba26",
+  "stepsHashed": "7fc83c1897fe639fbb037b90036240f8a33aa86b0807f81071b51852c4193eac9fbf6c050d2ce7ce3f323d0d34841d0c"
+}

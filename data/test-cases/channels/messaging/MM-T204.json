@@ -1,0 +1,55 @@
+{
+  "id": 3742413,
+  "key": "MM-T204",
+  "name": "Focus will move to main input box after a new channel has been opened",
+  "createdOn": "2019-12-20T20:46:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Focus will move to main input box after a new channel has been opened<br />--------------------<br />1. Open the reply thread on a post<br />2. Place the focus inside the RHS input box<br />3. Use ctrl+k to open the channel switcher and select another channel<br />4. Channel selected opens",
+        "testData": null,
+        "expectedResult": "When channel is opened, focus is moved to main input box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a36030990830c745b21579fcfa7e450e38a73563bf337720121ae3071d15579821102665d90c9fa9b0602536ba51c500",
+  "stepsHashed": "b72010aa582a2ada36900dffcbd8e3d58037a5606d593296a4b96baeecec1fdad75ab85d98355d3bd85032f4baa7e0a3"
+}

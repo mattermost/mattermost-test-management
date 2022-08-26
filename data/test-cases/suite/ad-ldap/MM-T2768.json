@@ -1,0 +1,55 @@
+{
+  "id": 5602297,
+  "key": "MM-T2768",
+  "name": "Can list groups associated with team or channel",
+  "createdOn": "2020-06-01T22:09:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can list groups associated with team or channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />group team list ui-automation2<br />group channel list ui-automation:headertest",
+        "testData": null,
+        "expectedResult": "List displays of all groups associated with that team or channel<br /><br />1test<br />All Users - LDAP",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15164\">Add ability to switch a team or channel to be group-constrained via the CLI — MM-15164</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b03c7d216b050e09eec404024b141d7f11b3ca2877872c544665919f1a3490226da7eefbad2177de698d38988c4c06d2",
+  "stepsHashed": "6d680b16272bba4496d6c7dae6a4bee5a02806ebe44456ecdda07319b6e4c5e4065d18c5a107452ba46c78efbd664b06"
+}

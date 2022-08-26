@@ -1,0 +1,55 @@
+{
+  "id": 5565326,
+  "key": "MM-T2619",
+  "name": "Set team that has a bunch of linked groups to enable sync",
+  "createdOn": "2020-05-29T15:27:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Set team that has a bunch of linked groups to enable sync<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "<ul><li>Users who are in none of those groups are counted and confirmation modal says how many users will be removed on next sync</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16258\">Create \"users who will be removed from team\" API endpoint — MM-16258</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd0f53aa8c8bf1970018cad3a645b0bd2839578d4355512dfe00ec81a7be0180de3237947be42447247dacaf75ee6c0e",
+  "stepsHashed": "e7e0ac904d460babf5882fafacb1328a5ee93f770a3d9944595be0edb8b0c67603e23c45f39355445cc5dc8d4f54358f"
+}

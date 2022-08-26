@@ -1,0 +1,55 @@
+{
+  "id": 13721379,
+  "key": "MM-T4193",
+  "name": "Code Preview Enabled for public and private repos",
+  "createdOn": "2021-08-30T15:24:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1 Enable the Enable Code Previews feature for punblic repos only<br />2. Post a GitHub Permalink in a private repo such as https://github.com/DHaussermann/dkh-private/blob/6bff1fbd2d2b04405526ab226c82fd798a47c20a/token-go-file.go#L2-L4",
+        "testData": null,
+        "expectedResult": "Code preview is shown when posting the link",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b16ed19a8a534d943047b5510bbb477f3c2ecca0a4263a9b1c8292bbf85dc4b6c8f9c10132d8aa2fa975364cdf3fe24",
+  "stepsHashed": "7f23c9654d1aaf22e2869f1d0a5c93f650526ae840002a80150db31bf6eeca3d400bda4ba29b796e6696ca9ace422e3c"
+}

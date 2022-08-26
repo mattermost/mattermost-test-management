@@ -1,0 +1,55 @@
+{
+  "id": 5261297,
+  "key": "MM-T1799",
+  "name": "Close Group Message from channel menu",
+  "createdOn": "2020-05-01T08:20:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E2E-1", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.23 (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:30 PM<br />• Cypress Automation working as expected 🎉<br />• Removed from relevant Manual Environments",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value='{\"1\":2,\"2\":\"1. Create a Group Message\\n2. Click on the \\\"v\\\" to the right of the channel name\\n3. Select \\\"Close Group Message\\\"\"}'>Create a Group Message<br></span></li><li><span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value='{\"1\":2,\"2\":\"1. Create a Group Message\\n2. Click on the \\\"v\\\" to the right of the channel name\\n3. Select \\\"Close Group Message\\\"\"}'>Click on the \"v\" to the right of the channel name</span></li><li><span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value='{\"1\":2,\"2\":\"1. Create a Group Message\\n2. Click on the \\\"v\\\" to the right of the channel name\\n3. Select \\\"Close Group Message\\\"\"}'>Select \"Close Group Message\"</span></li></ol>",
+        "testData": null,
+        "expectedResult": "<span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;After 1) the group message is created\\nAfter 3) the group message is closed, removed from the LHS channels list and you're directed to Town Square&quot;}\">On 1, group message is created.</span><br><span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;After 1) the group message is created\\nAfter 3) the group message is closed, removed from the LHS channels list and you're directed to Town Square&quot;}\">On 3,&nbsp;</span><span data-sheets-userformat='{\"2\":4993,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"15\":\"arial,sans,sans-serif\"}' data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;After 1) the group message is created\\nAfter 3) the group message is closed, removed from the LHS channels list and you're directed to Town Square&quot;}\">group message is closed, removed from the LHS channels list and you're directed to the last channel you viewed prior to creating the group message</span>",
+        "customFields": {
+          "Fix Versions": ["v5.23 (May 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-24506\">Regression - Webapp: Close Group Message and Close Direct Message buttons don't work — MM-24506</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6bf16cc8b8970fc3055772facaa5b0457fe4f988620546dc138b2b4175ed7bdb4dd421cb6edaf1d542a298c1119e8792",
+  "stepsHashed": "8272f449537688a38ca38d21486388bb9e8ab79759fa6ca2805cafb82e39088a77804c70de24c1e9047596fa08d7c44b"
+}

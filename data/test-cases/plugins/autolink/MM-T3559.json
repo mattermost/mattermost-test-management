@@ -1,0 +1,68 @@
+{
+  "id": 8022824,
+  "key": "MM-T3559",
+  "name": "Autolink does not modify posts made by Bot accounts by default",
+  "createdOn": "2020-11-26T20:33:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Add an autolink pattern such as LHS that would edit the text `LHS`(see test data)<br />2. As a bot, make a post that contains text \"LHS\"",
+        "testData": "<pre>\"Pattern\": \"(LHS)\",\n\"Template\": \"[LHS](https://docs.mattermost.com/process/training.html#lhs)\",</pre>",
+        "expectedResult": "Autolink formatting is not applied to bot posts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Enable Process Bot Posts ex: `/autolink set lhs ProcessBotPosts true`<br />2. As a bot, make a post that contains text \"LHS\"",
+        "testData": "<pre>\"Pattern\": \"(LHS)\",\n\"Template\": \"[LHS](https://docs.mattermost.com/process/training.html#lhs)\",</pre>",
+        "expectedResult": "Autolink formatting is now applied to bot posts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "For 2. - You can use something such as `curl -i -X POST -H 'Content-Type: application/json' -d '{\"channel_id\":\"&lt;&gt;\", \"message\":\"This is a message matching LHS pattern from a bot with mention for @dkh-sysadmin and @dkh-member\", \"props\":{}}' -H 'Authorization: Bearer &lt;&gt;' https://&lt;&gt;/api/v4/posts`"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "608f1223be41957b64517a08c08b651188336de585d588bceda7f93f204db25e1ac30df7a3d81a37d39ccf4137d4d72d",
+  "stepsHashed": "308452a9f8dec8c3fb1f8eab0d62a1d4d67c25d370bfce554bc9db03da0654f99501969b7535c4b312a5476770e89ff6"
+}

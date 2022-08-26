@@ -1,0 +1,55 @@
+{
+  "id": 18607658,
+  "key": "MM-T4648",
+  "name": "CRT - Find channels modal is capturing arrow keys when global threads is open in the background",
+  "createdOn": "2022-02-21T14:00:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<p><u>Find channels modal is capturing arrow keys when global threads is open in the background</u></p><ol><li><p> Open the threads view</p></li><li><p>Open the Find Channels modal (CTRL/CMD + K)</p></li><li><p>Use the up/down arrow keys to move through the list on channels</p><ol><li><p>Verify find channels modal is capturing the arrow keys and not the background<br /><br /><br /><br /><br /></p></li></ol></li></ol><br /><br />",
+        "testData": null,
+        "expectedResult": "The arrow keys are captured by the find channel modal since it's in the foreground",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "64f710ae281c22918fe36f2706350b68477dc7a5f64f63ff94b3065a0143167606efd0978e7ce0539afa31013dda5b99",
+  "stepsHashed": "7654b61ed8a1a7261497f4f76c1758be83c082e563bf746e4fa6bc49128235b21eabfd6c68ccd28ee7d5aae63ce14b2c"
+}

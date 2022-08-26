@@ -1,0 +1,55 @@
+{
+  "id": 5264074,
+  "key": "MM-T1803",
+  "name": "Replies should be imported correctly for bulk imports",
+  "createdOn": "2020-05-01T18:39:35Z",
+  "objective": "To verify that replies are imported correctly during bulk import&nbsp;",
+  "precondition": "A sample bulk import json file is needed. CLI or MMCTL access is needed.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404278,
+    "name": "CLI",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)", "v5.23 (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI", "Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "CLI"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Run the following CLI command in server: `bin/mattermost import bulk &lt;bulk-import.json&gt; --apply`. The bulk-import file can be stored anywhere, and the file path can be used in the cli command.</li><li>Once the import is completed, find the new team that's created by the import and find the test channel.</li><li>Verify that messages and replies are imported correctly on the center channel view.</li><li>Verify that messages and replies appear correctly on reply threads.</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)", "v5.23 (May 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-24707\">Replies not imported correctly for bulk imports — MM-24707</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c75ff4362931599692be0da311665839770e3afb1569f8e1e091cbd7b08433c68890e7c680e1e764f19789e63ac858dd",
+  "stepsHashed": "c35468adfa8f75c3e8a328873c521f786ba6621288a5513e474682ceca1517e755d0ba31e47b457b4899ad0d42dd258a"
+}

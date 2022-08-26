@@ -1,0 +1,55 @@
+{
+  "id": 3968332,
+  "key": "MM-T633",
+  "name": "🚀 Text in Slack-style attachment is searchable",
+  "createdOn": "2020-01-08T12:57:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.2 (August 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Integration Frameworks"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Webapp", "Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming webhook - Text in Slack-style attachment is searchable<br />–––––––––––––––––––––––––<br /><ol><li>In Postman, send a POST to URL https://community-release.mattermost.com/hooks/szkru7tukfy9zc6duoof4pjooh with body containing the attached payload</li><li>Search for `findme`</li></ol>",
+        "testData": "{\"attachments\": [{\"type\": \"slack_attachment\", \"color\": \"#7CD197\", \"fields\": [{\"short\": false, \"title\": \"Area\", \"value\": \"This is a test post from the Integrations tab of release testing that will be deleted by someone who has the admin level permissions to do so.\"}], \"text\": \"This is the text of the attachment. This text should be searchable. Findme.\", \"title\": \"Title\"}]}",
+        "expectedResult": "<ul><li>The Slack attachment webhook post you just made is returned in search results</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.2 (August 2018)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-10977\">Search bodies of Slack Attachments on Messages — MM-10977</a>",
+          "Important notes about this step": "<strong><span style=\"color:rgb(184, 49, 47)\">Note</span></strong>:<ul><li>This will only work on an elasticsearch enabled instance so test this on <a href=\"https://community-release.mattermost.com/core/channels/qa-private\">community-release.mattermost.com</a> where the incoming webhook is already set up</li></ul>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ce3b79c9332fbbfec3b8612bf4a226080e921da63ac279744ca80ba2152a435539d537588f8f6c8d7d708dd434f450bd",
+  "stepsHashed": "14a8296b7857ba514ccb0e2154bf65d01763fc8626e1bd2f157db08bf706c42faf859a1a7e37323fbd9646f220f73f75"
+}

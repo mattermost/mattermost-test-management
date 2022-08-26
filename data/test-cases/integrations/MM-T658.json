@@ -1,0 +1,55 @@
+{
+  "id": 3968358,
+  "key": "MM-T658",
+  "name": "/invite - current channel",
+  "createdOn": "2020-01-08T12:57:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.4 (October 2018)", "v5.6 (December 2018)", "v4.10 (May 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "/invite - current channel<br>–––––––––––––––––––––––––<ol><li>Post `/invite @username` where username is a user who is not in the current channel</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User who added them sees system message \"username added to the channel by Firstname Lastname.\"</li><li>Added user sees channel added to LHS, mention badge, system message \"username added to the channel by username.\"</li><li>Cannot invite deactivated users to a channel (e.g. 'lindyda2' on community-release.mattermost.com)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.4 (October 2018)", "v5.6 (December 2018)", "v4.10 (May 2018)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-9904\">Add /invite slash command to invite users to a channel — MM-9904</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-12110\">Deactivated user can be added or removed from a channel via '/invite', '/kick' and '/remove' commands — MM-12110</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6d097fa9ff69bfa3f3e7b89130ef2edf1a9b42deb4784d95c53e64b7e31276ee56ad818ba2d41a42c493f11c5d12a955",
+  "stepsHashed": "c0df39b8c41bc951a92a0c61e136d0aa70d3337174858f8a97e5851458fa8e4ccbbe8485042c3eedafaea31b407fb0a5"
+}

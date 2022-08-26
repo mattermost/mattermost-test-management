@@ -1,0 +1,55 @@
+{
+  "id": 5519379,
+  "key": "MM-T2519",
+  "name": "Can Purge Indexes",
+  "createdOn": "2020-05-26T20:27:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, September 28, 2020 4:19 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can Purge Indexes<br>–––––––––––––––––––––––––<ol><li><a href=\"https://mysql.test.mattermost.com/admin_console/environment/elasticsearch\">System Console ➜ Environment ➜ Elasticsearch</a></li><li>Purge Indexes: Click on \"Purge Indexes\" button</li></ol><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1590528819748-1590528819748.png\" style=\"width: 777px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "testData": null,
+        "expectedResult": "<ul><li>System Message with a checkmark: Indexes purged successfully</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fc59dccc1b0d2507234f129d0a672009f9a2a0db5c534058b40bcd7bce70530af085d2e21ad68bbc5f4043516cfa2e4c",
+  "stepsHashed": "6837e13cf30e5df4e4756658311e2c3c308bde52a2f9618f7236766d5582e2febd10db35bcb4d83e7dc45128007374b8"
+}

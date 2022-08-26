@@ -1,0 +1,55 @@
+{
+  "id": 3905593,
+  "key": "MM-T525",
+  "name": "Selecting 1 notification preserves notifications in other channels",
+  "createdOn": "2020-01-03T19:25:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "21 Sep 9 - (LI) not able to test push notifications in RF",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Selecting 1 notification preserves notifications in other channels<br>–––––––––––––––––––––––––<ol><li>Ensure you have notifications on your device from at least 2 different channels (Can continue using data from above)</li><li>Select the notifications from 1 of the channels</li><li>Observe application opens and user is directed to the channel</li><li>Send the app back to background</li></ol>",
+        "testData": "",
+        "expectedResult": "Notifications from the other channel(s) are still there",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-31216\">RN: iOS - All channel push notifications cleared when opening one channel's push notification — MM-31216</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "64dd3352e6998b9baede68284b671048f5c28694e837e419c2d3d3937350fb54759790a5ab33ae9ad11ed3d1173cc5b7",
+  "stepsHashed": "b1021bb8db189c8210e7f4e43157b15587785a1ffc7db3c4cac204c56a795a7d53883479fd99171de7048e02233e507f"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4058508,
+  "key": "MM-T1118",
+  "name": "Notification SettingsEmail - With Notification Settings set to Never",
+  "createdOn": "2020-01-22T17:58:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings Email - With setting set to Never<br />--------------------<br />Note: Ensure Email Batching is \"true\" in the System Console &gt; Notifications &gt; Email Section<br /><br />Also ensure your status is set to Away or Offline (can set from drop-down in top left or use /away or /offline)<br /><ol><li>Open Settings &gt; Notifications</li><li>Click \"Edit\" to the right of \"Email Notifications\"</li><li>Select \"Never\"</li><li>Click \"Save\"</li><li>Have another user send some mentions and DMs, then put the app/server in the background and don't touch it for at least 15 minutes :)</li><li>Check your email after 15 min</li></ol>",
+        "testData": "Added to Se in v5.8 (Pass)",
+        "expectedResult": "Email notifications are not sent.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d29f0095acd777f56a8820f470b2d58f1a601064bbb0e1e63cbf0d0f049d086fe01c530734285f24756507373c3f50f2",
+  "stepsHashed": "39b4310d30aa281e6af0dc85f4237953a57ffab4b421b8fbf2ea0e960f177a0e42f3594922374aaa166d5c5ac9b8d778"
+}

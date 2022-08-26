@@ -1,0 +1,55 @@
+{
+  "id": 5566866,
+  "key": "MM-T2680",
+  "name": "Team Role ignores Guest Users",
+  "createdOn": "2020-05-29T20:22:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Role ignores Guest Users<br>————————————————————————————<ol><li>Set Guest Filter in LDAP Configuration page such that some users are marked as Guest.</li><li>Login as LDAP users matching the Guest Filter and ensure that their account is created as a Guest.</li><li>For a new Group Synced Team, select a Group and set the Role to Team Admin in System Console ➜ Teams page.</li><li>Check if all users who are not Guest Users have Team Admin permissions for that team.</li><li>Guest Users should not be added to the team.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Guest Users should not be added to the LDAP Group Synced Team unless they are added to a specific channel in the team</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f3f684c875ca6dfcde1e9e7a26d696eead11a5cec623744b3636ae8bda332a6b509aa0fcc1f8e95e7a1ccb0e64888512",
+  "stepsHashed": "413bb9e2d303bc926da49d7aa301bb829c0595c3b11b57ee158dd928a1e67857dfb87aa387271fa8daceba737a37b430"
+}

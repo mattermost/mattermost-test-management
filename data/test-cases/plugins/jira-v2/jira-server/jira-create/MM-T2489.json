@@ -1,0 +1,55 @@
+{
+  "id": 5481447,
+  "key": "MM-T2489",
+  "name": "Slash command - Create without description",
+  "createdOn": "2020-05-22T15:47:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira V2"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type `/jira create Bug I found with feature A`\n<br />2. Complete info needed and save the Jira issue",
+        "testData": null,
+        "expectedResult": "<ul><li>On 1. When the modal opens \"Bug I found with feature A\" is displayed in the description <br />On 2. <br />- Post is created with link to issue <br />- Jira view is show to the creator</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c043240e9834841ae8705d3c5a4ad1ca001f9c35de0e3c10f76104579c183b7455e0b7b90fdb9179659bc90cab338da8",
+  "stepsHashed": "557227a5128644d84cc1b827c2f27a3c3e3c69c71654683dbe25f1436e5f19d04d6c8d86e7aeb3022ef584ac4d014453"
+}

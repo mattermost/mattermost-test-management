@@ -1,0 +1,55 @@
+{
+  "id": 5444658,
+  "key": "MM-T2110",
+  "name": "Display Language: Pусский",
+  "createdOn": "2020-05-20T05:50:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Display: Pусский<br />————————————————————————————<br /><br />1. Go to  Settings -&gt; Display -&gt; Language<br />2. Change to the language shown at the top of these steps<br />3. Save, observe language change in various parts of UI<br />4. Log out<br />5. Log in",
+        "testData": null,
+        "expectedResult": "After logout, no errors shown.<br /><br />After login, language preference has stayed in the language you selected.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4672a78c02607e32b681d9fc9a3ea579b32c7ca3f075d6c61f76f70591b61e382df7f06fa0f47c44a7319f4b704bb8fb",
+  "stepsHashed": "b10c45cc00f3241472afbb97f7b168f80b0488f053406475fc8f00381ddaa03713116cbba5499ac045fb1e052609ef83"
+}

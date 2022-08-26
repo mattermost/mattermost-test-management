@@ -1,0 +1,55 @@
+{
+  "id": 4064357,
+  "key": "MM-T1234",
+  "name": "CTRL/CMD+K\n\nSetup for following tests\n\nDisplay order of search results",
+  "createdOn": "2020-01-23T13:38:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+K<br /><br />Setup for following tests<br /><br />Display order of search results<br />--------------------<br />On a team with enough channels to observe alphabetical order (with some channels that have the first letter in common):<br /><br />1. Ensure there are also GMs and DMs that can start with the same letter, or create GM channels and/or users if needed<br />2. Press CTRL+K (Windows) or CMD+K (Mac)<br />3. Type the first letter in the &quot;Switch Channels&quot; modal message box",
+        "testData": null,
+        "expectedResult": "- Channels are ordered by channels, DMs and GMs you belong to listed first<br /><br />- Results that *begin* with the letter you searched on appear (in alpha order) above results that just *contain* the letter (then in alpha order again) <br /><br />- Each channel type has an appropriate icon next to the channel name: [globe for public; lock for private; profile picture for DMs and GMs]<br /><br />- Display of DM / GMs matches message autocomplete, i.e. &quot;@username - FirstName LastName (Nickname)&quot;<br /><br />- Deactivated users appear at the bottom of the user list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0da10ef290ce7760e4a95c1491734528d9b2ac66049e79dc79e72658e69349f7b0db4182314deb8090b7730f39e03cbb",
+  "stepsHashed": "4682bd61fb77bbded6f49d71b43b3e7c50ebe99f1abbd13909afe13f90ed3f23c801a157fa9ef310bd68f245e65e33a6"
+}

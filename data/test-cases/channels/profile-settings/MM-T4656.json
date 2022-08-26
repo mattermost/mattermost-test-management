@@ -1,0 +1,55 @@
+{
+  "id": 18835730,
+  "key": "MM-T4656",
+  "name": "Verify list option in DND",
+  "createdOn": "2022-03-01T20:27:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["WebApp and Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as <strong>Sysadmin</strong></li><li>Click user profile and go to Do Not Disturb</li></ol>",
+        "testData": null,
+        "expectedResult": "Clear after: should be displayed<br />Don't Clear should be displayed<br />30 min should be displayed<br />1 hour should be displayed<br />2 hours should be displayed<br />Tomorrow should be displayed<br />Day and time should be displayed<br />Choose date and time should be displayed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "92101dcd43ef8c347691e4892c9a02fbb715a6f6210ab91eb13b26d3146bc19dc903cc9234a26c613f8304637142914b",
+  "stepsHashed": "72ccbe55e3621eb9c16442690099286e0ba643f6d3c7c2cbc8d9af3cbe81810fd89288bc1b0742cc817a19e70c721674"
+}

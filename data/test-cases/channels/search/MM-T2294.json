@@ -1,0 +1,55 @@
+{
+  "id": 5445603,
+  "key": "MM-T2294",
+  "name": "`in:` only returns results from specified channel\nClick to select auto-complete option",
+  "createdOn": "2020-05-20T06:50:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "`in:` only returns results from specified channel<br />Click to select auto-complete option<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Make a new post saying `inchannel` in Off-Topic<br />2. Make another post saying `inchannel` with hashtag `#verify` in Town Square<br />3. Search for the terms `inchannel in:town-square`",
+        "testData": null,
+        "expectedResult": "1. Post containing `inchannel #verify` is returned, search term highlighted<br />2. Post in Off-Topic is not returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4a70eca238973e489088fe7637de784415e628097fb5ee9f763b033c19ad650b0a9b5d969965d0a3024da9a704f2fa1a",
+  "stepsHashed": "7901521e03aeadce48ab6a514182df04eba9974ac4e70ca7ddafaaf1256a0aeba83a6d7e36c6a2e237f9ef59f65f2022"
+}

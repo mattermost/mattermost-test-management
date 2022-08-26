@@ -1,0 +1,55 @@
+{
+  "id": 5565325,
+  "key": "MM-T2618",
+  "name": "Team Configuration Page: Group removal\nUser removed from sync'ed team",
+  "createdOn": "2020-05-29T15:27:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 7:13 PM<br>• No Cypress executions reporting back<br>• No previous manual test executions either<br>• Added link to Cypress code<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br>Joseph Baylon - Friday, November6, 2020<br>- Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Configuration Page: Group removal<br>User removed from sync'ed team<br>————————————————————————————<ol><li>Link group to team</li><li>Sync</li><li>On Team Configuration page, enable sync</li><li>On the Group Configuration section, remove the team</li><li>Confirmation message ➜ modal shows the following message:<br>Removing this membership will prevent future users in this group from being added to the &lt;TEAM NAME&gt;.</li><li>Confirm and sync LDAP</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Users removed from the team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "da9ba360a4e5ab6b37f72253fbf52dc74e6eb142eac8dc54ed5f285b799bab8d95138960356eb6b06d0130e544fe268e",
+  "stepsHashed": "1b3b3889a88bd5deac6b96307cce734d313abe774e2500b5560905659d26b15d425f97f9f38137f79d2721541091be8e"
+}

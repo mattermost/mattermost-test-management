@@ -1,0 +1,55 @@
+{
+  "id": 5445723,
+  "key": "MM-T2313",
+  "name": "Team Name: Special characters",
+  "createdOn": "2020-05-20T06:56:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Name: Special characters<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Team Settings -&gt; General &gt; Team Name -&gt; Edit<br />2. Type &quot;()_+-={}|[]:&quot;<br />3. Save",
+        "testData": null,
+        "expectedResult": "Team display name shows as &quot;()_+-={}|[]:&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7da0a07989ac248db816d8e35c2c6be76aef4c6301b9dc47f6f88ed1734eae565ff98055cf356c4360a882f759032d35",
+  "stepsHashed": "aa731ce3e7c08fe050fcacb35dead089d48745070a5f9c4efe4080ee2b403a95be392a3de3ff1971c53ceb661f4dbd41"
+}

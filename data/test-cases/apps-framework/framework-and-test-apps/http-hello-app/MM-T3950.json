@@ -1,0 +1,107 @@
+{
+  "id": 9915217,
+  "key": "MM-T3950",
+  "name": "http-hello - Auto-complete help",
+  "createdOn": "2021-03-31T21:40:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1236119,
+    "name": "http-hello app",
+    "parentId": 1236115,
+    "fullNames": ["Apps Framework", "Framework and test apps", "http-hello app"],
+    "fullPath": "apps-framework/framework-and-test-apps/http-hello-app"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Install the http-hello app<br>1. Type <em>/apps debug-add-manifest --url http://localhost:8065/plugins/com.mattermost.apps/example/hello/mattermost-app.json</em><br>2. <em>/apps install --app-id http-hello</em><br>3<em>. </em>In the modal that opens type 1234 as the app secret and click Approve and Install<em>&nbsp;&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "On 1. Manifest has been stored<br>On 2. Modal opens with App info and showing the bindings that will be added<br>On 3. http-hello bot will post:<br>Hallo სამყარო (http) has been installed into this channel and will now greet newly joining users",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Sub-command not found<br>1. Type <em>/http-hello apples</em>",
+        "testData": null,
+        "expectedResult": "Help shows <em>No matching suggestions&nbsp;</em> with an exclamation point",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Unknown argument<br>1. Type <em>/http-hello message @&lt;username&gt; pickles</em><br>(do not select<em> --other or --message</em>)<em>&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "<ol><li>Help shows <em>Parsing error Unable to identify arguments&nbsp;</em></li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Single word text<br>1. Type <em>/http-hello message @&lt;username&gt;</em><br>2<em>.</em> Type <em>--message</em> or select it from the autocomplete<br>3. Then type <em>pickles&nbsp;</em> as your message text<br>4. type a space ",
+        "testData": null,
+        "expectedResult": "On 3. Help shows <em>Message: \"pickles\"</em><br>On 4. Help text is removed and autocomplete shows next available argument (--other)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Multi-word word text<br>1. Type <em>/http-hello message @&lt;username&gt;</em><br>2<em>.</em> Type <em>--message</em> or select it from the autocomplete<br>3. Then type \"<em>pickles&nbsp;</em>and hit space<br>4. Continue typing to make the message \"<em>pickles in a jar</em><br>5. Close the \" and send the post",
+        "testData": null,
+        "expectedResult": "On 3. Help shows <em>Message: \"pickles \"</em><br>On 4. Help shows <em>Message: \"pickles in a jar\"</em><br>On 5. Survey sent successfully ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a15cbf7b48187d88e702c5a79cc7b96bf1ca83e4faae06feb3063bfe15f8212f5f8d615f3c2a6a989815bb4ed6255240",
+  "stepsHashed": "1862cd065f1d1d71dba7d1970f0107d04a6d553328e9df140036fdbefdcb00382a0226e6280b5f89bdba817463ab3757"
+}

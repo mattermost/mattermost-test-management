@@ -1,0 +1,55 @@
+{
+  "id": 8235229,
+  "key": "MM-T3658",
+  "name": "Automatically disable channel wide mentions when a user mutes a channel",
+  "createdOn": "2020-12-15T20:51:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to a channel that is NOT muted</li><li>In the center panel, to the right of a channel name, click on the dropdown arrow</li><li>Click \"Notification Preferences\"</li><li>Set \"Mute Channel\" to \"On\" and click \"Save\"</li></ol>",
+        "testData": null,
+        "expectedResult": "\"Ignore mentions for @channel, @here and @all\" setting is automatically toggled to \"On\" after muting the channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d6ab38be8410fe1bb6d93d2456c1f1c2d80281acd0331e8bcdd494a4717ce22ce1dd4d5d3044c21544e4227893630cf1",
+  "stepsHashed": "abc3bb8b1a5e46d32d9790b990b23f5146946af43b31b07c6f9f50b6997a1fb0e2e1f569e126a9aa13980a546bc9318d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 15984357,
+  "key": "MM-T4343",
+  "name": "/bitbucket subscribe issues only",
+  "createdOn": "2021-11-04T17:43:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915243,
+    "name": "Subscriptions",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/bitbucket subscribe DHaussermann/hello-world issues&quot; to the same private channel <br />2. Go to mattermost/mattermost-webapp in bitbucket<br />3. Create test issue<br />4. Comment on the test issue<br />5. Create a test PR",
+        "testData": null,
+        "expectedResult": "Mattermost channel receives subscription event for new issue creation only.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "13e2f450cb123b1f31cc019ac51b8017027f7d8123319110e54c2d70c3225223c14016bc519fd2a84fe8dbccd6f15126",
+  "stepsHashed": "2d5b35d8c7e0640f9f999d43616480493516415ed24ee8cef0e9a6343e43067a223672551758c3e2a5a01c35dbf4641a"
+}

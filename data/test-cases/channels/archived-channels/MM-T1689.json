@@ -1,0 +1,55 @@
+{
+  "id": 5203642,
+  "key": "MM-T1689",
+  "name": "RN apps: Favorited archived channel is removed from channel drawer",
+  "createdOn": "2020-04-23T19:45:07Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "archived-channels"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404271,
+    "name": "Archived Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Archived Channels"],
+    "fullPath": "channels/archived-channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Archived Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Favorited archived channel is removed from channel drawer in RN apps<br>–––––––––––––––––––––––––<ol><li>Create a private channel where you are the only member</li><li>Favorite the private channel</li><li>Archive the channel</li><li>Close the archived view of the channel</li><li>View the team's channel list on RN iOS (can also check Android, but original issue was iOS-specific)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The channel is no longer in the channels list drawer</li><li>Favorites section is removed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f7ed73c916389671deed5439bdc2330cd9f356a88c5fc684e6df5378961650942f9fcf6713aec0f30cdc68aec617492c",
+  "stepsHashed": "fa6966f7bf4844f1ec3b0e8bead4026b6c1799be337ecb3f63f726f0d4e7b10dc2d6317ee517f921866af33180016975"
+}

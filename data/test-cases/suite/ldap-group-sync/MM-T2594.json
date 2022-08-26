@@ -1,0 +1,55 @@
+{
+  "id": 5537275,
+  "key": "MM-T2594",
+  "name": "Admin batch-unlinks two groups at once",
+  "createdOn": "2020-05-27T21:13:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Admin batch-unlinks two groups at once<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Select qa and xyz, unlink<br />Sync LDAP<br />New user jesus.test<br /><br />================<br />Admin selects two groups on the Groups page that already have links<br />Clicks Unlink Selected groups<br />Both appear unlinked in UI and don't have Configure or Edit links",
+        "testData": null,
+        "expectedResult": "jesus.test only gets engineering team w default channels<br />george.test still in dev team w xyz channel and engineering team with default channels<br /><br />==============<br />Existing user is not removed from teams/channels, even after sync<br /><br />New user in those groups is not added to the no-longer-linked teams/channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "19b6454ec75bc7ef19fe4ed909bf78877b02a04e5f0a5b501d215ec8ebe4bc98d430e984add09918c069f4545f5794eb",
+  "stepsHashed": "642677a7fd01ec4d6b6561fa950cfa640008ff5a5ee7941c8fcfcb1546b6afcede0abc8118439db18cfed345c2749b7e"
+}

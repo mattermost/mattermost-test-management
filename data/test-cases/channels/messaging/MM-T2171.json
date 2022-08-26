@@ -1,0 +1,61 @@
+{
+  "id": 5444771,
+  "key": "MM-T2171",
+  "name": "Un-pinning and pinning a post in center also removes and adds badge in *Saved posts* RHS (Se portion)",
+  "createdOn": "2020-05-20T06:05:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "messaging"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "09/22 - LI changed \"flagged\" to \"saved\"",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Un-pinning and pinning a post in center also removes and adds badge in *Saved posts* RHS (Se portion)<br>————————————————————————————<br>1. On a message in center channel, click [...] &gt; Pin to channel, AND also Save the message (i.e. click on Save icon)<br>2. Click Saved posts icon<br>3. In center channel, click [...] &gt; Un-pin from channel<br>4. In center channel, click [...] &gt; Pin to channel",
+        "testData": null,
+        "expectedResult": "After step 2: Post appears in Saved posts list, and displays Pinned badge<br>After step 3: Post still appears in Saved posts list, and Pinned badge is removed in both center and RHS<br>After step 4: Pinned badge returns on message in both center and RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d85279bf712899f3a46240a7883a898a3caaf9dc0214a3437144c025946c2008f3da58b4ebf1bef73773d1b4278200e",
+  "stepsHashed": "769880177bd0799ab88b100b9f0fccbf09e0e5e313b88b97621f04124166af357914efd7d969f593dc98873a36b0c8f1"
+}

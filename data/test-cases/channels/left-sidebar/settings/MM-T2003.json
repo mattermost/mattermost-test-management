@@ -1,0 +1,55 @@
+{
+  "id": 5294772,
+  "key": "MM-T2003",
+  "name": "Settings > Sidebar > Number of direct messages to show",
+  "createdOn": "2020-05-06T05:05:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007099,
+    "name": "Settings",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Settings"],
+    "fullPath": "channels/left-sidebar/settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Settings ➜ Sidebar ➜ Number of direct messages to show<br />–––––––––––––––––––––––––<br /><u>Setting Number of direct messages to show</u><br />Note: Experimental Sidebar Feature is set to default ON for both on-prem and cloud instances<ol><li>Collapse the DM category (so that we can check all unread DMs quickly without the sidebar scrolling behind an issue)</li><li>Open 41 DMs/GMs on the sidebar (ie. one over the max displayable read limit)</li><li>Create a new user to have a DM with</li><li>Post a message as the new user<ol style=\"list-style-type:lower-alpha\"><li>Verify that the DM count is now correct </li></ol></li><li>Click on the new DM channel to mark it read</li><li>Expand the DM category <ol style=\"list-style-type:lower-alpha\"><li>Verify that there are 20 DMs shown in the sidebar</li></ol></li><li>Navigate to Settings ➜ Sidebar<ol style=\"list-style-type:lower-alpha\"><li>Observe that the current limit on DMs/GMs is shown (should be 20 by default)</li></ol></li><li>Click Edit on that setting and change it to `All Direct Messages` </li><li>Click Save and close Settings modal<ol style=\"list-style-type:lower-alpha\"><li>Verify that there are 41 DMs shown in the sidebar </li></ol></li><li>Navigate to Settings ➜ Sidebar</li><li>Click Edit and change it to `10` </li><li>Click Save and close Settings modal<ol style=\"list-style-type:lower-alpha\"><li>Verify that there are 10 DMs shown in the sidebar</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify default setting for number of direct messages is 20</li><li>Verify user is able to change &amp; save the setting and that the change can be observed/verified on the sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d9388e05d5daabb1483c9bfd3d5fb0a03ff9b723db00af8ff0b652573227c8c5859150cf98f882fd819deac9f8d1ff8d",
+  "stepsHashed": "46523282c3176065ba9cb8f93a667457e62af17a8624345d22da1255f10228415e86548ebddfc4471287737f92061c1b"
+}

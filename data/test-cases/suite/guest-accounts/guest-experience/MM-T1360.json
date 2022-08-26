@@ -1,0 +1,55 @@
+{
+  "id": 4151520,
+  "key": "MM-T1360",
+  "name": "Taken to login screen when removed from last channel",
+  "createdOn": "2020-01-30T21:04:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": ["Open"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, February 11, 2021 9:39 AM<br>• Changed status to Update<br>• Removing from testing until <a href=\"https://mattermost.atlassian.net/browse/MM-31350\">https://mattermost.atlassian.net/browse/MM-31350</a> is fixed",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Taken to login screen when removed from last channel<br>–––––––––––––––––––––––––",
+        "testData": null,
+        "expectedResult": "<ul><li>\"<em>Your guest account has no channels assigned. Please contact an administrator</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Open"],
+          "Related ticket(s)": "<ul><li>(<span style=\"color: rgb(184, 49, 47);\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-24036\">Guest Accounts (RN) &gt; \"No internet connection\"error shown when guest is removed from all channels — MM-24036</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-31350\">RN - Error when Guest leaves last channel — MM-31350</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9a39401693e55ab4a74524f2a68ca2778b5db53fb7d41848bd1a20db86b36339952e9e4f7b5fffd3ff309de5a1025544",
+  "stepsHashed": "e47be3025912037b7f9c6be85c18cc6a81faf68cc36ff8151e0f833af839825b89a0f459bc8dbbb9cc8bbcb18de67614"
+}

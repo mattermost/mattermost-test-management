@@ -1,0 +1,55 @@
+{
+  "id": 4151521,
+  "key": "MM-T1361",
+  "name": "Guest user sees the 'Guest' badge next to their name in centre channel posts, profile popover",
+  "createdOn": "2020-01-30T21:04:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Guest user sees the 'Guest' badge next to their name in centre channel posts, profile popover<br>–––––––––––––––––––––––––",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fd23f3d2a226ccea98b9e832692c5b10c181a52284a44d4df71b385f7522a366ef8430bc8619177b24109b8a44d9a0df",
+  "stepsHashed": "9b78d58c3e4126f553070eb89f6d764a2d19998ba928b0e878d223b4d935ad016d0add06aabed05c959d01e5293dc861"
+}

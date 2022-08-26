@@ -1,0 +1,55 @@
+{
+  "id": 3742350,
+  "key": "MM-T164",
+  "name": "Whitespace with emojis does not affect size",
+  "createdOn": "2019-12-20T20:33:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Whitespace with emojis does not affect size<br />--------------------<br />1. In the message box, press SHIFT+ENTER to create a newline<br />2. Paste or type the following as the second line of the message and post:<br />:book: :key: :gem:<br />3. Post three spaces followed by the same emoji again and post (can type or copy/paste):<br />    :book: :key: :gem:",
+        "testData": null,
+        "expectedResult": "In first post, newline does not render and emoji appear jumbo sized<br /><br />In second post, three leading spaces appear and emoji appear jumbo sized",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "43a2828aa56b53388714134260a1a099e06bdf8dc2f7e51d79c43eb7bee4a79765a84e769ef63e9e8f11f569845895b5",
+  "stepsHashed": "25107832c6ed5cefdccbdd5ea1caf06c8429a9bceecf72c85a302b9721e152cf9932806d841bce0565ae8fb7d8ee0488"
+}

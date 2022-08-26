@@ -1,0 +1,61 @@
+{
+  "id": 4047139,
+  "key": "MM-T906",
+  "name": "Team Statistics displays expected content categories",
+  "createdOn": "2020-01-21T13:18:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570070,
+    "name": "Team Statistics",
+    "parentId": 538608,
+    "fullNames": ["Suite", "System Console", "Reporting", "Team Statistics"],
+    "fullPath": "suite/system-console/reporting/team-statistics"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click \"Team Statistics\" under Reporting",
+        "testData": null,
+        "expectedResult": "Verify the graphs display (Se verifies some predictable numbers)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4976c3f0d8ad11cb81c1224060cb98e758075f44361cc9a0123f26e6cf67d564551086a34fa1033b9d095b13641c9d5d",
+  "stepsHashed": "70484115350c1d1f3a5fea411ceb68a9cf7611bf5d28db022f0990a0767abddfb00f5cf955ff4cea629bd7b9440f53ed"
+}

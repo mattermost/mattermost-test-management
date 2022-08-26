@@ -1,0 +1,55 @@
+{
+  "id": 5601880,
+  "key": "MM-T2740",
+  "name": "Group is member of another group",
+  "createdOn": "2020-06-01T20:47:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Group is member of another group<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />E.g. user corey.test does not get added to teams/channels due to links in lower groups such as developers or QA. But lower users such as linda.test do get added to teams/channels linked to groups above her immediate group, such as engineering.",
+        "testData": null,
+        "expectedResult": "User inherits up, not down",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b466e72c21c35daa4c7b11ee937dd808ca9c5c448ca442d76660841d0335b2781b13b47f47adbabc9e09bbf2ccd7964d",
+  "stepsHashed": "0bcb7012bdc9f6f103fe2a2dc6b680a2e431d9d1250738d8ac897ce9aebf7d95a16b0540de9ab4dde966297d3cbeb42e"
+}

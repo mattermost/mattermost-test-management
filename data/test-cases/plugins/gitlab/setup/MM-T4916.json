@@ -1,0 +1,94 @@
+{
+  "id": 25865729,
+  "key": "MM-T4916",
+  "name": "Setup respects private repo config",
+  "createdOn": "2022-07-13T19:42:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3076551,
+    "name": "Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Setup"],
+    "fullPath": "plugins/gitlab/setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable GitLab <br />2. As a sysadmin run /setup<br />3. Configure oAuth app (or just use Chimera on a cloud test server)<br />4. Connect the test user",
+        "testData": null,
+        "expectedResult": "Test user is connected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Do <strong>not</strong> yet add a webhook<br />2. Navigate to the GitLab settings and set private repositories to <strong>false </strong><br />3. In GitLab - locate a provate user/project<br />4. Return to Mattermost and click Yes to creating a webhook<br /><br />",
+        "testData": null,
+        "expectedResult": "Modal shows to provide user/prject",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Provide the private the user/project from step 2. and save<br /><br /><br />",
+        "testData": null,
+        "expectedResult": "Validation shows that private repos are not allowed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Navigate to the GitLab settings and set private repositories to <strong>true </strong><br />2. Try agin to create the webhook for the same project",
+        "testData": null,
+        "expectedResult": "Webhook created successfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "56690a4b8103e09841afe24af7153a5fe63a61e8ed57c2c6414ed1d18c760d43741e54391fa3a531b856f46e8633885e",
+  "stepsHashed": "caffcdf21c7cd61fb3f171c8f31cdb5ae25f358690cf8cdc057e4758ada23ad754279361a4023e55262a5f076a833608"
+}

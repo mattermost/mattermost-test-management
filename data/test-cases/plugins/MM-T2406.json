@@ -1,0 +1,55 @@
+{
+  "id": 5477826,
+  "key": "MM-T2406",
+  "name": "Plugin functions - Demo channel",
+  "createdOn": "2020-05-22T11:15:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugin functions - Demo channel<br>————————————————————————————<ol><li>Enable the demo-plugin</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>A bot account managed by the plugin is created</li><li>demo-plugin channel is created</li><li>Message from demo plugin bot(name is configurable) posts in that channel</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7ac08fc0b8f4c940aee9cf5f4b6707b371ad901d5d10d2e72d2e0830236bd468f17cd5b8d0a7c0efb93b8c257d0bae57",
+  "stepsHashed": "799e1c1f17d5705f7149e90877d678524ce626cfe707697ccc6d5999179d63f51bc1f748f611306e62a8a443cd8087c7"
+}

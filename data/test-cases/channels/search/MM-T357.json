@@ -1,0 +1,55 @@
+{
+  "id": 3877459,
+  "key": "MM-T357",
+  "name": "RN apps: Hashtag search while in \"reply thread\" of search results",
+  "createdOn": "2020-01-02T23:12:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Hashtag search while in &quot;reply thread&quot; of search results<br />--------------------<br />1. Make a post with two hashtags in it<br />2. Tap on the first hashtag in the post<br />3. From search results screen, tap on the reply arrow to the right of your hashtag post (to open reply thread)<br />4. Tap on the second hashtag in the reply thread view",
+        "testData": "FIXED v1.22 https://mattermost.atlassian.net/browse/MM-12968<br />Fixed v1.24 https://mattermost.atlassian.net/browse/MM-17560",
+        "expectedResult": "After 2) search results showing posts containing the first hashtag are displayed<br />After 4) the reply thread closes and the search results change to show results for the second hashtag",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c3003e25d897e2d1d8e7c14bec5a342611fbdf46fbdc5787ed72d68d25fc7b8249ecc1a8ba2a898a2607326aee26f46",
+  "stepsHashed": "ce9ab2f1cfe11e5f287887a025b813d7a6aef5fe763347fd1f48ac389034e9971c3fd47cbeef32122ca11d8f2fa05b27"
+}

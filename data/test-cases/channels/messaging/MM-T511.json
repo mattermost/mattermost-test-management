@@ -1,0 +1,55 @@
+{
+  "id": 3905531,
+  "key": "MM-T511",
+  "name": "RN apps: User disappears from mention autocomplete suggestions as soon as they are deactivated",
+  "createdOn": "2020-01-03T18:57:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In a test channel, note a user that you can deactivate<br />2. In another browser or app, as an admin, deactivate the user<br />3. On the mobile app, try to at-mention the deactivated user in a post<br />4. In the other browser or app, as an admin, reactivate the user<br />5. On the mobile app, try to at-mention the reactivated user in a post",
+        "testData": null,
+        "expectedResult": "After 3) the user should not appear in the mention autocomplete suggestions<br />After 5) the user should be available in the mention autocomplete suggestions again",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "46a31529fbe3af93bb915fda38f15683eedf44ad0002c3860f190f132135a4e61f7d63a7c6c456ba0fb03d21577ad388",
+  "stepsHashed": "5bc0814fa27ecc553c65232ce34d7fe43eba25ee9feab369461ab4f7d482f0d27dcf9e21c3232aa2d9ff3653db2011a7"
+}

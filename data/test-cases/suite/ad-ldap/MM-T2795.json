@@ -1,0 +1,55 @@
+{
+  "id": 5602324,
+  "key": "MM-T2795",
+  "name": "Mention multiple users who are not in permitted groups - with permission to manage private channel members",
+  "createdOn": "2020-06-01T22:09:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention multiple users who are not in permitted groups - with permission to manage private channel members<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />linda.test has permission to add to constrained channel Constrain-QA-Channel:<br />1. Post the following: <br />Hello, @corey.test and @jesse.test.",
+        "testData": null,
+        "expectedResult": "System<br />12:56 AM(Only visible to you)<br /><br />@corey.test-simulator.amazonses.com and @jesse.test-simulator.amazonses.com did not get notified by this mention because they are not in the channel. They cannot be added to the channel because they are not a member of the linked groups. To add them to this channel, they must be added to the linked groups.",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14417\">Update the behaviour of at-mentioning a user in a private, group-constrained channel — MM-14417</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "782323eb9eab7546a0280259014581459b97475d4047bdc57d177c5992374cf77fb4796f3e7266c267eddbfef9ed1e88",
+  "stepsHashed": "69cc3f877da6546f2a09c7d6b2c96a0fef53b543dda1e20ea6db0cbd0a914c1fdfd043c184af4444f19aa379bf0a024b"
+}

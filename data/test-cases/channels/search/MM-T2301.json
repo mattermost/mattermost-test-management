@@ -1,0 +1,55 @@
+{
+  "id": 5445610,
+  "key": "MM-T2301",
+  "name": "Only fully matching hashtag is highlighted in search results",
+  "createdOn": "2020-05-20T06:50:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Only fully matching hashtag is highlighted in search results<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Make a post containing both #highlight and #highlight.dot<br />2. Click #highlight to search for that hashtag",
+        "testData": null,
+        "expectedResult": "Search results display in RHS, and only #highlight is highlighted.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "14797ff59a60a4e8f47718930ffcf156e5da47cceb1a7d679e46fd4a79f90be75f232d6e253c6b83805a69be7d06449e",
+  "stepsHashed": "53b50eea5432a2175d575d520f80eb0a9ea3e2cd05b1a673bb84cff447bcdb1e5de711b825ba273e9c5897916bae8072"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5444654,
+  "key": "MM-T2106",
+  "name": "Display Language: Nederlands",
+  "createdOn": "2020-05-20T05:50:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Display: Nederlands<br />————————————————————————————<br /><br />1. Go to  Settings -&gt; Display -&gt; Language<br />2. Change to the language shown at the top of these steps<br />3. Save, observe language change in various parts of UI<br />4. Log out<br />5. Log in",
+        "testData": null,
+        "expectedResult": "After logout, no errors shown.<br /><br />After login, language preference has stayed in the language you selected.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e945bb1f405229fe6962663864d426385d7675831c0bb8dd080fa2bda921847c95694dfd571f6c930c011e49408b6ea",
+  "stepsHashed": "c6c0c987e4293af614d7c4f30557ff14d990cb0abdb814cdfc9b900cacf8444c318df4ba3fbcfac6a26d6ccb31e06dae"
+}

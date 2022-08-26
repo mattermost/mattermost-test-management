@@ -1,0 +1,55 @@
+{
+  "id": 26613344,
+  "key": "MM-T4947",
+  "name": "\"Try free now\" opens top 3 enterprise features",
+  "createdOn": "2022-07-27T20:05:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to the subscription page in the System Console</li><li>Observe disclaimer directly below the \"Try free for 30 days\" button<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1658952547408-Screen+Shot+2022-07-27+at+4.08.25+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /></li><li>Click the button to start the trial</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The trial has started modal appears with a button to invite people<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1658952464663-Screen+Shot+2022-07-27+at+4.06.54+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0bb310b80af3c505b8fd675f45aa0629aeb308c59c6f790aee5868025c7d4c786273ef0e91319127c0ab6ddc03f9679a",
+  "stepsHashed": "3474c2361310c9ef6696a040c58a50d2c38e346bc9a8c3ecfb08e79ca7971fb587d502947fcc542f37aaae71741abd4f"
+}

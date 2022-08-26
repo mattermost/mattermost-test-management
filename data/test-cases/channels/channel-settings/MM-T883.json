@@ -1,0 +1,55 @@
+{
+  "id": 4035752,
+  "key": "MM-T883",
+  "name": "Channel URL validation for spaces between characters",
+  "createdOn": "2020-01-18T01:00:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "cy-prod", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In a test channel, click the \"v\" to the right of the channel name in the header and select \"Rename Channel\"</li><li>Change the channel name to {26 alphanumeric characters}[insert 2 spaces]{26 alphanumeric characters} i.e. a total of 54 characters separated by 2 spaces</li><li>Hit \"Save\"</li><li>Click on the \"v\" to the right of the channel name in the header again and select \"Rename Channel\"</li><li>This time, change the URL to {26 alphanumeric characters}--{26 alphanumeric characters} i.e. a total of 54 characters separated by 2 dashes</li><li>Hit \"Save\"</li></ol>",
+        "testData": "On step 2:<br>{26 alphanumeric characters}[insert 2 spaces]{26 alphanumeric characters}<br>Such as \"Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz\"<br><br>On&nbsp;step&nbsp;5:<br>{26&nbsp;alphanumeric&nbsp;characters}--{26&nbsp;alphanumeric&nbsp;characters}<br>Such as \"Abcdefghijklmnopqrstuvwxyz--Abcdefghijklmnopqrstuvwxyz\"",
+        "expectedResult": "On step 3: The channel name should be updated to the characters you typed with only 1 space between the characters (extra spaces are trimmed)<br><br>On step 6: The channel URL should be updated to the characters you typed, separated by 2 dashes",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1f6cfef47156dc3d4d7bddbde43f0e3e2f9d75aaba7e910200878cbe1a730ab973b144891bc7deb5c9ca5f0e9e1ff7c4",
+  "stepsHashed": "3740ad0876214f2dc700caae3a6fbb7e4fa75d494aef46a38a7ca1e2232cd9eae3e3f3de3cc65937373318e033de0844"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5445719,
+  "key": "MM-T2310",
+  "name": "Team Name: Try to save one-character team name",
+  "createdOn": "2020-05-20T06:56:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Name: Try to save one-character team name<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "Error: &quot;Team Name must be 2 or more characters up to a maximum of 15. You can add a longer team description.&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fb99927d248049f79f0b13cf0e14321fd29fa8a6f0296215ddac98fd93cb736983673b00ad6441caea997fea54ab4268",
+  "stepsHashed": "d0a4c0533fd84c77a12bbd2fc2ffd69675a601d3746e549ba9810ddea5a5197659a4c98b86c185ed6dd6ba06dac480cc"
+}

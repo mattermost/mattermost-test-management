@@ -1,0 +1,81 @@
+{
+  "id": 4060250,
+  "key": "MM-T1222",
+  "name": "Clear Search Term",
+  "createdOn": "2020-01-22T21:45:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E2E-1", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569445,
+    "name": "Team Search and Pagination",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Team Search and Pagination"],
+    "fullPath": "suite/system-console/team-search-and-pagination"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clear Search Term<br>–––––––––––––––––––––––––<ol><li>Login as sysadmin and visit the page</li><li>/admin_console/user_management/teams directly</li><li>Ensure there are multiple teams created.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Search should work fine and results should be displayed correctly.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20867\">Team Pagination does not works properly when a keyword is searched and results are cleared — MM-20867</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Search for Team name and check if results are displayed correctly.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After clearing the search, the team listing page should display all the teams.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Clear the search results by clicking on the x icon in the search input.</li><li>Check if team listing page is also refreshed accordingly and pagination works fine after clearing the search</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The pagination should work fine and should display appropriate results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "976dbcdf825cdc7ba075b6354caa96c3178587b8d35ddb8e8c048587ce0ce1d2a1300dc60cde4875907ea4984692af3b",
+  "stepsHashed": "dfe6afec1814802b8912c7c141a634976a1d330ccd7c496f124ae1634c0a957a3a58fbb99946c5ddd4fec43280491046"
+}

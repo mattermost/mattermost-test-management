@@ -1,0 +1,68 @@
+{
+  "id": 6396932,
+  "key": "MM-T3256",
+  "name": "RN apps: Settings - Notifications - Email",
+  "createdOn": "2020-07-30T21:05:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to change setting to Immediately<br>————————————————————————————<ol><li>Tap the three-dot menu in the top right of your screen</li><li>Tap \"Settings\", then \"Notifications\"</li><li>Tap \"Email\"</li><li>Change the setting to Immediately</li><li>Exit settings back to channel view, then open Email settings again</li></ol>",
+        "testData": "Set user status to either away or offline in order to allow to receive email notifications",
+        "expectedResult": "<ul><li>The setting is saved to Immediately</li><li>Email is received on a mention if test user has email address you can access</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should be able to change setting to Never<br>————————————————————————————<ol><li>Tap the three-dot menu in the top right of your screen</li><li>Tap \"Settings\", then \"Notifications\"</li><li>Tap \"Email\"</li><li>Change the setting to Never</li><li>Exit settings back to channel view, then open Email settings again</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The setting is saved to Never</li><li>Email is never received on a mention</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "83294d28da55a02a64622eee78e805fb33be2f6c25489a4fe60236877261df4fde4f8ef17de5b69f84a0712d640a4c3c",
+  "stepsHashed": "c336787129ecf3afa57c6e5fc35651532957696894c89f5e35dd541bd7f7ee396b83352cb66a83029afe756ad81de3f9"
+}

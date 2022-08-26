@@ -1,0 +1,55 @@
+{
+  "id": 17496973,
+  "key": "MM-T4455",
+  "name": "Passing in no value for the the new flag is correctly treated as false",
+  "createdOn": "2022-01-10T18:12:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start your server with the without setting any value for  `<em>MM_FEATUREFLAGS_AppBarEnabled</em>`<br />2. Deploy a build of the Playbooks Plugin that has been retrofitted to use the Apps Bar instead of the channel header<br />3. Enable the Playbooks plugin",
+        "testData": null,
+        "expectedResult": "The Playbooks plugin is shown in the channel header",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1ed34823bc3bbc9d352cabde61f509917dc189a8bc01048950d2b2bdce8ddc22b7fac77fe33e73aadfccd6e7b3353543",
+  "stepsHashed": "9171a95444c57e17fa2807d72d92c349be3466dc6c4aac170cff75bc44004a382abdec147987687eeea4adcff6676817"
+}

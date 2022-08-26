@@ -1,0 +1,56 @@
+{
+  "id": 28665877,
+  "key": "MM-T5053",
+  "name": "OpsGenie command: `/genie alert note`",
+  "createdOn": "2022-08-16T14:52:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5049" } },
+    {
+      "inline": {
+        "description": "2. Run the `/genie alert note` command<br />3. Add alert's new note message<br />4. Add alert's tiny ID (number of alert)<br />5. Execute action",
+        "testData": null,
+        "expectedResult": "On 2. Both options to execute are shown: executing command or input options as part of commands<br />On 5. The data is validated. OpsGenie App bot returns an ephemeral post as a response:  <br />- If the alert ID is valid, the alert's note will be added <br />- If not, the post shows the error",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9f9c38f16e67c1b1bf47e886055aecdc236eaf340da3d6c28e885cbc9625c0ef2904fc81b170f49d658db13307977010",
+  "stepsHashed": "c3176357b71400e65321572b0ca76f1309e0febde2d2eb83f7e982a61d146de83bc276675db98781cdb628d4e02c6239"
+}

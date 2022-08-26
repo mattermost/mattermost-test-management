@@ -1,0 +1,55 @@
+{
+  "id": 4089230,
+  "key": "MM-T1306",
+  "name": "Posting in the Developers channel",
+  "createdOn": "2020-01-27T23:44:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565208,
+    "name": "Deep Linking",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Deep Linking"],
+    "fullPath": "desktop-app--native-specific-/deep-linking"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Sign in to https://community.mattermost.com on your desktop app</li><li>Post mattermost://community.mattermost.com/core/channels/developers into a channel</li><li>Sign in to https://community.mattermost.com on your browser</li><li>Click on the link you posted in step 2.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Desktop app launches, and opens the Developers channel</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14661\">Add \"mattermost://\" to the list of hard-coded URL schemes that render as links — MM-14661</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "32016d36673bb383225e986dd3a5b28ba3bdccaafbc39559ba8f5e5442c20681a98945cd15405ecdfd5f9fa81bec0c59",
+  "stepsHashed": "074774cfc429af00b47cbd41a50e268dfb35ee6f96c917ce1c76ccc1a71158af23b996441ff7cec4f553dadf207da543"
+}

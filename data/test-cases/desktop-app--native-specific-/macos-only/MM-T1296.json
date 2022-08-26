@@ -1,0 +1,55 @@
+{
+  "id": 4088954,
+  "key": "MM-T1296",
+  "name": "Bounce the dock icon — macOS ONLY",
+  "createdOn": "2020-01-27T22:13:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 817022,
+    "name": "macOS ONLY",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "macOS ONLY"],
+    "fullPath": "desktop-app--native-specific-/macos-only"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Navigate to settings/preferences:<br><strong>Mac ONLY</strong>: Mattermost ➜ Preferences (<strong>⌘+,</strong>)<br><ol><li>Select \"Bounce the Dock icon\", and select \"Once\"</li><li>Receive a message such as a mention that will trigger a notification</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Dock icon bounces once</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1207bc34e26fb0af72e0e9fd7e7bb8f791ab0fdeb67fcd9ed69ed702fbc5fa8f04bcbd0e02676009160e64810408e9ec",
+  "stepsHashed": "a27a9eabe5623f77e6244bbdde8937e525789ade914c3fcfad4cd2561b99730356ff25306f45777cbea56961d6318ca6"
+}

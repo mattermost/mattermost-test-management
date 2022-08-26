@@ -1,0 +1,121 @@
+{
+  "id": 10536614,
+  "key": "MM-T4039",
+  "name": "Create a ticket in Zendesk edge cases2",
+  "createdOn": "2021-05-05T21:29:48Z",
+  "objective": null,
+  "precondition": "<strong>Requires a sandbox instance of Zendesk with an oAuth 2 application configured.</strong> <br><br>- No Support yet for RN mobile apps",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1244765,
+    "name": "Zendesk",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Zendesk"],
+    "fullPath": "apps-framework/zendesk"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4038" } },
+    {
+      "inline": {
+        "description": "1. Ensure your Zendesk user has either Admin or Agent permissions<br>2. Click the ... menu on any post that is not a system post<em>&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "The Zendesk Create modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Select a Zendesk form from the modal<br>2. Attempt to add 256 Characters for the subject<br>3. Set a value for all mandatory fields<br>4. Ensure Mattermost message field is read-only<br>5. Click submit<br>&nbsp;",
+        "testData": "<strong>1. and 3. do not yet work</strong><br>There are Jira tasks for this in the Zendesk epic",
+        "expectedResult": "on 2.User cannot type more the 255 characters<br>on 5. The modal submits successfully and a post is made with a ticket link",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Locate a test form in Zendesk<br>2. Flip the mandatory / Optional status of one of the fields for your test user (this can be role specific)<br>3. Open the create modal in Mattermost",
+        "testData": null,
+        "expectedResult": "The Fields mandatory optional has changed when the target form is selected and is respected by the app",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Locate a test form in Zendesk<br>2. Add a new field to the target form (this can be role specific)<br>3. Open the create modal in Mattermost",
+        "testData": null,
+        "expectedResult": "The new field is shown when the target form is selected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Locate a test form in Zendesk<br>2. Delete a  field from the target form (this can be role specific)<br>3. Open the create modal in Mattermost",
+        "testData": null,
+        "expectedResult": "The form is shown in the drop down when the create modal opens and can be selected.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Login to Zendesk and delete form that will be available to your test user (be mindful of test user's role)<br>2. Login as the test user and open the create modal in Mattermost",
+        "testData": null,
+        "expectedResult": "The form is <strong>not</strong> shown in the drop down when the create modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "20432935938b3858f4e233cb2316c47b6766c428befc3aaed542e572939e6e1baa90ee2dc4153114ffb061e0d1c70325",
+  "stepsHashed": "cf8b709d7f9aa81fe05ddcca51ced99a9b5608fa1bd3e254d256abf8797ca1b0325e04a39c6b86834244fb16fd3dc850"
+}

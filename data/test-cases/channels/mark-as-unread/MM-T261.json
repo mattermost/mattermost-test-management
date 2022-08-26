@@ -1,0 +1,55 @@
+{
+  "id": 3768067,
+  "key": "MM-T261",
+  "name": "RN apps: Mark as unread while app is closed",
+  "createdOn": "2019-12-27T20:26:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN: Mark as unread while app is closed<br />–––––––––––––––––––––––––<ol><li>Log into MM from two separate devices, at least one of which is mobile</li><li>Close the app on the mobile app</li><li>Mark the channel as unread from the other device with at least 1 mention message being below the New Messages line</li><li>Reopen the app on the mobile device</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li><strong>iOS</strong>:<ul><li>The app badge should be updated to match the number of unread mentions on the left side of the channel header whenever a channel is marked as unread, even if it happens from another device and/or when the app is closed.</li></ul></li><li><strong>Android:</strong><ul><li>The app badge will not be updated, but the user should not receive any erroneous notifications when marking a channel as unread from another device.</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18463\">RN: Update app badge when marking a post as unread from another device — MM-18463</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fcc7ed2f2b32b4796af06b4f82c6a97f87c4ab5b0eb2dce82bcf19f70567af9ee7fb1d27b01cecffa6be203daffe8c26",
+  "stepsHashed": "a89c0865fb9dd6907f3c9b9c9df9849f0b8323134ebedcfc9cdd2b69fba7a82a0f8d71aae7a2493ebf2c012e42c29377"
+}

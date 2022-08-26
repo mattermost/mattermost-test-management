@@ -1,0 +1,68 @@
+{
+  "id": 5294797,
+  "key": "MM-T2019",
+  "name": "User without permissions to create or browse channels",
+  "createdOn": "2020-05-06T05:05:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Log in as a user with no permissions to create or browse new channels (these permissions are disabled for guest users by default)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. Observe the sidebar",
+        "testData": null,
+        "expectedResult": "The &quot;+&quot; icon is hidden",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4b8af201d9eb879354a3adacce4519fe57824564c5b5d23df5628c00bba5fd642dfd22e357a3d2fb84d471d2cf446262",
+  "stepsHashed": "fd722c3bfc3769a70f2d37cd6cdab3dd00db3bf58075138ce615797e585f32b6edb9c552f97e04f3a45b5d148db360d0"
+}

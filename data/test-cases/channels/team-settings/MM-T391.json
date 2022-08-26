@@ -1,0 +1,55 @@
+{
+  "id": 3877571,
+  "key": "MM-T391",
+  "name": "Remove team icon",
+  "createdOn": "2020-01-02T23:43:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "JB - Friday, December 4, 2020<br>- Moved to automated",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>On a team that has a team icon</li><li>Go to main menu ➜ Team Settings ➜ Team Icon ➜ Edit</li><li>Click the `x` in the top right corner of the image, then click \"Cancel\".</li><li>Click the `x` in the top right corner of the image, then click \"Save\". Team icon is removed.</li></ol>",
+        "testData": "",
+        "expectedResult": "After #3,<br><ul><li>Team icon is NOT removed.</li></ul><br>After #4,<br><ul><li>Team icon is removed from modal, LHS header, and team sidebar (if you're on multiple teams)</li><li>Also ensure that the label 'Remove this icon' is displayed correctly and is properly aligned.</li></ul><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17551\" rel=\"noopener noreferrer\" target=\"_blank\">Large 'Remove this icon' text visible in Team Icon Settings when Team Icon is chosen — MM-17551</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ad0af642432ee3055f26e875d8172eb502c8f97d6c04508b716c7cff008ff7ed79d703d162e63d80bf0d0b5404f510bd",
+  "stepsHashed": "1da1a88e7f9a66a1caa90736c938523fe997f5a7a42c4a1a81bf8d2e8e1c9e45228f54ca3eeb1ccbb5ee732218bd3b91"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 4058523,
+  "key": "MM-T1133",
+  "name": "Announcement Banner - Non-dismissable does not overlap content",
+  "createdOn": "2020-01-22T17:58:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569318,
+    "name": "Announcement Banner",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Announcement Banner"],
+    "fullPath": "suite/system-console/site-configuration/announcement-banner"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)", "v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Announcement Banner - Non-dismissable does not overlap content<br>–––––––––––––––––––––––––<ol><li>Set Enable Announcement Banner to true</li><li>Enter banner text</li><li>Set Allow Banner Dismissal to false</li><li>Save</li><li>Return to a team, click `@` or flag icon to open RHS</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User sees banner, with no X to dismiss it</li><li>Banner does not overlap content at top of page</li><li>Top of RHS does not overlap with search box</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)", "v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-15386\">License expiration cannot be dismissed prior to expiration date — MM-15386</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-20754\">RHS title is cut off when a alert banner is displayed — MM-20754</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Open System Console<ul><li>Verify all items on the left side, top and bottom, are visible when banner is present</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Banner does not overlap any of the top items on this screen</li><li>Bottom of the list is not cut off/pushed out of view due to banner being present&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7e62c40405cb1f830b75ee27ecd3277901d67a2c0bc1ff5170a220b360764a1e1f6051f74c8762b98a5c26de4cb6b1c8",
+  "stepsHashed": "695987abbd2abf870227d2ad939b58f9ed6f38cbaefb6e2bde0fa71ae1990308562f0a370b1c779cf04b8f56ec74b65c"
+}

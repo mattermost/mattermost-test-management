@@ -1,0 +1,55 @@
+{
+  "id": 3905479,
+  "key": "MM-T483",
+  "name": "Channel-wide mentions with uppercase",
+  "createdOn": "2020-01-03T18:52:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel-wide mentions with uppercase<br>––––––––––––––––––––––––––<ol><li>Send a post containing `[at]ALL`. Note that the autocomplete will try to make that lowercase so you'll either need to paste it or hit escape to dismiss the autocomplete</li></ol>",
+        "testData": "[at]ALL",
+        "expectedResult": "<ul><li>The post in the channel appears as `@All`</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a25e0f663a2a917dfd05a15ce24dadfb876df578099a53c88c19ed514b717f551f7c6e7f1b7aa2f95a13e850ad4605cf",
+  "stepsHashed": "5cdb4d3dd88a12fff587a6a931cc7a2ce125e707ed4e6a7813d77ed2eaee54247cdb35925d333a38ac1fc47366f29a4d"
+}

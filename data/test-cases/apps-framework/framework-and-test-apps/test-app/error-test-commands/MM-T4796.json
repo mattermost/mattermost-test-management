@@ -1,0 +1,82 @@
+{
+  "id": 21903160,
+  "key": "MM-T4796",
+  "name": "Error error-500",
+  "createdOn": "2022-05-02T15:01:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2558582,
+    "name": "Error test commands",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Error test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/error-test-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test test-command</em><em> error error-500 </em>in the main input box<br />3. Open a reply thread and type <em>/test test-command</em><em> error error-500 </em>in the RHS input box",
+        "testData": null,
+        "expectedResult": "On 2. \"<em>failed to invoke via HTTP: TEST ERROR 500</em>\" in shown in red text below the input box<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651503844608-1651503844608.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />On 3. \"<em>failed to invoke via HTTP: TEST ERROR 500</em>\" in shown in red text below the RHS input box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Make a post and expand the post actions menu<br />3. Click the `error-500` option from the menu<br /><br />",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post with \"<em>failed to invoke via HTTP: TEST ERROR 500</em>\"<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651503983833-1651503983833.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Click the `error-500` option from the channel header (or App Bar if it's enabled)",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post with \"<em>failed to invoke via HTTP: TEST ERROR 500</em>\"<br /><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651504066424-1651504066424.png\" class=\"fr-fic fr-dii\" /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "12bf30f428b34107360636b60ecce5897c0a3d5c5dcaf6f63308c35d3f4c5c3b81bc46c2894aabfe4ccebd03c2c54fdf",
+  "stepsHashed": "29519b04a356246bd541cf3e63b3516d75b2490cea43ae453fbf9a6b07857ef471906d314c6bdd40b3120734c71bae29"
+}

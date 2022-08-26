@@ -1,0 +1,55 @@
+{
+  "id": 10791403,
+  "key": "MM-T4081",
+  "name": "Users in correct in/out of channel sections",
+  "createdOn": "2021-05-19T01:15:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1353114,
+    "name": "With Database",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Database"],
+    "fullPath": "channels/autocomplete/with-database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["QA Platform"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Mobile", "Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: This test requires Elasticsearch and Bleve to be disabled.<br><br>Users in correct in/out of channel sections<br>_____________________________________<br><ol><li>Start an at-mention that returns users that are member and not member of the channel you're currently viewing.</li></ol>",
+        "testData": null,
+        "expectedResult": "Users in the autocomplete suggestion list should correctly group as \"Channel Members\" and \"Not in Channel\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "45cdb864698bdcf02581a545e0bdd31cb7abff2ade4a8b30e676d769767561db9fc519863a8a64a8b7d3335527b34525",
+  "stepsHashed": "af2ed9cd6385694e68dcf09fa93bdc7e01cef68fc391719df8b6755440f34c6a90bd3dd397a2cc1a7d5df42b513df0c0"
+}

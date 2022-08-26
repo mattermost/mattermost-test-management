@@ -1,0 +1,55 @@
+{
+  "id": 4064401,
+  "key": "MM-T1277",
+  "name": "SHIFT+UP",
+  "createdOn": "2020-01-23T13:38:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SHIFT+UP<br />--------------------<br />1. Press shift+up to open the latest thread in the channel in the RHS<br />2. Click into the post textbox in the center channel<br />3. Press shift+up again",
+        "testData": null,
+        "expectedResult": "The keyboard cursor moves to the RHS which is already open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4cb0f20a4a3eed2696593e2003da8310febad813a37d35dcdc867b2f40916fc199367108553e342bf30f2df0cb3ee6bb",
+  "stepsHashed": "75d4a20d791b11651871a298d786cd13bb8334d2436d4f737372cfda29ebb4032c1cebbda02d5addfacc8d26ac38686e"
+}

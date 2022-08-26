@@ -1,0 +1,55 @@
+{
+  "id": 19703645,
+  "key": "MM-T4704",
+  "name": "Join a MS Teams meeting with alternate account",
+  "createdOn": "2022-03-23T16:18:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Sign in with another account, and switch to the public channel from previous steps.<br />2. Click the meeting ID",
+        "testData": null,
+        "expectedResult": "MS Teams client opens and you join the meeting (can also as guest)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "733eb5c6c1f3c04377746bd1d40b782f3e3b6f887114babc4e1798ed467ef0ff52a538378177f4a2fc3c73b14ebaa263",
+  "stepsHashed": "02fd0f759c0d4b932147a9042f4fb1c5fe34edb0dccb2b3422a26a99e4ebd9cc29d7167c3baba0600e8a1419f3f55ac0"
+}

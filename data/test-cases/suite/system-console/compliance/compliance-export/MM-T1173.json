@@ -1,0 +1,68 @@
+{
+  "id": 4058903,
+  "key": "MM-T1173",
+  "name": "Compliance Export - Actiance XML: Deleted file is indicated",
+  "createdOn": "2020-01-22T19:26:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console", "Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Compliance Export - Deleted file is indicated in Actiance XML File Export<br />–––––––––––––––––––––––––<ol><li>As system admin, go to System Console &gt; Compliance &gt; Compliance Export</li><li>Set Enable Compliance Export to true</li><li>Select the Actiance XML export format and Save</li><li>Go back to a team and post a message with file attachment.</li><li>Run the compliance export.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Verify that file uploaded in compliance export</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18059\">Add File Deletion Events to Actiance — MM-18059</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Delete such post with file attachment</li><li>Run another compliance export</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>File deletion event shows up in export</li><li>File that was deleted is attached to second compliance export</li><li>Verify that it states \"Deleted file \" and attached actual file.</li><li>Ensure that the timestamp is correct and corresponds to the time at which the delete action was performed.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a49090b90eac6f027289da164d2913e01693160f1f9de8721193c4b7331353cda42f320425173b354bf8187d3f52d7b7",
+  "stepsHashed": "e2eab41b3ca8a5ae7f75c64d0c01b1552a19878d733f3f6756f761893d5b38d7f11ffb84b1de7974bf846b34f81602b0"
+}

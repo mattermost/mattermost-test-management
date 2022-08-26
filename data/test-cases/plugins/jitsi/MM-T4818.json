@@ -1,0 +1,55 @@
+{
+  "id": 22954585,
+  "key": "MM-T4818",
+  "name": "Jitsi can be enabled and used with all default config options",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "- Install and enable Jitsi",
+        "testData": null,
+        "expectedResult": "Plugin is running",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ddabe97887611705d521bc6bf36c46d8f349ef1c85a37f2f783955af31406c7bfeed35f7d3ecbbd42c0aa74de7e0f39",
+  "stepsHashed": "5496d58292d502f6341d1dd3ad6d51255ed02a2cada86c2ca84c7e8c574794bf91eaaeda11f9e218887c70a273f5f7e9"
+}

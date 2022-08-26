@@ -1,0 +1,55 @@
+{
+  "id": 8121545,
+  "key": "MM-T3641",
+  "name": "User - Delete All : through local mode",
+  "createdOn": "2020-12-07T11:17:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From local mode:<br>mmctl user deleteall",
+        "testData": null,
+        "expectedResult": "All users are deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "459d9b51d7b19a717e6c49e197840b1c3523276e419169cc18691e5f45ed1ab1c88575dba0b2cf9ed1e3dc44626d83e2",
+  "stepsHashed": "1202fda11cca61a5efe5d88382fadc3f00153e96f7e321640aec136760d4a3a59f5f143369bf56a89a5540babeca35b5"
+}

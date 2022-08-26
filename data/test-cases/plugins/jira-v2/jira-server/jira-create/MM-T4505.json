@@ -1,0 +1,55 @@
+{
+  "id": 17674305,
+  "key": "MM-T4505",
+  "name": "Jira options for attach and create are not visible to sysadmin when clicking on a System Post",
+  "createdOn": "2022-01-18T22:43:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable and configure the Jira plugin<br />2. Join a channel<br />3. Hover over the resulting &quot;you joined the channel&quot; system message, and click on the More Actions (...) post menu",
+        "testData": null,
+        "expectedResult": "- Delete is show as expected<br />- No console errors occur",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0be30cbe25df3ddc77e2db56741a542f34039cb4a266baa8335d8cce1a12f5e4e96e8cfc28abc7d4071be8e372c58934",
+  "stepsHashed": "d9054da42fb8efec5fbf07aaf20703fd711f1d0a4bc9435b2f0f5f93e59b896839aa74d19c97db707619ba72b67342ab"
+}

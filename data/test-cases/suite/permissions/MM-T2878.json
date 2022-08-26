@@ -1,0 +1,55 @@
+{
+  "id": 5659428,
+  "key": "MM-T2878",
+  "name": "Member cannot create a private channel",
+  "createdOn": "2020-06-04T18:02:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member cannot create a private channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On the LHS menu locate the Private Channels section<br />2. Ensure that the &quot;+&quot; is not available <br />For Mobile, select the &quot;+&quot; and on the channels list, ensure that Create Channel is not available",
+        "testData": null,
+        "expectedResult": "No option to create public channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "This requires some scheme changes applied in ​<a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T2868\">MM-T2868</a>​​​"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "09a764cac5661af0c6ed7b141e61e5080a606a56260c743e081966ddb8c0d56042df9f2e06dafca266743f4cf658aa20",
+  "stepsHashed": "8944dd2941f6250836b80043378714c868077e3f099f9d79a0bdc197edf3179602278c4ae7571ca393132ae0211cb555"
+}

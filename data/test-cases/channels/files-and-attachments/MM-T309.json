@@ -1,0 +1,81 @@
+{
+  "id": 3877349,
+  "key": "MM-T309",
+  "name": "Upload SVG and post",
+  "createdOn": "2020-01-02T22:06:10Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Upload SVG and post<br>–––––––––––––––––––––––––<ol><li>Open URL in a browser:</li><li><a href=\"https://en.wikipedia.org/wiki/File:Vector-based_example.svg\" rel=\"noopener noreferrer\" target=\"_blank\">https://en.wikipedia.org/wiki/File:Vector-based_example.svg</a></li><li>Save the SVG image from that page, then attach to a message by dragging and dropping the file or by clicking the paper clip icon and selecting the file</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Preview renders, along with filename, type, and size</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Observe the thumbnail after it's uploaded but before posting it, verify as described, then post</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Image displays</li><li>Ensure click area for the opening the image preview is only on the image itself</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Click the image thumbnail, click again to view/download the image, close any tab that may have opened</li><li>Click on the \"download\" link on the image thumbnail</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Image downloads</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3931dd204d24071030756773fad37ba08bcb27b63566853f74a95d0a71858bf4be18fc882a050b9438c9f7de06dcc31a",
+  "stepsHashed": "6b3501411d0547ae91d4c5fcd56b0d5650a3584b28ed0b58feb7466903a06fafbd2a9a173cec8901dde9f137b4eb2077"
+}

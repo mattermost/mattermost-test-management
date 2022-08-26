@@ -1,0 +1,55 @@
+{
+  "id": 5254445,
+  "key": "MM-T1760",
+  "name": "Enable Open Server false: Create account link is hidden",
+  "createdOn": "2020-04-30T12:39:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enable Open Server<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. &quot;Enable Open Server&quot; to false<br />2. Save<br />3. Logout<br />4. Go to system home page",
+        "testData": null,
+        "expectedResult": "Don't have an account? Create one now should be hidden",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8c2b70e4a862c0c009b084d996eb27dab38d5f7d45c5bc6ef336a886fd0b55aa2b46dca00e7f928228387442d823f9a9",
+  "stepsHashed": "adeb367f74137cccd16b0feebd463ad4457e8ab7357f6fb14c6136f9acc63ad6dc8c43897ede17e2b960096e36329392"
+}

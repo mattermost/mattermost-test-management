@@ -1,0 +1,55 @@
+{
+  "id": 8616874,
+  "key": "MM-T3724",
+  "name": "Plugin - Add : normal user can't add plugin",
+  "createdOn": "2021-01-18T08:56:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin add [plugin-name]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "18fb96fd434ddee0c5fab845996d1c6dad135dcd911d36cc0b4d3030014f343a1d80ad1dff4fdeceb78812971c2e8704",
+  "stepsHashed": "bf8e9fd4e93c743291da429f5c99bced064250072f0220e8636ab163eaf5373361a12ea8b42ed2e6cf89aab5331c618d"
+}

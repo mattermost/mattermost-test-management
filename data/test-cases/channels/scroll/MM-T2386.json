@@ -1,0 +1,55 @@
+{
+  "id": 5467502,
+  "key": "MM-T2386",
+  "name": "No scroll position jumping when more posts are loaded",
+  "createdOn": "2020-05-21T22:33:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "No scroll position jumping when more posts are loaded<br>————————————————————————————<ol><li>Load more posts on web with Safari or Firefox by scrolling to the top</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Scroll correction happens as soon as new posts load and there's no \"jumping\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"http://14791\">Safari and FF takes an extra frame for scroll correction causing jump to the right post when loading more posts — MM-14791</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "63a868e733be231244d9a1971654cbf4440082ac007185bad441a17fc1cb700d1096b59f23f79de86e01ee0b36dd5b80",
+  "stepsHashed": "fc54d66337977c9c7d68ac7ef36e10dedc6b1d00d47bb35f7d948457c31d507f4acea566caaf8b819751018d0f3ece42"
+}

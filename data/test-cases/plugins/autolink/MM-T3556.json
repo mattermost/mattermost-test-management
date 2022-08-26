@@ -1,0 +1,55 @@
+{
+  "id": 8022821,
+  "key": "MM-T3556",
+  "name": "Scope is respected on a Link",
+  "createdOn": "2020-11-26T20:33:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. For an existing link such as LHS set a scope to off-topic<br />&quot;/autolink set LHS Scope jira/off-topic&quot;<br />2. Post LHS in the off-topic channel<br />3. Post LHS in any other channel",
+        "testData": null,
+        "expectedResult": "On 2. LHS is hyperlinked based on its template<br />On 3. LHS is not hyperlinked",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "effbd2066e90793e381ef39cc44a787cefd4d0b5647e0f418342d4afac920b9070865fee82d3b86252b7ceb90a827c56",
+  "stepsHashed": "78cf9eb9ffe015cf60912c72fb54aaba9fa73f30af982251a0a4096674b65623010bebfcffcfa4b0fb9ea9001505c827"
+}

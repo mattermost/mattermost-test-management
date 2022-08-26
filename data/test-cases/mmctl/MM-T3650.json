@@ -1,0 +1,55 @@
+{
+  "id": 8193155,
+  "key": "MM-T3650",
+  "name": "User - Reset MFA",
+  "createdOn": "2020-12-14T11:50:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user resetmfa user@example.com",
+        "testData": null,
+        "expectedResult": "Disables MFA on users account",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "61c7599519cb0eb70842ad0156cab938657c9b2eb39bd330ab3c2a083a0d5682cfd54ebc349f79e82491a96d0404d400",
+  "stepsHashed": "5bdd0030c4d18b55731a38f92d0aec39c34bd9a4b756ce47c37ad293fdd63a2bc56b3f157f04a1a80d7259905f8cc5b9"
+}

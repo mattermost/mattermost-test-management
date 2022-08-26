@@ -1,0 +1,55 @@
+{
+  "id": 4058503,
+  "key": "MM-T1113",
+  "name": "Notification SettingsEmail: Batched 15 minutes, full vs. generic",
+  "createdOn": "2020-01-22T17:58:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br />Email<br />--------------------<br />Added email tests; spell them out here based on what's in Se",
+        "testData": null,
+        "expectedResult": "- Change the default email frequency to 15 minutes if batching is enabled on the server.<br />- Verify batched emails<br />- Verify full contents vs. generic",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2e8a62038e6699ebbdde0e2e777157e04ab6a11f56e407f0731cce3dd63367ff65d0ed6417f21cd2be0e8901c9d58277",
+  "stepsHashed": "56752d2d1aa04b639e9e2782b4ec36177404ae65f43060badd720027a21f02f360bb8fc421b078235c81b697c00d6a9c"
+}

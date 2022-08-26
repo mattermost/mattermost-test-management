@@ -1,0 +1,55 @@
+{
+  "id": 20029491,
+  "key": "MM-T4734",
+  "name": "Insights - My insights - My Top Channels",
+  "createdOn": "2022-03-31T21:20:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>SysAdmin</strong><br />2. Create <strong>ChannelA</strong> with 1000 Posts<br />3. Create <strong>ChannelB</strong> with 850 Posts<br />4. Create <strong>ChannelC</strong> with 600 Posts<br />5. Create <strong>ChannelD </strong>with 500 Posts<br />6. Create <strong>ChannelE</strong> with 250 Posts<br />7. Create <strong>ChannelF</strong> with 100 Posts<br />8. Select <strong>Activity &amp; Insigh</strong>t from LHS.<br />9. Observe<strong> Line chart</strong> section.<br />10. Observe <strong>Status ba</strong>r section.<br />11. Create 6 more Channels with different number of posts<br />12. Select<strong> Activity &amp; Insight</strong> from LHS.<br />13. Click<strong> See more</strong> icon<br />14. verify Pagination",
+        "testData": null,
+        "expectedResult": "8.1.<strong> My Top Channels</strong> widget should be displayed<br />containing following description <strong>Most active channels that<br />I'm a member of.</strong><br />8.2. <strong>See mor</strong><strong>e</strong> icon should be displayed at the<br />top right of the widget.<br />9. <strong>L</strong><strong>ine chart</strong> should be displayed in following orders:<br />-Blue line for <strong>ChannelA</strong><br />-Green line for <strong>ChannelB</strong><br />-Yellow line for <strong>ChannelC</strong><br />-Red line for <strong>ChannelD</strong><br />-Orange line for <strong>ChannelE</strong><br />10. <strong>Status bar</strong> should be displayed in following orders:<br />-Blue bar for <strong>ChannelA</strong> with total posts (1000)<br />-Green bar for <strong>ChannelB</strong> with total posts (850)<br />-Yellow bar for <strong>ChannelC </strong>with total posts (600)<br />-Red bar for <strong>ChannelD</strong> with total posts (500)<br />-Orange bar for <strong>ChannelE</strong> with total posts (100)<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1649179085556-1649179085555.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />11. Total 12 channels should be added.<br />13.1. Close(<strong>x</strong>) icon should be displayed at top right<br />13.2 Time Period dropdown should be displayed next to<br />close icon,<br />13.3. <strong>My Top Channels</strong> heading should be<br />displayed at the top left.<br />13.4. <strong>Most active channels that<br />I'm a member of </strong>description should be displayed<br />under the<strong> My Top Channels.</strong><br />13.5 Following column should be displayed<br />- <strong>Rank</strong> (Number in descending orders)<br />- <strong>Channels</strong> (Channels Name)<br />- <strong>Active members</strong> (Number of members)<br />- <strong>Total messages</strong> (Number of messages<br />with the blue bar)<br />13.6 9 Channels should be displayed in descending<br />order<br />13.7 Following text should displayed  at bottom right:<br />. <strong>1-5 of 100</strong><br />13.8 Previous (<strong>&lt;</strong>)icon should be disabled<br />13.9 Next (<strong>&gt;</strong>)icon should be enabled<br />14. <strong>3</strong> more channels should be displayed.<br />14.4 Previous and Next pagination are working fine",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e6cb693a42c8ffeb31481702c9a5c6998be98fbeefe8ab3353886f5f82bd16474f86c60cf1d4881b5503f1a3848c858a",
+  "stepsHashed": "a60d011c2eb8f78e5393906e056223b7d3b092453923016aa4e0c4aa13b650ba93e651f83b693aef6f812b7d42ab7813"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3808156,
+  "key": "MM-T302",
+  "name": "RN apps: ANDROID ONLY - Timezone updates automatically when traveling to another timezone",
+  "createdOn": "2019-12-30T23:49:21Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["android-only", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Android: Timezone updates automatically when traveling to another timezone<br />–––––––––––––––––––––––––<ol><li>Change the android device timezone manually in the device settings</li><li>If the app is open, restart the app.</li><li>Make a post in a test channel</li><li>Verify that the timezones match.</li><li>Then switch the timezone back to automatic in your device settings and repeat steps 2 - 4</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Timezone in Mattermost should match device timezone</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "29ba30386566243f96d3276a621ebe364d1c548bc553fe3b233b4416d580835f0ff3a4dfdfeb81a1d69b3c69f8925e87",
+  "stepsHashed": "ef7570a648e8b52f8672862a449d1c2ca9d118d9c01b73efa7e33f25eb6c2abb2d7af94ef6c36c135f972b370eb728d2"
+}

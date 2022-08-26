@@ -1,0 +1,55 @@
+{
+  "id": 6396872,
+  "key": "MM-T3196",
+  "name": "RN apps: Add members to channel",
+  "createdOn": "2020-07-30T21:04:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["in Production", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Add members to channel<br>————————————————————————————<ol><li>Tap a channel title to view channel info, and note the number of channel members next to Manage Members</li><li> Tap on \"Add members\", observe list of users on the server</li><li> Tap on \"Search\", observe keyboard opens</li><li> Type in the name of the user to be added, observe user list filters accordingly</li><li> Tap on the circle to the left of the user's name (first tap may just close keyboard; may have to tap again), observe the circle next to their name appears selected</li><li>Tap on \"add\" at the top right of the screen</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The user is added to the channel</li><li>Total number of members next to \"manage members\" menu option should increase by the number of users added to the channel</li><li>System message should display in the channel showing which members were added to the channel.</li><li>Tapping on the user's name in the system message should open the user's profile from where you can send them a DM</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "68bb06e43b1980fee643c2974f0e1bce6331f2fc61d3b0fd2a3d85494604d7339582338ac5b9b13691e5ff536b0a102a",
+  "stepsHashed": "674a901d9c9ddaa311efacfa5dbbf941c17be1ad204fc612cff421c61b9154e9e2873ede209f62adb7ce1ec1781c04fe"
+}

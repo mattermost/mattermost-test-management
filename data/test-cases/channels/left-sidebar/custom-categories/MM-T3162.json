@@ -1,0 +1,133 @@
+{
+  "id": 6377916,
+  "key": "MM-T3162",
+  "name": "Cancel Create Category",
+  "createdOn": "2020-07-29T19:36:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007282,
+    "name": "Custom Categories",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
+    "fullPath": "channels/left-sidebar/custom-categories"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Cancel Create Category<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Click on Create Category",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Leave name blank and click on Cancel",
+        "testData": null,
+        "expectedResult": "Modal closes<br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enter some text and click Cancel",
+        "testData": null,
+        "expectedResult": "Modal closes <br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Leave name blank and click on X to close the modal",
+        "testData": null,
+        "expectedResult": "Modal closes <br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enter some text and click on X to close the modal",
+        "testData": null,
+        "expectedResult": "Modal closes <br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Leave name blank and click outside of the modal",
+        "testData": null,
+        "expectedResult": "Modal closes <br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enter some text and click outside of the modal",
+        "testData": null,
+        "expectedResult": "Modal closes <br />New category is not created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Maybe modal should not close?"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd0b2072dcd21bae267ceff1a59bba9eb40636c982b13a05025520979c1ee6a923c7de21b7056fe35212578a877eddea",
+  "stepsHashed": "b51cb19efb6401888acd6accee9d53402723b6c672ed39dd6ed4b437a13899e90d9f4d710600779dc040ff4d57e7b415"
+}

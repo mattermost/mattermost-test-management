@@ -1,0 +1,120 @@
+{
+  "id": 10735884,
+  "key": "MM-T4063",
+  "name": "Custom status expiry",
+  "createdOn": "2021-05-14T15:36:52Z",
+  "objective": "",
+  "precondition": "<ul><li>Logged in</li><li>Custom statuses enabled on the server</li></ul>",
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": { "id": 14322, "name": "Webapp" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222177,
+    "name": "Web",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Web"],
+    "fullPath": "channels/custom-statuses/web"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click on the user avatar in the LHS",
+        "testData": null,
+        "expectedResult": "Status dropdown opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Set a status\"",
+        "testData": null,
+        "expectedResult": "\"Set a status\" modal opens with 5 default statuses listed:<ul><li>In a meeting</li><li>Out for lunch</li><li>Out sick</li><li>Working from home</li><li>On a Vacation</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Out for lunch\" status",
+        "testData": null,
+        "expectedResult": "<ul><li>\"In a meeting\" status is selected and shown with the hamburger emoji</li><li>\"Clear after\" time is set to 30 minutes</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Set Status\"",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set</li><li>Custom status emoji is shown next to the username in the LHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the user avatar in the LHS",
+        "testData": null,
+        "expectedResult": "Status dropdown opens and shows the custom status and the expiry time below it:<br>(\"Until H:MM\")",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Wait 30 minutes",
+        "testData": null,
+        "expectedResult": "Custom status is cleared",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "63f12fa19aaa8b5bb69ba7b3cacc0208e4cd3c60b48089541928d1b06ca2642d29fec9e81794fe66ad30916d97af214b",
+  "stepsHashed": "b6e9e857a351697ecd5cd60ad45c31290a1a90eb9f957a9c0b08cef7ae84f5f9e83ac729266ad2d6e14d5ca09573516a"
+}

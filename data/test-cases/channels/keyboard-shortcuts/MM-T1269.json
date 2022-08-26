@@ -1,0 +1,55 @@
+{
+  "id": 4064393,
+  "key": "MM-T1269",
+  "name": "UP - Edit code block",
+  "createdOn": "2020-01-23T13:38:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post code block<br />2. Press UP<br />3. Edit text in edit modal<br />--------------------",
+        "testData": null,
+        "expectedResult": "Code block should have edited.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d20fb06d8b604070662b57b179e65862039f2bba09e2ee31397e74c84b109b9d380097f550b0da4e4cd23ec0808bbdb1",
+  "stepsHashed": "709d1c190eec23c060fe106a168ee462e8c865e4ac5fb8fce1a84821cf07a0da19db7c456cbbdc7cd2b89c2b149d459c"
+}

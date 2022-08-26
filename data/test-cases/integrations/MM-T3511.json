@@ -1,0 +1,55 @@
+{
+  "id": 8022756,
+  "key": "MM-T3511",
+  "name": "Autolink: WordMatch",
+  "createdOn": "2020-11-26T20:09:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;(MM-11)&quot;<br />2. Post &quot;(MM-1234 might solve your bug)&quot;",
+        "testData": null,
+        "expectedResult": "Text is converted to a link. Clicking them takes you to https://mattermost.atlassian.net/browse/MM-12",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "20894bcada35cf7b6691bcf4da79df96512c644862809b9a936ca8515fa69f787c76f6308024b4121ed2b210642f2567",
+  "stepsHashed": "b8322d8dc97239c7daa887e9f4a8b06b446634a7c561d02abd82071f25ee83e8dfe7456d29a0ec2ed78530b8cdecfb45"
+}

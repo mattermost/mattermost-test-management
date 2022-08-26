@@ -1,0 +1,81 @@
+{
+  "id": 9184781,
+  "key": "MM-T3861",
+  "name": "Users are auto-completed in channel switcher by last name",
+  "createdOn": "2021-02-24T17:42:35Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 7:44 AM<br>• &nbsp;Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: This test requires Elasticsearch to be enabled - autocomplete, indexing and searching.<br><br>Go to channel switcher by Ctrl/Cmd+K or clicking \"Find channel\" at LHS<br><br><br>Full last name returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@lastname\" of a user you want to mention</li></ol><br>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Unique but partial last name returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by unique but partial text of a last name you want to mention</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Partial last name returns all users that match<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by partial text of a last name you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "Should show autocomplete for all users that matched",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4d01d401c14d6b576ef60a4c2c9c8e8572cb2d8841cf40e85a8dd5c396ca4d72b80a6261c7b3c495a7bc027e2c93e8ca",
+  "stepsHashed": "355200657182923022c8001900a9f8220a25733ae0fc72e4dd735abeed538dd5e3f7fbf0601c3dc8504a1dd0539963d9"
+}

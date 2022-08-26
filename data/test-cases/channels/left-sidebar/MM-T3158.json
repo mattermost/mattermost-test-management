@@ -1,0 +1,224 @@
+{
+  "id": 6377912,
+  "key": "MM-T3158",
+  "name": "Drag and Drop DMs",
+  "createdOn": "2020-07-29T19:36:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["Queued", "v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drag and Drop DMs<br />————————————————————————————<ol><li>Hover over DMs on the sidebar</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Small drag handle displays on the left of the channel type icon</li><li>Mouse cursor changes to Hand Pointer Finger</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Pick up any DM to move</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mouse cursor becomes dragging cursor - closed hand</li><li>DM being dragged should float beneath the mouse cursor</li><li>Channels category dims</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag DM over DM Category</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The whole DM category is outlined to indicate that the entire DM category is a dropzone</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM over Channels category header while category is expanded</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channels category remains dimmed and does not give indication DM can be dropped there</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM over Channels category header while category is collapsed</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channels category remains dimmed and does not expand or give indication DM can be dropped there</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM over any custom Category header (or Favorited) while that category is collapsed</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Category header is outlined indicating items can be dropped there</li><li><span style=\"color:rgb(184, 49, 47)\">Shows an indication that channel will drop in the first position</span></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "When a channel (that is not currently open in the main view) is moved to a category that is collapsed the category shows an indication that channel will drop in the first position even though it will not be visible/shown there immediately - Expected?"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM over any custom Category header (or Favorites) while that category is expanded</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Category header is outlined indicating items can be dropped there</li><li>Shows an indication that channel will drop in the first position</li><li>DMs can be dropped between exising channels</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM in any direction</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Item can be dragged in any direction, vertically or horizontally</li><li>Can't drop cursor is shown when hovering outside of sidebar or non-droppable areas on the sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM to near top or bottom of the sidebar to trigger scrolling</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Scrolling while dragging is allowed</li><li>Scrolling should be smooth, not sticky or jumpy</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Drag a DM and press ESC</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Dragging is canceled</li><li>DM is returned to its original position</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Collapse a category and drop a read DM into a category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication DM will placed at the top of the category</li><li>Category remains collapsed after the drop</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Queued"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-26399\">Favorites category header fails to outline when dropping DMs if positioned below DM category on the LHS — MM-26399</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Expand a category and drop a read DM into category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication DM will placed at the top of the category</li><li>Category remains expanded after the drop</li><li>DMs can be dropped between exising channels/DMs/GMs</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Queued"],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Queued</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-26399\">Favorites category header fails to outline when dropping DMs if positioned below DM category on the LHS — MM-26399</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Collapse a category and drop an unread DM into a category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication DM will placed at the top of the category</li><li>Category remains collapsed after the drop</li><li>Unread channel that was just dropped is shown on the list</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Expand a category and drop an unread DM into category header directly</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows an indication DM will placed at the top of the category</li><li>Category remains expanded after the drop and newly dropped channel is placed at the top of the channel list</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.26 (August 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-26826\">Channel sidebar org - move DM to category creates a duplicate — MM-26826</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7f93f04cd37df9eee92a2b57286aa2e2dc80b1bbf8d0dca3c79bb80b8faee2d982dae7815722635999bdaba499055ca8",
+  "stepsHashed": "e0ff5e6a927c82e65f4022f9ce0f95766fad1b9ae7d6a2b93e3497218d4eb6d724366be81d52b4447b38cd8a3d6439cb"
+}

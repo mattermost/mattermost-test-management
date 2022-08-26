@@ -1,0 +1,55 @@
+{
+  "id": 15984418,
+  "key": "MM-T4356",
+  "name": "Notification links point to latest comment",
+  "createdOn": "2021-11-04T17:51:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915269,
+    "name": "Notifications",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Notifications"],
+    "fullPath": "plugins/bitbucket/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Trigger a new notifications using comments on PRs and issues",
+        "testData": null,
+        "expectedResult": "Confirmed that RHS list items always link the latest comment",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "91049e16d34d1645228a597eb575e616f8234bd95fa55cfb813e7cfd34658478e8b0ff86005b3744abfd571d2567e998",
+  "stepsHashed": "39e5618e0ef93dcf21c13f2bb3146bca2d61dc01cddc13778cac1d5ba209e0de42e114c9c0b0729ab62716ac832fc7c6"
+}

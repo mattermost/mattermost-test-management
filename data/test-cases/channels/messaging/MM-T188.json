@@ -1,0 +1,55 @@
+{
+  "id": 3742397,
+  "key": "MM-T188",
+  "name": "Webapp: Inline markdown image that is a link, opens the link",
+  "createdOn": "2019-12-20T20:46:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 8 Jul 2022: Removed all steps related to deprecated \"Pre-release\" advanced features.<br /><br />Steve Mudie — Monday, December 21, 2020 2:42 PM<br />• Added link to Rainforest test",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Webapp: Inline markdown image that is a link, opens the link<br />--------------------<br />1. Make sure your markdown preview is enabled (Account Settings &gt; Advanced &gt; Preview pre-release features &gt; Show markdown preview option in message input box = Yes) <br />2. Post the following in a test channel<br />[![Build Status](https://travis-ci.org/mattermost/platform.svg?branch=master)](https://travis-ci.org/mattermost/platform)<br />3. Click on the image in the post",
+        "testData": "NEW v5.18 https://mattermost.atlassian.net/browse/MM-12898",
+        "expectedResult": "On 3) Link opens in a new browser window",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ff3c31a00df651a740380c73bce3c5b53ba40b435210e7d1ccae06790f95790f132cd8097d4b080d1b0a2017cd2c73e5",
+  "stepsHashed": "e3f1319ea8d7427cd3a83066356d3c90c5dd80cafdda772289573150bf8b215b3b3293e32f783e8b870d3ba121ca29f4"
+}

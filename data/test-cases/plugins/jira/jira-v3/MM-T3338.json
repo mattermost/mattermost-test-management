@@ -1,0 +1,69 @@
+{
+  "id": 6827880,
+  "key": "MM-T3338",
+  "name": "Default instance selected as expected in modal",
+  "createdOn": "2020-08-31T14:10:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Click the ... menu on a post and open the Jira create modal<br>3. Note the currently selected instance and change it to a different one (there should be two)<br>4. Select a project other than the first one in the newly selected instance and create an issue",
+        "testData": null,
+        "expectedResult": "The default instance is now updated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Click the ... menu on a post and open the Jira create modal",
+        "testData": null,
+        "expectedResult": "- The instance selected in step 2. is now the one set by default<br>- The project selected in step 2. is now the project selected by default &nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "01b037ba480a91b9d1f7ec745b10adbb53e6e8c4d264aa725687645c51d22b27c95f3cefc6f3783855b38429a576344f",
+  "stepsHashed": "98f46ef2e21a2e9e39fa9f2af3d2077b4339b1a6c34abbeb463acd3f3405e0c14815ea997c76ca843b628c99c2f3a771"
+}

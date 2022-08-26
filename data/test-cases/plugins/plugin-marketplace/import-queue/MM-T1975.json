@@ -1,0 +1,55 @@
+{
+  "id": 5293916,
+  "key": "MM-T1975",
+  "name": "Marketplace links in System Console open correctly on desktop app",
+  "createdOn": "2020-05-06T01:44:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Marketplace links in System Console open correctly on desktop app<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Logged in as system admin on desktop app, go to System Console &gt; PLUGINS &gt; Plugin Management.<br />2. Under Enable Marketplace help text, click on the &ldquo;marketplace&rdquo; link.",
+        "testData": null,
+        "expectedResult": "The marketplace page opens in a new browser tab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e04a360339ead37df2864e432ffdfbb83de94b730c560300a140576156ba240c0596248962c36a1241776f8ed6bf13b2",
+  "stepsHashed": "f16bec927f5183d82063114f49e9d84fe1e91296ddc9c47d7320e8cf7f8a70e90369a5d0e266d43a4d19d9e1978937d5"
+}

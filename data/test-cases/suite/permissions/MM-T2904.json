@@ -1,0 +1,55 @@
+{
+  "id": 5659455,
+  "key": "MM-T2904",
+  "name": "As a Channel Admin, the test user is now able to delete private channel",
+  "createdOn": "2020-06-04T18:02:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "As a Channel Admin, the test user is now able to delete private channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a private channel where the user is an admin<br />2. Click the down arrow next to the channel header to see channel options<br />3. Ensure that Delete Channel is available and select it<br />4. Click Delete on the confirmation screen",
+        "testData": null,
+        "expectedResult": "For step 3 Delete Channel is available.<br />For Step 4 channel is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "134b283562f1828ce8e8035bd81592cdbfae65dcb1c7200dba43da57b928d6d10b16b57ff534ac008f960186b7727538",
+  "stepsHashed": "4b71cd0d6ddb3ab48fc4f1ad8e81829d2f6edacedcee78b043fed8e91c4c30872c7e8c026567de7b5a17a52040b974b9"
+}

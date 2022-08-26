@@ -1,0 +1,146 @@
+{
+  "id": 26272088,
+  "key": "MM-T4934",
+  "name": "Forwarding post from public channel",
+  "createdOn": "2022-07-20T19:34:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3103572,
+    "name": "Message Forwarding",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Message Forwarding"],
+    "fullPath": "channels/message-forwarding"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Forward root post from public channel to another public channel<br /></u><ol><li>Create a post on public channel e.g. Town Square</li><li>Open post menu<ol><li>Verify post menu option Forward is available</li></ol></li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select Off topic</li><li>Leave Add comment field blank</li><li>Click on Forward<ol><li>Verify message is forwarded, shows Off Topic with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward root post from public channel to another public channel, long comment<br /></u><ol><li>Create a post on public channel e.g. Town Square</li><li>Open post menu<ol><li>Verify post menu option Forward is available</li></ol></li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select Off topic</li><li>Add long comment over 16383 characters <ol><li>Verify \"your message is too long\" warning is present</li></ol></li><li>Edit message down to at or below 16383 characters</li><li>Click on Forward<ol><li>Verify message is forwarded, shows Off Topic channel post with permalink of shared message and comment with \"show more\" button</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward reply post from public channel to another public channel</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Reply to this post</li><li>Click on reply's post menu to open<ol><li>Verify post menu option Forward is available</li></ol></li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select Off topic</li><li>Leave Add comment field blank</li><li>Click on Forward<ol><li>Verify message is forwarded, shows Off Topic with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward public channel post from global threads</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Reply to this post</li><li>Open global Threads</li><li>Click on a thread to view</li><li>Select any post, root or any reply on the thread to forward<ol><li>Verify post menu option Forward is available</li></ol></li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select Off topic</li><li>Leave Add comment field blank</li><li>Click on Forward<ol><li>Verify message is forwarded, shows Off Topic with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward public channel post while viewing Insights</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Reply to this post, leave RHS open</li><li>Open Insights</li><li>Select any post, root or any reply on the thread to forward</li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select Off topic</li><li>Leave Add comment field blank</li><li>Click on Forward button<ol><li>Verify message is forwarded, shows Off Topic with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward public channel post to Private channel</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Select the post to forward</li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select private channel </li><li>Leave Add comment field blank</li><li>Click on Forward button<ol><li>Verify message is forwarded, shows in private channel with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward public channel post to GM</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Select the post to forward</li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select a GM you previously created</li><li>Leave Add comment field blank</li><li>Click on Forward button<ol><li>Verify message is forwarded, shows in GM with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward public channel post to DM</u><br /><ol><li>Create a post on public channel e.g. Town Square</li><li>Select the post to forward</li><li>Click on Forward<ol><li>Verify \"Forward message\" modal opens</li></ol></li><li>Click on \"Select Channel and people\" dropdown</li><li>Select a DM you previously created with another user</li><li>Leave Add comment field blank</li><li>Click on Forward button<ol><li>Verify message is forwarded, shows in DM with permalink of shared message and no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b7257e4bda7f094b329d97c1f563d9d2c4961319744ac4df0f76c36e484271b92c1f79865f98d5d480877c09d0b3c4d6",
+  "stepsHashed": "a0bf23a1767478ce35df093b1ee42b4609dbcc11c3af04c7947f345b3293a71b12a1aa4ccf8fda9b2df368c5eb1b4919"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6181515,
+  "key": "MM-T3084",
+  "name": "Home Page:\nJoin an Open Team",
+  "createdOn": "2020-07-13T19:12:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Home Page:<br />Join an Open Team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Make sure user1 has set their team to Allow any user on the server to join<br />2. Go to Main Menu &gt; Join Another Team and click on the team user2 created, under &quot;Teams you can join&quot;",
+        "testData": null,
+        "expectedResult": "Takes you to the selected team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "213748da19ca1c4194172436d8f47e085b7e7e17a8f74a99336d27258c38a1c8dd6f98eaa6b87f6f1a3169fa3d8f4908",
+  "stepsHashed": "1775cff801e76bdc4d8cf08dbf949803aed24b924f67eac3151ade4a605b5302c9690b84e00ce91603a549f8244fbeaa"
+}

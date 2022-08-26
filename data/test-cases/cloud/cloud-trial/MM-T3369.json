@@ -1,0 +1,55 @@
+{
+  "id": 7115080,
+  "key": "MM-T3369",
+  "name": "Cloud Trial — Getting Started",
+  "createdOn": "2020-09-22T13:13:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1285126,
+    "name": "Cloud Trial",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": ".",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>If a user has the ‘Getting Started’ item visible in the LHS and they click the 'x' icon in it, a modal shows letting the user know they can get back to “Getting Started” through the Main Menu</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>“Getting Started” is removed from the LHS if they confirm to remove it in the modal</li><li>Main Menu should retain “Getting Started”</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "152b019754d6b6f617af2ddf6925e4e02622944611f806e7ba8734790c6b74c73834d68aeaf9e159fbf2a9a7d97d1c34",
+  "stepsHashed": "3eba206a778456b94bf5b7ebccd57c16d2a5c77bf494d573fd10bf7536b41efb83b768ecbd61d2da7bf76c7c20908efe"
+}

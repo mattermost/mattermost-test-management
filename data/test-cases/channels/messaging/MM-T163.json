@@ -1,0 +1,55 @@
+{
+  "id": 3742349,
+  "key": "MM-T163",
+  "name": "Emojis are not jumbo when accompanied by text",
+  "createdOn": "2019-12-20T20:33:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Friday, September 18, 2020 2:21 PM<br>• Added links<br>• <span style=\"color: rgb(184, 49, 47);\">Rainforest tests are mobile only</span>",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emojis are not jumbo when accompanied by text<br />--------------------<br />1. In either the main or reply thread make a post that has emojis and some text as well",
+        "testData": null,
+        "expectedResult": "Emojis are shown in the normal size",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b1001ffa8e8938381ba2d9a6229715bb09ea3aa0e51c5cfbf0eed5e3cd0f12721658a5c331674baca7ba34193049707",
+  "stepsHashed": "f224470ead6acfaed3f83548aa8cc01119316dc8183d7b1a0359f30fc4fc22a34eef5c3fd0d3b922f3bbff4a09545f61"
+}

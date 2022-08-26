@@ -1,0 +1,68 @@
+{
+  "id": 4782537,
+  "key": "MM-T1617",
+  "name": "Saving changes to Guest Accounts Feature",
+  "createdOn": "2020-03-12T15:08:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Enable Guest access via System Console ➜ Authentication ➜ Guest Access (Beta) and save</li><li>Disable Guest access and when the modal window appears, exit tab without saving</li><li>&nbsp;Revisit server and confirm that guest access was not disabled</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Setting <strong>not</strong> saved</li><li>Guest access <strong>not</strong> disabled</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21145\">Guest account access can remain enabled after confirming disable in modal window — MM-21145</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Enable Guest access via System Console ➜ Authentication ➜ Guest Access (Beta)</li><li>Disable Guest access</li><li>Save</li><li>Confirm on the modal window that appears displays \"Save and Disable Guest Access\"</li><li>Click the button to save and disable</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1584025624019-1584025624019.png\" class=\"fr-fic fr-dii\">",
+        "expectedResult": "<ul><li>Setting saved</li><li>Guest access disabled</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21739\">Text Change \"Disable Guest Access\" modal save button — MM-21739</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e9c268ae0b2769c67c6ff08124ac9095a49efacc6b3baeebfd2f0af7b977072a3966518318b31e7a24c1ae0e4f39742d",
+  "stepsHashed": "a6ae72acb3c08b679a14d0cba415f2785ca2b433b62d33343b4b8f3269b66037955b7ac576fa986984c4a706a98da4a5"
+}

@@ -1,0 +1,72 @@
+{
+  "Priority P1 to P4": [
+    "P3 - Deep Functions (Do extensive scenarios work?)",
+    "P2 - Core Functions (Do core functions work?)",
+    null,
+    "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "P1 - Smoke Tests (App testable?)"
+  ],
+  "Team Ownership": [
+    "Channels",
+    "QA Platform",
+    "Integration Frameworks",
+    "Growth",
+    "Suite Users",
+    "Server Platform",
+    "Web Platform"
+  ],
+  "Tags": ["Cloud N/A", "Smoke test", "Never tested"],
+  "Manual Test Environments": [
+    "Automated - No manual tests needed",
+    "Webapp",
+    "Desktop: macOS",
+    "Mobile",
+    "Desktop",
+    "Cloud",
+    "RN: iOS",
+    "RN: Android",
+    "Desktop: Linux",
+    "WebApp and Desktop",
+    "Desktop: Win",
+    "CLI",
+    "Portal"
+  ],
+  "Automated Environment": [
+    "Chrome",
+    "Safari",
+    "iOS",
+    "Android",
+    "Desktop app",
+    "Any browser",
+    "Chrome (dark theme)",
+    "Firefox",
+    "mmctl"
+  ],
+  "Automation Tool": ["Cypress", "Selenium", "Rainforest", "Detox", "mmctl"],
+  "Cypress": ["in Production", "Ticket Open", "To Do", null, "N/A", "Update", "Evaluating"],
+  "Detox": [null, "N/A", "Update", "Evaluating", "To Do"],
+  "Playwright": [null, "In Production"],
+  "Rainforest": [
+    "N/A",
+    "Webapp",
+    "in Production",
+    "Mobile",
+    "Cloud",
+    "Evaluating",
+    "in Production — Desktop",
+    "Temporarily Disabled",
+    "Update",
+    "To Do"
+  ],
+  "Selenium": [null, "in Production", "N/A", "Defer to Cypress", "Defer to Rainforest"],
+  "MMCTL": [null, "N/A", "To Do", "Update"],
+  "Duplicate Automation": ["Rainforest", "Selenium"],
+  "Cypress Reports": [
+    "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    null,
+    "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "SKIPPED - TM4J-Key-Mapped-In-Cypress-Skipped - Cypress code contains TM4J key but not found in any Cypress run reports (SDET)"
+  ]
+}

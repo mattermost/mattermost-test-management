@@ -1,0 +1,55 @@
+{
+  "id": 15984276,
+  "key": "MM-T4333",
+  "name": "/bitbucket settings",
+  "createdOn": "2021-11-04T17:34:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1914726,
+    "name": "General",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "General"],
+    "fullPath": "plugins/bitbucket/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/bitbucket settings notifications off&quot;",
+        "testData": null,
+        "expectedResult": "Ephemeral message posted back with &quot;Settings updated.&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "94e526ec769041c38442f24daa2405b9d340b57c88e6c80c15c4d19999a1ddca2ef4c0711a1aa41b1201fe9ef14d639e",
+  "stepsHashed": "193f10fcfa1232a99b4f9e41f94ebde98f11d4c6e4721ef70c9ac19313446d924e0cddd1ac97d7f29086d65a8c1e3ee7"
+}

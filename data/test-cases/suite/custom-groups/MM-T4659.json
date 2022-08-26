@@ -1,0 +1,55 @@
+{
+  "id": 18855805,
+  "key": "MM-T4659",
+  "name": "Custom Group- Entry Point (Plus Menu)",
+  "createdOn": "2022-03-02T14:48:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as UserA</p></li><li><p>Click ”+” icon next to Team  name</p></li><li><p>Click Create new user Group</p></li></ol>",
+        "testData": null,
+        "expectedResult": "<p>3. Verify following information in the modal:</p><ol><li><p>Create Group Modal should be displayed</p></li><li><p>Two fields should be displayed i.e Name and Mention</p></li><li><p>Search People should be displayed under Add People section</p></li><li>Back button at the lower right corner of the modal should be displayed.</li><li>Create Group should be disabled</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "15568d51482b1c504918c69ed962966b021b6a0ce8388c2b1c136688e2bba0d356576bfe3ab17daefc04dc347b25a9c6",
+  "stepsHashed": "51b357eb9262c711a6101e3e9a2430887172a6692b6adb2524bd456ed614c3e0ca959eae6eb7904d9296174aedbfefbb"
+}

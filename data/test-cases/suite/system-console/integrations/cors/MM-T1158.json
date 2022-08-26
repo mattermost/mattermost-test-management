@@ -1,0 +1,55 @@
+{
+  "id": 4058888,
+  "key": "MM-T1158",
+  "name": "Allow Cross-origin Requests",
+  "createdOn": "2020-01-22T19:26:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569411,
+    "name": "CORS",
+    "parentId": 570084,
+    "fullNames": ["Suite", "System Console", "Integrations", "CORS"],
+    "fullPath": "suite/system-console/integrations/cors"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Allow Cross-origin Requests<br />--------------------<br />Set &quot;Enable cross-origin requests from:&quot; to the following and Save:<br />http://example.com<br />Refresh (or navigate away and back), verify the saved value is still there<br />Set &quot;Enable cross-origin requests from:&quot; to the following and Save:<br />* (an asterisk)<br />Refresh (or navigate away and back), verify the saved value is still there<br />Remove strings from &quot;Allow Cross-origin Requests from&quot; and Save",
+        "testData": null,
+        "expectedResult": "Strings are saved.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6e145def52284d63dfa9543e56542b10537de4b183a7657a48cd95e97ce4b497eacdce38c95a55b10fed26e6da35d358",
+  "stepsHashed": "44582d1073fe75c26bbf9f2543c55779692b44d6c47b9c612aee3345208e9a282d81cf9395d34f13dd9002c31cd6e3f3"
+}

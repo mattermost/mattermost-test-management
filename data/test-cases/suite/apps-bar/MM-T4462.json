@@ -1,0 +1,55 @@
+{
+  "id": 17516240,
+  "key": "MM-T4462",
+  "name": "Apps such as Zendesk moves to app bar and works normally when App bar is enabled",
+  "createdOn": "2022-01-11T15:41:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start your server with the Feature Flag for the Apps Bar in a True state `<em>MM_FEATUREFLAGS_AppBarEnabled=true</em>`<br />2. Deploy a build of the Zendesk App<br />3. Install the Zendesk App",
+        "testData": null,
+        "expectedResult": "- The Zendesk App is shown in the Apps bar header<br />- The icon opens a modal when click (<strong>note: </strong>The user will see a message that subscriptions are unavailable if they click the icon without a subscription target setup)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2e6b5365d9e23fb486314ba95513a1c63a69ae0e95ecf0f049ff3ad824b5a6ca9e28d82c84bb06df91a53ee9c5de293a",
+  "stepsHashed": "c64c6f4dbf351bc4e2ca5fbe57ff26b2d0f7890ec97e0e83452556038c4e9fdf48e0611f8571defe5116cec22752018e"
+}

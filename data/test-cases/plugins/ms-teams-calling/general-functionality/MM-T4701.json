@@ -1,0 +1,55 @@
+{
+  "id": 19703642,
+  "key": "MM-T4701",
+  "name": "Plugin channel header tooltip",
+  "createdOn": "2022-03-23T16:18:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In a public channel, hover over the MS Teams icon",
+        "testData": null,
+        "expectedResult": "- Tooltip reads &quot;Start MS Teams Meeting&quot;<br />- Icon shows as greyed-out when clicked<br />- Plug icon shows as clicked when multiple plugins are enabled that use to top right icon",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0b2e01a793d995dbb3f4055ae1b87e665c2adfc256a84785ab4332bee72be476aef64cf567963270af28c8e03fb09e83",
+  "stepsHashed": "4cedc0a452b9b6eed48b179c8243b4d45672587de67d93b98c0ea643856192cc088510bd1e0bfc8fee3d69869d22e37c"
+}

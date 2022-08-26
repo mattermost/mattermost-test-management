@@ -1,0 +1,55 @@
+{
+  "id": 8180934,
+  "key": "MM-T3647",
+  "name": "PDF preview - zoom",
+  "createdOn": "2020-12-11T21:33:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "PDF zoom in/out/reset<br>________________________<ol><li>Attach a PDF file and post</li><li>Click on the PDF to open Preview</li><li>Click on + few times to zoom in<ol style=\"list-style-type: lower-alpha;\"><li>Verify user can scroll up/down and right/left</li><li>Verify user can drag both vertical and horizontal scroll bars</li></ol></li><li>Click on reset&nbsp;</li><li>Click on - few times to zoom out&nbsp;</li><li>Post a file that is not a PDF and verify zoom options are not available when previewing&nbsp;</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You should be able to zoom in, out and reset zoom on PDF file preview.&nbsp;</li><li>Scroll bars should be visible in both, light and dark themes when zoomed in enough to trigger the scroll bars and can be dragged</li><li>Zoom options are not available when previewing files that do not support zooming.&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cd6d4a10cf170725c9fe720879e3b980cd2fe613f177167ef7cbc9cd7517039d54cab71d5398561e316cdef6d1e51540",
+  "stepsHashed": "7728dc58b85c3e559efff69c467d200ff49bf48055bb20e8bb77bc77c32a3680b05366e8834ea3913f8b69019b6f03a3"
+}

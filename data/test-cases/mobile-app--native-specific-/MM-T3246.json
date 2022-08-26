@@ -1,0 +1,68 @@
+{
+  "id": 6396922,
+  "key": "MM-T3246",
+  "name": "RN apps: File preview - Delete file cache",
+  "createdOn": "2020-07-30T21:05:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.16 Mobile (February 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "File preview - Delete file cache<br>————————————————————————————<ol><li>Ensure you have downloaded a file such as a video or document in order to preview it</li><li>Verify that if you tap the file to preview, it does not download it again; it just shows the preview</li><li>Go to right-hand three-dot menu ➜ Settings ➜ Advanced Settings</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Cache amount should show approx 58KB (after app restarts you're returned to Town Square so loading the channel adds a few KB)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap Delete Documents &amp; Data, tap Delete to confirm verify file cache displays as `0 B`</li><li>Go back to the file you had downloaded and previewed, and tap to preview it again</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>It should download the file (or ask to) again before displaying the preview</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.16 Mobile (February 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-13673\">RN - iOS image previews don't work after using Delete File Cache — MM-13673</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a2dffd79620a24f1d2c9115704b7180ba7ff065e17f744ab49cf23f577436512bde479890658f40cf02aaf449110aca9",
+  "stepsHashed": "925542a7bb6968dbea83a6f97d92ca444bab914a878bcd305045263cdce7688b246d504fd1432aa3aa281eb19704c664"
+}

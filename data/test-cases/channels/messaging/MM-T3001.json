@@ -1,0 +1,55 @@
+{
+  "id": 6020455,
+  "key": "MM-T3001",
+  "name": "RN apps: Autocomplete should be available for @ mentions when network is disconnected",
+  "createdOn": "2020-06-30T16:53:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.33 Mobile (July 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Autocomplete should be available for @ mentions when network is disconnected<br>--------------------<br>1. On fresh install or data cleared then with airplane mode, type `@`<br>2. On already loaded at mentions then with airplane mode, type `@`",
+        "testData": null,
+        "expectedResult": "After #1,<br>- Should show autocomplete list with default`@all, @channel, @here` only<br>After #2,<br>- Should show previously loaded at mentions",
+        "customFields": {
+          "Fix Versions": ["v1.33 Mobile (July 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-13076\">https://mattermost.atlassian.net/browse/MM-13076</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4cd13a0957b0119a6fa058e1263247938bb2f5c66d1e7565d441a77b6c8bad252abefb5d5a9979ff3a0464daaaf041a2",
+  "stepsHashed": "38b4ab6eb282f4c2e826abbe51ab26b1dffce901a14fb9ec423fd0d5da6edc3d99259dc5d7348c071741d99af3e99821"
+}

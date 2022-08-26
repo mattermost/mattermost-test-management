@@ -1,0 +1,55 @@
+{
+  "id": 6396882,
+  "key": "MM-T3206",
+  "name": "RN apps: Edit private channel",
+  "createdOn": "2020-07-30T21:04:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit private channel<br>————————————————————————————<ol><li>On a private channel where policy allows you to edit channel header etc., tap a channel name</li><li> Tap `Edit Channel`, verify Save button is dimmed until changes are made</li><li> Add text to the channel name</li><li> Type text in Purpose field</li><li> Type text in Header field and tap Return to get new line</li><li> Tap a second line of text</li><li>Tap Save</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Edit modal closes, channel info is displayed</li><li>The changes you made are displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5b64a5a6ae4d86cd3a6e71759fca197a622461259a622074d509404d0c6c6d65da8695d49574f7b6e63f08f87c73b648",
+  "stepsHashed": "dfac2271b22ce6b7dceb35b7c2bb51196ed0cd6ffefdeee86b82622fb98ad37277a2d45f225886cdd451094981821b2f"
+}

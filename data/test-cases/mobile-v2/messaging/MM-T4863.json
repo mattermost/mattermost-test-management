@@ -1,0 +1,68 @@
+{
+  "id": 24114883,
+  "key": "MM-T4863",
+  "name": "Mobile V2: Messaging - Follow and Unfollow Message",
+  "createdOn": "2022-06-16T23:18:48Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to follow/unfollow a message via post options</strong><br />--------------------<br />1. Open a channel screen and post a message<br />2. Verify message is posted<br />3. Open post options for message and tap on follow message option<br />4. Verify message is followed by user via post footer<br />5. Open post options for message and tap on unfollow message option<br />6. Verify message is not followed by user via post footer<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to unfollow a message via post footer</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, and tap on follow message option<br />2. Verify message is followed by user via post footer<br />3. Tap on following button via post footer<br />4. Verify message is not followed by user via post footer<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ee9e6dac8c5092f8b6c5672f9b3d35263f37dea36f236fe53e83364c0dbe66f260803e601a9301afcfba305bff9aed53",
+  "stepsHashed": "07f505a9c8aca36e7dafea68630fe29852a1417e0739bf342dad3126803ea21c9158898aeccfe8e752da2263e6e8a244"
+}

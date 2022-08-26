@@ -1,0 +1,55 @@
+{
+  "id": 9177713,
+  "key": "MM-T3855",
+  "name": "Settings Display Theme - Settings View",
+  "createdOn": "2021-02-24T11:18:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063031,
+    "name": "Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Settings"],
+    "fullPath": "channels/settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Settings -&gt; Display -&gt; Theme</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify each text in settings view",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9441bf05a96f6249fae89ab5b7b94487cdf972ea15e78bd89cc390a7604818818eadddd6e494f9c2a47780892109ad6b",
+  "stepsHashed": "ee1d32b7212be4e07fee152bba555f62a1b9f999f6d84ea17a3cd09ff5c970600d0717c01541f394f3c37238addb0b97"
+}

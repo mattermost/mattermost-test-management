@@ -1,0 +1,55 @@
+{
+  "id": 7467495,
+  "key": "MM-T3408",
+  "name": "Incoming Webhooks — new message indicator",
+  "createdOn": "2020-10-14T13:55:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming Webhooks — new message indicator<br>–––––––––––––––––––––––––<ol><li>Create a webhook.</li><li> Post some messages through it to a channel that's not currently open on your screen.</li><li>Open a channel.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>On the sidebar, channel is bolded indicating unread messages are present</li><li>New message indicator is present when the webhook owned by the logged in user posts to channel<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1602683279541-Screen+Shot+2020-10-14+at+9.47.17+AM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\"><strong><span style=\"color: rgb(184, 49, 47);\">Tip</span></strong>: Right-click any image to view a larger version in a new tab</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a16fb57ab8486ff8b224a9f68630efc90e8f50f817124f57c46d3f2a08f5c21af265c8d3c1e9c6a833e414f77d5615f4",
+  "stepsHashed": "8e3813855163944e7e357ad4d6d17435bd7a4834cea8c0380ee608d913063fd3dee7e0ef1387820576d7120f7561d6b9"
+}

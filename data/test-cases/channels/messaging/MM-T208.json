@@ -1,0 +1,55 @@
+{
+  "id": 3742417,
+  "key": "MM-T208",
+  "name": "Input box on main thread can expand with RHS open",
+  "createdOn": "2019-12-20T20:46:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Input box on main thread can expand with RHS open<br />--------------------<br />1. Open the reply thread for a post and return the focus to main input box<br />2. In center channel (with RHS open), type a post that is several lines long (can be done with SHIFT+ENTER blank newlines)<br />3. As the post becomes longer note the input box becomes taller to accomodate",
+        "testData": null,
+        "expectedResult": "Text box continues to expand for each new line until it reaches about 50%. The box then begins to scroll once its maximum height has been reached<br /><br />Note: <br />- If viewing the bottom of the channel when you start to type the post, recent posts above the message box move upward as the message box expands, so they are not covered<br />- If you are scrolled up in the center channel when you start to type the post, the message box expands over the posts (the posts do not move up)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "794da178404781e444277a0838d040d4dc724804d287b755ee2a6ea3bfbe8c2fe20e0d14bd15617d9ee97ed192dc04f9",
+  "stepsHashed": "a8af1e4fe7f2572c20d8b9f5dc00a7c6c2186d38b31ea910286d97339fc6697bee8aa9f6f16b816d5ec9b1872313846a"
+}

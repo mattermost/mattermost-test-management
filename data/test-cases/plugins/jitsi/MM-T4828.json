@@ -1,0 +1,55 @@
+{
+  "id": 22954595,
+  "key": "MM-T4828",
+  "name": "When naming scheme is set to `ask` user is prompted",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /jitsi settings naming_scheme uuid <br />2. Click the Jitsi icon from the channel header<br />3. Type /jitsi settings naming_scheme ask<br />4. Click the Jitsi icon from the channel header",
+        "testData": null,
+        "expectedResult": "On 2. A meeting is started with UUID as the naming convention<br />On 4. The user is shown a set of 4 options for what meeting name format to use",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f6ce08336f11c4db89f57f0eb07f74cc256c7ab0628501d86ec8d9032bef9323c353e70b7beb622a9dbfde336927d514",
+  "stepsHashed": "f4d940a736f62acb2a3cceefa030f41cc07c0cc6cc65323ee554aedd4c38c89f681ea2a66cb92b0a6d42146e7e722cfe"
+}

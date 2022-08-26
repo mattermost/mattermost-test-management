@@ -1,0 +1,55 @@
+{
+  "id": 5463453,
+  "key": "MM-T889",
+  "name": "RN apps: Channel sidebar - More unreads",
+  "createdOn": "2020-05-21T16:36:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.24 Mobile (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>With enough channels in the channel drawer to make it scrollable</strong>:<ol><li>Have another user post messages in channel(s) until you can scroll unread channels off the top of the screen</li><li>Scroll LHS down and observe \"⇡ More unreads\"<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1590079033250-Screen+Shot+2020-05-21+at+9.36.51+AM.png\" style=\"width: 212px;\" class=\"fr-fil fr-dib\"></li><li>Tap the indicator and observe it scrolls the channel list up</li><li>updated below:</li><li>Tap on the top unread channel, open the LHS and repeat steps 4 - 6 until all unread channels are now read and do it one more time selecting the first read channel in the list.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Tapping the indicator scrolls the channel list so unread channels are at the top</li><li>It should always take you to the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.24 Mobile (Oct 2019)", "v1.32 Mobile (June 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18997\" rel=\"noopener noreferrer\" target=\"_blank\">Mobile: More unreads overlay partially occlude’s the top most channel from user interaction. — MM-18997</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-22945\">https://mattermost.atlassian.net/browse/MM-22945</a>",
+          "Important notes about this step": "<span style=\"color: rgb(184, 49, 47);\">For RN apps, the \"more unreads below\" indicator was not implemented; just \"above\". (It is possible it will be implemented later with channel sidebar re-org)</span>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a022d36b5ef6e4a5921b8f6df1c21fec58e9cd32df40d0cfd57bc89623a75e96007480042a4cca1fc505e896984119be",
+  "stepsHashed": "9b3dcd141907d498c4abcf7627367f1c18a750bc26a1c076b321727a2360456c0a9a1054d2a91059793f05c610e08bad"
+}

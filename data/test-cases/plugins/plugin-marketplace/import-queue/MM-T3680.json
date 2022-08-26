@@ -1,0 +1,68 @@
+{
+  "id": 8570345,
+  "key": "MM-T3680",
+  "name": "BETA, COMMUNITY, and ENTERPRISE (E20) Plugin Labels Display Correctly",
+  "createdOn": "2021-01-13T22:21:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["5.34-p1"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda 20 Jun 2022: Adding to RF: MM-T1945 MM-T1946 MM-T3680 MM-T1947 System admin can view plugin marketplace<br /><br />Steve Mudie — Wednesday, September 30, 2020 12:51 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Cloud"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup a server and ensure the marketplace is enabled and URL is correctly configured<br />2. Apply an E20 License<br />3. Navigate to the user side and open the marketplace",
+        "testData": null,
+        "expectedResult": "E20 Server running with marketplace is setup<br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Locate the Jitsi plugin in the Marketplace<br />2. Locate the Matterpoll plugin in the Marketplace<br />3. Locate the MS Teams Meetings plugin in the Marketplace",
+        "testData": null,
+        "expectedResult": "1. Jitsi shows \"BETA\" label<br />2. Matterpoll shows \"COMMUNITY\" label<br />3. MS Teams Meetings shows \"ENTERPRISE AND CLOUD\" label",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6fb0032cce0e056a6e15111f8d05f453aea96cdce279da2f81ee617af2b1c95bac0a29b9449c72e9f1b2c2d7c2998272",
+  "stepsHashed": "7b999ffb902866fd363f451858ed669a0419305c368a78924a7227bae88c60849bc5cb2c9bcad5cce02a1e8e0b8cb78a"
+}

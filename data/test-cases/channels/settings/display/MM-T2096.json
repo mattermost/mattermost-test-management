@@ -1,0 +1,74 @@
+{
+  "id": 5444644,
+  "key": "MM-T2096",
+  "name": "Clock Display - Can switch from 12-hr to 24-hr",
+  "createdOn": "2020-05-20T05:50:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "account-settings"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "PR for Cypress Test - <a href=\"https://github.com/mattermost/mattermost-webapp/pull/5830\">https://github.com/mattermost/mattermost-webapp/pull/5830</a>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clock Display - 24<br />————————————————————————————<br />1. Go to  Settings -&gt; Display -&gt; Clock Display -&gt; Edit<br />2. Switch time to 24 hour clock<br />3. Save",
+        "testData": null,
+        "expectedResult": "Setting shows 24 hr clock.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "4. View a channel and find a message posted after 1pm",
+        "testData": null,
+        "expectedResult": "Message posted after 1pm shows timestamp in 24-hour format, e.g. 14:37",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3892cd8a02b7ffe3ffddece6c0a522e13ccf22dd80ca7a586a7e86e5ec7925f739777244bcac69764ceacaf1a660f7d4",
+  "stepsHashed": "8be2c8d4a317e9f656ec83b0e8b6764333745eb708f8cf45808889ad407a552c02b085423cfdcf8cb96a8084728a41a7"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5445594,
+  "key": "MM-T2286",
+  "name": "Clicking hashtag returns messages containing that hashtag in RHS",
+  "createdOn": "2020-05-20T06:50:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "search", "Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "(SA) Marked as Cloud-N/A due to \"/test\" command",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clicking hashtag returns messages containing that hashtag in RHS<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Assuming /test url test-search.md has been run<br />2. In center, click `#hello`",
+        "testData": null,
+        "expectedResult": "RHS displays test post, with `#hello` highlighted<br />(Se repeats this test for `#world` as well)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cffdc8e134b9d3ce94da504dec445efce1a235d5f967c744e3f483b92da08e52985c28024bd08ae149c4a3e3fd54ce77",
+  "stepsHashed": "7ee6e503788355273c177739c7d42ed97f7d20ffa22d8971dc9d5f561e616a1a5e2afe23d3fd738f2d64b25389ce37e6"
+}

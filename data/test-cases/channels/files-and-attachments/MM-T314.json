@@ -1,0 +1,55 @@
+{
+  "id": 7892780,
+  "key": "MM-T314",
+  "name": "RN apps: File preview gallery - Download and save a video to your device",
+  "createdOn": "2020-11-17T15:54:29Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Joseph Baylon - Tuesday, November 17, 2020<br />- Updated test steps",
+    "Rainforest": ["in Production", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to download and <strong>save</strong> <strong>video</strong> to your device<br>--------------------<br>1. Login and go to a channel that has a <strong>video</strong> posted (or post one)<br>2. Tap on video post<br>3. Tap on <strong>share button</strong><br>4. Attempt to <strong>save</strong> <strong>video</strong> to your device",
+        "testData": "",
+        "expectedResult": "After #2,<ul><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1605627811975-1605627811975.png\" class=\"fr-fic fr-dii\">Verify <strong>share button</strong> is available</li></ul><br>After #3,<ul><li>Verify an option to <strong>save video</strong> is available from your device share options</li></ul><br>After #4,<ul><li>Verify <strong>video</strong> is saved to your device</li></ul><br><strong>Note</strong>: Android share screen allows to save to an app like Google Drive. Saving directly to device may not be available.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f742405e130bf02b5aa8f858c9d8c153af49237088c741123e67f5d2994f540825bd2743a100b9337b30771e551d05c1",
+  "stepsHashed": "1a0831bef02942a50512b85fe6211bfd4665ebd4aa20fad2019638f5647d4891296ba959ffc7bf2321d8506149a7cde6"
+}

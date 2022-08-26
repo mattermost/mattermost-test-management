@@ -1,0 +1,55 @@
+{
+  "id": 2763407,
+  "key": "MM-T36",
+  "name": "MM-17355 — Channel header text flows on top of channel dropdown menu",
+  "createdOn": "2019-08-28T16:49:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Set a channel header</li><li>Click the dropdown next to channel name to open channel dropdown menu</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channel header text <strong>does not</strong> flow on top of channel dropdown menu</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17355\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17355</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c0eaa3539c70638655d52a11128447b5a6a9558fd26e20ceb17be41d84a243cdf594e0aa7b1f8605f17818b2ec82c13d",
+  "stepsHashed": "a36bb74c13a973abb1fb8685a71665d9b663113e3c65394b8c056c489d9b81a86ed2929392e638ab2faf77675fc236ee"
+}

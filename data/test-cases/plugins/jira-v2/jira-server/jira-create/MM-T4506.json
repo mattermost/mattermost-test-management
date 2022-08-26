@@ -1,0 +1,55 @@
+{
+  "id": 17674306,
+  "key": "MM-T4506",
+  "name": "Create is available in on main posts and reply post",
+  "createdOn": "2022-01-18T22:43:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure test user is connected to a Jira instance<br />2. Create or locate a post that is not a reply and select the post menu<br />3. Click the Create Jira Issue option <br />5. Create or locate a post that is a reply to a root post and select the post menu<br />6. Click the Create Jira Issue option",
+        "testData": null,
+        "expectedResult": "On 3. and 6. Create modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a38e1ecc290ef4949abf3b8bf4891fca5b041172041dfdfe44fabe6dd62b9df7fddd5907401058849e5ef3021ec6bfd5",
+  "stepsHashed": "480929cce255048a5fae77f36f19f6de33b9b49e8c3430af4afcebece3a87a3b04c96be40464baa30698876640c6e04d"
+}

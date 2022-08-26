@@ -1,0 +1,55 @@
+{
+  "id": 3904488,
+  "key": "MM-T434",
+  "name": "Drawer can be closed from team view by tapping out of it (in addition to swiping back out through channel drawer)",
+  "createdOn": "2020-01-03T14:24:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drawer can be closed from team view by tapping out of it (in addition to swiping back out through channel drawer)<br />--------------------<br />1. Login as a user who belongs to multiple teams<br />2. Open the channel drawer and swipe over to get the team list<br />3. Swipe the drawer back to channel drawer, then swipe the drawer closed<br />4. Re-open the drawer, observe channel list in drawer (not teams)<br />5. Swipe the drawer over to Team list<br />6. Close the drawer entirely by tapping outside the drawer on the right edge of the screen<br />7. Re-open the drawer",
+        "testData": "Fixed (Android 9): <a href=\"https://mattermost.atlassian.net/browse/MM-15543\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-15543</a>",
+        "expectedResult": "Channel list is displayed in the drawer (not teams)<br /><br />If testing on iPad, the channel drawer remains open (this is intended and expected)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "442454f0ca58c85aa84b7f728d37c9f62ed903f0f9522e7ab5c222ae913ece31ce9c9b51d6391aed632705b77ff93e2f",
+  "stepsHashed": "c101462a6d9eab7977db29a9ee8c03297bc2bb92835f64db93a273e630200ba7c83acdfdff8f735eaed15d390380ca55"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3969587,
+  "key": "MM-T687",
+  "name": "/msg",
+  "createdOn": "2020-01-08T17:47:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, February 16, 2021 9:58 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed No Automated Executions label<br>–––––––––––––––––––––––––<br>Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "/msg<br />--------------------<br />Test on user on multiple teams<br />1. Go to Town Square<br />2. Type /msg followed by a username and a message, then post",
+        "testData": null,
+        "expectedResult": "Direct Message channel opens with that user in the same browser tab, and no system message is posted to Town Square<br /><br />User is not switched to different team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f071fa8568590eb4910b168a3c10ef286a7050c439c19de9c259c79c53c49d0b0e794d28464b6964d1ce8986e713fd22",
+  "stepsHashed": "5944e6b205d7e3ba1532f730d3d9f0a2860aa3afe5037da656f50e578b049d5178514d66c58c2d294344aeb64843ebdb"
+}

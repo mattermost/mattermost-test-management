@@ -1,0 +1,55 @@
+{
+  "id": 4151524,
+  "key": "MM-T1364",
+  "name": "Guest User restriction to send a DM",
+  "createdOn": "2020-01-30T21:04:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as a Guest User who has access to only one team and one channel say Channel</li><li>Ensure that a User say User2 is part of same team but different channel say Channel2</li><li>On any chat window, type in the following text @user</li><li>@user2 text would be converted to a link. Click on the link and check if guest user is able to view the user's profile.</li><li>Click on Send Message in the profile popup and check if guest user is able to send a message to user</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Guest user should not be able to view User2's profile information.</li><li>Guest user should not be able to send a message to User2</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17217\">Guest Accounts: Guest User is able to initiate a Direct Message chat with a member who was removed from the channel — MM-17217</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6cafac22853f2847954d18c2b94ffc644aa70a94bcc26a3ab95ca92a5e88424dd207f8cd48a196f799db81ddd8168a23",
+  "stepsHashed": "69000d38d0e0a5ff5572af190dc68623d9b18e6d320fd260dd05a0bd0a546797ef3075c67c02b3a23180f81a798aaec4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17674319,
+  "key": "MM-T4519",
+  "name": "Default fields can be saved correctly",
+  "createdOn": "2022-01-18T22:43:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure the test user is connected to Jira instance and has permissions to create an issue in at least 2 project<br />2. Select the post menu<br />3. Click the Create Jira Issue option <br />4. Select the Project drop down and select a project from the list<br />5. Select a priority<br />6. Add a summary<br />7. Edit the description",
+        "testData": null,
+        "expectedResult": "- All fields can be saved successfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c6927e5b11cf0880eb5ebbafd3d23903f82712b87dcc249dd06dc201a913465f243722277b10b7776f75d596a8c7a49",
+  "stepsHashed": "f32f87a0559004195ad6b1f4afa1b4747adad80905e3b27535b99e9bdc84c4dbe4ad9e70aa52e502ab88622437e9e43d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8603070,
+  "key": "MM-T3720",
+  "name": "System admin permission to modify Admin Filter",
+  "createdOn": "2021-01-15T17:54:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<p data-pm-slice=\"1 1 []\">1. Assign Authentication write permission to the system_manager<br>2. Login as a user with role system_manager and navigate to System Console &gt; AD/LDAP Page.<br>3. Navigate to System Console &gt; SAML page</p><p data-pm-slice=\"1 1 []\">4. Perform step1 to step3 for Read only user.<br>&nbsp;</p>",
+        "testData": null,
+        "expectedResult": "2. &nbsp;Admin Filter options should be disabled<br><br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1610733119780-1610733119780.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\"><br>3. Admin Attributes options should be disabled<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1610733327382-1610733327382.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\"><br>4. Read only user should see Admin filter disabled as expected 2 and 3 above",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ba61d6f0f57eea4e49c49408c86d4fc2d2be1dfe9d9516616060d9176868e06c371a0e7beed1d9944db5349809b8893",
+  "stepsHashed": "ca048ec91d9ba8d366a075fad73d2a0329f08e12d9bec640b0c0936dccbdb6bc6b430385c2d06809dcb1a17db7497a22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 3905613,
+  "key": "MM-T545",
+  "name": "Words that trigger mentions - Deselect username",
+  "createdOn": "2020-01-03T19:25:53Z",
+  "objective": null,
+  "precondition": "Removed manual Edge test until MM-23894 is resolved.",
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "cy-prod",
+    "notifications"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["Unscheduled"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Friday, September 18, 2020 3:09 PM<br>• Added link to Cypress code<br>• Placed Status as Update until MM-23894 is fixed",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Words that trigger mentions - Deselect username<br>–––––––––––––––––––––––––<ol><li>Click the hamburger main menu</li><li>Select \"Account Settings\" then select \"Notifications\"</li><li>Click \"Edit\" to the right of \"Words that trigger mentions\"</li><li>De-select \"Your non-case sensitive username\"</li><li>Click \"Save\"</li><li>Use another account to post a message containing your username without the @</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Username does not highlight, and mention is not triggered</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Unscheduled"],
+          "Related ticket(s)": "(<span style=\"color: rgb(184, 49, 47);\">Unscheduled - backlog</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-23894\">Notifications(Edge): After turning off \"Words that trigger mentions - Deselect username\" - desktop notification still received — MM-23894</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e32ee8b1b82498cf5f4c81f0e43818146f5709fa9da34c6933b8563bca9345058f605415b564825c3d2fde0327cf9dbd",
+  "stepsHashed": "f99f203b6905117ccdbea085b5f792c8bfc29eec432e1b97c2e8b503ee5d5e4c774e3d131def8f5a817d1354042d26e4"
+}

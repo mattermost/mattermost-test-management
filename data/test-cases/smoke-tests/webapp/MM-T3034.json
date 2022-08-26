@@ -1,0 +1,55 @@
+{
+  "id": 6181463,
+  "key": "MM-T3034",
+  "name": "Delete a comment from RHS reply thread",
+  "createdOn": "2020-07-13T19:12:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Delete a comment from RHS reply thread<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. View a comment in the RHS that you sent<br />2. Click on [...] &gt; Delete in the RHS reply thread<br />3. Click Enter",
+        "testData": null,
+        "expectedResult": "- Comment disappears from center channel and RHS, &quot;(message deleted)&quot; does not display for deleter. <br />- (N/A for mobile apps:) On refresh. RHS closes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a19810c5211653405d2b707b3c2c993e55c64802d26005f45aa4bbe7f49ef02f38f2ae6fef97d48b774c05c49fd57511",
+  "stepsHashed": "9aee4299e9ea23dded477d380f26fd98a14e3f1fe49febd6400bed2da71f483fbc2368fd28e5d45ba16457a14ed6fde4"
+}

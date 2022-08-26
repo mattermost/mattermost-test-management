@@ -1,0 +1,55 @@
+{
+  "id": 5936759,
+  "key": "MM-T563",
+  "name": "New message bar - Reply posted while scrolled up in same channel",
+  "createdOn": "2020-06-24T21:30:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["Open"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, December 29, 2020 8:52 AM<br>• Added link to Cypress code<br>–––––––––––––––––––––––––<br>Joseph Baylon - Friday, November 6, 2020<br>- Removed from manual pool<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 30, 2020 2:54 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "New message bar - Reply posted while scrolled up in same channel<br>–––––––––––––––––––––––––<ol><li>User A: Scroll up in the center panel in any channel</li><li>User A: Scroll down to bottom of channel list so that the current channel is out of sight above the top of the LHS list</li><li>User B: In the same channel as User A, click the reply arrow for one of the messages and post a comment in the right-hand side</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User A: \"↓ Jump to new messages\" indicator appears at top of center panel<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1588564302605-Screen+Shot+2020-05-03+at+8.51.17+PM.png\" style=\"width: 394px;\" class=\"fr-fil fr-dib\"></li></ul>",
+        "customFields": {
+          "Fix Versions": ["Open"],
+          "Related ticket(s)": "<table><tbody><tr title=\"\"><td>(<span style=\"color: rgb(184, 49, 47);\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-26427\">Missing 'More Unreads' indicator on LHS when new message posted — MM-26427</a></td></tr></tbody></table>",
+          "Important notes about this step": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: You <em>will not</em> see a \"More Unreads ↑\" indicator appears at top of channel list on LHS for User A. <a href=\"https://mattermost.atlassian.net/browse/MM-26427\">See MM-26427 for more information</a>.<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1588354875621-1588354875621.png\" class=\"fr-fic fr-dii\"><br>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "001c0f213559e29677898a26cd520164036156569cf950c322416551df66d3136c4466f300477e41c2bc442b5639e546",
+  "stepsHashed": "aa10c2edfbcf435c60e6b8414815ea899ed09b40fb70057ec2c51bbd99bd571380db64c1edf4bdcdb4cbdae26f922def"
+}

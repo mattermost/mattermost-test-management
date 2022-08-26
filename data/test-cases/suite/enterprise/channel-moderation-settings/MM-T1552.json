@@ -1,0 +1,55 @@
+{
+  "id": 4712183,
+  "key": "MM-T1552",
+  "name": "Channel Mentions option for Members",
+  "createdOn": "2020-03-03T12:43:37Z",
+  "objective": "Channel Mentions option for Members",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Member user should not have the permission to use special channel mentions<br />–––––––––––––––––––––––––<ol style=\"list-style-type:lower-alpha\"><li>Login as an admin and go to System Console ➜ User Management ➜ Channels and click on a channel.</li><li>Uncheck the Channel Mentions option for Members and save.</li><li>Note: The option to use Channel Mentions for Guests should still be allowed.</li><li>Login as a Regular Member and visit the same channel.</li></ol><br />2. Member user should have the permission to use special channel mentions<br />–––––––––––––––––––––––––<ol style=\"list-style-type:lower-alpha\"><li>Check if the user has the permission to use special channel mentions like @all, @channel, @here in the channel.</li><li>As a sysadmin, check the option to allow Channel Mentions for Members and save.</li><li>Check if the user has the permission to use special channel mentions like @all, @channel, @here in the channel.</li></ol><br />",
+        "testData": null,
+        "expectedResult": "<ol><li>Member user should not have the permission to use special channel mentions like @all, @channel, @here in the channel when the option is removed.</li><li>Member user should have the permission to use special channel mentions like @all, @channel, @here in the channel when the option is allowed.</li></ol>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(147, 101, 184)\">Epic</span></strong>) Channel Moderation Settings</li><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) Add E2E tests + Unit tests for Channel Moderation Widget</li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af564c2dc0ec922a4f4fa609edb7a1a305fe63aaa32acd902109733a86d7b0c462dadbb6bf63907f661bae2a964c892d",
+  "stepsHashed": "e75970f8a2bae84dfdc2b53ffcb149ec78898780b489bc67d50ddb801ef707366b730f3c00b1c07441fc843e4c266908"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3906167,
+  "key": "MM-T572",
+  "name": "Copy icon for Slash Command",
+  "createdOn": "2020-01-04T02:25:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.4 (October 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Copy icon for Slash Command<br>–––––––––––––––––––––––––<ol><li>Main Menu ➜ Integrations ➜ Slash Commands ➜ Add Slash Command</li><li>For this test purpose, fill in \"Title\", a \"trigger word\" and a \"request URL\" with some test data</li><li>Scroll down and click \"Save\"</li><li>Click \"Done\" in the \"Setup Successful\" screen</li><li>On the \"Slash Commands\" screen, locate the slash command you've just created</li></ol>",
+        "testData": "",
+        "expectedResult": "On 3, you should see a \"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1583242464167-1583242464167.png\" class=\"fr-fic fr-dii\">to the right of the token in the \"Setup Successful\" screen.<br>On 5, you should see a \"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1583242474274-1583242474274.png\" class=\"fr-fic fr-dii\"> to the right of the slash command's token",
+        "customFields": {
+          "Fix Versions": ["v5.4 (October 2018)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-12164\">Add copy buttons to integration setup and list screens — MM-12164</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b9a9d3969d478e7d58428b9e237807f9d9b45b12d77465592d11e101b837264c1294f5a5d9300f1d10be9da0475f5275",
+  "stepsHashed": "a703ea8f852ed2e477ee02aa211b6d5830bc10941f4a1de1d5eb4e88c18f8413154ee9eaf18ec03ee09d614acc0b2d29"
+}

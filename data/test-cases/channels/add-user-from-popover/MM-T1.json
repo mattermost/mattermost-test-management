@@ -1,0 +1,55 @@
+{
+  "id": 5618902,
+  "key": "MM-T1",
+  "name": "Add User — System Admin only",
+  "createdOn": "2020-06-03T07:26:59Z",
+  "objective": "<strong>Original test name from testing spreadsheet → </strong>Only the System Admin sees the option to add a user to a channel on the profile pop-up if permissions to manage private and public channels is switched off for All members, Team and Channel Admins",
+  "precondition": "<br><br>",
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 399627,
+    "name": "Add user from popover",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Add user from popover"],
+    "fullPath": "channels/add-user-from-popover"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Add user to channel from popover"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as a System Admin and navigate to User Management → Permissions → Edit Scheme</li><li><strong>Uncheck</strong> \"Manage Public Channels\" and \"Manage Private Channels\" in the All Members section at the top</li><li>Logout then login as a <a href=\"https://docs.mattermost.com/help/getting-started/managing-members.html#member\"><strong>member</strong></a> to the same serve. Click the name of any user in a public or private channel.</li><li>Login as a System Admin and change/ensure that the Manage Public/Private Channels setting under the Team Administrators section is *disabled*.<ol style=\"list-style-type: lower-alpha;\"><li>Login as a <a href=\"https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin\"><strong>channel admin</strong></a> to the same server</li><li>Click the name of any user in a public or private channel</li></ol></li><li>Login as a System Admin and change/ensure that &nbsp;the Manage Public/Private Channels setting under the Team Administrators section is *disabled*.<ol style=\"list-style-type: lower-alpha;\"><li>Login as a <a href=\"https://docs.mattermost.com/help/getting-started/managing-members.html#team-admin\"><strong>team</strong><strong>&nbsp;admin</strong></a> to the same server</li><li>Click the name of any user in a public or private channel</li></ol></li><li>Login as a <a href=\"https://docs.mattermost.com/help/getting-started/managing-members.html#system-admin\"><strong>system</strong><strong>&nbsp;admin</strong></a> to the same server and click the name of any user in a public or private channel</li></ol>",
+        "testData": "<br><br>",
+        "expectedResult": "<ol><li>System Scheme settings appear</li><li>\"Manage Public Channels\" and \"Manage Private Channels\" boxes and all sub-settings under them are <strong>unchecked/disabled</strong></li><li>You should NOT see the option to add a user to a channel in the profile pop-up</li><li>You should NOT see the option to add a user to a channel in the profile pop-up</li><li>You should NOT see the option to add a user to a channel in the profile pop-up</li><li>You <strong>should</strong> see the option to add a user to a channel in the profile pop-up</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bd804b27ae7a55917b2f726d74b900943a02675e14146827d18c2bc840efb3162a4e534e803ecb7e3de68d27425e5aca",
+  "stepsHashed": "6265f0609db7bcd82058ec73fd7e41c53604026335fd0111f3a8ec01f0509a7bb6866bc7897c182abfda88ffacb3cbc0"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 13721687,
+  "key": "MM-T4241",
+  "name": "Create issues modal shows no options to add labels and milestones.",
+  "createdOn": "2021-08-30T15:45:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to GitHub as a user in an Enterprise group with Read permissions  <br />2. Open the GitHub create modal for a Mattermost post<br />3. Select the repo from the Enterprise Org where you have Read permissions",
+        "testData": null,
+        "expectedResult": "When repo is selected, Milestones and Labels options are not shown in modal as the connected user's permissions do not include adding labels or milestones",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "806e4e883105e66dbb6b9dad232f37ab2137259106dcb9c29387e43a1df93f6b9987f10f27e652ab07675bff3f2dffb5",
+  "stepsHashed": "4acb42555ffe9ddab160ffc624a73078c49a9aa153b2af446561e991290c3b6622314b4442335677cbed534e8539f2ac"
+}

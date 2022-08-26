@@ -1,0 +1,55 @@
+{
+  "id": 18864938,
+  "key": "MM-T4668",
+  "name": "User Groups Modal-Join Group",
+  "createdOn": "2022-03-02T19:42:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as UserA</p></li><li><p>Create custom group GroupA</p></li><li><p>Click Product Switcher Menu </p></li><li><p>Click User Groups option</p></li><li><p>Select GroupA</p></li><li><p>Click 3 dots menu icon next to Add People button</p></li><li><p>Click Join-Group</p></li></ol>",
+        "testData": null,
+        "expectedResult": "<p>7. Group should be joined</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6d6c1323dccc353a84f3eda8dc8b5c991290ded62e1a1dc134c11480454bc0395b0ff7176b9ffaa3f03d49f0670f80eb",
+  "stepsHashed": "917198316a2631bb8dd5f4a74af1c5e1c5408657b8f76ce2898675377a475515d38b49bcd06b1f48fab19cac8f597bf3"
+}

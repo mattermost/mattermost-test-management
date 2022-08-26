@@ -1,0 +1,55 @@
+{
+  "id": 4058919,
+  "key": "MM-T1189",
+  "name": "Custom Terms of Service - Update text, it resets and requires agreeing again",
+  "createdOn": "2020-01-22T19:26:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569417,
+    "name": "Custom Terms of Service",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
+    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom Terms of Service - Update text, it resets and requires agreeing again<br />--------------------<br />System admin update TOS text and save",
+        "testData": null,
+        "expectedResult": "TOS page returns and must be agreed to<br /><br />Then system admin sees the TOS System Console page they were viewing before",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "22b24662b4c526e6d69e71726f53c34f66aa0eb95019609c68720b06cc46b498fabe8e48a76624d4d3644840ef78d4ab",
+  "stepsHashed": "673536ab8c7404b8459b431d4b810e5958e6ea0daca0ee05d4dd73220cd935dba2e3a503d66f858e381c0aa1b73f96f0"
+}

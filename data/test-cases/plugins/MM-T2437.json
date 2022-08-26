@@ -1,0 +1,55 @@
+{
+  "id": 5477858,
+  "key": "MM-T2437",
+  "name": "?? Should this be something about walltime instead of markdown preview?\n\nMarkdown preview is working as expected",
+  "createdOn": "2020-05-22T11:15:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "?? Should this be something about walltime instead of markdown preview?<br><br>Markdown preview is working as expected<br>————————————————————————————<ol><li>Login to community-daily.mattermost.com (or another server that also has walltime enabled.</li><li> Post in markdown in the comment of this cell</li><li>&nbsp;Select preview near the lower right of the input box</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Markdown text is displayed properly and no freezing or craching occurs in the app</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "abc42c95d42660e20644cc45693f9aac15b0651230b7a0f89bb0ce7afa495f13c0a842299d253e76a990ce96fe3d1fa1",
+  "stepsHashed": "b330f443aac894d3469da2d3c395d57b8569bf7da6ae4af681b9a8fb679285939e05f78fc0ee463facb695bf1079ae56"
+}

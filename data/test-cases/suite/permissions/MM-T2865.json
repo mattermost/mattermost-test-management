@@ -1,0 +1,55 @@
+{
+  "id": 5659415,
+  "key": "MM-T2865",
+  "name": "Edit post time limit can be modified from an override scheme",
+  "createdOn": "2020-06-04T18:02:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit post time limit can be modified from an override scheme<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As an admin user, open the console<br />2. Navigate to Permission Schemes and click Edit on any override scheme<br />3. For Edit Posts, click button to set the time limit and change the value<br />4. Click Save Edit Time<br />5. Go back and open another override scheme or the system scheme",
+        "testData": null,
+        "expectedResult": "Changes to edit time are reflected across all other schemes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5b462b6d20041f08f476e27c91ad49c3284578e686898bbcd05a4122710d8ef5b7805528c758180885ba16015b58f54c",
+  "stepsHashed": "ed7fd9d4e2068f511393fb54572e5e87cf7deb86e2887ff1f94538cc614ec359197fa12a70bebf6e1b7a8f7c5e472ac0"
+}

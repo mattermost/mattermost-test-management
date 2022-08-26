@@ -1,0 +1,55 @@
+{
+  "id": 5602294,
+  "key": "MM-T2765",
+  "name": "Cannot group-constrain channel that is not linked to a group",
+  "createdOn": "2020-06-01T22:09:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Linda 16 Mar 2021: Updated to P4 because this is the old command line tool rather than the UI. Not archiving yet in case the test scenario is useful to keep in the list overall.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Cannot group-constrain channel that is not linked to a group<br>————————————————————————————<ol><li>Try to run group channel enable on a private channel that is not linked to an LDAP group</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Output: Error: Channel 'open-team:add-a-bot' has no groups associated. It cannot be group-constrained\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "62c150788e00b91665e7155587d453a5f63ce2fa12bbe535a9c3e536c5c78ea73401c8c9607e87300a395c29ca621a77",
+  "stepsHashed": "43e09427421399965630842513dffdf75a4c492236501dcdc7b40cd0b83b601cc08ec0285a8e68839540f11676eeebcb"
+}

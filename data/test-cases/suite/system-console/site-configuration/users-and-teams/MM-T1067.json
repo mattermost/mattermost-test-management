@@ -1,0 +1,55 @@
+{
+  "id": 4058077,
+  "key": "MM-T1067",
+  "name": "Teammate Name Display: at-mention in message draft",
+  "createdOn": "2020-01-22T16:25:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: at-mention in message draft<br />--------------------<br />Test with each different setting (included in Se tests)<br /><br />1. Type @ and the beginning of a user's Se-IDEntifier (nickname, first/last, etc.) in message (or reply) box<br />2. Click autocomplete suggestion for the user you want to mention",
+        "testData": null,
+        "expectedResult": "In message draft, autocomplete resolves to `@username`, regardless of teammate name display setting",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "57183179801aaf751f4ce2225124e699cf96256d05f3254f543d1cb15ac96db39cfc5decd2fac838bc173ff8e7b20559",
+  "stepsHashed": "e1be78b02ee94963aaad34a19a3d73100ac84cc1ddb73de4b31011309197335167c38419bd75a0fbe7b35cc1d48b2456"
+}

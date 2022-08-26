@@ -1,0 +1,55 @@
+{
+  "id": 3904496,
+  "key": "MM-T442",
+  "name": "RN apps: DM More... Full name / nickname displayed on line below username",
+  "createdOn": "2020-01-03T14:24:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps - DM More... <br />Full name / nickname displayed on line below username<br />--------------------<br />Before testing this, log in on a browser and ensure your test account has Account Settings &gt; Display &gt; Teammate Name Display set to `Show nickname if one exists, otherwise show first and last name`<br /><br />1. Tap `+` next to Direct Messages<br />2. Tap in the &quot;Search&quot; box and type the first few letters of a test account you know has a first/last name set in their Account Settings",
+        "testData": null,
+        "expectedResult": "After 2) you should see a filtered list of results with the first/last name displayed on the line below the username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b80cc463a8ff036d8e2405e86321da3a42c458ab5106cced6505807f7cd6ab3d1bf36e94caa04260f3d3720d0e60d662",
+  "stepsHashed": "501c28d9c4475e3516fe0dbf3b0eac3299f5b94b2d4248515bbd632c0be91aa7d42723fd36b705b9212fbb082093022f"
+}

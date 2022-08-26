@@ -1,0 +1,55 @@
+{
+  "id": 15741897,
+  "key": "MM-T4314",
+  "name": "Permalink Preview - Share-Hover",
+  "createdOn": "2021-10-27T19:24:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1879390,
+    "name": "Permalink Preview",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create Public <strong>ChannelA</strong> and <strong>ChannelB</strong> and add users <strong>UserA in <strong>C</strong>hannelA </strong>and <strong>UsersB in </strong><strong><strong>C</strong>hannelB</strong></li><li>In <strong>ChannelA</strong>, Create a post message</li><li>Hover a message</li></ol>",
+        "testData": null,
+        "expectedResult": "3. “Share message” tooltip should be displayed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e6c185197ac83340b996bdccbfa681547431b277c0a452ac990debc086f24178c58f4ad32a56d1af4751c45156c1a6a8",
+  "stepsHashed": "9cb3df0f24fda7fba1cc291465365a8f42a482197525cd9189a97978288cd0883951334b03171dae3c847c6dd08f1aeb"
+}

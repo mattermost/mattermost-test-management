@@ -1,0 +1,55 @@
+{
+  "id": 17671912,
+  "key": "MM-T4487",
+  "name": "/jira view - user does not have permission to view the issue",
+  "createdOn": "2022-01-18T18:26:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118539,
+    "name": "Jira View",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login and connect as a user that does not have browse permissions on a target project<br />2. Type &quot;/jira view &lt; Jira issue key &gt;&quot; For an issue in the target project",
+        "testData": null,
+        "expectedResult": "Ephemeral post shows that the issue cannot be found or you do not have permission",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8dbfd17a8b2f7b0375c3eaa1403eeee13a2564c30e0d5b796949534e8707bbe9741a3bdd35e7e9f2cf7e0ced78c7306a",
+  "stepsHashed": "73c67c4a50f2c5742d620d7d88299c587c9298237c1e2c3d266d769298cca69be8f1d6221fb18dd78fb7643725092a99"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 22954601,
+  "key": "MM-T4834",
+  "name": "Slash command /jitsi",
+  "createdOn": "2022-05-26T15:32:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Type /jitsi",
+        "testData": null,
+        "expectedResult": "Create a new meeting",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "03208149439b6d11826442c87bc895c0f3bac1f4b6a6f4fee36c3aa847262ad769f6d62b5d62f914355ab21863a60866",
+  "stepsHashed": "798f845d9116713ea5ab49333714823daa1260614f54e04a1c27f1f39f9faef2bb149f44d98af30048d2bbc08476e474"
+}

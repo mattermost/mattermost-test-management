@@ -1,0 +1,55 @@
+{
+  "id": 5445394,
+  "key": "MM-T2272",
+  "name": "File Previewer: Public Link",
+  "createdOn": "2020-05-20T06:43:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "File Previewer: Public Link<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Ensure System Console &gt; Security &gt; &quot;Share Public File Link&quot; = true<br />2. Open a file or image preview<br />3. Ensure pop-up blocker is off<br />4. Click &quot;Get Public Link&quot;<br />5. Click &quot;Copy&quot; if available, or copy the link by hand<br />6. Paste the link into a new tab (or post as message)",
+        "testData": null,
+        "expectedResult": "When the link loads, the file should display in the browser if on mobile, or download the file if not on mobile.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9457ced65f9392f9e74b34b2c75aa063b02060d4f321f49b46d712a1764913c8fe1c5f7cb5a141c62791ff6c9df5ceab",
+  "stepsHashed": "dc78bddc121433707b0437927498491849e176368071f92fd3550b5305ae8d48404c0392bc69f0df21369f3298f4b156"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 13721370,
+  "key": "MM-T4184",
+  "name": "/github todo",
+  "createdOn": "2021-08-30T15:24:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/github todo&quot;",
+        "testData": null,
+        "expectedResult": "Posts an ephemeral message with a list of to do items to work on  <br />(Only for the organization the plugin is locked to if locked)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5041ab912dba8c28f4d61ca8de7bcd32eac67dfea0148c8fdafef701615f5f60396b5d49340a5159a000734c6b80ed4a",
+  "stepsHashed": "d77b990c51bf9655a343a6f9585c31d14af5b5adc35ea45e92ad3e9a95f75327fe8c9b737714543077eec43c39230715"
+}

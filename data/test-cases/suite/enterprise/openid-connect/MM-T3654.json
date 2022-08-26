@@ -1,0 +1,55 @@
+{
+  "id": 8199082,
+  "key": "MM-T3654",
+  "name": "OpenID Connect select provider list",
+  "createdOn": "2020-12-14T18:07:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1052242,
+    "name": "OpenId Connect",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
+    "fullPath": "suite/enterprise/openid-connect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as Admin.</li><li>Go to System Console.</li><li>Click <strong>OpenID Connect</strong></li><li>Select <strong>Gitlab</strong> from the Drop Down List and Click <strong>Save</strong></li><li>Select <strong>Google Apps</strong> from the Drop Down List and Click <strong>Save</strong></li><li>Select <strong>Office 365</strong> from the Drop Down List and Click <strong>Save</strong></li><li>Select <strong>OpenID Connect (other)</strong> from the Drop Down List and Click <strong>Save</strong></li><li>Select <strong>Do not allow sign-in via an OpenID provider.&nbsp;</strong>from drop down</li><li>Click <strong>Save</strong></li></ol>",
+        "testData": "",
+        "expectedResult": "4. <strong>Gitlab</strong> Setting should be save successfully<br>5. <strong>Google Apps</strong> Setting should be save successfully<br>6. <strong>Office 365</strong> Setting should be save successfully<br>7. <strong>OpenID Connect</strong> Setting should be save successfully <br>8. <strong>Do not allow ...&nbsp;</strong>setting should be save successfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9d6ad85187e2a5b8da10c62227c94e5649424b8ad3e9bccce9a9aa02f5c1f82723d52248b1dcce3bd3c018067851ea4a",
+  "stepsHashed": "5031d310fa10dca2e351fe69f0e0c557c9907bcf6d5d89c82c3c1b49b9a54169738269ad243771b3788b7106af40e3f7"
+}

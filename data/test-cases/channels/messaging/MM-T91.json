@@ -1,0 +1,55 @@
+{
+  "id": 3741722,
+  "key": "MM-T91",
+  "name": "Replying to an older post by a user that has no content (only file attachments)",
+  "createdOn": "2019-12-20T16:32:59Z",
+  "objective": null,
+  "precondition": "<strong>**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)**</strong>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, September 22, 2020 3:10 PM<br>• Removed from manual testing",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Replying to an older post by a user that has no content (only file attachments)<br>--------------------<br>**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)**<br><br>1. On a post that has only file attachments, that is at least one day old (and has had subsequent messages posted after it in the channel),<br>2. Click \"reply\" from [...] menu to reply to a message<br>3. In right hand sidebar, make a reply post<br>4. Send and verify reply appears<br>5. Close the RHS / go back to center channel view",
+        "testData": null,
+        "expectedResult": "After 5) You should see &quot;Commented on [user]&sbquo;&Auml;&ocirc;s message: [File name 1] plus 1 other file&quot; on the line below your username on the post showing at the bottom of the center panel<br /><br />NOTE: If the post you replied to had only ONE file attached, the &quot;plus 1 other file&quot; part of the &quot;commented on...&quot; line will not show",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "17c13cf72b95fd1c8babcf00eb98c4dd540c7af330771519d302995c1cc9f77651c95b8a7d4313e36889127493143004",
+  "stepsHashed": "13804368b0237a1c4afa1c939f2fb03eba120655e31068cee4189bcf41c2e7e11b6f6ca1f9dfc020ba737cd90520b27e"
+}

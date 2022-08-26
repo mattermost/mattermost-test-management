@@ -1,0 +1,55 @@
+{
+  "id": 22954600,
+  "key": "MM-T4833",
+  "name": "Embedded `false` works as expected on Desktop app",
+  "createdOn": "2022-05-26T15:32:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login to mattermost as a sysadmin from the <br />2. In the ssystem console set Embed Jitsi video inside Mattermost to True<br />3. Type /jitsi settings embedded false <br />4. Launch a jistsi meeting",
+        "testData": null,
+        "expectedResult": "When the user clicks the link, the meeting is lauched in a new browser tab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7dce1513860ad6dc14aadf7ae1463d9de47f720a2e98841fe441e1960659b5c644f721c30945666cadd1ed801d6cbad3",
+  "stepsHashed": "022aea05ea4128c6bcb0ea7cabc4bab2d09bc156f0e73e6c3e6eb17055b5a689ec8b6ab8be48b99d340ebc7f9406d1c0"
+}

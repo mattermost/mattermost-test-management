@@ -1,0 +1,55 @@
+{
+  "id": 5255179,
+  "key": "MM-T1786",
+  "name": "Dismissing the toast using Jump to",
+  "createdOn": "2020-04-30T14:44:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 748017,
+    "name": "Toast",
+    "parentId": 404296,
+    "fullNames": ["Suite", "Notifications", "Toast"],
+    "fullPath": "suite/notifications/toast"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)", "Open"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, February 15, 2021 3:18 PM<br />• Cypress Automation working as expected 🎉<br />–––––––––––––––––––––––––<br />Steve Mudie — Wednesday, September 30, 2020 12:08 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Dismissing the toast using Jump to<br>–––––––––––––––––––––––––<br><ol><li>Navigate to an unread channel with New Messages toast</li><li>Click on Jump to Recents (or anywhere on the toast, excluding x area)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>As user clicks on \"jump to\", the entire toast clears before the user hits the bottom of the channel, smooth transition to fade of the toast before/at the time the user hits the bottom of the channel.</li><li>No delay when a user hits the bottom of the screen</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)", "Open"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-219333\">Fix the toast banner timeouts — MM-21933</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-25825\">Safari: As user clicks on \"jump to\", the entire toast does not jump at the bottom on the second time — MM-25825</a></li></ul>",
+          "Important notes about this step": "Cypress note: the automated test in Cypress needs to moved to the correct folder."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5920d8d32740a25eed2908bff7b68e292467ed9c79d0fa099e45838261611a39f0407506bcb86401d7302d29798ba231",
+  "stepsHashed": "12181f3afbd4f15f031de6061b348eec4ba41bd57c0c517fac937dd71bb1e6d1a98db3d0d3d1315b6c30da417e0cdff4"
+}

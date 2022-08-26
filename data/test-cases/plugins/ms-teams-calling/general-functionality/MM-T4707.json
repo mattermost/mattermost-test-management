@@ -1,0 +1,55 @@
+{
+  "id": 19703648,
+  "key": "MM-T4707",
+  "name": "Clicking MS Teams button will automatically open new browser tab",
+  "createdOn": "2022-03-23T16:18:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Launch a MS Teams meeting using the header icon",
+        "testData": null,
+        "expectedResult": "- MS Teams plugin makes a post in the target channel<br />- Without having to click the &quot;Join Meeting&quot; button, a new browser tab will open and prompt the user to launch the meeting (On desktop a browser window will open)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ae3b094d2a08d0ebf703cea523a2ba787b2b997ae0ef2b9868ad6e1fb4ebd3223d1988c42f60e7d26b3973ef3b0b5a3f",
+  "stepsHashed": "5917e804f4b6a4b3d2c1ca2b253c3c7fe7998751bfdff87b2c654e91bfb142604b2f11b01dbecb5e2e7b2ac3a50023a5"
+}

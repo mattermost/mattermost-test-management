@@ -1,0 +1,55 @@
+{
+  "id": 15984366,
+  "key": "MM-T4352",
+  "name": "/bitbucket subscribe - private repo",
+  "createdOn": "2021-11-04T17:43:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915243,
+    "name": "Subscriptions",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/bitbucket subscribe mattermost/mattermost-platform-private&quot;",
+        "testData": null,
+        "expectedResult": "Receive an ephemeral message saying you cannot connect to that repository<br />Unknown repository mattermost/mattermost-platform-private",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4983554f6ceff53adbc830b83380cc1b055394cab4297ccb24e3d51bd41cd4635113b67e88e4747946503e77e16d5629",
+  "stepsHashed": "7c355c7e3527098483aab4ef0c9ca9f99aa5c121daa17976b81b8990c37b3fd6f242e047e1c4ebf900570e855dc28be9"
+}

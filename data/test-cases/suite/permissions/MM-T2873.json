@@ -1,0 +1,55 @@
+{
+  "id": 5659423,
+  "key": "MM-T2873",
+  "name": "Member cannot update the public channel Name, Header and Purpose",
+  "createdOn": "2020-06-04T18:02:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member cannot update the public channel Name, Header and Purpose<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a public channel<br />2. Click the down arrow next to the channel header to see channel options<br />3. Note there are no options to edit channel details",
+        "testData": null,
+        "expectedResult": "Edit Channel Header, Edit Channel Purpose and Rename Channel are not available",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "944b7c959014faf1bc1c7a404e05d11b8f644d38e9206ec0a17669e2b8665747dfc10927a303841c29941ed948e1f4ab",
+  "stepsHashed": "fc20c131652c671fe246cbf406dc71fa26638f0701bf71e98ea4b3f2d38840c1196c414c9a8682b02f2f967ff6ee4d87"
+}

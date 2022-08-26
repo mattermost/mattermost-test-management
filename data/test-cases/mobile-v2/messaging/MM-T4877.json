@@ -1,0 +1,68 @@
+{
+  "id": 24534268,
+  "key": "MM-T4877",
+  "name": "Mobile V2: Messaging - Channel Link",
+  "createdOn": "2022-06-24T02:09:59Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to open joined channel by tapping on channel link from main channel</strong><br />--------------------<br />1. Open a channel screen and post a channel link to target channel<br />2. Tap on channel link<br />3. Verify redirected to target channel<br />4. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to open joined channel by tapping on channel link from reply thread</strong><br />--------------------<br />1. Open a channel screen, post a channel link to target channel, tap on post to open reply thread, and tap on channel link<br />2. Verify redirected to target channel<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a462eddb299a757deb438b7f9169cc8d23382aa3105b38904d3c66e5f776ed483b6a155398dd36b1398a962b43659498",
+  "stepsHashed": "557caaf6caf8db2b540988e063c45356882c933c84eda50c9e12d042010a056474c45c0eb7a07fdb6ef415398eff0719"
+}

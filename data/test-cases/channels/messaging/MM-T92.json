@@ -1,0 +1,55 @@
+{
+  "id": 3741723,
+  "key": "MM-T92",
+  "name": "Replying to an older bot post that has some attachment pretext before the message attachment",
+  "createdOn": "2019-12-20T16:32:59Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Test on</span>&nbsp;</strong><a href=\"https://community-release.mattermost.com/\"><strong>community-release.mattermost.com</strong></a>",
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, January 20, 2021 5:11 PM<br>• Added link to E2E file",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Replying to an older bot post that has some attachment pretext before the message attachment<br>–––––––––––––––––––––––––<br><span style=\"color: rgb(184, 49, 47);\">Test this on community-release.mattermost.com</span><ol><li>Find a Jira Bot post in ~Bugs channel, that is at least one day old (and has had subsequent messages posted after it in the channel),</li><li> Click \"reply\" from [...] menu to reply to a message</li><li> In right hand sidebar, make a reply post</li><li> Send and verify reply appears (non-RN apps will see comment with shaded background)</li><li>Close the RHS / go back to center channel view</li></ol>",
+        "testData": "Test on community-release.mattermost.com",
+        "expectedResult": "<ul><li>You should see \"Commented on [bot] \"message: Attachment pretext\" on the line below your username on the post showing at the bottom of the center channel<br>e.g. \"Commented on Jira's message: [username] created Bug MM-XXXXX\"</li></ul><br><strong><em>When you're done testing, please delete your test post</em></strong>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dace27cc1bf7c743be598efa9a77aebc809e4259fd97484aeaa6ec0ec4df8fc964beb4d62a9dcda17429b25e2325b8f8",
+  "stepsHashed": "bae93ec41bb79d70033528891688a63462d0d2150f86825b936a900a977ecdbc5f3253916b65d312e576bacef10caf92"
+}

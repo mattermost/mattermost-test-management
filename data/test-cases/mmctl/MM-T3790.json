@@ -1,0 +1,55 @@
+{
+  "id": 8647340,
+  "key": "MM-T3790",
+  "name": "User - Delete All : as system admin through the port API should not work",
+  "createdOn": "2021-01-20T10:45:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "(Not connected via local mode)<br>mmctl user deleteall",
+        "testData": null,
+        "expectedResult": "Command will fail&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3d422093eb7667208d720c37ed90b10719be7389a59132e505e762c42bcb76a5dd91cfc8231d2806e497712507808685",
+  "stepsHashed": "537a7fa5fbdb6101f06e6a6475c1dd9d758a2212db2c5d33edaa85800b57e5fff6aea5f7c42147a3c2516adab16f6b9f"
+}

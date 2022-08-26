@@ -1,0 +1,81 @@
+{
+  "id": 4089243,
+  "key": "MM-T1319",
+  "name": "Sign in to Another Server (from menu option)",
+  "createdOn": "2020-01-27T23:44:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565216,
+    "name": "Focus behavior",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
+    "fullPath": "desktop-app--native-specific-/focus-behavior"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.5 Desktop App (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to&nbsp;<ul><li><strong>Windows:</strong> File &gt; Sign in to Another Server&nbsp;</li><li><strong>macOS:</strong> Mattermost &gt; Sign in to Another Server</li></ul></li></ol>",
+        "testData": null,
+        "expectedResult": "Server name text input should be focused",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li><p data-pm-slice=\"1 1 []\">Use Alt or Cmd + Tab to open another application<br><br></p></li></ul>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Use Alt or Cmd + Tab to return back to Mattermost desktop app",
+        "testData": null,
+        "expectedResult": "<p data-pm-slice=\"1 1 []\">Focus is present on Add server modal Server name field upon return to MM desktop app</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e235f4589b08176f793fab8a3c837f245efe4a9b0b99907283f344661e5cdcb050c9406b4efc34e5a515c258b3870fbf",
+  "stepsHashed": "77042148d2e5684fdb75337a290fbba6553588d21029b4ff4fe3d564ad967dd094bab7cdffba0d9a6277eaacc2588022"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 19703599,
+  "key": "MM-T4696",
+  "name": "Unmapped user is shown connection link if they try starting a meeting",
+  "createdOn": "2022-03-23T16:16:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382036,
+    "name": "Authentication",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "Authentication"],
+    "fullPath": "plugins/ms-teams-calling/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. As a user who has never used oAuth MS Teams, launch a meeting",
+        "testData": null,
+        "expectedResult": "MS Teams bot posts a link Click here to link your MS Teams account",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5fb1371cbcb9b834e78e3d869b817c85072370c880fca5484634cec235f8c6bd8d46657113f9d46f0e834f6de8f82daf",
+  "stepsHashed": "c6ae8638d6c582ff34f2f2031ecab08b50708897deba9609dfe24d28add9b37fe3fe93d915f936ef9c69a86e38aeb815"
+}

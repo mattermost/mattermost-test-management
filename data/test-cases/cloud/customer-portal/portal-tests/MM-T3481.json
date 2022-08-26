@@ -1,0 +1,55 @@
+{
+  "id": 7803047,
+  "key": "MM-T3481",
+  "name": "Portal - Logout & Reset Password",
+  "createdOn": "2020-11-10T00:34:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Logout of your account</li><li>Click the 'Forgot your password?' link below the login fields</li><li>Fill in email address and click Reset Password button</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604968028428-1604968028428.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>After 1, logged out successfully</li><li>After 2,&nbsp;<ul><li>'Forgot your Password?' page loads with single field for your email address</li><li>'Please enter a valid email address' appears if you click the Rest Password button with the email address field empty</li></ul></li><li>After 3,&nbsp;<ul><li>You receive a 'Password Reset - Mattermost Customer Portal' email with a button to rest your password</li><li>The link in the email loads the 'Reset your Password' page on your Workspace<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604968363733-1604968363733.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\"></li><li>Filling out the form and clicking the 'Update Password' button logs you in</li><li>You're unable to login with your old password</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "06aec82d0f8b0463aa71d6c01fabe817d35d657cf7b8423da44c8933de07797436845ca3a24d6cd03b5bc788529b376a",
+  "stepsHashed": "b00720062c3303a7ec60f78e3ed4bdd75af31dace3c88ef3f2d546d70e6ffed5bc5d69c3c6b6992b188f17e024849a74"
+}

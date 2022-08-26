@@ -1,0 +1,55 @@
+{
+  "id": 4049502,
+  "key": "MM-T931",
+  "name": "Users - Can't update a user's email address if user has other signin method",
+  "createdOn": "2020-01-21T15:48:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["User-Management", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570073,
+    "name": "Users",
+    "parentId": 538610,
+    "fullNames": ["Suite", "System Console", "User Management", "Users"],
+    "fullPath": "suite/system-console/user-management/users"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In Users list, locate users who have as their signin method:</li><li>OAuth (GitLab, Office365, Google)</li><li>LDAP</li><li>SAML (OKTA, OneLogin) and verify -----&gt;</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Drop-down shows option to switch to email/password login, rather than being able to update email or password</li></ul><br>(If you're looking for a user who has another sign-in method, \"lindy.isherwood\" uses Office365. On postgres.test)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1a3337045e76ebc6d1ec1fb2066f2535e5c14c07aaeec0e684a8e0c0a0da735201841b94e47e386aea9ecb890bd9a4ef",
+  "stepsHashed": "52d004e803f32efde28a3f6b0a2d6b8356b6ed031ad3c44aff2acd3607886f3d993a5cb703cd5db9a420331570a3b8c9"
+}

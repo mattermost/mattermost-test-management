@@ -1,0 +1,55 @@
+{
+  "id": 15984686,
+  "key": "MM-T4374",
+  "name": "Scope of repos available\n(Non Enterprise)",
+  "createdOn": "2021-11-04T18:04:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915273,
+    "name": "Create Issue",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
+    "fullPath": "plugins/bitbucket/create-issue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Configure a repo such that the connected user is an Owner<br />2. Configure a repo such that the connected user is an Collaborator <br />3. Locate a repo where the connector user has no access",
+        "testData": null,
+        "expectedResult": "- List of repos includses repos where connected user is an Owner<br />- List of repos includses repos where connected user is an Collaborator<br />- Repos where connected user is not an Conllaborator are not listed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e2bb74685ef97b0a07943c1c3313758ffe2ddfae7c20f6ee3d9c4c2ef6e2bfb5b1b1c7d57e02f4f0a3d62b869962bd1a",
+  "stepsHashed": "aa1a55bacc3972c9a9458f4748aa1a8663780f67b05f64edfe5af4b05452efe178523e5c05dcf5f56e4c150d485ec7a8"
+}

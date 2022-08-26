@@ -1,0 +1,55 @@
+{
+  "id": 4151138,
+  "key": "MM-T1348",
+  "name": "Autocomplete Input - No loading animation when adding characters to a search with no results",
+  "createdOn": "2020-01-30T19:20:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Select Invite People -&gt; Invite Members option</li><li>In the Invite People field enter something that will produce no results</li><li>Add more characters to the search</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>There is no loading animation shown after each entered character</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17331\">Invitation Flow - Autocomplete Input - No match still shows search loading — MM-17331</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "01c2e868c4ae6275cd40d3c67db63389866d7afd7290fe4b05a84767a4bba182ec82939105df688529710c9226c4d0f1",
+  "stepsHashed": "444455c2d150f52101782b45d8694d30612106b2978bd684a27187fb3f52fc034c756b8911fef5016a1aec6f445e2ae6"
+}

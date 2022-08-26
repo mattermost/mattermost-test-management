@@ -1,0 +1,55 @@
+{
+  "id": 7798135,
+  "key": "MM-T3477",
+  "name": "Change Permissions - User Management > System Roles",
+  "createdOn": "2020-11-09T14:13:19Z",
+  "objective": "Change Permissions - User Management &gt; System Roles",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 918602,
+    "name": "Admin Roles",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as Sysadmin and visit System Console &gt; System Roles page.<br>2. Click on each of the following roles and check if the User Management &gt; System Roles permission is always set to \"No Access\" and sysadmin should not be allowed to change this dropdown and it should not be editable.<ul><li>System Manager</li><li>System User Manager</li><li>Read Only Admin</li></ul>3. Click on the permissions dropdown for User Management and select \"Can Edit\" and notice that the System Roles permission should remain as \"No Access\"",
+        "testData": null,
+        "expectedResult": "System Roles permission should not be assignable to any of the System Roles and should always be \"No Access\". Only sysadmin should have this permission enabled&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "de9eb0165cf420daa8b1cde2b2c76ab6e76762b929edcad14009f0ac31d625c4281e2b698ee83069a67a32bee76a550e",
+  "stepsHashed": "e4768304295cfaf3f512f1ed3026e1ad1fc0cbaf3cbce507e01dde1696c0c3e38705135395c5a70b2aa5ebe73b5cc896"
+}

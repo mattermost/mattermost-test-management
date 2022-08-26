@@ -1,0 +1,55 @@
+{
+  "id": 4403863,
+  "key": "MM-T1474",
+  "name": "Channel Sidebar TAB navigation - FAVORITE CHANNELS",
+  "createdOn": "2020-02-17T18:14:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:03 PM<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel Sidebar TAB navigation - FAVORITE CHANNELS<br>–––––––––––––––––––––––––<ul><li>Use CTRL+F6 to navigate to the channel sidebar region and Up/Down arrows to focus a sidebar section (ie Favorite Channels):</li><li>Once a section is focused with the up/down arrow keys, pressing TAB should move focus to the specific elements within each section:</li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>Channel names, eg \"Apps team public/private channel link\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16385\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Channel Sidebar TAB navigation — MM-16385</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22630\">Accessibility Cypress Test Automation: Accessibility Support in Channel Sidebar Navigation — MM-22630</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5994880fd47e5bd219b81194e910fc1c688dfe7d8c3dcdcdaf5eaa0933747f0beb9b46e3be3a268a24d911519c881a25",
+  "stepsHashed": "d7afc994a086456aa80758ef74e8b88caf3f14d4df07aa73cc94e510cf2ce1b59f212c5133b3947858dc30ab551ac264"
+}

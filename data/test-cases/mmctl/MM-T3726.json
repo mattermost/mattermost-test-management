@@ -1,0 +1,55 @@
+{
+  "id": 8620240,
+  "key": "MM-T3726",
+  "name": "Plugin - Install : from URL - non-existent plugin",
+  "createdOn": "2021-01-18T11:31:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin install-url [non-existent plugin URL]",
+        "testData": null,
+        "expectedResult": "Returns an error as the plugin doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d6f140f10fffd25fb7e2e0e2855203d6f4b6833a21e64c9561f7038573a9c475b0be2a73b864548bdc3369711f74e009",
+  "stepsHashed": "388d4daf730068b635ca23f5e560cb42f7ace090ddc8e8d8350e78bb0fd3b680cb6385bbdca0107d2fd9b6915e51fde8"
+}

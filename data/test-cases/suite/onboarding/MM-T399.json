@@ -1,0 +1,55 @@
+{
+  "id": 3877632,
+  "key": "MM-T399",
+  "name": "Invalidate Pending Email Invitations",
+  "createdOn": "2020-01-03T00:15:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Unstable"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404328,
+    "name": "Onboarding",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Onboarding"],
+    "fullPath": "suite/onboarding"
+  },
+  "customFields": {
+    "Fix Versions": ["Queued"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Friday, March 12, 2021 10:40 AM<br>• Returned to manual pool as test remains unstable on Cypress<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, December 23, 2020 11:18 PM<br>• Removed from manual pool<br>• Removed No Cypress Executions label<br>• Set Cypress to ✅ in Production<br>• Leaving unstable label in place as it's hit or miss on the last few runs<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 23, 2020 5:17 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Old Onboarding"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to Main Menu ➜ Send Email Invite and Create multiple email invitations to a team including some that you have email inbox access to</li><li>Go to the email inbox of the first invite you sent and sign up</li><li>Main Menu ➜ System Console ➜ Authentication ➜ Signup</li><li>Click on \"Invalidate pending email invites\" button</li><li>Go the the email inbox of the second invite you sent and try to sign up</li></ol>",
+        "testData": "",
+        "expectedResult": "After #2,<br><ul><li>You should be able to sign up using the invite link in the email</li></ul><br>After #5,<br><ul><li>You shouldn't be able to sign up and should get an error \"The signup link does not appear to be valid\"</li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["Queued"],
+          "Related ticket(s)": "(Queued) <a href=\"https://mattermost.atlassian.net/browse/MM-24974\">Inconsistent behavior when invalidating email invitations — MM-24974</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "feef27930ddceefe5f06355e0f0457ef96f356270e2fa6bdcfb43b2cc4e320b939aba61bfa4a2d1144eb3831b7551bc1",
+  "stepsHashed": "4b8e6147c9662a303c30161e417839bbb85bc6b1043469da636d844f377f44e94da53c58599263af6e8b5c391c6d349a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6400439,
+  "key": "MM-T3275",
+  "name": "Channel - Move : Public Channels",
+  "createdOn": "2020-07-31T09:31:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Run below commands in mmctl (as system admin):<br><br>1. mmctl team create --name is-test-team-a --display_name \"Test Team A\"<br><br>2. mmctl team create --name is-test-team-b --display_name \"Test Team B\"<br><br>3. mmctl channel create --team is-test-team-a --name some-channel --display_name \"Some Channel\"<br><br>4. mmctl user create --email user3@example.com --username userexample3 --password Password1 <br><br>5. mmctl user create --email user2@example.com --username userexample2 --password Password1 <br><br>6. mmctl team users add is-test-team-a userexample2<br><br>7. mmctl team users add is-test-team-a userexample3<br><br>8. mmctl channel add is-test-team-a:some-channel userexample2<br><br>9. mmctl channel add is-test-team-a:some-channel userexample3<br><br>10. mmctl channel move is-test-team-b is-test-team-a:some-channel<br><br>11. mmctl team users add is-test-team-b userexample3<br><br>12. mmctl team users add is-test-team-b userexample2<br><br>13. mmctl channel move is-test-team-b is-test-team-a:some-channel<br><br>",
+        "testData": null,
+        "expectedResult": "After 10) you will get a failure message due to channel members not being members of target team<br><br>After 13) you will get a confirmation message that the channel has been moved to the destination team.",
+        "customFields": {
+          "Fix Versions": ["v5.26 (August 2020)"],
+          "Related ticket(s)": "https://mattermost.atlassian.net/browse/MM-23720",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "df60799982fa8f3e7f807a5f43c25facd5b461ef36ec19aaf2bfd31d4668b6c94a5b1160ec53b50ef12bc7af4d084157",
+  "stepsHashed": "72010eac78d1f3eb53feae2ffa6639cd72a01df08d4172e7a76bec6376ed51e819653923586431e56831746fe97faa85"
+}

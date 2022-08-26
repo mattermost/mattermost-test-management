@@ -1,0 +1,55 @@
+{
+  "id": 4064403,
+  "key": "MM-T1279",
+  "name": "Keyboard shortcuts menu item",
+  "createdOn": "2020-01-23T13:38:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Keyboard shortcuts menu item<br />--------------------<br />1. Click help menu<br />2. Select `Keyboard Shortcuts`",
+        "testData": null,
+        "expectedResult": "Keyboard shortcuts modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9e6380104e00f631f74f29f53f2d1dbe7fa140984200c02c8a12f4cc2aa8b2a50212edcb4412143fbad50538abb56068",
+  "stepsHashed": "a9fae7f1772b2e5c8515587e34defa3a852273bc8cedd6f1612233d709e878085a27a2fd8676a99efb46f6af67bb42e9"
+}

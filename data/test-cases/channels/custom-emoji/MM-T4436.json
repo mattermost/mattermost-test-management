@@ -1,0 +1,55 @@
+{
+  "id": 16862445,
+  "key": "MM-T4436",
+  "name": "Emoji picker should show all custom emojis without overlaps",
+  "createdOn": "2021-12-13T20:57:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2960960,
+    "name": "Custom Emoji",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Emoji picker should show all custom emojis without overlaps</u><ol><li>Click on Custom Emoji link on emoji picker</li><li>Add one custom emoji and save</li><li>Add another custom emoji and save</li><li>Go to Town Square </li><li>Open Emoji picker and tap on custom category tab<ol><li>Verify all custom emoji display, no overlap</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "715d9f6b7e81b148aca9c9abafd815b9cfe7205e8469919bae8deb746594c19a997d6d6ece3ede5ce409fd1ea8a8b792",
+  "stepsHashed": "9b18eff0adcf3513b3bf7fde98dda8da432c0e37a97259411f22b0a3f2a147c7ebc484da5f456334770385f91f38f6f7"
+}

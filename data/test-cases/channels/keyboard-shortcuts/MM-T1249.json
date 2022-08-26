@@ -1,0 +1,55 @@
+{
+  "id": 4064372,
+  "key": "MM-T1249",
+  "name": "CTRL/CMD+SHIFT+L - Set focus to center channel message box (with REPLY RHS open)",
+  "createdOn": "2020-01-23T13:38:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post a message<br />2. Click [...] of the message you posted and choose \"Reply\" and verify focus is on RHS's reply textbox<br />4. Press CTRL/CMD+SHIFT+L",
+        "testData": null,
+        "expectedResult": "Focus is set to center channel message box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "857078c8c2453b6890d4bb7bfe0ba456f0fb503be06f206ccddc960b3c463b743898e4b0886a197d6696392d144a7ea8",
+  "stepsHashed": "e9382ee0fd14a9b84351e9a23024b5ca4a6c4f6243f8dc7a72fca864c12da4bb1d1f467cf17692286c5305a168b396b1"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17862429,
+  "key": "MM-T4593",
+  "name": "Subscribe to only one of the features for a private group",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /gitlab subscriptions add dkh-test-group/dkh-project2 tag<br />2. Open the target project in GitLab UI and create a new tag<br />3. In the same project, create a new issue",
+        "testData": null,
+        "expectedResult": "On 2. Event is delivered<br />On 3. No event delivered",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "297065e212f768262f0dc5a4f58290a0f793c8ca28cd67c55cef9d1e59e3c204f4aeb9923fefd744bcfa4717976fbf72",
+  "stepsHashed": "681d45fef80e9deee5550de2a5b060a42bc53e09852f0ed4599d0806df4116a5a8aa1409a2e46375a5bffeeee06e2025"
+}

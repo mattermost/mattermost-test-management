@@ -1,0 +1,133 @@
+{
+  "id": 6133813,
+  "key": "MM-T3005",
+  "name": "OAuth SSO: Office 365",
+  "createdOn": "2020-07-08T22:38:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404298,
+    "name": "OAuth",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "OAuth"],
+    "fullPath": "suite/oauth"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to authenticate via Office 365 on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "OAuth"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Setup / Cleanup<br></strong><br>1. On postgres.test, System Console &gt; Users<br>2. Log in as system admin and search for your Office 365 user (e.g. first.last@mattermostinc.com)<br>3. If that user does not exist on the server, pass this test and go on to step 2.<br>4. If that user is already on server and set to log in using O365, use the drop-down next to the user to change it to email/password login, and enter new password<br>5. Log out as system admin, log in as the other user, change email address (to something you can check), name, and username, and log out. You will need to verify your new email address in order to make the change effective<br><br>",
+        "testData": null,
+        "expectedResult": "Just clearing out the Office 365 user to make room for the following tests. Pass this step if not required or when complete.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Create new account using Office 365<br></strong><br>6. As system admin, set the server to be open (even if temporarily), and log out<br>7. On login page, click to Create a new account,  select Office 365, and create a new account using your O365 creds (e.g. firstname.lastname@mattermostinc.com)<br>8. Do NOT join a team yet",
+        "testData": null,
+        "expectedResult": "- Account is successfully created<br>- The join-a-team page displays",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Create a new team as a new Office 365 user<br></strong><br>9. From the team selection page, create a new team (can make the name unique by using o365 and date, such as `O365-7Aug21`) <br>10. Do NOT complete the tutorial yet",
+        "testData": null,
+        "expectedResult": "- Team is created and user sees the team, with tutorial in center",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Change login method to email / password<br></strong><br>11. In Account Settings &gt; Security, switch to email login, entering a new password as prompted<br>12. Observe success message <br>13. If not auto-logged-out, log out",
+        "testData": null,
+        "expectedResult": "- Able to successfully change signin method to email / password",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Office 365 login attempt displays error message after switching to email / password<br></strong><br>14. Click to log in using Office 365, enter credentials if asked",
+        "testData": null,
+        "expectedResult": "- Error page displays, with message that an account already exists with that email",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Can switch back to Office 365 login method and log in<br></strong><br>15. Log in using email / password<br>16. In Account Settings &gt; Security, switch signin method back to O365 login<br>17. Observe success message<br>18. Log in using Office 365",
+        "testData": null,
+        "expectedResult": "- Login is successful using Office 365",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Use mobile apps to log in using Office 365<br></strong><br>19. On Android, log in using Office 365<br>20. On iOS (12 or 13+ both work fine), log in using Office 365",
+        "testData": null,
+        "expectedResult": "- Login is successful on mobile apps using Office 365",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "77d0d85cec7119385037f8e6894849d4dde13cc48e218e34da56d938217a12003b0976046e439355102ee9501bb1bdd5",
+  "stepsHashed": "cd346cc2d336587f624ee58d749fdcf3a7efcf32c7138af92b23a464574072b5302b215cfa607c601c54f9613837493f"
+}

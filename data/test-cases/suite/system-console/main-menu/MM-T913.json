@@ -1,0 +1,55 @@
+{
+  "id": 4049208,
+  "key": "MM-T913",
+  "name": "About opens About modal",
+  "createdOn": "2020-01-21T15:13:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538609,
+    "name": "Main Menu",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Main Menu"],
+    "fullPath": "suite/system-console/main-menu"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 24, 2020 11:04 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Set Duplicate Automation field to Selenium<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Open System Console, click the hamburger main menu and verify options as described",
+        "testData": null,
+        "expectedResult": "`About Mattermost` - brings up About Mattermost dialog, which contains sentence with links to notice.txt on about.mattermost.com:<ul><li>\"Mattermost is made possible by the open source software used in our platform, desktop and mobile apps.\"</li><li>\"server\": /platform-notice-txt</li><li>\"desktop\": /desktop-notice-txt</li><li>\"mobile\": /mobile-notice-txt<br><br></li></ul><strong>Note</strong>: Also verify <strong>version</strong> and <strong>licensed to</strong> details are there",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "290146a10e9e07cc314c5973d6e819c82609d3078a7e9f5303dc343843532a6afd3d31875f3f034180b02d47bfb3e38f",
+  "stepsHashed": "9bbf1cd8dfe3153e9e293ac6a7a36a89c88948ccfc9461b72b19a32cc983370fea0bcacce691013824c20c2c0c534a4c"
+}

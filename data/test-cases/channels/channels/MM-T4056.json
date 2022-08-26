@@ -1,0 +1,55 @@
+{
+  "id": 10692803,
+  "key": "MM-T4056",
+  "name": "Show URL 'slug' information in Find Channels modal",
+  "createdOn": "2021-05-11T20:10:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.35 (May 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Show URL slug information in Find Channels modal</u><ol><li>Open Find Channels modal using cmd+K</li><li>Search for some channels<ol style=\"list-style-type:lower-greek\"><li>Verify URL slug information is displayed after channel name</li></ol></li><li>Search for a GM<ol><li>Verify URL slug information is <strong><u>not displayed</u></strong> after GM participants user names</li></ol></li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1640714011775-Screen+Shot+2021-12-28+at+12.51.09+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Verify URL slug information is displayed after channel name</li><li>URL slug information is <strong><u>not displayed</u></strong> after GM participants user names</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fe0cee12f59ab782547d618061877a80cbaa37c7c1363604585e8fc74f4f470adaacd6d2fa6e2a8b346a7442bbbd1141",
+  "stepsHashed": "36391917335f8c839a3e2844bdaa69fdb619e04b483d761dbaa1b9eca01614939dc96f654afba76d06a62f4933411518"
+}

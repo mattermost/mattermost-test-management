@@ -1,0 +1,59 @@
+{
+  "id": 4403857,
+  "key": "MM-T1468",
+  "name": "Add New Members to channel or team screen reader",
+  "createdOn": "2020-02-17T18:14:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Consolidated-Test-Steps-To-Match-Cypress",
+    "cy-prod"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "JB - Friday, January 15, 2021<br>- Removed from manual",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Add New Members to channel or team screen reader<br>–––––––––––––––––––––––––<ol><li>Open any channel drop-down menu and select Add Members.</li><li>Press the down arrow</li><li>Open Main Menu ➜ Add member to team</li><li>Press the down arrow</li></ol>",
+        "testData": "",
+        "expectedResult": "After #1,<br><ul><li>The reader should read the modal name and the placeholder text (ie. \"Search and add members\")</li></ul>After #2,<br><ul><li>You should hear the username of the first user in the list</li></ul><br>After #3,<br><ul><li>The reader should read the modal name and the placeholder text (ie. \"Search and add members\")</li></ul><br>After #4,<br><ul><li>You should hear the username of the first user in the list</li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16053\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Add New Members to channel or team screen reader improvements — MM-16053</a></li><li>(<strong>Task</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-22623\">Accessibility Cypress Test Automation: Accessibility Support in Modals &amp; Dialogs — MM-22623</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a2c1a36522871eda3e598d160fe076a8fe357312a08fb07709141a947845cd51edd7dea2fb2b9c9b76c8484a6a7fcc8",
+  "stepsHashed": "680d38eedd346963a1bba951451275a4ee843a19f9054c4232d3320f50b8027f1f5514978e5bac0b60e8d89a35dbb994"
+}

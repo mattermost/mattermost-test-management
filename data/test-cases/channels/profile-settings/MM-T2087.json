@@ -1,0 +1,61 @@
+{
+  "id": 5444635,
+  "key": "MM-T2087",
+  "name": "View Access History",
+  "createdOn": "2020-05-20T05:50:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "account-settings"
+  ],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "View Access History<br />————————————————————————————<br />1. Go to User menu -&gt; Profile -&gt; Security -&gt; View Access History",
+        "testData": null,
+        "expectedResult": "Access History displays a table containing:<br />- Timestamp<br />- Action<br />- IP Address<br />- Session ID",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5c19a91a63a516c1a75af32aacb67b4cdb0ac3d0212a63c3531cbb7328b400f3cb3515b34c1ff1a84bc6d9fcaa37819c",
+  "stepsHashed": "51d8197a54e64fa81b48f959efe9fad75dbe7af1362949bdee5e0a6c73f85c5637430433ed83d45431bdff552ab1a0bb"
+}

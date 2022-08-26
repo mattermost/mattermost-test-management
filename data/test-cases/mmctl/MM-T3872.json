@@ -1,0 +1,55 @@
+{
+  "id": 9412067,
+  "key": "MM-T3872",
+  "name": "Channel - Move : Private (with permissions, users in channel are members of both teams)",
+  "createdOn": "2021-03-10T09:25:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Destination team must share same users as current team<br><br>mmctl channel move [destination team] [current team:private channel name]",
+        "testData": null,
+        "expectedResult": "Channel is moved to the destination team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9fafd1a67d70378528a67e285ef0f703bfefe8d6940602c2ae47945b8a3d0fead487d39c65f57b579e326f92a4b15ba3",
+  "stepsHashed": "529d36a17c0b6157c2b72cb25f583b04c69b7c7bcb1f95dd6f1d39056d037631a64371bdd779a016d21324ab70c59ac9"
+}

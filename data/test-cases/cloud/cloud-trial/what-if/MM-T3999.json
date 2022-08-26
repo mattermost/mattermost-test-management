@@ -1,0 +1,55 @@
+{
+  "id": 10167060,
+  "key": "MM-T3999",
+  "name": "Cloud Trial — Reactivate via separate browser after purchasing subscription from locked screen",
+  "createdOn": "2021-04-14T16:32:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1289963,
+    "name": "What If",
+    "parentId": 1285126,
+    "fullNames": ["Cloud", "Cloud Trial", "What If"],
+    "fullPath": "cloud/cloud-trial/what-if"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create an account and Workspace then log out</li><li>End the trial via Stripe</li><li>After a short wait visit the Workspace URL</li><li>Click <strong>Subscribe</strong> and purchase a subscription but do not click <strong>Go to Workspace&nbsp;</strong>once the purchase has gone through</li><li>Open another browser and visit the Workspace URL</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 5;<ul><li>The Workspace should reactivate since it's been paid for</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-35543\">After payment is added after trial hibernation, if the user does not click \"Go to Workspace\" it is not reactivated — MM-35543</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c0331e3de55a5aa37f5f5bc3f74c9e78aff80ab9d8de96bb72d47eec427d21ba0d7768a8c6f5bef1fed8dc8594c0cfc0",
+  "stepsHashed": "dd1144510a042167cef158e33be3c0c3fa0ede5f8845ab6434ca7bf59cef670dcd4bf67471b5a531ff7cee0f96f4e3d4"
+}

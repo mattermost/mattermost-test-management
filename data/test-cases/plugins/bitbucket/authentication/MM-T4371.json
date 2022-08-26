@@ -1,0 +1,55 @@
+{
+  "id": 15984480,
+  "key": "MM-T4371",
+  "name": "Attached posts are associated to correct bitbucket User",
+  "createdOn": "2021-11-04T17:56:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Map user1 on Mattermost to ghuser1 on bitbucket<br />2. Map user2 on Mattermost to ghuser2 on bitbucket<br />3. Post a message as user1 and attach it to a bitbucket issue.<br />4. Confirmed that the message correctly attaches  user1 on bitbucket<br />5. Attach that same message as user2",
+        "testData": null,
+        "expectedResult": "Confirm that the message correctly attches user1 and user on bitbucket",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44f3e9a61fb2aef92e57be790c54a68b9763b2483010108e322fb3e7d3ea3d232080571520877da4abdbb5bd38c02e42",
+  "stepsHashed": "a93f0b7df268903505b5a45be17342b26b09a4c49226f964c1ca4f1b8ba96fe156b456a4adf8e02c750f1d5a6249b7fc"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8884265,
+  "key": "MM-T3829",
+  "name": "Expired License upload",
+  "createdOn": "2021-02-05T19:57:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["5.34-p1", "system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569441,
+    "name": "Edition and License",
+    "parentId": 567106,
+    "fullNames": ["Suite", "System Console", "About", "Edition and License"],
+    "fullPath": "suite/system-console/about/edition-and-license"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Expired License upload<br>–––––––––––––––––––––––––<ol><li>Log into this server ➜ <a href=\"https://mattermost-server-pr-16787.test.mattermost.cloud\">https://mattermost-server-pr-16787.test.mattermost.cloud</a> (standard Spinwick credentials)</li><li>Go to <a href=\"https://mattermost-server-pr-16787.test.mattermost.cloud/admin_console/about/license\">System Console ➜ About ➜ Edition and License</a> and remove any license that might already be in place there</li><li>Download the <a href=\"https://drive.google.com/file/d/1CxksU73Wm64SxwV6D3T-2J1Yx13wGy6r/view?usp=sharing\">Already expired.mattermost-license</a> file and upload it to the server</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The license fails to upload or apply</li><li>An error is displayed telling you it's expired<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1612556823249-2021-02-05_15-24-50.2021-02-05+15_26_06.gif\" style=\"width: 300px;\" class=\"fr-fil fr-dib\"></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "27978f22e11daba7130006e5234cad66c72c0ec6e46dfd1d1492117a2b66fbfb3dca65ca9d5555a4cd478799d12a8f4a",
+  "stepsHashed": "30a0d4349e3a97fa87d18e747273e9cdd79df54c4b34e701a0e56cc56ca2ee93387a1e8aafa19afa2d177790a87f228f"
+}

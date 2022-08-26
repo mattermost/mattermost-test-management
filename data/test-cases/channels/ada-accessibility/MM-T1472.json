@@ -1,0 +1,55 @@
+{
+  "id": 4403861,
+  "key": "MM-T1472",
+  "name": "Channel Sidebar TAB navigation - DIRECT MESSAGES",
+  "createdOn": "2020-02-17T18:14:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel Sidebar TAB navigation - DIRECT MESSAGES<br>–––––––––––––––––––––––––<ul><li>Use CTRL+F6 to navigate to the channel sidebar region and Up/Down arrows to focus a sidebar section (ie Direct Messages):</li><li>Once a section is focused with the up/down arrow keys, pressing TAB should move focus to the specific elements within each section:</li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>\"Create new direct message\"</li><li>Channel names<ul><li>DM: eg \"Andrew Brown\" - if unreads: \"Andrew Brown two messages\"</li><li>GM: eg \"Elias Nahum Harrison Healey\" - if mentions: \"Elias Nahum Harrison Healey two mentions\" - if unreads only: \"Elias Nahum Harrison Healey unread link\"</li><li>\"More direct messages button, to activate press space bar\"</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-22630\"></a>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-16385\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Channel Sidebar TAB navigation — MM-16385</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22630\">Accessibility Cypress Test Automation: Accessibility Support in Channel Sidebar Navigation — MM-22630</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b52322b3a914609ca28e37a98cd838097163d0782cfa3462371c89dbc91f69632de47867321594f42c95d43c3fa03035",
+  "stepsHashed": "eda1375aa051525a19ce465562c47bb49e847e016e24d3e81ce7ecede0456cfaf9a81b324d3fd2d2cc681aafe397153e"
+}

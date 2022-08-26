@@ -1,0 +1,55 @@
+{
+  "id": 8562524,
+  "key": "MM-T3678",
+  "name": "Bot - Disable : already disabled bot",
+  "createdOn": "2021-01-13T11:25:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot disable [already-disabled-bot]",
+        "testData": null,
+        "expectedResult": "returns an error as the bot account is already disabled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c00fd29277bc81987ac46c21ad6abe689becc13ed67b06e37bcb40ce37504740b14726f2080a5d2a58cc54bfec34e3df",
+  "stepsHashed": "f2ca1606a9bba927d2de3f6f302c805fbfa995e8a8d46b64a5bac25204d00bdae8390cd73ab8869c53e656dae71869d3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4550750,
+  "key": "MM-T1539",
+  "name": "Gendered emojis are rendered with the correct gender",
+  "createdOn": "2020-02-28T16:33:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.21 (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Post the following emoji by copying and pasting it or by using the emoji keyboard on Mac (CMD+CTRL+spacebar)</li></ol><br>🙆‍♂️",
+        "testData": null,
+        "expectedResult": "<ul><li>The posted emoji is rendered as the male version<br>(hover your mouse over to confirm if needed)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22079\">Web: Gendered emojis are rendered with the wrong gender — MM-22079</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8523a38291717b0f02f9cd289596762486520142104b8433108f033c3c12faef577f73148ed60edc882b8faaa3aff0c6",
+  "stepsHashed": "04b86545e45764681f8128c5b9e6da84671b8a04a035367483f3c96199b1124f0f715b0811b1b7526959ecf3fcc5efa8"
+}

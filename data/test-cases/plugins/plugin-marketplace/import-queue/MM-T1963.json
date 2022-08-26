@@ -1,0 +1,55 @@
+{
+  "id": 5293904,
+  "key": "MM-T1963",
+  "name": "Text in Marketplace URL text field is editable",
+  "createdOn": "2020-05-06T01:44:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Text in Marketplace URL text field is editable<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. In System Console &gt; PLUGINS &gt; Plugin Management &gt; &quot;Enable Plugins&quot; is set to true.<br />2. Also set &ldquo;Enable Marketplace&rdquo; to true.<br />3. Click on the URL text field.",
+        "testData": null,
+        "expectedResult": "1. The value for the URL can be changed.<br />2. When the value for the URL is changed, the &ldquo;Save&rdquo; button at the bottom becomes active.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c79c5134d8bcf63447a7415b4f54fd6dc03c9db575a0b1d41f761a96b59e61c83c5517802b16585d933a7f28042b17eb",
+  "stepsHashed": "af7572b82c324b6e64d37b33f36b25f5ac35271cca05228d4f7d0be5d2ae8ab290af53f047767dddb9e90278c3acfe61"
+}

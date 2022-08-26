@@ -1,0 +1,55 @@
+{
+  "id": 5444735,
+  "key": "MM-T2135",
+  "name": "Can open reply thread from reply count arrow and reply",
+  "createdOn": "2020-05-20T06:04:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "in Production",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can open reply thread from reply count arrow and reply<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Click the reply count on parent post<br />2. In RHS, type reply in comment box and press Enter",
+        "testData": null,
+        "expectedResult": "Reply is posted in RHS and center",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c7071f433069373f3ad0a735e2ba6418c09c72983866537f55dca4dcf5a53a4351f5c2c41a901a73435377eaf4c2e376",
+  "stepsHashed": "d44e2e07978924646f087ff7e6bc8feb911fee6ead6a75e46ac588a2daaf999d71a09bf7b50bcf83103797ab25548c74"
+}

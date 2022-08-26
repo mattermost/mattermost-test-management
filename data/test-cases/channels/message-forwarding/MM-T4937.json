@@ -1,0 +1,81 @@
+{
+  "id": 26272482,
+  "key": "MM-T4937",
+  "name": "Forwarding post from GM",
+  "createdOn": "2022-07-20T20:09:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3103572,
+    "name": "Message Forwarding",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Message Forwarding"],
+    "fullPath": "channels/message-forwarding"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Forward root post from GM<br /></u><ol><li>Create a post in a GM (with at least 2 other users)</li><li>Open post 3-dot menu<ol><li>Verify post menu option Forward is available</li></ol></li><li>Use Shift+F to select Forward option<ol><li>Verify \"Forward message\" modal opens</li><li>Verify \"Select channel or people\" dropdown is disabled, shows below text instead </li><li>Verify text: This message is from a private conversation and can only be shared with [<strong>user name</strong>] and [<strong>user name</strong>]</li></ol></li><li>Leave Add comment field blank</li><li>Click on Forward<ol><li>Verify message is forwarded, posts on the current GM with permalink, no additional comments </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward reply post from GM (with at least 2 other users)<br /></u><ol><li>Create a post in a GM with another user</li><li>Reply to this post</li><li>Open reply post 3-dot menu<ol><li>Verify post menu option Forward is available</li></ol></li><li>Use Shift+F to select Forward option<ol><li>Verify \"Forward message\" modal opens</li><li>Verify \"Select channel or people\" dropdown is disabled, shows below text instead </li><li>Verify text: This message is from a private conversation and can only be shared with [<strong>user name</strong>] and [<strong>user name</strong>]</li></ol></li><li>Add \"test message\" to add comment field </li><li>Click on Forward<ol><li>Verify message is forwarded, posts in the current GM with \"test message\" comment and permalink</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Forward post from GM - Cancel using X<br /></u><ol><li>Create a post in DM with another user</li><li>Open post 3 dot menu</li><li>Use Shift+F to select Forward option</li><li>Add \"test message\" to add comment field </li><li>Click on X (top right) to cancel forwarding and close the modal <ol><li>Verify modal closes and message is not forwarded</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "078ad94c6e497c28cd7116132a2759456b2fba07fa086ab175314a3f412718e10274a4c832abe0ad77fcea79e48e017e",
+  "stepsHashed": "1a4dbffacec683cf12acb95134e6055d4955d2c211a71b6fc80820459bfef50ba744d5864f13cfe47a3fc71b30e50f5e"
+}

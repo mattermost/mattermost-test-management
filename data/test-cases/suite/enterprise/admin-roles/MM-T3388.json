@@ -1,0 +1,55 @@
+{
+  "id": 7200755,
+  "key": "MM-T3388",
+  "name": "Verify the Admin Role - System Read Only Admin",
+  "createdOn": "2020-09-29T13:27:52Z",
+  "objective": "Verify the Admin Role - System Read Only Admin",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise", "Cloud-N/A"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 918602,
+    "name": "Admin Roles",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as Sysadmin and visit System Console &gt; System Roles page.<br>2. Click on the system_read_only admin role and add a user<br>3. Login as the system_read_only_admin and visit System Console.<br>4. Check if the user has the permissions in different screens based on the permissions selected in System Roles &gt; System Read Only screen. For example:<br><br><br><table style=\"width: 100%;\"><tbody><tr><td style=\"width: 50.0000%;\">About</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Reporting</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">User Management &gt; Users</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">User Management &gt; Groups</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">User Management &gt; Teams</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">User Management &gt; Channels</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">User Management &gt; Permissions</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Environment</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Site Configuratioon</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Authentication</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Plugins</td><td style=\"width: 50.0000%;\">Read<br></td></tr><tr><td style=\"width: 50.0000%;\">Integrations</td><td style=\"width: 50.0000%;\">Read</td></tr><tr><td style=\"width: 50.0000%;\">Compliance</td><td style=\"width: 50.0000%;\">None</td></tr><tr><td style=\"width: 50.0000%;\">Experimental</td><td style=\"width: 50.0000%;\">Read</td></tr></tbody></table><br><br>",
+        "testData": null,
+        "expectedResult": "User should be able to access the different screens as per the permissions defined in the test. Here is the brief of these permissions:<br><br><strong>None</strong> - User should not be able to view the screen<br><br><strong>Read</strong> - User should be able to only view the data in that screen. User should not be able to modify anything<br><br><strong>Read+Write</strong> - User should be allowed to view and modify the data in the corresponding screen. User should not receive any error when data is modified and saved. ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "480956e2329a4c2ed83576b706b5647d1cc35ab6b860b7a904182941a9ac55d9161c8f51aea7098df01ade7de4a30440",
+  "stepsHashed": "e23e38e49c64dd3244c4d5d13f50dcf6ca383f047f77128626118fd31fcadfdc12a7d5072369d9c2c05f306a12cbf9f0"
+}

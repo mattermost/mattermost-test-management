@@ -1,0 +1,55 @@
+{
+  "id": 6181490,
+  "key": "MM-T3061",
+  "name": "Channel shortlinking - link joins public channel",
+  "createdOn": "2020-07-13T19:12:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel shortlinking - link joins public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Send a message with a channel shortlink of a PUBLIC  channel you don't belong to.<br />2. Click on the link.",
+        "testData": null,
+        "expectedResult": "The link should take you to and add you to the public channel.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "48e60e4e1030e4e71622f9e36efdc1e193841cc4ef8c6a3e27208c794b2d09617699bef3e54dad07d7dc8b4d86e88db8",
+  "stepsHashed": "4907feb266220137e74abc5bf3527468286c2393fa89e20929fac633171af55a1371fb2ccee1f468ca67eb1dcba9b5af"
+}

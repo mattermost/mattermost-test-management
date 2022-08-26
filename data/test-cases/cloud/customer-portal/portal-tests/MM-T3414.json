@@ -1,0 +1,55 @@
+{
+  "id": 7531830,
+  "key": "MM-T3414",
+  "name": "Portal - Check for subscriptions and purchase history",
+  "createdOn": "2020-10-19T17:45:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Test",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to <a href=\"https://portal.test.cloud.mattermost.com/console/subscriptions\">https://portal.test.cloud.mattermost.com/console/subscriptions</a></li><li>After checking the subscription page click on Purchase History</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1603129450311-2020-10-19_13-43-45.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>No subscriptions or Purchase History shown</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc1dfcff046580e539599a790a55a3ec68dd920aad2ed86008a98854c0c814d95cef25f1f5c6a93fbb8e2fec5d2ca413",
+  "stepsHashed": "e379432ab567549be417caf4e2bf971906cdca3f307b134e943cb78650c848ad9fb98d6785b6ab62b0eff87b317b4285"
+}

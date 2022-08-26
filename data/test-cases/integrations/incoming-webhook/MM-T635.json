@@ -1,0 +1,55 @@
+{
+  "id": 3968334,
+  "key": "MM-T635",
+  "name": "Initial selection on post action dropdown",
+  "createdOn": "2020-01-08T12:57:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming webhook - Initial selection on post action dropdown<br>–––––––––––––––––––––––––<ol><li>In Postman, send a POST containing the attached payload (on any server/channel)</li><li>On both desktop/browser and RN apps, observe the default selection on the dropdown</li></ol>",
+        "testData": "{<br>\"attachments\": [{<br>&nbsp; &nbsp;&nbsp;\"actions\": [{<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"name\": \"value\", \"type\": \"select\",<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"default_option\": \"2\",<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"options\": [<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;{\"text\": \"one\",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"value\": \"1\"},<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;{\"text\": \"two\",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"value\": \"2\"},<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;{\"text\": \"three\",<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\"value\": \"3\"}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;]<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;}]<br>&nbsp; &nbsp;&nbsp;}]<br>}",
+        "expectedResult": "<ul><li>Option indicated by the `default_option` is initially selected in the dropdown:</li><li>in this case \"two\" is selected</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-14741\">Add initial selection to post action dropdown — MM-14741</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "951eda4f7955250e7ec2800e1c19ca73d017c696c784ecbe4220ca64d718ae72958feefeb9c076e39e2e1edb08a04509",
+  "stepsHashed": "d37798ebf8f013769abf423269010bb807d6a13f739abacc7f44d5cefe46ba8c3eacb06dd7ea037d53b0a36905f8f41e"
+}

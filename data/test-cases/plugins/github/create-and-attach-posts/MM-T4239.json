@@ -1,0 +1,55 @@
+{
+  "id": 13721685,
+  "key": "MM-T4239",
+  "name": "Create Issue modal can be used to add Labels and Milestones",
+  "createdOn": "2021-08-30T15:45:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the GitHub create modal for a Mattermost post<br />2. Select a repo / project where labels  and milstones are available<br />3. Add one more labels and milstones using the create modal<br />4. Click Submit<br />5. Folow the link posted to view the issue in GitHub",
+        "testData": null,
+        "expectedResult": "- You can add issues along with labels and milestones in repos where your group has Write permissions<br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "751c847d59a3bd79f5914a637bdca34aa37e6b1fcc9ac9dfb9c69b4641b0c83227821d32fed6d99993a60471b7151618",
+  "stepsHashed": "29229c0ed0c22348ffbf69d87de5f78a260b5ee191f0c0c2aa253e40112c2d8bd4c506137a6f2e90b990d264119d5428"
+}

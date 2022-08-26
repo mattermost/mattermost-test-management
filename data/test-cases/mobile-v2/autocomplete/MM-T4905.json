@@ -1,0 +1,94 @@
+{
+  "id": 25437094,
+  "key": "MM-T4905",
+  "name": "Mobile V2: Autocomplete - Thread Post Draft",
+  "createdOn": "2022-07-05T20:40:29Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br />2. Verify on channel list screen<br />3. Open a channel screen, post a message, and tap on post to open reply thread<br /><br />For each test step:<br />1. Clear post input<br />2. Verify autocomplete is not displayed",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2943603,
+    "name": "Autocomplete",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Autocomplete"],
+    "fullPath": "mobile-v2/autocomplete"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should render at-mention autocomplete in post input</strong><br />--------------------<br />1. Verify at-mention list is not displayed<br />2. Type in \"@\" to activate at mention autocomplete<br />3. Verify at-mention list is displayed",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should render channel mention autocomplete in post input</strong><br />--------------------<br />1. Verify channel mention list is not displayed<br />2. Type in \"~\" to activate channel mention autocomplete<br />3. Verify channel mention list is displayed",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should render emoji suggestion autocomplete in post input</strong><br />--------------------<br />1. Verify emoji suggestion list is not displayed<br />2. Type in \":\" followed by 2 characters to activate emoji suggestion autocomplete<br />3. Verify emoji suggestion list is displayed",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should render slash suggestion autocomplete in post input</strong><br />--------------------<br />1. Verify slash suggestion list is not displayed<br />2. Type in \"/\" to activate slash suggestion autocomplete<br />3. Verify slash suggestion list is displayed",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a38e624bbf0d1b9932b293cd40e5eedfaf12ef6659708746338bee4cccba9f97884a88b61591946129d64aaec7c53369",
+  "stepsHashed": "9ccb49c38aca4dfba276e9303f694ff2b68225a7fb53f78da02b488a70f6bee7df0d759119a3792467fd8dcbafc349a3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4058506,
+  "key": "MM-T1116",
+  "name": "Notification Settings Email: Immediately, generic: one DM and one at-mention",
+  "createdOn": "2020-01-22T17:58:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br />Email<br />--------------------<br />Immediately, generic: one DM and one at-mention",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "890c951eb668958481e7a4af851482103df0502b160925a42f06943c4a9dc78195c622086eed008a57be0d1bad95ae7e",
+  "stepsHashed": "0fde845afd8e45cb5cf3ee7fd584a0121ee7b8f5a4de347d00fb1ffda8f3656eae15a5dd55cac09d6022008209ff29a8"
+}

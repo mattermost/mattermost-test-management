@@ -1,0 +1,55 @@
+{
+  "id": 5659461,
+  "key": "MM-T2910",
+  "name": "Team Admin is able to add or remove other members from public channel",
+  "createdOn": "2020-06-04T18:02:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Admin is able to add or remove other members from public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a public channel<br />2. Click the down arrow next to the channel header to see channel options<br />3. Ensure that Add Member  is available and select it<br />4. Search for and select a member<br />5. Click Add<br />6. Click the down arrow next to the channel header to see channel options<br />7. Click Manage Members<br />8. Click the role link for the user added in step 5<br />9. In the menu that opens, click Remove Member",
+        "testData": null,
+        "expectedResult": "For step 3, Add Member is visible in the menu<br />For Step 9, Remove Member option is available in the menu and user can be removed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4d89a1dd69886d6c9ac7fe57586899982bd1710aa259ea0712e7d2b37ef5e43a109701d3b9aa400ef7dde7fcac243a12",
+  "stepsHashed": "3537844e326d411329bb32377a96529e089432f426a4c9c01a1791a1fcbc9c11e99bf8f42707813c4fcf74439bdd0821"
+}

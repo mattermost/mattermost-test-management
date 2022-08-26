@@ -1,0 +1,55 @@
+{
+  "id": 3968331,
+  "key": "MM-T632",
+  "name": "Slack compatibility code shouldn't mess up characters",
+  "createdOn": "2020-01-08T12:57:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming webhook - Slack compatibility code shouldn't mess up characters<br>–––––––––––––––––––––––––<ol><li>Set up an incoming webhook with the following raw body:<br><br>{\"text\": \"&lt;&gt;|&lt;&gt;|\"}<br><br></li><li>Send using Postman</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Post appears as the following in message and in message edit modal:<br><br>&lt;&gt;|&lt;&gt;|</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d2fd2768200239979ebc701c5e274e3851fbc689e481a7083b2e5c6290a202bd43f83f83fbfa68163099ba3c0697c6ac",
+  "stepsHashed": "060b11b6bbb038294512180a6cbea16496d594fd39a7fb1aa62d3319a2e7fa3e052af466873c3e8043d54e1375e22fa3"
+}

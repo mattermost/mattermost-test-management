@@ -1,0 +1,55 @@
+{
+  "id": 4058906,
+  "key": "MM-T1176",
+  "name": "Compliance export – Actiance XML: Includes updated post after editing",
+  "createdOn": "2020-01-22T19:26:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console", "Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should include updated post<br>–––––––––––––––––––––––––<ol><li>Create a post.</li><li>Run the Actiance XML export job.</li><li>Edit the post.</li><li>Run the Actiance XML export job again.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Verify that the edited post message is included in the export.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"http://mmthttps%3A//mattermost.atlassian.net/browse/MM-18522\">Edited posts are not included in Compliance Export (Beta) — MM-18522</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d2dbd7a30693de5eb60431cde7db9a069efc5494cb6b3eb4601b12af074d4dd225bb3c5e3bc1e176018dfc4752e01d6e",
+  "stepsHashed": "6fe3cfc6f027ee62a089fbb1efde9bb14ac8f3b841df5f01a4608394516bb93682ef8f7326b8dce7a4aa3df124698af6"
+}

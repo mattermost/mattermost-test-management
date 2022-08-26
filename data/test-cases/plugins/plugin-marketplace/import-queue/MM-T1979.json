@@ -1,0 +1,55 @@
+{
+  "id": 5293920,
+  "key": "MM-T1979",
+  "name": "“Installed” tab shows the plugins that are installed",
+  "createdOn": "2020-05-06T01:45:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&ldquo;Installed&rdquo; tab shows the plugins that are installed<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Go to Plugins Marketplace &gt; Installed tab",
+        "testData": null,
+        "expectedResult": "1. The number on &ldquo;Installed&rdquo; tab reflects the right number of installed plugins.<br />Github plugin appears in the installed plugins&rsquo; list.<br />2. The &ldquo;Configure&rdquo; button is present beside Github plugin",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "57b075654e54283208412f3c5c897af98fd662ea03c96cb231b54923286bed3c87651367c8aef37d64b095031d8330b3",
+  "stepsHashed": "a0d57f64bc9ffcdb7a1a18278f9307c65dcf17889ed00eb6fc028e32021849189f6082b5f002d64b867f3c03fa133a5e"
+}

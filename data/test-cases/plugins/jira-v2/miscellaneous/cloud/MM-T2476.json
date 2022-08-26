@@ -1,0 +1,55 @@
+{
+  "id": 5480861,
+  "key": "MM-T2476",
+  "name": "- Uninstall Jira",
+  "createdOn": "2020-05-22T14:34:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733487,
+    "name": "Cloud",
+    "parentId": 2118472,
+    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Cloud"],
+    "fullPath": "plugins/jira-v2/miscellaneous/cloud"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira V2"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "- Uninstall Jira<br>–––––––––––––––––––––––––<ol><li>Type \"/jira uninstall \"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Ephemeral post confirms that jira instance has been uninstalled</li><li>Post menu option are removed</li><li>Help Informs you of to go delete the link in Jira</li><li>Jira delete instructions are accurate based on server Vs Cloud</li><li>Jira options are removed from post menu</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "16ba832b685a94057bc6dfde542ebf6c9f9a680adfe96bb57730bc58753da846b872e5e98eb3087966064e234d4d7234",
+  "stepsHashed": "a46aa1af68592a19bb823152f2425df8e6495aa09c04c1b63391202c54600f64cf57a7c41c9a813640335ec025678bbb"
+}

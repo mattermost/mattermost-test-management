@@ -1,0 +1,55 @@
+{
+  "id": 5566716,
+  "key": "MM-T2641",
+  "name": "Channel appears in More... under Public Channels before conversion but not after",
+  "createdOn": "2020-05-29T19:39:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 7:24 PM<br>• No Cypress executions reporting back<br>• No previous manual test executions either<br>• Added link to Cypress code<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br>Joseph Baylon - Friday, November 6, 2020<br>- Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel appears in More... under Public Channels before conversion but not after<br>————————————————————————————<ol><li>While channel is still public, verify it appears in More... for user who is not in it</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After conversion, does not appear in More... for user who is not in the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1036d262cec1554e8b53b8addfcf23458c8ec44a1b94979daf56e9b45d03e69148a3ba830624324970e23fda8739ecf2",
+  "stepsHashed": "9e054d3b3b6ff2b21ee60cf8f9d1010e03118fa4511c9a04d22f3ca72b04867c3f4f7d1e8047cc36f700e8d0d445d31e"
+}

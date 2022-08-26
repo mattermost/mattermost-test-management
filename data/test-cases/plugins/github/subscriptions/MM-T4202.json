@@ -1,0 +1,55 @@
+{
+  "id": 13721472,
+  "key": "MM-T4202",
+  "name": "Use Mattermost username instead of GitHub handle if GutHub user is mapped to a Mattermost user on the server",
+  "createdOn": "2021-08-30T15:29:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194689,
+    "name": "Subscriptions",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Subscriptions"],
+    "fullPath": "plugins/github/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup a GitHub subscription on channel<br />2. Login as a target user and connect to a GitHub account<br />3. From the GitHub account conected in step 2. - Perform any acrions that will post an event with the current subscription",
+        "testData": null,
+        "expectedResult": "User's Mattermost username is show instaed of their GitHub handle<br />For example: The delete branch event will post &quot;@dkh-member just deleted branch [DHaussermann/hello-world:ping]&quot;  instead of &quot;DylanH20 just deleted branch [DHaussermann/hello-world:ping]&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cea1104b38eba986308913dec2ab72fd6d07d16d3ea3704bd03e41aeed7f1e75eaf6ef40effef3d2db4e127a3eb1b9de",
+  "stepsHashed": "386c86bb49696cf3d830514653c720c7d072d6433cd349c161f0fece21fb8e7a3bb689e0b03dd625bea676822c7ad9e4"
+}

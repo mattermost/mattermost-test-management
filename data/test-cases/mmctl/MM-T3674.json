@@ -1,0 +1,55 @@
+{
+  "id": 8562172,
+  "key": "MM-T3674",
+  "name": "Bot - Enable : non-existent bot",
+  "createdOn": "2021-01-13T10:31:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot enable [testbot]",
+        "testData": null,
+        "expectedResult": "returns an error as bot account does not exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "172df2280f298a9e9cb1c855a086e6cfe7e01ecdd238a0dfe258439b3a15b4b0e809cddbb732f59fad595f13aa36f504",
+  "stepsHashed": "3480d6a0fe08d00961bb6b17d82797757957f6c35deb662070fcadb5c5f0a462f4d9e41e560bb799162a9119d1bd952a"
+}

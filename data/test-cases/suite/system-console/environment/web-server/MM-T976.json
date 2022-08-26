@@ -1,0 +1,55 @@
+{
+  "id": 4050766,
+  "key": "MM-T976",
+  "name": "Subpath - Redirect to DM on login",
+  "createdOn": "2020-01-21T19:55:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath - Redirect to DM on login<br />--------------------<br />- Copy the URL of a DM channel, log out, paste the URL and open. Log in, verify you are redirected to that channel",
+        "testData": "Added to Se v5.10<br /><br />Redirect doesn't work for OAuth SSO yet:<br />For 5.4: https://mattermost.atlassian.net/browse/MM-11628",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "09e6c7bb6b38e2234d92afeb7d4c1e813b328578302d2a651883457f4c22c75845116682cc2c841c36147ba8778499f5",
+  "stepsHashed": "6f08f289bb20ca10459ec299ec2bb10f32250880e1a311e3a85612d82dab1c2e871de28ae520125b673f3d1448fd5cc2"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5537268,
+  "key": "MM-T2587",
+  "name": "Pagination on long teams list",
+  "createdOn": "2020-05-27T21:13:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pagination on long teams list<br>————————————————————————————<ol><li>On a server with enough teams to paginate (can use mysql.test), click on a Group configuration page to Add a Team</li><li>Click Next at bottom right</li><li>Click Next a couple more times</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Next page loads each time as expected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a26349a21837f27f3741b8008e0047b85fde0a0aacf452c00226420d8c80ab9f5c4d46ffb4d1fb393b9551a53ab67cab",
+  "stepsHashed": "7b5d4ef1a0cf79e940580ebfcec7d1f23904b2e1107b13ec45ed196e5eb32567be614b7da250d29c706cdb3422f80cad"
+}

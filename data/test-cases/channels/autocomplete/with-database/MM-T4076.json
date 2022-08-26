@@ -1,0 +1,81 @@
+{
+  "id": 10791124,
+  "key": "MM-T4076",
+  "name": "Database search: Users are auto-completed in message input box by username",
+  "createdOn": "2021-05-19T00:53:40Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1353114,
+    "name": "With Database",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Database"],
+    "fullPath": "channels/autocomplete/with-database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile", "Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: This test requires Elasticsearch and Bleve to be disabled.<br><br>Full username returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@username\" of a user you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": ["Open", "Help Wanted"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-16748\">RN: at-mention autocomplete does not include nickname — MM-16748</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Unique but partial username returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by unique but partial text of a username you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "The user you're autocompleting should be returned",
+        "customFields": {
+          "Fix Versions": ["v5.33 (March 2021)", "Cloud (February 24)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-33118\">No space between username and full name in at-mention autocomplete — MM-33118</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Partial username returns all users that match<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by partial text of a username you want to mention</li></ol>",
+        "testData": null,
+        "expectedResult": "Should show autocomplete for all users that matched",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "349953c8a579f33daaf9d5ff46a5b26ea8420de9cadaed5a5862a900733cc62f9b8bddcf0eb96e1dba8e4d3114f65258",
+  "stepsHashed": "7799c6186698b24ddb97937021102c3917d50bade0a4211d3d813556ab9ee5fd29b52b10c5d790e8f75e4221b885ec69"
+}

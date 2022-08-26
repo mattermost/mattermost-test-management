@@ -1,0 +1,55 @@
+{
+  "id": 5462990,
+  "key": "MM-T148",
+  "name": "RN apps: Add emoji reaction in reply thread using long press, in RHS",
+  "createdOn": "2020-05-21T15:34:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Add emoji reaction in reply thread using long press, in RHS<br>--------------------<br>1. Tap a message to open its reply thread view<br>2. Long press on the message and select plus(+) icon from reactions row to add a new reaction<br>3. Type a couple characters in the search bar and select an emoji<br>4. Verify added<br>5. Return to center channel view",
+        "testData": null,
+        "expectedResult": "Reaction is added to message and visible in center channel view as well",
+        "customFields": {
+          "Fix Versions": ["v1.32 Mobile (June 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22362\">https://mattermost.atlassian.net/browse/MM-22362</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e19da48047a8da0bc12bfbc1e087876012846eb78b769fe9ab208b173b9830cced834cebc6cebdde55e937459c9f562a",
+  "stepsHashed": "697518022934cc47b9c725ca90fbccf82831965badb393019f5a7d2adf388a3803223f0ed9620930d9cc75f5f27a2a40"
+}

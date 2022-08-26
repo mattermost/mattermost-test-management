@@ -1,0 +1,55 @@
+{
+  "id": 16789205,
+  "key": "MM-T4433",
+  "name": "Scrolls the kanban board when dragging card to edge",
+  "createdOn": "2021-12-09T05:42:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1841226,
+    "name": "Board View",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board View"],
+    "fullPath": "boards/board-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Note:<br />With Cypress test for standalone server.",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create an Empty Board (see MM-T4274)</li><li>Create groups multiple times (ex. 10 times)</li><li>Create an empty card on first group</li><li>Drag the card right and left</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify that the Kanban board scrolls right or left accordingly.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3fef8421061b4016c156551512d218224d7e7ea937793a7c8d424cc601d323c311704f9a42ba5f3d69e740a0ad3611a5",
+  "stepsHashed": "0bae62d0e9c41af279fce9f10a474d4d9dd1d53631e2c57ddb179592ebc520c5bca215a7cdc197f7e5fe4d8f506b41f8"
+}

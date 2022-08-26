@@ -1,0 +1,68 @@
+{
+  "id": 8167498,
+  "key": "MM-T3645",
+  "name": "RN apps: Post edits and deletes should propagate consistently",
+  "createdOn": "2020-12-10T16:49:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "N/A for Rainforest - not able to set VMs to airplane mode.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "Network"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should update to edited post after network is online again<br>--------------------<br><p data-pm-slice=\"1 1 []\">1. Login to server and go to a channel with a post</p><p data-pm-slice=\"1 1 []\">2. Set mobile to airplane mode<br>3. Edit post from other app/webapp<br>4. Set mobile back to online mode</p>",
+        "testData": null,
+        "expectedResult": "After #4,<ul><li>Verify post has been edited</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should update to deleted post after network is online again<br>--------------------<br><p data-pm-slice=\"1 1 []\">1. Login to server and go to a channel with a post</p><p data-pm-slice=\"1 1 []\">2. Set mobile to airplane mode<br>3. Delete post from other app/webapp<br>4. Set mobile back to online mode</p>",
+        "testData": null,
+        "expectedResult": "After #4,<ul><li>Verify post has been deleted</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "80fbb1e360fd3a677b7055e6a2637d6f659d2db1faf6e9f451e93087c88cfcbea60c6dab1ddc23c5b29da148abd239bd",
+  "stepsHashed": "e944304daf65d9ea085fcc3e0519f4f918349a204f535bb27469e1b2b236c572da9b183ebdaee4dd4d600560d68910bd"
+}

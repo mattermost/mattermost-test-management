@@ -1,0 +1,55 @@
+{
+  "id": 7531860,
+  "key": "MM-T3415",
+  "name": "Cloud Trial — Create Workspace (details)",
+  "createdOn": "2020-10-19T17:52:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1285126,
+    "name": "Cloud Trial",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click \"Terms\" link at bottom of page</li><li>Click \"Privacy Policy\" link at bottom of page</li><li>Change URL to https://portal.test.cloud.mattermost.com/cloud</li><li>Observe Workspace URL pre-filled with Organization name used when you created the account<br /><strong>Note</strong>: If you used an organization name with spaces then the URL will replace the spaces with hyphens</li><li>Replace the URL with a reserved subdomain such as \"about\" or \"contact\" (full list available <a href=\"https://docs.google.com/spreadsheets/d/1YRPQL5SDdarBrfiaPsghXt8f6poAQINTtECRDIu4s2Q/edit#gid=1661056402&amp;range=A2\">here</a>)</li><li>Try a variety of URLs that break the rules including trying to use an existing Workspace such as \"longtermbilling\"<br /><strong>Note</strong>: Your workspace name must be at least 3 and a maximum of 60 characters, must start with a letter, must use lowercase letters, numbers and dashes and can’t end in a dash</li><li>Click the \"Contact Support\" link in the error that appears below the URL when you use a reserved subdomain</li><li>Edit URL to MonthDayYear format used when you created the account for easy future use when reviewing previously created accounts<br />(e.g., October1920)</li><li>Click \"Logout\" in top right corner</li><li>Log back in</li><li>Click \"Start Collaborating\" button</li><li>Reduce size of window vertically as it creates the workspace</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 1: \"Terms\" link leads to <a href=\"https://mattermost.com/cloud-monthly-subscription-terms\">https://mattermost.com/cloud-monthly-subscription-terms</a></li><li>After 2: \"Privacy Policy\" link leads to <a href=\"https://mattermost.com/privacy-policy/\">https://mattermost.com/privacy-policy/</a></li><li>After 3: Redirected to <a href=\"https://portal.test.cloud.mattermost.com/cloud/create-workspace\">https://portal.test.cloud.mattermost.com/cloud/create-workspace</a></li><li>After 5: Error appears below URL field ➜ \"Looks like this URL is not available. Try another or Contact Support.\"</li><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1603131323596-contact+support+link.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />During 6: Error appears below URL field: \"Your workspace name must be at least 3 and maximum 60 characters, must start with a letter, must use lowercase letters, numbers and dashes and can’t end in a dash\"</li><li><span style=\"color:rgb(184, 49, 47)\">Need to edit once MM-29824 is fixed ➜</span> After 7: Redirected to Support URL or email composition window</li><li>After 8: URL accepted (\"Good news! This URL is available.\" appears below URL field)</li><li>After 10: Returned to Workspace creation page</li><li>During 10: The \"Preparing your workspace\" text and progress bar do not merge with or float through the helper text displayed on the screen as the workspace is created</li><li>After 12:<ul><li>The workspace is created successfully and you land on https://<strong>[MonthDayYear or name you chose]</strong>.test.mattermost.cloud/main/channels/town-square with the 3 step\"Welcome to Mattermost\" steps displayed</li><li>You receive an email (\"You joined <strong>[MonthDayYear or name you chose]</strong>.test.mattermost.cloud\") that contains a link and information about the new Workspace but <em><strong>does not</strong></em> contain a button to verify your email address as you previously did so when you created the account on the portal</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-29645\">Information elements overlap 'Preparing your workspace' when browser window is reduced vertically — MM-29645</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-29824\">'Contact Support' link on Workspace creation page loops back to root URL — MM-29824</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-30254\">CWS - Able to bypass URL restriction and create a Workspace that starts with a number — MM-30254</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-30691\">CWS - Forced to login after Workspace creation completes — MM-30691</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "45e5e791a9230d3f3a17c1ba0c5f29879123ebd196c2db16de1ca92c1eef63987de96ea3af9ed38641bd864c470a1eb0",
+  "stepsHashed": "e0b097f5c1813ba06eadf6b6fee90bd521c56c971ee0f0589a7c3b3279275287ab00ddb575d4252848df8ab58b39d6ac"
+}

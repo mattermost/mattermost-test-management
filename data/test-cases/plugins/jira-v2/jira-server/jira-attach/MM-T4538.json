@@ -1,0 +1,55 @@
+{
+  "id": 17698334,
+  "key": "MM-T4538",
+  "name": "Feedback when there are no results",
+  "createdOn": "2022-01-19T18:23:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2123139,
+    "name": "Jira Attach",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Select the post menu for any post<br />2. Select Attach to Jira<br />3. In the Jira issue field type a string of text that does not appear in any title or description",
+        "testData": null,
+        "expectedResult": "The modal shows feedback that there are no results",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "22ca81ed6d70a079084823c4aab15b3f1ea2b9f6f54dee706ed4e67327c14cd9abc1c1d797a189f24f22c7e7795f6995",
+  "stepsHashed": "3b01ad6ffb8cdc2eb1aa65d064fd4d79ccec78ed545f386a3b1751bf8c2c67e71d9c8e84317d72b68f8976807ddb7470"
+}

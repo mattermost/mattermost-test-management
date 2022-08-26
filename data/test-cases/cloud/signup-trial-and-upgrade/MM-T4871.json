@@ -1,0 +1,55 @@
+{
+  "id": 24272653,
+  "key": "MM-T4871",
+  "name": "Prompt to start trial or upgrade in Custom Groups menu entry",
+  "createdOn": "2022-06-21T20:00:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click the waffle menu in the top left corner of a Workspace that hasn't yet started a trial or upgraded</li><li>Click the skeleton key icon next to 'Create a Team'<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1655841816550-1655841816550.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>Start the trial</li><li>Hover over the lightning bolt next to 'Create a Team'<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1655841886275-1655841886275.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>End the trial</li><li>Click the skeleton key icon next to 'Create a Team'</li></ol>",
+        "testData": null,
+        "expectedResult": "After 2:<ul><li>A modal opens with more information<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1655841964143-1655841964143.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li></ul><br />After 4:<ul><li>A tooltip explains that you can make as many teams as you'd like during the trial</li></ul><br />After 6:<ul><li>A modal opens telling you that you need to upgrade to get those features<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1655842281185-1655842281185.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ea12df9d44d41f41b5db809f78742106807be192f5a2de6709dc7ff2650b47a9885983e8a6e0546c5279c51d55d3916",
+  "stepsHashed": "424b0e0c32a394cda4339040a28dafb6501d338f3468fad33c8e0eb388df9702a9051e5d5ea4cdf9e7bf6c474380d2da"
+}

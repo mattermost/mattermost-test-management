@@ -1,0 +1,55 @@
+{
+  "id": 7242501,
+  "key": "MM-T3394",
+  "name": "Omnibus: General Mattermost smoke tests",
+  "createdOn": "2020-10-01T19:54:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "5.34-p1"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 821856,
+    "name": "Omnibus",
+    "parentId": null,
+    "fullNames": ["Omnibus"],
+    "fullPath": "omnibus"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI", "Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Omnibus"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "General Mattermost smoke tests<br>–––––––––––––––––––––––––<ol><li>With the package installed, run some smoke tests using different parts of it. Check that the platform works correctly with things like uploading files, connecting the mobile app, receiving notifications, creating webhooks, changing the configuration, etc</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><em>Everything should work as expected&nbsp;</em></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86116d1d7356c44f9134a56d08fbb86bca48542f45109187a6988a155bfbabac22fd06f99fb631e889b3e3ba05e0049a",
+  "stepsHashed": "923e6ce5074f1913e4d2f01b128c3e5ccce29d5c5425044ca2a1274cab5709765ad1207821f65c005f5ddf5e69f37746"
+}

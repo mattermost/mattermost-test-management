@@ -1,0 +1,120 @@
+{
+  "id": 20431495,
+  "key": "MM-T4774",
+  "name": "Mobile V2: Smoke Test - Channels",
+  "createdOn": "2022-04-11T21:09:27Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2277498,
+    "name": "Smoke Test",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Smoke Test"],
+    "fullPath": "mobile-v2/smoke-test"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to join a new channel and switch to an existing channel</strong><br />--------------------<br />1. As admin, create a new channel so that user can join, then open browse channels screen and join the new channel<br />2. Verify on newly joined channel screen<br />3. Go back to channel list screen and switch to an existing channel<br />4. Verify on the other channel screen<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to create a channel and create a direct message</strong><br />--------------------<br />1. Open create channel screen and create a new channel<br />2. Verify on newly created public channel<br />3. As admin, create a new user to open direct message with, then go back to channel list screen, open create direct message screen and open direct message with new user<br />4. Verify on direct message channel screen for the new user<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to post a message in a channel</strong><br />--------------------<br />1. Open a channel screen and post a message<br />2. Verify message is posted<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to find and edit a channel</strong><br />--------------------<br />1. Open find channels screen, search for the channel to navigate to, and tap on the target channel item<br />2. Verify on target channel screen<br />3. Open channel info screen, open edit channel screen, edit channel info, and save changes<br />4. Verify on channel info screen and changes have been saved<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to favorite and mute a channel</strong><br />--------------------<br />1. Open find channels screen, search for the channel to navigate to, and tap on the target channel item<br />2. Verify channel is favorited and muted<br />3. Tap on favorited action to unfavorite the channel and tap on muted action to unmute the channel<br />4. Verify channel is unfavorited and unmuted<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to archive and leave a channel</strong><br />--------------------<br />1. Open a channel screen, open channel info screen, and tap on archive channel option and confirm<br />2. Verify on channel screen and post draft archived message is displayed<br />3. Open channel info screen, and tap on leave channel option and confirm<br />4. Verify on channel list screen and the channel left by the user does not appear on the list",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9822e727819b9dc9a6fc22c5c777df8e3b2a2c234f6e71cd09de0ab84afc9edfe8d1df47e7175793349aaad27e8fd7b5",
+  "stepsHashed": "ee7bdd5ef91ed65ff15be4dd9b86647432bd52ad4d55793b0d5e0c01809ca524a15ca68fe37d4e30291266a1f1ebc1fd"
+}

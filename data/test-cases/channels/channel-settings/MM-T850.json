@@ -1,0 +1,55 @@
+{
+  "id": 4035719,
+  "key": "MM-T850",
+  "name": "RN apps: Favorite a channel",
+  "createdOn": "2020-01-18T01:00:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Tap on the button to the right on \"Favorite\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Button should show green (selected) and be displayed in 'FAVORITES' list of channels</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a330da26211c532a7df4ca6697138cd2a4a28ef95ee7bbfd7d9e0006eb8dad9b08f8c64f573e206c93bedb0f6f8fcc58",
+  "stepsHashed": "36ed9d01e1ee02434f50ef0228602c2df2d0cf7d5ca71930768a47cc1d034b929bf10d2b5b9a6e9524e18b4476e9a78c"
+}

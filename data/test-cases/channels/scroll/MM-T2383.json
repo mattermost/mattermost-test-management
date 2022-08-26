@@ -1,0 +1,55 @@
+{
+  "id": 5467499,
+  "key": "MM-T2383",
+  "name": "Center Channel Scroll with RHS open",
+  "createdOn": "2020-05-21T22:33:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Center Channel Scroll with RHS open<br><br>————————————————————————————<ol><li><strong>As the test user</strong> open a channel and scroll all the way to the bottom</li><li>Open the reply thread for the last post and reply</li><li><strong>As another user</strong>, make several post in the reply thread of the channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><strong>As the test user</strong>, observe that the center posts scroll even with RHS open.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "abe808586ed9b0a07f8ffe55fd21652e9c42510d9cb9a8fb8f1ca7c82dbe23f44c0b623ab866aac2981f946a05c3ca45",
+  "stepsHashed": "93ca99fa03c1bb45bb7be4c2716e360b82f36d112f3977902f13df284696a839b5a3667b1d00aaf4d93f3f951c24ed76"
+}

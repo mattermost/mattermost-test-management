@@ -1,0 +1,55 @@
+{
+  "id": 4058078,
+  "key": "MM-T1068",
+  "name": "Teammate Name Display: at-mention in message",
+  "createdOn": "2020-01-22T16:25:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: at-mention in message<br />--------------------<br />Test with each different setting (included in Se tests)<br /><br />1. Type @ and the beginning of a user's Se-IDEntifier (nickname, first/last, etc.) in message (or reply) box<br />2. Click autocomplete suggestion for the user you want to mention<br />3. Press Enter to post the message",
+        "testData": null,
+        "expectedResult": "In posted message, user's Se-IDEntifier displays according to teammate name display setting",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dccffdc05822a7132f49a8a846de15a8095f2df48984356ec46d05953cbb7f67fe6f6de19a2b2ce72426cf5e9de886db",
+  "stepsHashed": "f6aa8dd34213b1d0e923e131f28f1060fd55e6734bc0971c2eafac4de9594a1bfd9c45a22d81080d78364972d4e30527"
+}

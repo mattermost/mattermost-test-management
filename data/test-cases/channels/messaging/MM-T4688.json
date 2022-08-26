@@ -1,0 +1,55 @@
+{
+  "id": 19514053,
+  "key": "MM-T4688",
+  "name": "Post menu: Copy Text menu item should copy post message to clipboard",
+  "createdOn": "2022-03-18T14:44:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Copy Text menu item should copy post message to clipboard</u><ol><li>Join a test channel</li><li>Post a message</li><li>Click on 3dot icon to open post menu</li><li>Click on \"Copy Text\" to copy the message <ol><li>Verify clipboard content are correct</li></ol></li><li>Post a different message or use the same as above</li><li>Click on 3dot icon to open post menu</li><li>While menu is open click on \"c\" keyboard key to copy message text<ol><li>Verify clipboard content are correct</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Copy Text menu item should copy post message to clipboard",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7c259a1a9aa66c2e811e68695f7a65de057fc7f803691df9f94e00b235b4d2064fe1cd66392cf7adff844311b3a11421",
+  "stepsHashed": "e873586b1c56496146acbe7a02f21930c86522a288f8bb8b291a27d21d69753505fe2d88b50d0422879daeea0e89acb1"
+}

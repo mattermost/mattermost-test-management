@@ -1,0 +1,55 @@
+{
+  "id": 8620842,
+  "key": "MM-T3735",
+  "name": "Team - Delete : non-existent team",
+  "createdOn": "2021-01-18T11:58:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team delete [non-existent-team]",
+        "testData": null,
+        "expectedResult": "Returns an error as the team doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2f85c83022125a2b6aa8ed955256c9a89a5f853833b06253e36508468256f44d1dddcfee6cdca4a5e82a54eccf461258",
+  "stepsHashed": "8e297b60224ac425dbe6761cafec7ccf930063acee10ac9ea17ec863b57fa9dd98b317e39ab3acdfb1e7b9f85235b5c4"
+}

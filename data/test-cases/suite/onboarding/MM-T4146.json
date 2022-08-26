@@ -1,0 +1,68 @@
+{
+  "id": 13488675,
+  "key": "MM-T4146",
+  "name": "Tips and Next Steps",
+  "createdOn": "2021-08-16T06:04:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404328,
+    "name": "Onboarding",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Onboarding"],
+    "fullPath": "suite/onboarding"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Cloud N/A"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as sysadmin and reset onboarding preference (recommended_next_steps).</li><li>Visit town-square channel (for the first time) and see that \"Welcome to Mattermost\" is shown.</li><li>Click \"Skip Getting Started\" and validate the page.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Check that \"Tips &amp; Next Steps\" is shown</li><li>Check that the following cards are shown:<ul style=\"list-style-type:disc\"><li>Connect your favorite tools</li><li>Manage your workspace</li></ul></li><li>Ensure that \"Resolve incidents faster\" card is not shown</li></ol><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Create a new regular user and visit town-square channel for the first time.  See that \"Welcome to Mattermost\" is shown.</li><li>Click \"Skip Getting Started\" and validate the page</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Check that \"Tips &amp; Next Steps\" is shown</li><li>Check that the following cards are shown:<ul style=\"list-style-type:disc\"><li>See who else is here</li><li>Learn Keyboard Shortcuts</li><li>Explore channels</li></ul></li></ol><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "20843761dd9a4e65599d59f185f52912a1b8480b4b0033eedaa9f698e043f5f23c864e21c8c37e15a793c1c5cb252bce",
+  "stepsHashed": "3ed5800e80fc626f99ad86843a0068916df4b40d0cbc5025fbb3b5b3cb066b42ceb5adc25327265da5df0658ca346181"
+}

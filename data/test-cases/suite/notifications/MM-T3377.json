@@ -1,0 +1,55 @@
+{
+  "id": 7136844,
+  "key": "MM-T3377",
+  "name": "RN apps: Channel Mobile Notifications - All",
+  "createdOn": "2020-09-23T22:53:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.36 Mobile (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to select <strong>For all activity</strong> option and display <strong>All</strong> next to Mobile Notifications<br>--------------------<br>1. Login to server and go to a channel<br>2. Open Channel Info<br>3. Tap on <strong>Mobile Notifications</strong><br>4. Tap on <strong>For all activity</strong> option<br>5. Tap on navigate up button",
+        "testData": null,
+        "expectedResult": "After #4,<ul><li><strong>For all activity&nbsp;</strong>option is selected</li></ul><br>After #5,<ul><li>Abbreviated setting <strong>All</strong> should appear next to <strong>Mobile Notifications</strong></li></ul><br>Verify behavior of notification for the specific channel is the same as <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T518\">RN Apps: Settings - Push Notifications - All activity, including when online</a>",
+        "customFields": {
+          "Fix Versions": ["v1.36 Mobile (October 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-5973\">https://mattermost.atlassian.net/browse/MM-5973</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b840c82ea91f15d081205f314fd2b1c541561fedb8e6d47c48985766ede9e3b7e65ced6bafb87a1ad8864e007e600cf3",
+  "stepsHashed": "9067b7c4d307f93ad0ea7ac6fa6392bc04d7a7acfd82620eed06ee4e74a5c0ec88b2d1d6c344a0abe4ec6efe737c0897"
+}

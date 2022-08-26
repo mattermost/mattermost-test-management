@@ -1,0 +1,55 @@
+{
+  "id": 4060251,
+  "key": "MM-T1223",
+  "name": "Turn SQL Logging On",
+  "createdOn": "2020-01-22T21:45:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569446,
+    "name": "Database SQL Logging",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Database SQL Logging"],
+    "fullPath": "suite/system-console/database-sql-logging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Turn SQL Logging On<br>–––––––––––––––––––––––––<ol><li>Login as sysadmin and visit the page</li><li>/admin_console/environment/database</li><li>Set the SQL Statement Logging field to true and restart the server.</li><li>Check the server logs in the page</li><li>/admin_console/reporting/server_logs</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>When the SQL Statement Logging is turned on, it should print SQL statements in the logs</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19422\">LDAP/Elasticsearch/SQL Trace should be put in server logs — MM-19422</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8124d55969cebed4999c601c1be88b0b2aa9f32f1f83d1b8bb6ba7480f8498d9bf11c1f73d3e9769338a779899b2825f",
+  "stepsHashed": "9d0e8a2b1623fe22a3890aeea71c4c5d6812338a23d4d31d6cc9a37535ec44f6511d2484c138984bea8521ae21030218"
+}

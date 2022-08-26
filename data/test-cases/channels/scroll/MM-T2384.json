@@ -1,0 +1,55 @@
+{
+  "id": 5467500,
+  "key": "MM-T2384",
+  "name": "Text selection",
+  "createdOn": "2020-05-21T22:33:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Text selection<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Select text that includes several posts<br />2. Copy and paste the text",
+        "testData": null,
+        "expectedResult": "All the selected text is properly copied and pasted in the correct order",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14946\">Copying text from by selecting does not copy jumps — MM-14946</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a2437e37189f16e7a9357521100463608922fa8f0cb42bf3ab094bda97cdd9ce03d39e7f1877c17146202b4f89b01a2e",
+  "stepsHashed": "eae17a30e7719b07272f23756593577057872b9842e272a422ea02757789163a0fb9f66af237f4f5b1eac400e6e03a70"
+}

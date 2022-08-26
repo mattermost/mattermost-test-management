@@ -1,0 +1,55 @@
+{
+  "id": 18856654,
+  "key": "MM-T4665",
+  "name": "User Groups Modal-  Edit Group Details",
+  "createdOn": "2022-03-02T15:44:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as UserA</p></li><li>Create <strong>GroupA</strong> , <strong>GroupB</strong> and <strong>GroupC</strong></li><li><p>Click Product Switcher Menu </p></li><li><p>Click User Groups option</p></li><li><p>Click Group name</p></li><li><p>Click 3 dots menu icon next to Add People button</p></li><li><p>Click Edit Details option</p></li><li><p>Type group name in Name field</p></li><li><p>Click Save Details</p></li></ol>",
+        "testData": null,
+        "expectedResult": "<p>7. Verify following information in the modal:</p><ol><li><p> Edit Group Details popup should be displayed.</p></li><li><p>Two fields should be displayed under Edit Group Details section</p></li><li><p>Selected group should be displayed.</p></li><li><p>Back button at the lower right corner of the modal should be displayed</p></li><li><p>Save Details should be disabled.</p></li></ol><p>8. Save Details should be highlighted.</p><p>9. Group name should be updated. </p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58e43cca75b79b777ea010fcd38ff6fdd29e2500891076f59c822da29b79b8fb27d84cbf185200325697d2f69a268e1b",
+  "stepsHashed": "878dfb7c9c1a9bf24ec7e34cc81f715b650afbe8ade47d62ae4fc80e8a0fd2121528502b7f75739606f67a8bdb969f14"
+}

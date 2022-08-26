@@ -1,0 +1,55 @@
+{
+  "id": 3904523,
+  "key": "MM-T469",
+  "name": "Post a mention in a GM (in-channel)",
+  "createdOn": "2020-01-03T14:24:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Friday, March 12, 2021 11:12 AM<br />• Added to 🌐 Webapp for manual testing as it fails repeatedly on Cypress<br />• It's already being tested on Rainforest but this will bring it back to light until we can get Cypress to work",
+    "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post a mention in a GM (in-channel)<br>–––––––––––––––––––––––––<ol><li>Have another user open a GM with you and at least one other user</li><li>Have that user post a message in the GM that @-mentions your user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You see a Number badge showing an unread mention in that GM Channel</li><li>You receive notifications (desktop, email, mobile push) based on account settings</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a391b7fb7bb983685b3708695f4519b7c500441e86315697dab08c425fc94fe5bab2dc9015a75a9793035d3bf4bb6c1c",
+  "stepsHashed": "b995298e5fd388d19db50c8f9c3fb2519f9475f5e2951f5698b4e4cdccd3ac28d8fff15850589e4fe2f0dfdd189586ad"
+}

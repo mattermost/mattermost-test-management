@@ -1,0 +1,55 @@
+{
+  "id": 7121799,
+  "key": "MM-T3372",
+  "name": "RN apps: Empty Recent Mentions",
+  "createdOn": "2020-09-22T21:51:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.36 Mobile (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Empty Recent Mentions<br>--------------------<br>1. Login to a server where user doesn't have any mentions<br>2. Tap hamburger menu, then tap <strong>Recent Mentions</strong>",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Screen should contain (see image below)<ul><li><strong>@&nbsp;</strong>icon</li><li><strong>No Mentions yet&nbsp;</strong>header</li><li><strong>Messages where someone mentions you or includes your trigger words are saved here.</strong> description</li></ul></li></ul><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1600811490262-IMG_0280.PNG\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": ["v1.36 Mobile (October 2020)"],
+          "Related ticket(s)": "https://mattermost.atlassian.net/browse/MM-27677",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c957ecd6222919bec919ca861779c1db196fdd163bf996956e713591d900e23e3146a16f6d7934f0f6d1b780e304b19e",
+  "stepsHashed": "10e291a601b8bd3b4e1aa0941945c4ea8bd1fbc53d2db4864850ddfa606bfb80e179162b98acb981dc8a8716e0db2d80"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 4051783,
+  "key": "MM-T1028",
+  "name": "Custom brand image and text - true, and uploaded / updated",
+  "createdOn": "2020-01-21T22:18:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom brand image and text - true, and uploaded / updated<br />--------------------<br />1. Set &quot;Enable Custom Branding&quot; to &quot;true&quot;<br />2. Upload a &quot;Custom Brand Image&quot; (Upload button should continue to say Upload, not Uploaded, until after image is saved)<br />3. Enter some text in the &quot;Custom Brand Text&quot; box<br />4. Save<br />5. Logout or open an incognito window or hard refresh if login page is already open",
+        "testData": null,
+        "expectedResult": "The custom image with text and the site description should appear on the sign in page.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1ae3e4414d12f50e46279f3feb0b995749c5c49e51fc028ca1f26e5886a92998f594823dfec4e155c768e6e2f60aa3cc",
+  "stepsHashed": "21568d87777896cf2f48d6e8b4838244d09c1a468dd790219dc84f44d903b0ce805dd78f76f7d2eb9551dfdea9b168a9"
+}

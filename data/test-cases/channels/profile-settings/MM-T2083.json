@@ -1,0 +1,55 @@
+{
+  "id": 5444631,
+  "key": "MM-T2083",
+  "name": "Password: Too few characters in new password produces error",
+  "createdOn": "2020-05-20T05:50:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Password<br />————————————————————————————<br />Note: Log in with email<br />1. Go to User menu-&gt;Profile-&gt; Security -&gt; Password-&gt; Edit<br />2. Enter Current password<br />3. Enter a New password two letters long<br />4. Retype New password<br />3. Save",
+        "testData": null,
+        "expectedResult": "Error message \"Your password must contain between 5 and 64 characters.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c3895184567343f3d507b924291ff77b2b8efbf9f8a808641ad264ce6edac3db41c388b84df63be9686380ceabe22243",
+  "stepsHashed": "82b3e13864072e7989216a04f1233486de28c58b419ed301ac5932bc6b6ba802b4fc7099c583da6e41ece868ec82bd86"
+}

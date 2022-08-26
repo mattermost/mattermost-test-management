@@ -1,0 +1,55 @@
+{
+  "id": 4058067,
+  "key": "MM-T1057",
+  "name": "Teammate Name Display: Set up users for tests",
+  "createdOn": "2020-01-22T16:25:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: Set up users for tests<br />--------------------<br />Setup: Have five other users on a team set up as follows. As you log in to each user's account to change their settings, post a message from that account.<br />a. Username only<br />b. First and last name set (no nickname)<br />c. Nickname (no first or last name)<br />d. First name only (no last name or nickname)<br />e. First and last and nickname",
+        "testData": null,
+        "expectedResult": "Confirmed (and fixed) in v5.4: Any change to Account Settings overrides (and continues to override) System Console setting.<br /><br />So the Se test has been adjusted 10/9/18 5.5 release testing to:<br />1. Verify each System Console setting behaves as expected, BEFORE the user who is viewing makes any changes to their Account Settings setting<br />2. Verify when the user changes Account Settings setting, that setting is honored (and the System Console settings is overriden)<br />3. Verify if System Console changes after user changed their setting, the user sees no change<br />4. Verify (just for fun) that if the user changes their setting to match System Console, all display as expected<br /><br />Update test steps listed here in spreadsheet to reflect the changes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d14289c52f6cc93f611b6a31bc33a0ad95420c6ff2aaddbf89df4e4c471a7a817d5cf037f17126eaf99f87ffbeda3d7",
+  "stepsHashed": "8ce3113269b8b6549ecc12803752c8b91c6635094d36e7d19f6e46637d90eead315e7004f0ded7ddd4462d1b843b1679"
+}

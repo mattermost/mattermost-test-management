@@ -1,0 +1,55 @@
+{
+  "id": 23848087,
+  "key": "MM-T4861",
+  "name": "Show single image thumbnail in standard mode",
+  "createdOn": "2022-06-09T19:57:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Jelena 6/9/2022- Creating in order to add test case id to existing cypress test. ",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Show single image thumbnail in standard mode<ol><li>Login and visit Town Square channel</li><li>Set the message display setting to standard i.e. not compact</li><li>Upload an image</li><li>Post it with a message</li><li>Get to last post's message<ol><li>Check if the typed message appeared in the post</li><li>Check that we don't show the image name</li><li>Check if image appears </li><li>Check if collapse/expand button appeared, since it's an icon button without text, finding it by aria label, as that's what the screenreader will call out</li><li>Check the image height property is 350px</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "Posted image with text should have collapse/expand button, no image file name and should display with the correct height property of 350px.",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3b49c3e1f590d0f5acfb4877839ce52073c358ce8ae9d9c1318ed9873015317a5ffa7f7b0ceeb9c603eac63f7b0d2b5f",
+  "stepsHashed": "055368cea0aaefaff67a023d3743514790a5265ae52812d75cf2ef55b04db847ef6857f33ebbd36f5f5fd3e1b9e5dec4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4152357,
+  "key": "MM-T1374",
+  "name": "Don't show guest badge for DM's in search",
+  "createdOn": "2020-01-30T23:27:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Don't show guest badge for DM's in search<br>–––––––––––––––––––––––––",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9df56ea646d3a79dcca3d7adb0ee0f78c087d0b105ac6587bf1c7e94e8af0a127218a165c759e81ab9951971670c4a7a",
+  "stepsHashed": "f0dbab21a2eadbe6e00118d38f54f47b94a4f29cf9918b803bdbb133997b1a822d88797c918a4dac23de13657135c6d5"
+}

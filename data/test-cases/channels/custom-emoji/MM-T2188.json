@@ -1,0 +1,55 @@
+{
+  "id": 5444788,
+  "key": "MM-T2188",
+  "name": "Custom emoji - delete emoji after using in post",
+  "createdOn": "2020-05-20T06:05:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "se-prod", "messaging", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2960960,
+    "name": "Custom Emoji",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 24, 2020 1:10 PM<br />• Cypress Automation working as expected 🎉<br />• Set Cypress status to ✅ in Production<br />• Set Duplicate Automation field to Selenium<br />• Added TM4J-Key-Mapped-In-Cypress-Release label<br />• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Custom emoji - delete emoji after using in post</u><br /><br />1. Post a custom emoji in a channel<br />2. Click on Main Menu &gt; Custom Emoji<br />3. Click \"Delete\" beside the custom emoji name<br />4. Press Enter in confirmation modal<br />5. Refresh<br />6. Go back and observe the channel the emoji was posted in",
+        "testData": null,
+        "expectedResult": "Emoji is removed from the list and only text renders in the channel (instead of the emoji that was previously shown)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f7a06c4a82865ca7fb7124a6cb28d8a4ee626bd74079dcbdf6b18f78f8aeed26741a332ef546e8f38d3f990d512cee07",
+  "stepsHashed": "05e65e5330d9213b3c88503ea042e770a53b015676d043f3e0252cdd7617e83a1fd00a9c25a85f89acc3f23a4bb6bb65"
+}

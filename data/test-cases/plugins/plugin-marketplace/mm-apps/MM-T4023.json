@@ -1,0 +1,81 @@
+{
+  "id": 24210969,
+  "key": "MM-T4023",
+  "name": "MM Apps can be installed via marketplace",
+  "createdOn": "2022-06-21T03:55:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1302232,
+    "name": "MM Apps",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "MM Apps"],
+    "fullPath": "plugins/plugin-marketplace/mm-apps"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 20 Jun 2022: Created new test case version 2.0: Updated to reflect newer Marketplace functionality and to deprecate old functionality. This test verifies can install plugin from Marketplace.<br />  - Also adding RF test: MM-T4023 MM-T1987 System admin can install and configure plugin from Marketplace",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "MM Apps can be installed via marketplace &nbsp;<br>1. Locate a server with a cloud license applied<br>2. Open the Plugin marketplace<br>3. Locate Apps and click install<br>4. Click approve and install o the modal",
+        "testData": null,
+        "expectedResult": "Apps plugin can be installed and is showing in the UI",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Type <em>apps list</em> and not the plugin-id<br>2. Use the /apps uninstall command to uninstall the app<br>3. <em>apps list</em>&nbsp;",
+        "testData": null,
+        "expectedResult": "On 2. The App is no longer visible in the UI <br>On 3. The App is shown in the list as available but not installled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open the marketplace and locate the test app<br>2. Locate Apps and click install<br>3. Click approve and install o the modal",
+        "testData": null,
+        "expectedResult": "- The app can successfully be re-installed<br>- The bot for the app has been re-enabled<br>- A new oAuth application has been created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ebae70d82e3f0e2a7c72f28f830b19e25c48ff54f80fe5eed4705865be65bca992e223fd9bc8defc67a271f5983487b4",
+  "stepsHashed": "087b5ce533a6c6360cca001f8299812c70e23e2b8ed0411ef5c6fccf1a0485a9a17dda29cd2163e49dbde12cd7ef09e9"
+}

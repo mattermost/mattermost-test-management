@@ -1,0 +1,55 @@
+{
+  "id": 2763221,
+  "key": "MM-T35",
+  "name": "MM-17579 — Stuttery dropdowns in Safari",
+  "createdOn": "2019-08-28T16:08:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login to <a href=\"https://rc.test.mattermost.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://rc.test.mattermost.com</a> using Safari</li><li>Click on the ☰ menu several times</li><li>Click on the channel header dropdown several times</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The menus appear without hesitation and are smooth (no jitter)</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17579\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17579</a>&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e3aeb519bc4aa052891039c8f16a4c3a78f569304f4a7d6aef72319b34241b8462d4584a1ae9d22564fdd1134f35c909",
+  "stepsHashed": "ee90823a10c60bae3252cf49fafa3bf6279a6b23e67c9341a35b060937dff1765af81209ffd85421b02195657e6b9450"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6396873,
+  "key": "MM-T3197",
+  "name": "RN apps: Load users in long Add Members list (channel)",
+  "createdOn": "2020-07-30T21:04:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Load users in long Add Members list (channel)<br>————————————————————————————<br>On a server with enough users to fill several pages of scrolling (such as community-release.mattermost.com):<ol><li>Tap \"Add Members\" on a channel info screen</li><li>Swipe up repeatedly (10+ times) to load more users in list</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Users should continue to load, without skipping any (should be obvious if it's skipping big chunks of users; also can compare to Add Members list on browser)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f72db767f7dc34294be330f3dc189e57d2273493a5665a89e22bd2ed7fb1a8b39a2ca50fa29f4025a6f45d61b81fa524",
+  "stepsHashed": "9701e921ed4a147deae29ab5cba5936dea50f164d5697ec20e8dc6851db8f50975e1f79eaed3e42b89a737897bdb3878"
+}

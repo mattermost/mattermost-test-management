@@ -1,0 +1,55 @@
+{
+  "id": 5445612,
+  "key": "MM-T2303",
+  "name": "Markdown surrounding a hashtag doesn't prevent linking and search results",
+  "createdOn": "2020-05-20T06:50:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Markdown surrounding a hashtag doesn't prevent linking and search results<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Assuming previous test post<br />2. Click italic `#markdown`<br />3. Click boldface `#markdown`<br />4. Click strikethrough `#markdown`<br />5. Click H5 `#markdown`",
+        "testData": null,
+        "expectedResult": "After each one, verify test post displays in RHS search results and all `#markdown` instances are highlighted (can close sidebar between each one just to be sure)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "044610bca3554370157d2d124c06154d0b81ab441c3deb551abc75e450897f910b33bfd116d4532ec4503a0790938672",
+  "stepsHashed": "30d26975cac0096428b93b708d80ac19120029aa2fd8c92fcc9d7c35c6ac9ecc2d8346a5327194b344bc2f4c2cd8194b"
+}

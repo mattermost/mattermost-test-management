@@ -1,0 +1,55 @@
+{
+  "id": 5602299,
+  "key": "MM-T2770",
+  "name": "Can display status of a team or channel, when group-constraint is disabled",
+  "createdOn": "2020-06-01T22:09:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can display status of a team or channel, when group-constraint is disabled<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />group team status ui-automation2<br />group channel status ui-automation:headertest",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15164\">Add ability to switch a team or channel to be group-constrained via the CLI — MM-15164</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cffe36de8ff1ebc64a700b41127e496bcba89e4b10b981a6ed908b2005a8dd2cc521322f4e9499c5a86bc65ae8f12249",
+  "stepsHashed": "560e20c2a4dae335b9be30875f1ea9638af2f9170ad8e15d57defc7a74fede48cc7787370fb0cf7d48b4263b65038ad4"
+}

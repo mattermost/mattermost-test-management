@@ -1,0 +1,55 @@
+{
+  "id": 8022872,
+  "key": "MM-T3574",
+  "name": "Community Testing - Select second action",
+  "createdOn": "2020-11-26T20:57:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054401,
+    "name": "Welcome Bot",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In Welcome Bot DM channel, click the second button in the welcome message",
+        "testData": null,
+        "expectedResult": "Welcome Bot responds back with list of channels you were added to. Confirm you were added to each of those channels.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "194d76da2ea8d617f1be8956f88ae640c6bc39bde9d762a6bd6fd883ef889171bd4975a313fcdc1efb44cd33e131479f",
+  "stepsHashed": "9fb206575fa603186a782297f497fe1c16aa34376d72a86b8d54268207eff376891bfdadb8a488529f8abd07c99a9992"
+}

@@ -1,0 +1,108 @@
+{
+  "id": 9490119,
+  "key": "MM-T3926",
+  "name": "Test app - Forms and Lookups",
+  "createdOn": "2021-03-16T23:14:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1941501,
+    "name": "(prev)",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test valid empty_from</em>",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral system post that says \"Ok\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid with_form<br>3. Add test by typing <em>--text \"hello\"</em><br>3. Click above to add quotes<br>4. Send",
+        "testData": null,
+        "expectedResult": "On 4. Quotes are added<br>On 5. The apps makes an ephemeral system post that says \"Ok\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid no_form<br>3. Add test by typing <em>--text \"hello\"</em><br>3. Click above to add quotes<br>4. Send",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "On 4. Quotes are added<br>On 5. The apps makes an ephemeral system post that says \"Ok\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid lookup --lookup<br>3. Select <em>sv1&nbsp;</em>from the available options <br>4. Send",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "No error or response is seen in the lookup call",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type /com.mattermost.test valid empty_lookup --lookup<br><br>",
+        "testData": "Not sure if it sure add quotes",
+        "expectedResult": "Help tip shows \"Received no data for dynamic suggestion\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f935bab2fb8290549e097d27b5f46c0808449b384c5552953d03c0cdf2f4ab1df8e481d70b0b13322a2cd180e8a273f2",
+  "stepsHashed": "55cafe8aa580b3e58efc79f72e94add6e7328d73a60ecfa49bc6c2eaa4e5471310f881c77e43937fff153baa23236b63"
+}

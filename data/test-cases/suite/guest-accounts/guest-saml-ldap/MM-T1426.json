@@ -1,0 +1,68 @@
+{
+  "id": 4152459,
+  "key": "MM-T1426",
+  "name": "SAML Guest Attribute change",
+  "createdOn": "2020-01-31T00:09:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581564,
+    "name": "Guest SAML LDAP",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
+    "fullPath": "suite/guest-accounts/guest-saml-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Suite Users"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Ensure SAML setup is done correctly on an instance</li><li>Ensure Guest Access is turned on in System Console &gt; Guest Access.</li><li>Navigate to System Console &gt; SAML and set Guest Attribute to \"isGuest=TEST\".</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User should be logged in as a Member.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20866\">Guest Filter and Guest Attributes should be disabled/hidden in the LDAP and SAML settings when Guest Access is disabled — MM-20866</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Now on a new browser login with a user who has isGuest=true. User would be logged in as Member.</li><li>Navigate to System Console &gt; SAML and set Guest Attribute to \"isGuest=TRUE\".</li><li>Revoke session of all users and ensure the user in step 4 logs in again.</li><li>Next time the user logs in, the user should be converted to a Guest user.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User would be demoted to a Guest user. Whatever teams the user had access to those should be retained and guest user should have access to the default channels in those teams.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b4d73a5c686594d219692a80a260a4610aabfd2197a4b4166b5a888907b93cbf255ecfe9760906d2288d64b475e11108",
+  "stepsHashed": "d3b6e40941dabdc8445b372cf521bed96545e296e8095f0def79c502f7519ed6c379b426e875e1899d2727bbedcddb29"
+}

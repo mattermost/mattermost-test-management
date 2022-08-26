@@ -1,0 +1,82 @@
+{
+  "id": 21308632,
+  "key": "MM-T4778",
+  "name": "Valid Ok command",
+  "createdOn": "2022-04-26T21:42:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2558579,
+    "name": "Valid test commands",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Valid test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/valid-test-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test test-command</em><em> valid OK</em><br /><br />",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post that shows a json object which includes \"Ok\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651009997901-1651009997901.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Make a post and expand the post options menu<br />3. Click the `Ok` option from the menu<br /><br />",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post that shows a json object which includes \"Ok\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651009997901-1651009997901.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Click the `Ok` option from the channel header (or App Bar if it's enabled)",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post that shows a json object which includes \"Ok\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651009997901-1651009997901.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "39c6982f1012ff98e12104e3adb425c2b247ef882d537badba52f65d56bfc3c741633a0202a4c154179585792e69889f",
+  "stepsHashed": "85de3be87a0d6f966de8acc0398f26336f511827da0c1d304ac6e324aecc771b76b6a6646639c25d2e03b3190b4faf33"
+}

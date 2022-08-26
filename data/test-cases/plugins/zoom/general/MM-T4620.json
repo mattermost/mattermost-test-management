@@ -1,0 +1,55 @@
+{
+  "id": 17980407,
+  "key": "MM-T4620",
+  "name": "Zoom warns you when another meeting was created within the past 30 seconds",
+  "createdOn": "2022-01-31T22:10:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2157124,
+    "name": "General",
+    "parentId": 2157120,
+    "fullNames": ["Plugins", "Zoom", "General"],
+    "fullPath": "plugins/zoom/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open 2 mattermost session with users<br />2. As test user 1 start a Zoom meeting<br />3. As test user 2 start a Zoom meeting in the same channel",
+        "testData": null,
+        "expectedResult": "For user 2 - The post created by Zoom warns you that a Zoom meeting was recently started and gives you the option to Create and Join",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Note that this test can be run with Zomm configured using any authentication method."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "df853284a2f1681f2d54cdc4359039967d1330d863d18700a9d175691b71c7c82b1f48bf915c4bf8f3b2b6b28f2abf5d",
+  "stepsHashed": "e30e976e2ce12459e6f203becc48be4a14cf5f03f27886a63e6fa704cf22ec5a1f5822375a28dfd860b1a13cf69ea255"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 15984355,
+  "key": "MM-T4341",
+  "name": "/bitbucket subscribe - default notification preferences",
+  "createdOn": "2021-11-04T17:43:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915243,
+    "name": "Subscriptions",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post \"/bitbucket subscribe DHaussermann/helloworld\" to a private channel",
+        "testData": null,
+        "expectedResult": "User receives an ephemeral message noting the subscription was successful",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1264b0b306c2da6a440b13651891f0afd7f7073893b9853fa3d622040cfbb12a3674fcd3a49580d90813f98e6aff497",
+  "stepsHashed": "38e92a516c1cebdc773da9bdd94bd99928aae7360bbb335df044bdb1e27e676f2177e8d146beefdb5fa006d9c5b43906"
+}

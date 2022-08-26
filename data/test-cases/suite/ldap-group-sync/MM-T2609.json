@@ -1,0 +1,55 @@
+{
+  "id": 5537290,
+  "key": "MM-T2609",
+  "name": "Upon group filter being removed so the group is back in Mattermost, group is unlinked by default but config is preserved",
+  "createdOn": "2020-05-27T21:13:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Upon group filter being removed so the group is back in Mattermost, group is unlinked by default but config is preserved<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Admin adjusts or removes group filter to no longer exclude the group that was excluded in the previous test<br />Admin sees the no-longer-excluded group in the Groups list, unlinked<br />Click to re-link the group, click Configure<br />Observe previously linked team/channels are still linked (config was restored)<br />User in previous test who had did not have that previously linked team/channel still doesn't have it/them until sync<br />Admin syncs LDAP",
+        "testData": null,
+        "expectedResult": "On re-linking, previous configuration is restored and new user gets linked team/channel<br />After re-linking and sync, existing user gets linked team/channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7235d3631bd6fbf23dbc09b828cf1113258ad74734a43e4b682462074c4548788b4e1e8c732439c6b0f77a6ee741acc0",
+  "stepsHashed": "ef6dae3ea72901e7226974be739d0b06c534948044b338617b69cd45f6535d590ff74dc9f1124d55131beef9bb748f2d"
+}

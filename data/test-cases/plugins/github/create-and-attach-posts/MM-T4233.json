@@ -1,0 +1,55 @@
+{
+  "id": 13721678,
+  "key": "MM-T4233",
+  "name": "Lock GitHub to a workspace",
+  "createdOn": "2021-08-30T15:45:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a syus admin and lock the plugin to a workspace such as `dhaussermann`<br />2. Connect to GitHub from mattermost and open the attach modal<br />3. Attempt to search for issues outside of the workspace",
+        "testData": null,
+        "expectedResult": "Only issues from target repos are searchable",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "93fdc946fb8e1bb8ae8ca17d7c3a09e8dc05a66f6de72a03f801f642b5fbb6fae87c4d3f546aa9ece76ed37381e731c1",
+  "stepsHashed": "80fb150120aa813d8f1bec0df982a2d9a524c5e4449a58c5c7e2a3ad56fc2bcb9fe800ec478fdbb257b3aad9beb6710f"
+}

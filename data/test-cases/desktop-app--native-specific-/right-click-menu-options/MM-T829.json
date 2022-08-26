@@ -1,0 +1,81 @@
+{
+  "id": 4033345,
+  "key": "MM-T829",
+  "name": "Desktop App shows spell check options when you right click",
+  "createdOn": "2020-01-17T18:21:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565217,
+    "name": "Right Click menu options",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Right Click menu options"],
+    "fullPath": "desktop-app--native-specific-/right-click-menu-options"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.3 Desktop App (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open Preferences/Settings</li><li>Ensure Check Spelling option is enabled</li><li>Restart the app if the setting had to be enabled so the spellcheck can take effect&nbsp;</li></ol><br>",
+        "testData": null,
+        "expectedResult": "<br>Check spelling help text is as follows:<br>\"Highlight misspelled words in your messages based on your system language configuration. Setting takes effect after restarting the app.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Write a misspelled word</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Underlined as red indicating a misspelling&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Right-click on the underlined word&nbsp;</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1579285645898-2020-01-17_13-25-02.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Popup menu appears with suggested spelling choices based on the system language and other options</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.3 Desktop App (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20645\" rel=\"noopener noreferrer\" target=\"_blank\">Desktop App no longer shows spell check options when you right click — MM-20645</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "68c7f5a41b4ba2b159e5d4be11c02c95912d9e3de65167d1560153d1de583312d1c74207186e542084d37c4db5ab76ea",
+  "stepsHashed": "0cd0874d35d26ef730f832969240d7870cae3c0bc7c248fabe946037843f5b653a50b700ad9e8bf38d2ef15bc1de47f4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17980405,
+  "key": "MM-T4618",
+  "name": "Zoom meeting link does not end automatically after launch.",
+  "createdOn": "2022-01-31T22:10:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2157124,
+    "name": "General",
+    "parentId": 2157120,
+    "fullNames": ["Plugins", "Zoom", "General"],
+    "fullPath": "plugins/zoom/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Click on the Start Zoom Meeting icon on desktop<br />2. Click on &quot;Join Meeting&quot;<br />3. Click on &quot;Open Zoom.us&quot; popup in chrome - observe desktop Zoom meeting post as you click",
+        "testData": null,
+        "expectedResult": "Several seconds later the post in the Mattermost thread correctly shows the meeting as joinable",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Note that this test can be run with Zomm configured using any authentication method."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4db4c5440349575e0f2de9da74a349c59e6d7d9de16af4cce75a5921cead795be4f56030ee20f5012a1bb7aef2cc4ab6",
+  "stepsHashed": "dbb8843e1a93011f94fd73be9d2b6060c7b7184533b1c106ed9ed23e51227736b39c3e5a465ade388a0abf7a1ee67727"
+}

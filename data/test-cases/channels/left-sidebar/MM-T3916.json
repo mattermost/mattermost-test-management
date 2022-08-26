@@ -1,0 +1,55 @@
+{
+  "id": 9470522,
+  "key": "MM-T3916",
+  "name": "Custom category name length feedback",
+  "createdOn": "2021-03-15T23:44:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Custom category name length feedback<br></u><ol><li>Click on the sidebar menu dropdown</li><li>Click on Create New Category</li><li>Add a name 26 characters in length e.g `abcdefghijklmnopqrstuvwxyz`<ol style=\"list-style-type: lower-greek;\"><li>Verify red border and negative character count at the end of the textbox based on the number of characters the user has exceeded</li><li>Verify Create button is disabled.</li></ol></li><li>Use backspace to remove 4 characters<ol style=\"list-style-type: lower-greek;\"><li>Verify red border and negative character count at the end of the textbox are no longer displaying</li><li>Verify Create button is enabled</li></ol></li><li>Click create&nbsp;<ol style=\"list-style-type: lower-greek;\"><li>Verify new category is created&nbsp;</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Verify user feedback is present when creating a custom 'Category Name' that exceeds the character limit of 22 characters&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "040c24a2bda48d3127ca09e1fb4e5c127e73ddceb47fc3e03615b7b86fee48f5f532fd63b5084a8434170fa4107ab09e",
+  "stepsHashed": "d2daf946c6b0debb6408cddb9e63f8507e9525c03e5090bbe97db3adca940ce0ec61a1a0279f80d408cc6e47febb4c7d"
+}

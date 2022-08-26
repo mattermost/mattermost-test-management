@@ -1,0 +1,55 @@
+{
+  "id": 4712176,
+  "key": "MM-T1545",
+  "name": "Post Reactions option removed for Guests & Members in System Scheme",
+  "createdOn": "2020-03-03T12:43:36Z",
+  "objective": "Post Reactions option removed for Guests &amp; Members in System Scheme",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as sysadmin and visit the Permissions page in the system console.</li><li>Edit the System Scheme and remove the Post Reaction option for Guests &amp; Save.</li><li>Visit the Channels page and click on a channel.</li><li>Note that the option to allow Post Reactions to a Guest user should be disabled. A message should be displayed indicating the same.</li><li>Similarly remove the Post Reaction option for Members in System Scheme &amp; Save.</li><li>The option to allow Post Reactions to a Member should be disabled. A message should be displayed indicating the same.</li><li>Login as a Guest User and visit the same channel.</li><li>Check if the user has the permission to react to their posts or to any other posts in the channel.</li><li>Login as a Regular Member and visit the same channel.</li><li>Check if the user has the permission to react to their posts or to any other posts in the channel.</li></ol>",
+        "testData": null,
+        "expectedResult": "After #4,<br><ul><li>Post Reaction option should be disabled for a Guest User. A message \"Post reactions for guests are disabled in the System Scheme\" should be displayed.</li></ul>After #6,<br><ul><li>Post Reaction option should be disabled for a Members. A message \"Post reactions for guests &amp; members are disabled in the System Scheme\" should be displayed.</li></ul>After #8,<br><ul><li>Guest User should not have the permission to react to any post on any channel when the option is removed from the System Scheme.</li></ul>After #10,<br><ul><li>Member should not have the permission to react to any post on any channel when the option is removed from the System Scheme.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(147, 101, 184);\">Epic</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11670\">Channel Moderation Settings — MM-11670</a></li><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"http://mmthttps%3A//mattermost.atlassian.net/browse/MM-23102\">Add E2E tests + Unit tests for Channel Moderation Widget — MM-23102</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0cb23954b773d6dfc43facc0cd04dd7375062d0658f579d9e10d52e64c78c6909986f7a688c1590b9144bcca843c27bf",
+  "stepsHashed": "f620eb2b34e456c508efc5a537d4131a946980e1f4fc3e27f0fee4f8094ace3f6dd23de880b3226d62a70c5c3d9db504"
+}

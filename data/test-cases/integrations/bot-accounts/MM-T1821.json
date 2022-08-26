@@ -1,0 +1,55 @@
+{
+  "id": 5280552,
+  "key": "MM-T1821",
+  "name": "Remove a bot from a team",
+  "createdOn": "2020-05-04T17:17:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404274,
+    "name": "Bot Accounts",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Bot Accounts"],
+    "fullPath": "integrations/bot-accounts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove a bot from a team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Create a bot <br />2. Add the bot created above to a team<br />3. With the team open, select Manage Member form the hamburger menu<br />4. Search the user list for the bot created above",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f5547e270615f11cb4a00ca40ffc668a25fc2de59787328f54e1764819466332386a9cf3a463cbfcf586d903dc88ebcf",
+  "stepsHashed": "55b741692f969217d1b093225b699958c4d2c1e89a02d3f5c1bcb052b205de077764b215a7800e844d21342eb574eb69"
+}

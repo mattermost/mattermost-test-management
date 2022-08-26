@@ -1,0 +1,55 @@
+{
+  "id": 5444666,
+  "key": "MM-T2118",
+  "name": "Advanced - Enter",
+  "createdOn": "2020-05-20T05:50:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063264,
+    "name": "Advanced",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Advanced - Enter<br />————————————————————————————<br />1. Go to  Settings -&gt; Advanced -&gt; Send Messages on Ctrl + Enter -&gt; Edit<br />2. Set to \"Off\"<br />3. Save<br />4. Type a message and press \"Shift + Enter\"<br />5. Press Enter",
+        "testData": null,
+        "expectedResult": "Hitting \"Shift + Enter\" creates a new line, hitting \"Enter\" sends the message.<br /><br />On mobile: Hitting Enter should create a new line.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ef26a23b8874ffb06b0213c114024b957d7f6d757d082f8d23279ef24c4427f75cac51bf46e45e0d2248215faf1da327",
+  "stepsHashed": "eb1d2827bee37eea4f4b8618c9511281972add49a81cb342a51ab2eb46b25d2b19a9541aa9b14b88b98b95c2b2c20ff2"
+}

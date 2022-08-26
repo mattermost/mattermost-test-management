@@ -1,0 +1,55 @@
+{
+  "id": 4174704,
+  "key": "MM-T1428",
+  "name": "Desktop App window returns to \"floating\" app position upon restart",
+  "createdOn": "2020-01-31T19:32:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565201,
+    "name": "Desktop App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Desktop App (native-specific)"],
+    "fullPath": "desktop-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.4 Desktop App (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Resize Desktop app to roughly half width</li><li>Position window left, right or place it in the center if you're feeling sort of middle of the road today</li><li>Quit/close app (Mac ⌘+Q / CTRL+F4 Windows)</li><li>Re-open the Desktop app</li></ol>",
+        "testData": "<br><br>",
+        "expectedResult": "Desktop app window maintains last position on screen",
+        "customFields": {
+          "Fix Versions": ["v4.4 Desktop App (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14135\" rel=\"noopener noreferrer\" target=\"_blank\">Desktop: [Mac] App window doesn't save \"floating\" app position — MM-14135</a>",
+          "Important notes about this step": "<ul><li>Original bug was discovered on Windows and fixed. Then it appeared on Mac.</li><li>When testing on Windows you can use the Windows key + left or right arrow to snap the window in place</li><li>When testing on Mac you can use either of the 2 following open source apps or whatever other one you may have installed. 🤓<ul><li><a href=\"https://www.spectacleapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Spectacle</a> (free - no longer updated)</li><li><a href=\"https://rectangleapp.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Rectangle</a> (free and updated!)</li></ul></li></ul>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e62e2859e5343b5069080e44c40aa2a165756e02ea815ad9ecfc7afd95cbdabda71014a226ea59131cb852b3860a473",
+  "stepsHashed": "a3a79e60a48f3c8cbaabc3cd64362003cb1d18125346ab3da4ed7b7c01ad74685324ec0e85dc60faa16aa6f1bfa64ee5"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3968367,
+  "key": "MM-T667",
+  "name": "Start message with slash and non-command",
+  "createdOn": "2020-01-08T12:57:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Start message with slash and non-command<br>–––––––––––––––––––––––––<ol><li>&nbsp;Type <strong>/notacommand</strong> in center message box</li><li>Press Enter</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Error message displays \"Command with a trigger of '/notacommand' not found. Click here to send as a message.\"</li><li>Focus remains in the message box and message disappears on Backspace, then reappears again if another invalid command is attempted</li><li>Clicking the link posts the text as a message</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "87a9d56624ef4eb110020745a7620943d953727b0768a1fbf3968cd88bdea6c39f3fac5740c252e993ee0912afbc3ad4",
+  "stepsHashed": "cbf31eb872adec375cef84e4038843234d2d9983c1cd4994d50712fe23af79db5132dab544c05ddaab18019d7432c478"
+}

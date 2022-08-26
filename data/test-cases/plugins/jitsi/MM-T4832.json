@@ -1,0 +1,55 @@
+{
+  "id": 22954599,
+  "key": "MM-T4832",
+  "name": "Embedded `true` works as expected on Desktop app",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login to mattermost as a sysadmin from the <br />2. In the ssystem console set Embed Jitsi video inside Mattermost to True<br />3. Type /jitsi settings embedded true <br />4. Launch a jistsi meeting",
+        "testData": null,
+        "expectedResult": "- Meeting opens in an embeded window<br />- User can't grant access to mic and camera when the embeded window is being used<br />- User can leavbe the meeting from the embeded window<br />- An option is availble to leave embeded mode and lauch the meeting from a browser",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b5341b220d5353d72eacaaf29c72758ee9ac5fe6c5bdeada85f5f59f1eef94b1ed1e19015403964171b4a9feb66048ec",
+  "stepsHashed": "11e7e46bc5fdab58244e95e48a2cdf7e9b84be1a5aed9344bf65e2b91c95729376a7f32c0e88fbf36b0b7ea1105330fe"
+}

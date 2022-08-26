@@ -1,0 +1,55 @@
+{
+  "id": 8647253,
+  "key": "MM-T3785",
+  "name": "User - Convert : error for invalid user",
+  "createdOn": "2021-01-20T10:34:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user convert [invalid user email address] --bot",
+        "testData": null,
+        "expectedResult": "Command will fail as the user email is invalid",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "100959ece9e289d78a694e9fc69fb0229eb398a75d58b69c318f352602d6d7eb42350e24500d1dafa3a65937cb276678",
+  "stepsHashed": "590024180d7ebbdc18962d3bea6bbcd18a6b5f7862682128dd9bba25e8783addc7ff4b71404e9be5e9e11d2d70408887"
+}

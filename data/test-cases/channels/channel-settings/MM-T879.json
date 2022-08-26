@@ -1,0 +1,55 @@
+{
+  "id": 4035748,
+  "key": "MM-T879",
+  "name": "Header popover: link works, open and close popover",
+  "createdOn": "2020-01-18T01:00:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)", "v5.22 (April 2020)", "v5.25 (July 2020)", "Queued"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Browser in mobile view (narrow)</strong><br /><ol><li>Click channel name ➜ Edit Channel Header</li><li>Observe focus is in the text box</li><li>Add / edit header to a list that contains a link and a hashtag such as example in the Test Data area</li><li>Click the ⓘ icon to the right of the channel name (over next to the 🔍 search icon)</li><li>Click the link in the channel header popover, observe link open</li><li>Click the hashtag, observe the search opens on the RHS </li><li>Use the 'X' in the top right to close<br /><br /></li></ol>",
+        "testData": "- One<br />- https://google.com<br />- Three #three",
+        "expectedResult": "<ul><li>The link opens in a browser</li><li>Clicking on the hashtag opens and performs a search on the RHS</li><li>The system message that describes the header changes should not display a link preview</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)", "v5.20 (Feb 2020)", "v5.25 (July 2020)"],
+          "Related ticket(s)": "<ul><li>(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-24927\">Hashtags inside Channel Info view on Mobile Browser mode ineffectual — MM-24927</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-25805\">Web mobile narrow: Clicking hashtag in header does not open hashtag search — MM-25805</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-21874\" rel=\"noopener noreferrer\" target=\"_blank\">Web: Channel header popover is now centered — MM-21874</a></li><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-22498\">Open multi-line channel description pop-overs on-hover instead of on-click — MM-22498</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-24928\">Hover over channel info in mobile browser view does nothing — MM-24928</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e0c2ce849c9b542fd62cc4289687de35999613aa2e0c51745c21b6f2a57489872a9635e57e2b1600a0e81814ef595a3",
+  "stepsHashed": "9e688bbc5ee3392635ccd378e5a65eefb176797a16de234778ae3c0ffc04e138fc4a0a129b5d1ab386293f3f96c9d205"
+}

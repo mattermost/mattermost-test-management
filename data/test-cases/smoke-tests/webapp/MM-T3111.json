@@ -1,0 +1,55 @@
+{
+  "id": 6181592,
+  "key": "MM-T3111",
+  "name": "Edit Message with Attachment",
+  "createdOn": "2020-07-13T19:27:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit Message with Attachment<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post a message with a file attached<br />2. Click to edit message<br />3. Edit text of message and save",
+        "testData": null,
+        "expectedResult": "Message updates, file is still attached, &quot;(edited)&quot; displays at end of message.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "47861fcd1e6ec9eb39496459a33f00792d0f063f47f6052f3e0b914a8847505d0babf40b11183c93063a3ec1ec38dcda",
+  "stepsHashed": "c9d210902b9dad7c5618536c6a6051eb04010a80c3066f738af89d92a345b7dc88c22b191d7b4899297fff63389b7fb9"
+}

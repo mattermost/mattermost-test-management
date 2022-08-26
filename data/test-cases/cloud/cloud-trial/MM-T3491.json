@@ -1,0 +1,68 @@
+{
+  "id": 7863758,
+  "key": "MM-T3491",
+  "name": "Cloud Trial — Billing & Account ➜ Billing History",
+  "createdOn": "2020-11-13T21:29:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1285126,
+    "name": "Cloud Trial",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to System Console ➜ Billing &amp; Account ➜ Billing History on a new Workspace</li><li>Observe the same page on the <a href=\"https://cloud-november-24.test.mattermost.cloud/admin_console/billing/subscription\" rel=\"noopener noreferrer\" target=\"_blank\">this Workspace</a><br />(<a href=\"https://cloud-november-24.test.mattermost.cloud/signup_user_complete/?id=i7ydgppcxi8jzp5h3b9otoyfbe\" rel=\"noopener noreferrer\" target=\"_blank\">Invite link</a>)</li></ol>",
+        "testData": "<table style=\"width:59%;margin-right:calc(41%)\"><tbody><tr><td style=\"width:50.0000%\"><strong>New Workspace</strong><br /></td><td style=\"width:50.0000%\"><strong>Invoice Tester Workspace</strong><br /></td></tr><tr><td style=\"width:50.0000%\"><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1605303302458-1605303302458.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></td><td style=\"width:50.0000%\"><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1605303345052-1605303345052.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></td></tr></tbody></table><strong><span style=\"color:rgb(184, 49, 47)\">Tip</span></strong>: Right-click any image to view a larger version in a new tab",
+        "expectedResult": "<ul><li>During 1, the page contains a link to 'See how billing works' that links to <a href=\"https://docs.mattermost.com/cloud/cloud-billing/cloud-billing.html\">https://docs.mattermost.com/cloud/cloud-billing/cloud-billing.html</a></li><li>During 2,<ul><li>A list of recent invoices are shown in a table that includes the following:<ul><li>Date (the date should reflect the first day of the month)</li><li>Description (shows a breakdown of full rate and partial users)</li><li>Total</li><li>Status (Paid or Pending)</li><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1605304175602-1605304175602.png\" style=\"width:16px\" class=\"fr-fic fr-fil fr-dii\" />links to download invoices</li></ul></li></ul></li></ul><br /><ul><li>After 3, the period start and end dates of an invoice are correct (should be first of the month for Start and the last of the month for End)</li></ul><br /><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-30061\">Invoice date is not shown correctly in Billing history — MM-30061</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-30196\">Invoice Date is one day behind in Billing History — MM-30196</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-30198\">Period Start/End dates are incorrect in Invoice PDF — MM-30198</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Download an invoice</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify the contents of downloaded PDF invoice are correct. Notable contents are<br /><ul><li>Trial period of a cloud product (starter, professional, enterprise)</li><li>Amount paid ($0.00 for new account)</li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "044c88757a6a97ef91f75e50ae0e972a94c340aab5f0ff6e4cedb58ca542c001c08e719c0b6563d698b4f88f6ce30d27",
+  "stepsHashed": "22c730608ec57958e8726a5f1a30cfd736a2bab02def1cd51df329e288947c58b1575a4b97be50cafe9bb8a84ef96344"
+}

@@ -1,0 +1,107 @@
+{
+  "id": 24858978,
+  "key": "MM-T4899",
+  "name": "Mobile V2: Messaging - Markdown Table",
+  "createdOn": "2022-06-30T18:23:22Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to display markdown table</strong><br />--------------------<br />1. Open a channel screen and post a markdown table<br />2. Verify markdown table is displayed<br />3. Go back to channel list screen",
+        "testData": "| A | B | C |<br />|:---|:---|:---|<br />            | 1 | Name | Toast |<br />            | 2 | Name | Server |",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to display markdown table with long text wrapped properly</strong><br />--------------------<br />1. Open a channel screen and post a markdown table with long text<br />2. Verify table is displayed with long text wrapped properly<br />3. Expand to full view<br />4. Verify on table screen with the markdown table<br />5. Go back to channel list screen",
+        "testData": "| Left header that wraps | Center header that wraps | Right header that wraps |<br />            | :-- | :-: | --: |<br />            | Left text that wraps row | Center text that wraps row | Right text that wraps row |",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to display markdown table in full view and allow horizontal scroll</strong><br />--------------------<br />1. Open a channel screen and post a markdown table with more columns past horizontal view<br />2. Verify table is displayed with some right columns not visible<br />3. Expand to full view<br />4. Verify table screen is scrollable to the right<br />5. Go back to channel list screen",
+        "testData": "| Header | Header | Header | Header | Header | Header | Header | Header HS last |<br />| :-- | :-: | --: | --: | :-- | :-: | --: | --: |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right HS last |",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to open markdown table in full view and allow vertical scroll</strong><br />--------------------<br />1. Open a channel screen and post a markdown table with more rows past vertical view<br />2. Verify table is displayed with some bottom rows not visible<br />3. Expand to full view<br />4. Verify table screen is scrollable to the bottom<br />5. Go back to channel list screen",
+        "testData": "| Header | Header | Header VS last |<br />| :-- | :-: | --: |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right |<br />| Left | Center | Right VS last |",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to open markdown table in full view and allow both horizontal and vertical scrolls</strong><br />--------------------<br />1. Open a channel screen and post a markdown table with more columns and rows past horizontal and vertical views<br />2. Verify table is displayed with some right columns and bottom rows not visible<br />3. Expand to full view<br />4. Verify table screen is scrollable to the right and scrollable to the bottom<br />5. Go back to channel list screen",
+        "testData": "| Header | Header | Header | Header | Header | Header | Header | Header last |<br />| :-- | :-: | --: | --: | :-- | :-: | --: | --: |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right |<br />| Left | Center | Right | Right | Left | Center | Right | Right last |",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ec1ac2ddb2f5bfb7008e902a4190e4035fb2873841451d772c701bb2dbdae6bcb7d7ae73577a991d29929bc89470f6ed",
+  "stepsHashed": "7bc63999d39e9df6c8d683c1174f5da21a35e90042aa09a309d6cb138d3dca74528f54066011c562aa87622536809287"
+}

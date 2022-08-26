@@ -1,0 +1,55 @@
+{
+  "id": 5566864,
+  "key": "MM-T2678",
+  "name": "Check for Highest Role permission",
+  "createdOn": "2020-05-29T20:22:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Check for Highest Role permission<br>————————————————————————————<ol><li>Create a new team Team1 and channel Channel</li><li>Ensure Team1 &amp; Channel1 has Group Synced turned on.</li><li>Ensure Role for Team1 is selected as Team Admin and Role for Channel1 is selected as Member.</li><li>Check if the LDAP User has the highest permission, i.e. Team Admin and also has Channel Admin permission for Channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>LDAP User should have Team Admin perform and also Channel Admin permission for Channel 1</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "956fbf25f8438ff25fd7f1f089c35ec5d4f55c8d2633ff9476124adb5bb5f01a13aaa907b8311fd5bb1e30918f2584a3",
+  "stepsHashed": "1f6823d33227f850367e24af2128ff8f42ad23bbce31a3c8a294c4cea11f373e46fec6b53b795d6a05ee6267a26cc36a"
+}

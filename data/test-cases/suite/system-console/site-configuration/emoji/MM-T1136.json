@@ -1,0 +1,55 @@
+{
+  "id": 4058866,
+  "key": "MM-T1136",
+  "name": "Emoji Picker - False",
+  "createdOn": "2020-01-22T19:26:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569359,
+    "name": "Emoji",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Emoji"],
+    "fullPath": "suite/system-console/site-configuration/emoji"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji Picker - False<br>–––––––––––––––––––––––––<ol><li>Set `Enable Emoji Picker` to `false`</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Emoji picker icon does not appear on:<ul><li>Message box in center or RHS or</li><li>Reactions on messages in center or RHS</li></ul></li><li>If a post already has a reaction, the `+` to add another reaction does not appear on hover</li><li>If a post already has a reaction, the user can click it to add/remove their reaction that way</li><li>Emoji can still be added by typing :emojiname: or reactions by typing +:emojiname:</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "Note there is a ticket to remove this setting from System Console entirely: <a href=\"https://mattermost.atlassian.net/browse/MM-11671\">v6.0: Remove the emoji picker system console setting — MM-11671</a>",
+          "Important notes about this step": "Expected that it does not disable in RN apps on long-press."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "76df6015fd25bd489082984c4541503be3802bbb184d773602958614ae85970e7ed392febe8077519c5dae21848a5b1b",
+  "stepsHashed": "eb4fe2bde802b24a831fa0b20e767c6b547b2fc815f734df3af952a96656c374f8d31d570630247bc9d10fba348bf2e2"
+}

@@ -1,0 +1,94 @@
+{
+  "id": 5294783,
+  "key": "MM-T2010",
+  "name": "Icon alignment and tab order in new sidebar",
+  "createdOn": "2020-05-06T05:05:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007287,
+    "name": "UX hover animation alignment",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "UX hover animation alignment"],
+    "fullPath": "channels/left-sidebar/ux-hover-animation-alignment"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Verify history arrows align vertically within the container (on desktop)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. Verify mentions, + icons and close icons are aligned horizontally on the right side of the sidebar(webapp/desktop)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify channel switcher text box, unread filter icon and categories are vertically aligned on the left side",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify tab through sidebar buttons is as follows:",
+        "testData": null,
+        "expectedResult": "Jump to<br />Left history arrow<br />Right history arrow<br />Unreads filter<br />Plus button<br />Collapse button on the first category",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "440ac55a0fa778499e200ced8a87c6c42860a81d718b2492e8622a8bc2a129cbe80bd578000ebabec25bfc917270ef32",
+  "stepsHashed": "852e360acf2968d51bc4145be710655cad08aa8a1f50ad24ab40ba848e5263362e7eb23fe9bdb28c96e01754e95c7a09"
+}

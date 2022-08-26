@@ -1,0 +1,55 @@
+{
+  "id": 4088955,
+  "key": "MM-T1297",
+  "name": "Bounce the dock until I open the app — macOS ONLY",
+  "createdOn": "2020-01-27T22:13:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 817022,
+    "name": "macOS ONLY",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "macOS ONLY"],
+    "fullPath": "desktop-app--native-specific-/macos-only"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Navigate to settings/preferences:<br><strong>Mac ONLY</strong>: Mattermost ➜ Preferences (<strong>⌘+,</strong>)<ol><li>Select \"Bounce the Dock icon\", and select \"until I open the app\"</li><li>Receive an unread message</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Dock icon bounces until you've opened the app.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b8e8f57627a6b8d16e72f83da6b93a257d27dbfa58b8f1ec7e025e8bdebaf7dfeb78184b7e9520c58f7a980ec297da61",
+  "stepsHashed": "d8e011ce3b42b4e2af268e9acf8e690dec28a061332a747ebe6b30c9465f35e406f4514e81c4fcd7e9f0815bcfac6d6c"
+}

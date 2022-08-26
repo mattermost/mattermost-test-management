@@ -1,0 +1,55 @@
+{
+  "id": 5445607,
+  "key": "MM-T2298",
+  "name": "@ icon displays @-mentions of current user: \n- Public channel\n- DM\n- GM\n\n@ icon does not display @channel messages",
+  "createdOn": "2020-05-20T06:50:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ icon displays @-mentions of current user: <br />- Public channel<br />- DM<br />- GM<br /><br />@ icon does not display @channel messages<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Mobile apps:<br />1. Post a message that @-mentions your username (you can post it yourself)<br />2. Menu &gt; Recent Mentions<br /><br /><br />Non-Mobile (will test using a second user on the team):<br />1. Post in Off-Topic:<br />`@[user2] greetings`<br />2. Open a DM with the second user and post `@[user2] direct` in DM<br />3. Open a GM with second user and any third user and post `Group message @[user2]` in GM<br />4. Find a channel user2 is in (but not Off-Topic) and post:<br />`@channel`<br />5. Log out and back in as user2<br />6. user2 clicks @ icon",
+        "testData": null,
+        "expectedResult": "Mobile apps:<br />Just verify that UI looks good and the at-mention is returned in RHS and highlighted<br /><br /><br /><br /><br /><br />Non-Mobile:<br />1. RHS opens and displays all three mention posts, with `@[user2]` highlighted<br />2. @channel message does not display in RHS<br />3. `@here` is not displayed in search box nor included in search results",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d9a88a1b84f2490897bd956807e28b8ebc18260c1565bba781faa023116636d210b6f2cd473820f999580d4ef02661c",
+  "stepsHashed": "5f8ab3f2148463d38bc7f2f5e006aaed9a91cbb529d8cd04696b55bb60e9d020b5bec780b751bb1a3ace7e2abe45171c"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4151141,
+  "key": "MM-T1351",
+  "name": "Invite More Button",
+  "createdOn": "2020-01-30T19:20:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In the \"Invite Guest\" field enter following types of users:<ol style=\"list-style-type: lower-alpha;\"><li>an email that's not already in the system</li><li>a user who is already in the team</li><li>a user who is not part of the team</li></ol></li><li>Click \"Invite Guest\" and check that users (a) and (c) will be invited and for user (b) an error is shown.</li></ol><br>Note that there is an option to Invite More. Click on the Invite More button",
+        "testData": "",
+        "expectedResult": "<ul><li>User should be taken to the first screen of invitation, i.e. it should display the option to Invite Guest and Invite Member.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-21558\">Add \"Invite More People\" button on the confirmation screen for Invite Members — MM-21558</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d5d3a7c9c88af68592061e7382d3d5cbc4d6bb73282d74319e3ae3f96c3ee7f4a0c6bd1a7a664eede77f107029b6e730",
+  "stepsHashed": "98cbd9669d4893a9602385abbc145c820d031def3c816a55ed6e0a344b56c0a20aeeadfee3f1ee255236fde10cb21041"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3904517,
+  "key": "MM-T463",
+  "name": "GM: Maximum users",
+  "createdOn": "2020-01-03T14:24:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "GM: Maximum users<br>--------------------<br>1. Add 7 users to the same GM (but don't Save yet)<br>2. Non-RN: Verify says \"You can add 0 more people\" and also \"You've reached the maximum number of people for this conversation. Consider creating a private channel instead.\"<br>3. Try to click another user from the list or use arrows to highlight a user and press Enter<br>4. Verify additional user is not added to the list at the top<br>5. Save / Start to open GM channel<br>6. Click channel name &gt; Add Members (still says you can add zero members)<br>7. Backspace or click \"x\" next to a username to remove it from the GM",
+        "testData": null,
+        "expectedResult": "After last step, message says \"You can add 1 more person.\"<br>Also says \"This will start a new conversation. If you're adding a lot of people, consider creating a private channel instead.\"<br><br>Desktop Only:<br>Ensure that \"Write to...\" text in main input box is truncated and does not wrap if all of the names are too long<br><br>(Can then add another user and Save to open the GM)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86bb2b8d07e55f8dc10f30fff2214389b58bca10bfef19317b4c63ca886de8a9ef96b8c51b7a7339512c88c7acbc69fa",
+  "stepsHashed": "f553038ce668aa11ade52fc283d826558804a7ccee6d106feb09339fbae0f573561a6e364dbdfe2783c307403bb468e3"
+}

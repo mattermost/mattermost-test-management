@@ -1,0 +1,55 @@
+{
+  "id": 4151139,
+  "key": "MM-T1349",
+  "name": "Back and Close buttons are clickable after the user has typed in an email address",
+  "createdOn": "2020-01-30T19:20:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click on Invite People and then Invite Guests.</li><li>Add a valid email address.</li><li>Now click the Back or Close button</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Back button and Close are clickable and trigger the \"Discard Changes\" modal</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17920\">Guest Accounts: Back button and Close button not working when user has typed in an email address — MM-17920</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e115489af90bbce0ce771eb5951003e2d505e0677643c017bd10dc350786f9639479be1d8fdf77dee6e270ead1cbf748",
+  "stepsHashed": "bd8bb284037fc7158e444097f066216cc0d688da0dd4186ed2e6d80998c5d1af26115e5950e3b624799118d60153444a"
+}

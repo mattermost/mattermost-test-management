@@ -1,0 +1,55 @@
+{
+  "id": 5467493,
+  "key": "MM-T2377",
+  "name": "Channel that contains a very large amount of external links with preview data load normally",
+  "createdOn": "2020-05-21T22:33:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel that contains a very large amount of external links with preview data load normally<br>————————————————————————————<ol><li>Login to the community server</li><li> Go to the Private Core team and open the complete channel</li><li>Scroll up the channel for several minutes</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>No scroll pop is visible</li><li>No performance issues are visible when scrolling up the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9959e1d13ecf230cad66791338f90009349a09807a26609c4050eb597f2fdb18df257f85bc11ef6fc63991764079f682",
+  "stepsHashed": "dc8b7c30089883bf3df7e76c0d826510055f0283be26551aa3e86031abc3c62ef48494374c0e5fc1315221757b0240a5"
+}

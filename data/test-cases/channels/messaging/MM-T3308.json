@@ -1,0 +1,55 @@
+{
+  "id": 6617996,
+  "key": "MM-T3308",
+  "name": "Permalink to first post in channel does not show endless loading indicator above",
+  "createdOn": "2020-08-13T11:01:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.15 (Sept 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a new private or public channel\n<br>2. Post a few times in the channel\n<br>3. Get the permalink to the first post\n<br>4. Post that link in a different channel then click it to view the permalink",
+        "testData": null,
+        "expectedResult": "Verify that there isn't an endless loading loop above the post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "24d858acd7d0bfa563851208fc4eee5d9cc4db0b8200e73284b66ea12cc4fed0750e4a59c47ced86369755bfe447d7ac",
+  "stepsHashed": "55a092bd6723db5812da86a8cd22c7cfc7db38fbb3f71354cc69916d305f50e576ebae9e61152ca8e3e21af05cf8c22e"
+}

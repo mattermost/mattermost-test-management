@@ -1,0 +1,55 @@
+{
+  "id": 8578070,
+  "key": "MM-T3681",
+  "name": "Channel - Create : non-existent team",
+  "createdOn": "2021-01-14T08:10:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel create",
+        "testData": null,
+        "expectedResult": "an error will be returned if you do not have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c1ddbed6751bd5f639d5ef4362c98c88a0dcb5a291090566bad33a0b616f0fd7ace2f031b1a7fb4061f8b6624b817abc",
+  "stepsHashed": "74a9c087904d23ca2fa360192a4e58a52b3461c064be62dd677ea9ce6fddca5f16c0c939a7681f263d135b390445a074"
+}

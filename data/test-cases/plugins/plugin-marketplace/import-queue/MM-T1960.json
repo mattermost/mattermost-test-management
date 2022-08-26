@@ -1,0 +1,55 @@
+{
+  "id": 5293901,
+  "key": "MM-T1960",
+  "name": "Marketplace is available when “Enable Plugins” is true in the admin console page",
+  "createdOn": "2020-05-06T01:44:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E2E-1", "Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Marketplace is available when “Enable Plugins” is true<br>————————————————————————————<ol><li>Go to main menu &gt; System Console &gt; PLUGINS &gt; Plugin Management.</li><li>Set “Enable Plugins” to true.</li><li>Switch to a MM team.</li><li>Go to main menu.</li><li>Click on “Plugins Marketplace”.</li></ol>",
+        "testData": null,
+        "expectedResult": "After #4,<br><ul><li>“Plugins Marketplace” is available in the menu.</li></ul><br>After #5,<br><ul><li>Plugins Marketplace launches normally.</li></ul><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "This test is to verify the UI component in the System Console's \"Plugin Management\" page instead of changing the plugin settings through the server config file."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "775ef028246c30ecb710d2ee0f359656951304547fa57196a11ad3a19e4f1ef606e1144cc9572ad9ffef79771a11c9f6",
+  "stepsHashed": "7ca934d4a3a761244ab77ae9c8cf7681e3a55612e41b16a4fa113142a2f1764b44928473d863ef3090c68a65020dbe02"
+}

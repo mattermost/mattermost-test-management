@@ -1,0 +1,55 @@
+{
+  "id": 4066569,
+  "key": "MM-T1280",
+  "name": "RN apps: Mark post as unread on DM/GM started by other user",
+  "createdOn": "2020-01-23T18:24:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.27 Mobile (Jan 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a DM or GM where first post/start of DM is not your own</li><li>Scroll to the top of the conversation</li><li>Mark the top post as unread (first message you received from the other user to start this DM)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><span data-sheets-userformat='{\"2\":7041,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0,\"14\":[null,2,0],\"15\":\"arial,sans,sans-serif\"}' data-sheets-value='{\"1\":2,\"2\":\"`New Messages` line above the post\"}'>`New Messages` line above the post</span></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.27 Mobile (Jan 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21230\" rel=\"noopener noreferrer\" target=\"_blank\">RN: Unexpected `More New Messages Above` line when marking first post in DM or GM as unread — MM-21230</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8c73340d76ba31ca2cf7d506da61a851b1285f03929360a8c8a236f0d5fa205c367badcf85084e6073bad86e2b5fc6d5",
+  "stepsHashed": "190da34e4ff8892cb995bdc39eaf55fb759318d819e0d8a7e87226beaea40921941891ad4b6cb22e36907fd7afe7d4dd"
+}

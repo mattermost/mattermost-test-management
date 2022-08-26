@@ -1,0 +1,55 @@
+{
+  "id": 17862272,
+  "key": "MM-T4555",
+  "name": "/gitlab help",
+  "createdOn": "2022-01-26T22:14:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139767,
+    "name": "Slash Commands and Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
+    "fullPath": "plugins/gitlab/slash-commands-and-setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as the test user and type /gitlab help",
+        "testData": null,
+        "expectedResult": "GitLab help is shown",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b1ec390d59756338abae6de5ba557d1c94c2bdef6738857b64c8d095360b80b410eb28d4df8f4f2279dda3781670b88",
+  "stepsHashed": "0a8e521db4b264caad66a6d98b8692a4e738a0b1f5bd3acd42d095cc6b583dd16cdb85bc55511a652d9f5a300d1acc39"
+}

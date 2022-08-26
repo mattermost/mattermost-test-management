@@ -1,0 +1,55 @@
+{
+  "id": 8581926,
+  "key": "MM-T3717",
+  "name": "Logs - should not allow normal user to retrieve logs",
+  "createdOn": "2021-01-14T11:36:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl logs -n 10",
+        "testData": null,
+        "expectedResult": "returns an error as you don't have the correct permissions (e.g sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "90cbb13c025a884823cb14a36c23cf5418e81f9b2f94304ea13e49101cd74c39f29fea5b7c72c984603401b75bce51a7",
+  "stepsHashed": "e3dfe3d865646a7354f8b1484437e878a6cf72f3fd8b4a7302eeb58158db39337067e023de88f9aaf86701b8065cc40a"
+}

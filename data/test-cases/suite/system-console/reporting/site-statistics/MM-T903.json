@@ -1,0 +1,55 @@
+{
+  "id": 4047136,
+  "key": "MM-T903",
+  "name": "Site Statistics > Deactivating a user increments the Daily and Monthly Active Users counts down",
+  "createdOn": "2020-01-21T13:17:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570069,
+    "name": "Site Statistics",
+    "parentId": 538608,
+    "fullNames": ["Suite", "System Console", "Reporting", "Site Statistics"],
+    "fullPath": "suite/system-console/reporting/site-statistics"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:54 PM<br>• Added link to Cypress code in Traceability tabCypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Added link to Cypress code in Traceability tab above",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "As system admin on a server that has active users (and at least one user you can deactivate), view System Console ➜ Site Statistics<br>Make note of the following values:<ol><li>Total Active Users</li><li>Daily Active Users</li><li>Monthly Active Users</li><li>Go to Users and deactivate a user (user should have been active today and this month in order for \"Daily\" and \"Monthly\" active users to increment down)</li><li>Go back to Site Statistics</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>After 3) All three counts increment down</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19957\">Deactivating a user should increment the Daily and Monthly Active Users counts down (not up) in System Console — MM-19957</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5fc5682f2152ae30e2f664215fefe0ff0e9bb366fa82d7cc5328483bb8a965c4b258e059ba3067b9b04b1fc4e2acab39",
+  "stepsHashed": "22260893538e146398dda5758834a0fd0bb93214a0fb1153bd6c0dd86ca938c8ca46d862b513d9d09534887383d118aa"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659404,
+  "key": "MM-T2855",
+  "name": "Create a Team Override Scheme",
+  "createdOn": "2020-06-04T18:02:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create a Team Override Scheme<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Login as a user with system admin permissions<br />2. Open the system console<br />3. Select Permission Schemes<br />4. In the Team Override Schemes section, select New Team Override Schemes  <br />5. Add a Name, Description<br />6. Select 1 or more teams to add<br />7. Modify the permission scheme is some way<br />8. Click Save",
+        "testData": null,
+        "expectedResult": "1. You are returned to the Permission Schemes page and the newly created scheme is visible<br />2. When click Edit, you can see that all data was saved",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bb570443019d44740b095ac29280eeb0906f0ee00beb2b02a13ffb53625eb9cc1c1bbd925676ea861cd99cda2ad90a19",
+  "stepsHashed": "402a4437e51547d667ce924cfbd6f888217b4c1faa0feb55905b29f7acc7e3b4338a4b1ba91df8f731659e8c458a4aa2"
+}

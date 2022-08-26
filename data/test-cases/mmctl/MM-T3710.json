@@ -1,0 +1,55 @@
+{
+  "id": 8581397,
+  "key": "MM-T3710",
+  "name": "Command - Modify : with a space in trigger word",
+  "createdOn": "2021-01-14T10:56:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl command modify commandID --title MyModifiedCommand --description \"My Modified Command Description\" --trigger-word my command --url http://localhost:8000/my-slash-handler --creator myusername --response-username my-bot-username --icon http://localhost:8000/my-slash-handler-bot-icon.png --autocomplete --post",
+        "testData": null,
+        "expectedResult": "modifies the command",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3d5ac1da20b62bb2112f30b9e8771dd1c73401f56eb898d50523b57aa67a9261fb56af5d63e6cbab276f11762d1d7be6",
+  "stepsHashed": "5cf62dfbf1f94af6a17e70d981d047e529692d210c2f57bce4f1f091a509cea3421b763e0bf784570f28ecf87c277163"
+}

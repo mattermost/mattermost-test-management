@@ -1,0 +1,54 @@
+[
+  { "id": 401946, "name": "Draft", "description": null, "color": "#f0ad4e", "default": true },
+  { "id": 401947, "name": "Deprecated", "description": null, "color": "#4b88e7", "default": false },
+  { "id": 401948, "name": "Approved", "description": null, "color": "#3abb4b", "default": false },
+  {
+    "id": 461086,
+    "name": "Archived",
+    "description": "Use this status just prior to archiving a test case. Doing so allows you to find it quickly should it ever be un-archived in the future for editing.",
+    "color": "#0000ff",
+    "default": false
+  },
+  {
+    "id": 578551,
+    "name": "Cleanup needed",
+    "description": "Freshly imported or changes that need to be addressed. Test cases tagged with this status are not to be used until checked out by QA.",
+    "color": "#ff0000",
+    "default": false
+  },
+  {
+    "id": 578553,
+    "name": "Being edited",
+    "description": "Use this status when actively editing the test case(s) at hand. Can be left in this status over a period of time to allow work to be completed.",
+    "color": "#000000",
+    "default": false
+  },
+  {
+    "id": 578554,
+    "name": "Manual",
+    "description": "Identifies fully manual tests as well as test cases that may be automated in one environment but not all so manual tests are still needed.",
+    "color": "#0000ff",
+    "default": false
+  },
+  {
+    "id": 704553,
+    "name": "Automated",
+    "description": "Any test with this status is maintained in TM4J for reference but is not tested manually.",
+    "color": "#666666",
+    "default": false
+  },
+  {
+    "id": 890281,
+    "name": "Active",
+    "description": "Test case is in regular use",
+    "color": "#6aa84f",
+    "default": false
+  },
+  {
+    "id": 892162,
+    "name": "Update",
+    "description": "Changes needed to the test case and/or automated script. Use this status when actively editing the test case(s) at hand. Can be left in this status over a period of time to allow work to be completed.",
+    "color": "#ff00ff",
+    "default": false
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": 5659440,
+  "key": "MM-T2889",
+  "name": "Member is able to delete public channel",
+  "createdOn": "2020-06-04T18:02:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is able to delete public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a private channel where the user is not an admin - If using the channel above, you must use another user to change your role to member<br />2. Click the down arrow next to the channel header to see channel options<br />3. Ensure that Delete Channel is available and select it<br />4. Click Delete on the confirmation screen",
+        "testData": null,
+        "expectedResult": "For step 3 Delete Channel is available.<br />For Step 4 channel is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c0e0d46c4d701e4b28c120292dad8f0062f522438d8e0d78b1ba9ac2515990d2769f663c27808155c187612e81c881e3",
+  "stepsHashed": "0d41887765a1a0609e4d5e2bf1ce921f7a73a6510b0c5f437bc8236e2e5c3db1f63981113b414a7bcf4b60a3f6734a7d"
+}

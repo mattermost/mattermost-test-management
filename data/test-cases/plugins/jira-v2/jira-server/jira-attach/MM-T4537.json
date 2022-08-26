@@ -1,0 +1,55 @@
+{
+  "id": 17698333,
+  "key": "MM-T4537",
+  "name": "Ensure you can search across multiple projects",
+  "createdOn": "2022-01-19T18:23:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2123139,
+    "name": "Jira Attach",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Select the post menu for any post<br />2. Select Attach to Jira<br />3. Search for common text that should return issues in multiple projects",
+        "testData": null,
+        "expectedResult": "Search results are returned across multiple projects",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7bba00086943319f46674d32760ecfbb4347c636c4f582ed9178d7c60ca910726bf803067d92cb3c9593527fe67b1263",
+  "stepsHashed": "2f16cc869cb3dea11ef90eadb94772325df5bdda9024f6cb04ca5e296062bc594d7a13468d253c62f7b09dc76e158280"
+}

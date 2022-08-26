@@ -1,0 +1,55 @@
+{
+  "id": 5445209,
+  "key": "MM-T2224",
+  "name": "Channel shortlinking - link joins public channel",
+  "createdOn": "2020-05-20T06:34:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel shortlinking - link joins public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Send a message with a channel shortlink of a PUBLIC  channel you don't belong to.<br />2. Click on the link.",
+        "testData": null,
+        "expectedResult": "The link should take you to and add you to the public channel.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c54cca821481348429a7513141388dadb9c6725323565fdfb2ea6d52a884ef0ad0126f9d1b99b1c7e5edfb5779219a83",
+  "stepsHashed": "4907feb266220137e74abc5bf3527468286c2393fa89e20929fac633171af55a1371fb2ccee1f468ca67eb1dcba9b5af"
+}

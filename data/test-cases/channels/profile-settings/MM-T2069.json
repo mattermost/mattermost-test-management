@@ -1,0 +1,55 @@
+{
+  "id": 5444616,
+  "key": "MM-T2069",
+  "name": "Email: Can update email address and verify through email notification",
+  "createdOn": "2020-05-20T05:50:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to User menu -&gt; Profile-&gt; Profile Settings &gt; Email -&gt; Edit</li><li>Enter a new Primary Email (that you can receive messages at)</li><li>Enter the same email in Confirm Email</li><li>Save</li><li>Check new email address for verification message</li><li>Click the \"Verify email\" link received after updating email address.</li><li>Check old email address for notification that email changed</li><li>Go to User menu -&gt; Profile-&gt; Profile Settings &gt; Email </li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>On 4, announcement bar shows up with \"Check your email inbox to verify the address.\" message</li><li>On 5, NEW email address receives a \"Verify new email\" message</li><li>On 6, clicking link takes you to Town Square if you are still logged in and announcement bar shows up with \"Email verified\" message</li><li>On 7, OLD email address receives a \"Your email address has changed\" notification</li><li>On 8, NEW email address shows up in Account Settings.</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "880b23a605e50edb3d3f38509365fe91b8ef4e3a19521b95a3522a7c3ca2cf29eb519b1570c123da36e76c86effeb550",
+  "stepsHashed": "6384e2a249f8770f3422fce682163127d5e6538a971032ecfb1afb8c377b81ac977885e75ab3c372c9bb484b1e1c004e"
+}

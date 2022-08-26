@@ -1,0 +1,55 @@
+{
+  "id": 5444816,
+  "key": "MM-T2214",
+  "name": "@ mention from link in profile popover: center",
+  "createdOn": "2020-05-20T06:05:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ mention from link in profile popover: center<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. In center, click another user's name or profile pic on a message to open profile popover<br />2.  At top of popover, click `@username` link",
+        "testData": null,
+        "expectedResult": "`@username` with a trailing space populates in the message box<br /><br />Sending message with or without additional text posts an at-mention for that user",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04eeb77465e2fc73da664f52a1205cd7a78654f6991da08fb9fd4ef2fcb646ea8ee7449993de8c28cc5612606d9f3c94",
+  "stepsHashed": "542d207fba8acca84590c227e0674892dc1534bf10ddda2a7c95266fd18b7719f7a1e5f206c879b43050fff8cc3f0d08"
+}

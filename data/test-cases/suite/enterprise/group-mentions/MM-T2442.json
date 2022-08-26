@@ -1,0 +1,55 @@
+{
+  "id": 5478042,
+  "key": "MM-T2442",
+  "name": "Disable Group Mention in System Console",
+  "createdOn": "2020-05-22T11:37:53Z",
+  "objective": "Disable Group Mention in System Console",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733341,
+    "name": "Group Mentions",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
+    "fullPath": "suite/enterprise/group-mentions"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure LDAP is configured and LDAP Groups are present<br>2. Navigate to System Console &gt; Groups page and click on one of the groups for which group mentions is enabled<br>3. Disable the group mention and reload the page and check.<br>a. The group mention option should remain disabled and the group mention name should not be visible.<br>4. As a regular member, submit a post containing a group mention which is disabled<br>a. It should not notify any of the group members and the group mention should not be highlighted",
+        "testData": null,
+        "expectedResult": "Disable Group Mention in System Console should be working fine as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ae286b63fed20f3e8039a377625ac566afebc30cdd0ea88add330fba3440335706870bbdb380bdf190f8707ab410a5db",
+  "stepsHashed": "57a6a7a02db2ca4af797b8ce5b4cd6519be18d0932364b0e48b5b3120b266f5d6a0e2b4caf5fa742a41a5a8a1e368e09"
+}

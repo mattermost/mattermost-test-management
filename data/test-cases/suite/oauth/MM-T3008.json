@@ -1,0 +1,68 @@
+{
+  "id": 28836329,
+  "key": "MM-T3008",
+  "name": "OpenID: GitLab signin on mobile apps",
+  "createdOn": "2022-08-20T00:53:21Z",
+  "objective": null,
+  "precondition": "There are other GitLab tests in Selenium: AuthGitLab.html",
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404298,
+    "name": "OAuth",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "OAuth"],
+    "fullPath": "suite/oauth"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 19 Aug 2022: Updated \"OAuth\" to \"OpenID\"<br /><br />Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to authenticate via GitLab on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile", "Cloud"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "OAuth"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Use mobile apps to log in using GitLab<br /></strong><br />19. On Android, log in using GitLab<br />20. On iOS, log in using GitLab",
+        "testData": "Login credentials in LastPass",
+        "expectedResult": "- Login is successful on mobile apps using GitLab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Non-Editable Profile Fields<br />---------------<br />1. Login using GitLab<br />2. Account Settings &gt; Edit Profile",
+        "testData": null,
+        "expectedResult": "After #2,<br />- Verify the following fields are not editable (disabled and grayed out)<ul><li>First Name</li><li>Last Name</li><li>Username</li><li>Email</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.35 Mobile (September 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-28040\">https://mattermost.atlassian.net/browse/MM-28040</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c9f769ab3fe93bdae0f0061283372cfdf02732f89fb7d1029c38aee70e1c7f8c6314af70c97490e2c607af87b081e966",
+  "stepsHashed": "a253be8e2109d88f7190502e833ce930c08ee1852c2d894958ee69e921930623cbf81c22cbe7af13ac96f1d7788a26ff"
+}

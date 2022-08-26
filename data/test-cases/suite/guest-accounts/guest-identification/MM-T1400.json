@@ -1,0 +1,55 @@
+{
+  "id": 4152383,
+  "key": "MM-T1400",
+  "name": "Guest Accounts: Guest Badge not shown in DM/GM header if the guest's full name/nickname is shown",
+  "createdOn": "2020-01-30T23:27:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)", "v5.23 (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Guest Accounts: Guest Badge not shown in DM/GM header if the guest's full name/nickname is shown<br>–––––––––––––––––––––––––",
+        "testData": "",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)", "v5.23 (May 2020)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-19046\">Guest Accounts: Guest Badge not shown in DM/GM header if the guest's full name/nickname is shown — MM-19046</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-24066\">Guest Accounts &gt; ''Guest'' tags not shown in GM channel header — MM-24066</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d367d81b3c57be932856b08d5c6eeffe3d747d52f3a9dff0a5ceb002c82d7feb7bef3197c331978f215ce906ee3c6d6c",
+  "stepsHashed": "bd7a2d668c247b7bffe37350bfdb569f8a4d715fa638e417d50f5efa7c99c258fc9f8007a97f362c7568b28aa226de15"
+}

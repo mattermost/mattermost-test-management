@@ -1,0 +1,55 @@
+{
+  "id": 5254463,
+  "key": "MM-T1777",
+  "name": "Multi-factor Authentication option hidden in Profile Settings when disabled",
+  "createdOn": "2020-04-30T12:39:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Multi-factor Authentication<br />————————————————————————————<br />1. Set \"Enable Multi-factor Authentication\" to false<br />2. Save<br />3. Switch back to a team, and observe the Profile Settings &gt; Security tab",
+        "testData": null,
+        "expectedResult": "Setting is saved. Under Profile Settings &gt; Security, the Multifactor Authentication setting should not appear.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b0565a8e36fc85f4b94d18f913782efc326d330e152b7a6884f60fdf6f8157ab6be74642fe3d21993828671069aefc40",
+  "stepsHashed": "01903f679e9059759216a2c16cc547a85c49061affbc352ad50e014a4869fd1b3be15213cb6c6f219503cb6b8d4682c0"
+}

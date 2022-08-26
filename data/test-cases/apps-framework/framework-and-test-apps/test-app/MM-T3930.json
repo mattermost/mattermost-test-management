@@ -1,0 +1,147 @@
+{
+  "id": 9504777,
+  "key": "MM-T3930",
+  "name": "Test app - Manage error responses",
+  "createdOn": "2021-03-17T16:54:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1236118,
+    "name": "test-app",
+    "parentId": 1236115,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_error&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "App shows \"Error Executing Command\" and \"Error\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_empty_error&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "App shows \"Error Executing Command\" and \"Unknown Error\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_invalid_navigate&nbsp;</em><br><em>3. </em>Send",
+        "testData": null,
+        "expectedResult": "App shows \"Error Executing Command\" and \"Response type is `navigate` butno urls was included in the response\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_invalid_form&nbsp;</em><br>3. Send",
+        "testData": null,
+        "expectedResult": "App shows \"Error Executing Command\" and \"Response type is `form` but no form was included in the response\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_404_error</em><br>3. Send",
+        "testData": null,
+        "expectedResult": "JSON error",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test error with_html_site</em><br>3. Send",
+        "testData": null,
+        "expectedResult": "Invalid character &lt; looking fir beginning of value",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test with_lookup_error</em><br>3. Send",
+        "testData": null,
+        "expectedResult": "Invalid character &lt; looking fir beginning of value",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. Type <em>/com.mattermost.test with_unmknown_response</em><br>3. Send",
+        "testData": null,
+        "expectedResult": "Error executing command unkown response type",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b4ecb7ad40ec2418121f8b654bdee9efbd24b653e10241f8d5364c3b6aeb77bd81af283a0a2cc89cadd617bac59cc997",
+  "stepsHashed": "011c1b8d9af7612bb8e9c43664465197535a8933afdd41b2f09384b78e6af91c23a6676964f1febe4fa155b286226f38"
+}

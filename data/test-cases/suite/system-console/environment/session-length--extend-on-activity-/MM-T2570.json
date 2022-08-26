@@ -1,0 +1,55 @@
+{
+  "id": 5535639,
+  "key": "MM-T2570",
+  "name": "\"ServiceSettings.ExtendSessionLengthWithActivity\" is `false` for upgrade to existing install",
+  "createdOn": "2020-05-27T18:23:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738708,
+    "name": "Session Length (Extend on Activity)",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Session Length (Extend on Activity)"],
+    "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "",
+        "testData": null,
+        "expectedResult": "\"ServiceSettings.ExtendSessionLengthWithActivity\" is `false` for upgrade to existing install ",
+        "customFields": {
+          "Fix Versions": ["v5.24 (June 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-23935\" rel=\"noopener noreferrer\" target=\"_blank\">Add config to allow sessions to be extended on activity, and extend them automatically — MM-23935</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f17ba88ee58f8e394dff370c833a1ba2e248e28c82a2160c595b11bfd70f7eb5d6f7214582743af4eadb911d08986918",
+  "stepsHashed": "4547d214674602f7508dcd22a227a79ce41bfe3e56b25a0dd48272531d5748b6ed31c2366c6fbfba7f6ba02d83217d89"
+}

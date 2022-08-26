@@ -1,0 +1,55 @@
+{
+  "id": 15984471,
+  "key": "MM-T4362",
+  "name": "Sidebar - Messages",
+  "createdOn": "2021-11-04T17:56:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to bitbucket <br />2. Click the Message Icon from the RHS or team sidebar",
+        "testData": null,
+        "expectedResult": "Data is shown accurately",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "03dde73154fe7c84c91671ff9e9bf492a69af02e8b4ddcf8a86ed192ad2701dc69d11d8f14081a6d3d21123913a08f13",
+  "stepsHashed": "bf23e85a4c1c5c8a61dd534213a57ce5b8d3368f4012e6b8d2eb1a13cb580ba777d035159e0403b8280331a5144d3bf0"
+}

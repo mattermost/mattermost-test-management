@@ -1,0 +1,107 @@
+{
+  "id": 29399152,
+  "key": "MM-T5105",
+  "name": "File Limits: Automatically show limits modal to admins on message limits reached",
+  "createdOn": "2022-08-25T14:25:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Self-Serve"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Log in as admin user. Add 11K messages (`/test threaded_post` can create these, 1000 at a time)</li><li>Wait 30 minutes for the count to be uploaded</li></ol>",
+        "testData": "<br /><br />",
+        "expectedResult": "<ul><li>Verify that the <em>still logged-in admin</em> is <strong>not</strong> shown the modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Close the open tab <strong>without</strong> logging out</li><li>Open a new tab for the still logged in admin</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify that they are <strong>not</strong> shown the modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Log the admin out</li><li>Log the admin in</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1661438065308-1661438065308.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Verify that the admin is shown the modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Close the modal</li><li>Log the admin out</li><li>Log the admin in</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify the modal does <strong>not</strong> appear</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Create a non-admin user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify they are <strong>not</strong> shown the modal when logging in</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2064e37194491bc6839218d6976e3337d26053a51399fdf4f57d68dc7e5babb3577a4dda546f0619267ae3affa4f87be",
+  "stepsHashed": "166357a10868a5c2b0f25f617ad48437bd62597b9b7fb6d17c6ab595531bafa867daa777092fe9fc82d25b9234f088f2"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5601874,
+  "key": "MM-T2735",
+  "name": "user is added to team because of old linked group with new team syncable.",
+  "createdOn": "2020-06-01T20:47:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "user is added to team because of old linked group with new team syncable.<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. User already exists in group and Mm, and that group is already linked to at least one team<br />2. Admin links that group to another team<br />3. User is not added to that second team immediately<br />4. Admin syncs AD/LDAP",
+        "testData": null,
+        "expectedResult": "User is added to the newly linked team on sync",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5b2282f32712097d0ffa4673d0af9fdf8da37b9850ef88f16ff0ce918100db0fbf16a168679ea493779f8c78e82ab975",
+  "stepsHashed": "843d8ca7f7b6e76e95a206125d5faea8f3816d803412aa3fbda449ce9c30e07a1932acec9511d2b95fcf1600f407cb24"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659413,
+  "key": "MM-T2863",
+  "name": "Reset system scheme defaults will revert permissions to defaults",
+  "createdOn": "2020-06-04T18:02:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Reset system scheme defaults will revert permissions to defaults<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As an admin user, open the console<br />2. Navigate to Permission Schemes and click Edit Scheme for the system level<br />3. Click reset to defaults and click yes on the dialogue<br />4. Note the default scheme and make a few edits<br />5. Click Save <br />6. Navigate elsewhere in the console and return to ensure changes have saved<br />7. Click restore to defaults on the bottom right <br />8. Click reset to defaults and click yes on the dialogue<br />9. Click Save",
+        "testData": null,
+        "expectedResult": "After 6 edits are saved<br />After 9 default values are saved",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3bac62b74f473876030b57a545e78680ab83fbaecfe2ad7b3224051cebd651bcbfa308ec096925540d08e6b48f2b1404",
+  "stepsHashed": "c3c77b3a9de292073b9d6ef835faa787092d6ff22096747daddd4d5032d221522bdd8abf983d7fb5ff1bb9a32e3b259f"
+}

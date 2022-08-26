@@ -1,0 +1,55 @@
+{
+  "id": 5933553,
+  "key": "MM-T2998",
+  "name": "Check if SAML Login works if Optional Attributes are empty",
+  "createdOn": "2020-06-24T14:10:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404332,
+    "name": "SAML",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "SAML"],
+    "fullPath": "suite/saml"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.25 (July 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "SAML"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure the setting \"Use Improved SAML Library (Beta)\" is enabled and server is restarted before executing this test. <br>2. In SAML Okta, add a new attribute \"Manager\" with the value \"user.manager\" as shown in this screenshot.<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1593007628541-Screenshot+2020-06-24+at+7.36.03+PM.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\"><br>3. Ensure that in OKTA, a user has the field manager as empty in the user profile.<br>4. In Mattermost System Console, go to SAML Configuration page and specify the Position Attribute as Manager and save.<br>5. Now try to login with SAML and check if user is logged in successfully and user does not gets any error \"SAML login was unsuccessful because one of the attributes is incorrect.\"",
+        "testData": null,
+        "expectedResult": "User should be logged in successfully and user should not get any error \"SAML login was unsuccessful because one of the attributes is incorrect.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0a521125c0b228d6272c3fc461b7ef517c7071399fc0439dbbaf7a9bf846d23ffb046a34ef4c9715541c726cd9df5480",
+  "stepsHashed": "9538bfa516a8d1e14c86ad25e2149ca15b94f526d41382b8350ed9db9e6cde81d091229b00ccf1032b7021bc4710dc2f"
+}

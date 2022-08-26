@@ -1,0 +1,55 @@
+{
+  "id": 5659444,
+  "key": "MM-T2893",
+  "name": "Member is able to create a public channel",
+  "createdOn": "2020-06-04T18:02:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is able to create a public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On the LHS menu, ensure that the &quot;+&quot; is available beside the Public Channels Header<br />2. Click the &quot;+&quot;<br />3. Add a channel Name, Purpose and Header<br />4. Click Create New Channel",
+        "testData": null,
+        "expectedResult": "For 1, &quot;+&quot; is visible for public channels<br />After 4 new channel has been created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "da4f7fe75ab678407eddd9cf42072774d2c807f3eef4bfcc854018b3bb234cf00f21b45e7eb8891c65c060d8443ff1b0",
+  "stepsHashed": "72b662cdd57cb4ea95bc713b2fa2bbe2a0af4b9a1d3f5f3038158d2a4ee04c57f92ec6449685d7a675bfe16f25ed94c6"
+}

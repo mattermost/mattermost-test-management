@@ -1,0 +1,55 @@
+{
+  "id": 13506563,
+  "key": "MM-T4157",
+  "name": "Finding the default \"Cloud Starter\" record in Billing History screen",
+  "createdOn": "2021-08-16T22:33:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1641056,
+    "name": "Billing History ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Billing History ❗"],
+    "fullPath": "cloud/automated-tests/system-console/billing-history-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Using a Workspace that has previously subscribed to Cloud Starter</li><li>Go to Billing &amp; Account ➜ Billing History in the System Console</li><li>Observe the description column in the table on that page</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><strong>Cloud Starter </strong>is present in the table</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1530fcefa85dc24934c408d754493d7fcae5d9153fefb3a89f53259b6afd1e389cd98673bc0ed2f9863e75debc822ba5",
+  "stepsHashed": "964160f2050f41a304af3f02d827dc43eba318341f1f51103c472657f101002361c11fe22ff3980b4aa94b134b02eab4"
+}

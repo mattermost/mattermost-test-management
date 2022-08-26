@@ -1,0 +1,55 @@
+{
+  "id": 18392823,
+  "key": "MM-T4643",
+  "name": "Takes the user through the steps of using the app",
+  "createdOn": "2022-02-14T17:31:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 883991,
+    "name": "Cloud",
+    "parentId": null,
+    "fullNames": ["Cloud"],
+    "fullPath": "cloud"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as an Admin</li><li>Click the tip on posting messages</li><li>Click <strong>Next</strong> button to the posting messages tip</li><li>Click the tip on channels</li><li>Click <strong>Next</strong> button to the Channel tip</li><li>Click the tip on creating and joining channels</li><li>Click Next to the creating and joining channels tip</li><li>Click to the tip on admin UI and inviting people</li><li>Click to the admin UI and inviting people tip</li><li>Close the admin UI and inviting people tip</li></ol>",
+        "testData": "",
+        "expectedResult": "2. Observe the help on posting messages is visible<br />4. Observe the help on channels is visible<br />6. Observe the help on creating and joining channels is visible.<br />8. Observe the help on admin UI and inviting people is visible.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "963e0420a0a5487dbf83d8b7672c3c594f17982d8db5f9efb38ec8169fb7c37aa43b2ee0db58e8ca1c38658e12c77211",
+  "stepsHashed": "8e1e67349477e52d70cdbf2ae1cb1b44d906a2c01fc2d85734ecb17467af94e6c011182a7f076ba11e9cb14e40d70e33"
+}

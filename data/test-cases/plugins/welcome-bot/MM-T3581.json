@@ -1,0 +1,68 @@
+{
+  "id": 8022879,
+  "key": "MM-T3581",
+  "name": "delete channel level welcome message",
+  "createdOn": "2020-11-26T20:57:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054401,
+    "name": "Welcome Bot",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /welcomebot delete_channel_welcome<br />2. Type /welcomebot get_channel_welcome",
+        "testData": null,
+        "expectedResult": "On 1. Welcome bot show a post that welcome message has been deleted<br />On 2. On 1. Welcome bot show a post that welcome message has not been set",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": null,
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c96adcfcc1888ac85d2d434d83744bbfea774904beca3661d92adf0b414300c0e581e039c95d5ac6833a69252719acc2",
+  "stepsHashed": "5ad6bcc53f4aa4596a463666d0f240eb13a07328a608ecde84ac2f76a44ef606cb7c71621c4ee4460d8cb0718c00b567"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5445596,
+  "key": "MM-T2288",
+  "name": "Multiple word search requires all terms but not exact phrase",
+  "createdOn": "2020-05-20T06:50:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Multiple word search requires all terms but not exact phrase<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post message `hello`<br />2. Post message `world`<br />3. Post message `world hello`<br />4. Search for `hello world` (no quotes in search)",
+        "testData": null,
+        "expectedResult": "1. Post `hello` not returned<br />2. Post `world` not returned<br />3. Post `world hello` is returned and terms are highlighted<br />4. If applicable: Previous test post containing `Hello world` is returned and terms are highlighted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "11634864a2cf6ab5ff3587c9166c7d96f6ae027123edcd9f3e60b24b1e41e20199036e2c501ca9075975f973055c250f",
+  "stepsHashed": "486b25a9f23408f41223c5ac49e7d9ce098f6d7190a2cc7bfdfb8c4f1c277301dcde9b6524bdfa1640f3aa0f15ec5127"
+}

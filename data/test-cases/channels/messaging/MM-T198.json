@@ -1,0 +1,55 @@
+{
+  "id": 3742407,
+  "key": "MM-T198",
+  "name": "Emojis preceeded by 4 or more spaces are always treated as markdown",
+  "createdOn": "2019-12-20T20:46:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, December 22, 2020 10:24 AM<br>• Rainforest tests are mobile only<br>• Removed Duplicate Automated tests label<br>• Removed 🌐 Webapp from —Rainforest— Status<br>• Added link to Rainforest tests in Traceability tab<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emojis preceeded by 4 or more spaces are always treated as markdown<br />--------------------<br />1. Create a post with four space characters followed by a colon and an upper-case D, like so:<br />    :D<br />2. Create a post with four space characters followed by a an emoji such as:<br />    :taco:",
+        "testData": null,
+        "expectedResult": "Both emoji are shown as code blocks, not rendered as emoji",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44541ea8d18bbb07915b90265e524e8406fc833d41b392b77e9107ecdef1c57c7314c7cdbcbb9e3a848751a54b3178cc",
+  "stepsHashed": "5d218f18b8b5499e0d787012a88be3ce2f1acaff3108d07164dd2223f265ec3fc5a627259aa380ae96eca8682b6f1b4b"
+}

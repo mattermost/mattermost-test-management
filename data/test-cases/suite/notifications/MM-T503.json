@@ -1,0 +1,55 @@
+{
+  "id": 3905500,
+  "key": "MM-T503",
+  "name": "Generic email notifications also show timestamp",
+  "createdOn": "2020-01-03T18:53:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Generic email notifications also show timestamp<br />--------------------<br />1. As a system admin, open the system console<br />2. Select NOTIFICATIONS&gt;&gt; Email and set Email Notification Contents: to Send Generic description with only sender name<br />3.  Have another user send some mentions / DMs",
+        "testData": "These are all in Se tests scNotificationsMan.html (LM 5.7)",
+        "expectedResult": "View the email received as the test user and ensure that it includes a timestamp such as &quot;19:43 UTC, October 26&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b46f7d7a14820a1896f4f46876619f80b069013544e7b5206d7e85773d038d47d3689ce5ebee13111d1dcb9532076506",
+  "stepsHashed": "48a60785073f7651f91a76fd1efbf1fa37ddaf304bf6fe69860a18595db6ba5e9e928619cbad7480620b5a22030ea270"
+}

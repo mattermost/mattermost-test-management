@@ -1,0 +1,55 @@
+{
+  "id": 5445402,
+  "key": "MM-T2279",
+  "name": "Wait for upload to finish before posting",
+  "createdOn": "2020-05-20T06:43:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Wait for upload to finish before posting<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Type `Hey` in the message box<br />2. Select a large-ish file to attach<br />3. Press Enter on message while file is still uploading",
+        "testData": null,
+        "expectedResult": "Message does not post until file upload is complete",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e832b9d867bca5ad1d248b53b822431d6a224a456f93338ccfed0947e9f6b8343e990bf519eabe7a741cc8b3a64dafa3",
+  "stepsHashed": "4810564306d8adb92ee4dea3629f843f51844de96f8dd8d30b40207a9e9d454d2fa8137f1f4baf75e5c036c3f89f0ac6"
+}

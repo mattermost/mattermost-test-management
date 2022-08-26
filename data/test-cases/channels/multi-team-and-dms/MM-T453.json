@@ -1,0 +1,81 @@
+{
+  "id": 3904507,
+  "key": "MM-T453",
+  "name": "Close DM you're viewing, redirects to last viewed channel",
+  "createdOn": "2020-01-03T14:24:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.23 (May 2020)", "v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Close DM you're viewing, redirects to last viewed channel<br>–––––––––––––––––––––––––<ol><li>View a DM channel</li><li>In the LHS click the `x` next to the DM you're viewing</li><li>View another DM channel</li><li>Click on DM channel header and select \"Close Direct Message\"</li></ol>",
+        "testData": "",
+        "expectedResult": "After 2 and 4, DM is removed from the LHS and center channel redirects to last viewed channel ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Open a DM to view, click on x to close a different DM (not the one you are currently viewing)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User remains on the same DM</li><li>The other DM is closed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Note</strong>:This test case (T453) is set to be run on both the Desktop app as well as a browser in mobile view. If you are testing on the Desktop app please pass this step without testing as it doesn't apply to the Desktop app.<ol><li>Open a DM</li><li>Trim URL to only show root and reload</li></ol>",
+        "testData": "e.g. start with<br><a href=\"https://community-release.mattermost.com/core/messages/@jelena\">https://community-release.mattermost.com</a><a href=\"https://community-release.mattermost.com/core/messages/@jelena\">/core/messages/@</a>username<br>delete the last part the URL<br>`<a href=\"https://community-release.mattermost.com/core/messages/@jelena\">/core/messages/@</a>username`<br>to be left with only this ⬇ and reload&nbsp;<br><a href=\"https://community-release.mattermost.com/core/messages/@jelena\">https://community-release.mattermost.com</a>",
+        "expectedResult": "<ul><li><p data-pm-slice='1 1 [\"bulletList\",null,\"listItem\",null]'>User is returned to DM/channel they were viewing after reload and go to root URL.</p></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.23 (May 2020)", "v5.26 (August 2020)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-\">keep track of last channels (including DMs) without affecting the close DM action — MM-23065</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-25804\">Reloading root URL sends to wrong DM channel in certain circumstances — MM-25804</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7ff3c32d64772f2759794709ae806c69b384dc4bea03a8c16a1c5f1860a1ee93a31688c2c1fb4730b3ee0e1c797ac7b5",
+  "stepsHashed": "21d1af9d1cda649402ceada198f857a6c0657e3a48387875c136acac2fc61bb5895a92208fc4808f49a65386d168a71c"
+}

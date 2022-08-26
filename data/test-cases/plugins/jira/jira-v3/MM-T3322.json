@@ -1,0 +1,56 @@
+{
+  "id": 6711247,
+  "key": "MM-T3322",
+  "name": "Verify no \"--instance\" needed for slash commands when only one instance is connected",
+  "createdOn": "2020-08-21T14:27:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Ensure your test user is only connected to 1 instance of jira<br>2. Use any issue slash command without specifying an instance  ex: /jira issue view EXT-122 <br>3. Send the command without selecting your <em>--instance</em> form the autocomplete&nbsp;",
+        "testData": null,
+        "expectedResult": "Slash command works without passing in an instance. Issue can be viewed.&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5b130d49bfaf31c61c624c6a5a27df0dfbd1c65cc271041cc4af9109f15015f120416eb58ae8e7664957ba6c7f39686c",
+  "stepsHashed": "ccf8397e049300efc72333f582400333d5e573c4c63ccf77fd7808e993c0848391f7f8ce91d81522c9a96370d3f1da1a"
+}

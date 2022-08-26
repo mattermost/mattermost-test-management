@@ -1,0 +1,55 @@
+{
+  "id": 4454310,
+  "key": "MM-T1528",
+  "name": "Slack format for slash command messages",
+  "createdOn": "2020-02-19T23:12:49Z",
+  "objective": null,
+  "precondition": "Slack Import test files are kept <a href=\"https://drive.google.com/drive/folders/19y2KC_tcqJZa-BDucvpdmsNdBqy-UL8Q\">in Google Drive here</a><br>You will use the above files for the tests.<br>It is important you have an account on the Slack team before exporting, so you can test claiming a Mattermost account imported from Slack.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404338,
+    "name": "Slack Import",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Slack Import"],
+    "fullPath": "suite/slack-import"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Slack import"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Slack format for slash command messages<br>–––––––––––––––––––––––––<br>LM: Need to seed Slack import account with an ephemeral message that has an attachment (see <a href=\"http://Slack%20%22posts%22%20are%20not%20imported,%20and%20should%20link%20to%20Slack%20for%20the%20file.\">https://github.com/mattermost/platform/pull/4999</a>) ?",
+        "testData": null,
+        "expectedResult": "<ul><li>Message should be styled like a System Message, and still have attachment</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<span style=\"color: rgb(184, 49, 47);\">This step is \"N/A\" on the original spreadsheet and may need to be deleted here.</span>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f43994b7c9006b2d712b872e7908ae702d38906475e9095d02fe99802da2a3ef0bba5e5bd0ce272be2b2bd31a82e9f78",
+  "stepsHashed": "0efeac175b9c0c4e8b1f829c859d507d7f10a109253aadb335aae05029d21161ade38590221cecf406ad706abb876fba"
+}

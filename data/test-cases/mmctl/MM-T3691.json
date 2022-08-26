@@ -1,0 +1,55 @@
+{
+  "id": 8578457,
+  "key": "MM-T3691",
+  "name": "Channel - User : Add - non-existent channel",
+  "createdOn": "2021-01-14T08:58:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel add myteam:mychannel user@example.com username",
+        "testData": null,
+        "expectedResult": "returns an error as the channel is non-existent",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cbc5b05360c963234e7fa9687c9e601fc5ef5200d1d641ff3de58b6f925eb02a9d51d484977148f791ec598234a79b2f",
+  "stepsHashed": "fc4c648d9e2508d02a75ad9193fb57a64a4e9ff7c37a8f37e99a0dcffca5a4f8b0404e24a33a3b9457eb7e3fff1aef95"
+}

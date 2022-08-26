@@ -1,0 +1,49 @@
+{
+  "id": 19602521,
+  "key": "MM-T4692",
+  "name": "CTRL/CMD+. (period)",
+  "createdOn": "2022-03-22T08:20:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Linda 10 June 2022: This test is running in RF but not reporting back to Zephyr.<br />https://app.rainforestqa.com/runs/945344/tests/317758/browsers/safari14",
+    "Rainforest": ["in Production", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Enter some text in the search bar and hit enter<br />2. Press CTRL + . (Win) or CMD + . (Mac)<br />3.Press CTRL + . (Win) or CMD + . (Mac) again<br />4. Click the reply arrow on a post in the center channel<br />5. Press CTRL + . (Win) or CMD + . (Mac)<br />6. Press CTRL + . (Win) or CMD + . (Mac) again</span> ",
+        "testData": null,
+        "expectedResult": "<span>1. Right-hand sidebar opens with search results<br />2. RHS closes<br />3. RHS opens to the same content that was shown after the first step<br />4. RHS opens with the reply thread loaded<br />5. RHS closes<br />6. RHS opens to the same content that was shown after step 4</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d114f32ad740fc95e0d62aed58810ad71bfcf70af3a00de894e28c8c059fa2f92b00a2b4b6d18fd2b779f374a63907bd",
+  "stepsHashed": "dd2e794a29592afb073095c802727aca0abe75550c9ee12227150720173873db7b556faaa9360a9d727780e42d400d14"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5537258,
+  "key": "MM-T2577",
+  "name": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)",
+  "createdOn": "2020-05-27T21:13:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)<br>————————————————————————————<ol><li>LDAP signin enabled, LDAP sync enabled ➜ Group fields editable</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Group fields:<ul><li>Group Filter</li><li>Group Display Name Attribute</li><li>Group ID Attribute</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dbcf5bca6fbe60a47818e34951d36328016fbb10de31e936d67b7377aceb3a0c037bc99f73d83bd6826bc4d4c31d0e5a",
+  "stepsHashed": "b5957c728e7eaab257961b6d83af74007e2d3e45ac23aa9a4834f562c2686fa9d7f445ace002b2a2a09819cdb4322042"
+}

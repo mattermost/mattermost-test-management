@@ -1,0 +1,82 @@
+{
+  "id": 21508409,
+  "key": "MM-T4788",
+  "name": "Valid form",
+  "createdOn": "2022-04-28T19:23:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2558579,
+    "name": "Valid test commands",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Valid test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/valid-test-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test test-command</em><em> valid form</em><br />3. Add some text and click Submit",
+        "testData": null,
+        "expectedResult": "On 2. A modal opens with a text field<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651174452346-1651174452346.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />On 3. A json object is shown in my ephemeral post with your data included in the \"<em>test_field</em>\" value.<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651174642678-1651174642678.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Make a post and expand the post options menu<br />3. Click the `form` option from the menu<br /><br />",
+        "testData": null,
+        "expectedResult": "On 2. A modal opens with a text field<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651174452346-1651174452346.png\" class=\"fr-fic fr-dii\" />On 3. A json object is shown in my ephemeral post with your data included in the \"<em>test_field</em>\" value.<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651174642678-1651174642678.png\" class=\"fr-fic fr-dii\" /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Click the `form` option from the channel header (or App Bar if it's enabled)<br />3. Click Cancel",
+        "testData": null,
+        "expectedResult": "On 2. A modal opens with a text field<br />On 3. The modal closes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dbcacedf6b015f83e02fd5620374a1ce9221cff135ea723548f3e1e924bd81dd554466475b7ac139236ff431654ea9ff",
+  "stepsHashed": "5d50637d16c6350361002ab6e7c01e21498968dd8ddf7299f73124e36e77045ae8fb2e4d501960ed211bd5647b883c4d"
+}

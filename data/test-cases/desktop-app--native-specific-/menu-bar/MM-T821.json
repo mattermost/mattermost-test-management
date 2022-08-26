@@ -1,0 +1,55 @@
+{
+  "id": 4032095,
+  "key": "MM-T821",
+  "name": "Toggle Developer Tools for Current Server in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Go to View &gt; Toggle Developer Tools for Current Server in the Menu Bar",
+        "testData": null,
+        "expectedResult": "Opens developer tools option for the server currently being viewed in a separate window",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bafe41d17632ce0459aeb6dbe2e4a19af053277d8166a2b3106ef422577d67277ed4c5c0367c59f5d79dd70285d05831",
+  "stepsHashed": "1c49d0481e2f755dfa6ef72cfe2eb47603ef85b5486d096908d0a462126f6f82cd5a3623dd97967aff570ef03f2f1897"
+}

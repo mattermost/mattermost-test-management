@@ -1,0 +1,55 @@
+{
+  "id": 3742400,
+  "key": "MM-T191",
+  "name": "RN apps: Markdown separator line renders",
+  "createdOn": "2019-12-20T20:46:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Markdown separator line renders<br />--------------------<br />1. Post 3 dashes (---) and view the post from different devices<br />(original bug affected Pixel 2, Galaxy S9+)",
+        "testData": "FIXED v1.22 https://mattermost.atlassian.net/browse/MM-17431",
+        "expectedResult": "Markdown separator line renders",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "389844963b9474a706729f8138b7f01f286cdace66f1dc7408c788ac623ed73efabe177144a8f28e68fd2a4a4ae2e144",
+  "stepsHashed": "978b67bcfe3abd4dd6d687ddcdac7772343747fdb3622e233b73f938f67d5e0f094b3cbecfc9adc7a63bbdff30f8264e"
+}

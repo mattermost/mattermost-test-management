@@ -1,0 +1,55 @@
+{
+  "id": 4088957,
+  "key": "MM-T1299",
+  "name": "Do not show Mattermost icon in the menu bar",
+  "createdOn": "2020-01-27T22:13:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565205,
+    "name": "Server Management",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Server Management"],
+    "fullPath": "desktop-app--native-specific-/server-management"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Navigate to settings/preferences:<br><strong>Linux</strong>: File ➜ Settings (or <strong>CTRL</strong><strong>+,</strong>) - <strong><em>Show icon in the notification area</em></strong><br><strong>Mac</strong>: Mattermost ➜ Preferences (or <strong>⌘+,</strong>) - <strong><em>Show Mattermost icon in the menu bar</em></strong><ol><li>Unselect Show icon option</li><li>Close Settings&nbsp;</li><li>Restart app</li></ol>",
+        "testData": null,
+        "expectedResult": "Mattermost icon doesn't appear on to menu bar, on top right corner of the system",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e2a2439eb8edaabb4eb52c730be4ec9563ed12b44a43d4e8056845c94f55b40eb7c406d067629a40d60556edc3ebccbf",
+  "stepsHashed": "1cd2da3118ab12b6c44284908b9fd4102b8a970d9ef3802b01a883f9cb229eb552371986a3807f431b257e730c0bad10"
+}

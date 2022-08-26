@@ -1,0 +1,55 @@
+{
+  "id": 8092458,
+  "key": "MM-T3625",
+  "name": "Team - Add User",
+  "createdOn": "2020-12-03T09:11:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team users add [teamname] [email address] [username]",
+        "testData": null,
+        "expectedResult": "Adds user to the team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "33f5da179f75f939f4901959521d3e06fd8d6615c751c8c9e78a03b91571e7f57d4f9ee6fe78b9745c6c5d2de5b726d2",
+  "stepsHashed": "5b06d85c4f8f7d43ea2508bbd3869b41e678e1fd640554aa36b395f97def8b6153497858ec357b1834f4bc3fd75b2f9f"
+}

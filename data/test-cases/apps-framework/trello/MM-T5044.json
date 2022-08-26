@@ -1,0 +1,55 @@
+{
+  "id": 28632593,
+  "key": "MM-T5044",
+  "name": "Trello permissions to boards",
+  "createdOn": "2022-08-15T22:39:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290340,
+    "name": "Trello",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Trello"],
+    "fullPath": "apps-framework/trello"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Add an OAuth that has access to all the boards from the workspace<br />2. Run the `/trello card create` command<br />3. Call to test Trello command: `Disconnect`<br />4. Call to test Trello command: `Connect`. Add an OAuth that has access to only some boards from the workspace<br />5. Run the `/trello card create` command<br />6. Run the `/trello subscription add` command.<br />7. Add a board that the user doesn't have access<br />8. Run the `/trello subscription remove ID` command<br />9. Add a subscription ID with a board that the user doesn't have access<br />10. Delete a board, then try to subscribe to it.",
+        "testData": null,
+        "expectedResult": "On 2. All the boards are listed on the board input from the option modal <br />On 5. Only the boards that the user has access are shown as options<br />On 6. You should get notified of the action performed by the troll bot<br />On 7. An error is shown: `Not found board with the name NAME`<br />On 9. An error is shown: `Unauthorized permission requested`<br />On 10. You should get an error stating the board does not exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e2ff04d3997610441023afcd120fc4b2ea53ba4c5d1afe504b3e14527391c2bcca50afe3bfff9b3fb68ac99a0aab9848",
+  "stepsHashed": "93c143cf2a002da4e8ee32b392038105028ad06b2b112733762dd59e67b165841b7770b4e346bff8c0cb2ff6969522e0"
+}

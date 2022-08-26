@@ -1,0 +1,55 @@
+{
+  "id": 15744445,
+  "key": "MM-T4321",
+  "name": "Permalink Preview - Share Message with Image (Long Text)",
+  "createdOn": "2021-10-27T20:22:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1879390,
+    "name": "Permalink Preview",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create Public <strong>ChannelA</strong> and <strong>ChannelB</strong> and add users <strong>UserA in <strong>C</strong>hannelA </strong>and <strong>UsersB in </strong><strong><strong>C</strong>hannelB</strong></li><li>In <strong>ChannelA</strong>, Post a long message with image.</li><li>Hover a message and Click share message icon<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1635366621527-1635366621527.png\" class=\"fr-fic fr-dii\" style=\"width:20px\" /></li><li>Select channel <strong>ChannelB</strong> from dropdown</li><li>Type comments in Add a Comment (optional) field</li><li>Click Share</li></ol>",
+        "testData": null,
+        "expectedResult": "3.(a) Share Message dialog should be displayed<br />3.(b) Message permalink preview should be displayed properly<br />4. (a) Channel name should be autocomplete <br />4. (b) Channel name should be selected <br />5. Comment should be displayed<br />6. Message should be shared in <strong>ChannelB</strong> and should be navigated<br />7.  Permalink preview  should be displayed properly in <strong>ChannelB</strong>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0d4c83900e38b0760d93df94d28280de9076439404b1adb3a12b6fa9e72dac2814ba34646741aa0d96b21a44a65ed6af",
+  "stepsHashed": "853dd7950cb134e4a5ba58a30bfc35a0621491e91c83de750e501a221b58aebbdb4cc77b8a58df6bf12e54206dc9bde6"
+}

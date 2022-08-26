@@ -1,0 +1,55 @@
+{
+  "id": 5477813,
+  "key": "MM-T2393",
+  "name": "Plugins - Disabled (with plugin uploads disabled in config.json)",
+  "createdOn": "2020-05-22T11:15:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugins - Disabled (with plugin uploads disabled in config.json)<br>————————————————————————————<ol><li>With plugin uploads disabled in config.json, disable plugins in System Console</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify messaging on Management page when plugins are disabled, pre-packaged plugins do not appear, file upload button is disabled</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Test on server with plugin uploads disabled in config.json; these settings can change. Usually windows.test.mattermost.com"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "deca70342f360758c6c07e97881726a57939428b74d148747534e15d209ae5a1b73599f0a1962c38ab26d19dbb1ec7e3",
+  "stepsHashed": "5105be3dd4cd2194e1f1b9a0d96e50dc5a0141085f6dd41ede2ead03ca12a1f126eed86ddaf6609b4130f3dc71555b69"
+}

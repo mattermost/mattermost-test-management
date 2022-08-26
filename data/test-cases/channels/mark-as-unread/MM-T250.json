@@ -1,0 +1,55 @@
+{
+  "id": 3768056,
+  "key": "MM-T250",
+  "name": "Mark as unread in the RHS",
+  "createdOn": "2019-12-27T20:26:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Cloud", "in Production", "Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a reply thread</li><li>Mark a post as unread using post menu option on the RHS reply thread</li><li>Repeat the steps and mark as unread using Alt+click</li><li><strong>In mobile</strong>: Open the reply thread and use long press menu to mark the post as unread, leave the thread view</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Messages can be marked as unread on the RHS panel, but the new messages line will only be placed in the center channel</li><li>Channel with the post is marked as unread</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19811\">Add ability to Mark as Unread from RHS — MM-19811</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bab8c78d32dcc74e43620354cc03f0d4fa48186257f3affcd35c85367a059cadbbb7c9c9b17c4be02ca275d752b708a6",
+  "stepsHashed": "e343bd67bde33eccf6ca74815fa2244ac0b93f6d253bc59486d5ff8de821ae4aa25bf1a7b19cfb845d072f1eee7451bc"
+}

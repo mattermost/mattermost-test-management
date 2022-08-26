@@ -1,0 +1,81 @@
+{
+  "id": 9648629,
+  "key": "MM-T3935",
+  "name": "Setup an http-hello",
+  "createdOn": "2021-03-24T19:19:26Z",
+  "objective": null,
+  "precondition": "Setup (Will be updated heavily once It's production ready on AWS)",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1236119,
+    "name": "http-hello app",
+    "parentId": 1236115,
+    "fullNames": ["Apps Framework", "Framework and test apps", "http-hello app"],
+    "fullPath": "apps-framework/framework-and-test-apps/http-hello-app"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Build MM Apps plugin frorm master and deploy the proxy plugin",
+        "testData": null,
+        "expectedResult": "The Cloud Apps plugin is built a deployed successfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Install the http-hello<br>1. Type<em>/apps debug-add-manifest --url http://localhost:8065/plugins/com.mattermost.apps/example/hello/mattermost-app.json</em><br>2. Type <em>/apps install --app-id http-hello</em><br><br>",
+        "testData": null,
+        "expectedResult": "App is installed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Change the channel to load bindings",
+        "testData": null,
+        "expectedResult": "The http-hello app is now available",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0cd583dd67a5c6fc1120344f826ca792646d21df066e68a8b3403545649bde1de150b85d809454e582f4c8fb306855bf",
+  "stepsHashed": "98fae7bc6ffef42371ab9e5f50c935d5da0417e589bbc52b8415483ab1904eb846253f2854ce9e9c4f8023de3a7545ce"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5444763,
+  "key": "MM-T2163",
+  "name": "Can post reply from flagged post in RHS (while viewing other channel)",
+  "createdOn": "2020-05-20T06:05:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can post reply from flagged post in RHS (while viewing other channel)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Viewing flagged posts in RHS, click Reply on one of the flagged posts in the RHS that is not from the channel you're viewing in the center<br />2. Post a Reply in RHS, verify reply does not post in center<br />3. Click in the LHS to view the channel where reply was posted<br />4. Click the back arrow left of &quot;Message Details&quot;",
+        "testData": null,
+        "expectedResult": "After step 2: Reply posts in RHS but does not post to center<br /><br />After step 3: Reply displays in center, reply is not flagged<br />Flagged parent post is still flagged<br /><br />After step 4: RHS shows flagged posts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44b5dc5793c3337a44411f270c6b41cfaa62c20d92305e8e338077ef19c2ec4619a2e18a6f072dadd891716d57d91417",
+  "stepsHashed": "6294fa619f7b60f0d6226367eeb2ae3c5db9fea35da27c6360a9aaf60ff7d25b86e1c139e0916f34c386b01130b39143"
+}

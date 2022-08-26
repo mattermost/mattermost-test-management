@@ -1,0 +1,55 @@
+{
+  "id": 13721372,
+  "key": "MM-T4186",
+  "name": "To do list has pop over tooltip",
+  "createdOn": "2021-08-30T15:24:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. type `/github todo`<br />2. Mouse over various issues and PRs",
+        "testData": null,
+        "expectedResult": "Pop-overs are shown for issue an PRs<br />- Data is accurate  <br />- Labels are displayed and match the issue<br />- Pop-over look good in all themes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "964ebde39bfe5c30123d6648547e61c314ed5565c05ee28dbe68d44ec31522949cf3bcb49d81c48d39c14a3b4e86a409",
+  "stepsHashed": "363adf71d0bf06d6fdd601db73e59f357348215977a5675b1734d3ced0192e7975fb48e1e3e2dbc0d15f212961362117"
+}

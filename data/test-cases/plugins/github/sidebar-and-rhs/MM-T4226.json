@@ -1,0 +1,55 @@
+{
+  "id": 13721616,
+  "key": "MM-T4226",
+  "name": "Sidebar - Refresh",
+  "createdOn": "2021-08-30T15:41:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194691,
+    "name": "Sidebar and RHS",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Sidebar and RHS"],
+    "fullPath": "plugins/github/sidebar-and-rhs"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Note current counts of PRs awaiting your review<br />2. Have another GitHub user request your review on a PR<br />3. Click Refresh option",
+        "testData": null,
+        "expectedResult": "Count is incremented by 1",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c51105deddb81eb7b2380c36c3a42d30c67be8492d44a2194584c9cf7b1b7763b690ea70b7249ea0e08dd18e970cf5a4",
+  "stepsHashed": "d517aeef322bf3eef53cf251fa43a7d4ff38e397ea03a128380eabcc7d2d459c7649537a0dd7042f83fa47f7e192b8d1"
+}

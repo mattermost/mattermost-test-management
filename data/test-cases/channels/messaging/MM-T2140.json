@@ -1,0 +1,55 @@
+{
+  "id": 5444740,
+  "key": "MM-T2140",
+  "name": "Edited message displays edits and `Edited` in center and RHS",
+  "createdOn": "2020-05-20T06:04:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edited message displays edits and `Edited` in center and RHS<br />————————————————————————————<br />Mobile app:<br />1. Edit a message, verify \"(edited)\" (ticket is in progress to update to \"Edited\")<br />2. Tap reply to view message thread and verify there<br /><br />Non-mobile:<br />1. On a message in the center, click the reply arrow to open message thread in RHS<br />2. On that message in the center, click [...] and then Edit<br />3. Edit the message<br />4. Click Save, verify \"Edited\" indicator",
+        "testData": null,
+        "expectedResult": "1. In both center and reply thread:<br />2. Reply text is changed to show your edit<br />3. Pencil icon and `Edited` displays in-line with the edited text; currently in mobile (edited) ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f1eb5ef3efcd0d55ef2a1e9a3005f26fb3ea022c1ee30d00e5d97faca0e1d71a7a72bf7e3ce717d12555b052eab8efb2",
+  "stepsHashed": "f2b8132c24520441f24e1c4bcdf9d93ae3a17816f30bdffe254d7fc307db7b60ac5dc6b360ac83ed2ba1796c28a92ddb"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5602327,
+  "key": "MM-T2798",
+  "name": "Mention users not in channel when channel is not group-constrained  - with permission to manage private channel members (the control case)",
+  "createdOn": "2020-06-01T22:09:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention users not in channel when channel is not group-constrained  - with permission to manage private channel members (the control case)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Create new private channel, at-mention three other users",
+        "testData": null,
+        "expectedResult": "Can add as usual",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14417\">Update the behaviour of at-mentioning a user in a private, group-constrained channel — MM-14417</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a040b01372e747dba7a7aaca4fbb9e30fde7273f5240852f69e28f03fb38a3fbdf6a9c2c7d445c3ab1216cbb468acc6d",
+  "stepsHashed": "41a244782297e403cf953c74e7fc618a940c53449a156921aca82137ecacb82a4c65b16b69e23242d89e0b9dd77ac8b5"
+}

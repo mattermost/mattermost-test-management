@@ -1,0 +1,56 @@
+{
+  "id": 12058253,
+  "key": "MM-T4111",
+  "name": "Test-App Modal buttons in forms can submit",
+  "createdOn": "2021-07-07T21:36:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1941501,
+    "name": "(prev)",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "Markdown is displayed correctly in modals<br />1. Open a channel where the slash command bindings are available<br />2. Type <em>/test valid open_form_with_buttons  </em><br />3. Select a user  <br />4. Select a a channel <br />5. Tap any of the 4 test buttons ",
+        "testData": null,
+        "expectedResult": "On 2. The test app open a modal with no submit button at the top<br />On 5. The modal closes and an ephemeral post with \"Ok\" shows the submit was successful",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7a536066c926848543170bfeab192dd542034f864831e5d5ef593b271dcc9887c4443e368dd2cffad9a9d5b797fa1d0c",
+  "stepsHashed": "880d20779ca1085b0f24ecd1a8688cb9e487ede1bbc133184dd751a3cd319314874181b74714e016ac655035894aa733"
+}

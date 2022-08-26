@@ -1,0 +1,55 @@
+{
+  "id": 5600857,
+  "key": "MM-T2708",
+  "name": "Switch Email to AD/LDAP",
+  "createdOn": "2020-06-01T17:46:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Switch Email to AD/LDAP<br>————————————————————————————<ol><li>Sign in with an account using email</li><li>Go to Account Settings ➜ Security ➜ Signin Method</li><li>Switch to AD/LDAP sign in</li><li>Log out of Mattermost</li><li>Log back in with AD/LDAP</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Sign in method should successfully switch to AD/LDAP.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b676b5b86917278e31b71239f5c2f6f091f796d157606c0537de5323bde813f754ca494c7e12422f61b67af8d75ef86e",
+  "stepsHashed": "dece03ebcdd8a118fd88e98df7d240f851f8f6cb6744e035bbc290156bfce9036812a864a97ee4f00e397585b4c1bddb"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4060237,
+  "key": "MM-T1210",
+  "name": "Can change Support Email setting",
+  "createdOn": "2020-01-22T21:45:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404340,
+    "name": "System Console",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "System Console"],
+    "fullPath": "suite/system-console"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can change Support Email setting<br />--------------------<br />Login as sysadmin and visit the page &quot;/admin_console/site_config/customization&quot; directly<br />Change set value and save",
+        "testData": null,
+        "expectedResult": "1. Verify that the setting, help text and set value is visible and match text<br />2. Verify that the value is save, directly via REST API",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c46130e1c761ec4aa1936a35387c6caa0c7019a6ee0239073563bb3aa623ef04cab91c91fc7259e5680e293261c0aea0",
+  "stepsHashed": "650daa084b2335a04292fcf9b09403d322cc6b03521ad6acd9f2594dbd6a0f9be6a077c20a1c347c426c739fedff0e95"
+}

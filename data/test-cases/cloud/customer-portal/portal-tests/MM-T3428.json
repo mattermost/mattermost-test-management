@@ -1,0 +1,55 @@
+{
+  "id": 7561637,
+  "key": "MM-T3428",
+  "name": "Portal - Step 3: Billing and Payment",
+  "createdOn": "2020-10-21T21:32:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": ["Queued"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create an account</li><li>Choose a subscription</li><li>Test links on <strong>Billing and Payment</strong> page</li><li>Type in credit card number<br />(<a href=\"https://stripe.com/docs/testing#cards\" rel=\"noopener noreferrer\" target=\"_blank\">Stripe test cards you can use located here</a>)</li><li>Fill in name and billing address</li><li>Erase the information you entered and try leaving some fields blank or incomplete</li><li>Agree to the terms</li><li>Click the <strong>Complete</strong> button</li><li>Click view license upon completion or use the Mattermost link in the top left corner</li><li>Click the ‘+ Purchase New Subscription’ link</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 1 &amp; 2, <ul><li>You land on the <strong>Billing and Payment</strong> screen</li><li>The <strong>Complete</strong> button remains inactive until all required fields are filled in properly</li></ul></li><li>After 3, all links work as expected</li><li>After 4, the card is accepted as valid</li><li>After 5, the information you entered is accepted as valid</li><li>During 6, you encounter errors (e.g., \"<span style=\"color:rgb(184, 49, 47)\">Please enter a valid credit card</span>\", \"<span style=\"color:rgb(184, 49, 47)\">This field is required</span>\", etc. )</li><li>If you skip 7 (don't check the terms) then you won't be able to proceed to the next step</li><li>After 8, <ul><li><strong>Processing your payment </strong>page appears with progress bar</li><li><strong>Congratulations!</strong> page appears with <strong>View your license</strong> button at the bottom<br />(clicking it brings you to the subscription page)</li><li>Email of successful payment received</li></ul></li><li>After 9, you're brought to the <strong>Subscriptions</strong> page</li><li>After 10, you're brought to the <strong>Next, choose a subscription</strong> page and E20 is selected by default</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Queued"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-30525\">Able to click 'Next Step' to move onto Billing and Payment screen without selecting any product — MM-30525</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-31055\">Portal - 'Product Privacy Policy' link in ToS check-off section leads to wrong page — MM-31055</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-35306\">Portal - Able to deselect \"My billing address…\" and complete purchase without filling in the \"Address\" fields — MM-35306</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d8fb3bcca59405f1ec77c55bf3621869c1eb89875931bedec9b73919940fd483d1a5a4006037cda658948cae5ee13d16",
+  "stepsHashed": "fda8125f89be267046a02128a50fd739368333cc37c4c38e256a1472041060bcac4e01d606a409efefd160b2e667544b"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4403868,
+  "key": "MM-T1479",
+  "name": "Post actions/links TAB navigation (Center)",
+  "createdOn": "2020-02-17T18:14:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:10 PM<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post actions/links TAB navigation (Center)<br>–––––––––––––––––––––––––<ul><li>Use CTRL+F6 to navigate to a post in any channel</li><li>Press TAB to move focus to the specific post elements, always in the order of \"Expected\"</li></ul>",
+        "testData": "",
+        "expectedResult": "<ol><li>Username (not applicable on consecutive posts)</li><li>Post timestamp</li><li>Flag icon</li><li>[...] menu button</li><li>Emoji reaction button</li><li>Reply button (not applicable in the RHS)</li><li>Links contained in the post body (if applicable)</li><li>Including the links in the \"Commented on [@users link]'s message: [message text link]\"</li><li>Including \"Show More\" button (if applicable)</li><li>Attachments (if applicable)</li><li>Single Images:<ol style=\"list-style-type: upper-alpha;\"><li>collapse/expand button</li><li>Image itself (ie opens preview)</li></ol></li><li>All other attachments:<ol style=\"list-style-type: upper-alpha;\"><li>Attachment itself (ie opens preview) and</li><li>Download button</li></ol></li><li>Emoji Reactions (if applicable)<ol style=\"list-style-type: upper-alpha;\"><li>Existing reactions left to right. Read out: \"emoji_readable_name emoji # reactions\" ie \"smile emoji 2 reactions\"</li><li>\"+\" button. Read out: \"Add new reaction\"</li></ol></li><li>Moves to next post in the same order ⇡</li></ol><br><strong>Note</strong>: You will NOT be able to TAB to the Pinned icon on a post as it's not an \"actionable\" icon. Pinning and un-pinning a post takes place in the 3-dot post actions menu",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16380\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Post actions/links TAB navigation — MM-16380</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6dbf7bddebebbb900d3235398efb2a99b6ffbee764e6ed5084b727ac53456da05ea6a7bf0da04b9fdbc98cc0865388a7",
+  "stepsHashed": "5c39a2da2806a054495e799759c4446863ad068ab4fea8dfa3d7ee30e8694b4eb926e64339286da948a2dd6285bd5ae7"
+}

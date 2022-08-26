@@ -1,0 +1,55 @@
+{
+  "id": 17862273,
+  "key": "MM-T4556",
+  "name": "/gitlab me",
+  "createdOn": "2022-01-26T22:14:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139767,
+    "name": "Slash Commands and Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
+    "fullPath": "plugins/gitlab/slash-commands-and-setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a system admin and enable the plugin<br />2. Login as a test user and type /gitlab connect <br />3. Once user is connected. type /gitlab me",
+        "testData": null,
+        "expectedResult": "The connected users GitLab user name and profile image are shown",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6968164bd901839bc4124eaf78a647a88340303c0b91105670d4080f09f3ec40efcbaf90d12de56a40c5557e2c4f4273",
+  "stepsHashed": "8766af9a5ce61c6609d6f0bd81dda3961373eab81f0ed5340d8d86970bd49f2663d590bb9590f4e49e0393adfd8feb0d"
+}

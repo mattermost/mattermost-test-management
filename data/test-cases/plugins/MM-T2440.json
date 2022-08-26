@@ -1,0 +1,55 @@
+{
+  "id": 5477861,
+  "key": "MM-T2440",
+  "name": "Navigating to (or refreshing) a plugin config page on system console for a deleted plugin returns a `Not Found` error",
+  "createdOn": "2020-05-22T11:15:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Navigating to (or refreshing) a plugin config page on system console for a deleted plugin returns a `Not Found` error<br>————————————————————————————<ol><li>Load the plugin config page from System Console ➜ Plugins then plugin settings page</li><li> Delete the plugin.</li><li>Refresh the browser page on step 1.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>A \"Plugin Not Found\" error shows in the page</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21322\">Navigating to (or refreshing) a plugin config page on system console for a deleted plugin should return a `Not Found` error — MM-21322</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d5ce846bb2e7dd01269814f2267672d86334271d9ba21002bae6cac3a106cabea2249fbbd651835e830676697053c0da",
+  "stepsHashed": "e4605a517f3e81e1dc32906f2fac9dfa119497c02daa0bc63c3e382b3d76b8184ce40a9d90fd61f05a0649de239e66a4"
+}

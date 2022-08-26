@@ -1,0 +1,55 @@
+{
+  "id": 20128869,
+  "key": "MM-T4755",
+  "name": "Insights - Team insights - Hover Top Channels Graph",
+  "createdOn": "2022-04-04T19:56:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2420042,
+    "name": "Team Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "Team Insights"],
+    "fullPath": "suite/activity-and-insights/insights/team-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>SysAdmin</strong><br />3. Create <strong>TeamA</strong><br />4. Create <strong>ChannelA</strong> with 1000 Posts<br />5. Create <strong>ChannelB</strong> with 850 Posts<br />6. Create <strong>ChannelC</strong> with 600 Posts<br />7. Create <strong>Chann</strong><strong>elD</strong> with 500 Posts<br />8. Create <strong>ChannelE</strong> with 250 Posts<br />9. Create <strong>Cha</strong><strong>nnelF</strong> with 100 Posts<br />10. Create <strong>UserA</strong> and add to <strong>TeamA</strong><br />11. Login as <strong>UserA</strong><br />12. Select <strong>Activity &amp; Insight</strong> from LHS.<br />13. select <strong>Team insight</strong> from<strong> My insight</strong> drop down menu<br />14. Hover <strong>Blue line</strong> graph",
+        "testData": null,
+        "expectedResult": "14.1. Following Popup should be displayed:<br />- Blue dot<br />- <strong>ChannelA</strong><br />- Total Posts(1000)<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1649169194567-1649169194567.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />14.2. Green, Yellow, Red and Orange graph<br />should not be displayed.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "18ecbf213b3de5e2a33889c5d685ad3ba53f3467461898029d8dc8230e097356e897c90a94f2d53cb7b6652b2379b2f5",
+  "stepsHashed": "e11fd62e7cff323b48ecfbde84d8987afa19bea5a6b0cb6d0723aee66a3dec2c6f9c0270b9ba0bfb617bc91734e78b65"
+}

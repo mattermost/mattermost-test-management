@@ -1,0 +1,81 @@
+{
+  "id": 5294800,
+  "key": "MM-T2021",
+  "name": "Sidebar > Archived channels",
+  "createdOn": "2020-05-06T05:05:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Archive a channel with easy to remember posted phrase e.g. &quot;pineapple&quot;",
+        "testData": null,
+        "expectedResult": "Archived channel is visible on the LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. Click on a different channel",
+        "testData": null,
+        "expectedResult": "Archived channel is removed from the LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "3. Search for &quot;pineapple&quot; and click on jump to link on RHS",
+        "testData": null,
+        "expectedResult": "Archived channel opens with the term highlighted, channel is visible on the LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "00da7ebc2f056decc8431cce139b1f84d140e57e876d9dd7d783ea8651533c9f2f464060ce885333689d37e64eef517b",
+  "stepsHashed": "bb90d58d6cf068920f3e42418e98f986f393e0cc973c097c2ebd6d823e80fd323c6ebf7f595594fdd2dd963d43cfe15f"
+}

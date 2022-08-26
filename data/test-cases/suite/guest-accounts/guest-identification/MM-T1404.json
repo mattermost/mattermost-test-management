@@ -1,0 +1,55 @@
+{
+  "id": 4152387,
+  "key": "MM-T1404",
+  "name": "Guest badge not shown next to system messages",
+  "createdOn": "2020-01-30T23:27:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.24 Mobile (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN: Guest badge not shown next to system messages<br>–––––––––––––––––––––––––",
+        "testData": "",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": ["v1.24 Mobile (Oct 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18930\">RN: Discrepancy in status message shown to user when a Guest user joins a channel — MM-18930</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "21b593f9ab1cf8f549cce6ccb446b5611bc6d1b5a53fb35f44a20c6a3cf390e1447840ff2dd138753e648443489808e2",
+  "stepsHashed": "6005cdcf3112528ebe5d31d285d389cb4863dc883f1e20fe7818f07fd69684afa3eb5b92d4255b24b404e15fbe3d9031"
+}

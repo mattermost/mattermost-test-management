@@ -1,0 +1,55 @@
+{
+  "id": 4060240,
+  "key": "MM-T1213",
+  "name": "Can change About Link setting",
+  "createdOn": "2020-01-22T21:45:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404340,
+    "name": "System Console",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "System Console"],
+    "fullPath": "suite/system-console"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can change About Link setting<br />--------------------<br />Login as sysadmin and visit the page &quot;/admin_console/site_config/customization&quot; directly<br />Change set value and save",
+        "testData": null,
+        "expectedResult": "1. Verify that the setting, help text and set value is visible and match text<br />2. Verify that the value is save, directly via REST API",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "69818ce22e8d5d1be2119f50feee30f2cfecbe94566e395ceb33b2b86cf313db02b20fa072cb1f3bb82c72422e5d025e",
+  "stepsHashed": "e5ee756b425b1daf60038e257aa558b9a90f9c8c8218b552a456ef65157c6cd0d3670b3d96a293e8a7e2ab4b51f545b2"
+}

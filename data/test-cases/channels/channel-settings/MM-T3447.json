@@ -1,0 +1,107 @@
+{
+  "id": 7574752,
+  "key": "MM-T3447",
+  "name": "Find Channels modal Search > Prioritization and sorting",
+  "createdOn": "2020-10-22T21:25:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 10:38 PM<br>• Added Cypress code link",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create 3 users for testing (az1, az2 and az3)</li><li>Login as test user</li><li>Remove all unread channels from LHS</li><li>Go to the DM channel of the second user </li><li>Open Find Channels modal</li><li>Search for the term `a`<ol style=\"list-style-type:lower-alpha\"><li>Should have the most recently interacted DM on top</li></ol></li><li>Close Find Channels modal</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify we should see most recent user on top of results",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Go to the DM channel of third user</li><li>Open Find Channels modal </li><li>Search with term a<ol style=\"list-style-type:lower-alpha\"><li>Should have recently interacted DM on top</li></ol></li><li>Close Find Channels modal</li><li>Go to the DM channel of second user</li><li>Open Find Channels modal search for `a`<ol style=\"list-style-type:lower-alpha\"><li>Should have recently interacted DM on top</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Should add latest interacted user on top of results instead of alphabetical order",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Search with the term: z2<ol style=\"list-style-type:lower-alpha\"><li>Should match second user as it has a partial match with the search term</li></ol></li><li>Open Find Channels modal</li><li>Search with the term: z3<ol style=\"list-style-type:lower-alpha\"><li>Should match third user as it has a partial match with the search term</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Should match interacted users even with a partial match",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Create a group message with the 3 users</li><li>Visit the newly created group message</li><li>Open Find Channels modal<ol style=\"list-style-type:lower-alpha\"><li>Should have recently interacted GM on top</li></ol></li><li>Open the channel dropdown menu</li><li>Click on 'Close group message' menu item</li><li>Open Find Channels modal</li><li>Should have recently interacted DM on top</li></ol>",
+        "testData": null,
+        "expectedResult": "Should not match GM if it is removed from LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should match GM even with space in search term<br />_______________________<ol><li>Create a GM with 2 other users<br />a. Visit the newly created group message</li><li>Open Find Channels modal and enter first user name and beginning of 2nd<br />a. Should have the GM listed in the results</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e3256741c7bf138f6757ecaa7443c362a8d586dc8371cd0faa17bba51785a2d2383e2aab65326a56030a2ef9713703f",
+  "stepsHashed": "d0016e642daf268e2c9eae234cdfbad62eaa511af48aff396ad9ccce1fa26140ea29b2945c6b8b0ae1eb6ffea51d646b"
+}

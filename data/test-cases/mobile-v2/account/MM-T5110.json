@@ -1,0 +1,68 @@
+{
+  "id": 29408183,
+  "key": "MM-T5110",
+  "name": "Mobile V2: Account - Settings - Auto-Responder Notification Settings",
+  "createdOn": "2022-08-25T22:20:18Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Log in to server, open account screen, open settings screen, open notification settings screen, and go to auto-responder notification settings screen<br /><br />For each test step:<br />1. Verify on auto-responder notification settings screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3287708,
+    "name": "Account",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Account"],
+    "fullPath": "mobile-v2/account"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on auto-responder notification settings screen</strong><br />--------------------<br />1. Verify basic elements on auto-responder notification settings screen:<br />- back button<br />- options: enable automatic replies<br />- message input and description",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to change auto-responder notification settings and save by tapping navigation back button</strong><br />--------------------<br />1. Toggle enable automatic replies option on, type in message, and tap on back button<br />2. Verify on notification settings screen and automatic replies is enabled<br />3. Go back to auto-responder notification settings screen<br />4. Verify enable automatic replies option is toggled on and message is saved<br />5. Toggle enable automatic replies option off and tap on back button<br />6. Verify on notification settings screen and automatic replies is disabled<br />7. Go back to auto-responder notification settings screen<br />8. Verify enable automatic replies option is toggled off and message input does not exist",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "134a2bb1f906380d76f61b5b5468e3c9e501f66c22fe25ea6033f7a4081eb1020c924e69ed7f85da2576aaba1988d45d",
+  "stepsHashed": "9ba0c796ff88ff134a4a55c95e43c011f6f951d662eb1e211cb0a30da529d7b19843ace2046cd46f98c45d321ae7cee8"
+}

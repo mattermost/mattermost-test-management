@@ -1,0 +1,55 @@
+{
+  "id": 5444808,
+  "key": "MM-T2207",
+  "name": "Added to channel by other user from at-mention (not in channel)",
+  "createdOn": "2020-05-20T06:05:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Added to channel from autocomplete not in channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Have another user mention and add you to a channel",
+        "testData": null,
+        "expectedResult": "You receive a mention, with mention badge on the new channel in your LHS<br /><br />System message says you were added to the channel by so-and-so",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "53d0de5cec97c291a8511f9aafc71f578c71006a5f7357961350906e3775edb4cff5825d374460089b7cf1edaf00bd7b",
+  "stepsHashed": "d42ef4c2b70aac116d0262604137cba4d89f342630a899c15ad7263338c5bba64c8b07501e66a2aed7fb90dfe538aa22"
+}

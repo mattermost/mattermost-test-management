@@ -1,0 +1,55 @@
+{
+  "id": 10233144,
+  "key": "MM-T4010",
+  "name": "Show Policy Teams information",
+  "createdOn": "2021-04-19T21:19:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Login as an Admin</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Go to System Console &gt; Compliance &gt; Data Retention Policy.</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Add policy and add Channels and Teams</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Click newly created policy</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Show policy teams information using API</p></li></ol><p dir=\"ltr\">curl -i -H \"Authorization: Bearer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;MMAUTHTOKEN&gt;\"&nbsp;</p><p dir=\"ltr\">-X GET&nbsp;</p><p dir=\"ltr\">-d '{&nbsp;}’ &nbsp;&nbsp;</p><p dir=\"ltr\">&nbsp;/api/v4/data_retention/policies/</p><p dir=\"ltr\">&lt;policyID&gt;/teams</p>",
+        "testData": null,
+        "expectedResult": "<p dir=\"ltr\">4. Team information should be displayed.</p><p dir=\"ltr\">5. Team information should be displayed.</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5cce97f3135b180e1bcc8ebe33eb91856163f65783ce676d68a4596319ffb887e82cb6a243fd4628d4496ae1765a1549",
+  "stepsHashed": "4d1d970e1a822f55beb9900969fcddb94d14037c1e558c08ad67888edb566d15e179594f85ee9b93980ee15072bc4dfe"
+}

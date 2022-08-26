@@ -1,0 +1,55 @@
+{
+  "id": 6308532,
+  "key": "MM-T2350",
+  "name": "RN apps: View profile",
+  "createdOn": "2020-07-22T20:55:25Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["account-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.32 Mobile (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: View profile<br>--------------------<br>1. In a channel, tap on a user's profile icon or username to go to profile<br><br><br>",
+        "testData": null,
+        "expectedResult": "Profile view should include at least the following,<ul><li>profile picture<ul><li>Full Name</li><li>username</li></ul></li><li>First Name field</li><li>Last Name field</li><li>Nickname field</li><li>Position field</li><li>Local Time field</li><li>Send Message</li></ul><br>Note: username should not be a field but just appear under profile picture",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cbb71c62041b728a608821a5f88e41445233c9c857f645af972225db5dc82c390c46f5f301867ccae1b36d1d8beb8f1f",
+  "stepsHashed": "63306b582bb816b4386488a656fae60c2ec7fab37623f01a568d9a07be541ff101fbe12e2ac9c7f0c887fd032e669793"
+}

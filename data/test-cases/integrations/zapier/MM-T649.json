@@ -1,0 +1,55 @@
+{
+  "id": 3968349,
+  "key": "MM-T649",
+  "name": "🔸 04 — Edit Zapier",
+  "createdOn": "2020-01-08T12:57:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586859,
+    "name": "Zapier",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit Zapier<br>–––––––––––––––––––––––––<ul><li>App creator should be able to edit their own app.</li><li>System Admin should be able to edit anyone's app.</li><li>No one other than system admin should be able to see other users' OAuth 2.0 apps.<ol><li>Edit the Zapier integration's description or name and save.</li></ol></li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>Verify changes saved</li><li>Verify Zap still works</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Can create a fake OAuth app as a non-admin, then verified that system admin could edit it"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "57ca68acb8af8424e728b63c93395dc95fadb7ea016afce9c21ad9c79df32648b93b0226cf6762a2f45ab0caa0115fca",
+  "stepsHashed": "e106523a796f5f6d98d3974afc7d7ae1b68825c5e221da510515d11191e4d6dbb42b1bc5ce9a36e7f314f87505bcb1cb"
+}

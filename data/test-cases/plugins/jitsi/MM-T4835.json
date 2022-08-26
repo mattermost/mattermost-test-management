@@ -1,0 +1,55 @@
+{
+  "id": 22954602,
+  "key": "MM-T4835",
+  "name": "Slash command /jitsi [topic]",
+  "createdOn": "2022-05-26T15:32:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Type /jitsi pickles",
+        "testData": null,
+        "expectedResult": "Create a new meeting with specified topic such as pickles",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e13b8e17dd8e9d020652f0357e50a2d63d44eaaf88b7794b588c260ac94b6d6a919b2fa093cab8e51beaadd95ea6306d",
+  "stepsHashed": "71d5c5babf323710ebbf188e078f288412c9c664d780a12e6f555df97ba91a9b66bf6c43fdae08a4171b24d6551a9470"
+}

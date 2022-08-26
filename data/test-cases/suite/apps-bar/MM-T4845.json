@@ -1,0 +1,55 @@
+{
+  "id": 23668190,
+  "key": "MM-T4845",
+  "name": "System Console flag replaces Feature flag",
+  "createdOn": "2022-06-07T21:01:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start up a server where MM_FEATUREFLAGS_AppBarEnabled is not set to true<br />2. Note that the App Bar is not enabled<br />3. Login as a Sysadmin user<br />4. Set the client setup flag to enable the App Bar",
+        "testData": null,
+        "expectedResult": "App bar is now enabled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "383393d7cfd73aecbf92f00f2699c5e43e986aa7aa1b4f109918a342a06575179279b79d86a97375ec1ba22cff150037",
+  "stepsHashed": "c39fbfc44a27d6339b897a97ff42566fe9bd064a93f0fef2929c189cc6d060d335ee96563ffea683e65d0df96eb29f4f"
+}

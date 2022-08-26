@@ -1,0 +1,55 @@
+{
+  "id": 11034699,
+  "key": "MM-T4085",
+  "name": "CTRL/CMD+K - Unread Channels and input field focus",
+  "createdOn": "2021-06-01T02:34:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "This can't be automated in Cypress since there's no way to click outside of the browser window.",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Note: See <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/MM-T3002\">MM-T3002</a> as first step. It's separated since these particular step can't be automated in Cypress.<br /><ol><li>Click outside of the browser window, leaving the Mattermost in the background</li><li>Click back on the browser window to bring Mattermost back in focus</li></ol>",
+        "testData": null,
+        "expectedResult": "1. On step 1,<br /><ul><li>The Switch Channels modal is out of focus</li><li>Unread Channels are listed</li></ul>2. On step 2,<br /><ul><li>Focus is back in the input field of the Switch Channels modal</li><li>Unread Channels are listed</li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "38a7f076123f97e7ab20442754009f34ccb0f807bb95be8914c5212c4b5369fdea660e15d37a6fd0aa1d4d712930f568",
+  "stepsHashed": "5e82c36d37b78e98b0150b2b821d0c273a7f18c54bdb24ec5f71308bb11b41457c5c07bd3c36d2f3f50fbfb6502bf8d4"
+}

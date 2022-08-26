@@ -1,0 +1,55 @@
+{
+  "id": 15735384,
+  "key": "MM-T4302",
+  "name": "Permalink Preview - Short Text - Hover Post",
+  "createdOn": "2021-10-27T15:01:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1879390,
+    "name": "Permalink Preview",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Create Public <strong>ChannelA</strong> and <strong>ChannelB</strong> and add <strong>UserA</strong>, in <strong>ChannelA</strong> and <strong>UsersB in C</strong><strong>hannelB</strong></p></li><li><p>In ChannelA, Post a message with text only.</p></li><li><p>Click on the [...] menu to the right of the message posted.</p></li><li><p>Click on the \"Copy Link\" button in the dialog box</p></li><li>Paste the permalink in <strong>ChannelB</strong></li><li><p>Hover the mouse at the post</p></li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Shadow should not be highlighted</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1bb8a3a9d93d797b12cfa74a4ce6d3969237a9db2ca5d34c9fdf4162a731feb11193d732df89d03ab8adae35cb1cc49e",
+  "stepsHashed": "03ee15d0a2d6052cfdbcc7cd4ff0e7d27918f16e1ca5f31a837f30906ec0e6d3dc66adf182a09d958facbb7d761df132"
+}

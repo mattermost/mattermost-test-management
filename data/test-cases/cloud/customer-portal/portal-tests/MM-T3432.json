@@ -1,0 +1,55 @@
+{
+  "id": 7561785,
+  "key": "MM-T3432",
+  "name": "Portal - Password change",
+  "createdOn": "2020-10-21T22:02:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open the portal on a normal tab and on an incognito tab or another browser</li><li>Go to the Password page at <a href=\"https://portal.test.cloud.mattermost.com/console/password\">https://portal.test.cloud.mattermost.com/console/password</a> on the regular tab</li><li>Change your password among other fields on that page if you'd like</li><li>Try to move through the portal without verifying the password change</li><li>Try to navigate around the portal on the incognito tab or other browser where you're logged into that same account</li><li>Verify the password change via the link in the email you received</li><li>After logging back in logout and try again using your previous password</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604963889049-1604963889049.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>After 2 verify the appearance of the Change Password fields<ul><li>Old Password</li><li>New Password</li><li>Confirm New Password</li><li>Update &amp; Cancel buttons</li></ul></li><li>After 3, you should receive an email asking you to verify the password change</li><li>During 4, you shouldn't be allowed to do anything until you verify the new email</li><li>During 5, you should be logged out as you navigate about</li><li>After 6, you're logged in</li><li>After 7, you're unable to login using the old password</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-30015\">Changing your password in the customer portal doesn't invalidate existing sessions — MM-30015</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "684c456ef6fd2e33794798ef67d847ae4cf86765e67b973555c405be29217f809e49867ca3ecf4b6e3c816c824aec759",
+  "stepsHashed": "4e7a6c5b6c9cbfea38d4e890f00606cf2c05a383d3a07f6919c868fa3fa2e8c2160bf0ae8d59ff485d30713ec02e2dfb"
+}

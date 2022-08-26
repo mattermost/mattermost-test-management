@@ -1,0 +1,55 @@
+{
+  "id": 4058108,
+  "key": "MM-T1098",
+  "name": "Privacy\nEmail Address - Shown\nFull Name - Shown\nChannel > View Members\nNon-System admin",
+  "createdOn": "2020-01-22T16:25:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Shown<br />Full Name - Shown<br />Channel &gt; View Members<br />Non-System admin<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = true<br />2. Ensure &quot;Show Full Name&quot; = true<br /><br />Non-System admin clicks Town Square channel drop-down &gt; View Members",
+        "testData": null,
+        "expectedResult": "Non-System admin can see all email addresses and full names",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "186d793e10918eea0fcf751ed9454867ad4b5db98468b6a14376223a20b9860cc05a0252c4a5e1fdc203a2f4bf35ad33",
+  "stepsHashed": "49bc827f7c5fa730727674d191f1f40381bada3821b773540d353a84421915994b7c2589d9eea647072a67c3db6c2f1e"
+}

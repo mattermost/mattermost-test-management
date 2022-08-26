@@ -1,0 +1,55 @@
+{
+  "id": 17862504,
+  "key": "MM-T4604",
+  "name": "Install the plugin on a subdomain",
+  "createdOn": "2022-01-26T22:44:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139778,
+    "name": "Subdomain and Cloud specific tests",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subdomain and Cloud specific tests"],
+    "fullPath": "plugins/gitlab/subdomain-and-cloud-specific-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Navigate to https://subpath.test.mattermost.com/mattermost/plugins/com.github.manland.mattermost-plugin-gitlab/oauth/complete<br />2. Login as a system admin<br />3. Install and enable the GitLab Plugin<br />4. Connect a user to GitLab",
+        "testData": null,
+        "expectedResult": "3. User succfully connects to GitLab<br />4. Ephemeral post shows the currently connected user",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "555677a6cffcb6ca767bde8ff62fb44680787f662864fdb0d5a90e19a62ae0feff570131aaa2e99680031af5b84f7712",
+  "stepsHashed": "f062531680a69090550b1752caa3b1af25924ddf31e4808bd3025de487819e2a3069b0a3f6756ca50033825f2293fe7c"
+}

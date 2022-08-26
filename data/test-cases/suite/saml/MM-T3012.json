@@ -1,0 +1,55 @@
+{
+  "id": 6135845,
+  "key": "MM-T3012",
+  "name": "Check SAML Metadata without Enable Encryption",
+  "createdOn": "2020-07-09T07:22:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Skipped"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404332,
+    "name": "SAML",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "SAML"],
+    "fullPath": "suite/saml"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:07 PM<br>• Set back to Active for manual testing",
+    "Rainforest": [],
+    "Cypress Reports": "SKIPPED - TM4J-Key-Mapped-In-Cypress-Skipped - Cypress code contains TM4J key but not found in any Cypress run reports (SDET)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "SAML"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Configure valid SAML settings<br>1a. Leave \"\"Enable Encryption\"\" option to false.<br>1b. DO NOT provide key or cert files.<br><strong><span style=\"color: rgb(226, 80, 65);\">NOTE: If using an existing setup, ensure you have the key and cert files available to re-add after you have removed them for this test<br></span></strong><br>2. Browse to https://site.example.com/api/v4/saml/metadata (replace site.example.com with the server info)",
+        "testData": null,
+        "expectedResult": "<ul><li>No error should be rendered while accessing the API endpoint.</li><li>Metadata.xml file should be shown</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "​​​​New v5.18: MM-15998",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f88fa5db51279d746866ac146563b6873bc2ad46b847dcae3d2d7e68b9a8548aac1bdcf2cc8a19393a08561ef4c9da69",
+  "stepsHashed": "b2c9b3a77dc17139027e231dbc8e99d8ba784e29e4958505a03a9512616a39268f9195eafd56df4bb28f183e26c59203"
+}

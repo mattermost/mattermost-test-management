@@ -1,0 +1,55 @@
+{
+  "id": 3736155,
+  "key": "MM-T79",
+  "name": "RN apps: \"commented on\" line is NOT shown on the post below the \"new messages\" line if it is from the different authors but part of the same thread/conversation",
+  "createdOn": "2019-12-19T15:28:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: &quot;commented on&quot; line is NOT shown on the post below the &quot;new messages&quot; line if it is from the different authors but part of the same thread/conversation<br />--------------------<br />1. With 3 test accounts, start a conversation in any test channel<br />2. User1 make a post<br />3. User2 reply<br />4. User1 switches to a different channel<br />5. User3 reply to thread<br />6. User1 switches back to test channel to view new message",
+        "testData": "FIXED v1.26 <a href=\"https://mattermost.atlassian.net/browse/MM-18054\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-18054</a>",
+        "expectedResult": "- User1 sees a post above the &quot;new messages&quot; line from User2 and a post below the &quot;new messages&quot; line from User3<br />- There is NO &quot;commented on&quot; line on User3's post below the &quot;new messages&quot; line as the post is from the same thread/conversation but a different author",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d6e7c8200ae4f7547ae4a3c2d64e5c3858bb8b6d4a1a05210fe3c066dea75cc5f085b3a3ab47ec3a789a6ebec52a1e8f",
+  "stepsHashed": "30328b08d27c00607857c6a52af6c79c2148c9c8debeb653dd3703d76529b618b45dbceff5468e2941fa7423bcf966be"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5247259,
+  "key": "MM-T1736",
+  "name": "Selected Option is displayed, Ephemeral message is posted",
+  "createdOn": "2020-04-29T17:41:46Z",
+  "objective": "<strong>Overview</strong>:<ul><li>Feature also available in RN</li><li> Enables integrations to post attachments with drop-down menus containing various selection options</li><li> Required to be set up: Integration with message attachment and interactive menu</li></ul><strong>RN</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-11934\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11934</a><br><strong>Webapp</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-8477\">https://mattermost.atlassian.net/browse/MM-8477</a><br><br><a href=\"https://mattermost.atlassian.net/browse/MM-11850\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11850</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-11932\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11932</a><br><br>Noting this ticket here as it was to REMOVE the \"\"Submitted\"\" button that had been implemented but was removed by <a href=\"https://mattermost.atlassian.net/browse/MM-13114\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-13114</a><br><br><strong>Epic</strong>:<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-8479\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-8479</a></li><li><a href=\"https://github.com/mattermost/mattermost-webapp/pull/1612\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/mattermost/mattermost-webapp/pull/1612</a></li></ul><strong>Spec</strong>:<ul><li>We followed <a href=\"https://api.slack.com/docs/message-menus\" rel=\"noopener noreferrer\" target=\"_blank\">https://api.slack.com/docs/message-menus</a></li></ul>",
+  "precondition": "Set up on mysql.test in <a href=\"https://mysql.test.mattermost.com/a-team/channels/town-square\" rel=\"noopener noreferrer\" target=\"_blank\">Town Square of the \"Ayyyyy Team\"</a>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404287,
+    "name": "Interactive Menus Message Attachments",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
+    "fullPath": "integrations/interactive-menus-message-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:43 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Interactive Menus - Message Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Selected Option is displayed, Ephemeral message is posted<br>–––––––––––––––––––––––––<ol><li>Click (tap for RN) on dropdown to the right of the menu</li><li>Select an option by scrolling and then clicking (tapping for RN) on it</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Option is displayed in the text box</li><li>Ephemeral message posts (only visible to you) showing the selection you have made</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17627\">Webapp: Border on options not visible from interactive menus — MM-17627</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a780efa7cdb35bdc76dc697990f2f939092b2b6f5926b8363362e1901867496357fe776c5344ac8c3db3b7a814e645d6",
+  "stepsHashed": "f87655231838ee98a45b925bbaa88e46229dd43592e098e16a44415902b197d4619d7635d6ee4e95c73918ab2a2e1310"
+}

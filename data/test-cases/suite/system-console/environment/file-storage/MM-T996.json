@@ -1,0 +1,55 @@
+{
+  "id": 4051751,
+  "key": "MM-T996",
+  "name": "Amazon S3 connection error messaging",
+  "createdOn": "2020-01-21T22:18:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568113,
+    "name": "File Storage",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
+    "fullPath": "suite/system-console/environment/file-storage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Amazon S3 connection error messaging<br />--------------------<br />1. With bucket field empty, click to test connection<br />2. With invalid bucket field value, click to test connection",
+        "testData": null,
+        "expectedResult": "Error messages print at bottom of screen in each case",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b3da843401a7cfa1ae9dbfcb5c463ad3f8b6117630f39dfbb269181adc735cd25a116c1f45ceb774ac00ac9eae52a54",
+  "stepsHashed": "1937d9bb28add93ddf0e3ff5cdf67fb18c4d5494d1865de944b958fa5cc9879b2dca5f7d8af81f18c64366ab74471065"
+}

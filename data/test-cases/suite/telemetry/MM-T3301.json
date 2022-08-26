@@ -1,0 +1,55 @@
+{
+  "id": 6568202,
+  "key": "MM-T3301",
+  "name": "Sidebar - new category telemetry",
+  "createdOn": "2020-08-10T21:44:31Z",
+  "objective": null,
+  "precondition": "User-Level Web &amp; Desktop Client Telemetry<br><a href=\"https://mattermost.looker.com/dashboards/181\">https://mattermost.looker.com/dashboards/181</a><br><br>",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 836038,
+    "name": "Telemetry",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Telemetry"],
+    "fullPath": "suite/telemetry"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Telemetry"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Sidebar - new category telemetry<br>–––––––––––––––––––––––––<br><ol><li>Open User-Level Web &amp; Desktop Client Telemetry<br><a href=\"https://mattermost.looker.com/dashboards/181\">https://mattermost.looker.com/dashboards/181</a></li><li>User Filter to verify tracking events(italicized) out of all results&nbsp;<ul><li>The + menu ➜ New Category ➜ <em>ui_sidebar_menu_createCategory</em></li><li>The category menu ➜ New Category ➜ <em>ui_sidebar_category_menu_createCategory</em></li><li>The channel menu ➜ Move To ➜ New Category ➜ <em>ui_sidebar_channel_menu_createCategory</em></li></ul></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify tracking events exists for the following:<ul><li><em><strong>ui_sidebar_menu_createCategory</strong></em></li><li><strong><em>ui_sidebar_category_menu_createCategory</em></strong></li><li><strong><em>ui_sidebar_channel_menu_createCategory</em></strong></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "53e0e52e73b8feb50dde64ed4e3cf599006fc47cbebbbf0829b2a7fa1fc930123b82824c2aa51edbcb621a75fe040d54",
+  "stepsHashed": "862dfb31fcf1630a507e22c24750f1a5b925678fce80d2a02671e4a609692c51bc21d907617d2a95aab5c49522dd49ad"
+}

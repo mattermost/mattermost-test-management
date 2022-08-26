@@ -1,0 +1,55 @@
+{
+  "id": 5659463,
+  "key": "MM-T2912",
+  "name": "Team Admin is able to delete private channel",
+  "createdOn": "2020-06-04T18:02:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Admin is able to delete private channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a private Channel<br />2. Click the down arrow next to the channel header to see channel options<br />3. Ensure that Delete Channel is available and select it<br />4. Click Delete on the confirmation screen",
+        "testData": null,
+        "expectedResult": "For step 3 Delete Channel is available.<br />For Step 4 channel is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3700c4a2bdb3ba6fca0e9b11d137d18dcda990c43fe0b220c0dcae0e1d65206acffa8978e2036ef9b1ecec344817425e",
+  "stepsHashed": "7291327783abc021db92ad0eaa2fa575ab1665158c660d0808888eaa57c763eb0305027e3563b364c1c1315e05c6c307"
+}

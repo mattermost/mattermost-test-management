@@ -1,0 +1,56 @@
+{
+  "id": 28674903,
+  "key": "MM-T5068",
+  "name": "List of incidents",
+  "createdOn": "2022-08-16T21:15:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5065" } },
+    {
+      "inline": {
+        "description": "2. On any Mattermost channel, run command ` /pd list incident`<br />3. Click on `View detail` link from any item",
+        "testData": null,
+        "expectedResult": "On 2. The list of incidents registered in PagerDuty will be displayed based on the configuration of the permissions of the account<br />On 3. You will be directed to the complete detail of the incident in the PagerDuty web system",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1cb693d695ba8b9ba3a85afc197f69110714e2be6d0f7a8888aad167ceb4e1434ad4e9b89991db716f42ac9a9167542",
+  "stepsHashed": "15232b2a284d767623b76f7cd3e324bbabca45a2886ea6acc7b1425af4db85d3b83577105a8a7480da8af373d36ab5c4"
+}

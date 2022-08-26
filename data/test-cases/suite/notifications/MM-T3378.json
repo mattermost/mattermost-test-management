@@ -1,0 +1,55 @@
+{
+  "id": 7136856,
+  "key": "MM-T3378",
+  "name": "RN apps: Channel Mobile Notifications - Mentions",
+  "createdOn": "2020-09-23T22:57:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.36 Mobile (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to select <strong>Only mentions and direct messages</strong> option and display <strong>Mentions</strong> next to Mobile Notifications<br>--------------------<br>1. Login to server and go to a channel<br>2. Open Channel Info<br>3. Tap on <strong>Mobile Notifications</strong><br>4. Tap on <strong>Only mentions and direct messages</strong> option<br>5. Tap on navigate up button",
+        "testData": null,
+        "expectedResult": "After #4,<ul><li><strong>Only mentions and direct messages</strong><strong>&nbsp;</strong>option is selected</li></ul><br>After #5,<ul><li>Abbreviated setting <strong>Mentions</strong> should appear next to <strong>Mobile Notifications</strong></li></ul><br>Verify behavior of notification for the specific channel is the same as <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T534\">RN apps: Mobile Push Notifications - Online, offline, away (mentions and DMs)</a>",
+        "customFields": {
+          "Fix Versions": ["v1.36 Mobile (October 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-5973\">https://mattermost.atlassian.net/browse/MM-5973</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c934acdf66a873efacfa7f83d001f710d77e0a68d85401a96f581f1d8cdda4191cb361dbfffb3a06e32232a99422e3c4",
+  "stepsHashed": "a131b83364557092eab9accb11a3d890b39894bebe7d15344c625333b912046a96cf3b6c9676f5709269866f1f43e235"
+}

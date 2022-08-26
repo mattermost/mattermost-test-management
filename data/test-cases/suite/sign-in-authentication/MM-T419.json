@@ -1,0 +1,55 @@
+{
+  "id": 3877725,
+  "key": "MM-T419",
+  "name": "Desktop session expires when the focus is on the tab",
+  "createdOn": "2020-01-03T00:39:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.15 (Sept 2019)", "v4.3 Desktop App (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Cloud", "Desktop"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Desktop session expires when the focus is on the tab<br />–––––––––––––––––––––––––<ol><li>Login to a server using the Native Desktop App</li><li>From Account Settings, set your desktop notifications to Never (if not already done)</li><li>From a separate browser session, login to the same server as the same user</li><li>Click the hamburger menu and select Account Settings ➜ Security</li><li>Click \"View and Logout of Active Sessions\", then find and close the session created in step 1</li><li>Go back and view the original session app/browser, and wait until you see a desktop notification (may take up to a minute)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Desktop notification is sent (may take up to 1 min)</li><li>Login page shows a message above the login box that the session has expired.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.15 (Sept 2019)", "v4.3 Desktop App (Oct 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-17608\">Desktop notification doesn't show up after force logging out of an active session — MM-17608</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-25802\">Desktop notification does not fire on killing active session — MM-25802</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Duplicate</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-25871\">Timeout notification will persist — MM-25871</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "892cb42b9f6df1f423714712139980d508d9fe3fca7b7245e1b84352b3b24b16b025ade1b4399ca74319e2d884c0913c",
+  "stepsHashed": "8bd9257fc817195c7d8db4e3662a9b3aa63e191749be4b63fd69a9a2f48e33c656802e6734c20b5278f159c5583b55b6"
+}

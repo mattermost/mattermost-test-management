@@ -1,0 +1,55 @@
+{
+  "id": 17698342,
+  "key": "MM-T4546",
+  "name": "Files under 10MB can be attached",
+  "createdOn": "2022-01-19T18:23:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2123139,
+    "name": "Jira Attach",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure that attachment size limit is enabled and set to the default 10MB<br />2. Make a post in Mattermost that contains a file attachment smaller than 10MB<br />3. Open the post menu and select attach to Jira<br />4. In the attach modal that opens, search for and select a Jira issue<br />5. Attach the comment to the issue<br />6. Open the Jira issue in a browser (can click the link posted after 4.)",
+        "testData": null,
+        "expectedResult": "On 4. the Jira plugin post a reply to the post confirming that post was attached and provides a link to the issue<br />On 5. the comment created via Mattermost post contains the file attachment",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "30fd5ea160f30a459d7f42ebf5d0b7015c88468e0b7c54ba74d0f76e0a53f06dd8486b2bc432af0fb14035f320d0b681",
+  "stepsHashed": "f7554d144a44905442253a37a69a9b18add56ecc3bc2671ca704464df6feec794088f538b2e88c909b67cd98c093c2fe"
+}

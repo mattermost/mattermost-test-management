@@ -1,0 +1,55 @@
+{
+  "id": 5537272,
+  "key": "MM-T2591",
+  "name": "Can link to a team that has custom permissions scheme without seeing a confirmation modal",
+  "createdOn": "2020-05-27T21:13:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can link to a team that has custom permissions scheme without seeing a confirmation modal<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />^In setup, qa team was given custom permissions scheme, so linking it in the test above without seeing any sort of confirmation message verifies this requirement (see original ticket)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c54816d851a10cd9c57ac6612ba449d0a1722d8c8d88c9057decc01ec7c0fcc243ba289cf649150edcc73a9bbd32ee59",
+  "stepsHashed": "bcaafe75ee336001c4215a759c59d1b44b85f21534ed2b0321517d4179109e91c996275fa0bca4889badaaf2855e08aa"
+}

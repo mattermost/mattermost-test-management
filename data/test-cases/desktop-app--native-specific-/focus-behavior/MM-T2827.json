@@ -1,0 +1,94 @@
+{
+  "id": 5624573,
+  "key": "MM-T2827",
+  "name": "Copy and Paste when connecting Jira plugin",
+  "createdOn": "2020-06-03T16:37:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565216,
+    "name": "Focus behavior",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
+    "fullPath": "desktop-app--native-specific-/focus-behavior"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "Devin - 11/11/2021 - Need to re-organize this. Should be in a folder called /Popups or something",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<br><ol data-pm-slice=\"3 1 []\"><li>Go to a direct message with yourself</li></ol>",
+        "testData": null,
+        "expectedResult": "<br><br>",
+        "customFields": {
+          "Fix Versions": ["v4.5 Desktop App (June 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21341\">Mac Desktop App - Jira Plugin - Copy and Pasting in to Atlassian login fields pastes in the wrong place — MM-21341</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>type \"/jira connect\" ( you may have to disconnect first using /jira disconnect if you have Jira plugin already set up)</li></ul>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Copy and paste an email address from another application on your Mac</li></ul>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Back in Mattermost, click on the “Enter email” field and Paste using Command-V shortcut.</li><li>Repeat the steps to verify you can paste the email using right-click menu option to paste</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>The copied email address gets pasted in the email field on Atlassian login modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9dd07c79578b1aabcf4e59d39081799c5b50928403113f31c334d5eccb2b1460c0001419b034e270e5eb620a5b8bf9f7",
+  "stepsHashed": "4617bf4f5728d810f2fe47eb59dac24d4c384e7d643add1da9d37bc93952311d83dd4beaaebe240bf338980bfc2d0433"
+}

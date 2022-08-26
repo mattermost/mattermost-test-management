@@ -1,0 +1,55 @@
+{
+  "id": 5609572,
+  "key": "MM-T2816",
+  "name": "Request a Trial License on E0 instance",
+  "createdOn": "2020-06-02T13:56:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733337,
+    "name": "Enterprise",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Enterprise"],
+    "fullPath": "suite/enterprise"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)", "Open"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>On an E0 instance, go to the admin console, in the license/edition section</li><li>If you have a license remove it.</li><li>Request a trial license.</li><li>Verify that you get a valid license for the next month with at least 36 users, or a 20% more users than the ones that you have in your system.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User should be able to request a trial E20 license for a period of 1 month and 20% more users</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Open", "v5.26 (August 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-25341\">Add Trial API request directly in the admin console — MM-25341</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b113c0b957683bd4485715ff9bd1077776a3ffbf2f4eb39abfe4f014661132bd67a0b2c6722d0ac6f86ebb0a6f487b05",
+  "stepsHashed": "dd4905c2449f766b232c071fd922ab90b3e7f0e706191499dd611b8eef21a4fc2c9a6461079cd793232e8117198e2da2"
+}

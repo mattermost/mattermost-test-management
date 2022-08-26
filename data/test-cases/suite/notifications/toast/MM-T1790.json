@@ -1,0 +1,55 @@
+{
+  "id": 5255183,
+  "key": "MM-T1790",
+  "name": "Permalink",
+  "createdOn": "2020-04-30T14:44:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 748017,
+    "name": "Toast",
+    "parentId": 404296,
+    "fullNames": ["Suite", "Notifications", "Toast"],
+    "fullPath": "suite/notifications/toast"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Permalink<br>————————————————————————————<ol><li>Scroll up in channel and Copy link from any post</li><li>Paste the link in channel and click to view</li><li>(in RN link opens in permalink view)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify new permalink view opens in existing main channel view</li><li> Verify url changes from /channel/channelName/postId to /channel/channelName after 6 seconds </li><li>Permalink post highlight fades after 6 seconds</li><li> Verify History toast is present ( when there are newer, more recent messages below highlighted post) </li><li>Verify compatibility with RN app, link opens in permalink view</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19782\">reroute permalinks to new view — MM-19782</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "628a9ddc411513f507763268cbc08d81698f24b16e3efa2e0ed14e96c36f01446d4f76313638feb8c1958f890e2b97b5",
+  "stepsHashed": "7736478af5a739d997ff9fc8174e06d08bb62004ff60f4e91a159faa9f100534c1eb175bfda44828e917d2158a6e3df7"
+}

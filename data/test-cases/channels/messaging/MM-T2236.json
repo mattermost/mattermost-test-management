@@ -1,0 +1,55 @@
+{
+  "id": 5445221,
+  "key": "MM-T2236",
+  "name": "Permalink - does not auto join private channel",
+  "createdOn": "2020-05-20T06:34:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Permalink - does not auto join private channel <br /><br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />As a non-system admin:<br />1. Click on the [...] menu to the right of any message posted in a private channel<br />2. Select &quot;Permalink&quot;<br />3. Click on the &quot;Copy Link&quot; button in the dialog if it is available, otherwise copy the link manually<br />4. Leave the channel<br />5. Paste the URL into a new tab",
+        "testData": null,
+        "expectedResult": "You get an error message page mentioning you may not belong to the channel.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d16c14e53b792815331189444c6517dd3bd7a062cfe8d20dcf28bf103162cf9e43b932f9e6080920e9bf90519b4b9768",
+  "stepsHashed": "fa44b153b2ae96535712f6367e4bce3784fa27db628411f18d667e0c089b67f926cbac30642e3dd40e2667fe4e07219e"
+}

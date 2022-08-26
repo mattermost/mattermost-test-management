@@ -1,0 +1,55 @@
+{
+  "id": 13721478,
+  "key": "MM-T4208",
+  "name": "/github subscriptions delete",
+  "createdOn": "2021-08-30T15:29:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194689,
+    "name": "Subscriptions",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Subscriptions"],
+    "fullPath": "plugins/github/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. type \"/github subscriptions delete DHaussermann/hello-world\" to the same private channel.<br />2. Go to DHaussermann/hello-world in GitHub<br />3. Create test issue",
+        "testData": null,
+        "expectedResult": "Mattermost channel does not receive notifications for new issue creation in DHaussermann/hello-world",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eeb9d3e15ece5d23adddd17768f0cb3cb5b2555784fd44fdedf8818b078f17c730a9d25e35be343a491f8d338b8f0234",
+  "stepsHashed": "2128b8d55ad7bcc114e2f9f07067a4e74ee2e00ba2ff932a71331be70906c6b20fafbaf74705008b35c68b9de03111c4"
+}

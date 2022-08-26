@@ -1,0 +1,55 @@
+{
+  "id": 4035735,
+  "key": "MM-T866",
+  "name": "RN apps: Add whitespace to channel name",
+  "createdOn": "2020-01-18T01:00:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 981324,
+    "name": "Channel Info RN Apps",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Info RN Apps"],
+    "fullPath": "channels/channel-info-rn-apps"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.26 Mobile (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Edit any existing channel name to add 2 extra spaces before and after the channel name and Save e.g. \" Marketing \"</li><li>Tap on Leave Channel link (observe no extra empty spaces before or after the channel name in the confirmation modal)</li><li>Tap No</li><li>Tap on Archive Channel (observe no extra empty spaces before or after the channel name in the confirmation modal)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Extra empty spaces in channel names are trimmed on alert popups</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.26 Mobile (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18622\" rel=\"noopener noreferrer\" target=\"_blank\">RN: Trim empty spaces in front/back of the channel name in Alerts — MM-18662</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b6d261b10304e77da832f6063c6b886bfb1f4bdc92e3bf6d4bc7d1abd08a210a019625f62bdd0ee6b03f1657b30b91a1",
+  "stepsHashed": "2dc17164b8ef13eb237a30ae4afa7d580c16e37d75c6f2810e7c7dc7d530577a681e5ee63d1727553261a48bfed4eae4"
+}

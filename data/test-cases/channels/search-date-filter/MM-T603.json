@@ -1,0 +1,55 @@
+{
+  "id": 3923247,
+  "key": "MM-T603",
+  "name": "Place a string when a date is expected",
+  "createdOn": "2020-01-06T19:21:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Place a string when a date is expected<br />–––––––––––––––––––––––––<ol><li>Add any search term you know will return results to the search box</li><li>Add \"on:\", \"before:\" or \"after:\" into the search box and manually type a value that is not numerical ex: \"on:hippo\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>No results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "80908a035da15dcfdddb2ecdd7475cf68d8ce0ec1899c822a2d5c99a19d9e23a4cf4cdd68b4ea4469e85e366a76cbe02",
+  "stepsHashed": "05a0a20e6cde8fe958b73d7a72a6227c1c6b70714e88e1f184fccfe91abf54a7fe3e9ebbb4e81f55c5d63786ad35a918"
+}

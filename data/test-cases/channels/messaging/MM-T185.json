@@ -1,0 +1,55 @@
+{
+  "id": 3742394,
+  "key": "MM-T185",
+  "name": "Compact view: Markdown quotation",
+  "createdOn": "2019-12-20T20:46:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 2:51 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Compact view: Markdown quotation<br />--------------------<br />1. Use `&gt; ` to post text formatted as a quotation<br />2. View in compact view (Account Settings &gt; Display &gt; Message Display &gt; Compact)",
+        "testData": null,
+        "expectedResult": "No extra space before quotation, quotes image does not overlap with username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "218bc7731a34a2398c26eac88b0814757f6ffe4b385a20dfe4006c9fc679cd45b1b0d30f21b21334022681eb54e716dd",
+  "stepsHashed": "b3f28372896a3d5e4c47ebc8c9081a2a126f7277a8c73aa87afe65ba1d6d346d9c510bbfae0e2b23d37172dcebe15b6c"
+}

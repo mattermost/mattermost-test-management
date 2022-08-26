@@ -1,0 +1,55 @@
+{
+  "id": 5203651,
+  "key": "MM-T1698",
+  "name": "More...  for Private channels shows archived channels option",
+  "createdOn": "2020-04-23T19:45:09Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
+  "estimatedTime": null,
+  "labels": ["archived-channels"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404271,
+    "name": "Archived Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Archived Channels"],
+    "fullPath": "channels/archived-channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Archived Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "More... for Private channels shows archived channels option<br>–––––––––––––––––––––––––<ol><li>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist</li><li>Select the \"More...\" option for private channels</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Modal open with Archived Channels selected</li><li>Archived channels are shown</li><li>You can select Public Channels</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b7c0c1940c539136aed221276669586e22a8c4fa2ae0e0c9982248e6947570c307f6e5e8a104cb30bfcd34841eb63d41",
+  "stepsHashed": "52dd1799f17cedae24ecc4f18a4abe455cd640ec1dbc9a605147b0993ebbc6883bc93f4adc973907e22067146ddfc132"
+}

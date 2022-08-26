@@ -1,0 +1,68 @@
+{
+  "id": 5483726,
+  "key": "MM-T2495",
+  "name": "Email Validation",
+  "createdOn": "2020-05-22T17:42:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404285,
+    "name": "Interactive Dialogs",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Dialogs"],
+    "fullPath": "integrations/interactive-dialogs"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, January 05, 2021 11:12 AM<br>• Removed from Mobile testing pool as test appears to be aimed at desktop and Webapp which are currently covered by Cypress<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, September 28, 2020 2:51 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from 🖥️ Desktop &amp; 🌐 Webapp manual pools",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Interactive Dialogs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Email Validation<br>–––––––––––––––––––––––––<ol><li>In a message input box (center channel or RHS), type \"/dialog\" and hit \"Enter\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Interactive dialog modal opens and ephemeral post confirming you used the slash command to open the dialog is made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>In the \"Email\" field, type something random like \"abcdefg\"</li></ol><br><br>",
+        "testData": null,
+        "expectedResult": "<ul><li>You should see a red error message positioned below the help text of the \"Email\" field saying \"Must be a valid email address.\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f12daeac2672e4c52074b2d5294c4011a7d11f17726ae27608f1df1cebfc8a53a24b37ef5f9a65233cd48a45d628b8a2",
+  "stepsHashed": "4f4f32a4f303812a26cee2316a4b3add9f55065cd545348b72fd28b242efe00eb16edbfec43ba4554be304193226f42d"
+}

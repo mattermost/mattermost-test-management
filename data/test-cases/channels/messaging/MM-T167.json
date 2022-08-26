@@ -1,0 +1,55 @@
+{
+  "id": 3742358,
+  "key": "MM-T167",
+  "name": "Terms that are not valid emojis render as plain text",
+  "createdOn": "2019-12-20T20:36:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, December 22, 2020 12:08 PM<br>• Rainforest tests are mobile only<br>• Removed Duplicate Automated tests label<br>• Removed 🌐 Webapp from —Rainforest— Status<br>• Added link to Rainforest tests in Traceability tab<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Terms that are not valid emojis render as plain text<br />--------------------<br />1. In the main or reply input box enter a text string between colons that does not refer to a valid emoji, such as :pickle: <br />2. Post the message<br />3. Paste the following timestamp in message box and post:<br /><br />on Mon Jun 03 16:15:11 +0000 2019",
+        "testData": "Fixed (again) in v5.12:<br />https://mattermost.atlassian.net/browse/MM-16045",
+        "expectedResult": "The posts display as text (as opposed to blank spaces) such as:<br /><br />:pickle:<br />on Mon Jun 03 16:15:11 +0000 2019",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a295ed2e42bda25f2d3442a205783e2f7d40d629922f127173aa252ab70910e49e9e05f744ee460743a4dfca6870c74c",
+  "stepsHashed": "3feed4c065b94abd5b7c83f762cb199cfe230322506c059fb2197e233c5f967704a7d53d18c5440ebf5fff63a6790962"
+}

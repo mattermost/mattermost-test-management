@@ -1,0 +1,55 @@
+{
+  "id": 5444636,
+  "key": "MM-T2088",
+  "name": "View and Logout of Active Sessions (Se)",
+  "createdOn": "2020-05-20T05:50:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "View and Logout of Active Sessions (Se)<br />————————————————————————————<br />1. Go to User Menu -&gt; Profile -&gt; Security -&gt; View and Logout of Active Sessions<br />2. Click the \"More Info\" button to expand an entry, verify more info shows with no visible issues<br />2. Press all logout buttons until you are logged out of the site",
+        "testData": null,
+        "expectedResult": "Active Sessions modal opens properly and current session described correctly as one of the following:<br />- Macintosh<br />- Windows<br />- Native Desktop App<br />- iPhone Native App<br />- Android Native App<br />- iPhone Native Classic App<br />- Android Native Classic App<br /><br />After pressing all logout buttons you are logged out of Mattermost and the login screen displays<br /><br />You are able to log back in",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "45abbdc0671a3c283917c10879022809df581585f88f1b8e352e009ee6febb892253d401567fbefde4ca333d993d0925",
+  "stepsHashed": "566ad41b71bbc503382c6cd03f6aa8dcfc9bb0fb06590989232728bd0966ac164e491cc90bfa4996e1c666ef0d345d5f"
+}

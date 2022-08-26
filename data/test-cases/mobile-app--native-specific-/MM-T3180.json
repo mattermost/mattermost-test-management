@@ -1,0 +1,55 @@
+{
+  "id": 6396856,
+  "key": "MM-T3180",
+  "name": "RN apps: Log in - LDAP",
+  "createdOn": "2020-07-30T21:04:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log in - LDAP<br>–––––––––––––––––––––––––<ol><li>Login with LDAP</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are logged in</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "decd4220f87c19db7c19bcdb5cb1b973ff5396e42d0742922b3d1e73d8999cef4440518f7148d9fd0c9491e606bef8a8",
+  "stepsHashed": "863cb28818f86f4bc0905aa284d314f7d6447dcfc212ccee9388b6e4c4a543b3a460339a50b0415f9600c002472495db"
+}

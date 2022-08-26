@@ -1,0 +1,55 @@
+{
+  "id": 5873065,
+  "key": "MM-T2951",
+  "name": "Desktop App only (v4.2+)\n(WINDOWS & LINUX OS ONLY)\n\nApp start on login is on by default",
+  "createdOn": "2020-06-18T20:47:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 817021,
+    "name": "Windows and Linux ONLY",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Windows and Linux ONLY"],
+    "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.2 Desktop App"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop: Win"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "WIP Environ & Addl."
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "NOTE: This test requires logging in and out of Windows<br /><br />1. Install (ensure latest desktop app v4.3+) then launch the app<br />2. Open Mattermost app &gt; File &gt; Settings &gt; App Settings and verify the setting &quot;app start on login&quot; is on by default<br />3. Quit the app<br />4. Log out of Windows then log in again",
+        "testData": null,
+        "expectedResult": "Confirm that the app launches on login",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f4c217206b320acdce668b4b70370de93fe00abb392a9da7d30fdc0c2b22d31462285eeee7ac51620945cf5f7ea6fe38",
+  "stepsHashed": "60fff54a4989016f48873cfd6a65fe877c3c4c17f8a62aae9ceabf649d96baedf845795b3cda1a4a8f18a2ce1f84d4f1"
+}

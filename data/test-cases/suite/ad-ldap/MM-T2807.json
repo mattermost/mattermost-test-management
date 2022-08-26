@@ -1,0 +1,55 @@
+{
+  "id": 5602336,
+  "key": "MM-T2807",
+  "name": "RN apps: Viewing channel info on RN apps for group-constrained channel - Line of text at top",
+  "createdOn": "2020-06-01T22:09:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.20 Mobile (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": "Evaluating",
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Viewing channel info on RN apps for group-constrained channel - Line of text at top<br />————————————————————————————<br />1) Login to the RN mobile app and view the channel info of a group-constrained channel.",
+        "testData": null,
+        "expectedResult": "At top of channel info, below the channel name, should say \"Members are managed by linked groups\"",
+        "customFields": {
+          "Fix Versions": ["v1.20 Mobile (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15528\">RN: Update channel info view — MM-15528</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a86a1322d980fdd57ae286c5a223e12767acdff4a045287be6096552d08cc0dbad270038d3cec39ef78b5fd041fcd44b",
+  "stepsHashed": "e8d8d606e9bedbaf1f944f138e466aeb45b065c1aa6572c3710efc7ab1fd033199a43a1f3d32093ba2253a58780f292c"
+}

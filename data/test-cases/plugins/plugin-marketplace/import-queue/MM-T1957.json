@@ -1,0 +1,55 @@
+{
+  "id": 5293898,
+  "key": "MM-T1957",
+  "name": "Marketplace is not available when “Enable Marketplace” is set to false",
+  "createdOn": "2020-05-06T01:44:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Marketplace is not available when &ldquo;Enable Marketplace&rdquo; is set to false<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Set &ldquo;Enable Marketplace&rdquo; to false and hit the &ldquo;Save&rdquo; button at the bottom.<br />2. Switch to a Mattermost team.<br />3. Click on the main menu.",
+        "testData": null,
+        "expectedResult": "&ldquo;Plugins Marketplace&rdquo; is no longer available in the menu",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e4e3ff5f1c88f94073388baeae69caa5bd89cac2ed0895c5445debeb8bb87c9d670caf0a257fa4f78238f7c0e06bd29a",
+  "stepsHashed": "0c71c40c0a350d4e2e854ae141a143b342e8b54e3dc059ab3c801428003a9d7002f7e4dbddc32e70e8942e26019f3290"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3968355,
+  "key": "MM-T655",
+  "name": "🔸 10 — Delete Zapier",
+  "createdOn": "2020-01-08T12:57:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586859,
+    "name": "Zapier",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Delete Zapier<br>–––––––––––––––––––––––––<ol><li>Click \"Delete\" next to the existing OAuth app</li><li>Click \"Delete\" in the confirmation dialog</li><li>Test using Zapier as described above</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The OAuth app is removed and does not trigger after step 3</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "95806f694dcaf05ca1dd7b20941d013fa59f4e9c532fb34ab092fb7eed63740a8f54f7f0f1df89d4067bd02740114ae0",
+  "stepsHashed": "1a8016dacd07a461d0db0d8d1269d88084921eca2ca668274d8b6de95d3c23c03a233216c73e70973210497c8f884bf4"
+}

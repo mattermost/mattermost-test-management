@@ -1,0 +1,55 @@
+{
+  "id": 8647293,
+  "key": "MM-T3788",
+  "name": "User - Convert : permission error for valid bot to user convert",
+  "createdOn": "2021-01-20T10:39:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal user:<br>mmctl user convert botusername --email new.email@email.com --password password --user",
+        "testData": null,
+        "expectedResult": "Command will fail as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ea94a10b70fc98e6b851c5612e6b3aff21b73b89926ebfe580a306a1b80489a2df5c36be13dbaf6fc3db6e3095752fe2",
+  "stepsHashed": "d13ff778d70265777a030407d607f4585d945aec151821797a0939c68cd4f155bd931ae195f9b1ee1803e67c30088145"
+}

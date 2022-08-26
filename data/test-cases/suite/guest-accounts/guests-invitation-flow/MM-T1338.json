@@ -1,0 +1,55 @@
+{
+  "id": 4151128,
+  "key": "MM-T1338",
+  "name": "Invite Guests - Existing Member not on the team",
+  "createdOn": "2020-01-30T19:20:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Invite Guests - Existing Member not on the team<br>–––––––––––––––––––––––––<br><ol><li>In the \"Invite People\" field enter an email of a user that's a Member on a different team</li><li>Select the user in the autocomplete dropdown</li><li>Select channels to add user to</li><li>Click \"Invite Guests\"</li></ol>",
+        "testData": null,
+        "expectedResult": "User is put in \"Invitations Not Sent\" section with the following details:<ul><li>\"<em>This person is already a member.</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b33829da483115173f6daf4de03cc868e8754ed867b70b573ccc85f99e309aabb49e9e3d4a54a854c904b17dcf75b612",
+  "stepsHashed": "2d99a6a0ec7e022821c5077655f1bbe5416dde44125f7f0c91167f9efe5f54bbeeeaa926495438104f4fec28e35b5c73"
+}

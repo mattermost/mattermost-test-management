@@ -1,0 +1,55 @@
+{
+  "id": 5248332,
+  "key": "MM-T1742",
+  "name": "Using up/down arrow keys to make selection",
+  "createdOn": "2020-04-29T21:02:00Z",
+  "objective": "<strong>Overview</strong>:<ul><li>Feature also available in RN</li><li>Enables integrations to post attachments with drop-down menus containing various selection options</li><li>Required to be set up: Integration with message attachment and interactive menu</li></ul><strong>RN</strong>:&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-11934\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11934</a><br><strong>Webapp</strong>:&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-8477\">https://mattermost.atlassian.net/browse/MM-8477</a><br><br><a href=\"https://mattermost.atlassian.net/browse/MM-11850\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11850</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-11932\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11932</a><br><br>Noting this ticket here as it was to REMOVE the \"\"Submitted\"\" button that had been implemented but was removed by&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-13114\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-13114</a><br><br><strong>Epic</strong>:<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-8479\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-8479</a></li><li><a href=\"https://github.com/mattermost/mattermost-webapp/pull/1612\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/mattermost/mattermost-webapp/pull/1612</a></li></ul><strong>Spec</strong>:<ul><li>We followed&nbsp;<a href=\"https://api.slack.com/docs/message-menus\" rel=\"noopener noreferrer\" target=\"_blank\">https://api.slack.com/docs/message-menus</a></li></ul>",
+  "precondition": "Set up on mysql.test in <a href=\"https://mysql.test.mattermost.com/a-team/channels/town-square\" rel=\"noopener noreferrer\" target=\"_blank\">Town Square of the \"Ayyyyy Team\"</a>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404287,
+    "name": "Interactive Menus Message Attachments",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
+    "fullPath": "integrations/interactive-menus-message-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:53 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Interactive Menus - Message Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Using up/down arrow keys to make selection<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Locate a message attachment menu<br />2. Click in the message attachment menu box (or click on the dropdown arrow to the right of the message attachment menu box)<br />3. Hit the down arrow a few times<br />4. Hit the up arrow a couple of times",
+        "testData": null,
+        "expectedResult": "- Using the down arrow should move the highlight down the list of selections <br />- Using the up arrow should move the highlight up the list of selections",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bcab53789b39c871089becc28eeef5dd9bb936788991cd68ea1fa45cea2e0809023a35c1fd619946e3e4e078dc1ce41a",
+  "stepsHashed": "228fa7fe4960bfd0d3ff5bb4431826618ce992013e4aeac8fc8781e7e9b9546e836e7d99569d126cf83fe5f1ffae50d4"
+}

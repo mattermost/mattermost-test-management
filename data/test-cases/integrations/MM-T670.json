@@ -1,0 +1,55 @@
+{
+  "id": 3969570,
+  "key": "MM-T670",
+  "name": "/away",
+  "createdOn": "2020-01-08T17:47:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Post a message \"test\"</li><li>In a test channel type \"/away\" and post</li></ol>",
+        "testData": "In IDE",
+        "expectedResult": "Indicator on your profile picture should be yellow (or the away color specified by your theme) indicating user is away.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "87cf4ba31d96a1206f6c16b4ab55143f5adb3a19a7c8c9e08812293e542a7601a9fc436080ff2c1482a27ec85a5ccf69",
+  "stepsHashed": "cfa0e887d9a61b67d185cb7edc5765dcd2f56d3cda1514f900c75084ea67e13fa0c0efc60f59296508d150dbbbce17cb"
+}

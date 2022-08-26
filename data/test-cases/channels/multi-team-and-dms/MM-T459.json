@@ -1,0 +1,55 @@
+{
+  "id": 3904513,
+  "key": "MM-T459",
+  "name": "Group Messaging: Add first user",
+  "createdOn": "2020-01-03T14:24:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Group Messaging: Add first user<br>--------------------<br>1. Scroll to the foot of the DIRECT MESSAGES list and click `More` (RN apps: Tap `+` next to Direct Messages)<br>2. Start typing a username in the search bar, observe user list filtered, still in alpha order<br>3. Select an autocomplete option by using arrow buttons and pressing Enter (mobile just tap a selection; no arrow buttons on mobile)",
+        "testData": "Open ticket for alpha order: <a href=\"https://mattermost.atlassian.net/browse/MM-18186\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-18186</a>",
+        "expectedResult": "- After step 3: Selected username appears in the search box to the left of the cursor with an &quot;x&quot; for deletion<br />- Selected user no longer appears in user list (except for RN apps; still appears)<br />- Focus is still in search box<br />- Search term disappears<br />- User list is no longer filtered (but still alpha order)<br />- (N/A for RN apps:) Message says &quot;You can add 6 more people.&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e97533d658190030402933dde0fcfaf6c87ef8ab87225e53d2ce7340975b3bb56358defd8130eb7c4c97a97ff2298c54",
+  "stepsHashed": "a369678eb4d0671d0900603a8f4a40007a721c8c6839cbbeb7fa62058a922a73e43a34ea96d5b29cb691d094a7a9df72"
+}

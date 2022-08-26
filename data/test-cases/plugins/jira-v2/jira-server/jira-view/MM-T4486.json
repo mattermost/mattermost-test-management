@@ -1,0 +1,55 @@
+{
+  "id": 17671911,
+  "key": "MM-T4486",
+  "name": "/jira view - issue does not exist",
+  "createdOn": "2022-01-18T18:26:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118539,
+    "name": "Jira View",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type &quot;/jira assign &lt; Jira issue key &gt;&quot; where issue key or issue number does not exist",
+        "testData": null,
+        "expectedResult": "Ephemeral post shows that the issue cannot be found or you do not have permission",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ab8246257ac597db272953e13ed0f2bf5fd93957b7634665f0b4c564c65c5acbf9e950aed6b0c7ea30a80ce984702d48",
+  "stepsHashed": "a3daa9a0191f8ef60180c0c091827dd43dfc37c65f516de1e58bf75db42d7eaa58c9953f8c623e6c2031cc3c8372dea7"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5566858,
+  "key": "MM-T2672",
+  "name": "Chat Facing > Manage Groups",
+  "createdOn": "2020-05-29T20:22:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Chat Facing &gt; Manage Groups<br>————————————————————————————<ol><li>Login as a Team Admin and navigate to Manage Groups page.</li><li>Check if an option to set Roles is provided in the Manage Groups Page.</li><li>Check if values can be changed, saved and persisted.</li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7eb67ab6e422a3738e16ba5509f33a1dd13d7ce2b604471907063116f2d188aa096e6c702c67b401c8fa6f74d79ded69",
+  "stepsHashed": "310cbe125b02a60dc2912450a822a60f3b007a12740b7a2f0db371a17fe12364e9e1d4519e47f7aa596f33ed5c57139d"
+}

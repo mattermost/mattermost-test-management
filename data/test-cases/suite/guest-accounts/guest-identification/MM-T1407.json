@@ -1,0 +1,55 @@
+{
+  "id": 4152390,
+  "key": "MM-T1407",
+  "name": "Default Permissions to Invite Guests",
+  "createdOn": "2020-01-30T23:27:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.17 (Nov 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Default Permissions to Invite Guests<br>–––––––––––––––––––––––––<ol><li>Setup a new instance and enable Guest Account feature.</li><li>Navigate to Permissions tab on System Console and select Edit Permission Scheme.</li><li>Check if by default only system admins have permissions to Invite Guests.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>By default, only system admins should have the option to Invite Guests</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.17 (Nov 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19684\">Guest Accounts: Default permission is such that all users are allowed to invite a guest. It should be only sysadmin by default. — MM-19684</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8eb1a26df479e56e1e11ca5503b3731146ceb2bc1ad1a969c56f518f0928c7d880485f730cdb46b0b6f8ce285daac370",
+  "stepsHashed": "e9fe71cfed17cacfded0018c4a6f1281390645dc138482d48b9736fff9e91e4cf7e3fabe97c7d54d4f083cb873d18ea1"
+}

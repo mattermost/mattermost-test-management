@@ -1,0 +1,55 @@
+{
+  "id": 4058495,
+  "key": "MM-T1105",
+  "name": "Email banner false",
+  "createdOn": "2020-01-22T17:58:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Email banner false<br />--------------------<br />`Enable Email Notifications` = false<br />`Enable Preview Mode Banner` = false<br />Save<br />Refresh",
+        "testData": null,
+        "expectedResult": "Blue bar message no longer displays",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c33df8384d0b372e42b3cb579a1802271720aec3e81e0b47d200214b134bf33039f81dea91e2c02dbc74f28012c92fcb",
+  "stepsHashed": "95a449a4d6bb8c1fe0cc8362bc244ce9d6856de1b4b8a746589897af8427cc3bbb081afd0ab8a28f23231805f8f0aa96"
+}

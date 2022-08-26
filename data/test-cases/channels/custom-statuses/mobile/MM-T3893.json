@@ -1,0 +1,133 @@
+{
+  "id": 9450748,
+  "key": "MM-T3893",
+  "name": "RN apps: Verifying where the custom status appears (mobile)",
+  "createdOn": "2021-03-12T18:14:15Z",
+  "objective": "Verifying where the custom status appears in:<br><ul data-indent-level=\"1\"><li><p data-renderer-start-pos=\"471\">Right Drawer</p></li><li><p data-renderer-start-pos=\"485\">Post Header for Posts in Center Channel/Thread view</p></li><li><p data-renderer-start-pos=\"532\">LHS DM list</p></li><li><p data-renderer-start-pos=\"553\">DM channel info screen</p></li><li><p data-renderer-start-pos=\"666\">User Profile Screen</p></li></ul><br>",
+  "precondition": "<ul><li>Logged in</li><li>Custom statuses enabled on the server</li></ul>",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222178,
+    "name": "Mobile",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Mobile"],
+    "fullPath": "channels/custom-statuses/mobile"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" screen</li><li>Click in the \"Set a status\" text field, enter a status text and select an emoji</li><li>Click on Set Status</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" screen is dismissed</li><li>Custom status is successfully set</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Observe the Right Drawer",
+        "testData": null,
+        "expectedResult": "Custom status is shown in the Right Drawer",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Create a post in a channel",
+        "testData": null,
+        "expectedResult": "Custom status emoji is shown in the post header",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap on the previously created post to open the thread",
+        "testData": null,
+        "expectedResult": "Thread view opens and the custom status emoji is shown in the post header",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the username on the created post",
+        "testData": null,
+        "expectedResult": "User popover opens and shows the full custom status",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open the hamburger menu and tap on the + button for Direct messages<br>2. Search for yourself (the logged-in user)<br>3. Select yourself and click \"Go\"<br>4. When the DM opens tap your name in the header",
+        "testData": null,
+        "expectedResult": "Info screen opens and shows the custom status below the user's name",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Open the LHS menu and scroll to the DM list",
+        "testData": null,
+        "expectedResult": "Status is shown next to your name in the LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f261c1c47d8aa9a863ee21081e581ddfcecc9a7bc41d71787cde5e29e2e38191cfd12362e7bd97fbb546a33e6b255146",
+  "stepsHashed": "8b0b2b457e6581cc67028821a93c347e42fadfa656eaa2f5f9be6ec5bff2924fb6a582603e6a75c39355730d1c5b7e62"
+}

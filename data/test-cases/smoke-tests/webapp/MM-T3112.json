@@ -1,0 +1,55 @@
+{
+  "id": 6181593,
+  "key": "MM-T3112",
+  "name": "Team Admin can use Next button to page through list in Manage Members",
+  "createdOn": "2020-07-13T19:27:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Admin can use Next button to page through list in Manage Members<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On a team with more than 50 users, log in to an account as a Team Admin<br />2. Click hamburger main menu and select Manage Members to open Manage Members dialog<br />3. Use the &quot;Next&quot; buttons to reach the last page of the list",
+        "testData": null,
+        "expectedResult": "Member count below the search bar reads &quot;XX - YY members of YY total&quot;. e.g. &quot;51-75 members of 75 total&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "34b07f40ae129cc313099c6a63cfa3840e9b02d1af620f0334c82ad1e59990594ee92d1786f46cbca53d048de7515553",
+  "stepsHashed": "f4302ba24594f8d75963a293dd6c17acd8b733a3b3912a391e75dacc35b723b56ba74ceaef83772086b2e8c3289f886b"
+}

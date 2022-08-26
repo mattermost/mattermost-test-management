@@ -1,0 +1,55 @@
+{
+  "id": 5537270,
+  "key": "MM-T2589",
+  "name": "No groups are linked; user joins for first time (using LDAP) and is not added to any team",
+  "createdOn": "2020-05-27T21:13:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "No groups are linked; user joins for first time (using LDAP) and is not added to any team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Admin does not link any teams/channels to any group (but LDAP is connected and LDAP groups are visible in Mattermost on the Groups page)<br />New user corey.test logs in for the first time using SAML credentials using LDAP<br />Admin syncs LDAP",
+        "testData": null,
+        "expectedResult": "User is not added to any team/channel<br />User can join a team on team selection page if available (or create a new team, depending on permissions)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc42603b80573a9fcb170cf3e30964864073bd007843493aa19a6498667c0ee19561c5ae3721e9f6194f9144ea20ba46",
+  "stepsHashed": "bfc44e378400b7ee63d8f3aa3238c6900232df0ebff9b678e7b15971df365d9497516d8521bbfd9b16270d7e32d7d5bd"
+}

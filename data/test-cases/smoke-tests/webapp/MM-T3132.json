@@ -1,0 +1,55 @@
+{
+  "id": 6181614,
+  "key": "MM-T3132",
+  "name": "Leave team by clicking Yes, leave all teams",
+  "createdOn": "2020-07-13T19:27:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Leave team by clicking Yes, leave all teams<br>–––––––––––––––––––––––––<br><strong>Note</strong>: Before you leave a team, know that you will <strong>NOT</strong> be automatically added back to channels if you re-join. And you'll need invitations back to private channels.<br><br>So make sure you're using a test account that doesn't matter. Can create new separate test account to test this on, and have that account join multiple teams before leaving them all<br><br>1. Click main menu ➜ Leave Team<br>2. Click Yes<br>3. Repeat until no more teams",
+        "testData": null,
+        "expectedResult": "<ul><li>User sees list of teams available to join if there are any (and/or Create a Team, depending on permissions)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "54d272c609f6a93c7e92f24852e8f01c370d319e8f6477bee48ad813b1d3b534501216ed5123148543047110aba4916d",
+  "stepsHashed": "f430ff03e3d15f3edcb97ef2d1fbe24212b82665077ce0c36b958561656fb43f833347889b29a4766ce36ebe11eb5588"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 5530159,
+  "key": "MM-T2544",
+  "name": "Auth renew subcommand",
+  "createdOn": "2020-05-27T13:10:28Z",
+  "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Not necessary to test every release</span></h1>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Auth renew subcommand<br>————————————————————————————<ol><li>In a command line window set to the directory where 'mmctl' is installed in</li><li>Run \"mmctl auth login https://mysql.test.mattermost.com --name mysql.test --username john.doe --password mysupersecret\"<br><br><strong>Note</strong>: Enter valid username and password for a system admin user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You will get feedback saying \"credentials for mysql.test stored\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-19065\">Add \"auth renew\" subcommand to mmctl — MM-19065</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Run \"mmctl auth renew mysql.test\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are prompted for the password</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type in your password and hit enter</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You will get a message saying \"Credentials for server \"mysql.test\" successfully renewed\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c7447cbdcaa9fd81d8d87e47d7be362ed7d39ab20887b4e948e0420f72514cb575f70e3c91c78c4c5979f1c1cfe7e424",
+  "stepsHashed": "d5f54b5339c22d2d1ed04a1cfee2ae1beff70f3fc0685d47c20f40f4309125deaf2bac4fc890d52d7da92d6aa658f0bd"
+}

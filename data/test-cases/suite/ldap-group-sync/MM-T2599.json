@@ -1,0 +1,55 @@
+{
+  "id": 5537280,
+  "key": "MM-T2599",
+  "name": "Admin unlinks a team",
+  "createdOn": "2020-05-27T21:13:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Admin unlinks a team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Team and channel is linked to a group<br />Admin syncs LDAP<br />Verify user in that group is in that team/channel<br />Admin removes linked team from the group, confirms in confirmation modal<br />Admin syncs LDAP",
+        "testData": null,
+        "expectedResult": "New user in that group does not join the unlinked team<br /><br />Existing user in that group is still in that team channel (no auto-removal unless group-constrained)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ccb882a909201666b07474bd87f68237cbf412fb97b1e87aa899d48b646cb65a4c8199c5a88ceb291cd981271fd58a54",
+  "stepsHashed": "2a07e3c8d938c570b6fa349c8713668553ab1b72b903c1c790ed50b1c73e43e3caa84c4ea8c5b366214ccb7f6bb781a1"
+}

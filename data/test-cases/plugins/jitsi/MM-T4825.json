@@ -1,0 +1,55 @@
+{
+  "id": 22954592,
+  "key": "MM-T4825",
+  "name": "Create a meeting Mattermost context specific names in public or provate channel",
+  "createdOn": "2022-05-26T15:32:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as an admin and set the Jitsi Meeting Names to Mattermost context specific names from the plugin config<br />2. Return to the user side UI and open a public channel<br />3. Click the Jitsi icon from the channel header<br />4. Type /jitsi start<br />5. Open or create a private channel <br />6. Click the Jitsi icon from the channel header<br />7. Type /jitsi start",
+        "testData": null,
+        "expectedResult": "On 3. and 4. meeting post is created with the following format as a meeing ID: ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0aa3a6a860d0907a27d8be8f9e1255c106d30e412469289d4338d8660cc137f420d191b25220f9253b473822546d0b85",
+  "stepsHashed": "77ae9c55e5a1e8fa6a28d2de53d6024cbab27f645e6facda5b7888747647c4c0ef601d57833af1d47ef84a59f0fdcf76"
+}

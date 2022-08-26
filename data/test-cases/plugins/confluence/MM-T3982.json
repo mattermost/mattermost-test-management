@@ -1,0 +1,68 @@
+{
+  "id": 10028036,
+  "key": "MM-T3982",
+  "name": "Setup Confluence",
+  "createdOn": "2021-04-07T20:35:08Z",
+  "objective": "Setup a Confluence instance and Install the Confluence plugin",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1277063,
+    "name": "Confluence",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Confluence"],
+    "fullPath": "plugins/confluence"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Setup a Confluence Instance<br><br><strong>For Cloud</strong> - You can signup for a confluence Cloud instance here https://www.atlassian.com/software/confluence/free<br><br><strong>For Serve</strong><strong>r</strong> - See https://github.com/teamatldocker/confluence for instructions in using Docker for Confluence and the Database",
+        "testData": null,
+        "expectedResult": "Confluence Cloud or Server is available",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Install the confluence plugin onto a Mattermost test server using these instructions https://mattermost.gitbook.io/plugin-confluence",
+        "testData": null,
+        "expectedResult": "Plugin is enabled and running",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e44237e1c470a436fce55b69918b685c1494748a4fc4c25109008cc7ace429ca75d32fff9a583cf6668c8daa4a3d98f3",
+  "stepsHashed": "0434c2651bc13938a4b3c030ff0e49ba8f1c57431e9f7f510c7d821191af21c70b45d5270aca6b2f8b96f73ec250de0b"
+}

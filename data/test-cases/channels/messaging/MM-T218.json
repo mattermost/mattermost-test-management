@@ -1,0 +1,55 @@
+{
+  "id": 3742427,
+  "key": "MM-T218",
+  "name": "Deleting the last post in a channel doesn't cause the channel content to hang",
+  "createdOn": "2019-12-20T20:46:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.15 (Sept 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, September 16, 2020 4:03 PM<br />• Changed status to <strong>Update</strong> to decide whether or not to continue testing on Rainforest or not considering it's covered by Cypress.<br />• Also should we remove it from the manual testing rotation?<br />–––––––––––––––––––––––––<br />Steve Mudie — Wednesday, September 30, 2020 7:43 PM<br />• Removed from manual pool as Cypress continues to report passed tests<br />• Tagged for future review<br />• Returned to Active status",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove last post in channel<br>–––––––––––––––––––––––––<ol><li>View an empty channel (such as a DM channel with a user you've never messaged)</li><li> Make a post</li><li>Delete that post</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The channel is still displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.15 (Sept 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17866\">Web: Deleting the last post in a channel causes the channel to only display a loading spinner — MM-17866</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d91a686b32b3272a233b08e7c669ad39530eff0ca16d2788bca00c211b16deeb7688451036f96e31c74864370a1c2d19",
+  "stepsHashed": "06d63c77ae640023bab0f1c84dcf45174e603374149b21fb6f957b1423ee9b7189ffb5c7400a611b46ee7170d64abbdf"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 16767410,
+  "key": "MM-T4429",
+  "name": "CRT - Leave a channel while RHS is open",
+  "createdOn": "2021-12-08T16:53:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Leave a channel while RHS is open</u><ol><li>Open a channel and post a message</li><li>Open RHS</li><li>Post reply to the message <ol><li>Verify RHS and RHS textbox are visible</li></ol></li><li>Archive the channel<ol><li>Verify RHS is not visible </li><li>Verify that user is redirected to Town Square </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "User can leave or archive a channel while RHS is open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>Leave a channel while RHS is open when CRT is ON</u><br /><ol><li>Set Collapsed Reply Threads to ON</li><li>Open a channel and post a message</li><li>Open RHS</li><li>Post reply to the message <ol><li>Verify RHS and RHS textbox are visible</li></ol></li><li>Archive the channel<ol><li>Verify RHS is not visible </li><li>Verify that user is redirected to Town Square </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "When CRT in ON, user can leave or archive a channel while RHS is open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b70c6c9ff3d1c9d08085a1229d85bd4eb8b28c4504629c2e65dda2a376fa55362f0f49ba4a609c62685d88e514eda544",
+  "stepsHashed": "615fb78f88372aa778466ee7a165de621b8c33f778e97103d25b42a8595619c9c293113f090d8de0efdbb3a5ebff4703"
+}

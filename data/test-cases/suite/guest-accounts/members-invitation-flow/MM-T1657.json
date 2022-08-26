@@ -1,0 +1,68 @@
+{
+  "id": 5086482,
+  "key": "MM-T1657",
+  "name": "User autocomplete works with '@'",
+  "createdOn": "2020-04-13T20:09:45Z",
+  "objective": "User suggestions list is populated when searching for users with '@'",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 580214,
+    "name": "Members Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
+    "fullPath": "suite/guest-accounts/members-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the Main menu and click on \"Invite People\" and then \"Invite Members\"",
+        "testData": null,
+        "expectedResult": "Taken to Invite Members modal",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-23977\">Desktop app (Darwin) produce a JS error when inviting members to a team and @ has no effect in search box — MM-23977</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "In the \"Add or Invite People\" field, type @&nbsp;",
+        "testData": null,
+        "expectedResult": "A list of user suggestions is populated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "794bbc1d31464f23dc7f86d9839827590abd0e54c6df6bc562c6f182c18a56d84e8f88f027ff76898678811c55167ece",
+  "stepsHashed": "2b9ea3725725ac8e06470034bd3645463ab7b9a5ea7888c43debc45dc477043d6cadb6a47f7d66e39e9c884a866cb9e1"
+}

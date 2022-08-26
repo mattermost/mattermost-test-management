@@ -1,0 +1,55 @@
+{
+  "id": 8022822,
+  "key": "MM-T3557",
+  "name": "DisableNonWordPrefix\": true - Post are edited correctly when Disable word prefix is true",
+  "createdOn": "2020-11-26T20:33:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Add the attached Pattern<br />2. Post the following <br />https://test.service/TEST1234567<br />test https://test.service/TEST1234567<br />test TEST1234567<br />TEST1234567<br />test: TEST1234567 foo:TEST1234567 (TEST1234567) [TEST1234567]",
+        "testData": "<pre>{\n    \"DisableNonWordPrefix\": true,\n    \"Pattern\": \"(?P&lt;mmprefix&gt;^|\\\\s|(?:^| )\\\\()(?P&lt;url&gt;https://test\\\\.service/(?P&lt;n&gt;TEST\\\\d{7}))\",\n    \"Template\": \"${mmprefix}[${n}](${url})\"\n},\n{\n    \"DisableNonWordPrefix\": true,\n    \"Pattern\": \"(?P&lt;mmprefix&gt;^|\\\\s|(?:^| )\\\\()(?P&lt;n&gt;TEST\\\\d{7})\",\n    \"Template\": \"${mmprefix}[${n}](https://test.service/${n})\"\n}</pre>",
+        "expectedResult": "[TEST1234567](https://test.service/TEST1234567)<br />test [TEST1234567](https://test.service/TEST1234567)<br />test [TEST1234567](https://test.service/TEST1234567)<br />[TEST1234567](https://test.service/TEST1234567)<br />test: [TEST1234567](https://test.service/TEST1234567) foo:TEST1234567 ([TEST1234567](https://test.service/TEST1234567)) [TEST1234567]",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6278a0dcb4bcbb5d0e08441957236804c666a35824239f0401f7a9796fc3a0a3d9e5207705a28cb4bc9223eeaf53e253",
+  "stepsHashed": "158a2f5bbaab75111de594457a5de51312a5b435447782832b9253115d314eba7ada22673d7d22b42c480b416216288b"
+}

@@ -1,0 +1,69 @@
+{
+  "id": 2761313,
+  "key": "MM-T33",
+  "name": "MM-17392 — Invalid channel information in CSV exports",
+  "createdOn": "2019-08-28T12:11:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Make a few posts in a DM or GM</li><li>Do the same in a different DM or GM</li></ol>",
+        "testData": null,
+        "expectedResult": "Able to post succesfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    { "inline": null, "testCase": { "testCaseKey": "MM-T34" } },
+    {
+      "inline": {
+        "description": "<ol><li>Open posts.csv</li><li>Look for the entries regarding the posts you made&nbsp;</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The exported data join/leave information have the proper channel information — i.e., <strong>Not</strong> the same channel information for all the entries of different channels —</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17392\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17392</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "35115f80ed9596e04db3c9a8fcef44679b281f031b0a8527a09f60f34687e7e2e11250db71d8e9fd57a617fe10699533",
+  "stepsHashed": "2edba3de8eed799b7c3c1fbbb7f0b5f2eaa15c2026444d95dde45060f630a6bed9c76f156d4e832d48b023cc3ae19a80"
+}

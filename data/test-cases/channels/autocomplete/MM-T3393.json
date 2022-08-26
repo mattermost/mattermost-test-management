@@ -1,0 +1,81 @@
+{
+  "id": 7240702,
+  "key": "MM-T3393",
+  "name": "RN apps: Autocomplete - Search",
+  "createdOn": "2020-10-01T15:02:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3337681,
+    "name": "Autocomplete",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Autocomplete"],
+    "fullPath": "channels/autocomplete"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should render at-mention component<br>---------------<br>1. Login and go to a channel<br>2. Tap channel search button to enter search screen<br>3. Tap <strong>from:</strong> modifier",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify at-mention autocomplete list is not displayed</li></ul><br>After #3,<ul><li>Verify at-mention autocomplete list is displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should render channel mention component<br>---------------<br>1. Login and go to a channel<br>2. Tap channel search button to enter search screen<br>3. Tap <strong>in</strong><strong>:</strong> modifier",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify channel mention autocomplete list is not displayed</li></ul><br>After #3,<ul><li>Verify channel mention autocomplete list is displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should render date suggestion component<br>---------------<br>1. Login and go to a channel<br>2. Tap  search icon to enter search screen<br>3. Tap <strong>before:</strong> modifier",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify date suggestion autocomplete list is not displayed</li></ul><br>After #3,<ul><li>Verify date suggestion autocomplete list is displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3bfd76c74d5ba50c3b5267bf979971d858729d4a047a2edcb83ae55703150f42fb2e21b0d1689e3756f7be98c1523420",
+  "stepsHashed": "cf6f6d71dfbca3d4f346e91c144ebcb5d1a275f187e890fb0ec5fd95ffa252c2f6b18d53f238ee4f6f70861322930cdf"
+}

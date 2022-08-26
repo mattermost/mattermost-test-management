@@ -1,0 +1,55 @@
+{
+  "id": 3742287,
+  "key": "MM-T120",
+  "name": "RN apps: Messages are marked as read on webapp when read on RN app",
+  "createdOn": "2019-12-20T20:19:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mobile apps: Messages are marked as read on webapp when read on RN app<br />--------------------<br />1. Log in as same user on both RN app and webapp<br />2. On both, view the same channel<br />3. Have another user post a message in a *different* channel from the one you are viewing<br />4. Observe both RN app and webapp show that channel as unread<br />5. On RN app, switch to that channel to read the message",
+        "testData": null,
+        "expectedResult": "On webapp, observe in LHS that the channel no longer appears unread (has been marked read)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "59e6edb11145b0ed61f60ea5abb7d16918277a176f041b31ae6a19d1832af054b3dac2c7433d469190393afcdc42fdb1",
+  "stepsHashed": "bab7ac97221ee1aa9588cef8785e64c8fe024dd8954705fec57f77d0e395719084857f143754d85f0f6887b83f249a3f"
+}

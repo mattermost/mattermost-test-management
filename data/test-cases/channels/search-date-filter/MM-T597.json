@@ -1,0 +1,55 @@
+{
+  "id": 3923241,
+  "key": "MM-T597",
+  "name": "Type date with keyboard",
+  "createdOn": "2020-01-06T19:21:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, October 06, 2020 4:24 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Type date with keyboard<br>–––––––––––––––––––––––––<ol><li>Type \"on:\", \"before:\" or \"after:\" into the search box and manually type a date in for the filter (ex: 2018-09-04 )</li><li>Add a search term and search</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Search works as expected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8586296c5b5fda85061f62f751d17a56050855dfb1a17fe37901a68e9c81e85bea57b324f442e26170d905597e473724",
+  "stepsHashed": "c2b8e5b86786f4176a84b91dae409a258e80bd84502441746a0b05e5c9230eb893dc4983dd145ab526620c82f54b5fa2"
+}

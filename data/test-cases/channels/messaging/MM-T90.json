@@ -1,0 +1,55 @@
+{
+  "id": 3741721,
+  "key": "MM-T90",
+  "name": "Reply to older message",
+  "createdOn": "2019-12-20T16:32:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:07 PM<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Reply to older message<br />--------------------<br />**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rctesting, e.g. where there may not be older messages)**<br /><br />1. Click &quot;reply&quot; from [...] menu to reply to a message that is at least one day old (and has had newer messages posted after it in the channel)<br />2. In right hand sidebar (RN apps: open reply thread), attach a file<br />3. Send and verify reply appears (non-RN apps will see comment with shaded background)<br />4. Close the RHS / go back to center channel view",
+        "testData": null,
+        "expectedResult": "- Date timestamp for first and subsequent posts are correct. <br />- Comment appears at the bottom of the center channel with an intro line &quot;Commented on username's message:&quot;  and a line beside the comment",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "201042c4116031ace0a2ddf997b556bf143796d1c561e07ef95acd033d0fa5fc087faa57bb23816902861b86a0902c12",
+  "stepsHashed": "6eb98004c8ce5b13e445421fe59224f8d1659258da5f544dbb65743a62bac5e1910175944c99516504ebdf323b0d0e93"
+}

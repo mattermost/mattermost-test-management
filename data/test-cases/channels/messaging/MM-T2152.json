@@ -1,0 +1,55 @@
+{
+  "id": 5444752,
+  "key": "MM-T2152",
+  "name": "Edit long message - edit box expands to larger size",
+  "createdOn": "2020-05-20T06:05:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit long message - edit box expands to larger size<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On a long message <br />2. Click the [...] menu &gt; Edit<br />3. Edit the message<br />4. Save",
+        "testData": null,
+        "expectedResult": "Step 2: When it first opens the edit post modal should expand to a reasonable size, and you should be able to scroll.<br /><br />Step 4: The message should be successfully edited after saving, and &quot;(edited)&quot; should display at the end of the message.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "530836db348135d010cc58c262c1867f1ecc5b8fe5fb91ac116a0708668b8117afc52fcfb52fb1f325396902bec82c04",
+  "stepsHashed": "dc7f0fe2362a2953f74c901774178f85385ef9fdee602fe69d463b3b3f63e05f83889c6fba3c0fbd1c08111d26a714a6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4058063,
+  "key": "MM-T1053",
+  "name": "Restrict users to open Direct Message channels with users they share a team with: Open new DM",
+  "createdOn": "2020-01-22T16:25:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Restrict users to open Direct Message channels with users they share a team with - More...<br>--------------------<br>Note: Ensure there are multiple teams, and you can identify two users on the server who are on different teams; not on any same team together (or create a new user on one team, and Se-IDEntify a user who isn't on that team but is on the same server)<br><br>1. In System Console &gt; Users and Teams, set \"Enable users to open Direct Message channels\" to \"Any member of the team\"<br>2. Identify a pair of users on the server who are not on any team together<br>3. Log out as admin and log in as one of the users you identified<br>4. In the LHS, click the top `+` to find a new channel, then click Open a New Direct Message (old sidebar was: Direct Messages &gt; More)<br>5. View the user list (can type the beginning of the other user's name to narrow it down)<br><br>",
+        "testData": null,
+        "expectedResult": "​​​​User1 who is not on any team with user2 should not see user2 appear on the DM list.<br><br>(Selenium: Use test3 and test8)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2f3f609ed879a2ff8148c6dedeed9e0ed94d40925a976d33f38efc2909143e2b7321f92a9b002ca71dd51554846fa6d9",
+  "stepsHashed": "4800f261a5615020cddbfe3cd4d376ceb7bee91d03f78a5066112f1fae9e719ecdb220bac064f4cca23c1937b4b1c7b1"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 28629016,
+  "key": "MM-T4989",
+  "name": "Mobile V2: Account - Edit Profile",
+  "createdOn": "2022-08-15T18:17:04Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Log in to server and go to account screen<br /><br />For each test step:<br />1. Verify on account screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3287708,
+    "name": "Account",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Account"],
+    "fullPath": "mobile-v2/account"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on edit profile screen</strong><br />--------------------<br />1. Verify basic elements on edit profile screen:<br />- close button<br />- save button<br />- profile picture<br />- first name input<br />- last name input<br />- username input<br />- email input<br />- email input description: <strong>Email must be updated using a web client or desktop application.</strong><br />- nickname input<br />- position input",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to edit profile and save</strong><br />--------------------<br />1. Open edit profile screen, edit fields, and tap on save button<br />2. Verify on account screen and user full name and username are updated<br />3. Open edit profile screen<br />4. Verify edited profile fields contain the updated values<br />5. Go back to account screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2f7a1e4d9ad526312f999067c0d8f15c7d7793e2883be4626ffb2fce73dd16cad18233efa356103986bd91ae7eefed9c",
+  "stepsHashed": "46ce09e3b7362d8264f8d164b06ffe9d94f7f637e2ffebe92339d52dfe6b5b301da1cd015a79063058e91ba19f19992b"
+}

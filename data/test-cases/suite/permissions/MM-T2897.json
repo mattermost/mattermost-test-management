@@ -1,0 +1,55 @@
+{
+  "id": 5659448,
+  "key": "MM-T2897",
+  "name": "Member is not able to delete posts of others",
+  "createdOn": "2020-06-04T18:02:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is not able to delete posts of others<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a channel and locate a post you have made<br />2. Click on the [...] icon to open the options for the post<br />3. See if there is an option available to delete the post",
+        "testData": null,
+        "expectedResult": "There is no option to delete the post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f0a2a6985e68ca0e6a3edc85c69ac4e4ec6796da907c26096f65bd252e24cdf15b5ec65fab39b5d0df88b5683722de33",
+  "stepsHashed": "d7dba9916aa40839d9096b0836b79b76f44217e07d6d853fef9450044261a87b6f083d8aa88000757e491310e0b3dcb3"
+}

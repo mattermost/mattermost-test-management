@@ -1,0 +1,55 @@
+{
+  "id": 8581252,
+  "key": "MM-T3704",
+  "name": "Command - List : specific team",
+  "createdOn": "2021-01-14T10:40:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl command list [teams] [flags]",
+        "testData": null,
+        "expectedResult": "returns a list of commands for specific team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "132b899d75b8832ed535bffad4ea9cc10539d0d02e6ed9b91fd039f3cd00b32f967a35bd540cdb760d2f15ad541b26de",
+  "stepsHashed": "8e1f06f3ad9b81ee62bab873d868db3de607a71d41454a6c38a5f27732ee3f8d182bf009ead52eb32d4efb2152095888"
+}

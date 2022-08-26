@@ -1,0 +1,55 @@
+{
+  "id": 10233468,
+  "key": "MM-T4015",
+  "name": "Delete Channel in policy",
+  "createdOn": "2021-04-19T21:38:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Login as an Admin</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Go to System Console &gt; Compliance &gt; Data Retention Policy.</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Add policy and Channels</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Click save</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Click 3 dots of newly created policy</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Click delete</p></li><li aria-level=\"1\" dir=\"ltr\"><p dir=\"ltr\">Delete Channel in policy using API</p></li></ol><p dir=\"ltr\">curl -i -H \"Authorization: Bearer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;MMAUTHTOKEN&gt;\"&nbsp;</p><p dir=\"ltr\">-X DELETE&nbsp;</p><p dir=\"ltr\">-d '{&lt;”channel ID”&gt;}’ &nbsp;/api/v4/data_retention/policies/</p><p dir=\"ltr\">&lt;policyID&gt;/channels</p>",
+        "testData": null,
+        "expectedResult": "<p dir=\"ltr\">6. Channel should be disappeared</p><p dir=\"ltr\">7. Channel should be disappeared</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "045c40a5962ce519f0eb2bff4123dc26c5aaab49d0d199c6d4c3a9c9ba7339e1bc1c4253c0024d360b750ff8d0b003e7",
+  "stepsHashed": "0c645315863b1a6d17d6d397bb98105f7d328a5476c6550c8004885e37ff401582fa3b0cfaf98dbb2fccad4a446d1879"
+}

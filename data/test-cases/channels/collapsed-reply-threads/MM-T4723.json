@@ -1,0 +1,68 @@
+{
+  "id": 20027110,
+  "key": "MM-T4723",
+  "name": "CRT - L17 - Mark as Unread root post from threads inbox view or RHS using alt+click",
+  "createdOn": "2022-03-31T19:36:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>CRT - L17 - Mark as Unread root post from threads inbox view using alt+click</u><ol><li>As User1, create new root post in Off topic and reply to it <ol><li>Verify for User1 this channel is <strong>not</strong> bolded</li><li>Verify channel item <strong>doesn't</strong> have mention badge</li><li>Verify global threads item is <strong>not</strong> bolded</li><li>Verify global threads item <strong>doesn't</strong> have mention badge</li><li>Verify main channel root post has a thread footer and <strong>no</strong> unread dot</li><li>Verify <strong>no</strong> new messages line on the channel</li></ol></li><li> Login as User2 and open Off Topic and Follow the post from step 1.<ol><li>Verify root post shows Following</li></ol></li><li>As User2 switch to different channel<ol><li>Verify Off topic is <strong>not</strong> bolded</li><li>Verify global threads item is <strong>not</strong> bolded</li></ol></li><li>As User2 open the post in global treads inbox</li><li>While holding `ALT` click on the root post <ol><li>Verify Off Topic is not bolded and doesn't have a mention</li><li>Verify global threads item is bolded</li><li>Verify global threads item doesn't show a mention badge </li><li>Verify new message line below root post in thread inbox</li><li>Verify unread dot on the thread and Unreads tab in global threads</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Thread is marked as unread. No channel bolding, only global threads<br />New messages line inserted above oldest reply post in the thread (this follows behavior in Slack)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>CRT - L17 - Mark as Unread root post from RHS <u>using alt+click</u></u><ol><li>As User1, create new root post in Off topic and reply to it <ol><li>Verify for User1 this channel is <strong>not</strong> bolded</li><li>Verify channel item <strong>doesn't</strong> have mention badge</li><li>Verify global threads item is <strong>not</strong> bolded</li><li>Verify global threads item <strong>doesn't</strong> have mention badge</li><li>Verify main channel root post has a thread footer and <strong>no</strong> unread dot</li><li>Verify <strong>no</strong> new messages line on the channel</li></ol></li><li> Login as User2 and open Off Topic and Follow the post from step 1.<ol><li>Verify root post shows Following</li></ol></li><li>As User2 switch to different channel<ol><li>Verify Off topic is <strong>not</strong> bolded</li><li>Verify global threads item is <strong>not</strong> bolded</li></ol></li><li>As User2 open Off Topic and open the post in RHS</li><li>While holding `ALT` click on the root post on the RHS <ol><li>Verify Off Topic is not bolded and doesn't have a mention</li><li>Verify global threads item is bolded</li><li>Verify global threads item doesn't show a mention badge </li><li>Verify new message line below root post on the RHS</li><li>Verify unread dot on the thread footer on the main channel view</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Thread is marked as unread. No channel bolding, only global threads<br />New messages line inserted above oldest reply post in the thread (this follows behavior in Slack)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d7a20944c6f43d58db7c887a36872337cac20486b9fbd4d2b010dc3ecec578bf6c7e066291155585b70cc8a8349222a4",
+  "stepsHashed": "2cf195a1dda21eb79d151196777afb84c0424bc8aacd97f306990c31e0ab388374184950f02a8747c8869846cd9f5413"
+}

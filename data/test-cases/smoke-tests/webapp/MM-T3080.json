@@ -1,0 +1,55 @@
+{
+  "id": 6181511,
+  "key": "MM-T3080",
+  "name": "Sign in email/pwd acct",
+  "createdOn": "2020-07-13T19:12:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder", "cy-prod", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:09 PM<br />• Set back to Active for manual testing",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Sign in email/pwd acct<br>–––––––––––––––––––––––––<br>Log out and back in (if logged in using username before, use email this time, or vice-versa)",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dfb1d2a966060df09e951e1545a7486f76ecb0524603597ac472b0bd553c2766d7ddbbd0cfd01909d610cbe17d5cf01b",
+  "stepsHashed": "d5e19a7ec6cfc14ab15eb7d0bbaba0c57cad0bac2a8ee8312d0b623c0acec5adf767f7cbefdc506a892ca8cb860e0806"
+}

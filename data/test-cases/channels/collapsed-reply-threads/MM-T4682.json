@@ -1,0 +1,55 @@
+{
+  "id": 19079408,
+  "key": "MM-T4682",
+  "name": "CRT - Show guidance at the end of the global threads list",
+  "createdOn": "2022-03-09T21:36:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Show guidance at the end of the global threads list<ol><li>Create more than 25 threads so we can use scroll loading in the Threads list</li><li>Scroll load the threads list to reach the end</li><li>Search guidance item should be shown at the end of the threads list</li><li>Title, subtitle and shortcut keys should be shown<ol><li>Verify \"That's the end of the list\" text within guidance graphic at the bottom of the list </li></ol></li></ol><br />",
+        "testData": null,
+        "expectedResult": "The Search guidance item is shown at the bottom of the Threads list.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e7f588d0584c0f8953c9932530c43568c93342e156f4f1295cacf6569d270a1eb5f1dbac9b6d636ef11c2777174db8cf",
+  "stepsHashed": "5fd30702edb4ea1b6542234718053b1b0667896ff1ed4f8a4bf891a123a6412dace32f94dbeed10db5bf449a6a4538a1"
+}

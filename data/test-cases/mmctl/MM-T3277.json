@@ -1,0 +1,55 @@
+{
+  "id": 6410631,
+  "key": "MM-T3277",
+  "name": "Team - Modify : system & local accounts can set a team to private",
+  "createdOn": "2020-08-01T18:13:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Go to any team and via Team Menu &gt; Team Settings, ascertain whether the team is private or public<br /><br />2. Depending on the setting above, run the following:<br />`mmctl team modify [teamname] --private`<br /><br />3. Then run:<br />`mmctl team modify [teamname] --public`",
+        "testData": null,
+        "expectedResult": "After 2 and 3 you'll get feedback saying \"Modified team 'teamname'\"<br /><br />You can also log into the server in the browser to verify ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4f0a32e25b5f174d660c3d3a0b400e3f79cecb042ee4e87951ac82ac3891db194a7e2ac23596a5b99c70d477cd1971be",
+  "stepsHashed": "9b0f6e803fd23fe70bc7d5f8147a92172d211fd7bc53aaa989de13556229a6f204d7ef17d944307d9e05ee5e81fd52b1"
+}

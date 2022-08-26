@@ -1,0 +1,55 @@
+{
+  "id": 4058104,
+  "key": "MM-T1094",
+  "name": "Privacy\nEmail Address - Shown\nFull Name - Shown\nProfile popover\nSystem admin",
+  "createdOn": "2020-01-22T16:25:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Shown<br />Full Name - Shown<br />Profile popover<br />System admin<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = true<br />2. Ensure &quot;Show Full Name&quot; = true<br /><br />System admin clicks users' profile popovers",
+        "testData": null,
+        "expectedResult": "System admin can see all email addresses and full names",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e64f7a0faa88593cad154d3dc08d29487fe4da2e25d6432984409a8b00d277525dca0f75b6da4425c2ab0d340153d5b7",
+  "stepsHashed": "7bfce5139620307858af7cce3bf80a536657ca9477de80e81fa0b927f808277e3b1f16054dad1effd6928a89207c7c3a"
+}

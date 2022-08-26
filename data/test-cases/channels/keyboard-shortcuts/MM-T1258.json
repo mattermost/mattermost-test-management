@@ -1,0 +1,55 @@
+{
+  "id": 4064381,
+  "key": "MM-T1258",
+  "name": "CTRL/CMD+U",
+  "createdOn": "2020-01-23T13:38:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 10 Jun 2022: Running in RF but no longer reporting back: https://app.rainforestqa.com/runs/945344/tests/317763/browsers/safari14<br /><br />(SA, 12/2/2020) Cypress limitation, cannot be automated.<br /><br />",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+U<br />--------------------<br />1. Press CTRL+U (Windows) or CMD+U (Mac)<br />2. Choose any file to upload<br />3. Wait for upload to finish and observe text box has focus<br />4. Press ENTER",
+        "testData": null,
+        "expectedResult": "A new post appears with the attachment chosen in step 2",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0755ad436a18b75006693b52f9b7b11b9775692ab521ac2dbf4ed3cd3db7c3c11da4c0b83499fb056c5d94627e4d30bd",
+  "stepsHashed": "27432d9f051d4847c42a48575ed2f2c9b36ff6f5f031354dd72b350335472191bff3c03a60f1ca24a14675cd72ccafac"
+}

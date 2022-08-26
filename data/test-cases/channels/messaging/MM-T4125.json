@@ -1,0 +1,55 @@
+{
+  "id": 12788992,
+  "key": "MM-T4125",
+  "name": "RN apps: Messaging - Post multi-line emojis",
+  "createdOn": "2021-07-21T19:51:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to post multi-line emojis<br />--------------------<br />1. Login to server and go to a channel<br />2. Post multi-line emojis, e.g.<br /><strong>:fire: :fire:<br />:fire: :fire: :fire:<br />:fire:</strong>",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify multi-line emojis are posted correctly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e599603b589d656e84f8565c368eae4313e6e325b1a7c7676aa49efdfe8fab8105049356f7e37ce6c0e194fb99a469af",
+  "stepsHashed": "0a34acfa44cb526784833b27ebcbf1f5b3754453d8cc4f638f382aa76e80c4ce56d405e0d272d925fe8e9bdbd4f8841f"
+}

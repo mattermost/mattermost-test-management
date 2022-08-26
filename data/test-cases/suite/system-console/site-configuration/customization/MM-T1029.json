@@ -1,0 +1,61 @@
+{
+  "id": 5722302,
+  "key": "MM-T1029",
+  "name": "Custom branding text can render markdown text",
+  "createdOn": "2020-06-08T03:53:19Z",
+  "objective": "<strong><span style=\"color: rgb(226, 80, 65);\">NOTE: CUSTOM EMOJI DO NOT RENDER IN CUSTOM BRANDING TEXT - STILL TO BE IMPLEMENTED: https://mattermost.atlassian.net/browse/MM-12657 </span></strong>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Set \"Enable Custom Branding\" to \"true\"</li><li>Copy the text attached in the test data field to the right into the branding text box</li><li>Save</li><li>Logout</li></ol>",
+        "testData": ":smile:<br><br>- This is a bullet point<br>- This is another bullet point<br><br>**This has been bolded**<br>~~This has been strikethrough~~<br>*This has been italicized*<br>[This is a link to mattermost.com](https://mattermost.com)<br>`This is inline code`",
+        "expectedResult": "<ul><li>The custom branding text - including the emoji - should display on the login page</li><li>Ensure line breaks render in the markdown text.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a9bc5a71ee829b8cb2fcaed423108760f82afe9209b7522db23d2955843ee6f5b5383326c8eb2c8adadb369a7ec6d413",
+  "stepsHashed": "1f076755c438c8baa3949183ce5a03e1e27a3d7aa504707240ea4c3a29b1b324acc44b44a1eeac1c13d6ccc1fa216f67"
+}

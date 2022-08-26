@@ -1,0 +1,55 @@
+{
+  "id": 5481440,
+  "key": "MM-T2482",
+  "name": "/jira install can only be used by admin",
+  "createdOn": "2020-05-22T15:47:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733539,
+    "name": "Install and Uninstall",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Install and Uninstall"],
+    "fullPath": "plugins/jira-v2/jira-server/install-and-uninstall"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira V2"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as a user who is not a system admin</li><li>Post /jira instance install server</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Ephemeral post informs test user that they do not have permissions</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "469573e691cfc8831372cdefce57074d8b1572bfb47939a5406782f843221800d56e6ada670b335b710688d1d4a74a33",
+  "stepsHashed": "f10f3c179df421629d123900ee75c9ceb168801b04e1896c8b8c8803664408a138565e34afaa733157acb9270d8ede96"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3877711,
+  "key": "MM-T405",
+  "name": "MFA - Remove",
+  "createdOn": "2020-01-03T00:39:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "MFA - Remove<br />--------------------<br />Ensure MFA is enabled but not enforced (System Console &gt; MFA)<br /><br />1. Sign in with an account using Email Authentication and MFA<br />2. Go to Account Settings &gt; Security &gt; Multi-factor Authentication &gt; Edit<br />3. Remove MFA (would say &quot;Reset&quot; if MFA enforcement is on for the server)<br />4. Log out<br />5. Log in again",
+        "testData": "",
+        "expectedResult": "Login should be successful without having to enter an MFA code. <br /><br />(If MFA is enforced and you clicked &quot;Reset&quot; MFA, you should be immediately prompted to re-add it.)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "Unscheduled improvement to warn when removing MFA:<br><a href=\"https://mattermost.atlassian.net/browse/MM-11635\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-11635</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "09c96a33bc4d3ffdf4463bb5d26c6ebffce7be1413564acfc1559662151d929abdf83d2b47940c5da0e560f4085980c1",
+  "stepsHashed": "1e34af34a9ceb52a761f704e6410e013d4355b5b710eb76acc39ca8b46df35087620ed261c635a64b2cf3ed993cb8321"
+}

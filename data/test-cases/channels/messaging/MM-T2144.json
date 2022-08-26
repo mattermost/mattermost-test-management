@@ -1,0 +1,55 @@
+{
+  "id": 5444744,
+  "key": "MM-T2144",
+  "name": "Up arrow, edit",
+  "createdOn": "2020-05-20T06:05:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Up arrow, edit<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post a message<br />2. Hit the up arrow<br />3. Edit the message<br />4. Save",
+        "testData": null,
+        "expectedResult": "Edit is successful, and &quot;(edited)&quot; displays at the end of the message.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dcf73cdf7bf898e8a8746f970e855cbbc5bb3d6507e89fcb0662cc9eb223bc912606fe17bdc5688f0aa4252f10879e7b",
+  "stepsHashed": "d7a9f321991f8e1dc4912d3af815f7ffd30bff5b799bf65aade29bf7c9102ca1a624daa90f5bf327d4d986fd64b3fbb0"
+}

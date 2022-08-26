@@ -1,0 +1,55 @@
+{
+  "id": 5566841,
+  "key": "MM-T2655",
+  "name": "User's groups when listed in the removal warning modal",
+  "createdOn": "2020-05-29T20:22:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User's groups when listed in the removal warning modal<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "<ul><li>If in one group, group name displays</li><li>If in more than one group, shows \"2 Groups\" and on hover lists the groups that user belongs to (comma separated)</li><li>If in no group, shows `0 Groups`</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1075b9db5c2e1e49289d67792260b52def11dc5918a59908261c19f3eec071c6ac6416b4142b4ba8e969d8ebbb5b7b9f",
+  "stepsHashed": "62877d106854098c5155c32843125ba76adba48b7afc0e93bdb449600dae6fe9c388f7aaa3ad9929b12ae40d0412cadf"
+}

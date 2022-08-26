@@ -1,0 +1,55 @@
+{
+  "id": 5566863,
+  "key": "MM-T2677",
+  "name": "Demote Team Role Permission",
+  "createdOn": "2020-05-29T20:22:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Demote Team Role Permission<br>————————————————————————————<ol><li>For a Group Synced Team, select a Group and set the Role to Team Admin in System Console ➜ Teams page.</li><li>Run LDAP Group Sync job and check if user has access to the Team with Team Admin permission.</li><li>Change the role from Team Admin to Members for the same team in System Console ➜ Teams page.</li><li>User should immediately be updated to Team Member role and should not be able to perform Team Admin tasks like view and modify Team Settings, Manage Groups etc.</li><li>Run LDAP Group Sync job again and check if user User still has Team Member permission for that Team.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User should not be able to perform Team Admin tasks like view and modify Team Settings, Manage Groups etc</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "94f3772accabbdc87b21e3f79d153b6415bb84259cdc44b9d53f454123fc5559320218029e3f20bf85b4b6be4483faeb",
+  "stepsHashed": "5fe43924fc64557696d296ac7a49dba5a1934ef89d92b5e8ee2fe7dd342c77aaaa73d4c30ec5c2940acb2851019b3ea0"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5445605,
+  "key": "MM-T2296",
+  "name": "`from:` combined with `in:` only returns results posted by specified user in specified channel\n\nEnter to select auto-complete option\n\nTab to select auto-complete option",
+  "createdOn": "2020-05-20T06:50:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "`from:` combined with `in:` only returns results posted by specified user in specified channel<br /><br />Enter to select auto-complete option<br /><br />Tab to select auto-complete option<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Assuming posts from ^ previous test<br />2. First user searches for `from:[secondusername] in:off-topic fromuser`",
+        "testData": null,
+        "expectedResult": "1. Post by second user in Off-Topic is returned<br />2. Post by first user in Town Square is not returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c38d9085e9da73f7068ba74a40c41ec581b432da6473cbea7c8068e082e5ef30d7a0c3013360693409c5b9e9d77c0f96",
+  "stepsHashed": "6a02d30614e9ba27a5d315a322c81876bfc577f43741eb9e12da4b95df1d0273a70d548eb7d6c77014675698c38dfbaf"
+}

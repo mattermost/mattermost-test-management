@@ -1,0 +1,55 @@
+{
+  "id": 5537292,
+  "key": "MM-T2611",
+  "name": "Admin deactivates and reactivates in LDAP",
+  "createdOn": "2020-05-27T21:13:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Admin deactivates and reactivates in LDAP<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Logged in to create following users with the following linked team/channels:<br />linda.test qa group qa team and private channel, eng team with default channels<br />george.test xyz dev team and 2 private channels (standup and xyz), eng team with default channels<br />corey.test eng eng team with default channels<br />lindy.test qa group qa team and private channel, eng team with default channels<br /><br />MK in AD deactivates linda.test, george.test, and corey.test<br />User filter to filter out deactivated users (such as (&amp;(objectClass=person)(!(cn=Test.*))(!(UserAccountControl:1.2.840.113556.1.4.803:=2)))<br /> ), then LDAP sync<br /><br />Deactivated users cannot log in to Mm, show in Mm as Inactive<br />Deactivated users do not appear in Groups user lists<br /><br />MK in AD reactivates users<br />LDAP sync (leaving in the filter that filters out deactivated users)<br /><br />All three users can log in again<br />All three users have the same team/channels they had before<br />All three users appear in the appropriate Group user lists",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9ce8ae40d155a887248087881f4677f48f2112b8c813dfb02e0a929d012c3e0ff1795ae1e9003d1af079b42559632570",
+  "stepsHashed": "1636c6dc2a35a3dfb29ba769a37acce0b826a2dc079ec70ba7f007f1c11596997f2303cae6ab9c75a811e14a33022c9c"
+}

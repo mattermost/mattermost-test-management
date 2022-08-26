@@ -1,0 +1,55 @@
+{
+  "id": 3904477,
+  "key": "MM-T424",
+  "name": "Desktop App: Any activity on the computer should maintain online status for Desktop App",
+  "createdOn": "2020-01-03T14:24:26Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "The precondition was \"<strong>N/A until MM-22965 is fixed\"&nbsp;</strong>but that ticket was closed as \"Cannot Reproduce\"",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Desktop App: Any activity on the computer should maintain online status for Desktop App<br>–––––––––––––––––––––––––<ol><li>Log in on the desktop app then minimize the window and switch to using your browser or any other app on your computer</li><li> Continue using your computer (mouse/keyboard) for the next 6 minutes</li><li>Go back to the desktop app</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Your status still appears as \"online\" in the desktop app</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.3 Desktop App (Oct 2019)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-7970\">Desktop App: Any activity on the computer should maintain online status for Desktop App — MM-7970</a></li><li>(<span style=\"color: rgb(184, 49, 47);\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-22965\">Desktop App: Any activity on the computer should maintain online status for Desktop App — MM-22965</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4577c00328acc5580744cedac3bd3f342614d22f549108d92f72fba1e0b1b8f43465a61210f7f299d1a5c69b6d4e8ce3",
+  "stepsHashed": "066ac2d4182bede7cc66f6f423695e6036d97d9f3691f7a23b78022218d77062d9b88fec6c55fa4af0553640e9f5000b"
+}

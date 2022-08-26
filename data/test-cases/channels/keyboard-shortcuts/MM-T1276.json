@@ -1,0 +1,55 @@
+{
+  "id": 4064400,
+  "key": "MM-T1276",
+  "name": "SHIFT+UP",
+  "createdOn": "2020-01-23T13:38:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SHIFT+UP<br />--------------------<br />1. In a channel with a system message as its most recent (can create one by joining a channel):<br />2. Press SHIFT+UP",
+        "testData": null,
+        "expectedResult": "Reply thread opens in RHS for the most recent reply-able message (non-system, non-ephemeral message) with the cursor in the reply input box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bb31fca5d7a5aa5b0307b440885bead6d9e55c0e6fd816a949357a0ee8b10fed63f634f9d5a3c3d612579e53810035bc",
+  "stepsHashed": "8ff9927d0b66e37b7f5fb98b62a06f161dbb0418423dd45a4f52887942125750c7c09fb9196eaad7d503199f9f377600"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6181460,
+  "key": "MM-T3031",
+  "name": "Jump from search results",
+  "createdOn": "2020-07-13T19:12:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Jump from search results<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Search on a term that will have results<br />2. Click `Jump` next to a search result",
+        "testData": null,
+        "expectedResult": "1. That post opens in permalink view, highlighted<br />2. Clicking link at bottom to go to recent messages no longer shows permalink view (highlight is gone, URL is channel rather than permalink, newest messages in channel appear)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d558b5b8b88a7ebc300769313d0c2253cf9ca97d9f8d093eb9ced8a3af479e723bbe4352db7879cf5b2dab17bf26cb72",
+  "stepsHashed": "35ea4272e6e8a66e20390a896953d5b1b69a10f61d785caba0ce92e1d9972103c13a017313ca63a27abaabb58c1ae8a9"
+}

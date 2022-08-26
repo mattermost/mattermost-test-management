@@ -1,0 +1,55 @@
+{
+  "id": 9948119,
+  "key": "MM-T3953",
+  "name": "License - Upload (no permissions)",
+  "createdOn": "2021-04-05T07:45:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal user:<br><br>mmctl license upload",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. system admin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c03b8cd72d4e46d35b2b38f0c4ae083ed58b9dd3af2b297bc6e156fbae00d3af4f57cf8b624b6564086752222ebd4c93",
+  "stepsHashed": "f2482411b3fabfac86a31bf17363efe9b136361588ac4dca594f17feb572e985d869e65c03281891f0a69f2c77b3d32a"
+}

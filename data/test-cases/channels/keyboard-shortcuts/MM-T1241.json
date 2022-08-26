@@ -1,0 +1,55 @@
+{
+  "id": 4064364,
+  "key": "MM-T1241",
+  "name": "CTRL/CMD+K: Unreads",
+  "createdOn": "2020-01-23T13:38:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+K: Unreads<br />--------------------<br />1. Ensure that you have some unread messages / channels, including a couple mentions<br />2. Press CTRL+K (Windows) or CMD+K (Mac)<br />3. Observe sorting order (as described ---&gt; )<br />4. After verifying sorting order, type some characters in the filter box, verify filters as expected",
+        "testData": null,
+        "expectedResult": "Before typing anything in the filter box, any unread channels are displayed and can be switched to<br /><br />If on multiple teams, unread channels from the other team do NOT display in channel switcher<br /><br />1. Any channel type with mentions, in alphabetical order (with mention badge displayed to the right of the channel name)<br />2. Any other channels with regular unreads (not mentions), in alphabetical order<br /><br />Typing in the filter box filters the list as usual (any unread channels that don't match the filter are no longer listed; unreads are not sorted to the top)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7f87008cb51a903ce6c90ef2988be2c19e42abbaa01a5c82e7c5c6518f9c91ac7be1f1d6a673d8f9120ad05ee6c52958",
+  "stepsHashed": "ee2445d0987fd1d3dc3d7007f04252d0b9021545f872580201982fc16abbf2abd33f01ca1acd2a1a4152f38d5c83bf19"
+}

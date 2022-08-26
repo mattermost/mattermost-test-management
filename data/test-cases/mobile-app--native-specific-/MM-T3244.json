@@ -1,0 +1,55 @@
+{
+  "id": 6396920,
+  "key": "MM-T3244",
+  "name": "RN apps: Preview different file types",
+  "createdOn": "2020-07-30T21:05:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.15 Mobile (December 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Preview different file types<br>————————————————————————————<ol><li>Have a user in a browser post a couple images, a video or two, and some documents (see below for file types to test on each platform)</li><li>&nbsp;View the posts from the RN app</li><li>Tap on each file to preview (may have to tap to download)<br><br></li></ol><strong>Video</strong><br><strong>iOS</strong>: mp4 and mov<br><strong>Android (needs viewer installed)</strong>: mp4, mkv, webm, 3gp<br><br><strong>Documents (for both iOS and Android)</strong>:<br>PDF, doc, docx, xls, xlsx, ppt, pptx, rtf",
+        "testData": null,
+        "expectedResult": "<ul><li>Previews should open full-screen on your device.</li><li>Can rotate device to view in landscape mode.</li><li>Swipe up closes the preview for image files; tapping Done closes the preview for other file types</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.15 Mobile (December 2018)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-12923\">RN Android: Cancelling a download still has downloading message in UI — MM-12923</a><br>(<span style=\"color: rgb(184, 49, 47);\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-12925\">RN Android: Cancelled video cannot be downloaded without clearing cache — MM-12925</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-12926\">RN android: Clicking on file does not show downloading progress (Or shows only on tap) — MM-12926</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0576a1535ededc6710134507d67ccb3f184e577e49e47a1f01b2c6a6e9d963f814470d2a3bc5c1a1b8c139db2c3bf8c2",
+  "stepsHashed": "9150b07bed85aaa6b02271b7e6e3e9f9e5d5cecd4e384b42636a0ffe65581ce204212b9c2a4c533c4b8fb8aca2a5df7c"
+}

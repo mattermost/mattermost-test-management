@@ -1,0 +1,55 @@
+{
+  "id": 6396919,
+  "key": "MM-T3243",
+  "name": "RN apps: Take a photo and post",
+  "createdOn": "2020-07-30T21:05:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Take a photo and post<br>————————————————————————————<ol><li>Navigate to the channel you want to upload the file in</li><li> Tap the camera icon</li><li> Select Take a Photo</li><li> Snap a photo, confirm it</li><li> Add text in the message box</li><li>After upload completes, verify thumbnail looks correct and tap aeroplane icon to send</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Photo you just took is posted, attached to the message you typed.</li><li>iOS: If iPhone takes photo in HEIC format, image is converted to JPG on posting</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e619af5ccbbbacb9c23a5e3733cc2ca0cfff9fd3ac7c961b2014f0c2b31f127642ffa1ef7169f6d9964a5ced90a5e9c2",
+  "stepsHashed": "5215a6604739bb3c087349dbfbd397b90ef5f2e8342153dc6e3d76b8c02456090551440b013a46b8a56d26285525d1a5"
+}

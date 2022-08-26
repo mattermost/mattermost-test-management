@@ -1,0 +1,55 @@
+{
+  "id": 4058496,
+  "key": "MM-T1106",
+  "name": "Email banner refresh",
+  "createdOn": "2020-01-22T17:58:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Email banner refresh<br />--------------------<br />`Enable Email Notifications` = false<br />`Enable Preview Mode Banner` = true<br />Save, observe blue banner describing Preview Mode<br />Click the X to close the blue bar and refresh<br />Change `Enable Email Notifications` to true, refresh",
+        "testData": null,
+        "expectedResult": "- Blue bar message reappears after refresh<br />- After step 4: Greyed out settings are editable again, except for `Enable Preview Mode Banner`, which should now be grayed out<br />- Blue bar message does not reappear after second refresh",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0c2a8dfd4d44bc77fd8c1682b82cdd10f778590a4ee462a0ada537afe7add24044ea157b40710b1671c47adf11cecbfe",
+  "stepsHashed": "7e2ef0c06ccfe59fb9ef01ac8608191cb7e5985b619ed2dcf4ac9e42ac5b76b1f0307c8c2f82ee4c7f56409f644575b3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3905582,
+  "key": "MM-T521",
+  "name": "RN apps: Push notification does not clear notification from last channel",
+  "createdOn": "2020-01-03T19:24:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.31 Mobile (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "21 Sep 9 - (LI) - Not able to test push notifications in RF",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a channel - Channel A and place the app in the background</li><li>As another user Mention test user in Channel A and another channel - Channel B</li><li>As test user tap the notification from Channel B</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The app opens and re-directs the user to channel B</li><li>Channel A still has the mention badge showing in the channel drawer</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.31 Mobile (May 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-24639\">RN: Tapping on a push notification doesn't open the correct channel — MM-24639</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "54fe486f913aa2cbd2115bbcea47d4ff2b5b14f21451f2e5dcad6e5feb0a7767837b9bd2beb5098c87100fe68163a1a1",
+  "stepsHashed": "42568fc0d9cea8cabe0cb78463e15d88798b96b0ad95ae6aae2f977c06eb03cfb0f7f96c561022e9bedefba16369412f"
+}

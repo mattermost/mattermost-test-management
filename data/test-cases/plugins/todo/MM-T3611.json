@@ -1,0 +1,55 @@
+{
+  "id": 8022929,
+  "key": "MM-T3611",
+  "name": "Sent Items can be canceled",
+  "createdOn": "2020-11-26T21:15:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054414,
+    "name": "ToDo",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Send a ToDo to a user<br />2. Login as the receipient in a new session <br />3. Cancel the ToDo item",
+        "testData": null,
+        "expectedResult": "- Sender receives a DM that the ToDo has been canceled<br />- The item is no longer listed on the &quot;sent&quot; tab for the sender",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "07b1c792b44f8609928041c63a191d432dc9a8ded674144a337e98501ce15855eaff61e422adb45b8fade4f5524d0fe4",
+  "stepsHashed": "0d4d2133120a9b78f6d148cb2728bf977861369dcda66952fade3feae7545b13065fcd2733ae7c249a4d57e429efcf67"
+}

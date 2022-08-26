@@ -1,0 +1,68 @@
+{
+  "id": 5519368,
+  "key": "MM-T2508",
+  "name": "When a user joins a channel, that change is reflected in the search.",
+  "createdOn": "2020-05-26T20:27:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, September 28, 2020 4:10 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "When a user joins a channel, that change is reflected in the search.<br>–––––––––––––––––––––––––<ol><li>UserA create a new channel</li><li>UserA create a post and \"@mention\" UserB who does not belong to the channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>UserB is displayed in the \"Not in channel\" section of autocomplete suggestions</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>UserA add UserB to the channel</li><li>UserA create a post and \"@mention\" UserB</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>UserB is displayed in the \"Channel members\" section of autocomplete suggestions</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc2a3f17106f5a5d7096f425c4ffcaea0a6d70089e30e482402d1a2c07af02aff54ec56d551022520103c073fa899d23",
+  "stepsHashed": "193134032f3b868032e2198e19521c93f20ca8e49109819e58fdedccad0a4610c9c6ac9d5fe5ae12ceec8f7b8c5281f3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659442,
+  "key": "MM-T2891",
+  "name": "Member is able to delete private channel",
+  "createdOn": "2020-06-04T18:02:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is able to delete private channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a private channel where the user is not an admin - If using the channel above, you must use another user to change your role to member<br />2. Click the down arrow next to the channel header to see channel options<br />3. Ensure that Delete Channel is available and select it<br />4. Click Delete on the confirmation screen",
+        "testData": null,
+        "expectedResult": "For step 3 Delete Channel is available.<br />For Step 4 channel is deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ba3e0962df8a0cd24f6c7da7dc1abe6e5449b2a848accb718bf58bbc4c8039b713c383a83de3cad5931bddb45e08bdfe",
+  "stepsHashed": "a89142b966ef087cd14479dd30713708b29940e94c5164ce001296f617efe14fcee7900cfaea6d7ac8c738828b52ef9a"
+}

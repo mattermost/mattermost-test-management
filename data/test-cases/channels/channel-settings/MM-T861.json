@@ -1,0 +1,55 @@
+{
+  "id": 4035730,
+  "key": "MM-T861",
+  "name": "Closing create modal does not join a channel",
+  "createdOn": "2020-01-18T01:00:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open or join a public channel</li><li>Leave that channel</li><li>Click \"+\" to open the channel creation modal and add any title (RN tap \"CREATE\" and add a name)</li><li>Click Cancel, or tap the back arrow and tap `x` on RN, to close the modal without creating the new channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>When modal closes the user does not rejoin the channel you had just left</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2eb6b8efd98b19656d95c1e08da2d5463b852033111ddb4695c493e36cdfdaf697ceffadff7967c1aa0f0038e3e46912",
+  "stepsHashed": "2fce9966e45d79cfe36b2a8612d45670542c782f801b585859669eb0daddb62277bda6824eec29b22fef03316b4bf2ba"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4064392,
+  "key": "MM-T1268",
+  "name": "UP - Edit reply on expanded RHS",
+  "createdOn": "2020-01-23T13:38:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post a message and a reply<br />. Open RHS the expand<br />3. Press UP",
+        "testData": null,
+        "expectedResult": "Should open the edit modal for the reply message and be able to edit",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "939d7618aede7ccca788588202596f6abda918b5e8da498a6e5637ba046f36bcddecd4297b95cf5a5152f6eff4c9541c",
+  "stepsHashed": "01dca0fe3d8fcc4c2536a799e8bf328fd44136febd3880b5664ddad0d39533ccdb37cb447b0d08b70de7977fedf1387e"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8581488,
+  "key": "MM-T3711",
+  "name": "Config - Reset : without permission",
+  "createdOn": "2021-01-14T11:15:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl config reset SqlSettings.DriverName LogSettings",
+        "testData": null,
+        "expectedResult": "returns an error as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b80be3e857428839b949104050209b5d0f483f1b664e3961ea09ae2b8ed21c9424193b7bca4ebdcac82ede1fd8a821b",
+  "stepsHashed": "56b5bd63a52014eacc0e0eeb61d8567576c67e82c8dc806a37d1b614c7eb3f8b8b78c9b13ef186cac6025b5f28444d7d"
+}

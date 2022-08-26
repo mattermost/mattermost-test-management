@@ -1,0 +1,55 @@
+{
+  "id": 18856537,
+  "key": "MM-T4663",
+  "name": "User Groups Modal-View Group",
+  "createdOn": "2022-03-02T15:35:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as UserA</p></li><li>Create <strong>GroupA</strong> , <strong>GroupB</strong> and <strong>GroupC</strong></li><li><p>Click Product Switcher Menu </p></li><li><p>Click User Groups option</p></li><li><p>Open the group menu of a particular group by 3 dots.</p></li><li>Click View Group option</li></ol>",
+        "testData": null,
+        "expectedResult": "<p>6. View Group modal should have:</p><ol><li><p>Top left: Group name and Group mention should be displayed </p></li><li><p>Top Right: Add People, 3 dots menu and X button should be displayed.</p></li><li><p>Search textbox should be displayed</p></li><li><p>List of group members should be displayed</p></li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7adccfddf41ce6d1053e50b42a90b98f34757c175dc58b6a7a1167ffda03cc9ecb870318179ee385c47209e223921ca6",
+  "stepsHashed": "bce3630a2e3282038b730334f3556f979852dcccf4305c7df0a4bb5c72d21fcdd32ad0fa8ebcf6edef4c5d890b270c18"
+}

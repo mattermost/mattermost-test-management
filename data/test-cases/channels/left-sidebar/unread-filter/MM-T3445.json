@@ -1,0 +1,55 @@
+{
+  "id": 7574107,
+  "key": "MM-T3445",
+  "name": "Channel Sidebar Unread Filter > Hide channels once read",
+  "createdOn": "2020-10-22T19:27:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007284,
+    "name": "Unread filter",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Unread filter"],
+    "fullPath": "channels/left-sidebar/unread-filter"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 10:52 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed No Test Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as normal user<ol style=\"list-style-type:lower-alpha\"><li>Verify that unread filter is in all channels state, not enabled</li></ol></li><li>Create a couple of new channels, both of which are unread</li><li>Enable Unread filter<ol style=\"list-style-type:lower-alpha\"><li>Verify that the unread filter is in filter by unread state</li><li>Verify that both channels are visible</li></ol></li><li>Click on the first channel<ol style=\"list-style-type:lower-alpha\"><li>Verify that both channels are still visible</li></ol></li><li>Click on the second channel<ol style=\"list-style-type:lower-alpha\"><li>Verify that the first channel has disappeared</li></ol></li><li>Disable the unread filter</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>We should hide channels once they have been read</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c41ffc642393d2f55ca5d29a39e0dd13e52d0ae628b6858d5b5e721f66a773edd55d0f49ee10821a7070ee9fa2a5ae5a",
+  "stepsHashed": "c1d6264fd5a070b9e4a76956a6a156c80b8169ce7182fe55d1bc770892b4ed52f3d88d593dd3d88352260ce6da13f536"
+}

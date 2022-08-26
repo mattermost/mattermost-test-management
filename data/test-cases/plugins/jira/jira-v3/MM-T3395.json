@@ -1,0 +1,82 @@
+{
+  "id": 7242713,
+  "key": "MM-T3395",
+  "name": "Set an instance alias",
+  "createdOn": "2020-10-01T20:47:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2. /jira instance alias &lt;instance url&gt; server-one",
+        "testData": null,
+        "expectedResult": "Instance has been aliased as server-one<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": " /jira instance alias &lt;instance url of a Jira server that already has an alias&gt; server-two",
+        "testData": null,
+        "expectedResult": "Instance has been updated to as server-two",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "/jira instance unalias &lt;instance url of a Jira server that already has an alias&gt;",
+        "testData": null,
+        "expectedResult": "Alias has been removed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a1ff14612a41475cdfd3833597e00af722b567dce2c8563e3be1a240dc318e0c806c3b15f2b764f02524ba47046b9342",
+  "stepsHashed": "3d546a37a96b0ae76f16e5534c55fa0fa38f5326744da7889ad403610c0cf1f8c7bae2dec3e8ef13e57a8020e65486e5"
+}

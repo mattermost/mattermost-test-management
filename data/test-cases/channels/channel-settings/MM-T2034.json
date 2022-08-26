@@ -1,0 +1,159 @@
+{
+  "id": 5427454,
+  "key": "MM-T2034",
+  "name": "Clicking on user profile in the View/Manage members modals opens the profile pop-over",
+  "createdOn": "2020-05-18T17:13:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<p>Click on Channel name to open Channel Menu and click on Manage Members </p>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1589813182954-Screen+Shot+2020-05-18+at+10.46.14+AM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Manage members modal opens titled [ChannelName] Members",
+        "customFields": {
+          "Fix Versions": ["v5.24 (June 2020)"],
+          "Related ticket(s)": " (<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-24027\">Open the profile pop-over when clicking a user profile in the View/Manage members modals — MM-24027</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on any profile picture to view profile pop-over",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1589813401630-Screen+Shot+2020-05-18+at+10.49.47+AM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Profile pop-over opens similarly to how it opens on the channel post list ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify that clicking on Send message opens DM with this user",
+        "testData": null,
+        "expectedResult": "DM with the selected user opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify that clicking on \"@username\" on the top of the pop-over adds @username to this channel textbox",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify that clicking on Add to Channel opens \"Add [this user] to a Channel modal",
+        "testData": null,
+        "expectedResult": "<ul><li>Add [this user] to a Channel modal opens</li><li>Manage Member modal is dismissed </li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify clicking outside of the profile popover, but still on the manage member modal dismisses the pop-over",
+        "testData": null,
+        "expectedResult": "<ul><li>Profile pop-over is dismissed </li><li>User remains on the manage member modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Open any user profile pop-over again</li><li>Verify clicking outside manage member modal dismisses the pop-over and manage member modal simultaneously </li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Profile pop-over and manage member modal are simultaneously dismissed </li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to any Channel and click on Members link in the header</li><li>Open Manage members modal</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1640890424681-Screen+Shot+2021-12-30+at+1.53.22+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on any profile picture to view profile pop-over",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1589813401630-Screen+Shot+2020-05-18+at+10.49.47+AM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Profile pop-over opens similarly to how it opens on the channel post list ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2480508f3370de00e84edaf43a4771b4c02c638c4a7609cd5fe63d04d31310f86dac2b819c349ab94624471417e1447f",
+  "stepsHashed": "4d40291240d5bddd5c3d5ada39e2b873532cd905793fa509e7700a253daac0189be4cba336e0b4aa7acf88f0ae43afa1"
+}

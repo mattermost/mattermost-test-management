@@ -1,0 +1,55 @@
+{
+  "id": 5659407,
+  "key": "MM-T2858",
+  "name": "Once a scheme is applied members of the associated team see the change in permissions",
+  "createdOn": "2020-06-04T18:02:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Once a scheme is applied members of the associated team see the change in permissions<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Using the steps above, create a team override scheme that differs significantly from the System Scheme and not a couple easy to spot distinctions<br />2. Associate a team to the scheme <br />3. Login as a member of that team<br />4. Observe the permissions available to the user",
+        "testData": null,
+        "expectedResult": "The override scheme applied to the team has affected the user's permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0b6f0f17be0714bc6478a05c33f18f338b4c635bc8b7453699bea242f057ca96399fff72314162d99fc50b0d9e0854e2",
+  "stepsHashed": "64174bf8eaadb109b60d3e7e48297c2575017713373499cd11997b1b39988c87a4705eebd3c74d8f23f70cf96466ab1e"
+}

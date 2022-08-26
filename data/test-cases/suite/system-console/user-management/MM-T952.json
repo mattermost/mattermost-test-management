@@ -1,0 +1,63 @@
+{
+  "id": 4049524,
+  "key": "MM-T952",
+  "name": "Reactivating a user results in them showing up in the normal spot in the list, without the `Deactivated` label.",
+  "createdOn": "2020-01-21T15:49:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "User-Management",
+    "Duplicate-Automated-Tests",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Cloud-N/A",
+    "cy-prod",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538610,
+    "name": "User Management",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "User Management"],
+    "fullPath": "suite/system-console/user-management"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Reactivating a user results in them showing up in the normal spot in the list, without the `Deactivated` label.<br>--------------------<br>1. Reactivate a deactivated user<br>2. In LHS, click `+` next to `Direct Messages` and locate the user",
+        "testData": null,
+        "expectedResult": "The reactivated user appears up in the normal spot in the list of users, without the `Deactivated` label.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8c5195c2ae68d4495e9ba9b6ac472cface5db57006b4b5ebbbdd07d011abfd70261d3e3530266496cac346f5af353be7",
+  "stepsHashed": "72088704ba6824a2bab23936cbde7f8d0067889481666af0293ec35c788d55ddbee1961eb43c925bc2aec004835b70b1"
+}

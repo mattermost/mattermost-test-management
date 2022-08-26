@@ -1,0 +1,55 @@
+{
+  "id": 3741735,
+  "key": "MM-T104",
+  "name": "Can `Show More` and `Show Less` on long posts, Markdown in long posts",
+  "createdOn": "2019-12-20T16:33:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["Triage"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, December 21, 2020 10:23 AM<br>• Removed Webapp from Rainforest status as there only appears to be tests for mobile there<br>• Removed duplicate automated test label label<br>• Added link to Rainforest tests<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 23, 2020 8:35 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can `Show More` and `Show Less` on long posts<br><br>Markdown in long posts<br>–––––––––––––––––––––––––<ol><li>Post a message using the text in the test data section</li><li>Observe that post displays the first part of the message and then has `Show More` button</li><li>Click or tap `Show More` and view the entire post (ends with \"The end of this long post will be hidden until you choose to `Show More`.\")</li><li>Verify the markdown displays as described in the post</li></ol>",
+        "testData": "# Basic Markdown Testing<br>Tests for text style, code blocks, in-line code and images, lines, block quotes, and headings.<br><br>### Text Style<br><br>**The following text should render as:**<br>_Italics_<br>_Ita_lics_<br>*Italics*<br>**Bold**<br>***Bold-italics***<br>**_Bold-italics_**<br>~~Strikethrough~~<br><br>This sentence contains **bold**, _italic_, ***bold-italic***, and ~~stikethrough~~ text.<br><br>**The following should render as normal text:**<br>Normal Text_<br>_Normal Text<br>_Normal Text*<br><br>### Carriage Return<br><br>Line #1 followed by one blank line<br><br>Line #2 followed by one blank line<br><br>Line #3 followed by Line #4<br>Line #4<br><br><br>### Code Blocks<br><br>```<br>This text should render in a code block<br>```<br><br>**The following markdown should not render:**<br>```<br>_Italics_<br>*Italics*<br>**Bold**<br>***Bold-italics***<br>**Bold-italics_**<br>~~Strikethrough~~<br>:) :-) ;) ;-) :o :O :-o :-O<br>:bamboo: :gift_heart: :dolls: :school_satchel: :mortar_board:<br># Heading 1<br>## Heading 2<br>### Heading 3<br>#### Heading 4<br>##### Heading 5<br>###### Heading 6<br>&gt; Block Quote<br>- List<br>- List Sub-item<br>[Link](http://i.giphy.com/xNrM4cGJ8u3ao.gif)<br>[![Github](https://assets-cdn.github.com/favicon.ico)](https://github.com/mattermost/platform)<br>| Left-Aligned Text | Center Aligned Text | Right Aligned Text |<br>| :------------ |:---------------:| -----:|<br>| Left column 1 | this text | $100 |<br>```<br><br>**The following links should not auto-link or generate previews:**<br>```<br>GIF: http://i.giphy.com/xNrM4cGJ8u3ao.gif<br>Website: https://en.wikipedia.org/wiki/Dolphin<br>```<br><br>**The following should appear as a carriage return separating two lines of text:**<br>```<br>Line #1 followed by a blank line<br><br>Line #2 following a blank line<br>```<br><br>### In-line Code<br><br>The word `monospace` should render as in-line code.<br><br>The following markdown in-line code should not render:<br>`_Italics_`, `*Italics*`, `**Bold**`, `***Bold-italics***`, `**Bold-italics_**`, `~~Strikethrough~~`, `:)` , `:-)` , `;)` , `:-O` , `:bamboo:` , `:gift_heart:` , `:dolls:` , `# Heading 1`, `## Heading 2`, `### Heading 3`, `#### Heading 4`, `##### Heading 5`, `###### Heading 6`<br><br>This GIF link should not preview: `http://i.giphy.com/xNrM4cGJ8u3ao.gif`<br>This link should not auto-link: `https://en.wikipedia.org/wiki/Dolphin`<br><br>This sentence with `<br>in-line code<br>` should appear on one line.<br><br>### In-line Images<br><br>Mattermost/platform build status: ![Build Status](https://travis-ci.org/mattermost/platform.svg)<br><br>Google favicon: ![Google](https://www.google.com/favicon.ico)<br><br>GIF Image:<br>![gif](http://i.giphy.com/xNrM4cGJ8u3ao.gif)<br><br>4K Wallpaper Image (11Mb):<br>![4K Image](https://images.wallpaperscraft.com/image/starry_sky_shine_glitter_118976_3840x2160.jpg)<br><br>Panorama Image:<br>![Pano](http://amardeepphotography.com/wp-content/uploads/2012/11/Untitled_Panorama6small.jpg)<br><br>### Lines<br><br>Three lines should render with text between them:<br><br>Text above line<br><br>***<br><br>Text between lines<br><br>---<br><br>Text between lines<br>___<br><br>Text below line<br><br>### Block Quotes<br><br>&gt;This text should render in a block quote.<br><br>**The following markdown should render within the block quote:**<br>&gt; #### Heading 4<br>&gt; _Italics_, *Italics*, **Bold**, ***Bold-italics***, **_Bold-italics_**, ~~Strikethrough~~<br>&gt; :) :-) ;) :-O :bamboo: :gift_heart: :dolls:<br><br>**The following text should render in two block quotes separated by one line of text:**<br>&gt; Block quote 1<br><br>Text between block quotes<br><br>&gt; Block quote 2<br><br>### Headings<br><br># Heading 1 font size<br>## Heading 2 font size<br>### Heading 3 font size<br>#### Heading 4 font size<br>##### Heading 5 font size<br>###### Heading 6 font size<br><br><br>### Escaped Characters<br><br>**The following text should render the same as the raw text:**<br>Raw: `\\\\teamlinux\\IT-Stuff\\WorkingStuff`<br>Markdown: \\\\teamlinux\\IT-Stuff\\WorkingStuff<br><br>**The following text should escape out the first backslash so only one backslash appears:**<br>Raw: `\\\\()#`<br>Markdown: \\\\()#<br><br>The end of this long post will be hidden until you choose to `Show More`.",
+        "expectedResult": "<ul><li>No noticeable delay showing or hiding the full post</li><li>Ensure fade effect is visible (including on mouse over) and \"show more/less\" button is not cut off (i.e. totally displayed)</li><li>Markdown renders as described in the post, except compact view as noted below<br><br></li></ul><strong>Note</strong>: Header #### items on compact view or RN apps do not show in larger font size, just in boldface",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color: rgb(184, 49, 47);\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-27533\">Line spacing ignored when lumped together in large markdown text block — MM-27533</a><br><strong>Triage notes</strong>: There appears to be enough spacing at this point to not make the effort worth trying to tweak CSS to marginally improve the spacing. The markdown is working as intended, it's the CSS that is applying the spacing. Closing as invalid.",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c11e530c98a3388133ae92d445c45c0f9ba10c6447376ca643e34d2feac258598570393d6b501085f8015d72ac0b4e24",
+  "stepsHashed": "aad0b694698971a534290be5f0bfb6c14f3185d7bee049503e0e6975b00a51dc53a5ac58c535468e2e633cd5ddcbb5a0"
+}

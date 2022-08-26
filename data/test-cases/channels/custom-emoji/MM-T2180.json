@@ -1,0 +1,55 @@
+{
+  "id": 5444780,
+  "key": "MM-T2180",
+  "name": "Custom emoji - cancel out of add",
+  "createdOn": "2020-05-20T06:05:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2960960,
+    "name": "Custom Emoji",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Custom emoji - cancel out of add<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Click on Main Menu &gt; Custom Emoji &gt; Add Custom Emoji<br />2. Enter an emoji name<br />3. Click &quot;Select&quot;, and choose an image<br />4. Cancel",
+        "testData": null,
+        "expectedResult": "Emoji does not save, and does not appear in emoji list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7312e4a4ac1e1fa9aca0b8d612bb6b271aa59fe460b33b0cfb8f21ff6dc8cea2bab2a45c2c784f16b37ae4fad7c1b04a",
+  "stepsHashed": "ae0864de5a8224fe555369a74d682370de41602b603c7af63713c435e954783733586e0f178626e932d8c9d9dd5f59ce"
+}

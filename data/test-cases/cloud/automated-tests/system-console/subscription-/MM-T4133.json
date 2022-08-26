@@ -1,0 +1,55 @@
+{
+  "id": 12876188,
+  "key": "MM-T4133",
+  "name": "Clicking on Download button should download the PDF file in the Last Invoice section",
+  "createdOn": "2021-07-26T17:28:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1577254,
+    "name": "Subscription ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
+    "fullPath": "cloud/automated-tests/system-console/subscription-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Subscribe to a cloud plan</li><li>Go to <strong>☰ menu ➜ System Console ➜ Billing &amp; Account ➜ Subscription</strong></li><li>Click the <strong>Download Invoice</strong> button in the Last Invoice section</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Clicking on Download button should download the invoice in a PDF format</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3c05774c976b5e92776aa1405afbffc90c302fe13268ac8b130bec119ffefc3683cea9f08283cd55e9878f24133f072f",
+  "stepsHashed": "47f6e0fe6fadce30638a75dc3f127b328a3df448182d2cd39de4e551ab2ce5b323f958bb44d003a6bc3b016bb0b528d8"
+}

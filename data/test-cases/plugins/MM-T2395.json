@@ -1,0 +1,55 @@
+{
+  "id": 5477815,
+  "key": "MM-T2395",
+  "name": "Plugins - Enabled (with plugin uploads enabled in config.json) - JIRA",
+  "createdOn": "2020-05-22T11:15:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugins - Enabled (with plugin uploads enabled in config.json) - JIRA<br>————————————————————————————<ol><li>Verify pre-packaged JIRA plugin</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Name, description, enable, disable, remove</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "593571212e80775e0e2fb73d7912f61fa9c05aafa46ef87590924ca209693b5ef035bead896a05665c5bc3f9d544b0dc",
+  "stepsHashed": "281dff8e3f0e2291c667a1c964a70fe4346e1d70cbf5fc837ff315d41f433c0c207fcd4a60ed01a629118247b162d3a3"
+}

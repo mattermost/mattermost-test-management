@@ -1,0 +1,55 @@
+{
+  "id": 5444802,
+  "key": "MM-T2201",
+  "name": "@ autocomplete - first name",
+  "createdOn": "2020-05-20T06:05:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ autocomplete - first name<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Type &quot;@&quot; followed by someone's first name<br />2. Select a result and press enter",
+        "testData": null,
+        "expectedResult": "Autocomplete properly filtered on first name. Result was replaced with username when enter was pressed.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7c1ece58fc0d698e16e331a9d4006d14c31345ccf5fdfd392df4e0da10b201d4e41ea7c2ca6e854cd8d642e6f1d7958d",
+  "stepsHashed": "7e2d89eb619b326a63f0dbdddab529a3e4b3e54ad1fd7bae7183e99aff2b82c88ed719855c5ee67b14e3f30ca256e6a4"
+}

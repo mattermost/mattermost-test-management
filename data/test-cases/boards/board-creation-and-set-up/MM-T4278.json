@@ -1,0 +1,147 @@
+{
+  "id": 15454768,
+  "key": "MM-T4278",
+  "name": "Managing and navigating views",
+  "createdOn": "2021-10-14T08:56:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1840288,
+    "name": "Board creation and set-up",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board creation and set-up"],
+    "fullPath": "boards/board-creation-and-set-up"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4277" } },
+    {
+      "inline": {
+        "description": "Click on \"v\" to the right of \"Gallery View\" and click \"Duplicate view\"",
+        "testData": null,
+        "expectedResult": "\"Gallery View Copy\" is opened and added to the left hand side",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"v\" to the right of \"Gallery View Copy\" and click Delete View",
+        "testData": null,
+        "expectedResult": "<ul><li>The Gallery View is deleted and removed from the sidebar</li><li>User is taken to the first view in the board list</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Table View\" in the sidebar",
+        "testData": null,
+        "expectedResult": "View changes to Table View",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Select the text \"Table View\" in the center and replace it with Testing 2 Table",
+        "testData": null,
+        "expectedResult": "Name of view is changed to Testing 2 Table (in the left panel and center)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Select \"Board View\" in the sidebar",
+        "testData": null,
+        "expectedResult": "View changes to Board View",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Select the \"Board View\" text in the center below the board title and replace it with \"Testing 1 Board\"",
+        "testData": null,
+        "expectedResult": "Name of view is changed to \"Testing 1 Board\" (in the sidebar and center)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"v\" to the right of \"Testing 1 Board\" and click \"Gallery View\"",
+        "testData": null,
+        "expectedResult": "View changes to Gallery View",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Select the text \"Gallery View\" in the center and replace it with Testing 3 Gallery",
+        "testData": null,
+        "expectedResult": "Name of view is changed to Testing 3 Gallery (in the left panel and center)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "26a5ac91583b1d580fccf65853533732a2b5273dcd12eae7bb61ae0306b05b4de13e9e0f98499ca530b1339a0faaf9e8",
+  "stepsHashed": "7e1f381ce7c98a7398881db8918b5591a538c6a2d1c1102393a9f67cc8559d44d3af6a22612804ea5eb0fcffac24975b"
+}

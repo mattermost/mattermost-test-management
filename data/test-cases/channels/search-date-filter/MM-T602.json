@@ -1,0 +1,94 @@
+{
+  "id": 3923246,
+  "key": "MM-T602",
+  "name": "Search for an invalid date (including years without Feb 29th)",
+  "createdOn": "2020-01-06T19:21:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Mobile"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "wrong format returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:123-456-789 term`",
+        "testData": null,
+        "expectedResult": "<ul><li>No results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "correct format, invalid date returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:2099-15-45 term`",
+        "testData": null,
+        "expectedResult": "<ul><li>No results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "invalid leap year returns no results<br>–––––––––––––––––––––––––<br>Search like: `after:2018-02-29 term`",
+        "testData": null,
+        "expectedResult": "<ul><li>No results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "using invalid string for date returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:banana term`",
+        "testData": null,
+        "expectedResult": "<ul><li>No results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1e1243333ce4cde7d0661f7f6bff7f28906d4047c29298f11c682b2344ade93f6532ad4d1046d85f8850a8c2c7b763b1",
+  "stepsHashed": "de4f727cb387e466c943bc7fcba44c4054c62d9aef7934b49b504bea38ded94375d1c3ad0450bd0b21a60fa96f0a2130"
+}

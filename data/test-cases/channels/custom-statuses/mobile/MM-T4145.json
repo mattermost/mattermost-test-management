@@ -1,0 +1,55 @@
+{
+  "id": 13461449,
+  "key": "MM-T4145",
+  "name": "RN apps: Custom status on mention autocomplete",
+  "createdOn": "2021-08-13T03:02:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222178,
+    "name": "Mobile",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Mobile"],
+    "fullPath": "channels/custom-statuses/mobile"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["RN: Android", "RN: iOS"],
+    "Detox": "To Do",
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Custom status on mention autocomplete<ol><li>Set custom status for user1</li><li>Log in as user2</li><li>Type @ in the text box and first few letters of the user2 name<ol style=\"list-style-type:lower-alpha\"><li>Verify user2 custom status is displayed on the at mention autocomplete</li></ol></li></ol><br />",
+        "testData": null,
+        "expectedResult": "Custom status is present on the mention autocomplete ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "435f111bf0ac992834acfc31bc2d90b299addd568954a515b3bda2dcb3d955d89abd10bcdb221a10874fab9e397a3a57",
+  "stepsHashed": "5d80ac59cffe80bc88c437a2345280a659758b50efcf7cecabb59649af3f65d4996922786cd647aa728388940af623d4"
+}

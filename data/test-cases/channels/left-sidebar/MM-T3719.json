@@ -1,0 +1,94 @@
+{
+  "id": 8600395,
+  "key": "MM-T3719",
+  "name": "Unreads category > Enable/Disable setting and group unreads",
+  "createdOn": "2021-01-15T14:49:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.32 (February 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Unreads category should show only if there is an unread message<br />____________________________________<ol><li>Toggle Unread setting in Settings&gt;Sidebar&gt;Group unread channels separately (Default is 'Unchecked')</li><li>Receive a message or ensure there are some unread channels by marking few as unread manually<br />i. Verify UNREADS category is shown and that the channel is in there</li><li>Click on the Unread channel<br />i. Verify we've switched to the new channel<br />ii. Verify the channel is no longer unread but hasn't left the unreads category</li><li>Switch to another channel<br />i. Verify unreads category has disappeared<br />ii. Verify channel is in the CHANNELS category</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>When enabled Unreads category shows on top of the sidebar only if there is an unread message</li><li>Clearing all unreads removes the category from the sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Unreads category should disappear when the setting is turned off<br />_________________________________<ol><li>Verify UNREADS category is shown and that at least one channel is in there</li><li>Disable the unreads category (Settings&gt;Sidebar&gt;Group unread channels separately)<br />i. Verify unreads category has disappeared<br />ii. Verify that the channel is in the CHANNELS category</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Unreads category disappears when the setting is toggled off in Settings &gt; Sidebar</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Channels marked as unread should appear in the UNREADS category<br />_______________________________________<ol><li>Click on the Unread channel</li><li>Switch to another channel<br />i. Verify that the channel is currently in the CHANNELS category</li><li>Switch back to the test channel</li><li>Mark the last message as unread<br />i. Verify that the channel appears in the UNREADS section</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Channels marked as unread appear in the UNREADS category</li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Read channels should not enter the UNREADS category<br />____________________________<ol><li>Switch to a read channel<br />i. Verify channel is not in the UNREADS category</li></ol>",
+        "testData": null,
+        "expectedResult": "Read channels should not enter the UNREADS category",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "efe888dd04e289d2651b7026a035aebe964c404980ed141d5e86dc31f8acd386e8493ddc3d4f9beb2058c85b4cc787b3",
+  "stepsHashed": "757b2f667ecc163f64dc381e9da21dcd5942eec6ed89fdbea32ebc184b6470f081a71015bf521583215831f2346ed876"
+}

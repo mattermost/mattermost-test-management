@@ -1,0 +1,55 @@
+{
+  "id": 5659411,
+  "key": "MM-T2862",
+  "name": "Default permissions set inherited from system scheme",
+  "createdOn": "2020-06-04T18:02:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Default permissions set inherited from system scheme<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As an admin user, open the console<br />2. Navigate to Permission Schemes and click Edit Scheme for the system level<br />3. Make a few changes to the current system scheme and take note of the changes<br />4. Click save<br />5. Return to the Permission Schemes page and click New Team Override Scheme<br />6. On the scheme creation page note the default configuration of permissions and ensure changes made in step 3 are reflected",
+        "testData": null,
+        "expectedResult": "system scheme - including changes made to it - is used as the default configuration while creating an override scheme",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7a813952c303ab81db932fc64dd11cc1d872b5b6331ce4e9b8e755ccaf7897a2dd387558b6ae50ec53bbf3bcac1b9249",
+  "stepsHashed": "9823a4b97c368fea3a258cd52aa2338fa6415dbcd72fcd05eb1d4001f10b2c19587419e831fe30a2799fd17765d2c1cd"
+}

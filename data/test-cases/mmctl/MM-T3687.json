@@ -1,0 +1,55 @@
+{
+  "id": 8578379,
+  "key": "MM-T3687",
+  "name": "Channel - Rename : non-existent channel",
+  "createdOn": "2021-01-14T08:43:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel rename [non-existent-channel]",
+        "testData": null,
+        "expectedResult": "returns an error as the channel doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a2ba98510c1de559a1e6e80be98b8b410f402e9a0a127066f1cd5a3979b05699abcbe02275ad1fee00ecdde046159fc8",
+  "stepsHashed": "bddced749b25ae7f879c674cfdfecc2ae21c308d673fc5e2511d989d41ccd43f09a22db2b49c3d0ed15b9495e92d28b2"
+}

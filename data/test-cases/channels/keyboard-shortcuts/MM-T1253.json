@@ -1,0 +1,55 @@
+{
+  "id": 4064376,
+  "key": "MM-T1253",
+  "name": "CTRL/CMD+SHIFT+M",
+  "createdOn": "2020-01-23T13:38:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 10 June 2022: This is covered in Cypress but it's still part of a RF test, so if a RF test refactor is needed, this test won't be in the list of failed tests to add a comment to.",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+SHIFT+M<br />--------------------<br />1. Press CTRL+SHIFT+M (Windows) or CMD+SHIFT+M (Mac)",
+        "testData": null,
+        "expectedResult": "Any post that includes `@username` or `username` or any word in \"words that trigger mentions\" is returned on search. Posts returned should include channels across teams you belong to, and direct messages.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e34cf95fa1c60fb53350b7f13caba5b1c840607ace1bf5009db81e736aa163016c7631917917a5404bc4b3c356b21a6d",
+  "stepsHashed": "1cbf70fc3122049faa6f5098ad8ddc4d86879219e9291bd1b66d57eb5b150b565f947114e0a455dc3bb7e88ca5151b0c"
+}

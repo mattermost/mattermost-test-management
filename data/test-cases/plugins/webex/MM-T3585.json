@@ -1,0 +1,55 @@
+{
+  "id": 8022890,
+  "key": "MM-T3585",
+  "name": "/webex info",
+  "createdOn": "2020-11-26T21:08:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as the test user <br />2. Type /webex info",
+        "testData": null,
+        "expectedResult": "Display your current settings",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8a221d9f998f19dacc2b7a6cb308312367f95a162f9bac9734bd23e69186f4dff0e359e7ece6566fd5d5aca7fc93e300",
+  "stepsHashed": "1a0340a1b822de45b99a2a3c5a6257184a5e612b995b4ef2a9568bb81029e466db72d7cf7a69066c35b47460d8ded850"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5600881,
+  "key": "MM-T2732",
+  "name": "With the ID Attribute set - ID Attribute modified so that it does match",
+  "createdOn": "2020-06-01T17:46:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.3 (September 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "With the ID Attribute set - ID Attribute modified so that it does match<br>————————————————————————————<ol><li>In OKTA change the first name (since we set idAttr to that) to match the uid in LDAP (uid=Test.One) and Save</li><li>Have that same user try to log in to Mm using OKTA</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Login is successful, logs back in to the old account</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.3 (September 2018)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-10532\">Make new LDAP login ID attribute to also work for SAML with LDAP sync — MM-10532</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "42b835e29d08ccbbe00c6ca5674301ad90b2d08c1dd7e162ecf9206876beedde560e4a9891b59e5c05935869aae01af8",
+  "stepsHashed": "6dd7e1414309728aaf33f77f843018cf091de86259237b1a9321c2c236fa6fe8685df97b4e9571e7010b7ec9380a8045"
+}

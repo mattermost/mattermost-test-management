@@ -1,0 +1,55 @@
+{
+  "id": 5537269,
+  "key": "MM-T2588",
+  "name": "Pagination on long channels list",
+  "createdOn": "2020-05-27T21:13:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pagination on long channels list<br>————————————————————————————<ol><li>On a server with enough channels to paginate (can use mysql.test), click to Add a Channel</li><li>Click Next at bottom right</li><li>Click Next a couple more times</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Next page loads each time as expected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "91b5b5b58496d43537db0abbc85c620bdede0afe06cf7c4cca298ba75be686faf428822bb552df88d7e8b11c5672eda0",
+  "stepsHashed": "3d294ecfebfc36ae1dac803bc41cc27ff0f20ab0262ee482c2cb376834a581c941d823a231621c13cf9d892f32fe8080"
+}

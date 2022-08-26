@@ -1,0 +1,55 @@
+{
+  "id": 8620718,
+  "key": "MM-T3732",
+  "name": "Plugin - Marketplace : Install - non-existent plugin",
+  "createdOn": "2021-01-18T11:49:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin marketplace install [non-existent-plugin name]",
+        "testData": null,
+        "expectedResult": "Returns an error as the plugin doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a35a35f155c063f37de479f36e243aa919652a38f66c887151e55911045f7f93f51d60cc647a578761d17d22aebf9d27",
+  "stepsHashed": "f7723bf211bcf21d314fabcac2dbaa8908876a98fc8115f500dd080019c12198b1d5a7cac9ea9a17bb77bbc71bf7f107"
+}

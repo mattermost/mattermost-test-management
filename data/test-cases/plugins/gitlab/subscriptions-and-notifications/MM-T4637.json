@@ -1,0 +1,55 @@
+{
+  "id": 18012927,
+  "key": "MM-T4637",
+  "name": "Pipeline event notifications",
+  "createdOn": "2022-02-01T21:54:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. From the GitLab UI, select <em>Pipelines </em>under <em>CI/CD</em><br />2. Add a pipeline that will be triggered on each commit (the pipeline does not need top succeed or be functional)<br />3. In GitLab add a subscription to a channel that includes the `pipeline` event<br />4. In the GitLab project make a commit that will trigger the pipeline<br />5. Wait for the pipeline to fail or succeed<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1643753900692-1643753900692.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><em> </em>",
+        "testData": null,
+        "expectedResult": "Event post is delivered to the channel including a link to the project and pipeline.<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1643753926355-1643753926355.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "977fa4782b6e2d50df8f5275f29c4269e0115c8fbc27303d0ce20b3befff23b5933b280b3d3603a68c72b013c726fd63",
+  "stepsHashed": "cb7d021eac26c2ea2f06689d6ccafc6bc9c56cca2891a218f0c8a130a1d35b65b4f15b28474157178fc637b4bf6f760f"
+}

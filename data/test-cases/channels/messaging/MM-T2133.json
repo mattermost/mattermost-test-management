@@ -1,0 +1,55 @@
+{
+  "id": 5444733,
+  "key": "MM-T2133",
+  "name": "Reply arrow opens RHS with Reply button disabled until text entered",
+  "createdOn": "2020-05-20T06:04:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "in Production",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Reply arrow opens RHS with Add Comment button disabled until text entered<br />————————————————————————————<br />1. Click [...] on message and then click Reply",
+        "testData": null,
+        "expectedResult": "1. RHS opens with focus on reply message box<br />2. Reply button is disabled until text entered",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6be07d725f1d8657f86db41cf9a5c57e296f39612ad6346c3c4ae45e1adabd75f163963dd1000810184543d701138fa3",
+  "stepsHashed": "eb673e3dde9c65ce4d2728f0613c9170dc53055f1d4f53888985fa499f4181d2f155710637cf2b1c915a772726fceb8f"
+}

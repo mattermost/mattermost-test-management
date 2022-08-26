@@ -1,0 +1,49 @@
+{
+  "id": 15984275,
+  "key": "MM-T4332",
+  "name": "Links in DM link user to the specific comment",
+  "createdOn": "2021-11-04T17:34:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Set Up a test user and connect to bitbucket<br />2. As another user comment on the test user's PR<br />3. When you receive a DM click the link that says a user has commented on your PR",
+        "testData": null,
+        "expectedResult": "The link directs the user to the comment made in step 2. listed on the PR.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fbc1cd1e608c79c529463cb002216eff6cbe73da1cb23c56c002c225186922d0753a4cd2b325a05820917185a0afe410",
+  "stepsHashed": "fe7a389bcf9020f892e1cc08b792dcc00eaf2b03e173dcd3fcaaafb840bff5e2b0652b48ee583b277acd9dc12d350785"
+}

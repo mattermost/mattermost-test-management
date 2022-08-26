@@ -1,0 +1,55 @@
+{
+  "id": 5600864,
+  "key": "MM-T2715",
+  "name": "Adding first/last and nickname attributes back in and syncing returns user's first/last names from LDAP",
+  "createdOn": "2020-06-01T17:46:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Adding first/last and nickname attributes back in and syncing returns user's first/last names from LDAP<br>————————————————————————————<ol><li>Admin adds values back to first and last name and nickname attributes in LDAP</li><li>Admin clicks button to initiate LDAP sync</li><li>After sync completes, LDAP user who had changed first/last name and nickname logs back in</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User's first/last names and nickname are returned to be the values from LDAP (and are not editable)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8584b5063e6b26e9e7b70ac85b788a4c452e94aca4686b62038aa4be365476531ad47c941db02ae197b106df9d388ec8",
+  "stepsHashed": "872cbc8098be669e68874ae4c27815391cd2abce002860046bf990e5fe4f03458ed862f892ef123127a3f9147039454b"
+}

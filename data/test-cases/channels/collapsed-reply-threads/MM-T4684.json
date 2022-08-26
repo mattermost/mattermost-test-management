@@ -1,0 +1,55 @@
+{
+  "id": 19431791,
+  "key": "MM-T4684",
+  "name": "CRT - CRT tour - full",
+  "createdOn": "2022-03-17T02:18:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>CRT tour - full</u><ol><li>Log in as user that hasn't had CRT enabled before</li><li>Go to Settings&gt;Display&gt;Display Settings&gt;Collapsed Reply Threads (Beta), select ON and Save</li><li>Close the Settings modal</li><li>Dismiss \"You're accessing an early beta of CRT\" modal</li><li>Open any post on RHS <ol><li>Verify green dot on Thread title on the thread header</li><li>Verify 1st tutorial tip points to Thread green dot</li><li>Verify \"Got it\" button is present</li></ol></li><li>Click on \"Got it\" button<ol><li>Verify tutorial tip is dismissed </li><li>Verify green dot is is no longer present </li></ol></li><li>Follow an existing thread or receive replies to root post you started<ol><li>Verify green pulsing dot on global threads </li></ol></li><li>Click on global Threads sidebar item <ol><li>Verify \"A new way to view and follow thread\" modal is present </li><li>Verify \"Take the Tour\" button is present</li><li>Verify \"Skip Tour\" button is present</li></ol></li><li>Click on Take the tour button<ol><li>Verify green dot on Threads sidebar item</li><li>Verify \"Welcome to the Threads view!\" tutorial tip</li><li>Verify Next button is present </li><li>Verify 3 radio buttons on the bottom, with the far left button active</li></ol></li><li>Click on the Next button<ol><li>Verify green dot on first thread</li><li>Verify \"Threads List\" tutorial tip</li><li>Verify \"Previous\" button is present</li><li>Verify \"Next\" button is present</li><li>Verify middle radio button is active</li></ol></li><li>Click on Next <ol><li>Verify green dot on Unreads tab</li><li>Verify \"Unread threads\" tutorial tip</li><li>Verify \"Previous\" button is present</li><li>Verify \"Finish tour\" button is present</li><li>Verify far right radio button is active</li></ol></li><li>Click on \"Finish tour\" button<ol><li>Verify tour is dismissed</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "deb681063e96e8239c912b35cc1206d235edc012deb9f387279b5a40dd19d3ddbead6e8d8320e6a929d3e5089269c361",
+  "stepsHashed": "bc4d69f4edf5dd88eb2fc9841274c1a22461f955b067be5376721081bc9a649fb790d74547ecb0ab35a7e007abd412bf"
+}

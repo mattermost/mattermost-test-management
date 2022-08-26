@@ -1,0 +1,55 @@
+{
+  "id": 5602335,
+  "key": "MM-T2806",
+  "name": "RN apps: Viewing channel info on RN apps for group-constrained channel - View-only members",
+  "createdOn": "2020-06-01T22:09:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.20 Mobile (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": "Evaluating",
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Viewing channel info on RN apps for group-constrained channel - View-only members<br />————————————————————————————<ol><li>Login to the RN mobile app and view the channel info of a group-constrained channel.</li><li>Then tap View Members</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Add or \"Manage Members\" should not be visible, only \"View Members\" and the view members page should not allow removals.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.20 Mobile (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15529\">RN: Update view/manage members views for group-constrained channels — MM-15529</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7fef4c7cd04443f42c7d29cee2cfcab10241ca12a179e0280f067a36549d5b873ad27f2d3ede2de63d41c5b5b8784b2c",
+  "stepsHashed": "8bf920aca631b28a556a92c107e5fbff9dbd91a90bd6357a107e04766c8655e5774e1516a6ae62ae26731da8e4e2ab42"
+}

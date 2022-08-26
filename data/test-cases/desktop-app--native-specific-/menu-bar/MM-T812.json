@@ -1,0 +1,55 @@
+{
+  "id": 4032086,
+  "key": "MM-T812",
+  "name": "Select All in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Edit ➜ Select All in the Menu Bar</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Selects all text in the window, or in the message box</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-26830\">Linux Desktop app — 'Select all' (when done via the menu) does nothing — MM-26830</a><br />The ticket above was reported testing on Ubuntu 18.04 yet when tested on Ubuntu 20.04 it worked as expected.<br />From the ticket: \"<em>Closing since this is not externally reported and it's working in newer ubuntu versions. We can reopen if it's reported externally</em>\"",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d4dc5dbab00e10311a33a7c7e251e292b1308c74e9d94d366a1d82a747f518107cc5a93e4fcfa9d97f57976ef89d4287",
+  "stepsHashed": "b3b0f4d6cb8910b4a93b0a6f104dc7d7965fa688ee4d6cf59bddb082e59801891ad6123d04f359fb1f2686315b57b087"
+}

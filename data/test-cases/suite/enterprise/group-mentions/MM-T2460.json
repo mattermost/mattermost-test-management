@@ -1,0 +1,55 @@
+{
+  "id": 5478061,
+  "key": "MM-T2460",
+  "name": "Group Mentions when used in Direct Message",
+  "createdOn": "2020-05-22T11:37:56Z",
+  "objective": "Check Group Mentions when used in Direct Message",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733341,
+    "name": "Group Mentions",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
+    "fullPath": "suite/enterprise/group-mentions"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:13 AM<br>•  Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable Group Mention for a group say Group1.<br />    2. As a regular member, open a Direct message with an another user<br />    3. Submit a post containing a group mention which is enabled<br />        a. It should not notify any of the group members <br />        b. The group mention should not be highlighted <br />        c. The user should not receive any system message",
+        "testData": null,
+        "expectedResult": "Group Mentions when used in Direct Message should be working fine as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "95511c08085ee784bdd3c7876d3afa195efc0c10dd26027f4412cbdc2d4e684ffad71e2422064e306d1597c54e44d8f4",
+  "stepsHashed": "704cde2bedb348e63d2edcecd7e337f5926ff152b63a2c75413d69598e57c7f21852fbc55cee25c00061f95077e4f817"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5537267,
+  "key": "MM-T2586",
+  "name": "UI: Default channels (Town Square and Off-Topic for now) are not listed in Channels list",
+  "createdOn": "2020-05-27T21:13:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UI: Default channels (Town Square and Off-Topic for now) are not listed in Channels list<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Admin goes to Groups, Configure/Edit next to a group, and selects Add Team or Channel &gt; Add Channel",
+        "testData": null,
+        "expectedResult": "Channel list does not show default channels",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "19280d460e10b85c65521b7752612ba89e65dab1fb447a1eeab4553a8bbd0b04746c5a6e2c5fec5dbb97d69bbe61819d",
+  "stepsHashed": "6226c43ad21b4e0bd0499fb06343eaf08707d809f0c325235273bca5c1152336d6b24666e6f0a11a341b8671182d338d"
+}

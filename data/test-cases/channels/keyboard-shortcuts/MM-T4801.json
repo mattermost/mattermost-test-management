@@ -1,0 +1,55 @@
+{
+  "id": 22314026,
+  "key": "MM-T4801",
+  "name": "Dot menu keyboard shortcuts",
+  "createdOn": "2022-05-11T10:23:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Visit a channel and post a message</li><li>Open dot menu of a post and press each keyboard shortcuts:<ul><li>R for Reply - verify that RHS open up with focus on reply textbox.</li><li>U for Mark as Unread - verify that the post is marked as unread.</li><li>P for Pin to Channel - verify that post is pinned.</li><li>(Again) P for Unpin from Channel - verify that post is unpinned.</li><li>K for Copy Link - verify that link is copied and can be pasted anywhere possible</li><li>E for Edit - verify that the post changed to edit state and can be edited.</li><li>C for Copy Text - verify that content of post is copied and can be pasted anywhere possible.</li><li>Del for Delete - verify that post is deleted successfully.</li><li>S for Save - verify that post is saved. Note that this is available for small screen.</li></ul></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "235b806de731700e009c084eb41d1f771a796fce8affc8c0639e10e660bc800f17db75e398aedab525428f0fe991f4c3",
+  "stepsHashed": "99fac00532ba72be6e182c5691b141e83642e74b2fd69261819bdf14deb2c9704639e33b2de04a8b4a889effbed0e124"
+}

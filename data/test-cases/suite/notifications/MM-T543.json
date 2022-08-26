@@ -1,0 +1,55 @@
+{
+  "id": 3905611,
+  "key": "MM-T543",
+  "name": "Words that trigger mentions - First name case-matching",
+  "createdOn": "2020-01-03T19:25:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E2E-1", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Words that trigger mentions - First name case-matching<br>–––––––––––––––––––––––––<ol><li>Click the ☰ menu&nbsp;</li><li>&nbsp;Ensure a first name is set in Account Settings ➜ Full Name</li><li>&nbsp;Go to Account Settings ➜ Notifications ➜ Words that trigger mentions ➜ Edit</li><li>&nbsp;Select \"Your case sensitive first name [name]\"</li><li>Uncheck \"Your non-case sensitive username [name]\"</li><li>&nbsp;Click \"Save\"</li><li>Use another account to post a message with your first name with matching case, and another message with your first name not matching case</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>You receive notifications when your case sensitive first name is mentioned.</li><li>You do not receive notifications when your first name with non-matching case is mentioned.</li><li>Mention terms are highlighted.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<span style=\"color: rgb(184, 49, 47);\">Doesn't work if first name is more than one word</span>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "459f681cf16e0d32d9fae00d2ff946333bfad7dc50dece582dab2c4b34a687fa132b526dd4391db8165f0843d4bf4f31",
+  "stepsHashed": "96115702efac797a95b7f97fac79dc3c75a992741d2d30ae8e64ddcb2b934fdc9831ca4a3bb25976bccf0062eab55d2b"
+}

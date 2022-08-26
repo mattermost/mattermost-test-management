@@ -1,0 +1,68 @@
+{
+  "id": 16261594,
+  "key": "MM-T4406",
+  "name": "Show/Hide Dropdown",
+  "createdOn": "2021-11-16T20:24:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1965851,
+    "name": "Dropdown",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Dropdown"],
+    "fullPath": "desktop-app--native-specific-/dropdown"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the Desktop App<br />2. Click on the dropdown button",
+        "testData": null,
+        "expectedResult": "Dropdown should appear",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click away from the dropdown menu",
+        "testData": null,
+        "expectedResult": "Dropdown should close",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f3a6e68af0bdb546722b03d0a599287a282e0183a79c661cd40118d215be3b1303c48a261be3b298a447d027f770e32b",
+  "stepsHashed": "e125a86746567c77f9ee3b46a0bebe28af95531ef7e820f5e18c33e6d969db1b9ab4b17bd21bdf4de65ce8d96184fa0a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5280549,
+  "key": "MM-T1818",
+  "name": "No ephermral post about Adding a bot to a channel When Bot is mentioned",
+  "createdOn": "2020-05-04T17:17:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404274,
+    "name": "Bot Accounts",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Bot Accounts"],
+    "fullPath": "integrations/bot-accounts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, February 03, 2021 3:20 PM<br>• Removed from manual pool",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "No ephermral post about Adding a bot to a channel When Bot is mentioned<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Create a bot and add it to a team<br />2. Open a channel the BOT does not belong to<br />3. As a user, post an @mention for the bot",
+        "testData": null,
+        "expectedResult": "No Ephemeral post is shown asking if you want to invite the bot to the server",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "136ece1883c59f3b5e9425d18aa40cd486ec6eb3eebc3143094e0ca9f26837a1f38b2230cc5c62f79098770d0455f879",
+  "stepsHashed": "14a578ae570621927e104b68b302aa06e5497e3d220320a7248dce40268c643adc2328e23c11ad134303c764782aa8cb"
+}

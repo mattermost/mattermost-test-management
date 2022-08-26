@@ -1,0 +1,81 @@
+{
+  "id": 10379892,
+  "key": "MM-T4026",
+  "name": "Configure the app to use Service Now oAuth",
+  "createdOn": "2021-04-26T04:09:42Z",
+  "objective": null,
+  "precondition": "Setup (Will be updated heavily once It's production ready on AWS)",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1244767,
+    "name": "Service Now",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Service Now"],
+    "fullPath": "apps-framework/service-now"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Configure the app to use Service Now oAuth<br>1. Type \"/servicenow configure oauth \"<br>2. Set Client ID<br>3. Set Client Secret<br>4. Save",
+        "testData": null,
+        "expectedResult": "Service now is configured to use oAuth `Configuration updated`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Connect a user to service now<br>1. Type `/servicenow connect`\n<br>2. Click the connection link\n<br>3. Click \"Allow\"<br><br>",
+        "testData": null,
+        "expectedResult": "On 1. Follow this link to connect: link\n<br>On 2. User is directed to Servive Now approval page<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Disconnect a user to service now<br>1. Type `/com.mattermost.servicenow disconnect`",
+        "testData": null,
+        "expectedResult": "- \"You are disconnected from Service Now.\" feedback\n<br>- Binding are gone",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b77e1774dcfdd3190c441a9188f2f1ac5d9ecf7ac5006367c674c8b6d9c167afdc453d0412158654cb877690b1b8434",
+  "stepsHashed": "57a0a5fd2375517120294444db45a4d21a4a98e735f95d0b829e0df0e80807f40b73e462a97ee3797926bfd749e16971"
+}

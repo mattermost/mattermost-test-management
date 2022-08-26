@@ -1,0 +1,55 @@
+{
+  "id": 3742288,
+  "key": "MM-T121",
+  "name": "Escape should not close modal when an autocomplete drop down is in use",
+  "createdOn": "2019-12-20T20:19:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Escape should not close modal when an autocomplete drop down is in use<br />--------------------<br />1. Post a message<br />2. Hit the up arrow to open the &quot;edit modal&quot;<br />3. In the modal type @ and note the user autocomplete is visible<br />4. Press the escape key, observe autocomplete closes<br />5. In the modal type ~ and note the channel autocomplete is visible<br />6. Press the escape key<br />7. In the modal click the emoji picker icon<br />8. Press the escape key",
+        "testData": null,
+        "expectedResult": "On 4. the user auto-complete drop down closes but the edit modal remains open<br /><br />On 6. the chanel auto-complete drop down closes but the edit modal remains open<br /><br />On 8. the emoji picker closes but the edit modal remains open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "41caeb0878595ff07092e5a8e89c8bab16cf9ed2e735735d9b1d4d9b223d3a12f1d4ff7102b75898bf2c996f898be3a0",
+  "stepsHashed": "1ac42b4550817629547176c8a241f386281fc8fdc52c595e4776fbab297d81dfd0989cda52e9672e919368af4146b208"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5537296,
+  "key": "MM-T2615",
+  "name": "COULD ADD for password-not-needed config",
+  "createdOn": "2020-05-27T21:13:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "COULD ADD for password-not-needed config<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />https://mattermost.atlassian.net/browse/MM-14678<br /><br />1) Connect to an LDAP instance that does not require a username/password, example: <br />{code} <br />&quot;LdapSettings&quot;: { <br />        &quot;Enable&quot;: true, <br />        &quot;EnableSync&quot;: true, <br />        &quot;LdapServer&quot;: &quot;ldap.forumsys.com&quot;, <br />        &quot;LdapPort&quot;: 389, <br />        &quot;ConnectionSecurity&quot;: &quot;&quot;, <br />        &quot;BaseDN&quot;: &quot;dc=example,dc=com&quot;, <br />        &quot;BindUsername&quot;: &quot;&quot;, <br />        &quot;BindPassword&quot;: &quot;&quot;, <br />        &quot;UserFilter&quot;: &quot;&quot;, <br />        &quot;GroupFilter&quot;: &quot;&quot;, <br />        &quot;GroupDisplayNameAttribute&quot;: &quot;cn&quot;, <br />        &quot;GroupidAttrribute&quot;: &quot;entryUUID&quot;, <br />        &quot;FirstNameAttribute&quot;: &quot;&quot;, <br />        &quot;LastNameAttribute&quot;: &quot;&quot;, <br />        &quot;EmailAttribute&quot;: &quot;mail&quot;, <br />        &quot;UsernameAttribute&quot;: &quot;uid&quot;, <br />        &quot;NicknameAttribute&quot;: &quot;&quot;, <br />        &quot;idAttrribute&quot;: &quot;uid&quot;, <br />        &quot;PositionAttribute&quot;: &quot;&quot;, <br />        &quot;LoginidAttrribute&quot;: &quot;uid&quot;, <br />        &quot;SyncIntervalMinutes&quot;: 60, <br />        &quot;SkipCertificateVerification&quot;: false, <br />        &quot;QueryTimeout&quot;: 60, <br />        &quot;MaxPageSize&quot;: 0, <br />        &quot;LoginFieldName&quot;: &quot;&quot;, <br />        &quot;LoginButtonColor&quot;: &quot;&quot;, <br />        &quot;LoginButtonBorderColor&quot;: &quot;&quot;, <br />        &quot;LoginButtonTextColor&quot;: &quot;&quot; <br />    } <br />{code}",
+        "testData": null,
+        "expectedResult": "Connection test is successful, can see LDAP groups",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c18e2724fe7be99a2702e616053cac0b2d3278a16ab7b79a272da1616b01f235fd68e4c2df5475d11e83d8eb7527bab9",
+  "stepsHashed": "12b2009321b87f6361d3dffad369c4cdf56aabf9ba92555bd5c4dfa82c82c225b9c167d08eaf3c9883e4cc32124441e8"
+}

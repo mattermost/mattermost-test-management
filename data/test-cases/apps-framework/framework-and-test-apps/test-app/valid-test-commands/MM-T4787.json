@@ -1,0 +1,82 @@
+{
+  "id": 21499225,
+  "key": "MM-T4787",
+  "name": "Valid OK-empty command",
+  "createdOn": "2022-04-28T14:02:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2558579,
+    "name": "Valid test commands",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Valid test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/valid-test-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test test-command</em><em> valid OK-empty</em><br /><br />",
+        "testData": null,
+        "expectedResult": "The command returns no response.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Make a post and expand the post options menu<br />3. Click the `OK-empty` option from the menu<br /><br />",
+        "testData": null,
+        "expectedResult": "The command returns no response.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Click the `OK-empty` option from the channel header (or App Bar if it's enabled)",
+        "testData": null,
+        "expectedResult": "The command returns no response.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5478cb0f43a2b0a3bfbf390ade0e5b58bec44ece24e8f30a45fcfafc95c9a0993e21bd235c07229f40c4f4533af5ef96",
+  "stepsHashed": "41dbea5fed8a5136c0285322020cbd6b44e22112f1a61b3342c3e807c3f5d187d306e7805a84436cc885742981836d10"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 3923229,
+  "key": "MM-T585",
+  "name": "Unfiltered search is not affected",
+  "createdOn": "2020-01-06T19:21:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["in Production", "Cloud", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Unfiltered search for all posts is not affected<br />--------------------<ol><li>Locate an old post on the server</li><li>Search for the post without adding a date</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Old post returned correctly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Unfiltered search for recent post is not affected<br />--------------------<br /><ol><li>Locate a very recent post</li><li>Search for the post without adding a date</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>New post is returned correctly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4a536b30e6b21e230d0757e42cd2f7f0a620447bc2acdc2f4ec12617fc48e233a2e5a9e8250b3094fe42f4ae50ac65fa",
+  "stepsHashed": "7e15e3b0aaef1cc22d15b84243cecbfb3ba65066ebc40e1f447d96c3ca86916097361dfd04db815f4881ec8be609a0cb"
+}

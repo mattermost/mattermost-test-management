@@ -1,0 +1,55 @@
+{
+  "id": 5601930,
+  "key": "MM-T2758",
+  "name": "SAML / LDAP on for first time login, then sync off, user removed from group on LDAP side, then sync back on",
+  "createdOn": "2020-06-01T20:58:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SAML / LDAP on for first time login, then sync off, user removed from group on LDAP side, then sync back on<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1) Enable SAML sync with LDAP. <br />2) Upon first login user should get teams and channels. <br />3) Disable SAML sync with LDAP. <br />4) Remove user from LDAP group. <br />5) Sync: user should remain in MM group. <br />6) Enable SAML sync with LDAP, sync: user should be removed from group (but not auto-removed from team/channels)",
+        "testData": null,
+        "expectedResult": "SAML user who also exists in LDAP should remain in Group on Mm side with SAML sync off, then is removed with SAML sync on",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8aa9b6f94faaf34fc6aa3578155d3e960033b07a20760a55636cbe82c999623fe64519f453a0e3e252f33f5ed63eb6ad",
+  "stepsHashed": "e8350ed371a2dc162861cb34dcf0a8aa68b76954af0dfda9091a830d7305ed525581e4d1c905fa1d1667bfc9de1a3fe1"
+}

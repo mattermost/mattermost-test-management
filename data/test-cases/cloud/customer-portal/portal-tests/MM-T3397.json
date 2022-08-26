@@ -1,0 +1,55 @@
+{
+  "id": 7297209,
+  "key": "MM-T3397",
+  "name": "Pre-existing cloud account + installation smoke test",
+  "createdOn": "2020-10-05T22:08:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pre-existing cloud account + installation smoke test<br>–––––––––––––––––––––––––<ol><li>Go to <a href=\"https://portal.test.cloud.mattermost.com/cloud\" rel=\"noopener noreferrer\" target=\"_blank\">https://portal.test.cloud.mattermost.com/cloud</a> and log in with an account pre-existent before the upgrade current in test.</li><li>Validate that it will redirect to the installation previously created with that account.</li><li>&nbsp;General smoke test of installation and system console.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>All tests worked as expected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "93fa2fcf03da42ee350571128de401b52a5e734c3c122ecdeadec29ae5732de33c3ff25eabcbc17669b548401ef31d06",
+  "stepsHashed": "4f3929e600076cf5f4ab3c077764a57fd0e215ac40999faf5fcf920a36f100457355bba44ca440bd17376a9d9f8765df"
+}

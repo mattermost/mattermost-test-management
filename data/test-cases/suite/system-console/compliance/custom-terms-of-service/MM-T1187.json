@@ -1,0 +1,55 @@
+{
+  "id": 4058917,
+  "key": "MM-T1187",
+  "name": "Custom Terms of Service - Agree, refresh",
+  "createdOn": "2020-01-22T19:26:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569417,
+    "name": "Custom Terms of Service",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
+    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "With TOS page visible (continuing from <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T1185\" rel=\"noopener noreferrer\" target=\"_blank\">MM-T1185</a>):<ol><li>Click on \"I Agree\" in the Custom ToS screen</li><li>Observe TOS disappears and you see the team</li><li>Refresh the page</li></ol>",
+        "testData": "- This is a bullet point<br>- This is another bullet point<br><br><br>**This has been bolded**<br><br>~~This has been struck through~~<br><br>*This has been italicized*<br><br>[This is a link to mattermost.com](https://mattermost.com)<br><br>`This is inline code`<br><br>- This is a bullet point<br>- This is another bullet point<br><br><br>**This has been bolded**<br><br>~~This has been struck through~~<br><br>*This has been italicized*<br><br>[This is a link to mattermost.com](https://mattermost.com)<br><br>`This is inline code`<br><br>- This is a bullet point<br>- This is another bullet point<br><br><br>**This has been bolded**<br><br>~~This has been struck through~~<br><br>*This has been italicized*<br><br>[This is a link to mattermost.com](https://mattermost.com)<br><br>`This is inline code`<br><br>- This is a bullet point<br>- This is another bullet point<br><br><br>**This has been bolded**<br><br>~~This has been struck through~~<br><br>*This has been italicized*<br><br>[This is a link to mattermost.com](https://mattermost.com)<br><br>`This is inline code`",
+        "expectedResult": "<ul><li>After agreeing, user sees team (or page they were viewing before if they did not disagree/log back in)</li><li>After agreeing and refreshing, TOS does not return</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "28c806626015ecffe64e25c79b02ba2992edbee02c1c2d38f54d7b7a6497934835321ef20444eb6e2884bb60bc66254d",
+  "stepsHashed": "eb9bc07a51789bca9b9544062fd313db867d120bd57ed7a84f8b9c203343eb38e5b9e387b9e13151bfee93aab04becd3"
+}

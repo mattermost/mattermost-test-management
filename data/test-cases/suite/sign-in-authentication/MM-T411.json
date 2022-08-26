@@ -1,0 +1,55 @@
+{
+  "id": 3877717,
+  "key": "MM-T411",
+  "name": "RN apps: No network detected messaging",
+  "createdOn": "2020-01-03T00:39:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.29 Mobile (March 2020)", "v1.24 Mobile (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to simulate airplane mode on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Apps: No network detected messaging<br />–––––––––––––––––––––––––<ol><li>Open the mobile app</li><li>Put your device in airplane mode</li><li>Tap the 3-dot menu</li><li>Tap Settings ➜ Advanced Settings</li><li>Tap Delete Documents &amp; Data</li><li>Tap Delete</li><li>Observe page with \"Something went wrong\"</li><li>Take your device out of airplane mode and tap Try Again</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1592847381739-IMG_8920.PNG\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>After taking out of airplane mode the user can tap \"try again\" and be successfully returned to the channel</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.24 Mobile (Oct 2019)", "v1.29 Mobile (March 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-25812\">RN: Improve the 'No Network Detected' messaging — MM-16251<br /></a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-20950\">RN: deleting documents &amp; data causes a flash of the background when the app reloads — MM-20950</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-25812\">Deleting Documents &amp; Data leads to Connecting.. page instead of message \"Messages will load when you have an internet connection or try again.\" — MM-25812</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e6c26b39d7637d5c88e49d7f68f045a0b20429727d35d9df3efffc32ca04774da792ce51341e23bfad56373641996b43",
+  "stepsHashed": "d0945d1d277fc78bab59863c9455b97f60f6e97941f786923e3985856c101b3ba7c623d0a8421488e9d31e91fea90024"
+}

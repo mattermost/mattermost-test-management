@@ -1,0 +1,55 @@
+{
+  "id": 4152453,
+  "key": "MM-T1420",
+  "name": "SAML Guest Attribute",
+  "createdOn": "2020-01-31T00:09:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581564,
+    "name": "Guest SAML LDAP",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
+    "fullPath": "suite/guest-accounts/guest-saml-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "SAML Guest Attribute<br>–––––––––––––––––––––––––<br><ol><li>Ensure SAML setup is done correctly on an instance</li><li>Navigate to System Console ➜ SAML 2.0 and set Guest Attribute to \"isGuest=true\"</li><li>Login as a SAML user who has this attribute \"isGuest=true\" configured in the SAML Server.</li><li>Check if the user is logged in as Guest User</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User should be logged in as Guest User.</li><li>Guests are prevented from accessing teams or channels upon logging in until they are assigned a team and at least one channel.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16860\">Support Guest Authentication via SAML — MM-16860</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0a6df9f6c7d73c3d19680137d32fb5d06904ec8898d25e0c02cca3a283f22dac017023e83141fc38e9884a3b87121318",
+  "stepsHashed": "314383d923bdcc5945bf720075d5f241f0ca0b75a32377841caeda44f1300c765d234d94130b761126324b0f17a2a718"
+}

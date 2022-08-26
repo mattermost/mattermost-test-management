@@ -1,0 +1,55 @@
+{
+  "id": 8022842,
+  "key": "MM-T3565",
+  "name": "Delete Custom",
+  "createdOn": "2020-11-26T20:45:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054400,
+    "name": "Custom Attributes",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Custom Attributes"],
+    "fullPath": "plugins/custom-attributes"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Navigate to the admin side UI and select, Custom Attributes from the LHS<br />2. Create a custom attribute if needed<br />3. Click the delete icon on the far right",
+        "testData": null,
+        "expectedResult": "Custom Attribute is deletd",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e9dc5369139e4251d111f87d24df852e9f21ed6735b34cd1c9dce56891eb9ef8ff5bd1d8ed4ba5ba31120426fd1e2ed3",
+  "stepsHashed": "0e8d3c1ed63f1b83cac025d08f63275ec04d661b46c92919b8f404e8a235a86fb98814d4a359dee207e9a893d0335b74"
+}

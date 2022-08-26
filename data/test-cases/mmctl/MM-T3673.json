@@ -1,0 +1,55 @@
+{
+  "id": 8562143,
+  "key": "MM-T3673",
+  "name": "Bot - Enable : without permission",
+  "createdOn": "2021-01-13T10:28:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl bot enable",
+        "testData": null,
+        "expectedResult": "returns an error if you do not have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc806fc3a7802330bd38dcecda46259e2d99e43f8bd721ce80257c44899e5ac1141c26a6e5ff645907ead350244dd5da",
+  "stepsHashed": "97e434cea2feb82e3bb5946c4f87395c23249eababac799db6738599642e4a4516622cee8f14045be71f3c6f07e5db2a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4089231,
+  "key": "MM-T1307",
+  "name": "Right-click a channel name / team name in LHS",
+  "createdOn": "2020-01-27T23:44:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565217,
+    "name": "Right Click menu options",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Right Click menu options"],
+    "fullPath": "desktop-app--native-specific-/right-click-menu-options"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Right-click a channel name in LHS</li><li>Right-click a team in team sidebar (on multi-team server)</li></ol>",
+        "testData": null,
+        "expectedResult": "In both cases, a `Copy Link` context menu option should display",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "82089e8038e8b9ca3f3b1c2fa25b1d9bfd5ffdbd06f5886f4166469decd9d132f9c373a9ca75fd5374ef3a5fb39f281e",
+  "stepsHashed": "fbd22345ce68315e1a9f904ea42346d983ded6cefb596dab1fe1da3ec07d2afd4cf50db76067db60c9547b0cf97ce0cb"
+}

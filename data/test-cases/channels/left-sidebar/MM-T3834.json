@@ -1,0 +1,55 @@
+{
+  "id": 8966090,
+  "key": "MM-T3834",
+  "name": "Sidebar Category sorting",
+  "createdOn": "2021-02-11T15:02:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.32 (February 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Category sorting<br>–––––––––––––––––––––––––<br><ol><li>Create 5 channels and add to custom category</li><li>Click on the category 3-dot menu dropdown and select Sort &gt;Alphabetically&nbsp;<ol style=\"list-style-type: lower-roman;\"><li>Verify alphabetical sort order</li></ol></li><li>Create and add another channel into the same category<ol style=\"list-style-type: lower-roman;\"><li>Verify category outlines on drop and channel is placed within the category in the correct alphabetical order set in the previous step, not where you dropped it</li></ol></li><li>Switch category sorting to Recency (click on a 3-dot menu dropdown and select Sort &gt;Recent Activity)<ol><li>Verify that the channels are in reverse order that they were created (when sorted per recent activity)</li></ol></li><li>Add another channel to the category<ol><li>Verify that the channels are still in reverse order that they were created</li></ol></li><li>Remove the oldest channel from the category and put it into Favorites (Click on the channel 3-dot menu dropdown and select Move to Favorites)&nbsp;<ol><li>Verify the channel is now in Favorites</li></ol></li><li>Switch category sorting to Manual (click on a 3-dot menu dropdown and select Sort &gt; Manual)</li><li>Drop another channel into the manually sorted category by scrolling and dropping to the bottom of the category &nbsp;<ol style=\"list-style-type: lower-roman;\"><li>Verify category does not outline and that the channel has been placed at the bottom of the category</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><p data-pm-slice=\"1 1 []\">The channel is placed in its correct position in alphabetical or recency order, and the category sorting method persists after drop</p></li><li><p data-pm-slice=\"1 1 []\">When manual sorting is selected, channel is placed into the exact position that it was dropped in</p></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "230ff24bed280f6b4c104b7df377d774ef547e0dce15e45ce51e4ca178f7bbca47fe5bdff88479cdb973ff4440264dba",
+  "stepsHashed": "9294db81af69d7800d8892800fff78db8c97772a2752b96e70fdb79fe050df6cab3c76a381e57fcd2b85f8fb94ca6e7b"
+}

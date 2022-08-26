@@ -1,0 +1,55 @@
+{
+  "id": 5602343,
+  "key": "MM-T2814",
+  "name": "Re-add user to constrained channel who left it",
+  "createdOn": "2020-06-01T22:09:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Re-add user to constrained channel who left it<br>————————————————————————————<ol><li>lindy.test leaves Constrain-QA-Channel, logs out</li><li> linda.test logs in, opens Constrain-QA-Channel, uses member icon drop-down or channel menu drop-down, clicks Manage Members, Add Members, selects lindy.test and saves</li><li>lindy.test logs in, verifies in Constrain-QA-Channel, logs out</li><li> admin logs in, syncs LDAP, logs out</li><li>lindy.test logs in, verifies still in Constrain-QA-Channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>lindy.test is added back to the channel and then isn't removed on sync</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6fae6e970123ba779cc37fcbf77962c4fd9f80f2044764127affc0863517a0ea8f6e7dc6c8069a492d6fe6b8a323fcd6",
+  "stepsHashed": "cb111b204b01daa75f4dd1010baca897f26caf47b21f8b96664bd4457bd810d3508f5e9a14ceba6465afbdbb6c0e9c18"
+}

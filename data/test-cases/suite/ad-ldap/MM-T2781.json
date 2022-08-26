@@ -1,0 +1,55 @@
+{
+  "id": 5602310,
+  "key": "MM-T2781",
+  "name": "User does not see option to leave group-constrained team",
+  "createdOn": "2020-06-01T22:09:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User does not see option to leave group-constrained team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />jesse.test open main menu",
+        "testData": null,
+        "expectedResult": "Leave Team does not appear<br />(Leave Team still appears on non-group-constrained team)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "48c354193ef1a14da1431ffc0251554c812af0c09dff2b72daa6c8c0104e4cdd8194137c1af7527d102f366eff7ac828",
+  "stepsHashed": "765cfac9ca8431fb9a178d4ff456699c280494fab980fe68fe21b9a83b13b87b0a2f76d2a6b37ee307844f1c68d49b46"
+}

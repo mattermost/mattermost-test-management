@@ -1,0 +1,55 @@
+{
+  "id": 5280623,
+  "key": "MM-T1823",
+  "name": "BOT Profile looks correct",
+  "createdOn": "2020-05-04T17:31:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710224,
+    "name": "Viewing BOT Posts",
+    "parentId": 710222,
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Viewing BOT Posts"],
+    "fullPath": "integrations/bot-accounts/user-side-ux/viewing-bot-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "BOT Profile looks correct<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Locate a BOT post a click the BOT'S user name <br />2. Open a BOT profile popover<br />3. Note the following details",
+        "testData": null,
+        "expectedResult": "1. No timezone information.<br />2. No other actions than sending a DM. (or Add to channel if enabeld) <br />3. &ldquo;BOT&rdquo; tag in the top right corner of the popover to indicate the account is a bot, not a user.<br />4. Description below the display name, where the Account Settings &gt; Position is typically located and is truncated if long. <br />5. The display name and description only appear if one is specified. Else, only the &ldquo;Send Message&rdquo; action appears below the profile picture",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1046676c13b1b2ecfa15a46f9ff436bb1588ebe3e1c32e5d39f31619fe7c3d81cbb1cbbb883a2d34f538f481a31c4feb",
+  "stepsHashed": "69b268f4560dd85fcb0a0a84bbb60aced2da0f930b6be37d83883d6eab09ef41549ccb4360965a39dbae590c874d4df7"
+}

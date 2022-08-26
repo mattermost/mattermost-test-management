@@ -1,0 +1,55 @@
+{
+  "id": 15539894,
+  "key": "MM-T4294",
+  "name": "Shared board URL opens the board",
+  "createdOn": "2021-10-20T10:14:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1853989,
+    "name": "Browser Plugin Regression Tests",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Browser Plugin Regression Tests"],
+    "fullPath": "boards/browser-plugin-regression-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a board</li><li>Click on the board menu (...) and select share board</li><li>Enable sharing</li><li>Click on copy link</li><li>Open a private browser window, and paste in link</li></ol>",
+        "testData": null,
+        "expectedResult": "The shared board displays ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e5ef1a752fe3432fd179a845e4da43767e05337f45fb3b3e63a0b4d9ddb5710f07f6f32783061bebd8c1b734d9f74a74",
+  "stepsHashed": "88a1f679d14bba2bad42c9972b1314b07fd0a18b1b6fd0b3ff1dcd15f80c2d24699a25c4ea9b3b63736168b8709ee3ca"
+}

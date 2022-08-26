@@ -1,0 +1,55 @@
+{
+  "id": 7854240,
+  "key": "MM-T3486",
+  "name": "RN apps: Post message - Send button",
+  "createdOn": "2020-11-13T03:04:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should post a message when <strong>send button</strong> is tapped<br>--------------------<br>1. Login and go to a channel<br>2. Tap on post input and type a message<br>3. Tap on <strong>send button</strong>",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify post input is visible and send button is disabled</li></ul><br>After #2,<ul><li>Verify send button is enabled</li></ul><br>After #3,<ul><li>Verify message is posted</li></ul><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2aa6d027f60b88e29666de15706f36f024162e95429e873d36c1e1b1418e4ca2e8c18804dc63e884c2161ae73590416d",
+  "stepsHashed": "455eaad83b330f760b6e9d913f54b8e8ed56f5ba6f51889c1a6f336accfc6103fa3b3bf0aee5de6540f90514b5c96556"
+}

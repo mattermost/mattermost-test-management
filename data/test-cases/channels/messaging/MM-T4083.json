@@ -1,0 +1,68 @@
+{
+  "id": 10807865,
+  "key": "MM-T4083",
+  "name": "RHS correctly scrolls to the bottom when a thread is open and when user types in the comment box",
+  "createdOn": "2021-05-19T15:03:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>RHS correctly scrolls to the bottom when a thread is opened</u><ol><li>Click on Comment icon on the post<ol style=\"list-style-type: lower-alpha;\"><li>Verify add comment button is visible</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<u>RHS correctly scrolls to the bottom when the user types in the comment box</u><ol><li>While RHS reply thread is open type into comment box<ol style=\"list-style-type: lower-alpha;\"><li>Verify Add Comment button is visible</li></ol></li><li>Add additional lines of text to the comment box<ol style=\"list-style-type: lower-alpha;\"><li>Verify comment box increases in height to accommodate additional text</li><li>Verify last reply is still visible</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify RHS correctly scrolls to the bottom when the user types in the comment box</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0ad442054491f02807744bd2cdcec360bf5cff551043d931a393ab61d768a6b5a48aa636c267bae7ca37df3ae012d849",
+  "stepsHashed": "42729ac6fb0517db6f644baa5d507d6facd1af9737408b37281bde55677e3beb23b0ebd15f86197f26d072c6d3ad674a"
+}

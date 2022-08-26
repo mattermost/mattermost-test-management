@@ -1,0 +1,55 @@
+{
+  "id": 5602316,
+  "key": "MM-T2787",
+  "name": "LDAP sync job deletes memberships from teams and channels\nA. Remove a user from a group... \n1. User gets removed from associated group-constrained channels \n2. User gets removed from associated group-constrained teams",
+  "createdOn": "2020-06-01T22:09:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "LDAP sync job deletes memberships from teams and channels<br>A. Remove a user from a group...<br>1. User gets removed from associated group-constrained channels<br>2. User gets removed from associated group-constrained teams<br>————————————————————————————<ol><li>Associate QA team with abc group</li><li>Associate Constrain-QA-Channel with abc group</li><li>Ensure both have group-constraint enabled</li><li>Sync LDAP, verify jesse.test is added to both</li><li>In LDAP instance, remove jesse.test from abc group</li><li>Sync LDAP</li></ol>",
+        "testData": null,
+        "expectedResult": "jesse.test is removed from both<ul><li>Still on the parent team that was not group-constrained, but removed from its group-constrained private channel</li><li>&nbsp;Removed entirely from QA team</li></ul><br><strong>Note in first test</strong>: jesse.test starts with just engineering team and william.test channel",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-14422\">Update LDAP sync job to delete memberships from teams and channels — MM-14412</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2e8d30d92132cf13d8107065105c228dceb937cc1e63193d9713988ed43343b3b64787ddc965db4e09bbe3ca4af73851",
+  "stepsHashed": "4e9d4e0c8b174aa98a218c12be20ed87965580e93ad0556dc4c067c81b0662658e496a82bc308b520c44531584a939b5"
+}

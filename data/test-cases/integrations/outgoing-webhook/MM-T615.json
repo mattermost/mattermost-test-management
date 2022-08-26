@@ -1,0 +1,55 @@
+{
+  "id": 3951726,
+  "key": "MM-T615",
+  "name": "Only public channels available in outgoing webhooks setup",
+  "createdOn": "2020-01-07T22:48:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 727693,
+    "name": "Outgoing Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Outgoing Webhook"],
+    "fullPath": "integrations/outgoing-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Only public channels available in outgoing webhooks setup<br>–––––––––––––––––––––––––<br>Ensure there is at least one private channel on the team.<ol><li>Open Main Menu &gt; Integrations &gt; Outgoing Webhooks</li><li>Click Add Outgoing Webhook (or Edit on an existing webhook)</li><li>Click the channel dropdown list</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Only public channels (that you belong to) are listed in the channel dropdown. Private channels, archived channels and direct message channels are not shown for outgoing webhooks.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<strong>LM</strong>: Should we add a step to verify no archived channels appear here?<br><strong>SA</strong> <strong>08-Aug-2019</strong>: I agree. Archived channel should not be included on the list."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d0232d12f196fd339bdea7278b86668e99cb4bd7d55eb6bb4277b07590923d66b593b0dd45f3f9dd3596c4a637b65da9",
+  "stepsHashed": "929afffb4dfc9cfc55cfb9147f16689635fdfeeae34852ff597657ebf735f383570944847d0acbcfd38e99ad4c3c9827"
+}

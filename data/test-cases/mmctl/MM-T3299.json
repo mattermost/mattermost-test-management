@@ -1,0 +1,81 @@
+{
+  "id": 6566752,
+  "key": "MM-T3299",
+  "name": "User - Verify",
+  "createdOn": "2020-08-10T17:52:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User - verify<br>————————————————————————————<ol><li>In a command line window set to the directory where 'mmctl' is installed in</li><li>Run \"mmctl auth login https://mysql.test.mattermost.com --name mysql.test --username john.doe --password mysupersecret\"<br><br><strong>Note</strong>: Enter valid username and password for a system admin user</li></ol>",
+        "testData": null,
+        "expectedResult": "You will get feedback saying \"credentials for mysql.test stored\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Run \"mmctl user verify [user ID]\"<br><br>example user ID: yy34xzbzs7g83mbymdeg8p1a1r ",
+        "testData": null,
+        "expectedResult": "You will get feedback saying \"User [username] verified''",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Run \"mmctl auth login https://mysql.test.mattermost.com --name mysql.test --username john.member --password mysupersecret\"<br><br><strong>Note</strong>: Enter valid username and password for a <strong>non-admin</strong> user",
+        "testData": null,
+        "expectedResult": "You will get feedback saying \"You do not have the appropriate permissions\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e471aaea6c7e4310b8249ae5bdde2e8956cac9d5a95e9b301ddd3a77287ad8462c24db4838658c63a8820804f13dabac",
+  "stepsHashed": "3c0bae048d2c15adbf64609bd2167105fc49ae4cb97c7854f33ba1c47ac6ef9917fe783b7df3c5a8c049cf1955a4cded"
+}

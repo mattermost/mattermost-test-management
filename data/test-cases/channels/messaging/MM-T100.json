@@ -1,0 +1,55 @@
+{
+  "id": 3741731,
+  "key": "MM-T100",
+  "name": "RN apps: Edit a Message - Cancel change",
+  "createdOn": "2019-12-20T16:33:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Cloud"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Edit a Message - Cancel change - mobile apps<br />--------------------<br />1. Long press on a message that you have permission to edit<br />2. Tap on &quot;Edit&quot;<br />3. Type something in the edit text box<br />4. Tap on &quot;X&quot; to cancel",
+        "testData": "N/A 5.10: Rainforest<br />2",
+        "expectedResult": "The original text should be displayed with no changes made.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "31f4063be3bc7ac99d9074807dcc97c358074b1c0a356fc149cbd24a29eea3a3870507467c2731d835c9106f9991e4fc",
+  "stepsHashed": "de8788517c74e93792c5212ded5d2574e6a30edfd4b9d904d6bc10a2b9dca7e67daf1314d17c3980e6ed6146b36c5e86"
+}

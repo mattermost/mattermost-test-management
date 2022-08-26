@@ -1,0 +1,55 @@
+{
+  "id": 4152392,
+  "key": "MM-T1409",
+  "name": "Invite Member to a Group Synced Team",
+  "createdOn": "2020-01-30T23:27:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581564,
+    "name": "Guest SAML LDAP",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
+    "fullPath": "suite/guest-accounts/guest-saml-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Invite Member to a Group Synced Team<br>–––––––––––––––––––––––––<ol><li>Ensure LDAP &amp; LDAP Group Sync is configured and there are groups created.</li><li>Enable linking for few groups and ensure Group Sync is enabled for a team.</li><li>Login as a member to that team and chose the option Invite People.</li><li>Add an outsider (another user not part of the team and not part of the LDAP Groups) and click Next.</li><li>Check if an error message is displayed</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Outsider should not be allowed to be added to a LDAP Group Sync Team.</li><li>Following error message should be displayed to the user:<br>\"<em>This team is managed by groups. This user is not part of a group that is synched to this team.</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18005\">Improve display message when attempting to add an outsider to a group-synced team via new team invite flow — MM-18005</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4668bf3d41dfa1a8b17f27b19b35e0d7c60dc935edc6e5d33278bd41384faf455118a978e000ddab22678a841a151582",
+  "stepsHashed": "62c14724a7f89a2f20c1b02410a5be4f0838b5d8bc52f941e56c302bb9c5f1ea30d3d739d11331bb43e7fa0a8831d6ff"
+}

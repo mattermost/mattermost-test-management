@@ -1,0 +1,55 @@
+{
+  "id": 3768064,
+  "key": "MM-T258",
+  "name": "RN apps: Mark as Unread channel maintains unread state on app reopen",
+  "createdOn": "2019-12-27T20:26:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN: Mark as Unread channel maintains unread state on app reopen<br />–––––––––––––––––––––––––<ol><li>Mark any post as unread (don't leave the channel)</li><li>Swipe up and put the app in the background</li><li>Navigate to phone's home screen</li><li>Tap on the Mattermost app to open again</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Channel that was marked unread before app was put in the background maintains it's unread state after coming back from the background</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-20497\">Migrate 'components/post_view/reaction_list' module and associated tests to TypeScript — MM-20497</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "92ea9c7bb4394b7de355bf6a6e1c3f41a27f9f99fe0da309c9a922b27c2013b11f7eb57990684e2fd4f0885ebdbeabad",
+  "stepsHashed": "76f0eafe7f76414fd4f3ff79a80e6eb32639ac32190868baaa313449fcbfa975870f1dad76e88d0c1b4f529ae646ea85"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 28674906,
+  "key": "MM-T5071",
+  "name": "Remove subscription",
+  "createdOn": "2022-08-16T21:15:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5065" } },
+    {
+      "inline": {
+        "description": "2. From Mattermost with a user, execute the delete subscription command, writing in the channel `/pd subscription delete [subscriptionId]`",
+        "testData": null,
+        "expectedResult": "On 2. The deleted subscription message will be displayed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "68c645e4677033c4854325aed8f10ccbb5a4dafeca4ceca4d5ff95808dcb61afe37f51a6dac4ae95f329722a5368f5c6",
+  "stepsHashed": "3c3b01d0d8c1f6469dea463302c37eed4ff82b525e92a7c9b080cf2672c1c2469f91deb8ed20c235ddb6f9c1c5a34e56"
+}

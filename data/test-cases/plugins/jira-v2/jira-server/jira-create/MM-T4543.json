@@ -1,0 +1,55 @@
+{
+  "id": 17698339,
+  "key": "MM-T4543",
+  "name": "Issue Create - Attach a file when creating an issue (Attach different file types Images, PDF, Zip)",
+  "createdOn": "2022-01-19T18:23:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a post that includes a file attachment (Image, PDF or Zip) <br />2. Click Create Jira issue from the post menu to open the create modal<br />3. Create an issue from the post",
+        "testData": null,
+        "expectedResult": "File attachment is not included in the Jira issue",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "155f127742c19e414556e1fd50cf4361a3148958a7eda4439d686c490d02ff95febde8e3f2706bff7579a40bb8c98d40",
+  "stepsHashed": "fb1a71455361c422481458ec6e25d81e513f08480e8184b1c35858bb4c443712f06e4d009d95b1cbc97b3c94644832f2"
+}

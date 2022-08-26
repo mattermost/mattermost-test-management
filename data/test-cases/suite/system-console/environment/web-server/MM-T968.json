@@ -1,0 +1,55 @@
+{
+  "id": 4050757,
+  "key": "MM-T968",
+  "name": "Configuration - Subpath - Open specific team's Town Square via URL",
+  "createdOn": "2020-01-21T19:55:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Configuration - Subpath - Open specific team's Town Square via URL<br />--------------------<br />1. Open https://subpath.test.mattermost.com/mattermost/se-subpath-test/channels/town-square",
+        "testData": null,
+        "expectedResult": "Town Square opens for team se-subpath-test",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ae12028d4d3ff9bfebcad1dcc26ee1e4edb231e2897dc88c801e05c28c6cf2af32c5b426544c69540ffd0dc55f64482a",
+  "stepsHashed": "833950b6a760e60c0ae36cee35111e7c3a0c79b49b6b9db6473a3d4240dfced0f2667850a0e2a3fba6c849d588ab61a6"
+}

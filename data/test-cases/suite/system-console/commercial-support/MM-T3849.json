@@ -1,0 +1,55 @@
+{
+  "id": 9152155,
+  "key": "MM-T3849",
+  "name": "Commercial Support Dialog UI - E10/E20 License",
+  "createdOn": "2021-02-22T17:32:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1151596,
+    "name": "Commercial Support",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Commercial Support"],
+    "fullPath": "suite/system-console/commercial-support"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.32 (February 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>sysadmin with E10/E20 License</strong><br>2. Go to <strong>System Console</strong><br>3. Go to Environment &gt; Logging<br>4. set <strong>Output Logs to File</strong> to <strong>true</strong> and set <strong>File Log Level</strong> to <strong>ERROR</strong><br>5. From menu select <strong>\"Commercial Support\"</strong>",
+        "testData": null,
+        "expectedResult": "5. Verify following dialog appears<br><br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1614015074647-1614015074647.png\" class=\"fr-fic fr-dii\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3d4ce2fd7ce17b1e1729aafe4cc47df744c5549eb16585b3bc2ea4c360e16bc5a04a81e020e759fe882daffc3c3b9967",
+  "stepsHashed": "ca6744e1d4b4d15dc73a470fb8abca9adf0a1b8f0c113604770959a42a4b53548452ed4debc31de52fdac37d826f70c1"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17671994,
+  "key": "MM-T4496",
+  "name": "Jira Unassign works",
+  "createdOn": "2022-01-18T18:36:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733540,
+    "name": "Jira assign",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira assign"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-assign"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type &quot;/jira unassign &lt; Jira issue key &gt;&quot;",
+        "testData": null,
+        "expectedResult": "Jira issue is correctly unassigned. The assigned user is removed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a4a30d01afbda3a332e352dfd6a5401a59f1dd3de854b075b12843a328fb3312ff1ee3600f01df3086a26c63c83d9d8",
+  "stepsHashed": "4cf6a446cba05d257c545d43d4f3b4da8d8a036e49ffb3bf30347e1c9ffb23567397a232381a74462aae127036316c22"
+}

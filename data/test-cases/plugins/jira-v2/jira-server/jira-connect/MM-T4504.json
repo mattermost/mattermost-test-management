@@ -1,0 +1,55 @@
+{
+  "id": 17674241,
+  "key": "MM-T4504",
+  "name": "Revoke button in Jira remove user mapping",
+  "createdOn": "2022-01-18T22:32:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2119059,
+    "name": "Jira Connect",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Connect"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-connect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Install a Jira server<br />2. Ensure test user is not connected to Jira<br />3. Type /jira connect <br />4. Click the authentication link that is generated <br />5. Click Deny",
+        "testData": null,
+        "expectedResult": "On 3. Browser open to Jira instance<br />On 4. User is informed that their Mattermost user is not mapped",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f266c2b92c6e14230de0fd148a7eb007010d39780ea9fecb3fb969db806b50006874be7685a51cb161926b7c33d4128f",
+  "stepsHashed": "af6d3e24bbe708bdf31edbc70e27bd9a609d14d65dd6295f490dca2c9297868726c2f863990cb31aa3d9a79e4d84fca7"
+}

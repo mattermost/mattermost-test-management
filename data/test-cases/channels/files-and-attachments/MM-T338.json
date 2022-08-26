@@ -1,0 +1,55 @@
+{
+  "id": 3877378,
+  "key": "MM-T338",
+  "name": "Image Attachment Upload in Mobile View",
+  "createdOn": "2020-01-02T22:06:18Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 23, 2020 7:00 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Image Attachment Upload in Mobile View<br>–––––––––––––––––––––––––<ol><li>In mobile view in browser or in RN apps:</li><li>Click or tap paperclip or plus icon in message box</li><li>Select image file or take a new photo (in portrait view) to attach</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>File uploads and shows as attachment (mobile apps: if you took a photo, verify it appears rotated properly on the screen) on unsent message.</li><li>Pressing Enter or tapping to send posts the message with attachment (mobile apps: rotated properly)<br><br></li></ol><strong>RN apps</strong>: Keyboard is not expected to open at all during this process (assuming you tapped the `+` first and didn't tap in the message input box)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cef4f1b24b52cc8ce4d91237a113ccb74263a2d1daa860e11e0a78476c11399c7782cc915433e815e70eecf512636b76",
+  "stepsHashed": "fa62bf62152e61f4775b297455a12fa76959df0de67fdfbdbf2bebdf20cf7c4b198f74c9dc2f01adb99908eb54997b64"
+}

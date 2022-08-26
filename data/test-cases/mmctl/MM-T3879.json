@@ -1,0 +1,55 @@
+{
+  "id": 9443834,
+  "key": "MM-T3879",
+  "name": "Export - Download : no permissions",
+  "createdOn": "2021-03-12T09:46:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal account:<br><br>mmctl export download [EXPORT_FILENAME.zip]",
+        "testData": null,
+        "expectedResult": "Command fails as you don't have the required permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "428606abe63650e6ebcc540533bd194eb3a4d16ba5ed8254d3db3e7d82ced0b12ee2c3e9bbb71a9467e9a4db786181bb",
+  "stepsHashed": "1ff6a6369b64d9812aad7c5df134192c29e362beb015f26a0d46d4e64b9049f9d846dad0c2afe2262df2380b5d1bef58"
+}

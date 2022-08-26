@@ -1,0 +1,55 @@
+{
+  "id": 6468872,
+  "key": "MM-T3281",
+  "name": "SAML Signature Algorithm",
+  "createdOn": "2020-08-04T17:56:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Skipped"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404332,
+    "name": "SAML",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "SAML"],
+    "fullPath": "suite/saml"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "SKIPPED - TM4J-Key-Mapped-In-Cypress-Skipped - Cypress code contains TM4J key but not found in any Cypress run reports (SDET)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "SAML"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span data-sheets-userformat='{\"2\":256,\"11\":4}' data-sheets-value='{\"1\":2,\"2\":\"1. Setup SAML. \\n2. In System Console > SAML page, set Signature Algorithm to different values and save. \\n3. Login with a SAML user and check if Authentication works,.\"}'>1. Setup SAML. <br>2. In System Console &gt; SAML page, set Signature Algorithm to different values and save. <br>3. Login with a SAML user and check if Authentication works,.</span>",
+        "testData": null,
+        "expectedResult": "<span data-sheets-userformat='{\"2\":256,\"11\":4}' data-sheets-value='{\"1\":2,\"2\":\"SAML Authentication should still work with different Signature Algorithm\"}'>SAML Authentication should still work with different Signature Algorithm</span>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1ef120179f33a5417addcbeb80455b3a52c235f3b49037e864e5e728bb7e57b5d9f71e2c1ca689bfa528c010fcafb6c5",
+  "stepsHashed": "d0f140f85e873383205c48342d2ddb8bb57d8f4c7c36c3bb92713929177ef4d48cb5d3377d0ef46b109f0bead25b49a2"
+}

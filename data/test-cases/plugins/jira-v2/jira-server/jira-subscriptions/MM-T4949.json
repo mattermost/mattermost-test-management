@@ -1,0 +1,55 @@
+{
+  "id": 26651740,
+  "key": "MM-T4949",
+  "name": "Setup a subscription",
+  "createdOn": "2022-07-28T16:05:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3160301,
+    "name": "Jira subscriptions",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira subscriptions"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Install and ebable Jira plugin<br />2. Run /jira  webhook to get the webhook URL <br />3. Navigate to Jira Setting &gt;&gt; System &gt;&gt; Webhooks<br />4. Create a new webhook with URL of https:///plugins/jira/api/v2/webhook?secret=  using the webhook secret from Jira config<br />5. Chaeck all events related to issue change and comment functionality<br />6. Save the webhook",
+        "testData": null,
+        "expectedResult": "Subscriptions Webhook created ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "519ed335f09a97fa6d6a66e64a3d3e7c3b2325a5c7e56bee438002576e1bdd02ce72f282d7947cf5031f77586eb94faf",
+  "stepsHashed": "9ec23cc59d669742e4e126d9ce682f0c9a9f0de2a695a491f685c721584163e3920dcfc141357c46f33ab2aac8f0b907"
+}

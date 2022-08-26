@@ -1,0 +1,81 @@
+{
+  "id": 24534263,
+  "key": "MM-T4874",
+  "name": "Mobile V2: Messaging - At-Mention",
+  "createdOn": "2022-06-24T02:09:50Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should post at-mention as lowercase</strong><br />--------------------<br />1. Open a channel screen and post a message with lowercase at-mention<br />2. Verify at-mention is posted as lowercase<br />3. Post a message with uppercase at-mention<br />4. Verify at-mention is posted as lowercase<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should display confirmation dialog when posting @all, @channel, and @here</strong><br />--------------------<br />1. Add more users to the channel, open a channel screen, and post @all<br />2. Verify confirmation dialog is displayed<br />3. Tap on confirm button<br />4. Verify @all is posted<br />5. Post @channel<br />6. Verify confirmation dialog is displayed<br />7. Tap on confirm button<br />8. Verify @channel is posted<br />9. Post @here<br />10. Verify confirmation dialog is displayed<br />11. Tap on confirm button<br />12. Verify @here is posted<br />13. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to open user profile by tapping on at-mention</strong><br />--------------------<br />1. Open a channel screen, post a message with at-mention, and tap on at-mention<br />2. Verify on user profile screen<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "30f18aa004a4d97aa86cacfb281ea5cb51ca4fbe8359cb3faa3d4270908b582eab77d61fd72f5bee9d9bd9a7aad2f53f",
+  "stepsHashed": "e039e3600d0c7da47ca1b858e747666238f5394e20fd606835ed0c63ed91cdedc6121172d4f4235fe20e08f94dfdcad1"
+}

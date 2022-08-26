@@ -1,0 +1,55 @@
+{
+  "id": 3742401,
+  "key": "MM-T192",
+  "name": "RN apps: Wide markdown table will truncate and display properly when tapped on",
+  "createdOn": "2019-12-20T20:46:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Wide markdown table will truncate and display properly when tapped on<br />--------------------<br />1. From a browser/desktop app, copy, paste, and post the text from the attached note in a channel (will render as a large table)<br /><br />2. View the post from the RN app",
+        "testData": "(Note: Open ticket to improve discoverability of being able to tap on the markdown table to open full screen view https://mattermost.atlassian.net/browse/MM-14199 - fixed)",
+        "expectedResult": "In RN apps: Table is truncated on right and bottom edges, and has slight gradient shading down the right-hand-side as well as along the bottom edge to indicate there is more content off-screen - similar to long posts (show more/less) <br />There is an expand button added to improve discoverability of opening in full screen.(MM-14199)<br /><br />Tapping on the table will open full table view and in that view:<br /><br />On Android, you can scroll vertically and horizontally as needed to view the entire table (Android does not support diagonal scrolling so you can only scroll horizontally and then vertically.)<br /><br />On iOS, you can scroll diagonally / in any direction to view the entire table",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8d95a02defc6d145f35fbf50d3c22a6ef01e06671d7b93e8168f8f0db1ea940c077a013c6c4a1c571fe09a062c3c4406",
+  "stepsHashed": "cbc5bc0c510f90ddf748016e996a1f941baacb4782502f755196cf3ffcf149ff07b69f500a7e8bb470a25954ae36dacf"
+}

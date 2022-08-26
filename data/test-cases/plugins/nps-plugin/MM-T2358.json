@@ -1,0 +1,55 @@
+{
+  "id": 5467322,
+  "key": "MM-T2358",
+  "name": "End user and system admin are not on same team on server",
+  "createdOn": "2020-05-21T21:40:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404297,
+    "name": "NPS Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "NPS Plugin"],
+    "fullPath": "plugins/nps-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "NPS Plugin"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "End user and system admin are not on same team on server<br>————————————————————————————<ol><li>Enable the plugin in System Console ➜ Plugins ➜ Management, verify text changes to `This plugin is running`</li><li> Back to a team, run slash command `/nps-test reset`</li><li> System Console ➜ Plugins ➜ Management: Disable and then re-enable the plugin (admin receives notifications)</li><li> Wait ➜ 5 minutes</li><li>As a user on the same server but with no teams in common with the system admin, log in / refresh</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User receives Surveybot DM</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5b446899f7244e7b95ced80afb9f6071e54046a0c6d687d2812780b661695ca4ab6c24ab9e8f0b9341957e74578363e6",
+  "stepsHashed": "46b83ae2aca7509b65abb4f64e1fa0422ab0b9bd774c5ad621a4a729b729f7eafc702cf8284a23c315f59b52d31416b4"
+}

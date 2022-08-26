@@ -1,0 +1,55 @@
+{
+  "id": 6575747,
+  "key": "MM-T3303",
+  "name": "Multi-factor Authentication (AD/LDAP) - Enter mixed-case email address at login",
+  "createdOn": "2020-08-11T11:21:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Multi-factor Authentication<br>(AD/LDAP) - Enter mixed-case email address at login<br>————————————————————————————<ol><li>Ensure MFA is enabled on the server, and activated for an LDAP account</li><li>On login page, enter the email address associated with the AD/LDAP account, but ensure that you use mixed case (such as `test.ONE@mattermost.com`), and then the correct password</li><li>When prompted, enter the correct MFA code</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Login is successful after entering the MFA code, even when email address was entered with mixed case.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "94420f43ef466ae788a3a1689f427d96fa2edb67d5837e9ddf69070215e635705d84a509e6ca2cd2bf164f6bf046b611",
+  "stepsHashed": "9460680e44d8d3fa958007d76315a5dc7a5470cfe44f773e7ef2b4a96b658f86ef27ea53d44a7c284416b2856bc04452"
+}

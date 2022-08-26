@@ -1,0 +1,55 @@
+{
+  "id": 5478053,
+  "key": "MM-T2452",
+  "name": "Group Mentions when user is a Guest User",
+  "createdOn": "2020-05-22T11:37:55Z",
+  "objective": "Check Group Mentions when user is a Guest User",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733341,
+    "name": "Group Mentions",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
+    "fullPath": "suite/enterprise/group-mentions"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable Group Mention for a Group say Group1.<br />    2. As a sysadmin, check that by default the Group Mentions permission is removed for Guests in System Scheme. <br />    3. Check if a guest user types @ in a post, Group1 should not be displayed in the autocomplete suggestions list. <br />        a. This should work without requiring the user to reload the page. <br />    4. As a guest user, submit a post containing a group mention which is enabled<br />        a. It should not notify the group members and should not display any system messages and the group mention should not be highlighted<br />    5. Now as a sysadmin, enable the Group Mentions permission for Guest Users but disable it for All Members in System Scheme. <br />        a. Check if a guest user types @ in a post, Group1 should be displayed in the autocomplete suggestions list. <br />        b. When guest user submits a post containing the group mention, it should notify the group members and the group mention should be highlighted",
+        "testData": null,
+        "expectedResult": "Group Mentions when user is a Guest User should be working fine as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "397c20477fe1b81b496a4720c059b57382ea2160ed50bae412b2e9cb63dea52f4eb9e38c4b08b553edec107389b4f1c3",
+  "stepsHashed": "19791308906d01f81aff428447f2c8a9a103a018d9369bec5dd6c705840f291d56a75a7ffc59202f2b5175da215e18a6"
+}

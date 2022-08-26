@@ -1,0 +1,61 @@
+{
+  "id": 6456026,
+  "key": "MM-T3279",
+  "name": "Don't allow clearing the Site URL in System Console",
+  "createdOn": "2020-08-04T10:08:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "E2E-1",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Cloud-N/A",
+    "cy-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:18 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clear the site URL in the system console. (System Console &gt; Environment &gt; Web Server &gt; Site URL) and save the changes.",
+        "testData": null,
+        "expectedResult": "When clicking save you should see \"Site URL cannot be cleared.\" in red at the bottom. ",
+        "customFields": {
+          "Fix Versions": ["v5.26 (August 2020)"],
+          "Related ticket(s)": "https://mattermost.atlassian.net/browse/MM-24440",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af5c2f797b208ea00e47fb363df3b4888d4c14a169062d7d5c664b236e27e255ae251ea5468e4a4ba9cba5469d0b0655",
+  "stepsHashed": "f4793b36d997cb28d33ee7c39795d3851ff6eac45fb58ee58e80167ae903ab424e607cfbbcef0063b5a6e782d48624b1"
+}

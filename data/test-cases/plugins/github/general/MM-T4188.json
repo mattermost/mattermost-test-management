@@ -1,0 +1,55 @@
+{
+  "id": 13721374,
+  "key": "MM-T4188",
+  "name": "GitHub links show pop-over in RHS thread",
+  "createdOn": "2021-08-30T15:24:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a channel and post a GitHub link (ideally a public repo) such as:  https://github.com/DHaussermann/hello-world/issues/141<br />2. Open the reply thread for the post",
+        "testData": null,
+        "expectedResult": "- Pop-over is shown in reply thread<br />- Pop-over resolution is reasoanble <br />- Text wraps to fit into pop-over<br />- Additional text is truncated<br />- User theme is applied",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b805d297fbda198dd2343f334d4c27bb88b34ad48e276e955be3c55fe27b7d7eeffb8748f13185efe9877e91db8deaaf",
+  "stepsHashed": "bf15124b36f3c99cd535defe89387b5727b938aa95f0863714647f241f5f6407b17182a650123862b852b7418c0d70cc"
+}

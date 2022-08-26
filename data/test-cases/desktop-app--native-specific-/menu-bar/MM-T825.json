@@ -1,0 +1,55 @@
+{
+  "id": 4032099,
+  "key": "MM-T825",
+  "name": "Close in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Window ➜ Close in the Menu Bar</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Desktop App window is closed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3a8db65a157f0a5bdf144188b0faedc99d21c84152229b6cb3bfb6df2233505dcc295da3ec1f0ed66cc0f8d803efd52e",
+  "stepsHashed": "6b105404089ef721259c3abf1b63500b9f4241d9ea43de399140ae6f111dd955fa413f7facd19dc2a0c45078cef9f8e4"
+}

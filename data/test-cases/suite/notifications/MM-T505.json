@@ -1,0 +1,55 @@
+{
+  "id": 3905502,
+  "key": "MM-T505",
+  "name": "Email Notifications Batching On - Batched email not sent if active in Mm within the 15 minutes",
+  "createdOn": "2020-01-03T18:53:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.23 (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "–––––––––––––––––––––––––<br><strong>Note</strong>: Ensure Email Batching is \"true\" in the System Console ➜ Notifications ➜ Email Section (or you won't see the `15 minutes` option)<br><br>Also ensure your status is set to Away or Offline (can set from drop-down in top left or use /away or /offline)<br><br><ol><li>Click the hamburger menu to the right of the team name in the LHS</li><li>Select \"Account Settings\" then select \"Notifications\"</li><li>Click \"Edit‚\" to the right of \"Email Notifications\"</li><li>Select \"15 minutes\"</li><li>Click \"Save\"</li><li>Have another user send some mentions and direct messages that would trigger an email notification</li><li>Before the 15 minutes elapses, switch channels a couple times (don't necessarily have to read the specific DMs or mentions; any activity in Mattermost counts)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Email notification is not sent (it's canceled by having been active in Mattermost)</li><li>Be sure to go back and check your email after 15 minutes as well, to make sure it didn't end up sending</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.23 (May 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-23896\">Batched emails are sent event if there is activity from the user — MM-23896</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dcd9bb148a620b96e5a592ef1cc38f143c4a7a6aacc9a121d720367dcf0904a8e9e540811ee1bad1b55e3bcd5ad1a51b",
+  "stepsHashed": "8f8c643bf5bab8d2c9ebc77fd2cb8f2dee7b263af78cf4f5926953b55c968d18d1206cced86e603f3b5f6ae4e2c56865"
+}

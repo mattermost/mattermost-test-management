@@ -1,0 +1,120 @@
+{
+  "id": 9110595,
+  "key": "MM-T3847",
+  "name": "Recent statuses",
+  "createdOn": "2021-02-19T12:39:55Z",
+  "objective": "",
+  "precondition": "<ul><li>Logged in</li><li>Custom statuses enabled on the server</li></ul>",
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": { "id": 14322, "name": "Webapp" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222177,
+    "name": "Web",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Web"],
+    "fullPath": "channels/custom-statuses/web"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" modal</li><li>Click in the \"Set a status\" text field, enter a status text and select an emoji</li><li>Click on Set Status</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" modal</li><li>Click Clear Status/x in the input field</li></ol>",
+        "testData": null,
+        "expectedResult": "Status set in step 1 is shown on the top in the \"Recent\" section",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click the \"x\" button next to the recent status",
+        "testData": null,
+        "expectedResult": "Status set in step 1 is completely removed from the list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select a default status from the Suggestions list</li><li>Click \"Set Status\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" modal</li><li>Click on Clear Status/x in the input field</li></ol>",
+        "testData": null,
+        "expectedResult": "Status set in step 4 is shown on the top in the \"Recent\" section",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click the \"x\" button next to the recent status",
+        "testData": null,
+        "expectedResult": "Status set in step 4 is moved from the Recent list to the Suggested list&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "75b4e9163d95405536012236ab540710502f46d4cafb9fa1ff747b1d5e279ee3ea37d222361d59fef1a03784a20c0103",
+  "stepsHashed": "955755c3aa4b1fa40796a767f4a9a3b2edc7b157035a94e8493517544d0e4f4b01392cf8f813ee6f9cb6bd89da9085f3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4047135,
+  "key": "MM-T902",
+  "name": "Reporting ➜ Site statistics line graphs show same date",
+  "createdOn": "2020-01-21T13:17:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538608,
+    "name": "Reporting",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Reporting"],
+    "fullPath": "suite/system-console/reporting"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)", "v5.27 (September 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 3:12 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "On <a href=\"https://rc.test.mattermost.com/\">rc.test.mattermost.com</a><br><br><strong>Note</strong>: You will do most of the rest of this tab's tests on <a href=\"https://postgres.test.mattermost.com\" rel=\"noopener noreferrer\" target=\"_blank\">postgres.test</a> but this one is best on rc.test:<br><ol><li>View \"Site Statistics\" (under Reporting)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Scroll down, verify the three line graphs have the same dates</li></ul>(i.e. \"Total Posts\", \"Total Posts from Bots\" &amp; \"Active Users with Posts\")",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)", "v5.27 (September 2020)"],
+          "Related ticket(s)": "<ul><li><a href=\"http://19https%3A//mattermost.atlassian.net/browse/MM-242\" rel=\"noopener noreferrer\" target=\"_blank\">Reporting &gt; Site Statistics: Line graphs show different dates — MM-19242</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-23782\">System Console &gt; Site Statistics - Dates are displayed out of order for days when there are no posts — MM-23782</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "77b4c9e5f5c4ad61291434b4178c720090c3634c62cbbccfa2393ec0f7375cfa2b3a9ec3b48476f7062ad172272e66f3",
+  "stepsHashed": "b52b4399a8ab2dac93a195351a95dce69725ea06889cb3ec07e02be01b63a6b7db7240e6dbc0fbe23c4ba384f0df9d68"
+}

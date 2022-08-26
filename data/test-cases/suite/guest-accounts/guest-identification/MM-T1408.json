@@ -1,0 +1,55 @@
+{
+  "id": 4152391,
+  "key": "MM-T1408",
+  "name": "User Management ➜ Guest users have their Role properly listed as \"Guest\" on the Team level",
+  "createdOn": "2020-01-30T23:27:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.17 (Nov 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User Management ➜ Guest users have their Role properly listed as \"Guest\" on the Team level<br>–––––––––––––––––––––––––<ol><li>Login in as a system admin</li><li>Go to System Console ➜ Users</li><li>Search for a guest or system admin user and click on their name</li><li>Note the team role</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Guest role is displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.17 (Nov 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19470\">User Management &gt; Guest users have their Role listed as \"Member\" on the Team level in System Console — MM-19470</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cdf7d1bbd6d8ad8ac1d3562044248300c7e43400800f3973bfef10ff323a91436821d50715e18ea4c41a5ecdb08b83b2",
+  "stepsHashed": "908aa74a9ce755828a830ab2a7425f3f0ed6ef92e3f767cfd1c7956a41191ec09eea360f0e55189a66ac17ea10ea9e6d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4468332,
+  "key": "MM-T1535",
+  "name": "Team setting ➜ Invite code text",
+  "createdOn": "2020-02-21T11:09:53Z",
+  "objective": "Says Cypress Automated?",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to ☰ Menu ➜ Team Settings ➜ Invite code</li><li>Observe help text</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1582283457123-2020-02-21_06-01-36.png\" style=\"width: 381px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "Text reads: “<em>The Invite Code is part of the unique team invitation link which is sent to members you’re inviting to this team. Regenerating the code creates a new invitation link and invalidates the previous link.</em>”",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22328\" rel=\"noopener noreferrer\" target=\"_blank\">Outdated instructions on Invite Code in Team Settings — MM-22328</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "feb411f00559e2ce61c813158ddf1c1418ef7a6a909e3a0d0bc3ccb064bea2da7f79ea527f173c29160536c7c600c2ea",
+  "stepsHashed": "01d20194ef4b2be42bda8ba26314a5ce866aee04969fbc66f9f19acf581c7bf7a7cf6f81bcf9430c8438033ca00442f1"
+}

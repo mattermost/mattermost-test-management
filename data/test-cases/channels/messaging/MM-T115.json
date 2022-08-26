@@ -1,0 +1,55 @@
+{
+  "id": 3742278,
+  "key": "MM-T115",
+  "name": "RN apps: Delete a Message - Cancel",
+  "createdOn": "2019-12-20T20:17:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Cloud"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mobile apps: Delete a Message - Cancel<br />--------------------<br />1. Long press on a message <br />2. Tap on &quot;Delete&quot;<br />3. Tap on &quot;Cancel&quot;",
+        "testData": null,
+        "expectedResult": "After 2. a pop-up menu should appear on screen asking if you want to delete the message.  The options &quot;Cancel&quot; and &quot;Delete&quot; are shown.<br />After 3.  the message remains in the channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "da39f1cb21b4f0d08b474e6da068741bc2794b8d02f945d7979990b94b6c125ebed1c709820bcee63698fced5aea4baf",
+  "stepsHashed": "eab88969434c7b8c01c1327c27577059d66f9018ccbc7f78fa57a2d2213867d7614a6b655a136186017130c3ab520f3a"
+}

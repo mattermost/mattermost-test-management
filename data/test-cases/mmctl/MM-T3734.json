@@ -1,0 +1,55 @@
+{
+  "id": 8620766,
+  "key": "MM-T3734",
+  "name": "Team - Rename : without permission",
+  "createdOn": "2021-01-18T11:54:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team rename old-team --display_name new-display-name",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "007e19a1e5af2548501e80c6966858d452d4c3819d1d10232108f0e6d797427a5cbeb6bd0f6a040adbac4e227a034674",
+  "stepsHashed": "30e4fe66fb90a3c59ef8609cf8b6957cc2ca5ee3bf47b93902495081df283c52fe090a4316707e19df94db3d2c47eb78"
+}

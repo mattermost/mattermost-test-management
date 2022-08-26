@@ -1,0 +1,55 @@
+{
+  "id": 25638199,
+  "key": "MM-T4908",
+  "name": "Ability for end users to notify admin to upgrade workspace",
+  "createdOn": "2022-07-07T19:39:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create a new Workspace or log into one that hasn't upgraded or been on a trial yet</li><li>Invite a new member then log in as that new member on an incognito window or different browser</li><li>As the regular member try to create a new team then click the view plans link and click the Notify admin link in the plans modal</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The Admin is notified that a user has requested a trial or upgrade to use a Professional feature</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3b4a89a70f3645afe4ede9699f5535822ba0a4f21b16690e10f6fdd2708156af8e3ed7ea9407ed82a48a39da6817e05c",
+  "stepsHashed": "986c62101f99439bf68206b6eeb297d4f86d7205575b81817f78d1a13eca1ee320c80b4c4b519b4b2a25e6e21b84ecce"
+}

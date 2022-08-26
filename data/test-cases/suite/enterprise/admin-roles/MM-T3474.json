@@ -1,0 +1,55 @@
+{
+  "id": 7797769,
+  "key": "MM-T3474",
+  "name": "Change Permissions - Admin Roles - System User Manager",
+  "createdOn": "2020-11-09T13:47:41Z",
+  "objective": "Change Permissions - Admin Roles - System User Manager",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 918602,
+    "name": "Admin Roles",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Using mmctl add the following permissions to System User Manager Role by running the following command:<br><br>go run mmctl.go permissions add system_user_manager sysconsole_write_site<br>go run mmctl.go permissions add system_user_manager sysconsole_read_plugins <br><br>2. Login as Sysadmin and visit System Console &gt; System Roles page.<br>3. Click on System User Manager Role and check if the following new permission sections are shown:<br><ul><li>Site Configuration &gt; Read + Write</li><li>Plugins &gt; Read</li></ul>4. Set the section User Management  to None and save and reload and check if User Management section is still displayed. <br>5. Set the section Site Configuration to None and save and reload and check if Site Configuration section is not displayed after reload.&nbsp;<br><br>",
+        "testData": null,
+        "expectedResult": "<ul><li>Additional sections should be displayed for System User Manager role based on whatever permissions are added via mmctl</li><li>Default sections, i.e. User Management and Authentication should not be removed even if Sysadmin sets it to None and saves and reloads the page.&nbsp;</li><li>Additional sections like Site Configuration should be removed if sysadmin sets it to None and saves and reloads the page.&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58f5187841fbfe2badb303c31f49dab0e2a41a4f5cc1b9c61d141be8a5e5b984985e8a7f83ef6475b188b240e3eb4f22",
+  "stepsHashed": "2634791fe9e5be58f0ca20bb473cbf35e9d94af89078ac7d79f5aa7027610f83c0be0a31cfbcf5077a5c28ad238613d0"
+}

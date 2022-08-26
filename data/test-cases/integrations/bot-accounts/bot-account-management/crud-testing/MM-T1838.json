@@ -1,0 +1,55 @@
+{
+  "id": 5280670,
+  "key": "MM-T1838",
+  "name": "Bot naming convention is enforced",
+  "createdOn": "2020-05-04T17:43:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710237,
+    "name": "CRUD testing",
+    "parentId": 710236,
+    "fullNames": ["Integrations", "Bot Accounts", "Bot account management", "CRUD testing"],
+    "fullPath": "integrations/bot-accounts/bot-account-management/crud-testing"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, February 03, 2021 4:41 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["Integration Frameworks"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Bot naming convention is enforced<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. From the hamburger menu open the integartion screen<br />2. Click Add Bot accout<br />3. Enter 2 alphabetical characters and click save<br />4. Add an uppper letter such as &quot;A&quot; to the begining of the name and click save again<br />5. Remove the uppercase letter at the begining of the name and add a symbol such as &quot;@&quot; then click save again <br />6. Type a usermame that ends in a &quot;.&quot;<br />7. Change the username to something at least 3 characters long, does not begin with an uppercase letter and has no special characters<br />8. Without putting data in any other filed click save",
+        "testData": null,
+        "expectedResult": "On 3. User see's a validation message advising of BOT name requirement <br />On 4. User see's a validation message advising of BOT name requirement <br />On 5. User see's a validation message advising of BOT name requirement <br />On 6. User see's a validation message advising of BOT name requirement <br />ON 8. Bot is created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "697a3a089ca910b076c80ecfe0d6696c537a75b7177204714cc1eb6fa0353a7e234d7ddbfe9fa686f9bc50e819465ba1",
+  "stepsHashed": "937ea254d82ae2efb04afe69fd915f3aa3287608c8b3ca8b0777a9e48012293297282ff8af6c26dc08912764c2807ab2"
+}

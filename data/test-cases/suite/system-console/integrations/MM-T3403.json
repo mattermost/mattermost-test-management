@@ -1,0 +1,55 @@
+{
+  "id": 7405452,
+  "key": "MM-T3403",
+  "name": "Enable GIF Picker set to true by default",
+  "createdOn": "2020-10-12T14:35:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570084,
+    "name": "Integrations",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Integrations"],
+    "fullPath": "suite/system-console/integrations"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enable GIF Picker set to true by default<br>__________________________________<ol><li>As sysadmin - open System Console &gt; Integrations GIF(Beta)</li></ol>",
+        "testData": null,
+        "expectedResult": "Verify Enable GIF Picker is set to <strong>true</strong> by default",
+        "customFields": {
+          "Fix Versions": ["v5.28 (October 2020)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fb78f9c4d6e429749beaaf6265084f34e9a0dbf46609976e16da1a4114b62716a21e31f7a3965395af196d6ea9180835",
+  "stepsHashed": "1df70174a46ca9a40b4edcb7dd90be8be242145a9d3cf9748e4d75d907922f8fbe7190e455e74936c508c92677c013fd"
+}

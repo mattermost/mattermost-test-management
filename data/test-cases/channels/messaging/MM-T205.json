@@ -1,0 +1,55 @@
+{
+  "id": 3742414,
+  "key": "MM-T205",
+  "name": "Focus to remain in RHS textbox each time Reply arrow is clicked",
+  "createdOn": "2019-12-20T20:46:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Focus to remain in RHS textbox each time Reply arrow is clicked<br />--------------------<br />1. Click Reply arrow on post to open RHS<br />2. Focus away from RHS textbox<br />3. Click reply arrow on post in same thread",
+        "testData": null,
+        "expectedResult": "1. RHS textbox is focused the first time Reply arrow is clicked<br />2. RHS textbox is again focused the second time, when already open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2833dca4c8df334ddc8c3bdc0dee138ff657e8a04c9bed9994ad54feb19f9b249ee816b862cd43ef85673484a1205756",
+  "stepsHashed": "efaf0f70aaf4b96464f5137bccf0d2986c58eda83849803ec61047d31eda13ecc86056a555c6f61bd903c11f78f815bc"
+}

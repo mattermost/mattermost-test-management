@@ -1,0 +1,55 @@
+{
+  "id": 8121658,
+  "key": "MM-T3642",
+  "name": "User - Verify email without token",
+  "createdOn": "2020-12-07T11:23:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user verify [username]",
+        "testData": null,
+        "expectedResult": "Returns \"user [username] verified",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1eb6b895c95bea6c6d9795059ec7cd57e1d12c8227f588718bba96fe986007507ab7c2652900528c6b3f2eceedc0a686",
+  "stepsHashed": "36f589cc314b847d73ebc90635f8d044d090763e6388395065ea8fb1bb55e785aff449036e429df51fddc24eec80e641"
+}

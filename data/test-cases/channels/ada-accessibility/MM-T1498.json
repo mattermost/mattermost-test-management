@@ -1,0 +1,55 @@
+{
+  "id": 4403887,
+  "key": "MM-T1498",
+  "name": "Prevent update on Cancel button",
+  "createdOn": "2020-02-17T18:15:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Prevent update on Cancel button<br>–––––––––––––––––––––––––<ol><li>Open Team Settings and add a Team Description if it doesn't exist.</li><li>Close the dialog and open Team Settings again.</li><li>Press TAB and navigate to Edit option of Team Description.</li><li>Press Enter. Without making any changes to Team Description, press TAB twice and ensure focus is on Cancel button.</li><li>Press Enter. Check if no error is displayed to the user and the Team Description field collapses</li><li>REPEAT this across other Team Settings &amp; Accounts Settings field</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>When user presses ENTER key when the focus is on Cancel button, it should not throw any error message and the field should be collapsed.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17552\">Pressing Enter on Cancel button of Team Description settings when a description exists causes a false error message — MM-17552</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "90f4f291c47214b842c86a41deb19accf34904131aa0646ac173456b0fb214c6cda5327547bebe2dbe87859200e91865",
+  "stepsHashed": "b4441760ed96c37bb33e471be8cfe9c92dc5f0feaa27acf769072f96c36d7ce1fe00d16cb8443c40e1cca66d89d58931"
+}

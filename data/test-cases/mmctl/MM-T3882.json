@@ -1,0 +1,55 @@
+{
+  "id": 9444157,
+  "key": "MM-T3882",
+  "name": "Export - Download : export does not exist",
+  "createdOn": "2021-03-12T10:02:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl export download [EXPORT_FILENAME.zip]",
+        "testData": null,
+        "expectedResult": "Command fails as export does not exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "920c274fee622e04232a1494962b128944dd9546ff37086b21d332e80ff1df3f349d4f0ae90f528e7de3cde1ec4e56b6",
+  "stepsHashed": "6e18b6a838dde4c7a1f5ede98658624b2bcbb9253a5c722cf462b1bd08a3674aa68617c898ee74b4c005ec95c772614f"
+}

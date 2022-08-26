@@ -1,0 +1,55 @@
+{
+  "id": 4089232,
+  "key": "MM-T1308",
+  "name": "Clicking the title link inside the preview rectangle opens in browser",
+  "createdOn": "2020-01-27T23:44:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565212,
+    "name": "Relative URLs",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Relative URLs"],
+    "fullPath": "desktop-app--native-specific-/relative-urls"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>With link previews turned on (enabled in System Console, and turned on for user in Account Settings):</li><li>Post the following link <a href=\"https://electronjs.org/apps/mattermost\">https://electronjs.org/apps/mattermost</a></li><li>Click the title link inside the preview rectangle</li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Mattermost page on Electron site opens in browser (rather than trying to open a small new desktop app window)</li><li>URL that should open:<br>https://electronjs.org/apps/mattermost</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4f7bf00ea2bbb1e430bede4883f0767eb5cf3c3c05a0e658c3a3d875c31ed9114922dbe4b672b9db13248cd2dcf3689b",
+  "stepsHashed": "20d1d33194aec9ffd8c5b3a43f5db731cd88f65ad2ae7a170161fb16cf0d58726e46d411a88f619266f5b50c0a07e1b8"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4058504,
+  "key": "MM-T1114",
+  "name": "Notification Settings Email: Immediately, full content",
+  "createdOn": "2020-01-22T17:58:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br />Email<br />--------------------<br />Immediately, full contents DM<br />Immediately, full contents at-mention<br />Non-mention does not send",
+        "testData": null,
+        "expectedResult": "[MM-postgres.test] Notification in LM Team on November 10, 2017<br />You have a new notification.<br /><br />CHANNEL: Town Square<br />lindamitchell - 02:41 UTC, November 10<br /><br />hey @linda-noemail2 ! how's the email?<br /><br />Any questions at all, mail us any time: feedback@mattermost.com.<br />Best wishes,<br />The MM-postgres.test Team<br />Sent by 123 Lala Land",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "beac692b20191248035d71cebc69567d93a5e051028fc9d27c5e980c94d9a74a8a5ffd6181a48643ede5b6f3e0df1eff",
+  "stepsHashed": "75f45c11bfcdf6fa1bc77992f34d4908904f614218a65bd5c472adde32dd45bad6fb5f3c26d97e6242b8ea5e62bd0772"
+}

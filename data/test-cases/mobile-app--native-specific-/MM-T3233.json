@@ -1,0 +1,55 @@
+{
+  "id": 6396909,
+  "key": "MM-T3233",
+  "name": "RN apps: Delete reply in reply thread view",
+  "createdOn": "2020-07-30T21:05:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Delete reply in reply thread view<br>————————————————————————————<ol><li>Post a message</li><li> Reply to that message</li><li> From that view, long press the reply and select Delete</li><li>Tap to confirm delete</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Reply disappears, parent post is still there, still viewing reply thread</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d18e5181cf8b5e4bd2f07e95ddacb534ae814fad1f64b42400daef653e81df2aa986507b4f1dc258c7193f8af0aa8a8",
+  "stepsHashed": "ec4409a2872def666fdcc8935b87c37c856543ef2b65abc99d5779cc4e44e749f790a0d726378d718251b9343a667a84"
+}

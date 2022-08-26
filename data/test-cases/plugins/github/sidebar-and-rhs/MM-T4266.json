@@ -1,0 +1,68 @@
+{
+  "id": 15315587,
+  "key": "MM-T4266",
+  "name": "Sidebar - Display Notification Counters in Left Sidebar can show / hide sidebar options",
+  "createdOn": "2021-10-06T13:30:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194691,
+    "name": "Sidebar and RHS",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Sidebar and RHS"],
+    "fullPath": "plugins/github/sidebar-and-rhs"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. On plugin settings, ensure <em>Display Notification Counters in Left Sidebar </em>is set to True<br />2. Switch to the user side ",
+        "testData": null,
+        "expectedResult": "Notification coulters are showing on LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. On plugin settings, ensure <em>Display Notification Counters in Left Sidebar </em>is set to False<br />2. Switch to the user side",
+        "testData": null,
+        "expectedResult": "Notification coulters are hidding on LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "656734069f52af812a367b59572592b14de0863a2d2348584f1e6b065008a2d1e64614c35f454c551549fcc9b3a2da42",
+  "stepsHashed": "aedc3dd89efc1aba017bdc262c10ab2b2ae20b67d3d7186f1355c2b7bd975f33e5480e5400e0894eede38829411dcfab"
+}

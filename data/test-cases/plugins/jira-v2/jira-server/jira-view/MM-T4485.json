@@ -1,0 +1,55 @@
+{
+  "id": 17671910,
+  "key": "MM-T4485",
+  "name": "View issue publicly",
+  "createdOn": "2022-01-18T18:26:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118539,
+    "name": "Jira View",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type &quot;/jira view &lt; Jira issue key &gt;&quot;<br />2. Click Share publicly",
+        "testData": null,
+        "expectedResult": "Ephemeral post is removed and replaced by a post made by the connected user which shows the post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ff5616d09bafcfb9a68f23f68ccce8d6d8ec12e06387c2be827dc94c58286bdbe3709dd1ca9b5857973e970b033accf6",
+  "stepsHashed": "7f53e89b9eda7092069ba54580fb732f6caebf810b6554740425cd94eb13d7bd0b8294e60e3d2df4f941f599429e265f"
+}

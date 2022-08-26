@@ -1,0 +1,55 @@
+{
+  "id": 4454313,
+  "key": "MM-T1531",
+  "name": "Import Slack users with no email address",
+  "createdOn": "2020-02-19T23:12:49Z",
+  "objective": null,
+  "precondition": "Slack Import test files are kept <a href=\"https://drive.google.com/drive/folders/19y2KC_tcqJZa-BDucvpdmsNdBqy-UL8Q\">in Google Drive here</a><br>You will use the above files for the tests.<br>It is important you have an account on the Slack team before exporting, so you can test claiming a Mattermost account imported from Slack.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404338,
+    "name": "Slack Import",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Slack Import"],
+    "fullPath": "suite/slack-import"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Slack import"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Import Slack users with no email address<br>–––––––––––––––––––––––––<ol><li>Import the \"Twalk1team+Slack+export+Feb+9+2017-2.zip\" from the Google drive link at the top of this tab</li></ol><br>(The .zip file is also attached to <a href=\"https://mattermost.atlassian.net/browse/MM-5735\">https://mattermost.atlassian.net/browse/MM-5735</a>)",
+        "testData": null,
+        "expectedResult": "<ul><li>For now, users are created with fake email address username@example.com</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "(the email address imported is @localhost)"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "626e0a3ee0c1c25f68423ae6dd996c33d0ed1104fcd426f87711ccb9361617eaf0f94592a5ca60214ce7d0f6491c3281",
+  "stepsHashed": "6371dcde3a9cd3368141669bfddb3faf64fba38a528dbb253e0833c5e734f52187ac71bd45266ac39164d3b7f0ccdf32"
+}

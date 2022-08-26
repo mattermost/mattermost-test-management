@@ -1,0 +1,55 @@
+{
+  "id": 9995474,
+  "key": "MM-T3980",
+  "name": "Busy - Set (no permissions)",
+  "createdOn": "2021-04-06T11:02:18Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)", "v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl system setbusy -s 60",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. system admin)",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-20913\">Add the new busy api endpoints support for mmctl — MM-20913</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58745c417e99516d6ac0ff9d2d9639aa3e920a8f9801ffd3f2d16f9cdcb9f19ceb8abc31356e5a8b92197d70b054ab68",
+  "stepsHashed": "f0872e7632ec47551da0d7b8a6ad7ff0ca6c7eacd93af548b4117cd5c55256eba416fc82e7ad1f98b8f32305c4603337"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 20805245,
+  "key": "MM-T4776",
+  "name": "CRT - Poll text without markdown should display in the thread list",
+  "createdOn": "2022-04-19T13:54:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1615722,
+    "name": "Collapsed Reply Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Poll text without markdown should display in the thread list</u><ol><li>Upload and enable \"matterpoll\" plugin</li><li>In center post the following: /poll \"Do you like https://mattermost.com?\"</li><li>Post a reply on the POLL to create a thread and follow</li><li>Click \"Yes\" or \"No\"</li><li>Visit global threads<ol><li>Verify text in ThreadItem should say 'username: Do you like https://mattermost.com?'</li><li>Verify text in ThreadItem should say 'Total votes: 1'</li></ol></li><li>Open the thread</li><li>Go to channel</li><li>End the poll</li><li>Visit global threads<ol><li>Verify text in ThreadItem should say 'username: Do you like https://mattermost.com?'</li><li>Verify text in ThreadItem should say `This poll has ended. The results are:`</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Root post by matterpoll should display on threads inbox list.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a026964e7eefe441535724953764005e3a4b4316ed76bd529189cda1a05b50062bba3b1aab2986712904fed8a4836ad7",
+  "stepsHashed": "96c361593a75bde2490894e6d9007c8fe2b87f30f9a6c8332423ce057b1bc883405e63d342d7f269c3cf3e306ca2a91b"
+}

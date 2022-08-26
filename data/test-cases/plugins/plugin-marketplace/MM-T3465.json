@@ -1,0 +1,55 @@
+{
+  "id": 7751407,
+  "key": "MM-T3465",
+  "name": "Cloud Marketplace hides plugins that are not cloud compatible",
+  "createdOn": "2020-11-04T20:27:22Z",
+  "objective": "Verify that plugin update is confirmed by the user",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": ["Submitted"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Friday, February 12, 2021 11:27 AM<br>• Set back to Active as MM-30292 has been resolved<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, January 25, 2021 8:53 AM<br>• Added links to relevant tickets<br>• <span style=\"color: rgb(184, 49, 47);\">Set to Update until MM-30292 is fixed</span>",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Cloud Marketplace hides plugins that are not cloud compatible<br>–––––––––––––––––––––––––<ol><li>Locate a Mattermost server that has a Cloud license applied</li><li>Open the marketplace</li></ol>",
+        "testData": null,
+        "expectedResult": "AntiVirus plugin and Welcome Bot plugin are not shown in the marketplace&nbsp;",
+        "customFields": {
+          "Fix Versions": ["Submitted"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-30292\">Antivirus and Welcome Bot are not correctly filtered out in Cloud — MM-30292</a></li><li>(<span style=\"color: rgb(184, 49, 47);\">Duplicate</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-31060\">Cloud Marketplace does not hide plugins that are not cloud compatible — MM-31060</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "df995d6674d6166019d2233f49f1dfb7a424d01d1589e0abcbc79b7958d457dec4a86de93fed4f4cf92516bb771838e4",
+  "stepsHashed": "af30aca20ebc16a095a8610d29bae706d8039934384ee6e9dad05f8c6594ef0b6f519c60c0a7b45338deeb7096c81e73"
+}

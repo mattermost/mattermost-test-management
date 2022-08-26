@@ -1,0 +1,55 @@
+{
+  "id": 28665872,
+  "key": "MM-T5048",
+  "name": "Set up OpsGenie App",
+  "createdOn": "2022-08-16T14:52:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login to a Mattermost instance as sysadmin and ensure the Apps Plugin is enabled<br />2. Execute command  `/apps install http OPSGENIE_URL `<br />3. Select the `Agree to grant the app access to APIs and Locations` checkbox and click `Submit`<br />4. Run `/genie` command",
+        "testData": null,
+        "expectedResult": "On 1. Command `/apps`  is available<br />On 2. A modal appears, asking for admin's consent<br />On 3. The appsbot sends a confirmation ephemeral post<br />On 4. OpsGenie icon is shown, as two of the additional commands: `help` and `configure`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "034434de934987309ed165dc82409d0870cafbb1c920160feef65750465c7a56c31f1e35e0926e0fe85bc12626e91962",
+  "stepsHashed": "e2eaec455c1aa5ea4ec8f819be813336509b16f3d9976c265aaba1543e3852559520b7b4167b6daa907815964acb82b5"
+}

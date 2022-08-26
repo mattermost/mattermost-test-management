@@ -1,0 +1,61 @@
+{
+  "id": 6181452,
+  "key": "MM-T3023",
+  "name": "Create public channel from `+`",
+  "createdOn": "2020-07-13T19:12:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "se-prod",
+    "smoke-test-folder",
+    "2022smoke",
+    "2022cleanup-move",
+    "2022cleanup-automate"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "LM 6 May 22<br />Proposing:<br /><span>- Move to Channels folder<br />- Find / add Cypress test</span>",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create public channel from `+`<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "601809778cd5a58b8212a1b08d017261928301fab1359ae6c28bc9e854f8bb9bbe4d71dfb066270937d0bfde611dbb0d",
+  "stepsHashed": "69653dd6f071606bfa78c72b823c073e37fb08a12e04f2f09d653064d74eb6950e4e84230ded613fca9baaca17775405"
+}

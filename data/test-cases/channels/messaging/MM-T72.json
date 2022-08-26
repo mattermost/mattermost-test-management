@@ -1,0 +1,55 @@
+{
+  "id": 3736148,
+  "key": "MM-T72",
+  "name": "@here. @all. @channel. (containing a period) still highlight",
+  "createdOn": "2019-12-19T15:28:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@here. @all. @channel. (containing a period) still highlight<br>–––––––––––––––––––––––––<ol><li>Post `@here. @channel. @all.`</li></ol>(Ensure each mention is followed by a period)",
+        "testData": null,
+        "expectedResult": "<ul><li>The @-mentions are highlighted but the period is not</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14320\">UI Automation: Write an automated test using `cypress` for \"at-here.\", \"at-all.\" and \"at-channel.\" (ending in a period) still highlight\" — MM-14320</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3c9c5cb82200f3e5b007f7bca34f7d56ad4d5bcea113e883f7b08f1d0fcf60542e1f3583263a19fa940bfe93b2b9a47c",
+  "stepsHashed": "6f941f3c095035c73cbcaaa38de8fa662a51cd8670582f5a5f7303bfa98d5cd591acb109ad91161a9c1eb5a6e3784b24"
+}

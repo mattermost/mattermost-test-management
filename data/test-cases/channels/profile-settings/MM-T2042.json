@@ -1,0 +1,55 @@
+{
+  "id": 5444589,
+  "key": "MM-T2042",
+  "name": "Full Name starting blank stays blank",
+  "createdOn": "2020-05-20T05:50:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Full Name starting blank stays blank<br />——————————————————<br />1. On an account that has no name entered:<br />2.  Go to User menu &gt; Profile &gt; Profile Settings &gt; Full Name -&gt; Edit<br />3. Leave fields blank<br />4. Save",
+        "testData": null,
+        "expectedResult": "Full name field shows as empty.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cf0441ddead15a573fc7bc667cbb26c9440edc4855c3d686ec32a74034fa18f007ae9d1edc22f13c5399c00d1d6f8cb8",
+  "stepsHashed": "43b59fe02193f063be51784bd3395612ef411f5e94eec954b744db5370d4444917005bf7331002068588e2a2d7726f5c"
+}

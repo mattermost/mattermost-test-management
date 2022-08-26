@@ -1,0 +1,55 @@
+{
+  "id": 4035717,
+  "key": "MM-T848",
+  "name": "RN apps: Change channel - deactivated users",
+  "createdOn": "2020-01-18T01:00:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>As a system admin, deactivate one of your test users in the System Console &gt; Users</li><li>In RN app, open channel drawer</li><li>In the \"Jump to...\" search box, type the beginning of the username you deactivated in step 1)</li><li>Scroll down to locate the deactivated user</li></ol>",
+        "testData": "",
+        "expectedResult": "After #3,<br><ul><li>The list of results should filter to display usernames containing the characters you typed in the \"Jump to...\" search box</li></ul>After #4,<br><ul><li>The deactivated user should show an \"archived box\" icon to the left of their username</li></ul><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44f3ef7bbe05c7dac7543fa950490eeda692cc8c9382823292a840ac88f803b92f9479fcc3266ffa97b936811f1cf10e",
+  "stepsHashed": "bb17f0d36780ff1634446066c86298726e30349d9f73f8beaa553f6eca80f2c31161eda2c0d142038e87f79220a7846f"
+}

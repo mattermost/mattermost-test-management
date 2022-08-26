@@ -1,0 +1,69 @@
+{
+  "id": 7162309,
+  "key": "MM-T3382",
+  "name": "Default instance works in subscribe modal",
+  "createdOn": "2020-09-25T14:30:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Install and and connect to an instance with 2 project you have permission to<br>2. Open the Jira create modal and not which project is selected by default as your current project ex: ProjectA<br>3. Create a subscription that targets ProjectA<br>4. Note the subscription can be edited without issue<br>5. Use the the create or attach modal to add an issue or comment to ProjectB<br>6. This updates you default project to ProjectB<br>7. Attempt to edit the subscription created above",
+        "testData": null,
+        "expectedResult": "The edit screen &nbsp;opens and ProjectA is a shown. All subscription data is displayed correctly.&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Type /jira subscription edit<br>2. Click to add a new subscription",
+        "testData": null,
+        "expectedResult": "The default project is selected by default",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6e173e95576f5e61ca8268b6cb836bfb6ae8afea742ceeaef868b6e65e267cbee395d6ceffafd81b005060c824956c82",
+  "stepsHashed": "460c024aa9f5f2bbf78805880502556f34f97dc5958540d3c7d12e0b8bf9bba4ecc8a28e4729c77f67c0613b162c9afc"
+}

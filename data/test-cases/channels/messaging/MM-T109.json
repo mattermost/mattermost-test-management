@@ -1,0 +1,55 @@
+{
+  "id": 3742272,
+  "key": "MM-T109",
+  "name": "RN apps: User can't send the same message repeatedly",
+  "createdOn": "2019-12-20T20:17:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: User can't send the same message repeatedly<br />--------------------<br />1. Type a message<br />2. Tap the send button repeatedly",
+        "testData": null,
+        "expectedResult": "Only a single message is sent",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "632fa027609a874048c54a0b77c11cab105bd0a804eb26104f87d3e53d966861fb8570c444825a6270cbe67825ac7a6b",
+  "stepsHashed": "d61e3e5be533264020a7b22c8da74d88971fc159a9a50b93ef670f37ac35a3ec1d1dd40c64dae7d55265a84f9daa5c66"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 13506846,
+  "key": "MM-T4169",
+  "name": "Check for see billing link navigation in edit payment info",
+  "createdOn": "2021-08-16T23:26:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1641148,
+    "name": "Payment Information ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Payment Information ❗"],
+    "fullPath": "cloud/automated-tests/system-console/payment-information-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click Payment Information menu</li><li>Check for Payment info header</li><li>Click edit button</li><li>Check for See how billing works navigation</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "edcf3eedd4cab2ed46738ae8af9b1a3bec1dcc8db6d0456c28b3a17ab5249ac28918246558f904c0c50e536afafaa5a0",
+  "stepsHashed": "ebe42d9662af10f03c6e232f1f444ea033bc49ea4b36e735bac53ff8e23f5b4e1953637d28b9fbe7ab3ff69796a07d96"
+}

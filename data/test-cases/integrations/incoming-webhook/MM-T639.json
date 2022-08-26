@@ -1,0 +1,55 @@
+{
+  "id": 3968339,
+  "key": "MM-T639",
+  "name": "🚀 incoming Webhook creates DM",
+  "createdOn": "2020-01-08T12:57:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Webhook creates DM<br>–––––––––––––––––––––––––<ol><li>See above test to set up Postman (https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/MM-T629)</li><li>Ensure that System Console ➜ Integrations ➜ Integration Management ➜ Enable integrations to override usernames is set to true</li><li>Identify a user you have NOT created a direct message channel with before (can create a new user in a different browser if that's easier)</li><li>In Postman, make sure \"GET\" has been changed to \"POST\" as described</li><li>In Postman, under `Body` select `raw` and paste in the text below, replacing `newuser` with the username you identified in step 2</li><li>In Postman, click `Send`</li></ol>{\"channel\": \"@newuser\", \"text\": \"This is a message to a newly created direct message channel\"}<br><br>⬆️ \"newuser\" is the user identified in step 2",
+        "testData": null,
+        "expectedResult": "<ul><li>DM channel is opened with the newuser</li><li>DM channel is marked as unread with mention</li><li>Message posts \"This is a message to a newly created direct message channel\"</li><li>Message is posted by username `webhook`, with the `BOT` label</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fe7bd93fb5cf644b784bd451d1a0d88bc8678d20a3fa827c2679107c395068b98b1b50b2eb084ed302373ee2cd9cc378",
+  "stepsHashed": "a11dedac24875aa6d0fa8dcf4424049cafbdce5b8efe521235e2316cbcb9f7912743d80983f2b108c806f8dcd8cbfb91"
+}

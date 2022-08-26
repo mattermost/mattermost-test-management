@@ -1,0 +1,55 @@
+{
+  "id": 3877714,
+  "key": "MM-T408",
+  "name": "Sleep/Wake Computer",
+  "createdOn": "2020-01-03T00:39:51Z",
+  "objective": "<br><br>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Sleep/Wake Computer<br />--------------------<br />1. Log into Mattermost with any Auth method<br />2. Put your computer to sleep<br />3. Wake up your computer",
+        "testData": null,
+        "expectedResult": "No blue bar/console error appears <br /><br />(Note: You may see a brief message &quot;There appears to be a problem with your internet connection&quot; in some cases, but it should resolve itself and disappear)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6298a3e1e1d1d0aa4e9830fad9c511da3b6af1c142a7f80d55e809cfe21055c9d28f1bd1273ba435b2f2d8b7152e4612",
+  "stepsHashed": "03545c40b58e2fcf71fd8437828d670798165125777ccdda95552a86563fc498ba040f4712a739c9540e671d6045a7d7"
+}

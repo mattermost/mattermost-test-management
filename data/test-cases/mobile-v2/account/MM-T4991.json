@@ -1,0 +1,107 @@
+{
+  "id": 28629019,
+  "key": "MM-T4991",
+  "name": "Mobile V2: Account - Settings",
+  "createdOn": "2022-08-15T18:18:21Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Log in to server, open account screen, and go to settings screen<br /><br />For each test step:<br />1. Verify on settings screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3287708,
+    "name": "Account",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Account"],
+    "fullPath": "mobile-v2/account"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on settings screen</strong><br />--------------------<br />1. Verify basic elements on settings screen:<br />- options: notifications, display, advanced settings, about, help",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to go to notification settings screen</strong><br />--------------------<br />1. Tap on notifications option<br />2. Verify on notification settings screen<br />3. Go back to settings screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to go to display settings screen</strong><br />--------------------<br />1. Tap on display option<br />2. Verify on display settings screen<br />3. Go back to settings screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to go to advanced settings screen</strong><br />--------------------<br />1. Tap on advanced settings option<br />2. Verify on advanced settings screen<br />3. Go back to settings screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to go to about screen</strong><br />--------------------<br />1. Tap on about option<br />2. Verify on about screen<br />3. Go back to settings screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c9cb80ab5f6667f49b840e931a06d98f54c40d9411a23643cb5ea7cdccb7ea0ab0a3601e43a63442ea476219f78d7ac2",
+  "stepsHashed": "b31192f187bf1a84c49b9e28b84940eba78bfcba5f5c2f25a6efc769bac9c7c0b59c909c082d97c72669c198bb6385ca"
+}

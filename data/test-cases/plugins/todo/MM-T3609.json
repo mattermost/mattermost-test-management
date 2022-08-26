@@ -1,0 +1,68 @@
+{
+  "id": 8022927,
+  "key": "MM-T3609",
+  "name": "To Do Can be sent to another user",
+  "createdOn": "2020-11-26T21:15:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054414,
+    "name": "ToDo",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open RHS and click the \"+\" to add a to do<br>2. Search for a target user from the down down by username<br>3. Search for a target user from the down down by first name<br>4. Search for a target user from the down down by last name<br>5. Search for a target user from the down down by nickname",
+        "testData": null,
+        "expectedResult": "For Steps 2., 3., 4., and 5. the target user can be located.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open RHS and click the &quot;+&quot; to add a to do<br />2. Select a target user from the frop down <br />3. Click &quot;Add ToDo&quot; to send it to the traget user",
+        "testData": null,
+        "expectedResult": "- ToDo is created and added to the `Sent` tab<br />- Target user receives a DM form ToDo bot about the item they have received",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "985390315b24bdb8bdf491ceb84a757ca4c835fcc6b6469ea1d9d7cab2400df0810d099b46d0849d0233656730e6a993",
+  "stepsHashed": "5bd5cb51ab8cf0ca4fc256445d6d83b1e301c79ea14fd20a578bccc0330d2f9aa1344f87babaac5c3f20973f7841e470"
+}

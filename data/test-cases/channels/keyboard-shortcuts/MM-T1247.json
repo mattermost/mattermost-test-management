@@ -1,0 +1,55 @@
+{
+  "id": 4064370,
+  "key": "MM-T1247",
+  "name": "CTRL/CMD+K - Only highlights one match if multiple channels with same name",
+  "createdOn": "2020-01-23T13:38:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": ["Won't Fix"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create a channel with the same name as a username</li><li>Use CMD/CTRL+K to open the quick switcher</li><li>Start searching for the channel with the same name as a username</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Single preselection appears on the first channel matching the search term (rather than both channels being highlighted as selected)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Won't Fix"],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-11193\" rel=\"noopener noreferrer\" target=\"_blank\">Channel with same name as a username causes double cursor in quick switcher — MM-11193</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ac02a4ad38dd2480f5ebaaa8e9b3d070fa3e3da5539b0b92543c4637905c0d672cc9f59f69cdcf07eea55f3f92cb2340",
+  "stepsHashed": "90ccd6836823f7f89ab77d57b5d520e9734824a2eabd721c83be1f36e3a0cfd587115fad73ec098166063a30dd814a72"
+}

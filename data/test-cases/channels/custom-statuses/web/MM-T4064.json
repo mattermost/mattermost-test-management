@@ -1,0 +1,133 @@
+{
+  "id": 10745615,
+  "key": "MM-T4064",
+  "name": "Status expiry visibility",
+  "createdOn": "2021-05-16T17:47:53Z",
+  "objective": "",
+  "precondition": "<ul><li>Logged in</li><li>Custom statuses enabled on the server</li></ul>",
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": { "id": 14322, "name": "Webapp" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222177,
+    "name": "Web",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Web"],
+    "fullPath": "channels/custom-statuses/web"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click on the user avatar in the LHS",
+        "testData": null,
+        "expectedResult": "Status dropdown opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Set a status\"",
+        "testData": null,
+        "expectedResult": "\"Set a status\" modal opens with 5 default statuses listed:<ul><li>In a meeting</li><li>Out for lunch</li><li>Out sick</li><li>Working from home</li><li>On a Vacation</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"In a meeting\" status",
+        "testData": null,
+        "expectedResult": "<ul><li>\"In a meeting\" status is selected and shown with the calendar emoji</li><li>\"Clear after\" time is set to 1 hour</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Set Status\"",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set</li><li>Custom status emoji (calendar emoji in this case) is shown next to the username in the LHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the user avatar in the LHS",
+        "testData": null,
+        "expectedResult": "Status dropdown opens and shows the custom status and the expiry time below it:<br>(\"Until H:MM\")",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Create a post in the center channel<br>2. Click on your user avatar on the post",
+        "testData": null,
+        "expectedResult": "User popover opens and shows the status expiry time \"Until H:MM\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Hover the status emoji next to your username in the post header",
+        "testData": null,
+        "expectedResult": "Tooltip appears and shows the status expiry time:<br>\"Until H:MM\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "50dfaab4a2b1e5020a6d008d919236f6a320432339bab665a037dea31571ccd34bea42a0c8cee518018c0d70264f559a",
+  "stepsHashed": "fd6168acc4dd3ca928ac11f930c7188c93f819a5b53dc0eb154c66a50d4609ecd4b952f77331e46b8803f5714731af5a"
+}

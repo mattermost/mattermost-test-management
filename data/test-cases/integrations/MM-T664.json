@@ -1,0 +1,55 @@
+{
+  "id": 3968364,
+  "key": "MM-T664",
+  "name": "/groupmsg initial tests",
+  "createdOn": "2020-01-08T12:57:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Use /groupmsg command to send group message - \"/groupmsg [usernames] [message]\"</li><li>Use /groupmsg command to create GM or send message to existing GM - \"/groupmsg [usernames]\" (note: no message)</li></ol>",
+        "testData": "<strong>Format for sending a group message</strong>:<br>/groupmsg @[username1],@[username2],@[username3] [message]<ul><li><strong>Example</strong>: /groupmsg @eric,@lindsay,@jason,@asaad this is my message</li><li><strong>Example</strong>: /groupmsg @eric, lindsay ,jason , @asaad this is my message<br><br></li></ul><strong>Format notes</strong>:<ul><li>Accepts spaces after or before the commas when listing usernames</li><li>Usernames do not have to contain the '@' character</li><li>The first word without a preceding comma is the first word of the message</li><li>The command does not have to contain a message (If not it'll just open or create the group but not post)</li></ul>",
+        "expectedResult": "1. On step 1, sends a Group Message to the specified users<br>2. On step 2, group message created (or message sent to existing GM) as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-7529\">Slash command for creating and messaging a group — MM-7529</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3ae8dc891c939dbbe64897ab77a5482d34e0c4782d4200d94a915370b21f5b7fa49059a311d947fc4ef5993a8fd4eb59",
+  "stepsHashed": "d17c29598f2eb31aff098f1ef9801cd16a10ca6c7e24f5b201aa61aa5d695be8c10ffbeaf7caacf0293deea2be751591"
+}

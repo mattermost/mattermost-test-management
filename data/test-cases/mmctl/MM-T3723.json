@@ -1,0 +1,55 @@
+{
+  "id": 8616865,
+  "key": "MM-T3723",
+  "name": "Plugin - Add : admin and local can't add plugins if the config doesn't allow it",
+  "createdOn": "2021-01-18T08:54:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl plugin add [plugin-name]",
+        "testData": null,
+        "expectedResult": "Returns an error as the config doesn't allow it",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "52e40b2f648b702deda782d54b6f0e7ee843d62839ab2b289006964bb5423be5ca347ba16bfd4e4210e0a86ae7aee57c",
+  "stepsHashed": "30e3a6d99f42c6fe54c02454515eee341b7c51e6f8ab31ab7632cf8e3225018a89570ff44e50a46d566c58597b5496b7"
+}

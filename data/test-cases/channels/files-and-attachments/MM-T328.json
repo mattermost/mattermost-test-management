@@ -1,0 +1,81 @@
+{
+  "id": 7893795,
+  "key": "MM-T328",
+  "name": "RN apps: File upload - Multiple attachments",
+  "createdOn": "2020-11-17T16:41:15Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.24 Mobile (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Joseph Baylon - Tuesday, November 17, 2020<br />- Updated test steps",
+    "Rainforest": ["Update", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should allow user to post <strong>multiple attachments</strong><br />--------------------<br />1. Login to server and go to a channel<br />2. Attach 5 files of different types at the same time (document, video, image, etc)<br />3. Tap on send button<br />4. Tap on a 3rd thumbnail from the <strong>multiple attachment post</strong><br /><br />",
+        "testData": "",
+        "expectedResult": "After #3,<ul><li>Verify that files are posted together and thumbnails do not scroll horizontally</li><li>Verify thumbnails display four on one row, with a +1 on the last thumbnail with an overlay</li></ul><br />After #4,<ul><li>Verify that file preview gallery is displayed with the <strong>file header count</strong> having the ordinal count of the thumbnail tapped (e.g. 3 of 5)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<br /><br />",
+          "Important notes about this step": "<br /><br />"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should display <strong>multiple image attachments</strong> in a row<br />--------------------<br />1. Login to server and go to a channel<br />2. Attach 5 image files<br />3. Tap on send button<br /><br />",
+        "testData": "",
+        "expectedResult": "After #3,<br /><ul><li>Verify <strong>thumbnails</strong> display four in one row, with a +1 on the last thumbnail with an overlay</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<br /><br />",
+          "Important notes about this step": "<br /><br />"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should display error when attempting to attach more than 10 files<br />--------------------<br />1. Login to server and go to a channel<br />2. Attempt to attach 11 files",
+        "testData": null,
+        "expectedResult": "After #2,<ul><li>Verify error message is displayed<ul><li><strong>Uploads limited to 10 files maximum.</strong></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fc1cc6a80ba5108dec09037b64e1e4431677391546f2e53b6547bfb14df81f8451a5298e6843e0755ba0bd3dc2710499",
+  "stepsHashed": "829e9b01e47b43dcf863c25aaede1e66b311d7d1c96ebd97e508f8fcc4b41a086f60e952804b5559d2f1541b1acf3c4e"
+}

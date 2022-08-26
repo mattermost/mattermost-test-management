@@ -1,0 +1,55 @@
+{
+  "id": 18390841,
+  "key": "MM-T4642",
+  "name": "Takes the user through the steps of using the app",
+  "createdOn": "2022-02-14T15:35:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 883991,
+    "name": "Cloud",
+    "parentId": null,
+    "fullNames": ["Cloud"],
+    "fullPath": "cloud"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as an Admin</li><li>Click the tip on posting messages</li><li>Click <strong>Next</strong> button to the posting messages tip</li><li>Click the tip on channels</li><li>Click <strong>Next</strong> button to the Channel tip</li><li>Click the tip on creating and joining channels</li><li>Click Next to the creating and joining channels tip</li><li>Click to the tip on admin UI and inviting people</li><li>Click to the admin UI and inviting people tip</li><li>Click the the next(settings) tip</li><li>Click the the next(start trial) tip</li></ol>",
+        "testData": null,
+        "expectedResult": "2. Observe the help on posting messages is visible<br />4. Observe the help on channels is visible<br />6. Observe the help on creating and joining channels is visible.<br />8. Observe the help on admin UI and inviting people is visible.<br />10. Observe the settings tip<br />11. Observe the start trial tip<br /><br /><br /><br /><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4f13139d983d3e97deb13a8ca5fd5fe94d47e70c7f797728672673f1975c671a943440c4af2fa3cf8ff4873e1e4c8330",
+  "stepsHashed": "88ac8ca08e857ba67c55522d57e8ae8dd60f380efbd5d0602c4da61720085347fcf7192b1dcf2c8e0200d703eb61ac51"
+}

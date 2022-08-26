@@ -1,0 +1,55 @@
+{
+  "id": 3969572,
+  "key": "MM-T672",
+  "name": "/offline",
+  "createdOn": "2020-01-08T17:47:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In any channel, post \"/offline\"</li><li>Switch to another channel and then back to the channel you were in in step 1</li></ol>",
+        "testData": null,
+        "expectedResult": "On step 1, indicator should be grey indicating user is offline.<br>On step 2,<br><ul><li>No \"New Messages\" line appears above system message \"You are now offline\"</li><li>System message should not display online indicator on the profile picture (this is true for all system messages)</li></ul><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c60e991116729a7efad40bfa3eeb0d7c40e1986cb9ce280972701fc90f6d41491df3ffdcf1a6f7d1a32746bf50bc5184",
+  "stepsHashed": "c1ea079b307a15869d72ef491069c7aa424925b5564f7a20fcf2bec93e335052cb6de17d058f02181a5ac736800abd39"
+}

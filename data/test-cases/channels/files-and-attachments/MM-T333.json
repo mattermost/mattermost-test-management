@@ -1,0 +1,55 @@
+{
+  "id": 3877373,
+  "key": "MM-T333",
+  "name": "Drag and Drop - Cases when drag and drop should not activate",
+  "createdOn": "2020-01-02T22:06:16Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["Hackfest", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drag and Drop - Cases when drag and drop should not activate<br>–––––––––––––––––––––––––<br>Attempt to:<ol><li>Drag a selection of highlighted text over Center pane, LHS and RHS</li><li> Drag a channel name over Center pane, LHS and RHS</li><li>Drag a file onto the LHS</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Drag and Drop UI does not appear</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19929\">Drag and drop UI appears when dragging images — MM-19929</a>",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a9cd7a736e540e43fbfc0262219a7d250c7728ca5cdb6e5e6f22b7177aa5cf0d685c4c19cc5382a9b52beb4d67763295",
+  "stepsHashed": "e665964973a2e5e2b22a2ac2bfb22fc2301e929018e27cfbe12994177bacde1ad3e1f2943d468605d44a7c4424f62aa2"
+}

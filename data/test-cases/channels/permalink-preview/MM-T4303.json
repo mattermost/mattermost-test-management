@@ -1,0 +1,55 @@
+{
+  "id": 15735385,
+  "key": "MM-T4303",
+  "name": "Permalink Preview - Short Text - Hover Preview",
+  "createdOn": "2021-10-27T15:01:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1879390,
+    "name": "Permalink Preview",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create Public <strong>ChannelA</strong> and <strong>ChannelB</strong> and add users <strong>UserA</strong> in <strong>C</strong><strong>hannelA</strong> <strong>UserB</strong> in <strong>C</strong><strong>hannelB</strong></li><li>In <strong>ChannelA</strong>, Post a message with text only.</li><li><p>Click on the [...] menu to the right of the message posted.</p></li><li>Click on the \"Copy Link\" button in the dialog box</li><li>Paste the permalink in <strong>ChannelB</strong></li><li>Hover the mouse at the preview<ul><li><p><br /></p></li></ul></li></ol>",
+        "testData": "",
+        "expectedResult": "<ol><li>Preview should have a shadow.</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ea724f251849d5b1e7716ed03dd4e6329366a2b829c58cc1b78dc7e0a3b16f998836cddbdd35a87877490e9cfc7cb341",
+  "stepsHashed": "727f5ff9a70cd8affae513c284b3e562b0a99a964b910334bed8c9e256bddc07413caf56c253d9da46668f057fa63167"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4403869,
+  "key": "MM-T1480",
+  "name": "Post actions/links TAB navigation (RHS)",
+  "createdOn": "2020-02-17T18:14:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post actions/links TAB navigation (RHS)<br>–––––––––––––––––––––––––<ol><li>Search for a term you know will have results</li><li>Click in the \"Search box\" and then press TAB to navigate to the first post in the search results</li><li>Continue to TAB through the items on the post ensuring focus is set to each item as per \"Expected\"</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Once focused on the first post, TAB should focus on the following post items in this order:<ul><li>Username of the person who made the post</li><li>&nbsp;Timestamp of post</li><li>&nbsp;Flag icon</li><li>&nbsp;Post actions (3-dot) menu</li><li>&nbsp;Reply arrow</li><li>&nbsp;\"Jump\"</li><li>&nbsp;Message body</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.17 (Nov 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19497\" rel=\"noopener noreferrer\" target=\"_blank\">Post options are skipped when tabbing through a post in search results — MM-19497</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d54007b357434e7ff4552318f220cca6fb315fc11a39b69b4ca3886f73e123a2c4d9eaa947c37d86a69bdf84cf986058",
+  "stepsHashed": "ea6a26509a3ad87645a7dce411c6b99b67d89007dc63497e774017e4e04ca3e9f430577d4d2a06465e4d6564aeaf21dd"
+}

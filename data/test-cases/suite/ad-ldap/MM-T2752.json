@@ -1,0 +1,55 @@
+{
+  "id": 5601924,
+  "key": "MM-T2752",
+  "name": "User who had been in a linked LDAP group is added back in LDAP (after having been removed)",
+  "createdOn": "2020-06-01T20:58:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User who had been in a linked LDAP group is added back in LDAP (after having been removed)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />^ user is deactivated in LDAP<br />and then reactivated via LDAP, <br />and part of a linked group (and also not), <br />will their teams/channels memberships still be available?",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "efb63f47bbee038e3fda105f6ab615781bf52dc090c635eb24d9206afda409d1f17ed6646ca92b4802e1dfd4d2a99539",
+  "stepsHashed": "577f828bd94b98feb62be9f0a054107af73a37b13d384e15d501bc62f3774f3baa87047833cbb5bbaf63aa9e2d82b503"
+}

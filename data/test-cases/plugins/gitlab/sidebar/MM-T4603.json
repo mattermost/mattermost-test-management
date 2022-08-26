@@ -1,0 +1,55 @@
+{
+  "id": 17862447,
+  "key": "MM-T4603",
+  "name": "Sidebar - Refresh",
+  "createdOn": "2022-01-26T22:38:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139776,
+    "name": "Sidebar",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Sidebar"],
+    "fullPath": "plugins/gitlab/sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to GitHub as the test user<br />2. Change the data in the side bar by reading some of the messages, or closing some of the assigned PRs<br />3. In Mattermost click the refresh button",
+        "testData": null,
+        "expectedResult": "Totals in the sidebar are updated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e53bdef40996b4087bfa426f8d83c4a80bf914f8e3a8544fe920a8684b847a90c1cfef3fbdd0bacc754229f836672a75",
+  "stepsHashed": "ed59e5da613e08c5b228b3cd03f0f4f29cdd2a48a1af297d8c0ea1b748acc3c323a150578b411889cab3bfa710522e45"
+}

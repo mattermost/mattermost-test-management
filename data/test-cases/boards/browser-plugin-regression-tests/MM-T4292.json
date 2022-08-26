@@ -1,0 +1,55 @@
+{
+  "id": 15537274,
+  "key": "MM-T4292",
+  "name": "Opening a link to a card opens the card",
+  "createdOn": "2021-10-20T07:33:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1853989,
+    "name": "Browser Plugin Regression Tests",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Browser Plugin Regression Tests"],
+    "fullPath": "boards/browser-plugin-regression-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a card</li><li>Copy the URL from the browser address bar</li><li>Open a new tab and paste in the URL</li><li>The board opens, but not the card</li></ol>",
+        "testData": null,
+        "expectedResult": "The card should open ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b2d9732243cc3c96eb1ec88fb1117d5efb47912a3758fc2d90d292100d1bf3e9191f93f9febabd82c81a5c5a783588d",
+  "stepsHashed": "5a9adbf0ba5bd9ed39b3135d8cdec60492f56811c55d9276036b25061eec35a3720c24393ce374d5bd1e9b1f64f36fa6"
+}

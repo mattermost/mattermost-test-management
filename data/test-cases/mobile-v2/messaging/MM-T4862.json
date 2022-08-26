@@ -1,0 +1,94 @@
+{
+  "id": 24114743,
+  "key": "MM-T4862",
+  "name": "Mobile V2: Messaging - Emojis and Reactions",
+  "createdOn": "2022-06-16T23:05:42Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to view recent reactions and add new reaction via post options</strong><br />--------------------<br />1. Open a channel screen, post a message, and open post options for message<br />2. Verify six default reactions are displayed:<br />- thumbsup 👍<br />- smiley 😃<br />- white_check_mark ✅<br />- heart ❤️<br />- eyes 👀<br />- raised_hands 🙌<br />3. Open emoji picker screen and add a new reaction<br />4. Verify new reaction is added to the message<br />5. Open post options for message<br />6. Verify recent reactions are displayed, newest reaction first and then the first five default reactions<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to long press on a reaction to view the list of users who reacted</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, open emoji picker screen, and add a reaction<br />2. Verify reaction is added to the message<br />3. Long press on the reaction<br />4. Verify user who reacted with the emoji<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to include emojis in a message and be able to find them in emoji bar and recently used section</strong><br />--------------------<br />1. Open a channel screen and post a message that includes emojis<br />2. Verify message is posted with emojis<br />3. Open post options for message<br />4. Verify emojis exist in emoji bar<br />5. Open emoji picker screen<br />6. Verify emojis exist in recently used section<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should display empty search state for emoji picker</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, open emoji picker screen, and search for a non-existent emoji<br />2. Verify empty search state for emoji picker<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ee371cf1a2525d16dcf577a7ab9fab151bb817781ec156005cc5d9d9992a2be76cd3d8e9cccbcbaa7740a05698468883",
+  "stepsHashed": "92d838a9b3c2d97d24d0d4abf2fcb8f0853473072ab075d8fcfce9d2e14f6575d100f16ff22ed999c0c7342639081d45"
+}

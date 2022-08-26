@@ -1,0 +1,55 @@
+{
+  "id": 4050770,
+  "key": "MM-T980",
+  "name": "Subpath – Link to System Console in Marketplace banner opens System Console",
+  "createdOn": "2020-01-21T19:55:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath<br />--------------------<br />(on a server that is not connected to a valid marketplace)<br />1. Go to main menu &gt; Plugin Marketplace<br />2. Observe error messaging at top, click link to System Console in the banner",
+        "testData": "FIXED v5.17 https://mattermost.atlassian.net/browse/MM-19193",
+        "expectedResult": "Taken to the System Console with no `404` error page (i.e. subpath is included in the URL link)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "52c887a99f5c00bd8b22ef17d161d58e28f7ca7e8c3d7d3b5c4dbf7c43328f1fd8da1fe5ed17f05edd981acc278d3257",
+  "stepsHashed": "d3d5f7f5f2fda1d4501047f2491b01d7ede8ae0756407a148e08515f62fba4e827478c71e3e7fb0fdf46fcc2a5d437c6"
+}

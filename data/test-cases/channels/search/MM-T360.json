@@ -1,0 +1,55 @@
+{
+  "id": 3877462,
+  "key": "MM-T360",
+  "name": "Search hashtags from mentions",
+  "createdOn": "2020-01-02T23:12:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Search hashtags from mentions<br />--------------------<br />1. As a different user create a post that contains a hashtag such as #hello and a mention for the test user<br />2. Login as the test user and open recent mentions <br />3. Click/tap the hashtag in the post created in step 1.",
+        "testData": null,
+        "expectedResult": "Selecting the hashtag will run a search for the same hashtag",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f3f2d11c263166e300e1a6b2d0855f6e6c48289668d9582a9d8fcf7ca39929d29be1fdf3a3c0d2af9bd63c36750cb6d7",
+  "stepsHashed": "5bd5684121c990052505522c28d7c57d624357511f788ca53e1612bf11e8c645f6bcde5a1318e390ebd2b4666ee37e2d"
+}

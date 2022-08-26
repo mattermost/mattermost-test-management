@@ -1,0 +1,55 @@
+{
+  "id": 8022893,
+  "key": "MM-T3588",
+  "name": "Satrt a WebEx meeting in the room of a specific user based on email",
+  "createdOn": "2020-11-26T21:08:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as the test user<br />2. Type /webex &lt;@username&gt;",
+        "testData": null,
+        "expectedResult": "Shares a Join Meeting link for the Webex Personal Room meeting that is associated with that Mattermost user.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4a07016cefc864dbac63238b8bb6656bc03a0f7ed158cf1c81b5dbbdc04fb5e806c24b1379f99c241b1bdf8ef176dbd0",
+  "stepsHashed": "71be8790f8026185c6630c9e466d0b2310c3c1b56c3f483ac5d725ed38e06fe5cba31945fa8bc0f47bf0efbb8ba36bd4"
+}

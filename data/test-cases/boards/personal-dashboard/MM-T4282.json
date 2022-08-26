@@ -1,0 +1,95 @@
+{
+  "id": 15458812,
+  "key": "MM-T4282",
+  "name": "\"Show empty\" toggle",
+  "createdOn": "2021-10-14T10:58:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1840955,
+    "name": "Personal Dashboard",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Personal Dashboard"],
+    "fullPath": "boards/personal-dashboard"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4281" } },
+    {
+      "inline": {
+        "description": "Disable \"Show Empty\" toggle",
+        "testData": null,
+        "expectedResult": "Channel 1 remains listed under \"All Channels\", while Channel 2, DM and GM are removed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the app switcher in the top left of the Global Header and click Channels",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the app switcher in the top left of the Global Header and click Boards to return to the Dashboard",
+        "testData": null,
+        "expectedResult": "\"Show empty\" toggle remains disabled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enable \"Show empty\" toggle",
+        "testData": null,
+        "expectedResult": "Channel 2, DM and GM channel are once again displayed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b7ae1db718dbd4e3bd34d893c013f73ad6e3174ca2ad1b1c420e701dc811789a008fc6cf8939f02eb7f488339f6e75ef",
+  "stepsHashed": "894d9c93606ad1c67ce8356c8c0556a4c4ed44390c61a9971f6873eb327c895881edecf6f61938ba5994812d80d187a6"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4051780,
+  "key": "MM-T1025",
+  "name": "Site Name - Main Menu ➜ About and About Modal show custom name",
+  "createdOn": "2020-01-21T22:18:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>System Console ➜ Site Configuration ➜ Customization</li><li>Type \"-test\" at the end of what is in the box</li><li>Save</li></ol>",
+        "testData": "",
+        "expectedResult": "Name as typed in the box should appear in:<ul><li>Log-in page</li><li>Main Menu ➜ About</li><li>Main Menu ➜ About ➜ About Modal</li></ul><br><strong>Note</strong>: check this on desktop app, browser and RN apps<br><br><br>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-12320\" rel=\"noopener noreferrer\" target=\"_blank\">Change \"about\" section references to use the site name when it is configured — MM-12320</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f0350ef400ca7b3a23ac65a5099126f706aa12010424d3d58e489fa63f43e5b1a2deb6cbcd5cc17e0579fa52d9a2537a",
+  "stepsHashed": "1927f02917e0992fc8014f9073b63d5dc4ac2e69ba22e914ebb22afe51758c7e605310b160fe13af654742ddeeddff07"
+}

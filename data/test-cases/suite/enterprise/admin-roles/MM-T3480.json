@@ -1,0 +1,55 @@
+{
+  "id": 7798412,
+  "key": "MM-T3480",
+  "name": "System Roles - Search & Pagination",
+  "createdOn": "2020-11-09T14:48:04Z",
+  "objective": "System Roles - Search &amp; Pagination",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 918602,
+    "name": "Admin Roles",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "System Roles - Search &amp; Pagination<br>–––––––––––––––––––––––––<ol><li>Login as an admin and visit System Console ➜ User Management ➜ System Roles(Beta)</li><li>Click edit on System Manager role and add more than 20 users</li><li>Check if search functionality is working fine on the Members section of System Roles page</li><li>Check if pagination functionality is working fine on the Members section of System Roles page</li><li>Check to see if the Save &amp; Cancel buttons are visible at the bottom of the window</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Search functionality should be working fine on the Members section of System Roles page.</li><li>Pagination functionality should be working fine on the Members section of System Roles page.&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-33907\">Backstage bar height not accounted for in calculating System console max height — MM-33907</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eda15fef6df83c8bae9724fcd2e696a7d9a5da37160dd0435db0a3d38a0c065a3406c626d8e4d9cadf4e942d218a957b",
+  "stepsHashed": "6386c37521020cb705206809f4f53db3d5be73ac39c815ed759af967d78afc386acc2d3c9a66b91031db5960dcf52c57"
+}

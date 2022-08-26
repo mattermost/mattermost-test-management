@@ -1,0 +1,55 @@
+{
+  "id": 3877348,
+  "key": "MM-T308",
+  "name": "Progress indicator for file upload",
+  "createdOn": "2020-01-02T22:06:09Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["Hackfest", "E2E-1", "1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda —9 Jun 2021: I updated the test script to indicate on mobile 1) tap any of the icons to attach a file (no longer a plus sign), and 2) the progress number has been removed, just an indicator now.<br /><br />Steve Mudie — Thursday, September 24, 2020 5:57 PM<br />• From the Help Wanted ticket ➜\"<em>MM-T308 cannot be automated currently since Cypress doesn’t allow bandwidth throttling and there’s no way to slow down the upload to see the progress bar (as far as I can tell).</em>\"<br />• Toggled Cypress status to 🚫 N/A",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Mobile"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Progress indicator for file upload<br />–––––––––––––––––––––––––<ol><li>Click the paper clip icon on the message box (mobile apps: Tap any of the icons to attach a file to the post) and select a LARGE file to attach so you can view progress indicator</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>You should see:<ul><li>progress indicator </li><li>processing state (may be very brief, okay if you don't catch it)</li><li>then shows the image or file thumbnail with an `x` to remove the uploaded file from the message draft</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20793\">File upload progress bar doesn't match % completion — MM-20793</a>",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "318a2f82e7ef61a05db4a959653e348ebb302e7bb667856cb34cecac3ae444df0e4d8dc6ae410d7b6669b1e1e59fa0b7",
+  "stepsHashed": "e7b0219e81a81e6e0af052251067361f74224b2753b925dd8a7f82c74d3ee4228d39168ceecb0b6d79c5dc2be179396e"
+}

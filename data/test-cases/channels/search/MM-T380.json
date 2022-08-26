@@ -1,0 +1,55 @@
+{
+  "id": 3877482,
+  "key": "MM-T380",
+  "name": "Link opens for post that isn't already displaying in center",
+  "createdOn": "2020-01-02T23:12:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Link opens for post that isn't already displaying in center<br />--------------------<br />1. Post several messages in a channel<br />2. Post message `asparagus` in that same channel<br />3. Post several more messages after `asparagus`<br />4. Switch to a different channel and refresh<br />5. Search for the term `asparagus`<br />6. Verify the search result is from a different channel than the one you're viewing in center (observe channel name in search results)<br />7. Click Jump next to the search result",
+        "testData": null,
+        "expectedResult": "Link view opens in the center for that message, in the channel where it had been posted<br /><br />The posts preceeding and following the permalink post display as well",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "73fd2f7468785b5d0288633cd1b6053bebaaa457bdc4b3d619f53f5116ffc1f3f02c2b297d58153e3fd5831d6ad348f7",
+  "stepsHashed": "393d5b0d9b3b221d071e7905efea9f638351a7240fc6ca34c776c33432371916ddda168b92dbc08aabd65fadd366018d"
+}

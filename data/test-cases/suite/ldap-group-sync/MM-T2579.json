@@ -1,0 +1,55 @@
+{
+  "id": 5537260,
+  "key": "MM-T2579",
+  "name": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)",
+  "createdOn": "2020-05-27T21:13:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UI: Group fields available/unavailable based on LDAP sync enabled/disabled (not LDAP signin)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />LDAP signin disabled, LDAP sync disabled &gt; Group fields uneditable",
+        "testData": null,
+        "expectedResult": "Group fields:<br />Group Filter<br />Group Display Name Attribute<br />Group ID Attribute",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "63a80d18b66f61dfc5e926737697c2643f34b738ef05f7de8fbff46dee1fdd63d03cdb48a4f2be990ce77061e0c50959",
+  "stepsHashed": "dd8c0bdd83379e656c62485d1e127f0636a6e2fdf395f41f88be0601eb9c65f1bc1a682b24df97006d7420d4fdbfa6ae"
+}

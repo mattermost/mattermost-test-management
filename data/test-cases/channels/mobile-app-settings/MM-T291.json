@@ -1,0 +1,55 @@
+{
+  "id": 3808130,
+  "key": "MM-T291",
+  "name": "RN apps: Settings - Display - Clock: 12-hour clock",
+  "createdOn": "2019-12-30T23:09:19Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Settings - Display - Clock: 12-hour clock<br>RN apps<br>–––––––––––––––––––––––––<ol><li>Three-dot menu ➜ Settings ➜ Display ➜ Clock Display</li><li>Select 12-hour clock (Android: Tap Save)</li><li>Tap back arrow ➜ back arrow ➜ `x` to close Settings</li><li>Find a message with timestamp after 12 noon and before midnight</li><li>Verify time format in center and also tap to open reply thread</li></ol>",
+        "testData": null,
+        "expectedResult": "In both center channel and reply thread:<br><ul><li>Time is displayed in 12-hour format, such as 9:08 AM and 7:16 PM</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c92cc27ab58c122bbbf3cf6444e4971a773880030420b762e4e4eb9c274ff22d5b8ea0afbc779e8bf3a840417eb7bb4",
+  "stepsHashed": "14dbbc31d66dfce627ee581a2c3f681ef129a93f9da0ca1c8941aa0d9825d40a8d8388e9b863da2f90afcc4af56b1365"
+}

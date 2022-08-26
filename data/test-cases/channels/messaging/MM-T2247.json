@@ -1,0 +1,55 @@
+{
+  "id": 5445232,
+  "key": "MM-T2247",
+  "name": "Markdown link previews",
+  "createdOn": "2020-05-20T06:34:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Markdown link previews<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. (Mobile apps do this step in a browser) Ensure System Console &gt; Link Previews &gt; &quot;Enable Link Previews&quot; is set to true<br />2. Ensure Account Settings &gt; Advanced &gt; Preview community-release.mattermost.com features &gt; link previews = enabled<br />3. Post the following: <br />/test url test-link-preview<br />into a channel <br />4. Read through the resulting post<br /><br />Okay when testing on mobile app to make posts in browser if easier, then verify in mobile app that they render as expected",
+        "testData": null,
+        "expectedResult": "All link previews render as described in the post. <br /><br />Added comment in IDE to verify in RHS with comments / multiple links posted as well (updated 4.4): all previews should display, not just parent post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2194d1e27bc4f529b169e70e0ddb91a931785327dd13b98c9510a4e0cfc67d5ab26321ad88c7284c8564b4d811ca3acd",
+  "stepsHashed": "c9269d3ee14f1d355cf43b62282447a267c7943a7f622b99e86071266b85399ea376e1ef89bd058fa874b7ad31ad0e19"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 26003391,
+  "key": "MM-T4930",
+  "name": "Mobile V2: Channels - Mute and Unmute Channel",
+  "createdOn": "2022-07-18T21:01:46Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2419932,
+    "name": "Channels",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Channels"],
+    "fullPath": "mobile-v2/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to mute/unmute a channel from channel quick actions</strong><br />--------------------<br />1. Open a channel screen, tap on channel quick actions button, and tap on mute quick action to mute the channel<br />2. Verify muted toast message appears<br />3. Tap on channel quick actions button and tap on muted quick action to unmute the channel<br />4. Verify unmuted toast message appears<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to mute/unmute a channel from channel info screen</strong><br />--------------------<br />1. Open a channel screen, open channel info screen, and tap on mute action to mute the channel<br />2. Verify channel is muted<br />3. Tap on muted action to unmute the channel<br />4. Verify channel is unmuted<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7656c562dd9a9152b309818499d1160a49ba1da0ec8e3680e052ec3a36b077019c7d713afd550e5046067e5e6cb1579f",
+  "stepsHashed": "1df92f30a984087ec1756283152fbb7d48ea9137814cd374053ffeb3ad822652488fb7cd1b4d3afb84979ccf7d7b70eb"
+}

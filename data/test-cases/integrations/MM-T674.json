@@ -1,0 +1,60 @@
+{
+  "id": 3969574,
+  "key": "MM-T674",
+  "name": "/online",
+  "createdOn": "2020-01-08T17:47:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, December 21, 2020 12:24 PM<br>• Added link to Cypress code<br>• Selenium test cycle ran according to the test execution tab<br>• Leaving the duplicate automated test label in place",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "/online<br>--------------------<ol><li>In a test channel type \"/away\" and post</li><li>Type \"/online\" and post</li></ol>",
+        "testData": null,
+        "expectedResult": "Indicator should be green (or the online color specified by your theme) indicating user is online.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3139d452d1faaf93cfcb0d85fbd3ef8894600d02c94bf40744680b8cf5fb13639ebf9db8453c1c954d4a090ccc31aa44",
+  "stepsHashed": "75337b4a07d3f86b240de12933d16386450b194e12c195bf044ec4781989a518704dd1387fcc1a37c95b06c301b1ff23"
+}

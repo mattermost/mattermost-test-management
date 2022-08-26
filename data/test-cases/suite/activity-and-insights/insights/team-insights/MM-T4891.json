@@ -1,0 +1,55 @@
+{
+  "id": 24783695,
+  "key": "MM-T4891",
+  "name": "Top thread channel for non member",
+  "createdOn": "2022-06-28T19:51:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2420042,
+    "name": "Team Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "Team Insights"],
+    "fullPath": "suite/activity-and-insights/insights/team-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as SysAdmin</li><li>Create a Team and add userA</li><li>Create ChannelA</li><li>Create a thread in ChannelA</li><li>Make sure that userA is not a part of ChannelA</li><li>Login as UserA</li><li>Goto insight &gt; Team insight </li><li>Observe Top threads</li><li>Click ChannelA</li><li>Click show more icon</li><li>Click ChannelA</li></ol><br />",
+        "testData": null,
+        "expectedResult": "8. Top thread list should be displayed.<br />9. ChannelA thread should be displayed.<br />10 Top threads modal should be displayed.<br />11. ChannelA thread should be displayed.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b50802e938aa5fe9497b7f08c2789217176f600039bbc90aed617ef38ef0d1a5b3e2a574b8afd45ee1080e13c6e03ce",
+  "stepsHashed": "9a4296731be35ff05fb5cfd55f2ec2f9ac96c71835e0ebc830a8c39326a23a48d8597e56581d5a206f254fa12c49ba16"
+}

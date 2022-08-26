@@ -1,0 +1,81 @@
+{
+  "id": 5566399,
+  "key": "MM-T2634",
+  "name": "Server tab Drag and Drop",
+  "createdOn": "2020-05-29T17:57:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 742396,
+    "name": "Server Tab Header",
+    "parentId": 565205,
+    "fullNames": ["Desktop App (native-specific)", "Server Management", "Server Tab Header"],
+    "fullPath": "desktop-app--native-specific-/server-management/server-tab-header"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.4 Desktop App (Feb 2020)"],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Open Mattermost Desktop, and make sure you have at least 2 servers listed in the dropdown.",
+        "testData": null,
+        "expectedResult": "Initial order of server should be the order in which the servers were added.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Drag the first server down below the second one. Then open/close the dropdown.",
+        "testData": null,
+        "expectedResult": "The second server should now appear above the first one before closing the dropdown and should persist in that order after re-opening.<br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Close and re-open Mattermost OR open the config.json file.",
+        "testData": null,
+        "expectedResult": "Server tab order is preserved after restart and/or persisted on disk.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ee8fff16a853220014e3f72152c0ba958f7b31c3b085cff027ac25d9493db81abb2bc75c78acf087cdf21f860a5ad59b",
+  "stepsHashed": "b62eaddd37ecf75ec81a8ca4cf3ceca6913cc1ea54996fcd8390ce39350f3a8537457cf00b8a534ed3558f39adc6bd2f"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5600853,
+  "key": "MM-T2704",
+  "name": "Create new LDAP account from login page",
+  "createdOn": "2020-06-01T17:46:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "ldap", "TM4J-Key-Mapped-In-Cypress-Release"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create new LDAP account from login page<br>————————————————————————————<ol><li>Enter LDAP credentials for an account that's not yet on that Mattermost server and click to log in</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Account is created</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "924c76680442a5a2c9b8f07fb0ce3ae7fd42ab9b7d6f745f6f4d87f8e323af08bfafd3ff88587c48dd41e8a9eefd9f6d",
+  "stepsHashed": "24cf2863b6c68e49da03fe58bf7e2ac9f766dcca964004c2b84d83fd0c547f2dc0480f3778a46926e7549edd25872a84"
+}

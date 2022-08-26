@@ -1,0 +1,55 @@
+{
+  "id": 5602293,
+  "key": "MM-T2764",
+  "name": "Public channel should not be able to be group-constrained",
+  "createdOn": "2020-06-01T22:09:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Public channel should not be able to be group-constrained<br>————————————————————————————<ol><li>Try to run group channel enable on a public channel</li><li>Verified on team that is group-constrained and team that is not</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Output: \"Error: Channel 'no-con-qa-team:public-channel' is not private. It cannot be group-constrained\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15784\">CLI Group Constraint command allows constraining public channels; only private is supported at this time — MM-15784</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b82cf85eef4ef0ca3f719c2649cbdcb14d78d7b45e11f87efcf8133c690f680bdf9a69a18fa9502a746444aa5028ad1",
+  "stepsHashed": "43e002f92e34d76390dc3a8c1568051206d154fab72369818c2b5079f074fb9d285f0ab732e32393d3f51806b1077ebd"
+}

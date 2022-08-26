@@ -1,0 +1,81 @@
+{
+  "id": 5562738,
+  "key": "MM-T2617",
+  "name": "Reopen Mac Desktop App window on Cmd+Tab — macOS ONLY",
+  "createdOn": "2020-05-29T14:18:23Z",
+  "objective": null,
+  "precondition": "macOS desktop app only",
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.5 Desktop App (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<p data-pm-slice=\"1 1 []\">1. With the Mattermost application in focus, press <span spellcheck=\"false\"><strong>CMD</strong></span><strong>+W</strong> to close the window.<br><br></p>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "2. <span spellcheck=\"false\"><strong>CMD</strong></span><strong>+</strong><span spellcheck=\"false\"><strong>Tab</strong></span> to another application<br><br>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "3. <span spellcheck=\"false\"><strong>CMD</strong></span><strong>+</strong><span spellcheck=\"false\"><strong>Tab</strong></span> back to Mattermost",
+        "testData": null,
+        "expectedResult": "<p data-pm-slice=\"1 1 []\">Mattermost window reopens when returning to the app</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a94ce1c5628e7c0096596b303784032a2b461758d8c03de8d10ac188cf383e1eedd2acc42112f5203cb898051cf9683",
+  "stepsHashed": "4e886dd4e96b83e7fb3fabf1cbd87560de4f392b7f2dcb1ab483e8a10272b1d476d74f8613f2ebcb7e5ae3e541bc75ad"
+}

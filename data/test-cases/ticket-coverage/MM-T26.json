@@ -1,0 +1,69 @@
+{
+  "id": 2759570,
+  "key": "MM-T26",
+  "name": "MM-17361 — When on preview mode, it does not allow to submit a post from the main post input",
+  "createdOn": "2019-08-28T01:56:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T38" } },
+    {
+      "inline": {
+        "description": "Enter some text in the Center panel and click on the Preview button",
+        "testData": null,
+        "expectedResult": "Able to send/post new comment in center channel using Enter button",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enter some text on the RHS and click Preview",
+        "testData": null,
+        "expectedResult": "<ul><li>Able to send/post by using Enter or by clicking ‘Add Comment’ button</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "38d1bf6c3f604a4995948b8eca34001ba31d8d737b27bd6a91c9c7e67712362eeb5f25a7a82027c7b4aa039db4ce1ddb",
+  "stepsHashed": "155186a156d0e942e6f08a5f39e008c2136e8891b4da6a350cabc9f59e85a02ba1a8c1262b315587c395d770a5971491"
+}

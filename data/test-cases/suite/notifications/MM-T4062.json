@@ -1,0 +1,55 @@
+{
+  "id": 10729138,
+  "key": "MM-T4062",
+  "name": "Post a message that mentions a user",
+  "createdOn": "2021-05-14T01:40:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as test user and visit a channel.</li><li>Post a message mentioning other user which is a member of the channel</li><li>Click on permalink and verify that the post is highlighted for a while then back as regular post style</li></ol>",
+        "testData": "",
+        "expectedResult": "On step 2, verify that the email notification is received by the mentioned user with the title \"@&lt;sender-username&gt; mentioned you in a message\" and check that the message body is as expected like:<br><br>```template<br>@&lt;sender-username&gt; mentioned you in a message<br>While you were away, @&lt;sender-username&gt; mentioned you in the &lt;channel-display-name&gt; channel.<br><br>View Message ( &lt;site-url&gt;/landing#/&lt;team-name}/pl/&lt;post-id&gt; )<br><br>@&lt;sender-username&gt;<br>&lt;local-time&gt;<br><br>&lt;channel-display-name&gt;<br>&lt;posted-message&gt;<br><br>Want to change your notifications settings?<br>Login to &lt;site-name&gt; ( &lt;site-url&gt; ) and go to Account Settings &gt; Notifications<br><br>© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301<br>```",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "11f87054c356493351ef0bcbad90967cb28d88874e5da2928aa2154fa4f6365946200ef9d63fcde3c40b05613d01bcd5",
+  "stepsHashed": "c71ef3db715f6a3ab9ed59e2faf422250ef8a49249eba827a3e411b741450098f9a997ea3dbdc9e7697470fbe2e2db7f"
+}

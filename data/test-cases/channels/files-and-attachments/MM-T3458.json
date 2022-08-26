@@ -1,0 +1,55 @@
+{
+  "id": 7634933,
+  "key": "MM-T3458",
+  "name": "RN apps: File preview gallery - Copy public link to clipboard",
+  "createdOn": "2020-10-28T23:17:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.38 Mobile (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "First: <strong>Ensure that public links are enabled</strong> in System Console &gt; Site Configuration &gt; Public Links &gt;  `true`<br /><br />Should be able to <strong>copy public link</strong> to clipboard from file preview<br />–––––––––––––––––––––––––<ol><li>Login and go to a channel</li><li> Post a file, image, or captured photo/video</li><li> Tap on the posted file, image, or captured photo/video</li><li> Tap on link button</li><li> Tap on X button to dismiss file preview</li><li>Long press on post input and paste link and hit send button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After #3<ul><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604004728981-Screen+Shot+2020-10-29+at+1.51.55+PM.png\" class=\"fr-fic fr-dii\" />Verify <strong>copy public link</strong> button is displayed on all attachment types (file, image, captured photo, captured video)</li></ul></li><li>After #4,<ul><li>Verify <strong>Public link copied</strong> toast appears for some seconds (see sample below)</li></ul></li><li>After #6,<ul><li>Post should contain valid public link of file<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1615228641032-1615228641031.jpeg\" class=\"fr-fic fr-dii\" style=\"width:265px\" /></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<table><tbody><tr><td>(<span style=\"color:rgb(184, 49, 47)\">Cannot Reproduce</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-33622\">`Public link copied` toast does not appear — MM-33622</a></td></tr></tbody></table>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0272bf4f223aabcdd04e947ebffe5483ebce0455e0ada949f49a86fbe366639464556d1863d4b37b8159fa432afc75fa",
+  "stepsHashed": "617864a8141cadad61c5549a7e3bcce07026a547bb833c15ca4bc671344c31f79cdb64773d18745ae320d0a13f6e80ca"
+}

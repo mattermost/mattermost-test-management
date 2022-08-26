@@ -1,0 +1,55 @@
+{
+  "id": 20029492,
+  "key": "MM-T4735",
+  "name": "Insights - My insights - Hover Top Channels Graph",
+  "createdOn": "2022-03-31T21:20:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>SysAdmin</strong><br />2. Create <strong>ChannelA</strong> with 1000 Posts<br />3. Create <strong>ChannelB</strong> with 850 Posts<br />4. Create <strong>ChannelC</strong> with 600 Posts<br />5. Create <strong>ChannelD</strong> with 500 Posts<br />6. Create <strong>ChannelE</strong> with 250 Posts<br />7. Create <strong>ChannelF</strong> with 100 Posts<br />8. Select<strong> Activity &amp; Insight</strong> from LHS.<br />9. <strong>Hover</strong> Blue line graph",
+        "testData": null,
+        "expectedResult": "9.1. Following Popup should be displayed:<br />- <strong>Blue dot</strong><br />- <strong>ChannelA</strong><br />- <strong>Total Posts(1000)</strong><br />9.2. Green, Yellow, Red and Orange graph<br />should not be displayed.<br />9.3. <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1649179451389-1649179451389.png\" style=\"width:460px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "824b5b3baacfcc823e65e41e46e873aaf98eb42019b27787125cb231f8c9571393f720e90a14803403f62fa0c36ed311",
+  "stepsHashed": "9e36bf2a1db3e7471880958330773f856afd895eaba1550b39015471dc6b69c99b03f85c72aa8ca99ae178671a9e4867"
+}

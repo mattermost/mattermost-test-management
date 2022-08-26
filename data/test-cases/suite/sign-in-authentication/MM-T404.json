@@ -1,0 +1,55 @@
+{
+  "id": 3877710,
+  "key": "MM-T404",
+  "name": "Set up Multi-factor Authentication\n(Email login) - Enabled but not enforced",
+  "createdOn": "2020-01-03T00:39:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["5.34-p1", "sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Set up Multi-factor Authentication<br />(Email login) - Enabled but not enforced<br />–––––––––––––––––––––––––<ol><li>On a server with MFA enabled (but not enforced), such as <strong>rc.test</strong>, sign in with an account using email / password</li><li>Go to Profile ➜ Security ➜ Multi-factor Authentication ➜ Edit</li><li>Follow the instructions to enable MFA (mobile apps: verify you can scroll on the MFA setup screen)</li><li>Logout</li><li>(RN app testers, do this part on RN apps) Enter credentials to log in</li><li>Enter *<em>incorrect</em>* MFA token and verify it doesn't log you in</li><li>Verify taken back to login page, re-enter credentials (if they're not already filled in)</li><li>Enter correct MFA token</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Multifactor Authentication is enabled, and login is successful only after entering the MFA code.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<strong>Related ticket (Won't Fix)</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-9794\" rel=\"noopener noreferrer\" target=\"_blank\">Logging out on iOS classic causes a loop on server selection input — MM-9794</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1ed6565c47b517ce068e203a53e15e51a24ec65b87360634b04aae7a6446b02faace25c0ce89425e98826e33b8420431",
+  "stepsHashed": "9cf203fb292a99b8e084c06b4ec578ada5fa2a3c62bd22653a632fac545bb8179766a6af698e3b65913416f070448ec5"
+}

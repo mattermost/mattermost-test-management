@@ -1,0 +1,55 @@
+{
+  "id": 20291379,
+  "key": "MM-T4771",
+  "name": "DM Permalink preview",
+  "createdOn": "2022-04-07T19:45:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1879390,
+    "name": "Permalink Preview",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Create <strong>userA</strong>, <strong>userB</strong>, <strong>userC</strong></p></li><li><p>Create Public Channel (<strong>ChannelA</strong>) and Private (<strong>ChannelB</strong>)</p></li><li><p>Create a Group message with <strong>userA</strong>, <strong>userB</strong>, <strong>userC</strong></p></li><li><p>Post a message in <strong>userA</strong> <strong>DM</strong></p></li><li><p>Click on the [...] menu to the right of the message posted.</p></li><li><p>Paste the permalink in the same <strong>userA</strong> <strong>DM</strong></p></li><li><p>Paste the permalink in the <strong>GM</strong></p></li><li><p>Paste the permalink in the <strong>ChannelA</strong></p></li><li>Paste the permalink in the <strong>ChannelB</strong></li></ol>",
+        "testData": null,
+        "expectedResult": "<p>6. Permalink preview should be displayed in <strong>userA</strong></p><p>7. Permalink preview should be displayed in <strong>GM</strong></p><p>8. Permalink preview should be displayed in <strong>ChannelA</strong></p>9.Permalink preview should be displayed in <strong>ChannelB</strong>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "acd88641b31023206e7bda4f3ffa2f27f788679e4e572bb24a1f484388508bef3c22c75637f8387b33c6219d003f61c1",
+  "stepsHashed": "303a840bfd891f1ba11454a62ff0779ee4fcc856fb1089086c29f12d40c9359c4b6a72533c21b237a61fc793a4c5fbc0"
+}

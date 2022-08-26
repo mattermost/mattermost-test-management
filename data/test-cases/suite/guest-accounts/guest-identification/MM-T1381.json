@@ -1,0 +1,55 @@
+{
+  "id": 4152364,
+  "key": "MM-T1381",
+  "name": "Members modal - specifies guest users as \"Channel Guest\" for system admin and member",
+  "createdOn": "2020-01-30T23:27:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Members modal - specifies guest users as \"Channel Guest\" for system admin and member<br>–––––––––––––––––––––––––<ol><li>Ensure a guest user Guest1 is added to a team Team1 and a channel Channel1</li><li>Login as a System Admin and navigate to channel Channel1 and click on Manage Members</li><li>Observe the Guest user's channel status</li><li>Now login as a Regular Member and navigate to channel Channel1 and click on Manage Members</li><li>Observe the Guest user's channel status</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 3 and 5:<ul><li>Guest user should be labelled as \"Channel Guest\" in Manage Members dialog</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bd2202c437a0337de47876fe5c754fd90d07364cf968352a885f288d502ee6d4cf7fa89827d8880cf8e6c3b38915a361",
+  "stepsHashed": "5a6cc916b784a9b167314f88234ece0e50d9b0aeff27ef30366e79a4194c40e6a929358e2440a62f9c6419134554710c"
+}

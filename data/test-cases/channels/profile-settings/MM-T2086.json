@@ -1,0 +1,55 @@
+{
+  "id": 5444634,
+  "key": "MM-T2086",
+  "name": "Password - Timestamp and email",
+  "createdOn": "2020-05-20T05:50:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User menu-&gt;Profile-&gt;Password - Timestamp and email<br />—————————————————————————<br />^",
+        "testData": null,
+        "expectedResult": "Password setting shows password was updated at current time. <br />An email notifcation about the password update is received.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b242c54ab141c06ffdee12676a6ff211a63025595e0e8f06f066cd2cb71eb14bba43b9587979c6675b38f3e86e8cc7f5",
+  "stepsHashed": "7e02442f3192a3c1b1c8ab8e3f1a5886cfac1db5dabfd1402f70962550ce4062e2db5743d0258343d57597f81225cd46"
+}

@@ -1,0 +1,95 @@
+{
+  "id": 15454754,
+  "key": "MM-T4277",
+  "name": "Set up Views",
+  "createdOn": "2021-10-14T08:54:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1840288,
+    "name": "Board creation and set-up",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board creation and set-up"],
+    "fullPath": "boards/board-creation-and-set-up"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4274" } },
+    {
+      "inline": {
+        "description": "Click on the \"v\" to the right of \"Board View\"",
+        "testData": null,
+        "expectedResult": "Menu containing options opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Hover over \"Add View\" and select \"Table\"",
+        "testData": null,
+        "expectedResult": "View changes to Table view and \"Table View\" option is added to left-hand-side panel below the board title",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"v\" to the right of \"Table View\" ",
+        "testData": null,
+        "expectedResult": "Menu containing options opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Hover over \"Add View\" and select \"Gallery\"",
+        "testData": null,
+        "expectedResult": "View changes to Gallery view and \"Gallery View\" option is added, in alphabetical order, to left-hand-side panel below the board title",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fead41b637b7dc7b043a4bf12b82b840b37d19a0f1ff8e8e7b3d5f103e8d209c7737a843c9801a490f01119e62672c43",
+  "stepsHashed": "ae3991a97bfc4c447d0dfe18cc8beaa91383f8297ffbea5745c710a53a10c3648f6a087fa5827b2424eb7ce958120a67"
+}

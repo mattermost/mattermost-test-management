@@ -1,0 +1,55 @@
+{
+  "id": 13721382,
+  "key": "MM-T4196",
+  "name": "/github subscribe - default notification preferences",
+  "createdOn": "2021-08-30T15:24:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post \"/github subscribe DHaussermann/hello-world\" to a private channel<br />2. Go to DHaussermann/hello-world in GitHub<br />3. Create test issue<br />4. Comment on the test issue<br />5. Create a test PR",
+        "testData": null,
+        "expectedResult": "On 1. User receives an ephemeral message noting the subscription was successful + The User will get the Warning Message as \"You subscribed to a private repository. Anyone with access to this channel will be able to read the events getting posted here.\"<br /><br />Mattermost channel receives notifications for new issue and new pull request, but not issue comments",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "19a947630f8740daea9cd93705241da2e0f9effd5b38395d5f7615ab0021d1f6687949dfc5d5dc08008642d29576f172",
+  "stepsHashed": "d07426d0cd7df03fc52bbfe2ef7009c784841c6876eb2be17cfc73ea551c19d5e2067c89fb132a360b28ebca018848e7"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3905606,
+  "key": "MM-T538",
+  "name": "(Requires two mobile devices for testing)\nWhen logged in on multiple Mobile sessions clearing a notification from one device will clear it on other devices as well",
+  "createdOn": "2020-01-03T19:25:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.10 (April 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Linda Note: Left off team RC testing for Oct 2020. Most often people skip it and say they don't have two devices. Low priority; may archive.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "(Requires two mobile devices for testing)<br>When logged in on multiple Mobile sessions clearing a notification from one device will clear it on other devices as well<br>–––––––––––––––––––––––––<ol><li>User A logs in on 2 mobile devices and ensure notification settings are set to receive push notifications (check your status to be sure, as above tests)</li><li> User A puts the app in background on both mobile device</li><li> User B mentions User A in a channel User A is NOT viewing on desktop</li><li> User A gets push notification on both devices</li><li>User A Open the push notification on one device</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Notification cleared on both devices after viewing on one of them</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.10 (April 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-14532\">Send “clear” push notification to every other session — MM-14532</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "865523b27a436e93a40b3c56da7910ac8efcc52b68dd884fe92792c915e5f729c1fe5f3d3fa0979fcd337eb1c72e24cc",
+  "stepsHashed": "a6bf14b0577bce41ab7e7df22155580ca7bc7aedf05b472c7feb984ea7033b2a2e232fb0384e586210e0ac855676d1d5"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8581296,
+  "key": "MM-T3706",
+  "name": "Command - Archive : non-existent command",
+  "createdOn": "2021-01-14T10:48:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl command archive commandID",
+        "testData": null,
+        "expectedResult": "returns an error as command is non-existent",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ec2707675236a0005183ec6c748fe790b5189357d0564ee7d9b55fd010a28549fbdf3182dce12b3b6b9afac2df9e8f72",
+  "stepsHashed": "e0f0468804dc609c87465693cc85b5506ed079d998f51219657709f89cec26ee60c558c04a3d0e275a8e6e15c3c1e286"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3877567,
+  "key": "MM-T388",
+  "name": "Invite new user to closed team with \"Allow only users with a specific email domain to join this team\" set to \"mattermost.com\" AND include a non-mattermost.com email address in the invites",
+  "createdOn": "2020-01-02T23:43:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, September 24, 2020 8:58 AM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Ensure that Main Menu &gt; Team Settings &gt; Allow any user with an account on this server... is set to `No`</li><li>Ensure \"Allow only users with a specific email domain to join this team\" is set to \"mattermost.com\"</li><li>Open Main Menu and click `Invite People`</li><li>Enter an email address you can access (can use your Mm email using a plus sign, like so: `linda+anything@mattermost.com`)</li><li>Enter another non-mattermost email address (this can be fictitious as it is just needed to check the error message)</li><li>Click `Invite Members`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>An error message is displayed:<ul><li>\"The following email addresses do not belong to an accepted domain: xxxxx@gmail.com. Please contact your System Administrator for details.\"<br><br></li></ul></li></ul><strong>Note</strong>: After verifying the above, you can cancel out of the screen",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20977\" rel=\"noopener noreferrer\" target=\"_blank\">Inviting multiple users with valid/allowed and invalid emails causes the invites for the valid users not to be sent — MM-20977</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e22238e7886606e9aa89b6195ef3c4b30e5a8721399689466152f4ee79ed73a3de9c2a4fd172696d9620538dffeb684a",
+  "stepsHashed": "4e0483f1ad8076a4a87051ea8cf598861903b6507de37959f6ec1cebcb3ab0cf246d4c8d32f8e4b88ca7c576380e181e"
+}

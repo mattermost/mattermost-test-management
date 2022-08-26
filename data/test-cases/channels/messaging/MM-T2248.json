@@ -1,0 +1,55 @@
+{
+  "id": 5445233,
+  "key": "MM-T2248",
+  "name": "Autolink when non-letter character follows a period in the URL",
+  "createdOn": "2020-05-20T06:34:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Autolink when non-letter character follows a period in the URL<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Post https://test.somedomain.com/display/SomeStuff/123.+Pagetitle",
+        "testData": null,
+        "expectedResult": "Entire URL should be included in the link (doesn't cut off after 123)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "36a3165877b4526a37b2bec5804712feaf2806451862f19c8ca637a958fc8da0d4314529a8993f4e2fcdf2c4ba55a9f2",
+  "stepsHashed": "a7a9656aac37eab3bc256c7c9fd81a2e9237e0c34c7f7be119d15ee431883ef62f716178b7ddebd6a2a84f39772e2bb2"
+}

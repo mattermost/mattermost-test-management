@@ -1,0 +1,55 @@
+{
+  "id": 6181524,
+  "key": "MM-T3093",
+  "name": "User removed from team does not appear in channel drop-down Add Members list",
+  "createdOn": "2020-07-13T19:12:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User removed from team does not appear in channel drop-down Add Members list<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As a Team or System admin, remove a test user from the team.<br />2. Go to a private channel on that team, then under the channel dropdown &gt; &quot;Add members&quot;<br />3. Attempt to find and add the removed user",
+        "testData": null,
+        "expectedResult": "Removed user should not be in the Add Members list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a82728e27d248de4b338d1fc4cb48dd6f5be1b64735dcf5772c4a7ee666dfad4c05560aea864f2787d9ccf5bb145dd6",
+  "stepsHashed": "6db4eeb12363389894eb45c40071fc2d21d8961660fab9b7f496ac61fd14c4b0ed49a94d355122a3460559d15123e6eb"
+}

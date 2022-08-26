@@ -1,0 +1,55 @@
+{
+  "id": 16373190,
+  "key": "MM-T4419",
+  "name": "Add Server Modal should not be removable when no servers exist",
+  "createdOn": "2021-11-23T14:36:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1965772,
+    "name": "Startup",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Startup"],
+    "fullPath": "desktop-app--native-specific-/startup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open Mattermost Desktop with no servers<br />2. Press the ESC button",
+        "testData": null,
+        "expectedResult": "- Add Server Modal should appear with no X button or Cancel button<br />- On ESC, the Add Server Modal should not disappear",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7eb8b6fbcb47637f9798b4fb6bbe3d6401c68a8b281dc5d78ad1d4b2730847087652dcdd11176ba03aa82a8d2dc52b83",
+  "stepsHashed": "4bafa1d7c6e6bcd4b79a30ec65dbfac44197d0cbbfc8bd58a59f09666f4dea410e29b059f32b69bc671d29c926b8a564"
+}

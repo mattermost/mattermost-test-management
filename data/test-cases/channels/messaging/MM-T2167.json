@@ -1,0 +1,61 @@
+{
+  "id": 5444767,
+  "key": "MM-T2167",
+  "name": "Pin a post, view pinned posts",
+  "createdOn": "2020-05-20T06:05:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "messaging"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pin a post, view pinned posts<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On a message in center channel, click [...] &gt; Pin to channel<br />2. Click pin icon next to search box",
+        "testData": null,
+        "expectedResult": "- Pinned post appears in RHS.<br>- Message has Pinned badge in center channel (but not RHS).<br>- RHS title displays as \"Pinned Posts\" and \"[channel name]\".",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af14ce3ec440a27084020249be358f6e6e9f9f59e8ccf38ac8bf909a25ad8596fc265e1d2ec2875a1bab3863945dcfa3",
+  "stepsHashed": "f6e982fca66fa508fe07e2a153da32fa38c3c00c08dee9fc9333aa3b56d54010ae8fb00514cfdd97e96f661ab49da4b8"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 25434028,
+  "key": "MM-T4902",
+  "name": "Insights - available as last channel viewed when switching teams",
+  "createdOn": "2022-07-05T17:49:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2420038,
+    "name": "Insights",
+    "parentId": 2373996,
+    "fullNames": ["Suite", "Activity and Insights", "Insights"],
+    "fullPath": "suite/activity-and-insights/insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Should go to insights view when switching a team if that was the last view on that team</u><ol><li>Go to the Insights view on Team A</li><li>Switch to Team B<ol><li>Verify team display name changes correctly.</li></ol></li><li>Switch back to Team A<ol><li>Verify url is set up for insights view</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "Should go to insights view when switching a team if that was the last view on that team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Should go to Insights view when Insights view is the penultimate view and leave the current channel<ol><li>Go to the Insights view on Team A</li><li>Switch to Test Channel</li><li>Leave the current channel<ol><li>Verify url is set up for insights view when insights view is the penultimate view</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9694719f405c11d8c8202f54368016c221daabe5330af57386d0a2ac575b395c2024e4b2db3a7ae3cd7381c7e26ac2da",
+  "stepsHashed": "b6400dbf351c8ce91143cf2ddb57129aebba47a5b3c3ed625edd1ff9793b0689eca75ad18f066cc6f486bf6fd56811ce"
+}

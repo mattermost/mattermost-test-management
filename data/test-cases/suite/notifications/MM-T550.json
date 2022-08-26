@@ -1,0 +1,55 @@
+{
+  "id": 3905618,
+  "key": "MM-T550",
+  "name": "Words that trigger mentions - @-icon still shows mentions list if all triggers deselected",
+  "createdOn": "2020-01-03T19:25:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 2:24 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Words that trigger mentions - @-icon still shows mentions list if all triggers deselected<br>--------------------<ol><li>Go to the main menu and click \"Account Settings\"</li><li>Click \"Notifications\"</li><li>Click \"Edit\" for \"Words That Trigger Mentions\"</li><li>Deselect all words that trigger mentions:<ol><li>Your case sensitive first name \"Kenneth\"</li><li>Your non-case sensitive username \"sysadmin\"</li><li>Channel-wide mentions \"@channel\", \"@all\", \"@here\"</li><li>Other non-case sensitive words, separated by commas</li></ol></li><li>Click \"Save\"</li><li>Cross out of the Account Settings modal.</li><li>Click the @ icon next to the search box in channel header.</li></ol>",
+        "testData": null,
+        "expectedResult": "@[username] appears in search box and @-mentions are listed in RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "21a7bf37f2dbc80269da3914a2a3232ef056825dc787b25ba8aade946465180d83f07495214549d9a7c2e9f9a447ea7b",
+  "stepsHashed": "6f43c11fbc84690c6f85cdd4ed4b9fcc72cccd96c387054cf4c5e714c61d38c37b5015a530b2736caac697f6bfe6f967"
+}

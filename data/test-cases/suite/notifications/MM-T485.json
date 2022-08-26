@@ -1,0 +1,55 @@
+{
+  "id": 3905481,
+  "key": "MM-T485",
+  "name": "Words that trigger mentions - Channel-wide mentions at-HERE in all caps",
+  "createdOn": "2020-01-03T18:52:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Words that trigger mentions - Channel-wide mentions<br><br>at-HERE in all caps<br>--------------------<ol><li>Click the hamburger main menu</li><li>Select \"Account Settings\" then select \"Notifications\"</li><li> Click ‚ÄúEdit‚Äù to the right of ‚ÄúWords that trigger mentions‚Äù</li><li> Select \"channel-wide mentions \"[[at]channel], [[at]all], [[at]here]\"\"</li><li> Click ‚ÄúSave‚Äù</li><li>Use another account to post `[at]here` (in all caps)</li><li>Note: Pressing \"Esc\" after typing `[at]here` will keep it in caps otherwise the autocomplete changes it to lowercase letters</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You receive a notification, channel is bolded in LHS and shows a mention jewel</li><li>Post appears as `@HERE`</li><li>The at-here is highlighted</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cfd721c3df5fb994f15fe1e6db031b0b82d793d750352296e28cc91d6cd30bc45253d748bdc2fb1ea3209fa81853ad03",
+  "stepsHashed": "1eca3e500df10e2467282624e0d8b1c5484707baa40881dd4b75797b23fddff7be475c136200d55dc3c7a5ead1db2d95"
+}

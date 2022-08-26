@@ -1,0 +1,55 @@
+{
+  "id": 5602319,
+  "key": "MM-T2790",
+  "name": "LDAP sync job deletes memberships from teams and channels\nD. Group gets deleted from LDAP... \n1. Group members are removed from associated channel \n2. Group members are removed from associated team",
+  "createdOn": "2020-06-01T22:09:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "LDAP sync job deletes memberships from teams and channels<br>D. Group gets deleted from LDAP...<br>1. Group members are removed from associated channel<br>2. Group members are removed from associated team<br>————————————————————————————<ol><li>With above setup, removed (actually re-named) abc group in LDAP</li><li>Sync LDAP</li></ol>",
+        "testData": null,
+        "expectedResult": "abc group member loses both group-constrained channel and team",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) Update LDAP sync job to delete memberships from teams and channels — MM-14412",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a1cda83f8aa7a8399e507c71c9ef51a7eed4f02217c7d968a788abb776e4d54dd29e56c7e5e4c64feb3cc01f0c906854",
+  "stepsHashed": "2d2eec33e2180e327de8717d4afe9adad383fca9ce6cd0720da4db59b3806e1fbfcfe531b8cdabef3b6298c95e3ba2f9"
+}

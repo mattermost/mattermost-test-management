@@ -1,0 +1,55 @@
+{
+  "id": 3905490,
+  "key": "MM-T493",
+  "name": "Send Desktop Notifications - Click notification from DM",
+  "createdOn": "2020-01-03T18:53:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Can't be automated with Cypress where it's currently not possible to click on the desktop notification.",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Send Desktop Notifications - Click notification from DM<br>––––––––––––––––––––––––––<ol><li>On an account that's on two teams</li><li> View Team A ➜ Channel A</li><li> Have another user post a direct message to you while viewing Team B</li><li>Click on the desktop notification</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are redirected to the DM, while still viewing Team A</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "055192cd4b482735c529500b60733f375d05ee9e2bc7edb7bb3ea3f448b5a6980a7a763c835fa14efd8fc18357199a87",
+  "stepsHashed": "13fe0e3aedbbfc80b495deca532db6232452edb66e291f3aa3c9b2e6844f422ddef7866c451d553f5a9c99e3453f3774"
+}

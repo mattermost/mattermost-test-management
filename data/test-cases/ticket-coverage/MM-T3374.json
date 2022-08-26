@@ -1,0 +1,69 @@
+{
+  "id": 7135560,
+  "key": "MM-T3374",
+  "name": "Edit a post and post it from preview",
+  "createdOn": "2020-09-23T18:24:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T38" } },
+    {
+      "inline": {
+        "description": "1. Open a public channel<br>2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br>3. Edit the post by adding \"**bold text** :joy:\"<br>4. Click the preview button and and observe the markdown shows<br>5. Save",
+        "testData": null,
+        "expectedResult": "Post with markdown can save edit from preview mode",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a DM channel<br>2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br>3. Edit the post by adding \"**bold text** :joy:\"<br>4. Click the preview button and and observe the markdown shows<br>5. Save",
+        "testData": null,
+        "expectedResult": "Post with markdown can save edit from preview mode<br><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a8e83b919c4e4a2501da7a00a9804826dd8f1921d6168250b4f8add112ad604827e4c2f9c56a3711ccf6c11370ce1d48",
+  "stepsHashed": "000beb5997e705e8dcfb7c2a8441fdfb089c60912ef62a6f45375cd24280dcf70ec13716346562d430789f9405874197"
+}

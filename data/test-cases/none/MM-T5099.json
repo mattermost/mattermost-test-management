@@ -1,0 +1,49 @@
+{
+  "id": 29001019,
+  "key": "MM-T5099",
+  "name": "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
+  "createdOn": "2022-08-21T15:46:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Pre-condition:<br />1. Given Users make upgrade request for<ul><li>upgrading Boards, as only creating 5 boards is possible in fr</li><li>Guest accounts</li><li>Creating custom groups</li><li>...so on</li></ul><br />Test:<br />As an admin, when Logged in the system bot should show messages in this format<br /><br /><p>[User name] requested to upgrade the [workspace name] workspace to</p><br /><div><table><colgroup><col></col><col></col></colgroup><tbody><tr><td><p>Limits</p></td><td><p>Phrase</p></td></tr><tr><td><p>Message</p></td><td><p>…view the full message history.</p></td></tr><tr><td><p>Files</p></td><td><p>… increase the file storage limit.</p></td></tr><tr><td><p>Boards</p></td><td><p>… view more than 5 boards.</p><br /><p>… view all cards in boards.</p></td></tr><tr><td><p>Integrations</p></td><td><p>… activate more than 5 integrations</p></td></tr></tbody></table></div><br /><br /><br />",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1661095546200-1661095546200.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "https://mattermost.atlassian.net/browse/MM-45564",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a6311497056ad90367eaf9dddd60317753c6706087eef77f1ae0a37af1e55841d1380aba4175e52d13ac57d4d1e5e224",
+  "stepsHashed": "d57c790b7ddcfff4a0b9664404553e9b28b87bcd16be35a98b93758e3a183f1ca1384106873c9f11ba087e6833a56c83"
+}

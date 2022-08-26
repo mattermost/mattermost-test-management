@@ -1,0 +1,55 @@
+{
+  "id": 16577977,
+  "key": "MM-T4424",
+  "name": "System Console license page",
+  "createdOn": "2021-12-01T18:58:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1716688,
+    "name": "System Console",
+    "parentId": 1686243,
+    "fullNames": ["Cloud", "WIP", "System Console"],
+    "fullPath": "cloud/wip/system-console"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Download and install Mattermost Team edition locally</li><li>Verify that there isn't any way to upload a license</li><li>Verify ability to start trial</li><li>Once trial starts verify Enterprise features are present</li><li>Cancel trial and verify there's a spot to upload a license</li><li>Remove license and verify features are no longer present</li><li>Verify links to contact sales work when no license is present</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<span style=\"color:rgb(184, 49, 47)\"><strong>Notes from the FIGMA (to be removed later)</strong></span><br />1. Upgrade from Mattermost Team Edition to Mattermost Enterprise Edition (Starter tier). The reason is that someone who runs the open-source version cannot upload a license or start a trial. They must first upgrade to the commercial Enterprise Edition. We allow them to do that with a single button.<br />2. License field which tells where the MIT license and the NOTICE.txt files are that ships with the binary.<br />3. Written commercial license for those who do step 1 and upgrade to the commercial Enterprise Edition.<br />4. Clear note that this is a Team Edition binary.<br /><br />ENTERPRISE EDITION (STARTER PLAN)<br /><br />1. Ability to start a trial.<br />2. License field which tells where the ENTERPRISE-EDITION license and the NOTICE.txt files are that ships with the binary.<br />3. Location to upload a license key.<br />4. Clear note that this is an Enterprise Edition binary for Starter plan.<br /><br />ENTERPRISE EDITION (ENTERPRISE TRIAL)<br />1. Ability to make a purchase self-serve, or contact sales. Both options are present during and after the trial.<br />2. License field which tells where the ENTERPRISE-EDITION license and the NOTICE.txt files are that ships with the binary.<br />3. Details about the trial license, including the expiry date.<br />4. Ability to remove the Enterprise license and downgrade server.<br />5. Ability to view Enterprise terms of use and privacy policy<br />6. Clear note that this is an Enterprise Edition binary for Enterprise plan.<br /><br />ENTERPRISE EDITION (ENTERPRISE PLAN)<br /><br />Same as Enterprise trial, except for the first use case, there will be an option to either renew self-serve, or contact sales once there is less than 60 days remaining in their license period.<br /><br />ENTERPRISE EDITION (PROFESSIONAL PLAN)<br /><br />Same as Enterprise, except<br />1. any references to Enterprise plan are replaced with references to Professional plan.<br />2. provide a CTA to contact sales to upgrade to Enterprise<br /><br />ENTERPRISE EDITION (STARTER GOV)<br /><br />Same as Enterprise, except<br />1. any references to Enterprise plan are replaced with references to Starter GOV plan.<br />2. provide a CTA to contact sales to upgrade to Professional or Enterprise GOV plans."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "81dcf09d4670f20022337dc46938b4fdc243835821ce16e77f4bbc73b42d903ae8889a671366d6e88e2c2bc07066dcd9",
+  "stepsHashed": "9ccda5664e1c4025d8ca568fc14def046787e4360232a1d77d5d07470843b54786e79c5c107bbdc4c562e6efea337329"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 15984472,
+  "key": "MM-T4363",
+  "name": "Sidebar - Refresh",
+  "createdOn": "2021-11-04T17:56:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Note current counts of PRs awaiting your review<br />2. Have another bitbucket user request your review on a PR<br />3. Click Refresh option",
+        "testData": null,
+        "expectedResult": "Count is incremented by 1",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "27945a3982f6d68fcbece61f12c8dce0b9dfd19a9c1fb8c860010d87c6ba054d889cf5edadce32d943cb4c7c1b7c5300",
+  "stepsHashed": "2ecf8e5e3529e8776daa0ab7b27f206f8be7e26de2f17627f06c1a5fa22f15ef3c1dfaccfff253a2c7fdb76ad4e47b9a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8647052,
+  "key": "MM-T3779",
+  "name": "User - Delete : confirm using prompt",
+  "createdOn": "2021-01-20T10:23:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&nbsp;mmctl user delete [user-email]",
+        "testData": null,
+        "expectedResult": "Type YES to prompts<br>Deletes the user",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "02daf9141b1f943fb646c867119738cb1866d8bcd2be5a924af27b1d71de3e547968bffd3224ec36451e8ee445c866e1",
+  "stepsHashed": "8d2c14297d00ac1c9200e2c8da8a7058e1617281fd1b7e17450ef5ad2626a123f36757be9d6fbeee57074ce27019852f"
+}

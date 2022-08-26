@@ -1,0 +1,68 @@
+{
+  "id": 15319679,
+  "key": "MM-T4267",
+  "name": "Todo Summary Reminder can be enabled and disabled",
+  "createdOn": "2021-10-06T16:00:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194690,
+    "name": "Notifications",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Notifications"],
+    "fullPath": "plugins/github/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post <em>/github todo</em> to ensure the test user has content to show<br />2. Type <em>/github settings reminders <strong>on</strong></em><br />3. Connect to the database<br />4. Open a table named `<em>pluginkeyvaluestore</em>`<br />5. Locate a record with primary key of \"github\" and the pvalue is a collection of UserIDs and token such as <em>{\"UserID\":\"kgestpg3kfbdjpnkzcfjq399pr\",\"Token\":{\"access_token\":..</em><br />6. Edit the cell and find your test user and last time stamp in the contents by locating their GitHub handle <em>,\"GitHubUsername\":\"DylanH20\",\"LastToDoPostAt\":1633392350355,\"</em><br />7. Modify the epoch timestamp to be more than 24 hours in the past and save<br />8. Return to the browser and refresh the App",
+        "testData": null,
+        "expectedResult": "Test user receives DM from GitHubBot with their reminder summary",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Can only be done same day with direct DB access"
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Post <em>/github todo</em> to ensure the test user has content to show<br />2. Type <em>/github settings reminders <strong>off</strong></em><br />3. Connect to the database<br />4. Open a table named `<em>pluginkeyvaluestore</em>`<br />5. Locate a record with primary key of \"github\" and the pvalue is a collection of UserIDs and token such as <em>{\"UserID\":\"kgestpg3kfbdjpnkzcfjq399pr\",\"Token\":{\"access_token\":..</em><br />6. Edit the cell and find your test user and last time stamp in the contents by locating their GitHub handle <em>,\"GitHubUsername\":\"DylanH20\",\"LastToDoPostAt\":1633392350355,\"</em><br />7. Modify the epoch timestamp to be more than 24 hours in the past and save<br />8. Return to the browser and refresh the App",
+        "testData": null,
+        "expectedResult": "Test user <strong>does not</strong> receive a DM from GitHubBot with their reminder summary",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Can only be done same day with direct DB access"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e23182bed648a7f037bb8a515c2aa2785639c711b4a8f92b400c89983b8f1100a62b3156042c5c6d6235090e9dbaecb2",
+  "stepsHashed": "bced60eba100f2d016dbdc8f30bfd7ceb0fcd9c26e1732a5bbe7308869a56e965b8c2ecb5ab3d06c279868d46ff803d7"
+}

@@ -1,0 +1,94 @@
+{
+  "id": 28665886,
+  "key": "MM-T5062",
+  "name": "Show only available commands (on execution and  `/genie help command)",
+  "createdOn": "2022-08-16T14:52:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Set up OpsGenie App<br />2. Run the `/genie help` command",
+        "testData": null,
+        "expectedResult": "On 2. Only are shown `help` and `configure` command information",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "3. Login to the Mattermost instance as member role<br />4. Run the `/genie` command<br />5. Run the `/genie help` command",
+        "testData": null,
+        "expectedResult": "On 4. Only available command is `help`<br />On 5. Only is shown `help` command information",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "6. Logout and access to MM instance as sysadmin role. Call to test OpsGenie command: `Configure`<br />7. Run the `/genie` command<br />8. Run the `/genie help` command",
+        "testData": null,
+        "expectedResult": "On 7. Available commands are: `help`, `configure`, `subscription`, `alert` and `list`<br />On 8. Command information shown from: `help`, `configure`, `subscription`, `alert` and `list`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "9. Login to the Mattermost instance as member role<br />10. Run the `/genie` command<br />11. Run the `/genie help` command",
+        "testData": null,
+        "expectedResult": "On 10. Available commands are: `help`, `subscription`, `alert` and `list`<br />On 12. Command information shown from: `help`, `subscription`, `alert` and `list`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86b750bdf9e4747925ce02e2f76536acf6385035798975ade9696d3fddd5039d74bf9b9d97f3abb76ab496910a53f9c8",
+  "stepsHashed": "8943a7743f392ffb99ad160255efb3facc060e1a0f9bac6bbcb7d5bffa516daa9c9a08742b476e5cad2f315ed8bc7d1d"
+}

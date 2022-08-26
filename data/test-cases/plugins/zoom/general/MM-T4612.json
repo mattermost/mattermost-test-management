@@ -1,0 +1,68 @@
+{
+  "id": 17980399,
+  "key": "MM-T4612",
+  "name": "Plugin channel header tooltip",
+  "createdOn": "2022-01-31T22:10:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2157124,
+    "name": "General",
+    "parentId": 2157120,
+    "fullNames": ["Plugins", "Zoom", "General"],
+    "fullPath": "plugins/zoom/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In a public channel, hover over the Zoom icon",
+        "testData": null,
+        "expectedResult": "- Tooltip reads \"Start Zoom Meeting\"<br />- Icon shows as greyed-out when clicked<br />- Plug icon shows as clicked when multiple plugins are enabled that use to top righ icon",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Note that this test can be run with Zomm configured using any authentication method."
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Enable The AppBar<br />2. Hover over the Zoom icon in the AppBar",
+        "testData": null,
+        "expectedResult": "- Tooltip reads \"Start Zoom Meeting\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Note that this test can be run with Zomm configured using any authentication method."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4f3d0051b3ac4d738970cd18e09b6d19f62dbcf12927cb64b1a991046d681c615ed679be203d383aff53e00502286362",
+  "stepsHashed": "4646c58e8718b26ae73ee607aad634dc4c3afacc556144b28e21ab9495ce6f2b944e114735984c4398616d89a009aa28"
+}

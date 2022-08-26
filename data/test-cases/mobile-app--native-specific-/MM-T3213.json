@@ -1,0 +1,55 @@
+{
+  "id": 6396889,
+  "key": "MM-T3213",
+  "name": "RN apps: GM channel - Post a message",
+  "createdOn": "2020-07-30T21:04:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should be able to create a GM channel and post a message to the group<br>--------------------<br>1. Login to server and open main sidebar<br>2. Tap on plus button (<strong>+</strong>) next to <strong>Direct Messages</strong><br>3. Type some letters to filter the user list<br>4. Tap to select 2 or more users (don't tap your own user first)<br>5. Search for your own user<br>6. Tap <strong>Start</strong> button<br>7. Post a message in the GM channel",
+        "testData": null,
+        "expectedResult": "After #5,<ul><li>Verify your own user is not displayed and cannot be add to a GM</li></ul><br>After #6,<ul><li>GM channel is created and displayed</li></ul><br>After#7,<ul><li>Message is posted in the GM channel</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "18d56cb60afeae4d53464913a24d3fcb3162dffa81d01ad8c96a23c6ac1fef2adfbc50f7193849596160a70a6744a2d7",
+  "stepsHashed": "12737dbe85dd405c1add895a6099b58b6efb5ad033e40c5d497a4f8965538d135b22948af92782dc8f8ac28554ff7fe4"
+}

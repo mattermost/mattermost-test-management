@@ -1,0 +1,55 @@
+{
+  "id": 5467321,
+  "key": "MM-T2357",
+  "name": "End user tries to respond to survey from mobile apps",
+  "createdOn": "2020-05-21T21:40:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404297,
+    "name": "NPS Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "NPS Plugin"],
+    "fullPath": "plugins/nps-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "NPS Plugin"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "End user tries to respond to survey from mobile apps<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;",
+        "testData": null,
+        "expectedResult": "<ul><li>Response appears on screen as if from webapp (including showing immediately on webapp when selected from mobile app)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d0372f1787613e90b89a012f43d8a5821e2218bfc0978dc581a1b144afe51151bd9403b65760ef1a3e3c112e7d48927b",
+  "stepsHashed": "5591e7f216ee293e466c16a8d5c43dff14f0fba9bd2b1d4ea336dd47e93cf04267938298815bcbadd9bb58926b4edc0a"
+}

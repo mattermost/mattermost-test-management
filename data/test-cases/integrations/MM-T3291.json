@@ -1,0 +1,55 @@
+{
+  "id": 6542851,
+  "key": "MM-T3291",
+  "name": "Slash commands can be used with optional parameters",
+  "createdOn": "2020-08-07T20:58:18Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires test demo plugin build here: <a href=\"https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation\">https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation</a>",
+  "estimatedTime": null,
+  "labels": ["Hackfest", "Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Install Agenda v0.3.0 <br>2. Type /agenda queue <br>3. Select a day of the week then type an agenda item <br> 4. Send the command ",
+        "testData": null,
+        "expectedResult": "Meeting item queued successfully ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "216187a5d0dfcfdaedf894032b24e65f76e77ec45d30406b76820c8f3c842400b56f7335bef365246c282a9f9cd8679a",
+  "stepsHashed": "b64dc5563992be51b855baedfcbd5312b25d7e91f4651441b3390de3975791589761c820f3f76acd303b8e234352913b"
+}

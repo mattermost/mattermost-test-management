@@ -1,0 +1,69 @@
+{
+  "id": 28632592,
+  "key": "MM-T5043",
+  "name": "Trello command: `Card create`",
+  "createdOn": "2022-08-15T22:39:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290340,
+    "name": "Trello",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Trello"],
+    "fullPath": "apps-framework/trello"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5042" } },
+    {
+      "inline": {
+        "description": "2. Run the `/trello card create` command<br />3. Add card's name<br />4. Add card's board name<br />5. Add card's list<br />6. Execute action",
+        "testData": null,
+        "expectedResult": "On 2. Both options to execute are shown: executing command or input options as part of commands<br />On 4. The data is validated.<br />On 6. `Trello` app bot sends response to confirm or to show error. If card is successfully created, it<br />should Include a link to the card and author of the card",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "7. Run the /trello card create command on a non-existent board<br />8. Run the /trello card create command on a non-existent list",
+        "testData": null,
+        "expectedResult": "On 7. Ensure that you get an error as board does not exist<br />On 8. Ensure that you get an error as the list does not exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a4fda0fef8d6cb9b7aa13460c44b7a2ad87a8687a025a50b012f2b3cf0431b6d1b9ef8df569266262e6454a4c6eca57d",
+  "stepsHashed": "69bfe3a6cb10e4680df8ebcc4131dc86afdb9a1332508add8a047601384d4c9933c33fce021f3419a79e1ba4a77d6bcb"
+}

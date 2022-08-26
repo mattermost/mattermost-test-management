@@ -1,0 +1,56 @@
+{
+  "id": 28674901,
+  "key": "MM-T5066",
+  "name": "Show list of allowed commands",
+  "createdOn": "2022-08-16T21:15:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290380,
+    "name": "PagerDuty",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5064" } },
+    {
+      "inline": {
+        "description": "2. From Mattermost with a user, run the help command, typing in the channel `/pd help`",
+        "testData": null,
+        "expectedResult": "On 2. The list of commands allowed with the PagerDuty integration will be displayed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6af159e0d35f05565f64a1a55ed6bcc20dbc5d2083125bb62966109f11de3bad38e78b66f7abdf2ba9687a2d8fa8106b",
+  "stepsHashed": "57ec1540543dc6cf589ab27b599956d588c6b6e95bad75b2ee4215c6759b07c253c292c6f7488621d76d1a7602008da1"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5873102,
+  "key": "MM-T2988",
+  "name": "RN apps: Deep link in mobile",
+  "createdOn": "2020-06-18T20:47:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "WIP Environ & Addl."
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1) Receive a DM email notification<br />2) Longpress on Go To Post and copy link<br />3) Open the link in new incognito Chrome window (or Private Safari)<br />4) Tap on View in Browser",
+        "testData": null,
+        "expectedResult": "4. server login screen",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4319ee2758f5a62f7037e2131804f42e9a4c490859b71acccdadf067a00b2ca8fd5bba6228c087eb068adcde8839ddc3",
+  "stepsHashed": "27d11c1e3a2d96faeb4b19dfb3cf15c852a9219984d2df2c348aa3a7cee944c256d5247ac057b49880ddc30fb8d4e8ed"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5185821,
+  "key": "MM-T1667",
+  "name": "Post with only 2 byte characters shouldn't remain after posting",
+  "createdOn": "2020-04-22T18:38:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Draft with only 2 byte characters shouldn't remain after posting<br>–––––––––––––––––––––––––<ol><li>Set your keyboard language setting to 2-Set Korean keyboard (steps vary by OS)</li><li>Press g b</li><li>Hit enter, observe message posts</li><li>Switch channels</li><li>Observe that there is not a draft icon next to the channel you just posted in and switched away from</li><li>Switch back to the channel where you posted</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The message box is empty (no draft present)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22233\">Message with 2 byte characters doesn't get posted — MM-22233</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "401577da092a6141a01d04782317118d709ed694f0ec3787c397ddaaf4d2726c3e58ff7c0a4c0f4078525dfc98a7f97a",
+  "stepsHashed": "f93fe9dc4e2fd3cecc5a7c357e0ddaa7e703d4bd810d47e2d1dec34856749e661ca9a2a1a824753c48112ef6941392d0"
+}

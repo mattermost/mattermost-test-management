@@ -1,0 +1,55 @@
+{
+  "id": 4138457,
+  "key": "MM-T1325",
+  "name": "Invite Members - Team Link - Existing user",
+  "createdOn": "2020-01-29T23:38:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 580214,
+    "name": "Members Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
+    "fullPath": "suite/guest-accounts/members-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click \"Copy Link\" on Invite Members page</li><li>Open incognito or a different browser</li><li>Paste the link into the browser</li><li>Click \"Already have an account? Click here to sign in\"</li><li>Enter login credentials of a user that is not already a member of the team</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User is logged in and added to the team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2de4d54608a76e47138f34e918cf793cb0b1923b446d1977bf0b946a68620b83836146ec034e2f948bd13a4b5cb9b863",
+  "stepsHashed": "320a6ce762e372e6e195fc9f65702f478160dc377c2140a89f66992a70f0ef2fbaba91e667b6ac583ed3a788c116a788"
+}

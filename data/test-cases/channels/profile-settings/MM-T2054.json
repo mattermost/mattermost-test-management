@@ -1,0 +1,55 @@
+{
+  "id": 5444601,
+  "key": "MM-T2054",
+  "name": "Username can't start with dot, dash, or underscore",
+  "createdOn": "2020-05-20T05:50:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Username can't start with dot, dash, or underscore<br />————————————————————————<ol><li>Go to User menu &gt; Profile &gt; Profile Settings &gt; Username &gt; Edit</li><li> Enter a new username starting with a period, dash, or underscore</li><li>Save</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Shows error message</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2a437dacb4dcea3a418828f77785c94a11e317ef77151b84e46cca295190334813bc6ca22ba5c93e403ee49a6aedf9f8",
+  "stepsHashed": "04c2051d33e4c62eed986128ce30a171789fbbc802987f0e441150b4d1b36fe9522b16582d87f363ffef1616e2f57a90"
+}

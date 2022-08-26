@@ -1,0 +1,55 @@
+{
+  "id": 8022839,
+  "key": "MM-T3562",
+  "name": "No attribute",
+  "createdOn": "2020-11-26T20:45:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054400,
+    "name": "Custom Attributes",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Custom Attributes"],
+    "fullPath": "plugins/custom-attributes"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a DM with @jason-admin<br />2. Click on his username or profile picture to open the profile popover",
+        "testData": null,
+        "expectedResult": "Below his name and position in profile popover, can see their GitHub profile and local time, but not custom attributes.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b22ca4ec3b3e12c9b6c17c7700790a4b4f3fbbb55bc5bb252e1405160916d8be8d64115d563520b82cd01ddfa279e8b0",
+  "stepsHashed": "f24c2b1c7dda8a58ae2e654194a55901999c4a800d570a020ada814df02056d8c2ebd1fcae9b7fde5acb6a583b7d7a8c"
+}

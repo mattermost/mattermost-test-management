@@ -1,0 +1,55 @@
+{
+  "id": 5293893,
+  "key": "MM-T1952",
+  "name": "Plugin Marketplace is not available to normal users",
+  "createdOn": "2020-05-06T01:44:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda Mitchell — 1 Jun 2021<br />- Cypress In Production, and had been marked Cloud N/A, so removed manual test environments Cloud and Webapp and marked Automated — No manual tests needed.<br /><br />Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugin Marketplace is not available to normal users<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Log out of the system admin account.<br />2. Log in as a normal user.<br />3. Click the main menu.",
+        "testData": null,
+        "expectedResult": "There is no &ldquo;Plugin Marketplace&rdquo; available in the menu",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "71d24948c88c06a1c94745610eea6619ae1fbbf7f89c95cacb37996bc60a939ce883d340dbb0b8db3839712ae7e9dc18",
+  "stepsHashed": "0e23fa59a07286df5c61d5730bc6982c6bdec336191b0e5a23318d7aa1ec6000aa24d5337a58ac8cc9938d38a2c4ae86"
+}

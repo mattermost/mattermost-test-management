@@ -1,0 +1,55 @@
+{
+  "id": 4058068,
+  "key": "MM-T1058",
+  "name": "Teammate Name Display: username + channel member icon",
+  "createdOn": "2020-01-22T16:25:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: username + channel member icon<br />--------------------<br />1. Set `Teammate name display` to `Show username (default)`<br />2. Go to the team, ensure you're viewing Town Square<br />3. Click the member icon and locate all five users in the member list",
+        "testData": null,
+        "expectedResult": "All five (all in general) should show username in the list:<br /><br />a. usera<br />b. userb<br />c. userc<br />d. userd<br />e. usere",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4489ce7ceeda60bdcbb89122b6223e7a95b09a59c8d45c13c1a42d264c398de4f86aa6f3524953689fe1acc3ab0c155d",
+  "stepsHashed": "56aa5f62818da70bc04fd002f3fe634d3142c10da27025a0d7a4b90a236fad47b49fbdc69dbfd59ab5ba82752b88d5eb"
+}

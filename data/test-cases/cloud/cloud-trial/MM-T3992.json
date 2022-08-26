@@ -1,0 +1,55 @@
+{
+  "id": 10144899,
+  "key": "MM-T3992",
+  "name": "Cloud Trial — Guest Onboarding",
+  "createdOn": "2021-04-13T11:07:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1285126,
+    "name": "Cloud Trial",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Once you've verified your email address and get logged in you'll land on one \"Getting Started\" step to complete.<br><ol><li>Complete your profile<ol style=\"list-style-type: lower-alpha;\"><li>Add a photo</li><li>Enter your name</li><li>Save Profile</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After/during Step 1;<ul><li>Photo is not required but can be changed if you upload one</li><li>If you upload one it will display in the step</li><li>Your name can't be blank</li></ul></li><li>There is a progress bar at the bottom of the LHS that will update as you progress</li><li>You can Skip Getting Started by way of a link below step 1 or the LHS progress bar</li><li>When you finish the 3 steps or skip them then the Getting Started progress bar will change to read \"Tips &amp; Next Steps\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5ff1e61cf3a9e9ab2d62aace8f23555e194761ba8169c970bfd001a0915945a9bb3fb189474a3c38214ca94cb659b529",
+  "stepsHashed": "f2f803f251d8c92793b1afb5daa957223ff531159f65c3a2a674510494f331f4929a6437439ed3a97091c41bbd0bf5ab"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5293903,
+  "key": "MM-T1962",
+  "name": "Marketplace URL text field is disabled when plugins is disabled",
+  "createdOn": "2020-05-06T01:44:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Marketplace URL text field is disabled when plugins is disabled<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. In System Console &gt; PLUGINS &gt; Plugin Management, set &ldquo;Enable Plugins&rdquo; to false.<br />2. Attempt to click on the URL text field",
+        "testData": null,
+        "expectedResult": "The value for the URL cannot be changed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "302130d89ae7b25e073e8f02fdf5806576208248fbcc3f9be4849ec09495652a7223f40afcfdcde20ac5af61dc809db2",
+  "stepsHashed": "708345c065a21e7f7d2323612280b02fac3900035d99af266213c41569aeed5605082a1a62eb7bb913fb7ab77f601114"
+}

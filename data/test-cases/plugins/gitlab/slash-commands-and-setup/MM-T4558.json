@@ -1,0 +1,55 @@
+{
+  "id": 17862275,
+  "key": "MM-T4558",
+  "name": "Connected users see changes to gitlab URL",
+  "createdOn": "2022-01-26T22:14:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139767,
+    "name": "Slash Commands and Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
+    "fullPath": "plugins/gitlab/slash-commands-and-setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "- Login as a test user<br />- In a different session as an admin, update the GitLab URL<br />- Connect as the test user<br />- As the test user, mouse over the GitLab icon",
+        "testData": null,
+        "expectedResult": "Icon is pointing to the correct URL",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f370c61c5d038c4248f4d538689a328a192f397f2481c980e637e6445c826ae876f240cec4b0c9dbe65cb34ea7dc82c7",
+  "stepsHashed": "82a1f7a1326e9300149029124a29a732462cee002edeb154258c12cf47660656f4b317c59d2d867588dba671b9e4baac"
+}

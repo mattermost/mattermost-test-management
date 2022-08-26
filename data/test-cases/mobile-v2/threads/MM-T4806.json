@@ -1,0 +1,94 @@
+{
+  "id": 22754721,
+  "key": "MM-T4806",
+  "name": "Mobile V2: Threads - Follow and Unfollow Thread",
+  "createdOn": "2022-05-19T22:01:31Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2722971,
+    "name": "Threads",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Threads"],
+    "fullPath": "mobile-v2/threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to follow/unfollow a thread via thread navigation</strong><br />--------------------<br />1. Create a thread<br />2. Verify thread is followed by user by default via thread navigation (<strong>Following</strong> button)<br />3. Unfollow thread via thread navigation<br />4. Verify thread is not followed by user via thread navigation (<strong>Follow</strong> button)<br />5. Follow thread via thread navigation<br />6. Verify thread is followed by user via thread navigation (<strong>Following</strong> button)<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to follow/unfollow a thread via post footer</strong><br />--------------------<br />1. Create a thread and go back to channel screen<br />2. Verify thread is followed by user by default via post footer (<strong>Following</strong> button)<br />3. Unfollow thread via post footer<br />4. Verify thread is not followed by user via post footer (<strong>Follow</strong> button)<br />5. Follow thread via post footer<br />6. Verify thread is followed by user via post footer (<strong>Following</strong> button)<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to follow/unfollow a thread via post options</strong><br />--------------------<br />1. Create a thread, go back to channel screen, and open post options for thread<br />2. Verify thread is followed by user by default via post options (<strong>Following Thread </strong>option)<br />3. Unfollow thread via post options<br />4. Verify thread is not followed by user via post footer (<strong>Follow</strong> button)<br />5. Open post options for thread<br />6. Verify thread is not followed by user via post options (<strong>Follow Thread</strong> option)<br />7. Tap on follow thread option<br />8. Verify thread is followed by user via post footer (<strong>Following</strong> button)<br />9. Open post options for thread<br />10. Verify thread is followed by user via post options (<strong>Following Thread</strong> option)<br />11. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to unfollow a thread via thread options</strong><br />--------------------<br />1. Create a thread, go back to channel list screen, then go to global threads screen, and tap on all your threads button<br />2. Verify thread is displayed<br />3. Open thread options for thread<br />4. Verify thread is followed by user via thread options (<strong>Following Thread</strong> option)<br />5. Tap on unfollow thread  option<br />6. Verify thread is not displayed anymore in all your threads section<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e7f88c9490d1f2915e6d723ca0bf51b224291ac977bfcd6155370083dc974f4b901b234434cc8944c427ed3c544ae920",
+  "stepsHashed": "a7ea7e88f48496756c4ceae5fe919e7d86c1f881f14d60e273db9c6d14075a4a12421ed8e1539ebc42c82a1c9e2ea7ad"
+}

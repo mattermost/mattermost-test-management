@@ -1,0 +1,55 @@
+{
+  "id": 8631320,
+  "key": "MM-T3742",
+  "name": "Team - Create : Should create a new team w/ email using LocalClient",
+  "createdOn": "2021-01-19T09:24:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team create --name mynewteam --display_name \"My New Team\"",
+        "testData": null,
+        "expectedResult": "Creates a new team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f5368ba7ce482af2b5e6d3b95a8be05e398b405abff939b05ab873b399e8392f181589b871827235c819b6577069fe4d",
+  "stepsHashed": "702219bb8b5bd169c77840c1e5e59fddf627ba5f48a0327bd0e0d9625e43531ef5474b092451a1e3d78eb5ecbb9fe1d8"
+}

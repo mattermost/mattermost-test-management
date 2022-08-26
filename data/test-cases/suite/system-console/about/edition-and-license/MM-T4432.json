@@ -1,0 +1,55 @@
+{
+  "id": 16771882,
+  "key": "MM-T4432",
+  "name": "Edition and License - Upgrade from Team Edition to Enterprise Edition",
+  "createdOn": "2021-12-08T20:22:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569441,
+    "name": "Edition and License",
+    "parentId": 567106,
+    "fullNames": ["Suite", "System Console", "About", "Edition and License"],
+    "fullPath": "suite/system-console/about/edition-and-license"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to System Console ➜ About ➜ Edition and License</li><li>Observe page format and verify new elements are present<ul><li>\"Team Edition\" at the top</li><li>Text block:<br /><em>When using Mattermost Team Edition, the software is offered under a Mattermost MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.<br /><br />When using Mattermost Enterprise Edition, the software is offered under a commercial license. See here for “Enterprise Edition License” for details.<br /><br />See NOTICE.txt for information about open source software used in the system.</em></li><li>Terms of Service and Privacy Policy links work as expected</li></ul></li><li>Upgrade to Enterprise Edition button</li><li>Verify ability to upgrade</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "03c2ba2e04eeece7ef42b90d7d48a29019837e1d2059b8e7a13a23bf3373c21bceda415f95cf6c6fe403cf8c155673a5",
+  "stepsHashed": "a03bc688cdf1a6059feee9fdebf94de7bd54447581e4db5aa020dd3413c8fb6283d642a08b761f655714dbe9906dda42"
+}

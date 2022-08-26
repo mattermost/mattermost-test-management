@@ -1,0 +1,107 @@
+{
+  "id": 6377920,
+  "key": "MM-T3166",
+  "name": "Cancel Delete Category",
+  "createdOn": "2020-07-29T19:36:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1007282,
+    "name": "Custom Categories",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
+    "fullPath": "channels/left-sidebar/custom-categories"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Cancel Delete Category<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Click on 3 dot to open custom category menu",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on Delete Category menu option",
+        "testData": null,
+        "expectedResult": "Delete this category? modal opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on Cancel",
+        "testData": null,
+        "expectedResult": "Modal closes.<br />Category is not deleted.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on X to close the modal",
+        "testData": null,
+        "expectedResult": "Modal closes.<br />Category is not deleted.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click outside of the modal",
+        "testData": null,
+        "expectedResult": "Modal closes.<br />Category is not deleted.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "68f4b31b77604290216b8d500bcc6cb71568b50e8f208da3aa9a3c9e2cb0ed530872f6b78455a82c43dfc42489639e4a",
+  "stepsHashed": "aa9dd8a8e342a396f910e22be3843922ee9a99960ca9ebe2a6ad1dadb756f894a05670910cb34993501f65f97e8b369a"
+}

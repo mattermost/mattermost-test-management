@@ -1,0 +1,55 @@
+{
+  "id": 3877453,
+  "key": "MM-T351",
+  "name": "Wildcard (*) is disregarded if not preceded immediately by text",
+  "createdOn": "2020-01-02T23:12:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Post the following:<ul><li>/test url test-search</li><li>qwertyjkl<br><br></li></ul></li><li>In a separate message, post the following:<ul><li>qwerty<br><br></li></ul></li><li>Type `test *` `qwerty *` in the search box and press Enter (space between the word and the asterisk)</li></ol>",
+        "testData": "",
+        "expectedResult": "Returns `qwerty` matches only, not 'qwertyjkl'",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a7780f8ac290944b66685c9efc8b5bc85a6b14cc0dd13a55b876d2d6bc1fea415ef052c3db855f0b2bd68da5087257f8",
+  "stepsHashed": "b8541dce4508c2dd4274ec432de75c71f21fb61dcc9c3ea980d86824b46c2c81bcc41fc69c5ccf27bbb1915e90be7dc1"
+}

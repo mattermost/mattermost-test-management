@@ -1,0 +1,55 @@
+{
+  "id": 2759609,
+  "key": "MM-T28",
+  "name": "MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel",
+  "createdOn": "2019-08-28T02:12:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Find a channel with no messages that day. Call it ChannelA</li><li>Switch away from ChannelA</li><li>Use a secondary account to post enough messages in ChannelA that it fills up your screen</li><li>Use a primary account to view ChannelA</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566960235728-Image+Pasted+at+2019-7-26+12-57.png\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Date indicator not cut off</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17354\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17354</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc6d709ca999b48f8767c4bce9d708c65da3e7eb06398b01429bc249d35e19b0c71cc37d7961e741abfc42481687ef2b",
+  "stepsHashed": "4276752ec4deb8f88811c6f9577cf34e6d6a88661b64dcbe1194a7c34ed2e1a21ebe82070806799afa1d557c3a8c26e0"
+}

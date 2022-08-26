@@ -1,0 +1,55 @@
+{
+  "id": 4305375,
+  "key": "MM-T1445",
+  "name": "RN apps: Markdown table with both horizontal and vertical scroll in fullscreen view",
+  "createdOn": "2020-02-10T20:30:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.28 Mobile (Feb 2020)", "Won't Fix"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Apps: Markdown table with vertical scroll only in fullscreen view<br>–––––––––––––––––––––––––<ol><li>Copy and post next 26 lines:<br>| Header | Header | Header | Header | Header | Header | Header | Header |<br>| :-- | :-: | --: | --: | :-- | :-: | --: | --: |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br>| Left | Center | Right | Right | Left | Center | Right | Right |<br><br></li><li>Tap expand button</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Tables should be able to scroll vertically and horizontally.</li><li>Vertical and horizontal scroll bars should always be visible for user to know more rows and columns.</li></ul><br>Known: Scroll bars missing:&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-22333\">https://mattermost.atlassian.net/browse/MM-22333</a>",
+        "customFields": {
+          "Fix Versions": ["v1.28 Mobile (Feb 2020)", "Won't Fix"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15635\" rel=\"noopener noreferrer\" target=\"_blank\">RN: Improve responsiveness of Markdown tables — MM-15635</a></li><li>(<span style=\"color: rgb(184, 49, 47);\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-22333\" rel=\"noopener noreferrer\" target=\"_blank\">RN: No scroll bars viewing scrollable markdown table — 22333</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dcd5e7d5b87c2ff359cf0999fb196c9fcbeab4f6a993d74e3f526632d1bc7633f9afaf32d89f5f19bf2980b8f59d57ae",
+  "stepsHashed": "9c68ae9c546664a9e2896cca91ac97334ffb153d9edfc8f5bc7c2e80789199812500a0fe9842b61df6c8a479aad993e2"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 16863265,
+  "key": "MM-T4438",
+  "name": "Changing the skin of emojis should apply the same skin to emojis in recent section",
+  "createdOn": "2021-12-13T22:50:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1465976,
+    "name": "Emoji picker",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Emoji picker"],
+    "fullPath": "channels/emoji-picker"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<p><u>Changing the skin of emojis should apply the same skin to emojis in recent section</u></p><ol><li><p>Open Emoji Picker, ensure \"yellow\" skin emoji option is selected</p></li><li><p>Select thumbs-up emoji and add to post or react with it</p></li><li><p>Open Emoji Picker</p><ol><li><p> Verify thumbs-up emoji is present in the Recently used emoji section</p></li></ol></li><li><p>Change skin color to dark</p><ol><li><p>Verify current thumbs-up emoji in the recently used section changes to user selected skin color</p></li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "70824fe6ddaf631f60cd921f4d020ca30c14c484c20d88316aaea4e9beb502fb7b47f8d2a195ce6e8e0aa5819f032be4",
+  "stepsHashed": "0f29e80bb43815459bcd03ad060453b46aeff21a7afd5b03879ab0c1309775c4523aa3600743715e5af99d9666a62e70"
+}

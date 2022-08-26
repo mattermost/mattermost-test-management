@@ -1,0 +1,81 @@
+{
+  "id": 8715956,
+  "key": "MM-T3800",
+  "name": "Thread followed when mentioned",
+  "createdOn": "2021-01-25T15:24:34Z",
+  "objective": "Verifying that a thread that the was mentioned in is followed and shows up on the Threads page",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1139421,
+    "name": "Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Threads"],
+    "fullPath": "channels/threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Threads"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log in as user1 and locate a post created a different user<br><br>Note: make sure the post isn't already followed",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Log in as a different user and add a comment that at-mentions user1 to the thread from step 1",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "As User1 open the Threads page in the LHS",
+        "testData": null,
+        "expectedResult": "Verify the thread in which the user was mentioned in step 2 is shown in the threads list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9fbecb5551c6b3ea9b545c636b4e0d34eef0c34027e977bb04d15770a83017095a0a5c45041784216254b04356a0f9a9",
+  "stepsHashed": "a0c45276cb7c60165e47fcae12d2eab2cc3f50abe47297c726bbe697f42bab7c5393e469969ef0fcc76e86baa39e1fef"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8631106,
+  "key": "MM-T3740",
+  "name": "Team - Create : should not create a team without a name",
+  "createdOn": "2021-01-19T09:05:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team create --display_name mynewteam",
+        "testData": null,
+        "expectedResult": "Returns an error \"name is required\" (should have a --name flag)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eed464a145e5f23d504183c87ff2f1412410f8937acdec7828dfcc4c0986f30c8a3fd0c8e232c481c8f2d1333b6ad4a8",
+  "stepsHashed": "763003cd2b3c197992c68c7386b10b566a78cdcdd3f580b92e40a8c7804fb8d2b14982396c67bcefdeb00303d56501df"
+}

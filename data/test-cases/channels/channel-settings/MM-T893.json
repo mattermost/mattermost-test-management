@@ -1,0 +1,55 @@
+{
+  "id": 4035762,
+  "key": "MM-T893",
+  "name": "Manage Members content changes when role is changed",
+  "createdOn": "2020-01-18T01:00:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>As a Channel Admin (<strong>User1</strong>) login on one browser and navigate to channel A and click on Manage Members,</li><li>As a Channel Member (<strong>User2</strong>) login on another browser and navigate to same channel A and click on Manage/View Members.</li><li><strong>User2</strong> does not sees any option to change roles for any of the users since the user is just a member.</li><li><strong>User1</strong> updates the role of <strong>User2</strong> and makes the user a Channel Admin.</li><li>Instantly without any browser refresh, the changes should be propagated and <strong>User2</strong> should now see the option to change roles of other users</li><li>Similarly now <strong>User1</strong> updates the role of <strong>User2</strong> and makes the user a Channel Member.</li><li><strong>User2</strong> should now not see any option to change roles of other users.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Content in Manage Members should be reflected instantly whenever there is a change in role of the user</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18058\" rel=\"noopener noreferrer\" target=\"_blank\">Contents of View\\Manage Members modal should refresh when role has changed — MM-10858</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "aeb9e75e7ceab8e6c593a7f2e7bf747e5a38849e53bd256cded587d5cc22039d2a3ee550dabac72f6cf8cd61e74abcd0",
+  "stepsHashed": "e96af59d411e1e152c7c4a2011be53eab24020699a5f777ef02c28851c5ce4b362d62d44f2fb0c3a0ca3654fc3718b6f"
+}

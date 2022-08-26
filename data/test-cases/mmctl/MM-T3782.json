@@ -1,0 +1,55 @@
+{
+  "id": 8647154,
+  "key": "MM-T3782",
+  "name": "User - Delete : with disabled config as system admin",
+  "createdOn": "2021-01-20T10:28:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span data-code-marker=\"+\">mmctl ServiceSettings.EnableAPIUserDeletion = false</span> <br>mmctl user delete [user email]",
+        "testData": null,
+        "expectedResult": "User is not deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2a3c5dd7b0a37adeb1904664f682ffe8a8a8c4114ab1d790044f289fd1885590269cf5a0d87516ccf213b3f69fd0f7d0",
+  "stepsHashed": "430c49f06e6f47d7c42f20f1b1f9886da1158bb47763945095cf829d2d07c801f7d2fc5971df7cb92b3ef7694eb61fb5"
+}

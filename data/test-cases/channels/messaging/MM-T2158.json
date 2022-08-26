@@ -1,0 +1,55 @@
+{
+  "id": 5444758,
+  "key": "MM-T2158",
+  "name": "View flagged posts",
+  "createdOn": "2020-05-20T06:05:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "View flagged posts<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Click the flag icon to the right of the search box<br />(Mobile app: Tap top-right hamburger menu, tap Flagged Posts)",
+        "testData": null,
+        "expectedResult": "1. RHS opens and displays flagged posts<br />2. Flag icon is blue",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "30224ab455ce78da3d4a5ebadfbee89cec76c9b6bd94cb1a918aad56b24afcc974f905b413ffaf1f3b3106ec605c9839",
+  "stepsHashed": "9de928db77b734157992880509675c95108c5cd155f3206cec2dee5181a8af867b82229b789e068658dbd8adabddeb5a"
+}

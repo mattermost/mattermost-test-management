@@ -1,0 +1,55 @@
+{
+  "id": 4050777,
+  "key": "MM-T987",
+  "name": "Subpath - Second subpath: Rejoin channel with permalink",
+  "createdOn": "2020-01-21T19:55:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath - Second subpath: Rejoin channel with permalink<br />--------------------<br />On /mattermost2:<br />- Copy a permalink for a message in a public channel, leave that channel, open permalink, verify you re-join the channel and see the permalink",
+        "testData": "NEW 5.12<br />https://mattermost.atlassian.net/browse/MM-12958",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d5e88c2ccee136fd34791236d1bfcef665de6bfc8ed00b0c2da6067c7c6abecce8ed24830409ce1e0486fb30527582cf",
+  "stepsHashed": "edeea088777d867d7aababeaa422cc9761e16a7fb248f88d04313a0dc3b9afe9511d7420faa9554c2cef82042ebc9aba"
+}

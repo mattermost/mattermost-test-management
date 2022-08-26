@@ -1,0 +1,55 @@
+{
+  "id": 5280546,
+  "key": "MM-T1815",
+  "name": "Add a Bot to a team that has email restricted.",
+  "createdOn": "2020-05-04T17:17:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404274,
+    "name": "Bot Accounts",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Bot Accounts"],
+    "fullPath": "integrations/bot-accounts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, February 03, 2021 3:20 PM<br>• Removed from manual pool",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Add a Bot to a team that has email restricted.<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Enable email domain restriction in the system console under signup with a arbitrary domain name (I've used &quot;planet-express.com&quot; in my tests but anything should do).<br />2. Enable bot account creation<br />3. Create a bot account through the integrations modal<br />4. Try to add the bot to any team on the server",
+        "testData": null,
+        "expectedResult": "Bot can be sucessfukky added without having an email at a whitelisted domain",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9bf20dab92905649f3e1b754484ad77d7a1d83a281db0f7ae4e6c37833211e5018b2f4f108150d2219f2d18571d61d66",
+  "stepsHashed": "7a66c53801cfc8bcd5f152d1ec74492d1940dd287d73c00627bf55218c56ebc2c63532051824a20f46da9252b8078c3b"
+}

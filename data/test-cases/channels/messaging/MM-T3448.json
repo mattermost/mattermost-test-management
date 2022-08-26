@@ -1,0 +1,55 @@
+{
+  "id": 7582855,
+  "key": "MM-T3448",
+  "name": "Editing a post with Ctrl+Enter only for code blocks starting with ``` configured",
+  "createdOn": "2020-10-23T16:19:28Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.19 (Jan 2020)", "v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Set \"Account Settings ➜ Advanced ➜ Send Messages on CTRL/⌘+ENTER\" to \"On only for code blocks starting with ```\"</li><li>Write a post <strong>without&nbsp;</strong>code block and hit Enter (submitted)</li><li>Edit the previous post hit Enter (submitted).</li><li>Write a post with a complete (<strong>with opening and closing</strong> code block quotes) code block and hit Enter (submitted)</li><li>Edit the previous post and hit Enter (submitted)</li><li>Write a post with an incomplete (<strong>with opening but no closing</strong> code block quotes) code block and hit Enter (not submitted), hit Ctrl/⌘+Enter (submitted).</li><li>Edit the previous post and hit Enter (not submitted), hit Ctrl/⌘+Enter (submitted).</li><li>Write a post with a complete (<strong>with opening but no closing</strong> code block quotes) code block but the caret position in the middle of the code block and hit Enter (not submitted), hit Ctrl/⌘+Enter (submitted).</li><li>Edit the previous post, set the caret position in the middle of the code block and hit Enter (not submitted), hit Ctrl/⌘+Enter (submitted).</li></ol>",
+        "testData": "Note:<ul><li>Windows/Linux: CTRL+ENTER</li><li>Mac: ⌘+ENTER</li></ul>",
+        "expectedResult": "Refer to each step.<br><br>",
+        "customFields": {
+          "Fix Versions": ["v5.30 (December 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-30255\">code block not respecting command + enter setting — MM-30255</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5d49a8aa52309b548c22311973ab91556ab33f18af1e7f07c94220ae2e6b021544ad40a6000af05e2feb224cf76d8e0a",
+  "stepsHashed": "3841b90208454f2697d5ab6a112499ad5d7e6534ce3399dbb56e9ca0e24005fba8fde4f4aba58327b1a7cfc6fad91452"
+}

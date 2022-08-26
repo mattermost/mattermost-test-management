@@ -1,0 +1,55 @@
+{
+  "id": 4212870,
+  "key": "MM-T1437",
+  "name": "Try to create a new team using restricted words",
+  "createdOn": "2020-02-05T20:25:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, September 28, 2020 5:30 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br><br>JB - Friday, December 4, 2020<br>- Moved to automated",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create teams with restricted words<br>–––––––––––––––––––––––––<br><ol><li>Click hamburger main menu</li><li>Click `Create a New Team`</li><li>Enter \"plugins\" and click `Next` then click 'Finish'</li><li>Verify error \"<em>This URL starts with a reserved word or is unavailable. Please try another.\"</em></li><li>Repeat, trying to name the new team with each of the following words:<br><br>`login`, `admin`, `channel`, `post`, `api`, `oauth`, `error`, `help`</li></ol>",
+        "testData": "`plugins`, `login`, `admin`, `channel`, `post`, `api`, `oauth`,<br>`error`, `help`",
+        "expectedResult": "After #4,<br><ul><li>After clicking 'Finish' you should see an error:<ul><li>\"<em>This URL starts with a reserved word or is unavailable. Please try another.</em>\"</li></ul></li></ul>After #5,<br><ul><li>After clicking 'Finish' each time you should see an error:<ul><li>\"<em>This URL starts with a reserved word or is unavailable. Please try another.</em>\"</li></ul></li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21651\" rel=\"noopener noreferrer\" target=\"_blank\">Web: Unable to load team with name \"plugins\" — MM-21651</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "acd2761711c24e7da27c53549ac6a683b231f2d3ac6dec5111523a66b2677c1aac06b6bf1bd1cece4ec2e35f8245f106",
+  "stepsHashed": "32b146fe40e6c720e94eb354d1fd04a6c5a7cce541a7de7d56b5334b2dc6006133df76841c355e0c8591d98096dd6299"
+}

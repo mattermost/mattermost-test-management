@@ -1,0 +1,55 @@
+{
+  "id": 4454311,
+  "key": "MM-T1529",
+  "name": "Import the same team twice",
+  "createdOn": "2020-02-19T23:12:49Z",
+  "objective": null,
+  "precondition": "Slack Import test files are kept <a href=\"https://drive.google.com/drive/folders/19y2KC_tcqJZa-BDucvpdmsNdBqy-UL8Q\">in Google Drive here</a><br>You will use the above files for the tests.<br>It is important you have an account on the Slack team before exporting, so you can test claiming a Mattermost account imported from Slack.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404338,
+    "name": "Slack Import",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Slack Import"],
+    "fullPath": "suite/slack-import"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Slack import"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Import the same team twice<br />–––––––––––––––––––––––––<ol><li>Create a Mattermost team</li><li>Import a Slack Export into that team ( Please see <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/MM-T1534\" rel=\"noopener noreferrer\" target=\"_blank\">How to Import Slack</a> )</li><li>Check that the Import Summary produced doesn't show any issues</li><li>Check that the channels were created and the imported users were added to them</li><li>Repeat steps 1-4 above on the same server (creating a new Mattermost team, but using the same Slack archive)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The second import should be successful.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a203dfe213745beb0e0426e17f01177a9b2d6a93fa128007afb4bb412ca20229140ae5a30aa56d162dd86c1a1330dd7f",
+  "stepsHashed": "de3b00ed2300ba23ea816a60d74d6c4f33f1a5c0285279b76d757ab78c188904665ca5b38b9db5349c3ec4bffbb86f8e"
+}

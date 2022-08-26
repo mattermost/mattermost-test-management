@@ -1,0 +1,55 @@
+{
+  "id": 4051794,
+  "key": "MM-T1039",
+  "name": "Customization\nApp download link - Remove",
+  "createdOn": "2020-01-21T22:18:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568186,
+    "name": "Customization",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Customization<br />App download link - Remove<br />--------------------<br />1. Remove the link in the &quot;Mattermost Apps Download Page Link&quot; field <br />2. Save<br />3. Switch back to a team<br />4. Click Main Menu, and look for &quot;Download Apps&quot;",
+        "testData": null,
+        "expectedResult": "&quot;Download Apps&quot; should not appear in the Main Menu.<br /><br />(Also hidden from tutorial)<br /><br />Re-set to what it was before (Se stores original and replaces it)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "47a2bd1d4fc9d4246c459ddd091616878ab671ba81b610b164d28db4b54c473c86697c782f692715966c17c178906027",
+  "stepsHashed": "d46932b4dec5f31490e21a1ffa7bc07bb3b628493fc580fd57a0fcecf1289851a3365c4991f22b26371fc08c70f37582"
+}

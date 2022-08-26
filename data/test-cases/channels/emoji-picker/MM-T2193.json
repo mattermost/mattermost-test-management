@@ -1,0 +1,55 @@
+{
+  "id": 5444794,
+  "key": "MM-T2193",
+  "name": "Emoji picker - recently used section, arrow navigation",
+  "createdOn": "2020-05-20T06:05:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1465976,
+    "name": "Emoji picker",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Emoji picker"],
+    "fullPath": "channels/emoji-picker"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji picker - recently used section, arrow navigation<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Click the emoji picker again to view the Recently Used section, make note of emojis displayed there<br />2. Use arrows to navigate around in emoji picker<br />3. Press Enter and verify the selected emoji displays",
+        "testData": null,
+        "expectedResult": "Both emoji reactions used appear in Recently Used section at top of emoji picker",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d5484bae37fbb652c8efd31d1242d57710fe92db03da6f7118853bbbd396924205263dd1293a5b5c37108db201f632f8",
+  "stepsHashed": "3be7f862c2cb10eae353d33c5ea36192269947abbb8462d8cd584fa1c73698b9d45ab5c83b7d804148c6720c924bafd8"
+}

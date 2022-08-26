@@ -1,0 +1,55 @@
+{
+  "id": 4058879,
+  "key": "MM-T1149",
+  "name": "Hide mobile-specific settings (except E20)",
+  "createdOn": "2020-01-22T19:26:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569364,
+    "name": "File Sharing and Downloads",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "File Sharing and Downloads"],
+    "fullPath": "suite/system-console/file-sharing-and-downloads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Joseph Baylon - Wednesday, October 28, 2020 10:18 AM<ul><li>Added test steps to test script and moved to active</li></ul>",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Hide mobile-specific settings<br>--------------------<br>1. Login as sysadmin<br>2. Go to <strong>About &gt;&nbsp;</strong><strong>Edition and License</strong> -&nbsp;<strong>/admin_console/about/license</strong> and remove license<br>3. Go to <strong>Site Configuration &gt;</strong>&nbsp;<strong>File Sharing and Downloads</strong> -&nbsp;<strong>/admin_console/site_config/file_sharing_downloads</strong>",
+        "testData": "",
+        "expectedResult": "After #3,<ul><li>Verify non-mobile settings are displayed<ul><li><strong>Allow File Sharing</strong></li></ul></li><li>Verify mobile specific settings are <strong>not&nbsp;</strong>displayed<ul><li><strong>Allow File Uploads on Mobile</strong></li><li><strong>Allow File Downloads on Mobile</strong></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5ce38d9d44f9185b4a2c62114ab5b96e65a741fb3022bcaa356d19daa4b7915f6577988679d553c39371faba1de282f4",
+  "stepsHashed": "aadf93ef3f976ce3496a4468cde3ac470447cc88706a0ffbfa9a2203228a37fa1c43564519cbfeda3bac01b2f803b004"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5537284,
+  "key": "MM-T2603",
+  "name": "User leaves a team that had been linked and then unlinked",
+  "createdOn": "2020-05-27T21:13:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User leaves a team that had been linked and then unlinked<br>————————————————————————————<br>Following after above test (admin links team, syncs, admin unlinks groupteam and syncs, user is not auto-removed)<ol><li>User who is in that groupteam leaves the team</li><li>Admin syncs again (not making any changes)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User can remove themselves from the team</li><li>User is not re-added after the step 7 sync</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1980b49e2d1255c081fc56ae7b6983e0d03d576df1efb628adc9d0cb1510c0d42213adc105a34f5346cba0fb61ddc7af",
+  "stepsHashed": "4ce292a26a3eba335b7639242f55901607d35e0c4f7952c020cdbfe2708d58a80174d3ac97e1fadded7e56051b040bc7"
+}

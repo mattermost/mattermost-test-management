@@ -1,0 +1,55 @@
+{
+  "id": 24635764,
+  "key": "MM-T4889",
+  "name": "Start Trial from Invite users screen",
+  "createdOn": "2022-06-27T20:32:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>On a new Workspace click the link in the LHS to open the invite modal.</li><li>Click the CTA link</li><li>Start the trial then click the link to invite members again</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>After 1: If the user hasn’t started a trial before a CTA to trial the invite guests is shown (and hovering reveals a tooltip)<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1656362629392-1656362629392.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>After 2: A modal appears with a button to start the trial<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1656362769834-1656362769834.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>After 3 (during the trial): It shows that inviting Guests is a Professional feature<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1656363259599-1656363259599.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>After the trial it shows this:<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1656363491495-1656363491495.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li><li>Clicking the Upgrade opens this:<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1656363533493-1656363533493.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ad5828ba35cd7ffe4537f340048b7e1c0ef234a42adcb6b32093a1d504e05af19fcb8d42eeb04843f77e1eb9fe621735",
+  "stepsHashed": "4159ad6cf85db3d4187eea6ffda1902d06e6aa6cd1a212581086bcf9a21f648da95a8e930d097e69e5c54ee6779a8aa7"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6181492,
+  "key": "MM-T3063",
+  "name": "Non-admin can view team members and filter list",
+  "createdOn": "2020-07-13T19:12:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Non-admin can view team members and filter list<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Sign in to a non-system-admin, non-team-admin account<br />2. Go to Main Menu &gt; View Members<br />3. Search for a member's name",
+        "testData": null,
+        "expectedResult": "View Members modal opens successfully and search filters correctly",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ef2890d911a8d777072919748529d2941392ad28b8e78e7032f03bb0612cbc2a526c0681e33ff2ac8cdca2a2e6308733",
+  "stepsHashed": "8ea9a5b2cef08edd1d53e637d5be9e0ad456a22620fa6b7cb28a4029237822af759d27f51942d3d74a42aa60dc228587"
+}

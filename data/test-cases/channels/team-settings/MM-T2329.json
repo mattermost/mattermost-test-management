@@ -1,0 +1,55 @@
+{
+  "id": 5445740,
+  "key": "MM-T2329",
+  "name": "Member posts messages and DM for later test",
+  "createdOn": "2020-05-20T06:56:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member posts messages and DM for later test<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Se uses test4, creates new private channel, invites admin and posts, then posts in Town Square and a DM with admin",
+        "testData": null,
+        "expectedResult": "Nothing to verify",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e9f8903ec756b3d7269ec3cbc35d8bdeb0d2d4d988ceb4cf8c3982fd16d717143dcb792079edc4f05c2a6e8f5c0fc586",
+  "stepsHashed": "b263e9d598ed5f6fe579608ede60ade6c77028d9c2316be569abb3a6296a1b9cfb180eecd0f38bd7089320a970071aaa"
+}

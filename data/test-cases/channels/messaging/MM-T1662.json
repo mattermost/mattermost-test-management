@@ -1,0 +1,68 @@
+{
+  "id": 5157690,
+  "key": "MM-T1662",
+  "name": "Autocomplete should match entries with spaces",
+  "createdOn": "2020-04-20T13:54:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Friday, September 18, 2020 3:20 PM<br />• Added links",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Autocomplete should match entries with spaces<br />–––––––––––––––––––––––––<br /><ol><li>Create a channel with the name e.g. Ask Anything</li><li>Add channel purpose e.g for asking any questions</li><li>Navigate to any channel and type ~for asking</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Autocomplete should allow space character and not close after space is typed for as long as there are matching entries</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19761\">Repeat the steps using @ name last name e.g. @ john smith — MM-19761</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Repeat the steps using @ name last name e.g. @ john smith</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Should be allowed to use spaces between first and last name, as long as there are matching users autocomplete should not close after space character</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1a7408892e26b14ce74a38174e7c1a02108397fd283ec58685fba233a9fa2ce8aaf95b95fcc87494142ab746617eaa18",
+  "stepsHashed": "24dbeb1873c97fb78d937e0d45d46126bba979e2c3480f2675158519318627c889137889656fb2d7d1b922e5c94dcf6f"
+}

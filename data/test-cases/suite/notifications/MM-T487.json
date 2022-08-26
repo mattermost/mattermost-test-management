@@ -1,0 +1,61 @@
+{
+  "id": 3905483,
+  "key": "MM-T487",
+  "name": "Send Desktop Notifications - For all activity with apostrophe, emoji, and markdown in notification",
+  "createdOn": "2020-01-03T18:52:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "E2E-1",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "notifications"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, December 21, 2020 3:10 PM<br>• Added Rainforest test and Cypress code links<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 30, 2020 7:34 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br><br>Lindy Isherwood -- Friday, April 23, 2021<br>Disabled this test from running in Rainforest as it's also running in Cypress production. Also added \"Temporarily disabled\" label for RF.",
+    "Rainforest": ["Webapp", "Temporarily Disabled"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click on the hamburger menu to the right of the team name in the LHS</li><li>Select \"Account Settings\" then select \"Notifications\"</li><li>Click \"Edit\" to the right of \"Send Desktop Notifications\"</li><li>Select \"for all activity\"</li><li>Click \"Save\"</li><li>Have another user post the following message:<br /><br />*I'm* [hungry](http://example.com) :taco: ![make it so](https://i.stack.imgur.com/MNeE7.jpg)<br /><br /></li><li>Watch for the desktop notification</li></ol>",
+        "testData": "*I'm* [hungry](http://example.com) :taco: ![make it so](https://i.stack.imgur.com/MNeE7.jpg)",
+        "expectedResult": "<ul><li>Notification renders the text without formatting or other unneeded characters: `I'm hungry :taco: make it so`</li><li>Desktop Notifications are fired for all activity in the team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "18a74b8277879bbb592f065ac2a5ac308e895c32b6a04d75e41ca5c61ed542670b7767551162b9e6446b515191b5204b",
+  "stepsHashed": "a5f82a9406775e0013280bdccd95f6b2996655673ad1c521bef3ded17933b2c0a61d1d5544bc528efb5781e7669a5d46"
+}

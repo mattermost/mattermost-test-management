@@ -1,0 +1,55 @@
+{
+  "id": 8578178,
+  "key": "MM-T3684",
+  "name": "Channel - Unarchive : without permission",
+  "createdOn": "2021-01-14T08:19:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel unarchive [archived-channel-name]",
+        "testData": null,
+        "expectedResult": "returns an error if you do not have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04bed96d2acebd717262ee4d80f50cc5ad9a1d39a2541d7d34d57bca698e1056de305ea05cae03c0d81bf5e6eabbbc6d",
+  "stepsHashed": "862b7d8403409a15f8992f42bf5d788acdce7b0f0075fe5a260d909a8ed168404a344d5363f50b5ebc1a4c243f95dd0a"
+}

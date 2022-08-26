@@ -1,0 +1,55 @@
+{
+  "id": 17674239,
+  "key": "MM-T4502",
+  "name": "/jira help when no intance is installed",
+  "createdOn": "2022-01-18T22:32:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118488,
+    "name": "General Slash commands",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "General Slash commands"],
+    "fullPath": "plugins/jira-v2/jira-server/general-slash-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure there is no Jira instance installed<br />2.post /jira help",
+        "testData": null,
+        "expectedResult": "Ephemeral post informs test user that no jira instance has been installed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1a16b982804d623534513179657bcb1b64e20690c6c990efe3a3b76c20d06e736a6cb7dd7f5cbcad31a9ab5bd30fbc1",
+  "stepsHashed": "e5bb1ea105f3b4d43d9fdfe578fed922f31f2544215ba5bf5d432c947079dd9f51988128cc1a4723d885585cedcd1f85"
+}

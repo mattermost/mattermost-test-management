@@ -1,0 +1,55 @@
+{
+  "id": 8193084,
+  "key": "MM-T3649",
+  "name": "User - Invite",
+  "createdOn": "2020-12-14T11:47:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user invite [email] [teams]",
+        "testData": null,
+        "expectedResult": "Sends an email invitation to the email address for the specified team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a68b0c1b8ae06e76c77dc3917fa061215129e1a7c7c3aaf224d5a45d023cc0d331109bf8112fdd65aae9720ea47d1592",
+  "stepsHashed": "80926840ddd919867d6a417f591a100029ec7285cbd94b90bf66dbbc102821f93b6f1b7a7378aec443f072e2623622b3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 12486256,
+  "key": "MM-T4115",
+  "name": "Plugin icons show in autocomplete list",
+  "createdOn": "2021-07-16T16:50:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": "N/A",
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. From the marketplace, install any plugin that has an icon for the autocomplete list (ex: GitLab, GitHub, Circle-CI...)<br />2. Enable the plugin<br />3. Login to the server<br />4. Show the root command for your plugin by typing <em>/git</em><br /> ",
+        "testData": null,
+        "expectedResult": "Plugin icon is shown in the autocomplete list",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6ef2d6eaef1f4287877882c53e343fdf7dbefaa258cafb7bf0e4c9ed9e99e412098d79246f8a16f21cf385db53f6fd84",
+  "stepsHashed": "eacf9503f9d61c6c570222b0556f6b0cc0864dc5233ef70bcdbf14c833c65c6af99ec2a3d48730427a0e7e388583c42f"
+}

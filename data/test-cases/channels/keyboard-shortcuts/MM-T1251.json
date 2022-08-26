@@ -1,0 +1,55 @@
+{
+  "id": 4064374,
+  "key": "MM-T1251",
+  "name": "CTRL/CMD+SHIFT+L - When not to set focus to center channel message box",
+  "createdOn": "2020-01-23T13:38:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+SHIFT+L - When not to set focus to center channel message box<br />--------------------<br />With the following true, press CTRL/CMD+SHIFT+L:<br />1. an open modal like Account Settings <br />2. an open browser dialog (print, upload a file, ...)<br />3. any page that doesn't have center channel (e.g. full-page screens, Integrations, Custom Emoji, System Console)",
+        "testData": null,
+        "expectedResult": "Focus is not set to center channel message box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ac41888b23a5407321860bc32ac9d96c47f1195b297d8623acbf906aa50c0050e3c932f2d9c3420990a0d383b5bdc809",
+  "stepsHashed": "9c4a2a6a6eae94500dd93644aaf1df0391b3a5e43d9af2dba8b38071ee6ecf20d30c6d1efeea92b280086d822032e0e5"
+}

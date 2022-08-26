@@ -1,0 +1,55 @@
+{
+  "id": 5445616,
+  "key": "MM-T2307",
+  "name": "Quotes around email address in search",
+  "createdOn": "2020-05-20T06:50:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Quotes around email address in search<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post a message containing an email address test@test.com<br />2. Search for that email address in quotes &quot;test@test.com&quot;",
+        "testData": null,
+        "expectedResult": "Post containing test@test.com is returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "68de4832ad3139743d13c5b85fdec13708707afe21b1c9f73a4e3fba6d09fb8dfd115ec794d3c4b9b36c67ca44256a57",
+  "stepsHashed": "41a3a2501d9bea457d1a212c9d53fdba6aa6be22e0de618c00b266f923b9e1661a72db27e62924a1e50c76dee8bbc4e5"
+}

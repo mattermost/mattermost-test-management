@@ -1,0 +1,55 @@
+{
+  "id": 3742392,
+  "key": "MM-T183",
+  "name": "Filtering by first name with Korean characters",
+  "createdOn": "2019-12-20T20:46:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Filtering by first name with Korean characters<br>--------------------<br>(Hardware Korean keyboard not required)<br>1. Set a user's first name to the following (copy and paste into first name field in Account Settings &gt; General):<br><br>정트리나/trina.jung/집단사무국(CO)<br><br>2. Log in as another user (user2) and view a channel you and user1 are both in, plus other users as well<br>3. Set your keyboard language to 2-Set Korean (steps vary by OS)<br>4. Type `@` and the beginning of the other user's first name like so:<br>- From a keyboard with English printed on the keys but set to output in Korean, typing (not pasting) the following letters after the `@` should produce the correct characters:<br><br>wjdxmflsk",
+        "testData": "",
+        "expectedResult": "- Autocomplete list does filters to only display user(s) that match the string<br /><br />  - The matching user is highlighted<br /><br />  - Pressing Tab autofills the message box with the matching user's username, and pressing Enter posts the mention",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "Cannot test on RN exactly as described, since no 2-set korean keyboard. But possible to compose CJK on Standard Korean keyboard and verify getting @-mentions correctly. Can add back to RN apps w/automation if possible"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ad3c2f701dd75665410b6f6f180152c59affd488810c510c3a18e931a232bc5a4993570bcf346949e9963d5e4aff74fc",
+  "stepsHashed": "820f084cc8308c2b916d366068ca24534355e53d8568a8a1c9c33946f41351a8ea7c62c1b985e584a6c7ea52e23269b4"
+}

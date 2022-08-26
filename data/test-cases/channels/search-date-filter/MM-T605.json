@@ -1,0 +1,81 @@
+{
+  "id": 3923249,
+  "key": "MM-T605",
+  "name": "Search with a date in the future",
+  "createdOn": "2020-01-06T19:21:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404336,
+    "name": "Search Date Filter",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search Date Filter"],
+    "fullPath": "channels/search-date-filter"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search Date Filter"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Search with a date in the future<br>–––––––––––––––––––––––––<ol><li>Add any search term you know will return results to the search box</li><li>Add \"before:\" with a date greater than today's date</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Works as expected and returns results</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Remove the \"before:\" filter and and add \"on:\" with a date greater than today's date</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>No results are returned</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Remove the \"on:\" filter and and add \"after:\" with a date greater than today's date</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>No results are returned</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "34711c304ac36214829feb74015cb6ce702dc7c4fa4d7348707da3d5b5cc810d010df51c5d3eaedbb9db2d11df9d0fb1",
+  "stepsHashed": "d1f2ebbb4d6667ce12dc2fac15bdc75cb6380758a2fb01434cc17a178371ae8f79c086fa703e10c75b158c42a32eb1a0"
+}

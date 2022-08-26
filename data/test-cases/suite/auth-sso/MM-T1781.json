@@ -1,0 +1,55 @@
+{
+  "id": 5254467,
+  "key": "MM-T1781",
+  "name": "MFA - Admin removes another user's MFA",
+  "createdOn": "2020-04-30T12:39:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["auth-sso", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "MFA - Remove another user's MFA<br>————————————————————————————<ol><li>Have another user set up MFA and log in, then log out</li><li>System admin in Users &gt; find user, drop-down, select Remove MFA</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Other user can log in without being asked for MFA token</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "08f9502118249407e59e6791d1323e018f07c906c4f2dbc1d916a04802e672766018b29ff3cd5cabbc327cfdc23cbb4e",
+  "stepsHashed": "a859894579d2be4bc5ff85dcd50840d9a2ef4b425a5e98e1a3920bb18bf2667054b64399c24f012130c151ec598e1e2a"
+}

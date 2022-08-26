@@ -1,0 +1,55 @@
+{
+  "id": 8581165,
+  "key": "MM-T3700",
+  "name": "Channel - User : Remove - non-existent user (Client)",
+  "createdOn": "2021-01-14T10:24:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel remove myteam:mychannel user@example.com username",
+        "testData": null,
+        "expectedResult": "returns an error as user is non-existent",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7abaad6ae79e30da04d620293c09f047f59689a690eb415370fc4b3985b5dd04ba2155bd06df7c3bfd92af909dbcf677",
+  "stepsHashed": "9b31849af4047cd1a4d0bf9e885060cabaa10a72c44960a1d0ccd330265efe67b45eec760d0f9f68138f3f08400cf457"
+}

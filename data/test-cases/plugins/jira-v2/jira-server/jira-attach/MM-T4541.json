@@ -1,0 +1,55 @@
+{
+  "id": 17698337,
+  "key": "MM-T4541",
+  "name": "Attempt to attach a comment in a project where you have read-only access",
+  "createdOn": "2022-01-19T18:23:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2123139,
+    "name": "Jira Attach",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Configure a Jira project such that your test user only has read access<br />2. Select the post menu on any post and select Attach to Jira<br />3. Search for any issue in the project configured above<br />4. Select an issue from the project<br />5. Attempt to save your attachment",
+        "testData": null,
+        "expectedResult": "The user is shown text to inform them that they do not have permissions to attach to this issue",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4a3e313fd0261d23d7b671ab52d359cf4170cc6836781c1a128c32d4921eb88eed3f35e6f5197ce7059696bffcd9b9c4",
+  "stepsHashed": "41ac4feaa5488fb538044df6801d1a6a7f11cff9a44295c1b1323b683f46d205b7198ea63d6ec70926c350841590328a"
+}

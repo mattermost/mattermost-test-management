@@ -1,0 +1,55 @@
+{
+  "id": 9458406,
+  "key": "MM-T3912",
+  "name": "Export - List : Some exports",
+  "createdOn": "2021-03-15T06:49:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u></u>mmctl export list",
+        "testData": null,
+        "expectedResult": "Shows some exports",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "81131253d317fea06f054cc45f6feb5daf535f028d3a8ba09847475172d0363ada218fb020d7e0da89e3dc93c22621ec",
+  "stepsHashed": "55ff3432bada314e81ef2773aef427b6aafa9107b5a69fe4a07a5898c2848f388fb19d9c159d7365630509cf5c1411cc"
+}

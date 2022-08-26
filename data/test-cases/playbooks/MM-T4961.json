@@ -1,0 +1,55 @@
+{
+  "id": 27070153,
+  "key": "MM-T4961",
+  "name": "Create a new public playbook",
+  "createdOn": "2022-08-04T20:19:11Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1423405,
+    "name": "Playbooks",
+    "parentId": null,
+    "fullNames": ["Playbooks"],
+    "fullPath": "playbooks"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open Playbooks using the product switcher.<br />2. Click 'View all...' under the Playbooks section in the LHS.<br />3. Click 'Create playbook' at the top right.<br />4. Leave 'Public' selected, enter a name, and click 'Create playbook' in the modal.",
+        "testData": null,
+        "expectedResult": "The user should be left in the 'Outline' view of the newly created playbook.<br /><br />The name should match the one entered in step 4.<br /><br />The playbook should be listed in the LHS.<br /><br /><br /><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4173448c19a4253414bd9dc7fed6a7e2a7be482500444582012e97f0905cf9f0ad83ca01a78c217de10458f90b854539",
+  "stepsHashed": "4487b4586ab553c817664633560eb6c655f338373c9044287c85ded5e0aff188717772d041b311bade2ec3ecce31e3c5"
+}

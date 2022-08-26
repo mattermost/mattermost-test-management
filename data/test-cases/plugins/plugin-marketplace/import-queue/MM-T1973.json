@@ -1,0 +1,55 @@
+{
+  "id": 5293914,
+  "key": "MM-T1973",
+  "name": "Enabling Marketplace on desktop app properly saves configuration on web app",
+  "createdOn": "2020-05-06T01:44:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enabling Marketplace on desktop app properly saves configuration on web app<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Login as a system admin on desktop app.<br />2. Go to System Console &gt; PLUGINS &gt; Plugin Management.<br />3. Changes the value of Enable Marketplace to true.<br />4. Switch to a web browser app.<br />5. Go to main menu.",
+        "testData": null,
+        "expectedResult": "&ldquo;Plugin Marketplace&rdquo; is present.<br />&ldquo;Plugin Marketplace&rdquo; can be launched",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e518ece143241b0a061f0cd040b8f7cda6be22c3572170e1122b09357ecd8e20009bb8d59a76261628651490dcc05b9d",
+  "stepsHashed": "17bee103b885bf4fae668a5b54d3c2afb9e0c034406b37190cb188e0f9c28f6a3251bfad7a14b551bb478b1902d3ee20"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4716725,
+  "key": "MM-T1567",
+  "name": "05 - Remove user from a channel",
+  "createdOn": "2020-03-04T03:07:43Z",
+  "objective": null,
+  "precondition": "A user must already have been added to a channel.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404278,
+    "name": "CLI",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "CLI"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Run <em><span style=\"color: rgb(41, 105, 176);\">./mattermost channel remove ateam:mynewchannel test.one</span></em>",
+        "testData": null,
+        "expectedResult": "User no longer appears in member icon drop-down list for My New Channel.<br>(A hard refresh is required)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<ul><li>A hard refresh is needed to see the changes in effect.</li><li>Member count does not update.</li></ul>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9c311627d03ba8a121e730764e39e11fe336204e78293c668f65f3d615ce3f0301a963f65347538dee48210ee63f871a",
+  "stepsHashed": "e5f6f2fd7928fd00b3c30604625e6e0a978cb664108069070c56839b5986006e6b4b024fab4b5dde870869812a1cc836"
+}

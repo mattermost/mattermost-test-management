@@ -1,0 +1,55 @@
+{
+  "id": 4058073,
+  "key": "MM-T1063",
+  "name": "Teammate Name Display: nickname alphabetical order",
+  "createdOn": "2020-01-22T16:25:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: nickname alphabetical order<br />--------------------<br />^",
+        "testData": null,
+        "expectedResult": "Should list in alpha order based in what is displayed (not based on username)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "28dba0b074ce71c7adff0e1de8f8f0c73fc6a75b86e8f4e3beed1e394ffa479d09a1cf3241ad937257a1e88da8b82409",
+  "stepsHashed": "323b7641bc67d7b93e1bec6e14be511587799429bb8c0f0599b5b181f063871172823b030a073a1949834365a9aacd36"
+}

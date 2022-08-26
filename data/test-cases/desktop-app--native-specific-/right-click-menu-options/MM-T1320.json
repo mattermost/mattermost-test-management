@@ -1,0 +1,81 @@
+{
+  "id": 4089244,
+  "key": "MM-T1320",
+  "name": "Use spell-check suggestion",
+  "createdOn": "2020-01-27T23:44:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565217,
+    "name": "Right Click menu options",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Right Click menu options"],
+    "fullPath": "desktop-app--native-specific-/right-click-menu-options"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ul><li>Write a misspelled word&nbsp;</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Word is underlined in red</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Right click on the underlined word&nbsp;</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Right-click menu should offer spelling suggestions based on the system language</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on desired suggestion from the list&nbsp;",
+        "testData": null,
+        "expectedResult": "<ul><li>Selected word replaces the misspelled word in the post</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5134b89d31b48b00d602b6a83de999e1cded5412ee9995d2c971a14e2cf42252a5f20fefa5215e2473d7ca9d8077135f",
+  "stepsHashed": "f727caaa0c31a2733777db2220f745ac1486905fe133d89aa0bbb894318f0608f47d1f6ce8765b4f3a9a106ac003af1e"
+}

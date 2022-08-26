@@ -1,0 +1,55 @@
+{
+  "id": 4151529,
+  "key": "MM-T1367",
+  "name": "Guest User Switches Channels",
+  "createdOn": "2020-01-30T21:04:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581416,
+    "name": "Guest Experience",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login to application as a guest user who has access to single channel say Channel1</li><li>Ensure there are other users in the system, like say User2 who is not part of Channel</li><li>Guest User opens Switch Channels dialog by pressing Cmd+K or Ctrl+K</li><li>Guest User types in User in the search input</li><li>Check the list of users displayed in the search results in the Switch channels dialog</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Guest users should not be able to search and view other users who are not part of the same channel as Guest User.</li><li>In this case, Guest user should not be able to search and view User2</li><li>No errors and no infinite loading icon should be shown while searching for users in the Switch Channels dialog.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19978\">(RN) Guest Accounts: \"Jump to\" lists users that no longer share any channels with the guest — MM-19978</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6373fd8761e3dfd122113a43ac7421e54e26fa28c88912973c4efc55c309fe1d1d4e924b3bdcbb7eecee6a19929bf3c1",
+  "stepsHashed": "c212616b642b6704d9eb2063f5e903047181cd5faed191b109b9e2a6f1c66d767defba4cccd0f6329fff091bd718c1a7"
+}

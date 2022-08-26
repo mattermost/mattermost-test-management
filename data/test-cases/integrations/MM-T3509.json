@@ -1,0 +1,55 @@
+{
+  "id": 8022754,
+  "key": "MM-T3509",
+  "name": "Autolinks surrounded by brackets or other values",
+  "createdOn": "2020-11-26T20:09:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;MM-11.&quot;<br />2. Click the resulting links",
+        "testData": null,
+        "expectedResult": "Text is converted to a link. Clicking them takes you to https://mattermost.atlassian.net/browse/MM-11",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1d069dab5d5a66eb3ca3e7446d5131f0a0c2e7b77a50fc377d5a66f2d8851846b3de00c4909dc8ca5fa9d89d2b357cf6",
+  "stepsHashed": "17c6ea99eb73f78417d3a52c870d149722efe2036dcd22bd8cbf74e67f8db73cb7443d912fd80bab273e6be676638d70"
+}

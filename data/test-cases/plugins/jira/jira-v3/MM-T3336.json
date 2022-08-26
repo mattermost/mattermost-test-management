@@ -1,0 +1,82 @@
+{
+  "id": 6827521,
+  "key": "MM-T3336",
+  "name": "Create, attach and subscribe UI show additional instances when they are connected",
+  "createdOn": "2020-08-31T13:49:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Click the ... menu on a post and open the Jira create modal",
+        "testData": null,
+        "expectedResult": "The instance select drop down is shown along with the 2 connected instances<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Click the ... menu on a post and open the Jira attach modal",
+        "testData": null,
+        "expectedResult": "The instance select drop down is shown along with the 2 connected instances",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Connect the test user to 2 instances ex <em>Instance A</em> and <em>Instance B</em><br>2<em>.&nbsp;</em>Ensure the user is a system admin<br>3. Type <em>/jira subscribe edit</em><br>4. Click add<em>&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "On 3. The Jira subscribe modal opens<br>On 4. The instance select drop down is shown along with the 2 connected instances",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b836796f39573e81e448c049da01138de8a45f4a3734714ae5f260ee4a966523f88ec87a0b690c9489a3d395d100c23",
+  "stepsHashed": "22c82f9fea98dacb8d9a91b30878ba1bc4a6901120b15dbd2e636814bde714e296deed0408abcaa203ca3a58aff661ca"
+}

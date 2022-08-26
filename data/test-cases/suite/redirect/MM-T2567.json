@@ -1,0 +1,55 @@
+{
+  "id": 5534963,
+  "key": "MM-T2567",
+  "name": "If you go to the login page while you are already logged in",
+  "createdOn": "2020-05-27T17:37:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738571,
+    "name": "Redirect",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Redirect"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "If you go to the login page while you are already logged in<br>————————————————————————————<ol><li>Log in to a server</li><li>In same browser/tab/session, open {serverURL}/login</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Login page redirects; Mm content loads</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0a229fe64a578b9817558841703923fe032725ee06b56447e26ea5e39b6da2b07b1185f7e9508112b8ec87c23853851e",
+  "stepsHashed": "64170170fded042396f2f218f498da4e1fcc1b0fd32913174c26a8d42dd254c90f459f4d4b8eed92b61fc6cf0d0d01c3"
+}

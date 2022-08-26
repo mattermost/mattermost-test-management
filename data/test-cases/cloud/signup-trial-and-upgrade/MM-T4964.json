@@ -1,0 +1,55 @@
+{
+  "id": 27072408,
+  "key": "MM-T4964",
+  "name": "Message Limit: Search notification",
+  "createdOn": "2022-08-04T22:48:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "On a Workspace with the Starter plan in place:<ol><li>Use <strong>/test threaded_post </strong>to put 1,000 posts at a time in place</li><li>Do step 1 enough times to hit the 10,000 message limit</li><li>Do a search for text from one of the posts</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1659653329402-1659653329401.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /><br />",
+        "expectedResult": "<ul><li>A message appears in the RHS regarding unlocking messages</li><li>Clicking the <strong>View plans</strong> button opens the pricing model</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c321f8ebdc52745dc5cfeec1b5c48ef9dd5e72698f13cc98582386b61d4687cccf9e8857b05aa05bc4226372610f95d8",
+  "stepsHashed": "95fbb5e661189de095b67416d31bedaac36fa6cda7265acca1a40bb38b1fac32d1a52f7f2c3c97a80e8118c7284accea"
+}

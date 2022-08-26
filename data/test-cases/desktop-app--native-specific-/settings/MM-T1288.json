@@ -1,0 +1,81 @@
+{
+  "id": 4088946,
+  "key": "MM-T1288",
+  "name": "Keyboard Shortcuts in Settings Page",
+  "createdOn": "2020-01-27T22:13:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1946354,
+    "name": "Settings",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Settings"],
+    "fullPath": "desktop-app--native-specific-/settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.6 Desktop App"],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to settings/preferences:<br /><strong>Windows</strong>: File ➜ Settings (<strong>CTRL+,</strong>)<br /><strong>Mac</strong>: Mattermost ➜ Preferences (<strong>⌘+,</strong>)</li><li>Type some text into the spellchecker textbox</li><li>Press Command/Control+A</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Text should be selected</li></ul><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select the text in the spellchecker textbox</li><li>Press Command/Control+X</li><li>Press Command/Control+V</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Text should be removed after Ctrl+X</li><li>Text should be restored after Ctrl+V</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select the text in the spellchecker textbox</li><li>Press Command/Control+C</li><li>Press Command/Control+V</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Text should be duplicated</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "621b5335400d42e71515ba7384c628987bb569b84561051c94303f117b61ef59cdc6d8d5afd51de61c684136e162653f",
+  "stepsHashed": "b07a2ecdb2569129066d37a6e3282d0d962a9b7a0f3e7e8fa50c1f05383fc83de4727e7c3ac8ad65b56857932fed927c"
+}

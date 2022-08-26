@@ -1,0 +1,55 @@
+{
+  "id": 4152367,
+  "key": "MM-T1384",
+  "name": "With E10 License",
+  "createdOn": "2020-01-30T23:27:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "With E10 License<br>–––––––––––––––––––––––––<ol><li>On an instance, upload an enterprise licenses E10</li><li>On the System Console, check if Guest Access Page is displayed.</li><li>In the main page, click on Invite People and check if the option to Invite Guest is provided</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Since Enterprise license is uploaded, Guest Access Page should be displayed in the System Console Left Menu.</li><li>Along with the option to Invite Members an option to Invite Guest should also be provided.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "13a0e0cf3248de1496e17cda0e14290e94c78b08e51a504d4795941fc7e89e6adb811284ef9975e3072fd2ebf58a1c59",
+  "stepsHashed": "6f13e0679f98af0c7345b333c9653a0f081f09e96e9c32ff6affa25e660c5f680947af933d12d6584008a87a861bb9b5"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3741718,
+  "key": "MM-T87",
+  "name": "Text in bullet points is the same size as text above and below it",
+  "createdOn": "2019-12-20T16:32:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Tuesday, September 22, 2020 3:07 PM<br>• Removed from manual testing",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Text in bullet points is the same size as text above and below it<br>–––––––––––––––––––––––––<ol><li>In a test channel, post as described in Test Data field</li></ol>",
+        "testData": "This is a normal sentence.<br>&lt;newline&gt;(just make a new line - don't type this in)<br>1. this is point 1<br>&nbsp;- this is a bullet under 1 with a space before the dash at the beginning<br>&lt;newline&gt;(just make a new line - don't type this in)<br>this is more normal text",
+        "expectedResult": "<ul><li>All text in the post should be the same size. Text in the bullet point should not be larger than the text above or below it.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e4d5055dc9b3c28823741d35387986d0960950c360a83601ddc292792345a66eeae3094cfaba770e75e363dc39952b10",
+  "stepsHashed": "692e130c90694e7861bf85c308c2ba19e24141aae1c6389f5324d707451a4f15e92235e0e43f8a7b511a5f94606f68a3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 18856076,
+  "key": "MM-T4660",
+  "name": "User Groups Modal-Group Filter Menu",
+  "createdOn": "2022-03-02T15:04:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2260287,
+    "name": "Custom Groups",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Login as <strong>Us</strong><strong>erA</strong></p></li><li><p>Create <strong>GroupA</strong> , <strong>GroupB</strong> and <strong>GroupC</strong></p></li><li><p>Add <strong>UserA</strong> in <strong>GroupA</strong> and <strong>GroupC</strong></p></li><li><p>Click Product Switcher Menu </p></li><li><p>Click User Groups option</p></li><li><p>Click Show:All Groups filter option</p></li><li>Click My Groups option</li></ol>",
+        "testData": null,
+        "expectedResult": "<p>Group Filter Menu should have following options,<br />         I ”All Groups” (selected as default)</p><p>          II.”My Groups”</p><p>5. List of My Groups should be displayed</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3ce12a760a506381420175c7b90df0e81c53aaf5ccf057580708fbdb2caec9cbd50b9b1b5887944e96cade0c7f082754",
+  "stepsHashed": "239a8c42d81c3b65b2908a330e128304b6bf0327c1732f37136c2d232d8052ae24fbf8ef0424830bb444fb60959c590d"
+}

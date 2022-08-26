@@ -1,0 +1,55 @@
+{
+  "id": 5445382,
+  "key": "MM-T2260",
+  "name": "YouTube Videos - Additional time formats",
+  "createdOn": "2020-05-20T06:43:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "YouTube Videos - Additional time formats<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1) Post a link &quot;https://www.youtube.com/watch?time_continue=490&amp;v=xqCoNej8Zxo&quot;<br />2) Click on the video preview<br /><br />Expected: Video starts at 8:10 (given &quot;time_continue&quot; parameter was set to 490)<br /><br />https://www.youtube.com/watch?time_continue=490&amp;v=xqCoNej8Zxo<br />https://www.youtube.com/watch?start=490&amp;v=xqCoNej8Zxo<br />https://www.youtube.com/watch?t=490&amp;v=xqCoNej8Zxo",
+        "testData": null,
+        "expectedResult": "Should respect these time formats as well",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0f70db96b0fdcae313b022c528053f5897353cdfe640576e2f04ffa23a8c05afd3c5a894679d2878b23151e2ebc84f71",
+  "stepsHashed": "aeeb359cc89c9d223d0be10efc5af961b17b6d090761ca792d9ffbc026a1c67b09c8307db93902e9b13bc714a826d642"
+}

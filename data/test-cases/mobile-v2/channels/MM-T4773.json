@@ -1,0 +1,68 @@
+{
+  "id": 20430746,
+  "key": "MM-T4773",
+  "name": "Mobile V2: Channels - Channel Post List",
+  "createdOn": "2022-04-11T20:37:55Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2419932,
+    "name": "Channels",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Channels"],
+    "fullPath": "mobile-v2/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on channel screen</strong><br />--------------------<br />1. Open a channel screen<br />2. Verify basic elements on channel screen:<br />- back button<br />- header title: channel display name<br />- intro display name: channel display name<br />- intro actions: <strong>Add People</strong>, <strong>Set Header</strong>, <strong>Channel Info</strong><br />- flat post list<br />- post draft: post input, quick actions (at input, slash input, file, image, camera), send button (disabled by default)<br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to add a message to post list and delete a message from post list</strong><br />--------------------<br />1. Open a channel screen and post a message<br />2. Verify message is added to post list<br />3. Open post options for the message that was just posted, tap delete option and confirm<br />4. Verify message is deleted from post list<br />5. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "67a238b9275afb16137249b4d6ae762590785b07a33f8a16a3e97057778a6fd04f0d998784488b0ea0904b4eee51c966",
+  "stepsHashed": "75ed0f1edba5c0d4e3bd6d099b28ff4859a66db768b711e2149509ba4653131c32389c13ac6f820bd45aadc702464d68"
+}

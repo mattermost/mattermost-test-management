@@ -1,0 +1,55 @@
+{
+  "id": 6935896,
+  "key": "MM-T3355",
+  "name": "Slash command auto-complete works as expected in DM Channels",
+  "createdOn": "2020-09-08T16:29:56Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires test demo plugin build here: <a href=\"https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation\">https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation</a>",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Install ToDo plugin <br>2. Open a DM with any user <br>3. Type /todo and select add form the options list <br>4. Type an item such as \"tie my shoes\" to add to your list and send the command <br>5. Send the command ",
+        "testData": null,
+        "expectedResult": "Slash command auto-complete is visible in DM",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0832e0df04547bf40e7aa51bd57487a01882d2abcc70adfacf1c11778c14d512d3c4f60f5fe8f8ca8a188db09084cfc9",
+  "stepsHashed": "d08d12d514f30be99b1e806a6a1f0d50021c9bd0f4110b6b5ea0e2577192bfa6fd42de35d137dc15b9cd4fec689bc703"
+}

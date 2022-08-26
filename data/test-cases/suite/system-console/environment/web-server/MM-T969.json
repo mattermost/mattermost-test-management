@@ -1,0 +1,55 @@
+{
+  "id": 4050758,
+  "key": "MM-T969",
+  "name": "Subpath - Jump from search",
+  "createdOn": "2020-01-21T19:55:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath - Jump from search<br />--------------------<br />1. Post a message containing a word you can find in Search<br />2. Search for that word<br />3. In Search results RHS, click Jump",
+        "testData": null,
+        "expectedResult": "Permalink view opens for that search result post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "97cda495dc3fe2f782ff505cbd5adea88684566668ed31174ca5dd3188ecf0440e59d502e127c67fd8e16c9569e9b15b",
+  "stepsHashed": "3fcde897d9faee7370bdc7c970bbba6a5500500caf85955e8d2b65a33b86e24347112d1a4f9a01b7f6699334e93e5419"
+}

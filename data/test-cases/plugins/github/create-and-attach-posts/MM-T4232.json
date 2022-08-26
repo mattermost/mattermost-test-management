@@ -1,0 +1,55 @@
+{
+  "id": 13721677,
+  "key": "MM-T4232",
+  "name": "Repos where issue are disabled are hidden from attach modal",
+  "createdOn": "2021-08-30T15:45:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194692,
+    "name": "Create and Attach posts",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Locate an issue in GitHub where you have access to the repo but issues are disabled (or modify a token repo)<br />2. Connect to GitHub from Mattermost and open the attach modal<br />3. Open the attach modal and attempt to search for and locate the issue from step 1. in the modal",
+        "testData": null,
+        "expectedResult": "Existing issues are no longer returned is Search",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "89e01ec2155cee94baba73ec5f71ecc20df210ba8f72520dee0b6425cd5f96e6e5f354e04c2ece3371e51136c9b72be6",
+  "stepsHashed": "a1df3280de621764b305140bcbdd0919852c55cda018c1cfc731fb2b19fe1ff74ee923b35ed449035b8332eff70761b8"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5445404,
+  "key": "MM-T2281",
+  "name": "Draft in different channel while large files uploading in first channel",
+  "createdOn": "2020-05-20T06:43:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Draft in different channel while large files uploading in first channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Go to channel 1, start uploading a couple large files<br />2. Before the uploads can finish, switch to another channel, and start typing a draft message<br />3. Wait a reasonable amount of time for the files in the first channel to finish uploading",
+        "testData": null,
+        "expectedResult": "- The current channel draft does not show any attachments<br />- The first channel shows the attachments uploaded on the draft message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "41ebeee5d7f0bdb5c6c3f15e3e7e619e4d6b1390b80ca3b2c1156d5888485ed5b185f4e1ab6a0c64418ee4078e4614c6",
+  "stepsHashed": "e9e7120036b6d90731d8da8f73f94c882fbc4e5a827f90d32cc37a7e63c1ea05411c658d2ee6cd6bd8ee76659a747cbc"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5566873,
+  "key": "MM-T2687",
+  "name": "Bot Accounts should not be removed on LDAP Group Sync",
+  "createdOn": "2020-05-29T20:22:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.21 (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Bot Accounts should not be removed on LDAP Group Sync<br>————————————————————————————<ol><li>Ensure a Bot account is added to the LDAP Group Synced Team and Channel. (Follow the steps mentioned in above testcase).</li><li>Login as Sysadmin on a new browser and run the LDAP Group Sync job.</li><li>The bot accounts should not be removed from the LDAP Group Synced Team and Channel.</li><li>Go to Teams page and search for the team. Change the Role dropdown to a different value and check if the bot account should not be removed from the team.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Bot accounts should not be removed from LDAP Group Synced Team even after running the LDAP Group Sync job (or) after changing a role in Teams/Channels page.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21793\">Bots cannot be added to a group-synced channels (and possibly group-synced teams) — MM-21793</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7c6667b075ed796416c0cf6d29c89d1ba1469fa331b5005d5ceeb082e6fdaa0a163b5668d3332e2f9630cf51b0325376",
+  "stepsHashed": "4d4fc4747638e12741c89a5edfac169266bc90ae55d54a6529224b8a96b5b0067d305cf347ff13c6c5c0816abd91438a"
+}

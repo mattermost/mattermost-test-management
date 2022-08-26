@@ -1,0 +1,55 @@
+{
+  "id": 23668196,
+  "key": "MM-T4851",
+  "name": "App Bar can be disabled moving all plugins back to the channel header",
+  "createdOn": "2022-06-07T21:01:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable App Bar on your Mattermost server<br />2. Install and enable multiple plugins and apps (icluding ones without migraded icons)<br />3. Disable the app bar in client setup",
+        "testData": null,
+        "expectedResult": "All icons fail over to the channel header when App Bar is disabled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c1ef41923e43b59017f9e6bae9363c4c5023509847195c15ffcce9e7b2b72fdab846490ef79877504f3fc9645eb5c005",
+  "stepsHashed": "5adb58b65635f4e2e2bd449af5388ff50314fd64e982b3e24b2437cdc7eebe52ce2d9aa0eb1c5c00c00fc5ec53931815"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3968321,
+  "key": "MM-T622",
+  "name": "Disallow override of username and profile picture",
+  "createdOn": "2020-01-08T12:57:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.7 (January 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, December 22, 2020 1:31 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming Webhooks — Disallow override of username and profile picture<br>–––––––––––––––––––––––––<ol><li>Disallow override of username and profile pic in <a href=\"https://postgres.test.mattermost.com/admin_console/integrations/integration_management\" rel=\"noopener noreferrer\" target=\"_blank\">the System Console</a> (set both to 'False') and save</li><li>Send from Postman again</li></ol><br><strong>Tip</strong>: If you have the settings page and the channel where you've been testing incoming webhooks in view at the same time you can see the changes take place without having to send from postman again.",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578941471466-2020-01-13_13-50-14.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<strong>Posts with</strong>:<ul><li>Username = the user who set up the webhook</li><li>Profile picture = the user who set up the webhook</li><li>Fields are not available in Incoming Webhooks UI when editing incoming webhook</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.7 (January 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-13268\" rel=\"noopener noreferrer\" target=\"_blank\">Wide images posted by webhook can be cut off in RHS — MM-13268</a>",
+          "Important notes about this step": "<strong><span style=\"color: rgb(184, 49, 47);\">Notes</span></strong>:<ul><li>When applying this setting, previous posts created by the webhook are also flipped over to respect the current setting</li><li>⚠️ When done with this test set the overrides you changed back to 'True' before continuing&nbsp;</li></ul>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2cf84ec94a54a1ee546321779c8f8ab63eb6d1525bd2f60e8b9791ea60702329009e79e7fd50d41ed4a30d2e79e06f54",
+  "stepsHashed": "a47fcb558e4d332a9a743099e1cba81eefb26e3c1003d299b06a9868089a13e6c8a482d9a50296d056b48033a86e4dcf"
+}

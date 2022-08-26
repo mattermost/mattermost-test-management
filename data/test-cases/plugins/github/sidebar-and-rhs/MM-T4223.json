@@ -1,0 +1,55 @@
+{
+  "id": 13721613,
+  "key": "MM-T4223",
+  "name": "Sidebar - Pull requests requiring your review",
+  "createdOn": "2021-08-30T15:41:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194691,
+    "name": "Sidebar and RHS",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Sidebar and RHS"],
+    "fullPath": "plugins/github/sidebar-and-rhs"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to GitHub <br />2. Click the Reviews Icon from the RHS or team sidebar",
+        "testData": null,
+        "expectedResult": "- PR Title <br />- PR Creator<br />- Labels<br />- Repository<br />- PR number<br />- Checks Passes (green check or red x)<br />- Milestone version - if applicable<br />- Time the PR has been open - in the case of PR lists<br />- Reviesn complete (3 out of 4 reviews complete.)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "aa2cfd6277d67e051d7c1f9225abc2cd06bb6bdfe18b8eaffec6650cc1c6b1b0f3f1a45201cb317efee6c40e7e6fe234",
+  "stepsHashed": "362cbf87a84351668842f35ba23780f03a607b3e7d75d81d5c4dbfe6509c85a30ddcdd362c19fd8a36313f118600c8c4"
+}

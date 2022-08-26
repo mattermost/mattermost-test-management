@@ -1,0 +1,55 @@
+{
+  "id": 5477820,
+  "key": "MM-T2400",
+  "name": "Plugins Management",
+  "createdOn": "2020-05-22T11:15:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404330,
+    "name": "Plugins",
+    "parentId": null,
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Plugins Management<br>————————————————————————————<br>First get latest demo-plugin at https://plugins-store.test.mattermost.com/ci/mattermost-plugin-demo-ci.tar.gz<br><ol><li>Plugins ➜ Management</li><li>Click to upload a plugin - use latest demo-plugin.tar.gz; download from <a href=\"https://plugins-store.test.mattermost.com/ci/mattermost-plugin-demo-ci.tar.gz\">https://plugins-store.test.mattermost.com/ci/mattermost-plugin-demo-ci.tar.gz</a></li><li>Refresh the webapp</li><li>Click to enable the demo plugin</li></ol>",
+        "testData": null,
+        "expectedResult": "On step 2,<br><ul><li>On the plugin configuration page, ensure demo plugin is now listed</li><li>Links exist for Enable, Remove</li></ul>On step 3, Ensure the settings button is visible.<br>On step 4, Demo plugin shows as enabled.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dc3ac89360f4cf73f2346b8e33d6ef349b477e0a4f1cb303282613e0983bae6d0269ae10a4669e5e2ae4db460981ec02",
+  "stepsHashed": "b23b33e2f9ac8d696eaac522573a3ded6164d5f166ce0ae27dd41169d5a22197e1aea014105a7ec70ee8f604d6004441"
+}

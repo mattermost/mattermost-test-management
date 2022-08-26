@@ -1,0 +1,55 @@
+{
+  "id": 4058880,
+  "key": "MM-T1150",
+  "name": "Allow File Downloads on Mobile (E20)",
+  "createdOn": "2020-01-22T19:26:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["E20-Site-Configuration---File-Sharing-and-Downloads", "Cloud-N/A", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569364,
+    "name": "File Sharing and Downloads",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "File Sharing and Downloads"],
+    "fullPath": "suite/system-console/file-sharing-and-downloads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Allow File Downloads on Mobile<br />–––––––––––––––––––––––––<ol><li>View a file attachment on mobile apps, verify Download option is available</li><li>In System Console, set Allow File Downloads on Mobile to false</li><li>Go back to mobile apps and view file attachments again</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Option to Download is not there</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-30905\">Cloud - Able to share files with File Sharing and Downloads set to false — MM-30905</a>",
+          "Important notes about this step": "LM didn't realize these were E20 settings only; need to refine the tests here....<br /><br />Also, see if team test item is redundant and remove one or the other (Elias filed bug to hide settings for non-E20; need to work that into tests)"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0e1ae3e3c585898700734d739e4af49dd6162e8be441578b1fc6eabc35fbdbe2b2188fa2d945dc3b1d64d52fedb91c25",
+  "stepsHashed": "758ddc784369c0792a664910add85306c74e320717d70dfe3b97b29558819f7cfe9d58e71567f9ab16897804385a1bcd"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 24858975,
+  "key": "MM-T4897",
+  "name": "Mobile V2: Messaging - Markdown Separator",
+  "createdOn": "2022-06-30T18:23:17Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2569033,
+    "name": "Messaging",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should be able to display markdown separator</strong><br />--------------------<br />1. Open a channel screen and post a markdown separator<br />2. Verify markdown separator is displayed<br />3. Go back to channel list screen",
+        "testData": "---",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dfc65fe44ae4cfb10f199e907cc780d7a89fdf839b5cbc3327d2c964f4e77eb0bb9fa6be2dd88df2d4b099316e7d9de8",
+  "stepsHashed": "64ac1f1d5a40c0d3df946d13cfb96075657e1e10755588083e118fda674567ba8cb4323abe6e34ff5f085f2a72d96875"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5467488,
+  "key": "MM-T2372",
+  "name": "Deleting",
+  "createdOn": "2020-05-21T22:33:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["WebApp and Desktop"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Deleting<br>————————————————————————————<ol><li>As the other user delete the multi-line post edited above while viewing the thread as the test user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The thread does not move when the offscreen post is deleted</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3f0c4370f2c130e2d77bb1133e61cfa5d10d6910e75d49ceb29f43cf2818fcdc7be8a88773eeb0bb5da0faf52b3ecdd5",
+  "stepsHashed": "c2097165bd60528ab4b95952c70dc1faa9409984cd04bae74473a85bd1eeef644a25c5cebc3a832f45b3e0444226f86a"
+}

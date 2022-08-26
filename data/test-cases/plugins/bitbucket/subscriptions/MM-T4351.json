@@ -1,0 +1,55 @@
+{
+  "id": 15984365,
+  "key": "MM-T4351",
+  "name": "/bitbucket subscriptions delete",
+  "createdOn": "2021-11-04T17:43:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915243,
+    "name": "Subscriptions",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. type \"/bitbucket unsubscribe DHaussermann/helloworld\" to the same private channel.<br />2. Go to DHaussermann/hello-world in bitbucket<br />3. Create test issue",
+        "testData": null,
+        "expectedResult": "Mattermost channel receives notifications for new issue creation from mattermost-webapp only.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "83886a0c630534f94a96a46f27e28098a2d767da1bc02af4a9fc2b7083acc96d63f66b28592376c5f221a6ce8758a90d",
+  "stepsHashed": "c42bdaa6d03432b46ad3e35271eb2e659fa995cd4f9327550fa97eb976117a469e2ace62abb7d17016da686277d610d7"
+}

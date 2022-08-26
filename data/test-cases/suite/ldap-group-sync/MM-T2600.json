@@ -1,0 +1,55 @@
+{
+  "id": 5537281,
+  "key": "MM-T2600",
+  "name": "Remove link behavior in Channel and Team",
+  "createdOn": "2020-05-27T21:13:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove link behavior in Channel and Team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Navigate to System Console &gt; Groups and Configure a new Group. <br />Click on Add Channel and select a Channel belonging to a team. <br />Observe Remove buttons are displayed both for Team and Channel. Reload the page and the behavior should be the same. <br />Click on Remove button on the channel, and the Team is still displayed.",
+        "testData": null,
+        "expectedResult": "Remove buttons should be displayed seperately for both the Team and Channel. <br />Reloading the page should ensure that the behavior is same. <br />Channel should be removed, but the team should not be removed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "79e192547e8d7ad7b41a6d2aabd5e4da6b4dadc2a3f7717e09ab617bdea3ba3a892cb40b5cc035c223414e507d932a2f",
+  "stepsHashed": "e61dc9f93439b2550f3966c6eeff059c35445d0f92b50703a81e1aba797045529b15c67c1867abdbe06304171df1126f"
+}

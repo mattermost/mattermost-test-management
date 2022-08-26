@@ -1,0 +1,55 @@
+{
+  "id": 6008333,
+  "key": "MM-T2999",
+  "name": "LDAP Sync job should not fail if Team settings has email restrictions",
+  "createdOn": "2020-06-29T12:53:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.25 (July 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a new Team and ensure team settings has the email domain restriction enabled to \"mattermost.org\"<br>2. From System Console &gt; navigate to the Teams page, select the new team and add a LDAP Group which has members in it and their email domain does not contains mattermost.org<br>3. Visit System Console &gt; AD/LDAP Configuration page and perform a LDAP Group Sync. ",
+        "testData": null,
+        "expectedResult": "LDAP Group Sync should be completed without any errors. <br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1dc8df3f9befa1cdd5bce5c7a9723f3963dda11f71ad00cb7230aa18bbba9f19c546024b0ace83ea463056e112f7f68f",
+  "stepsHashed": "7500f69461d90baf4d414a819b201e9a9d066aefeded9440b4d7f1f6dcc53aaf8f1e4149b774a102fee0cfe0349c7507"
+}

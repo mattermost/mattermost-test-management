@@ -1,0 +1,55 @@
+{
+  "id": 3742428,
+  "key": "MM-T219",
+  "name": "Recent mentions search should fully expand in tablet view",
+  "createdOn": "2019-12-20T20:46:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.15 (Sept 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Recent mentions search doesn't fully expand in tablet view until results are fully loaded<br>–––––––––––––––––––––––––<ol><li>Sign in to Mattermost on a browser and shrink the window to about halfway horizontally so that it displays in tablet view (between full view and narrow mobile view)</li><li>Click the \"@\"-icon to open recent mentions search</li></ol>",
+        "testData": "<br><br>",
+        "expectedResult": "<ul><li>Search expands fully just like for other RHS views such as flagged posts</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.15 (Sept 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17353\">Recent mentions search doesn't fully expand in tablet view until results are fully loaded — MM-17353</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fc4e14a03773eba510bce059953d902241582a7d8b2bfb3ecfff50cd9c02398a63fa1daa39e72b1d097948f13618d067",
+  "stepsHashed": "007a2fb5bfdc1425ca41826d6be5ab3a7592be24efc27a702ec6a34c5af8d93d539e1b66bf20b7451ee0b5390a899880"
+}

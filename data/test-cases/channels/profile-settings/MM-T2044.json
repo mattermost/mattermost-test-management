@@ -1,0 +1,55 @@
+{
+  "id": 5444591,
+  "key": "MM-T2044",
+  "name": "Clear fields, values revert",
+  "createdOn": "2020-05-20T05:50:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Clear fields, values revert<br />————————————<br />1. Go to User menu &gt; Profile &gt; Profile Settings &gt; Full Name &gt; Edit<br />2. Change fields to blank<br />3. Cancel",
+        "testData": null,
+        "expectedResult": "Full name field reverts to previous value (should not be blank).",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8107d84824de4c7dd7f8e08a408635138ce882a76a7740677d7cbeb30d60de54785001927e9fd890da8c1363e123fb73",
+  "stepsHashed": "945d283b676ee76ac5d612b8f6c6057ad94adc3d031587ade2e2345ec31569969a161a5619627aca607bd2fc51328ee8"
+}

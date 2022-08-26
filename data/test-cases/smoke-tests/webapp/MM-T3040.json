@@ -1,0 +1,55 @@
+{
+  "id": 6181469,
+  "key": "MM-T3040",
+  "name": "RHS shows flagged posts across channels",
+  "createdOn": "2020-07-13T19:12:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RHS shows flagged posts across channels<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Note for mobile: Flag and unflag using three-dot menu on message<br />1. Flag a post in channel1<br />2. Flag a post in channel2<br />3. Flag another post in channel2<br />4. Click the flag icon to the right of the search box",
+        "testData": null,
+        "expectedResult": "All flagged messages appear in RHS flagged posts list, with channel name displayed above each flagged post in RHS (but not from different teams; not testing that here)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "21d45808c957e3c6a4c7836186890f7e43250bad125569ab9a034414caa0ab96fe9d9d6c7a1bef11a86847ef237c0dfe",
+  "stepsHashed": "1320f47ab6b5956c71784837e79b6db0d4ff6d8d462ec905e93547d497909d9336de69520e8b11bdac91c9e7bbff0767"
+}

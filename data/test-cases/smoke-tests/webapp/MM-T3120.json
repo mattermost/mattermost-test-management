@@ -1,0 +1,55 @@
+{
+  "id": 6181601,
+  "key": "MM-T3120",
+  "name": "Join a Team from sidebar `+`",
+  "createdOn": "2020-07-13T19:27:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Join a Team from sidebar `+` <br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Join at least three teams<br />2. For one of the teams, set Team Settings &gt; &quot;Allow any user with an account on this server to join this team&quot; to true<br />3. Leave this team<br />4. Click the &quot;+&quot; icon at the bottom of the team sidebar",
+        "testData": null,
+        "expectedResult": "Team selection page opens. Joining a team is successful.<br /><br />While loading new team after joining, user should see Loading... (should not see &quot;No teams available&quot; screen during loading)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cb182fac405572515de24eb4c3aa97d33c3936618477d27e8f4b39f9d5eb5b58870c9b5ee0e3711af6c642572a0feedb",
+  "stepsHashed": "d74a16dece175c189b5a82952d7704388a9f53f9ac21c3fae79edfa22865dce40d67c791866ef203fcbb72cd53243be9"
+}

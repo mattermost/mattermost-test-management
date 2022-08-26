@@ -1,0 +1,55 @@
+{
+  "id": 7560983,
+  "key": "MM-T3427",
+  "name": "Demo Plugin FilePreviewOverride component",
+  "createdOn": "2020-10-21T19:29:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1016041,
+    "name": "Demo Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Demo Plugin"],
+    "fullPath": "plugins/demo-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable demo plugin<br>2. Make apost and Attach a file named `file.demo`<br>3. Click the attachment to preview it<br>4. Click the close button at the bottom of the modal <br>5. Make a post with a start image file and click it",
+        "testData": null,
+        "expectedResult": "On 3. A custom type of modal opens for the .demo file extension<br>On 4. Clicking the close button closes the modal<br>On 5. Other file extensions show the regular preview modal",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2b53350c9f6d19dc550fc0dd0d6ca50dcdce2b1b1466559853db398678b120056e5a36bc3622350948e861c7c8732200",
+  "stepsHashed": "f17a7c037e858117f87e8c38d0c12d97d76d458e350102ca6cbd11aa796adb5a1ef5b9ffe2fc771a6c4e3d4aaad52f4c"
+}

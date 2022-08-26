@@ -1,0 +1,55 @@
+{
+  "id": 8620958,
+  "key": "MM-T3738",
+  "name": "Team - Modify : user that creates the team can't set team's privacy due to permissions",
+  "createdOn": "2021-01-18T12:04:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team modify [teamname] --private",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2f4cf391cb472a4cf5c24cf45d29b478e50a297a99e9981fdcaf3ac43c76a05f0688621a6565fca2ab6eea17116a411b",
+  "stepsHashed": "0ec6d356646ea7575bad4521d604c66a6dea2bb281fbf388f2a0993af728fe9d2db0b3d537a7ad1c2a0ccadac20f6052"
+}

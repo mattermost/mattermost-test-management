@@ -1,0 +1,55 @@
+{
+  "id": 4051754,
+  "key": "MM-T999",
+  "name": "Max File Size - error over max limit",
+  "createdOn": "2020-01-21T22:18:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568113,
+    "name": "File Storage",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
+    "fullPath": "suite/system-console/environment/file-storage"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.21 (March 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "2020-11-24 (Lindy) added Cloud-N/A label as no Max File Size available on Cloud servers",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Max File Size - error over max limit<br>–––––––––––––––––––––––––<ol><li>Set \"Max File Size\" to \"10\"</li><li>Save</li><li>Have other user (or in other browser with same user) refresh, then attempt to upload and post a file larger than 10MB</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Error message displays below the text input box: \"Unable to upload file. File is too large.\" or \"File above [10MB] cannot be uploaded: filename\"</li><li>File is not uploaded</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.21 (March 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22294\">Desktop App: Video file upload fails without an appropriate error on RHS — MM-22294</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3d7530a56a8a538cf619a5c7bffbc7da389e5d6df2bb04701b55f7487584ec40992544a5e4534163561d1ec5109bb956",
+  "stepsHashed": "2c879970dc26a64e319a4ecff8904f1eb1ad3f8069fdededc18d8e7d8aff424ee59f095fd3d2f3dffe431ca651c36e0c"
+}

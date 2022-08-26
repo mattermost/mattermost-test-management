@@ -1,0 +1,55 @@
+{
+  "id": 3968347,
+  "key": "MM-T647",
+  "name": "02 — Copy icon for OAuth 2.0 Applications",
+  "createdOn": "2020-01-08T12:57:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586859,
+    "name": "Zapier",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.4 (October 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, December 21, 2020 3:54 PM<br>• Set to Active<br>• Added back to manual pool",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Copy icon for OAuth 2.0 Applications<br>–––––––––––––––––––––––––<ol><li><a href=\"https://postgres.test.mattermost.com/webhooks/integrations/oauth2-apps/add\">Main Menu ➜ Integrations ➜ OAuth 2.0 Applications ➜ Add OAuth 2.0 Application</a><br>For this test purpose, fill in the following with some test data:<ul><li>Display Name</li><li>Description</li><li>Homepage</li><li>Callback URL</li></ul></li><li>Scroll down and click \"Save\"</li><li>Click \"Done\" in the \"Setup Successful\" screen</li><li>On the \"OAuth 2.0 Applications\" screen, locate the OAuth app you've just created</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>You should see \"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578653468807-1578653468807.png\" class=\"fr-fic fr-dii\">to the right of \"Client ID\" and \"Client Secret\" on the \"Setup Successful\" screen</li><li>\"copy\" icon &nbsp;to the right of \"Client ID\"</li><li>\" *******************\" in place of the \"Client secret\"</li><li>\"Show Secret\" button in top right reveals secret when clicked</li><li>Show Secret changes to \"Hide Secret\" when clicked</li><li>\"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1578653537307-1578653537307.png\" class=\"fr-fic fr-dii\">&nbsp;next to Client Secret when revealed</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.4 (October 2018)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-12164\" rel=\"noopener noreferrer\" target=\"_blank\">Add copy buttons to integration setup and list screens — MM-12164</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "31bbc0bc28f36fee0fd9993ecb334106b8476b90b0559f3b6d5b3e15e8f8a58b2cf209da1c910566870b2b13e377c1a1",
+  "stepsHashed": "dd97583e4558433b0017d830557a26d78bf6edba32a85e24451cc647f858fd4a0911795770684107ec7b73fa9e826fb5"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4032082,
+  "key": "MM-T808",
+  "name": "Redo in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Edit ➜ Redo in the Menu Bar</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Redoes your action in the message box</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d220cecbcd3d2e7f00e8aae1d64e1c194abcc40a24820974b8e577b7624ab04a9f78b29328b4784142cde065621db8bc",
+  "stepsHashed": "4c4ab4393af40b70fb8f042509321c2c95cd5a6074f4c31bfc3add1c9e38b221f7a6baa500761f0debfc218dcff51c23"
+}

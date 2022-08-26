@@ -1,0 +1,55 @@
+{
+  "id": 25889284,
+  "key": "MM-T4922",
+  "name": "Plugin can be disabled and reenabled",
+  "createdOn": "2022-07-14T13:42:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3080541,
+    "name": "Plugin Release Tests",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Release Tests"],
+    "fullPath": "plugins/plugin-release-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a sysadmin and disable a plugin from the plugin management page<br />2. Re Enable the plugin",
+        "testData": null,
+        "expectedResult": "Plugin can be enabled and disabled",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4618c96716c1ac7cab381a5936f4a14b6c4006e9effd4b105df3a0d3f216a96a3f96b6adf058f800610ce2f63a21eee3",
+  "stepsHashed": "d560057ce63d964f490d7305160b9bedf6e2a2b3bd01a3471e52e5e543ebcb62e479fa7939d3868762542fab65d463b0"
+}

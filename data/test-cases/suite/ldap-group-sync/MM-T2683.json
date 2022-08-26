@@ -1,0 +1,55 @@
+{
+  "id": 5566869,
+  "key": "MM-T2683",
+  "name": "Chat Facing ➜ Team ➜ Manage Groups ➜ Make Team Members",
+  "createdOn": "2020-05-29T20:22:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap-group-sync"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 631925,
+    "name": "LDAP Group Sync",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "LDAP Group Sync"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Chat Facing ➜ Team ➜ Manage Groups ➜ Make Team Members<br>————————————————————————————<ol><li>For a Group Synced Team, login as a user User1 who has Team Admin permissions.</li><li>For the same group synced team, on a different browser, login as a user User2 who has Team Admin permissions.</li><li>As User1, Click on Manage Groups from Main menu and then set the role to Team Members for a Group which User2 belongs to.</li><li>User2 should immediately be updated to Team Member role and should not be able to perform Team Admin tasks like view and modify Team Settings, Manage Groups etc.</li><li>Run LDAP Group Sync job again and check if user User2 still has Team Member permission for that Team.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User2 should be updated to a Team Member role and should not be able to perform any Team Admin Tasks</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong>Epic</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19111\">Group Sync to Roles for AD/LDAP — MM-19111</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ebff4b51155b45d9db24bbdba5103b5e58f62d4e206717ee06539f430c05fd389ff7c51fcfb30dfa91255a88cea12261",
+  "stepsHashed": "9cf410a749cc8bdac6770029ad3b994e5e2ddb4033c6acee8efa6dab4b774b51c9d936bcf1d247adb5ba12a175bf03e8"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6396883,
+  "key": "MM-T3207",
+  "name": "RN apps: Leave private channel",
+  "createdOn": "2020-07-30T21:04:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Leave private channel<br>————————————————————————————<ol><li>On a private channel, tap channel name</li><li> Tap Leave Channel</li><li>Tap Yes on confirmation modal</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Redirects to Town Square</li><li>Channel no longer listed in channel drawer</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "20c56ef1f07bc48c48d3b20c46c6c9d0e85f228ec79d1b734b133fbf5e7713bdaf25d9663c6d930009da35ca1f0e47fd",
+  "stepsHashed": "bcd82a82e5fdc1a421b8f8fb86aa720db89ca7ed29c2de091680294e93aebdfbb8c1bb30d7414c2935fd69c673c02e6e"
+}

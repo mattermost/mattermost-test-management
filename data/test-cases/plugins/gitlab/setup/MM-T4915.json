@@ -1,0 +1,94 @@
+{
+  "id": 25864577,
+  "key": "MM-T4915",
+  "name": "Use Setup command with Chimera proxy enabled",
+  "createdOn": "2022-07-13T19:04:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3076551,
+    "name": "Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Setup"],
+    "fullPath": "plugins/gitlab/setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable GitLab and ensure Chimera proxy is enabeled<br />2. As a sysadmin run /setup<br />3. Click Continue in the bot message<br />4. Click I'll do it myself when asked if you'll be setting up the integration",
+        "testData": null,
+        "expectedResult": "On 2. GitLab bot DMs you about setup<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1657742494946-1657742494946.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><br />On 4. Setup flow starts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Click the connection link",
+        "testData": null,
+        "expectedResult": "The user is authenticated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Click Yes to creating the webhook and provide a user and project such as dhaussermann/pipelinetest<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1657734780625-1657734780625.png\" class=\"fr-fic fr-dii\" /><br /><br />",
+        "testData": null,
+        "expectedResult": "GitLab is configured successfully<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1657738042250-1657738042250.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Click Send message<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1657738627126-1657738627126.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />2. Select a channel and send the message<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1657738737258-1657738737258.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "testData": null,
+        "expectedResult": "On 2. Message is posted in the channel specified.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7b8a3d565d38638c394f90699f4967541c7332fdafc91f1059fe14e1501d1ead92e59d0b798a63e5e5a6d561113cbf55",
+  "stepsHashed": "9d809b56fa3ecebd519d84a82e2c29c40ec81bdd2c82789cba41d65d9d594c9f164eba443d772d143fd9d704aff305e2"
+}

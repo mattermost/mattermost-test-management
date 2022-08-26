@@ -1,0 +1,55 @@
+{
+  "id": 5248340,
+  "key": "MM-T1750",
+  "name": "RN apps: Long press in message thread view on image only post has no option to \"Copy Text\"",
+  "createdOn": "2020-04-29T21:02:02Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404287,
+    "name": "Interactive Menus Message Attachments",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
+    "fullPath": "integrations/interactive-menus-message-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Interactive Menus - Message Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN app: Long press in message thread view on image only post has no option to \"Copy Text\"<br>–––––––––––––––––––––––––<ol><li>Locate a message that only contains an image</li><li> Tap on the message to open the thread view</li><li>Long press on the message</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>There should not be a \"Copy Text\" option</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "71bdb7754b52b78ab4ac790e3ecef3da1c157b0baf1d290b3d8c47c96db3fed01ed4393d7ce05572751839943832289d",
+  "stepsHashed": "4b2c0d50a739b8c96b792590da38409f5b5306ae69538b16f6413a2d5bc010b5779e0857a32d6bfe4a2790ace6933c3d"
+}

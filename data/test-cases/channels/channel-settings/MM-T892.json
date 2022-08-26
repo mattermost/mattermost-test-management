@@ -1,0 +1,55 @@
+{
+  "id": 4035761,
+  "key": "MM-T892",
+  "name": "Leave a channel while multiple other tabs are open to different channels",
+  "createdOn": "2020-01-18T01:00:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Log on to a server on a browser and view a channel you want to leave</li><li>Open multiple additional tabs, each viewing a different channel on that server</li><li>Go back to the first tab, click channel name drop-down and select `Leave Channel`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Only the tab viewing the channel you left is redirected to whatever channel you had previously been viewing on that tab.</li><li>Other tabs do not redirect; they continue to display the channel you had been viewing on each tab (the channels you did not leave)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4a7f9dcaae5c84ec9a08d10da4f6361e3abf73588b020ad05e45f94eb8e8457c67cb330548692a97c9dd32ad53fc0d21",
+  "stepsHashed": "d05b4939ae5a59c35150b0aed3ad8d7cf84dda5fbe1080674951e9e56c67d86216c5a38e1cb09392a5cef71efaaf0aa1"
+}

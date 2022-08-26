@@ -1,0 +1,55 @@
+{
+  "id": 4089239,
+  "key": "MM-T1315",
+  "name": "Close Settings screen: Text input is focused within server view (webview)",
+  "createdOn": "2020-01-27T23:44:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565216,
+    "name": "Focus behavior",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
+    "fullPath": "desktop-app--native-specific-/focus-behavior"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Ensure Text input is focused within server view&nbsp;<ul><li>join server</li><li>open any channel</li><li>observe textbox input field</li></ul></li><li>Ctrl or Cmd + , (comma) to open Settings page</li><li>Close Settings modal by clicking on the X</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Previously focused text input is still focused when returning to server view from Settings modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "88f92e7c7f5284680c2e799503f1dfd36ffe3a8c2433f55707bf00a0a337e3fd8d980e8ff5034fbcd25fe8bacb7bc208",
+  "stepsHashed": "757be95b6023d8b9c2b8b990e94019a1d00dfd9af917971a4aabb7909856e96f71415dc8d6b5efea397701a8f89f77a2"
+}

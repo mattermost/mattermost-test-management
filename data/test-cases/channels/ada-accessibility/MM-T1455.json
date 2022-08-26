@@ -1,0 +1,55 @@
+{
+  "id": 4402367,
+  "key": "MM-T1455",
+  "name": "Message autocomplete reads out matching entries",
+  "createdOn": "2020-02-17T13:54:15Z",
+  "objective": null,
+  "precondition": "JAWS Screen Reader required: <a href=\"https://support.freedomscientific.com/Downloads/JAWS\" rel=\"noopener noreferrer\" target=\"_blank\">https://support.freedomscientific.com/Downloads/JAWS</a><br>Eric has a license key to upgrade the free version - ping him if required<br>Switch off the \"PC virtual cursor\" within JAWS by pressing INSERT+Z<br>Navigation to various focus areas: CTRL+F6 in browsers; F6 in desktop app<br>The feature is not available on the RN apps.",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)", "v5.17 (Nov 2019)", "v5.19 (Jan 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Message autocomplete reads out matching entries<br>–––––––––––––––––––––––––<ol><li>Use \"@\" then type characters then use the down arrow key</li><li>Use \"~\" then type characters then use the down arrow key</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Down/up arrow moves through the results and reads the usernames as they get highlighted by the grey selection color. ie \"eric_8\" \"eric_test2\" etc.</li><li>Down arrow moves down the results and reads the channel names and purposes as they get highlighted by the grey selection color. ie \"apiv4. Discussion related to moving toward APIv4.\" \"Apps Team\" etc.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)", "v5.17 (Nov 2019)", "v5.19 (Jan 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16058\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Message Autocomplete does not read out matching entries — MM-16058</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-18373\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Message Autocomplete does not read out matching entries properly in Edge and Firefox — MM-18383</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-19870\" rel=\"noopener noreferrer\" target=\"_blank\">At-mention suggestions should not \"remember\" (highlight) the previous search but should highlight the first suggestion in the list — MM-19870</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04d5e96379840ad55b9b6f8985f30c0c4e08ae15e989faf6e0209155f2facc5cb1262f6e6e218fc2f653a7c4f8e45186",
+  "stepsHashed": "521daa7b236c1a6510628801dbde13fe38911d8a58531bb9a4ccd0452be64a3e937155d25cbc03186a42247e7fe4b0d0"
+}

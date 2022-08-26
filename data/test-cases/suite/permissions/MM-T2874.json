@@ -1,0 +1,55 @@
+{
+  "id": 5659424,
+  "key": "MM-T2874",
+  "name": "Member cannot create a public channel",
+  "createdOn": "2020-06-04T18:02:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member cannot create a public channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On the LHS menu locate the Public Channels section<br />2. Ensure that the &quot;+&quot; is not available <br />For Mobile, select the &quot;+&quot; and on the channels list, ensure that Create Channel is not available",
+        "testData": null,
+        "expectedResult": "No option to create public channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1e1a22ac79c028652b654e4f8965c438dd49beb1c44a4f20405e7a23325470f8f6c47b2e34701837cac75971f20e4bf",
+  "stepsHashed": "aff72b16713f4264269bedc7a508be7724bd66418360d38ba0656d922dce625d01443544b82ab8a5ed6486d3fe050246"
+}

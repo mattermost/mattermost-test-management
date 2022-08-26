@@ -1,0 +1,55 @@
+{
+  "id": 4051752,
+  "key": "MM-T997",
+  "name": "Max File Size - nonzero invalid entry",
+  "createdOn": "2020-01-21T22:18:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568113,
+    "name": "File Storage",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
+    "fullPath": "suite/system-console/environment/file-storage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Max File Size - nonzero invalid entry<br />--------------------<br />1. Set &quot;Max File Size&quot; to `-1` <br />2. Click Save",
+        "testData": null,
+        "expectedResult": "Error message displays &quot;Invalid max file size for file settings. Must be a whole number greater than zero.&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "44ce4a80b9b25898c383cbdb5eeeccb4d31cdb3436f2c8e4a24c95f5d712c6fb0462ffe39be0e0614ee382427d9fd6b0",
+  "stepsHashed": "2dd486177a667702b9cbba38695e910d41553995da18e165198e72ca8f5f310b71e0eed715c9c47de7a7748cfca80b5f"
+}

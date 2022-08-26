@@ -1,0 +1,55 @@
+{
+  "id": 4058111,
+  "key": "MM-T1101",
+  "name": "Lock Teammate Name Display for all users E20 license only",
+  "createdOn": "2020-01-22T16:25:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.19 (Jan 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Lock Teammate Name Display for all users E20 license only<br>–––––––––––––––––––––––––<ol><li>On an E10 instance, navigate to System Console ➜ Site Configuration ➜ Users and Teams and check the setting \"Lock Teammate Name Display for all users\" is not displayed.</li><li>On an E10 instance, update the property \"TeamSettings.LockTeammateNameDisplay and set it to true in config.json and restart the server. Login as a user and navigate to Account Settings &gt; Display &gt; Teammate Name Display and click on Edit button. The user should be allowed to select a value from one of the 3 options and save. User should not see any message indicating \"This field is handled through your System Administrator\".</li><li>On an E20 instance, ensure the property \"Lock Teammate Name Display for all users\" is set to true.<ol style=\"list-style-type: upper-alpha;\"><li>On a different browser, login as user and navigate to Account Settings ➜ Display ➜ Teammate Name Display and click on Edit button and notice an error message is displayed.</li><li>Now downgrade the license to E10 license and check if the changes are propagated instantly and user need not have to refresh the page. The error message should not be displayed and user should be given the option to select a value from one of the 3 options and save.</li></ol></li><li>Repeat the above steps for Team Edition license as well</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>\"Lock Teammate Name Display for all users\" should only be displayed for E20 license. It should not be displayed for E10 and Team Edition.</li><li>On E10 and Team Edition, the value of \"TeamSettings.LockTeammateNameDisplay\" should be ignored by the server and should always be set to false on server restart.</li><li>If an instance is downgraded, the changes should reflect instantly and user should see the option to edit the value of Teammate Name Display and save.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.19 (Jan 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21290\">Users &amp; Teams &gt; Lock Teammate Name Display for all Users should be E20 — MM-21290</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "86e5bcd82795ea073a886e19a7f90e0f1c014400a725d98f2e8a0c0ae48e90c6a27e05fbeb836103176a520d95fab701",
+  "stepsHashed": "c585e98840ddfc617315cbe44d85db293472ed6ee7d144aa05289dbb501124cfa0dd8a6c3cd7a267e2298b4927c0e7fb"
+}

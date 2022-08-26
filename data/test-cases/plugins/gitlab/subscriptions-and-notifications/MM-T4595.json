@@ -1,0 +1,55 @@
+{
+  "id": 17862431,
+  "key": "MM-T4595",
+  "name": "Lock GitLab plugin to a specific group",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Navigate to System Console&gt;&gt; Plugins&gt;&gt; GitLab<br />2. Add a group such as dkh-test-group to the GitLab Group field<br />3. Save and return to the user side<br />4. Type /gitlab subscriptions add dhaussermann/dkh-project3",
+        "testData": null,
+        "expectedResult": "GitLab boy posts: <br />only repositories in the dkh-test-group namespace are allowed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c5b34d0ace9c12cee5a43a7f1bc4a8d14dfe141ac4c1cbcd7f0a51a59ed7a3de684a6f2130e4734a0b2c0eee92e2ede",
+  "stepsHashed": "368e194e7faffdcda7a74dac5ced8d4a3aa6540ec516e5bd0887c7aaf1e54c8e05e0e681a94272a1aa7443683d7d243f"
+}

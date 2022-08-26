@@ -1,0 +1,55 @@
+{
+  "id": 8022892,
+  "key": "MM-T3587",
+  "name": "Start a WebEx for a specific meeting room",
+  "createdOn": "2020-11-26T21:08:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as the test user<br />2. Type /webex ",
+        "testData": null,
+        "expectedResult": "Shares a Join Meeting link for the Webex Personal Room meeting that is associated with the specified Personal Room ID, whether it&rsquo;s your Personal Meeting Room ID or someone else&rsquo;s.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7a450ccc1ab50bca6332f63a1aa91ee43073c2ce5c32ff202c79ede96cb67d6580cffdb3ccc8608d2a86b340c4a95bf2",
+  "stepsHashed": "e85111b3b2ee3526f4aadf47cba8d011535e042bc137840ac04998b40171c70dfcfbd215a4332c0991926be27a604fbd"
+}

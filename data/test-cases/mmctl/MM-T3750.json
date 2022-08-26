@@ -1,0 +1,55 @@
+{
+  "id": 8631447,
+  "key": "MM-T3750",
+  "name": "Team - Restore : non-existent team",
+  "createdOn": "2021-01-19T09:42:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team restore [non-existent-teamname]",
+        "testData": null,
+        "expectedResult": "Returns an error as the team doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "54b5f18c226cd5efed417b7bd7dd9f29c65c318d9506d5291f06efcf91610afadeb6a7de10d645e1499766998d38a5ba",
+  "stepsHashed": "c8a48c29c0994b4b38bfd5319a73dbd7066b4a19900510e978f68c19957bb9029e5725641a142cd18254f1dc8be3be39"
+}

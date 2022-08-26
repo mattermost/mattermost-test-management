@@ -1,0 +1,55 @@
+{
+  "id": 15597399,
+  "key": "MM-T4300",
+  "name": "Opening Boards via App Switcher for the first time should not give \"No workspace\" error",
+  "createdOn": "2021-10-22T08:50:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1853989,
+    "name": "Browser Plugin Regression Tests",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Browser Plugin Regression Tests"],
+    "fullPath": "boards/browser-plugin-regression-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a private browser window, or clear the server localstorage</li><li>Open Channels on the server</li><li>Click on the App Switcher and select Boards</li></ol>",
+        "testData": null,
+        "expectedResult": "Boards should load and you should not see \"no workspace\" error<br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c41d2ab0d172ded35fb89ee16dc291ab53be9add07dc479c75ed69f9e0f105cf97e7cf8188dc56935d8d9f65cdc2088c",
+  "stepsHashed": "79eed6ec88ccae7864d0fe5161e516d7a6060c03115c7a64a143efae4f4a8d9772dfb936a2f10e67f7615f7e8d8249db"
+}

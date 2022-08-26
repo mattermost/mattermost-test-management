@@ -1,0 +1,55 @@
+{
+  "id": 6135581,
+  "key": "MM-T3009",
+  "name": "SAML: OKTA – Create new account",
+  "createdOn": "2020-07-09T06:39:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404332,
+    "name": "SAML",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "SAML"],
+    "fullPath": "suite/saml"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "SAML"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open rc.test.mattermost.com (login page)<br>2. Click to Create new account<br>3. Select SAML (button text can change; could say OKTA or similar)<br>4. Enter OKTA credentials<br>5. Select team if needed",
+        "testData": null,
+        "expectedResult": "Account is created and team is joined",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "319fb269c7bbecb3c711f0af2eceb2993acbd37fcbf1d5906f2268da012ff69b6bf80e39be9bb46a919c4a2ea093ef75",
+  "stepsHashed": "1cb5025e808724998278d361b2ccb6952a3188223265bfe03e6fb9e87e4623de827522a8333950107770d83e6cd541da"
+}

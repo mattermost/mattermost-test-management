@@ -1,0 +1,55 @@
+{
+  "id": 3768069,
+  "key": "MM-T263",
+  "name": "Mark as Unread post menu option should not be available for archived channels",
+  "createdOn": "2019-12-27T20:26:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark as Unread post menu option should not be available for archived channels<br />–––––––––––––––––––––––––<ol><li>Navigate to an archived Channel or Create a new channel with few posts by 2 different users and archive</li><li>Click on the ... to open post option menu or long-press on mobile to view post menu</li><li>Hold 'Alt\" and hover over post in archived channel</li><li>Hold 'Alt\" and click on the post</li></ol>",
+        "testData": "",
+        "expectedResult": "On 2, no `Mark as Unread` option.<br />On 3, cursor arrow does not change to pointer.<br />On 4, post is not marked as unread.",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21007\">Mark as Unread: Remove mark as unread option from post menus for archived channels — MM-21007</a>",
+          "Important notes about this step": "<strong><span style=\"color:rgb(184, 49, 47)\">Note</span></strong>: If you're unable to see archived channels then it needs to be enabled in the System Console.<ul><li><a href=\"https://mysql.test.mattermost.com/admin_console/site_config/users_and_teams\">mysql</a></li><li><a href=\"https://postgres.test.mattermost.com/admin_console/site_config/users_and_teams\">postgres</a></li><li><a href=\"https://rc.test.mattermost.com/admin_console/site_config/users_and_teams\">rc.test</a></li></ul>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4bb42070dd06675142d0b1aca77fd2a49dc92fca32c3282c74cf7dc78a9d960812950d50f1d756ac22888581b2943212",
+  "stepsHashed": "b331c671060ab767f838b63a2ede7122f0cb2d895fb10ced0bd32c89170cbbfb25ab09b3077e517415c28214b860fdc9"
+}

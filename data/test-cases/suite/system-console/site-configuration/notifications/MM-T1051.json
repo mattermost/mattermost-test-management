@@ -1,0 +1,55 @@
+{
+  "id": 4058061,
+  "key": "MM-T1051",
+  "name": "Max Notifications per Channel",
+  "createdOn": "2020-01-22T16:25:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Set \"Max Notifications per Channel\" to \"10\", Save</li><li>Go to Town Square (where over 10 users)</li><li>Type \"@channel\" and post</li><li>Type \"@all\" and post (click through confirmation modal as needed)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Message posts successfully but does not trigger notifications</li><li>Ephemeral message displays \"@channel [@all] has been disabled because the channel has more than 10 users.\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf464390ae6309099204b491e7e827568e966b7867c78f3b9d2d229fe80ed475dccff73cc60d40ec6c28ae04f2ac8102",
+  "stepsHashed": "c18bbd237d3f557da7ba09ef5b93e2ffa77117b76fb410ccd14b1959c6ff3c1cad53996f10e213fcd6e5372309ea7e3c"
+}

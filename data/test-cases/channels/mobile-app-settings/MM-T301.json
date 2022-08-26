@@ -1,0 +1,73 @@
+{
+  "id": 3808155,
+  "key": "MM-T301",
+  "name": "Changing the timezone in app settings updates post timestamps and date separators",
+  "createdOn": "2019-12-30T23:49:20Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://community-release.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://community-release.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "1.42-p123", "account-settings", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [
+      "v5.16 (Oct 2019)",
+      "v1.24 Mobile (Oct 2019)",
+      "v1.25 Mobile (Nov 2019)",
+      "v5.20 (Feb 2020)"
+    ],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 10:31 PM<br />• No Cypress executions reporting back<br />• Moved Cypress PR link to Traceability tab<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now<br /><br />Joseph Baylon - Thursdsay, October 15, 2020 9:00 AM<ul><li>Toggled Cypress status to In Production - Cypress code to match TM4J ID for reporting</li></ul><br />Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as experimental timezone not active on RF servers.</li></ul><br />",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Changing the timezone in app settings updates post timestamps and date separators<br />–––––––––––––––––––––––––<ol><li>Log in to a server with experimental Timezone feature set to \"True\" in the system console (e.g. community-release)</li><li>Click on the three-dot menu and go to Settings ➜ Display ➜ Timezone</li><li>Disable \"Set automatically\"</li><li>Click \"Change timezone\" and select a timezone different from your actual one</li><li>Go back to a channel</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Post timestamps and post date separators are updated</li><li>The date separators between posts (web and mobile) and the floating post timestamp in mobile web view should be updated to read Today or Yesterday for posts made on those days.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)", "v1.24 Mobile (Oct 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18466\">Finish changing date separators to read Today/Yesterday — MM-18466</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Enable \"Set automatically\" again and verify in channel</li><li>Log out and log back into a different server and verify timezone is set automatically</li><li>Visit a channel with previous dates (2 or more days ago)</li><li>Disable Automatic Timezone and set timezone <strong>manually</strong> to NZ-Chat</li></ol>",
+        "testData": null,
+        "expectedResult": "After #2,<br /><ul><li>Timezone should be set automatically to users location</li></ul>After #4,<br /><ul><li>Should display date in 'ddd, MMM D, YYYY' format</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.25 Mobile (Nov 2019)", "v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18313\" rel=\"noopener noreferrer\" target=\"_blank\">RN: Timezone setting not updating when changing back to set automatically — MM-18313</a><br /><a href=\"https://mattermost.atlassian.net/browse/MM-22075\" rel=\"noopener noreferrer\" target=\"_blank\">Web: Date separator displaying numeric value — MM-22075</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58574c7defd7f2c08466d3e99ea5e0c65933c6fa09775d582e540d92645eb3b6c1efe96a225a5b9ec157c48bc1bbf39c",
+  "stepsHashed": "d03a081ee7ec54634e709b79eeaba3ff48da9b4c685f148bb086db3fcd360afce25059b09457d8390f1ef223294ef16c"
+}

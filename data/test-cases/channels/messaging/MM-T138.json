@@ -1,0 +1,55 @@
+{
+  "id": 3742308,
+  "key": "MM-T138",
+  "name": "RN apps: Pin and Unpin a post and a reply",
+  "createdOn": "2019-12-20T20:24:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Cloud"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Pin and Unpin a post and a reply<br />--------------------<br />1. Long press a post and pin it to the channel <br />2. Reply to any post<br />3. Long press the reply and pin the post",
+        "testData": null,
+        "expectedResult": "1. Posts correctly appear as pinned when viewed in main thread<br /><br />3. Posts correctly appear as pinned when viewed in reply thread",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8785dfd504031049dce1ea8e9d88f8880762ce8ae3a721fa209cf4ae832c27105d5c4553b9b3c9b84576c3bbba3ae7f0",
+  "stepsHashed": "f9209dab685cd95c6178ed98cffa55e7aa50fa84f5befdcd1a306e2ddb8a9f2018600263008664308cb16c20b50422cb"
+}

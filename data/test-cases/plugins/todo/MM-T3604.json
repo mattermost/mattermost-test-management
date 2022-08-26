@@ -1,0 +1,55 @@
+{
+  "id": 8022922,
+  "key": "MM-T3604",
+  "name": "Add Items from RHS",
+  "createdOn": "2020-11-26T21:15:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054414,
+    "name": "ToDo",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable the ToDo plugin<br />2. Open the RHS pain<br />3. Click the &quot;+&quot; <br />4. Add text and save",
+        "testData": null,
+        "expectedResult": "ToDo item added tp your list in RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ba84b358a5631dc7e37eec716af4b788b031348e9a49623bbeb71ef074337db802e2d758b69305ef272a1f350807dd78",
+  "stepsHashed": "9413259c3f9aa538a1f1184151ea43fae2b0f2677edd327baa4c301eccb7f8365e5f1e5ebd2e1dfce62b0799b2241e02"
+}

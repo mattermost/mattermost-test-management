@@ -1,0 +1,55 @@
+{
+  "id": 10167065,
+  "key": "MM-T4000",
+  "name": "Cloud Trial — Purchase flow with 3 tiers to choose from",
+  "createdOn": "2021-04-14T16:33:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1289963,
+    "name": "What If",
+    "parentId": 1285126,
+    "fullNames": ["Cloud", "Cloud Trial", "What If"],
+    "fullPath": "cloud/cloud-trial/what-if"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to the purchase screen by way of the banner, an email or the System Console</li><li>Select one of the 3 different tiers available to purchase and complete the purchase process</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1621629194941-1621629194941.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>After 1;<ul><li>The purchase page loads and displays a place for your credit card as well as address and a section with 3 different tiers to choose from</li></ul></li><li>After 2;<ul><li>You arrive at a page that says your purchase was successful</li><li>You receive an email outlining the purchase you just made</li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "66e1935d584de5bdf212d7a9b9af8ca3c1217d18864cfbd0f0d19f87d9605c3cf96e6c05fc0c1f7be840fa8530f81cfd",
+  "stepsHashed": "c0f324b1dbca6d27fc27fc1f838cdc18e8c97785db509723c865bcbc2239a586d013320cf617b82cbca773326e18077d"
+}

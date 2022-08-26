@@ -1,0 +1,55 @@
+{
+  "id": 17498293,
+  "key": "MM-T4458",
+  "name": "Non-migrated  plugins with channel header icon continue to work in the channel header with the App bar enabled",
+  "createdOn": "2022-01-10T19:15:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start your server with the Feature Flag for the Apps Bar in a False state `<em>MM_FEATUREFLAGS_AppBarEnabled=true</em>`<br />2. Deploy a various non-migrated plugins such as Playbooks, Zoom, Webex, Jitsi, MS Teams, MM Calls or ToDo<br />3. Enable the plugin(s)",
+        "testData": null,
+        "expectedResult": "- The plugin(s) is shown in the channel header<br />- Clicking the icon from the channel header functions normally",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6b8d87b2efa702afa026252c847ab17ee28f83b737c043f6462edd30b5c84fad05bb22d7a1ab324f0a7d6ce1b089999b",
+  "stepsHashed": "ee09a8cdaf3c17ae3cf3e707b9b94beae10ac7371e90d8ebeb39f775d96fcfa8f4aa1380d2c3eef500e92b1276466fa1"
+}

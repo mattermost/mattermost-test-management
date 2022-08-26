@@ -1,0 +1,56 @@
+{
+  "id": 16153871,
+  "key": "MM-T4382",
+  "name": "Valid redefine_form command",
+  "createdOn": "2021-11-10T22:22:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1941501,
+    "name": "(prev)",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test redefine_form --text0 \"I like apples\" </em>and send",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral system post that says \"Ok\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1636580842679-1636580842679.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "88581674a21539ea9697fe6d4e752329bc1187cc4478ddeee6365c426584035b12fa556d763bdf40f6e411233ed82ca2",
+  "stepsHashed": "8e1f35bbef1d23fb64695aca8e14b99c255c584b5a31f614f04c34da09b96105b0b8a6759a77e1991a4530991ceb05d4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3742422,
+  "key": "MM-T213",
+  "name": "System message limited options",
+  "createdOn": "2019-12-20T20:46:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, December 22, 2020 12:17 PM<br>• Rainforest tests are mobile only<br>• Removed Duplicate Automated tests label<br>• Removed 🌐 Webapp from —Rainforest— Status<br>• Added link to Rainforest tests in Traceability tab<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "System message limited options<br>–––––––––––––––––––––––––<ol><li>Add or update a channel header</li><li>Observe the resulting system message</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Emoji reactions are not available on system messages</li><li>Flag not available on system messages</li><li>Pin not available on system messages</li><li>If permissions allow, can click [...] &gt; Delete to delete system message</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d7dd20606b78071b13986a82bbebbe926042fdd2faf01b7c5de68bbff49d2fc9a402dfc0e6d787e0634000c21e2cbb4",
+  "stepsHashed": "d7bb1bafa7e198f0392db3de00fd2ab54282c865977a71daf172d34447aa07b7f854ded56318f14e0d46e2f3907f185b"
+}

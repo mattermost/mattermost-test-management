@@ -1,0 +1,55 @@
+{
+  "id": 4403865,
+  "key": "MM-T1476",
+  "name": "Main Menu dropdown is accessible",
+  "createdOn": "2020-02-17T18:14:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Main Menu dropdown is accessible<br>–––––––––––––––––––––––––<ul><li>Use CTRL+F6 to navigate to \"Team Menu Region\"</li><li>Press TAB to focus on the hamburger icon</li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>Reader should read out \"Main Menu button, to activate press space bar\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15984\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Main Menu dropdown inaccessible — MM-15984</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22627\">Accessibility Cypress Test Automation: Accessibility Support in Dropdown Menu — MM-22627</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0340c3d85ec38891503604f8b2a4168aa0c0b77d1ee452705b41dfb24e83d2006e2c36bc6999f30c0be164d60e6d39a5",
+  "stepsHashed": "fa3120d48f3dfb822be7d15459734a1b8c469d43c94c61e14ed2d3a19f9a55cdce958e6b4b47cde5fe1ec7947d0e5add"
+}

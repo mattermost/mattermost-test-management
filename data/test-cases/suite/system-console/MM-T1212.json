@@ -1,0 +1,55 @@
+{
+  "id": 4060239,
+  "key": "MM-T1212",
+  "name": "Can change Privacy Policy Link setting",
+  "createdOn": "2020-01-22T21:45:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404340,
+    "name": "System Console",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "System Console"],
+    "fullPath": "suite/system-console"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can change Privacy Policy Link setting<br />--------------------<br />Login as sysadmin and visit the page &quot;/admin_console/site_config/customization&quot; directly<br />Change set value and save",
+        "testData": null,
+        "expectedResult": "1. Verify that the setting, help text and set value is visible and match text<br />2. Verify that the value is save, directly via REST API",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7c7f6459ceea5fb2917290716bd644cae6819a89b764c179a04bcc6e440f629485b7da68ecf000a5fe82a1cdc16ff94e",
+  "stepsHashed": "7f06d31c28d68ab46b90a2aa130d3249a625d9f0c158b6b582966cb5ebe60ef73eb538f9ecb5559013ae8356ae42c239"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17498352,
+  "key": "MM-T4460",
+  "name": "Plugins migrated to the App bar still work in channel header when App bar is disabled",
+  "createdOn": "2022-01-10T19:22:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Start your server with the Feature Flag for the Apps Bar in a False state `<em>MM_FEATUREFLAGS_AppBarEnabled=false</em>`<br />2. Deploy a  migrated plugins such as Playbooks<br />3. Enable the plugin",
+        "testData": null,
+        "expectedResult": "- The migrated plugin is shown in the channel header  <br />- Clicking the icon from the channel header functions normally",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "03620c0963344e5043b6aa2b287c95350aee794934a31bddc3729b0fae2971c3b7f35863946f5d76baa6347784d684ec",
+  "stepsHashed": "3819cd90f1f20917058aa360b917f206875d229a8936abbdc72a06e9a99953fa0fdcbf61d355d0911d87435a4099cfbc"
+}

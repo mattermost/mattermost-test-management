@@ -1,0 +1,55 @@
+{
+  "id": 5659462,
+  "key": "MM-T2911",
+  "name": "Team Admin is able to create a new private channel",
+  "createdOn": "2020-06-04T18:02:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Admin is able to create a new private channel<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. On the LHS menu, ensure that the &quot;+&quot; is available beside the Private Channels header<br />2. Click the &quot;+&quot;<br />3. Add a channel Name, Purpose and Header<br />4. Click Create New Channel",
+        "testData": null,
+        "expectedResult": "&quot;+&quot; is visible for public channels<br />After 4 new channel has been created",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bdbad627feb9c2276884b56a2e4cc879af194dd7419be213bcdba49398b7d3fbaaa4eec26151446119109ee5a3a2f99d",
+  "stepsHashed": "9eeb30eff1cde2ec66c4d2366b86e44fd01e1e1d9145e1b673c55ecc283c2f9c51ae2b817b065cf4b2a2b27623371e8b"
+}

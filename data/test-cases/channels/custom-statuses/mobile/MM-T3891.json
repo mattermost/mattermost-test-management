@@ -1,0 +1,159 @@
+{
+  "id": 9450746,
+  "key": "MM-T3891",
+  "name": "RN apps: Set your own custom status",
+  "createdOn": "2021-03-12T18:14:14Z",
+  "objective": "",
+  "precondition": "<ul><li>Logged in on the mobile app</li><li>Custom statuses enabled on the server</li></ul>",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1222178,
+    "name": "Mobile",
+    "parentId": 1175100,
+    "fullNames": ["Channels", "Custom Statuses", "Mobile"],
+    "fullPath": "channels/custom-statuses/mobile"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["in Production", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Custom Statuses"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" modal</li><li>Tap on the \"Set a status\" text field and enter a status text</li></ol>",
+        "testData": null,
+        "expectedResult": "Speech balloon emoji is automatically shown when the user starts typing",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the speech balloon emoji emoji",
+        "testData": null,
+        "expectedResult": "Emoji picker opens<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Select an emoji from the emoji picker",
+        "testData": null,
+        "expectedResult": "<ul><li>Emoji picker is dismissed</li><li>Selected emoji is shown in the \"Set a status\" modal</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap \"Done\"",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set and shown in the three-dot menu</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the \"x\" next to the custom status in the right drawer",
+        "testData": null,
+        "expectedResult": "Custom status is cleared",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click \"Set a status\"",
+        "testData": null,
+        "expectedResult": "<ul><li>Set a status modal opens</li><li>Status set in step 4 is shown on the top in the \"Recent\" section\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Select the same status from the Recent list</li><li>Tap Done</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>\"Set a status\" modal is dismissed</li><li>Custom status is successfully set and shown in the three-dot menu</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Open the \"Set a status\" modal</li><li>Tap on the 'x' button next to the custom status</li></ol>",
+        "testData": null,
+        "expectedResult": "Custom Status field is cleared<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap \"Done\"",
+        "testData": null,
+        "expectedResult": "<ul><li>Set a status modal is dismissed</li><li>Custom status is cleared</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cdc415e75f6c96e2aac5a9aecdf02be76594c79fcf44bab8b6e3d53775beccc29e1e3957dd4dc3c5ec9ca6068982bf8a",
+  "stepsHashed": "592d988d882e91d1e5a3536007e6075f5cf1eca570fd59cb7ec09d2cafa11f230792c8c80a5dc250af00c09ccbe5ad75"
+}

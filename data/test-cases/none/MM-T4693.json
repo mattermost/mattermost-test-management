@@ -1,0 +1,49 @@
+{
+  "id": 19603844,
+  "key": "MM-T4693",
+  "name": "CTRL/CMD+\\",
+  "createdOn": "2022-03-22T08:24:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production", "Webapp"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Do keyboard shortcut while viewing a channel but no text input boxes have focus.<br />2. Do keyboard shortcut while viewing a channel and the center channel text input box has focus<br />3. Do keyboard shortcut while viewing a channel and the right-hand side text input box has focus to add a comment to a thread</span> ",
+        "testData": null,
+        "expectedResult": "<span>1. Should open emoji picker above the center channel text input box and will add a reaction to the latest post in the center channel on emoji select.<br />2. Should open emoji picker above the center channel text input box and will add a reaction to the latest post in the center channel on emoji select.<br />3. Should open emoji picker above the right-hand side text input box and will add a reaction to the latest post in the thread on emoji select.<br /><br />Note: Emoji picker should open on the left side of the text input boxes.</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d7e873e5a1a8f0ee28ca9929293082dd282a1dbbb60a7a6975e3f755708aaabfe25f2974d2f93563412738c4a71dc22f",
+  "stepsHashed": "a915633b4d37ddfeb5edf8d5c8bac564a8ca2f0565cf0639836c2f13fe35620dd008cd76e38e9aa7f7fd894be0f1be5a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5444639,
+  "key": "MM-T2091",
+  "name": "Theme - Apply to only one team",
+  "createdOn": "2020-05-20T05:50:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Settings -&gt; Display -&gt; Theme - Apply to only one team<br />————————————————————————————<br />De-select `Apply to all teams`",
+        "testData": null,
+        "expectedResult": "Verify other team did not change theme",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b54735157cc9feee95d8cdd8bff45871152537aa4adc0c42a92a536efc34c6c57ec41b7125eb3aa6bb0a54e492dc563f",
+  "stepsHashed": "088aa0f93ed6a3f07d7bcf45efc3e241546587e54a4c8aacdafb833c6d1856cc0cc8dea7e5f326d3d614366a450c38f8"
+}

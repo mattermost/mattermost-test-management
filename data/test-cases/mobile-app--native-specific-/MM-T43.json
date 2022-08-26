@@ -1,0 +1,692 @@
+{
+  "id": 2814840,
+  "key": "MM-T43",
+  "name": "Mobile classic apps: Smoke Tests",
+  "createdOn": "2019-09-04T21:03:12Z",
+  "objective": "These tests cover the very basics of the Mattermost Classic app.<br>It is no longer being updated but is still in use.<br>The last versions released listed below.<ul><li> iOS Version 3.10.3 — Apr 13, 2018</li><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566499085070-android-vector-icon-7.png\" style=\"width: 16.0px;\" class=\"fr-fil fr-dii\">Android 3.10.3 — May 16, 2018</li></ul>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["Won't Fix", "v4.8 (March 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Enter a server URL and leave a space in what you type in (e.g., https://community .mattermost.com)</li><li>Tap 'Next'</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>App should not crash</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.8 (March 2018)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-8968\">iOS Classic app crashes if there is a space in server url — MM-8968</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Enter a server URL<br />(e.g., https://postgres.test.mattermost.com/)</li><li>Tap Next<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg\" style=\"width:201.0px\" class=\"fr-fil fr-dib\" /></li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Connected to server<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg\" style=\"width:239.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type in email address</li><li>Type in password</li><li>Tap Sign In</li></ol>",
+        "testData": null,
+        "expectedResult": "Successfully logged in",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type in the text field at the bottom of the app</li><li>Tap the send icon<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png\" style=\"width:17.0px\" class=\"fr-dii\" /><br /></li></ol>",
+        "testData": null,
+        "expectedResult": "Post accepted and added to messages just above text field<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap the … ellipsis menu icon on the message you just posted</li><li>Tap Edit in the modal window that appears<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg\" style=\"width:186.0px\" class=\"fr-fil fr-dib\" /></li></ol><br />",
+        "testData": null,
+        "expectedResult": "Edit Post window appears<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap Cancel",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>No changes made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Tap the … ellipsis menu icon on the message you just posted again</li><li>Tap Edit in the modal window that appears</li><li>Edit the text</li><li>Tap Save</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>Changes accepted and displayed</li><li>Greyed out \"(edited)\" text below message<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Click the comment arrow on a post</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg\" class=\"fr-fic fr-dii\" style=\"width:176.0px\" /><br />",
+        "expectedResult": "<ul><li>Display changes to message details</li><li>Able to type in text</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap Add Comment</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg\" style=\"width:185.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Comment added to message thread</li><li>Text box present below last message</li><li>Add comment button greyed out (until new text added)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap &lt; (back) button in top left corner",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Returned to channel</li><li>Reply to thread shown most recent post at bottom of screen</li><li>Grey <strong>|</strong> bar to the left of the post indicating it's part of a thread</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap 📎 attach icon</li></ol>",
+        "testData": "<strong>iOS</strong><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" /><br />Android<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li> iOS<ul><li>Attachment menu pops up from bottom of screen<ul><li>Take Photo or Video</li><li>Photo Library</li><li>Browse</li></ul></li></ul></li><li>Android<ul><li>Attachment menu appears in middle of screen<ul><li>Camera</li><li>Camcorder</li><li>Voice Recorder</li><li>Documents</li></ul></li></ul></li></ul>",
+        "customFields": {
+          "Fix Versions": ["Won't Fix"],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-20174\">iOS Classic: Tapping paperclip icon does little or nothing — MM-20174</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li> iOS ➜ Tap Cancel</li><li>Android ➜ Tap outside of the modal window</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Menu closes</li><li>No changes made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap 📎 attach icon again</li><li>Tap Photo Library (Tap Camera icon on Android)</li><li>Browse for photo</li><li>Attach a photo to upload it</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Upload starts</li><li>Progress bar shows activity</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Verify image uploaded completely<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png\" class=\"fr-fic fr-dii\" style=\"width:212.0px\" /></li><li>Add text if desired</li><li>Tap send icon </li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Image posted<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg\" style=\"width:194.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap the … ellipsis menu icon on a message</li><li>Tap the Delete button in the modal window that appears<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg\" class=\"fr-fic fr-dii\" style=\"width:174.0px\" /></li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Confirm Comment Delete window appears</li></ul><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap Cancel",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>No changes made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Tap the … ellipsis menu icon on a message again</li><li>Tap the Delete button in the modal window that appears</li><li>Tap the Delete button</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>Message deleted</li></ul><strong>Note</strong>: Other users can see an empty message where the post was sayng that it has been deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap magnifying glass in top right corner",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Search screen with instructions opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Type in search term and tap search on keyboard",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg\" style=\"width:195.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Search results returned</li><li>Search terms highlighted in posts shown</li><li>Most recent post appears at the top</li><li>Jump buttons on each post to right of reply arrow</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap Jump button",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Brought to post</li><li>Post highlighted yellow</li><li>Date of post appears briefly at top then vanishes off screen</li><li>\"Click Here to jump to recent messages ?\" bar at bottom of screen</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap \"Click Here to jump to recent messages ?\" bar",
+        "testData": null,
+        "expectedResult": "Returned to most recent post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap magnifying glass in top right corner again</li><li>Type \"Before:\" in search field</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Calendar appears",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Use arrows to navigate months</li><li>Select date by tapping on it </li></ol>",
+        "testData": null,
+        "expectedResult": "Date fills in in this format - \"Before:2019-07-30\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap Search",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>List of posts that fall before the date appear</li><li>Most recent post at the top</li><li>Jump buttons for each individual search result</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu in top <strong>left</strong> corner</li><li>Tap a different channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Hamburger menu closes</li><li>Brought to the channel you selected</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu in top <strong>right</strong> corner</li><li>Tap \"Join another Team\"</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg\" style=\"width:196.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Brought to team</li><li>Land in Town Square channel</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap down arrow next to channel name at top</li><li>Tap \"Edit Channel Header\" in menu that appears</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Edit Header screen appears",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type text in field</li><li>Include a properly formatted link<br />[Link example](https://mattermost.com)</li><li>Tap Save in lower right corner</li></ol>",
+        "testData": null,
+        "expectedResult": "Returned to channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Tap down arrow next to channel name at top</li><li>Tap \"View Info\" in menu that appears</li></ul>",
+        "testData": null,
+        "expectedResult": "Able to see header text and link you added/edited",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap the link you placed in the header",
+        "testData": null,
+        "expectedResult": "Default browser for your device opens and navigates to the page",
+        "customFields": {
+          "Fix Versions": ["Won't Fix"],
+          "Related ticket(s)": "<ul><li>(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-18314\">Classic iOS app: Tapping links does nothing — MM-18314</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-20208\">iOS Classic: Tapping link in header loads webpage in app without any way to return to channel — MM-20208</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap the … ellipsis menu icon on the right side of a post</li><li>Tap \"Permalink\" in the modal window that appears</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The Copy Permalink screen appears<ul><li>X in top right corner</li><li>Copy Link Button</li><li>Close button</li></ul></li><li>Permalink text in text field</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap Close",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>No changes made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap the … ellipsis menu icon on the right side of a post again</li><li>Tap \"Permalink\" in the modal window that appears</li><li>Tap Copy Link button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Link copied to clipboard</li><li>'Copy Permalink' window closes</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Navigate to different channel</li><li>Paste link in new post and tap send icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png\" class=\"fr-fic fr-dii\" /></li></ol>",
+        "testData": null,
+        "expectedResult": "Posted",
+        "customFields": {
+          "Fix Versions": ["Won't Fix"],
+          "Related ticket(s)": "(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-20229\">iOS Classic: Permalink mechanism fails to copy link — MM-20229</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap link in new post",
+        "testData": null,
+        "expectedResult": "Brought to channel with post highlighted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu icon in top <strong>right</strong></li><li>Tap Leave Team<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg\" class=\"fr-fic fr-dii\" style=\"width:280.0px\" /></li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Confirmation screen opens<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg\" style=\"width:256.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap No</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Returned to channel</li><li>No changes made</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Tap … ellipsis menu icon in top <strong>right</strong></li><li>Tap Leave Team</li><li>Tap Yes</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Successfully leave team</li><li>Brought to channel in top most team you're still a member of ~or~ brought to list of teams you can join if you're no longer a member of any team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ul><li>Tap ☰ menu in top <strong>right</strong></li><li>Tap Create a New Team<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg\" style=\"width:227.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Create new team page appears<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg\" style=\"width:216.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type in a team name</li><li>Tap Next</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Team URL page appears<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" /></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Change default name or leave as is</li><li>Tap Finish</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Team created</li><li>Brought to Town Square channel of new team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu  in top <strong>left</strong></li><li>Tap Switch Channels button at bottom of menu</li><li>Start typing \"Off\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>List narrows down as you type to show you matching names</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Tap channel name in list",
+        "testData": null,
+        "expectedResult": "Brought to channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu in top <strong>left </strong>again</li><li>Tap Team icon on far left</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Brought to Team tapped on</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu in top <strong>left </strong>again</li><li>Tap + next to Direct Messages in menu</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Direct Messages screen appears</li><li>List of names to choose from in alphabetical order</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Start typing name in text field",
+        "testData": null,
+        "expectedResult": "<ul><li>List narrows down as you type showing possible matches</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap on name in list</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Name added to text field</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap Go button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Brought to new Direct message screen with person named in text field</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu  in top <strong>left </strong>again</li><li>Tap + next to Direct Messages in menu</li><li>Add more than one name to text field</li><li>Tap Go button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Brought to new Group Message screen with names placed in text field on previous screen</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Tap ☰ menu in top <strong>left</strong> again</li><li>Tap name of public channel</li><li>Tap … ellipsis menu icon next to post in list</li><li>Tap Pin to channel</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg\" style=\"width:300.0px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>\"Pinned\" icon appears on the pinned post</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a3c9b3bc51a0c074ffe34a798573708b0e411c90cd70c27a25b4a468862bc9b517066bc026609e70c7ec2c51a7d2d112",
+  "stepsHashed": "fc270d2212a0917dc85c70d2664e3d5daf159716e4ce1a774efaa81f07e27db34d3f9017de314809b820278cf1400e65"
+}

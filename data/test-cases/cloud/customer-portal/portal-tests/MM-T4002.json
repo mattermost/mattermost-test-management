@@ -1,0 +1,55 @@
+{
+  "id": 10167517,
+  "key": "MM-T4002",
+  "name": "CWS — Customer Portal smoke test",
+  "createdOn": "2021-04-14T17:12:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create an account</li><li>Use the wrong confirmation code</li><li>Try purchasing with only 2 users</li><li>Try leaving fields blank on the Billing screen</li><li>Download the license</li><li>Upload the license</li><li>Download the invoice</li><li>Buy a second subscription</li></ol>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c83c5820de13e48531f4bb0a9b2ae0ab61f0372a38f355129b64c4cc1c9f60f1ed1c5325fcfb9a667df67721fd381b29",
+  "stepsHashed": "138e3a4d681bbaeb12ff8081354f72d76e2463aacd3bdcd384f1e0eac8b97f2d4ebf167096ac7367fd6586fea9883267"
+}

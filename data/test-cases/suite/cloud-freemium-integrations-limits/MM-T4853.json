@@ -1,0 +1,55 @@
+{
+  "id": 23828861,
+  "key": "MM-T4853",
+  "name": "Limit of 5 non-core plugins is always enforced",
+  "createdOn": "2022-06-09T14:36:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2861012,
+    "name": "Cloud Freemium Integrations limits",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Cloud Freemium Integrations limits"],
+    "fullPath": "suite/cloud-freemium-integrations-limits"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup a server where the integration limits are being enforced<br />2. Install and enable 5 non-core plugins that count towards the limit<br />3. Install a 6th non-core plugin <br />4. From the plugin management page - click enable on the plugin<br />5. From the plugin configuration page - move the `enable` radio to true",
+        "testData": null,
+        "expectedResult": "On 2. 5 non-core plugins can be enabled without issue<br />On 4. The plugin cannot be enabled and the user is shown a message that they need to get a paid licence<br />On 5. The plugin cannot be enabled and the user is shown a message that they need to get a paid licence",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc6abc0d35ab5ac18a0d8bd682332ac9a18f324625d948b7a1a13b76dc63dbf7d0a9388154d6be9b767c12bcff4850c0",
+  "stepsHashed": "509ac4bcb3244b0a2c75db94e437f172dd0e01a1eef1c6689d3a3d3a9665dd51fbbd43241a0be9a892f9bc908404cad3"
+}

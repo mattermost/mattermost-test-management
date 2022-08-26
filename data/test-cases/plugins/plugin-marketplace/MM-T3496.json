@@ -1,0 +1,81 @@
+{
+  "id": 7995866,
+  "key": "MM-T3496",
+  "name": "Endpoint for returning Marketplace data can include parameters to specify a specific Plugin ID  and return all versions",
+  "createdOn": "2020-11-24T19:16:26Z",
+  "objective": "Verify that plugin update is confirmed by the user",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup or locate a market place server<br>2. Send a curl script that returns all the marketplace data such as:<br>curl https://api.integrations.mattermost.com/<em>api/v1/plugins?build_enterprise_ready=true&amp;cloud=true&amp;enterprise_plugins=true&amp;filter=&amp;local_only=false&amp;page=0&amp;platform=linux-amd64&amp;server_version=5.30.0</em>",
+        "testData": "<ul><li>Replace https://api.integrations.mattermost.com<em>&nbsp;</em>with your own marketplace server if testing somewhere other than production</li></ul>",
+        "expectedResult": "<p dir=\"ltr\">All Marketplace data for your platform is returned&nbsp;</p><br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Setup or locate a market place server<br>2. Send a curl script that returns all the marketplace data for the current version of a given plugin such as: <em>curl&nbsp;</em>https://api.integrations.mattermost.com/<a href=\"http://localhost:8085/api/v1/plugins?build_enterprise_ready=true&cloud=true&enterprise_plugins=true&filter=&local_only=false&page=0&platform=linux-amd64&plugin_id=com.mattermost.plugin-incident-management&return_all_versions=true&server_version=5.30.0\"><em>api/v1/plugins?build_enterprise_ready=true&amp;cloud=true&amp;enterprise_plugins=true&amp;filter=&amp;local_only=false&amp;page=0&amp;platform=linux-amd64&amp;plugin_id=com.mattermost.plugin-incident-management&amp;server_version=5.30.0</em></a>",
+        "testData": "<ul><li>Replace https://api.integrations.mattermost.com<em>&nbsp;</em>with your own marketplace server if testing somewhere other than production</li></ul>",
+        "expectedResult": "<p dir=\"ltr\">Marketplace data for the current version of incident response is shown.</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Setup or locate a market place server<br>2. Send a curl script that returns marketplace data for all version of a given plugin such as:<br><em>curl https://api.integrations.mattermost.com/<a href=\"http://localhost:8085/api/v1/plugins?build_enterprise_ready=true&cloud=true&enterprise_plugins=true&filter=&local_only=false&page=0&platform=linux-amd64&plugin_id=com.mattermost.plugin-incident-management&return_all_versions=true&server_version=5.30.0\">api/v1/plugins?build_enterprise_ready=true&amp;cloud=true&amp;enterprise_plugins=true&amp;filter=&amp;local_only=false&amp;page=0&amp;platform=linux-amd64&amp;plugin_id=com.mattermost.plugin-incident-management&amp;return_all_versions=true&amp;server_version=5.30.0</a><br></em><br><br>",
+        "testData": "<ul><li>Replace https://api.integrations.mattermost.com<em>&nbsp;</em>with your own marketplace server if testing somewhere other than production</li></ul>",
+        "expectedResult": "<p dir=\"ltr\">Marketplace data for all version of incident response is shown.</p>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c877c9d1981ebaefe5e531876fcedf29c4c29cd23ca16ab477cb71d462694b65e4f5599f2a8fd9d7d6502c2ef226aa3",
+  "stepsHashed": "c4d05df578ce6f4be9cee5cb23496448caa17e1df89c2707d1c1bc21473cc1e3ab41197dd01b45911632081f9b8c10c6"
+}

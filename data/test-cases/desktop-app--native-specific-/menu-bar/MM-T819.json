@@ -1,0 +1,68 @@
+{
+  "id": 4032093,
+  "key": "MM-T819",
+  "name": "Zoom Out in the Menu",
+  "createdOn": "2020-01-17T14:04:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Go to View ➜ Zoom Out in the Menu OR use Command/Control+-",
+        "testData": "<strong>Windows &amp; Linux</strong><br /><strong><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1591999282631-1591999282631.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><br /><strong>Mac</strong></strong><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1591999647950-1591999647950.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><strong><br /></strong>",
+        "expectedResult": "<ul><li>The font size decreases (zoom out)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Repeat the same thing using Command/Control+Shift+-",
+        "testData": null,
+        "expectedResult": "The font size should decrease again.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd843f1bb6bfcfa23dfedd0e13e17f21a4624a5c0aeafc5f467318a9936b020ff9c12b17dbec047b55ad44012cb52061",
+  "stepsHashed": "768faaeee48cd031e38c1bc0ed346b9b56370a47961d5995942a28fefa8f4ef016d2774220ef7f7afdcc4164801e0053"
+}

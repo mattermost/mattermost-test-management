@@ -1,0 +1,55 @@
+{
+  "id": 9444678,
+  "key": "MM-T3888",
+  "name": "Export - Job List : no export jobs",
+  "createdOn": "2021-03-12T10:21:37Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl export job list",
+        "testData": null,
+        "expectedResult": "Returns an error \"no export jobs\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "92f581ab0ebed76c3595f2a934fdc2f43f5075bdec31b5ea6d4196ed7ba81d00be05fd340c98fa89399856899d53e9aa",
+  "stepsHashed": "ca667fedb805a6c3f52c846f4fe60544a613599939a02f2e8c98ccc1e9262f8f14bb3075f9c56f19fbaf7aa774583e76"
+}

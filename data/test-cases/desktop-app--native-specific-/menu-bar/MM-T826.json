@@ -1,0 +1,81 @@
+{
+  "id": 4032100,
+  "key": "MM-T826",
+  "name": "Use keyboard shortcut as listed to switch to a server",
+  "createdOn": "2020-01-17T14:04:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open Mattermost Desktop and add 3 servers.<br />2. Press Control+Shift+2 (or Command+Control+2)",
+        "testData": null,
+        "expectedResult": "View switches to the second added server.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Press Control+Shift+3 (or Command+Control+3)<br /><br />",
+        "testData": null,
+        "expectedResult": "View switches to the third added server.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Press Control+Shift+1 (or Command+Control+1)",
+        "testData": null,
+        "expectedResult": "View switches to the first added server.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "61d08336074db51853bcb5ec3acfaed9c9484e1dc11c9ee8f99b3b9ee372473548b184e57c25468c953c55b69c251777",
+  "stepsHashed": "b5a03e1f4217ff9235c8039ed8ec2620274fb1257ee0dde0bdfa5da392e0b2bcc236eef0e09a6177834178e0056f10dc"
+}

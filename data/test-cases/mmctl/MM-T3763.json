@@ -1,0 +1,55 @@
+{
+  "id": 8644999,
+  "key": "MM-T3763",
+  "name": "User - Deactivate : without permission",
+  "createdOn": "2021-01-20T08:03:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.27 (September 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user deactivate [username]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "01f05a323907432cb1db4953fec99565939ab12516d0c73074b3005980080b8ea36556267b7666502244b88f92dfc35b",
+  "stepsHashed": "bcb0c0b9047c96a42eca7a76283e41bca8170c8942ab9fb1be83bcd48ad053143fca275f176f3f4d0fa14647999317cf"
+}

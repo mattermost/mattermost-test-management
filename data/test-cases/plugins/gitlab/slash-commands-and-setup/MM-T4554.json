@@ -1,0 +1,55 @@
+{
+  "id": 17862271,
+  "key": "MM-T4554",
+  "name": "/gitlab connect",
+  "createdOn": "2022-01-26T22:14:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139767,
+    "name": "Slash Commands and Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
+    "fullPath": "plugins/gitlab/slash-commands-and-setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a system admin and enable the plugin<br />2. Login as a test user and type /gitlab connect",
+        "testData": null,
+        "expectedResult": "- User is connected<br />- LHS GitLab items are visible in the team sidebar (Sidebar will Only visible if Your Connected with Multiple Teams)<br />- GitLab bot DMs you with Help details",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fbc72b6e88685a0da23c2a4418a6e5b514b44478fb37d3382ca8aae8c06638729b4bd45afa4441cfacabf78a209e8920",
+  "stepsHashed": "2f7528e72ef596fbc47f1321145c5112a9e747ff3633357d831a10d4a646b9edef1aa87e50ab12f24edf534edd2b4f47"
+}

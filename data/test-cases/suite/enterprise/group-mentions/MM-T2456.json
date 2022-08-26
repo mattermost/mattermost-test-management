@@ -1,0 +1,55 @@
+{
+  "id": 5478057,
+  "key": "MM-T2456",
+  "name": "Group Mentions when group members are in the team but not in the channel",
+  "createdOn": "2020-05-22T11:37:55Z",
+  "objective": "Check Group Mentions when group members are in the team but not in the channel",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 733341,
+    "name": "Group Mentions",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
+    "fullPath": "suite/enterprise/group-mentions"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.24 (June 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable Group Mention for a group say Group1.<br />    2. Ensure some members of that group are present in a team Team1 but not in the channel Channel1. <br />    3. As a regular member, navigate to Channel1 and submit a post containing the group mention Group1. <br />    4. The user should get a system message indicating that the list of members of the group were not notified by this mention because they are not in the channel. An option should be given to add them to channel. <br />        a. Note: Only members who are present in the team should be displayed in this list. All other members who are not present in the team should not be displayed in this list.",
+        "testData": null,
+        "expectedResult": "Group Mentions when group members are in the team but not in the channel should be working fine as expected",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fdcea5477c5fc51176b799cd11257796bdc0baf554f6668966c5ddd4d9af928e97bb61898cff86443df5303e2e0ffe00",
+  "stepsHashed": "8a127d27ce46488fe02afd356c1d1491964d5dbf41ab23b39f69167765d3fe725cf72db307426ae01acf529199982423"
+}

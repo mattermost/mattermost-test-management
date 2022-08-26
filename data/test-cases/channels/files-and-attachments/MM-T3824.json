@@ -1,0 +1,107 @@
+{
+  "id": 8852967,
+  "key": "MM-T3824",
+  "name": "File Attachment Types in Preview - Generic",
+  "createdOn": "2021-02-03T18:26:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>PDF</strong><br>--------------------<br>1. Post a <strong>PDF</strong> file<br>2. Click on posted document<br>3. Click on Download link",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify document is posted</li></ul>After #2,<ul><li>Verify <strong>Download</strong> link is displayed in preview modal</li></ul>After #3,<ul><li>Verify document is downloaded</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Excel</strong><br>--------------------<br>1. Post a <strong>Excel</strong> file<br>2. Click on posted document<br>3. Click on Download link",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify document is posted</li></ul>After #2,<ul><li>Verify <strong>Download</strong> link is displayed in preview modal</li></ul>After #3,<ul><li>Verify document is downloaded</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>PPT</strong><br>--------------------<br>1. Post a <strong>PPT</strong> file<br>2. Click on posted document<br>3. Click on Download link",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify document is posted</li></ul>After #2,<ul><li>Verify <strong>Download</strong> link is displayed in preview modal</li></ul>After #3,<ul><li>Verify document is downloaded</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Word</strong><br>--------------------<br>1. Post a <strong>Word</strong> file<br>2. Click on posted document<br>3. Click on Download link",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify document is posted</li></ul>After #2,<ul><li>Verify <strong>Download</strong> link is displayed in preview modal</li></ul>After #3,<ul><li>Verify document is downloaded</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Text</strong><br>--------------------<br>1. Post a <strong>Text</strong> file<br>2. Click on posted document<br>3. Click on Download link",
+        "testData": null,
+        "expectedResult": "After #1,<ul><li>Verify document is posted</li></ul>After #2,<ul><li>Verify <strong>Download</strong> link is displayed in preview modal</li></ul>After #3,<ul><li>Verify document is downloaded</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6da6451a1a74a871fa19c38394418fd9498d82114e7ab5fc4c18cdbdd679062d1ee2553c88f49222a0cf35b1292dff27",
+  "stepsHashed": "a2acfb93d26dc13535893feb273b0e83fd2f39a575aaa5412649f58a9a3215dfc2f1478c79976236170d4bb822fba7eb"
+}

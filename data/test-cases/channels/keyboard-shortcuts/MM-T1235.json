@@ -1,0 +1,55 @@
+{
+  "id": 4064358,
+  "key": "MM-T1235",
+  "name": "Arrow up key - no Edit modal open up if user has not posted any message yet",
+  "createdOn": "2020-01-23T13:38:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a channel where test user has not posted any message yet.<br />2. Have another user post in the same channel<br />3. Let the test user press arrow up key",
+        "testData": null,
+        "expectedResult": "Edit modal does not open.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d56010e666536231ed6a12550c31f7c224ccfa76991e02a729417cbd90e0e07363dd16a1e84104ac9510e2281004324d",
+  "stepsHashed": "cd58a3df0dc0116f3331b68127ea0baa10fef27ddf5ed566c9e4c4227530e077a8880749843033ae1bfc16954b970198"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8663628,
+  "key": "MM-T3792",
+  "name": "Team - Add user : add nonexistent user to team without privileges",
+  "createdOn": "2021-01-21T09:40:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team users add [teamname] [non-existent-email address] [non-existent-username]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have permissions and the user doesn't exist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "34e89d2fb7651cfa250e1d3312bfb0c97d31a1529f233b42fca99c189124f420705bba3f001935c0d751e3901627458c",
+  "stepsHashed": "2645d974c8b3edef5dc7684bd8aea09d158ca046a95644254a0524b5a308c12e835757b911eb6a2ab3a43a363d301d55"
+}

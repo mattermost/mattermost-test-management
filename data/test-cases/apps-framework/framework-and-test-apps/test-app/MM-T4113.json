@@ -1,0 +1,69 @@
+{
+  "id": 12164194,
+  "key": "MM-T4113",
+  "name": "Test-App Modal Errors",
+  "createdOn": "2021-07-08T16:34:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1236118,
+    "name": "test-app",
+    "parentId": 1236115,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "Form has valid error<br />1. Open a channel where the slash command bindings are available<br />2. Type<em> /test valid open_markdown_form_modal </em><br />3. In the modal, click the submit button",
+        "testData": null,
+        "expectedResult": "On 2. The test app open a modal<br />On 3. Modal shows: \"This is a very BIG error.<br />You should probably take a look at it.\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1625842239118-1625842239118.png\" style=\"width:412px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Form has no valid error but has an invalid error<br />1. Open a channel where the slash command bindings are available<br />2. Type<em> /test valid open_markdown_form_modal_missing_error</em><br />3. In the modal, click the submit button",
+        "testData": null,
+        "expectedResult": "On 2. The test app open a modal<br />On 3. Modal shows: \"Received an error for an unknown field. Field name: <code>missing</code>. Error: Some missing field.\"<br /><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1625762338852-1625762338852.png\" style=\"width:420px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f257ba359f00c83fe84532c0f10b5fd9226d9dc236d7a1de2d62d529cda9320f5d8e41b601626e554a62a69d2f7dd8c2",
+  "stepsHashed": "a22a7fc47387fe4d912bbae4831ea7fd2b642c3adc82a2ed3ef2847a1898a9c649cbc858c218be6d61384412bc7a6267"
+}

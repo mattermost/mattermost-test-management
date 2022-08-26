@@ -1,0 +1,55 @@
+{
+  "id": 3904490,
+  "key": "MM-T436",
+  "name": "RN apps: Drawer data is current when RN app is connected",
+  "createdOn": "2020-01-03T14:24:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drawer data is current when RN app is connected<br />--------------------<br />1. Login as a test user from RN<br />2. Place the device in airplane mode <br />3. As another user from desktop:<br />- Add test user to another team<br />- Invite the test user to a new channel <br />- Remove test user from one of the channels <br />4. On the device, disable airplane mode and note the data in the drawer",
+        "testData": "",
+        "expectedResult": "- New team is visible<br>- New Channel is available<br>- Channel you have been removed from is no longer in the drawer",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "15f4de565091ae7b5453334b6029b7f21ed8519258b97650f8c085fb5dd7f6bc78a904f39e7f7f1b039f9520e4386de6",
+  "stepsHashed": "36680f8195ee88a3ce6456aed38b0bc8af7cfb6dc23b8829f2ebd4f871d09d9c0c0502967dc43a29c4a511f10e311dd2"
+}

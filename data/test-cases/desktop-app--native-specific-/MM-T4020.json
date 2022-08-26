@@ -1,0 +1,68 @@
+{
+  "id": 10332442,
+  "key": "MM-T4020",
+  "name": "PIV card test",
+  "createdOn": "2021-04-22T13:34:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 565201,
+    "name": "Desktop App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Desktop App (native-specific)"],
+    "fullPath": "desktop-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop: Win"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>PIV card test</u><br>Prerequisite: Have PIV card on hand and PIV card reader<ol><li>Add a server <strong>https://pivkey.com/test</strong></li><li>Plug the reader and insert card&nbsp;</li><li>Click on the tab with PIV server (may need to refresh)</li><li>Enter Pin when presented with the modal</li><li>Repeat the test and pull card out mid reading<ol style=\"list-style-type: lower-alpha;\"><li>App should handle the interruption gracefully and not crash&nbsp;</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User can log in using PIV card and reader&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. &nbsp;Stay on PIV server tab\n<br>2. Go to View &gt; Developer Tools for Application Wrapper 3. Observe that there are no `unreadCounts` errors on the console",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c59a8138b4aec7bd675b8b7761cb1da8c0c02eb123ce6c53e171600ac1d975c266516c66a20cbfb852b32bc5ea48d0b9",
+  "stepsHashed": "c8cdd86f69c6210cc51d9fcd2e5a00297ef8853d83f1b186bf3b283541e1286b9c55f3d40019b05a5d1a7fd65ff3a766"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5519380,
+  "key": "MM-T2520",
+  "name": "Can perform a bulk index",
+  "createdOn": "2020-05-26T20:27:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404281,
+    "name": "With Elasticsearch",
+    "parentId": 3337681,
+    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
+    "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "<table style=\"width: 100%;\"><tbody><tr><td style=\"width: 15.0928%;\">Steve Mudie — Monday, September 28, 2020 4:19 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br></td><td style=\"width: 84.9484%;\"><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1601326832534-not+working.gif\" style=\"width: 196px;\" class=\"fr-fil fr-dib\"></td></tr></tbody></table>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Elasticsearch Autocomplete"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Can perform a bulk index<br>–––––––––––––––––––––––––<ol><li>System Console ➜ Environment ➜ Elasticsearch</li><li>Bulk Indexing: Click on \"Index now\" button</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>In the box below, headed \"Status-Finish Time-Run Time-Details\" the job will show as \"Pending\" and once begun will show as \"In progress\".<br><br><strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Check back (can take over 2 hours) to ensure the job ran successfully.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15728\">Error on Elasticsearch bulk indexing (see screenshot) — MM-15728</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ae49492ca09ee2b45b4411653edee6eec4f04a7b581438ef8b22a15911d56e16fe3f1ab0898b805c957d91c895ace111",
+  "stepsHashed": "c152bf2b4ccfc237c873c26ca78424f360419081b3a988247b35b63e8e8659ab2cf772bab07cd445ef1ed1235b437b1b"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 16261169,
+  "key": "MM-T4400",
+  "name": "Should not create a second instance",
+  "createdOn": "2021-11-16T19:45:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1965772,
+    "name": "Startup",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Startup"],
+    "fullPath": "desktop-app--native-specific-/startup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the desktop app.<br />2. Try to open the desktop app a second time.",
+        "testData": null,
+        "expectedResult": "Only one app should open.<br />When the second tries to open, the first one should be focused.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "36d4782ddfa8738114c1a05c683efdfbb2d17560ee82c6e61da2e2406741111bd97df47527dd7adca859225e18e8e90e",
+  "stepsHashed": "2ff8c73045e53d1a5d246896d94df8131635de24b717f716c1b67ce76892d50581531849d48ae5253b4f24e68071c9c9"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8022899,
+  "key": "MM-T3594",
+  "name": "Room can be set to something else and overide email match",
+  "createdOn": "2020-11-26T21:08:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Run the test above<br />2. As the same user type /webex room pickles",
+        "testData": null,
+        "expectedResult": "Ephemeral post shows that room is now set to pickles",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "415ca52814b30649bbcf0c50ab281f0a7f31ed5b693742b8f83fcd16304ecb07703703138e26123379106bb67ebf5d1e",
+  "stepsHashed": "227c3bc58751c9b5b1969426a4d62a01e998630d78ea3f3b9c82b1e10ba0525872d15284534e31464d503d2ea693d9c9"
+}

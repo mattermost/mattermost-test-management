@@ -1,0 +1,55 @@
+{
+  "id": 4773068,
+  "key": "MM-T1577",
+  "name": "When permissions are moved to a new Team Override Scheme",
+  "createdOn": "2020-03-11T16:15:50Z",
+  "objective": "When permissions are moved to a new Team Override Scheme",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Mobile", "Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as sysadmin &amp; Add a new Team Override Scheme for a team and remove the option to use Post Reactions for Members &amp; Save. <br />2. Go to Channels Page, search for a channel &amp; click on a Channel (belonging to same Team as step1) and check the options for Post Reactions for Members. <br />3. As a sysadmin, create a new Tea Override scheme for the same team and select the option to remove Manage Members<br />4. A prompt should be displayed if user would like to move the permissions to the new team override scheme. Select Yes. <br />5. Visit the Channel configuration page and check if the option to Post Reactions is enabled and checked and option to Manage Members is disabled and unchecked<br />6. A message indicating the new Team Override scheme should be displayed.",
+        "testData": null,
+        "expectedResult": "5. The Post Reaction option should be enabled and checked for Members. The Manage Members option should be disabled and unchecked for Members. <br />6. A message should be displayed indicating that the Manage Member option are disabled in new Team Override scheme",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "30b34dd90dbf80f2fc3036adde12029a5b2c7ff722836fde7bd228de5ba831e43bd5b550800dc8c18708bbdc700e5f5e",
+  "stepsHashed": "6b780aa3c02ebb618f03404f2be35ac45c16bf15bdf907333caed56eba06da86814c643f3e7ed8d17d9c1164166d3d73"
+}

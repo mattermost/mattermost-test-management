@@ -1,0 +1,55 @@
+{
+  "id": 8022921,
+  "key": "MM-T3603",
+  "name": "help",
+  "createdOn": "2020-11-26T21:15:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054414,
+    "name": "ToDo",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "type `/todo help`",
+        "testData": null,
+        "expectedResult": "Displays help for the plugin",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7fcdf28ccc4f6b252ad799147ccd43d4bcac76bd1bfeaa55226b55e7423106e2cc79ba65c25dc6d528bb44f5106f8ef4",
+  "stepsHashed": "407cc4690c20a2282e22f69b3e43f4dcdda9d55d3ce45a218200617b2c89123e323813fee5322aa500e633bcd2b075b2"
+}

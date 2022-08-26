@@ -1,0 +1,55 @@
+{
+  "id": 5445751,
+  "key": "MM-T2340",
+  "name": "Team or System Admin searches and adds new team member",
+  "createdOn": "2020-05-20T06:56:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team or System Admin searches and adds new team member<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. As Team or System Admin, click hamburger menu &gt; &ldquo;Add Members to Team&rdquo;<br />2. In &quot;Add New Members To [team name] Team&quot; modal, type the first few letters of a user who is on that server but not on the active team in the search box to filter the list<br />3. Verify list filters as expected<br />4. Select a user from the list, verify number of users who can be added decrements from 20 to 19<br />5. Click Go",
+        "testData": null,
+        "expectedResult": "- The added user sees the new team added to the team sidebar<br />- System message posts in Town Square and Off-Topic &quot;[user2] added to the channel by [user1]&quot; (yes, &quot;channel&quot;)<br />- Added user receives email notification for the mention in the system message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "97192016638ce1c21bc41dbfe3a251147d5ec4fbb2215020f8a88618adf76737ffe61385b2f4c77d1d7e21d27ee2a594",
+  "stepsHashed": "e85b7e2437ed97204d9c4c4b069105b557286b4c97d2f3637533838771e4c7b528c1f763506bac2fd37f2904f09c1a71"
+}

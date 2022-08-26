@@ -1,0 +1,55 @@
+{
+  "id": 15334988,
+  "key": "MM-T4269",
+  "name": "GitHub will start and return clear feedback on attempted use if it is misconfigured",
+  "createdOn": "2021-10-07T13:29:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194688,
+    "name": "General",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Disable the plugin<br />2. Remove a required field such as Client ID<br />3. Re-enable the plugin<br />4. Navigate to the user side and type a command such as `/github connect`",
+        "testData": null,
+        "expectedResult": "Ephemeral message posted back with \"Before using this plugin, you will need to configure it by filling out the settings in the system console <a href=\"https://dkh-local.ngrok.io/admin_console/plugins/plugin_github\" rel=\"noreferrer\"><span>here</span></a>. You can learn more about the setup process <a href=\"https://github.com/mattermost/mattermost-plugin-github#step-3-configure-the-plugin-in-mattermost\" rel=\"noreferrer\" target=\"_blank\">here</a>.\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1633613571343-1633613571343.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "001202307d5e07a5379ce5e3c916e35cf9f164cff297937a08e404cbf70bf6f4cb8aca8b8d199009daa1f026d8bf3e75",
+  "stepsHashed": "8e57f256541a87b8bfddbc766c5c43c05e97d317892c45495f03a5fd5c30e54c7562aca36cec6cd422106ab5812f6258"
+}

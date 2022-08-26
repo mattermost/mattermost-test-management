@@ -1,0 +1,55 @@
+{
+  "id": 11769848,
+  "key": "MM-T4099",
+  "name": "Assign Global Policy = 10 days & Custom = 5 days to channels",
+  "createdOn": "2021-06-24T20:10:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Feature flag CustomDataRetentionEnabled = true.<br />2. Restart server<br />3. Login as System Admin<br />4. Create <strong>Team-A</strong> &gt; <strong>Channel-A</strong> and <strong>Channel-B</strong><br />5. Go to System Console &gt; Data Retention Policies<br />6. Create 5 days Custom Policy and set 10 Days in Global Policy<br />7. Add <strong>Channel-B</strong> in Custom Policy<br />8. Go to <strong>Channel-A</strong> and Post 7 days old messages (use API)<br />9. Go to <strong>Channel-B</strong> and Post 7 days old messages (use API)<br />10. Go to System Console &gt; Data Retention Policy<br />11. Click Run Deletion Job Now</span>",
+        "testData": null,
+        "expectedResult": "<span>10.1 Job competed successfully <br />10.2 In <strong>Team-A</strong> &gt; <strong>Channel-A</strong>, 7 days old posts should <strong>NOT</strong> be deleted<br />10.3 In <strong>Team-A </strong>&gt; <strong>Channel-B</strong>, 7 days old posts should be deleted</span>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c32661a7497205d06bfeadd67f7336a83fd8c98237710a6d7fb74e647723b8f4766910b3a48e186b04f7a4220468a711",
+  "stepsHashed": "4492e1473109bc3cf9bca60ba4783b47cce0b7de0dc93cea7fd1481b4934e8000d86fb2cb44947448a502d5bc29753a6"
+}

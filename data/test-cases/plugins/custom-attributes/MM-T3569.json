@@ -1,0 +1,55 @@
+{
+  "id": 8022846,
+  "key": "MM-T3569",
+  "name": "Tested adding / removing teams as well as assigning custom attribute to members of multiple teams",
+  "createdOn": "2020-11-26T20:45:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054400,
+    "name": "Custom Attributes",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Custom Attributes"],
+    "fullPath": "plugins/custom-attributes"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Add a custom attribute with 2 teams as part of the criteria <br />2. Naviagte to the user side <br />3. Locate a user who is part of both teams and click the profile icon to bring up the pop-over<br />4. Remove user from 1 of the teams<br />5. Naviagte to the user side and open the pop-over again",
+        "testData": null,
+        "expectedResult": "On 3. the custom attribute has been applied to the user<br />On 5. the custom attribute has still applied to the user as it is applied when you are a member of any traget team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "195168f8f3e563364be940a0e0ec7be82b32832921cb900d36006e3b9b93d10a30cf53caa89178db4df18ef4f8381060",
+  "stepsHashed": "0b4890ffdfaa856df89658240b2b99cc7c75b9c731b23fdc299833de31c2c37d05311ba59eb02e2f663d3d212bd2bf23"
+}

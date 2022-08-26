@@ -1,0 +1,55 @@
+{
+  "id": 23668195,
+  "key": "MM-T4850",
+  "name": "MM Apps icons continue to display in App Bar as expected",
+  "createdOn": "2022-06-07T21:01:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2095568,
+    "name": "Apps Bar",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable App Bar<br />2. Install an App that runs on the Apps framework (such as the test-app or Service Now)",
+        "testData": null,
+        "expectedResult": "- Apps framework Apps continue to show in the App Bar<br />- Icons are all functional and show visual feedback when clicked",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f71eeeb654a1694259fb3b0f6d2fb5755d3bbe84f3e0c82dd108fff6e875f3dd7de9430f714aeebbae4358a8f5cd931f",
+  "stepsHashed": "f9ab0bf4aafd8b8476528cdec1e0c3c96e052284a097c42c23fd17dc26d159fa8962e2ee3713658081e59e7bad60a56f"
+}

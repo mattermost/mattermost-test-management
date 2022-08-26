@@ -1,0 +1,94 @@
+{
+  "id": 16240148,
+  "key": "MM-T4390",
+  "name": "Remove Server Modal",
+  "createdOn": "2021-11-15T20:33:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565205,
+    "name": "Server Management",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Server Management"],
+    "fullPath": "desktop-app--native-specific-/server-management"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to dropdown</li><li>Find the first server, click the trash icon.</li><li>Click Remove</li></ol><br />",
+        "testData": null,
+        "expectedResult": "<ul><li>Remove Server Modal should appear</li><li>Server should be removed from the dropdown and config</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Repeat the above steps, except click Cancel.",
+        "testData": null,
+        "expectedResult": "<ul><li>Modal should disappear.</li><li>No servers should be removed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Repeat the above steps, except click the X button.",
+        "testData": null,
+        "expectedResult": "<ul><li>Modal should disappear.</li><li>No servers should be removed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Repeat the above steps, except click the background of the modal.",
+        "testData": null,
+        "expectedResult": "<ul><li>Modal should disappear.</li><li>No servers should be removed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e8c3378412b36eafb523414b7c11e2c4ac22acd5a9c7a84a3433842442a1a472cc49d47c5b109c222d93ab442395a9d5",
+  "stepsHashed": "b519caa2838a490207ed271510b656a3fa7f2cb3f49bcf34f5f121f9c580dfb026c401438cd31299f84a35abf1d0f790"
+}

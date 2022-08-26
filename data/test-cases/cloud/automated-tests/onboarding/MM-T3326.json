@@ -1,0 +1,55 @@
+{
+  "id": 6769982,
+  "key": "MM-T3326",
+  "name": "Sysadmin - Happy Path",
+  "createdOn": "2020-08-26T19:23:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 894619,
+    "name": "Onboarding",
+    "parentId": 1341388,
+    "fullNames": ["Cloud", "Automated tests", "Onboarding"],
+    "fullPath": "cloud/automated-tests/onboarding"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Friday, May 27, 2022 12:54 PM<br />Entire ticket outdated.<br /><a href=\"https://mattermost.atlassian.net/browse/MM-44659\">Ticket in place</a> to remove Cypress code. Once that's complete this test case can be archived.<br />–––––––––––––––––––––––––<br /><a href=\"https://mattermost.atlassian.net/browse/MM-42795\">Ticket in place</a> to address outdated E2E test steps<br />— Steve Mudie",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Happy Path<br>–––––––––––––––––––––––––<ol><li>Open a new Mattermost Cloud instance as sysadmin</li><li>Enter your full name and select a profile picture, click Save Profile</li><li>Enter a new name and select a team icon, click Save team</li><li>Click Finish</li></ol>",
+        "testData": null,
+        "expectedResult": "Should be shown a final screen entitled 'Tips &amp; Next Steps'",
+        "customFields": {
+          "Fix Versions": ["Unscheduled"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6b4884bb79e134179486d49a7f95462cb64f16517f8f8411d8ba29af0cab8141f757927aad6c3ede1ef07f55f6a8c161",
+  "stepsHashed": "54326e69f8f60681e1fe4afcc00dbfa1515a5c00fea61fdd0a2de014b85c16f3b5a0d107f8d2270d653cd2db9fdd4a94"
+}

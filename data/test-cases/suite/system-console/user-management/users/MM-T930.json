@@ -1,0 +1,55 @@
+{
+  "id": 4049501,
+  "key": "MM-T930",
+  "name": "Users - Change a user's email address, with verification on",
+  "createdOn": "2020-01-21T15:48:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["User-Management", "cy-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570073,
+    "name": "Users",
+    "parentId": 538610,
+    "fullNames": ["Suite", "System Console", "User Management", "Users"],
+    "fullPath": "suite/system-console/user-management/users"
+  },
+  "customFields": {
+    "Fix Versions": ["Unscheduled"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "in Production",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Other user creates account, logs in</li><li>System admin changes other user's email address (this does not log them out, but the system does send them an email notifying them that \"You\" - as in the person themselves - updated their own email address). See MM-14454 for more details.</li><li>User logs out and can still log in with old email address until they click the verification link in the email</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User can log in after verification, and also receives email confirmation that email address has been changed</li></ul>",
+        "customFields": {
+          "Fix Versions": ["Unscheduled"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-14454\">Update wording in notification email received by end-user after a System Admin has changed the user's email address — MM-14454</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-14455\">Implement confirmation modal for System Admin when changing a user's email address via the System Console — MM-14455</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0743d28e1e9dbe92ef11e4fc92a75b4bcfcdee4a08542727bfd7b2cfbecd9f065103033a0fca533762b367643f3da519",
+  "stepsHashed": "fb1bde3c3f2f8cd0d9493b38512791087dda6e01e9f7b843c8eca4350216c2659dfc611e36aaec96aff36b02790958f4"
+}

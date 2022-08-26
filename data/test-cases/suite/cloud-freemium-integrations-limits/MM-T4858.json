@@ -1,0 +1,55 @@
+{
+  "id": 23828866,
+  "key": "MM-T4858",
+  "name": "R - No license (E0) does not have limits enforced",
+  "createdOn": "2022-06-09T14:36:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2861012,
+    "name": "Cloud Freemium Integrations limits",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Cloud Freemium Integrations limits"],
+    "fullPath": "suite/cloud-freemium-integrations-limits"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup a server that is built with the enterprise repo and has no license<br />2. Install and enable 5 non-core plugins<br />3. Install and enable a 6th non-core Plugin",
+        "testData": null,
+        "expectedResult": "There is no integrations restrictions when the server has no Cloud license ir server connectivity",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d018cc9a3dcb8c623e1b98319dc55b1d976023e266c729460a58d2f0efdd98fa33bd750e0a3e3167ddd4d23b4ec115e7",
+  "stepsHashed": "24f2dac9f546051403d45a9b63bf607b11011f03f40fde936c509717674250e2df7caf481c7d95eeb3e6d015f5fe8d1c"
+}

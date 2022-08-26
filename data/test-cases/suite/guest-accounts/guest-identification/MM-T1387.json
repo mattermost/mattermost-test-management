@@ -1,0 +1,55 @@
+{
+  "id": 4152370,
+  "key": "MM-T1387",
+  "name": "Whitelisted Guest Domains",
+  "createdOn": "2020-01-30T23:27:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Whitelisted Guest Domains<br>–––––––––––––––––––––––––<ol><li>Log in as a team admin and navigate to System Console ➜ Authentication ➜ Guest Access Page</li><li>Ensure the setting 'Enable Guest Access' is set to true&nbsp;</li><li>Specify any one domain in the Whitelisted Guest Domains, for example: mattermost.com</li><li>Go to System Console ➜ User Management ➜ Permission ➜ System Scheme</li><li>Ensure All Members are able to invite Guests</li><li>Logout and login as a system user.</li><li>Click on Invite People from the main menu and select the option to Invite Guests.</li><li>Enter an email which does not belongs to the whitelisted domain, for example: name@gmail.com then select a channel and invite them as a guest to a channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>When a user joins as a Guest with an email address not belonging to one of the whitelisted domains, then an error will appear:<br>\"<em>The following email addresses do not belong to an accepted domain: name@gmail.com. Please contact your System Administrator for details.</em>\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ef72117aab95c8d799b04944fb5177047f16e74da315b580e2322cdaa3d28e595cdabc17f6bc6bdfb5012c752b8ae381",
+  "stepsHashed": "eaec4096a3a4f2d479694add8373df5142920f3fa3d7b56aa2ffaa6c90707c691ad3ddf9fe2f32a9456c3e59863b5a6c"
+}

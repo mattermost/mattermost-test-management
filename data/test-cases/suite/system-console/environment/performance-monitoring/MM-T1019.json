@@ -1,0 +1,55 @@
+{
+  "id": 4051774,
+  "key": "MM-T1019",
+  "name": "Performance Monitoring settings can be edited and saved",
+  "createdOn": "2020-01-21T22:18:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568182,
+    "name": "Performance Monitoring",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Performance Monitoring"],
+    "fullPath": "suite/system-console/environment/performance-monitoring"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Performance Monitoring settings can be edited and saved<br />--------------------<br />1. Change both settings, save<br />2. Refresh",
+        "testData": null,
+        "expectedResult": "Changes persist",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0da5cc287d70d9d4272117cfb010c99023b4ffa58c29784ad7e248fbbedd31890f55b3923914139c7595efaba999a525",
+  "stepsHashed": "0b571350d0b869aa9a4010b6cb18cc861ab179e7c982293e47b336bb6f7c9f0938d53f1d6c779d4558a3117d53c24a1a"
+}

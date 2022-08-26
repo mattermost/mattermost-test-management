@@ -1,0 +1,55 @@
+{
+  "id": 22954603,
+  "key": "MM-T4836",
+  "name": "Slash command /jitsi help",
+  "createdOn": "2022-05-26T15:32:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2745764,
+    "name": "Jitsi",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Type /jitsi help",
+        "testData": null,
+        "expectedResult": "Shows the Jisti help text",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f0a3e9467ca9d1697981b4f2058b2ce4d1150a59cf6ff50487672a98fae2a20bbb3be7a0904cab38db61046d67783c6e",
+  "stepsHashed": "627be8ec64719886299937b4ce49686fa07918e82a0f16507b7b8a511aec15241b53a632a67d2a5f5209ff468227b8eb"
+}

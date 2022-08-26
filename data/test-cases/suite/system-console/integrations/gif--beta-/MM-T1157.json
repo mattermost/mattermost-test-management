@@ -1,0 +1,55 @@
+{
+  "id": 4058887,
+  "key": "MM-T1157",
+  "name": "Gfycat enabled can use the integration, disabled does not appear on emoji picker",
+  "createdOn": "2020-01-22T19:26:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569410,
+    "name": "GIF (Beta)",
+    "parentId": 570084,
+    "fullNames": ["Suite", "System Console", "Integrations", "GIF (Beta)"],
+    "fullPath": "suite/system-console/integrations/gif--beta-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Gfycat enabled can use the integration, disabled does not appear on emoji picker<br />--------------------<br />Gfycat integration settings<br />Set to True, enter any values, Save, refresh<br />Verify your edited values saved<br />Replace with the following real values in the fields and Save:<br /><br />2_KtH_W5<br />3wLVZPiswc3DnaiaFoLkDvB4X0IV6CpMkj4tf2inJRsBY6-FnkT08zGmppWFgeof<br /><br />Verify in a team that you can use the Gfycat gif picker (second tab in the emoji picker) in a post<br />Set back to False",
+        "testData": null,
+        "expectedResult": "Values persist when saved<br /><br />When enabled with valid values, can use the GIF picker to add a gif to a post<br /><br />After disabled, GIF tab does not appear on emoji picker",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "32a639ec36504cb1b9ed538aa6ab7cc23036026394922bed39008d6134ce3a17ed7d54629be9d076cb95929f3e0dbfc1",
+  "stepsHashed": "c8601895ab8f7b05261e48fe86ba94937eeb8c0c2d610fad2416188c2b473c0297d5d52f3341898b67d88526fe58c6ac"
+}

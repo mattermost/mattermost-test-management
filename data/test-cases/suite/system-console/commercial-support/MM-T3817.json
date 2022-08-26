@@ -1,0 +1,55 @@
+{
+  "id": 8822055,
+  "key": "MM-T3817",
+  "name": "Commercial Support Dialog UI - No License",
+  "createdOn": "2021-02-01T19:26:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1151596,
+    "name": "Commercial Support",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Commercial Support"],
+    "fullPath": "suite/system-console/commercial-support"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.32 (February 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>sysadmin without License</strong><br>2. Go to <strong>System Console</strong><br>3. From menu select <strong>\"Commercial Support\"</strong>",
+        "testData": null,
+        "expectedResult": "3. Support page will be open in new tab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "247be9be95ed45ece742b28c944b238320aa575a511f3de9fb4076c96b74963d20af721637a3db4d078eebf013320cd9",
+  "stepsHashed": "de2c7b41a13efecfc880b0a14d0003bcfa054db81d993d390506f9fe7010fbd50b92fe3b6f9a5e0f0b06f36101c31cf1"
+}

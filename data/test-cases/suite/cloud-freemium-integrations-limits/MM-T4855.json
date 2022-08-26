@@ -1,0 +1,55 @@
+{
+  "id": 23828863,
+  "key": "MM-T4855",
+  "name": "Crashed plugin counts as enabled",
+  "createdOn": "2022-06-09T14:36:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2861012,
+    "name": "Cloud Freemium Integrations limits",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Cloud Freemium Integrations limits"],
+    "fullPath": "suite/cloud-freemium-integrations-limits"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Setup a server where the integration limits are being enforced <br />2. Install and enable 4 non-core plugins that count towards the limit and enable them all<br />3. Install a 5th plugin that is not core and can be misconfigured (Zoom for example)<br />4. Enable the misconfigured plugin<br />5. Install an additional non-core plugin<br />6. Attempt to enable the plugin",
+        "testData": null,
+        "expectedResult": "On 4. The plugin will crash due to missing configuration. <br />On 6. The server is already at the plugin limit even though a plugin is in a crashed state",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5f84fa07df4415773f4d8f13662ebf0c2029d80d5ba951e07fb4241c99c2af1fe1854e0c3d6107b97195bf10a9fc4ffa",
+  "stepsHashed": "b90be5169d2b70f65a0f7b2f48d0cc764342a96c681b1e06feed52e1457fe68933cba055dcada17d8e45f231a6f9d093"
+}

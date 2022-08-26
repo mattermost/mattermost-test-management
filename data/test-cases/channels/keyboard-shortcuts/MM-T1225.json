@@ -1,0 +1,55 @@
+{
+  "id": 4064348,
+  "key": "MM-T1225",
+  "name": "CTRL/CMD+K - Open private channel using arrow keys and Enter",
+  "createdOn": "2020-01-23T13:38:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 8:00 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+K - Open private channel using arrow keys and Enter<br>–––––––––––––––––––––––––<ol><li>Press CTRL+K (Windows) or CMD+K (Mac)</li><li> Type the first letter of a private channel in the \"Switch Channels\" modal message box</li><li> Use up/down arrow keys to highlight a private channel</li><li>Press ENTER</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Private channel opens, with focus in the message box</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f558ef9a78f90bfabcc02741ab631a896c18349a1467d9e38926f829de4322ed993441efeba449b076d62e3a594adf7e",
+  "stepsHashed": "aeaf043c9e8556cd6eede13ebc9766e32b68688a23528fa3a235ea2e9f86b2c4978f2a945f2bb51619531e3e5ba01000"
+}

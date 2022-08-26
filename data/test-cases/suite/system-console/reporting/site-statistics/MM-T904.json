@@ -1,0 +1,55 @@
+{
+  "id": 4047137,
+  "key": "MM-T904",
+  "name": "Site Statistics displays expected content categories",
+  "createdOn": "2020-01-21T13:17:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 570069,
+    "name": "Site Statistics",
+    "parentId": 538608,
+    "fullNames": ["Suite", "System Console", "Reporting", "Site Statistics"],
+    "fullPath": "suite/system-console/reporting/site-statistics"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "On server with E20 license (enterprise edition), click \"Site Statistics\" under Reporting.",
+        "testData": null,
+        "expectedResult": "Verify stats title and values for the ff contents:<ul><li>Total Active Users</li><li>Total Teams</li><li>Total Channels</li><li>Total Posts</li><li>Total Sessions</li><li>Total Commands</li><li>Incoming Webhooks</li><li>Outgoing Webhooks</li><li>Daily Active Users</li><li>Monthly Active Users</li><li>WebSocket Conns</li><li>Master DB Conns</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "67b54030416f358afc574aecae71287c47154328938ef8a3a136a3a4d749604f6f22e1ba10277727934f018981a900ad",
+  "stepsHashed": "4fe63b1b73b07855c9c0934159aeb45849b9318e7ad6f0d03393e7d099b61d718a5305661f44af91f1f214f306c5ba45"
+}

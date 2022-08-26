@@ -1,0 +1,55 @@
+{
+  "id": 4035706,
+  "key": "MM-T837",
+  "name": "Device sync when creating channel",
+  "createdOn": "2020-01-18T01:00:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Have the *same account* viewing the same team open in two different devices (can be two browsers, desktop app, RN, mobile app)</li><li>In one of them create a public channel using the `+` icon in LHS</li></ol>",
+        "testData": null,
+        "expectedResult": "The channel appears in the left hand sidebar for all devices as soon it gets created in the other device",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c4155fba742dea9810fb9be93d9bd62456fd489018d2040a57f1544adf49fa645b4c803a3796f25c0567c8626cfcee5",
+  "stepsHashed": "4c0db82dff06bbb0fee6a159f6f180b8f89878bb3a254cd8a038842815c1eb94458f56aad5490f0bbec1685c9560dcbc"
+}

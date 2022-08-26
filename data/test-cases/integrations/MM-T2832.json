@@ -1,0 +1,55 @@
+{
+  "id": 5627972,
+  "key": "MM-T2832",
+  "name": "Use a slash command that omits accepts an optional argument",
+  "createdOn": "2020-06-04T05:00:19Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires an updated version of the Agenda plugin that supports slash command auto complete (for now deploying this PR <a href=\"https://github.com/mattermost/mattermost-plugin-agenda/pull/40\">https://github.com/mattermost/mattermost-plugin-agenda/pull/40</a>",
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Type `/agenda queue &nbsp;pickles some beats`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The meeting item is queued for the upcoming meeting</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "27744193747a4b0f8e717a7ccfd7e9349753625c8d37b111d73887ff035d27e4089e22d13bbcde3f7624f2837d7e46f1",
+  "stepsHashed": "28a2387bfca25d57b9b8459289a3d35250f33e0011a9ba556a9044fdef4a61b78d402cbf2ee128845eac77cb13962ad6"
+}

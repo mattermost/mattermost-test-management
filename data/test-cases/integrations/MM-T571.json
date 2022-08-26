@@ -1,0 +1,55 @@
+{
+  "id": 3906166,
+  "key": "MM-T571",
+  "name": "Integration search gives feed back when there are no results.",
+  "createdOn": "2020-01-04T02:25:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 11:48 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed no automated executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Integration search gives feed back when there are no results.<br>–––––––––––––––––––––––––<br><ol><li>Go to Main Menu ➜ Integrations</li><li>Shrink window to a small size</li><li>Click through the category links and perform a search for a term that does not match any of the listed integrations</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>UI shows that there are no integrations that match your search</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-14575\">Automatically serve static files for plugins — MM-14575</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9df1e5529cc0bfc1229af618bc9c82e3d0f79ad5cdddbde263f343d670fba3324f4bd091be1b55c02ecf4df1e9dabac3",
+  "stepsHashed": "997dbb38146b1ac9f653f37fd3a1cc7d640302c8f84a12322302ac8aab622a1bc834ea431d8ace0490c625ef313bea0b"
+}

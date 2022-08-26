@@ -1,0 +1,55 @@
+{
+  "id": 8646818,
+  "key": "MM-T3773",
+  "name": "User - Create : should not create a user without password",
+  "createdOn": "2021-01-20T10:07:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user create --email user@example.com --username userexample ",
+        "testData": null,
+        "expectedResult": "Returns an error as --password flag is missing and is required",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6aa7a87b9efbdf23608e38ac4e1ae2a581ae45169b4f3cef4e262001a2e09a9bdc34fc9f75437805ca6620fb13fa1d63",
+  "stepsHashed": "1041ccf098a70ea63f172a179d90e0205a26f8470f25369d28e25be3243b15a5e3f874e6383a71ee68c74997046b4283"
+}

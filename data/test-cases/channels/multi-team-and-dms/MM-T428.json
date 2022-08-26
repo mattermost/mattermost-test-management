@@ -1,0 +1,68 @@
+{
+  "id": 3904481,
+  "key": "MM-T428",
+  "name": "Status changes made from RN are displayed in other clients",
+  "createdOn": "2020-01-03T14:24:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Status changes made from RN are displayed in other clients<br>–––––––––––––––––––––––––<ol><li>Tap the three-dot menu in the top right of your screen</li><li>Tap your status, change to away or offline</li><li>Have another user observe your user in the LHS DM list (or other places status displays; can take 30-60 seconds to update)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Other user sees your status as what you updated to (might not update immediately; can open a DM and that might help)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Receive a message while in DND mode</li><li>Reply while in DND mode</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Your DND status does not change&nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-20020\">User's DND mode status is not shown correctly when user responds to a message in DND mode — MM-20020</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9022c17878b431c34a02af7ae00294106ec95a45f3daa3a40ddd2df5d1b20540b72b564fce07dae74122c6de30542109",
+  "stepsHashed": "2775f734de5d9755642c6f2244dc7e5cc67274d2c573cebea09a61f3858a12fb4620028b8621b1e983e56335dcfa3788"
+}

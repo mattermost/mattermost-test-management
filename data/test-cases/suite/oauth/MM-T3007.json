@@ -1,0 +1,172 @@
+{
+  "id": 6135325,
+  "key": "MM-T3007",
+  "name": "OAuth SSO: GitLab – Selenium tests (10)",
+  "createdOn": "2020-07-09T05:49:09Z",
+  "objective": null,
+  "precondition": "AuthGitLab.html",
+  "estimatedTime": null,
+  "labels": ["Se-Needs-Test-Steps", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404298,
+    "name": "OAuth",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "OAuth"],
+    "fullPath": "suite/oauth"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "OAuth"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Account creation disabled<br></strong><br>1. With GitLab set up, set System Console &gt; Users and Teams &gt; \"Enable Account Creation\" to false\n<br>2. Open login page in separate or incognito browser\n<br>3. Click to create a new account, click to use GitLab",
+        "testData": null,
+        "expectedResult": "Cannot create new account with SSO: error page \"Error User sign-up is disabled. Back to Mattermost\" <br><br>Then set account creation back to TRUE",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Create new account using GitLab<br></strong><br>1. Go to Main Menu &gt; Send Email Invite and send to email address associated with GitLab account (can also use team invite link and skip sending/receiving the email, or just click to create a new account if it's an open server)\n<br>2. Logout\n<br>3. Click the invite link in the email\n<br>4. On the sign up page, click \"Sign Up with GitLab\"\n<br>5. Sign up with a gitlab account that is not already used on the server",
+        "testData": null,
+        "expectedResult": "Account is created and team is joined",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Switch GitLab SSO to email / password<br></strong><br>1. Sign in with an account using GitLab SSO\n<br>2. Go to Account Settings -&gt; Security -&gt; Signin Method\n<br>3. Switch to email sign in\n<br>4. Observe success message\n<br>5. Log back in with email",
+        "testData": null,
+        "expectedResult": "Sign in method should switch to email and login is successful",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Try to log in with GitLab after changing to email / password<br></strong><br>1. After switching GitLab account to sign in using email (in test above)\n2. Log out of the server and try to use your GitLab account to sign in",
+        "testData": null,
+        "expectedResult": "Error message displays about email address already in use:\n\"There is already an account associated with that email address using a sign in method other than gitlab. Please sign in using email.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Can switch back to GitLab login method and log in<br></strong><br>15. Log in using email / password<br>16. In Account Settings &gt; Security, switch signin method back to GitLab login<br>17. Observe success message<br>18. Log in usingGitLab",
+        "testData": null,
+        "expectedResult": "- Login is successful using GitLab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Update User Attributes in GitLab    <br></strong><br>1. Sign in using GitLab<br>2. Verify Account Settings &gt; General Settings show that username and email are set in GitLab,<br>3. Edit first and last name<br>4. Log out of Mattermost<br>5. In GitLab:Update email in Profile, and username in Account. Make note of full name<br>6. Log back in to Mattermost using GitLab",
+        "testData": null,
+        "expectedResult": "Full name, username and email in Account Settings update to match what's in GitLab<br><br>Email may not update until after it's verified depending on System Console setting re: email verification<br><br>(Could then click in verification email to verify new email address, and verify in Mattermost that email address updated)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Deactivate in Mattermost, user reactivates on SSO<br></strong><br>Deactivate user in Mm, verify warning message \"You must also deactivate this user in the SSO provider or they will be reactivated on next login or sync.\"<br><br>User re-signs in using GL<br><br>System admin refreshes viewing the user in System Console",
+        "testData": null,
+        "expectedResult": "User is reactivated on re-signing in using GitLab",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>GitLab Disabled -&gt; Not available for signin   <br></strong><br>1. System Console: Set \"\"Enable authentication with GitLab:\"\" = false (Team Edition), or System Console &gt; OAuth 2.0: \"\"Select OAuth Provider\"\" to Do not allow sign-in via an OAuth 2.0 provider (Enterprise)<br><br>(fields will repopulate after you set it back to GitLab, but if two OAuth methods are in place, only one of them will return to the login page)",
+        "testData": null,
+        "expectedResult": "Team Edition: GitLab fields become uneditable, login page does not have GitLab signin button, account creation page does not have option for GitLab Sign up.<br><br>Enterprise Edition: Gitlab fields are hidden from page.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>GitLab Settings: Pre-populate    <br></strong><br>1. In GitLab settings, observe the GitLab Site URL<br>2. Observe the fields below it are pre-populated based on that URL and are not editable<br>3. Edit the GitLab Site URL and observe the changes in the fields below (do not save changes)",
+        "testData": null,
+        "expectedResult": "<span data-sheets-userformat='{\"2\":897,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0}' data-sheets-value='{\"1\":2,\"2\":\"Fields pre-populate based on Site URL and are not editable:\\nUser API Endpoint\\nAuth Endpoint\\nToken Endpoint\"}'>Fields pre-populate based on Site URL and are not editable:<br></span><br><span data-sheets-userformat='{\"2\":897,\"3\":{\"1\":0},\"10\":2,\"11\":4,\"12\":0}' data-sheets-value='{\"1\":2,\"2\":\"Fields pre-populate based on Site URL and are not editable:\\nUser API Endpoint\\nAuth Endpoint\\nToken Endpoint\"}'>User API Endpoint<br>Auth Endpoint<br>Token Endpoint</span>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>Correct message if user has not authorized MM in GitLab <br></strong><br>1. If you've already authorized GitLab to log in to the Mattermost server:<br>- Log in to GitLab (not Mm), click on the down arrow to the right of your profile icon top right &gt; Settings &gt; Applications<br>- scroll down to Authorized Applications and revoke access from the Mattermost server you're testing on (NOTE: rctesting will be listed as `MattermostTest`)<br>2. Log out your Mattermost GitLab account<br>3. On login page, click to log in using GitLab<br>4. GitLab login page appears (unless you're already logged in to GitLab in the background)<br>5. Log in to GitLab (unless you're already logged in)<br>6. On the \"\"authorize [MM-server-name] to use your account click on \"\"Deny\"\"<br>7. On the \"\"Authorization Error\"\" page, click on \"\"Back to log in page\"\"<br>8. Observe error page displaying \"Authorization Error - You must authorize Mattermost to log in with Gitlab. - Back to login page\"<br>9. Click to log in using GitLab<br>10. Click to Authorize<br>11. Attempt login again",
+        "testData": null,
+        "expectedResult": "- Login is successful again after re-authorizing",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04bae69aad176db1beeb60331d862b83b6dc91309cd9287e31b208a352c0aaa1d12c2c0b9712cc1310372a89cfbaed9d",
+  "stepsHashed": "ffa7e7487c47326797b48b67b29de51e0997e9691121586bc0cd7d5577310a93f812af11367e9995fd4e6f8e0b996aa2"
+}

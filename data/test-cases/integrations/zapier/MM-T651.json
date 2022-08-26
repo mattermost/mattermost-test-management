@@ -1,0 +1,55 @@
+{
+  "id": 3968351,
+  "key": "MM-T651",
+  "name": "🔸 06 — Reconnect Zapier",
+  "createdOn": "2020-01-08T12:57:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586859,
+    "name": "Zapier",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Reconnect Zapier<br>–––––––––––––––––––––––––<ol><li>Log in to Zapier, go to Apps ➜ Connections ➜ <a href=\"https://zapier.com/app/connections/mattermost\">Mattermost</a>, and find the connection you used to create the Zapier app</li><li>Select \"Reconnect\"</li><li>Enter the Mattermost URL, Client ID, and Client Secret from the previous step</li><li>Attempt to trigger a post to Mattermost (with the Zapier app)</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ol><li>Zapier post successfully made to Mattermost</li></ol>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "185af1f24d668a14c6bc32f1140359bdd56be4a2ee3f1373a7d11445ba6f357b6e260734ba0f5581ba145b05aefcc16a",
+  "stepsHashed": "9f9b636a6fed4181615d0c559793ee43cac1fd7d42c96e3988357cfe116bf3564a12be93c686715eed1783a3a6085568"
+}

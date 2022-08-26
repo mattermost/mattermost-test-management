@@ -1,0 +1,55 @@
+{
+  "id": 16261143,
+  "key": "MM-T4399",
+  "name": "New Server Modal should appear when no servers exist",
+  "createdOn": "2021-11-16T19:43:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1965772,
+    "name": "Startup",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Startup"],
+    "fullPath": "desktop-app--native-specific-/startup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the app on a fresh computer (or a computer with no servers installed)",
+        "testData": null,
+        "expectedResult": "New Server Modal should appear on startup",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7d1b02beb625b92ab8aad04ea65c4c491bc757866b34aff19261e3ca79b18e61aa439cc0f7f1869c9b40e8c87b9e5748",
+  "stepsHashed": "35333e23d643799ff63ee360405115b876f1851cae1f8658501559c56d483a52b801eb8449aced80c8640b8566c51fdd"
+}

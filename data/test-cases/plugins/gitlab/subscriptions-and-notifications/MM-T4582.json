@@ -1,0 +1,55 @@
+{
+  "id": 17862418,
+  "key": "MM-T4582",
+  "name": "Create an issue event",
+  "createdOn": "2022-01-26T22:35:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. From the GitLab UI, create an issue in the target project",
+        "testData": null,
+        "expectedResult": "Event post is delivered to the channel including a link and the creator",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d0238e6a707ad7f3697574675739e455bafe230abda4f03a8a6928e7fb720b198d77e05aed952d39470319f8d9f9a918",
+  "stepsHashed": "196843c5abb526f225c1f17d65ace4f2e90567c47e44d20656f19fcb6957682ce223a5a2bd80d710a2e6da2c24385830"
+}

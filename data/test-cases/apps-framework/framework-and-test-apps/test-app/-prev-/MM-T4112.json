@@ -1,0 +1,56 @@
+{
+  "id": 12163267,
+  "key": "MM-T4112",
+  "name": "Test-App Modal all field types can be read only",
+  "createdOn": "2021-07-08T16:04:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1941501,
+    "name": "(prev)",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "Markdown is displayed correctly in modals<br />1. Open a channel where the slash command bindings are available<br />2. Type<em> /test valid open_full_form_disabled_modal</em><br />3. In the modal, attempt to set a value in each filed",
+        "testData": null,
+        "expectedResult": "On 2. The test app open a modal with read-only fields<br />On 3. All the following fields are read-only and cannot take a value<br /> - lookup<br />- text<br />- boolean<br />- channel<br />- user<br />- static<br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04b8418181b034c9e2ac253a5db344281d2851c6ef20c59fb266867b71053765135cfcecd28b8c5f42aeadc2bbd19751",
+  "stepsHashed": "d129ea240231b3a26653b8633228fc6bc33af4f9adc0bc73e6cac5fb75d056525f846ea5475e1981dd4f7a37e6d3c46e"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5601919,
+  "key": "MM-T2747",
+  "name": "Upon being removed from linked LDAP group user has MM membership removed.",
+  "createdOn": "2020-06-01T20:58:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Upon being removed from linked LDAP group user has MM membership removed.<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Identify a user in an LDAP group (that is not nested in / member of another group) that is linked to a team/channel<br />2. In LDAP, remove that user from the LDAP group<br />3. Admin sync LDAP",
+        "testData": null,
+        "expectedResult": "No auto-removal from Mm team/channel<br />User no longer appears in the user list on that Group's page in Mm",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5002b7bc4fcb3e827d82ec8779ebc32c09c446400aa06059997dbf9108e51f838e15e53307775eef74eb3ff18a9bd21e",
+  "stepsHashed": "25abbbf2d5f7720d005444f386205089ccc8e7b5b268c47962cdd17a5818735f4597f198934ddeae9452553ed0342e19"
+}

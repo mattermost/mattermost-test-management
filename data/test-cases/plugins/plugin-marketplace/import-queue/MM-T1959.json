@@ -1,0 +1,55 @@
+{
+  "id": 5293900,
+  "key": "MM-T1959",
+  "name": "Marketplace is not available when “Enable Plugins” is false",
+  "createdOn": "2020-05-06T01:44:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": [],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Marketplace is not available when &ldquo;Enable Plugins&rdquo; is false<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Go to main menu &gt; System Console &gt; PLUGINS &gt; Plugin Management.<br />2. Set &ldquo;Enable Plugins&rdquo; to false.<br />3. Switch to a MM team.<br />4. Go to main menu.",
+        "testData": null,
+        "expectedResult": "&ldquo;Plugins Marketplace&rdquo; is not available in the menu",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7a0d1bcb90eb84f2c4aab1512dc6329051e846f719e2da558368f2b2edb33d9dc495a0bb0224c22c8f6924faa1a65024",
+  "stepsHashed": "5e522515abcbc0b8a0abaccbac6ecd451921c5831e1d437793ef042e93ecf8749003cb314739666cea8869a61b60c483"
+}

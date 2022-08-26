@@ -1,0 +1,55 @@
+{
+  "id": 4058911,
+  "key": "MM-T1181",
+  "name": "Compliance and Auditing: Run a report, it appears in job table",
+  "createdOn": "2020-01-22T19:26:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569415,
+    "name": "Compliance Monitoring",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
+    "fullPath": "suite/system-console/compliance/compliance-monitoring"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Compliance and Auditing<br />--------------------<br />Ensure Settings &gt; General &gt; Compliance &gt; Enable Compliance Reporting is set to True<br />In Compliance and Auditing section, run a report, refresh the list",
+        "testData": null,
+        "expectedResult": "New report displays at top of list, download is available",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0b3e4f450b66b5dbc3af047e299ec5b401caef569e7ec3de93ac2eb634fba9df033a092c4e109b0c449e454ca9306ed9",
+  "stepsHashed": "f9cf5e2b4e97bb2452f841f7dac15bae01a2dab0d8fd611f46f85508f4ce0b43c9b0f8f7a0b8cc4d9d9b9e2b8936109c"
+}

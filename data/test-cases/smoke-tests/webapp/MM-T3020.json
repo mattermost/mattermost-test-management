@@ -1,0 +1,55 @@
+{
+  "id": 6181449,
+  "key": "MM-T3020",
+  "name": "Account creation using \"Create one now\" link on signin page, email / password",
+  "createdOn": "2020-07-13T19:12:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder", "2022smoke", "2022cleanup-archive"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "LM 6 May 2022:<br />Adding to list to archive.<br />- Dupe of https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testCase/MM-T400<br />- Cypress test is on that dupe test MM-T400",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Account creation using &quot;Create one now&quot; link on signin page, email / password<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Also ensure for Se that email verification is not enforced for new accounts<br />1. Ensure that System Console &gt; SECURITY -&gt; SIGN-UP -&gt; ENABLE OPEN SERVER is TRUE (you're all set if the login page has a &quot;Create one now&quot; link)<br />2. On the sign in page, click &quot;Don't have an account? Create one now&quot;<br />3. Click &quot;Email and password&quot;<br />4. Enter email credentials for a new account<br />5. Click &quot;Create Account&quot;<br />6. Check your email for a verification email<br />7. Click the &quot;Verify&quot; link",
+        "testData": null,
+        "expectedResult": "Email verification is successful and account is created. <br /><br />All except for mobile: On the login page, email is pre-filled with focus on the password field.<br /><br />Won't fix: Older Edge versions don't appear to sign up successfully:  <br />https://mattermost.atlassian.net/browse/MM-7363",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "61f44a3c57c9c6f7b3f69f0c1240879845b3608c5cc0c07cc6b52abf9274213511632e2720ba5ce60443607ef8e80565",
+  "stepsHashed": "7d3b8569ae4cc0fc504ee5857f1dd262d67c0f619279e588ca83eccb9589e687cb9059c1ed5e5bfd4b1cb415a52c8203"
+}

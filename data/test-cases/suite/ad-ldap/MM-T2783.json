@@ -1,0 +1,55 @@
+{
+  "id": 5602312,
+  "key": "MM-T2783",
+  "name": "Hide two team settings and disable a third if a team is group constrained",
+  "createdOn": "2020-06-01T22:09:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Hide two team settings and disable a third if a team is group constrained<br>————————————————————————————<ol><li>Login to a group-constrained team.</li><li>View the team settings.</li></ol>",
+        "testData": null,
+        "expectedResult": "<strong>Settings not visible</strong>:<ul><li>Allow only users with a specific email domain to join this team</li><li>Invite Code<br><br></li></ul><strong>Setting disabled</strong>:<ul><li>Allow any user with an account on this server to join this team</li><li>Members of this team are added and removed by linked groups.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-14898\">Update to team settings if team is group constrained — MM-14898</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e2ac48ec7bbebcacdaa29f58bc86c8bb5386dfe45a9129a24a496566b722977bc31800cd4c5a92fc0d36c72fac39b917",
+  "stepsHashed": "5fffe1596bfd46a25c4073b3fbffcca0dee361882d6cc8fe62c3a15f56157f17726fb37725a6fd6d9a95ea4f15431d12"
+}

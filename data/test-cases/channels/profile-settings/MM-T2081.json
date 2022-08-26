@@ -1,0 +1,55 @@
+{
+  "id": 5444629,
+  "key": "MM-T2081",
+  "name": "Password: Error on blank",
+  "createdOn": "2020-05-20T05:50:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Password<br />————————————————————————————<br />Note: Login with email<br />1. Go to Profile -&gt; Security -&gt; Password-&gt; Edit<br />2. Leave fields blank<br />3. Save",
+        "testData": null,
+        "expectedResult": "Error message \"Please enter your current password.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1385d1c4c4fa9976f421bfe7c1b34c60af89e74cb771b29f1cff3882a05a865a9931930f8d35c3005d975acfb8467ec1",
+  "stepsHashed": "12e829c63df148f01351f31d2f3bebfab80b22f394d816099512122acc7f1009f610f1baf9bde26f3ff1eb2e083da4e9"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4035716,
+  "key": "MM-T847",
+  "name": "RN apps: Change channel",
+  "createdOn": "2020-01-18T01:00:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open channel drawer</li><li>Type the beginning of a channel name in the `Jump to...` search box</li><li>Verify relevant results are displayed in these categories, in this order (when filtered):<ul><li>Unreads</li><li>Direct messages</li><li>Channels (public and private together, listed alphabetically. Favorites are listed together here too; not sorted separately)</li><li>Members (other users you don't already have a DM with)</li><li>Not a Member (public channels you don't belong to)</li></ul></li><li>Tap on the name of a channel from the filtered list</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>View changes to the channel you have tapped on</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "(<span style=\"color: rgb(184, 49, 47);\">Won't Fix</span>): <a href=\"https://mattermost.atlassian.net/browse/MM-11257\" rel=\"noopener noreferrer\" target=\"_blank\">RN - Android drawer can be pulled out of position — MM11257</a> Possible to pull channel drawer out of position if you try",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0988d564dc80705b6d0b7ea092dfa9c98dbe873f1d185ae0cd1202b69b5240eb1609e58afa109169a309d9f43e50f06e",
+  "stepsHashed": "54eee8d622dc725d6ab80cfa4ca5520dc02ddfe8e082a1942b2b860e5bb2336805ea052253be07ef8a84a96cf925974d"
+}

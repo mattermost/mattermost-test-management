@@ -1,0 +1,55 @@
+{
+  "id": 4064384,
+  "key": "MM-T1260",
+  "name": "UP arrow",
+  "createdOn": "2020-01-23T13:38:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UP arrow<br />--------------------<br />1. Post a message in a test channel<br />2. Press UP",
+        "testData": null,
+        "expectedResult": "The user is able to edit their message posted in step 1",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c1d46b496e3e5463d642cb8421c99c2714ff1413a8dea4caa1306e23943fa53cf6f852ce21b9d5c28a7ac040abc73db",
+  "stepsHashed": "98d24c67be1319e3490a692be3e50b398b8aeb0310c4fad8bdd9ad15a338af88733cd8fb31ae1c3d51f17dde387f2ad0"
+}

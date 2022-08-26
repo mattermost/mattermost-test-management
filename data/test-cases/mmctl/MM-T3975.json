@@ -1,0 +1,55 @@
+{
+  "id": 9949767,
+  "key": "MM-T3975",
+  "name": "Group - Channel : Status - Regular Channel (all clients)",
+  "createdOn": "2021-04-05T10:19:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl group channel status [channel]",
+        "testData": null,
+        "expectedResult": "Returns the status of the regular channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0223966d3322929b8a59e7ab1437bd7b02738fc8c2486f9a211ce6612b631f4e7fcd4ad9eee87625c86309c22503203c",
+  "stepsHashed": "77622cce299e301b819f98e2581160f33e70c7cfa8995be22ae5904071ccbcdb3278cccc3149de3d2ded877f9d301b79"
+}

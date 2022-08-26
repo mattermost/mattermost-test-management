@@ -1,0 +1,55 @@
+{
+  "id": 6197860,
+  "key": "MM-T3141",
+  "name": "Package removal",
+  "createdOn": "2020-07-14T18:40:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 821856,
+    "name": "Omnibus",
+    "parentId": null,
+    "fullNames": ["Omnibus"],
+    "fullPath": "omnibus"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Omnibus"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Package removal<br>————————————————————————————<br>After the previous test:<ol><li>Run \"apt remove -y mattermost-omnibus &amp;&amp; apt autoremove -y\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The mattermost server should not be accessible</li><li>The mmomni CLI tool should not be accessible</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0a76f264567ac202d3a45bc03a76e8732a500ae30839fd3a89af109a5b237000e2e735cdf4b35b3e6a6d69aeccf68a56",
+  "stepsHashed": "f0f2ea450a1c5ca5cf21fed672eda116fd5cd796297ff74efbb914e734192ed019da763e438ee3d5f192f89b4764d56f"
+}

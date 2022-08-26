@@ -1,0 +1,55 @@
+{
+  "id": 17674323,
+  "key": "MM-T4523",
+  "name": "Create Modal Validation -  Validation remains functional when switching issue type and project",
+  "createdOn": "2022-01-18T22:43:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the create modal and select a Project <br />2. Select Epic as your issue type<br />3. Attempt to save the modal without providing an Epic title<br />4. Switch to any other issue type<br />5. Fill out remaining fileds and save",
+        "testData": null,
+        "expectedResult": "Issue saved successfully",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "972b13b886548fb4273135656524deb36ac552d961b41182765ea306e009f348788a15e9edaf35f53627ad3b6cdf89bd",
+  "stepsHashed": "b8864ee8330e556cdd444fdd06367a718123238c15197547e6d89e8c4a2479586be78acbada272652263a3be30980ed6"
+}

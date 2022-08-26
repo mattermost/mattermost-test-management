@@ -1,0 +1,55 @@
+{
+  "id": 6159207,
+  "key": "MM-T3015",
+  "name": "Links with uncommon markdown are displayed correctly",
+  "createdOn": "2020-07-10T14:57:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 10:34 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Log in on browser or desktop<br>2. Post the following in a channel:<br><em>[`foo` and `bar`](https://www.google.com) <br><br>[desktop app v4.5 released](https://github.com/mattermost/desktop/releases/tag/v4.5.0) <br><br>do you see the link cut (without the number) [pr-desktop-1315](https://github.com/mattermost/desktop/pull/1315)</em><em>&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "Full links are displayed. None of the HREF text or text in code block is missing or cut off.&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1e504cf8024ce14f50061cfcebad143b91c4cb2cc2e77d053a3d2fb10e53aa63f81e5de8c2374eb10d992202b15f68da",
+  "stepsHashed": "658d30c736d9dd94f27f140852f5b1febeda9a9a46b63f53608ad8a79f3fae68e80ef2e10a5ed9bd3260b3f2d904d67b"
+}

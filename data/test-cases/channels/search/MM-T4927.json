@@ -1,0 +1,55 @@
+{
+  "id": 26002250,
+  "key": "MM-T4927",
+  "name": "Search for channel in system console using channel ID",
+  "createdOn": "2022-07-18T19:15:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Search for channel <u>in system console </u>using channel ID</u><ol><li>Open channel info for Town Square (see image in test data)</li><li>Copy channel ID from channel info pane</li><li>Open System Console&gt;User Management&gt;Channels</li><li>Enter the channel ID string into search field <ol><li>Verify Town Square is returned as a result</li></ol></li></ol>",
+        "testData": "Example only, not an actual id used in testing<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1658170280881-Screen+Shot+2022-07-18+at+2.50.48+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Searching using channel ID in system console returns correct results ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c378a5a4c6f1a5d04a947aa59132bb50984bed6cd49fe29f4be27b37f90fdb647c288f59caef3c38f3b5a1e6d024a13c",
+  "stepsHashed": "ae129659b12e98b6997bed20930d521d50591da6ceb4a1c719e0caf6a75f36d9dfeadf087af37125ac1213b0c1cd138a"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 6377917,
+  "key": "MM-T3163",
+  "name": "Rename Category",
+  "createdOn": "2020-07-29T19:36:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1007282,
+    "name": "Custom Categories",
+    "parentId": 712113,
+    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
+    "fullPath": "channels/left-sidebar/custom-categories"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Rename Category<br>————————————————————————————<ol><li>Click on 3 dot to open custom category menu</li><li>Click on Rename Category</li><li>Edit the name and click on Rename</li></ol>",
+        "testData": null,
+        "expectedResult": "At step 2. <ul><li>Rename Category modal opens</li><li>Field is in focus, existing custom category name is prefilled</li><li>Rename button is disabled</li></ul>After 3.<ul><li>Modal closes</li><li>Category is renamed, shows new name on the LHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "37315b1082d2a12a13aedd75bf0fbd7d6ea6f811e2d655ba809fd7290118833bfce7f79ee83a6dd62044bdbca58e7bbc",
+  "stepsHashed": "1b4de49567cfcefea4d082e8360042ad063c660b7c9923009fc4d0df6e625cedc5f946e6852fe26e2462f827315c2e2a"
+}

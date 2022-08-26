@@ -1,0 +1,55 @@
+{
+  "id": 4151131,
+  "key": "MM-T1341",
+  "name": "Invite Guests - Custom Message",
+  "createdOn": "2020-01-30T19:20:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581366,
+    "name": "Guests Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)", "Cloud (March 10)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In the \"Invite People\" field enter an email that's not already in the system</li><li>Select channels to add user to</li><li>Click \"Set a custom message\"</li><li>Enter a message in the text field that shows up</li><li>Click \"Invite Guests\"</li><li>Check your email inbox for the invite email</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The invite email contains the custom message</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.34 (April 2021)", "Cloud (March 10)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-33521\">Invite user by email is sending a blank email — MM-33521</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3daecfb7a814e8f68c7827f1cbc36e4d22e481308decf1c4f61a22e578cfe56a49e719ef7165359038b286b9e27b8241",
+  "stepsHashed": "9a49fcbc39bf42c7685c79bdaa45572c94b78da592e62ea2f9d11a1a1328a70b91590195924fe3a6b701d45117fc509b"
+}

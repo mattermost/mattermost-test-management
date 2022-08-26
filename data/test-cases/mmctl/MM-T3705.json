@@ -1,0 +1,55 @@
+{
+  "id": 8581264,
+  "key": "MM-T3705",
+  "name": "Command - List : specific team without permission",
+  "createdOn": "2021-01-14T10:42:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl command list [teams] [flags]",
+        "testData": null,
+        "expectedResult": "returns an error as you don't have correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6355c4c0fc462abfb70d2a36a0d6282eb7b53acc9c90f5ff6f2bc3d42fb29ab4b520f089cdedc764b04923eeb939e6d4",
+  "stepsHashed": "fc07da64bc71961d5309fbcedc7b0faee8c2007ab5b3c967e28223936c38c8e56822494e8ed8dd2f59f14496b496acaf"
+}

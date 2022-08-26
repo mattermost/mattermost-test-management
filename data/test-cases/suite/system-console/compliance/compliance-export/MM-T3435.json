@@ -1,0 +1,55 @@
+{
+  "id": 7570300,
+  "key": "MM-T3435",
+  "name": "Compliance Export - CSV: Includes attached files",
+  "createdOn": "2020-10-22T13:54:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable", "system-console"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": "N/A",
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. In server's config.json file, set DownloadExportResults config to true and restart the server. <br>2. Login as sysadmin and visit System Console &gt; Compliance Export page. <br>3. Configure the Export settings in CSV format and save. <br>4. Post few messages with attachments. <br>5. Run the Compliance Export and check if an option to Download files is provided. <br>6. Click on the Download link and check the contents of the exported zipped file. It should contain contents of the messages posted and also include file attachments&nbsp;",
+        "testData": null,
+        "expectedResult": "Download Compliance Export in CSV format should work fine and have all the contents in it.&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "202d722fd4199a36638e5a1eb83b3267793359d949bb609253a37c9577f54c68cf133736d6d63adbbf67588034c69b5b",
+  "stepsHashed": "b247e4bd480b46dd3a0e4d0544432d9656d37d58da3e44e53de1ff0e6605c372b7f868615edc733303dee6ce8a4a8c60"
+}

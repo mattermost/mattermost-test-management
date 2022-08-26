@@ -1,0 +1,55 @@
+{
+  "id": 6181530,
+  "key": "MM-T3099",
+  "name": "Auth tests; log in using OneLogin",
+  "createdOn": "2020-07-13T19:12:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Auth tests; log in using OneLogin<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />OneLogin on webapp and iOS and Android<br />mysql.test",
+        "testData": null,
+        "expectedResult": "Login is successful",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "00582edc2d93b249a030951905db220f0045b3521e3e67e5dbbf7e4968df931d3c4e8fc035e3f0dd1da0f5365cc7c93b",
+  "stepsHashed": "3a5b4db7dc8d6544f47ac0a44ad6107a6d8d5c170328db1eb565a7427537a269c9c289ee478cb42df025b8b69dbf454d"
+}

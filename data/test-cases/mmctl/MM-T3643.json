@@ -1,0 +1,55 @@
+{
+  "id": 8121769,
+  "key": "MM-T3643",
+  "name": "User - Create : email already verified (only with SysAdmin permissions or in local mode)",
+  "createdOn": "2020-12-07T11:29:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user create --email user@example.com --username userexample --password Password1 --system-admin --email-verified",
+        "testData": null,
+        "expectedResult": "Creates the specified user with email already verified",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ed2603069eaba48b95561845bb78bf0d0e52eac6e1a8849d23eee0b97c63f8b68e9ee593ed04c1abf510954a64242dfa",
+  "stepsHashed": "c92d6a2087f876e4620d61403c3b76f546b695c79ca6623788dd3977aac7388acdd518fa9122b308e1254b53cad2779d"
+}

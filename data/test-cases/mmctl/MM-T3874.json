@@ -1,0 +1,55 @@
+{
+  "id": 9412162,
+  "key": "MM-T3874",
+  "name": "Channel - Move : Private --force (with permissions, users in channel are NOT members of both teams)",
+  "createdOn": "2021-03-10T09:32:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Members of current team are not members of destination team but use --force command<br><br>mmctl channel move [destination team] [current team:private channel name] --force",
+        "testData": null,
+        "expectedResult": "the command should work, removing the users that are not in the destination team from the resulting channel <br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3154276805b6dc1049f44197ecaf5f9acc6a9dc96c08417d319c98a1789ec685ae4f25a013770eed104786c7ba4fdf4f",
+  "stepsHashed": "485dab5389bf9aa536ad276ef7284b7f65ecc3ca15fac76032ad596e2307177456ed5a640fce62b7c7b2d9d90fe02a5d"
+}

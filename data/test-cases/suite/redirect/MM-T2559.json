@@ -1,0 +1,55 @@
+{
+  "id": 5534955,
+  "key": "MM-T2559",
+  "name": "Change SSO to email/password",
+  "createdOn": "2020-05-27T17:37:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 738571,
+    "name": "Redirect",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Redirect"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Change SSO to email/password<br>————————————————————————————<br><a href=\"https://mattermost-webapp-pr-4234.test.mattermost.cloud/login?extra=signin_change\">https://mattermost-webapp-pr-4234.test.mattermost.cloud/login?extra=signin_change</a>",
+        "testData": null,
+        "expectedResult": "<ul><li>Sign-in method changed successfully` displays, can log in using email/password</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "71fa1305216304de52bd7904c23fc6fec7b84e0be97dc69044561fc27f02929e02a3014175a4c7e1ea261e1e42dbab88",
+  "stepsHashed": "661e33e528fa89b6061ecc48cc095c2f531b00f864ab3ef823b253e242da5677c176cdd80f4e24058514ef68fc73a117"
+}

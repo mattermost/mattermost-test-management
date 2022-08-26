@@ -1,0 +1,55 @@
+{
+  "id": 5601875,
+  "key": "MM-T2736",
+  "name": "user is added to channel because of newly linked group and channel syncable.",
+  "createdOn": "2020-06-01T20:47:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "user is added to channel because of newly linked group and channel syncable.<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. User already exists in group and Mm; group is not linked to any team or channel<br />2. Admin newly configures a group and links to a channel<br />3. User is not added to the team / channel immediately<br />4. Admin syncs AD/LDAP",
+        "testData": null,
+        "expectedResult": "User is added to the linked team / channel on sync",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "be806648088df0bb8ddc0d5c315ef972dd6f15c4131869048854942d387cb03b7259df55675efd573a01401f39ab3059",
+  "stepsHashed": "fae72f1df16540cb4f430b29d4e55da55545c29f03282bf211b2edebeb57107d1c45b07a34a75d6d5b1aa280bd72a377"
+}

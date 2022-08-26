@@ -1,0 +1,55 @@
+{
+  "id": 9444607,
+  "key": "MM-T3885",
+  "name": "Export - Job Show : No permissions",
+  "createdOn": "2021-03-12T10:16:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal account:<br><br>mmctl export job show [job_ID]",
+        "testData": null,
+        "expectedResult": "Command fails as you don't have the required permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "80a85e705645fd7b9518337ec154db44aa2d8f02496ab1373d46962a12e369e8875704a0c385fc8483b26fdda989aba5",
+  "stepsHashed": "968566dd26c8699a7d5bc25a6ece02d669c4e8364fdd18f1342b4d82f5a814fccd8252821516435955fd584a658f1ebd"
+}

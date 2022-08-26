@@ -1,0 +1,55 @@
+{
+  "id": 8645057,
+  "key": "MM-T3766",
+  "name": "User - Invite : user outside of accepted domain",
+  "createdOn": "2021-01-20T08:11:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user invite [email] [teams]",
+        "testData": null,
+        "expectedResult": "Returns an error as user's email is outside of accepted domain",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "745f33c0ebf33485ec81b7655933e493902c95ba0e0e7d44a2e3a8a4f96aa7562e6eb0a56e3784f11d6c086625c073fd",
+  "stepsHashed": "a5fabd0f59495f4f8446c71e4149928f8a3d63f33b627654efff3b6556bb355737605f0af09adee363f93051d5584dea"
+}

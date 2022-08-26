@@ -1,0 +1,55 @@
+{
+  "id": 5444819,
+  "key": "MM-T2217",
+  "name": "Emoji - punctuation emoji such as :P doesn't open autocomplete",
+  "createdOn": "2020-05-20T06:05:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji - punctuation emoji such as :P doesn't open autocomplete<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Type:<br />:p<br />2. Type: <br />:-D",
+        "testData": null,
+        "expectedResult": "The autocomplete list should not open in either case",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "376a03cd627d14ffd2e7d95e2cc7faa503727e646b20d2df6769ee42d9d3926c3b34fc62156cf6965e7efd4d36ff3b8e",
+  "stepsHashed": "af26fa246a8d9613fc9040f5166156518f70c933a86ea01670587e1d4b6a213bcc4e6536a8b98756cbf04fb5626386cd"
+}

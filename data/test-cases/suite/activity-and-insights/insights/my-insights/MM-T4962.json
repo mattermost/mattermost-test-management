@@ -1,0 +1,55 @@
+{
+  "id": 27071419,
+  "key": "MM-T4962",
+  "name": "Insights filters should persist when switching to channels and returning",
+  "createdOn": "2022-08-04T21:02:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login to MM<br />2. Go to <strong>insights</strong><br />5. Select <strong>T</strong><strong>oday / Last 7 days / Last 28 days </strong>from time range dropdown<br />6. Perform following steps and verify time range persist<br />6.1 Refresh the page<strong> </strong><br />6.2 Go to Town Square channel and come back to <strong>Insights</strong>",
+        "testData": null,
+        "expectedResult": "6. &lt;time-filter&gt; should be selected in time range dropdown",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "82229c6e5a3191c96e74c661fa22c7aef810f5d07cb0e249c991f7414b029281894c633077388310bc07204f0359683a",
+  "stepsHashed": "e79697061e19ca3f849f82b9f2a544729b4a608666e9bb2ce48799eaeee6b2009c7967e4e620fb268d123600f01586c8"
+}

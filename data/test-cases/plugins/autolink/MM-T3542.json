@@ -1,0 +1,55 @@
+{
+  "id": 8022807,
+  "key": "MM-T3542",
+  "name": "Mutiple mentions side by side",
+  "createdOn": "2020-11-26T20:33:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054381,
+    "name": "AutoLink",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post a username and then, immediately post a link that will get re-written by auto link.<br />See test data.<br /><br />",
+        "testData": "@dylan.haussermann https://github.com/mattermost/mattermost-webapp/pull/10355",
+        "expectedResult": "All links remain individual",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "651c28e65a534172b1dc57a82f11eae0f32529b6103d35c63f789c23d277425dddff22420d80c04126d4aff694b59622",
+  "stepsHashed": "d8ca2a72c7b220ac89447f83e36d39b3fadeb8286d628860acb2957962d66873cc88d2435e10ed1dad33261d5cf78acc"
+}

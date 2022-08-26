@@ -1,0 +1,55 @@
+{
+  "id": 7495268,
+  "key": "MM-T3220",
+  "name": "RN apps: No option to Add a Reaction on Saved Messages view",
+  "createdOn": "2020-10-15T22:44:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "No option to Add a Reaction on <strong>Saved Messages</strong> view<br>————————————————————————————<ol><li>With at least one post <strong>saved</strong>, tap 3-dot menu, then tap <strong>Saved Messages</strong></li><li>Long-press on a post in the list</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>There is no option to Add a Reaction</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f058fbfaa61b81a03698b86535cd2abb3d8dfccc98b7a3238859f401c9210f595e55afcc27e60c84e24ab3aac47af102",
+  "stepsHashed": "05e9c758750a8dc7b8c9b5ef212d53bc2c67863938425dcdee9ba05a9fd7fdec0a8d63f1846ef52bd16b0b154f43be90"
+}

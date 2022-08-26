@@ -1,0 +1,55 @@
+{
+  "id": 4035712,
+  "key": "MM-T843",
+  "name": "Not able to reply to a message from the RHS once removed from the channel",
+  "createdOn": "2020-01-18T01:00:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.10 (April 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Log in as two test users and navigate to the same channel for each user</li><li>UserA click on reply icon on a post to open the RHS</li><li>UserA leaves RHS open and navigates to another channel in the center panel</li><li>UserB removes UserA from the channel that is open in the RHS in 2)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>RHS should close if it's open to a thread from the channel they were just removed from</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14198\" rel=\"noopener noreferrer\" target=\"_blank\">Able to reply to a post from RHS after being removed from a channel — MM-14198</a>",
+          "Important notes about this step": "RHS will only close if the thread or pinned posts being viewed are for the channel the user was removed from. In all other instances the RHS should remain open."
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1b279674cf65bde882baf61459502a8c60e4bcba029b542257bd232d83bfc957c6ea82105a96efceae1234078a2f8ad1",
+  "stepsHashed": "3aef19cb151a7c320c3cf3db83b05a92ba92b2348b663eba30ae005c52582f9db13bc2bde0ff2299b3782ea075507b08"
+}

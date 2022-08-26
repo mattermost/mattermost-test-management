@@ -1,0 +1,55 @@
+{
+  "id": 3742309,
+  "key": "MM-T139",
+  "name": "RN apps: User can open Pinned Messages",
+  "createdOn": "2019-12-20T20:24:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Cloud"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: User can open Pinned Messages<br />--------------------<br />1. Open a channel and pin a couple messages<br />2. Open the channel menu and select Pinned Messages<br />3. Unpin a message from this Pinned Messages view<br />4. Open a different channel that has no pinned messages and open the Pinned Messages view",
+        "testData": null,
+        "expectedResult": "2. Pinned Messages are visible and appear from newest to oldest<br />3. Pinned message is removed<br />4. \"No Pinned messages yet\" is visible",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "12a94691ef483af1693424101f7482bc7459759b778d51544ca289f5e93c206dfb94dc6630606bae97a617052cbe706c",
+  "stepsHashed": "5d24bd97cb21ac23214e9078c2647e825f755a00010dcd718b3385ae986cb4d6a938caee83a90ab265eb45119e6c77d9"
+}

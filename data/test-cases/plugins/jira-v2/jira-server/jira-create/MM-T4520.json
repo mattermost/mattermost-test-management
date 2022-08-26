@@ -1,0 +1,55 @@
+{
+  "id": 17674320,
+  "key": "MM-T4520",
+  "name": "Create Modal Validation - Tab behavior",
+  "createdOn": "2022-01-18T22:43:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Select Create issue to open the create modal <br />2. Ensure that you can tab through all fields",
+        "testData": null,
+        "expectedResult": "No issues tabbing through fields",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "813a51cbfea7de96239fe0b40d704075647500f48fd184ccc6eefa252238e69ab7f7415119d9184c47a68b03e9a828c7",
+  "stepsHashed": "b9e52284a93caefa18590bdf37dbb71e8987c58e0f37c5239e126d05e980c99c48c953b1baad66f2e120d7faa2549dbe"
+}

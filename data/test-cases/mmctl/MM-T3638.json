@@ -1,0 +1,55 @@
+{
+  "id": 8120734,
+  "key": "MM-T3638",
+  "name": "Channel - Rename",
+  "createdOn": "2020-12-07T10:51:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel rename myteam:oldchannel --name 'new-channel' --display_name 'New Display Name'",
+        "testData": null,
+        "expectedResult": "renames the channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "720eb71c5f909e9210c478696fdde972d85c66827698505f98587d4455f6d748842edc1d7fd5b98c4157a636ce28d009",
+  "stepsHashed": "84915868bc0dfc0f746b4d6cd7d0bb2265acf3713c0ee609445475dd2fdb823aa5dcc0fe47ec255e39bc9094801fe44f"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5628057,
+  "key": "MM-T2834",
+  "name": "Slash command help stays visible for system slash command",
+  "createdOn": "2020-06-04T05:05:25Z",
+  "objective": null,
+  "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires an updated version of the Agenda plugin that supports slash command auto complete (for now deploying this PR <a href=\"https://github.com/mattermost/mattermost-plugin-agenda/pull/40\">https://github.com/mattermost/mattermost-plugin-agenda/pull/40</a>",
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Type \"/rename \" (with the space)</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1593715493530-2020-07-02_14-28-10.2020-07-02+14_43_29.gif\" style=\"width: 459px;\" class=\"fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>After typing the space character the relevant tip is still displayed &nbsp;</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "80f850ab739a8f2e3cf4d72e24550341569bde8538bbaa3bb3963b469d4aab1956162d94d9ee08ad9d17b8a6a2acbffd",
+  "stepsHashed": "c944b7f0a8e101ece984cb4bdc15a4e30750b36f904eaa735c558c64fc4eb2b7d183599617f98fe76cafbc50a6114352"
+}

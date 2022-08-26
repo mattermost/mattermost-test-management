@@ -1,0 +1,55 @@
+{
+  "id": 17862420,
+  "key": "MM-T4584",
+  "name": "Tag creation event",
+  "createdOn": "2022-01-26T22:35:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. From the GitLab UI, create a new tag",
+        "testData": null,
+        "expectedResult": "Event post is delivered to the channel including a link to the tag, project and creator",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d6d12593c533529aaa18134384cbb84a978bde1e53ac1f2100fa8c71a175e995f17ed681f2609c619baa70a924c6a130",
+  "stepsHashed": "5d024a858a269223b9894e4a3b3552fa9607fb6d273c0639911f96f66be4df909fa825287d432e9b3589f87ed01b4fd0"
+}

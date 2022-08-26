@@ -1,0 +1,55 @@
+{
+  "id": 3969605,
+  "key": "MM-T705",
+  "name": "Ephemeral message",
+  "createdOn": "2020-01-08T17:47:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, February 16, 2021 10:00 AM<br>• Cypress Automation working as expected 🎉<br>• Removed No Automated Executions label",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Ephemeral message<br />--------------------<br />1. Open Main Menu &gt; Integrations &gt; Slash Commands &gt; Add Slash Command<br />2. Enter URL: http://hidden-peak-21733.herokuapp.com/test_ephemeral<br />3. Enter Trigger Word: test-ephemeral<br />4. Add<br />5. Done<br />6. In a test channel, type &quot;/test-ephemeral&quot; and post",
+        "testData": null,
+        "expectedResult": "Returns a system message (grey text) from the &quot;webhook&quot; bot",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "05e04232fde8d4223d542bf6b843cfacddea0190a44c2a1002e5585bf18bc7c8be3318f09c53dd80b35094b19c1e6f92",
+  "stepsHashed": "16a564b8f1d616bde62200c344f48aafef9fee566e500e9ad181ccc8c40c6b21cdd72b8f1dc26c9e13250c3e02f96d4f"
+}

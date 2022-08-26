@@ -1,0 +1,61 @@
+{
+  "id": 4050751,
+  "key": "MM-T962",
+  "name": "Configuration - Enable Insecure Outgoing Connections",
+  "createdOn": "2020-01-21T19:55:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "Cloud-N/A",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Configuration - Enable Insecure Outgoing Connections<br>–––––––––––––––––––––––––",
+        "testData": null,
+        "expectedResult": "<ul><li>Enable Insecure Outgoing Connections: is present (moved from another page in v5.12)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "4c40a5072173ad04aa90cbdbd17f9c52f17657309ed651f4ff179c03f85a660ee1ad30bc674bfe55009039a390564b21",
+  "stepsHashed": "1489b9fdd5cdc0ea11252814554ebcd4a5083ae9958f23c6c3ba034978711f6aa744d34093181ed6d58f45989e201dce"
+}

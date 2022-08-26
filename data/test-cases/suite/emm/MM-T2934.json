@@ -1,0 +1,55 @@
+{
+  "id": 5873048,
+  "key": "MM-T2934",
+  "name": "RN apps: ANDROID ONLY - EMM Android inAppPinCode - Require pin code on device to access app",
+  "createdOn": "2020-06-18T20:47:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["android-only", "1.42-p123"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1019781,
+    "name": "EMM",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "EMM"],
+    "fullPath": "suite/emm"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to test using EMM on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile", "RN: Android"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "EMM"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Uninstall Mattermost<br />2. Install Test DPC: https://play.google.com/store/apps/details?id=com.afwsamples.testdpc&amp;hl=en<br />3. Tap Set Up Test DPC<br />4. Add Google Apps account (use your usual Mattermost one that you use in Play Store, authenticate as needed)<br />5. Tap the Play Store icon that has the briefcase badge<br />6. Search for Mattermost, install<br />7. Back out of Play Store<br />8. Tap the Test DPC icon that has the briefcase badge<br />9. Tap to Manage App Restrictions<br />10. Select Mattermost from the drop-down list of apps<br />11. Tap Load Manifest Restrictions<br />12. Tap pencil icon next to the restriction you want to edit <br />13. Delete `false` and type `true` (or whatever edit you need to make)<br />14. Save, then Save again<br />15. From the device's list of apps, find and tap the Mattermost icon that has a briefcase badge<br />16. Test whether the restriction is enforced",
+        "testData": null,
+        "expectedResult": "Expected: App requires you to set a pin code on device to access it",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "875576e87be2d6976bdfa9d86fdaa7f368af1d0b7f4d598cbfeff2145fbd8a1054c47fa26996b5fda2a60974f987c48e",
+  "stepsHashed": "45ffb88bd443142599f2b2a5699cfffad98e466d32203f7246c266a283bf535cfc6b45d98e7be5b595d2111c01af8527"
+}

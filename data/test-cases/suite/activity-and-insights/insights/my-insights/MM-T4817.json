@@ -1,0 +1,55 @@
+{
+  "id": 22888883,
+  "key": "MM-T4817",
+  "name": "insights - Verify licenses support",
+  "createdOn": "2022-05-24T19:55:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as Sysadmin</li><li>Go to System Console &gt; Edition and License</li><li>Add starter license </li><li>Go to Town square channel</li><li>Repeat step 2.</li><li>Add Professional License</li><li>Repeat step 4</li><li>Repeat 2.</li><li>Add Enterprise license</li><li>Repeat step 4.</li><li>Create Cloud instance and verify License support</li></ol>",
+        "testData": "",
+        "expectedResult": "4. Insights feature should not available in starter license.<br />7. Insights feature should be available in Professional license<br />10. Insights feature should be available in Enterprise license<br />11. Insights feature should be available in Cloud Enterprise and Professional license",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f83789baf4e50444a65dcc0b70025557ff8c327bc6b58868d95acd889a0db0fee172d86509b11065f144a4e513b62e71",
+  "stepsHashed": "86c2d192324283e4c061aaf9e0c59696c912d2f593b473ed91c24317a6679c9ccec1c6728207d42e2a5cd453a5b8511a"
+}

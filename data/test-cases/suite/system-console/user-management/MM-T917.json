@@ -1,0 +1,55 @@
+{
+  "id": 4049488,
+  "key": "MM-T917",
+  "name": "User on no team is returned with no-team filter and with no filter",
+  "createdOn": "2020-01-21T15:48:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["User-Management", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538610,
+    "name": "User Management",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "User Management"],
+    "fullPath": "suite/system-console/user-management"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click drop-down next to a user who is only on one team</li><li>Select Manage Teams</li><li>Click Remove From Team next to the team name</li><li>Observe team is removed from modal; close modal</li><li>Clear user search filters, observe user is listed</li><li>Click Team drop-down and select No Teams</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Team no longer listed in modal after removal</li><li>User is still returned in user search with and without no-team filter</li></ul><br>(Se also verifies that new system admin role is still reflected after not on any team)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "37e77c897c567c0fe878f3b9990d19dbd5e44e96848a4b31917af4a8cb94e2f63144d37f21fe8d392f5b6fd8eaf4e841",
+  "stepsHashed": "8aa48051c6bb7c75c7195f5a5dce6d13db29ddff67b071301ae9eaa5122b11ad01366e8a65e8b37b0268b7b44bce192b"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3905538,
+  "key": "MM-T515",
+  "name": "RN apps: Push NotificationsNo `@` before Nickname or Firstname/Lastname",
+  "createdOn": "2020-01-03T18:58:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In a browser, Account Settings ➜ Display ➜ Teammate Name Display = \"Show nickname if one exists, otherwise show first and last name\" OR \"Show first and last name\"</li><li>&nbsp;Also in a browser, Account Settings ➜ Notifications ➜ Mobile Push Notifications = \"For all activity\" AND \"Online, away or offline\"</li><li>In an incognito window, log in as another test user and post a message that will fire a push notification to your user from step 1</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Push notification is received showing message received from \"nickname\" or from \"firstname/lastname\"</li><li>There is no `@` before the nickname or firstname/lastname</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"HTTPS://MATTERMOST.ATLASSIAN.NET/BROWSE/MM-12795\">Remove \"@\" for full name display in push notifications — MM-12795</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d57b7451264ab4fc460384caf624bbe031eb1bda27babe798b4d482043afce9d8ba918be2fd6af2f8dbc21975bf4b3cd",
+  "stepsHashed": "cf8081226807217d46578c22d16a347d2841c1bff73ab8fa9e8f55e60a57da30dcc644594323e52f15009dc35f90f5bd"
+}

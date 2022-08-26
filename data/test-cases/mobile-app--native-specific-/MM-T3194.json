@@ -1,0 +1,55 @@
+{
+  "id": 6396870,
+  "key": "MM-T3194",
+  "name": "RN apps: Channel mute - mentions and unreads",
+  "createdOn": "2020-07-30T21:04:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel mute - mentions and unreads<br>————————————————————————————<ol><li>In a non-muted channel, have another user mention you in the channel, and verify you're receiving push notifications</li><li>Mute a channel, switch to viewing a different channel</li><li>Put the app in the background</li><li>Have another user mention you in the muted channel</li><li>Verify no push notification is received (manual verification, cannot be verified in detox)</li><li>View the app and open the channel drawer</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Push notifications NOT received for mentions in that channel</li><li>Mention badge still appears on the channel</li><li>Channel is in the Unreads section sorted to the top, but still appears in lighter typeface</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9330118185a6f2b90591a8d814afad80626aab653117979ed4bad8c6606360259819190e6f63f5cc721acef33927de6f",
+  "stepsHashed": "c5d069d69bd1776e1d010d02c27e726fe4e5b252e66599f7c22d9695b11cbb0fcd4493dfb6093cc9c9364bb3c308eec0"
+}

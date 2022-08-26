@@ -1,0 +1,55 @@
+{
+  "id": 15459866,
+  "key": "MM-T4284",
+  "name": "Adding a group",
+  "createdOn": "2021-10-14T11:43:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1841226,
+    "name": "Board View",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board View"],
+    "fullPath": "boards/board-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "Note:<br />With Cypress test for standalone server.",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Create an Empty Board (see MM-T4274)</li><li>Click on \"+Add a group\"</li><li>Select the \"New Group\" text and rename to \"Group 1\"</li></ol>",
+        "testData": null,
+        "expectedResult": "On step 2, a group titled \"New Group\" appears.<br />On step 3, group name updated to \"Group 1\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1cbd4640cccf7a2b178f59d8739e072705c2f8d5911ac2411cadbe4f150736ef432dea987730fe2f1a93a32d7d92375b",
+  "stepsHashed": "94ce3bcff1a017f81aff4bb80677b1a1334eb635c50ee6ffdb8e434a2bb86c6ce2f48fd5cc7d85a56bebe75e58c1b66b"
+}

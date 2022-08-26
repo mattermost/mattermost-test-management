@@ -1,0 +1,55 @@
+{
+  "id": 5445718,
+  "key": "MM-T2309",
+  "name": "Team Name: Try to save blank field",
+  "createdOn": "2020-05-20T06:56:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Name: Try to save blank field<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Team Settings -&gt; General &gt; Team Name -&gt; Edit<br />2. Clear Team Name field<br />3. Save",
+        "testData": null,
+        "expectedResult": "Error: &quot;This field is required&quot;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "79308ddfb358fbacafe4f5afacc8ae2a1baea482fc1acba966ca2100f62401037a5e7370d0a1bbae10de3c89475d0709",
+  "stepsHashed": "d65e749810fe4834bbe8677c506ffc4dce8470e187ca05b4e807664df7fff5b549c745ebddb563f92826664e02b30990"
+}

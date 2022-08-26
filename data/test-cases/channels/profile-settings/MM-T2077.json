@@ -1,0 +1,55 @@
+{
+  "id": 5444625,
+  "key": "MM-T2077",
+  "name": "Profile Picture: Non-image file shows error",
+  "createdOn": "2020-05-20T05:50:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Profile Picture<br />—————————————————————————<br />1. Find or create a text file<br />2. Rename file to have extension `.png` instead of `.txt`<br />3. Try to upload as profile pic",
+        "testData": null,
+        "expectedResult": "Error message \"Image limits check failed. Resolution is too high.\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bc6fc2e6a61e30aef4c13f05687fe3b199f96d55544421942bfabd47e69169f543602da73d0972266a60cad7cef06fdb",
+  "stepsHashed": "bee20fed391c066afb64005e550e7c6712eb742f3f7397666f27a52e9366e450fd0834ee64f6deee44ae5d11d668ee95"
+}

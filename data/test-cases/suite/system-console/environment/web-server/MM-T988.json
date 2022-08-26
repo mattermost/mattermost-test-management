@@ -1,0 +1,55 @@
+{
+  "id": 4050778,
+  "key": "MM-T988",
+  "name": "Subpath - Second subpath: Redirect to DM on login",
+  "createdOn": "2020-01-21T19:55:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Subpath - Second subpath: Redirect to DM on login<br />--------------------<br />- Copy the URL of a DM channel, log out, paste the URL and open. Log in, verify you are redirected to that channel",
+        "testData": "NEW 5.12<br />https://mattermost.atlassian.net/browse/MM-12958",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f84ee87c11f5b250725804ae5ccdd466ef44f9b5ba59c948caca8f926ada2f012dd5db2e9f8fb7e416320b37ccfbcf8c",
+  "stepsHashed": "ccdba0cc21bc85d6cfa88dfd59064ca25d4434d959753f6458da97e651b89b1805f6545da28d772a4f279c6995a8f7af"
+}

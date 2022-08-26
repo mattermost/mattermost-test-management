@@ -1,0 +1,55 @@
+{
+  "id": 4035754,
+  "key": "MM-T885",
+  "name": "Channel notifications: Desktop notifications",
+  "createdOn": "2020-01-18T01:00:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Settings &gt; Notifications &gt; Desktop notifications, select \"For all activity\", Save</li><li>View a channel, click Channel name drop-down &gt; Notification Preferences</li><li>Click Edit on \"Send Desktop Notifications\"</li><li>Select \"Only for mentions\" and click \"Save\"</li><li>Switch to viewing a different channel</li><li>Have another user post in the channel where you set the notification preferences (NO mention, and while you're not viewing the channel)</li><li>Observe there is no desktop notification</li><li>Have another user mention you in the channel where you set the notification preferences (while you're still not viewing the channel)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Desktop notification appears after the at-mention only</li><li>Ensure that mention badge is right-aligned in the channel list, so it appears along the right edge of the LHS (as opposed to directly following the channel name)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "<span style=\"color:rgb(184, 49, 47)\">Make sure one window isn't in Incognito because you may not receive the desktop notification based on the settings.</span>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ca94cee8058c94497ca6980ee2534079b010c1001dbbdde4c54d38ea0015b3425078bc98e63b71b6fd69cc205b4cf1e8",
+  "stepsHashed": "c05e9c14a3a5f51e9c7e3d1fa5d09de6c0d4738e28eba3238c1b097345dfbc6eaf3ae84b94d6b08f85c071a4ec14ad94"
+}

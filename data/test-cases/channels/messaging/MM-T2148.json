@@ -1,0 +1,55 @@
+{
+  "id": 5444748,
+  "key": "MM-T2148",
+  "name": "Remove all text from a post that does not have an attachment\n\nManual test covers center channel. This test covers RHS",
+  "createdOn": "2020-05-20T06:05:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove all text from a post that does not have an attachment<br /><br />Manual test covers center channel. This test covers RHS<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Manual test covers center channel. This test covers RHS:<br /><br />1. Post a reply with text but no attachment<br />2. In RHS, edit, remove all text, save<br />3. Observe modal confirming delete<br />4. *Press Enter* (don't click Save)",
+        "testData": null,
+        "expectedResult": "Message is deleted, focus is in reply box (not center channel)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d1f909e7b4692485516b87fa2643b4ffff4e607c31cec1472108352792f744a0478069074ab8bd3ca57bb6fa077b4a4",
+  "stepsHashed": "9defae1d539a66964522a32f677ed0180046b9d8eddd3ab3bfe0d1d5f17866f98969ddc6d245189f26018cf6e7aa6f8d"
+}

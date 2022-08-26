@@ -1,0 +1,49 @@
+{
+  "id": 29000551,
+  "key": "MM-T5098",
+  "name": "Notify Admin V2 | Verify that Telemetry Actions are tracked when User is making upgrade requests",
+  "createdOn": "2022-08-21T15:14:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as user (or with multiple user logins), make the following CTA requests<ul><li>View plans</li><li>Activate an Enterprise trial now.</li></ul><br />2. Verify the Information of CTA made is tracked with below context<ul><li><p>where in the product end users click “Notify admin” per workspace</p></li><li><p> able to report that the admin reached the pricing modal through the CTA in the system bot message</p></li><li><p>how many times the CTA in the message has been clicked as well as timestamps</p></li></ul>",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "https://mattermost.atlassian.net/browse/MM-45564",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "013034db74c1ae0a4750f495f088fc522427adab05d432a509cc1261dacf5d9571f085ee34a3ea093f6957d0722ed840",
+  "stepsHashed": "36d108b7ee440c700d1aacf7257ae876a95cf2215d13881a2abd64761fdfaf3d1a33e0467e20d6ca8399ba0bbd25b905"
+}

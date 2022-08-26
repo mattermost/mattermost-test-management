@@ -1,0 +1,55 @@
+{
+  "id": 27529325,
+  "key": "MM-T4973",
+  "name": "LHS - Favorites",
+  "createdOn": "2022-08-10T18:34:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1423405,
+    "name": "Playbooks",
+    "parentId": null,
+    "fullNames": ["Playbooks"],
+    "fullPath": "playbooks"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a playbook or run.<br />2. Click the star at the top left of the open playbook/run.<br />3. Verify that it's moved to a `Favorites` category in the LHS.",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bda3e83f74dc08f64169f7dcfd1c5f861e07f61edf58badbbf80e120811271459f0d5439d7c287b6b97c19e6fe2e1e3b",
+  "stepsHashed": "3f8a36057550e83985699547281a827fc59124c164e16df93e9f44c7e15fda6d27cb44df3b80ed876b898c3b5ba596fb"
+}

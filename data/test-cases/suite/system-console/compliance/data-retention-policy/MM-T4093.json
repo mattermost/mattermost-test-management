@@ -1,0 +1,55 @@
+{
+  "id": 11708688,
+  "key": "MM-T4093",
+  "name": "Assign Global Policy = 10 Days & Custom Policy = None to channel",
+  "createdOn": "2021-06-23T21:23:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Feature flag CustomDataRetentionEnabled = true.<br />2. Restart server<br />3. Login as System Admin<br />4. Create <strong>Team-A </strong>&gt; <strong>Channel-A</strong> and<strong> Channel-B</strong><br />5. Go to System Console &gt; Data Retention Policies<br />6. Set 10 days to Global Policy<br />7. Go to <strong>Channel-A</strong> and Post 7 days old messages (use API)</span><br /><span>8. Go to<strong> Channel-B </strong>and Post 12 days old messages (use API)<br />9. Go to System Console &gt; Data Retention Policy<br />10. Click Run Deletion Job Now</span>",
+        "testData": null,
+        "expectedResult": "<em></em>10.1 Job competed successfully<br />10.2 In <strong>Team-A</strong> &gt;<strong> Channel-A,</strong> 7 days old posts should NOT be deleted<br />10.3. <strong>Team-A</strong> &gt; <strong>Channel-B</strong>, 12 days old posts should  be deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dd6f03456c55f83349350869d719715f6fcd3fd230f35631b5e32e0ca1d55c5c1015b0fd5d7d34607d3059a067b8c74e",
+  "stepsHashed": "57d1f087abad057d5286cfba34377b4fd439736aef68ccfca3e698b3d6b53d8d289193fd183c987eda9b47a0a0c315f9"
+}

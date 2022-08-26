@@ -1,0 +1,82 @@
+{
+  "id": 6710910,
+  "key": "MM-T3320",
+  "name": "Verified Create, attach and subscribe UI when additional instances are installed but not connected",
+  "createdOn": "2020-08-21T13:55:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 888624,
+    "name": "Jira V3",
+    "parentId": 888610,
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Jira"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3321" } },
+    {
+      "inline": {
+        "description": "1. Ensure your test user is only connected to 1 instance of jira<br>2. Click the ... menu on a Mattermost post<br>3. Select the Create Jira Issue option",
+        "testData": null,
+        "expectedResult": "When the modal opens, no instance drop down is visible&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Ensure your test user is only connected to 1 instance of jira<br>2. Click the ... menu on a Mattermost post<br>3. Select the Attach to Jira Issue option",
+        "testData": null,
+        "expectedResult": "When the modal opens, no instance drop down is visible ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Login as a System Admin<br>2. Ensure your test user is only connected to 1 instance of jira<br>3. Type /jira instance subscribe edit to open the subscription modal<br>4. Click Add Subscription",
+        "testData": null,
+        "expectedResult": "The subscription creation page does not show the instance select drop down&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0545465fbb8c624dd7c5ec8d2862193ec7c5bf8063f2d0f3c1fda0e74f0e2ace21e77644176cc24adacbdafa562f07a2",
+  "stepsHashed": "5160d0e87828a9adb55b160844763e12a3fb416bb6c2cd2c6532232a8dfa97eaeb1cac7c3a14d240e6ef60f66235c6a9"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 15984279,
+  "key": "MM-T4335",
+  "name": "/bitbucket todo",
+  "createdOn": "2021-11-04T17:34:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1914726,
+    "name": "General",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "General"],
+    "fullPath": "plugins/bitbucket/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/bitbucket todo&quot;",
+        "testData": null,
+        "expectedResult": "Posts an ephemeral message with a list of to do items to work on  <br />(Only for the organization the plugin is locked to if locked)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "06e8b19edf942afd5d2985635a35d009857918a8e75a3ea8f24140dbc2fe12dc904668d8e8278f046c7cb8d18f623e19",
+  "stepsHashed": "b3da0c11ef9f0c551bae3b62015137c661552b359c28f4d14a30682f4b7f9006c638d09d38bcdec3976ad9ac92dd069a"
+}

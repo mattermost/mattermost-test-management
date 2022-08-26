@@ -1,0 +1,55 @@
+{
+  "id": 7561788,
+  "key": "MM-T3433",
+  "name": "Portal - Company Information",
+  "createdOn": "2020-10-21T22:02:42Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Verify overall functionality and appearance of Company Information page</li><li>Rename the Company name to something very long (e.g., TheGreatBigCompanyNameThatSeemsToGoOnForeverAndEverAsIfItWillNeverEnd)</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604964496005-1604964496005.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">",
+        "expectedResult": "<ul><li>Company Name field</li><li>Company Address<ul><li>Toggling \"Same as billing address\" checkbox &nbsp;reveals &amp; hides billing address vs. fields to fill in different address<ul><li>Country dropdown</li><li>Two address fields</li><li>City</li><li>State dropdown</li><li>Zip/Postal code</li><li>Update &amp; cancel buttons</li></ul></li></ul></li><li>After 2, the name is truncated and does not wrap to a new line at the top of the screen</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-29618\">Excessively long company names break workspace URL UI — MM-29618</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-29674\">Excessively long company names run across entire subscriptions page and wrap to a new line — MM-29674</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3c48776601452319cc83ad3143598cf23726c07a2c82a9e9d6579783988856ea85fcb5091c757a14ef795767f9cc152c",
+  "stepsHashed": "1c70ac979b2a154c454c4cc084ad580317e322bf88f19a3bc07b6a4d902456347b08122bb08091d25b8683d609d8f88d"
+}

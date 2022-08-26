@@ -1,0 +1,55 @@
+{
+  "id": 6181483,
+  "key": "MM-T3054",
+  "name": "Create private channel from `+`",
+  "createdOn": "2020-07-13T19:12:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Create private channel from `+`<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Click + icon next to PRIVATE CHANNELS<br />2. Type channel name `Private`<br />3. Leave header and purpose blank<br />4. Save",
+        "testData": null,
+        "expectedResult": "1. Channel is created and displays, with focus in message box in center<br />2. Can post message in new channel",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ff891c628bbb410000773767e20d369d37482970f6b7c4cc829325d99b7747cea849cb7da3ce5f9c8b08601e837a657b",
+  "stepsHashed": "55f2a13e8aa9df0e4c3d9b1edf668f5a9c7bf82f72515af4cde8b5555ee2fe0a07ac32fc8e7962847f55d8187dd0cde9"
+}

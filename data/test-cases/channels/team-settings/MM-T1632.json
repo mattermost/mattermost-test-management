@@ -1,0 +1,133 @@
+{
+  "id": 4953100,
+  "key": "MM-T1632",
+  "name": "Re-order team icons on the team sidebar",
+  "createdOn": "2020-03-31T21:40:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log into a server where user belongs to multiple team<br><br>",
+        "testData": null,
+        "expectedResult": "1. Cursor changes to grabbing cursor, user can re-order team icons in the team sidebar by dragging and dropping&nbsp;",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18527\">Drag and Drop to reorder team sidebar — MM-18527</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-23441\">WebApp: Drag handle should transition out of view when dragging to reorder teams — MM-23441</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-23638\">WebApp: Team switcher shortcut conflicts with Safari's \"navigate-to-favorite\" shortcuts — MM-23638</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on a team and drag and drop it to a different position",
+        "testData": null,
+        "expectedResult": "<ul><li>Selected state bar transitions to hover handle and out of the view on drag, reappears when drag is released &nbsp; &nbsp;</li><li>Secondary team icons do not move until the icon being moved crosses it's midpoint&nbsp;</li><li>At this time, the drag is not contained with the vertical axis (acceptable)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify teams with unread posts display an unread dot (top right corner)&nbsp;",
+        "testData": null,
+        "expectedResult": "3. Unread notification dot is present on the team with unreads, remains visible on hover",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "&nbsp;Try to drag the Other teams you can join `+` icon",
+        "testData": null,
+        "expectedResult": "Verify it's stationary, and can't be moved",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "5. Add new team",
+        "testData": null,
+        "expectedResult": "<ul><li>New teams are added above the + icon</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Verify keyboard shortcut will change based on the new position",
+        "testData": "Switch to a specific team:&nbsp; ⌘⌥[1-9]",
+        "expectedResult": "<p data-pm-slice=\"1 3 []\"><br></p><ul><li>if Team 1 was dragged to position 2, then Team 2 now becomes Team 1 and Team 1 becomes Team 2 in terms of keyboard shortcuts.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Use cmd+alt(option)+# or cmd+alt(option)+ ˄˅ arrow to switch teams",
+        "testData": null,
+        "expectedResult": "Able to use Keyboard shortcuts to switch the teams",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2126192139f43d9f7f5e607715c92ef190fb73dcf2918b093d54eefd500091af43d69a1bece91d9ec9e2bcaffbbbab31",
+  "stepsHashed": "c72268070524b804eba7fed2ab4201517b3b7eb8a4fa23a84d97563de8379d893f31587d9dce26c556a37e7e50226a2b"
+}

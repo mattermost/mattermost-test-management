@@ -1,0 +1,55 @@
+{
+  "id": 17671988,
+  "key": "MM-T4490",
+  "name": "Jira assign - Partial match returns only one result",
+  "createdOn": "2022-01-18T18:36:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733540,
+    "name": "Jira assign",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira assign"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-assign"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type &quot;/jira assign &lt; Jira issue key &gt; &lt; jira user &gt;&quot; where you provide only part of the username, first name or last name but, the criteria only matches one possible assignee",
+        "testData": null,
+        "expectedResult": "An ephemeral post shows a list of potential assignees that match your username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "09fe976c65d29a73a1cfe74754fe9cc080938e1ae40e6c15efbefe55cbcea220727696fc3b52bc0a3c0edb1c5a6a3a42",
+  "stepsHashed": "5a7c9a752c1ffcd459099764f3fe165e48b1e09811ab37c2eecf76de5b0abdd318bf9a0f71cf12b5ae36d784a59638b6"
+}

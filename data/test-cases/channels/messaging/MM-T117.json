@@ -1,0 +1,55 @@
+{
+  "id": 3742284,
+  "key": "MM-T117",
+  "name": "RN apps: Delete reply in reply thread view",
+  "createdOn": "2019-12-20T20:19:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mobile apps: Delete reply in reply thread view<br />--------------------<br />1. Post a message<br />2. Reply to that message<br />3. From that view, long press the reply and select Delete<br />4. Tap to confirm delete",
+        "testData": null,
+        "expectedResult": "Reply disappears, parent post is still there, still viewing reply thread",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e6253a126a096a61ead99c58311c1192cd2f4926824be7aebfe8abf1654981a79ba389db32f0e418b67b4201f7340a6a",
+  "stepsHashed": "909d6c4ac69f9b3dc3dccff714ca4caec869ca68b7f56635fba4fb34b09709e0f7145d21ea108036efb36fb4322d8b10"
+}

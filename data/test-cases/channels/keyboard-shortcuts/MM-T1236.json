@@ -1,0 +1,55 @@
+{
+  "id": 4064359,
+  "key": "MM-T1236",
+  "name": "Arrow up key - Edit modal open up for own message of a user",
+  "createdOn": "2020-01-23T13:38:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "UP - Other user posts, first user presses UP, edit modal opens for first user's message (not other user's message)<br />--------------------<br /><br />1. Let the test user visit a channel and post a first message<br />2. Have another user post a second message in the channel.<br />2. Test user press arrow up key",
+        "testData": null,
+        "expectedResult": "Edit modal open up for the test user's message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2a9eea202017db5556daa7b50edec09c96388112820fab45c5b8c8659ea24c54d27ba585a9aaff930822f79da74d5bf1",
+  "stepsHashed": "4864786076a5b26d5be9b9b181b1ccca8df7d164d84f7878f62ca6233eaadbc96a9c6e0f5bcfddfb6f8f253f442cc364"
+}

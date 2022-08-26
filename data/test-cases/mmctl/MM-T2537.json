@@ -1,0 +1,55 @@
+{
+  "id": 5530152,
+  "key": "MM-T2537",
+  "name": "Team - Archive",
+  "createdOn": "2020-05-27T13:10:27Z",
+  "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Include in monthly smoke-test</span></h1>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Run \"mmctl team archive teamname --confirm\"",
+        "testData": null,
+        "expectedResult": "You will get feedback saying \"archived team teamname\" (using the --confirm flag eliminates the confirmation questions)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "585849c9ba823acf380e6fa4f0b39ec58bdc01e19bf57af767fef3ba4a7a09fbfe44731e46969bb7ec96330b0806328d",
+  "stepsHashed": "4ac66e223406be5d32f27664515a8e46ae357123abdec9cf48d20fb24a75bb21157916dd40edf7e7d6e68adcef429a1f"
+}

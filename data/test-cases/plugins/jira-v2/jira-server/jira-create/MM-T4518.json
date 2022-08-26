@@ -1,0 +1,55 @@
+{
+  "id": 17674318,
+  "key": "MM-T4518",
+  "name": "Issue description can be edited before you save",
+  "createdOn": "2022-01-18T22:43:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Ensure the test user is connected to Jira<br />2. Select the post menu<br />3. Click the Create Jira Issue option <br />4. Note that the post contents is in the description of the jira issue<br />5. Move the focus to the description and edit the text<br />6. Provide all other mandatory fields and create the issue<br />7. Open the issue form the link posted by Jira",
+        "testData": null,
+        "expectedResult": "On 3. Create modal opens<br />On 7. Note the modified description was saved in the Jira task",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c2dab365f051fd913501fe3c154f9b81bd958f51fbf15ea082ef2dcdfcb3cc787fd1668ca12ccffb2b36a646864c7cf0",
+  "stepsHashed": "5c02474f372d0e235a9fc9e5fdcdfc63a81b0fd2e66e1c1afbcac680db61a48297fdbe35c5ce92a5f0f089d64f0ac15c"
+}

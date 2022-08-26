@@ -1,0 +1,55 @@
+{
+  "id": 15984469,
+  "key": "MM-T4360",
+  "name": "Sidebar - Pull requests requiring your review",
+  "createdOn": "2021-11-04T17:56:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to bitbucket <br />2. Click the Reviews Icon from the RHS or team sidebar",
+        "testData": null,
+        "expectedResult": "- PR Title <br />- PR Creator<br />- Repository<br />- PR number<br />- Checks Passes (green check or red x)<br />- Milestone version - if applicable<br />- Time the PR has been open - in the case of PR lists<br />- Review complete (3 out of 4 reviews complete.)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1f80b619569154ba5e6558fae273d751a738a4f8cf72f41c58c4df5b8a71ed902efeee303da45d8c5a7cd83b2e9444a1",
+  "stepsHashed": "6cbb3e6d076b1b34472e53ef6dfce49429eaa6a6a57bf429e9b1bc4603476d7515609eddbc2cecd55c9c3c13fc29c173"
+}

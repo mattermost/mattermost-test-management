@@ -1,0 +1,55 @@
+{
+  "id": 4712175,
+  "key": "MM-T1544",
+  "name": "Post Reactions option for Members",
+  "createdOn": "2020-03-03T12:43:36Z",
+  "objective": "Post Reactions option for Members",
+  "precondition": "None",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "enterprise"],
+  "component": { "id": 14314, "name": "System Console" },
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 635686,
+    "name": "Channel Moderation Settings",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.22 (April 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as sysadmin and visit the Channels page and click on a channel.</li><li>Uncheck the Post Reactions option for Members and save.</li><li>Note: The option to react posts for Guests should still be allowed.</li><li>Login as a Regular Member and visit the same channel.</li><li>Check if the user has the permission to react to their posts or to any other posts in the channel.</li><li>As a sysadmin, check the option to allow Post Reactions for Members and save.</li><li>Check if the user has the permission to react to their posts or to any other posts in the channel.</li></ol>",
+        "testData": null,
+        "expectedResult": "After #5,<br><ul><li>Member user should not have the permission to react to any post on a channel when the option is removed.</li></ul>After #7,<br><ul><li>Member user should have the permission to react to any post on a channel when the option is allowed.</li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["v5.22 (April 2020)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(147, 101, 184);\">Epic</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11670\">Channel Moderation Settings — MM-11670</a></li><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"http://mmthttps%3A//mattermost.atlassian.net/browse/MM-23102\">Add E2E tests + Unit tests for Channel Moderation Widget — MM-23102</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b349b637be845fe65ee3fa3ed96efa3f2294d6f7def5d602a9def09c2f2baa140f2be06a3e54100ab72d6274161e7e48",
+  "stepsHashed": "1889eb90a74af8cce48ce3295bdb5a451353ad801563a7dce5cb4ef20af30123510bca67662725bb464a39074bc0fa8d"
+}

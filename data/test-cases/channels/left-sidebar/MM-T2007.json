@@ -1,0 +1,81 @@
+{
+  "id": 5294779,
+  "key": "MM-T2007",
+  "name": "Reload while categories are in manually collapsed/expanded state",
+  "createdOn": "2020-05-06T05:05:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Collapse all categories by clicking on each category collapse/expand chevron",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Reload page",
+        "testData": null,
+        "expectedResult": "Verify all the categories collapsed in step 1 remain collapsed",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Collapse some categories, not all and refresh the app using cmd+R",
+        "testData": null,
+        "expectedResult": "App refreshes, category states are preserved&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8838e49779c91e44e317392dd0e31d54fc4652382eb46a189be0d55dc6069f2af5b20a450d709fb898c58246fac444e8",
+  "stepsHashed": "cfe42f30780583baac3e8673aba62d0f1a1d8689234d3837bfce739f794cc40116fd4fa1fb9476284cc778047a920a0f"
+}

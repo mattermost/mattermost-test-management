@@ -1,0 +1,55 @@
+{
+  "id": 7861530,
+  "key": "MM-T3488",
+  "name": "Mute categories > Category mutes/unmutes properly",
+  "createdOn": "2020-11-13T17:32:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.31 (January 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Available in v.5.31",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Category headers should be muted and unmuted correctly<br>________________<ol style=\"list-style-type: lower-alpha;\"><li>Verify that the Channels category and its channels start unmuted</li></ol><ol><li>Mute Channels category<ol style=\"list-style-type: lower-alpha;\"><li>Verify that the category has been muted and all the channels within the category</li></ol></li><li>Unmute the category<ol style=\"list-style-type: lower-alpha;\"><li>Verify that the category is no longer muted</li></ol></li></ol><br><br>",
+        "testData": null,
+        "expectedResult": "Category header and channels within the category are muted / unmuted properly&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f43b201f5bd4286353e310390fec70f89c2a8f281bcee7c80a433c467d3334d6f24c169825e34e0bd1740a7249129d7a",
+  "stepsHashed": "959dcc87d50c00168e7392618bbe0dcb77863a85096b5db487fb646bfcb859bfa56e81df644a16e25e4955e9bf67d305"
+}

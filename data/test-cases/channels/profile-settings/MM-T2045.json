@@ -1,0 +1,55 @@
+{
+  "id": 5444592,
+  "key": "MM-T2045",
+  "name": "Full Name - Link in help text",
+  "createdOn": "2020-05-20T05:50:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "account-settings", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Full Name - Link in help text<br />———————————————<br />1. Go to User Menu &gt; Profile &gt; Profile Settings &gt; Full Name &gt; Edit<br />2. Click \"Notifications\" link in help text",
+        "testData": null,
+        "expectedResult": "1. Should switch to \"Profile\" modal.<br />2. View switches to notifications tab.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a457c0258e55a699cfd7c6e7a6401777a33e826e1b7d2ccccfd4a8970a0138b258a53ffa17bff144c3ef8fc03678d0d5",
+  "stepsHashed": "41d34160bc445945717ce333f31587203e5ecb19a220ecf9e46622de2afcd5049c4ba6db35a515fbc8a132f039a93fcd"
+}

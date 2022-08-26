@@ -1,0 +1,55 @@
+{
+  "id": 3742342,
+  "key": "MM-T156",
+  "name": "Emoji picker search should ignore leading colon",
+  "createdOn": "2019-12-20T20:33:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1465976,
+    "name": "Emoji picker",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Emoji picker"],
+    "fullPath": "channels/emoji-picker"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji picker search should ignore leading colon<br />--------------------<br />1. Make a test post in any channel<br />2. Webapp: click on the emoji picker icon to add a reaction to the post and type &quot;:ta&quot; in the search box<br />2a. RN apps: long press on the post, select &quot;add reaction&quot; and type &quot;:ta&quot; in the search box",
+        "testData": "NEW v5.16 / 1.24 https://mattermost.atlassian.net/browse/MM-14018",
+        "expectedResult": "On both webapp and RN apps, the leading colon should be ignored and emoji starting with or containing &quot;ta&quot; should be returned",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-27521\">https://mattermost.atlassian.net/browse/MM-27521</a> ",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a59bf6c0a1889ea0400bfc1d419af96bb03ad169e2e384bfb4e85df0a80740d25e9f36c390341bbb58634ac44b7c9c68",
+  "stepsHashed": "442fa42ee7d4147558153f9ea6aa4361b3ca980c2d9560dd548c94f9af0ed6b97722b82d63bebf206e543a1cff5ded4f"
+}

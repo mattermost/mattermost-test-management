@@ -1,0 +1,68 @@
+{
+  "id": 6690490,
+  "key": "MM-T3317",
+  "name": "RN apps: User is prompted alert when removed from channel while on it",
+  "createdOn": "2020-08-19T17:29:39Z",
+  "objective": "",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.35 Mobile (September 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": "N/A",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Channel Moderation"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "User is prompted alert when removed from channel while on it<br>--------------------------------------------------------------<br>1. As User A, create a channel and add User B<br>2. As User B, login to mobile app and go to channel created by User A<br>3. While User B is on the channel, User A removes User B (Channel dropdown &gt; Manage Members &gt; Remove from Channel)<br>4. User B taps on Ok button from prompt",
+        "testData": null,
+        "expectedResult": "After #3,<br>- User B is redirected to default channel and prompted with<br><strong>Removed from &lt;channel&gt;<br>You were removed from the channel.</strong><br><br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1597858126243-IMG_0257.PNG\" style=\"width: 300px;\" class=\"fr-fil fr-dib\">After #4,<br>- Default channel is displayed",
+        "customFields": {
+          "Fix Versions": ["v1.35 Mobile (September 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-12526\">https://mattermost.atlassian.net/browse/MM-12526</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "User is NOT prompted alert when removed from channel while NOT on it<br>--------------------------------------------------------------<br>1. As User A, create a channel 1 and add User B<br>2. As User B, login to mobile app and go to channel 2 different from what User A created<br>3. While User B is on a different channel 2, User A removes User B from channel 1 (Channel dropdwon &gt; Manage Members &gt; Remove from Channel)",
+        "testData": null,
+        "expectedResult": "After #3,<br>- User B is not prompted alert from being removed from channel 1",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c31de916143f73a28b044c6efa0f3cb805fbaa643c42ce2c7b527914013f83da70073609b0cc6b710b70cbb4c584a8a2",
+  "stepsHashed": "fe5f78d99eb1aaaa33d9a32e8af77c47866b02b1dc03967d4e620eeb95ccef5a2cefe65b6893eefa7eacbcd46fb790c6"
+}

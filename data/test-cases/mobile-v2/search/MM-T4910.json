@@ -1,0 +1,107 @@
+{
+  "id": 25645333,
+  "key": "MM-T4910",
+  "name": "Mobile V2: Search - Saved Messages",
+  "createdOn": "2022-07-07T22:40:36Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br /><br />For each test step:<br />1. Verify on channel list screen",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3050574,
+    "name": "Search",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Search"],
+    "fullPath": "mobile-v2/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should match elements on saved messages screen</strong><br />--------------------<br />1. Open saved messages screen<br />2. Verify basic elements on saved messages screen:<br />- large header title: <strong>Saved Messages</strong><br />- large header subtitle: <strong>All messages you've saved for follow up</strong><br />- empty state title: <strong>No saved messages yet</strong><br />- empty state paragraph: <strong>To save something for later, long-press on a message and choose Save from the menu. Saved messages are only visible to you.</strong><br />3. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to display a saved message in saved messages screen and navigate to message channel</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, and tap on save option<br />2. Verify saved text is displayed on the post pre-header<br />3. Go back to channel list screen and open saved messages screen<br />4. Verify on saved messages screen and saved message is displayed with channel info<br />5. Tap on post and jump to recent messages<br />6. Verify on channel screen and saved message is displayed<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to edit, reply to, and delete a saved message from saved messages screen</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, tap on save option, go back to channel list screen, and open saved messages screen<br />2. Verify on saved messages screen<br />3. Open post options for saved message and tap on edit option<br />4. Verify on edit post screen<br />5. Edit post message and tap save button<br />6. Verify post message is updated and displays edited indicator '(edited)'<br />7. Open post options for saved message and tap on reply option<br />8. Verify on thread screen<br />9. Post a reply<br />10. Verify reply is posted<br />11. Go back to saved messages screen<br />12. Verify reply count and following button<br />13. Open post options for updated saved message and delete post<br />14. Verify updated saved message is deleted<br />15. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to unsave a message from saved messages screen</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, tap on save option, go back to channel list screen, and open saved messages screen<br />2. Verify on saved messages screen<br />3. Verify saved message is not displayed anymore<br />4. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to pin/unpin a saved message from saved messages screen</strong><br />--------------------<br />1. Open a channel screen, post a message, open post options for message, tap on save option, go back to channel list screen, and open saved messages screen<br />2. Verify on saved messages screen<br />3. Open post options for saved message, tap on pin to channel option, go back to channel list screen, open the channel screen where saved message is posted, open channel info screen, and open pinned messages screen<br />4. Verify saved message is displayed on pinned messages screen<br />5. Go back to saved messages screen, open post options for saved message, tap on unpin from channel option, go back to channel list screen, open the channel screen where saved message is posted, open channel info screen, and open pinned messages screen<br />6. Verify saved message is not displayed anymore on pinned messages screen<br />7. Go back to channel list screen",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e3bf346e803d2db2f8a9d5893903f8de71c6b5da7fa07855ca4e51f72412583197f61481dd76e00d1244a5882b7aa401",
+  "stepsHashed": "e0560600ceb785ba41be3f1e76bb5a137abe3369ca50486d5f4ae230dde4307ce17bc48191f4bac9bcd9aa265876d647"
+}

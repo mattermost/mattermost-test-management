@@ -1,0 +1,55 @@
+{
+  "id": 7197075,
+  "key": "MM-T3384",
+  "name": "`mmctl` can set int64 config values",
+  "createdOn": "2020-09-29T09:26:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Run the following command and note the value output \"mmctl config get FileSettings.MaxFileSize\"<br>2. Run the following command to change the value \"mmctl config set FileSettings.MaxFileSize 104857600\"<br>3. Run \"mmctl config get FileSettings.MaxFileSize\" again to check the new value",
+        "testData": null,
+        "expectedResult": "After 2) the command should exit correctly<br>After 3) the value returned should be the one set in step 2). ",
+        "customFields": {
+          "Fix Versions": ["v5.28 (October 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-28421\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-28421</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6f947c3671cd1205a40586c2642a2e2d0339699ba65cb7726110551269c258fd9afca8bb40a6bf1662d52113731f1718",
+  "stepsHashed": "2f6c6a8d08ca4f7cc62b1a8cd499703708a287bbb231f9ba03b644893dc595d68b1c5d2dcd611f7f7557f4c5fa582d0b"
+}

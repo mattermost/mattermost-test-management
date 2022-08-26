@@ -1,0 +1,55 @@
+{
+  "id": 19703649,
+  "key": "MM-T4708",
+  "name": "MS Teams warns you when another meeting was created within the past 30 seconds",
+  "createdOn": "2022-03-23T16:18:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2382037,
+    "name": "General Functionality",
+    "parentId": 2382033,
+    "fullNames": ["Plugins", "MS Teams Calling", "General Functionality"],
+    "fullPath": "plugins/ms-teams-calling/general-functionality"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open 2 mattermost session with users<br />2. As test user 1 start a MS Teams meeting<br />3. As test user 2 start a MS Teams meeting in the same channel",
+        "testData": null,
+        "expectedResult": "For user 2 - The post created by MS Teams warns you that a Teams meeting was recently started and gives you the option to Create and Join",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d1862239602e364b22536016c2076b2563bc0dcc0e1659abb58fc9f2e9e44365d48e83a8055a41c2c39272738246874c",
+  "stepsHashed": "905c3e0565cf87104a50ce9732a0abf83e988e027c0923b58abe805527205e86e0b41bf51831b2ab171d4fce6831d530"
+}

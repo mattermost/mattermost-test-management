@@ -1,0 +1,55 @@
+{
+  "id": 4403864,
+  "key": "MM-T1475",
+  "name": "Channel Sidebar keyboard navigation and read out",
+  "createdOn": "2020-02-17T18:14:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:02 PM<br>• Added link to Cypress code",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel Sidebar keyboard navigation and read out<br>–––––––––––––––––––––––––<ul><li>Use CTRL+F6 to navigate to channel sidebar region:</li><li>TAB/SHIFT+TAB moves the focus to the next/previous sidebar section starting at the top, and reads out as per \"Expected\"</li></ul>",
+        "testData": "",
+        "expectedResult": "<ul><li>\"Unreads \" (if applicable)</li><li>\"Favorite Channels\" (if applicable)</li><li>\"Public Channels\"</li><li>\"Private Channels\"</li><li>\"Direct Messages\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16384\" rel=\"noopener noreferrer\" target=\"_blank\">ADA: Channel Sidebar keyboard navigation and read out — MM-16384</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-22630\">Accessibility Cypress Test Automation: Accessibility Support in Channel Sidebar Navigation — MM-22630</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "53d7bff38cae91df4b689fd2128d19074d7b94bcb8a1ed48b79f6ce29cfad11a243e2724642ae7d259980c3cfcef3ac3",
+  "stepsHashed": "e35c2564acf36565b65a89fa49b5ac2334d357a2fdd980d2a84549c7b8ec9495cb90cd2cd7b57899c72e6b4a48304cd6"
+}

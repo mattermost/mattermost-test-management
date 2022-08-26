@@ -1,0 +1,55 @@
+{
+  "id": 4058102,
+  "key": "MM-T1092",
+  "name": "Privacy\nEmail Address - Shown\nFull Name - Hidden\nCannot search from: and @-autocomplete using first/last",
+  "createdOn": "2020-01-22T16:25:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Shown<br />Full Name - Hidden<br />Cannot search from: and @-autocomplete using first/last<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = true<br />2. Ensure &quot;Show Full Name&quot; = false<br /><br />Non-System admin:<br />1. Searches for `from:{firstname}`, also `from:{lastname}`<br />2. Types in message box `@{firstname}`, also `@{lastname}`",
+        "testData": null,
+        "expectedResult": "No users are returned on searching by first or last name",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "70cc187ed430e4b41c6d716e9e23f99d9ea647221aee3d4680044ce6e421efde39d248b13d17cd76577c00bd65e1d610",
+  "stepsHashed": "e3c22e248f553cd3dbfbe03f772f24b4c118eeb95df99338d0c81769ae38d7772a643d7f1bb3f54e21e35db7900504d5"
+}

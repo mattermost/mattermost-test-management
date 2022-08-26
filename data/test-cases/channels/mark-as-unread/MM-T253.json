@@ -1,0 +1,81 @@
+{
+  "id": 3768059,
+  "key": "MM-T253",
+  "name": "Mark as Unread reflects on other sessions and devices",
+  "createdOn": "2019-12-27T20:26:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark as Unread reflects on other sessions and devices<br />–––––––––––––––––––––––––<ol><li>Log in to the same account on webapp, mobile app, and desktop app</li><li>Mark a post Unread in *webapp*</li><li>View in mobile app and verify that the same post/channel is marked as Unread</li><li>View in Desktop app and verify that the same post is marked as Unread</li></ol>",
+        "testData": "",
+        "expectedResult": "Posts are marked as unread accross other sessions and devices",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "<br />(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-17072\">Add Websocket event when marking a channel as unread — MM-17072</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Mark a post Unread in *mobile app*</li><li>View in webapp and verify that the same post/channel is marked as Unread</li><li>View in Desktop app and verify that the same post is marked as Unread</li></ol>",
+        "testData": null,
+        "expectedResult": "Posts are marked as unread accross other sessions and devices",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Mark a post Unread in *desktop app*</li><li>View in mobile app and verify that the same post/channel is marked as Unread</li><li>View in webapp and verify that the same post is marked as Unread</li></ol>",
+        "testData": null,
+        "expectedResult": "Posts are marked as unread accross other sessions and devices",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "60fca291b39fd64eb06b67b5187c30c97bc859ca952404e74af32fa483310537d7d670e0a2fc5ee9c87b00f4531f6d89",
+  "stepsHashed": "8fa2842dfa5bafc1b7af7173fb2d22e363bd5be7b1e8cd763a1e73dcb8e4aaf75e36819085543605a291e595ffc1995d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17862424,
+  "key": "MM-T4588",
+  "name": "Updatre subscription to include features",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. type /gitlab subscriptions add dhaussermann/dkh-project3 merges,issues,tag,issue_comments",
+        "testData": null,
+        "expectedResult": "GitLab bot posts:<br />Successfully subscribed to dhaussermann/dkh-project3",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "69cf58b255b00aeee0e2b09a57b46a6346809d6f11efe0d901f58aead95e7c780e7831d00378ddda75b1a4df3d83aa28",
+  "stepsHashed": "2d2f9a054055ed55876b41bdeaf1b3ff48ad6f088589b1c97c267ba3a3c51408f8efdfc8fb85436eb7877f55644103a0"
+}

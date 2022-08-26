@@ -1,0 +1,55 @@
+{
+  "id": 8490981,
+  "key": "MM-T3664",
+  "name": "SAML User, Not in LDAP",
+  "createdOn": "2021-01-08T08:01:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "With SAML enabled to sync with LDAP, user exists in SAML but that email address doesn't have an active LDAP account:<br>- Can create new in SAML that doesn't exist yet in LDAP (if there's room in LDAP to add that user there later)<br>- OR can use an existing account but before starting, in Jumpcloud remove the user from all Groups and then from the Jumpcloud Directory (effectively disabling them; the Suspend function in Jumpcloud might not work for this)<br><br>First: Admin ensure SAML is enabled to sync with LDAP, then in another browser (make sure not still logged into OKTA in other browser as previous test.one):<br>1. User who has a SAML account but not an (active) LDAP account clicks the OKTA signin button and creates account in Mattermost using SAML<br>2. System admin syncs LDAP<br>3. User is auto-logged-out. They show as inactive in System Console &gt; Users (They can log back in again using SAML, but they will be deactivated again on any subsequent LDAP sync)<br>4. System admin re-activates or adds them in LDAP (be sure to use same email address as in SAML, and be sure that they are selected as active in Groups &gt; `All Users - LDAP` in Jumpcloud)<br>5. If necessary: User completes LDAP account activation<br>6. User logs back in to Mattermost using SAML and they are successfully reactivated, and exhibit attributes from OKTA<br>7. System admin syncs LDAP<br>8. User is not logged out / deactivated, and shows attributes from LDAP",
+        "testData": null,
+        "expectedResult": "After last step, user is not logged out / deactivated, and shows attributes from LDAP",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0857f145c96eb1eea98ac61c2dc140af43063503a90adb171a668bf64fe8ecabc835864a3e2b1183a5aedd3b6dd315fa",
+  "stepsHashed": "698ee0c30fa0fe24fdb3d5ab9598e9591bdcf898085e539beade569a2a3302cadce7a22aa96f3df0537dc36bec897b05"
+}

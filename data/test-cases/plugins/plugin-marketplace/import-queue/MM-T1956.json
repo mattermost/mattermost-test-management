@@ -1,0 +1,55 @@
+{
+  "id": 5293897,
+  "key": "MM-T1956",
+  "name": "Enable Marketplace is available as option in Plugin Management Page",
+  "createdOn": "2020-05-06T01:44:55Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enable Marketplace<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Log in as system admin.<br />2. Go to main menu &gt; System Console &gt; PLUGINS &gt; Plugin Management.",
+        "testData": null,
+        "expectedResult": "1. &ldquo;Enable Marketplace&rdquo; is available as a &ldquo;true&rdquo;/&rdquo;false&rdquo; radio button option.<br />2. Help text &ldquo;Enables system admins to install plugins from Mattermost marketplace.&rdquo; is present.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5eb5e69b7adb0a13ce7e80a23ede03a5b5919b856daeea651eb176d3e1e45368b1ef2e4954a970d0bec3be8d07dc7a8f",
+  "stepsHashed": "f4110e08e230dc97b1131139d1de58aaf06982b53a13fd5b07780eed6984b012701d23dc62cacae12a3d834d89937729"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 11766028,
+  "key": "MM-T4097",
+  "name": "Assign Global Policy = Forever & Custom Policy = 10 days to channels",
+  "createdOn": "2021-06-24T20:03:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569412,
+    "name": "Data Retention Policy",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>1. Feature flag CustomDataRetentionEnabled = true.<br />2. Restart server<br />3. Login as System Admin<br />4. Create <strong>Team-A</strong> &gt;<strong> Channel-A</strong>, <strong>Channel-B</strong> <br />5. Go to System Console &gt; Data Retention Policies<br />6. Create 10 days Custom Policy and set Global Forever<br />7. Add <strong>Channel-A</strong> in Custom Policy<br />8. Go to <strong>Channel-A</strong> and Post 12days old messages (use API)<br />9</span><span>. Go to <strong>Channel-B</strong> and Post 12 days old messages (use API)</span><span><br />10. Go to System Console &gt; Data Retention Policy<br />11. Click Run Deletion Job Now</span>",
+        "testData": null,
+        "expectedResult": "<span>12.1 Job competed successfully <br />12.2 In <strong>Team-A </strong>&gt; <strong>Channel-A</strong> 12 days old posts should  be deleted</span><br /><span>12.3 In <strong>Team-A</strong> &gt;<strong> Channel-B</strong> 12 days old posts should NOT be deleted</span>​​​​",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "59a771b6d1879c3cf324ef264ac57fe418d1b7919093bfb8df59e5431f5f35c9b2e1785de905ce3ec877e97ba83e596c",
+  "stepsHashed": "4e287b592f01f303434d7bbdbcca706485d693ae6807baee0f1fde770c561f53b6cefd24a720d2cf9279ae70b9d0b6c4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5254460,
+  "key": "MM-T1774",
+  "name": "Select all Password Requirements, verify help text and error on bad password",
+  "createdOn": "2020-04-30T12:39:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404272,
+    "name": "Auth SSO",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Auth SSO"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Password Requirements<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Select &quot;At least one lowercase letter&quot;<br />2. Select &quot;At least one uppercase letter&quot;<br />3. Select &quot;At least one number&quot;<br />4. Select &quot;At least on symbol&quot;<br />5. Save",
+        "testData": null,
+        "expectedResult": "Error preview reads correctly, verify the error message appears correctly when creating a new account with a password that does not meet the requirements.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "410526128ba75850d0ac29b9807b7a5200196a7c11b3f614d40b9f2ed5356dff1ce5b04412c95361066cc2f6c60d1623",
+  "stepsHashed": "435513aee9964720d0374fdcd25501cc53ede15cc09a0f2aefd61f1410ea133c08424cc23a0f4094ddf7c46e3294163f"
+}

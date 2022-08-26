@@ -1,0 +1,55 @@
+{
+  "id": 5293929,
+  "key": "MM-T1988",
+  "name": "“Configure” button works correctly for all installed plugins in “Installed” tab",
+  "createdOn": "2020-05-06T01:45:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["5.34-p1"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&ldquo;Configure&rdquo; button works correctly for all installed plugins in &ldquo;Installed&rdquo; tab<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Launch Plugin Marketplace.<br />2. Navigate to &ldquo;Installed&rdquo; tab.",
+        "testData": null,
+        "expectedResult": "For all installed plugins, when &ldquo;Configure&rdquo; button is clicked, user is redirected to the respective configuration page in System Console.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b7ab247d453ef3587bc4cfff22fe620b69e1424f3d57a3cf85a47ab3b16862e4a00d1237715593455b68d5d6f7ab2320",
+  "stepsHashed": "c56d1edaad30cd3cea9437ea08c50e4c936779f42b0c2fd589192b933dec30ec260dff7fa592d3e70aa97f172aaa744c"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3969595,
+  "key": "MM-T695",
+  "name": "Run custom slash command",
+  "createdOn": "2020-01-08T17:47:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, February 15, 2021 2:47 PM<br>• Cypress Automation working as expected 🎉<br>• Removed No Automated Executions label<br>–––––––––––––––––––––––––<br>Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Run custom slash command<br />--------------------<br />1. Open Main Menu &gt; Integrations &gt; Slash Commands &gt; Add Slash Command<br />2. Enter URL: <br />http://hidden-peak-21733.herokuapp.com/test_inchannel<br />3. Enter Display Name: &quot;Test Message&quot;<br />3. Enter Trigger Word: test-message<br />4. Add<br />5. Hit Enter to close confirmation<br />6. In a test channel, type &quot;/test-message&quot; and post",
+        "testData": null,
+        "expectedResult": "Step 4: Receive a confirmation page that a slash command was created. The page contains a token for the command.<br />Step 6: Returns a regular post from the user who set it up, with &quot;bot&quot; label",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cd49b445395cb5ff6002e05cf890ff405407955c9949554053216dfc3b41406917ac79121b0f56a84199e9b8ec08bc34",
+  "stepsHashed": "3360939ccc4e98fdfd4204e0a75688418ecb9cba9a5a5141d53f94f393536ac0b569fb77a3b971102efdd58f60a4d03f"
+}

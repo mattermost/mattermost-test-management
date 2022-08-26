@@ -1,0 +1,55 @@
+{
+  "id": 8022837,
+  "key": "MM-T3560",
+  "name": "Attribute containing emoji and plain text",
+  "createdOn": "2020-11-26T20:45:22Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054400,
+    "name": "Custom Attributes",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Custom Attributes"],
+    "fullPath": "plugins/custom-attributes"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open a DM with @jason.blais<br />2. Click on his username or profile picture to open the profile popover",
+        "testData": null,
+        "expectedResult": "Below his name and position in profile popover, can see<br /><br />:mattermost: Staff<br /><br />where :mattermost: renders as an emoji",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "eedb5b84d804001905ff27c62ca761a5f0fcd297a8d33689678d2355f8640e54c04e667cad120a3fed640e9f06a7c64b",
+  "stepsHashed": "125c9b52d334166dc8441c97c7328912bdc898fef62ce00e03fc481e42be65118b01791d2b688eef33ad557dbe6beb67"
+}

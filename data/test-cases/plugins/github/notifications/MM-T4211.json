@@ -1,0 +1,55 @@
+{
+  "id": 13721534,
+  "key": "MM-T4211",
+  "name": "User receives notfications from public repos only",
+  "createdOn": "2021-08-30T15:34:07Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1194690,
+    "name": "Notifications",
+    "parentId": 1194686,
+    "fullNames": ["Plugins", "GitHub", "Notifications"],
+    "fullPath": "plugins/github/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to Mattermost as a target user with access to a private repo using `/github connect` (without private)<br />2. Login to GitHub as a different user<br />3. As the second user post a comment with an @mention for the test user in a public repo<br />4. As the second user post a comment with an @mention for the test user in a private repo",
+        "testData": null,
+        "expectedResult": "On 3. the user gets a DM from a the GitHub bot<br />On 4. the user does not get a DM from the GitHub bot",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "198dacbac519b3f69956a67befde32c45307b7b6ee9e8e04e90b9a02a431f4acd398b89f94b806f72862a64d6ca4cfd8",
+  "stepsHashed": "fa6f90f46b37acc4f3f331311100f60382e7c453f4b2ba503051c5600c7880ee3007c99af941dbd3b9a68fea919e7b64"
+}

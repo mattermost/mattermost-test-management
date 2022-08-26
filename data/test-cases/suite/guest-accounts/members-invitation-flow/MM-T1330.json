@@ -1,0 +1,55 @@
+{
+  "id": 4138462,
+  "key": "MM-T1330",
+  "name": "Invite Members - New User not in the system",
+  "createdOn": "2020-01-29T23:38:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 580214,
+    "name": "Members Invitation Flow",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
+    "fullPath": "suite/guest-accounts/members-invitation-flow"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.16 (Oct 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>In the \"Invite People\" field enter an email that's not already in the system</li><li>Click \"Invite Members\"</li></ol><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580756795978-2020-02-03_13-59-34.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "testData": "",
+        "expectedResult": "User is put in \"Successful\" section with the following details:<ul><li>\"<em>An invitation email has been sent</em>\"</li></ul><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580756499070-2020-02-03_14-00-10.png\" style=\"width: 539px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": ["v5.16 (Oct 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18040\">UI Automation: Write an automated test using Cypress for \"Members Invitation Flow: Add New/Existing Users\" — MM-18040</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ecc621de49531f71b3d9a564d5e962ecceb1711d7803120eac387217076fa89c9657bafbb2e286b55fd6c374859ad021",
+  "stepsHashed": "97c33ab8669ac621dab14068e8e71279968bf158a3615a9032e4be97d6fa0e7f8fcdc6f3162b7db3b635de0b1e560216"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 8631350,
+  "key": "MM-T3745",
+  "name": "Team - Create : private team",
+  "createdOn": "2021-01-19T09:30:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl team create --name private --display_name \"My New Private Team\" --private",
+        "testData": null,
+        "expectedResult": "Creates a new private team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2165c8a985ba6e53f5b208588a94cef20bf062ce58eb0ab88b079b5e4961c79a77f5f9f5e42d93799533d84e35309502",
+  "stepsHashed": "285102ff97afc4044dd564ca0fafa7a54887de165670838464bcf4248aa7e61bbfba8891c5ed560e5f90520b32fbc468"
+}

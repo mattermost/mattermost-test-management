@@ -1,0 +1,81 @@
+{
+  "id": 8715823,
+  "key": "MM-T3798",
+  "name": "Follow Thread",
+  "createdOn": "2021-01-25T15:20:24Z",
+  "objective": "Verifying that a followed thread shows up on the Threads page",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1139421,
+    "name": "Threads",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Threads"],
+    "fullPath": "channels/threads"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Threads"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Log in and locate a post created by a different user, with at least one reply<br><br>Note: make sure the post isn't already followed",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click the three dot menu on the post and click on \"Follow thread\"",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Open the Threads page in the LHS",
+        "testData": null,
+        "expectedResult": "<ul><li>Verify the thread followed in step 2 is shown in the threads list</li><li>Verify the thread overview displays the name of the root post's author, number of replies and channel from which the thread originates.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "da0e76d659139f0e8c1a0c173d537b58cfe532b728b8ae86fac799a871bbd006b3452139aee1f2348d2c1f34ddf51cf7",
+  "stepsHashed": "232e70aa173193abf5b78f771a4bad81860ac59ee1e4434d311d39c40e68d8e28f1c2e68b850746566cac128d29786c3"
+}

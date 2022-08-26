@@ -1,0 +1,55 @@
+{
+  "id": 5444765,
+  "key": "MM-T2165",
+  "name": "Help text displays when no flagged posts",
+  "createdOn": "2020-05-20T06:05:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Help text displays when no flagged posts<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Unflag last remaining flagged post in RHS<br /><br />Mobile app: Unflag all posts, then tap top-right hamburger menu, tap to view Flagged Posts",
+        "testData": null,
+        "expectedResult": "Help messaging displays:<br />- You haven't flagged any messages yet.<br />- You can add a flag to messages and comments by clicking the...<br />- Flags are a way to mark messages for follow up. Your flags are personal, and cannot be seen by other users.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b6f97a765110cf945a1d31b77ccb24f76bcb792ace639b76744f1c5c7d31c753aa568e7f4ca78f2e13fa771ebd6185ad",
+  "stepsHashed": "eda33a3f4263ef5cc6f5e2f43950b2dcafe7ac113a42096bbf9e635dcfd9d5f4f273b80441e7645bcab344c90348efa7"
+}

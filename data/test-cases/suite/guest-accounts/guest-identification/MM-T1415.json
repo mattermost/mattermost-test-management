@@ -1,0 +1,55 @@
+{
+  "id": 4152398,
+  "key": "MM-T1415",
+  "name": "Check Previous button on successful/failed invites",
+  "createdOn": "2020-01-30T23:27:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Check Previous button on successful/failed invites<br>–––––––––––––––––––––––––<ol><li>Login as a sysadmin and invite Guest User.</li><li>Type a valid email of a new user and select a channel and click Done.</li><li>Check if Previous button is not displayed when successful invitations were sent</li><li>Repeat step 1 and in step 2, type a valid email of a guest user who is already part of team and channel and select a channel and click Done.</li><li>Check if Previous button is displayed when error message is shown</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Previous button should not be shown when successful invitations were sent.</li><li>Previous button should be shown when there are errors during invitation</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18014\">Guest Accounts: Improve experience of Previous button displayed on successful invites — MM-18014</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e90c726fabc4e277ee1eefc098aeb0e25a64b72dda963c32b6009487aa86667b713feeea17f02b9718b25b79e625bad7",
+  "stepsHashed": "c21cb545f36d61310880e492daf7703fabf728f24241050c4ef8afcda4f1c805cb1512ef405f07d3c0509623de159c33"
+}

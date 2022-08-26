@@ -1,0 +1,55 @@
+{
+  "id": 3877356,
+  "key": "MM-T316",
+  "name": "RN apps: iOS ONLY - Share extension - Space in filename",
+  "createdOn": "2020-01-02T22:06:12Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["ios-only", "1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["RN: iOS", "Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Share extension: iOS, space in filename<br>–––––––––––––––––––––––––<ol><li>Use share extension to upload a file that has a space in the filename from the Files app</li><li>Change channel and/or team before posting</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Upload is successful, message posts</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "185b594c628a14eabbaa585dcb41471d5ad60d590d8791b62e706e7f85a6aa7c80879f054a548129d7141c7c6a1616fd",
+  "stepsHashed": "b2b1e8b15b7366af0d9f8805617a8c09ef82075acde000316d60146aa0809b454e37dd6fe0ee00a3fe01c06a1d5e8ddc"
+}

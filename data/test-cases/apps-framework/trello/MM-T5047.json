@@ -1,0 +1,81 @@
+{
+  "id": 28632596,
+  "key": "MM-T5047",
+  "name": "Show only available commands (on execution and Trello help command)",
+  "createdOn": "2022-08-15T22:39:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290340,
+    "name": "Trello",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "Trello"],
+    "fullPath": "apps-framework/trello"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Call to test Set up Trello App<br />2. Run the `/trello help` command<br />3. Login to the Mattermost instance as member role<br />4. Run the `/trello` command<br />5. Run the `/trello help` command<br /><br /><br />",
+        "testData": null,
+        "expectedResult": "On 2. Only are shown `help` and `configure` command information<br />On 4. Only available command is `help`<br />On 5. Only is shown `help` command information",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "6. Logout and access to MM instance as sysadmin role. Call to test Trello command: `Configure`<br />7. Run the `/trello` command<br />8. Run the `/trello help` command",
+        "testData": null,
+        "expectedResult": "On 7. Available commands are: `help`, `configure`, `connect` and `disconnect`<br />On 8. Command information shown from: `help`, `configure`, `connect` and `disconnect`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "9. Call to test Trello command: `Connect` as sysadmin role<br />10. Run the `/trello help` command<br />11. Login to the Mattermost instance as member role and call to test Trello command: `Connect`<br />12. Run the `/trello help` command",
+        "testData": null,
+        "expectedResult": "On 10. Command information shown from: `help`, `configure`, `connect`, `disconnect`, `card` and `subscription`<br />On 12. Command information shown from: `help`, `connect`, `disconnect`, `card` and `subscription`",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "09ec9af24c62dc457d161aab8e8751841416563b0c827a919cad83778cb24fb6f1d49aa519545fc8e05446a754b63823",
+  "stepsHashed": "ccec40bc344f2ffb1f47db054aaa1dc18d018cf46aab218122e10e97b41afebbdf958b377e41f16b288177e68fac0c1f"
+}

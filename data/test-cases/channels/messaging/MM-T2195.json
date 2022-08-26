@@ -1,0 +1,62 @@
+{
+  "id": 5444796,
+  "key": "MM-T2195",
+  "name": "Emoji reaction - not available on system message. Save - not available on system message. Pin - not available on system message. Can delete your own system message",
+  "createdOn": "2020-05-20T06:05:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "rf-cloud-webapp",
+    "messaging"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Lindy Isherwood -- Friday, April 23, 2021<br>Left the mobile and CWS smoke tests enabled in RF and didn't remove \"duplicate automated tests\" label as this test is also running in Se.",
+    "Rainforest": ["Cloud", "Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji reaction - not available on system message<br><br>Save - not available on system message<br><br>Pin - not available on system message<br><br>Can delete your own system message<br>————————————————————————————<br>1. Add or update a channel header<br>2. Observe the resulting system message",
+        "testData": null,
+        "expectedResult": "1. Emoji reactions are not available on system messages<br>2. Save not available on system messages<br>3. Pin not available on system messages<br>4. If permissions allow, can click [...] &gt; Delete to delete system message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9cc047e09d5815798fa6a6fe8eddaaa082729ce557f058a614f2d5454a5116980a3ccf9a69467fb08fb509c8b7100a04",
+  "stepsHashed": "77fda33f05671f93bd60f3b2780343fb3948384875c4502a4383bf4a71eea947cc68021b3238e3a3a71a05aac310532e"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5280842,
+  "key": "MM-T1886",
+  "name": "Delete a Bot",
+  "createdOn": "2020-05-04T18:16:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 710248,
+    "name": "API and using BOTs",
+    "parentId": 404274,
+    "fullNames": ["Integrations", "Bot Accounts", "API and using BOTs"],
+    "fullPath": "integrations/bot-accounts/api-and-using-bots"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Tuesday, March 09, 2021 11:09 AM<br>• Removed from Cloud per Dylan's notes in the last cycle:<br>\"<em>Will remove from Cloud test cycles. This is not testable.</em>\"",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "BOT Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Locate any bot and note the username<br>2. Use a CLI command to delete the bot:<br>./bin/mattermost user delete <em>&lt;UserName&gt;</em><br>(on a local instance you can use make ARGS=\"user delete &lt;username&gt;\" run-cli<em>\" run-cli</em>",
+        "testData": null,
+        "expectedResult": "Bot can be successfully deleted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9aefc68cb843688b2fe1b4137308b9f7d594740378d88b1bf092e05885ee422207c94e9d367ab650df6e8e4028f80086",
+  "stepsHashed": "bfcbf3f0a2fc1d226655589f64a50e5e80e4a500756cde32e4465347f67ac173a5125f76c96ce046570fcb70d67bc8c3"
+}

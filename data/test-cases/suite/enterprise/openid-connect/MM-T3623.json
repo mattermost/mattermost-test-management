@@ -1,0 +1,55 @@
+{
+  "id": 8084055,
+  "key": "MM-T3623",
+  "name": "Set to Generic OpenId",
+  "createdOn": "2020-12-02T16:42:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "enterprise"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1052242,
+    "name": "OpenId Connect",
+    "parentId": 733337,
+    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
+    "fullPath": "suite/enterprise/openid-connect"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Enterprise"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as <strong>System Admin</strong></li><li>Go to <strong>System Console</strong></li><li>Click <strong>OpenID Connect</strong></li><li>Select <strong>OpenID Connect (Other)</strong> from the Drop Down List</li><li>input <strong>Button Name</strong></li><li>Input<strong>&nbsp;Button Color</strong></li><li>Input <strong>Discovery Endpoint</strong></li><li>Input<strong>&nbsp;Client ID</strong></li><li>Input <strong>Client Secret</strong></li><li>Click<strong>&nbsp;Save&nbsp;</strong>Button</li><li>Logout</li><li>Go to Login Page</li></ol>",
+        "testData": "5. TestButtonTest<br>6. #c02222<br>7.  http://test.com/.well-known/openid-configuration<br>8.  OpenIdId<br>9. &nbsp;OpenIdSecret",
+        "expectedResult": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1606927494678-1606927494678.png\" style=\"width: 300px;\" class=\"fr-fic fr-fil fr-dib\">11. <strong>open ID</strong> button will be appeared",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e1c978c3c29011374e6fd9dbfaaffcef523591090aba219e9b1e3b4198bae151bbbfa845d0286312ac78fa2c190f95ab",
+  "stepsHashed": "c5a029f48521499d167907a0eff1901b65d178a0378a91218ff7b9ca0ec5dd8d5453c0a4ed462d5e05812021eb795c8c"
+}

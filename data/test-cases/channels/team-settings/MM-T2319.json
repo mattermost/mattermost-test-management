@@ -1,0 +1,55 @@
+{
+  "id": 5445729,
+  "key": "MM-T2319",
+  "name": "Description displays as tooltip on list of teams you can join",
+  "createdOn": "2020-05-20T06:56:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Description displays as tooltip on list of teams you can join<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Ensure a team that allows users to join has a description<br />2. Log in with an account that is not part of the team<br />3. Go to Mail Menu &gt; Join Another Team<br />4. Click the tooltip next to the team name<br /><br />(Prep steps if needed:<br />1. Team Settings -&gt; General &gt; Team Description -&gt; Edit<br />2. Enter &quot;testing the team description&quot;<br />3. Set &quot;Allow anyone to join this team&quot;= Yes<br />4. Save)",
+        "testData": null,
+        "expectedResult": "Team description should appear by clicking the info icon (verify icon looks aligned properly) (mobile: verify description does not go off-screen)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fadeed8b1ed82c6645ab55b5c11a9188d4c41d8cdfbb98176feb9a0dd4fed215469765ef310558538a6a026f15f9509a",
+  "stepsHashed": "ca52d599bb7ed07f1b05948f196ef6e7fef871e855faf65b2d193416ce662d6bd4551c22fd0946e444c14b4539810b58"
+}

@@ -1,0 +1,224 @@
+{
+  "id": 24534343,
+  "key": "MM-T4878",
+  "name": "Mobile V2: Autocomplete - At-Mention",
+  "createdOn": "2022-06-24T02:36:19Z",
+  "objective": "<strong>🛑 DO NOT EDIT test case without coordinating with automated tests. Test steps and expected outcomes must remain identical between Zephyr and automated tests.</strong>",
+  "precondition": "1. Login to server<br />2. Verify on channel list screen<br />3. Open a channel screen<br /><br />For each test step:<br />1. Clear post input<br />2. Verify autocomplete is not displayed",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2943603,
+    "name": "Autocomplete",
+    "parentId": 2277496,
+    "fullNames": ["Mobile V2", "Autocomplete"],
+    "fullPath": "mobile-v2/autocomplete"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on username</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in username<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on nickname</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in nickname<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on first name</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in first name<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on last name</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in last name<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on lowercase first name</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in lowercase first name<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on lowercase last name</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in lowercase last name<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on full name with space</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in full name with space<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should suggest user based on partial full name with space</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in partial full name with space<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should stop suggesting user after full name with trailing space</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in full name<br />4. Verify at-mention autocomplete contains associated user suggestion<br />5. Type in trailing space<br />6. Verify at-mention autocomplete does not contain associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should stop suggesting user when keyword is not associated with any user</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in keyword not associated with any user<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to select at-mention multiple times</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in username and tap on user at-mention autocomplete<br />4. Verify at-mention list disappears<br />5. Type in \"@\" again to re-activate at-mention list<br />6. Verify at-mention list is displayed",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should not be able to autocomplete deactivated user</strong><br />--------------------<br />1. Deactivate another channel member user and type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in username of deactivated user<br />4. Verify at-mention autocomplete does not contain associated user suggestion<br />5. Reactivate user, clear post input, and type in \"@\" to activate at-mention list<br />6. Verify at-mention list is displayed<br />7. Type in username of reactivated user<br />8. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should be able to autocomplete out of channel user</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in username of out of channel user<br />4. Verify at-mention autocomplete contains associated user suggestion",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<strong>should include current user in autocomplete</strong><br />--------------------<br />1. Type in \"@\" to activate at-mention autocomplete<br />2. Verify at-mention list is displayed<br />3. Type in username of current user<br />4. Verify at-mention autocomplete contains current user",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c27fb7e9d5852309266bb804775e3f69054cda0ee5ae87d033f15a2407d6c1cac9b55fab495f5d0d652d648570d3337a",
+  "stepsHashed": "9880e4a5d93b7baee9d3190f90f55f05c058db29d26ee8f9a538f6c2bb874405841cffc855964c5d3811604e76482bdf"
+}

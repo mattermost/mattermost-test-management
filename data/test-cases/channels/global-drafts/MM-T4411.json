@@ -1,0 +1,55 @@
+{
+  "id": 16284222,
+  "key": "MM-T4411",
+  "name": "Global Drafts > Display DM & GM drafts across teams",
+  "createdOn": "2021-11-17T22:14:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1969137,
+    "name": "Global Drafts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Global Drafts"],
+    "fullPath": "channels/global-drafts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Open a DM with User1 on Team1</li><li>Add some text without posting e.g. “pineapple”<ol style=\"list-style-type:lower-alpha\"><li>Verify global Drafts item is added to LHS, shows count 1</li><li>Verify DM item on the LHS shows pencil draft icon on the right</li></ol></li><li>Open a GM with 2 users on the same team, Team1</li><li>Add some text without posting e.g. “apple”<ol style=\"list-style-type:lower-alpha\"><li>Verify global Drafts item count increases to 2</li><li>Verify GM item on the LHS shows pencil draft icon on the right</li></ol></li><li>Join another team on the same server - Team2</li><li>Click on global Drafts<ol style=\"list-style-type:lower-alpha\"><li>Verify DM draft with User1 item is present</li><li>Verify GM draft with 2 other users is present </li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>We display DM &amp; GM drafts across teams, not only for current active team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0226c7e10daa383e851d7294d3c55281ecab8c773da9cba9ffd3313b69e70b9953eff752d5cd5c1a97446ee27c0513ea",
+  "stepsHashed": "3000b418d87ef8792426f00410a78eb1696e448bcbfe014fe8d1760b120e8e3f6502aba2d71342d599efaea4f632f015"
+}

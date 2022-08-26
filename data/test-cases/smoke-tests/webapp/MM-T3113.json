@@ -1,0 +1,55 @@
+{
+  "id": 6181594,
+  "key": "MM-T3113",
+  "name": "Sign In \nForgot password",
+  "createdOn": "2020-07-13T19:27:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Sign In <br />Forgot password<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Ensure server has site URL and email settings configured<br />Test on browser, not on desktop app<br /><br />1. Go to the sign in page<br />2. Click &quot;I forgot my password&quot;<br />3. Enter an email that has an account on the server<br />4. Go to your email account, find the &quot;Reset your password&quot; email sent by Mattermost and click the &quot;Reset password&quot; button<br />5. Enter a new password<br />6. Sign in with the account, using the new password",
+        "testData": null,
+        "expectedResult": "Log in screen should display \"password updated successfully\".<br><br>(N/A for desktop app): The URL should read \"/login?extra=password_change\"<br><br>Sign-in is successful",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6a951616b56f7d8a680afd86493291c565b601db5663d77b29f0c91a03ddc2e703a8a48e60c68ee5d1bbd6ec4e05dc3c",
+  "stepsHashed": "02489c0a48ac8d0429022d575856f0d232ab8f30f5b05681e0d36ba3e11d3146e812a9c068553d343e925b4e58f601fc"
+}

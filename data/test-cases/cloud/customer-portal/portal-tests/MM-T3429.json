@@ -1,0 +1,55 @@
+{
+  "id": 7561760,
+  "key": "MM-T3429",
+  "name": "Portal - Subscriptions",
+  "createdOn": "2020-10-21T21:56:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1604631,
+    "name": "Portal tests",
+    "parentId": 992544,
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Portal"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Review overall appearance of page</li><li>Test links</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Navigation menu on left side of screen<ul><li>Subscriptions</li><li>Purchase History</li><li>Profile</li><li>Password</li><li>Company Information</li><li>Billing &amp; Payment</li></ul></li><li>Current page highlighted blue</li><li>Company name across top of screen (does not wrap to new line)</li><li>Account information fields<ul><li>Contact Information<ul><li>Name</li><li>Email address (long email addresses wrap to new line)</li></ul></li><li>Billing Address<ul><li>Street</li><li>City, State/Province. Country code, Zip/Postal code</li></ul></li><li>Payment Method<ul><li>Card ending in [4 digit number]</li><li>Expires on MT/YEAR</li></ul></li></ul></li><li>List of purchased subscriptions<ul><li>Active or inactive text</li><li>Start [date]</li><li>Expiry [date]</li><li>Users [number]</li><li>Total [dollar amount paid]</li></ul></li><li><strong>Purchase New Subscription</strong> button</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "98866ec11cc0178f1739c133df7e465c2a770432c1150de05d4703ad72767b3f9fb3b33020f625bd08c1ece8071dca44",
+  "stepsHashed": "4844ab51bdc1950535a585b1706a6587278144148c4202f61c45fdbaa54444a29185213b7543eb5c2d6fc849efb6fcbc"
+}

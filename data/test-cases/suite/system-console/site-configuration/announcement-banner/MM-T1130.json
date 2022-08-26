@@ -1,0 +1,55 @@
+{
+  "id": 4058520,
+  "key": "MM-T1130",
+  "name": "Announcement Banner - Multiple teams",
+  "createdOn": "2020-01-22T17:58:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569318,
+    "name": "Announcement Banner",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Announcement Banner"],
+    "fullPath": "suite/system-console/site-configuration/announcement-banner"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Announcement Banner - Multiple teams<br>–––––––––––––––––––––––––<ol><li>View banner on account that's on multiple teams (or join new team while banner is displaying)</li><li>Set one team to have a different display theme than other team(s)</li><li>Click through multiple teams</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Banner displays on every team, if different themes on different teams, the banner still displays the same on each</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a4ec707665fc826f5dba5e400c4b37c75b97409a7294f8052db628f6ba609bf5d29cf1954f96ed88288c968c251b1666",
+  "stepsHashed": "4af4f73f5b47194cf41580542ef4252e804ce8e016d6185be638b6e023f53d3e5c83244c27b178aa46eb07c076e83995"
+}

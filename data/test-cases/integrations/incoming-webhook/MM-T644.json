@@ -1,0 +1,55 @@
+{
+  "id": 3968344,
+  "key": "MM-T644",
+  "name": "🚀 Integrations display on team where they were created",
+  "createdOn": "2020-01-08T12:57:46Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v4.4.0 (November 2017)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 23, 2020 2:41 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Integrations display on team where they were created<br>–––––––––––––––––––––––––<ol><li>Join two teams (teamA and teamB)</li><li>Create an incoming webhook in teamA and teamB</li><li>Go to Integrations page for teamA</li></ol>",
+        "testData": "<br><br>",
+        "expectedResult": "<ul><li>Webhooks from teamA listed only.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v4.4.0 (November 2017)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-7402\">Regression: Webhooks from all teams you belong to are listed in Integrations page — MM-7402</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a00f916e6a270d0cb3479b22e1b222695d6579005da02f6383d7b5d1db9bda93c461c88ad9408f906a6d94cba57028ee",
+  "stepsHashed": "b71d85da736cc4e58d99a81d739305c29f707b03bdeec7c369ca894866c107544c289d9d8c8c92f51542e881ffe5f3b8"
+}

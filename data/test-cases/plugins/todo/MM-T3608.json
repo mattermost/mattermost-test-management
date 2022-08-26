@@ -1,0 +1,55 @@
+{
+  "id": 8022926,
+  "key": "MM-T3608",
+  "name": "Add To Do itmes can be added to a thread",
+  "createdOn": "2020-11-26T21:15:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054414,
+    "name": "ToDo",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Make a post<br />2. Click the `...` post menu option and select Add ToDo<br />3. Add some text below and click the &quot;Add to Thread&quot; box before saving",
+        "testData": null,
+        "expectedResult": "- ToDo item is created <br />- A reply post is creted on the thread by ToDo bot with a permalink to the source post",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6493428345985b9df550668195c1417cb13952db00c5f608a16a5e5511ec2f2026c59f1f9ec1857faf48024cd74f34e0",
+  "stepsHashed": "afbc9854b16a3c075ce3089eadc748650bb812511a474a2203d4067622db148726e8f914dcd92dc0646f7bc4d4c819d4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 15984468,
+  "key": "MM-T4359",
+  "name": "Sidebar - Open pull requests",
+  "createdOn": "2021-11-04T17:56:09Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1907970,
+    "name": "Authentication",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Authentication"],
+    "fullPath": "plugins/bitbucket/authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Connect to bitbucket <br />2. Click the Pull request Icon from the RHS or team sidebar",
+        "testData": null,
+        "expectedResult": "- PR Title <br />- PR Creator<br />- PR number with repository<br />- Milestone version - if applicable<br />- Time the PR has been open - in the case of PR lists",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "46a3f5a086ed7c6c825b0c9391330f0cf3878fe9c97c9ea52882ead08e234232a068657d299d6f4fc21c1cd17f6067d9",
+  "stepsHashed": "3a34bb0479d731644f12e070273a5f1023c811480db2628e291cff57d0d3f27a2930ae07d5932645548a292a56a7ae41"
+}

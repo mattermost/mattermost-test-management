@@ -1,0 +1,55 @@
+{
+  "id": 7635055,
+  "key": "MM-T3461",
+  "name": "RN apps: File preview gallery - Download file button for unsupported file types",
+  "createdOn": "2020-10-29T00:55:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.38 Mobile (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should display <strong>Download</strong><strong> file</strong> button for unsupported file types<br />--------------------<br />1. Login and go to a channel<br />2. Attach and post a file with unsupported file type<br />3. Tap on posted file<br />4. Tap on <strong>Download</strong><strong> file</strong> button<br /><br />Note: Unsupported file type is any file type outside of the supported list in <strong>Test Data. For example, attach a .ipa file to a post (as opposed to posting the link), and that file type should work. .ipa files can be found in the Mobile Release channel.</strong><br /><br />",
+        "testData": "Supported Image File Types<br />--------------------<br /><strong>jpg</strong>, <strong>gif</strong>, <strong>bmp</strong>, <strong>png</strong>, <strong>jpeg</strong>, <strong>tiff</strong>, <strong>tif</strong><br /><br />Supported Video File Types<br />--------------------<br />iOS: <strong>mp4</strong>, <strong>x-m4v</strong>, <strong>quicktime</strong><br />Android: <strong>3gpp</strong>, <strong>x-matroska</strong>, <strong>mp4</strong>, <strong>webm</strong><br /><br />Supported Document File Types<br />--------------------<br /><strong>json</strong>, <strong>msword</strong>, <strong>pdf</strong>, <strong>rtf</strong>, <strong>vnd.ms-excel, vnd.ms-powerpoint</strong>, <strong>vnd.openxmlformats-officedocument.wordprocessingml.document</strong>, <strong>vnd.openxmlformats-officedocument.presentationml.presentation</strong>, <strong>vnd.openxmlformats-officedocument.spreadsheetml.sheet</strong>, <strong>x-x509-ca-cert</strong>, <strong>xml</strong>, <strong>csv</strong>, <strong>plain</strong><br /><br />iOS Only: <strong>vnd.apple.pages</strong>, <strong>vnd.apple.numbers</strong>, <strong>vnd.apple.keynote</strong>",
+        "expectedResult": "After #4,<ul><li>Verify native share screen is displayed (see sample below)</li></ul><br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1604078491878-IMG_0309.PNG\" class=\"fr-fic fr-dii\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bf5f2069498d90bcc3114a6b4eefa8a99a6471e0f5bd94ae3e4fea7c9372b0546908d2e97896f72cfeda7cd3a67e62a1",
+  "stepsHashed": "6ca10a879ef5752e7288c7555a140c4872802dc01f7bf29638267fed0af677ae250bf7b2c60a492f3552d075cbcb1356"
+}

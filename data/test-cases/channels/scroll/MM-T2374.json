@@ -1,0 +1,55 @@
+{
+  "id": 5467490,
+  "key": "MM-T2374",
+  "name": "System Messages",
+  "createdOn": "2020-05-21T22:33:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404333,
+    "name": "Scroll",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Scroll"],
+    "fullPath": "channels/scroll"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Scroll"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "System Messages<br>————————————————————————————<ol><li>As the test user, open a channel and ensure that you're not looking at the bottom of the thread</li><li>Login as another user and add and remove some users from the channel</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>As the test user ensure that the thread does not move</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "399f8c1b71a21ef55e07ffdf4c35a725a284650965e8c04220c03aa13af56aa8b705190022664fbcc5a2c5104d59bc4a",
+  "stepsHashed": "58e3b27aca612defb00e0449bc5adb8d107d9b0dc3184c000f34401c19b6d8927ce3f233b8d03cf2119cfdb608363832"
+}

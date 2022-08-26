@@ -1,0 +1,55 @@
+{
+  "id": 5293928,
+  "key": "MM-T1987",
+  "name": "“Configure” button redirects to the plugin’s config page in System Console",
+  "createdOn": "2020-05-06T01:45:02Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["5.34-p1"],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712013,
+    "name": "Import Queue",
+    "parentId": 632425,
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 20 Jun 2022: Adding RF test: MM-T4023 MM-T1987 System admin can install and configure plugin from Marketplace",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&ldquo;Configure&rdquo; button redirects to the plugin&rsquo;s config page in System Console<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Launch Plugins Marketplace.<br />2. In &ldquo;All Plugins&rdquo; tab, click on the &ldquo;Configure&rdquo; button beside Github plugin.",
+        "testData": null,
+        "expectedResult": "The user is redirected to the configuration page of Github plugin in System Console.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e69ea52cca22e1c607d8674cf962793915c2bd474eb1094c7bd1e40c307383d72ec7b5c3eb914ce732bb3f0bd79297d7",
+  "stepsHashed": "4259eccb46d0b57f6b6ce998e380aa8b2cfb4301a578c263ec3b3f645f30e31ce3a671a8b097eca8b09966629d328ee2"
+}

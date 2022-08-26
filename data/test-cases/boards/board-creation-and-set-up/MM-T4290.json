@@ -1,0 +1,82 @@
+{
+  "id": 15460819,
+  "key": "MM-T4290",
+  "name": "Duplicating and deleting a board",
+  "createdOn": "2021-10-14T12:19:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1840288,
+    "name": "Board creation and set-up",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board creation and set-up"],
+    "fullPath": "boards/board-creation-and-set-up"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4274" } },
+    {
+      "inline": {
+        "description": "Click on the \"...\" menu next to the \"Testing\" board in the sidebar",
+        "testData": null,
+        "expectedResult": "Dropdown menu with three options opens:<ul><li>Delete board</li><li>Duplicate board</li><li>New template from board</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on \"Duplicate board\"",
+        "testData": null,
+        "expectedResult": "Board title \"Testing copy\" is created and opened",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Click on the \"...\" menu next \"Testing copy\" in the sidebar and click \"Delete Board\"",
+        "testData": null,
+        "expectedResult": "\"Testing copy\" board is returned and user is returned to the first board on the top",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0195b6ade478eed39a8f898dd47b2edde61e43fadeab3f8309e3fcd1a3ea6a2aaf62101257937e3f816446b1d4a46343",
+  "stepsHashed": "a804071ba5590554ada2b20fea6d202f806e99e3b1b18fe68f31fb4539839866d0213c345559e7d0232b61d723c34995"
+}

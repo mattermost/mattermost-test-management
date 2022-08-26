@@ -1,0 +1,55 @@
+{
+  "id": 17862428,
+  "key": "MM-T4592",
+  "name": "Enable private repositories and attempt to subscribe to private repo",
+  "createdOn": "2022-01-26T22:35:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139772,
+    "name": "Subscriptions and Notifications",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create or locate a private project in your user's workspace. ex: dkh-project2<br />2. Attempt to subscribe to the project /gitlab subscriptions add dkh-test-group/dkh-project2",
+        "testData": null,
+        "expectedResult": "Successfully subscribed to dkh-test-group/dkh-project2.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2c7ab0abf6fa7ca34fee873a25a4934418cd53c7082b47f6b4a847ddb43ccfca045d02a5db70f89ba4e4edbcfc3df483",
+  "stepsHashed": "42be4073d5ed761ffb6da744a640b608aa56809bf923a163a87126b06ff9097b8bb39a904ba58b2eec82a28161de0d5f"
+}

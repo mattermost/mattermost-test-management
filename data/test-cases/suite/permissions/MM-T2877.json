@@ -1,0 +1,55 @@
+{
+  "id": 5659427,
+  "key": "MM-T2877",
+  "name": "Member cannot update the private channel Name, Header and Purpose",
+  "createdOn": "2020-06-04T18:02:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member cannot update the private channel Name, Header and Purpose<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a private channel<br />2. Click the down arrow next to the channel header to see channel options<br />3. Note there are no options to edit channel details",
+        "testData": null,
+        "expectedResult": "Edit Channel Header, Edit Channel Purpose and Rename Channel are not available",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fb847cec0ea517f42c451fc98ebda7af83c4c96ba04f748f5389a28bbb57105e0741e96cc15ee46930330a2d23b1689f",
+  "stepsHashed": "19f7aca412d1de562fbe517193ad57b5b291846846a0725da62feda5468cd0d9c2bf07887ac4324a4b2a2204db9b9895"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 28665876,
+  "key": "MM-T5052",
+  "name": "OpsGenie command: `/genie alert create`",
+  "createdOn": "2022-08-16T14:52:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5049" } },
+    {
+      "inline": {
+        "description": "2. Run the `/genie alert create` command<br />3. Add alert's name<br />4. Add alert's team<br />5. Add alert's priority<br />6. Execute action",
+        "testData": null,
+        "expectedResult": "On 2. Both options to execute are shown: executing command or input options as part of commands<br />On 6. The data is validated. OpsGenie App bot returns an ephemeral post as a response: <br />- If the team's name is valid, the alert will be created and the response shown will be `New alert \"[alert message]\" will be created`<br />- If not, the post shows the error",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f5ed3c56b0353a03af6eafd24330f95f4c4a587ea4fe16384c17b2b22ae796f688d22bc7fb8e9bab0b33c5e96aff6bfc",
+  "stepsHashed": "3da1b6cf3d6989e496f6aa66f100e94cf2f90037c30c1a8ddae137eebfc585313044018436e6ae41d6320f0df7a7bdc5"
+}

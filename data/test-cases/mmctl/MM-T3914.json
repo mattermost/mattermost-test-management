@@ -1,0 +1,55 @@
+{
+  "id": 9458477,
+  "key": "MM-T3914",
+  "name": "Export - List : No permissions",
+  "createdOn": "2021-03-15T06:59:45Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.33 (March 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal account:<br><br>mmctl export list",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "54618a06d689ffcc47f4fb59480c5c319edc91388ee7086200d8cdac76a8b31a1cecbe9e2a39d0712097b6391de8a2e7",
+  "stepsHashed": "b5b086815956e6f9dc9328847b5d280def2eced1e1852df3b18f4bd47447d1a5bd2e5953e4632390a5cd8fda17861c4b"
+}

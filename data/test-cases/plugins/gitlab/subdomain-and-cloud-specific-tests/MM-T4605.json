@@ -1,0 +1,55 @@
+{
+  "id": 17862505,
+  "key": "MM-T4605",
+  "name": "Chimera proxy is functional (Cloud Only)",
+  "createdOn": "2022-01-26T22:44:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139778,
+    "name": "Subdomain and Cloud specific tests",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Subdomain and Cloud specific tests"],
+    "fullPath": "plugins/gitlab/subdomain-and-cloud-specific-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Spin up a test server on test.mattermost.cloud<br />2. Install the GitLab plugin<br />3. Enable Chimera proxy and enable the plugin<br />4. Run <em>/gitlab connect </em><br />5. Click the connection link <em> </em><br />6. Click Confirm ",
+        "testData": null,
+        "expectedResult": "On 5. Once the user authenticates to GitLab they see the Chimera confirmation screen.<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1658352490515-1658352490515.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />On 6. User is successfully authenticated",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "72113a031f73a0f60dff71e455b7bd517ae6d9d81bc8f563193ce3f0859fdd5bfa7cc45074916dd570b9615bd33e1f0d",
+  "stepsHashed": "55ca687c7d79e7933184b4db57baafa4af903a5c237342d9c94f09eb4527638a6f33a97f8c062c106a33ada61d61898a"
+}

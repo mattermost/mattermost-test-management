@@ -1,0 +1,55 @@
+{
+  "id": 4716766,
+  "key": "MM-T1571",
+  "name": "09 - Restore a team",
+  "createdOn": "2020-03-04T03:24:58Z",
+  "objective": null,
+  "precondition": "A team should already be present and archived.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404278,
+    "name": "CLI",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "CLI"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Run <em><span style=\"color: rgb(41, 105, 176);\">`./mattermost team restore ateam`</span></em>",
+        "testData": null,
+        "expectedResult": "Refresh, team is back in team sidebar (preserves team membership) `<em><span style=\"color: rgb(41, 105, 176);\">./mattermost team list`</span></em> includes restored team <br><br>On RN: Quit out of both iOS and Android and relaunch apps. <br>\"A Team\" should be listed on team selector on the LHS.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ad4edf6f3592a9e4f82967c57064f38fc5f010071cd235e3cf30aae0afe9db1ed173ecaed96e9df96751a0b1d795505a",
+  "stepsHashed": "9932e207b35ae71fc1bbfb2a2153e69ca0c5e3058874a994abec1b0dcc9b16a76ba3611ceebcaca403fc84a982ec80cb"
+}

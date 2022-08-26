@@ -1,0 +1,55 @@
+{
+  "id": 3741725,
+  "key": "MM-T94",
+  "name": "RHS fetches messages on socket reconnect when a different channel is in center",
+  "createdOn": "2019-12-20T16:32:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "10/28/21 - Lindy - Cannot do this test in RF as VMs cannot be set to off-line via dev tools.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RHS fetches messages on socket reconnect when a different channel is in center<br />--------------------<br />1. Reply to a post from another test user<br />2. Keep the RHS open but switch to a different channel in the center<br />3. Disconnect from internet<br />4. Have the other test user from step 1) comment on your reply from the RN app<br />5. Re-connect to the internet",
+        "testData": "FIXED v5.15 <a href=\"https://mattermost.atlassian.net/browse/MM-17634\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-17634</a>",
+        "expectedResult": "The post made by the test user during your network disconnect appears in the RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "881274a4b77948c5fed6a82928861d73e8463cedcf5fc36d37a38db9a98fefb57d3d0471fa332321d24519398c00d5b7",
+  "stepsHashed": "94749f660d5fb1c29b585116a93c2e729d0339b75a36b4356d045010391b8a2ec42a97fe57e4e2fd966427a47e5a5d0e"
+}

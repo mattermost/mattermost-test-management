@@ -1,0 +1,60 @@
+{
+  "id": 4152374,
+  "key": "MM-T1391",
+  "name": "Manage Users - View Guest Users",
+  "createdOn": "2020-01-30T23:27:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "cy-prod",
+    "guest-accounts"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:17 AM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
+    "Rainforest": [],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Manage Users - View Guest Users<br>–––––––––––––––––––––––––<ol><li>Login to the application and click on Invite People and invite few guests. Accept all the invitations and ensure there are different guest users in the system.</li><li>Now Log in as a team admin and navigate to System Console ➜ Users Page.</li><li>All the Guest Users should not be shown as Member or System Admin, but instead be shown as Guest in the User Listing page.</li><li>Click on the Guest dropdown for one of the Users and check out the options shown.</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>It should show options to:<br>Deactivate<br>Manage Roles<br>Manage Teams<br>Reset Password<br>Update Email<br>Promote to Member<br>Revoke Sessions.<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1617058226406-SharedScreenshot.jpg\" style=\"width: 300px;\" class=\"fr-fil fr-dib\"></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a11d4db7aba9eb31e6c8aeb3c35c8adca0f479d55e468ecf6c75ff44447057b00b026b74473576100cc715096eb49818",
+  "stepsHashed": "43f55fa212526bbef276bf8d081ca9a8605f48d796616f80b4856b23ddc38192a5a65d029481e6bbffa5776fe7a3d609"
+}

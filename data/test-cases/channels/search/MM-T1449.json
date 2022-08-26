@@ -1,0 +1,55 @@
+{
+  "id": 4335564,
+  "key": "MM-T1449",
+  "name": "\"in:[channel name]\" search shows both the channel name and channel ID (in brackets)",
+  "createdOn": "2020-02-12T18:28:20Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click in the Search box and start typing \"in:town-square\" (or the name of any other channel)</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Autocomplete suggestions show both the channel name and the channel<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1581532347669-2020-02-12_13-30-36.png\" style=\"width: 427px;\" class=\"fr-fil fr-dib\"></li></ul><br><strong>Related tickets</strong>:<ul><li>(Story):&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-18911\" rel=\"noopener noreferrer\" target=\"_blank\">Filtering search by channel should also show the channel name and not only its ID — MM-18911</a></li><li>(Won't Fix): <a href=\"https://mattermost.atlassian.net/browse/MM-22259\" rel=\"noopener noreferrer\" target=\"_blank\">White glow around the search box — MM-22259</a></li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "dce199a6cc8e9d8fc9eba6f88a6234c12005c7cb42c7124f4a05f48610855c31d662a8e52fe7e669f2929c3d2978f49f",
+  "stepsHashed": "6e405ccaf43e1101efe62a5dbb9b8bf9e47a9e3661867f0ccdd33b8a01ff71238408e3c50a0c9b7779d84600413f283a"
+}

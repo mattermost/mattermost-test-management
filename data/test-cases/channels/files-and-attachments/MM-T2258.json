@@ -1,0 +1,55 @@
+{
+  "id": 5445379,
+  "key": "MM-T2258",
+  "name": "YouTube Video play, collapse",
+  "createdOn": "2020-05-20T06:43:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "YouTube Video play, collapse<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Post the following (for mobile apps, okay to post from a browser and tap the link from phone): <br />https://www.youtube.com/watch?v=gLNmtUEvI5A<br />2. Click &quot;Play&quot; button in center of preview to start the video.<br />3. Collapse the video using the collapse/expand arrows left of the YouTube video URL",
+        "testData": null,
+        "expectedResult": "Step 2: YouTube video starts playing<br />Step 3: YouTube video collapses and stops playing",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9e6876a4ca018707357a953802992d6eb54a3e0ea3bb28b5de2df7a0735d7b0f1c6a8af79a7f946cf1d866f8df718c17",
+  "stepsHashed": "001b2d9694dc02c0f275ed23eca0580597f477fe4be808a31644dd120819f7d51d012fe2ad1cc6786d057ca0d53af67d"
+}

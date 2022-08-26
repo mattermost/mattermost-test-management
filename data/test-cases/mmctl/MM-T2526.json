@@ -1,0 +1,94 @@
+{
+  "id": 5530141,
+  "key": "MM-T2526",
+  "name": "Login - Interactive",
+  "createdOn": "2020-05-27T13:10:24Z",
+  "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Include in monthly smoke-test</span></h1>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Login - Interactive<br>————————————————————————————<ol><li>In a command line window set to the directory where 'mmctl' is installed in</li><li>Run \"mmctl auth login https://mysql.test.mattermost.com\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are prompted for connection name</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Type in a connection name, e.g. \"mysql.test\" and hit enter</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are prompted for your username</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Enter your admin username and hit enter</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are prompted for your password</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Enter the correct password for the admin username</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You will get feedback saying \"credentials for mysql.test stored\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af3be3ce118f3d36d1a63d81b72fc6199a3eaf1d873f4efc1322997349ab5f738a6602cae340152283325671b362098c",
+  "stepsHashed": "42e60ddc01f5caaddd82c3d51693933a4da2a84318d7e2c8d5fdb1c1489d6349cbc6e0ba6a0a768a6db1b45dbdb3d654"
+}

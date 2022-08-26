@@ -1,0 +1,68 @@
+{
+  "id": 5477832,
+  "key": "MM-T2412",
+  "name": "Demo plugin rejects posts in the demo channel",
+  "createdOn": "2020-05-22T11:15:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1016041,
+    "name": "Demo Plugin",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Demo Plugin"],
+    "fullPath": "plugins/demo-plugin"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Install and enable the demo plugin<br>2. Join the demo plugin test channel<br>3. Make a post i the demo channel",
+        "testData": null,
+        "expectedResult": "Post in not made in the channel and Demo plugin user makes a post informing the user that posting in the demo plugin channel is not permitted",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open any channel other than the demo plugin channel<br>2. Post an @ mention for the demo plugin user",
+        "testData": null,
+        "expectedResult": "Post in not made in the channel and user gets a system message \"You must not talk about the demo plugin user\"",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "38e6dcdd5336f9a004081dcd506ce909dde69a48f0530dc1e2bc29090397090b209a3e3bb0f95dc696211b47df59ac51",
+  "stepsHashed": "65acb3fc2a4257a09f6ad73c4a43bccd6c2349cdc480696c205e1231530610cb6a8fecfbd5727793884921141ef7f7b7"
+}

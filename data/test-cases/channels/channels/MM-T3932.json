@@ -1,0 +1,55 @@
+{
+  "id": 9574317,
+  "key": "MM-T3932",
+  "name": "Show user status in Find Channels modal",
+  "createdOn": "2021-03-19T14:08:43Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.35 (May 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<u>Show user status in Find Channels modal</u><ol><li>Open Find Channels modal using cmd+K</li><li>Search for some DMs<ol style=\"list-style-type:lower-greek\"><li>Verify user status is displayed on user's profile picture </li></ol></li><li>Search for user you haven't DM previously<ol><li>Verify, when undefined, user status is not displayed on the avatar</li></ol></li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Find Channels modal displays user status information on the avatar</li><li>When undefined, user status is not loaded; in that case status will not be displayed on the avatar on the Find Channels modal </li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e5d53e6338aaf4b282855a61fc43ae49af044940712f2d8e7617aaee09a4c875b1826ef2a69c61977ac5f344ebd3ec04",
+  "stepsHashed": "e88adaa3f4100383e1a488f7ab1b43d956bf783b5c797973ba697284c185001fadd01bae6094e1cdb5cea2aadf5ed6e9"
+}

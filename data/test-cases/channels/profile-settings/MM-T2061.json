@@ -1,0 +1,55 @@
+{
+  "id": 5444608,
+  "key": "MM-T2061",
+  "name": "Nickname - Cancel edit",
+  "createdOn": "2020-05-20T05:50:40Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Nickname - Cancel edit<br />—————————————<br />1. On an account that has a nickname set:<br />2. Go to User menu &gt; Profile &gt; Profile Settings &gt; Nickname &gt; Edit<br />3. Enter a new value<br />4. Click Cancel",
+        "testData": null,
+        "expectedResult": "Nickname field reverts to previous value.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "002ecde88e08f0d1e1a098db214f93916384618e4cfeb85006097b69a8f25e6b365fc3adf46a9525715bda3f6625da79",
+  "stepsHashed": "7547717cfefae4f3afb3d2761671c0b083b2df628fc9a535fae75c2e999583e350926c063631aa471aba13cd924e97da"
+}

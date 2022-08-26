@@ -1,0 +1,120 @@
+{
+  "id": 6197856,
+  "key": "MM-T3137",
+  "name": "Backup and restore",
+  "createdOn": "2020-07-14T18:40:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 821856,
+    "name": "Omnibus",
+    "parentId": null,
+    "fullNames": ["Omnibus"],
+    "fullPath": "omnibus"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "Omnibus"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Backup and restore<br>————————————————————————————<br>After the previous test:<ol><li>Run \"mmomni backup\"</li><li>&nbsp;Copy the backup tarball to a different server</li></ol>",
+        "testData": null,
+        "expectedResult": "After 1, a backup tarball file should be produced",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "In the new server:<ol><li>Run the \"curl -o- <a href=\"https://deb.packages.mattermost.com/repo-setup.sh\">https://deb.packages.mattermost.com/repo-setup.sh</a> | sudo bash\"</li><li>Run \"apt install mattermost-omnibus\" and follow the steps</li></ol><br>Note: Can be tested too in the same server but should fully remove mattermost-omnibus, delete the database and almost put the server back to its initial state by:<br>\"\"sudo systemctl stop mattermost &amp;&amp; sudo -u postgres dropdb mattermost &amp;&amp; sudo -u postgres dropuser mmuser &amp;&amp; sudo apt purge mattermost-omnibus -y &amp;&amp; sudo apt autoremove -y\"\"<br><br>",
+        "testData": null,
+        "expectedResult": "<ul><li>Mattermost-omnibus should install correctly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Run \"mmomni restore BACKUP_TARBALL\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The backup should be correctly restored</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Run \"mmomni reconfigure\"</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The reconfigure command should work correctly</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Go to the server URL</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The server should be accessible via http, as it was configured that way in the previous test</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Login to the server and go to Town Square</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The contents of the channel should be the same ones that existed in the old server</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "813f2b89b36c41feee6f35f053ed2ca88d7baee6ef31be973f51dd37736270c6b2908c115f6f84a4ee81c8a2241314b7",
+  "stepsHashed": "4eb258bec64905b28a4f6531fb6a29436078f2d66f84444ebbbba9bc6b4a371c14f5d74f19eb83e289e7fddd79b746fd"
+}

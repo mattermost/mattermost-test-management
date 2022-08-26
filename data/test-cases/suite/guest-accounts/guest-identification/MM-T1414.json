@@ -1,0 +1,55 @@
+{
+  "id": 4152397,
+  "key": "MM-T1414",
+  "name": "Add Guest from Add New Members dialog",
+  "createdOn": "2020-01-30T23:27:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581532,
+    "name": "Guest Identification",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.17 (Nov 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Add Guest from Add New Members dialog<br>–––––––––––––––––––––––––<ol><li>Ensure there is a Guest User present on the system say Guest1 who is removed from all the teams/channels.</li><li>Now Login as a Sysadmin and navigate to a Channel.</li><li>Click on Manage Members and then click on Add New Members button</li><li>Search for Guest1</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Guest1 user should not be shown in the search results in Add New Members Dialog</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.17 (Nov 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19357\">Guest Accounts: Guest User should not be shown in the list while Adding New Members to a Channel — MM-19357</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "de2d192f8684b9cb2b52a38bcf457c0fef627285fecde84e58a8c05d676c45ebfc707d644b86239d79fa904a0062b83c",
+  "stepsHashed": "c7bdbc77aac5b2b044d87862d8063b7a99dfe57d8ca66c8a7dfc1ebedd73c670883f5065bc3378f88fde148393fb7f39"
+}

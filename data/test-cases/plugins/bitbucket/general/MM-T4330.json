@@ -1,0 +1,55 @@
+{
+  "id": 15984273,
+  "key": "MM-T4330",
+  "name": "/bitbucket me",
+  "createdOn": "2021-11-04T17:34:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1914726,
+    "name": "General",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "General"],
+    "fullPath": "plugins/bitbucket/general"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Post &quot;/bitbucket me&quot;",
+        "testData": null,
+        "expectedResult": "Posts an ephemeral message &quot;You are connected to bitbucket as:&quot; followed by your bitbucket profile picture and username.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "0403ef1b0ac6fdad42cffd1564a3374d85c4a6ae15e11cf4e2285e4ef997959e2b3c1e3f33b10d001eb21697276d206a",
+  "stepsHashed": "a002a0c89dbe8faaa4cecc9d4c1fccf1b85ac37d2e23c8b1a9663ed6cac57c5ea11c80d807ef22da66ecbea55fd9bdf4"
+}

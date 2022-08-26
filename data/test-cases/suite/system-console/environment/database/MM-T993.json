@@ -1,0 +1,55 @@
+{
+  "id": 4050832,
+  "key": "MM-T993",
+  "name": "Minimum hashtag length at least 2",
+  "createdOn": "2020-01-21T20:14:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568111,
+    "name": "Database",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Database"],
+    "fullPath": "suite/system-console/environment/database"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Set min hashtag length to 2 and click Save, value saves as 2</li><li>Set to 1 and click Save, it resets itself to 3</li></ol>",
+        "testData": null,
+        "expectedResult": "Could add test for 2-character hashtag, particularly in Japanese, from original issue:<br><a href=\"https://mattermost.atlassian.net/browse/MM-4819\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-4819</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f8473ccac149a298c226cf7d2a65bb5513cf2db75cb8baa3f23fd799255bcf06c24bc41f1d7585909bbbf8f4c879b517",
+  "stepsHashed": "1f6ce85d1de56ff91c9a57213d42daa94b45c03c10db1a5c8790b8e6d22787e5ef682323b439e7adeaf16f461b3b183a"
+}

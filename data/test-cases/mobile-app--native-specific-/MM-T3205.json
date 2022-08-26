@@ -1,0 +1,55 @@
+{
+  "id": 6396881,
+  "key": "MM-T3205",
+  "name": "RN apps: Remove user from private channel",
+  "createdOn": "2020-07-30T21:04:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "ESR", "1.42-p123", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Remove user from private channel<br>————————————————————————————<br>Ideally, use two devices and watch on the removed user's app / browser as they're removed from the channel to verify they are redirected to Town Square<ol><li>Tap the name of a private channel</li><li> Tap `Manage Members`</li><li> Type the beginning of a user's name in the search box</li><li>Select user and tap `Remove`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User is removed from channel:</li><li>Member count decrements by one</li><li>System message posts in channel for the user who removed them</li><li>If watching as the removed user, that user sees Town Square, and the channel is removed from their channel drawer list</li><li>User that was removed now also sees a message in a modal (from desktop) advising them they have been removed (if viewing channel while removed).</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d9a79e471863e1fa6583cd06b0aef9c1672036da9129232fb1d7cc01cb4a1f1500cad1112573e56971b5baa744ca8460",
+  "stepsHashed": "c84be1923ae0b7c053de5e633b3d4e9a485764c1dfda7c6aff8d76b94072ddde6cb26faf4068eec5ea7df30a112bff5c"
+}

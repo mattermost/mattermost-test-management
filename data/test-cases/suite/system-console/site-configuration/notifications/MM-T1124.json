@@ -1,0 +1,55 @@
+{
+  "id": 4058514,
+  "key": "MM-T1124",
+  "name": "Notification Settings\nMobile Push - DM, full message content sent in the notification payload",
+  "createdOn": "2020-01-22T17:58:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569154,
+    "name": "Notifications",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Notification Settings<br>Mobile Push - DM, full message content sent in the notification payload<br>–––––––––––––––––––––––––<ol><li>As an Admin go to System Console ➜ Site Configuration ➜ Notifications</li><li>Set \"Push Notification Contents\" to \"Full message content sent in the notification payload\"</li><li>Log in to a test account on your mobile device.</li><li>Set the test account to away, if notifications are set to fire when away or offline</li><li>Send a direct message to the test account</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>DM push notification shows the other user's name as the title, followed by a snippet of the message contents</li><li>Mentions appear with channel name as the title, with the body as \"username:\" followed by a snippet of the message contents</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2e918b201da7f0a6582b2072906c76b37274993772fde504753bae9995df593049b59a2c6a9e258263b050b120d809a7",
+  "stepsHashed": "c14dc85d25a68e46c34c24166af29f778a24e1a0b69bbcca6ffa7d59f939fcc10680eca4745d4b3af834d6c6a0ec5efb"
+}

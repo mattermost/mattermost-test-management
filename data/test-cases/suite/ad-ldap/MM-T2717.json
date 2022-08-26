@@ -1,0 +1,55 @@
+{
+  "id": 5600866,
+  "key": "MM-T2717",
+  "name": "Only LDAP signin enabled\n\nTeam invite carries through LDAP signin",
+  "createdOn": "2020-06-01T17:46:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "ldap"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Only LDAP signin enabled<br><br>Team invite carries through LDAP signin<br>————————————————————————————<br>FIRST, MAKE SURE YOU EITHER 1) have a system admin who stays logged in in a separate browser, or 2) have an LDAP user who is a system admin, so that you'll be able to get back in to the System Console<ol><li>From the system console, disable all signin / account creation methods EXCEPT AD/LDAP</li><li>Switch back to a Mattermost team that is NOT open to all users on the server, and that the LDAP user is not a member of yet</li><li>Go to Main Menu ➜ Get Team Invite Link</li><li>Copy the link</li><li>Open an incognito window</li><li>Paste the link in</li><li>Enter LDAP credentials</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>User is automatically redirected to login page where they can enter AD/LDAP credentials (there are no buttons to press to select an authentication method, like there are when multiple methods are enabled).</li><li>After entering LDAP credentials, the user is joined to the (closed) team</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fe7736ab1d8230382c2cc3349d5582f146a9be07c952da199ec39bef9ab2b1e25135a521c4904fef6ed39733c531700c",
+  "stepsHashed": "e98b79cb9275a7af3b9e5eab09fcbfa5cf0648d893bbd5d8296762fbb6e4133fbcaab465753c11881bf8e26f4549d921"
+}

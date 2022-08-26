@@ -1,0 +1,55 @@
+{
+  "id": 6396935,
+  "key": "MM-T3259",
+  "name": "ADD TESTS FOR Settings - Display - Timezone",
+  "createdOn": "2020-07-30T21:05:03Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["RN_Smoke_Tests", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "ADD TESTS FOR Settings - Display - Timezone<br>————————————————————————————<ol><li>Set timezone to London (or any other time zone your are NOT in) on mobile app (three-dot &gt; Settings &gt; Display &gt; Timezone)</li><li> Post a message, observe on mobile app you see London timestamps</li><li> Log in on browser or desktop as other user, view that post, observe London time on mobile user's profile popover</li><li>As mobile user, set timezone to Automatic, verify setting shows correct timezone, verify your local time on your posts, other user sees your local time on profile popover</li></ol>",
+        "testData": null,
+        "expectedResult": "← see steps",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d226e5df77088733e7254d3142359a8aded81acd7b72f3aaa736d1b466a826ddd61046795e97bdf0a24296b91b11941e",
+  "stepsHashed": "a43b9b45f064bfa626fe96eaf2cb41bf38fb5afb7262492f00a2d7b0181ab73b9ffe7bb92e8667275a5a82ec78c02ddc"
+}

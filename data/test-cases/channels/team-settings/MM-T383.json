@@ -1,0 +1,55 @@
+{
+  "id": 3877562,
+  "key": "MM-T383",
+  "name": "Create a new team",
+  "createdOn": "2020-01-02T23:43:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click hamburger main menu</li><li>Click `Create a New Team`</li><li>Enter team name and click `Next`</li><li>Change the URL if you like (optional) and click `Finish`</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You are taken to Town Square of your new team</li><li>Team name displays correctly at top of LHS</li><li>If viewing on browser, URL is correct</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bd9570e4a112d152d4378285addb241b9f89de6bb27a18d97eb85f8d1e9a7d987943a8c9e27ec3c845e88d63ee886937",
+  "stepsHashed": "334acae0b206bcccb99a5b37597ee401b30714e35b3311138b567bf855bcb013fac8eb1dd4add11cf5103b963dd1e1a5"
+}

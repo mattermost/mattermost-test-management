@@ -1,0 +1,55 @@
+{
+  "id": 3808157,
+  "key": "MM-T303",
+  "name": "Text looks correct when viewed in a non-English language",
+  "createdOn": "2019-12-30T23:49:21Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063150,
+    "name": "Mobile App Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Text looks correct when viewed in a non-English language<br />–––––––––––––––––––––––––<ol><li>Login as the test user in webapp and switch your language to something other than English (go to Settings&gt;Display&gt;Language)</li><li>Login as the test user on RN</li><li>Navigate through the app viewing several pages of the RN app for 2 minutes</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>All pages you view have non-English text that displays normally.</li><li>No /, {} or other non alphabetical characters are displayed</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3855c8c0199db977666fcd5762d009c8b487d896b9655cd8a65ed304e944b5879411b6a267bdf27cecc96207762fb912",
+  "stepsHashed": "6f15873d445a45324f9981c96ec44ad62b3b609d7bdd35e8bfc903e4134dec947c0f37e1102b7bbc76f8780dfbdd1e3e"
+}

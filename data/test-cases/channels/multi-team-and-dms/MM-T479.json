@@ -1,0 +1,55 @@
+{
+  "id": 3904533,
+  "key": "MM-T479",
+  "name": "Open GM via URL",
+  "createdOn": "2020-01-03T14:24:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404295,
+    "name": "Multi-Team and DMs",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Multi-Team and DMs"],
+    "fullPath": "channels/multi-team-and-dms"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Multi-Team and DMs"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Open GM via URL<br />--------------------<br />1. While viewing a GM in a browser, copy the URL<br />2. Switch to a different channel and paste the URL in the message box and post. Make sure that URL is of the form `//messages/`<br />3. Click the link",
+        "testData": null,
+        "expectedResult": "GM channel opens, in the same tab (not a new tab/window)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2038d377e07f694c061b57d3e53ff3ead110f22a0547f550a667b428785bd13559ec309d68664d14db926b9036b7e697",
+  "stepsHashed": "960b86a7e8bb8b31baacafe658d0235af44dfb44bf7b02e0919aecbe6151bfff8b406619b37f6222ccbb3f54992740c7"
+}

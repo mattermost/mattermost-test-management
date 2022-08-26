@@ -1,0 +1,55 @@
+{
+  "id": 8022874,
+  "key": "MM-T3576",
+  "name": "/welcomebot help",
+  "createdOn": "2020-11-26T20:57:39Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054401,
+    "name": "Welcome Bot",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type /welcomebot help",
+        "testData": null,
+        "expectedResult": "show a short usage information",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "d91dcca32e4c1555381ac5e1614d61b82c23785191c01f652de6bdb7d459e704a0386f4b538ac07661e71cd0d9550189",
+  "stepsHashed": "47d809044e3a88594806ab24f67014350628b9753781e0992f126bd8760504418fced4b686732951908d4930cf718c52"
+}

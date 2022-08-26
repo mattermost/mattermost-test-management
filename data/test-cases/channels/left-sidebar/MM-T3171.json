@@ -1,0 +1,68 @@
+{
+  "id": 6377925,
+  "key": "MM-T3171",
+  "name": "Category 3 dot menu on Channels and Favorites categories",
+  "createdOn": "2020-07-29T19:36:05Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Category 3 dot menu on Channels and Favorites categories<br>–––––––––––––––––––––––––<ol><li>Hover over Channels category<ol style=\"list-style-type: lower-alpha;\"><li>3 dot menu is shown</li></ol></li><li>Hover over 3 dot icon<ol style=\"list-style-type: lower-alpha;\"><li>Category options tooltip on hover</li></ol></li><li>Click on 3 dot menu<ol style=\"list-style-type: lower-alpha;\"><li>\"Create New Category\" option available</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Hover over Favorites category<ol style=\"list-style-type: lower-alpha;\"><li>3 dot menu is present</li></ol></li><li>Hover over 3 dot icon<ol style=\"list-style-type: lower-alpha;\"><li>Category options tooltip on hover</li></ol></li><li>Click on 3 dot menu<ol style=\"list-style-type: lower-alpha;\"><li>Create Category option available</li></ol></li><li>Click on Create New Category option<ol style=\"list-style-type: lower-alpha;\"><li>Opens Create New Category modal opens</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "<br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "effdfd8e5a761af1b5503dacd5b7f46da638aef4fb2d0bf5d8a6cabfc80d22650fef528255217ed3ae18c923420a8e87",
+  "stepsHashed": "2dee0587c16ddc2eb52d15fb1f27b7203cd2a3c51724b6fc5276749d08904c9ec62b93dff89fc6aa44c91cfb0ff85295"
+}

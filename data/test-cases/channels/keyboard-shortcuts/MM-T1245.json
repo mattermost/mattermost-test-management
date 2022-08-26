@@ -1,0 +1,55 @@
+{
+  "id": 4064368,
+  "key": "MM-T1245",
+  "name": "CTRL/CMD+K - Open GM using mouse",
+  "createdOn": "2020-01-23T13:38:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a GM with other users<br />2. Press CTRL+K (Windows) or CMD+K (Mac)<br />3. Type a first letter of GM in the \"Switch Channels\" modal<br />3. Select by clicking the GM channel in the list",
+        "testData": null,
+        "expectedResult": "GM channel with user \"test\" and other user(s) opens",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fad3ec461d0743992a1cf99b736a176546562389bf777cf9724ceac897e03a23a3c5bd6e275410546c13f2346b5c30ca",
+  "stepsHashed": "f6c7d175b4cf7a41eb76117f413834e847891be05e1057cd8f58f791eac9c7f1c2bde49941cf8147210665f1898689e9"
+}

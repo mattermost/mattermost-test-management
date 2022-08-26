@@ -1,0 +1,55 @@
+{
+  "id": 5445614,
+  "key": "MM-T2305",
+  "name": "System messages not returned in search results",
+  "createdOn": "2020-05-20T06:50:25Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "System messages not returned in search results<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Join a channel<br />2. Search for your username",
+        "testData": null,
+        "expectedResult": "The System Message saying &ldquo;username has joined this channel&rdquo; does not show up in search results.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "aac54945860fe820a18af6150d1430af5eb9fbea338944f25abce26de92956f3e8a61632d00a5d0b3fafa8596d3d5de7",
+  "stepsHashed": "1421d4132bfc5a45f24fe3c6d2450fd41041a95a541da96e70d8161f6b5c50b31c5265ef304a1727fc6a49d48e8b7fee"
+}

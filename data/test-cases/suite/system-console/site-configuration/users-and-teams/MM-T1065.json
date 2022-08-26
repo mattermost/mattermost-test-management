@@ -1,0 +1,55 @@
+{
+  "id": 4058075,
+  "key": "MM-T1065",
+  "name": "Teammate Name Display: first and last + RHS reply thread",
+  "createdOn": "2020-01-22T16:25:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Teammate Name Display: first and last + RHS reply thread<br />--------------------<br />4. Click Reply on each one and verify in RHS as well<br /><br />(in Se, search for the post first, then reply, b/c hard to find the correct post to reply to if it's not the only one in the channel)",
+        "testData": null,
+        "expectedResult": "Users should display:<br /><br />a. usera<br />b. Firstb Lastb<br />c. userc<br />d. Firstd<br />e. Firste Laste",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "16bdc1448718b43f265a5c51108200bca8cb6583d83ca11145594f671b5dbf871b371d4f4f0c7532a074fb828654939a",
+  "stepsHashed": "3a41525c908d94b62b874d646f0868e837577cd30eece3236824bbd0c887fa4afc3da2d39dee26b2893700a6f250679b"
+}

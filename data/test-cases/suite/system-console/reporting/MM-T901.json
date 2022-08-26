@@ -1,0 +1,61 @@
+{
+  "id": 4047134,
+  "key": "MM-T901",
+  "name": "System Console opens to System Statistics",
+  "createdOn": "2020-01-21T13:17:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "Cloud-N/A",
+    "se-prod",
+    "system-console"
+  ],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 538608,
+    "name": "Reporting",
+    "parentId": 404340,
+    "fullNames": ["Suite", "System Console", "Reporting"],
+    "fullPath": "suite/system-console/reporting"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Click hamburger main menu, select System Console",
+        "testData": null,
+        "expectedResult": "System console opens, displaying Site / System Statistics (/admin_console/system_analytics), verify expected content sections",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1e198ac692fc7af9be7b6907b628136e71195acccbfd6baaaf24f7c04e95b2294dc693e3a637571a2215c84b86f2da1a",
+  "stepsHashed": "79f490b6a19a13a71be1768a89c2fca78613f9958e4a86825ac53568260bfdaae8b0a8e75e112701c12b25460c359b33"
+}

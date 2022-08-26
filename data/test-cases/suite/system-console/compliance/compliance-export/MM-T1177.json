@@ -1,0 +1,107 @@
+{
+  "id": 4058907,
+  "key": "MM-T1177",
+  "name": "Compliance export should include updated posts after editing multiple times, exporting multiple times",
+  "createdOn": "2020-01-22T19:26:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569413,
+    "name": "Compliance Export",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)", "v5.15 (Sept 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Should include updated post<br>–––––––––––––––––––––––––<ol><li>Create 2 new posts, edit the last one, export</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Should see 3 messages (2 original and 1 edited)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)", "v5.15 (Sept 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-18522\">Edited posts are not included in Compliance Export (Beta) — MM-18522</a>​​​​",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Create 2 new posts, edit the first one, export</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Should see 3 messages (2 original and 1 edited)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Edit a previously exported post, export</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Should see 1 edited message</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Edit previously exported post and create a new post, export</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Should see 2 messages (1 original and 1 edited)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Create a new post, edit it twice, export (should see 3 messages exported)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Should see 3 messages (1 original and 2 edited)</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "64960c6584c2164426126e0f6776f086bc5b5c7accd7d7e0eeb32e5b4c549d0af30994067931b2105af7c4a65eebe6c7",
+  "stepsHashed": "09a88b46218651d25767adb98e7813dbdabdf888c5fba62ea8e899680a27f0f1bdb3ae2ec79313f7aaa0b1853382b1d5"
+}

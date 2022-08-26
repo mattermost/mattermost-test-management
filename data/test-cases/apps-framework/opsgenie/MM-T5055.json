@@ -1,0 +1,56 @@
+{
+  "id": 28665879,
+  "key": "MM-T5055",
+  "name": "OpsGenie command: `/genie alert ack`",
+  "createdOn": "2022-08-16T14:52:32Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3290379,
+    "name": "OpsGenie",
+    "parentId": 1214365,
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T5049" } },
+    {
+      "inline": {
+        "description": "2. Run the `/genie alert ack` command<br />3. Add alert's tiny ID (number of alert)<br />4. Execute action<br />5. Run /genie close on the acknowledged alert",
+        "testData": null,
+        "expectedResult": "On 2. Both options to execute are shown: executing command or input options as part of commands<br />On 4. The data is validated. OpsGenie App bot returns an ephemeral post as a response:<br />- If the alert ID is valid, the alert changes to an acknowledge state<br />- If the alert ID is not valid, the post shows the `Alert with tiny [ID] not found.`<br />-If the alert is already acknowledged the error message appears as `You already have acknowledged #[ID]`<br />On 5. Alert successfully closes",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5fbd19d84499f94dec88eb5d34fcffe51982dc47345f4270d40b3a1a3e41ce7b81c2fafadc69e902ed5adc13b97c549f",
+  "stepsHashed": "89600427435e4e17bff412530d668d67a2a3e8150fadb6e42c11a8cdc9862b0263f827fff7a3ca9ed8b268be88901561"
+}

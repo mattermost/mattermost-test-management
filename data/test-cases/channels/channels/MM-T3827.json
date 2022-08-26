@@ -1,0 +1,55 @@
+{
+  "id": 8853489,
+  "key": "MM-T3827",
+  "name": "Find Channels modal should focus first result",
+  "createdOn": "2021-02-03T19:06:13Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1059110,
+    "name": "Channels",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channels"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Find Channels modal should focus first result<br />______________________<ol><li>Open Find Channels modal (ctrl/cmd+k)</li><li>Type a partial search term, something you know will return few results<br />i) Verify first item is focused</li><li>Use backspace to delete the last character added<br />i) Verify first item is focused after backspacing</li><li>Hover over one of the results (or use arrow keys to move from the top result); use backspace again<br />i) Verify first item is in focus after backspace</li></ol>",
+        "testData": null,
+        "expectedResult": "At step 2. &gt; First item in the results list should be in focus<br />At step 3. &gt; First item in the results list should remain in focus when backspacing<br />At step 4. &gt; Mouse hover and keyboard arrows selection of the result does not keep the focus after backspace is used and will jump focus back to top result",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7318de41aa8f66771b388e3c61a4252cb05a54c0b1b8833e76fd74e9f9d2dc5549c9736c4c7e345ae4792b1533bfd84c",
+  "stepsHashed": "c9fe9498d794c12e83831b8418568f5dd197e922892c15ad4375a42029c43acb94cf031a81cafe98758d04180d4473db"
+}

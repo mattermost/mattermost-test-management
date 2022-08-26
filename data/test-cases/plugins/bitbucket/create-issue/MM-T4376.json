@@ -1,0 +1,55 @@
+{
+  "id": 15984688,
+  "key": "MM-T4376",
+  "name": "Creating issue from post authored by unmapped users will refrence MM username",
+  "createdOn": "2021-11-04T18:04:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915273,
+    "name": "Create Issue",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
+    "fullPath": "plugins/bitbucket/create-issue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a post as a user not currently connected to bitbucket<br />2. As a test user who is mapped - Attach the post",
+        "testData": null,
+        "expectedResult": "Post authored by unmapped users will refrence MM username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a6aeb797c2db6230ea785d5f9c8c0496613a545047ceda1feb5f4a6b5169cecfea6b3140e9166a2d14dc9dc30d8b65fc",
+  "stepsHashed": "b21458a3cb9b511e7d140c34a545504d387ac0e2662a81a2e55d0993921715fda8b1424304ddebd600fb1dac461ffea6"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 4403902,
+  "key": "MM-T1513",
+  "name": "Keyboard navigation within RHS",
+  "createdOn": "2020-02-17T18:15:04Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.15 (Sept 2019)", "v5.16 (Oct 2019)", "v5.17 (Nov 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Thursday, December 17, 2020 8:17 PM<br>• Added link to Cypress code in Traceability tab",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Keyboard navigation within RHS<br>–––––––––––––––––––––––––<ol><li>Click on Reply on one of the posts.&nbsp;</li><li>Use keyboard to navigate to RHS (F6) – top result should be highlighted first</li><li>Use up/down arrow keys to navigate from one result to the next ‚Äì navigation should be sequential and not skip around randomly, navigation should <strong>not</strong> loop</li><li>Open up a <strong>long</strong> thread with multiple participants and [at]mentions</li><li>Use keyboard to navigate to RHS (F6) – bottom comment should be highlighted first</li><li>Use up/down arrow keys to navigate from one result to the next ‚Äì navigation should be sequential and not skip around randomly, navigation <strong>should</strong> loop</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Using up/down arrow keys should navigate from one result to the next and should not skip any results in between in both Search results and long threads in RHS</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.15 (Sept 2019)", "v5.16 (Oct 2019)", "v5.17 (Nov 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-19901\">Desktop/Webapp: a11y keyboard navigation within RHS is not navigating in expected order — MM-19901</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Keyboard navigation within search results<br>–––––––––––––––––––––––––<ol><li>Perform a search for a topic that is sure to return a bunch of posts</li><li>Use keyboard to navigate to RHS (F6) – top result should be highlighted first</li><li>Use up/down arrow keys to navigate from one result to the next ‚Äì navigation should be sequential and not skip around randomly, navigation should <strong>not</strong> loop</li><li>Open up a <strong>long</strong> thread with multiple participants and [at]mentions</li><li>Use keyboard to navigate to RHS (F6) – bottom comment should be highlighted first</li><li>Use up/down arrow keys to navigate from one result to the next ‚Äì navigation should be sequential and not skip around randomly, navigation <strong>should</strong> loop</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li><s></s>Using up/down arrow keys should navigate from one result to the next and should not skip any results in between in both Search results and long threads in RHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "61b2b15aa6c6b767fb1de27c5800d1c0fd5cbc8c65a322fe718a2e2a22e47ccf8ccd82408a24767af6ac951e35de6cce",
+  "stepsHashed": "4c9c63d3afa6ec131970badd4ff7e8c1897c315ce7f1ef1ed31b1b5ec0b1f24512198df2b28781d09b89e5d5eacd9e8a"
+}

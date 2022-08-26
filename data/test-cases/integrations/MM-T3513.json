@@ -1,0 +1,55 @@
+{
+  "id": 8022758,
+  "key": "MM-T3513",
+  "name": "Autolink does not apply to edited post when not enabled",
+  "createdOn": "2020-11-26T20:09:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Set Apply Plugin to Updated Posts to false<br />2. Ensure there is a pattern in place<br />3. Type some text that does not match the pattern such as &quot;NN-1234&quot;<br />4. Edit the post to &quot;MM-1234&quot;",
+        "testData": null,
+        "expectedResult": "Pattern is not applied on post edit and a link is craeted.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ab6f80bce26ff81bcd39a873c7f889f9c2d9584e4b8c2e42660921e6ef39849566d4944d40f4f03c888bf3c252669ad1",
+  "stepsHashed": "c4aa3db41dbf5563d79f60d5aabf768b167dd061de212adda9782a691c586c7011f018ea8e34e4dc44d0dd6c84c03f05"
+}

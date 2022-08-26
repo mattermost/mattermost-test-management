@@ -1,0 +1,55 @@
+{
+  "id": 15459886,
+  "key": "MM-T4285",
+  "name": "Adding group color",
+  "createdOn": "2021-10-14T11:46:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1841226,
+    "name": "Board View",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Board View"],
+    "fullPath": "boards/board-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Add a group (see MM-T4284)</li><li>Click on the three dots next to \"Group 1\"</li><li>Click on \"Green\"</li></ol>",
+        "testData": null,
+        "expectedResult": "On step 2, dropdown opens with Hide, Delete and color options.<br />On step 3, \"Group 1\" color changes to Green.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "839629c2bd6e1cd0cccf5cb9c10725245153bb6f81001b9cbc24db7018f79f30baa2698b4fc98a6298089e42ca8fad3d",
+  "stepsHashed": "1817042013204978851ac0a17c72c73b84604b3fb4d5e4dd7ec9e009b117f00817b72ec792520bd6c70f75ff75ea41cc"
+}

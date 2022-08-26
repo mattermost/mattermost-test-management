@@ -1,0 +1,55 @@
+{
+  "id": 5445211,
+  "key": "MM-T2226",
+  "name": "Channel shortlinking - multiple spaces stops autocomplete",
+  "createdOn": "2020-05-20T06:34:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Channel shortlinking - multiple spaces stops autocomplete<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. In message box type a tilde and the first couple letters of a channel name<br />2. Observe the autocomplete appears as expected<br />3. Press space bar twice",
+        "testData": null,
+        "expectedResult": "Channel autocomplete list stays open<br /><br />Continuing to type characters that don't match a channel closes autocomplete<br />Continuing to type characters that do match a channel (including one space) continues to show the autocomplete<br /><br />(One space is treated the same as multiple spaces)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a414818e00edf4e3dc9979a076b5c686251ef64064524fcc65092f4e8523cd680e3de965686634a64119c4c6351d007b",
+  "stepsHashed": "64f8a4252416a1ce06d5c2072da40bce239030fc3182d61abebe2a6f250f29a30a689dd01b6b9362289b4016e9843fc4"
+}

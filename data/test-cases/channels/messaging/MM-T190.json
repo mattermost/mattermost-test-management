@@ -1,0 +1,55 @@
+{
+  "id": 3742399,
+  "key": "MM-T190",
+  "name": "RN apps: Table markdown will show",
+  "createdOn": "2019-12-20T20:46:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Table markdown will show<br />--------------------<br />1. Post the following in a channel:<br /><br /> | A  | B  | C  |<br /> |:---|:---|:---|<br /> | 1  | Name | Toast |<br /> | 2  | Name | Server |<br /><br />2. View the post from the RN app",
+        "testData": "| A | B | C |<br>|:---|:---|:---|<br>| 1 | Name | Toast |<br>| 2 | Name | Server |",
+        "expectedResult": "Tables markdown displays properly, like so (shading may be different, with header row shaded for example, but it should render as a table with the following values in each cell):<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1588150926872-Screen+Shot+2020-04-29+at+2.01.36+AM.png\" style=\"width: 204px;\" class=\"fr-fil fr-dib\">",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c881e7cf6162e48c5e7d8bd42606295c5be54f04c948a8b15169cdf96b27297dbc1b26b3c6483af880d56a2e481b2626",
+  "stepsHashed": "8075ae6c7bb98bc98a440ca91eb84ee697e9f92463d23281e1b381254ffb116e8e288a98efe2568e467f7b8c0ac21966"
+}

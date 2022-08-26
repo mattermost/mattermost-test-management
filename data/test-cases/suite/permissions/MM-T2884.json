@@ -1,0 +1,55 @@
+{
+  "id": 5659435,
+  "key": "MM-T2884",
+  "name": "Member is able to add other member to the team",
+  "createdOn": "2020-06-04T18:02:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is able to add other member to the team<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Select the hamburger menu <br />2. Ensure that the options for Send Email Invite, Get Team Invite link and Add Member to Team are all visible<br />3. Select Add Member to the Team from the menu<br />4. Select a member from the list<br />5. Click Add",
+        "testData": null,
+        "expectedResult": "For step 2: Send Email Invite, Get Team Invite link and Add Member to Team are all visible<br />After step 5, User is added to the team",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "91392491790621ad24fef23e5e022d79498e2c781f30e84a53f9af67ca9321052b296c8646890317337c8016a8518f1f",
+  "stepsHashed": "081c2fdffa7cf688975db0fe7c3a1fb49446f951964249e45e7ac689c432d1379de341f16b732aca6d0783fcf7410ac7"
+}

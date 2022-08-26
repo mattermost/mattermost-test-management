@@ -1,0 +1,55 @@
+{
+  "id": 5445721,
+  "key": "MM-T2311",
+  "name": "Team Name: Cancel out of form",
+  "createdOn": "2020-05-20T06:56:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team Name: Cancel out of form<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Team Settings -&gt; General &gt; Team Name -&gt; Edit<br />2. Change fields to blank<br />3. Cancel",
+        "testData": null,
+        "expectedResult": "Team Name reverts to previous value (should not be blank).",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "be92cd74b7d2ab3f26dcde09f7547510ae52a98342894ea83eb59b6535eefeeba01bed195c8cfc7d6c5586a8fc49dcae",
+  "stepsHashed": "ec75b321bd3622e7be8deb124a39b632f4f0b2de649ea2cd85010831fa219475a79501d2253736fb63c05eaf572fad8b"
+}

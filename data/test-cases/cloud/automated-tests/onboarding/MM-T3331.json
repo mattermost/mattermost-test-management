@@ -1,0 +1,81 @@
+{
+  "id": 6770628,
+  "key": "MM-T3331",
+  "name": "Sysadmin - Set team name and team icon",
+  "createdOn": "2020-08-26T20:06:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 894619,
+    "name": "Onboarding",
+    "parentId": 1341388,
+    "fullNames": ["Cloud", "Automated tests", "Onboarding"],
+    "fullPath": "cloud/automated-tests/onboarding"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Enter Team Name and Team Icon<br>–––––––––––––––––––––––––<ol><li>Open a new Mattermost Cloud instance as a sysadmin</li><li>Click the 'Name your team' card header</li><li>Enter a team name</li><li>Select a team icon</li><li>Click Save Team</li></ol>",
+        "testData": null,
+        "expectedResult": "You should be proceeded to step 3, step counter should increment.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Enter Full Name - No name provided<br>–––––––––––––––––––––––––<ol><li>Open a new Mattermost Cloud instance as a sysadmin</li><li>Click the 'Name your team' card header</li><li>Clear the team name from the textbox</li></ol>",
+        "testData": null,
+        "expectedResult": "'Save team' button should be disabled, error message should display",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Add Team Icon - upload file of wrong type<br>–––––––––––––––––––––––––<ol><li>Open a new Mattermost Cloud instance as a sysadmin</li><li>Click the 'Name your team' card header</li><li>Click the pen icon on the Select Icon element</li><li>Select a file that isn't a .bmp, .jpg, or .png</li></ol>",
+        "testData": null,
+        "expectedResult": "'Save team' button should be disabled, error message should display",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fdcc971e9ab95a8919ef1475e33fee28cc7315e5e213cd30299a25a1403129db01540ed80f47c4847ee751765484f231",
+  "stepsHashed": "8817a70787f50473e656d233b81b658972a45492a0e2f7ca15bf26f7d140c8171c8d419d41591e4ad2328ddc29ca5239"
+}

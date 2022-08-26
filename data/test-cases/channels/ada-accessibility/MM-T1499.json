@@ -1,0 +1,55 @@
+{
+  "id": 4403888,
+  "key": "MM-T1499",
+  "name": "Screen reader should not switch to virtual cursor mode while navigating with CTRL+F6/F6, arrow keys or TAB, unless virtual cursor mode is toggled on/off by the user",
+  "createdOn": "2020-02-17T18:15:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Screen reader should not switch to virtual cursor mode while navigating with CTRL+F6/F6, arrow keys or TAB, unless virtual cursor mode is toggled on/off by the user<br>–––––––––––––––––––––––––<ol><li>Open JAWS and toggle virtual PC cursor off with INS+Z</li><li>Use CTRL+F6/F6 to navigate and loop through all app regions</li><li>In each regions, use up/down arrows or TAB and ensure green highlighting is not seen</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>When navigating between different app regions and while navigating within each region, green highlighting should not be seen.</li><li>Screen reader stays in \"form mode\" and does not switch over to virtual cursor mode<br><strong>Tip</strong>: You can check whether virtual cursor mode is on/off by pressing \"Insert+Z\" on your keyboard (this toggles virtual cursor mode on/off</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-17848\">JAWs switching to virtual cursor mode when using F6 navigation — MM-17848</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7a9020b9e21bcfdb9adfc13f204cbb343f9511d38f1f074e6102b992d9d05420f14908c79ec15a5bd1db9102f05ca1e4",
+  "stepsHashed": "4f3c85be15d202757bc24c8e064f43c2f8decd5a17cf69d9a673b0cea4704ba84cd649ab99035ca9e69d1e92fd67a89d"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3968328,
+  "key": "MM-T629",
+  "name": "Incoming webhook with Slack attachment, mention in `pretext`",
+  "createdOn": "2020-01-08T12:57:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.2 (August 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:25 AM<br />• Cypress Automation working as expected 🎉<br />• Removed from relevant Manual Environments",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["Integration Frameworks"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Incoming webhook with Slack attachment, mention in `pretext`<br />–––––––––––––––––––––––––<ol><li>Set up an incoming webhook with any title, description (can leave username and pic blank)</li><li>Copy the incoming webhook URL</li><li>Go back to team, make sure you're NOT viewing the channel the webhook is going to post to</li><li>In Postman, set up a POST with Body ➜ Raw containing the attached payload</li><li>In the payload / body, replace <span style=\"color:rgb(184, 49, 47)\">USER_ID</span> with your test User ID in this format:<br />&lt;@<span style=\"color:rgb(184, 49, 47)\">i57p7rc4stfg8gfwd71mhhrkoh</span>&gt;<br />(<strong>Tip</strong>: You can get your ID via <a href=\"https://postgres.test.mattermost.com/admin_console/user_management/users\" rel=\"noopener noreferrer\" target=\"_blank\">System Console ➜ Users</a>, ID is located below your username)<br /><br /></li><li>Send the POST</li></ol>",
+        "testData": "{\"attachments\": [{\"type\": \"slack_attachment\", \"color\": \"#7CD197\", \"fields\": [{\"short\": false, \"title\": \"Area\", \"value\": \"Testing with a very long piece of text that will take up the whole width of the table (stopping short of the space where the thumbnail image is displayed). This is one more sentence to really make it a long field, and let's add a taco emoji :taco:.\"}, {\"short\": true, \"title\": \"Iteration\", \"value\": \"Testing\"}, {\"short\": true, \"title\": \"State\", \"value\": \"New\"}, {\"short\": false, \"title\": \"Reason\", \"value\": \"New defect reported\"}, {\"short\": false, \"title\": \"Random field\", \"value\": \"This is a field which is not marked as short so it should be rendered on a separate row\"}, {\"short\": true, \"title\": \"Short 1\", \"value\": \"Short field\"}, {\"short\": true, \"title\": \"Short 2\", \"value\": \"Another one\"}, {\"short\": true, \"title\": \"Field with link\", \"value\": \"&lt;http://example.com|Link&gt;\"}], \"mrkdwn_in\": [\"pretext\"], \"pretext\": \"&lt;@<span style=\"color:rgb(184, 49, 47)\"><strong>USER_ID</strong></span><strong>&gt;</strong> Some text here to look at (verify eyes emoji) :eyes:\", \"text\": \"This is the text of the attachment. There should be a small Jenkins thumbnail off to the right.\", \"thumb_url\": \"https://slack.global.ssl.fastly.net/7bf4/img/services/jenkins-ci_128.png\", \"title\": \"A slack attachment\", \"title_link\": \"https://www.google.com\"}]}",
+        "expectedResult": "<ul><li>You get a mention, mention badge appears on channel in LHS, your username is highlighted in the text above the webhook post attachment</li><li>Verify webhook posts, emoji render, pretext and attachment render, link renders</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.2 (August 2018)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(97, 189, 109)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-10957\">Allow webhook message attachments to trigger mentions — MM-10957</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "12f65e6e7260538d9adfa4ab3225729229ddd03a89f07258707a5f886f6365cd56a8c47741cf3c9d525fcfc84967d49f",
+  "stepsHashed": "718f3ace946843a9292e98e11c581c20bd44d30871b9d0205917707f03792f0fdf94aeca9175e3332f650c2449e78718"
+}

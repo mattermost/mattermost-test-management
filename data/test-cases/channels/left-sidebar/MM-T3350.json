@@ -1,0 +1,55 @@
+{
+  "id": 6884343,
+  "key": "MM-T3350",
+  "name": "Mention badge should remain hidden as long as the channel/dm/gm menu is open",
+  "createdOn": "2020-09-04T02:58:21Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br />• Cypress Automation working as expected<br />• Removed from relevant Manual Environments<br />–––––––––––––––––––––––––",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention badge should remain hidden as long as the channel/dm/gm menu is open<br>________________________________________<ol><li>Start in Town Square ( and save the ID of the Town Square channel for later)</li><li>Switch to the Off Topic channel</li><li>Have another user mention you in a Town Square so that a mention badge appears<ol style=\"list-style-type: lower-roman;\"><li>Verify that a mention badge appears</li></ol></li><li>Open the channel menu<ol><li>Verify that the mention badge disappears</li></ol></li></ol>",
+        "testData": null,
+        "expectedResult": "The mention badge remains hidden as long as the menu is open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "204cdd1717654e873bcaef5e5479512511ddf091bec65fef73b7474d2b053cc4ab9fc7fd3d854184468a0846562d88a3",
+  "stepsHashed": "a577bfd7f905e74b921e8552153530229523692173e0cbd11f2f0d674697140c439a090e3d58f1e43cd5e547f4a885de"
+}

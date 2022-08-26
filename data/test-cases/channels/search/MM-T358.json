@@ -1,0 +1,55 @@
+{
+  "id": 3877460,
+  "key": "MM-T358",
+  "name": "Search \"in:[username]\" returns results in DMs / GMs",
+  "createdOn": "2020-01-02T23:12:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod", "rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Monday, September 21, 2020 1:52 PM<br />• Cypress reporting broken<br />• Priority set to High<br />• Rainforest tests (Mobile &amp; Webapp) in place so I didn't add it to the manual testing pool",
+    "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Search &quot;in:[username]&quot; returns results in DMs / GMs<br />--------------------<br />1. Click in the &quot;Search&quot; input box (RN - tap search icon)<br />2. Type &quot;in:[username]&quot;<br />3. Locate a username for a direct message channel and hit &quot;enter&quot; (RN - tap on username)<br />4. Type a search term <br />5. Hit &quot;enter&quot; (RN - tap search icon)<br />6. Clear search input box and close RHS (RN - tap &quot;X&quot;)<br />7. Click in the &quot;Search&quot; input box (RN - tap &quot;in:channel-name&quot; option)<br />8. Type &quot;in:[username]&quot;<br />9. Locate a username for a group message channel and hit &quot;enter&quot; (RN - tap on usernames)<br />10. Type a search term <br />11. Hit &quot;enter&quot; (RN - tap search icon)",
+        "testData": "Try to avoid using 'stopwords' particularly on mysql servers; they will be ignored (see the sample stopword list in the note attached to this cell)",
+        "expectedResult": "After 5) results for the search term you entered in step 4) are returned<br /><br />After 11) results for the search term you entered in step 10) are returned<br /><br />- applies to both elasticsearch and non-elasticsearch servers<br />- needs server v5.4 and above for mobile",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "58c0c12b252b76279ed52ceafd8093ebd2f576774eb0e1ee59dbcc09fc293b4f12d88f3b7121e6bc675d426fb57f3181",
+  "stepsHashed": "35b6cd72c971b8975f958fbc96a8281e03c8c4b6e202ed4cf737b633a5afb56814c147583ca87c8ca596a730bcd2db79"
+}

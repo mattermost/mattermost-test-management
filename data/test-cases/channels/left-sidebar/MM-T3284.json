@@ -1,0 +1,55 @@
+{
+  "id": 6477117,
+  "key": "MM-T3284",
+  "name": "Left Sidebar: Tab through visible channels on the LHS",
+  "createdOn": "2020-08-04T22:14:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.26 (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<br /><ol><li>Collapse few categories with at least 2 unread channels </li><li>Place focus on the LHS</li><li>Use keyboard \"tab\" key to navigate through channels on the LHS</li></ol>",
+        "testData": null,
+        "expectedResult": "User can only tab through visible channels on the LHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c544ac3d9589e75e5b6b61aff442d0358c64dd8e60e5983e790401fdcee0acaed6b21aef7ed6bdefc6b7eeca18931b98",
+  "stepsHashed": "4789bda88bc27f72264bc5c80928f494fa6c36c7bb42f20d07d1f3928a42b076ef9b818fc76815742a2acb1223785406"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 17674312,
+  "key": "MM-T4512",
+  "name": "Can create issue from permalink view",
+  "createdOn": "2022-01-18T22:43:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 733572,
+    "name": "Jira create",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Perform any search that returns results<br />2. From the RHS click Jump<br />3. Click the post meny of the highlighted post in the permalink view",
+        "testData": null,
+        "expectedResult": "- Can create issue from a post being viewed in permalink view <br />- Issue creation post appears as a reply to the post<br />- Issue creation post visible in permalink view user is viewing",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "62b64f757d458a12c6e9954197ac565f144827fe97a3b0186ba6c30b62a495bceefbe9348370b7afc8b5d1709340db9f",
+  "stepsHashed": "15aa7162a3f14b2086372078c73948eaa01e3387e9b272358dbd7e63058bd34ea469aa3f9c4260099cdda6ae6ee63a6a"
+}

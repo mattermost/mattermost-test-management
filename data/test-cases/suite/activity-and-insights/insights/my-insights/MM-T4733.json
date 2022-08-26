@@ -1,0 +1,55 @@
+{
+  "id": 20029490,
+  "key": "MM-T4733",
+  "name": "Insights - My insights - Scope Menu Open",
+  "createdOn": "2022-03-31T21:20:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2439128,
+    "name": "My Insights",
+    "parentId": 2420038,
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as <strong>UserA</strong><br />2. Select <strong>Activity &amp; Insigh</strong>t from LHS.<br />3. Click <strong>My insights</strong> dropdown",
+        "testData": null,
+        "expectedResult": "3. Following menu options should be available<br />-<strong> My insights<br />- Team insights</strong>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b04e779d1157da86be66f09867c3ed8fb53cf7473c597140d2cde60616bd44e1e195c939d974d3c9a752bcff9e300e75",
+  "stepsHashed": "e16827798bf92328a068eb125c2460ec0f3211c6217b3f05c5c25acaa4eb64d83d7aa9d07c28113c2b20313d96a99efc"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 26651743,
+  "key": "MM-T4952",
+  "name": "Name unique within a channel",
+  "createdOn": "2022-07-28T16:05:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3160301,
+    "name": "Jira subscriptions",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira subscriptions"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-subscriptions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T4949" } },
+    {
+      "inline": {
+        "description": "1. Save a subscription with a specific name such as \"pineapple\"<br />2. In the same channel, add a new subscription also named \"pineapple\" and add an even and issue type<br />3. Save",
+        "testData": null,
+        "expectedResult": "Validation message shows that a subscription with this name already exists",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2d42ea61af9fcf450c1b3c09d204d7e32e6fd6c8f723051e9bfee14f634c3a8d1fb2fa05e584162f5363ae2324c364fa",
+  "stepsHashed": "46b88af8b3cdd2be19e3995fb20a8dbd68783f2aba1c4daa5aa061b641a96a1f3cdb652bd9d2cd266c487b7f59d0389c"
+}

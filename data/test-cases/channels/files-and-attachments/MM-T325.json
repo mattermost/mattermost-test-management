@@ -1,0 +1,55 @@
+{
+  "id": 3877365,
+  "key": "MM-T325",
+  "name": "RN apps: Opening attachments different ways in the UI (reply thread view)",
+  "createdOn": "2020-01-02T22:06:14Z",
+  "objective": null,
+  "precondition": "",
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "files-and-attachments"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404283,
+    "name": "Files and Attachments",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Files and Attachments"],
+    "fullPath": "channels/files-and-attachments"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Update"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Files and Attachments"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Apps: Opening attachments different ways in the UI (reply thread view)<br>–––––––––––––––––––––––––<ol><li>Create or locate a post with various file types attached</li><li>Tap the post to open in reply thread view</li><li>From reply thread, tap on attachment icon</li><li>From reply thread, tap on attachment name</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>For supported document types (e.g. pdf), tapping on attachment icon bypasses the file preview gallery while tapping on attachment name opens the file preview gallery</li><li>The rest of the cases the preview gallery is opened</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": "You can find test files here: <a href=\"https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW\" rel=\"noopener noreferrer\" target=\"_blank\">https://drive.google.com/drive/folders/1xGCy3tp9A_WxOfdgAzBHzrqJ1WCyfSjW</a>"
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5320f3c642849135fdbe1c19bd1ecaed6849d2ba835369deae1e9713d6d0f74c0235421f7f0518f2c8c1bc41b5563109",
+  "stepsHashed": "ae38a886b469706163491cc4c2e45dc6c19591d88cb04e85cf99d070e4a2f6dbf6120d5c25c8ccc843c1a9e43f643a25"
+}

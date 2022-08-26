@@ -1,0 +1,55 @@
+{
+  "id": 3905493,
+  "key": "MM-T496",
+  "name": "Send Desktop Notifications - Never",
+  "createdOn": "2020-01-03T18:53:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Send Desktop Notifications - Never<br>–––––––––––––––––––––––––<ol><li>Click on the hamburger menu to the right of the team name in the LHS</li><li>Select \"Account Settings\" then select \"Notifications\"</li><li>Click \"Edit\" to the right of \"Desktop Notifications\"</li><li>Select \"never\"</li><li> Click \"Save\"</li><li>Have another user post an at-mention and/or DM</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Desktop Notifications are never fired.</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "065bf38bae3c5ceccffdb9a35e46d3431dc86d11b78df1715d0e4f8bfba24f6eb8897551eae725a1817b9934ac294f76",
+  "stepsHashed": "18c3720a56f5d322689d277084ad1b435d10155f02a731a2ed1b9d20ba6a32f26a31beea1c0dd3756445e591eca1da34"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5659447,
+  "key": "MM-T2896",
+  "name": "Member is not able to edit posts",
+  "createdOn": "2020-06-04T18:02:35Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["permissions", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404329,
+    "name": "Permissions",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Never tested"],
+    "Location": "Permissions"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member is not able to edit posts<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Open a channel and locate a post you have made<br />2. Click on the [...] icon to open the options for the post<br />3. Note the options available and ensure Edit Post is not visible<br />4. Repeat these steps for a post that belongs to another user",
+        "testData": null,
+        "expectedResult": "There is no option to edit the posts",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3c5a8641db374358d969ea07aa12866b55f35862e5fb59cc3861fc53240d95f5f663fd24381346bf95b1fe742b2b6c48",
+  "stepsHashed": "26250f8f372049113534b4f49b745354746bdbbb0c28cc656c13c3ec5dd2fe7c6fadb217fa1dc533de86f63adcfed173"
+}

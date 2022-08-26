@@ -1,0 +1,81 @@
+{
+  "id": 6308256,
+  "key": "MM-T3149",
+  "name": "RN apps: Keyboard should be dismissed properly",
+  "createdOn": "2020-07-22T19:57:48Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 410627,
+    "name": "Mobile App (native-specific)",
+    "parentId": null,
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.34 Mobile (August 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Never tested"],
+    "Location": "Mobile Apps"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Post Box<br>–––––––––––––––––––––––––<ol><li>Type any text on post box but do not send or hit enter</li><li> While keyboard is open, swipe right above the keyboard</li><li> Type any text on post box but do not send or hit enter</li><li>While keyboard is open, swipe left above the keyboard</li></ol>",
+        "testData": null,
+        "expectedResult": "After #2 and #4,<ul><li>Keyboard is dismissed and last channel view is shown</li><li>Text typed remains in place</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.34 Mobile (August 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-23079\">https://mattermost.atlassian.net/browse/MM-23079</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "LHS<br>–––––––––––––––––––––––––<br>1. LHS ➜ Public Channels ➕ More Channels<br>2. Type any text on search box but do not hit search<br>3. While keyboard is open, hit X in top left corner<br><br>Perform the same for<ul><li>LHS ➜ Direct Messages ➕ New Conversation</li></ul>",
+        "testData": null,
+        "expectedResult": "<ul><li>Keyboard is dismissed and last channel view is shown</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.34 Mobile (August 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-26490\">https://mattermost.atlassian.net/browse/MM-26490</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Jump To Box<br>–––––––––––––––––––––––––<ol><li>LHS ➜ Jump To</li><li>Type any text on search box but do not hit search</li><li>While keyboard is open, swipe left</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Keyboard is dismissed and last channel view is shown</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8c44826a2cf29a30e3e7131aae7cc056a7fc4d1009b7a03a4e618afae205ab12c232c06e453c506bf7f40a22a2e8050a",
+  "stepsHashed": "3a6bb62817fb3faaf1b58f99338e673e79fd023f90b03761f59b8c33023f0691a8119ec654e9d420027f0c7025d25739"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 4035728,
+  "key": "MM-T859",
+  "name": "Join/leave messages (including combined): Usernames are links, open profile popovers",
+  "createdOn": "2020-01-18T01:00:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.26 Mobile (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Tuesday, February 16, 2021 4:38 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, December 21, 2020 4:13 PM<br>• Added back to manual pool<br>• Added links to ",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Join/leave messages (including combined): Usernames are links, open profile popovers<br>–––––––––––––––––––––––––<br>Can use join/leave messages produced in previous test, if done, or add at least three users to a channel to get a combined message.<br><ol><li>On a single join or leave message (not combined with other users), click the username link</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>The user's profile popover displays when their username is clicked, and the popover is fully visible</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.26 Mobile (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-13413\" rel=\"noopener noreferrer\" target=\"_blank\">RN: Usernames in system messages should be tappable — MM-13413</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>On a combined join or leave message that includes a link such as \"and 2 others\", click to expand the usernames, then click each username link</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The user's profile popover displays when their username is clicked, and the popover is fully visible</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "94a77875b7f1cfe8c858bcbeac14707219ab290f853218c10da02b9ae9eee0d3da31a0ad68ab4a53257c7dd3968caa5d",
+  "stepsHashed": "dd9158253dd9dbd668e994b3f436d9b9e7d437f1ca584b6230f3bf7f67d25b374024e179ecbbb3c5b9ea0b7e0467ed8a"
+}

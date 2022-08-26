@@ -1,0 +1,81 @@
+{
+  "id": 16240083,
+  "key": "MM-T4389",
+  "name": "Add Server Modal - Should not allow invalid inputs",
+  "createdOn": "2021-11-15T20:23:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1962396,
+    "name": "Add Server Modal",
+    "parentId": 565205,
+    "fullNames": ["Desktop App (native-specific)", "Server Management", "Add Server Modal"],
+    "fullPath": "desktop-app--native-specific-/server-management/add-server-modal"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the Add Server Modal, don't enter anything<br />2. Press Save",
+        "testData": null,
+        "expectedResult": "- Nothing should be saved<br />- Error messages should show on both the Name and URL inputs<br />- Submit button should be grayed out",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Enter a valid server name, leave the URL blank<br />2. Press Save",
+        "testData": null,
+        "expectedResult": "- Nothing should be saved<br />- Error messages should show on the URL input<br />- Submit button should be grayed out",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Remove the server name<br />2. Enter a valid server URL<br />3. Press Save",
+        "testData": null,
+        "expectedResult": "- Nothing should be saved<br />- Error messages should show on the Name input<br />- Submit button should be grayed out",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ccb6d95d02e813c1eec03db67387faee20aee143ab39cc892bd63dd30483c9c8574684e2b2f1ad27e36508daa63d9729",
+  "stepsHashed": "c4ae8958a6323e96e03f7cced501500eaaa7eb85ea78a5f008069a736e4138edb4aeaab02cf0eebfa9823bea8dcf4bf9"
+}

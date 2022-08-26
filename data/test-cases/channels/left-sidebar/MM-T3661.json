@@ -1,0 +1,94 @@
+{
+  "id": 8409614,
+  "key": "MM-T3661",
+  "name": "Moving multi-selected channels using drag and drop",
+  "createdOn": "2020-12-29T19:56:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Sidebar"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 712113,
+    "name": "Left Sidebar",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.31 (January 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "Experimental Sidebar"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Drag and drop multi-selected channels using shift+click<br />_________________________________________<br /><ol><li>Open Mattermost</li><li>On the LHS, shift+click on a channel other than the active channel, but in the same category as the active channel</li><li>Click and drag the selected channels to another category and drop </li></ol><br />",
+        "testData": null,
+        "expectedResult": "<ul><li>All channels between current active channel and the one clicked on while holding shift are selected </li><li>All selected channels should drop in the new category in the order they originally appeared, and should now be unselected.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.31 (January 2021)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Drag and drop multi-selected channels, DMs and GMs to Channels category using cmd/ctrl+click<br />______________________________________<br /><ol><li>Open Mattermost, ensure new sidebar is enabled</li><li>On the LHS, use cmd/ctrl+click on few channels not currently in Channels category, few DMs and/or GMs</li><li>Click and drag the selected channels to Channels category and drop </li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Only selected channels are dropped to Channels category</li><li>DMs and GMs are not moved to Channels category and remain selected and can be moved again to appropriate custom category or to DM category</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.31 (January 2021)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Drag and drop multi-selected channels, DMs and GMs to DM category using cmd/ctrl+click<br />______________________________________<br /><ol><li>Open Mattermost, ensure new sidebar is enabled</li><li>On the LHS, cmd/ctrl+click on few channels not currently in Channels category, few DMs and/or GMs</li><li>Click and drag the selected channels to DM category and drop </li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Only selected DMs and GMs are dropped to DM category</li><li>Channels are not moved to DM category, they remain selected and can be moved again to any custom category or to Channels category</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.31 (January 2021)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Dismiss multi-selected channels, DMs and GMs<br /><ol><li>Open Mattermost</li><li>In the LHS, shift+click a channel other than the active channel.</li><li>Ctrl+Click another channel or DM/GM that are not part of the selection</li><li>Click somewhere other than on the one of the selected channels</li><li>Repeat the steps 1-3 again and select a group on channels again</li><li>Click on ESC</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Clicking somewhere else should unselect all channels</li><li>Using ESC should unselect all channels</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.31 (January 2021)"],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e36dfd08de6a93a9d22495940cb6901c677db44cf68961288fed2deeda8f8b3720b544357c434e878b140105bda07097",
+  "stepsHashed": "19cdb9faffc389a2fdeeb52e289b775223975fa2ee022d9ca63b64e5d485835f07130f44ba134c58f6b13e32e7d99daf"
+}

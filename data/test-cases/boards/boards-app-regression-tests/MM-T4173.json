@@ -1,0 +1,146 @@
+{
+  "id": 13558062,
+  "key": "MM-T4173",
+  "name": "Boards App - Empty Board - Groups",
+  "createdOn": "2021-08-19T08:08:10Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2014892,
+    "name": "Boards App Regression Tests",
+    "parentId": 1840223,
+    "fullNames": ["Boards", "Boards App Regression Tests"],
+    "fullPath": "boards/boards-app-regression-tests"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": "",
+    "Rainforest": ["in Production"],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<span>Creating a group</span> ",
+        "testData": "<span>1. Click on \"+Add Board\" at the bottom of the LHS<br />2. Click on \"Empty Board\"<br />3. Click on \"+Add a group\"<br />4. Select the \"New Group\" text, type in \"Group 1\" and hit Enter</span> ",
+        "expectedResult": "<span>1. Menu containing board options opens<br />2. Board titled \"Untitled Board\" opens to the right of \"No Status\" column<br />3. A group titled \"New Group\" appears<br />4. Group name updated to \"Group 1\"</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Editing group color</span> ",
+        "testData": "<span>1. Click on the three dots next to \"Group 1\"<br />2. Click on \"Green\"</span> ",
+        "expectedResult": "<span>1. Dropdown opens with Hide, Delete and color options<br />2. \"Group 1\" color changes from Default to Green</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Rearranging groups</span> ",
+        "testData": "<span>1. Click on \"+Add a group\"<br />2. Select the \"New Group\" text, type in \"Group 2\" and hit Enter<br />3. Click and hold the \"Group 2\" column, drag over \"Group 1\" then release</span> ",
+        "expectedResult": "<span>1. A group titled \"New Group\" appears to the right of \"Group 1\"<br />2. Group name updated to \"Group 2\"<br />3. \"Group 2\" and \"Group 1\" columns have switched places</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Group card count</span> ",
+        "testData": "<span>1. Click on \"+ New\" in \"Group 1\" column<br />2. Repeat step 1 two more times</span> ",
+        "expectedResult": "<span>1. A new card is added to the group<br />2. \"Group 1\" column now has 3 cards and the card count next to the group name shows the expected value (3) </span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Hiding/unhiding a group</span> ",
+        "testData": "<span>1. Click on the three dots next to \"Group 1\"<br />2. Click on \"Hide\"<br />3. Click \"Group 1\", then click \"Show\" in the dropdown</span> ",
+        "expectedResult": "<span>1. Dropdown opens with Hide, Delete and color options<br />2. \"Group 1\" is now shown under \"Hiden columns\" with the card count (3) next to it and the cards hidden<br />3. Group 1 is restored with all the cards listed below it</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Deleting a group</span> ",
+        "testData": "<span>1. Click on the three dots next to \"Group 1\"<br />2. Click on \"Delete\"</span> ",
+        "expectedResult": "<span>1. Dropdown opens with Hide, Delete and color options<br />2. \"Group 1\" is deleted from the board, and the three cards belonging to it are moved to the \"No Status\" column</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Undo delete group</span> ",
+        "testData": "<span>1. Click Cmd/Ctrl+Z</span> ",
+        "expectedResult": "<span>1. \"Group 1\" is restored with the belonging cards</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<span>Search</span> ",
+        "testData": "<span>1. Click on one of the cards in \"Group 1\"<br />2. Click on one of the cards</span> ",
+        "expectedResult": "<span>1. Card modal opens</span> ",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a7e04c8ce945d38b6cd62adc43db6013f7f91c2331172bcc34d27ce24b8e6267b754635c24694335c1e759d7be4265b8",
+  "stepsHashed": "b934aab0cf5b436f5300700f1903ef194319ff96428e88565f371d3a4024fac783a4d9197cbdc43e5ff3c6c858235299"
+}

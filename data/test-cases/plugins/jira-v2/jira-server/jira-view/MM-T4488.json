@@ -1,0 +1,55 @@
+{
+  "id": 17671913,
+  "key": "MM-T4488",
+  "name": "/jira <issue-key> returns help",
+  "createdOn": "2022-01-18T18:26:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2118539,
+    "name": "Jira View",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Type &quot;/jira &lt; Jira issue key &gt;&quot; with no sub-command",
+        "testData": null,
+        "expectedResult": "Help text is shown and displays available commands",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "77336792d1ba064b4b6fc371130abca509dfc2068cfcbf00efb1f928f59a87c0b3fb648d428ceac6f6665c7579dc72ac",
+  "stepsHashed": "d88838a41245c1d4fa4e218338406b5f430e3ddb2ed9f7df25b7502d85735b362041657cc4d588d87767cc821056e46a"
+}

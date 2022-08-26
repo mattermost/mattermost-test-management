@@ -1,0 +1,55 @@
+{
+  "id": 4058908,
+  "key": "MM-T1178",
+  "name": "License levels ➜ Compliance monitoring not available for TE",
+  "createdOn": "2020-01-22T19:26:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569415,
+    "name": "Compliance Monitoring",
+    "parentId": 570062,
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
+    "fullPath": "suite/system-console/compliance/compliance-monitoring"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "License levels ➜ Compliance monitoring not available for TE<br>–––––––––––––––––––––––––<ol><li>Remove license</li><li>System Console ➜ Compliance section</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Team edition should not see \"Compliance Monitoring\" page</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15346\">Display only licensed settings on Compliance Monitoring page — MM-15346</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e515c6272d0f5efd42308cbb7409c8eb69bb058c9d63689ec1bf922cdf596d881460f169ec9496cd1a56d84bcedc0b9e",
+  "stepsHashed": "709838b6f05cdeca4ef1c6e28e2ea96df75bf095be4e1dcede23da94893f8f7f9b889745254229ffb0bad3e8b2c238b9"
+}

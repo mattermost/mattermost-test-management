@@ -1,0 +1,55 @@
+{
+  "id": 7115107,
+  "key": "MM-T3370",
+  "name": "Cloud Trial — Skip Getting Started",
+  "createdOn": "2020-09-22T13:15:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1285126,
+    "name": "Cloud Trial",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
+    "Update notes": ".",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Growth"],
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "If a user has the 'Getting Started' section active and clicks “Skip Getting Started”, this transitions to become “Tips &amp; Next Steps” and there is now no way back to the Getting Started Steps since the user has explicitly chosen to skip it.",
+        "testData": null,
+        "expectedResult": "<ul><li>LHS Menu Item changes to “Tips &amp; Next Steps”</li><li>Main Menu changes from “Getting Started” to “Tips &amp; Next Steps”</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-34703\">Cloud: Getting Started is complete but it doesn't want to leave (AKA: Tips &amp; Next Steps is having an identity crisis) — MM-34703</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3e11ad134adf07ea7b774e908ac28c76ea9e2331850130d1cc7018375a99c87a9aa4737a50b9296b7cb0ae91634a75ef",
+  "stepsHashed": "b43904a6ea1f08d211481d20e52d62210460df9db4f78da65ff41ff407175e817ca47bf4331000fdf65e62c91f29f8ee"
+}

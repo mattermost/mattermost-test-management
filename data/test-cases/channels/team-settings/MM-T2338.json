@@ -1,0 +1,55 @@
+{
+  "id": 5445749,
+  "key": "MM-T2338",
+  "name": "Member removed from private team can rejoin with link",
+  "createdOn": "2020-05-20T06:56:58Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "team-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404341,
+    "name": "Team Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Team Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Member removed from private team can rejoin with link<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />Continuing from above:<br />1. As a Team Admin on a PRIVATE team, go to Main Menu &gt; Get Team Invite Link<br />2. Copy invite link<br />3. Log out<br /><br />1. Log in to the server with the removed members credentials (from test above)<br />2. Paste the invite link in the URL field and open",
+        "testData": null,
+        "expectedResult": "1. Removed member rejoins team and sees <br />2. that team's Town Square and<br />3. rejoined team in team sidebar",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "976a92cd76e7dc98d740b9c71663c945747c6d8f95e2221457a3c88dcad9dcb5ddcb2d8ab26d21c90a34b2b470b4a070",
+  "stepsHashed": "1ddc117205bb3a7df4359508261c201d1d2832d79372b2d11a17d611f7be4c457e16033b81a3e5b8c5e230d13fc5c53a"
+}

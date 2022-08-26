@@ -1,0 +1,55 @@
+{
+  "id": 7594149,
+  "key": "MM-T3450",
+  "name": "Allow filtering by installation type in Marketplace",
+  "createdOn": "2020-10-26T13:19:04Z",
+  "objective": "Verify that plugin update is confirmed by the user",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 1251319, "name": "Smoke test" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 632425,
+    "name": "Plugin Marketplace",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp", "Cloud"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugin Marketplace"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login to a Mattermost Cloud instance<br>2. Open the marketplace<br>3. Ensure that Welcome Bot is not available<br>4. Ensure that&nbsp; Antivirus is not avialble",
+        "testData": null,
+        "expectedResult": "<p dir=\"ltr\">Welcome Bot and Antivirus which only work for on-prem are not shown for Cloud marketplace.</p><br><br>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "c3b833ac6698badb15dcb2568047ed2e4022e4306c585afe4b9a9ce1f43202b6cf21e0bfdb8b679ec2c9a47b771eec60",
+  "stepsHashed": "576522b84cf57158db1de23c4baacdf069ef699bde6b06c17b47c565408ac5a88431c51cad27e07a62c84805908691ec"
+}

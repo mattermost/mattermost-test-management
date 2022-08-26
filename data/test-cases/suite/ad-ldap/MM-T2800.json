@@ -1,0 +1,55 @@
+{
+  "id": 5602329,
+  "key": "MM-T2800",
+  "name": "Mention single user who is in permitted groups - without permission to manage private channel members",
+  "createdOn": "2020-06-01T22:09:56Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ldap"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 404269,
+    "name": "AD LDAP",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.12 (June 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "AD LDAP"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mention single user who is in permitted groups - without permission to manage private channel members<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />linda.test does not have permission to add to constrained channel Constrain-QA-Channel:<br />1. Post the following: <br />Hello, @lindy.test.<br /><br />Do not add to the channel (yet).",
+        "testData": null,
+        "expectedResult": "@lindy.test-simulator.amazonses.com did not get notified by this mention because they are not in the channel.",
+        "customFields": {
+          "Fix Versions": ["v5.12 (June 2019)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-14417\">Update the behaviour of at-mentioning a user in a private, group-constrained channel — MM-14417</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "9eba04256ceaee553e59803bfaedf83e041aa27b4f7a56eab7f8f81a77621426e1531e84954047217aad90393b25fe5c",
+  "stepsHashed": "d59dd07e19baab5d00e7cc26551932cb0e7e47ab8396d56a7e54811ab124a6773f126deef92c07259dd6d94662a7db13"
+}

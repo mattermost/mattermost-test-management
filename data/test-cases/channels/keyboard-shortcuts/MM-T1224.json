@@ -1,0 +1,55 @@
+{
+  "id": 4064347,
+  "key": "MM-T1224",
+  "name": "CTRL/CMD+K - Open DM using mouse",
+  "createdOn": "2020-01-23T13:38:18Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Friday, February 19, 2021 4:41 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+K - Open DM using mouse<br>–––––––––––––––––––––––––<ol><li>Press CTRL+K (Windows) or CMD+K (Mac)</li><li>Type the first letter of another user's username (who you don't already have a DM channel open with, but who you can log in as) in the \"Switch Channels\" modal message box</li><li>Scroll down to the \"Other Channels\" section and locate the user</li><li>Use your mouse to choose the user and open the DM channel</li><li>Send a DM</li><li>Log in as the other user</li></ol>",
+        "testData": null,
+        "expectedResult": "On 4, DM channel with that user opens (no Javascript errors), with focus in the message box.<br>On 5, Other user receives the DM.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "04670f4c88ca63d02fc7581252ebd8c170ae08e9ff84b48d062f014045e716011cebcac11bc2f936e092d29e69743e56",
+  "stepsHashed": "cc1f085a97de274d79164a77f75ad2db7098ad54032fd8054d1d07978d6a341d252a444bc51dbf12b978b5851a5db0c3"
+}

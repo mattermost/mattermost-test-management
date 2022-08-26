@@ -1,0 +1,56 @@
+{
+  "id": 9454879,
+  "key": "MM-T3910",
+  "name": "Send slash command that uses multiple providers",
+  "createdOn": "2021-03-14T18:49:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1941501,
+    "name": "(prev)",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br>2. <em>Type /com.mattermost.test valid full_form --user @test-user ~test-channel&nbsp;</em>",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral system post that says \"Ok\"&nbsp;",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8718c5100906b4959d70ccb5f3d7434824c4a2c3a3b74273fb1eb794fcb3a35290cc4c988772c0241ff9f6523cd6778f",
+  "stepsHashed": "76a9d6e0c796a48517b1dc27828dd3bbc7d35717ff6c37b04e76ed3c0aa81abf7e3952f4117e8f17af020ca736683d8b"
+}

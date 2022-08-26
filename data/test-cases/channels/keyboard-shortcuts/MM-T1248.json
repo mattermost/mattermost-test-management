@@ -1,0 +1,55 @@
+{
+  "id": 4064371,
+  "key": "MM-T1248",
+  "name": "CTRL/CMD+SHIFT+L - Set focus to center channel message box",
+  "createdOn": "2020-01-23T13:38:24Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "rf-cloud-webapp"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404289,
+    "name": "Keyboard Shortcuts",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Keyboard Shortcuts"],
+    "fullPath": "channels/keyboard-shortcuts"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "Cloud", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Keyboard Shortcuts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "CTRL/CMD+SHIFT+L - Set focus to center channel message box<br />--------------------<br />1. Click out of the message box to remove focus<br />2. Press CTRL/CMD+SHIFT+L, observe focus in center channel message box<br />3. Open a reply RHS thread, ensure focus is in reply box in RHS<br />4. Press CTRL/CMD+SHIFT+L",
+        "testData": null,
+        "expectedResult": "In both cases, focus is set to center channel message box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cd4600211eb05dec75ab71953c6a5dbc9d94f186a8d4cd904b29987f25c40be0535d6fa7070920c3d36811cc8bc8e5f8",
+  "stepsHashed": "6193a0d851b06d90b49fa0f00cb0d50d6cc14abb7c2ae0f5dd756d4b2aecd5f4cf56a6001552b5d6485ba697cf699707"
+}

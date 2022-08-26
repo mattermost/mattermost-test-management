@@ -1,0 +1,55 @@
+{
+  "id": 7220797,
+  "key": "MM-T3389",
+  "name": "Channel - User : Remove",
+  "createdOn": "2020-09-30T10:16:16Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.28 (October 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Run a command to add a user to a channel using \"mmctl channel add\"<br>2. Run a command to remove a user from a channel using \"mmctl channel remove\"<br>3. Run \"mmctl channel users --help\"<br>4. Run a command to add a user to a channel using \"mmctl channel users add\"<br>5. Run a command to remove a user from a channel using \"mmctl channel users remove\"<br>6. Run \"mmctl channel --help\"",
+        "testData": null,
+        "expectedResult": "After 1 and 2, the commands should work but mmctl should print a message indicating that they are deprecated<br>After 3, a help screen showing information about the channel users sub-commands should be shown<br>After 4 and 5, both commands should work exactly like the ones in 1 and 2, but without the deprecation message<br>After 6, in the help, the \"add\" and \"remove\" commands should not be shown as they are marked as deprecated, but a \"users\" sub-command should appear",
+        "customFields": {
+          "Fix Versions": ["v5.28 (October 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-13991\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-13991</a>​​​​",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3126bcab0f5c861f48ace5c2a85d5b41fea861b6c6f789c1091c78af7e582787dca1a54e8c97b6ebe4966f431ec6c3e9",
+  "stepsHashed": "0b25fbfa3f51ddebe20bb44d9982ff444a65be6dd6f4f59cb80f4f8d718185ede6c3734bde619f70cb6a8954b4ef9b03"
+}

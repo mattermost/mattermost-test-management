@@ -1,0 +1,55 @@
+{
+  "id": 5873052,
+  "key": "MM-T2938",
+  "name": "RN apps: iOS ONLY - EMM iOS MobileIron - Add / invite user / device",
+  "createdOn": "2020-06-18T20:47:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["ios-only"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1019781,
+    "name": "EMM",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "EMM"],
+    "fullPath": "suite/emm"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to test using EMM on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile", "RN: iOS"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "EMM"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "0. Uninstall Mattermost from the test device<br />1. Log in to MobileIron (LastPass)<br />2. Click Users, and add user if not already there, then register device:<br /> a. Click `+`<br /> b. `Single User`<br /> c. Enter the user email address (can use your regular `@mattermost.com` email address, first name, last name, password, confirm password, check `Send invitation now`<br /> d. `Done`<br /> e. *On the mobile device that you want to register*, check email for your invitation, tap `Get Started`<br /> f. Enter your regular Mm OneLogin email address and OneLogin password, verify with 2FA as requested<br /> g. Device shows confirm modal about downloading a configuration profile, tap `Allow`, then tap `Close` on next modal<br /> h. Install the profile: Settings &gt; Profile Downloaded &gt; tap `Install` &gt; tap `Install`<br /> i. Shows Enrolling Certificate, then a warning about allowing administrator to remotely manage<br /> j. Tap `Install`, on Remote Management modal tap `Trust`<br /> k. Shows Profile Installed &gt; tap `Done`<br /> l. Enter passcode if asked<br /> m. Follow prompts to Install etc., enter Apple ID password if asked<br /> n. Exit Settings",
+        "testData": null,
+        "expectedResult": "LM",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "31090b61922a07740bd7663a9b159f3f0478b250b2e68470661710602715f790559dd7a7ebcf4ddd43d6340d05b7a30d",
+  "stepsHashed": "39a0caf6436a80e39d9d0c8ed4a3db3b5ebdbb77ccfe5661df9ae0e062ea1408c44741402c2b17404a129052af3082c6"
+}

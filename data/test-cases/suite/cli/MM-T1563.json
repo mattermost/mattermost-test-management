@@ -1,0 +1,68 @@
+{
+  "id": 4716615,
+  "key": "MM-T1563",
+  "name": "01 - Create a team",
+  "createdOn": "2020-03-04T02:07:08Z",
+  "objective": "The objective of this test is to start test the team creating process using Mattermost CLI as well as do the initial setup for the next CLI tests that are to follow.",
+  "precondition": "This test for release testing cycles are done on postgres.test test server. The tester should connect to the test server through VPN and have access to the Mattermost command line interface.",
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404278,
+    "name": "CLI",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "CLI"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Run `./mattermost team create --name ateam --display_name \"A Team\"</li><li>Run `./mattermost team list`</li></ol>",
+        "testData": null,
+        "expectedResult": "Running step 2 should list the name of the newly created team in step 1.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "In postgres.test UI, go to System Console &gt; Team Statistics",
+        "testData": null,
+        "expectedResult": "The new team appears in drop-down.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "6d59172dd6a558112a60fe99f8599fa02b5f49966792c6b2302318a47dc867795f268ab5d8fd7b42e34a75e44d0b6dcb",
+  "stepsHashed": "d8d2a0d5f54fb6ee3136110af5e6acd46817d62c1668265fc2b3ef467a793b96ad151ee9b5230a469ef10a87a310d4a9"
+}

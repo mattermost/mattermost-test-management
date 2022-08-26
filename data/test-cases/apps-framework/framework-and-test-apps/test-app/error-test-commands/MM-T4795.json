@@ -1,0 +1,82 @@
+{
+  "id": 21903040,
+  "key": "MM-T4795",
+  "name": "Error error-404",
+  "createdOn": "2022-05-02T14:51:59Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2558582,
+    "name": "Error test commands",
+    "parentId": 1236118,
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Error test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/error-test-commands"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Webapp", "Mobile"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": ["Never tested"],
+    "Location": "Integrations"
+  },
+  "steps": [
+    { "inline": null, "testCase": { "testCaseKey": "MM-T3907" } },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Type <em>/test test-command</em><em> error error-404  </em>in the main input box<br />3. Open a reply thread and type <em>/test test-command</em><em> error error-404 </em>in the RHS input box",
+        "testData": null,
+        "expectedResult": "On 2. \"<em>failed to invoke via HTTP: https://&lt;app-url&gt;/errors/foo: not found</em>\" in shown in red text below the input box<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651503187229-1651503187229.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" /><br />On 3. \"<em>failed to invoke via HTTP: https://&lt;app-url&gt;/errors/foo: not found</em>\" in shown in red text below the RHS input box",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Make a post and expand the post actions menu<br />3. Click the `<em>error-404</em>` option from the menu<br /><br />",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post with \"failed to invoke via HTTP: <a href=\"https://dkh-token.ngrok.io/errors/foo\" rel=\"noreferrer\" target=\"_blank\">https://&lt;app-url&gt;/errors/foo</a>: not found\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651503449598-1651503449598.png\" style=\"width:355px\" class=\"fr-fic fr-fil fr-dib\" />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "1. Open a channel where the slash command bindings are available<br />2. Click the `<em>error-404</em>` option from the channel header (or App Bar if it's enabled)",
+        "testData": null,
+        "expectedResult": "The apps makes an ephemeral post with \"failed to invoke via HTTP: <a href=\"https://dkh-token.ngrok.io/errors/foo\" rel=\"noreferrer\" target=\"_blank\">https://&lt;app-url&gt;/errors/foo</a>: not found\"<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1651503449598-1651503449598.png\" class=\"fr-fic fr-dii\" /><br /><br />",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "19a7d627c9907f357671b628121e2bc341ed840df364fc58a4fe09a59ffb8af2fae56269e9fa7cbd292df0c01c3cc07e",
+  "stepsHashed": "5b743695ea05fac6c49a2e471c6e30b654b0c7e3b73b3adf930469b8b0c6dd0993472ac491c83bcefba120e06b877108"
+}

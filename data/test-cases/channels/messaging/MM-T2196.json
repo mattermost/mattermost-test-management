@@ -1,0 +1,61 @@
+{
+  "id": 5444797,
+  "key": "MM-T2196",
+  "name": "Emoji reaction - not available on ephemeral message. Save - not available on ephemeral message. Pin - not available on ephemeral message. Timestamp - not a link on ephemeral message. Can close ephemeral message",
+  "createdOn": "2020-05-20T06:05:12Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Duplicate-Automated-Tests",
+    "cy-prod",
+    "se-prod",
+    "messaging"
+  ],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Emoji reaction - not available on ephemeral message<br><br>Save- not available on ephemeral message<br><br>Pin - not available on ephemeral message<br><br>Timestamp - not a link on ephemeral message<br><br>Can close ephemeral message<br>————————————————————————————<br>1. Post `/away` or `/online` to create an ephemeral message",
+        "testData": null,
+        "expectedResult": "1. `(Only visible to you)` displays next to timestamp (standard view) or after message text (compact view)<br>2. Emoji reactions are not available on ephemeral messages<br>3. Save not available on ephemeral messages<br>4. Pin not available on ephemeral messages<br>5. Timestamp is not a link on ephemeral messages<br>6. Can click `x` to close ephemeral message",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "3fc49d4bc7f633c277aec63db0601886f8bd3318d455815cbb0fff9b1ceff0539a388a1e7e8d67a2daa3051c396c3dd4",
+  "stepsHashed": "eade7a6addadb8c803b9a46abbd8c4aad72b93b892587ee06a156e8ba7dac908eff2e072f4756efd8fa5280a365c6007"
+}

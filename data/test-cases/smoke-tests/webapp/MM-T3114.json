@@ -1,0 +1,55 @@
+{
+  "id": 6181595,
+  "key": "MM-T3114",
+  "name": "MFA - Set up and sign in (and remove if desired)",
+  "createdOn": "2020-07-13T19:27:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["smoke-test-folder", "2022smoke"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["Evaluating"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "MFA - Set up and sign in (and remove if desired)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Sign in with an account using email / password<br />2. On desktop browser, go to Account Settings &gt; Security &gt; Multi-factor Authentication &gt; Edit<br />3. Follow the instructions to enable MFA<br />4. Logout<br />5. Login and enter the MFA code",
+        "testData": null,
+        "expectedResult": "Multifactor Authentication is enabled, and login is successful only after entering the MFA code. <br /><br />Can also test removing MFA if not needed on that test account.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2f9bf5ec80dbf50b9d096264432b08ae96c3e5f64a98632e569fff066e9717e07fb06fbbc3212dfba69426af9a277813",
+  "stepsHashed": "4e644a7eb9cc34534cdebe163fd092df42da96243dc196a26cfed70186c32c1de66c45452e76aa9f236c6d4aa23c0fbc"
+}

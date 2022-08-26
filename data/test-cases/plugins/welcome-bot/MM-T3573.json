@@ -1,0 +1,55 @@
+{
+  "id": 8022871,
+  "key": "MM-T3573",
+  "name": "Community Testing - Leave a channel, then re-select action",
+  "createdOn": "2020-11-26T20:57:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054401,
+    "name": "Welcome Bot",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Leave one of the channels you were added to.<br />2. Switch to Welcome Bot DM channel.<br />3. Click the first button in the welcome message.",
+        "testData": null,
+        "expectedResult": "Confirm you are added back to the channel you left.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "72a154daabc8db6db3870cb72dccd59f6fa2f4a2bc92500eced4d8f7232f7e85645faa4e6028dc327f9e91a9510def79",
+  "stepsHashed": "28428e81af8bbe520750924f1e6546e8b0eceb59ef02a7a8b7d3e4a7ddaa4a8943c0f09f411b51294e2b92c58bec1952"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3877480,
+  "key": "MM-T378",
+  "name": "@ recent mention search\n\n`x` to clear search term",
+  "createdOn": "2020-01-02T23:12:31Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "03/07/22 - Lindy - username for @ recent mentions search is no longer populated in Search field so this test is no longer valid.",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ recent mention search<br /><br />`x` to clear search term<br />--------------------<br />1. Log in on another / incognito browser as another user<br />2. Have that user @-mention you in a channel you belong to<br />3. Have that user post @channel in a test channel you belong to (can create a new channel)<br />4. If your account is set to include your first name in mentions, have the other user post a message containing your first name<br />5. On your account, click the `@` icon to view recent mentions (For Mobile, this is opened from the user menu on the right)<br />6. Hover your mouse over the &quot;x&quot; to the right of the search term in the search box (n/a for RN app)<br />7. Click on the &quot;x&quot; (n/a for RN app)",
+        "testData": "Note: Some latency is expected between updating mention keywords on web and seeing update in mobile apps: https://mattermost.atlassian.net/browse/MM-12567",
+        "expectedResult": "In the RHS (search results screen for RN), you should see mentions listed for the specific @-mention and your first name (if applicable)<br /><br />You should not see a mention listed for the @-channel post<br /><br />Mentions should be highlighted within the post<br /><br />FOR DESKTOP/WEBAPP ONLY:<br />After 6) you should see a tooltip &quot;clear search query&quot;<br /><br />After 7) search query should be cleared and previous search results remain in the RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "38b2a9c120d452f27e645f398dee612d58d9f34afb1fbe8656cd711527044fed79ca2794b4e3fe7586369d1f0929e4ca",
+  "stepsHashed": "f946c6bfcd13f5f916c02bf594f0a76da04de8411a01b5b6010d0cf8b0aa8c455b33a5e74d8248e5e9516f104f65c429"
+}

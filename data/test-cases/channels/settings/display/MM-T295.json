@@ -1,0 +1,55 @@
+{
+  "id": 3808149,
+  "key": "MM-T295",
+  "name": "Display - Fixed width",
+  "createdOn": "2019-12-30T23:49:19Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 16, 2020 1:53 PM<br>• Added link to Cypress code into the Traceability tab<br>• Changed Status to Active<br>–––––––––––––––––––––––––<br>PR for Cypress Test - <a href=\"https://github.com/mattermost/mattermost-webapp/pull/5826\">https://github.com/mattermost/mattermost-webapp/pull/5826</a>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Display - Fixed width<br />–––––––––––––––––––––––––<br />1. Go to Settings ➜ Display ➜ Channel Display ➜ Edit<br />2. Select \"Fixed width, centered\"<br />3. Save<br />4. Expand the window to take up your whole screen.",
+        "testData": null,
+        "expectedResult": "<ul><li>The center channel text should be centered over the textbox, including the channel intro text at the beginning of a channel (may need refresh or channel switch).</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8b9cf3c37ba5e5c0edb0530462a456c4040c2991135e955541e499c5c1333836f86dfddf4caad4b9115f8b3423f6d93a",
+  "stepsHashed": "6fe7b754ff11e5793680289613765059fd3ca9bb324740e6619bc122dd08ddc84ba732cf55bc4a0cfe6ee1f4b6f817cb"
+}

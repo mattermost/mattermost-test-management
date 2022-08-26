@@ -1,0 +1,55 @@
+{
+  "id": 28674377,
+  "key": "MM-T5063",
+  "name": "Files Limit: Archived file in post",
+  "createdOn": "2022-08-16T20:39:54Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2916636,
+    "name": "Signup Trial and Upgrade",
+    "parentId": 883991,
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": ["Cloud"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Cloud"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Have a dev set the file limit for Starter plans down to 1 GB ➜ 8,589,934,592 via Stripe</li><li>Create a Workspace or use one already on Starter</li><li>Upload enough files to push it past the 1 GB limit<br /><strong>Note:</strong> File (99mb.txt) attached to this test case can be used for this purpose</li><li>Add whatever bogus metadata to the subscription in Stripe</li><li>Wait a few minutes then refresh the page</li><li>Add a few more files</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1660682807049-Screen+Shot+2022-04-20+at+11.21.45+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Observe that files within the 1GB window are accessible, and that the UI is unchanged from production</li><li>Observe that files not within the 1GB window are not accessible, show a tooltip when hovered explaining the reason they are inaccessible, and show the appropriate display when in compact mode</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "42ce14076da63e46dadb32eb0bbdc54f3495bb66482f232c2970c40b218665f6823a15513ba2c9c72c03b6f75a69f87d",
+  "stepsHashed": "c2587992aee02d883f5b4415941dd406cc7c86d0b9e9bad0c433c558709db0da2e71c3e9cf8471b939990d5f92fa0224"
+}

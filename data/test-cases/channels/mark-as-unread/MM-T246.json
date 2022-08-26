@@ -1,0 +1,55 @@
+{
+  "id": 3768052,
+  "key": "MM-T246",
+  "name": "Mark Post as Unread",
+  "createdOn": "2019-12-27T20:26:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 547177,
+    "name": "Mark as Unread",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Steve Mudie — Wednesday, September 30, 2020 2:54 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now",
+    "Rainforest": ["Cloud", "in Production", "Mobile"],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Desktop"],
+    "Detox": null,
+    "Cypress": "Update",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Mark as Unread"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Mark Post as Unread<br />–––––––––––––––––––––––––<br /><ol><li>Create few posts (3+) as user A in channel A</li><li>Log in as user B</li><li>Use the post menu to mark one of the posts from step 1 as Unread using Mark as Unread option</li><li>Switch away from channel A.</li><li>Navigate to Channel A again to read the unread posts.</li><li>Switch away from channel A again.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>On 3, new message line appears above the marked post.</li><li>On 4, channel A becomes unread on the LHS.</li><li>On 5, channel A becomes read and new message line should still be visible above the post when switching back to unread channel.</li><li>On 6, channel A is marked as read.</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-17754\">Prevent marking a channel as read when user manually marked as unread — MM-17754</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "802bcbcdad67c6edd28d27de7d9f9b3b4b8979496eec8d77eb0135093ad0a8a80d4fe4b2ded0576b8c1de57bbea251be",
+  "stepsHashed": "f8a68dfd555e07892b7491f5ec2d3e3d1475eb28654dc3dd4c61e648561bbd97702fd769e0e3e06fc45d8483dbd5be89"
+}

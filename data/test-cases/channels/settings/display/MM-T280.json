@@ -1,0 +1,81 @@
+{
+  "id": 3806939,
+  "key": "MM-T280",
+  "name": "Theme Colors - Color picker",
+  "createdOn": "2019-12-30T17:09:02Z",
+  "objective": null,
+  "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://rc.test.mattermost.com/</a></h1>",
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063270,
+    "name": "Display",
+    "parentId": 2063031,
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.20 (Feb 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, September 21, 2020 3:16 PM<br>• Cypress feedback working fine<br>• Removed from manual pool",
+    "Rainforest": ["Mobile"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Go to Settings -&gt; Display -&gt; Theme</li><li>Select \"Custom Theme\"</li><li>Open \"Sidebar Styles\"</li><li>Use one of the color pickers to edit the theme</li><li>Save</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1580754297468-2020-02-03_13-24-18.png\" style=\"width:467px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "<ul><li>Custom theme colors are saved</li><li>For Mobile - Ensure that new theme is properly applied in all areas after being changed from desktop. (the change can take up to 90 seconds to apply)</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.20 (Feb 2020)"],
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(184, 49, 47)\">Bug</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-23885\">Modifying New Message Separator color in theme options does not change color in the theme — MM-23885</a><br />(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-13537\" rel=\"noopener noreferrer\" target=\"_blank\">Improve the UX of the custom theme text box and color selectors — MM-13537</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Do the same for \"Center Channel Styles\"",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "Do the same for \"Link and Button Styles\"",
+        "testData": null,
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a64d856a0467507f52332d7313cda4e58985c1ecbb5596e98f8cd87da43a09601a9e155e15178c28898a2902220a5e02",
+  "stepsHashed": "a04e7fb13cc841237f71e6c8688e5fa7e51ff8ac3983d0bf7009cdd82623b1a32d6124cb6b611af1d7b161ef27fa5903"
+}

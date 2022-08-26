@@ -1,0 +1,55 @@
+{
+  "id": 25866412,
+  "key": "MM-T4917",
+  "name": "Only sysadmins can run setup commands",
+  "createdOn": "2022-07-13T20:27:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 3076551,
+    "name": "Setup",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Setup"],
+    "fullPath": "plugins/gitlab/setup"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Enable GitLab<br />2. As a user who is <strong>not </strong>a<strong> </strong>sysadmin run /gitlab setup",
+        "testData": null,
+        "expectedResult": "Ephemeral post shows reponse that only sys admins can run the setup command.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ede3ca80f08d578b09f58a88cdb3c11c58f420076a75abc307b76c8fea58aba8a1053e5ac3bf8596030cdcaffc8bf6a7",
+  "stepsHashed": "b62012dd29a9668e711c1eec49f444303cc36ef9934bc2bfb733cd6018a2f73ad4c43078d96438a11830ddc28c501461"
+}

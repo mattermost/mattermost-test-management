@@ -1,0 +1,55 @@
+{
+  "id": 4050755,
+  "key": "MM-T966",
+  "name": "Configuration - Subpath - Edit Site URL",
+  "createdOn": "2020-01-21T19:55:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Configuration - Subpath - Edit Site URL<br />--------------------<br />1. Change Site URL to:<br />https://subpath.test.mattermost.com/edit<br />2. Save<br />3. Open https://subpath.test.mattermost.com/mattermost",
+        "testData": null,
+        "expectedResult": "Edit is saved<br />Without server restart, /mattermost still opens<br /><br />**Change back to:<br />https://subpath.test.mattermost.com/mattermost",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b698f8da62201ee12906d7adc5876ffaad662ca7b182f10f7561aa202072ae07581635c00eb547ca0a70fd3d65782ffa",
+  "stepsHashed": "b8425fb61a7aa48d2bd1aace628c9c6b6320beb7a471d0ce19358c89c7f3eea9b79b05734ee1ca101536a6540aba1190"
+}

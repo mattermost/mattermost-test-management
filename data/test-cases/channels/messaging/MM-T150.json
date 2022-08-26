@@ -1,0 +1,55 @@
+{
+  "id": 5463025,
+  "key": "MM-T150",
+  "name": "RN apps: Long press ON an emoji to view list of people who reacted",
+  "createdOn": "2020-05-21T15:39:11Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Cloud"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": "Update",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN apps: Long press ON an emoji to view list of people who reacted<br>--------------------<br>1. In a test channel, make a post<br>2. Long press on the post and from reactions row, select a recent reaction or the plus(+) icon to add a new reaction<br>3. Repeat step 2) until you have about 12 reactions on the post<br>4. Long press on ONE of the emoji reactions on the post",
+        "testData": null,
+        "expectedResult": "After 4) you should see the &quot;Reactions&quot; screen showing a list of people (which will all be you!) who reacted with the specific emoji<br /><br />The screen should slide up with an animation and can be expanded by dragging up or closed by dragging down<br /><br />Screen defaults to viewing &quot;All 12&quot;. Ensure no emoji are missing and that rows display properly.<br /><br />You can tap on each emoji across the top of the screen which will show you the username of the person who reacted with that emoji<br /><br />Scroll or slide down to close the reactions screen",
+        "customFields": {
+          "Fix Versions": ["v1.32 Mobile (June 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-22362\">https://mattermost.atlassian.net/browse/MM-22362</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "11219af7a667b782537c58287409c3ff55f39328b1e7b6be0101919cdc4b08c6005fb27b0f3c8bed964ba9c5b1cdd1d6",
+  "stepsHashed": "a4d99dd19494c11fdab2d9499f5ed6bbdb2885b4dfd81f43f3cd6a5ab901a8141d4c5116891fae9d9fc09632fcc7ab04"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5444809,
+  "key": "MM-T2208",
+  "name": "@ autocomplete - not in channel (RHS), have permission to add (private channel)",
+  "createdOn": "2020-05-20T06:05:14Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "@ autocomplete - not in channel (RHS), have permission to add (private channel)<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />As a user who has permission to add members to a channel:<br />1. Identify a user on the team who is not in the channel you're viewing<br />2. Open a reply thread RHS<br />3. In RHS, post `@[thatusername]`<br />4. Ephemeral message displays &quot;{user} was mentioned but is not in the channel. Would you like to add them to the channel? They will have access to all message history.&quot;<br />5. In RHS, click the link &quot;add them to the channel&quot;",
+        "testData": null,
+        "expectedResult": "Ephemeral message asking if you want to add the user disappears<br /><br />In RHS, added-user message shows as ephemeral (only visible to you)<br /><br />In center, added-user message shows as system message, not part of a reply thread",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "079a396416f7a9ce464d21774735a5b88c35dff7d0a3cca8a3f96db12a81bab8547b710a93dd870f4bf004ac59e391b8",
+  "stepsHashed": "e5ae18ccaa073e1ae4d334471909d1825c15852703a1333a19707129649ed6de266137bdf984849535753a3018304476"
+}

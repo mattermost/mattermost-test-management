@@ -1,0 +1,55 @@
+{
+  "id": 3877461,
+  "key": "MM-T359",
+  "name": "Hashtags are not case sensitive for elasticsearch",
+  "createdOn": "2020-01-02T23:12:26Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Hashtags are not case sensitive for elasticsearch<br />--------------------<br />**Test this on mysql.test.mattermost.com**<br /><br />1. On an environment with Elasticsearch enabled, such as mysql.test or community-release, make the following posts:<br />- `#CASE` <br />- `#Case`<br />- `#case`<br />2. Type `#case` in the Search box and press/tap Enter <br /><br />Desktop/webapp only:<br />3. Hover your mouse over the &quot;x&quot; to the right of the search term in the search box<br />4. Click on the &quot;x&quot;",
+        "testData": "**Test this on mysql.test.mattermost.com**<br /><br />Note: There is automated coverage for similar cases below but this must be tested against Elasticsearch",
+        "expectedResult": "All 3 hashtags are returned in results<br /><br />Desktop/webapp only:<br />After 3) you should see a tooltip &quot;clear search query&quot;<br />After 4) search query should be cleared and search results remain in the RHS",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "bb96c8225067238a32db62ace6691d0fffa763c60bdebb5c0ccb9e8ade2b608d39f13a6123f8552c1d1d6c03befedb88",
+  "stepsHashed": "5d7705ac16debe09cf4ed9ebb0b0e5a687b4e1565dabee9c7edde35e20730b75bc22cee446f09d66dae6191dbfbe060b"
+}

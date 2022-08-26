@@ -1,0 +1,55 @@
+{
+  "id": 4152460,
+  "key": "MM-T1427",
+  "name": "Prevent Invite Guest for LDAP Group Synced Teams",
+  "createdOn": "2020-01-31T00:09:30Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "guest-accounts"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 581564,
+    "name": "Guest SAML LDAP",
+    "parentId": 580185,
+    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
+    "fullPath": "suite/guest-accounts/guest-saml-ldap"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.18 (Dec 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Suite Users"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Guest Accounts"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Login as a sysadmin and navigate to System Console &gt; Teams</li><li>Ensure a Team is LDAP Group Synced.</li><li>Ensure Permission Schemes is set such that Anyone can Invite Guests.</li><li>Now login as a LDAP user having access to that team</li><li>Click on Invite People and check if there is an option to Invite Guests</li></ol>",
+        "testData": "",
+        "expectedResult": "Option to Invite Guests should not be provided to a Team which is LDAP Group Synced",
+        "customFields": {
+          "Fix Versions": ["v5.18 (Dec 2019)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-18021\">Do not allow Guest invitations to teams that are managed by LDAP Group Sync — MM-18021</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "f1a90f2a25005051d887cfaa69c47f7901c17b1f521d974e8ceaef5bf77d2731d074dcb9bae2579dbe6bf180330ad464",
+  "stepsHashed": "110d7fd157898c4da0755e9001f991d047ca267eba12c933c468dd68a1ed6b336b1c6408bd36dfb8e95512b3ddf8d5f1"
+}

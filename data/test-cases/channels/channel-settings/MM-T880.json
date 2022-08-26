@@ -1,0 +1,55 @@
+{
+  "id": 4035749,
+  "key": "MM-T880",
+  "name": "Add channel header from Set Channel Header link",
+  "createdOn": "2020-01-18T01:00:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404277,
+    "name": "Channel Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.19 (Jan 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Channel Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Click Set Channel Header link at the beginning of a new public channel in center channel</li><li>Close the modal without entering text (clicking Cancel, clicking X or clicking outside of the modal)</li><li>Open again and enter text in channel header and save</li><li>View channel info</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>User should be able to dismiss the modal with text or when left blank</li><li>Header displays in View Info modal and System message posts \"[username] updated the channel header to: [header text]\"</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.19 (Jan 2020)"],
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-21635\" rel=\"noopener noreferrer\" target=\"_blank\">Web: Unable to close Edit Channel Header modal when opened from the Intro Message — MM-21635</a>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e4f8cfb3ef4e2a75f423aa50292154adde3cc7ddc9fe165d4c31741ee9cbb461c05203991b1c3af2f8eca3f5a04800ec",
+  "stepsHashed": "b8dbf7fef50ebde770743bf49e9c0f503b7feaa739f07d4648e5ea5fb4a1187ed94d3658f42a7e47b69203d8424524e3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3969591,
+  "key": "MM-T691",
+  "name": "Error: trigger word required",
+  "createdOn": "2020-01-08T17:47:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "se-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404284,
+    "name": "Integrations",
+    "parentId": null,
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Monday, February 15, 2021 2:45 PM<br>• Cypress Automation working as expected 🎉<br>• Removed No Automated Executions label",
+    "Rainforest": [],
+    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Error: trigger word required<br />--------------------<br />1. Open Main Menu &gt; Integrations &gt; Slash Commands &gt; Add Slash Command<br />2. Enter URL: http://hidden-peak-21733.herokuapp.com/test_ephemeral<br />3. Click Add",
+        "testData": null,
+        "expectedResult": "Error message on Save, need trigger word",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b4cecaf9ce25e3ec35bb3a056d204b742191a62338f3933d4efa2b9e2d2fd9b70336a20cb2968d1b2eda24ba4671e8f9",
+  "stepsHashed": "dd1ca099eb251bef3e117e392a0f149929dda86f529f7127bbc37cb112a9b3bc39a257c7e78f22879f00f999ea7df22c"
+}

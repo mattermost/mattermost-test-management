@@ -1,0 +1,55 @@
+{
+  "id": 3741733,
+  "key": "MM-T102",
+  "name": "Timestamp on edited post shows original post time",
+  "createdOn": "2019-12-20T16:33:01Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404292,
+    "name": "Messaging",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Messaging"],
+    "fullPath": "channels/messaging"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Messaging"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Timestamp on edited post shows original post time<br />--------------------<br />1. Observe the timestamp on a non-edited post<br />2. Edit the post<br />3. Hover over the timestamp of that post<br />4. Click Reply to open the message in the RHS as well",
+        "testData": null,
+        "expectedResult": "Hovering over a timestamp shows a full date tooltip in both center and RHS.<br /><br />The time should match with the original posting time, not when the post was edited.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "29e1a3d95dfbd6c8923ff5cefa0b858b84d460fedaa6368ee99fb3d3c3e520e5cd5d3943f29fc21b262152a00c4ce52e",
+  "stepsHashed": "3db0a5ede48469b620fbc8594ac3fc6bea29f7a27e6526e8fcb0da399b396a678eab5c137c3a4005d93df85c7ebc9efb"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 4032090,
+  "key": "MM-T816",
+  "name": "Toggle Full Screen in the Menu Bar",
+  "createdOn": "2020-01-17T14:04:34Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 565202,
+    "name": "Menu Bar",
+    "parentId": 565201,
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Authors": "",
+    "Playwright": "In Production",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": ["in Production — Desktop"],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Go to View &gt; Toggle Full Screen in the Menu Bar. Then do it again.",
+        "testData": null,
+        "expectedResult": "Desktop App enters full screen mode after the initial toggle, and exits after the second one.",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1c57c4b5708621ca88980baa142f98835bb1e665025bdd4e41b209e979cb0fc05ca9bd97ccf28e8bcb43d12d3ec55ab7",
+  "stepsHashed": "b41661bb7a010a207f6c0e02d0121fe3d3261cf0c3b4f04e9d0f584832ea6304b9950ae5c572ce916eab190ec07855e8"
+}

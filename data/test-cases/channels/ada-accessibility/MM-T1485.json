@@ -1,0 +1,55 @@
+{
+  "id": 4403874,
+  "key": "MM-T1485",
+  "name": "Language dropdown should read labels",
+  "createdOn": "2020-02-17T18:14:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404268,
+    "name": "ADA Accessibility",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "ADA Accessibility"],
+    "fullPath": "channels/ada-accessibility"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.14 (August 2019)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "ADA Accessibility"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Settings &gt; Display &gt; Language dropdown should read labels<br />–––––––––––––––––––––––––<ol><li>Use screen reader and open Settings &gt; Display &gt; Language and attempt to access the dropdown with a keyboard.</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Focus should be on the Change Language dropdown</li><li>Up and Down arrow keys should change the language in the dropdown</li><li>When Enter key is pressed in the dropdown, the dropdown should be expanded</li><li>When Enter key is pressed in the dropdown when it's expanded, it should be collapsed</li><li>Tab/Shift Tab should work and user should be allowed to save the new language</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v5.14 (August 2019)"],
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-16133\">ADA: Display &gt; Language drop down is inaccessible via keyboard — MM-16133</a></li><li>(<strong>Task</strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-22628\">Accessibility Cypress Test Automation: Accessibility Support in Account Settings — MM-22628</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "de1ee25514788444b0ddc20e8c1e1b75d34c105e8e331224a18b5b7511639f8ac0c376bf0f75ed7f2ec6d9b9a0a2bca2",
+  "stepsHashed": "0a3349c7b4ba617c9c71158431534abb47b9dd03d505bf26e4294299868e161feb47d801c634d70c1f0cd812f2527f92"
+}

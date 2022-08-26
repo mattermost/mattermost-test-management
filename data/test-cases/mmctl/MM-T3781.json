@@ -1,0 +1,55 @@
+{
+  "id": 8647069,
+  "key": "MM-T3781",
+  "name": "User - Delete : without permission",
+  "createdOn": "2021-01-20T10:26:49Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "&nbsp;mmctl user delete [user email]",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "24a4e84ae7f7ea96d8efb06bbb91034c24ec063a14a8a2e628943102ddaee3b589662aa09fbe6526b52b452c22fd39cb",
+  "stepsHashed": "e93b44d0132febacc8e863395a679f1b8d16b6812369a1f47bc6e52f3e1707913d2e35c2266f5a1654292afd7d65c2b4"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5530140,
+  "key": "MM-T2525",
+  "name": "Login - Password",
+  "createdOn": "2020-05-27T13:10:24Z",
+  "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Include in monthly smoke-test</span></h1>",
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": ["CLI"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": "To Do",
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Login - Password<br>————————————————————————————<ol><li>In a command line window set to the directory where 'mmctl' is installed in</li><li>Run \"mmctl auth login https://mysql.test.mattermost.com --name mysql.test --username john.doe --password mysupersecret\"<br><br><strong>Note</strong>: Enter valid username and password for a system admin user</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>You will get feedback saying \"credentials for mysql.test stored\"</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e00e946a157436e9cb86f8d8aff15eeca3a052ae370facb011703aba1a4b3c449941fed59f5afe435a50b6eb1df72284",
+  "stepsHashed": "5d5a5827562f476108f9a876b134c81665eddbc4a23010eb4b4272879d16386c11a93bf50bd6f6121c52c32f8d7aef1f"
+}

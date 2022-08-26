@@ -1,0 +1,55 @@
+{
+  "id": 8646730,
+  "key": "MM-T3770",
+  "name": "User - Verify email without token : non-existent user",
+  "createdOn": "2021-01-20T09:55:06Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.30 (December 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl user verify [non-existent username]",
+        "testData": null,
+        "expectedResult": "Returns error \"can't find user [non-existent username]",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1771c2ac654e3369e5af3802f0da3ffcce6b10e17ed150454d5d8997b342bf9213fa22658d320c806f21f5e04c43c0a2",
+  "stepsHashed": "f00b18ba5bf0e7c6427fce2978b58ca9d4d0cf9040bc1e8589fa2d9e36214bc349c9b0803d8c6813346b4d8a54bf2899"
+}

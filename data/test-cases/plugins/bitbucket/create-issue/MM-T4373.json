@@ -1,0 +1,55 @@
+{
+  "id": 15984685,
+  "key": "MM-T4373",
+  "name": "Mandatory fields in modal",
+  "createdOn": "2021-11-04T18:04:53Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1915273,
+    "name": "Create Issue",
+    "parentId": 1907969,
+    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
+    "fullPath": "plugins/bitbucket/create-issue"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Open the bitbucket create modal for a Mattermost post<br />2. Leave all mandatory field empty<br />3. Click submit",
+        "testData": null,
+        "expectedResult": "Validattion text shows that repository and title are mandatory",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "af55a58ae66783a58f5d2180e603fbb7f1da18ce74cb79b13c93ff7684ea03455546563cc230996a51ec0784bd916a75",
+  "stepsHashed": "4345157296f809aa45d720f5c36e456e6dbf2dcc1467a3a0e3ddd40be6f1bed7d74488475061588777354d49215bca7c"
+}

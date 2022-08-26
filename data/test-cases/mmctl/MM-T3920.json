@@ -1,0 +1,55 @@
+{
+  "id": 9478962,
+  "key": "MM-T3920",
+  "name": "Group - Team : Disable (without permissions)",
+  "createdOn": "2021-03-16T08:38:08Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.34 (April 2021)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Cloud N/A"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "From a normal account:<br><br>mmctl group team disable",
+        "testData": null,
+        "expectedResult": "Returns an error as you don't have the correct permissions (e.g. sysadmin)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a144702f802553bdc86f78f465a59403ae072da87d91b6a7b93133b4cbcca25b7608bd1e029e99ae597f1978ccdf7574",
+  "stepsHashed": "7e1013fda16cc49464b5d72a1f836bcf121a3b75a38ca7ebca2f507e0b8afb6fd3529ea8e0e78476652df5cb15064f61"
+}

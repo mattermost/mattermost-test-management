@@ -1,0 +1,55 @@
+{
+  "id": 3968336,
+  "key": "MM-T637",
+  "name": "Copy icon for Incoming Webhook URL",
+  "createdOn": "2020-01-08T12:57:44Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 586858,
+    "name": "Incoming Webhook",
+    "parentId": 404284,
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.4 (October 2018)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
+    "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
+    "Rainforest": [],
+    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Integrations"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Copy icon for Incoming Webhook URL<br>–––––––––––––––––––––––––<ol><li>Main Menu ➜ Integrations ➜ Incoming webhooks ➜ Add incoming webhook</li><li>For this test purpose, fill in \"Title\", \"Description\" and select a \"channel\" with some test data</li><li>Scroll down and click \"Save\"</li><li>Click \"Done\" in the \"Setup Successful\" screen</li><li>On the \"Incoming Webhooks\" screen, locate the incoming webhook you've just created</li></ol>",
+        "testData": "",
+        "expectedResult": "After #4,<br><ul><li>You should see a \"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1585073470792-1585073470792.png\" class=\"fr-fic fr-dii\">&nbsp;to the right of the URL in the \"Setup Successful\" screen</li></ul><br>After #5,<br><ul><li>You should see a \"copy\" icon <img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1585073483785-1585073483785.png\" class=\"fr-fic fr-dii\">to the right of the webhook's URL</li></ul><br>",
+        "customFields": {
+          "Fix Versions": ["v5.4 (October 2018)"],
+          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"http://mmt\">https://mattermost.atlassian.net/browse/MM-12164</a><br><br>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5052fe3b59cc9d78d31d3a258d3541d69e8513d9702ff8978ff866e0638b242a5ffab273ee9738308f7d5c1e562e14d2",
+  "stepsHashed": "7c2a331879a4e68790f25fdbda2b5934ff02fc286fc3500da067b8a3b31d962c47e9ef97758759d4c547462573446267"
+}

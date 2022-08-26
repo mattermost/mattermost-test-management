@@ -1,0 +1,55 @@
+{
+  "id": 3877716,
+  "key": "MM-T410",
+  "name": "RN apps: Connection lost",
+  "createdOn": "2020-01-03T00:39:52Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["sign-in-auth"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 892162, "name": "Update" },
+  "folder": {
+    "id": 404337,
+    "name": "Sign In Authentication",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "Steve Mudie — Wednesday, December 16, 2020 3:27 PM<br>• Retested and rewrote test based upon observation left in <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testPlayer/testExecution/MM-E77964\">failed test cycle here</a><br>• Wrote <a href=\"https://mattermost.atlassian.net/browse/MM-31407\">MM-31407</a> to sort out expected behavior<br>• Leaving in Update status until the ticket is decided upon<br>–––––––––––––––––––––––––<br>Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to simulate airplane mode on the VMs</li></ul>",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Sign In Authentication"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "RN Apps: Connection lost<br>–––––––––––––––––––––––––<ol><li>Log in</li><li>Wait for everything in the team / channel to load</li><li>Turn on \"Airplane mode\" on your device</li><li>Tap 3-dot menu ➜ Settings ➜ Advanced</li><li>Tap \"Delete Documents &amp; Data\" and confirm</li><li>Turn off \"Airplane mode\" on your device and observe the connection banner</li><li>Tap the Try Again button</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>After 3, \"No Internet connection\" error just below the channel name<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1608146369963-1608146369963.png\" class=\"fr-fic fr-dii\" style=\"width: 295px;\"></li><li>After 5, \"Something went wrong\" screen with \"Connecting…\" at top of screen<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1608146396457-1608146396457.jpeg\" class=\"fr-fic fr-dii\" style=\"width: 163px;\"><br></li><li>After 6, the connection is re-established as indicated in an ephemeral green message banner<br><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1608146986455-IMG_2929.jpg\" style=\"width: 300px;\" class=\"fr-fil fr-dib\"></li><li>After 7, the channel you were on prior to the test reloads</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.29 Mobile (March 2020)"],
+          "Related ticket(s)": "<ul><li>(<span style=\"color: rgb(184, 49, 47);\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-14043\">RN: Automatically reconnect when network is found from the \"Team Not Found\" page — MM-14043</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-20950\">RN: deleting documents &amp; data causes a flash of the background when the app reloads — MM-20950</a></li><li>(<span style=\"color: rgb(184, 49, 47);\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-24859https://mattermost.atlassian.net/browse/MM-24859\">RN: Reset cache option not visible — MM-24859</a></li><li>(<span style=\"color: rgb(65, 168, 95);\">Story</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-31407\">RN - \"Something went Wrong\" screen doesn't automatically refresh once Internet connection is re-established — MM-31407</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "7313bbd4915268a31a58889c039a7dd994f65805600c02d7cce84d0802f3de837f5ee609ab131061674cc249d9c276b2",
+  "stepsHashed": "b5a5bf183ad4b49978495f6e9babace13589f0a6542b55de3e1c1a9b3b4df0e023373b6d5179575981c3072d115e60fc"
+}

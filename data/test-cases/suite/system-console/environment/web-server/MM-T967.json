@@ -1,0 +1,55 @@
+{
+  "id": 4050756,
+  "key": "MM-T967",
+  "name": "Configuration - Subpath - Without subpath",
+  "createdOn": "2020-01-21T19:55:17Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["Cloud-N/A", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 568089,
+    "name": "Web Server",
+    "parentId": 569450,
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "Ticket Open",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Cloud N/A"],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Configuration - Subpath - Without subpath<br />--------------------<br />1. Open https://subpath.test.mattermost.com",
+        "testData": null,
+        "expectedResult": "Site's main page opens (not Mattermost; test server should show you adorable Tacoland!)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "5c70cd56917d3b260871f93cd6467bca82645c6002f0ddc238ac33153a28d16afdf8d263050cf672de7d4f27d709545a",
+  "stepsHashed": "de5d5c3adc41c3bad3525885d7b900f54af1a911c3ba03361ac9902cfcdcaffb8ad2808b1f3cc09c73b07ea56d662e5e"
+}

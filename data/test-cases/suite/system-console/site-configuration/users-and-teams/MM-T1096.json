@@ -1,0 +1,55 @@
+{
+  "id": 4058106,
+  "key": "MM-T1096",
+  "name": "Privacy\nEmail Address - Shown\nFull Name - Shown\nMember icon drop-down > View Members\nNon-System admin",
+  "createdOn": "2020-01-22T16:25:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["qa-to-automate", "se-prod", "system-console"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 569153,
+    "name": "Users and Teams",
+    "parentId": 570051,
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "Cloud Selenium: cloud-se-p1p2p3p4.html",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "System Console"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Privacy<br />Email Address - Shown<br />Full Name - Shown<br />Member icon drop-down &gt; View Members<br />Non-System admin<br />--------------------<br />Still:<br />1. Set &quot;Show Email Address&quot; = true<br />2. Ensure &quot;Show Full Name&quot; = true<br /><br />Non-System admin clicks Town Square member icon &gt; View Members",
+        "testData": null,
+        "expectedResult": "Non-System admin can see all email addresses and full names",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "1cb7f712f81569d3b930f113a1132dfc32fdc70c8ee191ebcf7dc558c953c951aded52d6c07347c6202a2f61ea195f7c",
+  "stepsHashed": "7af83cbec921443dc887e5ea3b871694bced4a110f50d1378de2c1a1a4e78c212a808772bbaad023bc0f41ab10c385c5"
+}

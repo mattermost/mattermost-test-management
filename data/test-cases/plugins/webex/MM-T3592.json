@@ -1,0 +1,55 @@
+{
+  "id": 8022897,
+  "key": "MM-T3592",
+  "name": "The room set by 2 different users can overlap",
+  "createdOn": "2020-11-26T21:08:41Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["plugins"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 1054405,
+    "name": "WebEx",
+    "parentId": 404330,
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Integration Frameworks"],
+    "Manual Test Environments": ["Desktop", "Webapp"],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Plugins"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Login as a test user and set a specfic room to use for WebEx<br />by typing /webex room camille<br />2. Login as a 2nd user and once again type /webex room camille",
+        "testData": null,
+        "expectedResult": "WebEx room successfully set to Camille for both users",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "ce4bdd7b98ad074e722db600562f21fccaa5d579803f06e77f76ea9ca97ffb82cc25751af40ff91b86be76fa2a30c26b",
+  "stepsHashed": "a4ea4e52d8277c4d779a8a60665888a17a371d5aa17833894ad8d76ab834fad95e62c4f5ee487bcd6fbdbd5c59f481aa"
+}

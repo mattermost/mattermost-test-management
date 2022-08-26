@@ -1,0 +1,55 @@
+{
+  "id": 17698340,
+  "key": "MM-T4544",
+  "name": "Attach a file when adding a post to an issue (Attach different file types Images, PDF, Zip)",
+  "createdOn": "2022-01-19T18:23:47Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2123139,
+    "name": "Jira Attach",
+    "parentId": 733538,
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Create a post that includes a file attachment (Image, PDF or Zip) <br />2. Click Attach to Jira issue from the post menu to open the attach modal<br />3. Attach the comment to the post",
+        "testData": null,
+        "expectedResult": "File attachment is not Jira comment",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "2764dd3046546fdb2b5129750e762278ffd7553b084da672af5a3935a9697c286393c3e194802ad5e7c8342c8103a029",
+  "stepsHashed": "2c329c94a54069732e033d1299fbd2114fef4c17547238dc1ca3bbc50a6b0e5a76a85173d96b66ad5fd6cc70a0896002"
+}

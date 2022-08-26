@@ -1,0 +1,55 @@
+{
+  "id": 5444600,
+  "key": "MM-T2053",
+  "name": "Username w/ dot, dash, underscore still searches",
+  "createdOn": "2020-05-20T05:50:38Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 2063033,
+    "name": "Profile Settings",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": ["Channels"],
+    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "in Production",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": [],
+    "Location": "Account Settings"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Username w/ dot, dash, underscore still searches<br />————————————————————————————<br />1. Go to User menu &gt; Profile &gt; Profile Settings &gt; Username &gt; Edit<br />2. Enter a new username containing a period, dash, or underscore<br />3. Save and verify new username displays in the field<br />4. Click \"@\" beside the search box to view recent mentions",
+        "testData": null,
+        "expectedResult": "Recent mentions button searches for updated username",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "cfaa0d8a441102b9376354b17186d36f9dc6f915af22b18db66a7219265f34668b666f785278d35072c3173076af0401",
+  "stepsHashed": "13aa29ac5545d2c37cfc73f5767f594a2f8a5e012564ac8fffec236bff2e608ab1397805a9a33d8678e3c5c53da9c827"
+}

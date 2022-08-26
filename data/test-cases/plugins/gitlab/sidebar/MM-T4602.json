@@ -1,0 +1,55 @@
+{
+  "id": 17862446,
+  "key": "MM-T4602",
+  "name": "Sidebar - Messages",
+  "createdOn": "2022-01-26T22:38:33Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 2139776,
+    "name": "Sidebar",
+    "parentId": 2139765,
+    "fullNames": ["Plugins", "GitLab", "Sidebar"],
+    "fullPath": "plugins/gitlab/sidebar"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Cypress Reports": null,
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "1. Locate a GitLab user who has unread messages<br />2. Login to Mattermost and connect to GitLab as the target user<br />3. Click the Message link from the team sidebar",
+        "testData": null,
+        "expectedResult": "Browser tab opens that shows the messages for the test user <br />(If your browser session is not authenticated you'll need to authenticate)",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "a71610f5b6e7ed21e8eaeb2969ade60a3292f1a92278080ec6b06518ad8c9a368bfd88f8af4d788350965c8f8dc9e738",
+  "stepsHashed": "e24f7530f762d635bf22fcf5e717ae0decfe7092b8c914cc8d09eb2d2943988082840c2b44de2175bf251ced4e0dae08"
+}

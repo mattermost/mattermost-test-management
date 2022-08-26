@@ -1,0 +1,55 @@
+{
+  "id": 2758416,
+  "key": "MM-T21",
+  "name": "MM-17043 — Downgrade errors from the OpenGraph API",
+  "createdOn": "2019-08-27T20:07:51Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "id": 399678,
+    "name": "Ticket coverage",
+    "parentId": null,
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": "Ticket coverage"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>On the RN mobile app</strong>:<ol><li>Make a post containing an invalid or internal URL such as `http://notarealurlatall.com/index.html`</li></ol><br><strong>On the desktop</strong>:<ol><li>Log in as an admin</li><li>Navigate to System Console → Reporting → Server Logs</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>No errors should be seen in the logs</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17043\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17043</a>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "48146c92b662d8f9e3d69575925e49b136dfcb5998441af818b386ed2de4720a7d6d06b1f79c9b315787fe476da44700",
+  "stepsHashed": "40cc8edccb60cdaf2cfd3cb14d01a01645ffce42a6277f1ec084b1c4b67eaa2b5e796fad375ca160a20546e8087f982f"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 3877450,
+  "key": "MM-T348",
+  "name": "Full username is highlighted when it contains a -, _, or .",
+  "createdOn": "2020-01-02T23:12:23Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["rf-cloud-webapp", "search"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404335,
+    "name": "Search",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Search"],
+    "fullPath": "channels/search"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": ["Mobile", "Webapp", "in Production"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": "To Do",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": [],
+    "Location": "Search"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Full username is highlighted when it contains a -, _, or .<br />–––––––––––––––––––––––––<br /><ol><li>Log in as (or create a) user with username containing -, _, or .</li><li>Have another user at-mention you</li><li>Click the @ icon in the top right corner (if in mobile view, click the hamburger menu on the top right corner then click @RecentMentions)</li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>Full username should be highlighted in search results displayed in the RHS</li></ul>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "<ul><li>(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-20973\">Full username is not returned in @ mention search when it contains a -, _, or . on Postgres search backend. — MM-20973</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Won't Fix</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-20980\">Recent Mention search shows other results besides mentions — MM-20980</a></li><li>(<span style=\"color:rgb(184, 49, 47)\">Invalid</span>) <a href=\"https://mattermost.atlassian.net/browse/MM-21191\">Recent Mention search shows other results besides mentions — MM-21191</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "11579b5b74b0c82a97b19a204efeb4c6da499b4fde135ef59054c7e23ec837dbb29229fa1c2f634537b0f67958a260b5",
+  "stepsHashed": "3408ff04d115ad90ac3d13281ee6605260d5feeb40a9d25c6dcf6ab24c981565c22f1f8a636ee51ffc8b5b9b32719eea"
+}

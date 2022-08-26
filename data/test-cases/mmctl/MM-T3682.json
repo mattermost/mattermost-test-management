@@ -1,0 +1,55 @@
+{
+  "id": 8578086,
+  "key": "MM-T3682",
+  "name": "Channel - Create : invalid name",
+  "createdOn": "2021-01-14T08:12:29Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 738212,
+    "name": "mmctl",
+    "parentId": null,
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  "customFields": {
+    "Fix Versions": ["v5.29 (November 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Server Platform"],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": "Update",
+    "Last Updated": "",
+    "Selenium": null,
+    "Tags": ["Never tested"],
+    "Location": "mmctl Tool"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "mmctl channel create [invalid-channel-name]",
+        "testData": null,
+        "expectedResult": "returns an error",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "8734cb6f59286fc2ab5188d1a432485928d4c2b1e696912bb45df5a7ac4da3e6f35cd5ee55c542fc16f1fb67fc57d22f",
+  "stepsHashed": "1f4266239732a3d7bf504810724907102c071b302e250e8f33f897bef94d68930bc72967aa14eacbe09d6088afac6f7f"
+}

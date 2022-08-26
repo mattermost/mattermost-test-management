@@ -1,0 +1,55 @@
+{
+  "id": 27299008,
+  "key": "MM-T4967",
+  "name": "Closing RHS should not close edited post in centre channel",
+  "createdOn": "2022-08-09T03:04:00Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 3233825,
+    "name": "Edited Post",
+    "parentId": 3142963,
+    "fullNames": ["Channels", "Edited Post"],
+    "fullPath": "channels/edited-post"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Webapp"],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Selenium": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li><p>Open the RHS</p></li><li><p>Start editing a post in the centre channel and make some changes to it</p></li><li><p>Close the RHS</p></li></ol>",
+        "testData": null,
+        "expectedResult": "The edited post remains open",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b8318c70a55ad6d520059bbbe32173d7b951585cd7bac5955ba45549bae99317d11230739de21df68f5e3fd910fc5ff1",
+  "stepsHashed": "16f25d31e024318f33602d65a0ce340eeef037b9f292b945b2f74d8986121a08a895aa62327abc04fe59d88b6310cb3a"
+}

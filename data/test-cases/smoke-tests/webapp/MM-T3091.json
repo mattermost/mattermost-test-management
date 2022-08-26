@@ -1,0 +1,55 @@
+{
+  "id": 6181522,
+  "key": "MM-T3091",
+  "name": "Team admin can make member a team admin using Manage Members",
+  "createdOn": "2020-07-13T19:12:27Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["se-prod", "smoke-test-folder"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 884314,
+    "name": "WebApp",
+    "parentId": 404339,
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  "customFields": {
+    "Fix Versions": [],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Cypress Reports": null,
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
+    "Detox": null,
+    "Cypress": "Evaluating",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "in Production",
+    "Tags": ["Smoke test"],
+    "Location": "Smoke Test"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Team admin can make member a team admin using Manage Members<br />&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />1. Log in to an account with Team Admin privileges but not System Admin<br />2. Open Manage Members dialog<br />3. Click Make Team Admin in drop-down next to a username to promote a member to a Team Admin",
+        "testData": null,
+        "expectedResult": "Verify Team Admin displays",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "e32e589c69b34294d5b7215cd78ae9e83bf4e0c1ec21bf70290e195d0d8bff4cebef2067ff717d76501a7c10c8b5c6e1",
+  "stepsHashed": "9eef61b1ae899e40d24a6e235244d582f77f32920a3325c2ea97155e3f650752ca9aabde5c1182f0a6e58225a17aef4a"
+}

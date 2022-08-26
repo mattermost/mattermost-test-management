@@ -1,0 +1,55 @@
+{
+  "id": 3905545,
+  "key": "MM-T518",
+  "name": "RN apps: Settings - Push Notifications - All activity, including when online",
+  "createdOn": "2020-01-03T19:01:19Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": ["1.42-p123", "notifications"],
+  "component": null,
+  "priority": { "id": 401951, "name": "Low" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 404296,
+    "name": "Notifications",
+    "parentId": 2954447,
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  "customFields": {
+    "Fix Versions": ["v1.18 Mobile (April 2019)", "v1.31 Mobile (May 2020)"],
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
+    "Update notes": "21 Sep 9 - (LI) - Not able to test push notifications in RF",
+    "Rainforest": ["N/A"],
+    "Cypress Reports": null,
+    "Team Ownership": ["Channels"],
+    "Manual Test Environments": ["Mobile"],
+    "Detox": "N/A",
+    "Cypress": "N/A",
+    "MMCTL": null,
+    "Last Updated": "",
+    "Selenium": "N/A",
+    "Tags": [],
+    "Location": "Notifications"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<ol><li>Tap the three-dot menu in the top right of your screen</li><li>Tap \"Settings\", then \"Notifications\"</li><li>Tap \"Mobile\"</li><li>Ensure set to \"For all activity\" and \"Online, away, or offline\"</li><li>Go back to channel view and put app in background or lock screen</li><li>Have another user post a message</li><li>Tap notification when it arrives</li></ol>",
+        "testData": "",
+        "expectedResult": "<ul><li>Notification fires, tapping or swiping notification opens to that channel</li><li>Notification fires even if your same account is online on browser or desktop</li></ul>",
+        "customFields": {
+          "Fix Versions": ["v1.18 Mobile (April 2019)", "v1.31 Mobile (May 2020)"],
+          "Related ticket(s)": "<ul><li><a href=\"https://mattermost.atlassian.net/browse/MM-14459\">[Community - iOS RN] Opening a single or group notification from iOS does not take you into channel where notification came from — MM-14459</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-24639\">RN: Tapping on a push notification doesn't open the correct channel — MM-24639</a></li></ul>",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fcf8ac49f9080befe4dbf9426ac6eef16950555aa8b5798344dc581cc6df0167eef86b74aaaa2b80447f80ac3c560d72",
+  "stepsHashed": "7fd2750f962662dd8c4e75aa758f05c31445197978c5cd293cf7af676abff59c3c662d46d2ab9a8ff42af23f38481308"
+}
