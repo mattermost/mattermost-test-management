@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["ldap"],
+  "labels": ["ldap", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/ad-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.29 (November 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "AD LDAP"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "47161303479d07c6754e1b61dba2f0869bdc8144a31897ed6e3bcdc12716b87508a4fb07b7d4ac6a1416106f8c30bb3f",
+  "caseHashed": "4c312db3d0f372ff93dc32e7f6f93ac1af9a4f69aea602e20e0504a62f9325e3b2eacc4bb549dd48379211d04f974ffc",
   "stepsHashed": "b76ea978159fe05155bfd529405bada0bce8b2dd5640d6ac6d997de7a2e9d29ba4a7964e8eb4ef85513d6a3f93672e27"
 }

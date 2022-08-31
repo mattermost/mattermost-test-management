@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "Sidebar"],
+  "labels": ["cy-prod", "Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar/dms-and-gms"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
     "Rainforest": [],
     "Team Ownership": ["Channels"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8e756440d8647257c69ae68c0fbf7bf93a2f1de06df43c738f4d9b1c6e10276e0aea8ad9353c5d5de4f156fcd2aa883d",
+  "caseHashed": "80f70f7348ef3b106a7e7762e9ab94f373d5ab792bef1e60fbeeef3b3cea3aa8944d95f0862e4e8d5ba5e5bc0a2e60c9",
   "stepsHashed": "477a7c0772ba92e7d5fcad540ab23039f00fc4e7de32c2fa0fbf3c4d5bce3cbe234d0f8501cf8663845f8b8a4e5e3a82"
 }

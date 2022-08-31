@@ -7,13 +7,13 @@ title: Open Graph link preview should display animated
 
 ### Details
 
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Active               |
-| Folder   | Channels / Messaging |
-| Labels   | messaging            |
-| Created  | 2020-12-10T17:51:24Z |
+| Name     | Value                                        |
+| :------- | :------------------------------------------- |
+| Priority | Normal                                       |
+| Status   | Active                                       |
+| Folder   | Channels / Messaging                         |
+| Labels   | messaging,fix-versions-not-empty-2022cleanup |
+| Created  | 2020-12-10T17:51:24Z                         |
 
 ### Steps
 
@@ -44,7 +44,6 @@ title: Open Graph link preview should display animated
 
 | Name                     | Value                                              |
 | :----------------------- | :------------------------------------------------- |
-| Fix Versions             | v5.14 (August 2019)                                |
 | Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?) |
 | Team Ownership           | Channels                                           |
 | Manual Test Environments | Desktop                                            |

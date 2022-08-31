@@ -40,7 +40,6 @@ title: Selecting an emoji from emoji picker should insert it at the cursor posit
 | Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                                                                                                                         |
 | Update notes             | Steve Mudie — Monday, December 21, 2020 10:18 AM<br />• Added link to Cypress code<br />• Reviewed Rainforest test and it does appear to be identical to the one being run in Cypress |
 | Rainforest               | Webapp,Cloud,in Production                                                                                                                                                            |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA)                                                                                    |
 | Team Ownership           | Channels                                                                                                                                                                              |
 | Manual Test Environments | Automated - No manual tests needed                                                                                                                                                    |
 | Cypress                  | in Production                                                                                                                                                                         |

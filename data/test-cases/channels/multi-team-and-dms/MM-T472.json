@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["E2E-1", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp"],
+  "labels": [
+    "E2E-1",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/multi-team-and-dms"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Multi-Team and DMs"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c2116f5110fdcb4f4e399eca0bc53020ba1b78f812dbce5e12711ed697d44e35d5f90b0c5a41ae6dc89acdeaa5972696",
+  "caseHashed": "73b6f615b038e96c10587d1a2405f2819e82f2c1fe3f718e0f1325c17dcc424d08e38c8d5b4de69239bdbdedc522aed0",
   "stepsHashed": "1c06abd253c93cdbd57c620e79556f66227d1ddba63328e2d2758d00fd4d5174f152a1f539a693a99052d87ea507a20c"
 }

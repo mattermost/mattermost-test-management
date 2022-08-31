@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Sidebar", "cy-prod"],
+  "labels": ["Sidebar", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar"
   },
   "customFields": {
-    "Fix Versions": ["v5.32 (February 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
     "Team Ownership": ["Channels"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "230ff24bed280f6b4c104b7df377d774ef547e0dce15e45ce51e4ca178f7bbca47fe5bdff88479cdb973ff4440264dba",
+  "caseHashed": "801e4d5fcc14f3b5df76c6bb6ce163856792cd709168fdbbd1191646c19d5267bd7c3c3ad054c1108e5ae59f00ad4801",
   "stepsHashed": "9294db81af69d7800d8892800fff78db8c97772a2752b96e70fdb79fe050df6cab3c76a381e57fcd2b85f8fb94ca6e7b"
 }

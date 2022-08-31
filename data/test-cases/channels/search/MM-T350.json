@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "rf-cloud-webapp", "search"],
+  "labels": ["cy-prod", "rf-cloud-webapp", "search", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)", "v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "(SA) Combined multiple steps into a one step, following the code written in Cypress.",
     "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9976504e6ce5800dc237c03fba1108057e14957465afa62b2ef57526d6aa0c2a2ed97c1e55b58052bd6096f065b7a073",
+  "caseHashed": "0472854a9aaf1303faf80502a605bb243ae5c3931fc886a9375bea60a1c42e3a1190db150ec99db6eb5095d644b98dff",
   "stepsHashed": "06c4a695e8ff37a932bb5a8fae4f6112109f5f70a7aeb2c95cc2e1f21bbda34b05c8267b4fb99db74d70ad2f17dd984a"
 }

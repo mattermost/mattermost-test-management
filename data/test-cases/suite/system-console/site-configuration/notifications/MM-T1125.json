@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/site-configuration/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v1.26 Mobile (Dec 2019)", "v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "21807202e8af5887afd45aa7c7bc9b0559e113a7f1a6e8b2b7e7223690b0f139ded0b193ae5adcfe45793ac6ffcae49a",
+  "caseHashed": "09c21cbd60662b3567abc4ab8a9d102af2d855760c214127a79ba5b92df96ed4994c65ca95a88c118b89aa86b1a59f65",
   "stepsHashed": "3ef4e522a3e8908b550862e26ce2f2e4fd99ea2c9315004f3d25c35c227261ac9c4761da9ef443e57c53886ebe6a8307"
 }

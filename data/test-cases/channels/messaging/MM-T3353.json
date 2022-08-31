@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f6b7ef87d690d49bdc484300337af2f7614def2fd8c3808dd7734f29beee40a3aa4e927910cf59b024885f1cbe3ffbe3",
+  "caseHashed": "d69df30141b5bce3b697de229bfd84fc6d205f5f0ef10208e317dab690e49fdc7bd5e37f3270c018b1053da869b37e92",
   "stepsHashed": "ee07dab8fe4ee24c0056b44c3af25bf7b1658bd47ae2766ddd45b668e08840c808ea9980c03246f909937a31230a8b13"
 }

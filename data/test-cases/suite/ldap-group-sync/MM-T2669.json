@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["ldap-group-sync"],
+  "labels": ["ldap-group-sync", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/ldap-group-sync"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Desktop", "Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "LDAP Group Sync"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e8f6abcb35e7b69da9f16d294f2e8d8befdb0cca046d197d37eabb6e2afcad4bfcad4cf5e5c48e26b802393ebb50bbf0",
+  "caseHashed": "731f3e832a948b27b94aeef153ac250c5f144577124526f6e6b05569cb0f80f8a8dd58d276f53e46b4dae1e6a1176a1b",
   "stepsHashed": "879b0c83f92250c62361a4951011648d25900f5ffea9fd793843d91a7892ffa935050715ba7ee44c8641931eda8114e9"
 }

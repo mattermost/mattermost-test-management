@@ -6,7 +6,7 @@
   "objective": "Remove User in Channel Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e559275c44679c5446109ec7e749b6597bd96a3309ab5a653a51e299acee93e65d8af82172d94ad8db100ac6cc1ebfa1",
+  "caseHashed": "be82b567480be67991403a53a3b157c66f43d87fd8a41c361f8b534f1c8a400445a863a68d5417523cb3149c226aa8b2",
   "stepsHashed": "f67c21ae0313e5b54244e6bc4fda6be672ba3e6e7d8572ff8dda59a76f7b79b14c42accc4ca3e01036b88b0c72bbf1a5"
 }

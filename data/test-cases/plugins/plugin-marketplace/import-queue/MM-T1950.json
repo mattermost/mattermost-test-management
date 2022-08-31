@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress"],
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "plugins/plugin-marketplace/import-queue"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0329af80043159f99d8832a3e0198db0e7a40a1860e2d6cd0b52ed26fb670a4bdfbbe9625d4024b5d4f282cfbf8e3e80",
+  "caseHashed": "3482142002865080c89f49407b74ed5f360546ea2c7b29fe682d2aff655fa0f78de90d3969c7e6bbfa6a8b79a7cbc246",
   "stepsHashed": "50996c501ca5179af8c39826d753361981215fd53069b2f2a1f32595fe3b203347aaa0c458b127309dbffab69cfc436c"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "JAWS Screen Reader required: <a href=\"https://support.freedomscientific.com/Downloads/JAWS\" rel=\"noopener noreferrer\" target=\"_blank\">https://support.freedomscientific.com/Downloads/JAWS</a><br>Eric has a license key to upgrade the free version - ping him if required<br>Switch off the \"PC virtual cursor\" within JAWS by pressing INSERT+Z<br>Navigation to various focus areas: CTRL+F6 in browsers; F6 in desktop app<br>The feature is not available on the RN apps.",
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/ada-accessibility"
   },
   "customFields": {
-    "Fix Versions": ["v1.26 Mobile (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "ADA Accessibility"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d3acd3f02db11a9127fb28b9a0eec141cc86a2f7eebf2a742827b90cbf9d2f00d2c9744d71ecde66ff40f5bc40c5139a",
+  "caseHashed": "fb48803d9d225f6e2495cc38e57652ce3d52069eae402ec576a39a3c445c5e4793152603953f6ca6b9b08d87337eee9d",
   "stepsHashed": "ece24aeb2bf3bb50574d42d65273c23a0f8139e36331304364e90a2d6af52d2a43926b54c60e076a0d7e912ae21553c5"
 }

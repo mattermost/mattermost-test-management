@@ -6,7 +6,7 @@
   "objective": "Pagination of Users in Channel Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bc4e8b410563923ad790523a02def74345b1b23274a3e5bf43142673f27cf940d67b69e04bb02e6645019faa0369061e",
+  "caseHashed": "58815c660ccf99fb9ebc5480d69b2311df4c2e19aed91c4475f0d2baf15f24c7dc50a87c8c4e14395bba0f7e433b3b6c",
   "stepsHashed": "9604fd53f498f4c31ffcef17ec943519bf5b448288584d012b921d57364e5e44a5b7bbce01d5479bb5498f5c839b95c5"
 }

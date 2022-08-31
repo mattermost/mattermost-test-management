@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "Register account to Mobile Telemetry Dashboard<br><a href=\"https://mattermost.looker.com/dashboards/185\">https://mattermost.looker.com/dashboards/185</a>",
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/telemetry"
   },
   "customFields": {
-    "Fix Versions": ["v1.34 Mobile (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Never tested"],
     "Location": "Telemetry"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "24887cc0e201089067865ae90921389467a35542c1e875d3bc9992dbe56ec65c01267a09af23bb829f3d9cb0e69022cc",
+  "caseHashed": "c49d177bf1a6feb06383d429c0389d98cccee621b686aab8fd46e7d2f7c4262c4278683cca18e1e98c77016b5d743763",
   "stepsHashed": "456b40befaf66d921e5147945a886b5fbde98b362f8c2b7b111f7d0700bb5e7d4cbb4b915de4dcdaf77f1afd352d4c1b"
 }

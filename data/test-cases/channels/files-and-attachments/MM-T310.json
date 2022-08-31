@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Test this one on</span><br></strong><a href=\"https://community-release.mattermost.com\"><strong>https://community-release.mattermost.com</strong></a>",
   "estimatedTime": null,
-  "labels": ["files-and-attachments"],
+  "labels": ["files-and-attachments", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/files-and-attachments"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Files and Attachments"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3e77cc16b5ea3ef61e341189aa25201d71ec382b4f6aac3fc112c5eb10e3a2bca67d0ef513fab9c73511db9474b3d54c",
+  "caseHashed": "e6b092dd7d65896eadc1018062d96806f8f4c1db066f80b22af5518005e02c5e3d54f1cd93753640b0ed834d06982023",
   "stepsHashed": "6c9c2c6b51cad3d151f4eb0c8c4d7d5c64edf3b3050548ee865f7d9bd3ecc599acf64db15a773bcfc3f4dfdb3aa0a480"
 }

@@ -6,7 +6,12 @@
   "objective": "Channel Mentions Permission schemes - Channel Admins",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "enterprise"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "enterprise",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8f07444ea02f4fc10497cae741bc01fba80cfe75bdc856f4ee587f6b22f658fff59d835fe0af17626f637f80793254b6",
+  "caseHashed": "15c83484a2dbc602f6c5b971ddbb3b2dc06112268119f29237b904c79c1ab2968774d952a0dfc151119ba7fb4b5c9b4b",
   "stepsHashed": "9d628bb952cf654c68602c42bbb7447af13ebb8cd7abc55d5fb55f24415086dba8eda08deb66cfac3c107f4d2c139b32"
 }

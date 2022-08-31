@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "cy-prod"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,32 +18,29 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "Webapp", "Cloud"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
   "steps": [
     {
       "inline": {
-        "description": "<ol style=\"list-style-type: upper-alpha;\"><li>Locate a target post and note the date, author and channel</li><li>Locate or create a more recent post with some of the same text in a different channel and a different author. Note the author and channel</li><li>Search for the text common to both posts with a filter \"before:\" greater than the date of the second post (this can be in the future if the post from step 2 occurred today)</li></ol><br>before: can be used in conjunction with in:<br>–––––––––––––––––––––––––<br>1. Add \"in:\" and specify the channel that the post from step A occurred in and search",
+        "description": "<ol style=\"list-style-type:upper-alpha\"><li>Locate a target post and note the date, author and channel</li><li>Locate or create a more recent post with some of the same text in a different channel and a different author. Note the author and channel</li><li>Search for the text common to both posts with a filter \"before:\" greater than the date of the second post (this can be in the future if the post from step 2 occurred today)</li></ol><br />before: can be used in conjunction with in:<br />–––––––––––––––––––––––––<br />1. Add \"in:\" and specify the channel that the post from step A occurred in and search",
         "testData": null,
-        "expectedResult": "On step C, both post are returned.<br>On step 1, only the post from step 1A is returned.",
+        "expectedResult": "On step C, both post are returned.<br />On step 1, only the post from step 1A is returned.",
         "customFields": {
           "Fix Versions": [],
-          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
           "Important notes about this step": ""
         }
       },
@@ -51,7 +48,7 @@
     },
     {
       "inline": {
-        "description": "before: can be used in conjunction with from:<br>–––––––––––––––––––––––––<br><ol><li>Remove in: filter and add \"from:\" and specify the author of the post from step 1B</li></ol>",
+        "description": "before: can be used in conjunction with from:<br />–––––––––––––––––––––––––<br /><ol><li>Remove in: filter and add \"from:\" and specify the author of the post from step 1B</li></ol>",
         "testData": null,
         "expectedResult": "<ul><li>Only the post from step 1B is returned</li></ul>",
         "customFields": {
@@ -64,7 +61,7 @@
     },
     {
       "inline": {
-        "description": "before: re-add \"in:\" in conjunction with \"from:\"<br>–––––––––––––––––––––––––<br><ol><li>Re-add the \"in:\" filter and specify the channel that the post from step 1A occurred in</li></ol>",
+        "description": "before: re-add \"in:\" in conjunction with \"from:\"<br />–––––––––––––––––––––––––<br /><ol><li>Re-add the \"in:\" filter and specify the channel that the post from step 1A occurred in</li></ol>",
         "testData": null,
         "expectedResult": "<ul><li>Neither post is returned</li></ul>",
         "customFields": {
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ac1ef1fb5b7e3d9760b8c30fb57395720906ff6c84cb2e921f42b70ad43c056579957a98823d09bce063ee73decd8705",
-  "stepsHashed": "37a8755bdae636f3a2ead80c1065bce3c554e3f66886775d70b8b09137b15013f5d6cc9870f72d1ce1581b1111cf4a4f"
+  "caseHashed": "ddd44f720252dd5c643af965d1a7be6321b79d6ca0068c8e93b89aa413331f6e553c5839f105cea8a7a7d107304473a3",
+  "stepsHashed": "9e9f50801282c9d73bc615f724a475e5ffed074d0220b1e0958086d8b5e9424a65443a11056ec2a36c81c4f22b251a9d"
 }

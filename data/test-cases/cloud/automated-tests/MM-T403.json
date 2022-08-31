@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "cloud/automated-tests"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Monday, December 21, 2020 3:19 PM<br>• Added link to existing Cypress code in Traceability tab above<br>• Code was put in place prior to shift over to using the test case numbers ➜ \"it('On14634 Email address already exists', () =&gt; {\"<br>• Added to manual pool until automation can be rectified<br>• Set priority to P2<br>-----------------------------------------------<br>Prapti Shrestha - Thursday, April 16, 2021<ul><li>Updated Zephyr key in E2E test file.</li><li>Took off `TM4J-Key-Missing-In-Cypress` label</li><li>Set Cypress status to Production</li></ul><br>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Growth"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Cloud"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9c3ebedd2a053fc34a4123d363a995507b945bb398c421147640853b2d2b55f53595a7b59c849a5621be240157c25443",
+  "caseHashed": "31567e4b8dc5d5b3dab2142c61bee94c67f3683c34a0601497001c2be05e08232442f6ae945d2e990ed214c66f75e75b",
   "stepsHashed": "2f9d01b83ff30b1cb3473e62ef86920162840e35bbf5a42f3ce95777cc038792d28abfe1d5d849e32d47aa37d88e4c59"
 }

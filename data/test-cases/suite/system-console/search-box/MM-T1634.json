@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "system-console"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "system-console",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/system-console/search-box"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Thursday, December 17, 2020 9:27 PM<br>• Added link to Cypress code in Traceability tabCypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed <strong>TM4J-Key-Mapped-In-Cypress-Unstable</strong> label<br>• Added <strong>TM4J-Key-Mapped-In-Cypress-Release</strong> label<br>• Added link to Cypress code in Traceability tab",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3b720fcf9f5efa3eea8b04d0652b171b0b478679eb6e20a45b10b6f671874148c04258427d5ced425a70990cd0dadb35",
+  "caseHashed": "b3a1ed1aa2e8c4de5a466b70b7235484d017b11c7385195656683504e81ad03690e92f04a9f496fa8f612abc8f9a8abf",
   "stepsHashed": "6311b82baa9a1fe22cd4d777ea1acf2690270c4926b77c576478ab6a32c11ce6c356b36d3ae8546b5762a5d3975c01ee"
 }

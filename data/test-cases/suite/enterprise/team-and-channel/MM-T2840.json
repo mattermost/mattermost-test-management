@@ -6,7 +6,7 @@
   "objective": "Add Members outside allowed email domains",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8377475347fc4cb8e14a8f5823198e34c3ed282fbde7df947fac79f5fb3d891a8ab2341c21bc02e61639153eea36e2ac",
+  "caseHashed": "306d9fb2c825e7ce8c8979c1f7248bbd0825bb85f8dc03716d92a70fcf13e4efdc3d4f6dc67651a7d2696cdaa457ac9a",
   "stepsHashed": "717b19afb0d8386a5cb24ce7ca878b16c9667e9597181dac279102dd7cba02d7e8dd75215d19737ae26e25c017f222c1"
 }

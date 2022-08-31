@@ -39,13 +39,12 @@ title: Disable Plugin on Removal
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                                      |
-| Update notes             | JB - Friday, December 4, 2020<br>- Moved to automated                                              |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Integration Frameworks                                                                             |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Tags                     | Cloud N/A                                                                                          |
-| Location                 | Plugins                                                                                            |
+| Name                     | Value                                                 |
+| :----------------------- | :---------------------------------------------------- |
+| Priority P1 to P4        | P2 - Core Functions (Do core functions work?)         |
+| Update notes             | JB - Friday, December 4, 2020<br>- Moved to automated |
+| Team Ownership           | Integration Frameworks                                |
+| Manual Test Environments | Automated - No manual tests needed                    |
+| Cypress                  | in Production                                         |
+| Tags                     | Cloud N/A                                             |
+| Location                 | Plugins                                               |

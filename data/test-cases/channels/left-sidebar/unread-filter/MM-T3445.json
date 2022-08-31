@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "Sidebar"],
+  "labels": ["cy-prod", "Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar/unread-filter"
   },
   "customFields": {
-    "Fix Versions": ["v5.29 (November 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, December 23, 2020 10:52 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed No Test Executions label<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c41ffc642393d2f55ca5d29a39e0dd13e52d0ae628b6858d5b5e721f66a773edd55d0f49ee10821a7070ee9fa2a5ae5a",
+  "caseHashed": "85afe233e1d46c2d6f8856d65e40f9f3720366a7c90edecd995670f5df90b2a09444e6f41a318143b4c8719291924747",
   "stepsHashed": "c1d6264fd5a070b9e4a76956a6a156c80b8169ce7182fe55d1bc770892b4ed52f3d88d593dd3d88352260ce6da13f536"
 }

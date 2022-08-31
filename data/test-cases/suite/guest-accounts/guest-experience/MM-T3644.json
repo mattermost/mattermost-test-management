@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-experience"
   },
   "customFields": {
-    "Fix Versions": ["v5.30 (December 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Desktop"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f7282197c05bc94e07bd730f17795690f70373361088023a1f85fcb4de5f0bd142bfbcf70d8a4ea4c36320768aa9f48b",
+  "caseHashed": "0e4fa6b65662f660038ff7a5ad9a6dcf7f0f25f6350b192366c590a777446b22a0eaa3624bf5404285f35be75dce397b",
   "stepsHashed": "b2084e9cda71003c4abdbf9c81ed7eccceb74e1ff4e1097973fbd54e6cf31f1c8556582db570b90adec63b741bb984ed"
 }

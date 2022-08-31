@@ -31,11 +31,10 @@ title: Typing should show up right away when editing a message using the up arro
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                    |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Messaging                                                                                          |
+| Name                     | Value                                           |
+| :----------------------- | :---------------------------------------------- |
+| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?) |
+| Team Ownership           | Channels                                        |
+| Manual Test Environments | Automated - No manual tests needed              |
+| Cypress                  | in Production                                   |
+| Location                 | Messaging                                       |

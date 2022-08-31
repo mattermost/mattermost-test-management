@@ -6,7 +6,7 @@
   "objective": "Use Special Channel mentions in Channel Header &amp; Channel Purpose",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Mobile", "Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4c212e3827944e763145567276177e9342507ba4d9b736448bdc74de33b7052a55738b8e3b82d632a010c45225230624",
+  "caseHashed": "04e8b507f8ae6eb4e43084e20e3cb508a66581ee65fb9fabf913a9ffa8e6aa96d60cfe24501b589e2af00ab7f65d25de",
   "stepsHashed": "61dd200ecc9b89c1859e5faa9825814efed73e58e2d1f9f4a6192787025296f29d963d26d29ada4298482aaf90d6e0cd"
 }

@@ -11,13 +11,13 @@ title: Mobile classic apps: Smoke Tests
 
 ### Details
 
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Smoke test                       |
-| Status   | Active                           |
-| Folder   | Mobile App (native-specific)     |
-| Labels   | RN_Smoke_Tests,smoke-test-folder |
-| Created  | 2019-09-04T21:03:12Z             |
+| Name     | Value                                                               |
+| :------- | :------------------------------------------------------------------ |
+| Priority | Smoke test                                                          |
+| Status   | Active                                                              |
+| Folder   | Mobile App (native-specific)                                        |
+| Labels   | RN_Smoke_Tests,smoke-test-folder,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-09-04T21:03:12Z                                                |
 
 ### Steps
 
@@ -603,7 +603,6 @@ title: Mobile classic apps: Smoke Tests
 
 | Name                     | Value                                                                                          |
 | :----------------------- | :--------------------------------------------------------------------------------------------- |
-| Fix Versions             | Won't Fix,v4.8 (March 2018)                                                                    |
 | Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                |
 | Update notes             | Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest</li></ul> |
 | Rainforest               | N/A                                                                                            |
@@ -611,6 +610,5 @@ title: Mobile classic apps: Smoke Tests
 | Manual Test Environments | Mobile                                                                                         |
 | Detox                    | N/A                                                                                            |
 | Cypress                  | N/A                                                                                            |
-| Selenium                 | N/A                                                                                            |
 | Tags                     | Smoke test                                                                                     |
 | Location                 | Smoke Test                                                                                     |

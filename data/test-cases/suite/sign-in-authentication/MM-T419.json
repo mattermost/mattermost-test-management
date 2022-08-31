@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["sign-in-auth"],
+  "labels": ["sign-in-auth", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/sign-in-authentication"
   },
   "customFields": {
-    "Fix Versions": ["v5.15 (Sept 2019)", "v4.3 Desktop App (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Cloud", "Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Sign In Authentication"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "892cb42b9f6df1f423714712139980d508d9fe3fca7b7245e1b84352b3b24b16b025ade1b4399ca74319e2d884c0913c",
+  "caseHashed": "559b808f2cec12c8633d57284ef4336800353c19fe70540343397f8f44fabfc7adae0340d96ea6d8f3de0fda988d5b43",
   "stepsHashed": "8bd9257fc817195c7d8db4e3662a9b3aa63e191749be4b63fd69a9a2f48e33c656802e6734c20b5278f159c5583b55b6"
 }

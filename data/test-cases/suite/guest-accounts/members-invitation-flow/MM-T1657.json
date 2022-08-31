@@ -6,7 +6,7 @@
   "objective": "User suggestions list is populated when searching for users with '@'",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/members-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "794bbc1d31464f23dc7f86d9839827590abd0e54c6df6bc562c6f182c18a56d84e8f88f027ff76898678811c55167ece",
+  "caseHashed": "31e48ab18174dc5f48535880730ded9fd18eabddcd0710b281f3a00886d6e941f935b035160c437211b238a4d0b3f8b9",
   "stepsHashed": "2b9ea3725725ac8e06470034bd3645463ab7b9a5ea7888c43debc45dc477043d6cadb6a47f7d66e39e9c884a866cb9e1"
 }

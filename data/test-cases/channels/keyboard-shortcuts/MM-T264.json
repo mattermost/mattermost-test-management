@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://community-release.mattermost.com\">https://community-release.mattermost.com</a></h1><br>Using the old keyboard settings.",
   "estimatedTime": null,
-  "labels": ["account-settings"],
+  "labels": ["account-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "166631fec3b286ec749b8f9973fd59f9985410c8df099333582f1b3cfe4594a82d746d9c99f833746198ad940b1cc0b2",
+  "caseHashed": "328da3ce0f05bcfcefb9827d5e748828cc3552ccd464e674fe7a18a5aceec048c59b53ea93829efc772d15eb13869930",
   "stepsHashed": "fef11c1418a35e07f4aee3be2be7cdba8f0e5f6e030fa718679930714bb399305fc6687b6f22c70674f0863598a92b13"
 }

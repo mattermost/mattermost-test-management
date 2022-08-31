@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://rc.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["cy-prod"],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": ["v5.19 (Jan 2020)", "v5.8 (February 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:02 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status back to prod<br />• Leaving in manual pool for now",
     "Rainforest": ["N/A"],
     "Team Ownership": ["Channels"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "49a36e214881d709aceb8c3777c1143036ae666374ea002dc346449f232a596d90133faad4fde93281bc1094871731b6",
+  "caseHashed": "0d1ae2ba38a384c3b7ec58672588c906669c5b032e8e95e7beab62caacc5c9c6095fd2f83ac96a70b9943e44f35b15f7",
   "stepsHashed": "8a8137f62917f719484ac6ca539ec0dd38f1cad27b482dd8f9f9af0c67cddd21fdeae12997e10fd4fc2f542d9663cb6e"
 }

@@ -6,7 +6,12 @@
   "objective": "Check Group Mentions when group members are in the team but not in the channel",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "enterprise"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fdcea5477c5fc51176b799cd11257796bdc0baf554f6668966c5ddd4d9af928e97bb61898cff86443df5303e2e0ffe00",
+  "caseHashed": "b40975ec8ec9c71a047235748051de99fd7b549491f5027f294741f03b8197b2b2f84bf57d514b8376ef9f5b2951db70",
   "stepsHashed": "8a127d27ce46488fe02afd356c1d1491964d5dbf41ab23b39f69167765d3fe725cf72db307426ae01acf529199982423"
 }

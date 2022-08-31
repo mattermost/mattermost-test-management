@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["RN_Smoke_Tests", "1.42-p123", "smoke-test-folder"],
+  "labels": [
+    "RN_Smoke_Tests",
+    "1.42-p123",
+    "smoke-test-folder",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "mobile-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["v1.16 Mobile (February 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -63,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a2dffd79620a24f1d2c9115704b7180ba7ff065e17f744ab49cf23f577436512bde479890658f40cf02aaf449110aca9",
+  "caseHashed": "311e6b453eabd980ddcf4b8a940661ce953cbbdb01ac6d1bd50c305d96bf5f19429bcb5a8a90c4ab89b17a8b5b400664",
   "stepsHashed": "925542a7bb6968dbea83a6f97d92ca444bab914a878bcd305045263cdce7688b246d504fd1432aa3aa281eb19704c664"
 }

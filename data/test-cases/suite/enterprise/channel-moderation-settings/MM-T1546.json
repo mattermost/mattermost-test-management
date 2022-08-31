@@ -6,7 +6,13 @@
   "objective": "Post Reactions option removed for Guests &amp; Members in Team Override Scheme",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress-Partial", "enterprise"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress-Partial",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
@@ -89,6 +92,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f4b7b6d517492d858a0762db80100ed27d01c3b9ed137ef0af83fa7a4ab1469b8b40be60119686d8f666e0e7eac8457e",
+  "caseHashed": "69bf9dfd0e4eec7e9970341f4784ad39ecd99dd802012d6db375a8d5c665c00c9b9ca0c01568fd4016bd0673c7affd18",
   "stepsHashed": "d1335507bb73ac3189c30e3fddd9374c4b96e4621003dcaca9a27216db4acee9614767e80e2297b7c80d3485a857a36f"
 }

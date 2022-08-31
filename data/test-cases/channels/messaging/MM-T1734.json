@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)", "v5.26 (August 2020)", "v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Test case updated to add 1C Enterprise syntax highlighting.",
     "Rainforest": ["N/A", "Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "N/A",
     "Cypress": "Update",
     "MMCTL": "N/A",
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Messaging"
   },
@@ -115,6 +112,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b74ca0d9cbd1ba406cb7b6e94128a7ddb0dfa16b7f920a1ba5380752d0434777268ed30a95a6b8421203a673146c353a",
+  "caseHashed": "ca3237d435f66bac61bd926e8ccdd266c04a5c7060a3f3a6e34e0a387b3440f4e0ca99a8f4c7a56a9dea5607f3eb79f3",
   "stepsHashed": "ebac6158b3f6369b53b5fd703f8a55625e45628704bcde80ef2264f50650be502c3782588de1696654834b945d138eae"
 }

@@ -6,7 +6,7 @@
   "objective": "These tests cover the very basics of the Mattermost Classic app.<br>It is no longer being updated but is still in use.<br>The last versions released listed below.<ul><li> iOS Version 3.10.3 — Apr 13, 2018</li><li><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566499085070-android-vector-icon-7.png\" style=\"width: 16.0px;\" class=\"fr-fil fr-dii\">Android 3.10.3 — May 16, 2018</li></ul>",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["RN_Smoke_Tests", "smoke-test-folder"],
+  "labels": ["RN_Smoke_Tests", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "mobile-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["Won't Fix", "v4.8 (March 2018)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -687,6 +684,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a3c9b3bc51a0c074ffe34a798573708b0e411c90cd70c27a25b4a468862bc9b517066bc026609e70c7ec2c51a7d2d112",
+  "caseHashed": "34dae9e668ba139c9c5c78439c45af0f4191bb3b71fdab6512ff66721b7f6d79ba0c5a238c79ea9d62de9f22fe2e6e4e",
   "stepsHashed": "fc270d2212a0917dc85c70d2664e3d5daf159716e4ce1a774efaa81f07e27db34d3f9017de314809b820278cf1400e65"
 }

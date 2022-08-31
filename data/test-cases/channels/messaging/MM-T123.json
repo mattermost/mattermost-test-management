@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)", "v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f6d19fecbae2e99e76a7d6894a5181598cf7168e0f136b5b59b65d6b55e1e0b8157e24977d40e3987fe99fdc99ef5963",
+  "caseHashed": "f515ad7412c33de47732126f497dcbcb66ac6fba54fc39ed602f42fc6edbb75d3e5a6e378399904ea327cdbbb0e9b030",
   "stepsHashed": "113d0ddbc8bcc624813dfedc1b71c8f15c6d042036218998c673b93af09e7d112dcaf185375f0236b87ef14b57d0ff92"
 }

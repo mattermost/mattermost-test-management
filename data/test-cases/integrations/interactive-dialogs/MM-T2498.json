@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/interactive-dialogs"
   },
   "customFields": {
-    "Fix Versions": ["Open", "Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Tuesday, January 05, 2021 11:13 AM<br>• Removed from Mobile testing pool as test appears to be aimed at desktop and Webapp which are currently covered by Cypress<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 23, 2020 8:14 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual Webapp pool<br>• Leaving in Mobile pool",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Interactive Dialogs"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "11afecc015ef8c53360e6599047f7fc7f63eb16f63f5fbaeb021eb4c0fe93f0cfc9eb488dd4974e2e0fcb29f0e3d1adc",
+  "caseHashed": "19296cbad489baed4885b9eba9cb6c78281ca25d13f19cab0668cd6ebde4575b153a0b4ef5d6e95b34790d13d9e8f211",
   "stepsHashed": "27c84ad92b1f254765747904b55e812e093bb930a771720c6ed27c2f847123542e4d9cc6dffb75beea92f00f988a70ae"
 }

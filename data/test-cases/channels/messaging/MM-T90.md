@@ -36,7 +36,6 @@ title: Reply to older message
 | Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                    |
 | Update notes             | Steve Mudie — Thursday, December 17, 2020 8:07 PM<br>• Added link to Cypress code in Traceability tab |
 | Rainforest               | N/A                                                                                                   |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA)    |
 | Team Ownership           | Channels                                                                                              |
 | Manual Test Environments | Automated - No manual tests needed                                                                    |
 | Cypress                  | in Production                                                                                         |

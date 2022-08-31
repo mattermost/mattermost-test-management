@@ -7,13 +7,13 @@ title: Autocomplete highlight should follow mouse hover
 
 ### Details
 
-| Name     | Value                     |
-| :------- | :------------------------ |
-| Priority | Low                       |
-| Status   | Active                    |
-| Folder   | Channels / Messaging      |
-| Labels   | rf-cloud-webapp,messaging |
-| Created  | 2019-12-19T15:28:54Z      |
+| Name     | Value                                                        |
+| :------- | :----------------------------------------------------------- |
+| Priority | Low                                                          |
+| Status   | Active                                                       |
+| Folder   | Channels / Messaging                                         |
+| Labels   | rf-cloud-webapp,messaging,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-12-19T15:28:54Z                                         |
 
 ### Steps
 
@@ -85,7 +85,6 @@ title: Autocomplete highlight should follow mouse hover
 
 | Name                     | Value                                           |
 | :----------------------- | :---------------------------------------------- |
-| Fix Versions             | v5.20 (Feb 2020),v5.27 (September 2020),Open    |
 | Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?) |
 | Rainforest               | Webapp,in Production                            |
 | Team Ownership           | Channels                                        |

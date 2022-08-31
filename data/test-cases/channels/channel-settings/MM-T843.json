@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "labels": ["rf-cloud-webapp", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.10 (April 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1b279674cf65bde882baf61459502a8c60e4bcba029b542257bd232d83bfc957c6ea82105a96efceae1234078a2f8ad1",
+  "caseHashed": "cfb1b6363a453b22ef4c8610f03804d5e3ad51d9a364e21d536995d18535b360d8e96c68f8f8e0e6213b5099aaafcfbe",
   "stepsHashed": "3aef19cb151a7c320c3cf3db83b05a92ba92b2348b663eba30ae005c52582f9db13bc2bde0ff2299b3782ea075507b08"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
   "estimatedTime": null,
-  "labels": ["archived-channels"],
+  "labels": ["archived-channels", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/archived-channels"
   },
   "customFields": {
-    "Fix Versions": ["v1.29 Mobile (March 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Archived Channels"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c126519d1b494515183f8e059722429b6adab00f7a74a7557985448f35ad7177b7a6400e8b6961cc2337d2ccae45ed28",
+  "caseHashed": "70b364ae418d57ac56af1375fe98d1c1acd736fad56aa8d1af599339ddaee9729d62e0b04ba6d4ee59be27f8360cf619",
   "stepsHashed": "92c88d21038cb2a3b33d702e5f5c76072493e080e7f32aa6dbaf40d6cf6a431664839bdb6ccb3f56779638173cc74f7f"
 }

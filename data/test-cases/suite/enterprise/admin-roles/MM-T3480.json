@@ -6,7 +6,7 @@
   "objective": "System Roles - Search &amp; Pagination",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/admin-roles"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "eda15fef6df83c8bae9724fcd2e696a7d9a5da37160dd0435db0a3d38a0c065a3406c626d8e4d9cadf4e942d218a957b",
+  "caseHashed": "d826d965349c640e62613c5455df81d7dc51307e39f20bdbddba5f2e5f3369a21233e302360e7f220ac8c365aea3ed36",
   "stepsHashed": "6386c37521020cb705206809f4f53db3d5be73ac39c815ed759af967d78afc386acc2d3c9a66b91031db5960dcf52c57"
 }

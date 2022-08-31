@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "guest-accounts",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/guest-accounts/guest-identification"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e90c726fabc4e277ee1eefc098aeb0e25a64b72dda963c32b6009487aa86667b713feeea17f02b9718b25b79e625bad7",
+  "caseHashed": "3818b8d9408a12a1eb8439592c12d75e06c433242876a551dd5564b0b3b1789fad29079b48ada3d878d477ba6c8bb564",
   "stepsHashed": "c21cb545f36d61310880e492daf7703fabf728f24241050c4ef8afcda4f1c805cb1512ef405f07d3c0509623de159c33"
 }

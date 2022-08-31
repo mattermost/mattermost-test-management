@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod"],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/bot-accounts"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, February 03, 2021 3:33 PM<br />• Removed from manual pool as Cypress tests appear to be working as expected",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "BOT Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f0bf063cfc3f2854abe35659c25f26eabb94a5c2f0afec53fe997ffb7255feb460e1391625e04273bd842bbecc938afc",
+  "caseHashed": "d416df679ea528cf700d9b8598360d8492bd8faebd83ebe84511815996ca26685b3a4b560671c4e805f208a0a72a089c",
   "stepsHashed": "1da906958bfd12dfee59e7bc0be403f891fc685be882cc9dce1e2ced413c9963bedcf02bf63590b2c84708b233b2e26c"
 }

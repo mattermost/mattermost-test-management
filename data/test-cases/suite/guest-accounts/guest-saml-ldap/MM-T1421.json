@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-saml-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7462eade093fb569af05ce59504d5ae31b0df793d5337ff6da676738610104d5ac8296d814652641dc8467946f993ac0",
+  "caseHashed": "4d9e74691b1b675465e9bb5a9fd43dda06a328ba25260d4f96fc811d1915e19e0543c2b07aed1b14f47bc52281e38dd2",
   "stepsHashed": "6cf70cf0a0e7d74d5bc64966ea14fead2e44cd56a13f2079205b0249d55c910a1f73ca9b6b706b981fc7c13176a285f2"
 }

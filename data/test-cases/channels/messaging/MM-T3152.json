@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "messaging"],
+  "labels": ["1.42-p123", "messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,25 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": [
-      "v1.34 Mobile (August 2020)",
-      "v1.38 Mobile (December 2020)",
-      "Open",
-      "Triage"
-    ],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "21 Sep 10 - (LI) Marked as N/A for Rainforest as not able to test push notifications in RF",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Messaging"
   },
@@ -68,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "52d9f3c30b285f3b33f65a2e6f705c7fcbb8017e15c591fa5ceb6dbdcb2edb5bd9c9588ccfab9f330facea2808b94b5c",
+  "caseHashed": "b619b1fa628d6cf256382045d2b5daaeadcbc39adf439d41af68bfbf8308b6850844126943bad3a9b889818a844a1587",
   "stepsHashed": "bb4b2199001c258f6f90cea9be82d824e6cdb344cfe2a52b42f7f15054f88d665eb982ec8d06f2dc68d1d3fa7758ea16"
 }

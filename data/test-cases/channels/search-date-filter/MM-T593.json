@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "cy-prod"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Prapti Shrestha -- April 16, 2021<ul style=\"list-style-type:disc\"><li>Updated Cypress to in Production</li><li>Took manual testing for webapp and cloud off</li></ul>",
     "Rainforest": ["Cloud", "in Production", "Mobile"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a61fd835500e9bf2e68b3bb2eed31dfb189c9b5b1a0fa70c8943a401884a2cc27989f0efdd2ae5136fa5c40fcf451f04",
+  "caseHashed": "4fdad5d4339caedf5a7d225513c1577e67af00942612aa8a566fdb7bab7c0ee7ba5ac79043ed6fcd0b8b106af2206762",
   "stepsHashed": "d8667f20039a9ab3a1f1f38ece9ff5154838ad06954f8142a1c3a33cd8e7c59bd8143edbb130d0fc8e937b3634ce84cd"
 }

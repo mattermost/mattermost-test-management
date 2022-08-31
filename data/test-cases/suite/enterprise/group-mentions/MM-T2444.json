@@ -6,7 +6,7 @@
   "objective": "Check Group Mentions when team is group synced",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8c5c3e93a78f33272e24eab5e2013c12ce70870f38249f98bbd273e8097a808e1c627a4b1bb6f23d0fc85f81d8e88084",
+  "caseHashed": "6964434d54d8a300c4ebc4393c2fb1077c069de6e254218c169aff06beeadde6d6adf6bb6847308fb766e0541641267f",
   "stepsHashed": "b053b4f535b2773a269c44b5ee29f5eb021b73e0d219094bca98aeb580f53a94a3bab58a354589b05295d5d6bba40864"
 }

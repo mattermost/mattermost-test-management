@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "User-Level Web &amp; Desktop Client Telemetry<br><a href=\"https://mattermost.looker.com/dashboards/181\">https://mattermost.looker.com/dashboards/181</a><br><br>",
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 401946, "name": "Draft" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/telemetry"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Telemetry"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "53e0e52e73b8feb50dde64ed4e3cf599006fc47cbebbbf0829b2a7fa1fc930123b82824c2aa51edbcb621a75fe040d54",
+  "caseHashed": "f541ba25a5633ec3972da30e747c98f822d15fb795a9f073082cd29a5b61ba83e8ae225eb4f9e85c75fde2b606ff5103",
   "stepsHashed": "862dfb31fcf1630a507e22c24750f1a5b925678fce80d2a02671e4a609692c51bc21d907617d2a95aab5c49522dd49ad"
 }

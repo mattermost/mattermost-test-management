@@ -31,13 +31,12 @@ title: Mobile view: Clicking on airplane icon does not open file attachment moda
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                                      |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 2:52 PM<br>• Removed from manual testing                 |
-| Rainforest               | N/A                                                                                                |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Messaging                                                                                          |
+| Name                     | Value                                                                              |
+| :----------------------- | :--------------------------------------------------------------------------------- |
+| Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                      |
+| Update notes             | Steve Mudie — Tuesday, September 22, 2020 2:52 PM<br>• Removed from manual testing |
+| Rainforest               | N/A                                                                                |
+| Team Ownership           | Channels                                                                           |
+| Manual Test Environments | Automated - No manual tests needed                                                 |
+| Cypress                  | in Production                                                                      |
+| Location                 | Messaging                                                                          |

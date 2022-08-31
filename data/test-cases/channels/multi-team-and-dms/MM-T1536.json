@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "rf-cloud-webapp"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/multi-team-and-dms"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "Cloud", "in Production"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Multi-Team and DMs"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0c8c5a4b95c17b9fc95bd7349735259bcf51f5ffaa1165e4821f8da280dbb8ac02d69f3195596ca1537d928b86984e53",
+  "caseHashed": "68949458affdcd079a96983b97b7bfc49a3d37e7f65db874fbf1ebb4de2caf01a3dbd832a18a2a87950cce32724cf09f",
   "stepsHashed": "aefba4d1887f46b8f2f1c2623d0132e750ba99100cfbbb50f5462879d86395e857a45ba8a99ba402285076d1200c238c"
 }

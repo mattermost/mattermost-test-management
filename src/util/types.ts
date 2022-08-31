@@ -7,13 +7,10 @@ export type TestCaseCustomFields = {
   'Rainforest': string[];
   'Team Ownership': string[];
   'Manual Test Environments': string[];
-  'Selenium': string | null;
   'Tags': string[];
-  'Fix Versions': string[];
   'Playwright': string | null;
   'Priority P1 to P4': string | null;
   'Update notes': string | null;
-  'Cypress Reports': string | null;
   'Detox': string | null;
   'Cypress': string | null;
   'MMCTL': string | null;

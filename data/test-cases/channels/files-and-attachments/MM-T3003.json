@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["android-only", "files-and-attachments"],
+  "labels": ["android-only", "files-and-attachments", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/files-and-attachments"
   },
   "customFields": {
-    "Fix Versions": ["v1.33 Mobile (July 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "RN: Android"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Never tested"],
     "Location": "Files and Attachments"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7fb7aeb5d35d4392ca0038329a3bc27f9892a99cb990b371985e0090918802e8676092028503015fb190bfeb6ea12c98",
+  "caseHashed": "74122cd43b222dbb13eb3d4d298a8dcd8343e9085cf4c66aee62a1e7ba30d5a59e0d83ffc12b8e1d7c7f700b744261f5",
   "stepsHashed": "d227a0b5ffdb786523231c81f3851e35723c0c28315b18f8114c3128666eb0988a80ae308f569f3671c7c6c38ccbadca"
 }

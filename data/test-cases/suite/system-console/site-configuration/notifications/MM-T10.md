@@ -12,7 +12,7 @@ title: Disabling email notifications should not disable email invites
 | Priority | Normal                                                      |
 | Status   | Active                                                      |
 | Folder   | Suite / System Console / Site Configuration / Notifications |
-| Labels   | Cloud-N/A,system-console                                    |
+| Labels   | Cloud-N/A,system-console,fix-versions-not-empty-2022cleanup |
 | Created  | 2019-08-26T23:46:53Z                                        |
 
 ### Steps
@@ -39,7 +39,6 @@ title: Disabling email notifications should not disable email invites
 
 | Name                     | Value                                                                                                                                                                               |
 | :----------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fix Versions             | v5.14 (August 2019)                                                                                                                                                                 |
 | Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                                                                                                                       |
 | Update notes             | 11/24/2020 jelena gilliam<br>Adding Cloud-N/A label as Email Notifications are set to true by default through an environmental variable and can't be changed through system console |
 | Team Ownership           | Channels                                                                                                                                                                            |

@@ -6,7 +6,7 @@
   "objective": "If <strong>UserB</strong> has been removed from the current team, <strong>UserA</strong> should not see \"Add to channel\" option on <strong>UserB's</strong> profile pop-over<br><br><strong>Original test name from testing spreadsheet → </strong>\"If UserA has been removed from the current team, UserB should not see \"\"Add to channel\"\" option on UserA's profile pop-over<br>(this test assumes permissions are in place for users to see the option on other users who belong to the team's profile pop-overs)\"",
   "precondition": "<ul><li>This test assumes permissions are in place for users to see the option on other users who belong to the team's profile pop-overs</li></ul>",
   "estimatedTime": null,
-  "labels": ["cy-prod"],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/add-user-from-popover"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "JB - Friday, December 4, 2020<br />- Moved to automated",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Add user to channel from popover"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fb583508d4ce028f59e35dafe572f8771fe4aee81e7609980184a4c9b29dde0ed4a9a6119c17dff6bf3ed02991cd25f2",
+  "caseHashed": "da1b57cf80b7722b657f4baaba20e43de9a8b6afd141c4840c4fd1584facf858b620afc708cd96c1004a1f7691908068",
   "stepsHashed": "c4a9afb39be3a48250644b31a20732e6170720ad1a5a3985dc93056b765e563c83e354a2aa9b643060f80058c5aa2c0a"
 }

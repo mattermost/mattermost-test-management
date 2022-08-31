@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "Cloud-N/A", "cy-prod"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "Cloud-N/A",
+    "cy-prod",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "plugins/plugin-marketplace/import-queue"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Tuesday, February 16, 2021 4:33 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "98894e949f751af614b5f0c8c18175f7e2db1437fd71d89f7d54c5d15d4003d7168d06309cb5948cf01718f996a44f22",
+  "caseHashed": "a4186c3f83c9f2e4da321eb6f3847362ffbcc8ce3104799e7014a8748864cec28d3a9fbde207968960671f29aa25d4c9",
   "stepsHashed": "b2bf921721576a51b3763ce17780346a82499ac34130c6568e39ff56db3ead9ad9b6394856d8cf85191025b3319d904b"
 }

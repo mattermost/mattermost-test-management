@@ -10,7 +10,8 @@
     "TM4J-Key-Mapped-In-Cypress-Release",
     "cy-prod",
     "rf-cloud-webapp",
-    "account-settings"
+    "account-settings",
+    "fix-versions-not-empty-2022cleanup"
   ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
@@ -23,20 +24,17 @@
     "fullPath": "channels/profile-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Thursday, December 31, 2020 12:43 PM<br>• Added link to Cypress code<br>• Added duplicated test label<br>–––––––––––––––––––––––––<br>JB - Friday, December 4, 2020<br>- Moved to automated<br>–––––––––––––––––––––––––<br>Joseph Baylon -Friday, November 6, 2020<br>- Separated mobile test case --&gt; MM-T3472<br>–––––––––––––––––––––––––<br>Linda: Oct 29, 2020<br>- RF shows webapp coverage as well now; removing Webapp from Manual Environments<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, September 21, 2020 3:15 PM<br>• No Cypress feedback yet<br>• Leaving in manual pool as Rainforest tests are mobile only ",
     "Rainforest": ["Mobile"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -55,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bbcadf3593db30774f072b9b29677517dba60c776110f2687553b3a0586ed1b962199369f346509191c4a07d4244e8d1",
+  "caseHashed": "337dbd395e51c35bb3253e8b38b8f295d035c9de8c91a818803fb7e6e8e2ffe9fd4d0fab3d7fe3c2ed09fa669acb44bc",
   "stepsHashed": "5b1ef9caf54d5bfda1d6a73d7b758ac33c6569a947955053889015bf84b89abcead6870d85c65d536737ed4d0c6146d5"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "1. This change is not visible in the UI. To confirm the character replacement is working as expected a plugin is needed that accepts name arguments such as Demo Plugin or Matterpoll. <br>2. Ensure \"smart punctuation\" &nbsp;in enabeled in iOS keyboard settings (this is on be default)",
   "estimatedTime": null,
-  "labels": ["ios-only"],
+  "labels": ["ios-only", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "mobile-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["v1.34 Mobile (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "RN: iOS"],
     "Detox": "N/A",
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Never tested"],
     "Location": "Mobile Apps"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e8d71930f77218a789bc1e8155e8a23ab287a61fb73d62090ee47095a02141100ec8440ce48236f31b7a5f0e9d911621",
+  "caseHashed": "d48a55a68b152598ffac49bb51fdb9c8aab48d24625a57c7f53c59f8bb394093d468a634b780f076de3b338350ac2f37",
   "stepsHashed": "eb7c2b05321c47da0520dca937a3f779a59df1af82e0695dc313afb88c6105ec2555f0a14ae26e2635ec5aadd775ebb2"
 }

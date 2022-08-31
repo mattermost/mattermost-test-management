@@ -6,7 +6,7 @@
   "objective": "System Roles - Assign &amp; Remove Users",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/admin-roles"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5fefa71b39068dbd9f95e7e30f9b73bc11f97628ee62346e612573ad0f7b04c4387a203354f9494a8c2bb84a4ff41d9d",
+  "caseHashed": "d72095804cddabcc289dfe72da6574a1f2d179eebbf37be88899f6e69a4c120e7a5ed2acea4e92cc7accf74f9d79a33b",
   "stepsHashed": "9a93765292ec1f335e4846bab1a8d6deddf39f074d23c83da874ec16a0968ebfcff4cbde4bc7a6f527ebea83c2caad86"
 }

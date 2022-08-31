@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,38 +18,35 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop", "Mobile"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
   "steps": [
     {
       "inline": {
-        "description": "Negative before: filter<br>–––––––––––––––––––––––––<ol><li>Post a message with a unique word (ex. foobarbaz)</li><li>Search for the unique word and with a filter of \"before:TOMORROWS_DATE\" (TOMORROWS_DATE should be selected via the date picker).</li><li>Search for the unique word with a negative filter of \"-before:TOMORROWS_DATE\" (TOMORROWS_DATE should be selected via the date picker).</li></ol>",
+        "description": "Negative before: filter<br />–––––––––––––––––––––––––<ol><li>Post a message with a unique word (ex. foobarbaz)</li><li>Search for the unique word and with a filter of \"before:TOMORROWS_DATE\" (TOMORROWS_DATE should be selected via the date picker).</li><li>Search for the unique word with a negative filter of \"-before:TOMORROWS_DATE\" (TOMORROWS_DATE should be selected via the date picker).</li></ol>",
         "testData": "",
         "expectedResult": "<ul><li>On step 2, search results that include the post with your unique word.</li><li>On step 3, search results should not include your new post.</li></ul>",
         "customFields": {
           "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)"],
-          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19487\" rel=\"noopener noreferrer\" target=\"_blank\">Negative search filters can lead to incorrect highlighting of search results — MM-19487</a><a href=\"https://mattermost.atlassian.net/browse/MM-11359\" rel=\"noopener noreferrer\" target=\"_blank\"></a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-11359\" rel=\"noopener noreferrer\" target=\"_blank\">Search: Exclude results containing specific words — MM-11359</a><a href=\"https://mattermost.atlassian.net/browse/MM-19518\"><br></a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-19518\">Create E2E Cypress tests for negative search filters — MM-19518</a></li></ul>",
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-19487\" rel=\"noopener noreferrer\" target=\"_blank\">Negative search filters can lead to incorrect highlighting of search results — MM-19487</a><a href=\"https://mattermost.atlassian.net/browse/MM-11359\" rel=\"noopener noreferrer\" target=\"_blank\"></a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-11359\" rel=\"noopener noreferrer\" target=\"_blank\">Search: Exclude results containing specific words — MM-11359</a><a href=\"https://mattermost.atlassian.net/browse/MM-19518\"><br /></a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-19518\">Create E2E Cypress tests for negative search filters — MM-19518</a></li></ul>",
           "Important notes about this step": ""
         }
       },
       "testCase": null
     }
   ],
-  "caseHashed": "586ccee670e1158b155f9e8e0cb013d9387ebd57ce5a1320a94c963bbabe43c87b670ff33c524e23aeb451dd5b1e553d",
-  "stepsHashed": "1f355e2434a1677370f39e8a87d0fe14adbabbaeddd8effeee6d454a62c73deddb6adfd58be8538b1670c1921e80e6b3"
+  "caseHashed": "3792b8853394349765663a1fff02744435ba09279e333aa3e0f3804542d10e3166c153bbbb29079835719534f31ec766",
+  "stepsHashed": "61368313fa7d5960545778320c810b16301f41f6e06d986248f95f00dfdeb5d6a0661ca441a8fb136086aa9f13d9636c"
 }

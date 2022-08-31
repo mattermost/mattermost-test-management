@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-saml-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
     "Team Ownership": ["Suite Users"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f500f4b74048af57a1dddaf79d1d01b483adc3d49d686eda1e740e0ab11be8ff5e3629ac6dfd3e1f3fabfb6b1dd0bec3",
+  "caseHashed": "9f3426bfaaae563f13c5596d6db809834f7824ad026e018995359515ab5fd62ae9bf50bb948bd55453af69660eb88800",
   "stepsHashed": "d45afc4750010bc050db3b194967065e8f2e8598a33f2fe941ed13c5af3d65eb67600ffaf7fdec696d6f23edf580dfdd"
 }

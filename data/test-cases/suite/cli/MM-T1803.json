@@ -6,7 +6,7 @@
   "objective": "To verify that replies are imported correctly during bulk import&nbsp;",
   "precondition": "A sample bulk import json file is needed. CLI or MMCTL access is needed.",
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/cli"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)", "v5.23 (May 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Server Platform"],
     "Manual Test Environments": ["CLI", "Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "CLI"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c75ff4362931599692be0da311665839770e3afb1569f8e1e091cbd7b08433c68890e7c680e1e764f19789e63ac858dd",
+  "caseHashed": "09fad1369af7dba5f45d7a9577a07ce9d879dc9a0cf87e605f5e06d99a04c2a85c10d7fd56badd1beb366d4cabdaa49d",
   "stepsHashed": "c35468adfa8f75c3e8a328873c521f786ba6621288a5513e474682ceca1517e755d0ba31e47b457b4899ad0d42dd258a"
 }

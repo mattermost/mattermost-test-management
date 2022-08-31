@@ -6,7 +6,13 @@
   "objective": "Effect of changing System Schemes on a Channel for which Channel Moderation Settings was never modified",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "enterprise"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "470aab99c44bdeb60d265fa9b595fe98a538b4a07639de253d1bd8c6e47d6022f845d95e5c26e6fdd5c0b0dcedd94b3f",
+  "caseHashed": "4bcfd79789ca19b7a8d9dae29c362b7bb0a6c89ae2758975f8d106b3a8aece9d228f4ae333eee7d3f94cece5700054dd",
   "stepsHashed": "801600ed516bdf5c494d53477dd64197e85cfc88f576ec6b59cbed4a559348bc4ef4b39f3baaf79576838504c2b86faf"
 }

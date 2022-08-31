@@ -7,13 +7,13 @@ title: Option should be hidden to update own email via System Console
 
 ### Details
 
-| Name     | Value                                    |
-| :------- | :--------------------------------------- |
-| Priority | Normal                                   |
-| Status   | Active                                   |
-| Folder   | Suite / System Console / User Management |
-| Labels   | se-prod,system-console                   |
-| Created  | 2019-08-27T00:41:48Z                     |
+| Name     | Value                                                     |
+| :------- | :-------------------------------------------------------- |
+| Priority | Normal                                                    |
+| Status   | Active                                                    |
+| Folder   | Suite / System Console / User Management                  |
+| Labels   | se-prod,system-console,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-08-27T00:41:48Z                                      |
 
 ### Steps
 
@@ -43,9 +43,7 @@ title: Option should be hidden to update own email via System Console
 
 | Name              | Value                                              |
 | :---------------- | :------------------------------------------------- |
-| Fix Versions      | v5.14 (August 2019)                                |
 | Priority P1 to P4 | P3 - Deep Functions (Do extensive scenarios work?) |
 | Team Ownership    | Channels                                           |
 | Cypress           | To Do                                              |
-| Selenium          | in Production                                      |
 | Location          | System Console                                     |

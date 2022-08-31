@@ -6,7 +6,7 @@
   "objective": "Add Members in Team Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3188c42c7a1742e46359cb87e7e450ba96ce13fb2fca610fdc4036337843bdf466e8e0bb3ff0ff34c8dbd00af77d5724",
+  "caseHashed": "e42aaab92ad553b34b7ee221631a1231a9cc340fc19ac73e990a60aaecf694f54fedb0d9450cf5e0b0a66b586b8fc1da",
   "stepsHashed": "2d17ae24d26ae58805b20fbef5775d844a1b6ade7f7f7ff0798d17eb329ebaa1216feb96aaceb43a355b53f44bb64d5e"
 }

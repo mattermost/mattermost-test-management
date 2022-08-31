@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "guest-accounts"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "guest-accounts",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/guest-accounts/guest-identification"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:40 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f076bf97183bb58712c9d2ac21ea6f5a7e361eff2257ab4eb187496487634497a1395f03fdf1a4b405b14e41e5e3e82c",
+  "caseHashed": "0f6e64670a7e9b626434a18e86ead3cc244fb2a3b1657544ce0115245c2e26e55dcb3908bea30809550d82664646559c",
   "stepsHashed": "1c610210e1839a33205b89ac6ce78c5b590832fb6ebc332d4fa79d15f37a55354a4ea82ce28b3d62b23f0654945c271b"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/saml"
   },
   "customFields": {
-    "Fix Versions": ["v5.30 (December 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "SAML"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d7ea62255ed883bb69bba3a7c3cdd00304f31c579a1b8f637b0967234b45fc2574b24959da7f93e6f2f3a13e5f735516",
+  "caseHashed": "ffae956adb25ac8583548bf46b57bd9d22df2a785146945771d55a6d4e82336b63f025af4633dec0c7bde3e3da2ecf7d",
   "stepsHashed": "d40d53da1a35b681e9c57193f2bda1fd569d32c06d0e093f934d447540565c60d21b48ab31276cb11d02308118e086f7"
 }

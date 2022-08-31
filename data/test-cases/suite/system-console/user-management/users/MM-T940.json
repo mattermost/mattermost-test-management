@@ -10,7 +10,9 @@
     "User-Management",
     "No-Automated-Executions",
     "TM4J-Key-Missing-In-Cypress",
-    "system-console"
+    "system-console",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
@@ -23,20 +25,17 @@
     "fullPath": "suite/system-console/user-management/users"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -55,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9262de815edd945cbb98a4af201bc47c030da3c10f5f893116167239e42558879f8ad4f563cd53301b4e9110759754bf",
+  "caseHashed": "25384deb07c67bc056055980c9a87338908c8361c04e17fac38711c56219f0bb73f68fcb55b075c4d8e7865aac0741c3",
   "stepsHashed": "ec53da129f8b35404ad78c9ffe12283882b1d52a50be1d05cac1a7a72dd1bf558ba33717cdbc7f5852e6357f8d39f2c0"
 }

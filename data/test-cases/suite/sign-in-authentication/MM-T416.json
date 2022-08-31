@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "sign-in-auth"],
+  "labels": ["1.42-p123", "sign-in-auth", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/sign-in-authentication"
   },
   "customFields": {
-    "Fix Versions": ["Open", "Queued", "Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to put the app into airplane mode on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Sign In Authentication"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "039a4b64a2bb083bbf48d18ad90fa947f123be810b91d13c2c057c7da27dabc20979c571f43772d53b1eb734ae3f23d5",
+  "caseHashed": "defd26915e55fb02de4fdcc05961a205c49eb7b1569db1a0248e6f1e967a6351d6004ccfb34dfd7014beae8646c9b466",
   "stepsHashed": "009031ed2ead11f61a4d587c3d5ff96f443c754c73f037f1ac4f42ac099257a3cebb124a909e3d5170cbd303de36cf4a"
 }

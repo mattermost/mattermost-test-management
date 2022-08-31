@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp"],
+  "labels": ["rf-cloud-webapp", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": ["v4.4 Desktop App (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "This command is not a shortcut on Safari or Firefox so this test is Windows only",
     "Rainforest": ["Webapp", "Cloud", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Keyboard Shortcuts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "36d423744d73fc2cb7662035aa5686b95deb34a0635ed9b38a1c6c69f67c6e03fdb31b1021008e53278aa8ac56068b5a",
+  "caseHashed": "a64f7cf4868c2a1a8ea3c4bed5be274e94a63b5690d34df33a94e3d760785a317aab0eac1e8fefaabee0e9b791d44c38",
   "stepsHashed": "76766e32756034c7b18ccaba9b722ffdb6d8df435c80c91f285126e7a012f2e21d64101c029edf1ffd6ba7795baf37b4"
 }

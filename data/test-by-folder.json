@@ -3278,6 +3278,13 @@
     "Flash taskbar icon — Windows & Linux ONLY"
   ],
   "desktop-app--native-specific-/search-box": ["Type some text in the search box"],
+  "desktop-app--native-specific-/cypress-drafts": [
+    "should not be valid if an invalid URL has been set",
+    "should not be valid if no display name has been set",
+    "should add the team to the config file",
+    "should not be valid if no URL has been set",
+    "should be valid if display name and URL are set"
+  ],
   "desktop-app--native-specific-/startup": [
     "Should not create a second instance",
     "Should show servers in config when servers exist",

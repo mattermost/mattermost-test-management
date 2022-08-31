@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": ["Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Cloud", "in Production", "Mobile"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "62c21f5b2031e445be6c073741ec021840fa0baec77fd3399be4b4ac9c88147ccbf6ccafecf2f83667ecc7c5cd0819b0",
+  "caseHashed": "d30d0592bfd4853b2fe03718fe2eb0b99e1c8547df1e9e68a7254ff3b94fbe343ef0fe120fa047589e65c33e467c2dd7",
   "stepsHashed": "5e3c234868a6db336f1c4d0f262522ef395c527e98cc3964f691ea1febfce47d1ad891472c47a955e94f2f04a91fa71f"
 }

@@ -44,5 +44,4 @@ title: Tooltip for Remove profile picture/remove team icon should not appear whe
 | :----------------------- | :--------------------------------- |
 | Team Ownership           | QA Platform                        |
 | Manual Test Environments | Automated - No manual tests needed |
-| Selenium                 | in Production                      |
 | Location                 | Ticket coverage                    |

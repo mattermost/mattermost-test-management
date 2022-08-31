@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "cy-prod"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "21/2/6 - Lindy - Difficult to add this one to Rainforest with no pre-existing older data to test with.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
-    "Manual Test Environments": ["Desktop", "Mobile"],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "dda1f170bab43c01acf742dec5f5ad843fcb7990bf772a2c8fface7bb465448e468515c0a092af17ada1c1202fc927c0",
+  "caseHashed": "a43862df54a3d7326e95d79eba9b950bf3206efed2fbb38cb828091381625588f761aa1a8369179b9ea51ec362f04a1a",
   "stepsHashed": "e937b8268f378d3b5d94249ef552656e43e98981555b1242788f965633730c59b41cbb68d1cf106fbd8b63296e12f18e"
 }

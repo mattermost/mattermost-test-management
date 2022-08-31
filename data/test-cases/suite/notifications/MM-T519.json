@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Must test on iOS 12 or newer (mark test as Blocked if you don't have iOS 12+ available to test on)</span></strong><br><br><strong><span style=\"color: rgb(184, 49, 47);\">Also ensure that within iOS Settings, your Mattermost app notifications setting is set to Automatic (not \"By app\") <br></span></strong>",
   "estimatedTime": null,
-  "labels": ["ios-only", "1.42-p123", "notifications"],
+  "labels": ["ios-only", "1.42-p123", "notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v1.18 Mobile (April 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, December 16, 2020 3:34 PM<br />• Updated test step based on observation made in <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testPlayer/testExecution/MM-E77986\">this test execution</a><br /><br />Lindy '21 Sep 26 - marked N/A for Rainforest as not able to test push notifications on the VMs",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "RN: iOS"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2826ff1223732f39355480aec2d5436b6b70d4b0ec7a4babf6e74cea988ffb267e1f5564fd16897a46f453cde21174c9",
+  "caseHashed": "0e8d042e79071e98c4ef27318cc28d0909acc9c351d8822b26313c03c859ebf10d38210e1358f192a0d6d8a584341f55",
   "stepsHashed": "a94f676f944cfe9cab3e94521f8593648d45ded095b83236560567fa9d1f723a6fae6755de7dddbfc4f7323d65bd273d"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "messaging"],
+  "labels": ["cy-prod", "messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/custom-emoji"
   },
   "customFields": {
-    "Fix Versions": ["v4.9 (April 2018)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8cf4b9f3a7a1b8ea6676ca8a201f15ad8fcdafc226055a8f0860e81ce2cd9010908560de9f78018bfb56e23886cf1684",
+  "caseHashed": "accbac858c8d0036b95745e62805209a349c6d53c7cc4f023ebd4b6a1274099e1d0b5c098bffeb000cc84d5a5e6cf553",
   "stepsHashed": "bc82e6bef2c965ff1838aa445d544e15f6bfbcd643ba5d2f21b9e093ccb004f68088b2bf160318ee95932ed9125d3edd"
 }

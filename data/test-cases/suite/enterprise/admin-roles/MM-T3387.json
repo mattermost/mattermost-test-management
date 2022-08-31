@@ -6,7 +6,12 @@
   "objective": "Verify the Admin Role - System User Manager",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/admin-roles"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5bf2fc49d6b8dc036aa414a1f761d6d43ff1afcc52fe371060395ad4364eb6591fd39b9d0968b617de46203f2eac5e9e",
+  "caseHashed": "4a05378a0515ea022d4d14bd123e531da7f91df3e7bb42d420175fc8a5682867f682b69e8f4fc77aee1b6496c626273c",
   "stepsHashed": "591dbd5786863aa5def63c4cbbde3f4d46cb464e0bafdb90c889d3c11dd6f1612b2e44c066bba27378f5c62018ecad57"
 }

@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "messaging"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "messaging",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/emoji-picker"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "dd357cc555512055ba840b4eb6773fa4ce52d3a67d12654ad182339964885fe6737ca174f990488040799f79b0d7a840",
+  "caseHashed": "348dfd3a82aed805e69b2c8ee553e5c7a09db3b2d893e77c3821b81c12faaa4bb42d81c9b59db1d080b3b13d04e0f010",
   "stepsHashed": "90469297da71531172016f9fd7b7283cb86e7e7780829e4f474b618a64ac400d2b72bfe993a8ff6a0e8dc97c29622ce6"
 }

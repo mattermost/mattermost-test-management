@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "cy-prod",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/ada-accessibility"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)", "Won't Fix", "Triage"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:16 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––<br>(Saturn) Combined test steps to easily automate",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "ADA Accessibility"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "437d6284b88f43951ed67f994d14b69fb77272d7e57dee036aa67ea927a059fc4d4756242b5975f5c4ca1400e942688e",
+  "caseHashed": "9e11eafe7d4180c0a57cb3bba575f89b2cbdf0451ac99c045b7509c23897171fd0a261b971451ae741ddc73609e56981",
   "stepsHashed": "b150a2d97687d341b71c7ae00b75549539c0715cb50d9ca76b3d73c97587e6bce6eaf0ed07359eb9d590ca52a18eb0f7"
 }

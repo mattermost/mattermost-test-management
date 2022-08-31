@@ -6,7 +6,11 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["E20-Site-Configuration---File-Sharing-and-Downloads", "system-console"],
+  "labels": [
+    "E20-Site-Configuration---File-Sharing-and-Downloads",
+    "system-console",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +22,17 @@
     "fullPath": "suite/system-console/file-sharing-and-downloads"
   },
   "customFields": {
-    "Fix Versions": ["v5.13 (July 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "47027d2d3a525543ac93741005dbf164e9b365535a35115eefb873c4583772a1843310a199acc1599466aee2a13a882b",
+  "caseHashed": "3993fc9229ad044ff96cdc4f4868559c1c1371bb0f11aee72a2c5ad5b8b71c9c8793886fab2c69dcf38e44a2ec2ba651",
   "stepsHashed": "6c8d546122c110d6ca5738c85048924a4c63676e86c139d8db8be7213cab3988bc4d58942fc647ec935b90290923d2b1"
 }

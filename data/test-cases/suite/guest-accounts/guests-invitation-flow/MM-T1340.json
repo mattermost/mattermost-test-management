@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["5.34-p1", "guest-accounts"],
+  "labels": ["5.34-p1", "guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guests-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["Cloud (March 10)", "v5.34 (April 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -68,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fb5a90e8821f8e8e414a92e7bcac7f56febe2a108e0520a18bf561a39eaeb42bf875b1c8e8f77a03ab3280ec132cf788",
+  "caseHashed": "8266d9397acaddff780654cb1f4d7ff3eb45f4817c8454549412e13f5921150d950abbc137794719dfc1d42875a2d802",
   "stepsHashed": "acafe732f3ee8d73b30867e330c7a6dc67138a12725cc1d9c7d2a1593ec3c68c31274908cc22a0e6fa37f4d92ff03be6"
 }

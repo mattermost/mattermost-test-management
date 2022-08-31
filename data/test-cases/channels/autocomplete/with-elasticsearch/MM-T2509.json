@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "1.42-p123"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "1.42-p123",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/autocomplete/with-elasticsearch"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Monday, September 28, 2020 4:10 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Desktop", "Mobile", "Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Elasticsearch Autocomplete"
   },
@@ -63,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "10b837960508c8164519839620e7b8ab2bfa6146f8f21a4b0557fd9760698f007f0715dd1c49a2e1498f38e18c722c8c",
+  "caseHashed": "bb130862b3c574fbee7ad5c8ece84f4c1e63e4654d6ba1f2ff0546280c9b2b2f6608dcff227d91dc69ebae6ec1974802",
   "stepsHashed": "837c3ad0cc24efa51656f1ed57e32371c291f9944caaa33d20bc5a8b295b5f271ab3d86b03952404dfb8910dc8a2e277"
 }

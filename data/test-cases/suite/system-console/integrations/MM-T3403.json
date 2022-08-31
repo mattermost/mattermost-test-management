@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/integrations"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fb78f9c4d6e429749beaaf6265084f34e9a0dbf46609976e16da1a4114b62716a21e31f7a3965395af196d6ea9180835",
+  "caseHashed": "cf72114c7fef669c54851c6dd2d2ef8d8fc684760286312ce9e37de24512d22a871df9c52d998aa25d14739c48e7ff2f",
   "stepsHashed": "1df70174a46ca9a40b4edcb7dd90be8be242145a9d3cf9748e4d75d907922f8fbe7190e455e74936c508c92677c013fd"
 }

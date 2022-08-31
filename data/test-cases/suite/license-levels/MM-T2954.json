@@ -6,7 +6,11 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +22,17 @@
     "fullPath": "suite/license-levels"
   },
   "customFields": {
-    "Fix Versions": ["v5.0 (June 2018)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Wednesday, September 16, 2020 6:50 PM<br>• Located <a href=\"https://github.com/mattermost/mattermost-webapp/blob/e6483c22cf6465e75a7b79b224531d761cbc5026/e2e/cypress/integration/messaging/message_spec.js\">Cypress code</a> and linked in Traceability tab<br>• Tagged as Update for test case and Cypress status due to no automated executions showing here<br>–––––––––––––––––––––––––<br>Steve Mudie — Thursday, October 01, 2020 4:07 PM<br>• Set back to Active for manual testing",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "License Levels"
   },
@@ -50,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c96c70f71f5b45b09ad84e424bd8e2aa704a1d5539600cfc615964d2fb2f31749ae8eb690e1c99ad67836750ac96d921",
+  "caseHashed": "55c08f60035cee88cdb2f5be716f4ed0c79c8e534c4a42b4f2f183379a51806f653998921d13271b1f536a07b3347a7f",
   "stepsHashed": "ff1ab40f2b2a38c40ad57fea971c22f2a36d7738860a09e0551d12ca21ba3e949d57779b035aa01de046be2ea620a7f4"
 }

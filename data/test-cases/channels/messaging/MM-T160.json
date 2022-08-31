@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["Backlog", "v5.27 (September 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Friday, September 18, 2020 2:13 PM<br>• Added links<br>• Removed from manual testing pool<br>• <span style=\"color: rgb(184, 49, 47);\">Rainforest tests are mobile only</span>",
     "Rainforest": ["Mobile", "Cloud"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2dd8dfb12054272201fd1f106328cae71f6e7b5f43b9cba9385e48661d8f6b92f29ed08bd40c34ce54f74d7d8818f0dc",
+  "caseHashed": "17aa60f78eb68ffd59c9293e596911b3c77e8cce6600e062bbb02a9a74d7f15b694c565294155f9d39cf121c11fa8df7",
   "stepsHashed": "5e4bff14d71508ccbe93db255d161b562ec5caedb5b48df8101b5fdb8927b3ba8eabdddaec2fe11e544ef30004f2f091"
 }

@@ -10,7 +10,8 @@
     "No-Automated-Executions",
     "TM4J-Key-Missing-In-Cypress",
     "rf-cloud-webapp",
-    "messaging"
+    "messaging",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 10:30 PM<br>• No Cypress tests reporting back<br>• Also on Rainforest<br>• Tagged as dupe<br>• Set Cypress APS to 🔧 Update<br><br>Lindy Isherwood -- Friday, April 23, 2021<br>Disabled the self-managed test from running in Rainforest as it's also running in Cypress production. Also added \"Temporarily disabled\" label for RF. Left CWS smoke tests enabled though.<br><br>NOTE: I think this test is duplicated in Zephyr by MM-T3309 where it's in Cypress production according to Execution tab?",
     "Rainforest": ["Webapp", "Cloud", "Temporarily Disabled"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -55,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bba85a0a70ff12119db6312bc37ab18071412fea218a7619aad319c2ee06507e5e89d48f500618818e8e0fe6067f2ec4",
+  "caseHashed": "f89804e865d928b11951dabad39e017ec675c915f1a6feb1273b9c0c17658b1717897e4539e8690692dcde44933233ad",
   "stepsHashed": "546518069a48cdcf259ae35622e56e302de111d9d4dd4f9f77e466ec34c83eb73c3a4ad4886bea4ce740025d893751de"
 }

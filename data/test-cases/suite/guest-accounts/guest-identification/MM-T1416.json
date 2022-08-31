@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-identification"
   },
   "customFields": {
-    "Fix Versions": ["v5.17 (Nov 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4edd47f1c0123aa1cc7a343d2192d6a4bf03aa4e5f75e6a02476b74e568dbd17c293ee59c50a3ec5c2fee21e042350ee",
+  "caseHashed": "80b2798743076ab2024cf7282f31ef3c93337eb392ed80269c99f7ea48c5cddfd1968dac02533ee818061b2683b8ff91",
   "stepsHashed": "6660557077de58fe768b3f613204ec24001f84c58740578552da5e2335b232ee90bb2a8dd8b369ab6324d450a9f95be8"
 }

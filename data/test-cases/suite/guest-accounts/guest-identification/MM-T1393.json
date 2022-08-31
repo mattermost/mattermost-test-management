@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts"],
+  "labels": ["TM4J-Key-Missing-In-Cypress", "guest-accounts", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-identification"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "262dce78991698ef2f3a5804afbbb9c982532b51bba0044714b98c629a30543753d913e8529fb8e6e6c39061a98bd9a4",
+  "caseHashed": "9e2675c800da32dfb9f183c92319381d4fe3c8ea255f80c56891797df199dee1088be10dfa45f5c34f97143906d64cb9",
   "stepsHashed": "c7bdd6c0f73051c7f57b8304eee83e46676c3e96973e28bae75cdd0617ce38aae5062ebd21d87679bc7372db67399a2a"
 }

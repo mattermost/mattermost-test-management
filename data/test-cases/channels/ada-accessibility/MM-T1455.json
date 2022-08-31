@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "JAWS Screen Reader required: <a href=\"https://support.freedomscientific.com/Downloads/JAWS\" rel=\"noopener noreferrer\" target=\"_blank\">https://support.freedomscientific.com/Downloads/JAWS</a><br>Eric has a license key to upgrade the free version - ping him if required<br>Switch off the \"PC virtual cursor\" within JAWS by pressing INSERT+Z<br>Navigation to various focus areas: CTRL+F6 in browsers; F6 in desktop app<br>The feature is not available on the RN apps.",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/ada-accessibility"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)", "v5.17 (Nov 2019)", "v5.19 (Jan 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "ADA Accessibility"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "04d5e96379840ad55b9b6f8985f30c0c4e08ae15e989faf6e0209155f2facc5cb1262f6e6e218fc2f653a7c4f8e45186",
+  "caseHashed": "2ec9362ff6131a6fefea143485ae1bceb2272baccf99c27daf44f99df239fd1820db57add326b6d0943114ea14756154",
   "stepsHashed": "521daa7b236c1a6510628801dbde13fe38911d8a58531bb9a4ccd0452be64a3e937155d25cbc03186a42247e7fe4b0d0"
 }

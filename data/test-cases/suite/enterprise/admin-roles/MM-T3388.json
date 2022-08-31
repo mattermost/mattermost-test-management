@@ -6,7 +6,13 @@
   "objective": "Verify the Admin Role - System Read Only Admin",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise", "Cloud-N/A"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "enterprise",
+    "Cloud-N/A",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/enterprise/admin-roles"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "480956e2329a4c2ed83576b706b5647d1cc35ab6b860b7a904182941a9ac55d9161c8f51aea7098df01ade7de4a30440",
+  "caseHashed": "7576344fa1f59a7a151b4ea9663b769d106c63853426741028d643144d9aca03b38bacf18ef7614bf7588d44f51395fa",
   "stepsHashed": "e23e38e49c64dd3244c4d5d13f50dcf6ca383f047f77128626118fd31fcadfdc12a7d5072369d9c2c05f306a12cbf9f0"
 }

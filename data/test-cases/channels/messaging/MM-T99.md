@@ -7,13 +7,13 @@ title: Edit post that has attachment, paste text in middle
 
 ### Details
 
-| Name     | Value                             |
-| :------- | :-------------------------------- |
-| Priority | Low                               |
-| Status   | Active                            |
-| Folder   | Channels / Messaging              |
-| Labels   | No-Automated-Executions,messaging |
-| Created  | 2019-12-20T16:33:00Z              |
+| Name     | Value                                                       |
+| :------- | :---------------------------------------------------------- |
+| Priority | Low                                                         |
+| Status   | Active                                                      |
+| Folder   | Channels / Messaging                                        |
+| Labels   | No-Automated-Executions,messaging,cy-rep-missing-or-skipped |
+| Created  | 2019-12-20T16:33:00Z                                        |
 
 ### Steps
 
@@ -36,7 +36,6 @@ title: Edit post that has attachment, paste text in middle
 | Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                                                                                                                |
 | Update notes             | Prapti Shrestha - Thursday, April 15, 2021<ul><li>Updated Zephyr key in E2E test file.</li><li>Took off `TM4J-Key-Missing-In-Cypress` label</li><li>Set Cypress status to Production</li></ul> |
 | Rainforest               | Evaluating                                                                                                                                                                                     |
-| Cypress Reports          | MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports (SDET/QA)                                                                                                |
 | Team Ownership           | Channels                                                                                                                                                                                       |
 | Manual Test Environments | Automated - No manual tests needed                                                                                                                                                             |
 | Cypress                  | in Production                                                                                                                                                                                  |

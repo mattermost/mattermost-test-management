@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "notifications"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "notifications",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)", "Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 2:32 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "167bd6bee028f9ed625453c8a1f09568e8f50d749d011db2598efcbed5310e90009ff7e23874e637e243aa4d1a346125",
+  "caseHashed": "1ec8c34983cacdff89d2b3d2bb5f2e390e4d31d5020978eba3d63c87611ef345aa06b271d4355d857baa94a7e949dca6",
   "stepsHashed": "6f12a92f90f31f6834e29b7b5de8668b99bdce691c9ae13c100c4ea8a4a4284ac144cbebfad7b6540e690f1a0d2ee8ef"
 }

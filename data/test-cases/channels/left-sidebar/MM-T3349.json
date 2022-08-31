@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "Sidebar"],
+  "labels": ["cy-prod", "Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -115,6 +112,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b43f33b4b4a1ceaa6ed428243144af9a479340809e586787c116e7ad9549d31d95ba7adc1856fb11eca7f13ab61b2539",
+  "caseHashed": "1d90d2bfdc569493c98adc62c4b5e38f983e4a71ab087aa7cbfc3807f8d99e11820101f5f505c02503929cd917abc695",
   "stepsHashed": "5a5ded5801a0c1412d8fc88bd9d2e1cb7efe6b979b1a7b7a3448446669e7857224f9278fdff568f427149c46ccc209b4"
 }

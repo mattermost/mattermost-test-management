@@ -10,7 +10,9 @@
     "TM4J-Key-Missing-In-Cypress",
     "Fixed-TM4J-Key-In-Cypress",
     "cy-prod",
-    "notifications"
+    "notifications",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +25,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Friday, September 18, 2020 3:09 PM<br>• Added link to Cypress code<br>• Placed Status as Update until MM-23894 is fixed",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -55,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e32ee8b1b82498cf5f4c81f0e43818146f5709fa9da34c6933b8563bca9345058f605415b564825c3d2fde0327cf9dbd",
+  "caseHashed": "ca703493f3e2bb5008904fb9d90c8a45d38ee08bf73c9cfe32cae306304d80cc8a239a345d44c699d0a4daa589077f34",
   "stepsHashed": "f99f203b6905117ccdbea085b5f792c8bfc29eec432e1b97c2e8b503ee5d5e4c774e3d131def8f5a817d1354042d26e4"
 }

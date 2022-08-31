@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "search"],
+  "labels": ["cy-prod", "search", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)", "Won't Fix"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "(SA) Combined multiple steps into one step, following code in Cypress.",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ed0aff52f9340bbaca2aacbd4110fc585faef2b26633c52586428a2e95425bc264b50bf2a379823a682382eeebd785a6",
+  "caseHashed": "f8817705099c7efa0bfc9569e3dda28791c9b1318633bd5fa387cb0f82451ab31dc2c31f643ba46de2173d7e414e8411",
   "stepsHashed": "f1fa6d55e60d41b8719c939986dc21ed1dd0eff594c345e9b26fd2a956d0ba9de7d3463284e37e069d23f0ed2b6b70cc"
 }

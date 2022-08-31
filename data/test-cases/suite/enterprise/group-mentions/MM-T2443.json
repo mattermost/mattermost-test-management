@@ -6,7 +6,7 @@
   "objective": "Check Group Mentions when Channel is Group Synced",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise", "cy-prod"],
+  "labels": ["enterprise", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
     "Team Ownership": ["Suite Users"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f931151de4b85fa25e3a8c47270a2b9e0c76b87e91d2a411cc9c17334bab8b5dc4fa7c53360e69b4b5eda1f6e9b72c11",
+  "caseHashed": "b716422e87b9200d342ad84b3681e268111124b79eeaef10ee7f744e49be5042feb78aa101b18688dde2c4e9802c55c1",
   "stepsHashed": "2cb4a836dafaf8f1d45dd6d232d2e3849414b4333598c159ffe0bf5685c9d31b04e1b9d22371060a333ce1d9d7fb9668"
 }

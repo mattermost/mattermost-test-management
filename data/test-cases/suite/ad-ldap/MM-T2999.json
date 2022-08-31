@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["ldap"],
+  "labels": ["ldap", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/ad-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.25 (July 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "AD LDAP"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1dc8df3f9befa1cdd5bce5c7a9723f3963dda11f71ad00cb7230aa18bbba9f19c546024b0ace83ea463056e112f7f68f",
+  "caseHashed": "57d130909c47b40638934fded0e7591368669b4f591a2174d78777880a1034a70c62815b9e8f625b8c036164a5314e98",
   "stepsHashed": "7500f69461d90baf4d414a819b201e9a9d066aefeded9440b4d7f1f6dcc53aaf8f1e4149b774a102fee0cfe0349c7507"
 }

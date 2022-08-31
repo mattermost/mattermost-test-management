@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "5.34-p1", "team-settings"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "5.34-p1",
+    "team-settings",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/team-settings"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Team Settings"
   },
@@ -76,6 +79,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "24d49e4931056dab3bbb6439d81c8a36256c0231b8fb259da18707131e81221b95085eabaac323fe3ae511056992e6d7",
+  "caseHashed": "74cbd17fa73254b94dd1ed82caecab7018625bbd30a4af3f8ec374c8e70ae4e756cffaef2bbde759b3caa912563cef7e",
   "stepsHashed": "ee850a129f1d86eac33a0da84f65e20f07d8a9795c793be7440e3fcd161328aec51873fded43ecece038b5c852591504"
 }

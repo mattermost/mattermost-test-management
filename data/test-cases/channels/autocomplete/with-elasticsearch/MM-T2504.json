@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "Cloud-N/A", "5.34-p1"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "Cloud-N/A",
+    "5.34-p1",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/autocomplete/with-elasticsearch"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "2020-11-24 (Lindy) added Cloud-N/A label as elasticsearch isn't included on Cloud servers.<br><br>",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Desktop", "Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "Elasticsearch Autocomplete"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d943fa24fdd55d67adf9a7d882d445a52101e77a7bc400c3c29b0b599e49930b34426d18dba7eafed159101d1d1ca093",
+  "caseHashed": "de7b3a0b22cf91b1eadda0aa47392b3e0fddad80b03033c5df6559d0b2ddace99ef2e068bae7944795ba4bb0db44a602",
   "stepsHashed": "dcc31f7c852b438ef34c65370610e83dfab6e5f35262a9b436fae0fd153fdc80d70c085bbf21b829fa91f4f85515d05d"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "1.42-p123"],
+  "labels": ["1.42-p123", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": ["v1.33 Mobile (July 2020)", "Submitted"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Tuesday, October 06, 2020 4:24 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now<br />------------------------------------<br />Prapti Shrestha -- April 16, 2021<ul><li>Updated Cypress to in Production</li></ul><br />",
     "Rainforest": ["in Production", "Cloud", "Mobile"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "863e2c2b1709e15af96263edb3ed8499913ab6a05c73b0cf64c91dd0e0217bb5a0a9af5f6b44fca86389494b1d0a631c",
+  "caseHashed": "61349528cc2f2fc5459608571d23013b8157e22571c9b3d1d5bd093c7aa6aeb644dd2813f7f23548c5aaa0eb24575cc5",
   "stepsHashed": "32526a857464cf3ca778d098263763f8ce86010aa7b62c82b09a36197e21d5b0c697da9df57db1030bf0c6f934b5cb7b"
 }

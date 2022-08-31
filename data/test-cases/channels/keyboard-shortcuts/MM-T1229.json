@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod"],
+  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Friday, February 19, 2021 4:46 PM<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––<br>Joseph Baylon - Saturday, November 7, 2020<br>- Added back to manual<br>–––––––––––––––––––––––––<br>Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Keyboard Shortcuts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2a6080f91e63244a5221ca68421f84255a5b94e11ab75e18eb79ff45716ef9cf8eb172846c369e3963e6e402d8d3f934",
+  "caseHashed": "87dd53c3518d0ca313519f91f2a3d4abd4b75fd376e12e16b552b3a29a180bd781a570900fcae91c03959dbc3d7c901d",
   "stepsHashed": "c054aea8ab6b6df2e85a4eed0c117552bc32d1be566e9c3c13703cd066534580cbc0ce7a2eceee454200eea453d497a1"
 }

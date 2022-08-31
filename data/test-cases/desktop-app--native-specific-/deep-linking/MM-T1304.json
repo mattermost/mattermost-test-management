@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "labels": [
+    "Desktop-app",
+    "smoke-test-folder",
+    "playwright",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "desktop-app--native-specific-/deep-linking"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Authors": "",
     "Playwright": "In Production",
     "Priority P1 to P4": null,
     "Update notes": "Linda 29 Jul 2022: Updated title to reflect what this test is testing (had just said Join Developers channel)",
     "Rainforest": ["in Production — Desktop"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1b59982a99e4ed72a4433ad363b877e859b8a0085fd6c37069233ed4385a425ddb60d725b94079af13d7e891a1d2243b",
+  "caseHashed": "f201b5700c99d2b68fac7cd4f4073567b7489a95a5f3f973d81128bafb3b2dfc65ca3a50085f35e8f689838ab41b22ba",
   "stepsHashed": "545b7f409df2ce792aad5dc7c799658ca39d48e4445759f2304db1981db5a8179f749774c592bd27551248194630f470"
 }

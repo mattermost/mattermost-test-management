@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "1.42-p123", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "1.42-p123",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.10 (April 2019)", "v1.24 Mobile (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 7:24 PM<br />• Cypress Automation working as expected 🎉",
     "Rainforest": ["Webapp", "in Production", "Evaluating"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e82e2a77a60a2c06d187ca17fd513069547b29ef76708cb80446082821ac10d50405cf066514a4d0f5da70743282337d",
+  "caseHashed": "9ee93463c5e3ea07795776b95bc27b98ca1a3508d71ae59ec9b8ef119f9f34753aa3dd26a060d9bdd9243e4347a52357",
   "stepsHashed": "2dc8f5565c845969b433f06131618fb533b6b10825246cc02681793694d8729eaf907cd9f5fc845bc9941f0dd25f77cb"
 }

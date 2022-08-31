@@ -6,7 +6,7 @@
   "objective": "Channel Members Block in Channel Configuration page",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cf8f5f7fcff6363373fd4e55758cfa96ba831369eeb7f0e99c5f7150dda83484ac83f08a2d510e326e37f1d0ebe385f2",
+  "caseHashed": "c2dd41c05a2fdd22050b3676aa23788cbc276d5709b0c986ef08484ddb0abbca30530c0506ecbe4694c1422b8ec36f50",
   "stepsHashed": "60a2ddb396f72b92526efba4d8bb85f4bba77e72e1a299cf53d871f0c2f510a3e0880234f8e15641468bdc07799e2a48"
 }

@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/mark-as-unread"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Mark as Unread"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4bb42070dd06675142d0b1aca77fd2a49dc92fca32c3282c74cf7dc78a9d960812950d50f1d756ac22888581b2943212",
+  "caseHashed": "33369818eb0b1d0e6948fdb8ec410ada0b6d5a075b838b0cf99a209be8ad752e6e0fa4eae9dc1b5474346e8bdeb8d09f",
   "stepsHashed": "b331c671060ab767f838b63a2ede7122f0cb2d895fb10ced0bd32c89170cbbfb25ab09b3077e517415c28214b860fdc9"
 }

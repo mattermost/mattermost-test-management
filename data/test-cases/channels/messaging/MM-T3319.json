@@ -10,7 +10,8 @@
     "No-Automated-Executions",
     "TM4J-Key-Mapped-In-Cypress-Unstable",
     "5.34-p1",
-    "messaging"
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "Linda 20 Jun 2022: Removing manual test environments, even though this specific standalone test is in Cypress unstable. Enough steps from this test are covered in other Cypress GM tests that this is not significant enough to manually test for smoke tests / release tests.",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["WebApp and Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -55,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "036f53fdf8d34b83b2a261c4b4b2ba115c09cedcda6d46085b8bd2a7ce01f75d38f575f66276a7752274b58b68fb5e77",
+  "caseHashed": "b99e01a54944bf28508c0b509c7e43356e9cbe274cd132123c8be65148991bf9c09795b535b23421ffc5be6fd3966556",
   "stepsHashed": "c7d007773772ffea27b63c2851bbf741c37ef1890a228c2ab3755819fb9588751348cf839f79acdc4b6b6de659017ce1"
 }

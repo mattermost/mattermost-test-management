@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "labels": [
+    "Desktop-app",
+    "smoke-test-folder",
+    "playwright",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "desktop-app--native-specific-/focus-behavior"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Authors": "",
     "Playwright": "In Production",
     "Priority P1 to P4": null,
     "Update notes": "Devin - 11/11/2021 - Need to re-organize this. Should be in a folder called /Popups or something",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -89,6 +91,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9dd07c79578b1aabcf4e59d39081799c5b50928403113f31c334d5eccb2b1460c0001419b034e270e5eb620a5b8bf9f7",
+  "caseHashed": "cca7a2bf5e62c7676e6d1a74cdce10676dddb770e7d127ea91b4a1b720aa8f8168b486d1eb935bc75c9ff6a343ed3449",
   "stepsHashed": "4617bf4f5728d810f2fe47eb59dac24d4c384e7d643add1da9d37bc93952311d83dd4beaaebe240bf338980bfc2d0433"
 }

@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "se-prod", "account-settings"],
+  "labels": [
+    "No-Automated-Executions",
+    "se-prod",
+    "account-settings",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/settings/advanced"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "28 Jan 21, Linda: Appears to have been marked N/A for Cypress and Rainforest because of different test steps for MacOS vs. Win. P4, so not a priority to get automated anyway.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -63,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "79ce8caaa01b30b7b3a6834dd93b609ae7a3a57708f87e46b992e4b4b7cdc1f354ded211252e98847d47e9a43485fa8c",
+  "caseHashed": "61c5e5a717f4c7e9cccd4aa65b2af83d8b7882987c268b5ad799adc9a2954089d6063a5c9db8ba45e0383a71a2d469de",
   "stepsHashed": "cff352109bf4d852a789cd8fd015d57ffe9316e45d74dd44795de63c7a47279b16c8d8e73afcb5777893e905fb3bce5c"
 }

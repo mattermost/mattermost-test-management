@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note: ANDROID needs to install another launcher such as Microsoft Launcher and change the notification settings to show number badge instead of just dot badge. Please ask QA for help on Android if needed. iOS does not need anything additional installed.</span></strong>",
   "estimatedTime": null,
-  "labels": ["1.42-p123", "notifications"],
+  "labels": ["1.42-p123", "notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v1.25 Mobile (Nov 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "21 Sep 8 - LI - not able to install Microsoft Launcher on RF VMs so this test will be written in RF for iOS only",
     "Rainforest": ["Update", "Mobile"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0a05c4be1e190c5f9264f5c9ed7f80e423d23241381e1c142938927f119d445e5f7243b5ef16dbd22e80783272317fb1",
+  "caseHashed": "a672b176dae7062418671ccf1974648a8316603cfa99e5b913098564256dcf9ecf06ae1368bd21d388a7ba66a3c3ef2d",
   "stepsHashed": "c1922273ee78c162c5209bfe76187978ee637523415e342566809d1a9389834e5bfe84aaca032cf2df6e3c631a76b878"
 }

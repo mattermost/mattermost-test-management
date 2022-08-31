@@ -6,7 +6,7 @@
   "objective": "",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "1.42-p123"],
+  "labels": ["cy-prod", "1.42-p123", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/autocomplete/with-elasticsearch"
   },
   "customFields": {
-    "Fix Versions": ["Open", "Help Wanted", "v5.33 (March 2021)", "Cloud (February 24)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "&nbsp;Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments",
     "Rainforest": ["N/A"],
     "Team Ownership": ["Suite Users"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Elasticsearch Autocomplete"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "55f1e9c30deb5a59092113374fcc53540ccadfb3909ab975c7b4ab529a9f37735bb0befbe1e1107f61781d4dcfa5e571",
+  "caseHashed": "d589e55f0ad6ea1974e22a67993db532efe2e4ec9aa22247ddf8a8cacdce9b8aa9b780b28197d5bc4cbadc8aa0811fdb",
   "stepsHashed": "53e87b69115bd0b55497e94e5c5e2ee3ef02fb58ec48dc9af8e486925b0605f3855ec6189f3fccb1cf790e481bc77973"
 }

@@ -6,7 +6,7 @@
   "objective": "Add Guest Users in Team Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "117a00af34bdca08270deff2129ee1db5d068c944083425dc58ef5aa9fc8b8f18fc0e4601a144dae224609e2f8639d1d",
+  "caseHashed": "798be1b93f42052d3b85ad992bac1c759a2ff3202821805b7caa2451bc87904b5899fe2ef33719140afe4b51d296652b",
   "stepsHashed": "f69cb3003c25830185a85cb6946335814f2a9d0368baf37bc4820969d1cb678b6d28069a09aab7f14dd6c2e00908040f"
 }

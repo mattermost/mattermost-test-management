@@ -6,7 +6,7 @@
   "objective": "Check Group Mentions when neither channel nor team is group synced",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "96f10e4236599cf4fb8fd2714aca05a8826dda642b267a6bf1562bbc489c1bcb813fa8c8d49dd391accee0165ded5959",
+  "caseHashed": "5caa22ae6814ee7bedb190609ae5e50e2a2ac24640c0b6c5f06898280cc5ad8d07e90a9e0bf0192c42c0ea9d972c36b1",
   "stepsHashed": "18519fa50624855fef9e05042acf23e7a36dd0bcfc238ce7773455e8a502b3ff0dcf75c92500c46484f3f871a76920ec"
 }

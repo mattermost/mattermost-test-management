@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,19 +18,16 @@
     "fullPath": "suite/system-console/commercial-support"
   },
   "customFields": {
-    "Fix Versions": ["v5.32 (February 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
     "Team Ownership": [],
-    "Cypress Reports": null,
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
-    "Selenium": null,
     "Last Updated": "",
     "Tags": [],
     "Location": "System Console"
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "247be9be95ed45ece742b28c944b238320aa575a511f3de9fb4076c96b74963d20af721637a3db4d078eebf013320cd9",
+  "caseHashed": "98cfa2112815662c3596af23bff1dcc72793b92f367bf6e6d19d92057cc2c01da283b200f7f3b9adb3c4339361718fa6",
   "stepsHashed": "de2c7b41a13efecfc880b0a14d0003bcfa054db81d993d390506f9fe7010fbd50b92fe3b6f9a5e0f0b06f36101c31cf1"
 }

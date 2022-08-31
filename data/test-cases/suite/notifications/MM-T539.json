@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note: N/A for Android until https://mattermost.atlassian.net/browse/MM-22933 is fixed.</span></strong>",
   "estimatedTime": null,
-  "labels": ["1.42-p123", "notifications"],
+  "labels": ["1.42-p123", "notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["Queued"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "21 Sep 9 - (LI) not able to test push notifications in RF ",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bfa549b720f5713c9b66f77919351393b2d84ea50f6fe4607acba8fd268151ccb43fcd6f0bfbfdb9525fc4614645796a",
+  "caseHashed": "396d8466114797eda640be956ebe7a964379dea700362d4a6a5ea8de68c2881cf05e63c596094cb276a080bc849204f0",
   "stepsHashed": "668face99580d7db209313aaf8d92cf27d9fd9a0ec983838d4fb82961123e1b4b23b3d3e86fac5978fc12a3132e09e78"
 }

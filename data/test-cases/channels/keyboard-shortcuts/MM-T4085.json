@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "This can't be automated in Cypress since there's no way to click outside of the browser window.",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Keyboard Shortcuts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "38a7f076123f97e7ab20442754009f34ccb0f807bb95be8914c5212c4b5369fdea660e15d37a6fd0aa1d4d712930f568",
+  "caseHashed": "0234a0d6f758509f17926985ac1c28ecca10a8e51bfad8d1875941fc142a042338f3189e102ed8ef2d358714b91f429f",
   "stepsHashed": "5e82c36d37b78e98b0150b2b821d0c273a7f18c54bdb24ec5f71308bb11b41457c5c07bd3c36d2f3f50fbfb6502bf8d4"
 }

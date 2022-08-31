@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,38 +18,35 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)", "v4.3 Desktop App (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Mobile"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
   "steps": [
     {
       "inline": {
-        "description": "Negative on: filter<br>–––––––––––––––––––––––––<ol><li>Post a message with a unique word (ex. foobarbaz)</li><li>Search for the unique word and with a filter of \"on:TODAYS_DATE\" (TODAYS_DATE should be selected via the date picker).</li><li>Search for the unique word with a negative filter of \"-on:TODAYS_DATE\" (TODAYS_DATE should be selected via the date picker).</li></ol>",
+        "description": "Negative on: filter<br />–––––––––––––––––––––––––<ol><li>Post a message with a unique word (ex. foobarbaz)</li><li>Search for the unique word and with a filter of \"on:TODAYS_DATE\" (TODAYS_DATE should be selected via the date picker).</li><li>Search for the unique word with a negative filter of \"-on:TODAYS_DATE\" (TODAYS_DATE should be selected via the date picker).</li></ol>",
         "testData": "",
         "expectedResult": "<ul><li>On step 2, search results that include the post with your unique word.</li><li>On step 3, search results should not include your new post.</li></ul>",
         "customFields": {
           "Fix Versions": ["v5.16 (Oct 2019)", "v5.18 (Dec 2019)", "v4.3 Desktop App (Oct 2019)"],
-          "Related ticket(s)": "<ul><li>(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11359\">Search: Exclude results containing specific words — MM-11359</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-19487\">Negative search filters can lead to incorrect highlighting of search results — MM-19487</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-15918\">Desktop: Unread count changes after opening quick switcher — MM_15918</a></li></ul>",
+          "Related ticket(s)": "<ul><li>(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-11359\">Search: Exclude results containing specific words — MM-11359</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-19487\">Negative search filters can lead to incorrect highlighting of search results — MM-19487</a></li><li><a href=\"https://mattermost.atlassian.net/browse/MM-15918\">Desktop: Unread count changes after opening quick switcher — MM_15918</a></li></ul>",
           "Important notes about this step": ""
         }
       },
       "testCase": null
     }
   ],
-  "caseHashed": "75aa42e3e04e7de45b9b4b2f649565946ae32b8ab491ef66653c9452ccd5ac2e588850b084958267c23a24476878c6be",
-  "stepsHashed": "ecb5d4ad94656813ea665060739a7e883cadfc1976ab18f01b8467af0baef5ba6af96da7a337dc570cdd717932d985e0"
+  "caseHashed": "393a1ea513c20816c642acc9a4c9fd4445bf6f1c025c515c3ff65f357d40df0adbadac2eef47372f550c843c3f5334e3",
+  "stepsHashed": "9edc8d65558a26d37190e8b6d9d7de1daee35ee978bd11f46bf7bcd07d04ae4ad5171a95dbef8e498827756e3b5446d8"
 }

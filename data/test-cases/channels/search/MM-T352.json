@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp", "search"],
+  "labels": ["rf-cloud-webapp", "search", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Steve Mudie — Monday, September 21, 2020 1:15 PM<br />• No Cypress automated tests reporting back<br />• Link to Cypress code added in the Traceability tab<br />• Already tested on Mobile and Webapp on Rainforest so I didn't add it to the manual testing pool<br />-----------------------------------------------<br />Prapti Shrestha - Thursday, April 16, 2021<ul><li>Updated Zephyr key in E2E test file.</li><li>Took off `TM4J-Key-Missing-In-Cypress` label</li><li>Set Cypress status to Production</li></ul><br />",
     "Rainforest": ["Mobile", "Webapp", "in Production"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2540c8827fee0ee5eb73a501e0481ac3a82556155bb9839b1ee391fb7b70a68862be98c3040f3561abe672bdba792b5c",
+  "caseHashed": "b4f675db905bcc83f7bf37fc71d0bfe8126eb5ff6a2c2c6568d8e9bb672e58892bcb12817a5f4e7082ee8995adb14c3c",
   "stepsHashed": "b2b1f40681829d03e9b609b630f5bd4e69c93507fd812022479096ead59ffe4ee03f0284f1d04501f666b3b19f4f6951"
 }

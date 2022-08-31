@@ -45,7 +45,6 @@ title: Consecutive message does not repeat profile info (center and reply thread
 | Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                                                                           |
 | Update notes             | Steve Mudie — Wednesday, September 16, 2020 6:44 PM<br>• Added links to Cypress code and Rainforest (mobile only) tests<br>• Removed from manual rotation |
 | Rainforest               | Mobile                                                                                                                                                    |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA)                                                        |
 | Team Ownership           | Channels                                                                                                                                                  |
 | Manual Test Environments | Automated - No manual tests needed                                                                                                                        |
 | Cypress                  | in Production                                                                                                                                             |

@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "E2E-1", "No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable"],
+  "labels": [
+    "Hackfest",
+    "E2E-1",
+    "No-Automated-Executions",
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/onboarding"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)", "v5.20 (Feb 2020)", "v5.24 (June 2020)", "Backlog"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Thursday, October 01, 2020 4:10 PM<br>• Set back to Active for manual testing",
     "Rainforest": [],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Growth"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Old Onboarding"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0ec286ffdffce9c8bdee0eee0b722952400cbfb6bb40eacf0ca454b2ca24eee00f2c00d7b73f9781babee54b6a67c186",
+  "caseHashed": "e977764430fb8e882dd6384a9282607ad32283864e29b12bc19a75bb0a9404ef08426a79bf2998c301d60cb7f1eac0c0",
   "stepsHashed": "6af69f84648a900aedc1edaace808054e2c256982878a433875955bba3f7c4bb01bca60be37a912ab8aac0ce1f556181"
 }

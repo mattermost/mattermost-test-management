@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "",
   "estimatedTime": null,
-  "labels": ["archived-channels"],
+  "labels": ["archived-channels", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/archived-channels"
   },
   "customFields": {
-    "Fix Versions": ["v1.30 Mobile (April 2020)", "v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, December 16, 2020 12:18 PM<br>• Removed precondition based upon comments left in <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/testPlayer/testExecution/MM-E77893\">this test execution</a>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Archived Channels"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7d58f2f3c88235d179a344c2d7b088bdfafaffdbff649bacd86d80778e7dd0366f76f995b829c64c98f8720e6104b77a",
+  "caseHashed": "cfca4b224d2b3f22424b30f645fbc3fc57145779cef9636b0db465798b774bb7a405ed983bb3834909efca4b08b55310",
   "stepsHashed": "347efa493090d1fcffff5c83a8695cc70cd7d4e208a70aef574c16ca342234fd3091b5f4cca3c8bf21b7dd2eb856d69a"
 }

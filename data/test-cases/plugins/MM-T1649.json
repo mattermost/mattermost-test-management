@@ -6,7 +6,7 @@
   "objective": "<a href=\"https://mattermost.atlassian.net/browse/MM-21247\">https://mattermost.atlassian.net/browse/MM-21247</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-22917\">https://mattermost.atlassian.net/browse/MM-22917</a>",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["E2E-1", "plugins"],
+  "labels": ["E2E-1", "plugins", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "plugins"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)", "v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Desktop", "Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Plugins"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a718340b5c10edeff02c8d455e4756b32dc775f4b87b33036bf40ab0b149a32c721c2e5479a345592f73d1f1675dd9a0",
+  "caseHashed": "8a195c5c7bda80733557ddadf2b0cbe29a83cdfd3a302f8e0f32d56df859a0c82c4c1f3f4ae32cb74e7de6af6c6f2088",
   "stepsHashed": "43131bbf0ebc64df9a5054c31140f5001c65a9efdaa8b76b0d1466c9029276837b28379b432a54dcb061c9199e7ace30"
 }

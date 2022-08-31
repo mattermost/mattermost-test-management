@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "rf-cloud-webapp", "search"],
+  "labels": ["cy-prod", "rf-cloud-webapp", "search", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7bb3936bf620b35ebd06788ca1c2656ffa8be03c4986e01a89f2758b77f4aa860bf79c2885530f7717abbf8e48316aa1",
+  "caseHashed": "eeb33e3e9dbe415b9da3086009d7d8a4496526ccc6098cf162f9dc964ec4cdc58834915417bcb7ebae3f8705df1e80df",
   "stepsHashed": "03e9a6b661ea9fa9b4eeeb481acde1742885e98fb2e40f0c092f71073e5f849f3f3d9e735931177b7a22642605d74a61"
 }

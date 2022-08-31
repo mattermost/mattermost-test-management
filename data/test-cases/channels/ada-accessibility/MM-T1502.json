@@ -6,7 +6,11 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +22,17 @@
     "fullPath": "channels/ada-accessibility"
   },
   "customFields": {
-    "Fix Versions": ["v5.15 (Sept 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "ADA Accessibility"
   },
@@ -50,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "01e8d30e0fbede838b2e3bc2bd861a443e25d1e91ebecf3d27f7490c02e6f7862340e3b122885f49610c3bbfcfaef58f",
+  "caseHashed": "5c9ba136681ed89497cd316e2606dba7a5fef4cf73f7f901dc09ac647039ef23a3f86760ccb93b9f815188a25c603f7d",
   "stepsHashed": "17566b64187b23df1cba69ac3013fbfb414b538ac5c62fad24805202d5c12408dc4d2882a41ce82921985a193a0c45d9"
 }

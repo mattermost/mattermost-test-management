@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "sign-in-auth"],
+  "labels": ["1.42-p123", "sign-in-auth", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/sign-in-authentication"
   },
   "customFields": {
-    "Fix Versions": ["v1.29 Mobile (March 2020)", "v1.24 Mobile (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to simulate airplane mode on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Sign In Authentication"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e6c26b39d7637d5c88e49d7f68f045a0b20429727d35d9df3efffc32ca04774da792ce51341e23bfad56373641996b43",
+  "caseHashed": "ae0cdf91373818acd758e22624c5ce893970ada85522d4651735cd7ded7ff40c2d2ce3e394752f1db99ee0e025078698",
   "stepsHashed": "d0945d1d277fc78bab59863c9455b97f60f6e97941f786923e3985856c101b3ba7c623d0a8421488e9d31e91fea90024"
 }

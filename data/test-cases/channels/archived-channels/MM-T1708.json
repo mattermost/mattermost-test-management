@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "archived-channels"],
+  "labels": ["Cloud-N/A", "archived-channels", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/archived-channels"
   },
   "customFields": {
-    "Fix Versions": ["v1.29 Mobile (March 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Adding a <strong>Cloud-N/A</strong> label. Allow users to view archived channels is set to true by default on cloud servers, can not be changed in System Console. Jelena 11/20/2020",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "Archived Channels"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d3b3e762883dfc47c472bb79371054325d112af15f15fe8c4204d00a03ee627c0c86ca923ea6a445d1861da27c2d6fb1",
+  "caseHashed": "86815cfd3594317e7d88e042d5722b024cf027f9d5c5bc77d5277706fba4eee7a7f797430e4149a8b517476f354540e9",
   "stepsHashed": "519bcc41b69b185a41ea022f7ff446b717451a1713e3fb31ce4299228c4f1589bf00ea6c8fc5f2c602de0af47ec6a197"
 }

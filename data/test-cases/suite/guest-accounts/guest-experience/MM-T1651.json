@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 401946, "name": "Draft" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-experience"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "945b0fccc5eb90a1a8386d5d916d29f1dbc9b3d2eafc5cf1ebd32e86d75e8fa94dbec3435a219eb90b1de8209fa07861",
+  "caseHashed": "abf72f7cd6e266b166c5b5a46a7c2f3c130a947986fc82ca09c196f8cde9e67ed57842f880aad411684cd27bfbf2a373",
   "stepsHashed": "2d9a86d298561b5a986568bb451685cc6780cba9fc2235cb047a3415cdb5c22065ea836d4306e976d9a07baeb9de933a"
 }

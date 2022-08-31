@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "channel-settings"],
+  "labels": ["1.42-p123", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Mobile", "Update"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "24eb673793c2d8825ac1420746003fec0dfb28d4d33cfa635f4fd8a426906254bd0f6721d2ff7d1bd6d9fff391b505b6",
+  "caseHashed": "485c8d734ddfb766c2e8147582672fed659f18287e370ae43acbdf78ea320ae533c4834eaaee67327898733896e82c49",
   "stepsHashed": "3da5295795a2a3a4e2a8b13dbde35df79517a8375ba3f9b90122ee1a56c89d4888634d53291390a2575e4fffb4642eb1"
 }

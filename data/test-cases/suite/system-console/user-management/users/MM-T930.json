@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["User-Management", "cy-prod", "system-console"],
+  "labels": ["User-Management", "cy-prod", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/user-management/users"
   },
   "customFields": {
-    "Fix Versions": ["Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": "N/A",
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0743d28e1e9dbe92ef11e4fc92a75b4bcfcdee4a08542727bfd7b2cfbecd9f065103033a0fca533762b367643f3da519",
+  "caseHashed": "eb21b90b65ef161d9e0205a44e33a73c134e1f73ac6510576709d8de95baf42b4b952f8f441b81f25bd9425ff35eedaa",
   "stepsHashed": "fb1bde3c3f2f8cd0d9493b38512791087dda6e01e9f7b843c8eca4350216c2659dfc611e36aaec96aff36b02790958f4"
 }

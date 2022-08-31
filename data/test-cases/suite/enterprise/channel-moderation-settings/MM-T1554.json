@@ -6,7 +6,12 @@
   "objective": "Channel Mentions option removed for Guests &amp; Members in Team Override Scheme",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "enterprise"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e339a5db3c3fc0e5c80ca7ea1328ffc092971b7f4387fe049e6c37c1a64cc6522c9572f5ccbccba2a42ac6de8648d355",
+  "caseHashed": "4c8968945a688ed26f676d9c819d0532df3ffc4c33d03dbb5812dfa9eb41f40d121991f4f4c4124aac73c78733fcdc01",
   "stepsHashed": "ef88c525df2a17a078c424d426bd404a1519998c44ba813406863d853b99856a1df918c927ed39822a843770ca9920b6"
 }

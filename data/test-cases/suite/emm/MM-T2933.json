@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["android-only", "1.42-p123"],
+  "labels": ["android-only", "1.42-p123", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/emm"
   },
   "customFields": {
-    "Fix Versions": ["v1.19 Mobile (May 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to test using EMM on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "RN: Android"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "EMM"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2d907c500ec74e7de306cac371791e72090cbbb68b4b07840bf6af911f1b0391ffb26a63d39382ec536c19709453f782",
+  "caseHashed": "84ba329c25326586cf602aeceb8dbe67dc6621cc2fde00586f7a05eb507382ac8b6a505ea0a2b4e3f8af4c77dbb5455d",
   "stepsHashed": "e3764dc823e8d3cf4cd69dac9a976c40a4eedde1f9f0a37809c1ea7d9e185aaf19ef778873e82810827669d461a3a540"
 }

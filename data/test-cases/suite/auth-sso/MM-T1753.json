@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "se-prod", "auth-sso"],
+  "labels": ["cy-prod", "se-prod", "auth-sso", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/auth-sso"
   },
   "customFields": {
-    "Fix Versions": ["Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Auth SSO"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b8e0efb4380ff2fa358db5f3a5c81601345b2576074470f9f90cda932e96674da8bba615f6f5f4079c1f8406b4a44f63",
+  "caseHashed": "f035aa519b514ab99693314fb0ddf5517360473569d38c7942efbafbc51c409927e8ac58b0848f3abba0e4a32bdd9f57",
   "stepsHashed": "cfd19720e8a3eb4bf9858bf711ee5cf59d4a9ec316746a865eae7025a14e0b157337f8b3b5a69e42d2392b465c3294ca"
 }

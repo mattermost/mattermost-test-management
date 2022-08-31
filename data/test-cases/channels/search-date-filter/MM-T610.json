@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": ["v4.3 Desktop App (Oct 2019)", "v5.16 (Oct 2019)", "v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop", "Mobile"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6a1d9fa7dddb6ed7576e0f4c5016d3f1289290c073c75951dcb1ce8e0a997a39fcc5ef0ee6b559e680462e49a80f2810",
+  "caseHashed": "80e15b56a8fee02d0d55ffc63dcc2ff4a140082251646d9f32b384f01e9548b102a6a0361c7b5a9753511049c078345a",
   "stepsHashed": "636f84ce52fc9efb5d8431c7847b257c5016b78f4947f4fa24b76db70f8065478e47b419e557b17154a57c878848f238"
 }

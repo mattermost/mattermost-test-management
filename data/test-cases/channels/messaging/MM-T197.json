@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "",
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["Backlog"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Thursday, December 31, 2020 1:26 PM<br>• Update: MM-22950 is still open as of today and is set as a Help Wanted ticket<br>–––––––––––––––––––––––––<br><span style=\"color: rgb(184, 49, 47);\">N/A until OPEN ticket is fixed</span>: &nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-22950\">/code is not rendering initial whitespace characters — MM-22950</a>",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "66c5704ce6f91268337f3de2f13174075494b8b352d64773bd64c5d2bd0c6a10de7e4443605ce75622b375d6b4f7004f",
+  "caseHashed": "eb1837135b8bc020445a6cb1e73641a4cb2911ff5a83b8891fa2f250efae8f0c089df8477c7d4b01b3117be850613d47",
   "stepsHashed": "1f7d39c510fe47022fbbc62d342e3366ea07ab3cf0ecf3033fdf7ac08deb74d4462b8e9c7307abe884fef33c4ba0cf7e"
 }

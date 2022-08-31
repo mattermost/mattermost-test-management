@@ -6,7 +6,7 @@
   "objective": "Verify&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-17546\">https://mattermost.atlassian.net/browse/MM-17546</a>",
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "plugins/plugin-marketplace"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "617234e8f0e54851573fec806737c60e49cbe8813d07acc6c8177ccebf48fbd22eb7983a92065ce5a63fb59355abebde",
+  "caseHashed": "99c120a58670d2a1c273542399326afdf8bd8f3213c9feb60686487f197847bfd443697b33a428655db834f30810d6c7",
   "stepsHashed": "6f20690324d6bdc8fc10f528c2116052c5d0cd04d5ec7437c3c2f97827641b1173e673e4a7c6a8367aef3ae4f29c0129"
 }

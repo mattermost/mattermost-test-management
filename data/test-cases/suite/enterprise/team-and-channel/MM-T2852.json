@@ -6,7 +6,7 @@
   "objective": "Change Role of a User in Channel Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "73a3c158597559c407b79984a8e4f4be1795322d2bc61ad487ca2ca2221a7b4fec7203ffbabef82b77ff397f63de4a8a",
+  "caseHashed": "72ba81175bc34941ca02152561bff7e0f0305f3a9b0bdec82834f1efcf6fb9262138a7f848e68ff2500354d52ec4f14a",
   "stepsHashed": "87466862ff729442b1f333374027c1ec20ce47b3f08b487da092d96c79bd96d50f181942ea5db18659c5b7c9e3256dd8"
 }

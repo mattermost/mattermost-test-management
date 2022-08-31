@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": "",
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "files-and-attachments"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "files-and-attachments",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/files-and-attachments"
   },
   "customFields": {
-    "Fix Versions": ["v5.21 (March 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Monday, February 15, 2021 2:38 PM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Files and Attachments"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3f54c03c2d617c8b26c1acee7803a6998b6cdceccc3901055f9775774c726f8e125c87ae954ef1f216120b13f6b7299f",
+  "caseHashed": "2679069a67f2b16f3b68f46243120193e93aec8c66541303acaf96bb2b899866e31a1bb1fa17418afa1cbf196fca984c",
   "stepsHashed": "6c3f92e03dfe22a64fd30e82fbe0532d622c6736d78a56b083dd64a78f6319f2a184fe775a4b0944e5a51acb58ba6a03"
 }

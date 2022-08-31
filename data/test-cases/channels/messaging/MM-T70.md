@@ -7,13 +7,13 @@ title: At-mention user autocomplete is legible when it overlaps with channel hea
 
 ### Details
 
-| Name     | Value                                                |
-| :------- | :--------------------------------------------------- |
-| Priority | Low                                                  |
-| Status   | Active                                               |
-| Folder   | Channels / Messaging                                 |
-| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging |
-| Created  | 2019-12-19T15:28:54Z                                 |
+| Name     | Value                                                                                   |
+| :------- | :-------------------------------------------------------------------------------------- |
+| Priority | Low                                                                                     |
+| Status   | Active                                                                                  |
+| Folder   | Channels / Messaging                                                                    |
+| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-12-19T15:28:54Z                                                                    |
 
 ### Steps
 
@@ -54,11 +54,9 @@ title: At-mention user autocomplete is legible when it overlaps with channel hea
 
 | Name                     | Value                                                                                                                            |
 | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| Fix Versions             | v5.11 (May 2019),v5.20 (Feb 2020)                                                                                                |
 | Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                                                  |
 | Update notes             | Added new "Broken-Arrow" label which simply means that the test appears to be automated but lacks any automated test executions. |
 | Rainforest               | N/A                                                                                                                              |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA)                               |
 | Team Ownership           | Channels                                                                                                                         |
 | Manual Test Environments | Automated - No manual tests needed                                                                                               |
 | Cypress                  | in Production                                                                                                                    |

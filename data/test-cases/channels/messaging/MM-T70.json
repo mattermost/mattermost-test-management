@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.11 (May 2019)", "v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Added new \"Broken-Arrow\" label which simply means that the test appears to be automated but lacks any automated test executions.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -63,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6f241bbebb465749fdeca8f2563609008c8183605300e2c5608046f05e8b0c8037e8add10d5c23020e8b24d696d2bf21",
+  "caseHashed": "6206c96740f91b3149a1909d0dc3948129229b48a9717bdabb1e423968779df1dc638b6233c36a290a69cbb53a88ba1d",
   "stepsHashed": "16f52d778198d20574a40bf9a9822378b1dafa6baa82c7db32ab0249123b84cd4c65da79e68ce74a4c3519c588455ee9"
 }

@@ -10,7 +10,8 @@
     "TM4J-Key-Missing-In-Cypress",
     "Fixed-TM4J-Key-In-Cypress",
     "cy-prod",
-    "guest-accounts"
+    "guest-accounts",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +24,17 @@
     "fullPath": "suite/guest-accounts/guest-identification"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:17 AM<br>• Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -55,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a11d4db7aba9eb31e6c8aeb3c35c8adca0f479d55e468ecf6c75ff44447057b00b026b74473576100cc715096eb49818",
+  "caseHashed": "0773bfad1145aec234413b31bdb96879e868cd2cb54e90d8b19460fc31b3d60e2f9851eed170094f5af8f9556727dfd7",
   "stepsHashed": "43f55fa212526bbef276bf8d081ca9a8605f48d796616f80b4856b23ddc38192a5a65d029481e6bbffa5776fe7a3d609"
 }

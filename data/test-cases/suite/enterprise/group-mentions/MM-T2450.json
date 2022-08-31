@@ -6,7 +6,12 @@
   "objective": "Check Group Mentions when user is a channel admin",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2c76bd3824dc79bef783a81f0f75c7fb9fee375b45e842b5796aa7ce80a5c46814efa67dd0ddaafb350de2453a5eaf5f",
+  "caseHashed": "9339cc33067e7451314de7537d70d2c8ea1ccc2a2041cbb4ce0b343df57d71a51106d661cd6d599d383a1593cd0f38d0",
   "stepsHashed": "bbb891b689c60849ca31b69739e3bc9edb3d6b92272af0ddbe54a73bc2a90db07e1a841303767d9cd6ba2fb6376bd62b"
 }

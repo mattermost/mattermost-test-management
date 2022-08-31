@@ -10,7 +10,9 @@
     "TM4J-Key-Missing-In-Cypress",
     "Fixed-TM4J-Key-In-Cypress",
     "cy-prod",
-    "notifications"
+    "notifications",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +25,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["Backlog"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Monday, December 21, 2020 3:48 PM<br>• Cypress code contains old Jira number ➜ \"it('N14572 does not trigger notifications with \"channel-wide mentions\" unchecked', () =&gt; {\"<br>• Set status to Active and added to manual pool until automation can be rectified<br>• Set priority to P2<br>–––––––––––––––––––––––––<br>Steve Mudie — Friday, September 18, 2020 3:11 PM<br>• Added links",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -55,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bbf19db9720fe63dea2d84b4f636214bd730ad799a3b236e7c095559eb6d1971ce9656914f620d9a0091fbda628743fa",
+  "caseHashed": "dd18149e6378285231fec9b73ae0aa074ed380b8edc5edc2aa21a4d5dcadc7ecdacd35f283506265be0029b252ada195",
   "stepsHashed": "bfd3dfa102ff57e511145a2456ac85983af57ae67e8fcb75dfa2704a92439c62990467e4096bfb7de9d06131a9f7e432"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/site-configuration/announcement-banner"
   },
   "customFields": {
-    "Fix Versions": ["v5.13 (July 2019)", "v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -89,6 +86,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c496946bab3c6781f3d50c66cb0fcf53fd64b48cf82308ec16ad4f1d5312219d19f844e2acceb9f2a61dc7ed2e9b78c3",
+  "caseHashed": "3cb3a0cf62146312c984b920fd0cb8f96efa64898bcdae0401d490debed518b673915611ba62e1161cee157f0f2b6b74",
   "stepsHashed": "4fc68a6fd072dad11c03d3ba3db098db4defb0e9914437462a12335a03acf14ff321b5f56ab29474dbf606be8ce84610"
 }

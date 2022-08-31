@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "messaging"],
+  "labels": ["cy-prod", "messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v1.36 Mobile (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "Update",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d9d7a82f99072fd2a8a8915bb5f630e1e5d267ff72bcc9f4ae0fc1930d55d33aa67aebb26259c3e6ddc459fed773f244",
+  "caseHashed": "025ae2954167e29fbde3afb68b596c984dc0aaa596c63f06b48e387b470802d369f2de0c253abc673b080b8b801a2fc8",
   "stepsHashed": "53683fa047cdf67ace9f00dadfb8f4b13d0e409f14db7053454bbfb05e292c31f58d4602839313f78ca38c72594ca0e8"
 }

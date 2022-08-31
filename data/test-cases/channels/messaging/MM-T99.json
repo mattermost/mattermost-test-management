@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "messaging"],
+  "labels": ["No-Automated-Executions", "messaging", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Prapti Shrestha - Thursday, April 15, 2021<ul><li>Updated Zephyr key in E2E test file.</li><li>Took off `TM4J-Key-Missing-In-Cypress` label</li><li>Set Cypress status to Production</li></ul>",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c4826bb4f899146f2f1bc18f65d5940e7278cc50c45c49fa92c79582ee09f5aa9ace3134b61dbf8a27f6837e8a94947b",
+  "caseHashed": "53ee14c7dd8066541e85500805e81187b0c7efdb289d6e9e4f3f72c26623ea2ed3ce0d19a01a5f5fe25555fe32042eac",
   "stepsHashed": "a650bf2ec4e150fff6b86f3ac67eb8d76ae802fe750cec4ca934e6bdcc63e861c54fe460d472aa03d0300a68a37e44cc"
 }

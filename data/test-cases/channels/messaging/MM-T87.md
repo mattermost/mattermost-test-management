@@ -35,12 +35,11 @@ title: Text in bullet points is the same size as text above and below it
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                    |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:07 PM<br>• Removed from manual testing                 |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Messaging                                                                                          |
+| Name                     | Value                                                                              |
+| :----------------------- | :--------------------------------------------------------------------------------- |
+| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                    |
+| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:07 PM<br>• Removed from manual testing |
+| Team Ownership           | Channels                                                                           |
+| Manual Test Environments | Automated - No manual tests needed                                                 |
+| Cypress                  | in Production                                                                      |
+| Location                 | Messaging                                                                          |

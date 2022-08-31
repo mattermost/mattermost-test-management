@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["se-prod", "messaging"],
+  "labels": ["se-prod", "messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.17 (Nov 2019)", "Backlog"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4070a4f24b96c60e70fffb16a46d7d552bb20ac89fa093e8c51220cd7a3155445e6f147b133e4229ab124be425b278c9",
+  "caseHashed": "1a107310566577bc5e2e16c65ae93537cf0b0c855119974c4c1fec86440ff23f81d3a8a34f5e19f8241e376e26a20c2c",
   "stepsHashed": "c3bec1b705ff330584f4d9625b366072b0651f0978c97202911f6e3c6fc2116642e9c0427183c6972c7d6ee26888ef00"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "system-console"],
+  "labels": ["Cloud-N/A", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/admin-advisor"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3aacc63647603fff7098d64191d940372652a3ceaa4540e1b8edde856eed0b1e409ed6831de5ae68e629400707a7899e",
+  "caseHashed": "41a06bdc294c83475af4ab3f63d7dea3238e6a9bac51b9c2211d4d90702e301c540993bf1bee1eb10a0d6c126a35acaf",
   "stepsHashed": "97573af15a0477b9eb9d9e58dd59706b31ac5035249fa76e90b6666840f10de616ed238c63a972b77ca8170dd9439f26"
 }

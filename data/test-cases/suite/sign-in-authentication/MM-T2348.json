@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "",
   "estimatedTime": null,
-  "labels": ["sign-in-auth"],
+  "labels": ["sign-in-auth", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/sign-in-authentication"
   },
   "customFields": {
-    "Fix Versions": ["v1.32 Mobile (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Mobile"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "Update",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Sign In Authentication"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "532bedbd36af63c0185370be7f987a6025aa79d2047790bbb482cf2b0daebda0a8c461338a3a1e1b37c7ed96e6d6c153",
+  "caseHashed": "6546a9427af669b2a82151fbec3e5bf379a217f0d4d0f0897589e0b98041d859d17bcc4e63c08bb9a5ca1a72c78f2aef",
   "stepsHashed": "9f782d5911d63242aa0e4dbae29ea8371a06792dc1a30c06adf22e1dbf4e37d5bea0973ba753da6567288117efecaa2d"
 }

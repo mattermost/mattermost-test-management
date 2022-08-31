@@ -35,13 +35,12 @@ title: RHS fetches messages on socket reconnect when a different channel is in c
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                 |
-| Update notes             | 10/28/21 - Lindy - Cannot do this test in RF as VMs cannot be set to off-line via dev tools.       |
-| Rainforest               | N/A                                                                                                |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Messaging                                                                                          |
+| Name                     | Value                                                                                        |
+| :----------------------- | :------------------------------------------------------------------------------------------- |
+| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                           |
+| Update notes             | 10/28/21 - Lindy - Cannot do this test in RF as VMs cannot be set to off-line via dev tools. |
+| Rainforest               | N/A                                                                                          |
+| Team Ownership           | Channels                                                                                     |
+| Manual Test Environments | Automated - No manual tests needed                                                           |
+| Cypress                  | in Production                                                                                |
+| Location                 | Messaging                                                                                    |

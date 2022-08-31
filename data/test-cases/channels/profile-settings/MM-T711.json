@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "account-settings"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "account-settings",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/profile-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.19 (Jan 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 10:34 PM<br>• No Cypress executions reporting back<br>• Moved Cypress PR link to Traceability tab<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now<br><br>Joseph Baylon - Thursdsay, October 15, 2020 9:00 AM<ul><li>Toggled Cypress status to In Production - Cypress code to match TM4J ID for reporting</li></ul><br>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -63,6 +65,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b9c70244cb2a08c49670a32b18376d6fa02375dd8a2ac97ea809eb9e98646fbc367ae7e704a36a30bd49e3ceac628db6",
+  "caseHashed": "13e5be755ff28834761689886b0a1e9dbf214e2208250262b62ab19db7fafddfee14cf1f508aa4bd7c8cfe60eff85063",
   "stepsHashed": "e03a4902f4dfed716d6888acd762649373906310ef8206afd86993b73bc559acc5fd4daa0cdca4c97241390fbefd1621"
 }

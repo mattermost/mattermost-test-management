@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["account-settings"],
+  "labels": ["account-settings", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/settings/display"
   },
   "customFields": {
-    "Fix Versions": ["v5.19 (Jan 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:00 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Moved Cypress PR link to Traceability tab<br />• Leaving in manual pool for now",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "93824f21cd17fe1a1ac983bc74ab0a2a61ca0521111b009836f22cf394de7879232e44ea8650a3373d0543631518d623",
+  "caseHashed": "d601c9e8a5e0481ffdbcf499b3331bbdc54169ce8eaa89aecdd149005c367d23493e5b3c9b2c6afa743a28a6f47c7d80",
   "stepsHashed": "4512e76f1aff44ef8d11f4400ae73c0b8296e7d5839019d8b2b2130b0968268eb22fd7f3f408b13f29281312da78c697"
 }

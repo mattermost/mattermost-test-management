@@ -6,7 +6,11 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "archived-channels"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "archived-channels",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +22,17 @@
     "fullPath": "channels/archived-channels"
   },
   "customFields": {
-    "Fix Versions": ["v5.25 (July 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Archived Channels"
   },
@@ -50,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8c4519b437bc015bdd5873d6e131e99549c7b1c46e2b5657cae3c58bb1502d3ec00896cf6e7d20cb758f780cc17d2f04",
+  "caseHashed": "6fadb4dca0b470b4e436c96a24a6184cf3c2ccdeef80106f4b4911d0cb6d1ddc550935355dc4029003e066e5756c18e6",
   "stepsHashed": "fec11181a7af55935908e7ac49851619f81c3dbcfe4cc718506e7251cd0e075769dbffccb31a953080aa223006d32c6e"
 }

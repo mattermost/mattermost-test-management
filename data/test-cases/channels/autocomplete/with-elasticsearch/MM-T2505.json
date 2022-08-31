@@ -6,7 +6,7 @@
   "objective": "<span style=\"color: rgb(184, 49, 47);\">Users are auto-completed as expected, by username, nickname, firstname, lastname (e.g. I can search for `isherwood` and `lindy.isherwood` will be returned)</span>",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "1.42-p123"],
+  "labels": ["Cloud-N/A", "1.42-p123", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/autocomplete/with-elasticsearch"
   },
   "customFields": {
-    "Fix Versions": ["Open", "Help Wanted", "v5.33 (March 2021)", "Cloud (February 24)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Monday, September 28, 2020 4:07 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Desktop", "Mobile", "Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Elasticsearch Autocomplete"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b86fea7318320b883b208aeb468a25b09178bc101d34a7d205e3c98bf1105654a91ee052721811ecc5407a4df5e2fd40",
+  "caseHashed": "0e26f718ef6e4f47b98e27e8e8663535fba576215d9977e33d95301b8e593029cac046f31aa1476abacde0cf04f728b2",
   "stepsHashed": "78f52298c374fffea048fe2523784f441205a405120ff559e455efad058c3517d8ce0faa410dee9086c9050c4a4d0ca6"
 }

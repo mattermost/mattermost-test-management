@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">This functionality is covered in <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T526\">MM-T526</a> for Android and&nbsp;</span></strong><a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T527\"><strong><span style=\"color: rgb(184, 49, 47);\"><strong>MM-T527</strong></span></strong></a><strong><span style=\"color: rgb(184, 49, 47);\"><strong>&nbsp;for iOS. Marking this Do Not Test.</strong></span></strong><br><strong><span style=\"color: rgb(184, 49, 47);\"><strong>&nbsp;</strong></span></strong><br><strong><span style=\"color: rgb(184, 49, 47);\">If added back in, leave off iOS manual test until&nbsp;</span></strong><span style=\"color: rgb(41, 105, 176);\"><a href=\"https://mattermost.atlassian.net/browse/MM-23867\"><strong>https://mattermost.atlassian.net/browse/MM-23867</strong></a></span><strong><span style=\"color: rgb(184, 49, 47);\">&nbsp;is fixed.</span></strong>",
   "estimatedTime": null,
-  "labels": ["notifications"],
+  "labels": ["notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v1.25 Mobile (Nov 2019)", "Queued"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to receive push notifications on the VMs</li></ul><br>Android needs third-party launcher such as Microsoft Launcher installed to show badge numbers (instead of just dots)",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9f3f2eae9469a53ed998316ca828d6326e8c152c138825ae34de59d3ff57cf0b1bbdf64e2a25b3b4af547f285b2bacff",
+  "caseHashed": "9cb32e0002bf2961cb06bbbebb231ccacf429b891ae809d44f7a5976b20fef32e960dc365ec5f9f5882726cb23b766fc",
   "stepsHashed": "f5e8fea8ac34cb85398abfc7bfc88f1a7ea89bfa1a7487875f48bffa7faebb025707b679df5e117092044597bb0d37db"
 }

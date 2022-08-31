@@ -6,7 +6,12 @@
   "objective": "Check Group Mentions when used in Group Message",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Unstable", "cy-prod", "enterprise"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "cy-prod",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:13 AM<br>•  Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b2bcab9c6052699aaac30829631743a558878003d753fe77627df82532a0cde71d3d16c734825f31cfe1a06bf74fd561",
+  "caseHashed": "400fb27dee10a5cf3b29cc12d5a2debc818e61670efb5e2b43b525366bb26dfcf8f7ee1710b0f5f3f37c1fc6b525de4e",
   "stepsHashed": "38eb4d02d4f33279c08011274cce2c799c56a7c5b18ffde6085c53a35f493ddeca4e3d0b483553c288fafce75d9aac90"
 }

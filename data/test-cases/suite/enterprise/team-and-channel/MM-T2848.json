@@ -6,7 +6,7 @@
   "objective": "Add Members in Channel Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9a1d8938345f53ccfe339ae4117ad690de98e7dfb01400e63d145e3da2ce98cf3863ae4e55020afd5b9b81874c4063bc",
+  "caseHashed": "4599d12ca82cd31e4ced4e68e7e55d09dfdc982f1a827300960bd76d8fe08a5bdc0fdb9abfabf7e15865039dc2e9abde",
   "stepsHashed": "7ad1db80a3526fe82444b96db024b845d80447e645cffdc1c25a2473c14d0aa15e2954ff5e2a96215173acaeb0bc5529"
 }

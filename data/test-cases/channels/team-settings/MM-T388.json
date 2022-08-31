@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "team-settings"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "team-settings",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/team-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Thursday, September 24, 2020 8:58 AM<br>• Cypress Automation working as expected 🎉<br>• Removed from manual pool",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Team Settings"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e22238e7886606e9aa89b6195ef3c4b30e5a8721399689466152f4ee79ed73a3de9c2a4fd172696d9620538dffeb684a",
+  "caseHashed": "fb18984259d757fb9ef658070a5637794c561817675f999ea7d79e76eaabc012a55e81774a219905688f6d8f7d5e187a",
   "stepsHashed": "4e0483f1ad8076a4a87051ea8cf598861903b6507de37959f6ec1cebcb3ab0cf246d4c8d32f8e4b88ca7c576380e181e"
 }

@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "rf-cloud-webapp", "channel-settings"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "rf-cloud-webapp",
+    "channel-settings",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Mobile", "Webapp", "Cloud", "in Production"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -63,6 +66,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "818767685d5aa7e0371ef7de7740d2b64eb33b3b9de4108ee70fae328d566f42b1f102546f4e7663334cd19464b6fc87",
+  "caseHashed": "355d51b4f17f15c93e221bbbac511308ea351b69716eef4f695cbbfed095bf0af9cba52e39b980530d4112b9bfa50cc8",
   "stepsHashed": "92a9136225c90216bf98f6bd3973be9c8fcd8977088327d8f46e7fca7ae7917827d5b4d1e9550028c283fa17b93dba6d"
 }

@@ -15,13 +15,13 @@ title: Add User — UserA & UserB (removed from team)
 
 ### Details
 
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Low                              |
-| Status   | Active                           |
-| Folder   | Channels / Add user from popover |
-| Labels   | cy-prod                          |
-| Created  | 2019-08-26T23:03:55Z             |
+| Name     | Value                                      |
+| :------- | :----------------------------------------- |
+| Priority | Low                                        |
+| Status   | Active                                     |
+| Folder   | Channels / Add user from popover           |
+| Labels   | cy-prod,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-08-26T23:03:55Z                       |
 
 ### Steps
 
@@ -45,14 +45,12 @@ title: Add User — UserA & UserB (removed from team)
 
 ### More Info
 
-| Name                     | Value                                                                                                |
-| :----------------------- | :--------------------------------------------------------------------------------------------------- |
-| Fix Versions             | v5.18 (Dec 2019)                                                                                     |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                   |
-| Update notes             | JB - Friday, December 4, 2020<br />- Moved to automated                                              |
-| Rainforest               | N/A                                                                                                  |
-| Cypress Reports          | STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                             |
-| Manual Test Environments | Automated - No manual tests needed                                                                   |
-| Cypress                  | in Production                                                                                        |
-| Location                 | Add user to channel from popover                                                                     |
+| Name                     | Value                                                   |
+| :----------------------- | :------------------------------------------------------ |
+| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)      |
+| Update notes             | JB - Friday, December 4, 2020<br />- Moved to automated |
+| Rainforest               | N/A                                                     |
+| Team Ownership           | Channels                                                |
+| Manual Test Environments | Automated - No manual tests needed                      |
+| Cypress                  | in Production                                           |
+| Location                 | Add user to channel from popover                        |

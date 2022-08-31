@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["account-settings"],
+  "labels": ["account-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/mobile-app-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Mobile"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "028934e74a5c2a1acb6a48a1708770859e87ee93936b000987ed171a37cc6f841705d057b6b2c957c0250ba311938e65",
+  "caseHashed": "e53ec9aedc410dce8b435741303029e2f4df9c9022b1cebe350f61b27ed651aade28a8da4653ad78600e2450b4d5c687",
   "stepsHashed": "8b5552f17cf22eece27aea80af8d015c06baea4de62e33b3527c4aa08a54fa3cac7fb4bd95f957b825ab8126da31f38a"
 }

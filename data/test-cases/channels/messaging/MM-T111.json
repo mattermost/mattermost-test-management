@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.11 (May 2019)", "v5.23 (May 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": "N/A",
     "Cypress": "Ticket Open",
     "MMCTL": "N/A",
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "157ff769ed2492da1ebe3f8944f558b88f4c153cc308d5ec20ac49b1c2399ce68f1f1487f15602b63ddbd4579d01b37b",
+  "caseHashed": "0fdd70a46f2637a143a737b6476a1fa8dbc8184c9176f741dcc4a2c487c78b08e35d7aeb4c7c9a09858f03fe551758ef",
   "stepsHashed": "e697167495ff76ab91da71939fb47fd9c46060218e37f8cbddcfa11048239e36bc6afe65b6dac86d4250de552bd59aed"
 }

@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "Cloud-N/A", "cy-prod"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "Cloud-N/A",
+    "cy-prod",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "plugins/plugin-marketplace/import-queue"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Tuesday, February 16, 2021 4:32 PM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label<br>–––––––––––––––––––––––––<br>Steve Mudie — Wednesday, September 30, 2020 12:58 PM<br>• No Cypress executions reporting back<br>• Toggled Cypress status to 🔧 Update<br>• Leaving in manual pool for now",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "94eb04e68cfd5f93324b0cc5cdc7ecda64af3c53e06b8fa698f5c7b331f0b73de6ee30a661970b19ba7b72258464f8bd",
+  "caseHashed": "d97471a4e80db1c928647eefa732ce54f02e2c5050d675481c40a4c8d2bf50da82f6417284519793fab8e84f0df0174d",
   "stepsHashed": "e708c64d493a995038414f3a1b8855ab958e50e4efc646e6ee65329ed9233ff228524e12c2cc33b44e50ac9225d19717"
 }

@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "rf-cloud-webapp", "channel-settings"],
+  "labels": [
+    "cy-prod",
+    "rf-cloud-webapp",
+    "channel-settings",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.31 (January 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "Cloud", "in Production"],
     "Team Ownership": ["Channels"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2858da178de6b46edb0c86d1000116bdf3d93beadb4ad7dd55cb5ccc6589822d01a0c21dcc26f3b5b53af218cecbc5c2",
+  "caseHashed": "e4cd344d62223f6d0c5d10220231649f4cc07f6d311870014d3792d39a8e0a90cfab47e3957748c3c0866dc74890b08b",
   "stepsHashed": "e8c8b7e337c7463fe1e04704bc4190b733a27d2cc0bfdc873cf2fef7a3cad66727a8ed4330ea582238e5ca85858ae780"
 }

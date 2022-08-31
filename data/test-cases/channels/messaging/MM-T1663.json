@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.21 (March 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["Cloud", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "424d264070156f43d3cd660eeb9d68ad407c60f6631492901dfe4f73e9f869d992c2fcedfb546b9e23c1ffb69d827ebb",
+  "caseHashed": "f15dff90de02a910c17af1fee7efbba258527d6f558d5fe76c01d50d202eb447952ef95545c86446c07a6b5154d74190",
   "stepsHashed": "de9fa93574734ddd284289015822d4a271c43bcc68694f46b9988a0115eaf35a6324e4096dc1c149aabc1c844efd0249"
 }

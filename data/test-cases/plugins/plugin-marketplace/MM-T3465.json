@@ -6,7 +6,7 @@
   "objective": "Verify that plugin update is confirmed by the user",
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "plugins/plugin-marketplace"
   },
   "customFields": {
-    "Fix Versions": ["Submitted"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Friday, February 12, 2021 11:27 AM<br>• Set back to Active as MM-30292 has been resolved<br>–––––––––––––––––––––––––<br>Steve Mudie — Monday, January 25, 2021 8:53 AM<br>• Added links to relevant tickets<br>• <span style=\"color: rgb(184, 49, 47);\">Set to Update until MM-30292 is fixed</span>",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "df995d6674d6166019d2233f49f1dfb7a424d01d1589e0abcbc79b7958d457dec4a86de93fed4f4cf92516bb771838e4",
+  "caseHashed": "f64db2ade522cae7e23955a02de77ad15c6135fc349f3cc55e95e3fbd1269b71c09df340e3943ef183e02d0f9af046a9",
   "stepsHashed": "af30aca20ebc16a095a8610d29bae706d8039934384ee6e9dad05f8c6594ef0b6f519c60c0a7b45338deeb7096c81e73"
 }

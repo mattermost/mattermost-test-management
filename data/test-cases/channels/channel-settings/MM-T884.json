@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "cy-prod", "channel-settings"],
+  "labels": ["Hackfest", "cy-prod", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,26 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": [
-      "v5.19 (Jan 2020)",
-      "v5.20 (Feb 2020)",
-      "Won't Fix",
-      "v5.23 (May 2020)",
-      "v5.24 (June 2020)"
-    ],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -69,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8d9002becae10119a66c53e592f7bd8e20433985e4a9073a8e5766a626d3da8f0a6ecccd1249d22de3c710df9d99f3f6",
+  "caseHashed": "4b78d5a6ff446dc17c19b8647c990b916b8746196ef0580c487afa3ec47e1180d4769a49a2f6ce27424a71bc9a1c8280",
   "stepsHashed": "676c4780cdb93e5b2777bb1f241812d3015da139f81132b1d839f0e8b1e8d0de6030ddbedc3edc09a20e50265b7de8f2"
 }

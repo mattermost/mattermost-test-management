@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123"],
+  "labels": ["1.42-p123", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/mark-as-unread"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)", "v1.26 Mobile (Dec 2019)", "v1.36 Mobile (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Mobile", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "Update",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Mark as Unread"
   },
@@ -54,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4bd7578bd65aead0c405cb6eff6b499d2c6b3abff41cc675ac2e8184848c5839d5951baac15f701307f333cb3a4f8683",
+  "caseHashed": "21d8e32e3679feae85803de33878306d15147932e891d13613dba5f989c0b00ab47f09814ee527a4f249006707afef87",
   "stepsHashed": "9db976c479b02435dd5b76a6afc0793dc9b5ddd754dd1c0c420da0bf6f6c8e2ca48d7fd56003c81f94e64f5b0cb9c27e"
 }

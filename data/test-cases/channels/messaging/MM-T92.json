@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Test on</span>&nbsp;</strong><a href=\"https://community-release.mattermost.com/\"><strong>community-release.mattermost.com</strong></a>",
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "messaging"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "messaging",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, January 20, 2021 5:11 PM<br>• Added link to E2E file",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Messaging"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "dace27cc1bf7c743be598efa9a77aebc809e4259fd97484aeaa6ec0ec4df8fc964beb4d62a9dcda17429b25e2325b8f8",
+  "caseHashed": "5036f10ae9ae68305ad901bd202178d32c247f62d1a79866850b04d70d0595c99081004c6af70f2145d0b6711f11e00c",
   "stepsHashed": "bae93ec41bb79d70033528891688a63462d0d2150f86825b936a900a977ecdbc5f3253916b65d312e576bacef10caf92"
 }

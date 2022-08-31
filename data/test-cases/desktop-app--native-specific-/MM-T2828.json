@@ -6,7 +6,7 @@
   "objective": "Installing desktop app using .msi file",
   "precondition": "<strong>Windows only</strong>",
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder"],
+  "labels": ["Desktop-app", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "desktop-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["v4.5 Desktop App (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Desktop: Win"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fcb852958479d409a9cbbda56ba35f0700a24dd38163bec850c7532c1c511e9f0fd652c0e8a82477fd9211ca6ec25959",
+  "caseHashed": "365aa34005425410136398b2f618b1a4c32e557615d426bd4c3874998403f46237972ab4d9659995ee50c30be42cba0d",
   "stepsHashed": "8edb47bce81f3fb03d12218cf214e1dff08625b5dc5eaf15317e3bc4f4f0c9198a9d76d3274f7a6c3b3717b7d6cb1220"
 }

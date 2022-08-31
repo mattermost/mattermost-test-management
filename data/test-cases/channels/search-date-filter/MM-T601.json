@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,38 +18,35 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Mobile"],
     "Detox": null,
-    "Cypress": "To Do",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
   "steps": [
     {
       "inline": {
-        "description": "Remove date filter with keyboard<br>–––––––––––––––––––––––––<ol><li>Place the focus into the search box</li><li>Hover your mouse over the \"x\" to the right of the search term in the search box (n/a for RN)</li><li>Use the keyboard to backspace a date filter</li></ol>",
+        "description": "Remove date filter with keyboard<br />–––––––––––––––––––––––––<ol><li>Place the focus into the search box</li><li>Hover your mouse over the \"x\" to the right of the search term in the search box (n/a for RN)</li><li>Use the keyboard to backspace a date filter</li></ol>",
         "testData": "<strong>On Mobile</strong> - ensure that keystrokes on the keyboard do not hide the keyboard from the user",
         "expectedResult": "<ul><li>After 2 you should see a tooltip \"Clear\"<ul><li>Filter can be removed with keyboard</li><li>The \"x\" to clear the search query has disappeared (n/a RN)</li></ul></li></ul>",
         "customFields": {
           "Fix Versions": [],
-          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
           "Important notes about this step": ""
         }
       },
       "testCase": null
     }
   ],
-  "caseHashed": "0d641bdb7cf4e6ffb8a7b381241ec87e7f62ff2fb6927e3902a14c7a8bfeb8bef2379641e01a1114a164a364dd49bcd1",
-  "stepsHashed": "97876776e33a7c05fa00a0d0a0b84c4784d6e1c77d64e99330c28cedd686fe1edc26ac03bb54d7f2323b8ece3107209b"
+  "caseHashed": "4c7479c3d7f9f4b127df311547fde0c12e3f2057cd53699d1325c0ec4ad2bce1179c375cdb6e8bda0bb28818883edd8e",
+  "stepsHashed": "4bd6c299c032d32262e5c7bb12dacfbbf796177072cbe1114c54fff8d1a71d4e685037c9941757762850d3765c2b341a"
 }

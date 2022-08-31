@@ -6,7 +6,14 @@
   "objective": "Channel Mentions option removed when Create Post is disabled",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "Fixed-TM4J-Key-In-Cypress", "cy-prod", "enterprise"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "Fixed-TM4J-Key-In-Cypress",
+    "cy-prod",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +25,17 @@
     "fullPath": "suite/enterprise/channel-moderation-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.22 (April 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:14 AM<br>• &nbsp;Cypress Automation working as expected 🎉<br>• Removed from relevant Manual Environments<br>• Removed No Automated Executions label",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7ceda2bd9fe5f54d0db0e1211f55175a9ec936c1275a5b3e242a0e62e74ffd1ec074f1279286a00d8ef00d9bee3ac542",
+  "caseHashed": "9ee8a5cad552f0de720529f1b750ade68c60e3eaabc6161c39f2bbd5253269886576f5d5d6d0247da9fc8af9eb36317f",
   "stepsHashed": "1c9caf888dbf46657324e28afeaa9aa48ffc4c24f84b4af13237889ae0e76dce47b35dab5ba41593dba869ae1f3d49d5"
 }

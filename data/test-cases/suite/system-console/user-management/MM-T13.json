@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["se-prod", "system-console"],
+  "labels": ["se-prod", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/user-management"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f4ec66b0ae935127f2f2820277db06451c22e1868d4cda3f2c2a3c9ae075c38f5fc8c42474a073d6d17be3323d42d30a",
+  "caseHashed": "cdcadf0e4d4d169331f0cde28fd5193b6846ea0ee019b47c2e0aa330aaa41fabfbcac845dbfb2a68d1e02da134a4d2a5",
   "stepsHashed": "3fa2a7121686dac6aa2b47941a1617f36f3ec6db31ca5f8a26008bbbb4a5bc47b9e5c0df7f1f2ea2d74a4d106cece0ed"
 }

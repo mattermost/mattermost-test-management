@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp", "messaging"],
+  "labels": ["rf-cloud-webapp", "messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)", "v5.27 (September 2020)", "Open"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -102,6 +99,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4788d86ebf724e29b77f9bc495e20096cc2e528e73e53102f52425616f8ebec2616209c855b1ae5bba05b3dae52e0d8e",
+  "caseHashed": "d34c71b744d10418a98f788bf0c5df63803aed7b7fae8be344fe74aac1ae3db3a35fda4b494d81ec4fbd2b8ad82259f0",
   "stepsHashed": "9d54f389879fb190b97aa14139a0dca186f2a6a5f2346b1b98d67db2d5f9852d3780dcc54b1856ffc9c3327f18050302"
 }

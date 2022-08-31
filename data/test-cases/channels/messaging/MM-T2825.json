@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "Note: Unsupported on Safari until https://mattermost.atlassian.net/browse/MM-25898 is fixed.",
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Tried with https://github.com/mattermost/mattermost-webapp/pull/7079 but this can be fully/effectively automated with Cypress.",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -102,6 +99,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "16252e181ae633f87f7433300f929e23b8df42cbf418fa1b10ed5ff7a91f47b40a2602195b2613ae0103af0a745c74ec",
+  "caseHashed": "f6da388a149ddd147517e87f23444af8992d6f37d59464ee172c83881ed5afd0c3c13caf1aac7d47f5cd2d94a34325f5",
   "stepsHashed": "62229c3c1e6a5ccc029ff1ec560c83db0bf00f1e2bd766ed119ffd90c21af6695e2faec9b3f0ac1f97ec5caf4678685f"
 }

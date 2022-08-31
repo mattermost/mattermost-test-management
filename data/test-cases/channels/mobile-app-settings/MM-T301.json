@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://community-release.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://community-release.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "1.42-p123", "account-settings", "cy-prod"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "1.42-p123",
+    "account-settings",
+    "cy-prod",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,25 +24,17 @@
     "fullPath": "channels/mobile-app-settings"
   },
   "customFields": {
-    "Fix Versions": [
-      "v5.16 (Oct 2019)",
-      "v1.24 Mobile (Oct 2019)",
-      "v1.25 Mobile (Nov 2019)",
-      "v5.20 (Feb 2020)"
-    ],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 10:31 PM<br />• No Cypress executions reporting back<br />• Moved Cypress PR link to Traceability tab<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now<br /><br />Joseph Baylon - Thursdsay, October 15, 2020 9:00 AM<ul><li>Toggled Cypress status to In Production - Cypress code to match TM4J ID for reporting</li></ul><br />Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as experimental timezone not active on RF servers.</li></ul><br />",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -68,6 +66,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "58574c7defd7f2c08466d3e99ea5e0c65933c6fa09775d582e540d92645eb3b6c1efe96a225a5b9ec157c48bc1bbf39c",
+  "caseHashed": "36b94e52763e2c0fb32d0a277120bbec250b0c7881e289161c52c35c38d44f54826d7a101e5323f2ef0cb260fec0bdf6",
   "stepsHashed": "d03a081ee7ec54634e709b79eeaba3ff48da9b4c685f148bb086db3fcd360afce25059b09457d8390f1ef223294ef16c"
 }

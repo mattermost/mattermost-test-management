@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder", "v5.0-N/A"],
+  "labels": ["Desktop-app", "smoke-test-folder", "v5.0-N/A", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "desktop-app--native-specific-/server-management"
   },
   "customFields": {
-    "Fix Versions": ["v4.4 Desktop App (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Jelena - Adding `v5.0-N/A` label; this test will no longer apply for testing v5.0 and above.<br />Keeping for now for testing on older versions when needed. Will be archived when no longer necessary.<br /><br />10/18/21 - Lindy - Have disabled the Rainforest tests from running as deprecated post v5.0 desktop app release<br />10/28/21 - Devin - This test is no longer valid in v5.0+, we can remove this",
     "Rainforest": ["Temporarily Disabled", "in Production — Desktop"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "43e324e35622732ae7520f50f1209206bb7bd40cdab834a596234e0576bb99975bd0d1d7671d2e932fff26e969ae823c",
+  "caseHashed": "c1ef6257b7316f934c75702ac0892cc259e9db641bc2fab0f6acd16be34663268607024a890c1171d7554182763d2ca6",
   "stepsHashed": "5b4d3ba08a6943cfae6f910d2e3543d0100e147c66ca45ef147f7b6567993b1842196c968af51dc72afb54165313a434"
 }

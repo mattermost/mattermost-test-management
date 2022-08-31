@@ -6,7 +6,7 @@
   "objective": "<h1><span style=\"color: rgb(184, 49, 47);\">Include in monthly smoke-test</span></h1>",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A"],
+  "labels": ["Cloud-N/A", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "mmctl"
   },
   "customFields": {
-    "Fix Versions": ["v5.29 (November 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Server Platform"],
     "Manual Test Environments": [],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": "Update",
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Cloud N/A"],
     "Location": "mmctl Tool"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5ab7c079aab58a9f1def12c4a9c2fa1156f3d8994fd9cad7e4c957e32981ba8c38f8d41afceb30860afcc8594167a356",
+  "caseHashed": "5a007e553243f0da5d0f8233880d87df59d536148869eba255073ac80b7846fe4f7cc2a95d498d4cc0b4ae1884ed5484",
   "stepsHashed": "62c851a45b110534a5343f3f0d5335757d20b604ee542fb8b7791c4eb41c83a8e4a781b7b5956a4a046ca524f3b26f66"
 }

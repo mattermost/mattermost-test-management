@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "cy-prod", "guest-accounts"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "cy-prod",
+    "guest-accounts",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "suite/guest-accounts/members-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, March 10, 2021 4:21 PM<br>• Cypress Automation working as expected<br>• Removed from relevant Manual Environments<br>–––––––––––––––––––––––––",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f6b02df1f93a9211e3e95d7386f44707d87eedeadf62b918e9d7daeaec11990ce8b10447fa90184732bc0766691699b2",
+  "caseHashed": "945e1981de20df8643bb18754a3117a5ad232cc08b9b91db975078d0f981070650326a74c186113451b9af9c8cf9fbed",
   "stepsHashed": "7c635e86367960693a4d2ea78623e6e21103e32e31a7252d73c1d45a27c22accda4509d484918e4117b926435c5ee716"
 }

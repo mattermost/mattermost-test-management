@@ -6,7 +6,14 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
+  "labels": [
+    "RN_Smoke_Tests",
+    "ESR",
+    "P1-Mobile",
+    "1.42-p123",
+    "smoke-test-folder",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +25,17 @@
     "fullPath": "mobile-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["v1.29 Mobile (March 2020)", "v1.17 Mobile (March 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "Linda 22 Aug 2022: Added RN_Smoke_Tests label during test case cleanup.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -50,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0f8d5c3069a22b63c57e3e9afaab3c3807c75a41138cdd090cdeb44e72d9a3cb0e4ffede3d402aa1003a4fbbdf6cb179",
+  "caseHashed": "541deaad092aa14a75e61d9e61c696156ea16eaf2a6ba0270ee229a294041ed197ee921b4d9599b6d90cd74362e58498",
   "stepsHashed": "a6beea56dc84b880b8a7b7304a85c1de2e2d108569b173ba9f36e43f6fa32cdd2e8bd422d1cb0f71b6b29e9896d72497"
 }

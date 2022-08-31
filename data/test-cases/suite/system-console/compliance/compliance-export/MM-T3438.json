@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Mapped-In-Cypress-Unstable", "system-console"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Mapped-In-Cypress-Unstable",
+    "system-console",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/system-console/compliance/compliance-export"
   },
   "customFields": {
-    "Fix Versions": ["v5.30 (December 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "171594fff262ac98faa498c8a6c548c9e3b32cfebee78b1adcb04a7726c16419040eae69f42a67e83312ec3af4c4ab36",
+  "caseHashed": "59f8d7926e180b8aa12d75ed671f5e87ad7415ba6596398e66ce9a50777d387b6b996fbcb0306dfbb6972a24e232eb0f",
   "stepsHashed": "c529a4cb39c5124bdcd073dbea8986a57eededd2da2faa6529c284f55227b4e598f8deb3affcb826b11c07e07b85c370"
 }

@@ -6,7 +6,7 @@
   "objective": "Add Guest Users in Channel Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a98921607d0c3d51567c60959447cc8cb0df9e9be4bb2717bef45b1d7876df4ecc8f9c8dd18348621d3fa7d14154b6ac",
+  "caseHashed": "5d3b3c1396d6ee08ff1ebdeb43d61a6540bd783b62bbe40d2a52272aa13e24a3e855fb5949f2f44e15525a3f8d36cb8f",
   "stepsHashed": "c720e0b144225939a6a138820529b05bc0c7a7fab72dc0c9f2a9d79a59e9ee52332b00e253cb1bd9e386d8638a554ea4"
 }

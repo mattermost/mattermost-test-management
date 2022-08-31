@@ -10,7 +10,9 @@
     "No-Automated-Executions",
     "TM4J-Key-Missing-In-Cypress",
     "Se-Needs-Test-Steps",
-    "se-prod"
+    "se-prod",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
   ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
@@ -23,20 +25,17 @@
     "fullPath": "integrations"
   },
   "customFields": {
-    "Fix Versions": ["v5.4 (October 2018)", "v5.6 (December 2018)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Integrations"
   },
@@ -55,6 +54,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0c61f46f8e1f67af31f4ff554c23f2bd18f1d878b12267e60ae93ecf9bf878f6df2fba9a91fbea881d12b542302f6250",
+  "caseHashed": "8b21083fee0a4e835662030db3fb452142d4cf09bacad0a34bbf067736ac5a75535240ab86e0322ec74c76f2f90de693",
   "stepsHashed": "fb199500e3d7d48248b65f6df86f7e01c11e211c504b705d0e08c8f290c7b4d7e54726f6ea8aaef6f282e917f9d25105"
 }

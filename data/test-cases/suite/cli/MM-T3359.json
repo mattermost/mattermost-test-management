@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "This test for release testing cycles are done on postgres.test test server. The tester should connect to the test server through VPN and have access to the Mattermost command line interface.",
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 401946, "name": "Draft" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/cli"
   },
   "customFields": {
-    "Fix Versions": ["v5.27 (September 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Server Platform"],
     "Manual Test Environments": ["CLI"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "CLI"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ed520278f050a83396dc67a86c46b499ca81b3f7158421cb2bf5a6ed35af7beb9855e49237c7b550b76f3763761d2fde",
+  "caseHashed": "84a807103bc0e4ad09e9467def4eba2c62a753f115b6d5101f408a2d8a6c432c00700568705ef2df14aad3b2e5b8638e",
   "stepsHashed": "bd3b57490adfdc41a1ded9d83cb79375c81bae07d7d52d5e29b2cf7a6678fee53b2280600a1f98026dad1433a87262f4"
 }

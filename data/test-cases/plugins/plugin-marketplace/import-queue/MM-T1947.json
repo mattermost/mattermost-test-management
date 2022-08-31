@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress"],
+  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "cy-rep-missing-or-skipped"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "plugins/plugin-marketplace/import-queue"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Linda 20 Jun 2022: Adding to RF: MM-T1945 MM-T1946 MM-T3680 MM-T1947 System admin can view plugin marketplace<br /><br />Steve Mudie — Wednesday, September 30, 2020 12:52 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Leaving in manual pool for now",
     "Rainforest": [],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Cloud", "Desktop"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Plugin Marketplace"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8a8c9b71c7a42f9f3cba04cc6a285822f9e2bc69defb2bf9c1b539744cf1a343feec5281295bf405f596f8813fdebb2a",
+  "caseHashed": "521942bbcc372e6865e0742310abef3a56a5f9a5687e422932ecb2565273bfc5eb0e0a0c67803da324d8af6a1d476e21",
   "stepsHashed": "a1bb1aef91b2fa946cf8b54b291ca528c48efb4eb95694a52563df40bfeae0a8af75a213ee657fc1cbc49a894d341233"
 }

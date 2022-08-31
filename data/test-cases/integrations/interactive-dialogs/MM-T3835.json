@@ -6,7 +6,7 @@
   "objective": "Implemented: &nbsp;https://github.com/mattermost/mattermost-webapp/pull/4993<br><br>1 known issue https://mattermost.atlassian.net/browse/MM-31493",
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/interactive-dialogs"
   },
   "customFields": {
-    "Fix Versions": ["v5.15 (Sept 2019)", "v5.32 (February 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Interactive Dialogs"
   },
@@ -102,6 +99,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "85d8bff85637fb5e5eff38290892812b06a073cd7ae28da20ae6df1618a9337331cadfca93442be25d8414ad89e56d2c",
+  "caseHashed": "63ae805dc3cdc81fed2d76cbb765a032a08ace61d5bab49ba6eea0761889fd723cf78c78c9ea425638be4e31598963ba",
   "stepsHashed": "9a77d7e427669121e94143d1277448be1b0d2d7f20eb2e740eeba2313c6c0560c53844be28d5ecbc68e13049e1aa88c7"
 }

@@ -23,29 +23,26 @@
     "fullPath": "integrations"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Friday, December 18, 2020 11:19 AM<br>• Cypress Automation working as expected 🎉<br>• Set Cypress status to ✅ in Production<br>• Removed from relevant Manual Environments<br>• Removed TM4J-Key-Mapped-In-Cypress-Unstable label<br>• Added TM4J-Key-Mapped-In-Cypress-Release label<br>• Added link to Cypress code in Traceability tab<br>• Added Duplicate Automated tests label",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Integrations"
   },
   "steps": [
     {
       "inline": {
-        "description": "/help<br />--------------------<br />Displays help page",
-        "testData": null,
-        "expectedResult": "Displays help page https://docs.mattermost.com/guides/user.html",
+        "description": "<ol><li>/help</li></ol>",
+        "testData": "<img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1661550432680-Screen+Shot+2022-08-22+at+12.53.05+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "Displays inline message with links to Playbook and Boards as well as the online help page  at <a href=\"https://docs.mattermost.com/guides/user.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://docs.mattermost.com/guides/user.html</a>",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -55,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1b0afafe5e0f3334517e0b267c9f76e2da75f5cd6480e354849d5d424a74caeb8927c300ec87a5582c955ea19d86b560",
-  "stepsHashed": "c2c55c71fe35e0be89b9136f81fa2be891668763800ced8df3355fa60ff4aaaee2c6aecac96223d561e021252729127b"
+  "caseHashed": "65b6aad5c8aa42e078d82ab0f4e82ae15481b5f6618c5b4459db89bec144a74ecab5854252e25564739051d2c5629582",
+  "stepsHashed": "e352e02e864778889c092d56f678cc78fc7cfe2358c6f8ac5670652699b9bd747cb38b10ba7cf685f6bdd55ae751b00b"
 }

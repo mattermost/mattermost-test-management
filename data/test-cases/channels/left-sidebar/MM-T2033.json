@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<ul><li>Test on community-release</li><li>Ensure your test user or staff Mattermost user has Account Settings &gt; Sidebar&gt; Automatically Close Direct Messages&gt; <label><span style=\"color: rgb(184, 49, 47);\">After 7 days with no new messages &nbsp;</span><span style=\"color: rgb(0, 0, 0);\">&lt;- enabled and has old GMs that have been auto-closed due to this setting</span></label></li></ul>",
   "estimatedTime": null,
-  "labels": ["Sidebar"],
+  "labels": ["Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "jelena 12/28/2021<br />This can be archived, as the setting \"Automatically Close Direct Messages\" is no longer available.",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -89,6 +86,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c69e05b813c5e0b893fe01cf540790e803e1dd42928709cacb0652345364108e5ad391f567c259ccac8da5f68d7093e4",
+  "caseHashed": "a59e2b964d33bf7a08bed92f0f0367f2284b26815bb538ffdb7a65e242f0dac13d45b6dafe627f7f950ce72f7a3f45cd",
   "stepsHashed": "015553d9d0f3c409f77f89bd68de8024136e2b48235f8fced2c3bc302c8f9e5d7c28771b5cbb503b373abc447042cd5a"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,19 +18,16 @@
     "fullPath": "channels/message-forwarding"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": [],
     "Team Ownership": [],
-    "Cypress Reports": null,
-    "Manual Test Environments": [],
+    "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
-    "Cypress": "To Do",
+    "Cypress": "in Production",
     "MMCTL": null,
-    "Selenium": null,
     "Last Updated": "",
     "Tags": [],
     "Location": null
@@ -141,6 +138,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b7257e4bda7f094b329d97c1f563d9d2c4961319744ac4df0f76c36e484271b92c1f79865f98d5d480877c09d0b3c4d6",
+  "caseHashed": "f86986746b4bcefd14e82f28c3928aa90475126bbfb879b3fe1aff11f26277acde790e0364fd1414758d87d62defc7f6",
   "stepsHashed": "a0bf23a1767478ce35df093b1ee42b4609dbcc11c3af04c7947f345b3293a71b12a1aa4ccf8fda9b2df368c5eb1b4919"
 }

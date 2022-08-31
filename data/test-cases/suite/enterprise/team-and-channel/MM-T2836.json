@@ -6,7 +6,7 @@
   "objective": "Team Members Block in Team Configuration page",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b15f8bbf2183b898e95c67149b1fe9bf770d37849bda56d52fb3ccd7ccb93603ef7734d1a1d31ae9109299d884b69a01",
+  "caseHashed": "4a2873b77a3a33b139538df6a3a309aaad0882ad5bbe42d572ec8a82819e3a4449bf46bd2f6390284e79eff78b6d3f94",
   "stepsHashed": "844546dd4497f77a111570157d44cb61e1759ec9ff964bd84ba1ff053e0f4f79c3e38ccf3d87fd8439b4cf89464deda2"
 }

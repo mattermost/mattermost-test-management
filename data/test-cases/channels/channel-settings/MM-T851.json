@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "channel-settings"],
+  "labels": ["1.42-p123", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v1.24 Mobile (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "",
     "Rainforest": ["Mobile", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "Update",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -89,6 +86,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4977725a57dce27a7eedb18dcdc52a469524b36f0d1e9158b7f69c252a5fc6c08bf33648322ffb9fd28de14a0cf08823",
+  "caseHashed": "094cd2385b20031b5a4d655f15fc72c4c928238728e8d86e2c2caa2a0269756e43202519e22f24480dea4c8761e3414a",
   "stepsHashed": "27855bfe828ff68d83792df7ce2aad09a9f4c3645d8d74b4f5b6b8c0638f875d1f21e992c0fd6928290bd3bcb9184128"
 }

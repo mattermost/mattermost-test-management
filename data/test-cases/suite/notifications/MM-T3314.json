@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["notifications"],
+  "labels": ["notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["Backlog"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Wednesday, September 16, 2020 5:10 PM<br>–––––––––––––––––––––––––<br><strong>DO NOT</strong> test until MM-19078 is resolved ➜ <a href=\"https://mattermost.atlassian.net/browse/MM-19078\">Render emojis in desktop notifications — MM-19078</a>",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop", "Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d2bbb966bf1025d1b6175f59c6926cf957e3706620ae4a8919d54ac31a334168ec4726367ddddda155104ebd202b60be",
+  "caseHashed": "f4cd0947a8ac7d3939f47531ab1e2bf4221a25242edbdcb88234653c9283c72e74687ccd33122a02a7be28b6fc4363d2",
   "stepsHashed": "9a59483eabfe67faffe9c265d2a28695772e3e90841823904be95705b4faf2782dcc53b9b527668a73bb3fa93085fe08"
 }

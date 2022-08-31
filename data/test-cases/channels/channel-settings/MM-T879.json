@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "labels": ["rf-cloud-webapp", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)", "v5.22 (April 2020)", "v5.25 (July 2020)", "Queued"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "Cloud", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3e0c2ce849c9b542fd62cc4289687de35999613aa2e0c51745c21b6f2a57489872a9635e57e2b1600a0e81814ef595a3",
+  "caseHashed": "4f0cfccf18042c088470b12ea6c70a66567a186c6fc20e02cf963ace25f9e35a381d0f9b4dd55936708205dee246ad4d",
   "stepsHashed": "9e688bbc5ee3392635ccd378e5a65eefb176797a16de234778ae3c0ffc04e138fc4a0a129b5d1ab386293f3f96c9d205"
 }

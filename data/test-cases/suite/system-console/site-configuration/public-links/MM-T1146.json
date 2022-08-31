@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "system-console"],
+  "labels": ["Cloud-N/A", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/site-configuration/public-links"
   },
   "customFields": {
-    "Fix Versions": ["v5.32 (February 2021)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "2021-02-04 (LI) Public links are set to \"cloud_restrictable\" so are not shown in the system console of a Cloud server. Removing this test from Cloud testing. (see comments in https://mattermost.atlassian.net/browse/MM-32255)",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "dd62a9038006d7fdb49f709a31f9a03d9b33e1c4126af2178694e58ff70f3a39178413d37ecb017b66b43face8f47990",
+  "caseHashed": "17f0c42c826b228707ff8451a3361db518794c74c814769df6ef8adc7483d07f3d746f85f95caadc5a4521a679cd2222",
   "stepsHashed": "c0f3a7b9af558f702e5c89be665e352c8ba9a4b41b71b8062bb01196638109b5a1c267456081274548195424775f4c62"
 }

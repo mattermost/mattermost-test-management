@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "account-settings"],
+  "labels": ["1.42-p123", "account-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/mobile-app-settings"
   },
   "customFields": {
-    "Fix Versions": ["v1.34 Mobile (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "Update",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9511cf1e0854033d0300d1a134003d398ae3687519981c53f724a995b8a3dcbfc53c8c3a7cc08df8d9e8e412354c4fd1",
+  "caseHashed": "807c523fe531ca93db2b5914eb93fd8dcd6d9964cc764574f082926616a75f0d5bdfaf09299cae13a9a4ba1286d19a1a",
   "stepsHashed": "61e621c537bbbced8ab2c8aee147daac45e7ef77a32badc47552a96951ba6a9afada78920c5ac3157307dba1a2461509"
 }

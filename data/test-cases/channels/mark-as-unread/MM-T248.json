@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "Left Chrome off for manual testing until&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-23915\">https://mattermost.atlassian.net/browse/MM-23915</a> is fixed.",
   "estimatedTime": null,
-  "labels": ["Hackfest"],
+  "labels": ["Hackfest", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/mark-as-unread"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["Cloud", "in Production", "Mobile"],
     "Team Ownership": ["Channels"],
-    "Cypress Reports": "UNSTABLE - TM4J-Key-Mapped-In-Cypress-Unstable - TM4J key found Cypress master-unstable run report  (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Mark as Unread"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cf43911f67b5d8d7139e197bd0d65549d06f73ebc8e72a5a3d3fc1c7c5d993c72e6154f1ba13989db52201f955d833cc",
+  "caseHashed": "9b5e8a0ef863c94acef2a423deff2e3484f0c56200b4613d9bd6a13c77ba7d324dc93dbaeaaab049c3f3f3a484e7914d",
   "stepsHashed": "d5a94c5ea22dc707f17ae96a212ac7212f1b023775199baa3f725240d080f08b69471e0e742578d748fe05c1ad6cfc56"
 }

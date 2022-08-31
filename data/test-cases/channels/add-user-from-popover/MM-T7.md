@@ -43,12 +43,11 @@ title: Add User — Team admins (Private only)
 
 ### More Info
 
-| Name                     | Value                                                                                                |
-| :----------------------- | :--------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                   |
-| Rainforest               | N/A                                                                                                  |
-| Cypress Reports          | STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                             |
-| Manual Test Environments | Automated - No manual tests needed                                                                   |
-| Cypress                  | in Production                                                                                        |
-| Location                 | Add user to channel from popover                                                                     |
+| Name                     | Value                                              |
+| :----------------------- | :------------------------------------------------- |
+| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?) |
+| Rainforest               | N/A                                                |
+| Team Ownership           | Channels                                           |
+| Manual Test Environments | Automated - No manual tests needed                 |
+| Cypress                  | in Production                                      |
+| Location                 | Add user to channel from popover                   |

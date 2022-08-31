@@ -6,7 +6,12 @@
   "objective": "Check Group Mentions when Group Mentions permission is disabled in System Scheme",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Missing-In-Cypress", "enterprise"],
+  "labels": [
+    "TM4J-Key-Missing-In-Cypress",
+    "enterprise",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6d5998f1b9660125d25e58f2f024a3e8e0e4d37fde2e5554c51155f612ab15ff364287ff5db2f3811800dfd0e8673a2e",
+  "caseHashed": "897e5be9b2fdcacc0f41480dc5d6bf8b1fd9e0d1eca9be81f88c301fb27c413ceac214e0ac950a30ad618dcc1d949256",
   "stepsHashed": "4f6577ce0a7e986f98db3019fe9a57d968fb77cb518ad14ee3fa67f6fa8ef199467238bfa6929aa8b45a5605d0998173"
 }

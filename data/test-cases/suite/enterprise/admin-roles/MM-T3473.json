@@ -6,7 +6,7 @@
   "objective": "Change Permissions - Admin Roles - System Manager",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/admin-roles"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b5d330a11b19298cbe0c7be4cce4f87563cd39ff815d90c7605b36b6b381f98e089be9e8981ba66ad5218f636450358b",
+  "caseHashed": "5932b7b836dd5f3a4cfd789b42997cea2cc7e6651095bb76bf47e64cbcbf96a377e7eefa35cf34a52e58843e8ff39375",
   "stepsHashed": "09b7b743427c01bbd2f87849900675fd625ce05ef63d1b35d71916a81c5f439fb0404f507d92dd59f9cda5ce8794a1b4"
 }

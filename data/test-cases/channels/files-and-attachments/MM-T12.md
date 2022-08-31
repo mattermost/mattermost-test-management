@@ -7,13 +7,13 @@ title: Loading indicator when posting images
 
 ### Details
 
-| Name     | Value                                                                     |
-| :------- | :------------------------------------------------------------------------ |
-| Priority | Low                                                                       |
-| Status   | Active                                                                    |
-| Folder   | Channels / Files and Attachments                                          |
-| Labels   | Hackfest,TM4J-Key-Mapped-In-Cypress-Release,cy-prod,files-and-attachments |
-| Created  | 2019-08-27T00:36:47Z                                                      |
+| Name     | Value                                                                                                        |
+| :------- | :----------------------------------------------------------------------------------------------------------- |
+| Priority | Low                                                                                                          |
+| Status   | Active                                                                                                       |
+| Folder   | Channels / Files and Attachments                                                                             |
+| Labels   | Hackfest,TM4J-Key-Mapped-In-Cypress-Release,cy-prod,files-and-attachments,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-08-27T00:36:47Z                                                                                         |
 
 ### Steps
 
@@ -41,12 +41,10 @@ title: Loading indicator when posting images
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Fix Versions             | v5.14 (August 2019)                                                                                |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                 |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Files and Attachments                                                                              |
+| Name                     | Value                                              |
+| :----------------------- | :------------------------------------------------- |
+| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?) |
+| Team Ownership           | Channels                                           |
+| Manual Test Environments | Automated - No manual tests needed                 |
+| Cypress                  | in Production                                      |
+| Location                 | Files and Attachments                              |

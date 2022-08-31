@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "",
   "estimatedTime": null,
-  "labels": ["messaging"],
+  "labels": ["messaging", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)", "v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Tuesday, October 06, 2020 1:37 PM<br>• Removed from test rotation due to note left in MM-24919: \"Dean Whillier — <em>Grooming notes: Remove the test case for this scenario. This component will be overhauled in the future at which point we will attempt to fix, until then this is such a corner case and challenging enough to fix that it's not worth the effort</em>.",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6ebbcfd032b8757506f5b9c8ab075486e1512e0c155f5cbbe0df3b86ec4fc5b1b35c4aa6e292bb0f6e274480584594a4",
+  "caseHashed": "1a5bdf484b69e2750e6e97be9faf5fe9c2a684f788d1a15840866458bb9d7bf95da5dd12c9f44e20fcea9f0efa09b070",
   "stepsHashed": "2205dd296767bb616773fbd0e61936d25e5177e9477e9112d3549799a4e92530cff6d929a831368df45f2b9f09ebb137"
 }

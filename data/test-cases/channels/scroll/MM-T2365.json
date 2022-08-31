@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/scroll"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Cannot be automated with Cypress as of version 7.1.0 / Mattermost server 5.36.<br /><br />PR attempt at https://github.com/mattermost/mattermost-webapp/pull/8180 with detailed comments about the issue.<br /><br />(Lindy) 21 Sep '21 - This test can't be totally converted to RFA in RF as it needs visual verification that the channel is not scrollable.  Test will remain crowd-tested in RF.",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Scroll"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "158ba235689a05c89223e2d19f2c4e64038f543f8ca0880893654f44adff4beb745eba7c744fed927307c5e5729a90e7",
+  "caseHashed": "9f3ef9225d8dd1dcc438ba2205ab193a38a1da4c50aed6ce1be6770797d288a09513c868f18b53dffe36d814f4ef5a29",
   "stepsHashed": "9d03ce252dbaadec5b58039177c457dcf34c20f593e33a4ecdec1516f21dbdb55b974cb3b4a6bec785794bd39a868051"
 }

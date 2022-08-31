@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">N/A until </span></strong><a href=\"https://mattermost.atlassian.net/browse/MM-23867\"><strong><span style=\"color: rgb(184, 49, 47);\">https://mattermost.atlassian.net/browse/MM-23867</span></strong></a><strong><span style=\"color: rgb(184, 49, 47);\"> is resolved</span></strong>",
   "estimatedTime": null,
-  "labels": ["notifications"],
+  "labels": ["notifications", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v1.25 Mobile (Nov 2019)", "v1.26 Mobile (Dec 2019)", "Queued"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to receive push notifications on the VMs</li></ul><br>Android needs third-party launcher such as Microsoft Launcher installed to show badge numbers (instead of just dots)",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Notifications"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "67ab365af5e280935a23fe160349364a8b5550e1f103e64ed7c90f1a1f97172a84f3f7d0ba748e3bf01ce0fbac094fae",
+  "caseHashed": "e4b50197f1417fafcc4fb9888836b07bc0a0b1769d68785c846f054849b17299317be79849ea459aadc0aca698f227a6",
   "stepsHashed": "6fec9243002c60d1e6beb63b47e9ead25c1bc35f2bf46436c6e192587071a1851e67c1b238c7727fdb71fdfabb376580"
 }

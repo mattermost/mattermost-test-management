@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Fixed-TM4J-Key-In-Cypress", "cy-prod", "guest-accounts"],
+  "labels": [
+    "Fixed-TM4J-Key-In-Cypress",
+    "cy-prod",
+    "guest-accounts",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "suite/guest-accounts/members-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b1777ebf78482b2de8a601bd69e5af27426472e69e96a5d4488ff0d7067b74ad5f66ad87966549f8d86b05f042245eed",
+  "caseHashed": "b4f32c31823fdbf9b22f4dedf738048d4631824af65b6f3d94ea26a9454a07b054da7b26afcd7062cc1d5405b20932ff",
   "stepsHashed": "2abb82c2fc7cfa7d9cba7b46d123da4ee2e0633917ff40e7187639fcc658f07793b42c3ef85f154106a9dfb8f7ff3a5e"
 }

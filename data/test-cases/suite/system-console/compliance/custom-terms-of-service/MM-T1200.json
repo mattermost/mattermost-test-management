@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "<strong>Skip until fixed (blocked by </strong><a href=\"https://mattermost.atlassian.net/browse/MM-13547\"><strong>MM-13547</strong></a><strong>)</strong>",
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/custom-terms-of-service"
   },
   "customFields": {
-    "Fix Versions": ["Triage", "Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Wednesday, September 16, 2020 6:32 PM<br>• Skip until fixed (blocked by <a href=\"https://mattermost.atlassian.net/browse/MM-13547\">MM-13547</a>)<br><br>Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to set up MFA on the VMs</li></ul><br>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "Evaluating",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ee520d63e89c6589d0c8d4462dbbafba42795bebbf0bdbc0c298dedea2a1a30329ffdf4534a0373f0e2359f69a2e6c07",
+  "caseHashed": "d699286a14f39107b992b2dd552385529ecbecd8547f98dc4566ff6417a8e5f162bd160a6ab4faa1833a34bd40c9f505",
   "stepsHashed": "e710b5af84b4637021450f278b11ad2274de9a2b994471ad7a9729a7c1d3e29e3c8682b3fe6e32a2e04659ca6d2225e7"
 }

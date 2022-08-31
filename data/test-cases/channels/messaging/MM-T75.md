@@ -38,6 +38,5 @@ title: RN apps: iOS ONLY - If the keyboard is open, swiping down past it should 
 | Team Ownership    | Channels                                      |
 | Detox             | N/A                                           |
 | Cypress           | N/A                                           |
-| Selenium          | N/A                                           |
 | Tags              | Never tested                                  |
 | Location          | Messaging                                     |

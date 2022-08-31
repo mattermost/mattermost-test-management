@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/members-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["v5.16 (Oct 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "67c71a421401682fb94eb6e2ddb80c134e647dbe8b195e9f58dbb8cf64ad3b93374fc2bc9de6b3fd93e3ecef847dc7dd",
+  "caseHashed": "997eae8a3cd47b8367195f5bbceff44d74072842818584ea2b137caadb7f7e27294a31f7c1db7a1ab056893f9bea0170",
   "stepsHashed": "90e71b59e39a2af7321e3a7aeb5f37cb7ac6ced7ba7e032f3364e0db175f5e2aae2809481219cfb3ac653e9f56f0c88e"
 }

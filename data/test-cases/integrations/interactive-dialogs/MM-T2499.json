@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["No-Automated-Executions", "TM4J-Key-Missing-In-Cypress", "1.42-p123"],
+  "labels": [
+    "No-Automated-Executions",
+    "TM4J-Key-Missing-In-Cypress",
+    "1.42-p123",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "integrations/interactive-dialogs"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Monday, September 28, 2020 3:57 PM<br>• Found Cypress APS set to ✅ in Production and changed it 🔧 Update due to zero automated test executions showing here<br>• Went digging for the Cypress code but came up empty",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": "MISSING - TM4J-Key-Missing-In-Cypress - TM4J key NOT found in any Cypress run reports  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop", "Mobile", "Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Interactive Dialogs"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c906a71d103c36edf9809c333936fe9311588324778d2b781d81c1cfa1f24eb0fe59cf9ed04f77102b37dd1457481956",
+  "caseHashed": "92dd60530a54f948f9a604111abb2773942af468725e55dcf66af8f5403a04284895033a44c27b930fb8b6c89ebe9ee4",
   "stepsHashed": "67aaddfa44cd213004c6b565cf8f930e12cd2b33b3956c8335d650aa23ecaa37663b5dfd57c3d2fdec84f4b7b9a71058"
 }

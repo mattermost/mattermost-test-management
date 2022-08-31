@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "system-console"],
+  "labels": ["1.42-p123", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/custom-terms-of-service"
   },
   "customFields": {
-    "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to set up oAuth on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "Evaluating",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "250cdf6dabe8668bb1d1892aebd378991e3d4eddb5475d6ae0fd7bc236612650bf1cd9a278b2b721b15d9b358148df50",
+  "caseHashed": "2c9f047c50bc88a67aaa69d89f125700c742d3dd99fb709ceafe7a00eba2fec01f4020c21d9fe6a823599f23e133e8dd",
   "stepsHashed": "842b605a785115f0837bd2355ab9d1b4499927995a0bae09638c86aae217987b1388279a61ae65e0e92fd5d347843db6"
 }

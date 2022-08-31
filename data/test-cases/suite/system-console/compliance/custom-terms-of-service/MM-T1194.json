@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "system-console"],
+  "labels": ["1.42-p123", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/custom-terms-of-service"
   },
   "customFields": {
-    "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4171e356fe14dc87561b4ab4fc852882d5b070ec6c66906c9b562d8da6e794934f475d0016f432182f3a2f5dabc9ba1b",
+  "caseHashed": "2cb1a565a587c57fdaa9453c634d46fe8b7e9f94a46368557c9ef4827ba8ce6b844804fb35196d5b6547d9fc01a04d14",
   "stepsHashed": "31068f467d4e98f212eece28f6e879a0149706b0cc395c0a4eda884db85b65a3546a36e079b353b2034a0db7e0fe4d3a"
 }

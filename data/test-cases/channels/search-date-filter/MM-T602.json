@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": [],
+  "labels": ["cy-prod"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,32 +18,29 @@
     "fullPath": "channels/search-date-filter"
   },
   "customFields": {
-    "Fix Versions": [],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Desktop", "Mobile"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Search Date Filter"
   },
   "steps": [
     {
       "inline": {
-        "description": "wrong format returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:123-456-789 term`",
+        "description": "wrong format returns no results<br />–––––––––––––––––––––––––<br />Search like: `before:123-456-789 term`",
         "testData": null,
         "expectedResult": "<ul><li>No results</li></ul>",
         "customFields": {
           "Fix Versions": [],
-          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
           "Important notes about this step": ""
         }
       },
@@ -51,7 +48,7 @@
     },
     {
       "inline": {
-        "description": "correct format, invalid date returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:2099-15-45 term`",
+        "description": "correct format, invalid date returns no results<br />–––––––––––––––––––––––––<br />Search like: `before:2099-15-45 term`",
         "testData": null,
         "expectedResult": "<ul><li>No results</li></ul>",
         "customFields": {
@@ -64,12 +61,12 @@
     },
     {
       "inline": {
-        "description": "invalid leap year returns no results<br>–––––––––––––––––––––––––<br>Search like: `after:2018-02-29 term`",
+        "description": "invalid leap year returns no results<br />–––––––––––––––––––––––––<br />Search like: `after:2018-02-29 term`",
         "testData": null,
         "expectedResult": "<ul><li>No results</li></ul>",
         "customFields": {
           "Fix Versions": [],
-          "Related ticket(s)": "(<strong><span style=\"color: rgb(65, 168, 95);\">Story</span></strong>)&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
+          "Related ticket(s)": "(<strong><span style=\"color:rgb(65, 168, 95)\">Story</span></strong>) <a href=\"https://mattermost.atlassian.net/browse/MM-15699\">Cypress: Search Date Filter tab — MM-15699</a>",
           "Important notes about this step": ""
         }
       },
@@ -77,7 +74,7 @@
     },
     {
       "inline": {
-        "description": "using invalid string for date returns no results<br>–––––––––––––––––––––––––<br>Search like: `before:banana term`",
+        "description": "using invalid string for date returns no results<br />–––––––––––––––––––––––––<br />Search like: `before:banana term`",
         "testData": null,
         "expectedResult": "<ul><li>No results</li></ul>",
         "customFields": {
@@ -89,6 +86,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1e1243333ce4cde7d0661f7f6bff7f28906d4047c29298f11c682b2344ade93f6532ad4d1046d85f8850a8c2c7b763b1",
-  "stepsHashed": "de4f727cb387e466c943bc7fcba44c4054c62d9aef7934b49b504bea38ded94375d1c3ad0450bd0b21a60fa96f0a2130"
+  "caseHashed": "8382fb0c59df6ceccea2db2335a05414b00231a4b01c9244cb1d1e0b3fcf7f215b5f8b57288d618176ce8bdb232997f5",
+  "stepsHashed": "97a2ec5954da3e3a1bccc63fac13b7ed7b1b3e175a1e43aa0dcd81a0cd19b91397181ba3174de2e5edde1ce1cc9b2a41"
 }

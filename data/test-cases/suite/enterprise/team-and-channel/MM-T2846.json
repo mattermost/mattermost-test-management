@@ -6,7 +6,7 @@
   "objective": "Channel Members Block for LDAP Group Synced Channel",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "735f50ad3e175fb195832fc873f9d704c9366fb06549dc15c208b6390ccc848f87989653a59bb047e0699353f88cd758",
+  "caseHashed": "06e83d7b91d0923cee4ae30949ca5ba8fd6f7e6914d5dd362e3bb0edc3ac89acdf85b7abcc6a7eddc8788f1ad6cd6c59",
   "stepsHashed": "ed40c26a27d13a5abcff686d50bc0babd6da8af59898ba2b308d18bf8163af09dd41910123b4dbf35eb6c32801d997b0"
 }

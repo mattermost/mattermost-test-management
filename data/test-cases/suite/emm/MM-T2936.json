@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["android-only"],
+  "labels": ["android-only", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/emm"
   },
   "customFields": {
-    "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to test using EMM on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile", "RN: Android"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "EMM"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c3a85f397c6e2bd3b1f7e159c6f141f2dfff2afb783a9d63769cc6b804bd1d377931f4044c0f44b4c24a005e83b0637c",
+  "caseHashed": "09db0f41f15d3cf96d5f8e93f1327b12cd64482545aa00674341c0cbf06ec706f9774487621a65ad05b484c73329b7a8",
   "stepsHashed": "3de19478852e9499814a9db151c5fd20dfcbec4d21dd3ac444ac05eed97347ccd24dedee1de11df095e8b5488694e446"
 }

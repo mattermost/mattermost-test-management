@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/experimental"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "756ebd3bfae1de6b119d743f9a87240623a9a682b91491201477601b2ccee8e09eef1a1986647628b02e5adc0166f8ba",
+  "caseHashed": "8a47e7e1846f659cae86c8fe6b3e764acf7191dc10024202930bd00bcbb87c116b63890fe3e2a36901f91c9168b1c2af",
   "stepsHashed": "b4263dce8db634806725e335c8ec40f8ba4552128cb87d03ab648440b287178816c167ee67cad46cde913edc0cf85292"
 }

@@ -6,7 +6,7 @@
   "objective": "Search in Team Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "78b2d3ea637535532fb48625c9562f5fda50ace530ab8552bc5d5160362dae741469fd340ac72cedaafa387d97e7bb73",
+  "caseHashed": "385e4ce909b8400fb6588f56358eca208f3cbda428949dd02d518e02d19883346538cc9ed89b5c6e87bd017a927207ad",
   "stepsHashed": "3fe38708e12df266e310b3901f26227c1332111913ffdd634342964d6168e7285710d44778ceb00bd047e43884f19a12"
 }

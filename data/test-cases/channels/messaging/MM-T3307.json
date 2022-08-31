@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.19 (Jan 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Linda 8 July 2022: Removed references in RF test to deprecated \"pre-release\" advanced features.",
     "Rainforest": ["Webapp", "Cloud", "in Production"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9498db4e5633e965df621643a78400a30e39cf0c08c74cd6f9a3138f861239c7f63f09247247cae597bde8d046a0944f",
+  "caseHashed": "e2417b9ff7ec8697897077f4a552b3b494d90ba71d174c54d382956fbeb275b5f64fada9ae48a2a4810c1cb2cc4abc2b",
   "stepsHashed": "8a33246aba11d1711d54e2e351159dce02ac7322eb2cb808e40634adfdf09aecc0d6fd0092c77868bf9ee5ee3312cf27"
 }

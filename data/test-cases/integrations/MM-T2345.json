@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Hackfest", "TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "labels": [
+    "Hackfest",
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "integrations"
   },
   "customFields": {
-    "Fix Versions": ["v5.23 (May 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Integrations"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7718c973d365031f7f523e24f5562abe99ae05b8462fdf40eeca9375e8087e66cf080543e64fbfbd7a1fe92d8e192698",
+  "caseHashed": "604541b1a1b75bbfcf2e1d522f3ab76c2fa7d43a2495f72199246585f07163f1e5586e7929f65c988acc005acf072281",
   "stepsHashed": "847d98739ab7f091138c75cfbfedcdb22de699b4deb7842338f30dc34844eafde038ecd381bd1e2cc82e0771129b5783"
 }

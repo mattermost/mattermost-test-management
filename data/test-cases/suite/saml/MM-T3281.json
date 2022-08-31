@@ -6,7 +6,11 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Skipped"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Skipped",
+    "fix-versions-not-empty-2022cleanup",
+    "cy-rep-missing-or-skipped"
+  ],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +22,17 @@
     "fullPath": "suite/saml"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "SKIPPED - TM4J-Key-Mapped-In-Cypress-Skipped - Cypress code contains TM4J key but not found in any Cypress run reports (SDET)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "SAML"
   },
@@ -50,6 +51,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1ef120179f33a5417addcbeb80455b3a52c235f3b49037e864e5e728bb7e57b5d9f71e2c1ca689bfa528c010fcafb6c5",
+  "caseHashed": "4ff7533ab24f0e7df76d792539b5fd44b8d174309ba8eae00603590a38555c7a521410f005a75d3661abdf6d00f221ad",
   "stepsHashed": "d0f140f85e873383205c48342d2ddb8bb57d8f4c7c36c3bb92713929177ef4d48cb5d3377d0ef46b109f0bead25b49a2"
 }

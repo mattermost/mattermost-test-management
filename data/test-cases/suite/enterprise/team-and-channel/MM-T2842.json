@@ -6,7 +6,7 @@
   "objective": "Remove User in Team Members Block",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/team-and-channel"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e58e65d175bb7e0691c86ff2626c90440147f2f0dc715388103e53f649253f1c2fbf0e81214239884bec4ab97b2ed2e1",
+  "caseHashed": "f866663192efa35d2f2253a5f8abc2b568cea17655e5209ea0b3dcbf5d004cedb70533b4bc9fa9621421e9040449d9e5",
   "stepsHashed": "ef70f3bb089e8c84caeafbe9e7cc3a778b1c911f597739f00fc632f1f9d18bc066fb5abbb2c1121c3afcf6f17dc7933f"
 }

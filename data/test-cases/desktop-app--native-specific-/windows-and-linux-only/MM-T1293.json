@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder"],
+  "labels": ["Desktop-app", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
   },
   "customFields": {
-    "Fix Versions": ["v4.5 Desktop App (June 2020)", "Unscheduled"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "5/11/2022 Jelena: functionality changed only taskbar icon will flash on Windows, app window will no longer flash",
     "Rainforest": ["in Production — Desktop"],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Desktop: Linux"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4854228e2d9505269fe908ab62d45cb66b7891e5fba5257334fad9da645c1efde601029b4aa6be6be3ed36a9d7bf1fb7",
+  "caseHashed": "00a5942acb1578a2a9d586c3562211e77777a51898f634e1eaf04e4e3b620550e28a95c1d93ba7571cd846ef5fd9aebe",
   "stepsHashed": "509cc0a19b584ba007217afe5c3c4ac8e6c53e6bcffb3fb7509bea483e58c81ce3db62f26377230fa6afe6578918cab3"
 }

@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["User-Management", "system-console"],
+  "labels": ["User-Management", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/user-management"
   },
   "customFields": {
-    "Fix Versions": ["v5.21 (March 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Update",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "833c3c5a2d047b508db4d6c505ba203fdabafa5d977e8e60b705359001d1d1bcf5718a60c7555484cb22466b8e0dc4c4",
+  "caseHashed": "d0d0f4c2c1c484e8401d777844597c26ebae6ba2bc50c1b4452d66a36a88a7fe4f99d889b9e904804e56dc09d052da21",
   "stepsHashed": "5a56f25eb3776e73a9320b8db597b736820181e44c4c028e4178c3a37cad5b4740145ea54cb2c044ae640dc42389c920"
 }

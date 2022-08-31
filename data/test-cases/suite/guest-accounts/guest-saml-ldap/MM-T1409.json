@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["guest-accounts"],
+  "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/guest-saml-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4668bf3d41dfa1a8b17f27b19b35e0d7c60dc935edc6e5d33278bd41384faf455118a978e000ddab22678a841a151582",
+  "caseHashed": "4741f17cfe1d0c2ec4d5141029e1424e00c00475b3c5e015d692fcf77453f4e6341e5f97a3d51762e3c305636ca7e718",
   "stepsHashed": "62c14724a7f89a2f20c1b02410a5be4f0838b5d8bc52f941e56c302bb9c5f1ea30d3d739d11331bb43e7fa0a8831d6ff"
 }

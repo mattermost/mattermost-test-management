@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Sidebar"],
+  "labels": ["Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Jelena 02/11/2021<br>Per Devin's Cypress Ticket comment \"This test is not technically possible as it is asking to test for specific styling changes made to the mobile view.\"<br>Lowering to P3, as this is the style test, can be used when retesting sidebar feature after additional changes are applied in the future, making sure nothing breaks.",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "463de9787f9009fa7589a529f25b2f4a6507c8748279a4cc2b73991f499038ce3d1e3ec81e07151068e5ee90bb0c24ca",
+  "caseHashed": "2e331a5055f66dd86d4411a1f173585f6b9322532540cec8425eaf4d686c7e40746a9022fbff4423f4293c58118e5f1b",
   "stepsHashed": "0fe5b4630f0e7a4eafd5dffcb83e7f6ac4a0475f849d06ff1359fe693f3eba3e70c70632ae3a598cb266fb04f44eac0e"
 }

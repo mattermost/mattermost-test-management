@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/compliance-monitoring"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0607ec0671feb933fcfd9e0e8f7d313d12af50a6cd90da11f6e3fde27a5021546b5407253e0014a1cf2e8a30fd2091dd",
+  "caseHashed": "f14b91c59ae14726c1676e430ff1017f9c19c31f2c88fba00b139eec5cf84cc888f2ea735143c6d8324d18361f8b4201",
   "stepsHashed": "d98afbfd9176db7e085af4ce2d1ad1458863cda32ac28c74377664d329ac87a41357a6889c60cab1b094cd44241c3761"
 }

@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "rf-cloud-webapp", "messaging"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "cy-prod",
+    "rf-cloud-webapp",
+    "messaging",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/messaging"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Friday, September 18, 2020 3:20 PM<br />• Added links",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Messaging"
   },
@@ -63,6 +66,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1a7408892e26b14ce74a38174e7c1a02108397fd283ec58685fba233a9fa2ce8aaf95b95fcc87494142ab746617eaa18",
+  "caseHashed": "c94d027f011fbb8b6efac25e989143c32a5efd43dc1f15d45c42d1d1647e108cae4cbd6916c7d58734169afdadba6e69",
   "stepsHashed": "24dbeb1873c97fb78d937e0d45d46126bba979e2c3480f2675158519318627c889137889656fb2d7d1b922e5c94dcf6f"
 }

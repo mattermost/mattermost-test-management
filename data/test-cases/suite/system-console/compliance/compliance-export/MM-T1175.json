@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/compliance-export"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9706c8b4869e7e51fab21e51ac0f3ed589ffed7a3b2d0e42676058eb5ac529c25e0254169632be23639fa2d52fca1f80",
+  "caseHashed": "732e3e9c1312798273141f0c4d1b326b3e07ffe6963c02e94f7417f040a6d5c412bc99ff3b583f481a1c89beee8ecb2c",
   "stepsHashed": "6079f71a02ca50b20da4ca34ea59f967c1abc056aa9006ddb02174970c28b5be4e5a09a24b11378ba8bf00ebdf3e348b"
 }

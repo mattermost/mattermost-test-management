@@ -42,5 +42,4 @@ title: RN apps: "commented on" line is NOT shown on the post below the "new mess
 | Team Ownership    | Channels                                           |
 | Detox             | N/A                                                |
 | Cypress           | N/A                                                |
-| Selenium          | N/A                                                |
 | Location          | Messaging                                          |

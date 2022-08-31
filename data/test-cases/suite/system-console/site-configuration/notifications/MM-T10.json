@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "system-console"],
+  "labels": ["Cloud-N/A", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/site-configuration/notifications"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "11/24/2020 jelena gilliam<br>Adding Cloud-N/A label as Email Notifications are set to true by default through an environmental variable and can't be changed through system console ",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "61a8090822e019ba425bdab0b9849ca6f103b14f925b24d05c415a3b70e88aa6912398ff9c1ce934cb48b895f4a694b4",
+  "caseHashed": "c9342ac384ed50b0eaf8e97fe7a71cc8920b4ab4d428d9709e6f6c220f5c33244e427ddebbdbe65228675e7384532faa",
   "stepsHashed": "04d87163bf8177b591adfd582da65ce4c15be5a5227935991305f9924df6b7ef59264800da31b21f232e6a2ab55ff77a"
 }

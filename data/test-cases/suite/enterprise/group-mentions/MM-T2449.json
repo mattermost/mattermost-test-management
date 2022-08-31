@@ -6,7 +6,7 @@
   "objective": "Check Group Mentions when Group Mentions permission is disabled in Team Scheme",
   "precondition": "None",
   "estimatedTime": null,
-  "labels": ["enterprise"],
+  "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/enterprise/group-mentions"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Enterprise"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "52e48729c75d16c7b31a260cdaafd7fbe152adbcb3264f891ce7f86188adee0677567103f8ccbdb4956f5caf2192f3a7",
+  "caseHashed": "095d2e3cc4e584844294df4b62f2fb3a9f6caffb8ee8aca26a0aa77e54bca9a6e66f2bb9017d18885f04619a5cc73f16",
   "stepsHashed": "cb645f6f48c269820685d9dda5a26257f39e9c017af96461c45fcc4a7b716aacc22ed105f56af6c80fba8a8e5c5a9042"
 }

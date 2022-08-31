@@ -6,7 +6,12 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
+  "labels": [
+    "Desktop-app",
+    "smoke-test-folder",
+    "playwright",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +23,17 @@
     "fullPath": "desktop-app--native-specific-"
   },
   "customFields": {
-    "Fix Versions": ["v4.4.1 (April 2020)", "v4.6 Desktop App"],
     "Authors": "",
     "Playwright": "In Production",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["QA Platform"],
     "Manual Test Environments": ["Desktop"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
@@ -50,6 +52,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5d56fd66cd65388b581cd2530cfd9e4a80e2a2a9f1bad2aa89d50a8859166b6b52ca77fe5ae3abbac0008cc103dd4697",
+  "caseHashed": "3356ec2a3099b4e358a78a278c24e59985e86b7f30e5cb2a194fdf4d8cc55fa3d9f1b431721f94d44d07c1e60eee668b",
   "stepsHashed": "24c00b055740e49baeba3f85af596c226b345670c3a10307e3f5307bd606ad73ddf7dac533a470c8100fa231f2f0cfbd"
 }

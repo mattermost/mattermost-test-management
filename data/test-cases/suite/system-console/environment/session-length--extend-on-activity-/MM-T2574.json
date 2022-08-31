@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d75611b36cb9fd49174b7de1b8407def2163b8f3b7172991746c105e11781561291777c11b90f4c82cc4a0a03d2acbdd",
+  "caseHashed": "07913422d32629f31e1b193d636451525eb4649e7d4e88f7d28c8dfd44e574deb7dfdf7d40c34364b4c1f1de1202c827",
   "stepsHashed": "6be5a7e027bfcd5223d8530e829fc65c9067d2b85eb955a00681ea39985f439670cf1fe6d74b26a4b6781d0aaaeaf381"
 }

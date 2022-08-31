@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod"],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/incoming-webhook"
   },
   "customFields": {
-    "Fix Versions": ["v5.2 (August 2018)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Steve Mudie — Wednesday, March 03, 2021 8:25 AM<br />• Cypress Automation working as expected 🎉<br />• Removed from relevant Manual Environments",
     "Rainforest": ["Evaluating"],
     "Team Ownership": ["Integration Frameworks"],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Integrations"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "12f65e6e7260538d9adfa4ab3225729229ddd03a89f07258707a5f886f6365cd56a8c47741cf3c9d525fcfc84967d49f",
+  "caseHashed": "6a70e730496efeecfac8e719e85a81c913fbbd3298ecf87161ce3eb4c4518126ac0ac33f416bfd691e39dddfd117963a",
   "stepsHashed": "718f3ace946843a9292e98e11c581c20bd44d30871b9d0205917707f03792f0fdf94aeca9175e3332f650c2449e78718"
 }

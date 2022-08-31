@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp", "channel-settings"],
+  "labels": ["rf-cloud-webapp", "channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.12 (June 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["Webapp", "in Production"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fc3ca985c0c80a1e5d5bd9b67c34cb24035cae4232cf4433332fcd996b5d7a5a99cf141c0b83dac853dd01f8a2d09d3c",
+  "caseHashed": "5afd073bfb83a0f01495a3e0b1c997258c299e5f2c1f2c2114f5e8d2f22a783b4098630e73a9bd18735c264e7cc81c24",
   "stepsHashed": "cdb530df5af1594d31b31b2bcb3af1961d88e381407da727b7e49dd6ab3d112571e778e0558790f818816e0c6734f7dd"
 }

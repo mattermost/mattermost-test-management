@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["Cloud-N/A", "system-console"],
+  "labels": ["Cloud-N/A", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console"
   },
   "customFields": {
-    "Fix Versions": ["v5.25 (July 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e7bbdc58736fe238b635ab6e4f3efaa9ef647fbb4b721811cfb1ab5ce2a1e8affe67f13b46be795c20353681126ea4f4",
+  "caseHashed": "f10f39a01c569873e7cf0dbf7e60125f1dae9ab4c8d93f6151edddbf709fd6b74c993ffb4171a657372f4e5b16a65df0",
   "stepsHashed": "33f29cdd60e88d0c34738832f714f422f4abccdc79aec088fbc49105c6f4c5a484bebf5ddf365be871b6db770c73d9ad"
 }

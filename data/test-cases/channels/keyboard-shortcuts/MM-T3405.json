@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp"],
+  "labels": ["rf-cloud-webapp", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "Linda 10 Jun 2022<br />- No longer reporting back through RF (but passing). Refactored this time but otherwise the test is okay. https://app.rainforestqa.com/runs/945344/tests/317761/browsers/safari14<br /><br />Lindy Isherwood - 2020-11-09 10:00am<ul><li>Sent this test to Rainforest test writers to add to Keyboard Shortcut feature groups for Windows and macOS (RF-KS324)</li></ul>Lindy Isherwood - 2020-11-11 09:00am<ul><li>This test is now running/passing in Rainforest for both Win and macOS</li><li>Changed to automated in RF</li></ul>",
     "Rainforest": ["in Production", "Webapp"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Keyboard Shortcuts"
   },
@@ -102,6 +99,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6540b5130c7649f099a54bf8a8a9c0f0038371875ea17326d3384297d6e2bb23588b76808a64d058273a99d35da919cf",
+  "caseHashed": "64c793fbcf21eb6d017076d960ac30e9deb5bb94fd99ef834d22719e34b3d356b44c3d03d333eb799a2c4f736ebd49f2",
   "stepsHashed": "ced1194be4ca35accc951a442b570b847611aacace2dcfc0f626c96d9f4b6855a0a7d011052c67025c7e3b1269d2d3b8"
 }

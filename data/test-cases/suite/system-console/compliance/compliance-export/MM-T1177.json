@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/compliance-export"
   },
   "customFields": {
-    "Fix Versions": ["v5.14 (August 2019)", "v5.15 (Sept 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -102,6 +99,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "64960c6584c2164426126e0f6776f086bc5b5c7accd7d7e0eeb32e5b4c549d0af30994067931b2105af7c4a65eebe6c7",
+  "caseHashed": "39bdcd1bd8a977bdcdd7f5370cce9230f515c1fd67cdbf26254d4a564d751c0496845634d9b7a55cde3e3d0cbb15ce08",
   "stepsHashed": "09a88b46218651d25767adb98e7813dbdabdf888c5fba62ea8e899680a27f0f1bdb3ae2ec79313f7aaa0b1853382b1d5"
 }

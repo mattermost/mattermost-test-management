@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "system-console"],
+  "labels": ["1.42-p123", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/compliance/custom-terms-of-service"
   },
   "customFields": {
-    "Fix Versions": ["v1.22 Mobile (Aug 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest as it is not possible to set up MFA on the VMs</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "Evaluating",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1625b43ca98401bd313dc595aa401c7505fc4dc34a79b2afa1de9461145474513ac9a5b061ae0a43915d2d255b311a7b",
+  "caseHashed": "0a1488023b7bfd85436706338ac59a70cba0f3798364f7dcb38ba9934676bb7c311bdd427be07bd3581b2c76f3169cc9",
   "stepsHashed": "4451ae9d5982d04b3dbc9f8a0cd41891bf539e45deb92701e3f8ec668376090365ed4650b686f35edb216664b4583ed7"
 }

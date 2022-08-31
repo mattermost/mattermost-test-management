@@ -15,13 +15,13 @@ title: Add User — UserA & UserB (not on team)
 
 ### Details
 
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Low                              |
-| Status   | Active                           |
-| Folder   | Channels / Add user from popover |
-| Labels   | cy-prod                          |
-| Created  | 2019-08-26T23:03:55Z             |
+| Name     | Value                                      |
+| :------- | :----------------------------------------- |
+| Priority | Low                                        |
+| Status   | Active                                     |
+| Folder   | Channels / Add user from popover           |
+| Labels   | cy-prod,fix-versions-not-empty-2022cleanup |
+| Created  | 2019-08-26T23:03:55Z                       |
 
 ### Steps
 
@@ -47,11 +47,9 @@ title: Add User — UserA & UserB (not on team)
 
 | Name                     | Value                                                                                                                                                                                                                                                                                                                                                                                                      |
 | :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fix Versions             | v5.14 (August 2019)                                                                                                                                                                                                                                                                                                                                                                                        |
 | Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                                                                                                                                                                                                                                                                                                                         |
 | Update notes             | Steve Mudie — Wednesday, December 23, 2020 9:43 PM<br />• Cypress Automation working as expected 🎉<br />• Set Cypress status to ✅ in Production<br />• Removed from relevant Manual Environments<br />• Removed No Automated Executions label<br />• Removed TM4J-Key-Missing-In-Cypress label<br />• Added TM4J-Key-Mapped-In-Cypress-Release label<br />• Added link to Cypress code in Traceability tab |
 | Rainforest               | N/A                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Cypress Reports          | STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)                                                                                                                                                                                                                                                                                                       |
 | Team Ownership           | Channels                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Manual Test Environments | Automated - No manual tests needed                                                                                                                                                                                                                                                                                                                                                                         |
 | Cypress                  | in Production                                                                                                                                                                                                                                                                                                                                                                                              |

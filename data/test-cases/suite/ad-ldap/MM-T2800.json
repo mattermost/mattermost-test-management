@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["ldap"],
+  "labels": ["ldap", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 401946, "name": "Draft" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/ad-ldap"
   },
   "customFields": {
-    "Fix Versions": ["v5.12 (June 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "To Do",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "AD LDAP"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9eba04256ceaee553e59803bfaedf83e041aa27b4f7a56eab7f8f81a77621426e1531e84954047217aad90393b25fe5c",
+  "caseHashed": "a940c7f112f0d500544092369c000c7102a79e42188f5b54df9ca65e7380c9ad807271393b69c579115ced5aae326893",
   "stepsHashed": "d59dd07e19baab5d00e7cc26551932cb0e7e47ab8396d56a7e54811ab124a6773f126deef92c07259dd6d94662a7db13"
 }

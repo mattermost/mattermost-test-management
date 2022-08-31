@@ -35,12 +35,11 @@ title: An elipsis indicates the channel header is too long - public or private c
 
 ### More Info
 
-| Name                     | Value                                                                                              |
-| :----------------------- | :------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                 |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:08 PM<br>• Removed from manual testing                 |
-| Cypress Reports          | RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report (SDET/QA) |
-| Team Ownership           | Channels                                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                                 |
-| Cypress                  | in Production                                                                                      |
-| Location                 | Messaging                                                                                          |
+| Name                     | Value                                                                              |
+| :----------------------- | :--------------------------------------------------------------------------------- |
+| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                 |
+| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:08 PM<br>• Removed from manual testing |
+| Team Ownership           | Channels                                                                           |
+| Manual Test Environments | Automated - No manual tests needed                                                 |
+| Cypress                  | in Production                                                                      |
+| Location                 | Messaging                                                                          |

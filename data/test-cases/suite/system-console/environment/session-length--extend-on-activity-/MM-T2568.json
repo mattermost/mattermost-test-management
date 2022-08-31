@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["system-console"],
+  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
   "component": { "id": 14314, "name": "System Console" },
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
   },
   "customFields": {
-    "Fix Versions": ["v5.24 (June 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "Evaluating",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "System Console"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a72e1f28922e8f9894d4c6b6f9c50340dd03ffc1f4e43cfd88685b1f6772d8871002219684e20f3e7e75950a9d45a3dc",
+  "caseHashed": "593a66960033cbdd35b0dfdcd05ba7498edd7381658c4d7b643e82aea6568ca2cfa9d537813e601c8f7d534ddc7f2bd1",
   "stepsHashed": "651f07d8f4997c0eaaee6ec5e03d710534f1d41048b2ea42e1c04f14064dddac57072d4339f35f9ffa18b35943829c20"
 }

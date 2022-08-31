@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": "Blocked until&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-22371\">https://mattermost.atlassian.net/browse/MM-22371</a> and&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-19380\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-19380</a>&nbsp;are resolved.",
   "estimatedTime": null,
-  "labels": ["channel-settings"],
+  "labels": ["channel-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/channel-settings"
   },
   "customFields": {
-    "Fix Versions": ["Triage"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": null,
     "Update notes": "Steve Mudie — Wednesday, September 16, 2020 6:39 PM<br>Two open tickets but no tests since spring. Not sure if it's blocked by them?",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": [],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Channel Settings"
   },
@@ -63,6 +60,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c3a2974f8a6a1dac6708ac715cca7c22e52d2917e20ba0df8d03a121bc74b7de897fc3bbe3c7930065def064dd57d547",
+  "caseHashed": "d2de27d83f7140896c18c3c7e01b94f6c77afebabc849ec1ffb2b12dd76e5790d3295536438fa465f0fdd23ebee41804",
   "stepsHashed": "33f76bc9ba1327d16e9827c15de5e887b6406cdfaee441bdafdfde17c1c3565a5be76cca916f1ae4d886ee5a5e1f5cce"
 }

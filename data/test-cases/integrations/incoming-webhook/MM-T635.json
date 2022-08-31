@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod"],
+  "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/incoming-webhook"
   },
   "customFields": {
-    "Fix Versions": ["v5.12 (June 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Integrations"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "951eda4f7955250e7ec2800e1c19ca73d017c696c784ecbe4220ca64d718ae72958feefeb9c076e39e2e1edb08a04509",
+  "caseHashed": "037b92dfb4dc9b293685268f2e082b60fbb210268faf80a2e8243403ba0c57c5780f89250e815a4f058a5c16dfa215dc",
   "stepsHashed": "d37798ebf8f013769abf423269010bb807d6a13f739abacc7f44d5cefe46ba8c3eacb06dd7ea037d53b0a36905f8f41e"
 }

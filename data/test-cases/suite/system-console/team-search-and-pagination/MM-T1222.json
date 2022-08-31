@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["E2E-1", "system-console"],
+  "labels": ["E2E-1", "system-console", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/system-console/team-search-and-pagination"
   },
   "customFields": {
-    "Fix Versions": ["v5.18 (Dec 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp", "Cloud"],
     "Detox": null,
     "Cypress": "Ticket Open",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
@@ -76,6 +73,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "976dbcdf825cdc7ba075b6354caa96c3178587b8d35ddb8e8c048587ce0ce1d2a1300dc60cde4875907ea4984692af3b",
+  "caseHashed": "88c0522392d92916573e3e9d96660ea97dc183ed3d6786418bd40e30d4e1a4a44e6da620008a75024b909601005b9ac8",
   "stepsHashed": "dfe6afec1814802b8912c7c141a634976a1d330ccd7c496f124ae1634c0a957a3a58fbb99946c5ddd4fec43280491046"
 }

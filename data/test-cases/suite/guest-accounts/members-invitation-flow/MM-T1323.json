@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["5.34-p1", "guest-accounts", "cy-prod"],
+  "labels": ["5.34-p1", "guest-accounts", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/guest-accounts/members-invitation-flow"
   },
   "customFields": {
-    "Fix Versions": ["v5.20 (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P1 - Smoke Tests (App testable?)",
     "Update notes": "Linda Mitchell (June 29,2021) – Removed manual cloud and webapp test environments since there are several recent Cypress executions reporting back. Not updating the Cypress info in order to leave that for the regular test promotion process.<br /><br />Prapti Shrestha (April 19, 2021) - Updated test steps to combine 1 &amp; 2 and simplify (this also eliminates the confusion in Cypress test).",
     "Rainforest": [],
-    "Cypress Reports": "STABLE - TM4J-Key-Mapped-In-Cypress-Stable - TM4J key found Cypress master-prod run report (SDET/QA)",
     "Team Ownership": ["Suite Users"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Guest Accounts"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "546c8088b9db625aa677a58eebea885f05591a6e56046777ec24acc78c0934b0f914827d853c0c04042b191aad4e34d4",
+  "caseHashed": "9bb998c3d7efd525c46729e37eaf7751ca042170fcbf9f1b359948cf3510f96d570891e4580625d5012ca1bac913e5ac",
   "stepsHashed": "a2e689ee552c6b1f7cf66d942878b2124200c9d5100b3939aef16a0d43a24a48ac285e3783ece363d5edffb7438844d9"
 }

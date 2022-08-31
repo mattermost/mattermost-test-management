@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod"],
+  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "integrations/incoming-webhook"
   },
   "customFields": {
-    "Fix Versions": ["v5.25 (July 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, October 14, 2020 2:11 PM<br>• Added to manual test pool<br><br>Joseph Baylon - Tuesday, October 20, 2020 2:30 PM<ul><li>removed from manual test pool</li></ul>",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Integration Frameworks"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": "N/A",
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Integrations"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "115ba79e2bdf0b63f9b55f395eae274f74ea2c3df4b296c85e8c2f2243bcb3e882bf9ce5d74b2c12ac5d6a0ee7e8fe71",
+  "caseHashed": "98889616049a0490f3de36872a3093a48cb918b7d7a4010a61b13635596969eea9691f2e57c525166c0bb607cf3cff20",
   "stepsHashed": "6c1368cfbb78b43b7909ffa6681447988c5f76aaeef4c8edcaf27797b40cd95004c7aba99ff0ca33a06e1dd95e6f9ae4"
 }

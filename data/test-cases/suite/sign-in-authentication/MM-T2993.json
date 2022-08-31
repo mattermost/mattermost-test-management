@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["1.42-p123", "sign-in-auth"],
+  "labels": ["1.42-p123", "sign-in-auth", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401951, "name": "Low" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/sign-in-authentication"
   },
   "customFields": {
-    "Fix Versions": ["v1.28 Mobile (Feb 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "2021-08-30 (LI) marked this test N/A for Rainforest as servers do not have OneLogin configured.",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Mobile"],
     "Detox": "N/A",
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "N/A",
     "Tags": [],
     "Location": "Sign In Authentication"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9ada65c0764af81bab968708aef2a54df36740fbb0d8b4bc14d5dfdbce2fed5827186f0fe2154596e8af130c935b135d",
+  "caseHashed": "56ed6cee8e0f6258dd535bd57f8a38a677da690ca0b86fecc7ec1f33801fe0b2e504b942078d184cf65b21284c13ebd5",
   "stepsHashed": "d41398c8e98a4fef51537107acc6b956c186c887a4c3649307ddc5bf6836bfa6e0c6cf62263c837b382c4c7cb0e579b7"
 }

@@ -6,7 +6,7 @@
   "objective": "`New` badge to disappear after channel is dropped into new category, even if it is immediately removed from the new category.<br>New badge is also removed on refresh. (currently not part of this automated test)",
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "Sidebar"],
+  "labels": ["cy-prod", "Sidebar", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/left-sidebar"
   },
   "customFields": {
-    "Fix Versions": ["v5.27 (September 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": [],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Experimental Sidebar"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "194fdea132a465fa2b9de661ebdaf8a398ae84d6a672ca00bcb1b9369c1d9439d8d7c79dc8b79e925affe92ddfd4aad8",
+  "caseHashed": "7a6ffdaac16e27988d8d4e9a89e996db6e0dbda31048de478ed9c4175d5a04e5c0237ee30e1a4c476e372ba123d15748",
   "stepsHashed": "107de33698f2c23b5f2878b92ff249fcdcf59fe9e113132f18c372939bb8af9874ebcc17add1119591be5d77eaae8025"
 }

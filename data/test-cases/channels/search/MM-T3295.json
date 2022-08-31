@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["search"],
+  "labels": ["search", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 1251319, "name": "Smoke test" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/search"
   },
   "customFields": {
-    "Fix Versions": ["v5.26 (August 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["Evaluating"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": null,
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Never tested"],
     "Location": "Search"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4cf8bad5a0043744dc7eab0169939a7ab7d988036d724d6c2fe4e261c2d97f497383fc5769c449bcc8ae27cef04e943e",
+  "caseHashed": "37d1c4a735da51764a681b6a4e5245b1477993fea84d1f9b33a005352a7c01be9c4f399d4e9d4571ed091ba1da3439de",
   "stepsHashed": "255b9ef0050737c138d6013d2497dee53649409ad96b27d5924db7cfc56caa63738b43a32b75f654c4a106280df23b9d"
 }

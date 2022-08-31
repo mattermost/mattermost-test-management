@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["auth-sso"],
+  "labels": ["auth-sso", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "suite/auth-sso"
   },
   "customFields": {
-    "Fix Versions": ["v5.28 (October 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P3 - Deep Functions (Do extensive scenarios work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": null,
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Webapp"],
     "Detox": null,
     "Cypress": "N/A",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": [],
     "Location": "Auth SSO"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "17746601e11e4a5de0aaa8d3068a3d1aeb10cb8e06adabf824a080f7f5d45001c1cc482331c0c213e8c70e4e49fbaf3a",
+  "caseHashed": "287ec2d66677be38948bfbeed5d36d547f5d5d51b26d54051bebf1d52b56598d3815dd74531a5f3e5e12dd6b01ea3e66",
   "stepsHashed": "ec1a2dde1091d252b95b59ee902d58300c2ebd901976357cbf5dc7e7722137817a8c1a9ad64b48d7e704dd049be83dec"
 }

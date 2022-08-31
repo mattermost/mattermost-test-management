@@ -6,7 +6,13 @@
   "objective": null,
   "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
-  "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "Cloud-N/A", "cy-prod", "account-settings"],
+  "labels": [
+    "TM4J-Key-Mapped-In-Cypress-Release",
+    "Cloud-N/A",
+    "cy-prod",
+    "account-settings",
+    "fix-versions-not-empty-2022cleanup"
+  ],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 892162, "name": "Update" },
@@ -18,20 +24,17 @@
     "fullPath": "channels/settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.15 (Sept 2019)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "Steve Mudie — Wednesday, September 30, 2020 12:03 PM<br />• No Cypress executions reporting back<br />• Toggled Cypress status to 🔧 Update<br />• Moved Cypress PR to Traceability tab<br />• Leaving in manual pool for now<br /><br />Joseph Baylon - Wednesday, October 14, 2020 3:20 PM<br /><ul><li>Toggled Cypress status In Production - cypress executions are being reported</li></ul><br />",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": null,
     "Tags": ["Cloud N/A"],
     "Location": "Account Settings"
   },
@@ -50,6 +53,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "44e8f7ad24d04baa4cb966b415ebd6e5eb0fe3a3d113b23ae5bcf9e298efba8584dc7d19d932790542ef2221deca3d49",
+  "caseHashed": "06035f3013e699cdbb474ff7c0175da238c7c2db7e54e44e480c133d599c66236492207b0bb9ade0e0dfea9d6bcb4089",
   "stepsHashed": "90d2b80d510e4f19eb02983d9ffd1d8ef6fb4b6dd253dd31ebb0e1893748a01ef3de15778b6465ea6a471ada927c91c2"
 }

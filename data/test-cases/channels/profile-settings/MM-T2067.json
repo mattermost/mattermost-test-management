@@ -6,7 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["cy-prod", "se-prod", "account-settings"],
+  "labels": ["cy-prod", "se-prod", "account-settings", "fix-versions-not-empty-2022cleanup"],
   "component": null,
   "priority": { "id": 401950, "name": "Normal" },
   "status": { "id": 890281, "name": "Active" },
@@ -18,20 +18,17 @@
     "fullPath": "channels/profile-settings"
   },
   "customFields": {
-    "Fix Versions": ["v5.30 (December 2020)"],
     "Playwright": null,
     "Authors": "",
     "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
     "Update notes": "",
     "Rainforest": ["N/A"],
-    "Cypress Reports": "RELEASE - TM4J-Key-Mapped-In-Cypress-Release - TM4J key found Cypress release run report  (SDET/QA)",
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
     "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
-    "Selenium": "in Production",
     "Tags": [],
     "Location": "Account Settings"
   },
@@ -50,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "df1b132e04642bd320b008f0092da9bf6b67fba346bc567ac237c8a6a080a6046654060683bf3a92fe5ad872feb5a63a",
+  "caseHashed": "a28e19f6b0322b4cadaf6b1158fe8ef3d983688004a356b1aa3c79dc588da0d3243c28dbbe6f334f5217b5c360f585db",
   "stepsHashed": "3c2c3ddf99d0f19c0c2df8205a6c2a4700cf358867bcb92c16a1ba94e335e4e70cb5b33372fe667e6efc6b9567cb8f08"
 }
