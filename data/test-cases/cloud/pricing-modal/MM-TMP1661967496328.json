@@ -1,0 +1,48 @@
+{
+  "key": "MM-TMP1661967496328",
+  "name": "Upgrade button in global header for admin users on starter plan",
+  "createdOn": null,
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "name": "pricing-modal",
+    "parentId": 883991,
+    "fullPath": "cloud/pricing-modal",
+    "fullNames": ["Cloud", "pricing-modal"]
+  },
+  "labels": [],
+  "customFields": {
+    "Rainforest": ["Evaluating"],
+    "Team Ownership": ["QA Platform"],
+    "Manual Test Environments": [],
+    "Tags": [],
+    "Playwright": null,
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Location": null,
+    "Authors": "@yasserfaraazkhan",
+    "Last Updated": "08-31-2022 23:08"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Workspace should be on starterplan <ol><li>Login with non-admin user and navigate to channel to verify Upgrade button is not visible</li><li>login with admin and verify Upgrade button is visible </li></ol>",
+        "testData": null,
+        "expectedResult": "In admin logged in session, the button should have a tooltip <strong>Only visible to system admins</strong>",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ]
+}

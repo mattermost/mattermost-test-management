@@ -1,0 +1,48 @@
+{
+  "key": "MM-TMP1661967161035",
+  "name": "Upgrade button should open pricing modal admin users when no trial has ever been added on starter plan",
+  "createdOn": null,
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 401946, "name": "Draft" },
+  "folder": {
+    "name": "pricing-modal",
+    "parentId": 883991,
+    "fullPath": "cloud/pricing-modal",
+    "fullNames": ["Cloud", "pricing-modal"]
+  },
+  "labels": [],
+  "customFields": {
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Manual Test Environments": [],
+    "Tags": [],
+    "Playwright": null,
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Location": null,
+    "Authors": "@yasserfaraazkhan",
+    "Last Updated": "08-31-2022 23:02"
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "Login with Admin and navigate to channel<br/> Upgrade button should be visible and clickable <br.> Click on the button and verify pricing modal is opened <br/>Verify we can see <strong>Try free for 30 days</strong> button",
+        "testData": null,
+        "expectedResult": "<strong>Try free for 30 days</strong> button should be visible and clickable",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ]
+}
