@@ -1,0 +1,52 @@
+{
+  "id": 30400942,
+  "key": "MM-T5122",
+  "name": "Cloud | Ensure feature discovery for enterprise features shows option to contact sales",
+  "createdOn": "2022-08-31T15:36:15Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "component": null,
+  "priority": { "id": 401950, "name": "Normal" },
+  "status": { "id": 890281, "name": "Active" },
+  "folder": {
+    "id": 1641064,
+    "name": "Company Information ❗",
+    "parentId": 1565509,
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Company Information ❗"],
+    "fullPath": "cloud/automated-tests/system-console/company-information-"
+  },
+  "customFields": {
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Pre-condition:</strong><br />MM-T5120<br /><br /><br /><strong>Test<br /></strong>1.<strong> For each enterprise feature</strong><br />'Groups'<br />'System Roles'<br />'Data Retention Policy'<br />'Compliance Export'<br />Custom Terms of Service'<br /><br /><strong>title should be</strong><br /><br />'Active Directory/LDAP groups'<br />'controlled access to the System Console'<br />'Create data retention schedules with Mattermost Enterprise'<br />'Run compliance exports with Mattermost Enterprise'<br />'Create custom terms of service with Mattermost Enterprise'<br /><br />2. Assert '<strong>Upgrade Now</strong>' button is visible and clickable<br />3. Click on the upgrade button and verify pricing modal is opened",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "b7636b5be97bf0cc22884ac58d59043849e2293dc1c8c025a50145e0e04d222a535bdc4735a6e6fa296f0f2bd7ff4808",
+  "stepsHashed": "b7e4bf6c9f55e3fe9a823ec9c6755c510fa74757b866cfdf57f54201d5e61c51ef5cc479f7e9f74e0b0d0085aedc34dd"
+}
