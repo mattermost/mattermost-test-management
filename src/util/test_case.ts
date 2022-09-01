@@ -3,7 +3,6 @@ import { dataFolderPath, datetimeFormat, testCasesNoneFolder } from './constant.
 import { writeFile } from './file.ts';
 // import { newLineRe } from './helper.ts';
 import {
-  ActionType,
   Component,
   Folder,
   Priority,
@@ -11,6 +10,7 @@ import {
   TestCase,
   TestCaseCustomFields,
   TestStep,
+  TestSteps,
 } from './types.ts';
 
 export function getDefaultCreateTestCase(
@@ -36,7 +36,6 @@ export function getDefaultCreateTestCase(
       name: status.name,
     },
     folder: {
-      action: folder.action,
       id: folder.id,
       name: folder.name,
       parentId: folder.parentId,
@@ -279,10 +278,10 @@ function customFieldsValues() {
 }
 
 type GenericVF = {
-  action?: ActionType;
   id?: number;
   name?: string;
   parentId?: number | null;
+  fullNames?: string[];
 };
 
 export function isValidTestCase(
@@ -338,17 +337,29 @@ function isValidField<VF extends GenericVF>(
 ) {
   const errorMessage: string[] = [];
 
+  if (valueToValidate.parentId) {
+    if (!baseValues.filter((b) => b.id === valueToValidate.parentId)[0]) {
+      errorMessage.push(
+        `Parent not found from "${field}: ${JSON.stringify(valueToValidate)}"`,
+      );
+    }
+  }
+
+  if (field === 'folders.json' && (!valueToValidate.parentId || !valueToValidate.id)) {
+    // New folder found
+    if (valueToValidate?.fullNames?.length) {
+      console.log(`New folder to be created in Zephyr: "${valueToValidate.fullNames.join(' > ')}"`);
+    }
+
+    // Log for info
+    errorMessage.forEach((message) => console.log('  !(error)', message));
+    return errorMessage.length === 0;
+  }
+
   const found =
     baseValues.filter((b) => b.id === valueToValidate.id && b.name === valueToValidate.name)[0];
-  if (valueToValidate?.action === 'CREATE') {
-    if (valueToValidate.parentId) {
-      if (!baseValues.filter((b) => b.id === valueToValidate.parentId)[0]) {
-        errorMessage.push(
-          `Parent not found from "${field}: ${JSON.stringify(valueToValidate)}"`,
-        );
-      }
-    }
-  } else if (!found) {
+
+  if (!found) {
     errorMessage.push(
       `Not found from "${field}: ${JSON.stringify(valueToValidate)}"`,
     );

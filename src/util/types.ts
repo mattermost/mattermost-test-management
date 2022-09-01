@@ -1,4 +1,3 @@
-export type ActionType = 'CREATE' | 'UPDATE';
 export type FolderType = 'TEST_CASE' | 'TEST_PLAN' | 'TEST_CYCLE';
 export type StatusType = 'TEST_CASE' | 'TEST_PLAN' | 'TEST_CYCLE';
 export type TestStepMode = 'APPEND' | 'OVERWRITE';
@@ -20,7 +19,6 @@ export type TestCaseCustomFields = {
 };
 
 export type TestCase = {
-  action?: ActionType;
   id?: number;
   key: string;
   name: string;
@@ -72,7 +70,6 @@ export type Component = {
 };
 
 export type Folder = {
-  action?: ActionType;
   id?: number;
   parentId?: number | null;
   name?: string;

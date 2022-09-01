@@ -47,10 +47,8 @@ const invalidTestNames: string[] = [];
 const testByFolder: Record<string, string[]> = {};
 
 Object.entries(withChanges).forEach(([file, testCase], index) => {
-  const action = testCase.action ? ` (${testCase.action}) ` : '';
-
   // Log for info
-  console.log(`${index + 1}. ${action}${file}`);
+  console.log(`${index + 1}. ${file}`);
 
   const validFolder = isFolderPathValid(file, testCase.folder.fullPath);
   const validTestCase = isValidTestCase(testCase, { components, folders, priorities, statuses });
