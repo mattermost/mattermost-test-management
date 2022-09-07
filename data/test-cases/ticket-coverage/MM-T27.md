@@ -1,36 +1,23 @@
 ---
-key: MM-T27
-title: MM-17460 — Remove focus trap
+name: "MM-17460 — Remove focus trap"
+status: Draft
+priority: Normal
+team_ownership: "QA Platform"
 ---
 
 ## MM-T27: MM-17460 — Remove focus trap
 
-### Details
-
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Draft                |
-| Folder   | Ticket coverage      |
-| Created  | 2019-08-28T02:06:28Z |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article><ol><li>Open Mattermost on a web browser</li><li>Use the Tab ⇥ key to navigate</li></ol></article>
+1. Open Mattermost on a web browser
+2. Use the Tab ⇥ key to navigate
 
 **Expected**
 
-> <article><ul><li>The menu can be closed using escape</li><li>Once the tab moves to another element after the end of the menu, the menu closes automatically</li></ul><br><strong>Related bug</strong>: <a href="https://mattermost.atlassian.net/browse/MM-17460" rel="noopener noreferrer" target="_blank">MM-17460</a></article>
+- The menu can be closed using escape
+- Once the tab moves to another element after the end of the menu, the menu closes automatically
 
-<hr/>
-
-### More Info
-
-| Name           | Value           |
-| :------------- | :-------------- |
-| Team Ownership | QA Platform     |
-| Location       | Ticket coverage |
+\
+**Related bug**: [MM-17460](https://mattermost.atlassian.net/browse/MM-17460)

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1615722,
-    "name": "Collapsed Reply Threads",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Collapsed Reply Threads"],
-    "fullPath": "channels/collapsed-reply-threads"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -26,12 +16,17 @@
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Collapsed Reply Threads",
+  "folderFullPath": "channels/collapsed-reply-threads",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d7a0a4d2bf8e0f5c1993edb64f25ddf3a202b286e0a4a01a80b7a8c0dd7cd53cd84866883820b2d63bc9cb4b7afe9361",
+  "caseHashed": "230630774980bf9ac15b6806f0e7b8a9d7770d36c91ad3a15eb8a48242e518bd280d96cd866c8a1691a093e841115993",
   "stepsHashed": "f06040422626ca0aaad514014a4c24b6dce80874564d15816ca3824793497c1df5cf0d7ef8adef1eb1b30c0778dba05b"
 }

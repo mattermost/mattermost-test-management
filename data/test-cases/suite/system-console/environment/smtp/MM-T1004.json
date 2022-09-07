@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568174,
-    "name": "SMTP",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "SMTP"],
-    "fullPath": "suite/system-console/environment/smtp"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "SMTP",
+  "folderFullPath": "suite/system-console/environment/smtp",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ac683256499b157006d27722575f7462d58ed575f5ba6941acd94b7de15abe98ef94e7c46be48afa001307f9a78e090a",
+  "caseHashed": "be7e01accd2dd2792171232714f75453aeb60befedecdde707e5ee8843387b42528ff740984ecc028d47017449c529b7",
   "stepsHashed": "228ad0d82f61f2ee837ef84340f0d323794e08e56eb976b4a9b3584977bc7833b6d4d079d57c9e4725bab3b144a48326"
 }

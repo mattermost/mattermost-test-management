@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 570084,
-    "name": "Integrations",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Integrations"],
-    "fullPath": "suite/system-console/integrations"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Integrations",
+  "folderFullPath": "suite/system-console/integrations",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cf72114c7fef669c54851c6dd2d2ef8d8fc684760286312ce9e37de24512d22a871df9c52d998aa25d14739c48e7ff2f",
+  "caseHashed": "34631f9586ab1f59894df15edf97b11ef1189c69fdc449278684c71f2bac3a79bd6b4309b96d213b8a6fa7e40e50d5e8",
   "stepsHashed": "1df70174a46ca9a40b4edcb7dd90be8be242145a9d3cf9748e4d75d907922f8fbe7190e455e74936c508c92677c013fd"
 }

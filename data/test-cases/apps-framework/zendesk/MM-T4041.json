@@ -7,16 +7,6 @@
   "precondition": "<strong>Requires a sandbox instance of Zendesk with an oAuth 2 application configured.</strong> <br><br>- No Support yet for RN mobile apps",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1244765,
-    "name": "Zendesk",
-    "parentId": 1214365,
-    "fullNames": ["Apps Framework", "Zendesk"],
-    "fullPath": "apps-framework/zendesk"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Zendesk",
+  "folderFullPath": "apps-framework/zendesk",
   "steps": [
     { "inline": null, "testCase": { "testCaseKey": "MM-T4037" } },
     {
@@ -49,7 +44,7 @@
     },
     {
       "inline": {
-        "description": "1. Create a test user who has a member role in Mattermost<br>2. Create or Locate a user in Zendesk whohas an Admin role<br>3. Login as the user from step 1.<br>4. Use the <em>/zendesk connect&nbsp;</em>command to connect as the Zendesk user from step 2.",
+        "description": "1. Create a test user who has a member role in Mattermost<br />2. Create or Locate a user in Zendesk whohas an Admin role<br />3. Login as the user from step 1.<br />4. Use the <em>/zendesk connect </em>command to connect as the Zendesk user from step 2.",
         "testData": null,
         "expectedResult": "Member in Mattermost is connected as as an Admin in Zendesk",
         "customFields": {
@@ -62,9 +57,9 @@
     },
     {
       "inline": {
-        "description": "Type <em>/zendesk&nbsp;</em><br><br>",
+        "description": "Type <em>/zendesk </em><br /><br />",
         "testData": null,
-        "expectedResult": "<em>- Disconnect&nbsp;</em>and <em>Help&nbsp;</em>options are visible<br>- <em>Subscribe</em> command is visible<br>- <em>Create Target</em> is <strong>not&nbsp;</strong>available to member users in Mattermost (regardless of their Zendesk role)<br>- <em>Configure</em> is <strong>not&nbsp;</strong>available to member users in Mattermost (regardless of their Zendesk role)",
+        "expectedResult": "<em>- Disconnect </em>and <em>Help </em>options are visible<br />- <em>Subscribe</em> command is visible<br />- <em>Create Target</em> is <strong>not </strong>available to member users in Mattermost (regardless of their Zendesk role)<br />- <em>Configure</em> is <strong>not </strong>available to member users in Mattermost (regardless of their Zendesk role)",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -88,7 +83,7 @@
     },
     {
       "inline": {
-        "description": "Login to Mattermost as a test user who is now a sys admin <br>(or change channels to get fresh bindings if your session is already active)",
+        "description": "Login to Mattermost as a test user who is now a sys admin <br />(or change channels to get fresh bindings if your session is already active)",
         "testData": null,
         "expectedResult": "Test user is logged in to Mattermost and still connected to Zendesk",
         "customFields": {
@@ -103,7 +98,7 @@
       "inline": {
         "description": "Type <em>/zendesk</em>",
         "testData": null,
-        "expectedResult": "<em>- Disconnect&nbsp;</em>and <em>Help&nbsp;</em>options are visible<br>- <em>Subscribe</em> command is visible<br>- <em>Create Target</em> <strong>is&nbsp;</strong>available to sysadmin users in Mattermost (regardless of their Zendesk role)<br>- <em>Configure</em> <strong>is</strong><strong>&nbsp;</strong>available to sys admin users in Mattermost (regardless of their Zendesk role)",
+        "expectedResult": "<em>- Disconnect </em>and <em>Help </em>options are visible<br />- <em>Subscribe</em> command is visible<br />- <em>Create Target</em> <strong>is </strong>available to sysadmin users in Mattermost (regardless of their Zendesk role)<br />- <em>Configure</em><strong> is </strong>available to sys admin users in Mattermost (regardless of their Zendesk role)",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -113,6 +108,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "295ec0d51c02c193303a6401964378fa170ceca16d8da13249a4329bab87d1497e1afb52993cd4f7f84bf8c569231b92",
-  "stepsHashed": "09119c2c1f070451033fcd8b2b5bf6f1894abfa2287e245dfa8a52714de8ab87b6ff8ef80c7de203cd55dbd529462fdd"
+  "caseHashed": "79df07e4c5a60b831abdcd820eceefec8cd3c252f31e24cc02f12385ec3bb43a298338bda7a679ebee978def4fb1bcab",
+  "stepsHashed": "53b92cdb7a670903730f5b534b1b052d52f6d29d9c2755db52f5c1afaf36c6b07b8c3f059bc2fb94d55abf5bfcff0e2a"
 }

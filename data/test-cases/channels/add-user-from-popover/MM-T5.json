@@ -7,16 +7,6 @@
   "precondition": "<ul><li>This test assumes permissions are in place for users to see the option on other users who belong to the team's profile pop-overs</li></ul>",
   "estimatedTime": null,
   "labels": ["cy-prod", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 399627,
-    "name": "Add user from popover",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Add user from popover"],
-    "fullPath": "channels/add-user-from-popover"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Add user to channel from popover"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Add user from popover",
+  "folderFullPath": "channels/add-user-from-popover",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "da1b57cf80b7722b657f4baaba20e43de9a8b6afd141c4840c4fd1584facf858b620afc708cd96c1004a1f7691908068",
+  "caseHashed": "f60b20bff755a630a4396b5f822680da525519f6ffa46180aee5b3d94498b24d157e652626863807866016f6615c0569",
   "stepsHashed": "c4a9afb39be3a48250644b31a20732e6170720ad1a5a3985dc93056b765e563c83e354a2aa9b643060f80058c5aa2c0a"
 }

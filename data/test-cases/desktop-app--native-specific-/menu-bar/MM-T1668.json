@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565202,
-    "name": "Menu Bar",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
-    "fullPath": "desktop-app--native-specific-/menu-bar"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Menu Bar",
+  "folderFullPath": "desktop-app--native-specific-/menu-bar",
   "steps": [
     {
       "inline": {
@@ -125,6 +120,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a85dfc1bbaf93bf3d737d89b154ea103116aebf6c002443c7d71185e6997f88d8e3951880c94a7b7a52e4ca681ea8e57",
+  "caseHashed": "49128e9f3e8a3cb1a59065e91937066cbb0af9ffabf706e5dae84bbd75582180c308a7259c4306752e86c95d60b41608",
   "stepsHashed": "cf712114a46300cf4331a13854cdeeeec126e3d9cf6aaa6b69ace4e798b0d665ff9e58022521150bb2ae7a02360a6e6f"
 }

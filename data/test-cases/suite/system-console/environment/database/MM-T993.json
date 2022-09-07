@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568111,
-    "name": "Database",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Database"],
-    "fullPath": "suite/system-console/environment/database"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Database",
+  "folderFullPath": "suite/system-console/environment/database",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c41f1a08923e6210f14f27fe82e4ed8306c6156b45a33b2d6a2d5c83705a19ebbacc977bd2f3f65ce524a493c373d2bf",
+  "caseHashed": "edf1340fc81943b13c3af9c4ce9dd09cd7e87a804225c59288a98efa76e70b396f0cbedc63a05001b510758f5c7ec537",
   "stepsHashed": "1f6ce85d1de56ff91c9a57213d42daa94b45c03c10db1a5c8790b8e6d22787e5ef682323b439e7adeaf16f461b3b183a"
 }

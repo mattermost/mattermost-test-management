@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569402,
-    "name": "Integration Management",
-    "parentId": 570084,
-    "fullNames": ["Suite", "System Console", "Integrations", "Integration Management"],
-    "fullPath": "suite/system-console/integrations/integration-management"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Integration Management",
+  "folderFullPath": "suite/system-console/integrations/integration-management",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0d2be3949c553e89d72946286bdc299bd6197f4fe63399f3ce56cf7762c1619de7631c62ebd67024ecd909386fca9f98",
+  "caseHashed": "c27704550c99897a8afbbb2e62716d01b78c1fbd6de90e28f898f01a1eef81ac6bb2a02e81a693e57558343301a745f8",
   "stepsHashed": "86938d22c91c0d91e747d225063721802e9e92fd3ecd6d62116ae7db9ad43bf86b7ef0aef3bb9044843472eec8cfa167"
 }

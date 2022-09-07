@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568113,
-    "name": "File Storage",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
-    "fullPath": "suite/system-console/environment/file-storage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "File Storage",
+  "folderFullPath": "suite/system-console/environment/file-storage",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "deae376208552e1a1da69a9820738d15bb69a20cc7ef8e627dd57bbd3505c9593cdf0f33ff27596e9518f0b37470f61c",
+  "caseHashed": "7e6ce0c8f99538990fc1191ad7918d5b2ac303ca45dbd524f1b33e2cf02e45ceaddc989f2602480e1095f1ec0619cbd6",
   "stepsHashed": "880c62776ee44d844b044479532b0413670f806bb7e2c65f8340bc044b927d8ac58f14d966d1d03cef0b736d33805bae"
 }

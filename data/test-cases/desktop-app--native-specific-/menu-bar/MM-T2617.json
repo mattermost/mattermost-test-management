@@ -7,16 +7,6 @@
   "precondition": "macOS desktop app only",
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565202,
-    "name": "Menu Bar",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
-    "fullPath": "desktop-app--native-specific-/menu-bar"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Menu Bar",
+  "folderFullPath": "desktop-app--native-specific-/menu-bar",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fa4532fe60e9d79a0915992bdffb4d57ce75fdc5f2fc96d14285c2e5220b3a8b529e6b2f905c2bfa752f7c1316cc67e5",
+  "caseHashed": "a6ed942e0d96f6b9fc82f2f2e118b81ba45172625dd73f0025c8ce32056bf62b2fd92dacdd3f14af8aef654652136e8c",
   "stepsHashed": "4e886dd4e96b83e7fb3fabf1cbd87560de4f392b7f2dcb1ab483e8a10272b1d476d74f8613f2ebcb7e5ae3e541bc75ad"
 }

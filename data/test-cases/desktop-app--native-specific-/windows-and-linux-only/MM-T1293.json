@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 817021,
-    "name": "Windows and Linux ONLY",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Windows and Linux ONLY"],
-    "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Windows and Linux ONLY",
+  "folderFullPath": "desktop-app--native-specific-/windows-and-linux-only",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "00a5942acb1578a2a9d586c3562211e77777a51898f634e1eaf04e4e3b620550e28a95c1d93ba7571cd846ef5fd9aebe",
+  "caseHashed": "f951dc1f5c77b606f80c57d1ffb5ea18fa865074797d09e63ab02dc9115eec76048bd47ed4e8a91cf1cdbc263740108e",
   "stepsHashed": "509cc0a19b584ba007217afe5c3c4ac8e6c53e6bcffb3fb7509bea483e58c81ce3db62f26377230fa6afe6578918cab3"
 }

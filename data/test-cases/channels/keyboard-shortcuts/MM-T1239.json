@@ -6,17 +6,7 @@
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
-  "labels": ["rf-cloud-webapp"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404289,
-    "name": "Keyboard Shortcuts",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Keyboard Shortcuts"],
-    "fullPath": "channels/keyboard-shortcuts"
-  },
+  "labels": ["rf-cloud-webapp", "cy-prod"],
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -26,12 +16,17 @@
     "Team Ownership": ["Channels"],
     "Manual Test Environments": ["Automated - No manual tests needed"],
     "Detox": null,
-    "Cypress": "Update",
+    "Cypress": "in Production",
     "MMCTL": null,
     "Last Updated": "",
     "Tags": [],
     "Location": "Keyboard Shortcuts"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Keyboard Shortcuts",
+  "folderFullPath": "channels/keyboard-shortcuts",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7e00e4d6459dc7677893740d801accd8b315b0afe16d665edc131230167db06844e9923924efda881097188b43945051",
+  "caseHashed": "f84365a2b3c33af6f134c6423e5d7a4802f71d92f135cb7512c83d2e86a8774c2e3b45078a89797cbcf9107b0ce92dba",
   "stepsHashed": "4b835e9b88a37c5bab1ec179a06a0621bfbc0d4229cd5e1be59b581c1d8bbca2358e65b8e6d96b8a98c01fa063aaaf2b"
 }

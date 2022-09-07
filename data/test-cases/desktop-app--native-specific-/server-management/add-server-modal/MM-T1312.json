@@ -7,19 +7,9 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1962396,
-    "name": "Add Server Modal",
-    "parentId": 565205,
-    "fullNames": ["Desktop App (native-specific)", "Server Management", "Add Server Modal"],
-    "fullPath": "desktop-app--native-specific-/server-management/add-server-modal"
-  },
   "customFields": {
     "Authors": "",
-    "Playwright": "In Production",
+    "Playwright": "in Production",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": ["in Production — Desktop"],
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Add Server Modal",
+  "folderFullPath": "desktop-app--native-specific-/server-management/add-server-modal",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0e60a10f090fc8a535f78b01b274989d8a075e112a85dd36319046f04b85383b16fb29b102dca95d805c9ce64c6f33ab",
+  "caseHashed": "cfc9e4425bac1b4e426483da952e0233c7e9ea300b6c00c86d524ef47cee0e65937fbea4c5a21dda5f8ab1e915e3539e",
   "stepsHashed": "d60cd30dfcb7d0cc1e6ca1ac462c02468d52aaf97d8e545dd675da1ae0a932a7ebbcc40518d99f96218265462138d965"
 }

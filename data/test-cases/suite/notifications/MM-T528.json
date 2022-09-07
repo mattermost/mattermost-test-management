@@ -7,16 +7,6 @@
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">This functionality is covered in <a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T526\">MM-T526</a> for Android and&nbsp;</span></strong><a href=\"https://mattermost.atlassian.net/projects/MM?selectedItem=com.atlassian.plugins.atlassian-connect-plugin%3Acom.kanoah.test-manager__main-project-page#!/testCase/MM-T527\"><strong><span style=\"color: rgb(184, 49, 47);\"><strong>MM-T527</strong></span></strong></a><strong><span style=\"color: rgb(184, 49, 47);\"><strong>&nbsp;for iOS. Marking this Do Not Test.</strong></span></strong><br><strong><span style=\"color: rgb(184, 49, 47);\"><strong>&nbsp;</strong></span></strong><br><strong><span style=\"color: rgb(184, 49, 47);\">If added back in, leave off iOS manual test until&nbsp;</span></strong><span style=\"color: rgb(41, 105, 176);\"><a href=\"https://mattermost.atlassian.net/browse/MM-23867\"><strong>https://mattermost.atlassian.net/browse/MM-23867</strong></a></span><strong><span style=\"color: rgb(184, 49, 47);\">&nbsp;is fixed.</span></strong>",
   "estimatedTime": null,
   "labels": ["notifications", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 892162, "name": "Update" },
-  "folder": {
-    "id": 404296,
-    "name": "Notifications",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Notifications"],
-    "fullPath": "suite/notifications"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Notifications"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Update",
+  "folderName": "Notifications",
+  "folderFullPath": "suite/notifications",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9cb32e0002bf2961cb06bbbebb231ccacf429b891ae809d44f7a5976b20fef32e960dc365ec5f9f5882726cb23b766fc",
+  "caseHashed": "1d92cf4a228c31be7238ee316bf14b5925026d3c4039aeabdd9aa0992aaedd3256fe3f6ab9982ff5d97e7e643f673fc2",
   "stepsHashed": "f5e8fea8ac34cb85398abfc7bfc88f1a7ea89bfa1a7487875f48bffa7faebb025707b679df5e117092044597bb0d37db"
 }

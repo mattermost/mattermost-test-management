@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["RN_Smoke_Tests", "ESR"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0cbbd9be2b7bf3c1b6de6b246111dd2cce5dc5b3b9d7a1715a1a79f92e2d0e9bc62fcc5b1b0c4aa3619be5949a9d6e87",
+  "caseHashed": "5ae93d879ed849f983b0e9f7993230d22d4ec2411e8056b3558a011e600675abffcaeb98de30075fcf9ff2ece32ecef3",
   "stepsHashed": "0a34acfa44cb526784833b27ebcbf1f5b3754453d8cc4f638f382aa76e80c4ce56d405e0d272d925fe8e9bdbd4f8841f"
 }

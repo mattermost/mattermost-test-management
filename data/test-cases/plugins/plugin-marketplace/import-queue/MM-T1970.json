@@ -7,16 +7,6 @@
   "precondition": "This should be tested on a local instance, with a local marketplace running.",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 712013,
-    "name": "Import Queue",
-    "parentId": 632425,
-    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
-    "fullPath": "plugins/plugin-marketplace/import-queue"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Plugin Marketplace"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Import Queue",
+  "folderFullPath": "plugins/plugin-marketplace/import-queue",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c7067998ddaf768f6a78e8de654684aa6a3aabc0422d1ea7289cb007b8f58d3781d361b50f83c3b943446a7482c13248",
+  "caseHashed": "eacf44f3c1977e67e50f367c6c790797a046071963afa6e661d358ea9cc379e93f340b509bc9e7c74fbbfa411ee141f4",
   "stepsHashed": "f11cacd6834029d22dad27f5cc4cd03371ac97a343ed73cdb1bf88c903c90dfb702ae532f98a2c9ca9bfddf58dd6bd57"
 }

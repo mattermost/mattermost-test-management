@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "rf-cloud-webapp", "search", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404335,
-    "name": "Search",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Search"],
-    "fullPath": "channels/search"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Search"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Search",
+  "folderFullPath": "channels/search",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "eeb33e3e9dbe415b9da3086009d7d8a4496526ccc6098cf162f9dc964ec4cdc58834915417bcb7ebae3f8705df1e80df",
+  "caseHashed": "2ed87d0350aa7ff1e953077dc1101bb466918409caa9f15c842e4d7ebfc3ab9b54b0023e4394038ccaae617f91422424",
   "stepsHashed": "03e9a6b661ea9fa9b4eeeb481acde1742885e98fb2e40f0c092f71073e5f849f3f3d9e735931177b7a22642605d74a61"
 }

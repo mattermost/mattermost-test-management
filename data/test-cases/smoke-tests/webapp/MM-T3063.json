@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "smoke-test-folder"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 884314,
-    "name": "WebApp",
-    "parentId": 404339,
-    "fullNames": ["Smoke Tests", "WebApp"],
-    "fullPath": "smoke-tests/webapp"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "WebApp",
+  "folderFullPath": "smoke-tests/webapp",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "370b8feab3320be222cdf2ca979e38e835587f66e14f0c7271266f5d5a8ff575595574c0cf64a56d76e475e730fdffa0",
+  "caseHashed": "206dea5206f1fadc8d387be745e005e6abd195350c6cd959b9680d30e6eecc5f6021b7a532ef6aed219a5be973a31a77",
   "stepsHashed": "8ea9a5b2cef08edd1d53e637d5be9e0ad456a22620fa6b7cb28a4029237822af759d27f51942d3d74a42aa60dc228587"
 }

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["plugins"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 1054414,
-    "name": "ToDo",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "ToDo"],
-    "fullPath": "plugins/todo"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,10 +22,15 @@
     "Tags": [],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "ToDo",
+  "folderFullPath": "plugins/todo",
   "steps": [
     {
       "inline": {
-        "description": "1. Enable the ToDo plugin<br />2. Open the RHS pain<br />3. Click the &quot;+&quot; <br />4. Add text and save",
+        "description": "1. Enable the ToDo plugin<br />2. Open the RHS pain<br />3. Ensure 'My ToDo' is selected<br />3. Click the \"+ Add Todo\"<br />4. Add text and save",
         "testData": null,
         "expectedResult": "ToDo item added tp your list in RHS",
         "customFields": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d0c357036eb33b5b2bca79a7053f2cd3a3b099862c024d13e0f734b668c743b310159347ead307d01ed94f82fda16d31",
-  "stepsHashed": "9413259c3f9aa538a1f1184151ea43fae2b0f2677edd327baa4c301eccb7f8365e5f1e5ebd2e1dfce62b0799b2241e02"
+  "caseHashed": "660e460a12b36bb055df68b934bbfcb94e77b35e2c8d45b7fc7d5e5d38a828a9891b784b1d936027fb5d0291500fbefd",
+  "stepsHashed": "0aaee6799bd15928b0b0471c9aef10b503bf68dd17d6b25d64f0cbadb815707fbc219ae267986d56a846ee66cc062cf9"
 }

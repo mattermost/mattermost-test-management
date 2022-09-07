@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod", "files-and-attachments"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404283,
-    "name": "Files and Attachments",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Files and Attachments"],
-    "fullPath": "channels/files-and-attachments"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Files and Attachments"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Files and Attachments",
+  "folderFullPath": "channels/files-and-attachments",
   "steps": [
     {
       "inline": {
@@ -99,6 +94,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "14459b18d18b3cb0d54fc1f08aeb9ce0ee817861bcc9b3ed869f480e47a9f3b90e57b42b205025ffc57d2e8c88896e4d",
+  "caseHashed": "58cfd54458d0884d67e716d28d257bc189b6f7b3abff7eeeb63adf11758a622deed96a886b9471fcc50195690e0ad08d",
   "stepsHashed": "a2acfb93d26dc13535893feb273b0e83fd2f39a575aaa5412649f58a9a3215dfc2f1478c79976236170d4bb822fba7eb"
 }

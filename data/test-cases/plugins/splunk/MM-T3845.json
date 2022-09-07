@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["plugins"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1177276,
-    "name": "Splunk",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "Splunk"],
-    "fullPath": "plugins/splunk"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Splunk",
+  "folderFullPath": "plugins/splunk",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3a2374520ea5a334a45eac8d5791ae3021fa3ba0cf21f10de0e0745a9224461b89e3ffbcfba7e3967bfac374dd14d4b3",
+  "caseHashed": "d77af7e83a00f853528e36362ac51b6ada068ab739445a690ee18c8d689dddcf3db381a7f67b36a335adbb739b9d3dc5",
   "stepsHashed": "1a3ee70e8f5660633cc519c83e2f19b8868fe0e7109471f9ee2e217817c41ebf43fb620deea6ea7928ba0fe5c1871804"
 }

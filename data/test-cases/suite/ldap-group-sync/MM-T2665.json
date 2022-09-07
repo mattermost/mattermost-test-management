@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["ldap-group-sync", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 631925,
-    "name": "LDAP Group Sync",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "LDAP Group Sync"],
-    "fullPath": "suite/ldap-group-sync"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "LDAP Group Sync"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "LDAP Group Sync",
+  "folderFullPath": "suite/ldap-group-sync",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ad2abf2ad72f06b7081ecbf20c5c17bcb0693302f8b5e19fe7131a8db5b221f2565ea626615a75d16228c3685828d4ab",
+  "caseHashed": "11201379071f7931a569e5dff672ccd374f8b3da0d57aba3455ff241d5b49209e7d9b08c58f516bf08cf6ec2f9bbef7c",
   "stepsHashed": "23a52d09a53b5daee9315ed45301dd29614f94fb7cecb020f813067ce4ed37533f64fc62319dcbb00806570e4525ab43"
 }

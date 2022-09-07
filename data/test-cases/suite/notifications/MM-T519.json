@@ -7,16 +7,6 @@
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Must test on iOS 12 or newer (mark test as Blocked if you don't have iOS 12+ available to test on)</span></strong><br><br><strong><span style=\"color: rgb(184, 49, 47);\">Also ensure that within iOS Settings, your Mattermost app notifications setting is set to Automatic (not \"By app\") <br></span></strong>",
   "estimatedTime": null,
   "labels": ["ios-only", "1.42-p123", "notifications", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404296,
-    "name": "Notifications",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Notifications"],
-    "fullPath": "suite/notifications"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Notifications"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Notifications",
+  "folderFullPath": "suite/notifications",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0e8d042e79071e98c4ef27318cc28d0909acc9c351d8822b26313c03c859ebf10d38210e1358f192a0d6d8a584341f55",
+  "caseHashed": "781c09c3ae7b7ed0f5432d95e4be571262c2349c634a64858617bddf0c6ef14075b0fab54dec2be29fae80ebb4cfc06e",
   "stepsHashed": "a94f676f944cfe9cab3e94521f8593648d45ded095b83236560567fa9d1f723a6fae6755de7dddbfc4f7323d65bd273d"
 }

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569415,
-    "name": "Compliance Monitoring",
-    "parentId": 570062,
-    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
-    "fullPath": "suite/system-console/compliance/compliance-monitoring"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Compliance Monitoring",
+  "folderFullPath": "suite/system-console/compliance/compliance-monitoring",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c2b5d5bfa4c110126d550f794b434ab50eecedbd99deea4c84ed3af885b39094e7d0279599abf447ac49c9cf332d3ee2",
+  "caseHashed": "8f5080f83ab06a8d6a90d473a050227965c7ad34fa2051fee6f8f75893446832afcfacad7b2f9e8685c11e6a0efdfeb4",
   "stepsHashed": "709838b6f05cdeca4ef1c6e28e2ea96df75bf095be4e1dcede23da94893f8f7f9b889745254229ffb0bad3e8b2c238b9"
 }

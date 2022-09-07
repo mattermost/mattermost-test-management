@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569154,
-    "name": "Notifications",
-    "parentId": 570051,
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
-    "fullPath": "suite/system-console/site-configuration/notifications"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Notifications",
+  "folderFullPath": "suite/system-console/site-configuration/notifications",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ad345dce6b3e119eb72ff78c15e1548742c65ea861156a1de82d13d05dedf7f8747393ad088003aaaf467debf583b66b",
+  "caseHashed": "3c985926c314fd9bc2c41fb15e6b9f04e7222286bc38a5d835a1c04c5ee6ec5e68c38d47e0195c579a63ce28ed4804f1",
   "stepsHashed": "95cf87c4f59a34aa0b274f17b6805c113e3072bc515baf3aca7e7a3923394b8e786bf32ca9a6d6dfc9950a4a1ef2a26b"
 }

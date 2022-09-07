@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568082,
-    "name": "Any page",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Any page"],
-    "fullPath": "suite/system-console/any-page"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Any page",
+  "folderFullPath": "suite/system-console/any-page",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9b20e926035270b3f522637c70d63c139f950a4199ef1423bc32bcfce4069e0169867127c73a0814cb295460adb06e16",
+  "caseHashed": "584f2c5b1337b2408fa52530d0558aeca8591f44728fc06c56c0469417223bab5a660f7229056a824946ac3d4a734f2a",
   "stepsHashed": "a7f4d0659d12c981b4398c9ac6e48f0ff27e2e44eea1372e4d81a88accffe1af77574094019620a8229f48c36e1018a9"
 }

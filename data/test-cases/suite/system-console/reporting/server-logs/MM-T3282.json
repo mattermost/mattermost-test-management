@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 570071,
-    "name": "Server Logs",
-    "parentId": 538608,
-    "fullNames": ["Suite", "System Console", "Reporting", "Server Logs"],
-    "fullPath": "suite/system-console/reporting/server-logs"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Server Logs",
+  "folderFullPath": "suite/system-console/reporting/server-logs",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f79f80eb28366297427ea4eccffcd6d386764c76112fb79ffbb613ec93021ba0076352b62688735c26393547d3501e1a",
+  "caseHashed": "9e8e3d4b45af7b96ffd227f469a42759deacb4a86feb555dd817bd73f7ff2d48db0e438dbbb9c4c0fda112e16ce170e4",
   "stepsHashed": "4681ced1957ecc121273ab500f49bbc9ef0365c91b94b5f4e8524940c53e25e1b3cb2a24a9f80244b77cf1c127beade5"
 }

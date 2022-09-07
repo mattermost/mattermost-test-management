@@ -12,16 +12,6 @@
     "fix-versions-not-empty-2022cleanup",
     "cy-rep-missing-or-skipped"
   ],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 733341,
-    "name": "Group Mentions",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
-    "fullPath": "suite/enterprise/group-mentions"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -37,6 +27,11 @@
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Group Mentions",
+  "folderFullPath": "suite/enterprise/group-mentions",
   "steps": [
     {
       "inline": {
@@ -52,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e0ab29d61692acbc8542b014f2d5e0ffc55bfb4ce0faf04b57032c57975a6d3adc6e93797e9b61df54e33fa2bb93d27d",
+  "caseHashed": "4ef779d43056b6a6be2973de0d13df93747da108b807fca06577bb407f7d578584bd4e1f46f62eb3532d7ea3a7566f47",
   "stepsHashed": "eff3f220ef4fff36e1e974ac35b710a0cb1012267c37196e68b0b0a93e08f3896c39601ab872cd1fc83c0d5c7b3299d1"
 }

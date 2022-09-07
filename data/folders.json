@@ -1,21 +1,332 @@
 [
   {
-    "id": 399627,
-    "parentId": 3142963,
-    "name": "Add user from popover",
-    "index": 2,
+    "id": 1214365,
+    "parentId": null,
+    "name": "Apps Framework",
+    "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Add user from popover"],
-    "fullPath": "channels/add-user-from-popover"
+    "fullNames": ["Apps Framework"],
+    "fullPath": "apps-framework"
   },
   {
-    "id": 399678,
-    "parentId": null,
-    "name": "Ticket coverage",
-    "index": 15,
+    "id": 1236115,
+    "parentId": 1214365,
+    "name": "Framework and test apps",
+    "index": 5,
     "folderType": "TEST_CASE",
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
+    "fullNames": ["Apps Framework", "Framework and test apps"],
+    "fullPath": "apps-framework/framework-and-test-apps"
+  },
+  {
+    "id": 1285252,
+    "parentId": 1236115,
+    "name": "Apps AWS Deployment",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "Apps AWS Deployment"],
+    "fullPath": "apps-framework/framework-and-test-apps/apps-aws-deployment"
+  },
+  {
+    "id": 2558591,
+    "parentId": 1236115,
+    "name": "hello oAuth",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "hello oAuth"],
+    "fullPath": "apps-framework/framework-and-test-apps/hello-oauth"
+  },
+  {
+    "id": 1236119,
+    "parentId": 1236115,
+    "name": "http-hello app",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "http-hello app"],
+    "fullPath": "apps-framework/framework-and-test-apps/http-hello-app"
+  },
+  {
+    "id": 1236118,
+    "parentId": 1236115,
+    "name": "test-app",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app"
+  },
+  {
+    "id": 1941501,
+    "parentId": 1236118,
+    "name": "(prev)",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
+  },
+  {
+    "id": 2558604,
+    "parentId": 1236118,
+    "name": "Embedded tests",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Embedded tests"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/embedded-tests"
+  },
+  {
+    "id": 2558582,
+    "parentId": 1236118,
+    "name": "Error test commands",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Error test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/error-test-commands"
+  },
+  {
+    "id": 2558608,
+    "parentId": 1236118,
+    "name": "Form test",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Form test"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/form-test"
+  },
+  {
+    "id": 2558596,
+    "parentId": 1236118,
+    "name": "General",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "General"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/general"
+  },
+  {
+    "id": 2558586,
+    "parentId": 1236118,
+    "name": "Invalid test command",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Invalid test command"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/invalid-test-command"
+  },
+  {
+    "id": 2558611,
+    "parentId": 1236118,
+    "name": "Subscribe test",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Subscribe test"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/subscribe-test"
+  },
+  {
+    "id": 2558579,
+    "parentId": 1236118,
+    "name": "Valid test commands",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Valid test commands"],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/valid-test-commands"
+  },
+  {
+    "id": 2558585,
+    "parentId": 1236118,
+    "name": "with_input test commands",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": [
+      "Apps Framework",
+      "Framework and test apps",
+      "test-app",
+      "with_input test commands"
+    ],
+    "fullPath": "apps-framework/framework-and-test-apps/test-app/with_input-test-commands"
+  },
+  {
+    "id": 3290379,
+    "parentId": 1214365,
+    "name": "OpsGenie",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "OpsGenie"],
+    "fullPath": "apps-framework/opsgenie"
+  },
+  {
+    "id": 3290380,
+    "parentId": 1214365,
+    "name": "PagerDuty",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "PagerDuty"],
+    "fullPath": "apps-framework/pagerduty"
+  },
+  {
+    "id": 1244767,
+    "parentId": 1214365,
+    "name": "Service Now",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Service Now"],
+    "fullPath": "apps-framework/service-now"
+  },
+  {
+    "id": 3290340,
+    "parentId": 1214365,
+    "name": "Trello",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Trello"],
+    "fullPath": "apps-framework/trello"
+  },
+  {
+    "id": 1244765,
+    "parentId": 1214365,
+    "name": "Zendesk",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Apps Framework", "Zendesk"],
+    "fullPath": "apps-framework/zendesk"
+  },
+  {
+    "id": 1840223,
+    "parentId": null,
+    "name": "Boards",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards"],
+    "fullPath": "boards"
+  },
+  {
+    "id": 1840288,
+    "parentId": 1840223,
+    "name": "Board creation and set-up",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Board creation and set-up"],
+    "fullPath": "boards/board-creation-and-set-up"
+  },
+  {
+    "id": 1841226,
+    "parentId": 1840223,
+    "name": "Board View",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Board View"],
+    "fullPath": "boards/board-view"
+  },
+  {
+    "id": 2014892,
+    "parentId": 1840223,
+    "name": "Boards App Regression Tests",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Boards App Regression Tests"],
+    "fullPath": "boards/boards-app-regression-tests"
+  },
+  {
+    "id": 1853989,
+    "parentId": 1840223,
+    "name": "Browser Plugin Regression Tests",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Browser Plugin Regression Tests"],
+    "fullPath": "boards/browser-plugin-regression-tests"
+  },
+  {
+    "id": 1841544,
+    "parentId": 1840223,
+    "name": "Card dialog",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Card dialog"],
+    "fullPath": "boards/card-dialog"
+  },
+  {
+    "id": 2737124,
+    "parentId": 1840223,
+    "name": "Cloud Free",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Cloud Free"],
+    "fullPath": "boards/cloud-free"
+  },
+  {
+    "id": 2442910,
+    "parentId": 1840223,
+    "name": "Integration tests",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Integration tests"],
+    "fullPath": "boards/integration-tests"
+  },
+  {
+    "id": 1976969,
+    "parentId": 1840223,
+    "name": "MM Desktop App Plugin Regression Tests",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "MM Desktop App Plugin Regression Tests"],
+    "fullPath": "boards/mm-desktop-app-plugin-regression-tests"
+  },
+  {
+    "id": 2228507,
+    "parentId": 1840223,
+    "name": "Onboarding Tour",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Onboarding Tour"],
+    "fullPath": "boards/onboarding-tour"
+  },
+  {
+    "id": 2442907,
+    "parentId": 1840223,
+    "name": "Permissions",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Permissions"],
+    "fullPath": "boards/permissions"
+  },
+  {
+    "id": 1840955,
+    "parentId": 1840223,
+    "name": "Personal Dashboard",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Boards", "Personal Dashboard"],
+    "fullPath": "boards/personal-dashboard"
+  },
+  {
+    "id": 2642484,
+    "parentId": null,
+    "name": "Calls",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Calls"],
+    "fullPath": "calls"
+  },
+  {
+    "id": 2726525,
+    "parentId": 2642484,
+    "name": "Calls",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Calls", "Calls"],
+    "fullPath": "calls/calls"
+  },
+  {
+    "id": 2759054,
+    "parentId": 2642484,
+    "name": "Mobile",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Calls", "Mobile"],
+    "fullPath": "calls/mobile"
+  },
+  {
+    "id": 3142963,
+    "parentId": null,
+    "name": "Channels",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels"],
+    "fullPath": "channels"
   },
   {
     "id": 404268,
@@ -27,13 +338,13 @@
     "fullPath": "channels/ada-accessibility"
   },
   {
-    "id": 404269,
-    "parentId": 2954447,
-    "name": "AD LDAP",
-    "index": 21,
+    "id": 399627,
+    "parentId": 3142963,
+    "name": "Add user from popover",
+    "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "AD LDAP"],
-    "fullPath": "suite/ad-ldap"
+    "fullNames": ["Channels", "Add user from popover"],
+    "fullPath": "channels/add-user-from-popover"
   },
   {
     "id": 404271,
@@ -45,40 +356,22 @@
     "fullPath": "channels/archived-channels"
   },
   {
-    "id": 404272,
-    "parentId": 2954447,
-    "name": "Auth SSO",
-    "index": 2,
+    "id": 3337681,
+    "parentId": 3142963,
+    "name": "Autocomplete",
+    "index": 31,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Auth SSO"],
-    "fullPath": "suite/auth-sso"
+    "fullNames": ["Channels", "Autocomplete"],
+    "fullPath": "channels/autocomplete"
   },
   {
-    "id": 404274,
-    "parentId": 404284,
-    "name": "Bot Accounts",
+    "id": 1353114,
+    "parentId": 3337681,
+    "name": "With Database",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts"],
-    "fullPath": "integrations/bot-accounts"
-  },
-  {
-    "id": 404277,
-    "parentId": 3142963,
-    "name": "Channel Settings",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Channel Settings"],
-    "fullPath": "channels/channel-settings"
-  },
-  {
-    "id": 404278,
-    "parentId": 2954447,
-    "name": "CLI",
-    "index": 23,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "CLI"],
-    "fullPath": "suite/cli"
+    "fullNames": ["Channels", "Autocomplete", "With Database"],
+    "fullPath": "channels/autocomplete/with-database"
   },
   {
     "id": 404281,
@@ -90,6 +383,105 @@
     "fullPath": "channels/autocomplete/with-elasticsearch"
   },
   {
+    "id": 981324,
+    "parentId": 3142963,
+    "name": "Channel Info RN Apps",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Channel Info RN Apps"],
+    "fullPath": "channels/channel-info-rn-apps"
+  },
+  {
+    "id": 3142995,
+    "parentId": 3142963,
+    "name": "Channel menu",
+    "index": 21,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Channel menu"],
+    "fullPath": "channels/channel-menu"
+  },
+  {
+    "id": 404277,
+    "parentId": 3142963,
+    "name": "Channel Settings",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Channel Settings"],
+    "fullPath": "channels/channel-settings"
+  },
+  {
+    "id": 1059110,
+    "parentId": 3142963,
+    "name": "Channels",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Channels"],
+    "fullPath": "channels/channels"
+  },
+  {
+    "id": 1615722,
+    "parentId": 3142963,
+    "name": "Collapsed Reply Threads",
+    "index": 17,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Collapsed Reply Threads"],
+    "fullPath": "channels/collapsed-reply-threads"
+  },
+  {
+    "id": 2960960,
+    "parentId": 3142963,
+    "name": "Custom Emoji",
+    "index": 19,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Custom Emoji"],
+    "fullPath": "channels/custom-emoji"
+  },
+  {
+    "id": 1175100,
+    "parentId": 3142963,
+    "name": "Custom Statuses",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Custom Statuses"],
+    "fullPath": "channels/custom-statuses"
+  },
+  {
+    "id": 1222178,
+    "parentId": 1175100,
+    "name": "Mobile",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Custom Statuses", "Mobile"],
+    "fullPath": "channels/custom-statuses/mobile"
+  },
+  {
+    "id": 1222177,
+    "parentId": 1175100,
+    "name": "Web",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Custom Statuses", "Web"],
+    "fullPath": "channels/custom-statuses/web"
+  },
+  {
+    "id": 3233825,
+    "parentId": 3142963,
+    "name": "Edited Post",
+    "index": 23,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Edited Post"],
+    "fullPath": "channels/edited-post"
+  },
+  {
+    "id": 1465976,
+    "parentId": 3142963,
+    "name": "Emoji picker",
+    "index": 18,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Emoji picker"],
+    "fullPath": "channels/emoji-picker"
+  },
+  {
     "id": 404283,
     "parentId": 3142963,
     "name": "Files and Attachments",
@@ -99,40 +491,13 @@
     "fullPath": "channels/files-and-attachments"
   },
   {
-    "id": 404284,
-    "parentId": null,
-    "name": "Integrations",
-    "index": 6,
+    "id": 1969137,
+    "parentId": 3142963,
+    "name": "Global Drafts",
+    "index": 15,
     "folderType": "TEST_CASE",
-    "fullNames": ["Integrations"],
-    "fullPath": "integrations"
-  },
-  {
-    "id": 404285,
-    "parentId": 404284,
-    "name": "Interactive Dialogs",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Interactive Dialogs"],
-    "fullPath": "integrations/interactive-dialogs"
-  },
-  {
-    "id": 404287,
-    "parentId": 404284,
-    "name": "Interactive Menus Message Attachments",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
-    "fullPath": "integrations/interactive-menus-message-attachments"
-  },
-  {
-    "id": 404288,
-    "parentId": 404330,
-    "name": "Jira V2",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2"],
-    "fullPath": "plugins/jira-v2"
+    "fullNames": ["Channels", "Global Drafts"],
+    "fullPath": "channels/global-drafts"
   },
   {
     "id": 404289,
@@ -144,13 +509,85 @@
     "fullPath": "channels/keyboard-shortcuts"
   },
   {
-    "id": 404291,
-    "parentId": 2954447,
-    "name": "License Levels",
-    "index": 12,
+    "id": 712113,
+    "parentId": 3142963,
+    "name": "Left Sidebar",
+    "index": 14,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "License Levels"],
-    "fullPath": "suite/license-levels"
+    "fullNames": ["Channels", "Left Sidebar"],
+    "fullPath": "channels/left-sidebar"
+  },
+  {
+    "id": 1007282,
+    "parentId": 712113,
+    "name": "Custom Categories",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
+    "fullPath": "channels/left-sidebar/custom-categories"
+  },
+  {
+    "id": 1007306,
+    "parentId": 712113,
+    "name": "DMs and GMs",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "DMs and GMs"],
+    "fullPath": "channels/left-sidebar/dms-and-gms"
+  },
+  {
+    "id": 1007308,
+    "parentId": 712113,
+    "name": "Favorites",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "Favorites"],
+    "fullPath": "channels/left-sidebar/favorites"
+  },
+  {
+    "id": 1007099,
+    "parentId": 712113,
+    "name": "Settings",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "Settings"],
+    "fullPath": "channels/left-sidebar/settings"
+  },
+  {
+    "id": 1007284,
+    "parentId": 712113,
+    "name": "Unread filter",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "Unread filter"],
+    "fullPath": "channels/left-sidebar/unread-filter"
+  },
+  {
+    "id": 1007287,
+    "parentId": 712113,
+    "name": "UX hover animation alignment",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Left Sidebar", "UX hover animation alignment"],
+    "fullPath": "channels/left-sidebar/ux-hover-animation-alignment"
+  },
+  {
+    "id": 547177,
+    "parentId": 3142963,
+    "name": "Mark as Unread",
+    "index": 20,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Mark as Unread"],
+    "fullPath": "channels/mark-as-unread"
+  },
+  {
+    "id": 3103572,
+    "parentId": 3142963,
+    "name": "Message Forwarding",
+    "index": 24,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Message Forwarding"],
+    "fullPath": "channels/message-forwarding"
   },
   {
     "id": 404292,
@@ -162,6 +599,15 @@
     "fullPath": "channels/messaging"
   },
   {
+    "id": 2063150,
+    "parentId": 3142963,
+    "name": "Mobile App Settings",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Mobile App Settings"],
+    "fullPath": "channels/mobile-app-settings"
+  },
+  {
     "id": 404295,
     "parentId": 3142963,
     "name": "Multi-Team and DMs",
@@ -171,67 +617,22 @@
     "fullPath": "channels/multi-team-and-dms"
   },
   {
-    "id": 404296,
-    "parentId": 2954447,
-    "name": "Notifications",
-    "index": 11,
+    "id": 1879390,
+    "parentId": 3142963,
+    "name": "Permalink Preview",
+    "index": 26,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Notifications"],
-    "fullPath": "suite/notifications"
+    "fullNames": ["Channels", "Permalink Preview"],
+    "fullPath": "channels/permalink-preview"
   },
   {
-    "id": 404297,
-    "parentId": 404330,
-    "name": "NPS Plugin",
-    "index": 3,
+    "id": 2063033,
+    "parentId": 3142963,
+    "name": "Profile Settings",
+    "index": 12,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "NPS Plugin"],
-    "fullPath": "plugins/nps-plugin"
-  },
-  {
-    "id": 404298,
-    "parentId": 2954447,
-    "name": "OAuth",
-    "index": 17,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "OAuth"],
-    "fullPath": "suite/oauth"
-  },
-  {
-    "id": 404328,
-    "parentId": 2954447,
-    "name": "Onboarding",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Onboarding"],
-    "fullPath": "suite/onboarding"
-  },
-  {
-    "id": 404329,
-    "parentId": 2954447,
-    "name": "Permissions",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Permissions"],
-    "fullPath": "suite/permissions"
-  },
-  {
-    "id": 404330,
-    "parentId": null,
-    "name": "Plugins",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins"],
-    "fullPath": "plugins"
-  },
-  {
-    "id": 404332,
-    "parentId": 2954447,
-    "name": "SAML",
-    "index": 15,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "SAML"],
-    "fullPath": "suite/saml"
+    "fullNames": ["Channels", "Profile Settings"],
+    "fullPath": "channels/profile-settings"
   },
   {
     "id": 404333,
@@ -261,1026 +662,40 @@
     "fullPath": "channels/search-date-filter"
   },
   {
-    "id": 404337,
-    "parentId": 2954447,
-    "name": "Sign In Authentication",
-    "index": 16,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Sign In Authentication"],
-    "fullPath": "suite/sign-in-authentication"
-  },
-  {
-    "id": 404338,
-    "parentId": 2954447,
-    "name": "Slack Import",
-    "index": 20,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Slack Import"],
-    "fullPath": "suite/slack-import"
-  },
-  {
-    "id": 404339,
-    "parentId": null,
-    "name": "Smoke Tests",
-    "index": 16,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Smoke Tests"],
-    "fullPath": "smoke-tests"
-  },
-  {
-    "id": 404340,
-    "parentId": 2954447,
-    "name": "System Console",
-    "index": 18,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console"],
-    "fullPath": "suite/system-console"
-  },
-  {
-    "id": 404341,
+    "id": 2063031,
     "parentId": 3142963,
-    "name": "Team Settings",
-    "index": 30,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Team Settings"],
-    "fullPath": "channels/team-settings"
-  },
-  {
-    "id": 410627,
-    "parentId": null,
-    "name": "Mobile App (native-specific)",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile App (native-specific)"],
-    "fullPath": "mobile-app--native-specific-"
-  },
-  {
-    "id": 538607,
-    "parentId": 404340,
-    "name": "Search box",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Search box"],
-    "fullPath": "suite/system-console/search-box"
-  },
-  {
-    "id": 538608,
-    "parentId": 404340,
-    "name": "Reporting",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Reporting"],
-    "fullPath": "suite/system-console/reporting"
-  },
-  {
-    "id": 538609,
-    "parentId": 404340,
-    "name": "Main Menu",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Main Menu"],
-    "fullPath": "suite/system-console/main-menu"
-  },
-  {
-    "id": 538610,
-    "parentId": 404340,
-    "name": "User Management",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "User Management"],
-    "fullPath": "suite/system-console/user-management"
-  },
-  {
-    "id": 547177,
-    "parentId": 3142963,
-    "name": "Mark as Unread",
-    "index": 20,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Mark as Unread"],
-    "fullPath": "channels/mark-as-unread"
-  },
-  {
-    "id": 565201,
-    "parentId": null,
-    "name": "Desktop App (native-specific)",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)"],
-    "fullPath": "desktop-app--native-specific-"
-  },
-  {
-    "id": 565202,
-    "parentId": 565201,
-    "name": "Menu Bar",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
-    "fullPath": "desktop-app--native-specific-/menu-bar"
-  },
-  {
-    "id": 565204,
-    "parentId": 565201,
-    "name": "System Tray Icon",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "System Tray Icon"],
-    "fullPath": "desktop-app--native-specific-/system-tray-icon"
-  },
-  {
-    "id": 565205,
-    "parentId": 565201,
-    "name": "Server Management",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Server Management"],
-    "fullPath": "desktop-app--native-specific-/server-management"
-  },
-  {
-    "id": 565206,
-    "parentId": 565201,
-    "name": "Permissions",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Permissions"],
-    "fullPath": "desktop-app--native-specific-/permissions"
-  },
-  {
-    "id": 565208,
-    "parentId": 565201,
-    "name": "Deep Linking",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Deep Linking"],
-    "fullPath": "desktop-app--native-specific-/deep-linking"
-  },
-  {
-    "id": 565210,
-    "parentId": 565201,
-    "name": "Channel and Team Sidebars",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Channel and Team Sidebars"],
-    "fullPath": "desktop-app--native-specific-/channel-and-team-sidebars"
-  },
-  {
-    "id": 565212,
-    "parentId": 565201,
-    "name": "Relative URLs",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Relative URLs"],
-    "fullPath": "desktop-app--native-specific-/relative-urls"
-  },
-  {
-    "id": 565214,
-    "parentId": 565201,
-    "name": "Search box",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Search box"],
-    "fullPath": "desktop-app--native-specific-/search-box"
-  },
-  {
-    "id": 565215,
-    "parentId": 565201,
-    "name": "Dark mode",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Dark mode"],
-    "fullPath": "desktop-app--native-specific-/dark-mode"
-  },
-  {
-    "id": 565216,
-    "parentId": 565201,
-    "name": "Focus behavior",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
-    "fullPath": "desktop-app--native-specific-/focus-behavior"
-  },
-  {
-    "id": 565217,
-    "parentId": 565201,
-    "name": "Right Click menu options",
+    "name": "Settings",
     "index": 11,
     "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Right Click menu options"],
-    "fullPath": "desktop-app--native-specific-/right-click-menu-options"
+    "fullNames": ["Channels", "Settings"],
+    "fullPath": "channels/settings"
   },
   {
-    "id": 567106,
-    "parentId": 404340,
-    "name": "About",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "About"],
-    "fullPath": "suite/system-console/about"
-  },
-  {
-    "id": 568082,
-    "parentId": 404340,
-    "name": "Any page",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Any page"],
-    "fullPath": "suite/system-console/any-page"
-  },
-  {
-    "id": 568089,
-    "parentId": 569450,
-    "name": "Web Server",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
-    "fullPath": "suite/system-console/environment/web-server"
-  },
-  {
-    "id": 568111,
-    "parentId": 569450,
-    "name": "Database",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Database"],
-    "fullPath": "suite/system-console/environment/database"
-  },
-  {
-    "id": 568112,
-    "parentId": 569450,
-    "name": "Elasticsearch",
+    "id": 2063264,
+    "parentId": 2063031,
+    "name": "Advanced",
     "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Elasticsearch"],
-    "fullPath": "suite/system-console/environment/elasticsearch"
+    "fullNames": ["Channels", "Settings", "Advanced"],
+    "fullPath": "channels/settings/advanced"
   },
   {
-    "id": 568113,
-    "parentId": 569450,
-    "name": "File Storage",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
-    "fullPath": "suite/system-console/environment/file-storage"
-  },
-  {
-    "id": 568173,
-    "parentId": 569450,
-    "name": "Image Proxy",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Image Proxy"],
-    "fullPath": "suite/system-console/environment/image-proxy"
-  },
-  {
-    "id": 568174,
-    "parentId": 569450,
-    "name": "SMTP",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "SMTP"],
-    "fullPath": "suite/system-console/environment/smtp"
-  },
-  {
-    "id": 568176,
-    "parentId": 569450,
-    "name": "Push Notification Server",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Push Notification Server"],
-    "fullPath": "suite/system-console/environment/push-notification-server"
-  },
-  {
-    "id": 568177,
-    "parentId": 569450,
-    "name": "High Availability",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "High Availability"],
-    "fullPath": "suite/system-console/environment/high-availability"
-  },
-  {
-    "id": 568179,
-    "parentId": 569450,
-    "name": "Rate Limiting",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Rate Limiting"],
-    "fullPath": "suite/system-console/environment/rate-limiting"
-  },
-  {
-    "id": 568180,
-    "parentId": 569450,
-    "name": "Session Lengths",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Session Lengths"],
-    "fullPath": "suite/system-console/environment/session-lengths"
-  },
-  {
-    "id": 568182,
-    "parentId": 569450,
-    "name": "Performance Monitoring",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Performance Monitoring"],
-    "fullPath": "suite/system-console/environment/performance-monitoring"
-  },
-  {
-    "id": 568184,
-    "parentId": 569450,
-    "name": "Environment - Developer",
-    "index": 12,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Environment - Developer"],
-    "fullPath": "suite/system-console/environment/environment---developer"
-  },
-  {
-    "id": 568186,
-    "parentId": 570051,
-    "name": "Customization",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
-    "fullPath": "suite/system-console/site-configuration/customization"
-  },
-  {
-    "id": 568192,
-    "parentId": 570051,
-    "name": "Localization",
+    "id": 2063270,
+    "parentId": 2063031,
+    "name": "Display",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Localization"],
-    "fullPath": "suite/system-console/site-configuration/localization"
+    "fullNames": ["Channels", "Settings", "Display"],
+    "fullPath": "channels/settings/display"
   },
   {
-    "id": 569153,
-    "parentId": 570051,
-    "name": "Users and Teams",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
-    "fullPath": "suite/system-console/site-configuration/users-and-teams"
-  },
-  {
-    "id": 569154,
-    "parentId": 570051,
+    "id": 2063269,
+    "parentId": 2063031,
     "name": "Notifications",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
-    "fullPath": "suite/system-console/site-configuration/notifications"
-  },
-  {
-    "id": 569318,
-    "parentId": 570051,
-    "name": "Announcement Banner",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Announcement Banner"],
-    "fullPath": "suite/system-console/site-configuration/announcement-banner"
-  },
-  {
-    "id": 569359,
-    "parentId": 570051,
-    "name": "Emoji",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Emoji"],
-    "fullPath": "suite/system-console/site-configuration/emoji"
-  },
-  {
-    "id": 569361,
-    "parentId": 570051,
-    "name": "Posts",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Posts"],
-    "fullPath": "suite/system-console/site-configuration/posts"
-  },
-  {
-    "id": 569362,
-    "parentId": 570051,
-    "name": "Public Links",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Public Links"],
-    "fullPath": "suite/system-console/site-configuration/public-links"
-  },
-  {
-    "id": 569363,
-    "parentId": 570051,
-    "name": "File Sharing and Downloads",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration", "File Sharing and Downloads"],
-    "fullPath": "suite/system-console/site-configuration/file-sharing-and-downloads"
-  },
-  {
-    "id": 569364,
-    "parentId": 404340,
-    "name": "File Sharing and Downloads",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "File Sharing and Downloads"],
-    "fullPath": "suite/system-console/file-sharing-and-downloads"
-  },
-  {
-    "id": 569402,
-    "parentId": 570084,
-    "name": "Integration Management",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Integrations", "Integration Management"],
-    "fullPath": "suite/system-console/integrations/integration-management"
-  },
-  {
-    "id": 569410,
-    "parentId": 570084,
-    "name": "GIF (Beta)",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Integrations", "GIF (Beta)"],
-    "fullPath": "suite/system-console/integrations/gif--beta-"
-  },
-  {
-    "id": 569411,
-    "parentId": 570084,
-    "name": "CORS",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Integrations", "CORS"],
-    "fullPath": "suite/system-console/integrations/cors"
-  },
-  {
-    "id": 569412,
-    "parentId": 570062,
-    "name": "Data Retention Policy",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
-    "fullPath": "suite/system-console/compliance/data-retention-policy"
-  },
-  {
-    "id": 569413,
-    "parentId": 570062,
-    "name": "Compliance Export",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
-    "fullPath": "suite/system-console/compliance/compliance-export"
-  },
-  {
-    "id": 569415,
-    "parentId": 570062,
-    "name": "Compliance Monitoring",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
-    "fullPath": "suite/system-console/compliance/compliance-monitoring"
-  },
-  {
-    "id": 569417,
-    "parentId": 570062,
-    "name": "Custom Terms of Service",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
-    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
-  },
-  {
-    "id": 569441,
-    "parentId": 567106,
-    "name": "Edition and License",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "About", "Edition and License"],
-    "fullPath": "suite/system-console/about/edition-and-license"
-  },
-  {
-    "id": 569442,
-    "parentId": 404340,
-    "name": "Experimental",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Experimental"],
-    "fullPath": "suite/system-console/experimental"
-  },
-  {
-    "id": 569444,
-    "parentId": 404340,
-    "name": "Channel Search and Pagination",
-    "index": 15,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Channel Search and Pagination"],
-    "fullPath": "suite/system-console/channel-search-and-pagination"
-  },
-  {
-    "id": 569445,
-    "parentId": 404340,
-    "name": "Team Search and Pagination",
-    "index": 16,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Team Search and Pagination"],
-    "fullPath": "suite/system-console/team-search-and-pagination"
-  },
-  {
-    "id": 569446,
-    "parentId": 404340,
-    "name": "Database SQL Logging",
-    "index": 17,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Database SQL Logging"],
-    "fullPath": "suite/system-console/database-sql-logging"
-  },
-  {
-    "id": 569450,
-    "parentId": 404340,
-    "name": "Environment",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment"],
-    "fullPath": "suite/system-console/environment"
-  },
-  {
-    "id": 570051,
-    "parentId": 404340,
-    "name": "Site Configuration",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Site Configuration"],
-    "fullPath": "suite/system-console/site-configuration"
-  },
-  {
-    "id": 570062,
-    "parentId": 404340,
-    "name": "Compliance",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Compliance"],
-    "fullPath": "suite/system-console/compliance"
-  },
-  {
-    "id": 570069,
-    "parentId": 538608,
-    "name": "Site Statistics",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Reporting", "Site Statistics"],
-    "fullPath": "suite/system-console/reporting/site-statistics"
-  },
-  {
-    "id": 570070,
-    "parentId": 538608,
-    "name": "Team Statistics",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Reporting", "Team Statistics"],
-    "fullPath": "suite/system-console/reporting/team-statistics"
-  },
-  {
-    "id": 570071,
-    "parentId": 538608,
-    "name": "Server Logs",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Reporting", "Server Logs"],
-    "fullPath": "suite/system-console/reporting/server-logs"
-  },
-  {
-    "id": 570073,
-    "parentId": 538610,
-    "name": "Users",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "User Management", "Users"],
-    "fullPath": "suite/system-console/user-management/users"
-  },
-  {
-    "id": 570084,
-    "parentId": 404340,
-    "name": "Integrations",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Integrations"],
-    "fullPath": "suite/system-console/integrations"
-  },
-  {
-    "id": 580185,
-    "parentId": 2954447,
-    "name": "Guest Accounts",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts"],
-    "fullPath": "suite/guest-accounts"
-  },
-  {
-    "id": 580214,
-    "parentId": 580185,
-    "name": "Members Invitation Flow",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
-    "fullPath": "suite/guest-accounts/members-invitation-flow"
-  },
-  {
-    "id": 581366,
-    "parentId": 580185,
-    "name": "Guests Invitation Flow",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
-    "fullPath": "suite/guest-accounts/guests-invitation-flow"
-  },
-  {
-    "id": 581416,
-    "parentId": 580185,
-    "name": "Guest Experience",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
-    "fullPath": "suite/guest-accounts/guest-experience"
-  },
-  {
-    "id": 581532,
-    "parentId": 580185,
-    "name": "Guest Identification",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
-    "fullPath": "suite/guest-accounts/guest-identification"
-  },
-  {
-    "id": 581564,
-    "parentId": 580185,
-    "name": "Guest SAML LDAP",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
-    "fullPath": "suite/guest-accounts/guest-saml-ldap"
-  },
-  {
-    "id": 586858,
-    "parentId": 404284,
-    "name": "Incoming Webhook",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Incoming Webhook"],
-    "fullPath": "integrations/incoming-webhook"
-  },
-  {
-    "id": 586859,
-    "parentId": 404284,
-    "name": "Zapier",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Zapier"],
-    "fullPath": "integrations/zapier"
-  },
-  {
-    "id": 631925,
-    "parentId": 2954447,
-    "name": "LDAP Group Sync",
-    "index": 22,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "LDAP Group Sync"],
-    "fullPath": "suite/ldap-group-sync"
-  },
-  {
-    "id": 632425,
-    "parentId": 404330,
-    "name": "Plugin Marketplace",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Plugin Marketplace"],
-    "fullPath": "plugins/plugin-marketplace"
-  },
-  {
-    "id": 635686,
-    "parentId": 733337,
-    "name": "Channel Moderation Settings",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
-    "fullPath": "suite/enterprise/channel-moderation-settings"
-  },
-  {
-    "id": 670877,
-    "parentId": 404340,
-    "name": "Channel Listing with Team Name",
-    "index": 18,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Channel Listing with Team Name"],
-    "fullPath": "suite/system-console/channel-listing-with-team-name"
-  },
-  {
-    "id": 710222,
-    "parentId": 404274,
-    "name": "User Side UX",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "User Side UX"],
-    "fullPath": "integrations/bot-accounts/user-side-ux"
-  },
-  {
-    "id": 710224,
-    "parentId": 710222,
-    "name": "Viewing BOT Posts",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Viewing BOT Posts"],
-    "fullPath": "integrations/bot-accounts/user-side-ux/viewing-bot-posts"
-  },
-  {
-    "id": 710225,
-    "parentId": 710222,
-    "name": "BOT tags are shown and no status is displayed",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": [
-      "Integrations",
-      "Bot Accounts",
-      "User Side UX",
-      "BOT tags are shown and no status is displayed"
-    ],
-    "fullPath": "integrations/bot-accounts/user-side-ux/bot-tags-are-shown-and-no-status-is-displayed"
-  },
-  {
-    "id": 710226,
-    "parentId": 710222,
-    "name": "Bot Sorting in Channel List",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Bot Sorting in Channel List"],
-    "fullPath": "integrations/bot-accounts/user-side-ux/bot-sorting-in-channel-list"
-  },
-  {
-    "id": 710234,
-    "parentId": 710222,
-    "name": "Sidebar",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Sidebar"],
-    "fullPath": "integrations/bot-accounts/user-side-ux/sidebar"
-  },
-  {
-    "id": 710236,
-    "parentId": 404274,
-    "name": "Bot account management",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Bot account management"],
-    "fullPath": "integrations/bot-accounts/bot-account-management"
-  },
-  {
-    "id": 710237,
-    "parentId": 710236,
-    "name": "CRUD testing",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Bot account management", "CRUD testing"],
-    "fullPath": "integrations/bot-accounts/bot-account-management/crud-testing"
-  },
-  {
-    "id": 710238,
-    "parentId": 710236,
-    "name": "Token CRUD",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Bot account management", "Token CRUD"],
-    "fullPath": "integrations/bot-accounts/bot-account-management/token-crud"
-  },
-  {
-    "id": 710239,
-    "parentId": 404274,
-    "name": "Admin UI search",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Admin UI search"],
-    "fullPath": "integrations/bot-accounts/admin-ui-search"
-  },
-  {
-    "id": 710240,
-    "parentId": 710239,
-    "name": "Managing Bot Accounts",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Admin UI search", "Managing Bot Accounts"],
-    "fullPath": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts"
-  },
-  {
-    "id": 710247,
-    "parentId": 404274,
-    "name": "Bot Ownership",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "Bot Ownership"],
-    "fullPath": "integrations/bot-accounts/bot-ownership"
-  },
-  {
-    "id": 710248,
-    "parentId": 404274,
-    "name": "API and using BOTs",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Bot Accounts", "API and using BOTs"],
-    "fullPath": "integrations/bot-accounts/api-and-using-bots"
-  },
-  {
-    "id": 712013,
-    "parentId": 632425,
-    "name": "Import Queue",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
-    "fullPath": "plugins/plugin-marketplace/import-queue"
-  },
-  {
-    "id": 712113,
-    "parentId": 3142963,
-    "name": "Left Sidebar",
-    "index": 14,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar"],
-    "fullPath": "channels/left-sidebar"
-  },
-  {
-    "id": 727693,
-    "parentId": 404284,
-    "name": "Outgoing Webhook",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Outgoing Webhook"],
-    "fullPath": "integrations/outgoing-webhook"
-  },
-  {
-    "id": 733337,
-    "parentId": 2954447,
-    "name": "Enterprise",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise"],
-    "fullPath": "suite/enterprise"
-  },
-  {
-    "id": 733341,
-    "parentId": 733337,
-    "name": "Group Mentions",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
-    "fullPath": "suite/enterprise/group-mentions"
-  },
-  {
-    "id": 733486,
-    "parentId": 2118472,
-    "name": "Server",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Server"],
-    "fullPath": "plugins/jira-v2/miscellaneous/server"
-  },
-  {
-    "id": 733487,
-    "parentId": 2118472,
-    "name": "Cloud",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Cloud"],
-    "fullPath": "plugins/jira-v2/miscellaneous/cloud"
-  },
-  {
-    "id": 733538,
-    "parentId": 404288,
-    "name": "Jira Server",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server"],
-    "fullPath": "plugins/jira-v2/jira-server"
-  },
-  {
-    "id": 733539,
-    "parentId": 733538,
-    "name": "Install and Uninstall",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Install and Uninstall"],
-    "fullPath": "plugins/jira-v2/jira-server/install-and-uninstall"
-  },
-  {
-    "id": 733540,
-    "parentId": 733538,
-    "name": "Jira assign",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira assign"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-assign"
-  },
-  {
-    "id": 733572,
-    "parentId": 733538,
-    "name": "Jira create",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-create"
-  },
-  {
-    "id": 738212,
-    "parentId": null,
-    "name": "mmctl",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["mmctl"],
-    "fullPath": "mmctl"
-  },
-  {
-    "id": 738571,
-    "parentId": 2954447,
-    "name": "Redirect",
-    "index": 14,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Redirect"],
-    "fullPath": "suite/redirect"
-  },
-  {
-    "id": 738708,
-    "parentId": 569450,
-    "name": "Session Length (Extend on Activity)",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Environment", "Session Length (Extend on Activity)"],
-    "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
-  },
-  {
-    "id": 742396,
-    "parentId": 565205,
-    "name": "Server Tab Header",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Server Management", "Server Tab Header"],
-    "fullPath": "desktop-app--native-specific-/server-management/server-tab-header"
-  },
-  {
-    "id": 748017,
-    "parentId": 404296,
-    "name": "Toast",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Notifications", "Toast"],
-    "fullPath": "suite/notifications/toast"
-  },
-  {
-    "id": 751123,
-    "parentId": 733337,
-    "name": "Team and Channel",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "Team and Channel"],
-    "fullPath": "suite/enterprise/team-and-channel"
-  },
-  {
-    "id": 751544,
-    "parentId": 404329,
-    "name": "Team Admin permissions on TE",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Permissions", "Team Admin permissions on TE"],
-    "fullPath": "suite/permissions/team-admin-permissions-on-te"
-  },
-  {
-    "id": 817021,
-    "parentId": 565201,
-    "name": "Windows and Linux ONLY",
-    "index": 12,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Windows and Linux ONLY"],
-    "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
-  },
-  {
-    "id": 817022,
-    "parentId": 565201,
-    "name": "macOS ONLY",
-    "index": 13,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "macOS ONLY"],
-    "fullPath": "desktop-app--native-specific-/macos-only"
-  },
-  {
-    "id": 821856,
-    "parentId": null,
-    "name": "Omnibus",
-    "index": 12,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Omnibus"],
-    "fullPath": "omnibus"
-  },
-  {
-    "id": 836038,
-    "parentId": 2954447,
-    "name": "Telemetry",
-    "index": 19,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Telemetry"],
-    "fullPath": "suite/telemetry"
+    "fullNames": ["Channels", "Settings", "Notifications"],
+    "fullPath": "channels/settings/notifications"
   },
   {
     "id": 845796,
@@ -1292,256 +707,13 @@
     "fullPath": "channels/sidebar"
   },
   {
-    "id": 864964,
-    "parentId": 404340,
-    "name": "Admin Advisor",
-    "index": 18,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Admin Advisor"],
-    "fullPath": "suite/system-console/admin-advisor"
-  },
-  {
-    "id": 883991,
-    "parentId": null,
-    "name": "Cloud",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud"],
-    "fullPath": "cloud"
-  },
-  {
-    "id": 884314,
-    "parentId": 404339,
-    "name": "WebApp",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Smoke Tests", "WebApp"],
-    "fullPath": "smoke-tests/webapp"
-  },
-  {
-    "id": 888610,
-    "parentId": 404330,
-    "name": "Jira",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira"],
-    "fullPath": "plugins/jira"
-  },
-  {
-    "id": 888624,
-    "parentId": 888610,
-    "name": "Jira V3",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Jira V3"],
-    "fullPath": "plugins/jira/jira-v3"
-  },
-  {
-    "id": 892330,
-    "parentId": 888610,
-    "name": "Channel",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Channel"],
-    "fullPath": "plugins/jira/channel"
-  },
-  {
-    "id": 894619,
-    "parentId": 1341388,
-    "name": "Onboarding",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Automated tests", "Onboarding"],
-    "fullPath": "cloud/automated-tests/onboarding"
-  },
-  {
-    "id": 899429,
-    "parentId": 404284,
-    "name": "Built-in Commands",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Integrations", "Built-in Commands"],
-    "fullPath": "integrations/built-in-commands"
-  },
-  {
-    "id": 900964,
-    "parentId": 888610,
-    "name": "Jira V3 Migration",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Jira V3 Migration"],
-    "fullPath": "plugins/jira/jira-v3-migration"
-  },
-  {
-    "id": 918602,
-    "parentId": 733337,
-    "name": "Admin Roles",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
-    "fullPath": "suite/enterprise/admin-roles"
-  },
-  {
-    "id": 926627,
-    "parentId": 2954447,
-    "name": "In Product Notices",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "In Product Notices"],
-    "fullPath": "suite/in-product-notices"
-  },
-  {
-    "id": 981324,
+    "id": 404341,
     "parentId": 3142963,
-    "name": "Channel Info RN Apps",
-    "index": 8,
+    "name": "Team Settings",
+    "index": 30,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Channel Info RN Apps"],
-    "fullPath": "channels/channel-info-rn-apps"
-  },
-  {
-    "id": 992544,
-    "parentId": 883991,
-    "name": "Customer Portal",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Customer Portal"],
-    "fullPath": "cloud/customer-portal"
-  },
-  {
-    "id": 1007099,
-    "parentId": 712113,
-    "name": "Settings",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "Settings"],
-    "fullPath": "channels/left-sidebar/settings"
-  },
-  {
-    "id": 1007282,
-    "parentId": 712113,
-    "name": "Custom Categories",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "Custom Categories"],
-    "fullPath": "channels/left-sidebar/custom-categories"
-  },
-  {
-    "id": 1007284,
-    "parentId": 712113,
-    "name": "Unread filter",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "Unread filter"],
-    "fullPath": "channels/left-sidebar/unread-filter"
-  },
-  {
-    "id": 1007287,
-    "parentId": 712113,
-    "name": "UX hover animation alignment",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "UX hover animation alignment"],
-    "fullPath": "channels/left-sidebar/ux-hover-animation-alignment"
-  },
-  {
-    "id": 1007306,
-    "parentId": 712113,
-    "name": "DMs and GMs",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "DMs and GMs"],
-    "fullPath": "channels/left-sidebar/dms-and-gms"
-  },
-  {
-    "id": 1007308,
-    "parentId": 712113,
-    "name": "Favorites",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Left Sidebar", "Favorites"],
-    "fullPath": "channels/left-sidebar/favorites"
-  },
-  {
-    "id": 1016041,
-    "parentId": 404330,
-    "name": "Demo Plugin",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Demo Plugin"],
-    "fullPath": "plugins/demo-plugin"
-  },
-  {
-    "id": 1019781,
-    "parentId": 2954447,
-    "name": "EMM",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "EMM"],
-    "fullPath": "suite/emm"
-  },
-  {
-    "id": 1052242,
-    "parentId": 733337,
-    "name": "OpenId Connect",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
-    "fullPath": "suite/enterprise/openid-connect"
-  },
-  {
-    "id": 1054381,
-    "parentId": 404330,
-    "name": "AutoLink",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "AutoLink"],
-    "fullPath": "plugins/autolink"
-  },
-  {
-    "id": 1054400,
-    "parentId": 404330,
-    "name": "Custom Attributes",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Custom Attributes"],
-    "fullPath": "plugins/custom-attributes"
-  },
-  {
-    "id": 1054401,
-    "parentId": 404330,
-    "name": "Welcome Bot",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Welcome Bot"],
-    "fullPath": "plugins/welcome-bot"
-  },
-  {
-    "id": 1054405,
-    "parentId": 404330,
-    "name": "WebEx",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "WebEx"],
-    "fullPath": "plugins/webex"
-  },
-  {
-    "id": 1054414,
-    "parentId": 404330,
-    "name": "ToDo",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "ToDo"],
-    "fullPath": "plugins/todo"
-  },
-  {
-    "id": 1059110,
-    "parentId": 3142963,
-    "name": "Channels",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Channels"],
-    "fullPath": "channels/channels"
+    "fullNames": ["Channels", "Team Settings"],
+    "fullPath": "channels/team-settings"
   },
   {
     "id": 1139421,
@@ -1553,256 +725,13 @@
     "fullPath": "channels/threads"
   },
   {
-    "id": 1151596,
-    "parentId": 404340,
-    "name": "Commercial Support",
-    "index": 19,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "System Console", "Commercial Support"],
-    "fullPath": "suite/system-console/commercial-support"
-  },
-  {
-    "id": 1175100,
-    "parentId": 3142963,
-    "name": "Custom Statuses",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Custom Statuses"],
-    "fullPath": "channels/custom-statuses"
-  },
-  {
-    "id": 1177276,
-    "parentId": 404330,
-    "name": "Splunk",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Splunk"],
-    "fullPath": "plugins/splunk"
-  },
-  {
-    "id": 1194686,
-    "parentId": 404330,
-    "name": "GitHub",
-    "index": 12,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub"],
-    "fullPath": "plugins/github"
-  },
-  {
-    "id": 1194687,
-    "parentId": 1194686,
-    "name": "Authentication",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Authentication"],
-    "fullPath": "plugins/github/authentication"
-  },
-  {
-    "id": 1194688,
-    "parentId": 1194686,
-    "name": "General",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "General"],
-    "fullPath": "plugins/github/general"
-  },
-  {
-    "id": 1194689,
-    "parentId": 1194686,
-    "name": "Subscriptions",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Subscriptions"],
-    "fullPath": "plugins/github/subscriptions"
-  },
-  {
-    "id": 1194690,
-    "parentId": 1194686,
-    "name": "Notifications",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Notifications"],
-    "fullPath": "plugins/github/notifications"
-  },
-  {
-    "id": 1194691,
-    "parentId": 1194686,
-    "name": "Sidebar and RHS",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Sidebar and RHS"],
-    "fullPath": "plugins/github/sidebar-and-rhs"
-  },
-  {
-    "id": 1194692,
-    "parentId": 1194686,
-    "name": "Create and Attach posts",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
-    "fullPath": "plugins/github/create-and-attach-posts"
-  },
-  {
-    "id": 1214365,
+    "id": 883991,
     "parentId": null,
-    "name": "Apps Framework",
-    "index": 0,
+    "name": "Cloud",
+    "index": 8,
     "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework"],
-    "fullPath": "apps-framework"
-  },
-  {
-    "id": 1218566,
-    "parentId": 918602,
-    "name": "Sub Section",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Enterprise", "Admin Roles", "Sub Section"],
-    "fullPath": "suite/enterprise/admin-roles/sub-section"
-  },
-  {
-    "id": 1222177,
-    "parentId": 1175100,
-    "name": "Web",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Custom Statuses", "Web"],
-    "fullPath": "channels/custom-statuses/web"
-  },
-  {
-    "id": 1222178,
-    "parentId": 1175100,
-    "name": "Mobile",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Custom Statuses", "Mobile"],
-    "fullPath": "channels/custom-statuses/mobile"
-  },
-  {
-    "id": 1236115,
-    "parentId": 1214365,
-    "name": "Framework and test apps",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps"],
-    "fullPath": "apps-framework/framework-and-test-apps"
-  },
-  {
-    "id": 1236118,
-    "parentId": 1236115,
-    "name": "test-app",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app"
-  },
-  {
-    "id": 1236119,
-    "parentId": 1236115,
-    "name": "http-hello app",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "http-hello app"],
-    "fullPath": "apps-framework/framework-and-test-apps/http-hello-app"
-  },
-  {
-    "id": 1244765,
-    "parentId": 1214365,
-    "name": "Zendesk",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Zendesk"],
-    "fullPath": "apps-framework/zendesk"
-  },
-  {
-    "id": 1244767,
-    "parentId": 1214365,
-    "name": "Service Now",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Service Now"],
-    "fullPath": "apps-framework/service-now"
-  },
-  {
-    "id": 1260737,
-    "parentId": 404330,
-    "name": "Circle-CI",
-    "index": 13,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Circle-CI"],
-    "fullPath": "plugins/circle-ci"
-  },
-  {
-    "id": 1262218,
-    "parentId": 992544,
-    "name": "🚫 Export Compliance",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Customer Portal", "🚫 Export Compliance"],
-    "fullPath": "cloud/customer-portal/-export-compliance"
-  },
-  {
-    "id": 1277063,
-    "parentId": 404330,
-    "name": "Confluence",
-    "index": 14,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Confluence"],
-    "fullPath": "plugins/confluence"
-  },
-  {
-    "id": 1285126,
-    "parentId": 883991,
-    "name": "Cloud Trial",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Cloud Trial"],
-    "fullPath": "cloud/cloud-trial"
-  },
-  {
-    "id": 1285252,
-    "parentId": 1236115,
-    "name": "Apps AWS Deployment",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "Apps AWS Deployment"],
-    "fullPath": "apps-framework/framework-and-test-apps/apps-aws-deployment"
-  },
-  {
-    "id": 1289963,
-    "parentId": 1285126,
-    "name": "What If",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Cloud Trial", "What If"],
-    "fullPath": "cloud/cloud-trial/what-if"
-  },
-  {
-    "id": 1302232,
-    "parentId": 632425,
-    "name": "MM Apps",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Plugin Marketplace", "MM Apps"],
-    "fullPath": "plugins/plugin-marketplace/mm-apps"
-  },
-  {
-    "id": 1309550,
-    "parentId": 992544,
-    "name": "License generator",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Customer Portal", "License generator"],
-    "fullPath": "cloud/customer-portal/license-generator"
-  },
-  {
-    "id": 1325987,
-    "parentId": 2954447,
-    "name": "Trial License",
-    "index": 13,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Trial License"],
-    "fullPath": "suite/trial-license"
+    "fullNames": ["Cloud"],
+    "fullPath": "cloud"
   },
   {
     "id": 1341388,
@@ -1814,31 +743,13 @@
     "fullPath": "cloud/automated-tests"
   },
   {
-    "id": 1353114,
-    "parentId": 3337681,
-    "name": "With Database",
+    "id": 894619,
+    "parentId": 1341388,
+    "name": "Onboarding",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Autocomplete", "With Database"],
-    "fullPath": "channels/autocomplete/with-database"
-  },
-  {
-    "id": 1423405,
-    "parentId": null,
-    "name": "Playbooks",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Playbooks"],
-    "fullPath": "playbooks"
-  },
-  {
-    "id": 1465976,
-    "parentId": 3142963,
-    "name": "Emoji picker",
-    "index": 18,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Emoji picker"],
-    "fullPath": "channels/emoji-picker"
+    "fullNames": ["Cloud", "Automated tests", "Onboarding"],
+    "fullPath": "cloud/automated-tests/onboarding"
   },
   {
     "id": 1565509,
@@ -1848,33 +759,6 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Cloud", "Automated tests", "System Console"],
     "fullPath": "cloud/automated-tests/system-console"
-  },
-  {
-    "id": 1577254,
-    "parentId": 1565509,
-    "name": "Subscription ❗",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
-    "fullPath": "cloud/automated-tests/system-console/subscription-"
-  },
-  {
-    "id": 1604631,
-    "parentId": 992544,
-    "name": "Portal tests",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
-    "fullPath": "cloud/customer-portal/portal-tests"
-  },
-  {
-    "id": 1615722,
-    "parentId": 3142963,
-    "name": "Collapsed Reply Threads",
-    "index": 17,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Collapsed Reply Threads"],
-    "fullPath": "channels/collapsed-reply-threads"
   },
   {
     "id": 1641056,
@@ -1904,6 +788,105 @@
     "fullPath": "cloud/automated-tests/system-console/payment-information-"
   },
   {
+    "id": 1577254,
+    "parentId": 1565509,
+    "name": "Subscription ❗",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Automated tests", "System Console", "Subscription ❗"],
+    "fullPath": "cloud/automated-tests/system-console/subscription-"
+  },
+  {
+    "id": 1285126,
+    "parentId": 883991,
+    "name": "Cloud Trial",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Cloud Trial"],
+    "fullPath": "cloud/cloud-trial"
+  },
+  {
+    "id": 1289963,
+    "parentId": 1285126,
+    "name": "What If",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Cloud Trial", "What If"],
+    "fullPath": "cloud/cloud-trial/what-if"
+  },
+  {
+    "id": 992544,
+    "parentId": 883991,
+    "name": "Customer Portal",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Customer Portal"],
+    "fullPath": "cloud/customer-portal"
+  },
+  {
+    "id": 1262218,
+    "parentId": 992544,
+    "name": "🚫 Export Compliance",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Customer Portal", "🚫 Export Compliance"],
+    "fullPath": "cloud/customer-portal/-export-compliance"
+  },
+  {
+    "id": 1309550,
+    "parentId": 992544,
+    "name": "License generator",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Customer Portal", "License generator"],
+    "fullPath": "cloud/customer-portal/license-generator"
+  },
+  {
+    "id": 1604631,
+    "parentId": 992544,
+    "name": "Portal tests",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
+    "fullPath": "cloud/customer-portal/portal-tests"
+  },
+  {
+    "id": 3506282,
+    "parentId": 883991,
+    "name": "pricing-modal",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "pricing-modal"],
+    "fullPath": "cloud/pricing-modal"
+  },
+  {
+    "id": 2359297,
+    "parentId": 883991,
+    "name": "RHS",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "RHS"],
+    "fullPath": "cloud/rhs"
+  },
+  {
+    "id": 2916636,
+    "parentId": 883991,
+    "name": "Signup Trial and Upgrade",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
+    "fullPath": "cloud/signup-trial-and-upgrade"
+  },
+  {
+    "id": 2905446,
+    "parentId": 883991,
+    "name": "Starter Plan",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "Starter Plan"],
+    "fullPath": "cloud/starter-plan"
+  },
+  {
     "id": 1686243,
     "parentId": 883991,
     "name": "WIP",
@@ -1920,15 +903,6 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Cloud", "WIP", "Getting Started"],
     "fullPath": "cloud/wip/getting-started"
-  },
-  {
-    "id": 1716687,
-    "parentId": 1686243,
-    "name": "Tips and Next Steps",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "WIP", "Tips and Next Steps"],
-    "fullPath": "cloud/wip/tips-and-next-steps"
   },
   {
     "id": 1716688,
@@ -1949,67 +923,522 @@
     "fullPath": "cloud/wip/system-console/billing-and-account"
   },
   {
-    "id": 1840223,
-    "parentId": null,
-    "name": "Boards",
+    "id": 1716687,
+    "parentId": 1686243,
+    "name": "Tips and Next Steps",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards"],
-    "fullPath": "boards"
+    "fullNames": ["Cloud", "WIP", "Tips and Next Steps"],
+    "fullPath": "cloud/wip/tips-and-next-steps"
   },
   {
-    "id": 1840288,
-    "parentId": 1840223,
-    "name": "Board creation and set-up",
-    "index": 3,
+    "id": 565201,
+    "parentId": null,
+    "name": "Desktop App (native-specific)",
+    "index": 9,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Board creation and set-up"],
-    "fullPath": "boards/board-creation-and-set-up"
+    "fullNames": ["Desktop App (native-specific)"],
+    "fullPath": "desktop-app--native-specific-"
   },
   {
-    "id": 1840955,
-    "parentId": 1840223,
-    "name": "Personal Dashboard",
+    "id": 565210,
+    "parentId": 565201,
+    "name": "Channel and Team Sidebars",
     "index": 6,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Personal Dashboard"],
-    "fullPath": "boards/personal-dashboard"
+    "fullNames": ["Desktop App (native-specific)", "Channel and Team Sidebars"],
+    "fullPath": "desktop-app--native-specific-/channel-and-team-sidebars"
   },
   {
-    "id": 1841226,
-    "parentId": 1840223,
-    "name": "Board View",
-    "index": 4,
+    "id": 3375514,
+    "parentId": 565201,
+    "name": "Cypress drafts",
+    "index": 17,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Board View"],
-    "fullPath": "boards/board-view"
+    "fullNames": ["Desktop App (native-specific)", "Cypress drafts"],
+    "fullPath": "desktop-app--native-specific-/cypress-drafts"
   },
   {
-    "id": 1841544,
-    "parentId": 1840223,
-    "name": "Card dialog",
+    "id": 565215,
+    "parentId": 565201,
+    "name": "Dark mode",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Dark mode"],
+    "fullPath": "desktop-app--native-specific-/dark-mode"
+  },
+  {
+    "id": 565208,
+    "parentId": 565201,
+    "name": "Deep Linking",
     "index": 5,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Card dialog"],
-    "fullPath": "boards/card-dialog"
+    "fullNames": ["Desktop App (native-specific)", "Deep Linking"],
+    "fullPath": "desktop-app--native-specific-/deep-linking"
   },
   {
-    "id": 1853989,
-    "parentId": 1840223,
-    "name": "Browser Plugin Regression Tests",
+    "id": 1965851,
+    "parentId": 565201,
+    "name": "Dropdown",
+    "index": 16,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Dropdown"],
+    "fullPath": "desktop-app--native-specific-/dropdown"
+  },
+  {
+    "id": 565216,
+    "parentId": 565201,
+    "name": "Focus behavior",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
+    "fullPath": "desktop-app--native-specific-/focus-behavior"
+  },
+  {
+    "id": 817022,
+    "parentId": 565201,
+    "name": "macOS ONLY",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "macOS ONLY"],
+    "fullPath": "desktop-app--native-specific-/macos-only"
+  },
+  {
+    "id": 565202,
+    "parentId": 565201,
+    "name": "Menu Bar",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Browser Plugin Regression Tests"],
-    "fullPath": "boards/browser-plugin-regression-tests"
+    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
+    "fullPath": "desktop-app--native-specific-/menu-bar"
   },
   {
-    "id": 1879390,
-    "parentId": 3142963,
-    "name": "Permalink Preview",
-    "index": 26,
+    "id": 3274157,
+    "parentId": 565201,
+    "name": "Onboarding",
+    "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Permalink Preview"],
-    "fullPath": "channels/permalink-preview"
+    "fullNames": ["Desktop App (native-specific)", "Onboarding"],
+    "fullPath": "desktop-app--native-specific-/onboarding"
+  },
+  {
+    "id": 565206,
+    "parentId": 565201,
+    "name": "Permissions",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Permissions"],
+    "fullPath": "desktop-app--native-specific-/permissions"
+  },
+  {
+    "id": 565212,
+    "parentId": 565201,
+    "name": "Relative URLs",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Relative URLs"],
+    "fullPath": "desktop-app--native-specific-/relative-urls"
+  },
+  {
+    "id": 565217,
+    "parentId": 565201,
+    "name": "Right Click menu options",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Right Click menu options"],
+    "fullPath": "desktop-app--native-specific-/right-click-menu-options"
+  },
+  {
+    "id": 565214,
+    "parentId": 565201,
+    "name": "Search box",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Search box"],
+    "fullPath": "desktop-app--native-specific-/search-box"
+  },
+  {
+    "id": 565205,
+    "parentId": 565201,
+    "name": "Server Management",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Server Management"],
+    "fullPath": "desktop-app--native-specific-/server-management"
+  },
+  {
+    "id": 1962396,
+    "parentId": 565205,
+    "name": "Add Server Modal",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Server Management", "Add Server Modal"],
+    "fullPath": "desktop-app--native-specific-/server-management/add-server-modal"
+  },
+  {
+    "id": 742396,
+    "parentId": 565205,
+    "name": "Server Tab Header",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Server Management", "Server Tab Header"],
+    "fullPath": "desktop-app--native-specific-/server-management/server-tab-header"
+  },
+  {
+    "id": 1946354,
+    "parentId": 565201,
+    "name": "Settings",
+    "index": 14,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Settings"],
+    "fullPath": "desktop-app--native-specific-/settings"
+  },
+  {
+    "id": 1965772,
+    "parentId": 565201,
+    "name": "Startup",
+    "index": 15,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Startup"],
+    "fullPath": "desktop-app--native-specific-/startup"
+  },
+  {
+    "id": 565204,
+    "parentId": 565201,
+    "name": "System Tray Icon",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "System Tray Icon"],
+    "fullPath": "desktop-app--native-specific-/system-tray-icon"
+  },
+  {
+    "id": 817021,
+    "parentId": 565201,
+    "name": "Windows and Linux ONLY",
+    "index": 12,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Desktop App (native-specific)", "Windows and Linux ONLY"],
+    "fullPath": "desktop-app--native-specific-/windows-and-linux-only"
+  },
+  {
+    "id": 404284,
+    "parentId": null,
+    "name": "Integrations",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations"],
+    "fullPath": "integrations"
+  },
+  {
+    "id": 404274,
+    "parentId": 404284,
+    "name": "Bot Accounts",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts"],
+    "fullPath": "integrations/bot-accounts"
+  },
+  {
+    "id": 710239,
+    "parentId": 404274,
+    "name": "Admin UI search",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Admin UI search"],
+    "fullPath": "integrations/bot-accounts/admin-ui-search"
+  },
+  {
+    "id": 710240,
+    "parentId": 710239,
+    "name": "Managing Bot Accounts",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Admin UI search", "Managing Bot Accounts"],
+    "fullPath": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts"
+  },
+  {
+    "id": 710248,
+    "parentId": 404274,
+    "name": "API and using BOTs",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "API and using BOTs"],
+    "fullPath": "integrations/bot-accounts/api-and-using-bots"
+  },
+  {
+    "id": 710236,
+    "parentId": 404274,
+    "name": "Bot account management",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Bot account management"],
+    "fullPath": "integrations/bot-accounts/bot-account-management"
+  },
+  {
+    "id": 710237,
+    "parentId": 710236,
+    "name": "CRUD testing",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Bot account management", "CRUD testing"],
+    "fullPath": "integrations/bot-accounts/bot-account-management/crud-testing"
+  },
+  {
+    "id": 710238,
+    "parentId": 710236,
+    "name": "Token CRUD",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Bot account management", "Token CRUD"],
+    "fullPath": "integrations/bot-accounts/bot-account-management/token-crud"
+  },
+  {
+    "id": 710247,
+    "parentId": 404274,
+    "name": "Bot Ownership",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "Bot Ownership"],
+    "fullPath": "integrations/bot-accounts/bot-ownership"
+  },
+  {
+    "id": 710222,
+    "parentId": 404274,
+    "name": "User Side UX",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX"],
+    "fullPath": "integrations/bot-accounts/user-side-ux"
+  },
+  {
+    "id": 710226,
+    "parentId": 710222,
+    "name": "Bot Sorting in Channel List",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Bot Sorting in Channel List"],
+    "fullPath": "integrations/bot-accounts/user-side-ux/bot-sorting-in-channel-list"
+  },
+  {
+    "id": 710225,
+    "parentId": 710222,
+    "name": "BOT tags are shown and no status is displayed",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": [
+      "Integrations",
+      "Bot Accounts",
+      "User Side UX",
+      "BOT tags are shown and no status is displayed"
+    ],
+    "fullPath": "integrations/bot-accounts/user-side-ux/bot-tags-are-shown-and-no-status-is-displayed"
+  },
+  {
+    "id": 710234,
+    "parentId": 710222,
+    "name": "Sidebar",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Sidebar"],
+    "fullPath": "integrations/bot-accounts/user-side-ux/sidebar"
+  },
+  {
+    "id": 710224,
+    "parentId": 710222,
+    "name": "Viewing BOT Posts",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Bot Accounts", "User Side UX", "Viewing BOT Posts"],
+    "fullPath": "integrations/bot-accounts/user-side-ux/viewing-bot-posts"
+  },
+  {
+    "id": 899429,
+    "parentId": 404284,
+    "name": "Built-in Commands",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Built-in Commands"],
+    "fullPath": "integrations/built-in-commands"
+  },
+  {
+    "id": 586858,
+    "parentId": 404284,
+    "name": "Incoming Webhook",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Incoming Webhook"],
+    "fullPath": "integrations/incoming-webhook"
+  },
+  {
+    "id": 404285,
+    "parentId": 404284,
+    "name": "Interactive Dialogs",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Interactive Dialogs"],
+    "fullPath": "integrations/interactive-dialogs"
+  },
+  {
+    "id": 404287,
+    "parentId": 404284,
+    "name": "Interactive Menus Message Attachments",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Interactive Menus Message Attachments"],
+    "fullPath": "integrations/interactive-menus-message-attachments"
+  },
+  {
+    "id": 727693,
+    "parentId": 404284,
+    "name": "Outgoing Webhook",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Outgoing Webhook"],
+    "fullPath": "integrations/outgoing-webhook"
+  },
+  {
+    "id": 586859,
+    "parentId": 404284,
+    "name": "Zapier",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Integrations", "Zapier"],
+    "fullPath": "integrations/zapier"
+  },
+  {
+    "id": 738212,
+    "parentId": null,
+    "name": "mmctl",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["mmctl"],
+    "fullPath": "mmctl"
+  },
+  {
+    "id": 410627,
+    "parentId": null,
+    "name": "Mobile App (native-specific)",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile App (native-specific)"],
+    "fullPath": "mobile-app--native-specific-"
+  },
+  {
+    "id": 2277496,
+    "parentId": null,
+    "name": "Mobile V2",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2"],
+    "fullPath": "mobile-v2"
+  },
+  {
+    "id": 3287708,
+    "parentId": 2277496,
+    "name": "Account",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Account"],
+    "fullPath": "mobile-v2/account"
+  },
+  {
+    "id": 2943603,
+    "parentId": 2277496,
+    "name": "Autocomplete",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Autocomplete"],
+    "fullPath": "mobile-v2/autocomplete"
+  },
+  {
+    "id": 2419932,
+    "parentId": 2277496,
+    "name": "Channels",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Channels"],
+    "fullPath": "mobile-v2/channels"
+  },
+  {
+    "id": 2569033,
+    "parentId": 2277496,
+    "name": "Messaging",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Messaging"],
+    "fullPath": "mobile-v2/messaging"
+  },
+  {
+    "id": 3050574,
+    "parentId": 2277496,
+    "name": "Search",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Search"],
+    "fullPath": "mobile-v2/search"
+  },
+  {
+    "id": 2277499,
+    "parentId": 2277496,
+    "name": "Server Login",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Server Login"],
+    "fullPath": "mobile-v2/server-login"
+  },
+  {
+    "id": 2277498,
+    "parentId": 2277496,
+    "name": "Smoke Test",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Smoke Test"],
+    "fullPath": "mobile-v2/smoke-test"
+  },
+  {
+    "id": 2722971,
+    "parentId": 2277496,
+    "name": "Threads",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Mobile V2", "Threads"],
+    "fullPath": "mobile-v2/threads"
+  },
+  {
+    "id": 821856,
+    "parentId": null,
+    "name": "Omnibus",
+    "index": 12,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Omnibus"],
+    "fullPath": "omnibus"
+  },
+  {
+    "id": 1423405,
+    "parentId": null,
+    "name": "Playbooks",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Playbooks"],
+    "fullPath": "playbooks"
+  },
+  {
+    "id": 404330,
+    "parentId": null,
+    "name": "Plugins",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins"],
+    "fullPath": "plugins"
+  },
+  {
+    "id": 1054381,
+    "parentId": 404330,
+    "name": "AutoLink",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "AutoLink"],
+    "fullPath": "plugins/autolink"
   },
   {
     "id": 1907969,
@@ -2030,6 +1459,15 @@
     "fullPath": "plugins/bitbucket/authentication"
   },
   {
+    "id": 1915273,
+    "parentId": 1907969,
+    "name": "Create Issue",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
+    "fullPath": "plugins/bitbucket/create-issue"
+  },
+  {
     "id": 1914726,
     "parentId": 1907969,
     "name": "General",
@@ -2037,15 +1475,6 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Bitbucket", "General"],
     "fullPath": "plugins/bitbucket/general"
-  },
-  {
-    "id": 1915243,
-    "parentId": 1907969,
-    "name": "Subscriptions",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
-    "fullPath": "plugins/bitbucket/subscriptions"
   },
   {
     "id": 1915269,
@@ -2057,202 +1486,121 @@
     "fullPath": "plugins/bitbucket/notifications"
   },
   {
-    "id": 1915273,
+    "id": 1915243,
     "parentId": 1907969,
-    "name": "Create Issue",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Bitbucket", "Create Issue"],
-    "fullPath": "plugins/bitbucket/create-issue"
-  },
-  {
-    "id": 1941501,
-    "parentId": 1236118,
-    "name": "(prev)",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "(prev)"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/-prev-"
-  },
-  {
-    "id": 1946354,
-    "parentId": 565201,
-    "name": "Settings",
-    "index": 14,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Settings"],
-    "fullPath": "desktop-app--native-specific-/settings"
-  },
-  {
-    "id": 1962396,
-    "parentId": 565205,
-    "name": "Add Server Modal",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Server Management", "Add Server Modal"],
-    "fullPath": "desktop-app--native-specific-/server-management/add-server-modal"
-  },
-  {
-    "id": 1965772,
-    "parentId": 565201,
-    "name": "Startup",
-    "index": 15,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Startup"],
-    "fullPath": "desktop-app--native-specific-/startup"
-  },
-  {
-    "id": 1965851,
-    "parentId": 565201,
-    "name": "Dropdown",
-    "index": 16,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Dropdown"],
-    "fullPath": "desktop-app--native-specific-/dropdown"
-  },
-  {
-    "id": 1969137,
-    "parentId": 3142963,
-    "name": "Global Drafts",
-    "index": 15,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Global Drafts"],
-    "fullPath": "channels/global-drafts"
-  },
-  {
-    "id": 1976969,
-    "parentId": 1840223,
-    "name": "MM Desktop App Plugin Regression Tests",
+    "name": "Subscriptions",
     "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "MM Desktop App Plugin Regression Tests"],
-    "fullPath": "boards/mm-desktop-app-plugin-regression-tests"
+    "fullNames": ["Plugins", "Bitbucket", "Subscriptions"],
+    "fullPath": "plugins/bitbucket/subscriptions"
   },
   {
-    "id": 2014892,
-    "parentId": 1840223,
-    "name": "Boards App Regression Tests",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Boards App Regression Tests"],
-    "fullPath": "boards/boards-app-regression-tests"
-  },
-  {
-    "id": 2063031,
-    "parentId": 3142963,
-    "name": "Settings",
-    "index": 11,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Settings"],
-    "fullPath": "channels/settings"
-  },
-  {
-    "id": 2063033,
-    "parentId": 3142963,
-    "name": "Profile Settings",
-    "index": 12,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Profile Settings"],
-    "fullPath": "channels/profile-settings"
-  },
-  {
-    "id": 2063150,
-    "parentId": 3142963,
-    "name": "Mobile App Settings",
+    "id": 1260737,
+    "parentId": 404330,
+    "name": "Circle-CI",
     "index": 13,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Mobile App Settings"],
-    "fullPath": "channels/mobile-app-settings"
+    "fullNames": ["Plugins", "Circle-CI"],
+    "fullPath": "plugins/circle-ci"
   },
   {
-    "id": 2063264,
-    "parentId": 2063031,
-    "name": "Advanced",
+    "id": 1277063,
+    "parentId": 404330,
+    "name": "Confluence",
+    "index": 14,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Confluence"],
+    "fullPath": "plugins/confluence"
+  },
+  {
+    "id": 1054400,
+    "parentId": 404330,
+    "name": "Custom Attributes",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Custom Attributes"],
+    "fullPath": "plugins/custom-attributes"
+  },
+  {
+    "id": 1016041,
+    "parentId": 404330,
+    "name": "Demo Plugin",
     "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Settings", "Advanced"],
-    "fullPath": "channels/settings/advanced"
+    "fullNames": ["Plugins", "Demo Plugin"],
+    "fullPath": "plugins/demo-plugin"
   },
   {
-    "id": 2063269,
-    "parentId": 2063031,
-    "name": "Notifications",
+    "id": 1194686,
+    "parentId": 404330,
+    "name": "GitHub",
+    "index": 12,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "GitHub"],
+    "fullPath": "plugins/github"
+  },
+  {
+    "id": 1194687,
+    "parentId": 1194686,
+    "name": "Authentication",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Settings", "Notifications"],
-    "fullPath": "channels/settings/notifications"
+    "fullNames": ["Plugins", "GitHub", "Authentication"],
+    "fullPath": "plugins/github/authentication"
   },
   {
-    "id": 2063270,
-    "parentId": 2063031,
-    "name": "Display",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Settings", "Display"],
-    "fullPath": "channels/settings/display"
-  },
-  {
-    "id": 2095568,
-    "parentId": 2954447,
-    "name": "Apps Bar",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Apps Bar"],
-    "fullPath": "suite/apps-bar"
-  },
-  {
-    "id": 2118472,
-    "parentId": 404288,
-    "name": "Miscellaneous",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous"],
-    "fullPath": "plugins/jira-v2/miscellaneous"
-  },
-  {
-    "id": 2118488,
-    "parentId": 733538,
-    "name": "General Slash commands",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "General Slash commands"],
-    "fullPath": "plugins/jira-v2/jira-server/general-slash-commands"
-  },
-  {
-    "id": 2118539,
-    "parentId": 733538,
-    "name": "Jira View",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-view"
-  },
-  {
-    "id": 2119059,
-    "parentId": 733538,
-    "name": "Jira Connect",
+    "id": 1194692,
+    "parentId": 1194686,
+    "name": "Create and Attach posts",
     "index": 5,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Connect"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-connect"
+    "fullNames": ["Plugins", "GitHub", "Create and Attach posts"],
+    "fullPath": "plugins/github/create-and-attach-posts"
   },
   {
-    "id": 2119072,
-    "parentId": 733538,
-    "name": "Jira Temp",
-    "index": 8,
+    "id": 1194688,
+    "parentId": 1194686,
+    "name": "General",
+    "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Temp"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-temp"
+    "fullNames": ["Plugins", "GitHub", "General"],
+    "fullPath": "plugins/github/general"
   },
   {
-    "id": 2123139,
-    "parentId": 733538,
-    "name": "Jira Attach",
+    "id": 1194690,
+    "parentId": 1194686,
+    "name": "Notifications",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "GitHub", "Notifications"],
+    "fullPath": "plugins/github/notifications"
+  },
+  {
+    "id": 3305242,
+    "parentId": 1194686,
+    "name": "Setup",
     "index": 6,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+    "fullNames": ["Plugins", "GitHub", "Setup"],
+    "fullPath": "plugins/github/setup"
+  },
+  {
+    "id": 1194691,
+    "parentId": 1194686,
+    "name": "Sidebar and RHS",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "GitHub", "Sidebar and RHS"],
+    "fullPath": "plugins/github/sidebar-and-rhs"
+  },
+  {
+    "id": 1194689,
+    "parentId": 1194686,
+    "name": "Subscriptions",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "GitHub", "Subscriptions"],
+    "fullPath": "plugins/github/subscriptions"
   },
   {
     "id": 2139765,
@@ -2264,22 +1612,13 @@
     "fullPath": "plugins/gitlab"
   },
   {
-    "id": 2139767,
+    "id": 3076551,
     "parentId": 2139765,
-    "name": "Slash Commands and Setup",
-    "index": 0,
+    "name": "Setup",
+    "index": 4,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
-    "fullPath": "plugins/gitlab/slash-commands-and-setup"
-  },
-  {
-    "id": 2139772,
-    "parentId": 2139765,
-    "name": "Subscriptions and Notifications",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
-    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
+    "fullNames": ["Plugins", "GitLab", "Setup"],
+    "fullPath": "plugins/gitlab/setup"
   },
   {
     "id": 2139776,
@@ -2291,6 +1630,15 @@
     "fullPath": "plugins/gitlab/sidebar"
   },
   {
+    "id": 2139767,
+    "parentId": 2139765,
+    "name": "Slash Commands and Setup",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "GitLab", "Slash Commands and Setup"],
+    "fullPath": "plugins/gitlab/slash-commands-and-setup"
+  },
+  {
     "id": 2139778,
     "parentId": 2139765,
     "name": "Subdomain and Cloud specific tests",
@@ -2300,103 +1648,184 @@
     "fullPath": "plugins/gitlab/subdomain-and-cloud-specific-tests"
   },
   {
-    "id": 2157120,
-    "parentId": 404330,
-    "name": "Zoom",
-    "index": 17,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Zoom"],
-    "fullPath": "plugins/zoom"
-  },
-  {
-    "id": 2157124,
-    "parentId": 2157120,
-    "name": "General",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Zoom", "General"],
-    "fullPath": "plugins/zoom/general"
-  },
-  {
-    "id": 2157129,
-    "parentId": 2157120,
-    "name": "oAuth User-managed app",
+    "id": 2139772,
+    "parentId": 2139765,
+    "name": "Subscriptions and Notifications",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Zoom", "oAuth User-managed app"],
-    "fullPath": "plugins/zoom/oauth-user-managed-app"
+    "fullNames": ["Plugins", "GitLab", "Subscriptions and Notifications"],
+    "fullPath": "plugins/gitlab/subscriptions-and-notifications"
   },
   {
-    "id": 2157148,
-    "parentId": 2157120,
-    "name": "oAuth Account-level app",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Zoom", "oAuth Account-level app"],
-    "fullPath": "plugins/zoom/oauth-account-level-app"
-  },
-  {
-    "id": 2228507,
-    "parentId": 1840223,
-    "name": "Onboarding Tour",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Onboarding Tour"],
-    "fullPath": "boards/onboarding-tour"
-  },
-  {
-    "id": 2260287,
-    "parentId": 2954447,
-    "name": "Custom Groups",
+    "id": 888610,
+    "parentId": 404330,
+    "name": "Jira",
     "index": 4,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Custom Groups"],
-    "fullPath": "suite/custom-groups"
+    "fullNames": ["Plugins", "Jira"],
+    "fullPath": "plugins/jira"
   },
   {
-    "id": 2277496,
-    "parentId": null,
-    "name": "Mobile V2",
-    "index": 13,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2"],
-    "fullPath": "mobile-v2"
-  },
-  {
-    "id": 2277498,
-    "parentId": 2277496,
-    "name": "Smoke Test",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Smoke Test"],
-    "fullPath": "mobile-v2/smoke-test"
-  },
-  {
-    "id": 2277499,
-    "parentId": 2277496,
-    "name": "Server Login",
+    "id": 404288,
+    "parentId": 404330,
+    "name": "Jira V2",
     "index": 5,
     "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Server Login"],
-    "fullPath": "mobile-v2/server-login"
+    "fullNames": ["Plugins", "Jira V2"],
+    "fullPath": "plugins/jira-v2"
   },
   {
-    "id": 2359297,
-    "parentId": 883991,
-    "name": "RHS",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "RHS"],
-    "fullPath": "cloud/rhs"
-  },
-  {
-    "id": 2373996,
-    "parentId": 2954447,
-    "name": "Activity and Insights",
+    "id": 733538,
+    "parentId": 404288,
+    "name": "Jira Server",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Activity and Insights"],
-    "fullPath": "suite/activity-and-insights"
+    "fullNames": ["Plugins", "Jira V2", "Jira Server"],
+    "fullPath": "plugins/jira-v2/jira-server"
+  },
+  {
+    "id": 2118488,
+    "parentId": 733538,
+    "name": "General Slash commands",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "General Slash commands"],
+    "fullPath": "plugins/jira-v2/jira-server/general-slash-commands"
+  },
+  {
+    "id": 733539,
+    "parentId": 733538,
+    "name": "Install and Uninstall",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Install and Uninstall"],
+    "fullPath": "plugins/jira-v2/jira-server/install-and-uninstall"
+  },
+  {
+    "id": 733540,
+    "parentId": 733538,
+    "name": "Jira assign",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira assign"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-assign"
+  },
+  {
+    "id": 2123139,
+    "parentId": 733538,
+    "name": "Jira Attach",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+  },
+  {
+    "id": 2119059,
+    "parentId": 733538,
+    "name": "Jira Connect",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Connect"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-connect"
+  },
+  {
+    "id": 733572,
+    "parentId": 733538,
+    "name": "Jira create",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+  },
+  {
+    "id": 3160301,
+    "parentId": 733538,
+    "name": "Jira subscriptions",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira subscriptions"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-subscriptions"
+  },
+  {
+    "id": 2119072,
+    "parentId": 733538,
+    "name": "Jira Temp",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Temp"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-temp"
+  },
+  {
+    "id": 2118539,
+    "parentId": 733538,
+    "name": "Jira View",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+  },
+  {
+    "id": 2118472,
+    "parentId": 404288,
+    "name": "Miscellaneous",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Miscellaneous"],
+    "fullPath": "plugins/jira-v2/miscellaneous"
+  },
+  {
+    "id": 733487,
+    "parentId": 2118472,
+    "name": "Cloud",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Cloud"],
+    "fullPath": "plugins/jira-v2/miscellaneous/cloud"
+  },
+  {
+    "id": 733486,
+    "parentId": 2118472,
+    "name": "Server",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Server"],
+    "fullPath": "plugins/jira-v2/miscellaneous/server"
+  },
+  {
+    "id": 892330,
+    "parentId": 888610,
+    "name": "Channel",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira", "Channel"],
+    "fullPath": "plugins/jira/channel"
+  },
+  {
+    "id": 888624,
+    "parentId": 888610,
+    "name": "Jira V3",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira", "Jira V3"],
+    "fullPath": "plugins/jira/jira-v3"
+  },
+  {
+    "id": 900964,
+    "parentId": 888610,
+    "name": "Jira V3 Migration",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira", "Jira V3 Migration"],
+    "fullPath": "plugins/jira/jira-v3-migration"
+  },
+  {
+    "id": 2745764,
+    "parentId": 404330,
+    "name": "Jitsi",
+    "index": 19,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jitsi"],
+    "fullPath": "plugins/jitsi"
   },
   {
     "id": 2382033,
@@ -2426,279 +1855,40 @@
     "fullPath": "plugins/ms-teams-calling/general-functionality"
   },
   {
-    "id": 2419932,
-    "parentId": 2277496,
-    "name": "Channels",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Channels"],
-    "fullPath": "mobile-v2/channels"
-  },
-  {
-    "id": 2420038,
-    "parentId": 2373996,
-    "name": "Insights",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Activity and Insights", "Insights"],
-    "fullPath": "suite/activity-and-insights/insights"
-  },
-  {
-    "id": 2420042,
-    "parentId": 2420038,
-    "name": "Team Insights",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Activity and Insights", "Insights", "Team Insights"],
-    "fullPath": "suite/activity-and-insights/insights/team-insights"
-  },
-  {
-    "id": 2439128,
-    "parentId": 2420038,
-    "name": "My Insights",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
-    "fullPath": "suite/activity-and-insights/insights/my-insights"
-  },
-  {
-    "id": 2442907,
-    "parentId": 1840223,
-    "name": "Permissions",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Permissions"],
-    "fullPath": "boards/permissions"
-  },
-  {
-    "id": 2442910,
-    "parentId": 1840223,
-    "name": "Integration tests",
-    "index": 9,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Integration tests"],
-    "fullPath": "boards/integration-tests"
-  },
-  {
-    "id": 2558579,
-    "parentId": 1236118,
-    "name": "Valid test commands",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Valid test commands"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/valid-test-commands"
-  },
-  {
-    "id": 2558582,
-    "parentId": 1236118,
-    "name": "Error test commands",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Error test commands"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/error-test-commands"
-  },
-  {
-    "id": 2558585,
-    "parentId": 1236118,
-    "name": "with_input test commands",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": [
-      "Apps Framework",
-      "Framework and test apps",
-      "test-app",
-      "with_input test commands"
-    ],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/with_input-test-commands"
-  },
-  {
-    "id": 2558586,
-    "parentId": 1236118,
-    "name": "Invalid test command",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Invalid test command"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/invalid-test-command"
-  },
-  {
-    "id": 2558591,
-    "parentId": 1236115,
-    "name": "hello oAuth",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "hello oAuth"],
-    "fullPath": "apps-framework/framework-and-test-apps/hello-oauth"
-  },
-  {
-    "id": 2558596,
-    "parentId": 1236118,
-    "name": "General",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "General"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/general"
-  },
-  {
-    "id": 2558604,
-    "parentId": 1236118,
-    "name": "Embedded tests",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Embedded tests"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/embedded-tests"
-  },
-  {
-    "id": 2558608,
-    "parentId": 1236118,
-    "name": "Form test",
-    "index": 7,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Form test"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/form-test"
-  },
-  {
-    "id": 2558611,
-    "parentId": 1236118,
-    "name": "Subscribe test",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Framework and test apps", "test-app", "Subscribe test"],
-    "fullPath": "apps-framework/framework-and-test-apps/test-app/subscribe-test"
-  },
-  {
-    "id": 2569033,
-    "parentId": 2277496,
-    "name": "Messaging",
-    "index": 3,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Messaging"],
-    "fullPath": "mobile-v2/messaging"
-  },
-  {
-    "id": 2642484,
-    "parentId": null,
-    "name": "Calls",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Calls"],
-    "fullPath": "calls"
-  },
-  {
-    "id": 2722971,
-    "parentId": 2277496,
-    "name": "Threads",
-    "index": 6,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Threads"],
-    "fullPath": "mobile-v2/threads"
-  },
-  {
-    "id": 2726525,
-    "parentId": 2642484,
-    "name": "Calls",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Calls", "Calls"],
-    "fullPath": "calls/calls"
-  },
-  {
-    "id": 2737124,
-    "parentId": 1840223,
-    "name": "Cloud Free",
-    "index": 10,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Boards", "Cloud Free"],
-    "fullPath": "boards/cloud-free"
-  },
-  {
-    "id": 2745764,
+    "id": 404297,
     "parentId": 404330,
-    "name": "Jitsi",
-    "index": 19,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jitsi"],
-    "fullPath": "plugins/jitsi"
-  },
-  {
-    "id": 2759054,
-    "parentId": 2642484,
-    "name": "Mobile",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Calls", "Mobile"],
-    "fullPath": "calls/mobile"
-  },
-  {
-    "id": 2861012,
-    "parentId": 2954447,
-    "name": "Cloud Freemium Integrations limits",
+    "name": "NPS Plugin",
     "index": 3,
     "folderType": "TEST_CASE",
-    "fullNames": ["Suite", "Cloud Freemium Integrations limits"],
-    "fullPath": "suite/cloud-freemium-integrations-limits"
+    "fullNames": ["Plugins", "NPS Plugin"],
+    "fullPath": "plugins/nps-plugin"
   },
   {
-    "id": 2905446,
-    "parentId": 883991,
-    "name": "Starter Plan",
-    "index": 5,
+    "id": 632425,
+    "parentId": 404330,
+    "name": "Plugin Marketplace",
+    "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Starter Plan"],
-    "fullPath": "cloud/starter-plan"
+    "fullNames": ["Plugins", "Plugin Marketplace"],
+    "fullPath": "plugins/plugin-marketplace"
   },
   {
-    "id": 2916636,
-    "parentId": 883991,
-    "name": "Signup Trial and Upgrade",
-    "index": 6,
+    "id": 712013,
+    "parentId": 632425,
+    "name": "Import Queue",
+    "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
-    "fullPath": "cloud/signup-trial-and-upgrade"
+    "fullNames": ["Plugins", "Plugin Marketplace", "Import Queue"],
+    "fullPath": "plugins/plugin-marketplace/import-queue"
   },
   {
-    "id": 2943603,
-    "parentId": 2277496,
-    "name": "Autocomplete",
+    "id": 1302232,
+    "parentId": 632425,
+    "name": "MM Apps",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Autocomplete"],
-    "fullPath": "mobile-v2/autocomplete"
-  },
-  {
-    "id": 2954447,
-    "parentId": null,
-    "name": "Suite",
-    "index": 5,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Suite"],
-    "fullPath": "suite"
-  },
-  {
-    "id": 2960960,
-    "parentId": 3142963,
-    "name": "Custom Emoji",
-    "index": 19,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Custom Emoji"],
-    "fullPath": "channels/custom-emoji"
-  },
-  {
-    "id": 3050574,
-    "parentId": 2277496,
-    "name": "Search",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Search"],
-    "fullPath": "mobile-v2/search"
-  },
-  {
-    "id": 3076551,
-    "parentId": 2139765,
-    "name": "Setup",
-    "index": 4,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitLab", "Setup"],
-    "fullPath": "plugins/gitlab/setup"
+    "fullNames": ["Plugins", "Plugin Marketplace", "MM Apps"],
+    "fullPath": "plugins/plugin-marketplace/mm-apps"
   },
   {
     "id": 3080541,
@@ -2710,40 +1900,58 @@
     "fullPath": "plugins/plugin-release-tests"
   },
   {
-    "id": 3103572,
-    "parentId": 3142963,
-    "name": "Message Forwarding",
-    "index": 24,
+    "id": 1177276,
+    "parentId": 404330,
+    "name": "Splunk",
+    "index": 11,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Message Forwarding"],
-    "fullPath": "channels/message-forwarding"
+    "fullNames": ["Plugins", "Splunk"],
+    "fullPath": "plugins/splunk"
   },
   {
-    "id": 3142963,
-    "parentId": null,
-    "name": "Channels",
-    "index": 3,
+    "id": 1054414,
+    "parentId": 404330,
+    "name": "ToDo",
+    "index": 10,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels"],
-    "fullPath": "channels"
+    "fullNames": ["Plugins", "ToDo"],
+    "fullPath": "plugins/todo"
   },
   {
-    "id": 3142995,
-    "parentId": 3142963,
-    "name": "Channel menu",
-    "index": 21,
+    "id": 1054405,
+    "parentId": 404330,
+    "name": "WebEx",
+    "index": 9,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Channel menu"],
-    "fullPath": "channels/channel-menu"
+    "fullNames": ["Plugins", "WebEx"],
+    "fullPath": "plugins/webex"
   },
   {
-    "id": 3160301,
-    "parentId": 733538,
-    "name": "Jira subscriptions",
-    "index": 7,
+    "id": 1054401,
+    "parentId": 404330,
+    "name": "Welcome Bot",
+    "index": 8,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira subscriptions"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-subscriptions"
+    "fullNames": ["Plugins", "Welcome Bot"],
+    "fullPath": "plugins/welcome-bot"
+  },
+  {
+    "id": 2157120,
+    "parentId": 404330,
+    "name": "Zoom",
+    "index": 17,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Zoom"],
+    "fullPath": "plugins/zoom"
+  },
+  {
+    "id": 2157124,
+    "parentId": 2157120,
+    "name": "General",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Zoom", "General"],
+    "fullPath": "plugins/zoom/general"
   },
   {
     "id": 3231117,
@@ -2755,13 +1963,76 @@
     "fullPath": "plugins/zoom/jwt"
   },
   {
-    "id": 3233825,
-    "parentId": 3142963,
-    "name": "Edited Post",
-    "index": 23,
+    "id": 2157148,
+    "parentId": 2157120,
+    "name": "oAuth Account-level app",
+    "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Edited Post"],
-    "fullPath": "channels/edited-post"
+    "fullNames": ["Plugins", "Zoom", "oAuth Account-level app"],
+    "fullPath": "plugins/zoom/oauth-account-level-app"
+  },
+  {
+    "id": 2157129,
+    "parentId": 2157120,
+    "name": "oAuth User-managed app",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Zoom", "oAuth User-managed app"],
+    "fullPath": "plugins/zoom/oauth-user-managed-app"
+  },
+  {
+    "id": 3450509,
+    "parentId": null,
+    "name": "Saturn Testing",
+    "index": 16,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Saturn Testing"],
+    "fullPath": "saturn-testing"
+  },
+  {
+    "id": 404339,
+    "parentId": null,
+    "name": "Smoke Tests",
+    "index": 16,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Smoke Tests"],
+    "fullPath": "smoke-tests"
+  },
+  {
+    "id": 884314,
+    "parentId": 404339,
+    "name": "WebApp",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Smoke Tests", "WebApp"],
+    "fullPath": "smoke-tests/webapp"
+  },
+  {
+    "id": 2954447,
+    "parentId": null,
+    "name": "Suite",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite"],
+    "fullPath": "suite"
+  },
+  {
+    "id": 2373996,
+    "parentId": 2954447,
+    "name": "Activity and Insights",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Activity and Insights"],
+    "fullPath": "suite/activity-and-insights"
+  },
+  {
+    "id": 2420038,
+    "parentId": 2373996,
+    "name": "Insights",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Activity and Insights", "Insights"],
+    "fullPath": "suite/activity-and-insights/insights"
   },
   {
     "id": 3247244,
@@ -2773,75 +2044,822 @@
     "fullPath": "suite/activity-and-insights/insights/day-range"
   },
   {
-    "id": 3274157,
-    "parentId": 565201,
-    "name": "Onboarding",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Onboarding"],
-    "fullPath": "desktop-app--native-specific-/onboarding"
-  },
-  {
-    "id": 3287708,
-    "parentId": 2277496,
-    "name": "Account",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Mobile V2", "Account"],
-    "fullPath": "mobile-v2/account"
-  },
-  {
-    "id": 3290340,
-    "parentId": 1214365,
-    "name": "Trello",
+    "id": 2439128,
+    "parentId": 2420038,
+    "name": "My Insights",
     "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "Trello"],
-    "fullPath": "apps-framework/trello"
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "My Insights"],
+    "fullPath": "suite/activity-and-insights/insights/my-insights"
   },
   {
-    "id": 3290379,
-    "parentId": 1214365,
-    "name": "OpsGenie",
+    "id": 2420042,
+    "parentId": 2420038,
+    "name": "Team Insights",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Activity and Insights", "Insights", "Team Insights"],
+    "fullPath": "suite/activity-and-insights/insights/team-insights"
+  },
+  {
+    "id": 404269,
+    "parentId": 2954447,
+    "name": "AD LDAP",
+    "index": 21,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "AD LDAP"],
+    "fullPath": "suite/ad-ldap"
+  },
+  {
+    "id": 2095568,
+    "parentId": 2954447,
+    "name": "Apps Bar",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Apps Bar"],
+    "fullPath": "suite/apps-bar"
+  },
+  {
+    "id": 404272,
+    "parentId": 2954447,
+    "name": "Auth SSO",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Auth SSO"],
+    "fullPath": "suite/auth-sso"
+  },
+  {
+    "id": 404278,
+    "parentId": 2954447,
+    "name": "CLI",
+    "index": 23,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "CLI"],
+    "fullPath": "suite/cli"
+  },
+  {
+    "id": 2861012,
+    "parentId": 2954447,
+    "name": "Cloud Freemium Integrations limits",
     "index": 3,
     "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "OpsGenie"],
-    "fullPath": "apps-framework/opsgenie"
+    "fullNames": ["Suite", "Cloud Freemium Integrations limits"],
+    "fullPath": "suite/cloud-freemium-integrations-limits"
   },
   {
-    "id": 3290380,
-    "parentId": 1214365,
-    "name": "PagerDuty",
+    "id": 2260287,
+    "parentId": 2954447,
+    "name": "Custom Groups",
     "index": 4,
     "folderType": "TEST_CASE",
-    "fullNames": ["Apps Framework", "PagerDuty"],
-    "fullPath": "apps-framework/pagerduty"
+    "fullNames": ["Suite", "Custom Groups"],
+    "fullPath": "suite/custom-groups"
   },
   {
-    "id": 3305242,
-    "parentId": 1194686,
-    "name": "Setup",
+    "id": 1019781,
+    "parentId": 2954447,
+    "name": "EMM",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "EMM"],
+    "fullPath": "suite/emm"
+  },
+  {
+    "id": 733337,
+    "parentId": 2954447,
+    "name": "Enterprise",
     "index": 6,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "GitHub", "Setup"],
-    "fullPath": "plugins/github/setup"
+    "fullNames": ["Suite", "Enterprise"],
+    "fullPath": "suite/enterprise"
   },
   {
-    "id": 3337681,
-    "parentId": 3142963,
-    "name": "Autocomplete",
-    "index": 31,
+    "id": 918602,
+    "parentId": 733337,
+    "name": "Admin Roles",
+    "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Channels", "Autocomplete"],
-    "fullPath": "channels/autocomplete"
+    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
+    "fullPath": "suite/enterprise/admin-roles"
   },
   {
-    "id": 3375514,
-    "parentId": 565201,
-    "name": "Cypress drafts",
+    "id": 1218566,
+    "parentId": 918602,
+    "name": "Sub Section",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Enterprise", "Admin Roles", "Sub Section"],
+    "fullPath": "suite/enterprise/admin-roles/sub-section"
+  },
+  {
+    "id": 635686,
+    "parentId": 733337,
+    "name": "Channel Moderation Settings",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
+    "fullPath": "suite/enterprise/channel-moderation-settings"
+  },
+  {
+    "id": 733341,
+    "parentId": 733337,
+    "name": "Group Mentions",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
+    "fullPath": "suite/enterprise/group-mentions"
+  },
+  {
+    "id": 1052242,
+    "parentId": 733337,
+    "name": "OpenId Connect",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
+    "fullPath": "suite/enterprise/openid-connect"
+  },
+  {
+    "id": 751123,
+    "parentId": 733337,
+    "name": "Team and Channel",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Enterprise", "Team and Channel"],
+    "fullPath": "suite/enterprise/team-and-channel"
+  },
+  {
+    "id": 580185,
+    "parentId": 2954447,
+    "name": "Guest Accounts",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts"],
+    "fullPath": "suite/guest-accounts"
+  },
+  {
+    "id": 581416,
+    "parentId": 580185,
+    "name": "Guest Experience",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
+    "fullPath": "suite/guest-accounts/guest-experience"
+  },
+  {
+    "id": 581532,
+    "parentId": 580185,
+    "name": "Guest Identification",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts", "Guest Identification"],
+    "fullPath": "suite/guest-accounts/guest-identification"
+  },
+  {
+    "id": 581564,
+    "parentId": 580185,
+    "name": "Guest SAML LDAP",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
+    "fullPath": "suite/guest-accounts/guest-saml-ldap"
+  },
+  {
+    "id": 581366,
+    "parentId": 580185,
+    "name": "Guests Invitation Flow",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts", "Guests Invitation Flow"],
+    "fullPath": "suite/guest-accounts/guests-invitation-flow"
+  },
+  {
+    "id": 580214,
+    "parentId": 580185,
+    "name": "Members Invitation Flow",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Guest Accounts", "Members Invitation Flow"],
+    "fullPath": "suite/guest-accounts/members-invitation-flow"
+  },
+  {
+    "id": 926627,
+    "parentId": 2954447,
+    "name": "In Product Notices",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "In Product Notices"],
+    "fullPath": "suite/in-product-notices"
+  },
+  {
+    "id": 631925,
+    "parentId": 2954447,
+    "name": "LDAP Group Sync",
+    "index": 22,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "LDAP Group Sync"],
+    "fullPath": "suite/ldap-group-sync"
+  },
+  {
+    "id": 404291,
+    "parentId": 2954447,
+    "name": "License Levels",
+    "index": 12,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "License Levels"],
+    "fullPath": "suite/license-levels"
+  },
+  {
+    "id": 404296,
+    "parentId": 2954447,
+    "name": "Notifications",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Notifications"],
+    "fullPath": "suite/notifications"
+  },
+  {
+    "id": 748017,
+    "parentId": 404296,
+    "name": "Toast",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Notifications", "Toast"],
+    "fullPath": "suite/notifications/toast"
+  },
+  {
+    "id": 404298,
+    "parentId": 2954447,
+    "name": "OAuth",
     "index": 17,
     "folderType": "TEST_CASE",
-    "fullNames": ["Desktop App (native-specific)", "Cypress drafts"],
-    "fullPath": "desktop-app--native-specific-/cypress-drafts"
+    "fullNames": ["Suite", "OAuth"],
+    "fullPath": "suite/oauth"
+  },
+  {
+    "id": 404328,
+    "parentId": 2954447,
+    "name": "Onboarding",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Onboarding"],
+    "fullPath": "suite/onboarding"
+  },
+  {
+    "id": 404329,
+    "parentId": 2954447,
+    "name": "Permissions",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Permissions"],
+    "fullPath": "suite/permissions"
+  },
+  {
+    "id": 751544,
+    "parentId": 404329,
+    "name": "Team Admin permissions on TE",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Permissions", "Team Admin permissions on TE"],
+    "fullPath": "suite/permissions/team-admin-permissions-on-te"
+  },
+  {
+    "id": 738571,
+    "parentId": 2954447,
+    "name": "Redirect",
+    "index": 14,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Redirect"],
+    "fullPath": "suite/redirect"
+  },
+  {
+    "id": 404332,
+    "parentId": 2954447,
+    "name": "SAML",
+    "index": 15,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "SAML"],
+    "fullPath": "suite/saml"
+  },
+  {
+    "id": 404337,
+    "parentId": 2954447,
+    "name": "Sign In Authentication",
+    "index": 16,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Sign In Authentication"],
+    "fullPath": "suite/sign-in-authentication"
+  },
+  {
+    "id": 404338,
+    "parentId": 2954447,
+    "name": "Slack Import",
+    "index": 20,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Slack Import"],
+    "fullPath": "suite/slack-import"
+  },
+  {
+    "id": 404340,
+    "parentId": 2954447,
+    "name": "System Console",
+    "index": 18,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console"],
+    "fullPath": "suite/system-console"
+  },
+  {
+    "id": 567106,
+    "parentId": 404340,
+    "name": "About",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "About"],
+    "fullPath": "suite/system-console/about"
+  },
+  {
+    "id": 569441,
+    "parentId": 567106,
+    "name": "Edition and License",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "About", "Edition and License"],
+    "fullPath": "suite/system-console/about/edition-and-license"
+  },
+  {
+    "id": 864964,
+    "parentId": 404340,
+    "name": "Admin Advisor",
+    "index": 18,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Admin Advisor"],
+    "fullPath": "suite/system-console/admin-advisor"
+  },
+  {
+    "id": 568082,
+    "parentId": 404340,
+    "name": "Any page",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Any page"],
+    "fullPath": "suite/system-console/any-page"
+  },
+  {
+    "id": 670877,
+    "parentId": 404340,
+    "name": "Channel Listing with Team Name",
+    "index": 18,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Channel Listing with Team Name"],
+    "fullPath": "suite/system-console/channel-listing-with-team-name"
+  },
+  {
+    "id": 569444,
+    "parentId": 404340,
+    "name": "Channel Search and Pagination",
+    "index": 15,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Channel Search and Pagination"],
+    "fullPath": "suite/system-console/channel-search-and-pagination"
+  },
+  {
+    "id": 1151596,
+    "parentId": 404340,
+    "name": "Commercial Support",
+    "index": 19,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Commercial Support"],
+    "fullPath": "suite/system-console/commercial-support"
+  },
+  {
+    "id": 570062,
+    "parentId": 404340,
+    "name": "Compliance",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Compliance"],
+    "fullPath": "suite/system-console/compliance"
+  },
+  {
+    "id": 569413,
+    "parentId": 570062,
+    "name": "Compliance Export",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
+    "fullPath": "suite/system-console/compliance/compliance-export"
+  },
+  {
+    "id": 569415,
+    "parentId": 570062,
+    "name": "Compliance Monitoring",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
+    "fullPath": "suite/system-console/compliance/compliance-monitoring"
+  },
+  {
+    "id": 569417,
+    "parentId": 570062,
+    "name": "Custom Terms of Service",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
+    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
+  },
+  {
+    "id": 569412,
+    "parentId": 570062,
+    "name": "Data Retention Policy",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Compliance", "Data Retention Policy"],
+    "fullPath": "suite/system-console/compliance/data-retention-policy"
+  },
+  {
+    "id": 569446,
+    "parentId": 404340,
+    "name": "Database SQL Logging",
+    "index": 17,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Database SQL Logging"],
+    "fullPath": "suite/system-console/database-sql-logging"
+  },
+  {
+    "id": 569450,
+    "parentId": 404340,
+    "name": "Environment",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment"],
+    "fullPath": "suite/system-console/environment"
+  },
+  {
+    "id": 568111,
+    "parentId": 569450,
+    "name": "Database",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Database"],
+    "fullPath": "suite/system-console/environment/database"
+  },
+  {
+    "id": 568112,
+    "parentId": 569450,
+    "name": "Elasticsearch",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Elasticsearch"],
+    "fullPath": "suite/system-console/environment/elasticsearch"
+  },
+  {
+    "id": 568184,
+    "parentId": 569450,
+    "name": "Environment - Developer",
+    "index": 12,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Environment - Developer"],
+    "fullPath": "suite/system-console/environment/environment---developer"
+  },
+  {
+    "id": 568113,
+    "parentId": 569450,
+    "name": "File Storage",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "File Storage"],
+    "fullPath": "suite/system-console/environment/file-storage"
+  },
+  {
+    "id": 568177,
+    "parentId": 569450,
+    "name": "High Availability",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "High Availability"],
+    "fullPath": "suite/system-console/environment/high-availability"
+  },
+  {
+    "id": 568173,
+    "parentId": 569450,
+    "name": "Image Proxy",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Image Proxy"],
+    "fullPath": "suite/system-console/environment/image-proxy"
+  },
+  {
+    "id": 568182,
+    "parentId": 569450,
+    "name": "Performance Monitoring",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Performance Monitoring"],
+    "fullPath": "suite/system-console/environment/performance-monitoring"
+  },
+  {
+    "id": 568176,
+    "parentId": 569450,
+    "name": "Push Notification Server",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Push Notification Server"],
+    "fullPath": "suite/system-console/environment/push-notification-server"
+  },
+  {
+    "id": 568179,
+    "parentId": 569450,
+    "name": "Rate Limiting",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Rate Limiting"],
+    "fullPath": "suite/system-console/environment/rate-limiting"
+  },
+  {
+    "id": 738708,
+    "parentId": 569450,
+    "name": "Session Length (Extend on Activity)",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Session Length (Extend on Activity)"],
+    "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
+  },
+  {
+    "id": 568180,
+    "parentId": 569450,
+    "name": "Session Lengths",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Session Lengths"],
+    "fullPath": "suite/system-console/environment/session-lengths"
+  },
+  {
+    "id": 568174,
+    "parentId": 569450,
+    "name": "SMTP",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "SMTP"],
+    "fullPath": "suite/system-console/environment/smtp"
+  },
+  {
+    "id": 568089,
+    "parentId": 569450,
+    "name": "Web Server",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
+    "fullPath": "suite/system-console/environment/web-server"
+  },
+  {
+    "id": 569442,
+    "parentId": 404340,
+    "name": "Experimental",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Experimental"],
+    "fullPath": "suite/system-console/experimental"
+  },
+  {
+    "id": 569364,
+    "parentId": 404340,
+    "name": "File Sharing and Downloads",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "File Sharing and Downloads"],
+    "fullPath": "suite/system-console/file-sharing-and-downloads"
+  },
+  {
+    "id": 570084,
+    "parentId": 404340,
+    "name": "Integrations",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Integrations"],
+    "fullPath": "suite/system-console/integrations"
+  },
+  {
+    "id": 569411,
+    "parentId": 570084,
+    "name": "CORS",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Integrations", "CORS"],
+    "fullPath": "suite/system-console/integrations/cors"
+  },
+  {
+    "id": 569410,
+    "parentId": 570084,
+    "name": "GIF (Beta)",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Integrations", "GIF (Beta)"],
+    "fullPath": "suite/system-console/integrations/gif--beta-"
+  },
+  {
+    "id": 569402,
+    "parentId": 570084,
+    "name": "Integration Management",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Integrations", "Integration Management"],
+    "fullPath": "suite/system-console/integrations/integration-management"
+  },
+  {
+    "id": 538609,
+    "parentId": 404340,
+    "name": "Main Menu",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Main Menu"],
+    "fullPath": "suite/system-console/main-menu"
+  },
+  {
+    "id": 538608,
+    "parentId": 404340,
+    "name": "Reporting",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Reporting"],
+    "fullPath": "suite/system-console/reporting"
+  },
+  {
+    "id": 570071,
+    "parentId": 538608,
+    "name": "Server Logs",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Reporting", "Server Logs"],
+    "fullPath": "suite/system-console/reporting/server-logs"
+  },
+  {
+    "id": 570069,
+    "parentId": 538608,
+    "name": "Site Statistics",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Reporting", "Site Statistics"],
+    "fullPath": "suite/system-console/reporting/site-statistics"
+  },
+  {
+    "id": 570070,
+    "parentId": 538608,
+    "name": "Team Statistics",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Reporting", "Team Statistics"],
+    "fullPath": "suite/system-console/reporting/team-statistics"
+  },
+  {
+    "id": 538607,
+    "parentId": 404340,
+    "name": "Search box",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Search box"],
+    "fullPath": "suite/system-console/search-box"
+  },
+  {
+    "id": 570051,
+    "parentId": 404340,
+    "name": "Site Configuration",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration"],
+    "fullPath": "suite/system-console/site-configuration"
+  },
+  {
+    "id": 569318,
+    "parentId": 570051,
+    "name": "Announcement Banner",
+    "index": 4,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Announcement Banner"],
+    "fullPath": "suite/system-console/site-configuration/announcement-banner"
+  },
+  {
+    "id": 568186,
+    "parentId": 570051,
+    "name": "Customization",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
+    "fullPath": "suite/system-console/site-configuration/customization"
+  },
+  {
+    "id": 569359,
+    "parentId": 570051,
+    "name": "Emoji",
+    "index": 5,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Emoji"],
+    "fullPath": "suite/system-console/site-configuration/emoji"
+  },
+  {
+    "id": 569363,
+    "parentId": 570051,
+    "name": "File Sharing and Downloads",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "File Sharing and Downloads"],
+    "fullPath": "suite/system-console/site-configuration/file-sharing-and-downloads"
+  },
+  {
+    "id": 568192,
+    "parentId": 570051,
+    "name": "Localization",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Localization"],
+    "fullPath": "suite/system-console/site-configuration/localization"
+  },
+  {
+    "id": 569154,
+    "parentId": 570051,
+    "name": "Notifications",
+    "index": 3,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Notifications"],
+    "fullPath": "suite/system-console/site-configuration/notifications"
+  },
+  {
+    "id": 569361,
+    "parentId": 570051,
+    "name": "Posts",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Posts"],
+    "fullPath": "suite/system-console/site-configuration/posts"
+  },
+  {
+    "id": 569362,
+    "parentId": 570051,
+    "name": "Public Links",
+    "index": 8,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Public Links"],
+    "fullPath": "suite/system-console/site-configuration/public-links"
+  },
+  {
+    "id": 569153,
+    "parentId": 570051,
+    "name": "Users and Teams",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
+    "fullPath": "suite/system-console/site-configuration/users-and-teams"
+  },
+  {
+    "id": 569445,
+    "parentId": 404340,
+    "name": "Team Search and Pagination",
+    "index": 16,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "Team Search and Pagination"],
+    "fullPath": "suite/system-console/team-search-and-pagination"
+  },
+  {
+    "id": 538610,
+    "parentId": 404340,
+    "name": "User Management",
+    "index": 6,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "User Management"],
+    "fullPath": "suite/system-console/user-management"
+  },
+  {
+    "id": 570073,
+    "parentId": 538610,
+    "name": "Users",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "User Management", "Users"],
+    "fullPath": "suite/system-console/user-management/users"
+  },
+  {
+    "id": 836038,
+    "parentId": 2954447,
+    "name": "Telemetry",
+    "index": 19,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Telemetry"],
+    "fullPath": "suite/telemetry"
+  },
+  {
+    "id": 1325987,
+    "parentId": 2954447,
+    "name": "Trial License",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "Trial License"],
+    "fullPath": "suite/trial-license"
+  },
+  {
+    "id": 399678,
+    "parentId": null,
+    "name": "Ticket coverage",
+    "index": 15,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Ticket coverage"],
+    "fullPath": "ticket-coverage"
   }
 ]

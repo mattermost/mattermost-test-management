@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod", "auth-sso"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404272,
-    "name": "Auth SSO",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Auth SSO"],
-    "fullPath": "suite/auth-sso"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Auth SSO"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Auth SSO",
+  "folderFullPath": "suite/auth-sso",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2d9a4732b244d0457f73942f4632224fd6866425639380714fb139b58a21d24ee384367aa2019197da8a1919e7a0ab4d",
+  "caseHashed": "b10c58ee0dfe35c72d0e4c9e0215bf945eb6c8afe092656c4bc65e0ca720a07a0f43597b556bb42fa709d36b99237713",
   "stepsHashed": "421774b582e7ce800f0ef8695eac210ced80d81ed89b45e21281438fcf8bfa84255d8d5dadef49e1a6ee33a57e000536"
 }

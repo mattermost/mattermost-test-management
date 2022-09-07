@@ -7,16 +7,6 @@
   "precondition": "<strong>**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)**</strong>",
   "estimatedTime": null,
   "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "messaging"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Messaging"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d8127f6bbaa5199a17663c3c0febecac90f0852887391d97f6214a8f287ed8e4c6495ecb26edc1871cfd28ed71e8acb2",
+  "caseHashed": "f5c20419b397cb1aac4c9d30b52d6d7963354f30420beb95ef5cba32d30ad58e68e7bf143f4430c0fd7f34ffa16dd5e0",
   "stepsHashed": "13804368b0237a1c4afa1c939f2fb03eba120655e31068cee4189bcf41c2e7e11b6f6ca1f9dfc020ba737cd90520b27e"
 }

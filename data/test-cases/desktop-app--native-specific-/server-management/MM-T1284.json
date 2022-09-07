@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "Cloud-N/A", "v5.0-N/A", "2022cleanup-archive"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 892162, "name": "Update" },
-  "folder": {
-    "id": 565205,
-    "name": "Server Management",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Server Management"],
-    "fullPath": "desktop-app--native-specific-/server-management"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Update",
+  "folderName": "Server Management",
+  "folderFullPath": "desktop-app--native-specific-/server-management",
   "steps": [
     {
       "inline": {
@@ -112,6 +107,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a1860d3aa08379a83e2553f0a50cfcfd4539bb33b233004c70f208ac35b0f40ac63ed66b73cbce14c4753ebf607c6a74",
+  "caseHashed": "0f3c69dd0e682b0bc632f30f8d1ee6e0d995fc099f5351095f4dc17dcfb73669d4617e7ab1034bbf58efb0d5948f45f0",
   "stepsHashed": "8d11263c3baefaf44d6ee3e403c63638302bf1937eb8710a89128c1c50aedbc9dd478f369d76b7e821d245122ca170fb"
 }

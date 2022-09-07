@@ -7,16 +7,6 @@
   "precondition": "These test require that you connect to Circle CI with a GitHub user who has access to these 2 public repos.<br>https://github.com/DHaussermann/hello-world<br>https://github.com/DHaussermann/mattermost-plugin-custom-attributes<br><br>Contact Dylan if invites are needed.<br><br><strong>Note:</strong><br>This functionality works with <em>mattermost-plugin-custom-attributes</em> because a 3rd party Orb was added in the .yaml build instructions. To make the webhook for this work with a different repo, the steps at https://github.com/nathanaelhoun/circleci-orb-mattermost-plugin-notify must be followed. &nbsp;",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1260737,
-    "name": "Circle-CI",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "Circle-CI"],
-    "fullPath": "plugins/circle-ci"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Circle-CI",
+  "folderFullPath": "plugins/circle-ci",
   "steps": [
     {
       "inline": {
@@ -112,6 +107,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d0787a66a98ac6585fda081dab2acef7c58b77ff91879abdb2112d840d219054f654618205f99d5889e2ca8feb4ba568",
+  "caseHashed": "da5440126e087a3610eb3fd4058bfbd082e740bcd80224d4aec922727dc64de5a7e6509e87bfb72d8bc10c1da6eef078",
   "stepsHashed": "a688957bbae99cdf9bfefe4a0ec72e66b8a324168335ec00c61a015252cb5943eedb1797b0f89a1fa0fc3d3ad740d281"
 }

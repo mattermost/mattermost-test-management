@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["plugins"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 1054414,
-    "name": "ToDo",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "ToDo"],
-    "fullPath": "plugins/todo"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,10 +22,15 @@
     "Tags": [],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "ToDo",
+  "folderFullPath": "plugins/todo",
   "steps": [
     {
       "inline": {
-        "description": "1. Make a post<br />2. Click the `...` post menu option and select Add ToDo<br />3. Add some text below the permailink <br />4. Click the PermaLink from the ToDo pane",
+        "description": "1. Make a post<br />2. Click the post actions option and select Add ToDo<br />3. Add some text below the permailink<br />4. Click the PermaLink from the ToDo pane",
         "testData": null,
         "expectedResult": "On 3. <br />- Post text added as an Item to To Do<br />- Permalink is included to the source post<br />- Post added below the permalink is also included<br />On 4. <br />- The main thread just to the souce post and the ToDo RHS stays open",
         "customFields": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e48da79a61d6f90d6b69a5ddc094c217e9251a220af0aee9da1d3c4d5a9a9eff7e2625ffcfab3bff61e2f245d6a3156b",
-  "stepsHashed": "9849487d9cdf00cac098c95bbbdeecad7a7178021781eb47344441a981021381c186e1607724c646ea1e78142b765d74"
+  "caseHashed": "1fefba72e0b4be25d178a70b021aff6a17e4433ee2b0822a0b7be1e0d5737f7bab3d1bdf64d04726cfcbb4d9116f65fa",
+  "stepsHashed": "6073056d11b2117261eb3b3b5ca79e94ff629d3f6f26c64f01660489324d7e7ddf3c08b270db4bc3da991bca46d6bba9"
 }

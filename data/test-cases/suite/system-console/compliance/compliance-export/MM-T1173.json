@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "Cloud-N/A", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569413,
-    "name": "Compliance Export",
-    "parentId": 570062,
-    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Export"],
-    "fullPath": "suite/system-console/compliance/compliance-export"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Compliance Export",
+  "folderFullPath": "suite/system-console/compliance/compliance-export",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d2e16f1ba32cd2633b9ccc490b972d2c5dd44f63dc7f605546a4a1f69bd2cab40840a8b9f8fcfb4a14598e9704a7d8c7",
+  "caseHashed": "07a0f56c07e979f7f11969977ace27703008658bb8ffada738401bd964888975d261bd725131dbdd3a4f997d7479ba9c",
   "stepsHashed": "e2eab41b3ca8a5ae7f75c64d0c01b1552a19878d733f3f6756f761893d5b38d7f11ffb84b1de7974bf846b34f81602b0"
 }

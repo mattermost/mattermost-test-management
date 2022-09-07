@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod", "messaging"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Messaging"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e0ffa9d2cc0eafb0b64573620b5356c683ba82c4bdea17cb371fcdb12f67eb3821597cbee8b87dbc26298689b90d1f88",
+  "caseHashed": "0c8438028bdb2e3982cd97c215f7475b77c0841d749e5afd58798d2c973530f19679e3008fab56addf9247e2d464d78b",
   "stepsHashed": "d44e2e07978924646f087ff7e6bc8feb911fee6ead6a75e46ac588a2daaf999d71a09bf7b50bcf83103797ab25548c74"
 }

@@ -7,16 +7,6 @@
   "precondition": "<strong>Requires a sandbox instance of Zendesk with an oAuth 2 application configured.</strong> <br><br>- No Support yet for RN mobile apps",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1244765,
-    "name": "Zendesk",
-    "parentId": 1214365,
-    "fullNames": ["Apps Framework", "Zendesk"],
-    "fullPath": "apps-framework/zendesk"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Zendesk",
+  "folderFullPath": "apps-framework/zendesk",
   "steps": [
     { "inline": null, "testCase": { "testCaseKey": "MM-T4038" } },
     {
@@ -74,6 +69,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d7921b6ad54bb17b396b3fedeba82f6706682d69262c9a4ad9b783c170c0589dd2a409d5b5586ead6674e8ede5636510",
+  "caseHashed": "9e403edcabee4791ae0ef7759d883fe3318f1f4399a1310263ba6a4097fb81b3d13a751aa5eb4df478373bca1fc99e26",
   "stepsHashed": "e5740f74f5cc735e6781f862b6453633b1dcf26aa3c8b29ffa9dfa3640802825c1baea154aeabadb814f2e56ce07e05b"
 }

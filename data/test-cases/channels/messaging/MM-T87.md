@@ -1,45 +1,30 @@
 ---
-key: MM-T87
-title: Text in bullet points is the same size as text above and below it
+name: "Text in bullet points is the same size as text above and below it"
+status: Active
+priority: Low
+team_ownership: "Channels"
 ---
 
 ## MM-T87: Text in bullet points is the same size as text above and below it
 
-### Details
-
-| Name     | Value                                                |
-| :------- | :--------------------------------------------------- |
-| Priority | Low                                                  |
-| Status   | Active                                               |
-| Folder   | Channels / Messaging                                 |
-| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging |
-| Created  | 2019-12-20T16:32:58Z                                 |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Text in bullet points is the same size as text above and below it<br>–––––––––––––––––––––––––<ol><li>In a test channel, post as described in Test Data field</li></ol></article>
+Text in bullet points is the same size as text above and below it\
+–––––––––––––––––––––––––
+
+1. In a test channel, post as described in Test Data field
 
 **Test Data**
 
-> <article>This is a normal sentence.<br>&lt;newline&gt;(just make a new line - don't type this in)<br>1. this is point 1<br>&nbsp;- this is a bullet under 1 with a space before the dash at the beginning<br>&lt;newline&gt;(just make a new line - don't type this in)<br>this is more normal text</article>
+This is a normal sentence.\
+\<newline>(just make a new line - don't type this in)\
+1\. this is point 1\
+ - this is a bullet under 1 with a space before the dash at the beginning\
+\<newline>(just make a new line - don't type this in)\
+this is more normal text
 
 **Expected**
 
-> <article><ul><li>All text in the post should be the same size. Text in the bullet point should not be larger than the text above or below it.</li></ul></article>
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                              |
-| :----------------------- | :--------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                    |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:07 PM<br>• Removed from manual testing |
-| Team Ownership           | Channels                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                 |
-| Cypress                  | in Production                                                                      |
-| Location                 | Messaging                                                                          |
+- All text in the post should be the same size. Text in the bullet point should not be larger than the text above or below it.

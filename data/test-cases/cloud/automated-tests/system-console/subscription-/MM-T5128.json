@@ -1,0 +1,47 @@
+{
+  "id": 31112586,
+  "key": "MM-T5128",
+  "name": "Annual Subscription | Payment Page | RHS | Customer should be able to add No. Of seats and select 'Monthly' or 'yearly' subscription",
+  "createdOn": "2022-09-06T10:35:36Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "customFields": {
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Subscription ❗",
+  "folderFullPath": "cloud/automated-tests/system-console/subscription-",
+  "steps": [
+    {
+      "inline": {
+        "description": "Tests Steps<br /><br /><strong>For yearly option</strong><br />1. By default 'Yearly' subscription should be selected<br /><br />2. Provision to add seats &gt;=10 should be given. Anything less than 10 should show user error<br /><br />3. 'Yearly Savings' should be calculated based on No. Of seats and cost per seat. This should be displayed<br /><br />4. Total Cost should be displayed<br /><br />5. 'Upgrade' button should be enabled if the Data is correct entered.<br /><br /><strong>For Monthly Option</strong><br /><br />1. A message stating 'Save X% yearly' should be displayed. When Monthly option is selected or Hovered on.<br /><br />",
+        "testData": "Yearly Option<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1662460208271-Screenshot+2022-09-06+at+3.58.42+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" /><br /><br />Monthly Option<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1662460311972-Screenshot+2022-09-06+at+4.01.23+PM.png\" style=\"width:300px\" class=\"fr-fil fr-dib\" />",
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "da952c528ea6c4593408b8c57de76f07d61288826bc8e6fbb73f795a5da41d10de50978c1df33e9267e8de6e1df0c0ec",
+  "stepsHashed": "c0bf2005cb189a979d5b014f8d416c12ee5efcfa29b805166f668ae0dec8f95db4796c7de81057a16be5dcea6200ff32"
+}

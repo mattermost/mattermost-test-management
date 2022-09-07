@@ -7,16 +7,6 @@
   "precondition": "<strong>Skip until fixed (blocked by </strong><a href=\"https://mattermost.atlassian.net/browse/MM-13547\"><strong>MM-13547</strong></a><strong>)</strong>",
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 892162, "name": "Update" },
-  "folder": {
-    "id": 569417,
-    "name": "Custom Terms of Service",
-    "parentId": 570062,
-    "fullNames": ["Suite", "System Console", "Compliance", "Custom Terms of Service"],
-    "fullPath": "suite/system-console/compliance/custom-terms-of-service"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Update",
+  "folderName": "Custom Terms of Service",
+  "folderFullPath": "suite/system-console/compliance/custom-terms-of-service",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d699286a14f39107b992b2dd552385529ecbecd8547f98dc4566ff6417a8e5f162bd160a6ab4faa1833a34bd40c9f505",
+  "caseHashed": "d8186dc03e3ff63fc34b8323a954d47f785ad70ec3d6441f217ed72869e0ee10a9427506726bd61b24fe442fb57e6eef",
   "stepsHashed": "e710b5af84b4637021450f278b11ad2274de9a2b994471ad7a9729a7c1d3e29e3c8682b3fe6e32a2e04659ca6d2225e7"
 }

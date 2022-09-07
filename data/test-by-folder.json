@@ -373,7 +373,7 @@
     "OpsGenie command: `/genie alert unack`",
     "OpsGenie command: `/genie alert ack`",
     "OpsGenie command: `/genie alert own`",
-    "Show only available commands (on execution and  `/genie help command)",
+    "Show only available commands (on execution and `/genie help command)",
     "OpsGenie command: `/genie alert assign`",
     "OpsGenie command: `/genie alert close`",
     "OpsGenie command: `/genie configure`",
@@ -976,6 +976,13 @@
     "MM Apps from manifest are not shown in marketplace when App plugin is disabled",
     "MM Apps listed and installable based on the the plugin manifest"
   ],
+  "plugins/bitbucket": [
+    "Notifications disabled",
+    "Links in DM link user to the specific comment",
+    "Overview test for webhook being in place",
+    "Various pop-overs Look good",
+    "To do list has popover tooltip"
+  ],
   "plugins/bitbucket/create-issue": [
     "Created issues are associated to correct bitbucket User",
     "\"Bitbucket\" icon correctly points to your instance of BitBucket and not bitbucket.com",
@@ -1078,7 +1085,7 @@
     "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover",
     "MM-16511 — \"Someone is typing\"",
     "MM-17338 — Setting Require Email Verification to true will break the admin console",
-    "MM-17392 — Invalid channel information in CSV exports",
+    "Invalid channel information in CSV exports",
     "MM-16833 — Web: Scroll position is wrong when entering a permalink view with loaded messages > 120",
     "MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page",
     "MM-17441 — Cannot toggle between Safari windows on macOS using (command + `)",
@@ -1087,9 +1094,9 @@
     "MM-17515 — Mobile browser view: A long email address is not fully visible in Profile Settings",
     "Edit a post and post it from preview",
     "MM-17346 — Regression: Cursor appears as hand but clicking does nothing on link preview",
-    "MM-17361 — When on preview mode, it does not allow to submit a post from the main post input",
+    "When on preview mode, it does not allow to submit a post from the main post input",
     "MM-17043 — Downgrade errors from the OpenGraph API",
-    "MM-17360 — Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
+    "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
     "MM-17355 — Channel header text flows on top of channel dropdown menu",
     "MM-16922 — Web: Opening a permalink from last few messages of a channel has a loading indicator at the bottom"
   ],
@@ -1535,7 +1542,7 @@
   ],
   "integrations/incoming-webhook": [
     "Incoming Webhooks — new message indicator",
-    "🚀 Short field in payload can accept strings text in quotes for true and false",
+    "Short field in payload can accept strings text in quotes for true and false",
     "🚀 Images with tall and wide aspect ratios appear correctly",
     "🚀 Incoming webhook is only image and fallback text",
     "Incoming webhook with Slack attachment, mention in attachment `text`",
@@ -1583,8 +1590,10 @@
   "integrations/built-in-commands": ["/invite - other channel", "/marketplace"],
   "cloud": [
     "Professional — Feature Availability (Cloud)",
+    "Notify Admin V2 | Verify that Telemetry Actions are tracked when User is making upgrade requests",
     "Takes the user through the steps of using the app using the ENTER key",
     "Cloud signup — Password requirements",
+    "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
     "Takes the user through the steps of using the app using the ENTER k",
     "Notify Admin V2 | System Admin gets notification when user request to upgrade MM features that have reached limit in the current workspace.",
     "Notify Admin V2 | Verify User cannot request same feature upgrade until the Set 'Cool-off' period is over",
@@ -1651,12 +1660,18 @@
     "Finding the default \"Cloud Starter\" record in Billing History screen"
   ],
   "cloud/automated-tests/system-console/company-information-": [
+    "Cloud | Ensure feature discovery for enterprise features shows option to contact sales",
     "We should be able to change the \"Billing address\" by unchecking the \"Same as Billing Address\" checkbox",
     "Save Info button should be enabled only after having mandatory fields filled valid data",
+    "Self-Hosted | Ensure feature discovery shows option to start trial when no trial has ever been done before",
+    "Self-Hosted | Ensure feature discovery for professional features shows option to purchase when a trial has been done before",
     "Save Info button should not be enabled if any one of the mandatory field is filled invalid data",
     "Editing the Company Information",
+    "Self-Hosted | Ensure feature discovery for enterprise features shows option to contact sales when a trial has been done before",
     "Cancelling of editing of company information details",
     "Clicking on \"Company Information\" menu from console section , company information should be populated with information which we use during the creation of our account for cloud version of Mattermost",
+    "Cloud | Ensure feature discovery shows option to start trial when no trial has ever been done before",
+    "Cloud | Ensure feature discovery for professional features shows option to upgrade to professional",
     "Adding the Company Information"
   ],
   "cloud/automated-tests/system-console": ["System Console - Payment Information section"],
@@ -3348,18 +3363,6 @@
     "Should be able to click the get started button and be redirected to new server modal",
     "Should show app name in title bar when no servers exist"
   ],
-  "none": [
-    "Notifications disabled",
-    "CTRL/CMD+\\",
-    "Links in DM link user to the specific comment",
-    "Notify Admin V2 | Verify that Telemetry Actions are tracked when User is making upgrade requests",
-    "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
-    "CTRL/CMD+. (period)",
-    "Permalink Preview - DM permalink to public/private channel",
-    "Overview test for webhook being in place",
-    "Various pop-overs Look good",
-    "To do list has popover tooltip"
-  ],
   "mobile-app--native-specific-": [
     "RN apps: View Recent Mentions",
     "RN apps: Delete parent post in reply thread view",
@@ -3788,6 +3791,7 @@
     "Permalink Preview - permalink to GM",
     "Permalink Preview - Deleted",
     "Permalink Preview - Guest",
+    "Permalink Preview - DM permalink to public/private channel",
     "Permalink Preview - GM permalink to public/private",
     "Permalink Preview - Public into Private Channel",
     "Permalink Preview - Share Message with Image (Short Text)",
@@ -4775,6 +4779,7 @@
     "@[username]+TAB",
     "Mac only — CMD+OPTION+SHIFT+V — (⌘⌥⇧V)",
     "CTRL/CMD+SHIFT+L - Set focus to center channel message box (with REPLY RHS open)",
+    "CTRL/CMD+\\",
     "CTRL/CMD+K:(newline)Typed characters are not lost after switching channels",
     "CTRL/CMD+UP or DOWN at center channel",
     "CTRL/CMD+SHIFT+K",
@@ -4794,6 +4799,7 @@
     "Keyboard shortcuts menu item",
     "CTRL/CMD+UP or DOWN no action on draft post",
     "CTRL/CMD+K - Open public channel using arrow keys and Enter, click out of current channel message box first",
+    "CTRL/CMD+. (period)",
     "CTRL/CMD+UP; CTRL/CMD+DOWN",
     "CTRL/CMD+K: Open and close",
     "UP arrow",

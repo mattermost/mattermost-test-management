@@ -7,16 +7,6 @@
   "precondition": "These test require that you connect to Circle CI with a GitHub user who has access to these 2 public repos.<br>https://github.com/DHaussermann/hello-world<br>https://github.com/DHaussermann/mattermost-plugin-custom-attributes<br><br>Contact Dylan if invites are needed.",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1260737,
-    "name": "Circle-CI",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "Circle-CI"],
-    "fullPath": "plugins/circle-ci"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Circle-CI",
+  "folderFullPath": "plugins/circle-ci",
   "steps": [
     {
       "inline": {
@@ -125,6 +120,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "06dfb439e9d439c0e7384e80ca8f35c4989ca19f997ecf09cba589348ea7807ce74912c7b008a1f5f3c9712c12b37928",
+  "caseHashed": "5b01ae0cb42962924fe43f0f3fb2b82520be7fcfe1436de38d60987165c833caa97810bab5eea96a65ccc3b665c7c0a8",
   "stepsHashed": "4c5f39dd586b3fb0a58675064479f26148e0ca3ccdb11ecacf5d9ff7575cb76eabc109936a10286adb3f5521f20601e5"
 }

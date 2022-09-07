@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 538610,
-    "name": "User Management",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "User Management"],
-    "fullPath": "suite/system-console/user-management"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "User Management",
+  "folderFullPath": "suite/system-console/user-management",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cdcadf0e4d4d169331f0cde28fd5193b6846ea0ee019b47c2e0aa330aaa41fabfbcac845dbfb2a68d1e02da134a4d2a5",
+  "caseHashed": "e2bd65a2f69f8b7b3f1b38bb692aab4aa07ca3cbbf5e72d72958b05bbd8f3a487061424d6cfb58390b2eef75731675d7",
   "stepsHashed": "3fa2a7121686dac6aa2b47941a1617f36f3ec6db31ca5f8a26008bbbb4a5bc47b9e5c0df7f1f2ea2d74a4d106cece0ed"
 }

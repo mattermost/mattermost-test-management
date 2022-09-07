@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["permissions", "se-prod"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404329,
-    "name": "Permissions",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Permissions"],
-    "fullPath": "suite/permissions"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Permissions"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Permissions",
+  "folderFullPath": "suite/permissions",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "24677086aa4a4b42364078870a14974c69028968160c38e4bbc05d2967c76496dd3fa429ae3271cb1dd77e054d7e5431",
+  "caseHashed": "f72518ca43a12aa935bc6c909d8367ca806aabe4a7a065ffc1212134adc110318dc0eaffd6634093d63d3c7d350409d1",
   "stepsHashed": "7291327783abc021db92ad0eaa2fa575ab1665158c660d0808888eaa57c763eb0305027e3563b364c1c1315e05c6c307"
 }

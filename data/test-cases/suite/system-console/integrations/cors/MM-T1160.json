@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569411,
-    "name": "CORS",
-    "parentId": 570084,
-    "fullNames": ["Suite", "System Console", "Integrations", "CORS"],
-    "fullPath": "suite/system-console/integrations/cors"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "CORS",
+  "folderFullPath": "suite/system-console/integrations/cors",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "518f98bd8046c0e4fc46ca6dcb158c9dd761d4936d433bc4fd4287b787e989958ca2819cf4b7d43b414acac5e2821e2f",
+  "caseHashed": "21c01e38d23f2aee1f889b0b3528f7be9fae4c26ed607c586993ef40fc85f3d1de259008de51e32007435558a8984ed0",
   "stepsHashed": "eee4443d4155e031ee3876e8956ee6c981c514e66794ba9039b98b34e5d6881811caf75be724ea812cfdc4ca14a1b3e7"
 }

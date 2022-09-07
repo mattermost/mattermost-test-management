@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["enterprise"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1218566,
-    "name": "Sub Section",
-    "parentId": 918602,
-    "fullNames": ["Suite", "Enterprise", "Admin Roles", "Sub Section"],
-    "fullPath": "suite/enterprise/admin-roles/sub-section"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Sub Section",
+  "folderFullPath": "suite/enterprise/admin-roles/sub-section",
   "steps": [
     {
       "inline": {
@@ -86,6 +81,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3159da5b61cb9c51638dc49087a4c706a4cb30448db6cbfe0f9fbe230a15dba3087a0e80918cc2a183f7c3afbf8c4824",
+  "caseHashed": "41fbedeb23d427c6d63863b5beda648c9b54e9ae1ee881fc521aed9e1611cdbf810c6b902afc7d5eeefd0a8883896c5a",
   "stepsHashed": "3d6d5107e282301a295f93fd9a5c7fe338bd205716083d4b540871d2d53326a7e7265a9445171a81521a045ed184e8da"
 }

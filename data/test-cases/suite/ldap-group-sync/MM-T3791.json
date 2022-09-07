@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["ldap-group-sync"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 631925,
-    "name": "LDAP Group Sync",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "LDAP Group Sync"],
-    "fullPath": "suite/ldap-group-sync"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "LDAP Group Sync"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "LDAP Group Sync",
+  "folderFullPath": "suite/ldap-group-sync",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0be980fe27af9eab177f7943f444655db0285032bd593d5f3e660e8c90de805d65ed5ddfec45a95df1231ea294108f7b",
+  "caseHashed": "59be398c5ac9a74df9d6b8885ad8e459e12f5e062c998fc4f3f11eb5665447959f3ba3b29eeca83c5f2f92f510048b7a",
   "stepsHashed": "dc4dc13a69a558d61409fdd5beebafe8fba37298145e0f3a6d97d3f53b5aa1ec20695dd48decfaf0bd346adc802f1a33"
 }

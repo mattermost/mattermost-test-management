@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://community-release.mattermost.com\">https://community-release.mattermost.com</a></h1><br>Using the old keyboard settings.",
   "estimatedTime": null,
   "labels": ["account-settings", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404289,
-    "name": "Keyboard Shortcuts",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Keyboard Shortcuts"],
-    "fullPath": "channels/keyboard-shortcuts"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Keyboard Shortcuts",
+  "folderFullPath": "channels/keyboard-shortcuts",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "328da3ce0f05bcfcefb9827d5e748828cc3552ccd464e674fe7a18a5aceec048c59b53ea93829efc772d15eb13869930",
+  "caseHashed": "5861b70a00493b7dcac50a75c14bf709bd7ee43b9e58f11b7619d0ca137b38921d0ba1535bc7e73450f4bba9e022fd02",
   "stepsHashed": "fef11c1418a35e07f4aee3be2be7cdba8f0e5f6e030fa718679930714bb399305fc6687b6f22c70674f0863598a92b13"
 }

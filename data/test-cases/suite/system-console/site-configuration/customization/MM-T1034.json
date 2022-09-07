@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568186,
-    "name": "Customization",
-    "parentId": 570051,
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
-    "fullPath": "suite/system-console/site-configuration/customization"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Customization",
+  "folderFullPath": "suite/system-console/site-configuration/customization",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cfaf21b5d9f0ca9c1c1629a2268315a9863ffe5ae8deb040d5bd62a78146b7fec49f735c545f96f64cea18ccc928a074",
+  "caseHashed": "ab44deda20a40bccad264b8a07420de03bb165f06d09ae61179726cf94febb4f6b30ce721fc2fc470d904d040e70cd7a",
   "stepsHashed": "bd5a56faea6611729a2ad802dc4b0425145628ea635156d2415328dcbb830c9433a206feb24df01a91b82e4ed6ab7192"
 }

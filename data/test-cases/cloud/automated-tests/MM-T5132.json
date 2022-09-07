@@ -1,0 +1,47 @@
+{
+  "id": 31135781,
+  "key": "MM-T5132",
+  "name": "System console | License page shows View plans button",
+  "createdOn": "2022-09-06T19:05:50Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "customFields": {
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Automated tests",
+  "folderFullPath": "cloud/automated-tests",
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Pre-condition:</strong><br />Workspace should have have any active cloud edition license<br /><br /><strong>T</strong><strong>est steps:</strong><br />1. Login with admin and navigate to <strong>/admin_console/about/license</strong><br />2. Verify 'View button' is visible<br />3. Clicking on the button should take use to Plans modal",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "fb021a925996085798d254561133c89335875fa48f0d0ce15e11a711b31c2e14d8d806239dea57c8a41b62e972191fde",
+  "stepsHashed": "dab5e2dd4dc07f5d65fbc1efce6bc405789318ab1d12bd492941bb82cc66ed2ed6f220fc1ccc35337f2fa74693918dcc"
+}

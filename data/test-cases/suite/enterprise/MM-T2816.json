@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "enterprise", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 733337,
-    "name": "Enterprise",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Enterprise"],
-    "fullPath": "suite/enterprise"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Enterprise",
+  "folderFullPath": "suite/enterprise",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b2970352c4fa24558cc636c0cc76dbf5631a89335caccc73ed588a5a3101fa74b32c9582f6a8dada9fd8238db445fc5f",
+  "caseHashed": "b256af633dcb4df296ec09ad168eed831d91d0ed61d9d22f46f16a9eb01d903451116e1189bc682f4bca1b0a660cec24",
   "stepsHashed": "dd4905c2449f766b232c071fd922ab90b3e7f0e706191499dd611b8eef21a4fc2c9a6461079cd793232e8117198e2da2"
 }

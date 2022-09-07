@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404284,
-    "name": "Integrations",
-    "parentId": null,
-    "fullNames": ["Integrations"],
-    "fullPath": "integrations"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Integrations",
+  "folderFullPath": "integrations",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1e6d24eec46fc76b278c355db1db258b65cc16f394c1434f1e4dd35cfff102cd34d8b8d52e525121ac8ec76cc5d4d69a",
+  "caseHashed": "c6ac78ed0f7d5c752726eb1091fab967a2398c380753162e18fb2da38ca0716b03f199d9307ca060bb9be7f30ed2d551",
   "stepsHashed": "fb446ee2eda199c686163333f562d389018317063382057ca1642cb1279aaad70444c458f45e141e4b5d89d66f373484"
 }

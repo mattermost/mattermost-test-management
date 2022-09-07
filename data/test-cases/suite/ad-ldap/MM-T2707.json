@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "ldap"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404269,
-    "name": "AD LDAP",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "AD LDAP"],
-    "fullPath": "suite/ad-ldap"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "AD LDAP"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "AD LDAP",
+  "folderFullPath": "suite/ad-ldap",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2e631dc61f3439e045b000a10c26be4d45ebb9f46a73022bde27bb3c20bee21464f76a9395bcba05587b395e8eaf7d0a",
+  "caseHashed": "381ed1fdb97196acfc230c0c7e50c72864ec31e73eeb43163e5e52227e550907e0625bc54fc5cba13bca193fab49281e",
   "stepsHashed": "2421bf78bf27e2878ead33fa3571dd79be8a46691dc58506500cc6248924f8233872a1112a0f3ffa147f32dfa09f4b37"
 }

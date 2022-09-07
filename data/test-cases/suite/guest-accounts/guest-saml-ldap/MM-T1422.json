@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 581564,
-    "name": "Guest SAML LDAP",
-    "parentId": 580185,
-    "fullNames": ["Suite", "Guest Accounts", "Guest SAML LDAP"],
-    "fullPath": "suite/guest-accounts/guest-saml-ldap"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Guest Accounts"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Guest SAML LDAP",
+  "folderFullPath": "suite/guest-accounts/guest-saml-ldap",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ee75813ccf50b6c5c75807548229f13b81aec006a5e4c8616971ce622da72da35ece7df443dfe9e5cb5a09dc80a2f767",
+  "caseHashed": "ee0c072dbc073a890451b9b77ef96f419e99354c53feada3d41696159e40a796b20500936e5618e711c499be5046875c",
   "stepsHashed": "9e700ce6e429291a7c2bcc8d3c7f06021ee8e1403407a8980e1f8b4bbd319cebb19c1de99bb1e09e63c01e994983ead0"
 }

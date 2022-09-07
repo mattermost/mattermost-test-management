@@ -7,19 +7,9 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "playwright"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565212,
-    "name": "Relative URLs",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Relative URLs"],
-    "fullPath": "desktop-app--native-specific-/relative-urls"
-  },
   "customFields": {
     "Authors": "",
-    "Playwright": "In Production",
+    "Playwright": "in Production",
     "Priority P1 to P4": null,
     "Update notes": "",
     "Rainforest": ["in Production — Desktop"],
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Relative URLs",
+  "folderFullPath": "desktop-app--native-specific-/relative-urls",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "34e0d226c9477a6d1aa9f7027f36c2c666869dec0c822512b340aa2cf2214bd9c5b6643afbfe57c785ddd5465574cbd0",
+  "caseHashed": "27a5e8d2a639af5c5e8fdc6e0bbf26b8add2fa01aaf1c7b6066c1c3f0f11abd35316a68a369b756ef4522916e03de45c",
   "stepsHashed": "20d1d33194aec9ffd8c5b3a43f5db731cd88f65ad2ae7a170161fb16cf0d58726e46d411a88f619266f5b50c0a07e1b8"
 }

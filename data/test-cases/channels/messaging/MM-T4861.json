@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b8f4b986286150654f997978017a95d0a55b66f22aceb0881ff074044d45f437a87743dcde1a56b3d6da91575fca848e",
+  "caseHashed": "6608f654a17e3cac8a047194704533691f8301274ba335450709e905fd4b12d08b6da5fad2bf683a8ca0d730e43e136d",
   "stepsHashed": "055368cea0aaefaff67a023d3743514790a5265ae52812d75cf2ef55b04db847ef6857f33ebbd36f5f5fd3e1b9e5dec4"
 }

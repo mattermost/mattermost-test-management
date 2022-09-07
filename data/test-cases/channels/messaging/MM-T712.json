@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "messaging", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Messaging"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a5f131871e00952e4b3bf88a40d15d51e01527a5835955efed5b42e36cac5becaa8967c6ff8406792f8ac687fc9f74cb",
+  "caseHashed": "fc437d82b849d4b2cc93b8c17be5a255a39b07a7c4db734964bb7994141c102329e24f6e2c6396fec3a91b58fb673205",
   "stepsHashed": "b0a0ffff3b35d964b8430b9e99f02781e4f443d7a2bb970c0200f4b29264770faa6036f2960f1ee5d7aa8e1e5b10fa1d"
 }

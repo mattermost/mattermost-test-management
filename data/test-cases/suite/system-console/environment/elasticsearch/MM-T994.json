@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "cy-prod", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568112,
-    "name": "Elasticsearch",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Elasticsearch"],
-    "fullPath": "suite/system-console/environment/elasticsearch"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Elasticsearch",
+  "folderFullPath": "suite/system-console/environment/elasticsearch",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cb51f72c90b9346d1f2e3676180c618d0a48d7d68845a053e3fb632f3130453588459c8ac2f5d33e3033bf24ab1b71a9",
+  "caseHashed": "084aab05fc285eef4bbc4c6d9758660c7302dc66ddc28de2294a554d5dafbd6e5b2ad07d12b8970663e5262e6febe91f",
   "stepsHashed": "abe12d5bb2b4fb7b02671db3405bbe043a616c82a1438ed74651746631c55b61c5bcc46ab20a3d8e7704c927e92b10fe"
 }

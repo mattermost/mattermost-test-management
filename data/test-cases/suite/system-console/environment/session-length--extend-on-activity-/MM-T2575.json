@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 738708,
-    "name": "Session Length (Extend on Activity)",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Session Length (Extend on Activity)"],
-    "fullPath": "suite/system-console/environment/session-length--extend-on-activity-"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": "System Console",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Session Length (Extend on Activity)",
+  "folderFullPath": "suite/system-console/environment/session-length--extend-on-activity-",
   "steps": [
     {
       "inline": {
@@ -125,6 +120,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e868ca1e8d24165b9b5a1628969920d9411f8158eb1da4a93b1d9c39d4e660f5ee0f0b7ca1997ce0230f7395045febf8",
+  "caseHashed": "79f96b9ed2279a5e9f70671f9d0e7ef67cac1fd73b2654da9b7c80dec0c971018791d95a8f1c503210f75ae4b3d6218a",
   "stepsHashed": "3cae6b0e7427c7ab9eee35e949866f51c65c1c8c3f5df95af7e9c1df49758b6749758c5a7dd1ab210df8d7e9ba924f6c"
 }

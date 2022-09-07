@@ -1,16 +1,12 @@
 {
-  "id": 15984277,
-  "key": "MM-T4334",
-  "name": "Notifications disabled",
-  "createdOn": "2021-11-04T17:34:14Z",
+  "id": 15984274,
+  "key": "MM-T4331",
+  "name": "Overview test for webhook being in place",
+  "createdOn": "2021-11-04T17:34:13Z",
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -26,12 +22,17 @@
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Bitbucket",
+  "folderFullPath": "plugins/bitbucket",
   "steps": [
     {
       "inline": {
         "description": "1. With another bitbucket account, @-mention the bitbucket user you connected previously in a bitbucket issue.<br />2. Then assign the bitbucket issue to them.<br />3. Finally request a review from them in a bitbucket PR.",
         "testData": null,
-        "expectedResult": "User receives no DMs from the bitbucket bot for these actions.",
+        "expectedResult": "User receives a DM from the bitbucket bot for each of the three actions (issue mentions, issue assignment, and PR review request)<br />Verify BOT tag doesn't have a double box surrounding it.",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -41,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f77a94efb881616ad9a79f8a4b6b9e5d707c773813f4a0cd9e142d076334f0505dda98683a0fcc6d602f6e8443c37182",
-  "stepsHashed": "da263fb4ae064b259220274f5cd790321980133e6f82d7dee1f67faff626037b7827ef688e2678e921e92e6a4009c0b8"
+  "caseHashed": "dce02645f80fca591f9b0520f3ef44278ef4b7aeddea064eaeecd1d96113006dce6566251bd795532df99c9bf09b4017",
+  "stepsHashed": "96fc2c76dd8514493ee9b24718486f4a5402e509d44519246c7e771ba7648790fcabf7a30db5a510e9ae75a542b86807"
 }

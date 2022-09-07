@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 864964,
-    "name": "Admin Advisor",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Admin Advisor"],
-    "fullPath": "suite/system-console/admin-advisor"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": "System Console",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Admin Advisor",
+  "folderFullPath": "suite/system-console/admin-advisor",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d9545d64e9c6c529893acc5a52afa5b26bd32e24ccaa1f819c7b52d118a6ad10922c1eacf63e792ec23bfd3357a83cb0",
+  "caseHashed": "0142afb50756b26b559d34a9c10692b1a5286409f2c4e217aeb57570daf62e1c5f27ddc50495908c741abb1edde7c7c7",
   "stepsHashed": "7793d90794eb01b3fa061569e3befa31a19b82ed932f9ffe0e4151925d9622bdbd266b860314c972f116f6bfef669756"
 }

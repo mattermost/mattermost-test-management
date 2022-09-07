@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "smoke-test-folder", "2022smoke"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 884314,
-    "name": "WebApp",
-    "parentId": 404339,
-    "fullNames": ["Smoke Tests", "WebApp"],
-    "fullPath": "smoke-tests/webapp"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "WebApp",
+  "folderFullPath": "smoke-tests/webapp",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "38a2d6ac29cffd130563fa3efb5240a30e6aa6a093d7c1253b5099b29ceba778b247d5f80910adf5531140b606d83239",
+  "caseHashed": "f790468cc838219823d4a314c204c4e5f1b467e5ea70c637e31696bca57643e8946b89c364d33ecb306dfa765e9ce867",
   "stepsHashed": "e4e679e294f7e197d5dc88feacd245718135f0d857a027567597e8ae0a6c13b33644a04ba46d4f59a445e4c83ede6128"
 }

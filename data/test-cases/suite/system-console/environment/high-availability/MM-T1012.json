@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568177,
-    "name": "High Availability",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "High Availability"],
-    "fullPath": "suite/system-console/environment/high-availability"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "High Availability",
+  "folderFullPath": "suite/system-console/environment/high-availability",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "98086132a915be7d0145af239466b8d7579241574d8b5ee2f2841df626686cb627d81cc8e92967db2e72812d5d6d2975",
+  "caseHashed": "24a60c50a2e5d97b9e1b5993f1ceae20214cb1daed599eb3a9a619ac567c17a2df64f96010038b7d8c7de8351e359c04",
   "stepsHashed": "1c90128866c01084b9a8155c70671630caa4a7a6c857e177f07a06abb55fbb7305264f1c33c30f8d46b4759f18e7da46"
 }

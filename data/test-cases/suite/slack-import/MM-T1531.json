@@ -7,16 +7,6 @@
   "precondition": "Slack Import test files are kept <a href=\"https://drive.google.com/drive/folders/19y2KC_tcqJZa-BDucvpdmsNdBqy-UL8Q\">in Google Drive here</a><br>You will use the above files for the tests.<br>It is important you have an account on the Slack team before exporting, so you can test claiming a Mattermost account imported from Slack.",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404338,
-    "name": "Slack Import",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Slack Import"],
-    "fullPath": "suite/slack-import"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Slack import"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Slack Import",
+  "folderFullPath": "suite/slack-import",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "941513da3b43d3515a197bf19d809eb117ba6233e98d486b07e18a32b5874e23aa5ad771e9be8d07f05fca12b4f55986",
+  "caseHashed": "4825bda2c11a532971f51a352b91f11182e853c2ccb2610841072efd286d0a51e8dca935e8497b8dc580215b01a9403c",
   "stepsHashed": "6371dcde3a9cd3368141669bfddb3faf64fba38a528dbb253e0833c5e734f52187ac71bd45266ac39164d3b7f0ccdf32"
 }

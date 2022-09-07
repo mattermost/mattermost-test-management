@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "1.42-p123", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404281,
-    "name": "With Elasticsearch",
-    "parentId": 3337681,
-    "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
-    "fullPath": "channels/autocomplete/with-elasticsearch"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Elasticsearch Autocomplete"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "With Elasticsearch",
+  "folderFullPath": "channels/autocomplete/with-elasticsearch",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b8dd95ced6f6f0ba3259a469c08d62a9c48b3c4af3d6c0ee3c0e17da333d09335aeccc2a3053ebd829b2746f6350c1a0",
+  "caseHashed": "60839f6368720e05e01cb8a1f3d919b6aec16a93f05601971d99a15471b07171ef9660149109d090faadda94b7af26f6",
   "stepsHashed": "97e380d4c559635a053371665cda96bf64e499030f16790863e7737cd6275a888a893470512c333de11f50e77d58b3b3"
 }

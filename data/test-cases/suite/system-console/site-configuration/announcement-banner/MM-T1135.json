@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569318,
-    "name": "Announcement Banner",
-    "parentId": 570051,
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Announcement Banner"],
-    "fullPath": "suite/system-console/site-configuration/announcement-banner"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Announcement Banner",
+  "folderFullPath": "suite/system-console/site-configuration/announcement-banner",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "9f9e059039e8eb2e9177fdb554af394390aecf4dea6e99b911c4647b89afaddbbd5aa51fbf0b6a1e88765080fc8f5b54",
+  "caseHashed": "8b0bffd443388b0353785abce7e4d23abaf441b2f9fc7fc23467abaa18c752088e268c63221c2f211da44f0e804e3a6b",
   "stepsHashed": "dae8bad12a3fce3d55d99b3aa47513cd8bcd5e8dddea0f10487ea2199abcc2d2e0545c157c83afd550e7cfb7736bcaef"
 }

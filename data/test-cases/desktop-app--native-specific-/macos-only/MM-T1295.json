@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 817022,
-    "name": "macOS ONLY",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "macOS ONLY"],
-    "fullPath": "desktop-app--native-specific-/macos-only"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "macOS ONLY",
+  "folderFullPath": "desktop-app--native-specific-/macos-only",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "92eda555c10f92b4f71893a94d5ce52d408145fb01a41c0f080a7e2e27c3b0b2d9b094384328889c974f2fa272f8b01a",
+  "caseHashed": "fd74c10ac7f9407123ffbfba695be0599b344a9b1dc6901aa98946874c0ab9045f0be69e4e39c514055b08ca4b6c8819",
   "stepsHashed": "b744e9845b13e6fa08996463d43e137d5bdf0e8fbb399ddbbb99af355a3ed7b5ee2211f0826d17ef4499fcb4aba0d2f6"
 }

@@ -7,16 +7,6 @@
   "precondition": "- Access to AWS<br>- Permissions to upload something to the `mattermost-apps-bucket-test` S3 bucket in AWS<br>- Current version of the `mattermost-plugin-apps` plugin&nbsp;",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1285252,
-    "name": "Apps AWS Deployment",
-    "parentId": 1236115,
-    "fullNames": ["Apps Framework", "Framework and test apps", "Apps AWS Deployment"],
-    "fullPath": "apps-framework/framework-and-test-apps/apps-aws-deployment"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Apps AWS Deployment",
+  "folderFullPath": "apps-framework/framework-and-test-apps/apps-aws-deployment",
   "steps": [
     {
       "inline": {
@@ -125,6 +120,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "3617b08dde98cfdfaa3c98270677bb82251229c2779fab29f18de6a921d3a5883435e391fec474465c5464b2af937f1b",
+  "caseHashed": "0188ed341e02b3763dc59bce610ec3adc341797b7cc9f6f849a8eecff6673ec481f1bb5529e9187d31ae66cb6f3f5d67",
   "stepsHashed": "2cf3bf3cb5a6af1d68f2d16db2cfc14d2d238f58362949a40a13cc7d280999da4404788b5588698e8cbce9eb9293acf9"
 }

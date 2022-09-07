@@ -7,16 +7,6 @@
   "precondition": "<ul><li>Logged in</li><li>Custom statuses enabled on the server</li></ul>",
   "estimatedTime": null,
   "labels": ["cy-prod"],
-  "component": { "id": 14322, "name": "Webapp" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1222177,
-    "name": "Web",
-    "parentId": 1175100,
-    "fullNames": ["Channels", "Custom Statuses", "Web"],
-    "fullPath": "channels/custom-statuses/web"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Custom Statuses"
   },
+  "componentName": "Webapp",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Web",
+  "folderFullPath": "channels/custom-statuses/web",
   "steps": [
     {
       "inline": {
@@ -151,6 +146,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "92dad4b3e9e6687485063a92d615841e5134b20ffc8442d4f322d6ab7f9a3863fd987a425f58f32c93e82587350f3de7",
+  "caseHashed": "4f962dab0332388dbfb41f43d5730ec1e87d3423c8c7c7696909e73a6754a7dda34703266af679610d01609b10000b20",
   "stepsHashed": "43b1116228bc9be097e26ac4a77597040220e10092b6ed35a6dea9e7077567c04999951f04730910203a0ac7b62d6733"
 }

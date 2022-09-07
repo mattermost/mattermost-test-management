@@ -7,16 +7,6 @@
   "precondition": "A sample bulk import json file is needed. CLI or MMCTL access is needed.",
   "estimatedTime": null,
   "labels": ["fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404278,
-    "name": "CLI",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "CLI"],
-    "fullPath": "suite/cli"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "CLI"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "CLI",
+  "folderFullPath": "suite/cli",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "09fad1369af7dba5f45d7a9577a07ce9d879dc9a0cf87e605f5e06d99a04c2a85c10d7fd56badd1beb366d4cabdaa49d",
+  "caseHashed": "017e0f96d51995b749a87be839d9fccb6297edb3ed2df5269c5639bd918469192f97bbceb0a9d9b2f989abe641911c71",
   "stepsHashed": "c35468adfa8f75c3e8a328873c521f786ba6621288a5513e474682ceca1517e755d0ba31e47b457b4899ad0d42dd258a"
 }

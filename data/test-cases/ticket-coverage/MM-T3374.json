@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 399678,
-    "name": "Ticket coverage",
-    "parentId": null,
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,11 +22,15 @@
     "Tags": [],
     "Location": "Ticket coverage"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Ticket coverage",
+  "folderFullPath": "ticket-coverage",
   "steps": [
-    { "inline": null, "testCase": { "testCaseKey": "MM-T38" } },
     {
       "inline": {
-        "description": "1. Open a public channel<br>2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br>3. Edit the post by adding \"**bold text** :joy:\"<br>4. Click the preview button and and observe the markdown shows<br>5. Save",
+        "description": "1. Open a public channel<br />2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br />3. Edit the post by adding \"**bold text** :joy:\"<br />4. Click the preview button and and observe the markdown shows<br />5. Save",
         "testData": null,
         "expectedResult": "Post with markdown can save edit from preview mode",
         "customFields": {
@@ -49,9 +43,9 @@
     },
     {
       "inline": {
-        "description": "1. Open a DM channel<br>2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br>3. Edit the post by adding \"**bold text** :joy:\"<br>4. Click the preview button and and observe the markdown shows<br>5. Save",
+        "description": "1. Open a DM channel<br />2. Enter some text in the Center input box such as \"<em>apples\"</em> and post it<br />3. Edit the post by adding \"**bold text** :joy:\"<br />4. Click the preview button and and observe the markdown shows<br />5. Save",
         "testData": null,
-        "expectedResult": "Post with markdown can save edit from preview mode<br><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
+        "expectedResult": "Post with markdown can save edit from preview mode<br /><br /><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -61,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2ff436fa394d5f18d7cd67949e084a1c2ae90ed80c26e6d6b5842575f2f29e4b7072dbf9ddd0066211d676966272248f",
-  "stepsHashed": "000beb5997e705e8dcfb7c2a8441fdfb089c60912ef62a6f45375cd24280dcf70ec13716346562d430789f9405874197"
+  "caseHashed": "45e68c81d67a336914d1d14fefb4f593dee9a4fae29987803b7aaf6affd62b7bdca7f16b60aed04d21c0f53032985204",
+  "stepsHashed": "c2b49b2f2ff044c0860cd9a8d7a85fb6ad6eb0d0a53b08626a9ff3cfff98d97288998323c125368762002e42c76906fa"
 }

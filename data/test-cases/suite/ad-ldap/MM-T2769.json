@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["ldap", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 404269,
-    "name": "AD LDAP",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "AD LDAP"],
-    "fullPath": "suite/ad-ldap"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "AD LDAP"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "AD LDAP",
+  "folderFullPath": "suite/ad-ldap",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "818b9b1b1ddd9da81aa6d5268bf0e56e1f856738a09da5977f8e420f854855a6552f71b4cbc28b522ce311c9ee5bb5d7",
+  "caseHashed": "bc88432880d37c9f4c76e5f8913e1c63f162233e20aecd0f846b7045acc19b5c4a1b055d0371d327300dfdeb106c4970",
   "stepsHashed": "8ef9e3bae7d672446faf4fd18b31ac6d8562e4234a453bcd9b22f1fbd37af2b89689af8cae11a845b150299609943cf3"
 }

@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
   "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "account-settings"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2063270,
-    "name": "Display",
-    "parentId": 2063031,
-    "fullNames": ["Channels", "Settings", "Display"],
-    "fullPath": "channels/settings/display"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Display",
+  "folderFullPath": "channels/settings/display",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "df9cbe06b11bb2ec5d1bff88ce8e21aa2078cf5d70166cf27b2ce5f9f5283c5a5b31e5d8e73206b783ff394cc7cdfd03",
+  "caseHashed": "2a64e4f747a87f2138229c0519bbf2a06c62bfa3a3f46ca8eab5a0521fe9f1f29021f5ddb1daac10411c2a4bb1c349f6",
   "stepsHashed": "8a440f1e6d183c58d8acec4dbec9ef6a76208ee8b945119d38ec68fc9e3b768f70cadf4d309c354142ca607cccc4e336"
 }

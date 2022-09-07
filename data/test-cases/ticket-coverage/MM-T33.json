@@ -1,22 +1,12 @@
 {
   "id": 2761313,
   "key": "MM-T33",
-  "name": "MM-17392 — Invalid channel information in CSV exports",
+  "name": "Invalid channel information in CSV exports",
   "createdOn": "2019-08-28T12:11:41Z",
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 399678,
-    "name": "Ticket coverage",
-    "parentId": null,
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Ticket coverage"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Ticket coverage",
+  "folderFullPath": "ticket-coverage",
   "steps": [
     {
       "inline": {
@@ -46,12 +41,24 @@
       },
       "testCase": null
     },
-    { "inline": null, "testCase": { "testCaseKey": "MM-T34" } },
     {
       "inline": {
-        "description": "<ol><li>Open posts.csv</li><li>Look for the entries regarding the posts you made&nbsp;</li></ol>",
+        "description": "<ol><li>Login as an Admin</li><li>Navigate to ☰ menu → System Console → Compliance → Compliance Export</li><li>Toggle \"Enable Compliance Export\" to True</li><li>Set the \"Export Format\" to CSV</li><li>Click the \"Run Compliance Export Job Now\" button</li><li>Download the most recent \"csv_export.zip\" file from the data directory (default at <strong>./data/compliance/export/</strong>)</li><li>Open the ZIP file (inside will be 2 files: meta.json and posts.csv)</li></ol>",
         "testData": null,
-        "expectedResult": "<ul><li>The exported data join/leave information have the proper channel information — i.e., <strong>Not</strong> the same channel information for all the entries of different channels —</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17392\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17392</a>",
+        "expectedResult": null,
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    },
+    {
+      "inline": {
+        "description": "<ol><li>Open posts.csv</li><li>Look for the entries regarding the posts you made </li></ol>",
+        "testData": null,
+        "expectedResult": "<ul><li>The exported data join/leave information have the proper channel information — i.e., <strong>Not</strong> the same channel information for all the entries of different channels —</li></ul><br /><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17392\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17392</a>",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -61,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "19be4117eb830b554732fe39d3888584d315ca20f1b2f7af691e4a9aee7e47b317bd02b6212b5639812815e67ca299d2",
-  "stepsHashed": "2edba3de8eed799b7c3c1fbbb7f0b5f2eaa15c2026444d95dde45060f630a6bed9c76f156d4e832d48b023cc3ae19a80"
+  "caseHashed": "11b334fe80a931ef4f97b1f41630bd9bc6f8d57f143a606794be2851812a7d6b174c246786c803d532c0847aaa811b98",
+  "stepsHashed": "bf84b9c42f5b98337521eecedd105662db25c0c65d868e24e27f226deea6f8164779b54ec052321327081bb0d28c471e"
 }

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569446,
-    "name": "Database SQL Logging",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Database SQL Logging"],
-    "fullPath": "suite/system-console/database-sql-logging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Database SQL Logging",
+  "folderFullPath": "suite/system-console/database-sql-logging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "6cdbed98650699d0a0628396c99684187b3c2ccc9284e916fc7012e507f80130bcf7bcda1e419a092800253e636396ce",
+  "caseHashed": "4f94104e7c98e5aedcf2720cdd5e0591f2cd46e366a6d0e1e38ca7a3f42e8535f4b0ed84864cbdd936508aada70e1b41",
   "stepsHashed": "9d0e8a2b1623fe22a3890aeea71c4c5d6812338a23d4d31d6cc9a37535ec44f6511d2484c138984bea8521ae21030218"
 }

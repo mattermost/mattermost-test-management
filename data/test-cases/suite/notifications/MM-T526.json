@@ -7,16 +7,6 @@
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note: ANDROID needs to install another launcher such as Microsoft Launcher and change the notification settings to show number badge instead of just dot badge. Please ask QA for help on Android if needed. iOS does not need anything additional installed.</span></strong>",
   "estimatedTime": null,
   "labels": ["1.42-p123", "notifications", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404296,
-    "name": "Notifications",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "Notifications"],
-    "fullPath": "suite/notifications"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Notifications"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Notifications",
+  "folderFullPath": "suite/notifications",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a672b176dae7062418671ccf1974648a8316603cfa99e5b913098564256dcf9ecf06ae1368bd21d388a7ba66a3c3ef2d",
+  "caseHashed": "73b99e487b95aa4e1596a04435a598c0716117f6507310f2e5de89f768ee1bd5a4820a79ae2f7e2fa90d8cec6e42fbcf",
   "stepsHashed": "c1922273ee78c162c5209bfe76187978ee637523415e342566809d1a9389834e5bfe84aaca032cf2df6e3c631a76b878"
 }

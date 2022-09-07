@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["plugins"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 1054414,
-    "name": "ToDo",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "ToDo"],
-    "fullPath": "plugins/todo"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,10 +22,15 @@
     "Tags": [],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "ToDo",
+  "folderFullPath": "plugins/todo",
   "steps": [
     {
       "inline": {
-        "description": "1. Make a post<br />2. Click the `...` post menu option and select Add ToDo<br />3. Add some text below and click the &quot;Add to Thread&quot; box before saving",
+        "description": "1. Make a post<br />2. Click the post actions menu option and select Add ToDo<br />3. Add some text below and click the \"Add to Thread\" box before saving<br /><img src=\"https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1662144653024-1662144653024.png\" style=\"width:300px\" class=\"fr-fic fr-fil fr-dib\" />",
         "testData": null,
         "expectedResult": "- ToDo item is created <br />- A reply post is creted on the thread by ToDo bot with a permalink to the source post",
         "customFields": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "43de78b121eacc7b99cc5e5d5e412e98ed5b72742b9f2e5624fa95698715f437494539d0c6996d2071a4df9fb1ea9872",
-  "stepsHashed": "afbc9854b16a3c075ce3089eadc748650bb812511a474a2203d4067622db148726e8f914dcd92dc0646f7bc4d4c819d4"
+  "caseHashed": "2ded0eebb7a6f6c93300c4c2b5d85bf451ac0ca040d39d3d29ae2d2f76467e34e87360e79b333019da0e0fafd240938b",
+  "stepsHashed": "c9d16015d7d13d8b84224021df2b9bdbcc35f1b17ac1b1cf055cce6ba3b35138b7e72212618e9a48c17841d6c29cd08e"
 }

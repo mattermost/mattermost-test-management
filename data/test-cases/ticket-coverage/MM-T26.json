@@ -1,22 +1,12 @@
 {
   "id": 2759570,
   "key": "MM-T26",
-  "name": "MM-17361 — When on preview mode, it does not allow to submit a post from the main post input",
+  "name": "When on preview mode, it does not allow to submit a post from the main post input",
   "createdOn": "2019-08-28T01:56:36Z",
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 399678,
-    "name": "Ticket coverage",
-    "parentId": null,
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,8 +22,12 @@
     "Tags": [],
     "Location": "Ticket coverage"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Ticket coverage",
+  "folderFullPath": "ticket-coverage",
   "steps": [
-    { "inline": null, "testCase": { "testCaseKey": "MM-T38" } },
     {
       "inline": {
         "description": "Enter some text in the Center panel and click on the Preview button",
@@ -51,7 +45,7 @@
       "inline": {
         "description": "Enter some text on the RHS and click Preview",
         "testData": null,
-        "expectedResult": "<ul><li>Able to send/post by using Enter or by clicking ‘Add Comment’ button</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
+        "expectedResult": "<ul><li>Able to send/post by using Enter or by clicking ‘Add Comment’ button</li></ul><br /><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17361\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17361</a>",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -61,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "b4711b555dde80abd47d9ab8e60116461e66fc63e2c8d4a1a1e4ca38e82b6db8e0bdc13457a520e7208dfa9568757a65",
-  "stepsHashed": "155186a156d0e942e6f08a5f39e008c2136e8891b4da6a350cabc9f59e85a02ba1a8c1262b315587c395d770a5971491"
+  "caseHashed": "961c717dcc8205b131413a13b4b5ff8b0863e8df771d85f4f62d3a33a7a7b8b9a3e3d89d6fe499f2c63cc63d91bde81a",
+  "stepsHashed": "91be25763358f2a88ec96fa93eb82693c4f7a000666996b49c7b06518ec0fa40972271a04b24af848c7c7c904b217290"
 }

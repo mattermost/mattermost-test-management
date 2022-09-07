@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod", "account-settings"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2063033,
-    "name": "Profile Settings",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Profile Settings"],
-    "fullPath": "channels/profile-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Profile Settings",
+  "folderFullPath": "channels/profile-settings",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "790473ec955e2b0f7fa4e951f9647a3af441a7783e952b1e88a65307d3aaae5694dcf517a7543a2bd545864f16db41a3",
+  "caseHashed": "155de6fd97ab79f5b774096c03bfac66a296b3603c50003a3fb8fa51f60deba9f3a536943f88af52dc7f2614401da44e",
   "stepsHashed": "4b44b2edfb740e6c5f031c40363988df5d7d196f1e048094d401143d5b81ffeb2883f6b043be61d1f6c8304d27e3b090"
 }

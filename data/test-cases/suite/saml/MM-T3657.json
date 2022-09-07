@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404332,
-    "name": "SAML",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "SAML"],
-    "fullPath": "suite/saml"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "SAML"
   },
+  "componentName": "System Console",
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "SAML",
+  "folderFullPath": "suite/saml",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ffae956adb25ac8583548bf46b57bd9d22df2a785146945771d55a6d4e82336b63f025af4633dec0c7bde3e3da2ecf7d",
+  "caseHashed": "6fe0b8e449f453055d196f2b0785810502b291552592e1d3b6d49c2f712002708d6a77719d242ba2edad52ce3a343995",
   "stepsHashed": "d40d53da1a35b681e9c57193f2bda1fd569d32c06d0e093f934d447540565c60d21b48ab31276cb11d02308118e086f7"
 }

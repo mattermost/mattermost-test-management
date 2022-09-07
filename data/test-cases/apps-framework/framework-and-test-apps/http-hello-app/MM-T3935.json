@@ -7,16 +7,6 @@
   "precondition": "Setup (Will be updated heavily once It's production ready on AWS)",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1236119,
-    "name": "http-hello app",
-    "parentId": 1236115,
-    "fullNames": ["Apps Framework", "Framework and test apps", "http-hello app"],
-    "fullPath": "apps-framework/framework-and-test-apps/http-hello-app"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "http-hello app",
+  "folderFullPath": "apps-framework/framework-and-test-apps/http-hello-app",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d1e1d1daebe05587083f0f65242f06ac6537ec0a651a83070497e70deb2b3775c2f580b724eafea96187651a1598f0ff",
+  "caseHashed": "4e17e85f52cd10b2b3901bfac0378dacaa857487c4d20a58fbb0f8c28c99252218d6158b23b776df8183aa23971bf744",
   "stepsHashed": "98fae7bc6ffef42371ab9e5f50c935d5da0417e589bbc52b8415483ab1904eb846253f2854ce9e9c4f8023de3a7545ce"
 }

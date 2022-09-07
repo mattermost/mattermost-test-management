@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["5.34-p1"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1604631,
-    "name": "Portal tests",
-    "parentId": 992544,
-    "fullNames": ["Cloud", "Customer Portal", "Portal tests"],
-    "fullPath": "cloud/customer-portal/portal-tests"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "Cloud"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Portal tests",
+  "folderFullPath": "cloud/customer-portal/portal-tests",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1b12f6bfe95ee42c31ea72054d67807403cafd996031a6473f60a0a88655e608bdc18f20c9c343b37097165b34e6d8ff",
+  "caseHashed": "b0f0bfac191aa56eaa3d40541a97d7ce0144f921cdd53d1f37c9070683ca93baf1b48b8c27e752bd575ef9606c24cf9b",
   "stepsHashed": "af940ca031c344865b6f115271a47a3fae56e2635f618aff45e2b02341e21a561d3108fa68a6223916728ace847c8fd8"
 }

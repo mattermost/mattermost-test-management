@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["RN_Smoke_Tests", "ESR", "P1-Mobile", "1.42-p123", "smoke-test-folder"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 410627,
-    "name": "Mobile App (native-specific)",
-    "parentId": null,
-    "fullNames": ["Mobile App (native-specific)"],
-    "fullPath": "mobile-app--native-specific-"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Mobile App (native-specific)",
+  "folderFullPath": "mobile-app--native-specific-",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7ed2508841b4fe052da4705a593f6af68988b164346eb2b2ddb5e9963fffe0ad4488abc6a67acf8cfa001e40c61de488",
+  "caseHashed": "e82886eb3c24fa6007e0c42af5d7bd039ac7d381bb33acab5855b5af7aaeb72d33a59c59912c023d7657e2975201a76d",
   "stepsHashed": "4301d5d26a31c3744d3711b1f66c0359d64132b8d1688757759c4f80dab150017a9f96a64ca16b884b1b5bba4f233d44"
 }

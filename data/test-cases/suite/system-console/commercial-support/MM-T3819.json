@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1151596,
-    "name": "Commercial Support",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Commercial Support"],
-    "fullPath": "suite/system-console/commercial-support"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Commercial Support",
+  "folderFullPath": "suite/system-console/commercial-support",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "e85796820f69ad803c95ce7840be25e1007b4d0124d405bef45d8fcb1a27641c96681e47186994f12e385dbed28a12a2",
+  "caseHashed": "19e37ee2ec2d2622818559aeeacad2f72934fd5d2309dbb0dc6ffaa9a229cf58d5b125e5b1f51af611e9ddc11a995c16",
   "stepsHashed": "9071e175e089ba9b6f6c983c68e77f7ea7dbee05d0a4e4419426ed0820279f48bcddf0e4682430a128d374610b84a57b"
 }

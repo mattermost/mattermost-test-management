@@ -7,16 +7,6 @@
   "precondition": "None",
   "estimatedTime": null,
   "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 733341,
-    "name": "Group Mentions",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Group Mentions"],
-    "fullPath": "suite/enterprise/group-mentions"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Group Mentions",
+  "folderFullPath": "suite/enterprise/group-mentions",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5caa22ae6814ee7bedb190609ae5e50e2a2ac24640c0b6c5f06898280cc5ad8d07e90a9e0bf0192c42c0ea9d972c36b1",
+  "caseHashed": "fbc872d5eb024ebeede173b2b50c269bb18a13885301418466937fb5ff82409ae6e329287f65e16abe5b3fe86e2b054e",
   "stepsHashed": "18519fa50624855fef9e05042acf23e7a36dd0bcfc238ce7773455e8a502b3ff0dcf75c92500c46484f3f871a76920ec"
 }

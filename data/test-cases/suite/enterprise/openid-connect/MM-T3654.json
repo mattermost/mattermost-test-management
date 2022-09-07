@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["enterprise"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1052242,
-    "name": "OpenId Connect",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "OpenId Connect"],
-    "fullPath": "suite/enterprise/openid-connect"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "OpenId Connect",
+  "folderFullPath": "suite/enterprise/openid-connect",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "940a4032b6e4583c9371625c0bb062ddf4ce1ff3f43280cdbb942e4b426075c047faaf069c09cfa5c74b160697ee5afd",
+  "caseHashed": "8783c00cf54a631368bd0511e7848ba54504b351a75b1eefea43a39ec6dfc79ec8520f131e8993cf41873d834ff81190",
   "stepsHashed": "5031d310fa10dca2e351fe69f0e0c557c9907bcf6d5d89c82c3c1b49b9a54169738269ad243771b3788b7106af40e3f7"
 }

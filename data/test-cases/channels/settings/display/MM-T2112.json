@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "account-settings"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2063270,
-    "name": "Display",
-    "parentId": 2063031,
-    "fullNames": ["Channels", "Settings", "Display"],
-    "fullPath": "channels/settings/display"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Display",
+  "folderFullPath": "channels/settings/display",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "784ce83baeb7071966f9d8423fc14cd3d40f861c07e3d195edda06edafd88a2f0789d26b08e0f4196e474b29eb70c663",
+  "caseHashed": "9a4706be895c85f1a18879621864e33275ff622d4fe6eb8a4d2f3cf8dd400f1fe517e239d02a201d9fb81dd29533b672",
   "stepsHashed": "3390e9f63c328b524dcd11c3ad7da0dcbc518dc87c218ea6ceda36435e3287f1a98c805b4d1b58d0f92ba0c61b09cb69"
 }

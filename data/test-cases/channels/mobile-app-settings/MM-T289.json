@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
   "labels": ["account-settings"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2063150,
-    "name": "Mobile App Settings",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Mobile App Settings"],
-    "fullPath": "channels/mobile-app-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Mobile App Settings",
+  "folderFullPath": "channels/mobile-app-settings",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "95466ab07480343960443043d52644081d0261244ffde3fa54a16d10fdb3e0d0af303dc925f0b6fdd9bce8aa37e6aef0",
+  "caseHashed": "092cf92389441f3de85fdc0d5c51808f2b0770443319c2d1eab8e5f7c139d9b8ebb0c5d899e37fd458b7d7acd1ae13d1",
   "stepsHashed": "e7b9684359271ecf458b133285da8677be7a38a4f5ee15206363825e9f7da42cda2f07c3cf1ea4fc10b61179173341b8"
 }

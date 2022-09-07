@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2916636,
-    "name": "Signup Trial and Upgrade",
-    "parentId": 883991,
-    "fullNames": ["Cloud", "Signup Trial and Upgrade"],
-    "fullPath": "cloud/signup-trial-and-upgrade"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,10 +22,15 @@
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Signup Trial and Upgrade",
+  "folderFullPath": "cloud/signup-trial-and-upgrade",
   "steps": [
     {
       "inline": {
-        "description": "<ol><li>Log in as admin user. Add 11K messages (`/test threaded_post` can create these, 1000 at a time)</li><li>Wait 30 minutes for the count to be uploaded</li></ol>",
+        "description": "<ol><li>Log in as admin user. Add 11K messages (`/test threaded_post` can create these, 1000 at a time)</li><li>Wait 30 minutes for the count to be updated</li></ol>",
         "testData": "<br /><br />",
         "expectedResult": "<ul><li>Verify that the <em>still logged-in admin</em> is <strong>not</strong> shown the modal</li></ul>",
         "customFields": {
@@ -48,7 +43,7 @@
     },
     {
       "inline": {
-        "description": "<ol><li>Close the open tab <strong>without</strong> logging out</li><li>Open a new tab for the still logged in admin</li></ol>",
+        "description": "<ol><li>Close the open browser tab <strong>without</strong> logging out</li><li>Open a new tab for the still logged in admin</li></ol>",
         "testData": null,
         "expectedResult": "<ul><li>Verify that they are <strong>not</strong> shown the modal</li></ul>",
         "customFields": {
@@ -99,6 +94,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "902ec0fae62e679763896cfcbda86e56f1444291b2e5fc17c3a0471e7121e0b1f1ba0aab3b8100f05564f4d23dc69aca",
-  "stepsHashed": "166357a10868a5c2b0f25f617ad48437bd62597b9b7fb6d17c6ab595531bafa867daa777092fe9fc82d25b9234f088f2"
+  "caseHashed": "253e528db1370566a423b7969abc4bc888ffc025987a20e49a4e14ea25dc55769eb62aa5917b9585fddfc38da8df0f19",
+  "stepsHashed": "a54f0479837346f8c928c226c6b37c33c2604fd6ecf64a06726dbbc282b197f927e19df860e3c34bb42bc22ca1638c0b"
 }

@@ -7,16 +7,6 @@
   "precondition": "1. Login to server<br />2. Verify on channel list screen<br />3. Open a channel screen, post a message, and tap on post to open reply thread<br /><br />For each test step:<br />1. Clear post input<br />2. Verify autocomplete is not displayed",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2943603,
-    "name": "Autocomplete",
-    "parentId": 2277496,
-    "fullNames": ["Mobile V2", "Autocomplete"],
-    "fullPath": "mobile-v2/autocomplete"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Autocomplete",
+  "folderFullPath": "mobile-v2/autocomplete",
   "steps": [
     {
       "inline": {
@@ -86,6 +81,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8e3f81b562b78ff6415992937f595223d752ca335d2ddd6ac6333cbfdcbc3f2b98010f52658c74718c1e26e946e540f0",
+  "caseHashed": "7b7b0d28ce7f7ffc900ab9ea51fea9164609fc5a10480583856a6e386414e3b50708e40e68815a48d59ddca6cddb9a34",
   "stepsHashed": "9ccb49c38aca4dfba276e9303f694ff2b68225a7fb53f78da02b488a70f6bee7df0d759119a3792467fd8dcbafc349a3"
 }

@@ -1,4 +1,4 @@
-import { dotEnvConfig, formatDate } from '../deps.ts';
+import { dotEnvConfigSync, formatDate, sortBy } from '../deps.ts';
 
 import { datetimeFormat, projectId, projectKey, waitTime } from './constant.ts';
 import { getParentFolderById, sliceIntoChunks, wait } from './helper.ts';
@@ -345,20 +345,23 @@ export class ZephyrClient {
       start += maxResults;
     }
 
-    return folders.map((folder, _, arr) => {
-      delete folder?.project;
+    return sortBy(
+      folders.map((folder, _, arr) => {
+        delete folder?.project;
 
-      const withParentFolder = getParentFolderById(arr, folder?.id);
-      if (withParentFolder) {
-        return {
-          ...folder,
-          fullNames: withParentFolder.fullNames,
-          fullPath: withParentFolder.fullPath,
-        };
-      }
+        const withParentFolder = getParentFolderById(arr, folder?.id);
+        if (withParentFolder) {
+          return {
+            ...folder,
+            fullNames: withParentFolder.fullNames,
+            fullPath: withParentFolder.fullPath,
+          };
+        }
 
-      return folder;
-    });
+        return folder;
+      }),
+      (it) => it.fullPath,
+    );
   }
 
   // Get statuses
@@ -536,8 +539,10 @@ export class ZephyrClient {
   }
 }
 
-export async function makeZephyrClient() {
-  const { ZEPHYR_TOKEN } = await dotEnvConfig();
+export function makeZephyrClient() {
+  dotEnvConfigSync({ export: true });
+  const ZEPHYR_TOKEN = Deno.env.get('ZEPHYR_TOKEN');
+
   return new ZephyrClient(ZEPHYR_TOKEN);
 }
 

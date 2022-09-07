@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568182,
-    "name": "Performance Monitoring",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Performance Monitoring"],
-    "fullPath": "suite/system-console/environment/performance-monitoring"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Performance Monitoring",
+  "folderFullPath": "suite/system-console/environment/performance-monitoring",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "506a1c8867ec8a449e42fd7fb670a4fa9a6d25e5560db940cedf52417275adbbf67dab3a06e6c94894ccc6a421adc7c9",
+  "caseHashed": "a7ba1a2a8e098f69cb8c00580989c529f75442568c2be7c16e3faf369bcd2620278465ae6d0b9b376721e5c744b08b62",
   "stepsHashed": "0b571350d0b869aa9a4010b6cb18cc861ab179e7c982293e47b336bb6f7c9f0938d53f1d6c779d4558a3117d53c24a1a"
 }

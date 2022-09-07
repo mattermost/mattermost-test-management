@@ -12,19 +12,9 @@
     "playwright",
     "fix-versions-not-empty-2022cleanup"
   ],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565216,
-    "name": "Focus behavior",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Focus behavior"],
-    "fullPath": "desktop-app--native-specific-/focus-behavior"
-  },
   "customFields": {
     "Authors": "",
-    "Playwright": "In Production",
+    "Playwright": "in Production",
     "Priority P1 to P4": null,
     "Update notes": "Devin - 11/11/2021 - Need to re-organize this. Should be in a folder called /Popups or something",
     "Rainforest": ["N/A"],
@@ -37,6 +27,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Focus behavior",
+  "folderFullPath": "desktop-app--native-specific-/focus-behavior",
   "steps": [
     {
       "inline": {
@@ -91,6 +86,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cca7a2bf5e62c7676e6d1a74cdce10676dddb770e7d127ea91b4a1b720aa8f8168b486d1eb935bc75c9ff6a343ed3449",
+  "caseHashed": "c1af9a5ad9242360e412325a1d175a1ce7bd5b91eac3c08d48601b260e2fe6abfff74b29155e2972c9c9d27d4ffdd8b5",
   "stepsHashed": "4617bf4f5728d810f2fe47eb59dac24d4c384e7d643add1da9d37bc93952311d83dd4beaaebe240bf338980bfc2d0433"
 }

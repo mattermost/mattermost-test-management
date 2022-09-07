@@ -1,36 +1,28 @@
 ---
-key: MM-T29
-title: MM-17338 — Setting Require Email Verification to true will break the admin console
+name: "MM-17338 — Setting Require Email Verification to true will break the admin console"
+status: Draft
+priority: Normal
+team_ownership: "QA Platform"
 ---
 
 ## MM-T29: MM-17338 — Setting Require Email Verification to true will break the admin console
 
-### Details
-
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Draft                |
-| Folder   | Ticket coverage      |
-| Created  | 2019-08-28T09:49:50Z |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article><ol><li>Login as an Admin</li><li>Navigate to ☰ menu → System Console → Authentication → Email</li><li>Toggle 'Require Email Verification' to <strong>False</strong> and Save</li><li>Navigate to System Console → Site Configuration → Notifications</li><li>Toggle 'Enable Email Notifications' to <strong>False</strong> and Save</li><li>Toggle 'Enable Email Notifications' to <strong>True</strong> and Save</li><li>Navigate back System Console → Authentication → Email</li><li>Toggle 'Require Email Verification' to <strong>True</strong> and Save</li></ol></article>
+1. Login as an Admin
+2. Navigate to ☰ menu → System Console → Authentication → Email
+3. Toggle 'Require Email Verification' to **False** and Save
+4. Navigate to System Console → Site Configuration → Notifications
+5. Toggle 'Enable Email Notifications' to **False** and Save
+6. Toggle 'Enable Email Notifications' to **True** and Save
+7. Navigate back System Console → Authentication → Email
+8. Toggle 'Require Email Verification' to **True** and Save
 
 **Expected**
 
-> <article><ul><li>Saved changes are accepted without error or anomaly</li></ul><br><strong>Related bug</strong>: <a href="https://mattermost.atlassian.net/browse/MM-17338" rel="noopener noreferrer" target="_blank">MM-17338</a></article>
+- Saved changes are accepted without error or anomaly
 
-<hr/>
-
-### More Info
-
-| Name           | Value           |
-| :------------- | :-------------- |
-| Team Ownership | QA Platform     |
-| Location       | Ticket coverage |
+\
+**Related bug**: [MM-17338](https://mattermost.atlassian.net/browse/MM-17338)

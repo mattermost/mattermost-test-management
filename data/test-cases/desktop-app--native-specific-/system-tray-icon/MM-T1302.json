@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565204,
-    "name": "System Tray Icon",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "System Tray Icon"],
-    "fullPath": "desktop-app--native-specific-/system-tray-icon"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "System Tray Icon",
+  "folderFullPath": "desktop-app--native-specific-/system-tray-icon",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "72b77eed453e465f30f50a2735e9e6e406bf070e0bdc1f23b64b7daf908858ae33896faaf3e83577805c6eb2417756d4",
+  "caseHashed": "bc4866f8a2e7bdf36e1966c792b2527a933debd5c070e024f2317ebc7cc4e8ca9725c65425820c08e8d5f9737251d719",
   "stepsHashed": "24dd9c0345f599f8a52c5c73c673ce9e2529935179dfba246e2b03c89aa263c5c0cc1bceb704057bea23ce8ed2d3cf53"
 }

@@ -7,16 +7,6 @@
   "precondition": "A active team to archive should already exist.",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404278,
-    "name": "CLI",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "CLI"],
-    "fullPath": "suite/cli"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "CLI"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "CLI",
+  "folderFullPath": "suite/cli",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c58efae8fbe59681f4c0be882683d17e28155ad9e174ca69c2474996d51304675aa7c785db472d5d5a12ed4acb3f65f1",
+  "caseHashed": "283c642888b5f4899adf404ad53c51ff37687def3641934324b732831edfe168dd317ca28cf10b4220f797eb91ec1633",
   "stepsHashed": "91708c4853840cb4bae9f5e1495f26b932d9ec9483db874f1f0e4fdea1f4bee1f787562b3be8dd83951795aeb1feb174"
 }

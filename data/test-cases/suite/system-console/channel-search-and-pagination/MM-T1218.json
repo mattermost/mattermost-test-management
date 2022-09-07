@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["E2E-1", "system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569444,
-    "name": "Channel Search and Pagination",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Channel Search and Pagination"],
-    "fullPath": "suite/system-console/channel-search-and-pagination"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Channel Search and Pagination",
+  "folderFullPath": "suite/system-console/channel-search-and-pagination",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "76847bc21f49ab3756777747984b018a0cd8155f457c17a73089c6199f52bd2701e8562ed0f7003aaaa3fb46e87e5218",
+  "caseHashed": "4059e54d83970a91c00be2c5d8667010c9919f6c58f1f449934ada0d8dc7c0530882c8b40f0dc523f6eaa9c8cbe64a50",
   "stepsHashed": "455966c08de9962395ef100c5d1632a8e447b009d9fa40448a34905c7ab74f2adb5de11cdc3e76c0c706da06fe3ca97d"
 }

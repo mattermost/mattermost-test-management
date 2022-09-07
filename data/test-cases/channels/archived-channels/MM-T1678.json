@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
   "estimatedTime": null,
   "labels": ["archived-channels"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404271,
-    "name": "Archived Channels",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Archived Channels"],
-    "fullPath": "channels/archived-channels"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Archived Channels"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Archived Channels",
+  "folderFullPath": "channels/archived-channels",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0660b0ee52b1b746ac47fe2627fb6ee4bcf45e0a073d7e4af8456aa69e8d49b371f5ddf754e23f181336e7b7c01813e7",
+  "caseHashed": "7adf62591f9a820e1e2c4301a676495fe9167fda892f13aa8f9020cc238d92678814fbe556b1e85541c8445fc2a6e437",
   "stepsHashed": "8ce71de002479b096d27207978d66fa4847512d3bd5454b0bfb8b538a6819fd527199c3b4ed57b6c53cf533fda7b286d"
 }

@@ -1,59 +1,102 @@
 ---
-key: MM-T6
-title: Add User — Channel admins (Public only)
+name: "Add User — Channel admins (Public only)"
+status: Active
+priority: Low
+team_ownership: "Channels"
 ---
 
 ## MM-T6: Add User — Channel admins (Public only)
 
 **Objective**
 
-> <article><strong>Original test name from testing spreadsheet → </strong>If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, <span style="background-color: rgb(255,255,0);">the Channel Admin will have permission to add members to <strong>public channels</strong> on the current team</span></article>
+**Original test name from testing spreadsheet → **If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, the Channel Admin will have permission to add members to **public channels** on the current team
 
 **Precondition**
 
-> <article><br><br></article>
-
-### Details
-
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Low                              |
-| Status   | Active                           |
-| Folder   | Channels / Add user from popover |
-| Labels   | cy-prod                          |
-| Created  | 2019-08-26T23:03:55Z             |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Step I:<ol><li>Login as a System Admin</li><li>Click on the Product Switcher icon</li><li>Click System Console</li><li>Navigate to User Management → Permissions → Edit Scheme</li></ol><br />Step II:<ol><li><strong>Uncheck</strong> "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top</li></ol><br />Step III:<ol><li><strong>Check</strong> "Manage Public Channels" and <strong>Uncheck</strong> "Manage Private Channels" in the Channel Admins section part way down the page</li></ol><br />Step IV:<ol><li>Log in as a <a href="https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin"><strong>Channel Admin</strong></a></li><li>Click the name of any user in a public or private channel</li></ol><br />Step V:<br /><ol><li>Click Add to a channel</li><li>Type in the first few letters of the channel name</li></ol><br />Step VI:<br /><ol><li>Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)</li><li>Click Add</li></ol><br /><br /></article>
+Step I:
+
+1. Login as a System Admin
+2. Click on the Product Switcher icon
+3. Click System Console
+4. Navigate to User Management → Permissions → Edit Scheme
+
+\
+Step II:
+
+1. **Uncheck** "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top
+
+\
+Step III:
+
+1. **Check** "Manage Public Channels" and **Uncheck** "Manage Private Channels" in the Channel Admins section part way down the page
+
+\
+Step IV:
+
+1. Log in as a [**Channel Admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin)
+2. Click the name of any user in a public or private channel
+
+\
+Step V:
+
+1. Click Add to a channel
+2. Type in the first few letters of the channel name
+
+\
+Step VI:
+
+1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
+2. Click Add
 
 **Test Data**
 
-> <article>Step I:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png" class="fr-fic fr-dii" style="width:133.0px" /><br /><br /><br />Step II:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png" class="fr-fic fr-dii" /><br /><br />Step III:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png" class="fr-fic fr-dii" /><br /><br />Step IV:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png" class="fr-fic fr-dii" /><br /></article>
+Step I:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
+\
+\
+Step II:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
+\
+Step III:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
+\
+Step IV:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
 
 **Expected**
 
-> <article>After step I<ul><li>System Scheme settings appear</li></ul><br />After step II<ul><li>"Manage Public Channels" and "Manage Private Channels" boxes and all sub-settings under them are <strong>unchecked/disabled</strong></li></ul><br />After step III:<ul><li>"Manage Public Channels" are <strong>checked/enabled</strong> and "Manage Private Channels" boxes and all sub-settings under them are <strong>unchecked/disabled</strong></li></ul><br />After step IV:<ul><li>You <strong>should</strong> see the option to add a user to a channel in the profile pop-up</li></ul><br />After step V:<br /><ul><li>The list should filter to show only <strong>Public</strong> channels on the <strong>current team </strong>to match what you have typed</li></ul><br />After step VI:<br /><ul><li>The user is added to the channel</li><li>You are returned to your previous state</li><li>There is no direct feedback to you directly that the user has been added</li><li>A system message is posted in that channel saying they have been added to the channel by you</li></ul><br /></article>
+After step I
 
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Related ticket(s) | (Cannot reproduce) <a href="https://mattermost.atlassian.net/browse/MM-25914">Channel admin able to see Private channels when adding member via popover (even though permission is disabled) — MM-25914</a> |
+- System Scheme settings appear
 
-<hr/>
+\
+After step II
 
-### More Info
+- "Manage Public Channels" and "Manage Private Channels" boxes and all sub-settings under them are **unchecked/disabled**
 
-| Name                     | Value                                                                                                                                                                                                         |
-| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                                                                                                                            |
-| Update notes             | Steve Mudie — Wednesday, February 03, 2021 2:21 PM<br>• Removed from manual pool as Cypress appears to be working as expected<br>–––––––––––––––––––––––––<br>(Saturn) Combined test steps to easily automate |
-| Rainforest               | N/A                                                                                                                                                                                                           |
-| Team Ownership           | Channels                                                                                                                                                                                                      |
-| Manual Test Environments | Automated - No manual tests needed                                                                                                                                                                            |
-| Cypress                  | in Production                                                                                                                                                                                                 |
-| Location                 | Add user to channel from popover                                                                                                                                                                              |
+\
+After step III:
+
+- "Manage Public Channels" are **checked/enabled** and "Manage Private Channels" boxes and all sub-settings under them are **unchecked/disabled**
+
+\
+After step IV:
+
+- You **should** see the option to add a user to a channel in the profile pop-up
+
+\
+After step V:
+
+- The list should filter to show only **Public** channels on the **current team **to match what you have typed
+
+\
+After step VI:
+
+- The user is added to the channel
+- You are returned to your previous state
+- There is no direct feedback to you directly that the user has been added
+- A system message is posted in that channel saying they have been added to the channel by you

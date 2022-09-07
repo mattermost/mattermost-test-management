@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["User-Management", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 538610,
-    "name": "User Management",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "User Management"],
-    "fullPath": "suite/system-console/user-management"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "User Management",
+  "folderFullPath": "suite/system-console/user-management",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0a7b40d3259e1b0bc9f5694be6f17fe602e30fed4e14e45d3ec5119f9e56c164ae8a0375d6cfdf050b1ec3c91b7bc092",
+  "caseHashed": "7d0562e0457350390b5e109890249b7578ad62d2592030318045ab5f7d6322d78d292ff80a6e571c6245d2a0aba91cb2",
   "stepsHashed": "8e65a8423c72d316bf7fcfc1d863f74fa16bcfc1e441c2c4e4ae78827080d4f019cf7e93a94f3048fd8da481d759e100"
 }

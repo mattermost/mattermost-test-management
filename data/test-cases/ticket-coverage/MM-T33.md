@@ -1,46 +1,45 @@
 ---
-key: MM-T33
-title: MM-17392 — Invalid channel information in CSV exports
+name: "Invalid channel information in CSV exports"
+status: Draft
+priority: Normal
+team_ownership: "QA Platform"
 ---
 
-## MM-T33: MM-17392 — Invalid channel information in CSV exports
+## MM-T33: Invalid channel information in CSV exports
 
-### Details
-
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Draft                |
-| Folder   | Ticket coverage      |
-| Created  | 2019-08-28T12:11:41Z |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article><ol><li>Make a few posts in a DM or GM</li><li>Do the same in a different DM or GM</li></ol></article>
+1. Make a few posts in a DM or GM
+2. Do the same in a different DM or GM
 
 **Expected**
 
-> <article>Able to post succesfully</article>
+Able to post succesfully
 
-<hr/>
+---
+
+**Step 2**
+
+1. Login as an Admin
+2. Navigate to ☰ menu → System Console → Compliance → Compliance Export
+3. Toggle "Enable Compliance Export" to True
+4. Set the "Export Format" to CSV
+5. Click the "Run Compliance Export Job Now" button
+6. Download the most recent "csv\_export.zip" file from the data directory (default at **./data/compliance/export/**)
+7. Open the ZIP file (inside will be 2 files: meta.json and posts.csv)
+
+---
 
 **Step 3**
 
-> <article><ol><li>Open posts.csv</li><li>Look for the entries regarding the posts you made&nbsp;</li></ol></article>
+1. Open posts.csv
+2. Look for the entries regarding the posts you made 
 
 **Expected**
 
-> <article><ul><li>The exported data join/leave information have the proper channel information — i.e., <strong>Not</strong> the same channel information for all the entries of different channels —</li></ul><br><strong>Related bug</strong>: <a href="https://mattermost.atlassian.net/browse/MM-17392" rel="noopener noreferrer" target="_blank">MM-17392</a></article>
+- The exported data join/leave information have the proper channel information — i.e., **Not** the same channel information for all the entries of different channels —
 
-<hr/>
-
-### More Info
-
-| Name           | Value           |
-| :------------- | :-------------- |
-| Team Ownership | QA Platform     |
-| Location       | Ticket coverage |
+\
+**Related bug**: [MM-17392](https://mattermost.atlassian.net/browse/MM-17392)

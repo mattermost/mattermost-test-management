@@ -7,16 +7,6 @@
   "precondition": "Blocked until&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-22371\">https://mattermost.atlassian.net/browse/MM-22371</a> and&nbsp;<a href=\"https://mattermost.atlassian.net/browse/MM-19380\" rel=\"noopener noreferrer\" target=\"_blank\">https://mattermost.atlassian.net/browse/MM-19380</a>&nbsp;are resolved.",
   "estimatedTime": null,
   "labels": ["channel-settings", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 892162, "name": "Update" },
-  "folder": {
-    "id": 404277,
-    "name": "Channel Settings",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Channel Settings"],
-    "fullPath": "channels/channel-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Channel Settings"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Update",
+  "folderName": "Channel Settings",
+  "folderFullPath": "channels/channel-settings",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d2de27d83f7140896c18c3c7e01b94f6c77afebabc849ec1ffb2b12dd76e5790d3295536438fa465f0fdd23ebee41804",
+  "caseHashed": "dcbe8c4d7f733971cd92c2ca124652d23042c8fe97064e4c6246d8deb0eafbe8ddd54da44c5520a0c490b1fcf539285a",
   "stepsHashed": "33f76bc9ba1327d16e9827c15de5e887b6406cdfaee441bdafdfde17c1c3565a5be76cca916f1ae4d886ee5a5e1f5cce"
 }

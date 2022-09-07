@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 399678,
-    "name": "Ticket coverage",
-    "parentId": null,
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Ticket coverage"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Ticket coverage",
+  "folderFullPath": "ticket-coverage",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "508acd148a3b5dfb806262af2fba7ff70af3a424017fedd71e3437ac3c6ca9dc7b700066f1ca935597479b1ecb1ac947",
+  "caseHashed": "bd7461eaf0f296c4446edbb449eea145c69f52a124efa3de9f9bafedcde4f0561ef659efba2bd85154322f62f7cbf948",
   "stepsHashed": "34b1420a9a2510999ce31f0b98256f945ae43df0ed3cea669be0d896081b99086ad63c78c3035677cb876258d2633136"
 }

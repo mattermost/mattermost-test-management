@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568179,
-    "name": "Rate Limiting",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Rate Limiting"],
-    "fullPath": "suite/system-console/environment/rate-limiting"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Rate Limiting",
+  "folderFullPath": "suite/system-console/environment/rate-limiting",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8728c2efb06e6cc43930d1e9f6a0d9c35618fc85fdc6b484c2575abea02501eeec094d670c40b2d0fade4b2f64609b1f",
+  "caseHashed": "bb9b8c604ec772f3a3d884089dd1c63f73f21588b48cb741edb7c0f16d80b9bee07ac0b77f3e6c63aa7217f64bde099c",
   "stepsHashed": "a24fe8e33a893320c90adf9bfd2e43e27ad405bf07786757bf79f8e7e49770293a84d2a3a541f5711e767a059584fd12"
 }

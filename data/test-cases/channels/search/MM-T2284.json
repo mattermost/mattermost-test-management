@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "search"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404335,
-    "name": "Search",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Search"],
-    "fullPath": "channels/search"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Search"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Search",
+  "folderFullPath": "channels/search",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "ad0c523b08f03efabfa31db63775130f733aeff29d9cd0d34021562abd407c03f82eae856d11305ce3c02253c6265ee2",
+  "caseHashed": "f704842c76b7c52beb747c23e1e9deca313cb88f0c87ca97fd46b1025f3e1b1ae2d9dee7e31bbe7d7afe7c6340d44085",
   "stepsHashed": "749a36ebbeaf41749181ddc889815aa5731a98fa54779060a830f8880259404acb6c137c19f11de5889c236733fc4299"
 }

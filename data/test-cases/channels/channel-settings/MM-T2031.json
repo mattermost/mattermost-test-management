@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://rc.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
   "labels": ["cy-prod", "channel-settings", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404277,
-    "name": "Channel Settings",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Channel Settings"],
-    "fullPath": "channels/channel-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Channel Settings"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Channel Settings",
+  "folderFullPath": "channels/channel-settings",
   "steps": [
     {
       "inline": {
@@ -86,6 +81,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "28fcf27efe99bbac4309a404da6bcbcfb0a7813cf7f6c99c92e1ee2e66e9b2db13b383388a0c48d85bdf628453b73ac4",
+  "caseHashed": "f97195deba8f3db41b6c91d0f1289d53acb346caef247f45b1542bf0767461dc9547e59ec9b84349591d499559efd7d3",
   "stepsHashed": "6a6041dead1fab07e9a9ec301a0aa454e8ce295f83b4635836a0daef9921459cc5e403835fad038af323b71f67037d90"
 }

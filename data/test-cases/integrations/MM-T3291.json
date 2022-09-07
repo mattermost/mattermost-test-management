@@ -7,16 +7,6 @@
   "precondition": "<strong><span style=\"color: rgb(184, 49, 47);\">Note</span></strong>: Requires test demo plugin build here: <a href=\"https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation\">https://github.com/mattermost/mattermost-plugin-demo/tree/MM-20684-Plugin-Autocomplete-Implementation</a>",
   "estimatedTime": null,
   "labels": ["Hackfest", "Cloud-N/A"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404284,
-    "name": "Integrations",
-    "parentId": null,
-    "fullNames": ["Integrations"],
-    "fullPath": "integrations"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Integrations",
+  "folderFullPath": "integrations",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "bebd4843d77af79bcf5bf3cb0f93d550dbc1d6aebf69677468d75a1b940e8a9c5c4f00ae3c1f8dc83359de39e79ce2f9",
+  "caseHashed": "496d1e29b9d3ed542452cb820c68eed0987170e272bf35b34b52953258f9c4f4e5167e5f61cb3627387bb8774cc331d7",
   "stepsHashed": "b64dc5563992be51b855baedfcbd5312b25d7e91f4651441b3390de3975791589761c820f3f76acd303b8e234352913b"
 }

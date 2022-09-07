@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1260737,
-    "name": "Circle-CI",
-    "parentId": 404330,
-    "fullNames": ["Plugins", "Circle-CI"],
-    "fullPath": "plugins/circle-ci"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Plugins"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Circle-CI",
+  "folderFullPath": "plugins/circle-ci",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "fe4c79c64963cf00211d23ba5a657a16eeb58f17db1754803120c5e6f77f067c9d13b37abd10a66f8d0b37b2efae5863",
+  "caseHashed": "8b81deb6eb891480f05384dada187aed7a5e101d0eaca499435f9e00548564f62be982c4e94a09595e967d8b07db2eba",
   "stepsHashed": "aa62882749800a54db8613b15ec339c28ddb177c29dd8220fcdb4283d947ced5273b0bd92b5af6ab8ed0e074687c396e"
 }

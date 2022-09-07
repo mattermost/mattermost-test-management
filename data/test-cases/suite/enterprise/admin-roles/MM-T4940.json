@@ -12,16 +12,6 @@
     "enterprise",
     "fix-versions-not-empty-2022cleanup"
   ],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 918602,
-    "name": "Admin Roles",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Admin Roles"],
-    "fullPath": "suite/enterprise/admin-roles"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -37,6 +27,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Admin Roles",
+  "folderFullPath": "suite/enterprise/admin-roles",
   "steps": [
     {
       "inline": {
@@ -52,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "a56872f1630cb054fd63950e20e4a205a7f69c4e3cc53914bc00c08314ecc18aa8272a7058dbe32d6966f0b7f364c1d9",
+  "caseHashed": "ef84af35ecb47f63afbb45209277eb0101d0469cae43cbc7382bc003cbf32015b1bdb6a404599fdf162e360235279c69",
   "stepsHashed": "a0ac4280d1bcea1ee36895ab3a1770aeca96fe218b4718f19ce236e9a3397cc7beda00f3654568443bf5e4c6ee06b498"
 }

@@ -12,16 +12,6 @@
     "messaging",
     "fix-versions-not-empty-2022cleanup"
   ],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -37,21 +27,26 @@
     "Tags": [],
     "Location": "Messaging"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
-        "description": "<strong>Step 1:</strong><br>Markdown preview: inline image<br>–––––––––––––––––––––––––<ol><li>Make sure your markdown preview is enabled (Account Settings ➜ Advanced ➜ Preview pre-release features ➜ Show markdown preview option in message input box = Yes)</li><li>Type or copy a message with large inline image via markdown, such as:<br><br>![make it so](https://i.stack.imgur.com/MNeE7.jpg)<br><br>for example. Don't send the message.</li><li>Switch to markdown preview by clicking on \"Preview\" below right of message input box</li></ol><br><strong>Step 2:</strong><br>Image size parameter should determine display size<br>–––––––––––––––––––––––––<br><ol><li>Post the markdown text in the test data field to the right</li></ol><br>",
-        "testData": "<strong>Step 1:</strong><br>![make it so](https://i.stack.imgur.com/MNeE7.jpg)<br><br><strong>Step 2:</strong><br>![Mattermost](https://imgsv.imaging.nikon.com/lineup/dslr/df/img/sample/img_01.jpg =50x76 \"Mattermost Icon\")",
-        "expectedResult": "<strong>Step 1:</strong><br>After #3,<ul><li>The message box should expand, just like it does, for example, with a list, so that image preview can be easily viewed.</li></ul><br><strong>Step 2:</strong><br>After #1,<br><ul><li>The image height and width are set to 50x76 - as outlined in the markdown parameters.</li></ul><br>",
+        "description": "1. Markdown preview: inline image<br /><ul><li>Type or copy a message with large inline image via markdown but don't send, such as:</li></ul><br />![make it so](https://i.stack.imgur.com/MNeE7.jpg)<ul><li>Switch to markdown preview by clicking on \"Preview\" from message input box</li></ul><br />2. Image size parameter should determine display size<br /><ul><li>Post the markdown text, such as:</li></ul><br />![Mattermost](https://imgsv.imaging.nikon.com/lineup/dslr/df/img/sample/img_01.jpg =50x76 \"Mattermost Icon\")<br /><br />",
+        "testData": "",
+        "expectedResult": "On step 1:<ul><li>The message box should expand, just like it does, for example, with a list, so that image preview can be easily viewed.</li></ul><br />On step 2:<br /><ul><li>The image height and width are set to 50x76 - as outlined in the markdown parameters.</li></ul><br />",
         "customFields": {
           "Fix Versions": ["v5.12 (June 2019)", "v5.19 (Jan 2020)"],
-          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15273\">Inline Images In Markdown Preview Don't Get Expanded — MM-15273</a><br><a href=\"https://mattermost.atlassian.net/browse/MM-21421\">Regression: The height and width parameters in inline image (Mattermost markdown) doesn't work in v5.18+ — MM-21421</a><br>(Duplicate) <a href=\"https://mattermost.atlassian.net/browse/MM-22303\">Image size parameter not working — MM-22303</a><br><br>",
-          "Important notes about this step": "<ul><li><span style=\"color: rgb(184, 49, 47);\">You may still have to scroll if the image doesn't fit into the height of the expanded message input box but you should not see just the image in a narrow slit with scrollbars.</span></li><li><span style=\"color: rgb(184, 49, 47);\">Also, the image shouldn't overlap with other markdown images. See https://mattermost.atlassian.net/browse/MM-18190 for more details.</span></li></ul>"
+          "Related ticket(s)": "<a href=\"https://mattermost.atlassian.net/browse/MM-15273\">Inline Images In Markdown Preview Don't Get Expanded — MM-15273</a><br /><a href=\"https://mattermost.atlassian.net/browse/MM-21421\">Regression: The height and width parameters in inline image (Mattermost markdown) doesn't work in v5.18+ — MM-21421</a><br />(Duplicate) <a href=\"https://mattermost.atlassian.net/browse/MM-22303\">Image size parameter not working — MM-22303</a><br /><br />",
+          "Important notes about this step": "<ul><li><span style=\"color:rgb(184, 49, 47)\">You may still have to scroll if the image doesn't fit into the height of the expanded message input box but you should not see just the image in a narrow slit with scrollbars.</span></li><li><span style=\"color:rgb(184, 49, 47)\">Also, the image shouldn't overlap with other markdown images. See https://mattermost.atlassian.net/browse/MM-18190 for more details.</span></li></ul>"
         }
       },
       "testCase": null
     }
   ],
-  "caseHashed": "b377fdc4ab963a2bedfbf19f27fd4c00724839aaf8fd635aaa0d3cfa854b87413cb6082811bc74224f05f2d5f4e89516",
-  "stepsHashed": "918045052dfba3a660666376610abb6e9f76d3cbee7dd2849ea03b70b31362ff1328d29a2edbd473e51652c723544aec"
+  "caseHashed": "2d1e780abaa089231a4a0443dd3c63255953ae5481378330df60bbcf4104baebaa9489e707ac34e9f61b160d18bb15df",
+  "stepsHashed": "766e9f2c77807cb05d8eaa40bcee9586f894fc6b6e320219847f025a74b385fe1f6d59c59a05326b4b2cce299a2713ab"
 }

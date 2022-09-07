@@ -7,16 +7,6 @@
   "precondition": "None",
   "estimatedTime": null,
   "labels": ["enterprise"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 635686,
-    "name": "Channel Moderation Settings",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
-    "fullPath": "suite/enterprise/channel-moderation-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Channel Moderation Settings",
+  "folderFullPath": "suite/enterprise/channel-moderation-settings",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c5f6c4da4f584268bde01cf92b5ad2a9e497aad4cef83e9b27824236864d77ec2763644c494288d60341243a84eef0a9",
+  "caseHashed": "4a9d27c5f82ece85268df11313a51d36d6b15fd0cf182f33432ced706d99c4c941a8d981b7c1c09a12b6a9b2c1719a32",
   "stepsHashed": "6b780aa3c02ebb618f03404f2be35ac45c16bf15bdf907333caed56eba06da86814c643f3e7ed8d17d9c1164166d3d73"
 }

@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(226, 80, 65);\">Run these tests on</span> <a href=\"https://mysql.test.mattermost.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mysql.test.mattermost.com/</a></h1>",
   "estimatedTime": null,
   "labels": ["account-settings"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 2063033,
-    "name": "Profile Settings",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Profile Settings"],
-    "fullPath": "channels/profile-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Account Settings"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Profile Settings",
+  "folderFullPath": "channels/profile-settings",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c14cd79c8e54e48204507abdd81017bbb295f80451ee2cdb13a7d63f846a8314345555602bc2cff3af4283d85a742283",
+  "caseHashed": "4679a1c8f4831b216c4c346ef83ad17f96265ddc152cae29a7f060522e88f6ccd46e29d6c093b863329499c47ceb86d5",
   "stepsHashed": "8b23517ca18cf928aa17021e9d2ed7e79d763a564c96400bed7373097390c0bfd45cc375646607954179c33c82c405c4"
 }

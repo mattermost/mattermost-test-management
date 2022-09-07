@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["User-Management", "cy-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 570073,
-    "name": "Users",
-    "parentId": 538610,
-    "fullNames": ["Suite", "System Console", "User Management", "Users"],
-    "fullPath": "suite/system-console/user-management/users"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Users",
+  "folderFullPath": "suite/system-console/user-management/users",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "85f77310840910dda7b60329a893884dd72705978e9cd387937cae28edb6d6ca83093c7f1a8633758a3a97b96e5db2f2",
+  "caseHashed": "743909f460f62fa22925982638450a85e01153ab634f208ba2274afc95e3a9dae74850ac4988e903736cb37083c52eb0",
   "stepsHashed": "52a6aea99d30c05f0afddab0f5bba9bbb69d1d579bb18a60d1d2547393af332d4f38f542f37e5abfdf29242b52a06990"
 }

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 883991,
-    "name": "Cloud",
-    "parentId": null,
-    "fullNames": ["Cloud"],
-    "fullPath": "cloud"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Cloud"
   },
+  "componentName": null,
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "Cloud",
+  "folderFullPath": "cloud",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "df8c6025576d11dad772190fbaaf44fc4d92896c2e2e32da798623db782589eaa370a5f23405c774362b4f3c6d395a6a",
+  "caseHashed": "6a8afff902840d70c3841ec5acb2ca8103476c0c569c28d435bd7b10dcb9b8453b6cbe016ed58f13331fd8828006f516",
   "stepsHashed": "a20344c4fadca39039a013e9b69548bf9b20ddea6000b2657961c7cb012c0c2f0bf6cce8d219d423f20ae0e8954f636d"
 }

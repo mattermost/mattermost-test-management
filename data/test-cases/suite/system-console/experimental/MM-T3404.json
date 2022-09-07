@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569442,
-    "name": "Experimental",
-    "parentId": 404340,
-    "fullNames": ["Suite", "System Console", "Experimental"],
-    "fullPath": "suite/system-console/experimental"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Experimental",
+  "folderFullPath": "suite/system-console/experimental",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "8a47e7e1846f659cae86c8fe6b3e764acf7191dc10024202930bd00bcbb87c116b63890fe3e2a36901f91c9168b1c2af",
+  "caseHashed": "7af630ca1259c6f9ae9a2473760069b5180a8d50fc1d0940d8f088e13abbab02b2acf4f75db961ce8d4d1d018d19ee05",
   "stepsHashed": "b4263dce8db634806725e335c8ec40f8ba4552128cb87d03ab648440b287178816c167ee67cad46cde913edc0cf85292"
 }

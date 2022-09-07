@@ -7,16 +7,6 @@
   "precondition": "1. This change is not visible in the UI. To confirm the character replacement is working as expected a plugin is needed that accepts name arguments such as Demo Plugin or Matterpoll. <br>2. Ensure \"smart punctuation\" &nbsp;in enabeled in iOS keyboard settings (this is on be default)",
   "estimatedTime": null,
   "labels": ["ios-only", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 410627,
-    "name": "Mobile App (native-specific)",
-    "parentId": null,
-    "fullNames": ["Mobile App (native-specific)"],
-    "fullPath": "mobile-app--native-specific-"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Mobile Apps"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Mobile App (native-specific)",
+  "folderFullPath": "mobile-app--native-specific-",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "d48a55a68b152598ffac49bb51fdb9c8aab48d24625a57c7f53c59f8bb394093d468a634b780f076de3b338350ac2f37",
+  "caseHashed": "f69ac45108474b0b491771f2aa34d75ae5b7922b7c8ab147db95c512053b5ffee9ac6a525ad7866f843b4512d1309b19",
   "stepsHashed": "eb7c2b05321c47da0520dca937a3f779a59df1af82e0695dc313afb88c6105ec2555f0a14ae26e2635ec5aadd775ebb2"
 }

@@ -7,16 +7,6 @@
   "precondition": "None",
   "estimatedTime": null,
   "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 635686,
-    "name": "Channel Moderation Settings",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
-    "fullPath": "suite/enterprise/channel-moderation-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Channel Moderation Settings",
+  "folderFullPath": "suite/enterprise/channel-moderation-settings",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "04e8b507f8ae6eb4e43084e20e3cb508a66581ee65fb9fabf913a9ffa8e6aa96d60cfe24501b589e2af00ab7f65d25de",
+  "caseHashed": "ee4d8a43570d0ae3a08275e22e5f31d03d8da96a975235ffee2930738d3106e85c0eaaf7b39dfb3e3133435ca40e9344",
   "stepsHashed": "61dd200ecc9b89c1859e5faa9825814efed73e58e2d1f9f4a6192787025296f29d963d26d29ada4298482aaf90d6e0cd"
 }

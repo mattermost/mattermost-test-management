@@ -7,19 +7,9 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "v5.0-N/A", "playwright"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565202,
-    "name": "Menu Bar",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Menu Bar"],
-    "fullPath": "desktop-app--native-specific-/menu-bar"
-  },
   "customFields": {
     "Authors": "",
-    "Playwright": "In Production",
+    "Playwright": "in Production",
     "Priority P1 to P4": null,
     "Update notes": "10/18/21 - Lindy - Have disabled the Rainforest tests from running as they're deprecated post v5.0 desktop app release.",
     "Rainforest": ["Temporarily Disabled", "in Production — Desktop"],
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Menu Bar",
+  "folderFullPath": "desktop-app--native-specific-/menu-bar",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0cd3a1025ddc366234f50eb8a436176a55e6e72c369e5fffc374e3e336790e440068026d4bb7f4946234ab1254e32635",
+  "caseHashed": "2dc5da5bb4fb01384ffd680c919476fe05fc9588459be80a8c481ffd1ca5a8b867fefc45f382fc29e0bde69ca6df4d27",
   "stepsHashed": "9325234eef4ba73655b691fd90f5870a4a5b332afd82e7ca1f8de387b9aa90d15161bfa4f69a1435cd8eb17f5ba427db"
 }

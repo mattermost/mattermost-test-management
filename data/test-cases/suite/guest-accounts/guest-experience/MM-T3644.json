@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["guest-accounts", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 581416,
-    "name": "Guest Experience",
-    "parentId": 580185,
-    "fullNames": ["Suite", "Guest Accounts", "Guest Experience"],
-    "fullPath": "suite/guest-accounts/guest-experience"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Guest Accounts"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Guest Experience",
+  "folderFullPath": "suite/guest-accounts/guest-experience",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "0e4fa6b65662f660038ff7a5ad9a6dcf7f0f25f6350b192366c590a777446b22a0eaa3624bf5404285f35be75dce397b",
+  "caseHashed": "35e29ae22109ea5fada3730d6bf3e93a6710cef9fb6c63bbdb6308d225649b8e026172b57721c14fdb7e2e183638137c",
   "stepsHashed": "b2084e9cda71003c4abdbf9c81ed7eccceb74e1ff4e1097973fbd54e6cf31f1c8556582db570b90adec63b741bb984ed"
 }

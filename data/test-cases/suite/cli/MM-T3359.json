@@ -7,16 +7,6 @@
   "precondition": "This test for release testing cycles are done on postgres.test test server. The tester should connect to the test server through VPN and have access to the Mattermost command line interface.",
   "estimatedTime": null,
   "labels": ["fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 404278,
-    "name": "CLI",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "CLI"],
-    "fullPath": "suite/cli"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "CLI"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "CLI",
+  "folderFullPath": "suite/cli",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "84a807103bc0e4ad09e9467def4eba2c62a753f115b6d5101f408a2d8a6c432c00700568705ef2df14aad3b2e5b8638e",
+  "caseHashed": "df118c7fb4e3ae8531d83e97cfdd1ddbe0c35ff9663d7fea50461cda1217e9834f1fe7be5fad6f9e9af50582464baf18",
   "stepsHashed": "bd3b57490adfdc41a1ded9d83cb79375c81bae07d7d52d5e29b2cf7a6678fee53b2280600a1f98026dad1433a87262f4"
 }

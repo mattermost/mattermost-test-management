@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "messaging"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404292,
-    "name": "Messaging",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Messaging"],
-    "fullPath": "channels/messaging"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Messaging"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Messaging",
+  "folderFullPath": "channels/messaging",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "1d91682308edfacbebdced8a8ad9884a9429585825550812460e5989998d2295caa56b6b8b248e9f029960050f6ac7bd",
+  "caseHashed": "329ea0c2d6b0e16e0843fb0b39d7ecccd87ecdd3d58b23cd2725d75918d29968b043234e89b4655eff8e574260e2e161",
   "stepsHashed": "e5ae18ccaa073e1ae4d334471909d1825c15852703a1333a19707129649ed6de266137bdf984849535753a3018304476"
 }

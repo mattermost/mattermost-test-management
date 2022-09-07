@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["cy-prod", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569415,
-    "name": "Compliance Monitoring",
-    "parentId": 570062,
-    "fullNames": ["Suite", "System Console", "Compliance", "Compliance Monitoring"],
-    "fullPath": "suite/system-console/compliance/compliance-monitoring"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Compliance Monitoring",
+  "folderFullPath": "suite/system-console/compliance/compliance-monitoring",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "c279e2a0bfc15de3287c9cd3686427143e2c299112a222634f3bcbcfdf8e74fd21a58db5b2af608ae1cac4dbb5d80522",
+  "caseHashed": "3ee3bd88048f4cc268f9898653ace5406a9d977bf9a1c4234bb66671360d9dbf365078f40e536c88184c62338d2048dd",
   "stepsHashed": "f9cf5e2b4e97bb2452f841f7dac15bae01a2dab0d8fd611f46f85508f4ce0b43c9b0f8f7a0b8cc4d9d9b9e2b8936109c"
 }

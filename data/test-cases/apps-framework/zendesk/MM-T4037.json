@@ -7,16 +7,6 @@
   "precondition": "<strong>Requires a sandbox instance of Zendesk with an oAuth 2 application configured.</strong>&nbsp;",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1244765,
-    "name": "Zendesk",
-    "parentId": 1214365,
-    "fullNames": ["Apps Framework", "Zendesk"],
-    "fullPath": "apps-framework/zendesk"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Zendesk",
+  "folderFullPath": "apps-framework/zendesk",
   "steps": [
     { "inline": null, "testCase": { "testCaseKey": "MM-T4036" } },
     {
@@ -74,6 +69,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "104d9ceddaecf169373922fda92dad4c4ac0cfaa2be422581f483c2c121b3c68836bdceda6c79c875fbf777249530b27",
+  "caseHashed": "932f92d76625b678d44b78c74ada58a79e3647b17629ffa1905839679dbeed7f6255d0f4abdf7a49a8e959f577ce38fe",
   "stepsHashed": "c211824fb0799197c6951f89b2fc14e9c5e6445b8b0012f52715b7094ce88d6f14f24acaa4b43eff06fa43b5249504a6"
 }

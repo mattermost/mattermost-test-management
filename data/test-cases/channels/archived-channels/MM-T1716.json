@@ -7,16 +7,6 @@
   "precondition": "<h1><span style=\"color: rgb(184, 49, 47);\">Important</span></h1>Ensure that `Allow users to view archived channels` is enabled on the server and some public and private archived channels exist<br>(Setting can be found in System Console under \"Users and Teams\")",
   "estimatedTime": null,
   "labels": ["TM4J-Key-Mapped-In-Cypress-Release", "cy-prod", "1.42-p123", "archived-channels"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404271,
-    "name": "Archived Channels",
-    "parentId": 3142963,
-    "fullNames": ["Channels", "Archived Channels"],
-    "fullPath": "channels/archived-channels"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Archived Channels"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Archived Channels",
+  "folderFullPath": "channels/archived-channels",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "5c8024f1d6ed5c48b7694e0ab0b20b7d660a7cea8a1f54efc4548c9c5bde8592429b1e61699f9acebb42cefd8fc8088b",
+  "caseHashed": "6b51f67d7a420e595252ba5e26732a97e8e69c5a4b1560c74281ba9c2e8478e4e8b751e697e9315185df7d91e1161c55",
   "stepsHashed": "993158c3fc684f9ab34c91390ec343cc8b3a046b3fa03d118e4ff51539bbf65ed09cca2be4dd01b466e09c8cef82b300"
 }

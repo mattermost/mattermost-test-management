@@ -7,16 +7,6 @@
   "precondition": "None",
   "estimatedTime": null,
   "labels": ["enterprise", "fix-versions-not-empty-2022cleanup"],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 751123,
-    "name": "Team and Channel",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Team and Channel"],
-    "fullPath": "suite/enterprise/team-and-channel"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Team and Channel",
+  "folderFullPath": "suite/enterprise/team-and-channel",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f866663192efa35d2f2253a5f8abc2b568cea17655e5209ea0b3dcbf5d004cedb70533b4bc9fa9621421e9040449d9e5",
+  "caseHashed": "e1eaeef98f34a8ad1893ae538b2a888bf6523dc4e93c4dcbef69436399bed3ef6b22285557df4a38984356838974842b",
   "stepsHashed": "ef70f3bb089e8c84caeafbe9e7cc3a778b1c911f597739f00fc632f1f9d18bc066fb5abbb2c1121c3afcf6f17dc7933f"
 }

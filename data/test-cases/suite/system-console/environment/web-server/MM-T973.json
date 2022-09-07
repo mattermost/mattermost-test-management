@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Cloud-N/A", "se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568089,
-    "name": "Web Server",
-    "parentId": 569450,
-    "fullNames": ["Suite", "System Console", "Environment", "Web Server"],
-    "fullPath": "suite/system-console/environment/web-server"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Cloud N/A"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Web Server",
+  "folderFullPath": "suite/system-console/environment/web-server",
   "steps": [
     {
       "inline": {
@@ -47,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "cc80a154db753da4df59f8a000518a90055e48669a0a3b2ca566f7e34dd83a3af890d673996aaeedddcfa5c0f4826b33",
+  "caseHashed": "adeda46df0fb5b99e4e1c25a6701db0fc797286fd43997c1332efc16186509f9b85d8f9bdbab3829c6ccf44db3736db6",
   "stepsHashed": "e1a462915b07ca50300dc51d6fb996afc2244374de4da1a2d7ebcafab6c0e766518556b590ac64cb239f4ad400699cad"
 }

@@ -1,16 +1,12 @@
 {
-  "id": 15984274,
-  "key": "MM-T4331",
-  "name": "Overview test for webhook being in place",
-  "createdOn": "2021-11-04T17:34:13Z",
+  "id": 15984277,
+  "key": "MM-T4334",
+  "name": "Notifications disabled",
+  "createdOn": "2021-11-04T17:34:14Z",
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": { "name": "None", "parentId": null, "fullNames": ["None"], "fullPath": "none" },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -26,12 +22,17 @@
     "Tags": [],
     "Location": null
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Bitbucket",
+  "folderFullPath": "plugins/bitbucket",
   "steps": [
     {
       "inline": {
         "description": "1. With another bitbucket account, @-mention the bitbucket user you connected previously in a bitbucket issue.<br />2. Then assign the bitbucket issue to them.<br />3. Finally request a review from them in a bitbucket PR.",
         "testData": null,
-        "expectedResult": "User receives a DM from the bitbucket bot for each of the three actions (issue mentions, issue assignment, and PR review request)<br />Verify BOT tag doesn't have a double box surrounding it.",
+        "expectedResult": "User receives no DMs from the bitbucket bot for these actions.",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -41,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "988821b9ecf8889326514f83ac28b934c55b53798af517d11213d8e879b176aa1d071d9ec98b26df004b7bce6a719d95",
-  "stepsHashed": "96fc2c76dd8514493ee9b24718486f4a5402e509d44519246c7e771ba7648790fcabf7a30db5a510e9ae75a542b86807"
+  "caseHashed": "d9229aec6468f33549ec902bfa90fdb5a60074b0db61f584272d1b065bcfc8626e1dd7b3e48ae773fc73511fa8991916",
+  "stepsHashed": "da263fb4ae064b259220274f5cd790321980133e6f82d7dee1f67faff626037b7827ef688e2678e921e92e6a4009c0b8"
 }

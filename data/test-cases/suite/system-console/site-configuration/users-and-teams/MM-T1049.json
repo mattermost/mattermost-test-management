@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["se-prod", "system-console"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 569153,
-    "name": "Users and Teams",
-    "parentId": 570051,
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Users and Teams"],
-    "fullPath": "suite/system-console/site-configuration/users-and-teams"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": [],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Users and Teams",
+  "folderFullPath": "suite/system-console/site-configuration/users-and-teams",
   "steps": [
     {
       "inline": {
@@ -60,6 +55,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "2b3cea49ed6054733b3c3c3c2a9ed72a0135f16ddb036a35316f37642ce4ae6582ca7e38037a753f17d6151394033f5b",
+  "caseHashed": "87dd7d1937d567a7bdf9248d1aa6dc9dc07a9de26ccfdbcecc4880b355d522a585cf6b48f19a16dce2dba166a356f8f7",
   "stepsHashed": "49add1156d32c21d7ce3a677dcce2db2efac2bb51280b3d51f760e5fe2e0ffa64f4b9111c20ef44017fc23af495125e3"
 }

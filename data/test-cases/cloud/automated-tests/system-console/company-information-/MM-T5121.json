@@ -1,0 +1,47 @@
+{
+  "id": 30400938,
+  "key": "MM-T5121",
+  "name": "Cloud | Ensure feature discovery for professional features shows option to upgrade to professional",
+  "createdOn": "2022-08-31T15:35:57Z",
+  "objective": null,
+  "precondition": null,
+  "estimatedTime": null,
+  "labels": [],
+  "customFields": {
+    "Playwright": null,
+    "Authors": "",
+    "Priority P1 to P4": null,
+    "Update notes": "",
+    "Rainforest": [],
+    "Team Ownership": [],
+    "Manual Test Environments": [],
+    "Detox": null,
+    "Cypress": null,
+    "MMCTL": null,
+    "Last Updated": "",
+    "Tags": [],
+    "Location": null
+  },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Company Information ❗",
+  "folderFullPath": "cloud/automated-tests/system-console/company-information-",
+  "steps": [
+    {
+      "inline": {
+        "description": "<strong>Pre-condition:</strong><br />MM-T5120<br /><br /><br /><strong>Test<br /></strong>1.<strong> For each professional feature</strong><br />'Announcement Banner'<br />'AD/LDAP'<br />'SAML 2.<br />'OpenID Connect'<br />'Guest Access'<br /><br /><strong>title should be</strong><br /><br />'custom announcement<br />'LDAP',<br />'SAML',<br />'OpenID Connect<br />'guest accounts<br /><br />2. Assert '<strong>Upgrade Now</strong>' button is visible and clickable<br />3. Click on the upgrade button and verify pricing modal is opened",
+        "testData": null,
+        "expectedResult": "",
+        "customFields": {
+          "Fix Versions": [],
+          "Related ticket(s)": "",
+          "Important notes about this step": ""
+        }
+      },
+      "testCase": null
+    }
+  ],
+  "caseHashed": "151d56898ca0de47d9515793535252a3eb93f47fbc2911a99434351c70623676e53196a75a26b4ff895e392289275e7c",
+  "stepsHashed": "095d41b3fd660b847e385090f2c8ab513c834f20210bd527b0416dc814082e01eb22893d2646a040c8e148356e6d74d8"
+}

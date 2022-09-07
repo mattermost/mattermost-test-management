@@ -12,16 +12,6 @@
     "fix-versions-not-empty-2022cleanup",
     "cy-rep-missing-or-skipped"
   ],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 635686,
-    "name": "Channel Moderation Settings",
-    "parentId": 733337,
-    "fullNames": ["Suite", "Enterprise", "Channel Moderation Settings"],
-    "fullPath": "suite/enterprise/channel-moderation-settings"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -37,6 +27,11 @@
     "Tags": ["Never tested"],
     "Location": "Enterprise"
   },
+  "componentName": "System Console",
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Channel Moderation Settings",
+  "folderFullPath": "suite/enterprise/channel-moderation-settings",
   "steps": [
     {
       "inline": {
@@ -52,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "7cdef01a6b4333e02d6c47dd3abbd4f10ebf1007cafc3853e486e3238022b22fa96eddb2173f3bdd2471214255b81aa8",
+  "caseHashed": "df03cc832330115dc23037e3896cbffdfb4deafb7d1c098e5f5c1d2071ecf13d43cc5b7a0ed2767c8b0b0ce10be29f5c",
   "stepsHashed": "eeacb385e4154998b2bcac679e80d75fecd23e2319a6749c5fdc0d685a338c13c6929de7d19aae9ebc08818f4e3d2851"
 }

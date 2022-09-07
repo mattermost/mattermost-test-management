@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 568186,
-    "name": "Customization",
-    "parentId": 570051,
-    "fullNames": ["Suite", "System Console", "Site Configuration", "Customization"],
-    "fullPath": "suite/system-console/site-configuration/customization"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "System Console"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Active",
+  "folderName": "Customization",
+  "folderFullPath": "suite/system-console/site-configuration/customization",
   "steps": [
     {
       "inline": {
@@ -125,6 +120,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "99d7223f072fb8a2d5800c7ba3073eeac62aaada9e4fb8b82b477a26196e40369858469685fea5b23468310f7e29a632",
+  "caseHashed": "7d2445b50b2ecfd3d4e2db1e738c2b4821766df32a0370632fafa62386bf8c38546e5a4ea198a1dc369f97053183ce99",
   "stepsHashed": "608d7076738295ce8aee9ac621d27c9e356d4e1573569d52b6f0353154fe495ee4d5b335ec1044fbccf11b60e07b3812"
 }

@@ -7,16 +7,6 @@
   "precondition": null,
   "estimatedTime": null,
   "labels": ["Desktop-app", "smoke-test-folder", "fix-versions-not-empty-2022cleanup"],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565206,
-    "name": "Permissions",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Permissions"],
-    "fullPath": "desktop-app--native-specific-/permissions"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Permissions",
+  "folderFullPath": "desktop-app--native-specific-/permissions",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "549d0428348a37bc9d4fce1c73b8fe399ed5cf1da1b241f071bc5f30bff5191c9d03e32b3c543f4a52bb640476cbaeb3",
+  "caseHashed": "5e63b899b9aab9b2e9a238c30a1bfbea53d9172935bcabeab922581e1f777c781bba455e6d90ebaacf7bbaf85a0cfc40",
   "stepsHashed": "8e572cb51b90a7a61637427f6fcc8982db5d9315aef60a6689c2955a364ee8fc05e0210a96f69e5e324bfe8559be5ad6"
 }

@@ -7,16 +7,6 @@
   "precondition": "Setup (Will be updated heavily once It's production ready on AWS)",
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 1244767,
-    "name": "Service Now",
-    "parentId": 1214365,
-    "fullNames": ["Apps Framework", "Service Now"],
-    "fullPath": "apps-framework/service-now"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,6 +22,11 @@
     "Tags": ["Never tested"],
     "Location": "Integrations"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Service Now",
+  "folderFullPath": "apps-framework/service-now",
   "steps": [
     {
       "inline": {
@@ -73,6 +68,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "beef38116cb14dcddc17afe68562429d4a9f856a4f85733b0fd27627eda4231dc8de5d23394316de5a32443b2eba32bf",
+  "caseHashed": "e87411baf076e0d813149b6982f9fd48431e8a80d1236148d9fb1315f3d029620a2aeb44bd0c9b1285af43dcd7170fec",
   "stepsHashed": "57a0a5fd2375517120294444db45a4d21a4a98e735f95d0b829e0df0e80807f40b73e462a97ee3797926bfd749e16971"
 }

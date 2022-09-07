@@ -12,19 +12,9 @@
     "playwright",
     "fix-versions-not-empty-2022cleanup"
   ],
-  "component": null,
-  "priority": { "id": 401951, "name": "Low" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 565208,
-    "name": "Deep Linking",
-    "parentId": 565201,
-    "fullNames": ["Desktop App (native-specific)", "Deep Linking"],
-    "fullPath": "desktop-app--native-specific-/deep-linking"
-  },
   "customFields": {
     "Authors": "",
-    "Playwright": "In Production",
+    "Playwright": "in Production",
     "Priority P1 to P4": null,
     "Update notes": "Linda 29 Jul 2022: Updated title to reflect what this test is testing (had just said Join Developers channel)",
     "Rainforest": ["in Production — Desktop"],
@@ -37,6 +27,11 @@
     "Tags": ["Smoke test"],
     "Location": "Smoke Test"
   },
+  "componentName": null,
+  "priorityName": "Low",
+  "statusName": "Active",
+  "folderName": "Deep Linking",
+  "folderFullPath": "desktop-app--native-specific-/deep-linking",
   "steps": [
     {
       "inline": {
@@ -52,6 +47,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "f201b5700c99d2b68fac7cd4f4073567b7489a95a5f3f973d81128bafb3b2dfc65ca3a50085f35e8f689838ab41b22ba",
+  "caseHashed": "b831d71d327b1407041c50b006d190cb08ae6751c8ca0c83e6119dec60345496f6dceeb39348aaebf24e964dd0fdc781",
   "stepsHashed": "545b7f409df2ce792aad5dc7c799658ca39d48e4445759f2304db1981db5a8179f749774c592bd27551248194630f470"
 }

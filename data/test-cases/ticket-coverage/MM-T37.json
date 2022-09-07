@@ -1,22 +1,12 @@
 {
   "id": 2765097,
   "key": "MM-T37",
-  "name": "MM-17360 — Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
+  "name": "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
   "createdOn": "2019-08-28T17:41:42Z",
   "objective": null,
   "precondition": null,
   "estimatedTime": null,
   "labels": [],
-  "component": null,
-  "priority": { "id": 401950, "name": "Normal" },
-  "status": { "id": 401946, "name": "Draft" },
-  "folder": {
-    "id": 399678,
-    "name": "Ticket coverage",
-    "parentId": null,
-    "fullNames": ["Ticket coverage"],
-    "fullPath": "ticket-coverage"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -32,13 +22,17 @@
     "Tags": [],
     "Location": "Ticket coverage"
   },
+  "componentName": null,
+  "priorityName": "Normal",
+  "statusName": "Draft",
+  "folderName": "Ticket coverage",
+  "folderFullPath": "ticket-coverage",
   "steps": [
-    { "inline": null, "testCase": { "testCaseKey": "MM-T38" } },
     {
       "inline": {
         "description": "<ol><li>Draft a post in any channel and click on \"preview\"</li><li>Switch to another channel</li></ol>",
         "testData": null,
-        "expectedResult": "<ul><li>Able to focus cursor in the text input box and post</li></ul><br><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17360\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17360</a>",
+        "expectedResult": "<ul><li>Able to focus cursor in the text input box and post</li></ul><br /><strong>Related bug</strong>: <a href=\"https://mattermost.atlassian.net/browse/MM-17360\" rel=\"noopener noreferrer\" target=\"_blank\">MM-17360</a>",
         "customFields": {
           "Fix Versions": [],
           "Related ticket(s)": "",
@@ -48,6 +42,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "39c5c8784a65b1f4b080f080030a14cfc18a9b61ad281a0925a7c04be6bfeafd8cc20dd04f11aafb7fd9763240f225af",
-  "stepsHashed": "3fe87f5aaf011ba02a7cddb27e38250f5f26ecbb8c09d660119cb4db6755aa7170adedd2274d46fbd98e66d8e799f50a"
+  "caseHashed": "7f91e0566c47fcf3b3ec06299e6e90ebbdd1e17fecc8779ad81e34313a1c30df80063e870a0aae821526825eed95a252",
+  "stepsHashed": "177180449c6c2f09fcebcd150958a290158013fa4f22b226b0088257743c094430eb695e4c966c584e41a5fd859cd077"
 }

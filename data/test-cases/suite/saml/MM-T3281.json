@@ -11,16 +11,6 @@
     "fix-versions-not-empty-2022cleanup",
     "cy-rep-missing-or-skipped"
   ],
-  "component": { "id": 14314, "name": "System Console" },
-  "priority": { "id": 1251319, "name": "Smoke test" },
-  "status": { "id": 890281, "name": "Active" },
-  "folder": {
-    "id": 404332,
-    "name": "SAML",
-    "parentId": 2954447,
-    "fullNames": ["Suite", "SAML"],
-    "fullPath": "suite/saml"
-  },
   "customFields": {
     "Playwright": null,
     "Authors": "",
@@ -36,6 +26,11 @@
     "Tags": ["Never tested"],
     "Location": "SAML"
   },
+  "componentName": "System Console",
+  "priorityName": "Smoke test",
+  "statusName": "Active",
+  "folderName": "SAML",
+  "folderFullPath": "suite/saml",
   "steps": [
     {
       "inline": {
@@ -51,6 +46,6 @@
       "testCase": null
     }
   ],
-  "caseHashed": "4ff7533ab24f0e7df76d792539b5fd44b8d174309ba8eae00603590a38555c7a521410f005a75d3661abdf6d00f221ad",
+  "caseHashed": "a062455b788c216e3fe500220fb1c8e07f686fac276c4daf0abbf63f1bbbebcfe7f3be193b05ff9c1a2be9ad28a6e70c",
   "stepsHashed": "d0f140f85e873383205c48342d2ddb8bb57d8f4c7c36c3bb92713929177ef4d48cb5d3377d0ef46b109f0bead25b49a2"
 }
