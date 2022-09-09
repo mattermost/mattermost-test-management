@@ -1,8 +1,39 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Add User — Public OFF / Private ON"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Add user from popover
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+tags: []
+labels: 
+- cy-prod
+
+# Do not change
+id: 2746253
+key: MM-T4
+folder_path: channels/add-user-from-popover
+created_on: "2019-08-26T23:03:54Z"
+last_updated: "2022-09-09T21:27:28Z"
+case_hashed: f902820ae25171201f01fd93c2a8cddc2c5973062fed9fe38d2dca242daff2a40a796f3b82416f363f3e85df881ed3f1
+steps_hashed: 014043f35e890fbe8b858e6dc03b7cc756f98971785556b01149b56572e2fd8d2bcf35a4fe1d8715d3e320b5aca1df02
 ---
 
 ## MM-T4: Add User — Public OFF / Private ON
@@ -10,8 +41,6 @@ team_ownership: "Channels"
 **Objective**
 
 **Original test name from testing spreadsheet →** If the user has only manage channel member permissions for private channels, then show the option in the profile pop-over and only show private channels in the channel dropdown.
-
-**Precondition**
 
 ---
 
@@ -24,19 +53,16 @@ Step I:
 3. Click on System Console
 4. Navigate to User Management → Permissions → Edit Scheme
 
-\
 Step II:
 
 1. **UnCheck** "Manage Public Channels" and **check** "Manage Private Channels" in the All Members section at the top.
 
-\
-Step III:
+Step III:\\
 
 1. Login as a non-admin **Member** to the same server
 2. Click the name of any user in a public or private channel
 
-\
-Step IV:
+Step IV:\\
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name
@@ -58,17 +84,14 @@ After Step I:
 
 - System Scheme settings appear
 
-\
 After Step II:
 
-- "Manage Public Channels" are **un****checked/disabled **while "Manage Private Channels" boxes and all sub-settings under them are **checked/enabled**.
+- "Manage Public Channels" are \*\*un\*\*\*\*checked/disabled \*\*while "Manage Private Channels" boxes and all sub-settings under them are **checked/enabled**.
 
-\
 After Step III:
 
 - You should see the option to add a user to a channel in the profile pop-up
 
-\
 After Step IV:
 
 - Public channels will not appear in the autocomplete but Private channels (that you are a member of) will appear.

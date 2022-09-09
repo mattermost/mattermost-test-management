@@ -1,8 +1,40 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Text in bullet points is the same size as text above and below it"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# Do not change
+id: 3741718
+key: MM-T87
+folder_path: channels/messaging
+created_on: "2019-12-20T16:32:58Z"
+last_updated: ""
+case_hashed: 0935996b034e6997796def1be7da372700305e405f650a1ba58746d6fc51691807e551fa825ab031b19414cca73164db
+steps_hashed: ff2bf353943b4390e3f26a6770c39b672fe9153757ea432955777b024908fa6afc462e04d7b98dc5f2779b7c7e658bb8
 ---
 
 ## MM-T87: Text in bullet points is the same size as text above and below it

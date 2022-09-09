@@ -1,15 +1,48 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Replying to an older bot post that has no post content and no attachment pretext"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# Do not change
+id: 3741724
+key: MM-T93
+folder_path: channels/messaging
+created_on: "2019-12-20T16:32:59Z"
+last_updated: "2022-09-09T21:27:28Z"
+case_hashed: 9a297adcd47d218d4510db0ad2de1b7f6710c90c1c67a9102a9616ddd2e70122116e37b374c5e9aedfe79691402b2a12
+steps_hashed: b445e56d721c8a7b53fafb76137699e48d57da6dfc68a54f0d0ca17f671a317c5d61ba34ed47a7cfcad1e3115ecd2485
 ---
 
 ## MM-T93: Replying to an older bot post that has no post content and no attachment pretext
 
 **Precondition**
 
-**Test on **[**community-release.mattermost.com**](https://community-release.mattermost.com/)
+\*\*Test on \*\*[**community-release.mattermost.com**](https://community-release.mattermost.com/)
 
 ---
 

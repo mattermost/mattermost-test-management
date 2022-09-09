@@ -1,8 +1,39 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Add User — Any user (can add users)"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Add user from popover
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Add user to channel from popover
+tags: []
+labels: 
+- cy-prod
+
+# Do not change
+id: 2746258
+key: MM-T9
+folder_path: channels/add-user-from-popover
+created_on: "2019-08-26T23:03:55Z"
+last_updated: "2022-09-09T21:27:30Z"
+case_hashed: 44eaa8e9fab1f8346cde37350273dbf1e0dd041757a070fe7f72810c977fa4e4bcfba911af3d0085956165bbccdfb3bb
+steps_hashed: 07fd3b2606c8566cc3d382127c0f21337c22c25636c7d3bd66f54f74bd93f16b1b1894b6c3a3f01148a3db1cd0317482
 ---
 
 ## MM-T9: Add User — Any user (can add users)
@@ -12,9 +43,7 @@ team_ownership: "Channels"
 Only the users who have permissions to manage channel members should see the option to add a user to a channel on the profile pop-up.\
 \
 \
-**Original test name from testing spreadsheet → **Only the users who have permissions to manage channel members will be able to see this option.
-
-**Precondition**
+\*\*Original test name from testing spreadsheet → \*\*Only the users who have permissions to manage channel members will be able to see this option.
 
 ---
 
@@ -35,8 +64,6 @@ Only the users who have permissions to manage channel members should see the opt
 5. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 
    1. Click Add
-
-**Test Data**
 
 **Expected**
 

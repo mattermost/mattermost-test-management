@@ -1,8 +1,36 @@
 ---
+# (Required) Ensure all values are filled up
 name: "MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel"
 status: Draft
 priority: Normal
-team_ownership: "QA Platform"
+folder: Ticket coverage
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# (Optional)
+component: null
+priority_p1_to_p4: null
+location: Ticket coverage
+tags: []
+labels: []
+
+# Do not change
+id: 2759609
+key: MM-T28
+folder_path: ticket-coverage
+created_on: "2019-08-28T02:12:57Z"
+last_updated: ""
+case_hashed: e2b935f68b015d3c745845fdb82c45691d8f286cb7aea9ca81de853f0d3e7090652e2eb034aac7415e058d4e969d69a8
+steps_hashed: 7d30b5e79bb2da5a1bf093d11662e97b144b613c930c005a81a376dee21b6ee18dfad01801dd4d3c4ad908a2f4b3e1d3
 ---
 
 ## MM-T28: MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel
@@ -24,5 +52,4 @@ team_ownership: "QA Platform"
 
 - Date indicator not cut off
 
-\
 **Related bug**: [MM-17354](https://mattermost.atlassian.net/browse/MM-17354)

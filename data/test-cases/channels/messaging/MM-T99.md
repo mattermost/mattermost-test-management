@@ -1,8 +1,41 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Edit post that has attachment, paste text in middle"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- Evaluating
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+tags: []
+labels: 
+- No-Automated-Executions
+- messaging
+- cy-rep-missing-or-skipped
+
+# Do not change
+id: 3741730
+key: MM-T99
+folder_path: channels/messaging
+created_on: "2019-12-20T16:33:00Z"
+last_updated: ""
+case_hashed: 8f20627d4542f972918d44e3cddf7bef3ef37e4ebfed2903b1e660c11999d8be3f76ac58882a1215ada564b8ce2e69d3
+steps_hashed: 8a80e4b4812904b333ca344665582d2faf25e329ef3349b6b5a5b27cf22177692f35d23fc67cb3e5769f430ad2e23490
 ---
 
 ## MM-T99: Edit post that has attachment, paste text in middle

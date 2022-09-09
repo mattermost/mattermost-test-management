@@ -1,8 +1,38 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover"
 status: Active
 priority: Low
-team_ownership: "QA Platform"
+folder: Ticket coverage
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: null
+location: Ticket coverage
+tags: []
+labels: 
+- se-prod
+
+# Do not change
+id: 2756570
+key: MM-T14
+folder_path: ticket-coverage
+created_on: "2019-08-27T12:51:14Z"
+last_updated: ""
+case_hashed: 7af9c2242de1e362214ebb1be7bebde3c7d66f3e854d2346d29256d09e80a51fbb4ef9546d3ff3962b29d9df7bd8dc09
+steps_hashed: d2753c07785adb15130c34eb749974951e8c3388b6a6c12b8f205082b5a95fc4fb7f9b79d67dbaefc1a16be096d3054d
 ---
 
 ## MM-T14: Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover
@@ -13,6 +43,10 @@ team_ownership: "QA Platform"
 
 1. Navigate to ☰ menu → Account Settings → Profile Picture
 2. If there is no picture selected, add one and hit Save. Then re-open the section.
+
+_Related ticket(s):_
+
+[Tooltip for Remove profile picture/remove team icon appears when opening the edit section — MM-17581](https://mattermost.atlassian.net/browse/MM-17581)
 
 **Test Data**
 

@@ -1,17 +1,46 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Add User — Channel admins (Public only)"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Add user from popover
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+tags: []
+labels: 
+- cy-prod
+
+# Do not change
+id: 2746255
+key: MM-T6
+folder_path: channels/add-user-from-popover
+created_on: "2019-08-26T23:03:55Z"
+last_updated: "2022-09-09T21:27:31Z"
+case_hashed: 893d576e2af53cc5d5f8183bf5cae045732fb8fe42ec1c9449489bd010f7a9d2acc554c3cf0853cfa78ae0c259f031d4
+steps_hashed: c5bb02fffa95a3d03ccdac0dff4c13c0c022072d6a81a2d4d69b979463de6b0d8299d95a13710f226fd27042afb25224
 ---
 
 ## MM-T6: Add User — Channel admins (Public only)
 
 **Objective**
 
-**Original test name from testing spreadsheet → **If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, the Channel Admin will have permission to add members to **public channels** on the current team
-
-**Precondition**
+\*\*Original test name from testing spreadsheet → \*\*If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, the Channel Admin will have permission to add members to **public channels** on the current team
 
 ---
 
@@ -24,33 +53,32 @@ Step I:
 3. Click System Console
 4. Navigate to User Management → Permissions → Edit Scheme
 
-\
 Step II:
 
 1. **Uncheck** "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top
 
-\
 Step III:
 
 1. **Check** "Manage Public Channels" and **Uncheck** "Manage Private Channels" in the Channel Admins section part way down the page
 
-\
 Step IV:
 
 1. Log in as a [**Channel Admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin)
 2. Click the name of any user in a public or private channel
 
-\
-Step V:
+Step V:\\
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name
 
-\
-Step VI:
+Step VI:\\
 
 1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 2. Click Add
+
+_Related ticket(s):_
+
+(Cannot reproduce) [Channel admin able to see Private channels when adding member via popover (even though permission is disabled) — MM-25914](https://mattermost.atlassian.net/browse/MM-25914)
 
 **Test Data**
 
@@ -73,28 +101,23 @@ After step I
 
 - System Scheme settings appear
 
-\
 After step II
 
 - "Manage Public Channels" and "Manage Private Channels" boxes and all sub-settings under them are **unchecked/disabled**
 
-\
 After step III:
 
 - "Manage Public Channels" are **checked/enabled** and "Manage Private Channels" boxes and all sub-settings under them are **unchecked/disabled**
 
-\
 After step IV:
 
 - You **should** see the option to add a user to a channel in the profile pop-up
 
-\
-After step V:
+After step V:\\
 
-- The list should filter to show only **Public** channels on the **current team **to match what you have typed
+- The list should filter to show only **Public** channels on the \*\*current team \*\*to match what you have typed
 
-\
-After step VI:
+After step VI:\\
 
 - The user is added to the channel
 - You are returned to your previous state

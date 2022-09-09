@@ -1,8 +1,43 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Disable Plugin on Removal"
 status: Active
 priority: Low
-team_ownership: "Integration Frameworks"
+folder: Plugins
+authors: ""
+team_ownership: 
+- Integration Frameworks
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Plugins
+tags: 
+- Cloud N/A
+labels: 
+- E2E-1
+- Cloud-N/A
+- TM4J-Key-Mapped-In-Cypress-Release
+- plugins
+- cy-prod
+
+# Do not change
+id: 2774322
+key: MM-T39
+folder_path: plugins
+created_on: "2019-08-30T01:25:31Z"
+last_updated: "2022-09-09T19:36:48Z"
+case_hashed: dbd8061eb7bf874b3b90fd565fb931db2c1fc36178ca39ba3a360609b2b244d8e64a4042ee8ced1b64d9711bbcb4369f
+steps_hashed: 5bc530c14f55675870add9530e7f08b5f1842e250b45e7e7f6ab231dcea70e328f4e53187b9e357ef35a3b93141cf999
 ---
 
 ## MM-T39: Disable Plugin on Removal

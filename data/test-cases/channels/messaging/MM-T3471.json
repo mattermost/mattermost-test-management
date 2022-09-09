@@ -1,47 +1,5 @@
 {
-  "id": 7774699,
-  "key": "MM-T3471",
-  "name": "Clicking/tapping channel URL link joins public channel",
-  "createdOn": "2020-11-06T11:15:44Z",
-  "objective": null,
-  "precondition": null,
-  "estimatedTime": null,
-  "labels": ["cy-prod", "messaging", "fix-versions-not-empty-2022cleanup"],
-  "customFields": {
-    "Playwright": null,
-    "Authors": "",
-    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
-    "Update notes": "",
-    "Rainforest": [],
-    "Team Ownership": ["Channels"],
-    "Manual Test Environments": [],
-    "Detox": "Update",
-    "Cypress": "in Production",
-    "MMCTL": null,
-    "Last Updated": "",
-    "Tags": [],
-    "Location": "Messaging"
-  },
-  "componentName": null,
-  "priorityName": "Normal",
-  "statusName": "Active",
-  "folderName": "Messaging",
-  "folderFullPath": "channels/messaging",
-  "steps": [
-    {
-      "inline": {
-        "description": "1. Create a new public channel where other user is not member of.<br>2. Go to town-square channel and post a link of the new public channel (ex. “http://localhost:8065/team-name/channels/channel-name”)<br>3. Logout and login as the other user.<br>4. With other user, go to town-square and click (or tap on RN) on channel link",
-        "testData": null,
-        "expectedResult": "1. Other user is successfully joined the new public channel and is redirected to the said channel.",
-        "customFields": {
-          "Fix Versions": ["v1.36 Mobile (October 2020)"],
-          "Related ticket(s)": "",
-          "Important notes about this step": ""
-        }
-      },
-      "testCase": null
-    }
-  ],
-  "caseHashed": "14cce39c06375b569f4d06def284c848f077c45bc1146888e82987626985193bc88cf7bed75fe80f37a0ca98eed54dfa",
-  "stepsHashed": "53683fa047cdf67ace9f00dadfb8f4b13d0e409f14db7053454bbfb05e292c31f58d4602839313f78ca38c72594ca0e8"
+  "stepsCustomFields": [
+    { "fixVersions": ["v1.36 Mobile (October 2020)"], "relatedTickets": "", "notes": "" }
+  ]
 }

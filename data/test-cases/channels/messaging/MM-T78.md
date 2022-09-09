@@ -1,11 +1,41 @@
 ---
-name: "RN apps: "commented on" line is NOT shown on the post below the "new messages" line if it is from the same author as the post above the "new messages" line"
+# (Required) Ensure all values are filled up
+name: "RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the same author as the post above the 'new messages' line"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: N/A
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: 
+- Mobile
+manual_test_environments: []
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+tags: []
+labels: 
+- messaging
+
+# Do not change
+id: 3736154
+key: MM-T78
+folder_path: channels/messaging
+created_on: "2019-12-19T15:28:55Z"
+last_updated: "2022-09-09T17:57:14Z"
+case_hashed: 2e78d45e083e878d9fec339ef5196d27e3c240ca4add35424e79392b5e83e49c00fbe85b8d3a843d8983c8fc1c73c3a0
+steps_hashed: fd4b71f4515f7892e3ca4cef8a424fc680f533251b4fcc06297cbf84283bea34e09fe0672977673b93fca9cc47aa48f1
 ---
 
-## MM-T78: RN apps: "commented on" line is NOT shown on the post below the "new messages" line if it is from the same author as the post above the "new messages" line
+## MM-T78: RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the same author as the post above the 'new messages' line
 
 ---
 

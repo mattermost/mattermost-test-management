@@ -1,8 +1,42 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Mobile classic apps: Smoke Tests"
 status: Active
 priority: Smoke test
-team_ownership: "QA Platform"
+folder: Mobile App (native-specific)
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional) Test type and tools
+cypress: N/A
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Mobile
+
+# (Optional)
+component: null
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Smoke Test
+tags: 
+- Smoke test
+labels: 
+- RN_Smoke_Tests
+- smoke-test-folder
+- fix-versions-not-empty-2022cleanup
+
+# Do not change
+id: 2814840
+key: MM-T43
+folder_path: mobile-app--native-specific-
+created_on: "2019-09-04T21:03:12Z"
+last_updated: "2022-09-09T21:27:22Z"
+case_hashed: be977c8f08cb10f90ae547a216aee05f1f66124c14665a9c01a8cd02328778700858bd1a0d779dddad9a588480742db0
+steps_hashed: dafee2623ca055613aa0c840b8fe7e9deca72c509dec6589c6c6db8fe631193e29660c8d6f7631bc32d59fa633292dbd
 ---
 
 ## MM-T43: Mobile classic apps: Smoke Tests
@@ -23,6 +57,10 @@ The last versions released listed below.
 1. Enter a server URL and leave a space in what you type in (e.g., https\://community .mattermost.com)
 2. Tap 'Next'
 
+_Related ticket(s):_
+
+[iOS Classic app crashes if there is a space in server url — MM-8968](https://mattermost.atlassian.net/browse/MM-8968)
+
 **Expected**
 
 - App should not crash
@@ -31,14 +69,17 @@ The last versions released listed below.
 
 **Step 2**
 
-1. Enter a server URL\
+1. Enter a server URL
+   \
    (e.g., https\://postgres.test.mattermost.com/)
-2. Tap Next\
+2. Tap Next
+   \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
 
 **Expected**
 
-- Connected to server\
+- Connected to server
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
 
 ---
@@ -70,7 +111,8 @@ Post accepted and added to messages just above text field\
 **Step 5**
 
 1. Tap the … ellipsis menu icon on the message you just posted
-2. Tap Edit in the modal window that appears\
+2. Tap Edit in the modal window that appears
+   \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
 
 **Expected**
@@ -102,7 +144,8 @@ Tap Cancel
 
 - Returned to channel
 - Changes accepted and displayed
-- Greyed out "(edited)" text below message\
+- Greyed out "(edited)" text below message
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
 
 ---
@@ -157,6 +200,10 @@ Tap < (back) button in top left corner
 **Step 11**
 
 1. Tap 📎 attach icon
+
+_Related ticket(s):_
+
+(Won't Fix) [iOS Classic: Tapping paperclip icon does little or nothing — MM-20174](https://mattermost.atlassian.net/browse/MM-20174)
 
 **Test Data**
 
@@ -217,14 +264,16 @@ Android\
 
 **Step 14**
 
-1. Verify image uploaded completely\
+1. Verify image uploaded completely
+   \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
 2. Add text if desired
-3. Tap send icon 
+3. Tap send icon
 
 **Expected**
 
-- Image posted\
+- Image posted
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
 
 ---
@@ -232,7 +281,8 @@ Android\
 **Step 15**
 
 1. Tap the … ellipsis menu icon on a message
-2. Tap the Delete button in the modal window that appears\
+2. Tap the Delete button in the modal window that appears
+   \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
 
 **Expected**
@@ -345,7 +395,7 @@ Calendar appears
 **Step 23**
 
 1. Use arrows to navigate months
-2. Select date by tapping on it 
+2. Select date by tapping on it
 
 **Expected**
 
@@ -415,7 +465,8 @@ Edit Header screen appears
 **Step 28**
 
 1. Type text in field
-2. Include a properly formatted link\
+2. Include a properly formatted link
+   \
    \[Link example]\(https\://mattermost.com)
 3. Tap Save in lower right corner
 
@@ -439,6 +490,11 @@ Able to see header text and link you added/edited
 **Step 30**
 
 Tap the link you placed in the header
+
+_Related ticket(s):_
+
+- (Won't Fix) [Classic iOS app: Tapping links does nothing — MM-18314](https://mattermost.atlassian.net/browse/MM-18314)
+- (Won't Fix) [iOS Classic: Tapping link in header loads webpage in app without any way to return to channel — MM-20208](https://mattermost.atlassian.net/browse/MM-20208)
 
 **Expected**
 
@@ -492,6 +548,10 @@ Tap Close
 1. Navigate to different channel
 2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
 
+_Related ticket(s):_
+
+(Won't Fix) [iOS Classic: Permalink mechanism fails to copy link — MM-20229](https://mattermost.atlassian.net/browse/MM-20229)
+
 **Expected**
 
 Posted
@@ -511,12 +571,14 @@ Brought to channel with post highlighted
 **Step 36**
 
 1. Tap ☰ menu icon in top **right**
-2. Tap Leave Team\
+2. Tap Leave Team
+   \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
 
 **Expected**
 
-- Confirmation screen opens\
+- Confirmation screen opens
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
 
 ---
@@ -548,12 +610,14 @@ Brought to channel with post highlighted
 **Step 39**
 
 - Tap ☰ menu in top **right**
-- Tap Create a New Team\
+- Tap Create a New Team
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
 
 **Expected**
 
-- Create new team page appears\
+- Create new team page appears
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
 
 ---
@@ -565,7 +629,8 @@ Brought to channel with post highlighted
 
 **Expected**
 
-- Team URL page appears\
+- Team URL page appears
+  \
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
 
 ---
@@ -606,7 +671,7 @@ Brought to channel
 
 **Step 44**
 
-1. Tap ☰ menu in top **left **again
+1. Tap ☰ menu in top \*\*left \*\*again
 2. Tap Team icon on far left
 
 **Expected**
@@ -617,7 +682,7 @@ Brought to channel
 
 **Step 45**
 
-1. Tap ☰ menu in top **left **again
+1. Tap ☰ menu in top \*\*left \*\*again
 2. Tap + next to Direct Messages in menu
 
 **Expected**
@@ -659,7 +724,7 @@ Start typing name in text field
 
 **Step 49**
 
-1. Tap ☰ menu  in top **left **again
+1. Tap ☰ menu  in top \*\*left \*\*again
 2. Tap + next to Direct Messages in menu
 3. Add more than one name to text field
 4. Tap Go button

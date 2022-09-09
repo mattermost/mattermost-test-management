@@ -1,11 +1,41 @@
 ---
-name: "RN apps: "commented on" line is NOT shown on the post below the "new messages" line if it is from the different authors but part of the same thread/conversation"
+# (Required) Ensure all values are filled up
+name: "RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the different authors but part of the same thread/conversation"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: N/A
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: 
+- Mobile
+manual_test_environments: []
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+tags: []
+labels: 
+- messaging
+
+# Do not change
+id: 3736155
+key: MM-T79
+folder_path: channels/messaging
+created_on: "2019-12-19T15:28:56Z"
+last_updated: "2022-09-09T17:57:15Z"
+case_hashed: 308ed89b36f7d0347aa9609a8ee416b9a00493f56a16bd3c3023bba46c2cce9d6c0e95191cbd1b44202ac0400de6d4d2
+steps_hashed: d5810e9df5139f29f1339c64496132ae6b6e2c465717a29afc8505d14c748445796c0e81f1ce3016e975c7e37e370dc5
 ---
 
-## MM-T79: RN apps: "commented on" line is NOT shown on the post below the "new messages" line if it is from the different authors but part of the same thread/conversation
+## MM-T79: RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the different authors but part of the same thread/conversation
 
 ---
 

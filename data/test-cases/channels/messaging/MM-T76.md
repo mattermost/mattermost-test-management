@@ -1,8 +1,40 @@
 ---
+# (Required) Ensure all values are filled up
 name: "RN apps: iOS ONLY - If the keyboard is open, tapping outside the message input box should execute actions on other elements"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: N/A
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: 
+- Mobile
+manual_test_environments: []
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+tags: 
+- Never tested
+labels: 
+- ios-only
+- messaging
+
+# Do not change
+id: 3736152
+key: MM-T76
+folder_path: channels/messaging
+created_on: "2019-12-19T15:28:55Z"
+last_updated: ""
+case_hashed: 1d3f57532fc8728c743129359d72bc9c3891a00b5fff6563338d43634634284fc96ddbcf093685ec3374c99942ea6a16
+steps_hashed: b182df72c0cb0a767fb767a5c84565c0a7e6562c662da2c3239e6835f8bfa2e0fd206276b7d3d62541afd3d01766582e
 ---
 
 ## MM-T76: RN apps: iOS ONLY - If the keyboard is open, tapping outside the message input box should execute actions on other elements

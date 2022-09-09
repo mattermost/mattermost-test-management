@@ -1,11 +1,39 @@
 ---
-name: "MM-16511 — "Someone is typing""
+# (Required) Ensure all values are filled up
+name: "MM-16511 — 'Someone is typing'"
 status: Draft
 priority: Normal
-team_ownership: "QA Platform"
+folder: Ticket coverage
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# (Optional)
+component: null
+priority_p1_to_p4: null
+location: Ticket coverage
+tags: []
+labels: []
+
+# Do not change
+id: 2758684
+key: MM-T22
+folder_path: ticket-coverage
+created_on: "2019-08-27T20:49:05Z"
+last_updated: "2022-09-09T17:57:25Z"
+case_hashed: 438b255ef725c351dbdfa72e35ceb5b483bbc374b39db74bbce6f295d8a29d01a82f47014b9ef44e65da5408229daa0b
+steps_hashed: 737ae08762fbc430e4888e58d23d55428ca9cc8b4115a14faf3dad95d24a37b8eaebf50a85c0782c70aae1a3bdddcf4c
 ---
 
-## MM-T22: MM-16511 — "Someone is typing"
+## MM-T22: MM-16511 — 'Someone is typing'
 
 ---
 
@@ -21,5 +49,4 @@ team_ownership: "QA Platform"
 
 - "Someone is typing" may still appear briefly, but the user's name should be loaded shortly after (replacing "Someone")
 
-\
 **Related bug**: [MM-16511](https://mattermost.atlassian.net/browse/MM-16511)

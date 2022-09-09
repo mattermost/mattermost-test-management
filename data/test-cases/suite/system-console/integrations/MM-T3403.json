@@ -1,47 +1,5 @@
 {
-  "id": 7405452,
-  "key": "MM-T3403",
-  "name": "Enable GIF Picker set to true by default",
-  "createdOn": "2020-10-12T14:35:51Z",
-  "objective": null,
-  "precondition": null,
-  "estimatedTime": null,
-  "labels": ["system-console", "fix-versions-not-empty-2022cleanup"],
-  "customFields": {
-    "Playwright": null,
-    "Authors": "",
-    "Priority P1 to P4": "P4 - Low-Impact (Edge or unsuitable to repeat?)",
-    "Update notes": "",
-    "Rainforest": [],
-    "Team Ownership": ["Integration Frameworks"],
-    "Manual Test Environments": ["Webapp"],
-    "Detox": null,
-    "Cypress": null,
-    "MMCTL": null,
-    "Last Updated": "",
-    "Tags": ["Never tested"],
-    "Location": "System Console"
-  },
-  "componentName": null,
-  "priorityName": "Normal",
-  "statusName": "Active",
-  "folderName": "Integrations",
-  "folderFullPath": "suite/system-console/integrations",
-  "steps": [
-    {
-      "inline": {
-        "description": "Enable GIF Picker set to true by default<br>__________________________________<ol><li>As sysadmin - open System Console &gt; Integrations GIF(Beta)</li></ol>",
-        "testData": null,
-        "expectedResult": "Verify Enable GIF Picker is set to <strong>true</strong> by default",
-        "customFields": {
-          "Fix Versions": ["v5.28 (October 2020)"],
-          "Related ticket(s)": "",
-          "Important notes about this step": ""
-        }
-      },
-      "testCase": null
-    }
-  ],
-  "caseHashed": "34631f9586ab1f59894df15edf97b11ef1189c69fdc449278684c71f2bac3a79bd6b4309b96d213b8a6fa7e40e50d5e8",
-  "stepsHashed": "1df70174a46ca9a40b4edcb7dd90be8be242145a9d3cf9748e4d75d907922f8fbe7190e455e74936c508c92677c013fd"
+  "stepsCustomFields": [
+    { "fixVersions": ["v5.28 (October 2020)"], "relatedTickets": "", "notes": "" }
+  ]
 }

@@ -1,8 +1,40 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Trying to type in middle of text should not send the cursor to end of textbox"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# Do not change
+id: 3741727
+key: MM-T96
+folder_path: channels/messaging
+created_on: "2019-12-20T16:33:00Z"
+last_updated: ""
+case_hashed: 61692c20f4ddd2593eeb7558205e2ac4cb073120fce9613fd34794b4ef4251566cd32a24d516abf83f8669530ff3acfc
+steps_hashed: e43fd31139c6704b58230489d6ccfccd8b60e8e3c42b15f41790e4467360ca89bd7fe9af30b5dcadb330ae0953cc56bd
 ---
 
 ## MM-T96: Trying to type in middle of text should not send the cursor to end of textbox

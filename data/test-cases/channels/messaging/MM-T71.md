@@ -1,8 +1,42 @@
 ---
+# (Required) Ensure all values are filled up
 name: "Autocomplete highlight should follow mouse hover"
 status: Active
 priority: Low
-team_ownership: "Channels"
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional) Test type and tools
+cypress: Ticket Open
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- Webapp
+- in Production
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# (Optional)
+component: null
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+tags: []
+labels: 
+- rf-cloud-webapp
+- messaging
+- fix-versions-not-empty-2022cleanup
+
+# Do not change
+id: 3736147
+key: MM-T71
+folder_path: channels/messaging
+created_on: "2019-12-19T15:28:54Z"
+last_updated: ""
+case_hashed: 268e7b1795273d663483d76a4446a86378f50fbd71fbe8db8b184dc417fa9bc4c09cf00a78b33544f4c22a21090b278f
+steps_hashed: ae0598f7f9c530e4c3e9c31259c3d78a48b71fa1151efe22a8f59fd43c8bfe360100a676cf8980f0143aed0d6c85c711
 ---
 
 ## MM-T71: Autocomplete highlight should follow mouse hover
@@ -14,8 +48,12 @@ team_ownership: "Channels"
 Autocomplete highlight should follow mouse hover\
 –––––––––––––––––––––––––
 
-1. In both the center channel and RHS message input boxes, type \`\~\` and then \`@\`
+1. In both the center channel and RHS message input boxes, type `\~` and then `@`
 2. Hover your mouse over the suggestions half-way down the list then use your up/down arrow to navigate
+
+_Related ticket(s):_
+
+[Improve autocomplete highlighting when using mouse and keyboard together — MM-11888](https://mattermost.atlassian.net/browse/MM-11888)
 
 **Expected**
 
@@ -26,7 +64,7 @@ Autocomplete highlight should follow mouse hover\
 
 **Step 2**
 
-3\. In the Search input box, type \`in:\` and then \`from:\`\
+3\. In the Search input box, type `in:` and then `from:`\
 \
 4\. Hover your mouse over the suggestions half-way down the list then use your up/down arrow to navigate
 
@@ -55,6 +93,10 @@ Autocomplete highlight should follow mouse hover\
 7\. Click on "More..." below Direct Messages and type a name you know exists\
 \
 8\. Hover your mouse over the suggestions half-way down the list then use your up/down arrow to navigate
+
+_Related ticket(s):_
+
+(Open) [Webapp: Direct Messages (More/+) dialog: selected-item doesn’t scroll into view when using arrow-nav. — MM-27530](https://mattermost.atlassian.net/browse/MM-27530)
 
 **Expected**
 

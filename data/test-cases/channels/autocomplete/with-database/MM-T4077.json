@@ -1,73 +1,11 @@
 {
-  "id": 10791157,
-  "key": "MM-T4077",
-  "name": "Users are auto-completed in message input box by first name",
-  "createdOn": "2021-05-19T00:58:43Z",
-  "objective": "",
-  "precondition": null,
-  "estimatedTime": null,
-  "labels": ["cy-prod"],
-  "customFields": {
-    "Playwright": null,
-    "Authors": "",
-    "Priority P1 to P4": "P2 - Core Functions (Do core functions work?)",
-    "Update notes": "",
-    "Rainforest": ["N/A"],
-    "Team Ownership": ["QA Platform"],
-    "Manual Test Environments": ["Automated - No manual tests needed"],
-    "Detox": null,
-    "Cypress": "in Production",
-    "MMCTL": null,
-    "Last Updated": "",
-    "Tags": [],
-    "Location": "Autocomplete"
-  },
-  "componentName": null,
-  "priorityName": "Low",
-  "statusName": "Active",
-  "folderName": "With Database",
-  "folderFullPath": "channels/autocomplete/with-database",
-  "steps": [
+  "stepsCustomFields": [
+    { "fixVersions": ["Open", "Help Wanted"], "relatedTickets": "", "notes": "" },
     {
-      "inline": {
-        "description": "Note: This test requires Elasticsearch and Bleve to be disabled.<br><br>Full first name returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@firstname\" of a user you want to mention</li></ol>",
-        "testData": null,
-        "expectedResult": "The user you're autocompleting should be returned",
-        "customFields": {
-          "Fix Versions": ["Open", "Help Wanted"],
-          "Related ticket(s)": "",
-          "Important notes about this step": ""
-        }
-      },
-      "testCase": null
+      "fixVersions": ["v5.33 (March 2021)", "Cloud (February 24)"],
+      "relatedTickets": "",
+      "notes": ""
     },
-    {
-      "inline": {
-        "description": "Unique but partial first name returns single user<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by unique but partial text of a first name you want to mention</li></ol>",
-        "testData": null,
-        "expectedResult": "The user you're autocompleting should be returned",
-        "customFields": {
-          "Fix Versions": ["v5.33 (March 2021)", "Cloud (February 24)"],
-          "Related ticket(s)": "",
-          "Important notes about this step": ""
-        }
-      },
-      "testCase": null
-    },
-    {
-      "inline": {
-        "description": "Partial first name returns all users that match<br>–––––––––––––––––––––––––<ol><li>In a message input box, type \"@\" followed by partial text of a first name you want to mention</li></ol>",
-        "testData": null,
-        "expectedResult": "Should show autocomplete for all users that matched",
-        "customFields": {
-          "Fix Versions": [],
-          "Related ticket(s)": "",
-          "Important notes about this step": ""
-        }
-      },
-      "testCase": null
-    }
-  ],
-  "caseHashed": "e91467ba679e366d5efd049387bf838774a6e77c2fd7b0fa292569bd26ebdba35f6a5a37e6bd1448d7ea4df77e7c09ee",
-  "stepsHashed": "a84985679e91e90b7e4553808b100cc06b05698f97c146d44694cdcae9fa4c9a6da1205dbd76405e21a763737897392c"
+    null
+  ]
 }
