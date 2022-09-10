@@ -3,6 +3,8 @@
 This project is created to increase the quality of Mattermost products by having highly effective, well-thought and well-maintained living test cases through high-collaboration and based on industry accepted best practices.
 
 ## Contributing
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management)
+
 Still in active development from [QA Core Team](https://github.com/orgs/mattermost/teams/qa-core-team) and not yet ready for community contribution. However, feel free to file an issue if you find anything that needs our attention. We will update this section and will announce in our channels once we are all set to accept contributions. Keep on watching!
 
 ## Project status and Roadmap
