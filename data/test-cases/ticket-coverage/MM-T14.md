@@ -32,7 +32,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-27T12:51:14Z"
 last_updated: ""
 case_hashed: 7af9c2242de1e362214ebb1be7bebde3c7d66f3e854d2346d29256d09e80a51fbb4ef9546d3ff3962b29d9df7bd8dc09
-steps_hashed: d2753c07785adb15130c34eb749974951e8c3388b6a6c12b8f205082b5a95fc4fb7f9b79d67dbaefc1a16be096d3054d
+steps_hashed: 6909160f43d4764aad26d59f0793e16882e5799a5745ad27b9f12737d60f27c38593e40019df64e90465ee1c7b38e7a1
 ---
 
 ## MM-T14: Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover

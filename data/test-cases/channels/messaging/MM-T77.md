@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
 case_hashed: 772adc24a3ab04a2b2145d860f8f3d9b1f89e9b7da3d7ee52511c44b8aebffb9ffbe40984dbec643a4ba2e720641bf2c
-steps_hashed: 962fa9103573e87cadba3fcd543432d030d3dc778423b1f701ea6ece0593db35252a92edd000827ba887e6bf0ef02451
+steps_hashed: d2c27c9e2f63dbb9c79a3aa241e37986f4aed3653b04a9f3d253713a0d0e05bf96c3dd8c0641a5b3f15c71140bb243a9
 ---
 
 ## MM-T77: Consecutive message does not repeat profile info (center and reply thread)
@@ -55,9 +55,9 @@ _Important notes about this step:_
 
 Compact view RHS consecutive posts being considered in UI redesign:
 
-- [](https://mattermost.atlassian.net/browse/MM-12946) <https://mattermost.atlassian.net/browse/MM-12946>
-- [](https://mattermost.atlassian.net/browse/MM-12915) <https://mattermost.atlassian.net/browse/MM-12915>
-- [](https://mattermost.atlassian.net/browse/MM-17293) <https://mattermost.atlassian.net/browse/MM-17293>
+- <https://mattermost.atlassian.net/browse/MM-12946>
+- <https://mattermost.atlassian.net/browse/MM-12915>
+- <https://mattermost.atlassian.net/browse/MM-17293>
 
 **Test Data**
 

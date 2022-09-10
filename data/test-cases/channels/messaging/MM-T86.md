@@ -33,7 +33,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:32:58Z"
 last_updated: ""
 case_hashed: 46dc7650b6a73269de8562c1414aa9bf10445bfdf7c7932721e56cb147063a0d91b77b9796a8181e2be40f021a07e798
-steps_hashed: 587d67a405024477af0eada56c202e994d5a254787028ad71bebe41d9968bd9121fbc3ebf3352e110697ab9441306c60
+steps_hashed: 669de96bd94a7aac634a9086827bb6b14cf13b08334d71e57c4688825ba692cd41f381f096451c512e2d8c0905e41b76
 ---
 
 ## MM-T86: Consecutive message permalink - timestamp link on consecutive message opens permalink view (non-mobile)

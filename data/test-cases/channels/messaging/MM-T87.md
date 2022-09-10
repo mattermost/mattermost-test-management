@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:32:58Z"
 last_updated: ""
 case_hashed: 0935996b034e6997796def1be7da372700305e405f650a1ba58746d6fc51691807e551fa825ab031b19414cca73164db
-steps_hashed: ff2bf353943b4390e3f26a6770c39b672fe9153757ea432955777b024908fa6afc462e04d7b98dc5f2779b7c7e658bb8
+steps_hashed: 13acf8b727ece6a6a915a0fced204fdf2316ca89865716e5771268fc38579eb91a9e23583bb8a48b63b096e2e05d6bee
 ---
 
 ## MM-T87: Text in bullet points is the same size as text above and below it
@@ -53,7 +53,7 @@ Text in bullet points is the same size as text above and below it\
 This is a normal sentence.\
 \<newline>(just make a new line - don't type this in)\
 1\. this is point 1\
- - this is a bullet under 1 with a space before the dash at the beginning\
+\- this is a bullet under 1 with a space before the dash at the beginning\
 \<newline>(just make a new line - don't type this in)\
 this is more normal text
 

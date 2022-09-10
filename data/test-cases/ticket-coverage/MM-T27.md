@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T02:06:28Z"
 last_updated: ""
 case_hashed: 3b0154a8b4cb3eeab590e12ff40105a327567ffa5640d54199e90900aba5d9240df26f1f5e0927cff7563d418d65e283
-steps_hashed: 55f60d3463c54f339025f44cec7c8bf0cd6e31abe6730f7a89b444cb3b5dec115244d0816ddc44c401410bc04f9eb667
+steps_hashed: 2790462f52ab07c97736e456695ac79d7a7c533fdd3f0c3065ff18ea803f4d68de1a1fe6a2537bf6bb3ba8876f5923a4
 ---
 
 ## MM-T27: MM-17460 — Remove focus trap

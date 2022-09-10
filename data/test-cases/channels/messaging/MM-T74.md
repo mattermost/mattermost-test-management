@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
 case_hashed: a66efba2ae017ae14f1b1508f3e05ab40eff730e7ba1a901aa07bee3371b0e06d26e8725f91f8adbdaa6997c9d1bd08e
-steps_hashed: e2c4e8b0d6fc50f248d2f1b451bdc2792fffcf714ea8fee6797e8a776994a2a4ca5660c5b302df0dce045f35e3ceb9a0
+steps_hashed: 1d5996966248379fa9d9a6fe20b75887dc775d27b2d7d0521bf94610652a4853fb97f953369741a12fc04090437211d7
 ---
 
 ## MM-T74: Mobile view: Post options menu (3-dots) is present on a reply post in RHS

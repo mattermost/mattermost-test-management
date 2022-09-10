@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T10:23:48Z"
 last_updated: "2022-09-09T20:39:13Z"
 case_hashed: 1a62c2de7a3e09c2a4c8be807af1f791b287ef68ef5d684dc9e740e91d4567ef78682189c4b3472136bd9e424ba413d4
-steps_hashed: b0d67ab4e0379839723501c682c69812454bf483baebc0b2411d5332cb6c32ccefc3c747a6f030acd079f6c1a2d6b3ee
+steps_hashed: 22902175a1fd54a623cda96b126a25bcf3686b30fa02156ff69dbcf7fc1da29f4632904d9b61128a97f86e60c691673c
 ---
 
 ## MM-T30: MM-17346 — Regression: Cursor appears as hand but clicking does nothing on link preview

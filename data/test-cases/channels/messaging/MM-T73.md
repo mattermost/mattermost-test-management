@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
 case_hashed: 74dd5e8f106d34b8d10c05ffc3ff93f974e7158672776c93ee701f1867f9b0d29e542a5c6ec823319ce8331d15bd1a13
-steps_hashed: 2372744cf1106002b5d412f715f6791f50962f0de180b46c08bdcac67ffc26ff041231499d5c576143d543faf6e9998b
+steps_hashed: d8b056eed3e0dcbef40fe2afcfdac63458504801f23080f9999734c0c885e603eccb67307a78104a8eb5252eb373abf9
 ---
 
 ## MM-T73: Mobile view: Clicking on airplane icon does not open file attachment modal but sends the message

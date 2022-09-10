@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T16:49:47Z"
 last_updated: ""
 case_hashed: 3473a2cab11acc0c0ffeec2886d39c088b0313b6a0c5bd3af24183d5430a7963ba4466287632a1632c6a5ccaf876ccd9
-steps_hashed: 05ae9d7a8dfc5e56af660cfd9128f7ffbcc360d5e2fedc724083e23d1e186d45c6162fde05829b60b50a2fa8d93eb138
+steps_hashed: de250542d764898510c8d1ece406e2cd41c814388ff6b74b4ec1d131df8f081bcd0fe697e69dadf9a71d8699183be600
 ---
 
 ## MM-T36: MM-17355 — Channel header text flows on top of channel dropdown menu

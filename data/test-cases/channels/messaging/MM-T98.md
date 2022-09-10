@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
 case_hashed: 9109bb8996ae475dc46e344b858f60caf89b3a3ddb61e7220be9f20c1a104a161d7662dc2a427814c0942ef55ff21855
-steps_hashed: b888288363ee86669fc3c134660cdb672a29c8d581d58c778000e5073e0da46c51203d6f868639a12b4bb6841b145b46
+steps_hashed: 29b86e50daf779c0c49abf78279258db9b596efca0b97d629228e329d490e200a46fbdeccdd42e88fcc8abfd5349047b
 ---
 
 ## MM-T98: Typing should show up right away when editing a message using the up arrow

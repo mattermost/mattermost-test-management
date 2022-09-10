@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T16:08:57Z"
 last_updated: ""
 case_hashed: 3efdf123859779356b15d1ec42ed1f93ef4f72d13f929e44b4d3c3943416942a34e60337b6142eae876543c192b7654f
-steps_hashed: ec0e8878dc489ede2eeba049a0f91b2298993d12ac5da9b4280f95e0cd37acbd9eccb785bd6b1db467076fdc849a26d8
+steps_hashed: e86975ecc7d4bdf849055876317a693fb45e997a798500d0eb24de0fd489209d4d4a79d0f984189918972b1270de1600
 ---
 
 ## MM-T35: MM-17579 — Stuttery dropdowns in Safari

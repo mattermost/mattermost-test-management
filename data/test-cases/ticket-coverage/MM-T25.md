@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-27T23:01:27Z"
 last_updated: "2022-09-09T20:25:02Z"
 case_hashed: 3b0d2165a0c916387b55c559791c2e2363d3ea6e954b0353bb5ced63cf723546fb5deab831e39e620dff605d8b36bcd1
-steps_hashed: fb9920f9330011d4614f82ce09275095d265a5fb6c897b4c9ce60d5cc0cfb5517368501e2eee89dd534c25dc1641aa8c
+steps_hashed: 8bc90f3b38770a29fc4395f5f81b4162d4c7eb1deb5aa3d3ae78fa987c6720e2c095c270b414140ff046298a0fc8e478
 ---
 
 ## MM-T25: MM-16833 — Web: Scroll position is wrong when entering a permalink view with loaded messages > 120
@@ -43,7 +43,7 @@ steps_hashed: fb9920f9330011d4614f82ce09275095d265a5fb6c897b4c9ce60d5cc0cfb55173
 2. Click on the permalink and go to the permalink view
 3. Load more posts a couple of times
 4. Go back to the previous channel
-5.  Click on the permalink
+5. Click on the permalink
 
 **Expected**
 

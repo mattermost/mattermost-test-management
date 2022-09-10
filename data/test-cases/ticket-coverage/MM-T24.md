@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-27T22:52:09Z"
 last_updated: ""
 case_hashed: c99bb3fc7a02718e5d009957b3f86a30375987c22ba4b203ccb498c76316b182c7935050bf0d8506742687482b275925
-steps_hashed: ad85ea47cbaab4189e86c10177bda6d587250632e2507a645a110176711b24cb36b7b35f22af827fd270aadd5aee2e46
+steps_hashed: 38e3c9fdf5b32fa75faffc27182ea432bff94563ebe2ae55d185861a62f13657a95b93c790d10bb0f1205b8b129c12f2
 ---
 
 ## MM-T24: MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page

@@ -36,7 +36,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
 case_hashed: 268e7b1795273d663483d76a4446a86378f50fbd71fbe8db8b184dc417fa9bc4c09cf00a78b33544f4c22a21090b278f
-steps_hashed: ae0598f7f9c530e4c3e9c31259c3d78a48b71fa1151efe22a8f59fd43c8bfe360100a676cf8980f0143aed0d6c85c711
+steps_hashed: a82df0528f936321cb4a7c31b75486a13c3469faf348c525646ff43978e8b65e6a0b1e69f0a055e4cf5d9c3bce3bef90
 ---
 
 ## MM-T71: Autocomplete highlight should follow mouse hover

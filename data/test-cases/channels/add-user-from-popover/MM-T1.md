@@ -31,16 +31,16 @@ id: 5618902
 key: MM-T1
 folder_path: channels/add-user-from-popover
 created_on: "2020-06-03T07:26:59Z"
-last_updated: "2022-09-09T21:27:29Z"
-case_hashed: c053a01665fb299108b88e374ba503fee4a3f162034dcb92dd99c44d14dd40fdeb5927af9382d1cb6fd064b09db5494f
-steps_hashed: 02eb244024bf74924bcaa14bc7f96d24a8e970f5e090fd596f5beb1312f6c04168dd6c475d0f41bf1d1aa94c8608ba18
+last_updated: "2022-09-10T10:54:33Z"
+case_hashed: c26f75e07a0a2c2353d48fdefc6971f2634c421aa7c5204b8eac156789585bcba5101ba8a3d27440622b2e5510fec146
+steps_hashed: 93c651c4c3636026faad484ce8f8f6083176aef85942234d0885a63a8a3e2b1e705db69ad52d7ee2ad1031c1de353b16
 ---
 
 ## MM-T1: Add User — System Admin only
 
 **Objective**
 
-\*\*Original test name from testing spreadsheet → \*\*Only the System Admin sees the option to add a user to a channel on the profile pop-up if permissions to manage private and public channels is switched off for All members, Team and Channel Admins
+Only the System Admin sees the option to add a user to a channel on the profile pop-up if permissions to manage private and public channels is switched off for All members, Team and Channel Admins
 
 ---
 
@@ -57,12 +57,12 @@ steps_hashed: 02eb244024bf74924bcaa14bc7f96d24a8e970f5e090fd596f5beb1312f6c04168
    1. Login as a [**channel admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin) to the same server
    2. Click the name of any user in a public or private channel
 
-5. Login as a System Admin and change/ensure that  the Manage Public/Private Channels setting under the Team Administrators section is \*disabled\*.
+5. Login as a System Admin and change/ensure that the Manage Public/Private Channels setting under the Team Administrators section is \*disabled\*.
 
-   1. Login as a [**team**\*\* admin\*\*](https://docs.mattermost.com/help/getting-started/managing-members.html#team-admin) to the same server
+   1. Login as a [**team admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#team-admin) to the same server
    2. Click the name of any user in a public or private channel
 
-6. Login as a [**system**\*\* admin\*\*](https://docs.mattermost.com/help/getting-started/managing-members.html#system-admin) to the same server and click the name of any user in a public or private channel
+6. Login as a [**system admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#system-admin) to the same server and click the name of any user in a public or private channel
 
 **Expected**
 

@@ -32,16 +32,16 @@ id: 2746251
 key: MM-T2
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:54Z"
-last_updated: "2022-09-09T21:27:31Z"
-case_hashed: 61b6a2c1c75f5cd3be6dc994401cbd90026de7c81194b78c14c617477f6ce5bbc8b1bc481bf68f711a8316c7d4c4c3f7
-steps_hashed: f515ba336fde9c3a7c9beb4ee6fc3269c3fd71255152cd058053c307040058a4a4dc6c7df26a1c9c1332d66058402c68
+last_updated: "2022-09-10T10:54:35Z"
+case_hashed: 9725df319b65b3e1248a5898779c9a518b0f8b09fca0b42faef76fc627fb792a26adf1a618c89cb12cac0bdb6795fbc1
+steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
 ---
 
 ## MM-T2: Add user — Error if already in channel
 
 **Objective**
 
-\*\*Original test name from testing spreadsheet → \*\*If a user tries to add a person to a channel he is already in, there is an error as soon as he selects that channel from the list.
+If a user tries to add a person to a channel he is already in, there is an error as soon as he selects that channel from the list.
 
 ---
 
@@ -60,17 +60,17 @@ Step 2:
 
 1. Click "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top.
 
-Step 3:\\
+Step 3:
 
 1. Login as a Member to the same server
 2. Click the name of any user in a public or private channel
 
-Step 4:\\
+Step 4:
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name **you are currently in**
 
-Step 5:\\
+Step 5:
 
 1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 2. Click Add
@@ -87,5 +87,5 @@ On step 3, you should see the option to add a user to a channel in the profile p
 On step 4, the list filters to match what you've typed.\
 On step 5,
 
-- Error displays "\[name] is already a member of that channel"
+- Error displays `[name] is already a member of that channel`
 - The Add button is unactionable

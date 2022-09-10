@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T17:41:42Z"
 last_updated: ""
 case_hashed: 9c28026ef8e07cd938ec2e41eed48489b205795f009d703d87f1768a8132ae04972d4fce4c912fb0a01b9adc37b15a3e
-steps_hashed: 076bc7f4a4afa0874ead7fa65cf295bfe7fe1a9e89a322aab0edb7fb543e15c8fc9458b5a47c786532d132f4a20b450c
+steps_hashed: 7596b5618055e1b9055f4a711df7aa1fd407590c8e78900b89265db5d7fc82c00e9a2699f892cbf9791abd9c867db5a2
 ---
 
 ## MM-T37: Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel

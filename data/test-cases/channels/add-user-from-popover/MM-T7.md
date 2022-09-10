@@ -31,16 +31,16 @@ id: 2746256
 key: MM-T7
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-09T21:27:32Z"
-case_hashed: af93de8f4ab26bce57a61a47e9b7d887a09b92fec31d60ce5c31ea0e0a345aaffaa0ee1de6e2e4f7c64d27b948886bef
-steps_hashed: 14aac845bf85ecb6ebdbdccf682cedc731715c5a4cfc50486b358918a6ba0862dfcf8a54b3699a6e6d8564826a6b5bc8
+last_updated: "2022-09-10T10:54:36Z"
+case_hashed: 39798a73c2ac68e00ef9cd64c70d61fce39a84526c084c40743a50eac4557681203201814a6735bd7a6c748012bd516c
+steps_hashed: c30deebd362ac55789ac1f9f406f5eae591a7277dc25cfc0e20b3056e49ac217a41285e5f9a7a2f0d61da7b3c17f97b2
 ---
 
 ## MM-T7: Add User — Team admins (Private only)
 
 **Objective**
 
-\*\*Original test name from testing spreadsheet → \*\*If manage channel member permissions is disabled for all members but manage private channels is enabled for Team Admins, the Team Admin will have permission to add members to \*\*private channels \*\*on the current team
+If manage channel member permissions is disabled for all members but manage private channels is enabled for Team Admins, the Team Admin will have permission to add members to _private channels_ on the current team
 
 ---
 
@@ -50,7 +50,7 @@ steps_hashed: 14aac845bf85ecb6ebdbdccf682cedc731715c5a4cfc50486b358918a6ba0862df
 
 2. **Uncheck** "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top
 
-3. **Uncheck** "Manage Public Channels" and **C\*\*\*\*heck** "Manage Private Channels" in the Team Admins section part way down the page
+3. **Uncheck** "Manage Public Channels" and **Check** "Manage Private Channels" in the Team Admins section part way down the page
 
 4. Using the desktop app log in as a [**Team Admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#team-admin) and click the name of any user in a public or private channel
 
@@ -70,7 +70,7 @@ steps_hashed: 14aac845bf85ecb6ebdbdccf682cedc731715c5a4cfc50486b358918a6ba0862df
 
 4. You **should** see the option to add a user to a channel in the profile pop-up
 
-5. The list should filter to show only **Private** channels on the \*\*current team \*\*to match what you have typed
+5. The list should filter to show only **Private** channels on the _current team_ to match what you have typed
 
 6. Should expect the ff:
 

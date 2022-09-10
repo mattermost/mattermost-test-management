@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T09:49:50Z"
 last_updated: ""
 case_hashed: 61f7734c3451a1139247e6c920726a9f5d08d65c847433332c145d25400ae7ed05512e73b0a842f78fd2be3bf2b1e6d9
-steps_hashed: f7d5b914fbb2ba4a809b2bbd7abcfab35ed75cab0f30188bd30d55428d0e9c07dc3fabace4ac20df8999d4d631bc1b6a
+steps_hashed: 7f17ab0f8ca8d4e50646c9ef8da6d9dc3ff63da8a7631f2411ee2ef1506d75b117c613980f55048f2f842fdc3d760ba5
 ---
 
 ## MM-T29: MM-17338 — Setting Require Email Verification to true will break the admin console

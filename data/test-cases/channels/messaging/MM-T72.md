@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
 case_hashed: 5552837117326492f2fa42ad4d0bf3d93f20f87b3fb39c2439461ac6b08e9558d3f15fe260bcaeb01b7aa50818b73b09
-steps_hashed: 61938143c915501d45db79a1d1db146161b38b2dcc41e4f9626c42526fb6a4109b92f97c3cf8203c71ba1e8621caa70d
+steps_hashed: d6f7ef25adcaab9d911a3230c2525eba9e2bdb6bcd61f551260ed37d09a2871d3332398b89800092b1a33b8020dc3df2
 ---
 
 ## MM-T72: @here. @all. @channel. (containing a period) still highlight

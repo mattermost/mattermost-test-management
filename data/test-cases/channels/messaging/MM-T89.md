@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:32:59Z"
 last_updated: ""
 case_hashed: 73c5978921f29200b62b484fbc1ce2cd18839c0643d01318cf2f048d9ed6818bfe032029c68b274bfe5a52ea8dfd630f
-steps_hashed: 34f2d4331c1970c1f2c4b1747f28d0bc1ca4171cf94e9a78310f849d7d97c26d21d6fe8bf216e488c78c97d2aa93bc81
+steps_hashed: bf790776b5bbeb7b994a278d65c09318f727812153714dc8dd5a4569ab61091e6d9de7c6960beacbf804c4149f8aaa1f
 ---
 
 ## MM-T89: An ellipsis indicates the channel header is too long - DM

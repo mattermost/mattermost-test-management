@@ -33,7 +33,7 @@ folder_path: channels/messaging
 created_on: "2020-12-10T17:51:24Z"
 last_updated: "2022-09-09T20:50:00Z"
 case_hashed: c853e21fecfaaafa98f416ad5c662c2a87f3b5705d965f43801ed7bf67cf9500670dd4c05fcb7785f25e636d19a1722e
-steps_hashed: c98d0421df652d3955c222c7e85b808d898149f94b8b914fc79f8647d3cca4eeeafb099c345051b8e0bc0277b789d2a3
+steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f70c0b372c845d7ff1efad100533636
 ---
 
 ## MM-T11: Open Graph link preview should display animated
@@ -43,12 +43,11 @@ steps_hashed: c98d0421df652d3955c222c7e85b808d898149f94b8b914fc79f8647d3cca4eeea
 **Step 1**
 
 Open Graph link preview should display animated\
-–––––––––––––––––––––––––\\
+–––––––––––––––––––––––––
 
 1. Post the link below in a channel
    \
-   \
-   https\://giphy.com/gifs/afv-funny-fail-3o85xET02JdV8TQuwU
+   <https://giphy.com/gifs/afv-funny-fail-3o85xET02JdV8TQuwU>
 
 _Related ticket(s):_
 
@@ -57,7 +56,7 @@ _Related ticket(s):_
 _Important notes about this step:_
 
 A reference to the old testing spreadsheet was made on the bug ticket.\
-[](https://docs.google.com/spreadsheets/d/1gW7i8uF3jd5wuHd5mJ7UdBQsMFVZwHKMXE7WOtlDa0k/edit#gid=1473839219&range=C36) <https://docs.google.com/spreadsheets/d/1gW7i8uF3jd5wuHd5mJ7UdBQsMFVZwHKMXE7WOtlDa0k/edit#gid=1473839219&amp;range=C36>
+<https://docs.google.com/spreadsheets/d/1gW7i8uF3jd5wuHd5mJ7UdBQsMFVZwHKMXE7WOtlDa0k/edit#gid=1473839219&amp;range=C36>
 
 **Test Data**
 

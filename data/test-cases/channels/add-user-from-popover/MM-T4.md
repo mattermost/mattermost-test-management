@@ -31,16 +31,16 @@ id: 2746253
 key: MM-T4
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:54Z"
-last_updated: "2022-09-09T21:27:28Z"
-case_hashed: f902820ae25171201f01fd93c2a8cddc2c5973062fed9fe38d2dca242daff2a40a796f3b82416f363f3e85df881ed3f1
-steps_hashed: 014043f35e890fbe8b858e6dc03b7cc756f98971785556b01149b56572e2fd8d2bcf35a4fe1d8715d3e320b5aca1df02
+last_updated: "2022-09-10T10:54:32Z"
+case_hashed: 9d7615698f693e36622e7b7f53c9b8463e86ad1dceec56a06e08b28aecee44837ac518cbb09c0d8b70f9044973f610a5
+steps_hashed: 1351d13e2a1bd7d8783463e4a3effd47f717b0cdc53fe2dee34568b669926981c419553a714738a406d88ab72d44a737
 ---
 
 ## MM-T4: Add User — Public OFF / Private ON
 
 **Objective**
 
-**Original test name from testing spreadsheet →** If the user has only manage channel member permissions for private channels, then show the option in the profile pop-over and only show private channels in the channel dropdown.
+If the user has only manage channel member permissions for private channels, then show the option in the profile pop-over and only show private channels in the channel dropdown.
 
 ---
 
@@ -57,12 +57,12 @@ Step II:
 
 1. **UnCheck** "Manage Public Channels" and **check** "Manage Private Channels" in the All Members section at the top.
 
-Step III:\\
+Step III:
 
 1. Login as a non-admin **Member** to the same server
 2. Click the name of any user in a public or private channel
 
-Step IV:\\
+Step IV:
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name
@@ -86,7 +86,7 @@ After Step I:
 
 After Step II:
 
-- "Manage Public Channels" are \*\*un\*\*\*\*checked/disabled \*\*while "Manage Private Channels" boxes and all sub-settings under them are **checked/enabled**.
+- "Manage Public Channels" are **unchecked/disabled** while "Manage Private Channels" boxes and all sub-settings under them are **checked/enabled**.
 
 After Step III:
 

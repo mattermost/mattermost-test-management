@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
 case_hashed: 61692c20f4ddd2593eeb7558205e2ac4cb073120fce9613fd34794b4ef4251566cd32a24d516abf83f8669530ff3acfc
-steps_hashed: e43fd31139c6704b58230489d6ccfccd8b60e8e3c42b15f41790e4467360ca89bd7fe9af30b5dcadb330ae0953cc56bd
+steps_hashed: 16f6f98ee0fa5acefb8b8d5a1dfd4c813237e71d65aa9bf161c467066a46da34580f9f3848ad660c84fa0dba361b29fa
 ---
 
 ## MM-T96: Trying to type in middle of text should not send the cursor to end of textbox

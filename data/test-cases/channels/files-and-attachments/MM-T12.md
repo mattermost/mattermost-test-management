@@ -36,7 +36,7 @@ folder_path: channels/files-and-attachments
 created_on: "2019-08-27T00:36:47Z"
 last_updated: ""
 case_hashed: 0f409b06943f9aa24cc58e01f5726debe3e3c7fc256e1df13fe284908ecca5e1ee84d0fb8d1d19fe77345423707200a0
-steps_hashed: ba127f4729de642b72ba3c1190980d6137c0951a3db227204db088bdadf04c6428e34ebcefc86aef22d1f657b3adf331
+steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
 
 ## MM-T12: Loading indicator when posting images

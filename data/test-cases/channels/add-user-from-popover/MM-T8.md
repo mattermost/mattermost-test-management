@@ -32,9 +32,9 @@ id: 2746257
 key: MM-T8
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-09T21:27:30Z"
-case_hashed: 36c88ff9f32172808d1431c9f67151a832b5fb7b06348c052366eaa3fd24f4d2aaf39f98904d4e6a14650819ee55df58
-steps_hashed: 15c10997f7ff733eb593387cbb3744b701ed9d7e0794865df4332daf307ee122c40f7e89f0e8bbcca27a6dc5388fbcae
+last_updated: "2022-09-10T10:54:33Z"
+case_hashed: 89e810c210345fa3b5adfb8e90694bd8343a392d3eeb3839c13eca13fa5478381198f7dc66a1eaa4df8a5e35ad5f845c
+steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---
 
 ## MM-T8: Add User — UserA & UserB (not on team)
@@ -42,7 +42,6 @@ steps_hashed: 15c10997f7ff733eb593387cbb3744b701ed9d7e0794865df4332daf307ee122c4
 **Objective**
 
 - If **UserA** has never been a member of the current team, **UserB** should not see "Add to channel" option on **UserA's** profile pop-over
-- \*\*Original test name from testing spreadsheet → \*\*"If UserA has never been a member of the current team, UserB should not see "Add to channel" option on UserA's profile pop-over (this test assumes permissions are in place for users to see the option on other users who belong to the team's profile pop-overs)"
 
 **Precondition**
 

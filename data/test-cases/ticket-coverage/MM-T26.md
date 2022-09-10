@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T01:56:36Z"
 last_updated: ""
 case_hashed: 1bd86111e641463851280adc6d9853f3fea2e3ec895e01d7cdd4997b1cc2d0b7b3f18abacbc8f52d558b62651c700099
-steps_hashed: 81efb0ab573da544984896445e84a4f95403bf8800173f1ddda4727a6ff1cd5c897cb76f5e54e1a636f31865e9901d52
+steps_hashed: 5747bc143916e1ecef8c6d22a88f2a9a2e8b9a8ac4e5d2abf3b6983539c8feb23547fb411895df2b085befe74b2a5950
 ---
 
 ## MM-T26: When on preview mode, it does not allow to submit a post from the main post input

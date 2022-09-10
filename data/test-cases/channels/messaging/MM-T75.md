@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
 case_hashed: b8e3d6d0d0ed53504b5c91dd9376ce77dffaa7ba8d5b321b32bbf56facb2686173be9bdc4d12254cb17187c274767156
-steps_hashed: b2132b55c7db3b27b3cebfa5591937dc1254487a7ccad9a8f68a2d913dc6fb080a90cc547b666f41ad9926f93cccb481
+steps_hashed: c1fb8dcb45541915e151642115f41e187404ad9cdf79fe0e317a39684d4b12fa8b4eb9d85cac36e3fd20f576d2b3c137
 ---
 
 ## MM-T75: RN apps: iOS ONLY - If the keyboard is open, swiping down past it should close it

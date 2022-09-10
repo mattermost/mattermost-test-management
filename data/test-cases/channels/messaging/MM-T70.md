@@ -36,7 +36,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
 case_hashed: 4f603a6837382245e101fa90737dd7bca67280b7f3d18a1d226ed76b1b337f8370db272c2dabbafc6c4c99fae8ed5aab
-steps_hashed: ead1fe6f96c6109f05527baa747f860c9b438f4d1fe27bcdc8cb6ca7a635d2bee24436630a8f75e45118be013d97d409
+steps_hashed: ac0660560e5a2ffda14b91fe6eafced430ca28e2d28b75e1189960ad9a39ccc20295820c455a2fd5976efee9a3466478
 ---
 
 ## MM-T70: At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment
@@ -56,7 +56,7 @@ _Related ticket(s):_
 
 - [At-mention user autocomplete overlaps with channel header when drafting a long message containing a file attachment — MM-14872](https://mattermost.atlassian.net/browse/MM-14872)
 - (Invalid) [RC 5.14 testing: At-mention autocomplete overlaps with channel header — MM-17623](https://mattermost.atlassian.net/browse/MM-17623)
-- (**Story**) [UI Automation: Write an automated test using Cypress for "At-mention user autocomplete does not overlap with channel header when drafting a long message containing a file attachment" — MM-18667](https://mattermost.atlassian.net/browse/MM-18667)
+- (**Story**) [UI Automation: Write an automated test using Cypress for "At-mention user autocomplete does not overlap with channel header when drafting a long message containing a file attachment" — MM-18667](https://mattermost.atlassian.net/browse/MM-18667)
 
 _Important notes about this step:_
 

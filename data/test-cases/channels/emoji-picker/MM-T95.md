@@ -38,7 +38,7 @@ folder_path: channels/emoji-picker
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
 case_hashed: baf47c888ad72c694d792837ba61306313ef550bbc08d5743089d28ef544baf6e27a3e837aee22658771ab0d061cb442
-steps_hashed: 30d8c7c41c5f99e26ca2c806fb42882fd3e5ad9176a0cc1440cd507dbeb0213bdecc2ba05e5a8d13e1abf1ddc62b7c72
+steps_hashed: c9ba45765ba3f44592fd73035cb6087baafb50b6bbcffedc1805fbcd8f59f6e9c6fb20605ee5cbe1553bfd217c4307b8
 ---
 
 ## MM-T95: Selecting an emoji from emoji picker should insert it at the cursor position

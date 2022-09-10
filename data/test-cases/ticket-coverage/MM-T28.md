@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T02:12:57Z"
 last_updated: ""
 case_hashed: e2b935f68b015d3c745845fdb82c45691d8f286cb7aea9ca81de853f0d3e7090652e2eb034aac7415e058d4e969d69a8
-steps_hashed: 7d30b5e79bb2da5a1bf093d11662e97b144b613c930c005a81a376dee21b6ee18dfad01801dd4d3c4ad908a2f4b3e1d3
+steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515cbcab7901eda3d3506c0861c0e8dab2
 ---
 
 ## MM-T28: MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel

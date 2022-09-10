@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:32:59Z"
 last_updated: ""
 case_hashed: 62467d91dffe6376d409183e6c5c6782e59eafaf6841de4787a3a87ac59ad381f76547f28b39eb0451ebeb99a8c8bb8e
-steps_hashed: 3d18d1f282c7768a9df232c6151f2840d37d80a6d1058249f8d93d83322fdb4eec2f14eed60dcb7b7040060006f5c40f
+steps_hashed: 417c6346f417682ea6dfc12c5564c7dc64fdb02e6a962e06b57c34b2297611cf69aaed99ba58d8ddfe4659cc1d0eb061
 ---
 
 ## MM-T94: RHS fetches messages on socket reconnect when a different channel is in center

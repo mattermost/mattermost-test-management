@@ -35,7 +35,7 @@ folder_path: channels/messaging
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
 case_hashed: 8f20627d4542f972918d44e3cddf7bef3ef37e4ebfed2903b1e660c11999d8be3f76ac58882a1215ada564b8ce2e69d3
-steps_hashed: 8a80e4b4812904b333ca344665582d2faf25e329ef3349b6b5a5b27cf22177692f35d23fc67cb3e5769f430ad2e23490
+steps_hashed: ca80014f59a12bbb2ac9b5ae595d31f9a2210dcdf154bf9c9709b83f5db9df0537b148896c0dc8d3d7440abdf14a643e
 ---
 
 ## MM-T99: Edit post that has attachment, paste text in middle

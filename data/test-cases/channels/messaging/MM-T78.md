@@ -32,7 +32,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: "2022-09-09T17:57:14Z"
 case_hashed: 2e78d45e083e878d9fec339ef5196d27e3c240ca4add35424e79392b5e83e49c00fbe85b8d3a843d8983c8fc1c73c3a0
-steps_hashed: fd4b71f4515f7892e3ca4cef8a424fc680f533251b4fcc06297cbf84283bea34e09fe0672977673b93fca9cc47aa48f1
+steps_hashed: dc108c4482794be7dfc2d1c0533ab026636d6ede8f60027cf6233a39182a68c1de2b3fa0321a40a7b4977f143763f7f2
 ---
 
 ## MM-T78: RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the same author as the post above the 'new messages' line

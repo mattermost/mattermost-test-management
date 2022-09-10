@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-27T20:49:05Z"
 last_updated: "2022-09-09T17:57:25Z"
 case_hashed: 438b255ef725c351dbdfa72e35ceb5b483bbc374b39db74bbce6f295d8a29d01a82f47014b9ef44e65da5408229daa0b
-steps_hashed: 737ae08762fbc430e4888e58d23d55428ca9cc8b4115a14faf3dad95d24a37b8eaebf50a85c0782c70aae1a3bdddcf4c
+steps_hashed: 68b13d15242019d2856ab91cb49502fbc8f7beed5ef5ee0fd92d7bb6fd304cc8516f3968dc6aa8ea1ccc461510a71dfb
 ---
 
 ## MM-T22: MM-16511 — 'Someone is typing'

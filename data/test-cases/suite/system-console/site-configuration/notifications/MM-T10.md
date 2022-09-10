@@ -35,7 +35,7 @@ folder_path: suite/system-console/site-configuration/notifications
 created_on: "2019-08-26T23:46:53Z"
 last_updated: ""
 case_hashed: b6a6d8fe4ef8e56f045fda41040615a9146c788e9c87c6b417486e97bd10df1c9d93b180fa75a67e70743b1ba87a60ff
-steps_hashed: e90f00afb0523948cfea996a40b9a7e7c133c7c27b8b470c403a94e535f803d4c47592b59fc75d03437fa01b198a78b7
+steps_hashed: 1f7bf0cbd8ac439c4b64b8fb07beba93bc9e05a25a665fd7262a418b8c63c477a73ac41e04231b4b5a94b16aa84b9dfa
 ---
 
 ## MM-T10: Disabling email notifications should not disable email invites

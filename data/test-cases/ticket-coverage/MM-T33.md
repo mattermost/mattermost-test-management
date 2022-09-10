@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T12:11:41Z"
 last_updated: ""
 case_hashed: 6378a13542edb7777f3f19868afc8f6f132cb68564de384f7b1259256df3648488d63150e45ea47767d8e364df4b75bd
-steps_hashed: 9ccf7613f83a7d8bd550f1811352621cf02918d6c6ab35d47cc4fc2f3864fe1912f92f894f1acc037e89bafaa72a90e9
+steps_hashed: 5cf24ce1b1f1a0e1f918997ae1e73866adccc0ee500cea7277438b01d9b0179978a4f226391c4f7fba60ffd890d84396
 ---
 
 ## MM-T33: Invalid channel information in CSV exports

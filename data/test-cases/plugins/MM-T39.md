@@ -37,7 +37,7 @@ folder_path: plugins
 created_on: "2019-08-30T01:25:31Z"
 last_updated: "2022-09-09T19:36:48Z"
 case_hashed: dbd8061eb7bf874b3b90fd565fb931db2c1fc36178ca39ba3a360609b2b244d8e64a4042ee8ced1b64d9711bbcb4369f
-steps_hashed: 5bc530c14f55675870add9530e7f08b5f1842e250b45e7e7f6ab231dcea70e328f4e53187b9e357ef35a3b93141cf999
+steps_hashed: 59d10fd3a4f5001c53abb78f7d6d782fc7be9761c7eb2880df676988df8c008e2b177291f0ab88233d2cac93f4855ccd
 ---
 
 ## MM-T39: Disable Plugin on Removal

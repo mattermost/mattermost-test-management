@@ -34,7 +34,7 @@ folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
 case_hashed: 1d3f57532fc8728c743129359d72bc9c3891a00b5fff6563338d43634634284fc96ddbcf093685ec3374c99942ea6a16
-steps_hashed: b182df72c0cb0a767fb767a5c84565c0a7e6562c662da2c3239e6835f8bfa2e0fd206276b7d3d62541afd3d01766582e
+steps_hashed: f8be2d63ac4c32186fbd83644dbdb52f9f737fd697cc2e2bed9953bf82e4c80cce7f31a237894f7a536f00dcaa9086a0
 ---
 
 ## MM-T76: RN apps: iOS ONLY - If the keyboard is open, tapping outside the message input box should execute actions on other elements

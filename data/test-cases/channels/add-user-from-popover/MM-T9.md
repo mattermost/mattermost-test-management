@@ -31,19 +31,16 @@ id: 2746258
 key: MM-T9
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-09T21:27:30Z"
-case_hashed: 44eaa8e9fab1f8346cde37350273dbf1e0dd041757a070fe7f72810c977fa4e4bcfba911af3d0085956165bbccdfb3bb
-steps_hashed: 07fd3b2606c8566cc3d382127c0f21337c22c25636c7d3bd66f54f74bd93f16b1b1894b6c3a3f01148a3db1cd0317482
+last_updated: "2022-09-10T10:54:34Z"
+case_hashed: 85109bfb9eeec1d6752c161ff674579689abc27474fbe6262ccbb973ff5184bd43c8e1af7c546adc1a26944898362a41
+steps_hashed: 488625ccb847eb7b7e6af00bd951c5ad8d35c1193b14f03f7bd5bbd5b33429222a460629c5d091685523e8656ef7d3d5
 ---
 
 ## MM-T9: Add User — Any user (can add users)
 
 **Objective**
 
-Only the users who have permissions to manage channel members should see the option to add a user to a channel on the profile pop-up.\
-\
-\
-\*\*Original test name from testing spreadsheet → \*\*Only the users who have permissions to manage channel members will be able to see this option.
+Only the users who have permissions to manage channel members will be able to see this option.
 
 ---
 

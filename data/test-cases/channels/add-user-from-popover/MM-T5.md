@@ -32,19 +32,16 @@ id: 2746254
 key: MM-T5
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-09T21:27:29Z"
-case_hashed: 1f72746918627c3f4d4ab70d00bd9c0e1ab57c324889e15b6fcc0750007f8624ada7050c50d6df0a718f30fca531d425
-steps_hashed: 236aa58c5845df6cc1c119c48db68118c94d9e366899715073287273081ca86376c1d2132ccac18b3d17f3a9bb2198cd
+last_updated: "2022-09-10T10:54:32Z"
+case_hashed: 758efdcc87e5d7b76fbaa3eac0047c53f9233e89d524112eaf35e6899f34dc1f952b08e7ec4f090ebb54cf62dde5991c
+steps_hashed: f48aec372a850c54fc039377bad5359b74fde0b99c45740b74c295532fceca5c952af78e0c17f73c8d07719c0cae4843
 ---
 
 ## MM-T5: Add User — UserA & UserB (removed from team)
 
 **Objective**
 
-If **UserB** has been removed from the current team, **UserA** should not see "Add to channel" option on **UserB's** profile pop-over\
-\
-\*\*Original test name from testing spreadsheet → \*\*"If UserA has been removed from the current team, UserB should not see ""Add to channel"" option on UserA's profile pop-over\
-(this test assumes permissions are in place for users to see the option on other users who belong to the team's profile pop-overs)"
+If **UserB** has been removed from the current team, **UserA** should not see "Add to channel" option on **UserB's** profile pop-over
 
 **Precondition**
 
@@ -55,7 +52,7 @@ If **UserB** has been removed from the current team, **UserA** should not see "A
 **Step 1**
 
 1. Remove a member from a team
-2. @ mention the user you just removed in a channel 
+2. @ mention the user you just removed in a channel
 3. Click the @ mention in the post you just made
 
 _Related ticket(s):_

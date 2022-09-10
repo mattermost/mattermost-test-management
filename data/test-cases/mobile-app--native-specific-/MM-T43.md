@@ -34,9 +34,9 @@ id: 2814840
 key: MM-T43
 folder_path: mobile-app--native-specific-
 created_on: "2019-09-04T21:03:12Z"
-last_updated: "2022-09-09T21:27:22Z"
-case_hashed: be977c8f08cb10f90ae547a216aee05f1f66124c14665a9c01a8cd02328778700858bd1a0d779dddad9a588480742db0
-steps_hashed: dafee2623ca055613aa0c840b8fe7e9deca72c509dec6589c6c6db8fe631193e29660c8d6f7631bc32d59fa633292dbd
+last_updated: "2022-09-10T11:55:02Z"
+case_hashed: b20bd2475448656bbc5c971b2bab0cc78ea3ac24d1b2e92787fa10f56dfac9c32cdfadee08cb87e766f2a510eb51c435
+steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
 ---
 
 ## MM-T43: Mobile classic apps: Smoke Tests
@@ -47,14 +47,14 @@ These tests cover the very basics of the Mattermost Classic app.\
 It is no longer being updated but is still in use.\
 The last versions released listed below.
 
--  iOS Version 3.10.3 — Apr 13, 2018
-- ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566499085070-android-vector-icon-7.png)Android 3.10.3 — May 16, 2018
+- iOS Version 3.10.3 - Apr 13, 2018
+- Android 3.10.3 - May 16, 2018
 
 ---
 
 **Step 1**
 
-1. Enter a server URL and leave a space in what you type in (e.g., https\://community .mattermost.com)
+1. Enter a server URL and leave a space in what you type in (e.g., <https://community.mattermost.com>)
 2. Tap 'Next'
 
 _Related ticket(s):_
@@ -71,7 +71,7 @@ _Related ticket(s):_
 
 1. Enter a server URL
    \
-   (e.g., https\://postgres.test.mattermost.com/)
+   (e.g., <https://postgres.test.mattermost.com/>)
 2. Tap Next
    \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
@@ -110,7 +110,7 @@ Post accepted and added to messages just above text field\
 
 **Step 5**
 
-1. Tap the … ellipsis menu icon on the message you just posted
+1. Tap the `...` ellipsis menu icon on the message you just posted
 2. Tap Edit in the modal window that appears
    \
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
@@ -135,7 +135,7 @@ Tap Cancel
 
 **Step 7**
 
-- Tap the … ellipsis menu icon on the message you just posted again
+- Tap the `...` ellipsis menu icon on the message you just posted again
 - Tap Edit in the modal window that appears
 - Edit the text
 - Tap Save
@@ -315,7 +315,7 @@ Tap Cancel
 - Returned to channel
 - Message deleted
 
-**Note**: Other users can see an empty message where the post was sayng that it has been deleted
+**Note**: Other users can see an empty message where the post was saying that it has been deleted
 
 ---
 
@@ -369,7 +369,7 @@ Tap Jump button
 
 **Step 21**
 
-Tap "Click Here to jump to recent messages ?" bar
+Tap "Click Here to jump to recent messages?" bar
 
 **Expected**
 
@@ -465,9 +465,13 @@ Edit Header screen appears
 **Step 28**
 
 1. Type text in field
+
 2. Include a properly formatted link
-   \
-   \[Link example]\(https\://mattermost.com)
+
+   ```
+   [Link example](https://mattermost.com)
+   ```
+
 3. Tap Save in lower right corner
 
 **Expected**
@@ -532,7 +536,7 @@ Tap Close
 
 **Step 33**
 
-1. Tap the … ellipsis menu icon on the right side of a post again
+1. Tap the `...` ellipsis menu icon on the right side of a post again
 2. Tap "Permalink" in the modal window that appears
 3. Tap Copy Link button
 
@@ -546,7 +550,7 @@ Tap Close
 **Step 34**
 
 1. Navigate to different channel
-2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
+2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
 
 _Related ticket(s):_
 
@@ -649,7 +653,7 @@ Brought to channel with post highlighted
 
 **Step 42**
 
-1. Tap ☰ menu  in top **left**
+1. Tap ☰ menu in top **left**
 2. Tap Switch Channels button at bottom of menu
 3. Start typing "Off"
 
@@ -671,7 +675,7 @@ Brought to channel
 
 **Step 44**
 
-1. Tap ☰ menu in top \*\*left \*\*again
+1. Tap ☰ menu in top **left** again
 2. Tap Team icon on far left
 
 **Expected**
@@ -682,7 +686,7 @@ Brought to channel
 
 **Step 45**
 
-1. Tap ☰ menu in top \*\*left \*\*again
+1. Tap ☰ menu in top **left** again
 2. Tap + next to Direct Messages in menu
 
 **Expected**
@@ -724,7 +728,7 @@ Start typing name in text field
 
 **Step 49**
 
-1. Tap ☰ menu  in top \*\*left \*\*again
+1. Tap ☰ menu in top **left** again
 2. Tap + next to Direct Messages in menu
 3. Add more than one name to text field
 4. Tap Go button

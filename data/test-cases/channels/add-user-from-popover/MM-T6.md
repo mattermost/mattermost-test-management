@@ -31,16 +31,16 @@ id: 2746255
 key: MM-T6
 folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-09T21:27:31Z"
-case_hashed: 893d576e2af53cc5d5f8183bf5cae045732fb8fe42ec1c9449489bd010f7a9d2acc554c3cf0853cfa78ae0c259f031d4
-steps_hashed: c5bb02fffa95a3d03ccdac0dff4c13c0c022072d6a81a2d4d69b979463de6b0d8299d95a13710f226fd27042afb25224
+last_updated: "2022-09-10T10:54:34Z"
+case_hashed: 18aa3a1ed130b30720a10132ec7d6c9e6aba3f2961d2bbb08b77b18540dd47415e973424630270cd4491709cb78c543e
+steps_hashed: c4c18adb41276afe1b9f3148241e3d220ecb101851084e8fa827f4cf3c029a80e797ab8a0491da9844c0613d2d2fe6fb
 ---
 
 ## MM-T6: Add User — Channel admins (Public only)
 
 **Objective**
 
-\*\*Original test name from testing spreadsheet → \*\*If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, the Channel Admin will have permission to add members to **public channels** on the current team
+If manage channel member permissions is disabled for all members but manage public channels is enabled for Channel Admins, the Channel Admin will have permission to add members to **public channels** on the current team
 
 ---
 
@@ -66,12 +66,12 @@ Step IV:
 1. Log in as a [**Channel Admin**](https://docs.mattermost.com/help/getting-started/managing-members.html#channel-admin)
 2. Click the name of any user in a public or private channel
 
-Step V:\\
+Step V:
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name
 
-Step VI:\\
+Step VI:
 
 1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 2. Click Add
@@ -82,18 +82,14 @@ _Related ticket(s):_
 
 **Test Data**
 
-Step I:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
+Step I:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
 \
 \
-Step II:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
+Step II:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
 \
-Step III:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
+Step III:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
 \
-Step IV:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
+Step IV:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
 
 **Expected**
 
@@ -113,11 +109,11 @@ After step IV:
 
 - You **should** see the option to add a user to a channel in the profile pop-up
 
-After step V:\\
+After step V:
 
-- The list should filter to show only **Public** channels on the \*\*current team \*\*to match what you have typed
+- The list should filter to show only **Public** channels on the **current team** to match what you have typed
 
-After step VI:\\
+After step VI:
 
 - The user is added to the channel
 - You are returned to your previous state

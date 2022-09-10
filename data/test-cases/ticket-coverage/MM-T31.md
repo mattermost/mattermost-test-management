@@ -30,7 +30,7 @@ folder_path: ticket-coverage
 created_on: "2019-08-28T10:40:52Z"
 last_updated: ""
 case_hashed: 02ef65d85b61fdf4b4f481eca41a06fc9ace99df1d1531dbe1a76a82aeebdbef5564c7fd16bd74eb514b3c44f4268632
-steps_hashed: f40d17cc764ebc75d7eb3b6e4ad286b4b615fad5f61b06df36db0ede7f7bc7665469a9e1d50fd96e4448485595e81c31
+steps_hashed: 231e1fc0252e4ecc27b2ce1edc5f37f2320e0f21f0cfdfb29b538ef831d36ed49471d9e2a31f3c46d5d4dc476c36c57d
 ---
 
 ## MM-T31: MM-17515 — Mobile browser view: A long email address is not fully visible in Profile Settings
