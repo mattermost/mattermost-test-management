@@ -32,7 +32,7 @@ case_hashed: 38acc60f8f8a31488dafd9351384853279fdd6a7ce70814f01491a25acdc2510256
 steps_hashed: e738a95eaf3a6bb322f79b9ac827458734d7b43e12b0b09fc8dc9338571f99f4fc6ba80a7956e799c0df98bdc56245a5
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T21: MM-17043 — Downgrade errors from the OpenGraph API
 

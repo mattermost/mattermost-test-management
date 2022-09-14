@@ -32,7 +32,7 @@ case_hashed: a857e885e196413cefee698d32c60008ee05331c676f2c04700cb387aa4e7540800
 steps_hashed: 7596b5618055e1b9055f4a711df7aa1fd407590c8e78900b89265db5d7fc82c00e9a2699f892cbf9791abd9c867db5a2
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T37: Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel
 

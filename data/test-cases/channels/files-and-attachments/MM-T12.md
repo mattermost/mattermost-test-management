@@ -38,7 +38,7 @@ case_hashed: 3c76759b163c96d68ed7b2de2201ff63e30daa3cc3e9099b3a76f7dbcacddd91d2e
 steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T12: Loading indicator when posting images
 

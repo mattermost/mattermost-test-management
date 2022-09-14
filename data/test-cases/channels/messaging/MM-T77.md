@@ -37,7 +37,7 @@ case_hashed: c839056d44ae34e39caf68367d077d6ae19bfd8c5e03108ead97c943b8454955339
 steps_hashed: d2c27c9e2f63dbb9c79a3aa241e37986f4aed3653b04a9f3d253713a0d0e05bf96c3dd8c0641a5b3f15c71140bb243a9
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T77: Consecutive message does not repeat profile info (center and reply thread)
 

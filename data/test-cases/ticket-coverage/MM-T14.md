@@ -34,7 +34,7 @@ case_hashed: c93f23c2b6a4016050f7382beab089cf2597423974ee0a2234ce98452d208b57a43
 steps_hashed: 6909160f43d4764aad26d59f0793e16882e5799a5745ad27b9f12737d60f27c38593e40019df64e90465ee1c7b38e7a1
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T14: Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover
 

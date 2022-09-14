@@ -39,7 +39,7 @@ case_hashed: 8946f9f7e4c81f097637b71ff4447d5d5703cb4318d94d638ebc750dacf67e52ea6
 steps_hashed: af69362debd9fed1d923799f7a99a4d7862cd80ae109ffbbe4f3ce1047ce211135120cd44ddd64bddbe4df6016969140
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T92: Replying to an older bot post that has some attachment pretext before the message attachment
 

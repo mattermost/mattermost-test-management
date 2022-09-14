@@ -32,7 +32,7 @@ case_hashed: 8f0571c004bf8e5c6170f5a9f08393680a4406e11df7e1baaaecdd86470c8431943
 steps_hashed: e86975ecc7d4bdf849055876317a693fb45e997a798500d0eb24de0fd489209d4d4a79d0f984189918972b1270de1600
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T35: MM-17579 — Stuttery dropdowns in Safari
 

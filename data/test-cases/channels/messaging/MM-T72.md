@@ -37,7 +37,7 @@ case_hashed: 2d3d0f1426a1b46f97ccb72c5d3233321b6777ac6fc84ac6c36a32a7839ffa58d97
 steps_hashed: d6f7ef25adcaab9d911a3230c2525eba9e2bdb6bcd61f551260ed37d09a2871d3332398b89800092b1a33b8020dc3df2
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T72: @here. @all. @channel. (containing a period) still highlight
 

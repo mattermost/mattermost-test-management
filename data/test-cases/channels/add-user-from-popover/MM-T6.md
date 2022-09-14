@@ -35,7 +35,7 @@ case_hashed: 65b1a77f0daa4e003ec8b741dd9534b5eb19334b99579cca5ac19fbe3c4152268cf
 steps_hashed: c4c18adb41276afe1b9f3148241e3d220ecb101851084e8fa827f4cf3c029a80e797ab8a0491da9844c0613d2d2fe6fb
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T6: Add User — Channel admins (Public only)
 

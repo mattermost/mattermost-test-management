@@ -38,7 +38,7 @@ case_hashed: 0ac2bd8667a38c5a271972f1cf568e008d8de03f9d6f66337f78d650783a4e2d6bc
 steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T43: Mobile classic apps: Smoke Tests
 

@@ -37,7 +37,7 @@ case_hashed: c3d44679dab31d55f3f5a1699a7ac23a2a4a9238f7c883ea6c66f640f891ea52b6f
 steps_hashed: 013d3d3ee0a3b85b8ae200f51be15fb6b9bbecee8a830a86b10884a9b0b279d6e7e568ae72fb04228de43af661599c6c
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T93: Replying to an older bot post that has no post content and no attachment pretext
 

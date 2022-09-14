@@ -37,7 +37,7 @@ case_hashed: 7c2ace3789d013d99e83901565014b1c861d8381e9aa41adc7e857439ba2307cacb
 steps_hashed: 349aca556e6c8a7e565d577723a66ce00939d0b96d43fadd7658b16e60c4915cbad42c11345232dbde44e9dc5df30a81
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T91: Replying to an older post by a user that has no content (only file attachments)
 

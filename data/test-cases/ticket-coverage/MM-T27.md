@@ -32,7 +32,7 @@ case_hashed: 2f2253903c2b808316907b707d33afc64b1f7cddd4a5f2f8c37a13980daf86bcc8e
 steps_hashed: 2790462f52ab07c97736e456695ac79d7a7c533fdd3f0c3065ff18ea803f4d68de1a1fe6a2537bf6bb3ba8876f5923a4
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T27: MM-17460 — Remove focus trap
 

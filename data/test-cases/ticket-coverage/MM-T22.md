@@ -32,7 +32,7 @@ case_hashed: 40a79bd2a31e808657d33406f6228455cc27e7e24c0eafde95957075a09d2c4f1ee
 steps_hashed: 68b13d15242019d2856ab91cb49502fbc8f7beed5ef5ee0fd92d7bb6fd304cc8516f3968dc6aa8ea1ccc461510a71dfb
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T22: MM-16511 — 'Someone is typing'
 

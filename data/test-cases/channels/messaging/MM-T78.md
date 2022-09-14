@@ -34,7 +34,7 @@ case_hashed: 64f12053a0203cdefc37fe8ec74599bcdd0097c73378a021b58449f51a6a0f6e6e2
 steps_hashed: dc108c4482794be7dfc2d1c0533ab026636d6ede8f60027cf6233a39182a68c1de2b3fa0321a40a7b4977f143763f7f2
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T78: RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the same author as the post above the 'new messages' line
 

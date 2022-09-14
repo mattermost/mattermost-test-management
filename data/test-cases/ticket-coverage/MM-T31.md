@@ -32,7 +32,7 @@ case_hashed: 7a9fcf16e2dd23d9c08ad7f53f1fef7dc6504be240818d42a3438d03bb5acf9364e
 steps_hashed: 231e1fc0252e4ecc27b2ce1edc5f37f2320e0f21f0cfdfb29b538ef831d36ed49471d9e2a31f3c46d5d4dc476c36c57d
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T31: MM-17515 — Mobile browser view: A long email address is not fully visible in Profile Settings
 

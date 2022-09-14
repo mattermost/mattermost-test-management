@@ -35,7 +35,7 @@ case_hashed: 75d05a50949e9a325acfdd8a56415d8fb630f2d57fdb1d59e8f46845f75578836c0
 steps_hashed: 669de96bd94a7aac634a9086827bb6b14cf13b08334d71e57c4688825ba692cd41f381f096451c512e2d8c0905e41b76
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T86: Consecutive message permalink - timestamp link on consecutive message opens permalink view (non-mobile)
 

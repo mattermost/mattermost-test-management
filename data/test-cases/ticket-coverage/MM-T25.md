@@ -32,7 +32,7 @@ case_hashed: 4f16a814064073b6daa1e6814b1cc3e14e1be70925fc69e1aa42ef3108995946333
 steps_hashed: 8bc90f3b38770a29fc4395f5f81b4162d4c7eb1deb5aa3d3ae78fa987c6720e2c095c270b414140ff046298a0fc8e478
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T25: MM-16833 — Web: Scroll position is wrong when entering a permalink view with loaded messages > 120
 

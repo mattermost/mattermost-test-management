@@ -36,7 +36,7 @@ case_hashed: 3bd0ca593707a9b8714cdbb240aa0298cb5e97f0173d483917574d56f0607b1992c
 steps_hashed: f48aec372a850c54fc039377bad5359b74fde0b99c45740b74c295532fceca5c952af78e0c17f73c8d07719c0cae4843
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T5: Add User — UserA & UserB (removed from team)
 

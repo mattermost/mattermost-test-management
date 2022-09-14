@@ -38,7 +38,7 @@ case_hashed: cfae9340cb68d03f831b79bf72cee1f861e80481dfa9da0451e4d22c15846572524
 steps_hashed: a82df0528f936321cb4a7c31b75486a13c3469faf348c525646ff43978e8b65e6a0b1e69f0a055e4cf5d9c3bce3bef90
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T71: Autocomplete highlight should follow mouse hover
 

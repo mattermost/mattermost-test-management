@@ -32,7 +32,7 @@ case_hashed: 1521e49e8ed9f5b8ec215f3229d7319a34405b4720220777cd2231fa6ead87aa645
 steps_hashed: 7f17ab0f8ca8d4e50646c9ef8da6d9dc3ff63da8a7631f2411ee2ef1506d75b117c613980f55048f2f842fdc3d760ba5
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T29: MM-17338 — Setting Require Email Verification to true will break the admin console
 

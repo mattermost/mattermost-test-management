@@ -37,7 +37,7 @@ case_hashed: 2b0980e198b1b5dfee7495c29239c981eff7e212ce06a0fb3cf0f4787899f17d20d
 steps_hashed: ca80014f59a12bbb2ac9b5ae595d31f9a2210dcdf154bf9c9709b83f5db9df0537b148896c0dc8d3d7440abdf14a643e
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T99: Edit post that has attachment, paste text in middle
 

@@ -36,7 +36,7 @@ case_hashed: afe77a2024ef5d549b5954871e0a73094414fb61c232363d60da6c197edd3f51bbb
 steps_hashed: 1e74fa216a08f2fcc9dc4d4849dff3ae711f7ef9a5265059ac2fab035796ae5382014416da80c0dab68b229566b38119
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T88: An elipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
 

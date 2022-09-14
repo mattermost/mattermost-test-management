@@ -32,7 +32,7 @@ case_hashed: 95011f4a666606e9bd0977cdfa14ecf16488a700261ac5ea37203f821b843fc6468
 steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515cbcab7901eda3d3506c0861c0e8dab2
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T28: MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel
 

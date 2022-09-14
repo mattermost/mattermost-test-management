@@ -37,7 +37,7 @@ case_hashed: ece0e1e490e22037ad6b060447ab40a44fdc5df4cffc5111caeb25982e391bec453
 steps_hashed: 1f7bf0cbd8ac439c4b64b8fb07beba93bc9e05a25a665fd7262a418b8c63c477a73ac41e04231b4b5a94b16aa84b9dfa
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T10: Disabling email notifications should not disable email invites
 

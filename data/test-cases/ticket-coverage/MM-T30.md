@@ -32,7 +32,7 @@ case_hashed: 42756d6f85f2b158157cb535d761da60078e58ec47ca3cca6ca797cd2c16a125b5b
 steps_hashed: 22902175a1fd54a623cda96b126a25bcf3686b30fa02156ff69dbcf7fc1da29f4632904d9b61128a97f86e60c691673c
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T30: MM-17346 — Regression: Cursor appears as hand but clicking does nothing on link preview
 

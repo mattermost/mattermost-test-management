@@ -32,7 +32,7 @@ case_hashed: 92c57b91d1202fbcca83403908148fe52f7a626c55a2855e76e671eb686f61c6d27
 steps_hashed: 881a2d36c9d61a1f9af1d8501aadc0f7f0a0823931560109fb9461ad287cb1f5298ad5714d70efc4b3683eca130dafeb
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T20: MM-16922 — Web: Opening a permalink from last few messages of a channel has a loading indicator at the bottom
 

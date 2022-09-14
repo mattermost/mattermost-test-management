@@ -32,7 +32,7 @@ case_hashed: 7a3012417ff9ea4c52bff0b82e152a33b5d78b5e0de1f1a7e695a0d4d99ee7979af
 steps_hashed: 5747bc143916e1ecef8c6d22a88f2a9a2e8b9a8ac4e5d2abf3b6983539c8feb23547fb411895df2b085befe74b2a5950
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T26: When on preview mode, it does not allow to submit a post from the main post input
 

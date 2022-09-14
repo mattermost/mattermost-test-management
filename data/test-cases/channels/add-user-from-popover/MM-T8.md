@@ -36,7 +36,7 @@ case_hashed: e9120e1b7b1605014c33e4398a65660e2d9807cc21bf13f58db8b3e95b1c3d944e6
 steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T8: Add User — UserA & UserB (not on team)
 

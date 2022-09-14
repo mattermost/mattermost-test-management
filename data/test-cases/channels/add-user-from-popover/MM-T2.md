@@ -36,7 +36,7 @@ case_hashed: 8b29a8cf27e82d344c4078b430393ed32b058a10d7afbcf998211826aa14e4494d1
 steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T2: Add user — Error if already in channel
 

@@ -36,7 +36,7 @@ case_hashed: df52988b17f35aaabee5d8302297522678424302f665c4c4b18b54cc09d2e473aa9
 steps_hashed: c1fb8dcb45541915e151642115f41e187404ad9cdf79fe0e317a39684d4b12fa8b4eb9d85cac36e3fd20f576d2b3c137
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T75: RN apps: iOS ONLY - If the keyboard is open, swiping down past it should close it
 

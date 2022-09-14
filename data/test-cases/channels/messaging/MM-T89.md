@@ -36,7 +36,7 @@ case_hashed: c9d67f723cd7b4de56020fa6de73a8fc796f58262117adc4e6b8c9c72a2f4fd34f1
 steps_hashed: bf790776b5bbeb7b994a278d65c09318f727812153714dc8dd5a4569ab61091e6d9de7c6960beacbf804c4149f8aaa1f
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T89: An ellipsis indicates the channel header is too long - DM
 

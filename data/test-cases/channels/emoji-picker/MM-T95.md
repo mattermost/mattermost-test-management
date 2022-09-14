@@ -40,7 +40,7 @@ case_hashed: 5dd3163e4ff2261380daf1239ffd6b4ca6961ff3baa97db71819747b1f2e8272419
 steps_hashed: c9ba45765ba3f44592fd73035cb6087baafb50b6bbcffedc1805fbcd8f59f6e9c6fb20605ee5cbe1553bfd217c4307b8
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T95: Selecting an emoji from emoji picker should insert it at the cursor position
 

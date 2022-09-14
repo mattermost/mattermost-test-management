@@ -32,7 +32,7 @@ case_hashed: 0116f1da28f4599cfc74cefa4da8f29d723f0b0e8976b45d5202bafb49a5458210f
 steps_hashed: de250542d764898510c8d1ece406e2cd41c814388ff6b74b4ec1d131df8f081bcd0fe697e69dadf9a71d8699183be600
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T36: MM-17355 — Channel header text flows on top of channel dropdown menu
 

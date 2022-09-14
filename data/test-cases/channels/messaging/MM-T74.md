@@ -37,7 +37,7 @@ case_hashed: f66acd61ee377143ae03d2ed849ba3995636065731e74cf7dc0757f9f09c537273e
 steps_hashed: 1d5996966248379fa9d9a6fe20b75887dc775d27b2d7d0521bf94610652a4853fb97f953369741a12fc04090437211d7
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T74: Mobile view: Post options menu (3-dots) is present on a reply post in RHS
 

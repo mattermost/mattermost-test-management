@@ -38,7 +38,7 @@ case_hashed: a2f371a58323e6bb71721a1235b20fdbd3f20117b8157eed2107f54aa4f939321b2
 steps_hashed: ac0660560e5a2ffda14b91fe6eafced430ca28e2d28b75e1189960ad9a39ccc20295820c455a2fd5976efee9a3466478
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T70: At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment
 

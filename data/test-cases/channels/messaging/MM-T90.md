@@ -37,7 +37,7 @@ case_hashed: 10135e32cd5ce231d6c171ce94f3669d364947e1e0583cf9a903ded79c43c85c5a7
 steps_hashed: ce6d4186a108dab455b12a6552dd92c066d0a7578d214e620ac4a31f914c4139a8072ccfd5df466cdff1c706b3b76063
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T90: Reply to older message
 

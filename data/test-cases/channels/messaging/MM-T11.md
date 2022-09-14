@@ -35,7 +35,7 @@ case_hashed: cfc26131babb374c5a1fd193a1edcce528b308a9b646dfb7209c6461cd2d4b241c2
 steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f70c0b372c845d7ff1efad100533636
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T11: Open Graph link preview should display animated
 

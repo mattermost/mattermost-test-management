@@ -53,7 +53,7 @@ case_hashed: ${testCase.caseHashed}
 steps_hashed: ${testCase.stepsHashed}
 ${separator}
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## ${testCase.key}: ${sanitizeName(testCase.name)}
 `;
@@ -108,6 +108,12 @@ function getSteps(
           : `${testCasesFolderFullPath}/${calledTestCase?.path}/${step.testCase.testCaseKey}.json`;
 
         const callToTestCase: TestCase = readFile(calledTestCaseFilename);
+        const callToTestCaseSteps = callToTestCase.steps;
+        const stepsRef = callToTestCaseSteps?.length && callToTestCaseSteps.length > 1
+          ? `Steps ${withCallingIndex}${index + 1}.1 to ${withCallingIndex}${
+            index + 1
+          }.${callToTestCaseSteps.length}`
+          : `Step ${withCallingIndex}${index + 1}.1`;
 
         return callToTestCase.steps
           ? `
@@ -115,9 +121,7 @@ ${emStep}**Step ${withCallingIndex}${
             index + 1
           } from ${callToTestCase.key}: ${callToTestCase.name}**${emStep}
 
-<!-- (Auto-generated) Note: The following step/s in Step ${
-            index + 1
-          } should not be updated here. Instead, modify directly to the referenced ${step.testCase.testCaseKey} test case. -->
+<!-- (Auto-generated) Note: ${stepsRef} should not be updated here. Instead, modify directly to the referenced ${step.testCase.testCaseKey} test case. -->
 ${getSteps(callToTestCase.steps, options, `${withCallingIndex}${index + 1}`).join('')}`
           : '';
       }

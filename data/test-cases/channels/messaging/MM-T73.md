@@ -37,7 +37,7 @@ case_hashed: 9a779b089a84039335ef0b5f9a4933a64e0e61c8081b911ebb0d2c502243dcd1a47
 steps_hashed: d8b056eed3e0dcbef40fe2afcfdac63458504801f23080f9999734c0c885e603eccb67307a78104a8eb5252eb373abf9
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T73: Mobile view: Clicking on airplane icon does not open file attachment modal but sends the message
 

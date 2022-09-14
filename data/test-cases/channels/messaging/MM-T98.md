@@ -36,7 +36,7 @@ case_hashed: 5e997c6f1c1bfc3c0936cd459274fd15ac9ba6476e67915084fd37e3dfb39800edf
 steps_hashed: 29b86e50daf779c0c49abf78279258db9b596efca0b97d629228e329d490e200a46fbdeccdd42e88fcc8abfd5349047b
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T98: Typing should show up right away when editing a message using the up arrow
 

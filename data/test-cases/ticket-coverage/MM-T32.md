@@ -33,7 +33,7 @@ case_hashed: d85c6a346ead91713d2c3634548f99546a29c8ccd092e81e3340d8c02e5c5d4d5fc
 steps_hashed: ee1267c727223e42f64e224ccb5c69822ef91c92d59a78ae0b7a9c5d7b0bef2ed100267a8c08cc305d966f1e493c057c
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T32: MM-17441 — Cannot toggle between Safari windows on macOS using (command + `)
 

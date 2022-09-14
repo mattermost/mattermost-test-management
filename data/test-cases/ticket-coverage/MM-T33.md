@@ -32,7 +32,7 @@ case_hashed: 3ecf4a5436428f3e952ce22f7af9c6228d7f2878760a94dd685763040898d295788
 steps_hashed: 5cf24ce1b1f1a0e1f918997ae1e73866adccc0ee500cea7277438b01d9b0179978a4f226391c4f7fba60ffd890d84396
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T33: Invalid channel information in CSV exports
 

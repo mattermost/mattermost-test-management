@@ -37,7 +37,7 @@ case_hashed: 25bcc56a79a748ccd82abb5a9b096858dee5463521a42166027f5401bf70df39e49
 steps_hashed: 417c6346f417682ea6dfc12c5564c7dc64fdb02e6a962e06b57c34b2297611cf69aaed99ba58d8ddfe4659cc1d0eb061
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T94: RHS fetches messages on socket reconnect when a different channel is in center
 

@@ -32,7 +32,7 @@ case_hashed: ec779bf542967613f7e1f448cc74283cbcd66e373f2a810293ce1b7e6e9b91879dc
 steps_hashed: 38e3c9fdf5b32fa75faffc27182ea432bff94563ebe2ae55d185861a62f13657a95b93c790d10bb0f1205b8b129c12f2
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T24: MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page
 

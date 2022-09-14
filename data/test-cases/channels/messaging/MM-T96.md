@@ -36,7 +36,7 @@ case_hashed: 6f90cb970b836ffdfe6766de9f59e015fa820cadd4cab24d0884c84df62897e824c
 steps_hashed: 16f6f98ee0fa5acefb8b8d5a1dfd4c813237e71d65aa9bf161c467066a46da34580f9f3848ad660c84fa0dba361b29fa
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T96: Trying to type in middle of text should not send the cursor to end of textbox
 

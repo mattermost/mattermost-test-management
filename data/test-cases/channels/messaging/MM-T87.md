@@ -36,7 +36,7 @@ case_hashed: bcec422b4ad95a1f88c8366eee02d0ce15924c9ff3b3670746c03f272d29e256fee
 steps_hashed: 13acf8b727ece6a6a915a0fced204fdf2316ca89865716e5771268fc38579eb91a9e23583bb8a48b63b096e2e05d6bee
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T87: Text in bullet points is the same size as text above and below it
 

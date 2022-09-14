@@ -36,7 +36,7 @@ case_hashed: 2d9bf8a66e7a5c64a9aacb610c939bb8906d914ade287c9efc045fb9f11dc2ca44d
 steps_hashed: 557120eafb3f9f219410112564a6a42abc1e9b2686e44412057b10d14e111e34b5821f613319d35af4f723e50904c596
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T97: Open edit modal immediately after making a post
 

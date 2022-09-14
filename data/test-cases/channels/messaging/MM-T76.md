@@ -36,7 +36,7 @@ case_hashed: 7029677ac3f8573c9ea863ca28f9920c9c07568d47e0e1613f489b7ae8e698a65b5
 steps_hashed: f8be2d63ac4c32186fbd83644dbdb52f9f737fd697cc2e2bed9953bf82e4c80cce7f31a237894f7a536f00dcaa9086a0
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T76: RN apps: iOS ONLY - If the keyboard is open, tapping outside the message input box should execute actions on other elements
 

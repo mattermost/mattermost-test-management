@@ -39,7 +39,7 @@ case_hashed: 16330974981ea01c8313d01beaccbe032e35ab9783d32932d8bf69283aa5d70dee7
 steps_hashed: 5d23035a20f3fb99b21721494b1964e69778be4c82345129eeefae63c494aa9da7cb729f72191c028fa6c72ca1fe9e93
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T40: Plugin remains enabled when upgraded
 

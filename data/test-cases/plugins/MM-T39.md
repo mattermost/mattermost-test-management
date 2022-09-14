@@ -39,7 +39,7 @@ case_hashed: 0636960562f3571cc18f92e7307fb972efd7aef95b576be51218d1e1206e0506627
 steps_hashed: 59d10fd3a4f5001c53abb78f7d6d782fc7be9761c7eb2880df676988df8c008e2b177291f0ab88233d2cac93f4855ccd
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T39: Disable Plugin on Removal
 

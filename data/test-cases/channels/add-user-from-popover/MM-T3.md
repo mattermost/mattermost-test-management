@@ -35,7 +35,7 @@ case_hashed: c1e381aafbba2f22708a9d47e6c9e0e0d9d43a3968db1ba55c73d77520e9ffae8af
 steps_hashed: 2c72a705ba316a448773f5090e45621354f727272f418c3b55e0ff7857c3e0999265a0b72dee034c734dd16d4de96824
 ---
 
-<!-- auto-generated based on "key" and "name" -->
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T3: Add User — Public ON / Private OFF
 
