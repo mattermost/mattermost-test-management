@@ -100,8 +100,6 @@ export class ZephyrClient {
   // https://support.smartbear.com/zephyr-scale-cloud/api-docs/#tag/Test-Cases/operation/updateTestCase
   // PUT /testcases/{testCaseKey}
   async updateTestCase(testCase: TestCase) {
-    console.log('updateTestCase', testCase.key, testCase.folderName, testCase.folderFullPath);
-    console.log(testCase.folder);
     const body: TestCaseUpdate = {
       id: testCase.id,
       key: testCase.key,

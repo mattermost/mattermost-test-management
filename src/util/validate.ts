@@ -15,7 +15,9 @@ import { validTestCase } from './test_case.ts';
 import { Component, Folder, Priority, Status, TestCase, TestSteps } from './types.ts';
 
 export function validate(all = false) {
+  // Log info
   console.log(all ? 'Validating all markdown files...' : 'Validating changes...');
+
   const markdownFiles = getFiles(testCasesFolderFullPath, 'md');
 
   const filesToVerify: Record<string, TestCase> = {};
@@ -33,6 +35,7 @@ export function validate(all = false) {
   });
 
   if (!Object.entries(filesToVerify).length) {
+    // Log info
     console.log(yellow('No file change found.'));
     Deno.exit(0);
   }
@@ -40,6 +43,7 @@ export function validate(all = false) {
   const { testCaseToCreate, testCaseToModify, testStepToModify } = getTestChanged(markdownFiles);
 
   if (Object.entries(testCaseToCreate).length) {
+    // Log info
     console.log('\nNew test case to be created:');
     Object.entries(testCaseToCreate).forEach(([file, tc], i) =>
       console.log(`${i + 1}. "${file}": "${tc.name}"`)
@@ -47,6 +51,7 @@ export function validate(all = false) {
   }
 
   if (Object.entries(testCaseToModify).length) {
+    // Log info
     console.log('\nExisting test case to be modified:');
     Object.entries(testCaseToModify).forEach(([file, tc], i) =>
       console.log(`${i + 1}.  "${file}": "${tc.name}"`)
@@ -54,6 +59,7 @@ export function validate(all = false) {
   }
 
   if (Object.entries(testStepToModify).length) {
+    // Log info
     console.log('\nTest step/s for existing test case to be modified:');
     Object.entries(testStepToModify).forEach(([testCaseKey, testSteps], i) => {
       console.log(`${i + 1}.  "${testCaseKey}": ${testSteps?.length} step/s`);
@@ -69,6 +75,7 @@ export function validate(all = false) {
     const folderFound = findSingle(folders, (it) => it.fullPath === fileFolderPath);
     if (folderFound) {
       if (folderFound.name !== tc.folderName) {
+        // Log info
         console.log(
           red('-> (error)'),
           red(
@@ -83,6 +90,7 @@ export function validate(all = false) {
       const parentFolderFound = findSingle(folders, (it) => it.fullPath === fileParentFolderPath);
 
       if (tc.folderName && folderSlug !== sanitizeForSlug(tc.folderName)) {
+        // Log info
         console.log(
           red('-> (error)'),
           red(
@@ -104,6 +112,7 @@ export function validate(all = false) {
   });
 
   if (Object.entries(newFolderByFilePath).length) {
+    // Log info
     console.log('\nNew folders to be created:');
     Object.entries(newFolderByFilePath).forEach(([fullPath, folder], i) => {
       console.log(`${i + 1}.  "${fullPath}": "${folder.name}"`);

@@ -54,6 +54,7 @@ const folderByParentFolder = folders.reduce<Record<string, string[]>>((acc, fold
 }, { root: [] });
 
 if (invalidFolderNames.length) {
+  // Log info
   console.log('With invalid folder names:');
   invalidFolderNames.forEach((invalidName) => console.log(`  - ${invalidName}`));
 }

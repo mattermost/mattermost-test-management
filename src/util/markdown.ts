@@ -313,7 +313,6 @@ function renderArray(text: string[] | null) {
 }
 
 export function markdownToTestCase(file: string): TestCase {
-  // console.log('markdownToTestCase', file);
   const { content, data } = grayMatter.read(file);
   const { objective, precondition, steps } = getTestFieldsFromContent(content);
   const testCase: TestCase = {

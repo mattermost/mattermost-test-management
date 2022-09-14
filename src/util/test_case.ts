@@ -407,6 +407,7 @@ function cycleHtmlMarkdownConversion(doc: string | null) {
 }
 
 export function compareTestCase(a: TestCase, b: TestCase) {
+  // Logs for info only
   if (a.id !== b.id) {
     throw new Error(`${a.id} !== ${b.id}`);
   }

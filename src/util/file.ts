@@ -7,6 +7,7 @@ export function writeFile(path: string, data: string): string {
 
     return 'Done writing to ' + path;
   } catch (e) {
+    // Log info
     console.log(`Error writing to a file: ${path} --> ${e}`);
     return e.message;
   }
