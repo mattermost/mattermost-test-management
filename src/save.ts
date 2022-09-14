@@ -23,42 +23,32 @@ const {
 } = validate();
 
 if (foldersToCreate.length) {
+  // Log info
   console.log(yellow('Creating new folder in Zephyr...'));
+
   for (let i = 0; i < foldersToCreate.length; i++) {
     const folderToCreate = foldersToCreate[i];
-    console.log(`${i + 1}.  "${folderToCreate.fullPath}": "${folderToCreate.name}"`);
 
-    console.log(folderToCreate, 'before folderToCreate');
+    // Log info
+    console.log(`${i + 1}.  "${folderToCreate.fullPath}": "${folderToCreate.name}"`);
 
     const found = findSingle(folders, (it) => it.fullPath === folderToCreate.fullPath);
     if (found) {
+      // Log info
+      console.log(yellow('-> Folder already existed.'));
       continue;
     }
-
-    console.log(found, 'found');
 
     if (folderToCreate.parentId === undefined) {
       const parentFolder = findSingle(folders, (it) => {
         const parts = folderToCreate.fullPath.split('/');
         parts.pop();
 
-        if (it.fullPath.includes('saturn-testing')) {
-          console.log(it, 'it');
-          console.log(parts, 'parts');
-
-          console.log(parts.join('/'), 'parts.join');
-          console.log(it.fullPath, 'it.fullPath');
-          console.log(it.fullPath === parts.join('/'));
-        }
-
         return it.fullPath === parts.join('/');
       });
-      console.log(parentFolder, 'parentFolder');
 
       folderToCreate.parentId = parentFolder?.id;
     }
-
-    console.log(folderToCreate, 'after folderToCreate');
 
     if (folderToCreate.name) {
       const res = await zephyr.createFolder({
@@ -67,7 +57,7 @@ if (foldersToCreate.length) {
         folderType: 'TEST_CASE',
         parentId: folderToCreate.parentId,
       });
-      console.log(res, 'res');
+      // Log info
       console.log(green('-> Folder successfully created!'));
 
       folders.push({ ...folderToCreate, id: res.id });
@@ -83,10 +73,12 @@ const statuses = await zephyr.getAllStatuses(projectKey, 'TEST_CASE', 0, 100) as
 
 const fileAndTestCaseToCreate = Object.entries(testCaseToCreate);
 if (fileAndTestCaseToCreate.length) {
+  // Log info
   console.log(yellow('Saving new test case to Zephyr...'));
 
   for (let i = 0; i < fileAndTestCaseToCreate.length; i++) {
     const [file, testCase] = fileAndTestCaseToCreate[i];
+    // Log info
     console.log(`${i + 1}. "${file}": "${testCase.name}"`);
 
     testCase.folderFullPath = getFolderFullPath(file);
@@ -103,7 +95,7 @@ if (fileAndTestCaseToCreate.length) {
     const testCaseFound = findSingle(testCases, (it) => it.name === testCase.name);
     if (testCaseFound) {
       const folderFound = findSingle(folders, (it) => it.id === testCaseFound.folder?.id);
-      if (folderFound) {
+      if (folderFound?.fullPath === testCase.folderFullPath) {
         console.warn(
           red(
             `! Did not create a test case. Same "${testCase.name}" title is present at "${testCase.folderFullPath}".`,
@@ -113,8 +105,8 @@ if (fileAndTestCaseToCreate.length) {
       }
     }
 
-    const res = await zephyr.createTestCase(testCase);
-    console.log(res);
+    const folder = findSingle(folders, (it) => it.fullPath === testCase.folderFullPath);
+    const res = await zephyr.createTestCase({ ...testCase, folder });
     const createdTestCase = { ...testCase, id: res.id, key: res.key };
     testCases.push(createdTestCase);
 
@@ -127,16 +119,19 @@ if (fileAndTestCaseToCreate.length) {
       await saveTestSteps(zephyr, createdTestCase.key, testCase.steps, 'created');
     }
 
+    // Log info
     console.log(green(`-> Test case created: ${createdTestCase.key}`));
   }
 }
 
 const fileAndTestCaseToModify = Object.entries(testCaseToModify);
 if (fileAndTestCaseToModify.length) {
+  // Log info
   console.log(yellow('Updating test case in Zephyr...'));
 
   for (let i = 0; i < fileAndTestCaseToCreate.length; i++) {
     const [file, testCase] = fileAndTestCaseToCreate[i];
+    // Log info
     console.log(`${i + 1}. "${file}": "${testCase.name}"`);
 
     testCase.folderFullPath = getFolderFullPath(file);
@@ -167,6 +162,8 @@ if (fileAndTestCaseToModify.length) {
       priority,
       status,
     });
+
+    // Log info
     if (success) {
       console.info(i + 1, green(`-> Test case updated for ${testCase.key}`));
     } else {
@@ -177,10 +174,12 @@ if (fileAndTestCaseToModify.length) {
 
 const fileAndTestStepToModify = Object.entries(testStepToModify);
 if (fileAndTestStepToModify.length) {
+  // Log info
   console.log(yellow('Updating steps of a test case in Zephyr...'));
 
   for (let i = 0; i < fileAndTestStepToModify.length; i++) {
     const [key, steps] = fileAndTestStepToModify[i];
+    // Log info
     console.log(`${i + 1}. "${key}": with ${steps?.length} step/s`);
 
     if (steps) {
@@ -200,6 +199,7 @@ async function saveTestSteps(
     items: steps,
   });
 
+  // Log info
   if (success) {
     console.info(green(`-> Test steps ${message} for ${testKey}`));
   } else {
