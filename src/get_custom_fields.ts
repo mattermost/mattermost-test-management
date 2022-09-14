@@ -6,7 +6,7 @@ import { saveTestCaseCustomFieldsToFile } from './util/test_case.ts';
 import { TestCaseCustomFields } from './util/types.ts';
 import { makeZephyrClient } from './util/zephyr.ts';
 
-const zephyr = await makeZephyrClient();
+const zephyr = makeZephyrClient();
 
 const testCases = await zephyr.getAllTestCases(projectKey, 0, 1000);
 

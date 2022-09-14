@@ -1,94 +1,121 @@
-// deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/update.ts
+// deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts
 
 import { findSingle, green, red, yellow } from './deps.ts';
 
-import { projectKey, testCasesFolderFullPath } from './util/constant.ts';
-import { readFile } from './util/file.ts';
-import { getFiles, getHashes } from './util/helper.ts';
+import { projectKey } from './util/constant.ts';
+import { getFolderFullPath } from './util/helper.ts';
 import { makeJiraClient } from './util/jira.ts';
-import { isValidTestCase } from './util/test_case.ts';
-import { Component, Folder, Priority, Status, TestCase, TestSteps } from './util/types.ts';
-import { makeZephyrClient } from './util/zephyr.ts';
+import { validTestCase } from './util/test_case.ts';
+import { Component, Folder, Priority, Status, TestSteps } from './util/types.ts';
+import { validate } from './util/validate.ts';
+import { makeZephyrClient, ZephyrClient } from './util/zephyr.ts';
 
-const jira = await makeJiraClient();
-const zephyr = await makeZephyrClient();
+const jira = makeJiraClient();
+const zephyr = makeZephyrClient();
 
-const files = getFiles(testCasesFolderFullPath);
+const folders = await zephyr.getAllFolders(projectKey, 'TEST_CASE', 0, 100) as Folder[];
 
-const newTests: TestCase[] = [];
-const modifiedTests: TestCase[] = [];
-const modifiedTestStepsByKey: Record<string, TestSteps | undefined> = {};
-files.forEach((file) => {
-  const testCase = readFile(file) as TestCase;
+const {
+  foldersToCreate,
+  testCaseToCreate,
+  testCaseToModify,
+  testStepToModify,
+} = validate();
 
-  if (testCase.id) {
-    const [caseHashed, stepsHashed] = getHashes(testCase);
+if (foldersToCreate.length) {
+  console.log(yellow('Creating new folder in Zephyr...'));
+  for (let i = 0; i < foldersToCreate.length; i++) {
+    const folderToCreate = foldersToCreate[i];
+    console.log(`${i + 1}.  "${folderToCreate.fullPath}": "${folderToCreate.name}"`);
 
-    if (testCase.caseHashed !== caseHashed) {
-      modifiedTests.push(testCase);
+    console.log(folderToCreate, 'before folderToCreate');
+
+    const found = findSingle(folders, (it) => it.fullPath === folderToCreate.fullPath);
+    if (found) {
+      continue;
     }
 
-    if (testCase.stepsHashed !== stepsHashed) {
-      modifiedTestStepsByKey[testCase.key] = testCase.steps;
+    console.log(found, 'found');
+
+    if (folderToCreate.parentId === undefined) {
+      const parentFolder = findSingle(folders, (it) => {
+        const parts = folderToCreate.fullPath.split('/');
+        parts.pop();
+
+        if (it.fullPath.includes('saturn-testing')) {
+          console.log(it, 'it');
+          console.log(parts, 'parts');
+
+          console.log(parts.join('/'), 'parts.join');
+          console.log(it.fullPath, 'it.fullPath');
+          console.log(it.fullPath === parts.join('/'));
+        }
+
+        return it.fullPath === parts.join('/');
+      });
+      console.log(parentFolder, 'parentFolder');
+
+      folderToCreate.parentId = parentFolder?.id;
     }
-  } else {
-    newTests.push(testCase);
+
+    console.log(folderToCreate, 'after folderToCreate');
+
+    if (folderToCreate.name) {
+      const res = await zephyr.createFolder({
+        name: folderToCreate.name,
+        projectKey,
+        folderType: 'TEST_CASE',
+        parentId: folderToCreate.parentId,
+      });
+      console.log(res, 'res');
+      console.log(green('-> Folder successfully created!'));
+
+      folders.push({ ...folderToCreate, id: res.id });
+    }
   }
-});
-
-if (!(newTests.length || modifiedTests.length || Object.entries(modifiedTestStepsByKey).length)) {
-  console.log(yellow('No change found. Nothing to create nor update.'));
-  Deno.exit(0);
 }
 
 // Get up-to-date records from the service
 const testCases = await zephyr.getAllTestCases(projectKey, 0, 1000);
-const folders = await zephyr.getAllFolders(projectKey, 'TEST_CASE', 0, 100) as Folder[];
 const components = await jira.getComponents(projectKey, 100) as Component[];
 const priorities = await zephyr.getAllPriorities(projectKey, 0, 100) as Priority[];
 const statuses = await zephyr.getAllStatuses(projectKey, 'TEST_CASE', 0, 100) as Status[];
 
-if (!newTests.length) {
-  console.log(yellow('No test to create'));
-} else {
-  console.log(yellow('New test to be created:'));
-  newTests.forEach((tc, index) => console.log(`  ${index + 1}. ${tc.key}: ${tc.name}`));
+const fileAndTestCaseToCreate = Object.entries(testCaseToCreate);
+if (fileAndTestCaseToCreate.length) {
+  console.log(yellow('Saving new test case to Zephyr...'));
 
-  for (let i = 0; i < newTests.length; i++) {
-    const testCase = newTests[i];
+  for (let i = 0; i < fileAndTestCaseToCreate.length; i++) {
+    const [file, testCase] = fileAndTestCaseToCreate[i];
+    console.log(`${i + 1}. "${file}": "${testCase.name}"`);
 
-    // create folder if needed
-    const folder = await createFolderIfNeeded(testCase, folders);
-
-    // use folder
-    testCase.folder = folder;
-
-    throwIfNotFound('Priority', priorities, testCase.key, testCase.priority?.id);
-    throwIfNotFound('Status', statuses, testCase.key, testCase.status?.id);
-    throwIfNotFound('Component', components, testCase.key, testCase.component?.id);
-
-    const validTestCase = isValidTestCase(testCase, { components, folders, priorities, statuses });
+    testCase.folderFullPath = getFolderFullPath(file);
+    const testCaseError = validTestCase(testCase, { components, folders, priorities, statuses });
 
     // Log for info
-    if (validTestCase) {
-      console.log('(OK) Changes are valid');
+    if (!testCaseError.length) {
+      console.log(green('-> Changes are valid.'));
     } else {
       // Should not continue when test case is not valid
       throw new Error('Test case not valid!');
     }
 
-    const found = testCases.filter((it) => it.name === testCase.name);
-    if (found.length > 0) {
-      console.warn(
-        red(
-          `! Did not create a test case. Same "${testCase.name}" title is present at "${testCase.folder?.fullPath}".`,
-        ),
-      );
-      continue;
+    const testCaseFound = findSingle(testCases, (it) => it.name === testCase.name);
+    if (testCaseFound) {
+      const folderFound = findSingle(folders, (it) => it.id === testCaseFound.folder?.id);
+      if (folderFound) {
+        console.warn(
+          red(
+            `! Did not create a test case. Same "${testCase.name}" title is present at "${testCase.folderFullPath}".`,
+          ),
+        );
+        continue;
+      }
     }
 
     const res = await zephyr.createTestCase(testCase);
-    const createdTestCase = { ...testCase, id: res.id };
+    console.log(res);
+    const createdTestCase = { ...testCase, id: res.id, key: res.key };
     testCases.push(createdTestCase);
 
     // Save test steps
@@ -97,129 +124,85 @@ if (!newTests.length) {
     }
 
     if (testCase.steps) {
-      await zephyr.createTestSteps(createdTestCase.key, {
-        mode: 'OVERWRITE',
-        items: testCase.steps,
-      });
+      await saveTestSteps(zephyr, createdTestCase.key, testCase.steps, 'created');
     }
 
-    console.log(green(`(OK) Test case created for ${createdTestCase.key}`));
+    console.log(green(`-> Test case created: ${createdTestCase.key}`));
   }
 }
 
-if (!modifiedTests.length) {
-  console.log(yellow('No test info to update'));
-} else {
-  console.log(yellow('Test info to be updated:'));
-  modifiedTests.forEach((tc, index) => console.log(`  ${index + 1}. ${tc.key}: ${tc.name}`));
+const fileAndTestCaseToModify = Object.entries(testCaseToModify);
+if (fileAndTestCaseToModify.length) {
+  console.log(yellow('Updating test case in Zephyr...'));
 
-  for (let i = 0; i < modifiedTests.length; i++) {
-    const testCase = modifiedTests[i];
+  for (let i = 0; i < fileAndTestCaseToCreate.length; i++) {
+    const [file, testCase] = fileAndTestCaseToCreate[i];
+    console.log(`${i + 1}. "${file}": "${testCase.name}"`);
 
-    // create folder if needed
-    const folder = await createFolderIfNeeded(testCase, folders);
-
-    // use folder
-    testCase.folder = folder;
-
-    throwIfNotFound('Test Case', testCases, testCase.key, testCase.id);
-    throwIfNotFound('Priority', priorities, testCase.key, testCase.priority?.id);
-    throwIfNotFound('Status', statuses, testCase.key, testCase.status?.id);
-    throwIfNotFound('Component', components, testCase.key, testCase.component?.id);
-
-    const validTestCase = isValidTestCase(testCase, { components, folders, priorities, statuses });
+    testCase.folderFullPath = getFolderFullPath(file);
+    const testCaseError = validTestCase(testCase, { components, folders, priorities, statuses });
 
     // Log for info
-    if (validTestCase) {
-      console.log(green('(OK) Changes are valid'));
+    if (!testCaseError.length) {
+      console.log(green('-> Changes are valid.'));
     } else {
+      testCaseError.forEach((err) => console.log(red('-> (error)'), red(err)));
+
       // Should not continue when test case is not valid
       throw new Error('Test case not valid!');
     }
 
-    const success = await zephyr.updateTestCase(testCase);
+    const component = findSingle(components, (it) => it.name === testCase.componentName);
+    const folder = findSingle(
+      folders,
+      (it) => it.name === testCase.folderName && it.fullPath === testCase.folderFullPath,
+    );
+    const priority = findSingle(priorities, (it) => it.name === testCase.priorityName);
+    const status = findSingle(statuses, (it) => it.name === testCase.statusName);
+
+    const success = await zephyr.updateTestCase({
+      ...testCase,
+      component,
+      folder,
+      priority,
+      status,
+    });
     if (success) {
-      console.info(green(`(OK) Test case updated for ${testCase.key}`));
+      console.info(i + 1, green(`-> Test case updated for ${testCase.key}`));
     } else {
-      console.warn(red(`! Test case not updated for ${testCase.key}`));
+      console.warn(i + 1, red(`! Test case not updated for ${testCase.key}`));
     }
   }
 }
 
-if (!Object.entries(modifiedTestStepsByKey).length) {
-  console.log(yellow('No test step to update'));
-} else {
-  console.log(yellow('Test step to be updated:'));
-  Object.entries(modifiedTestStepsByKey).forEach(([key, _steps]) => console.log(`  - ${key}`));
+const fileAndTestStepToModify = Object.entries(testStepToModify);
+if (fileAndTestStepToModify.length) {
+  console.log(yellow('Updating steps of a test case in Zephyr...'));
 
-  const modifiedSteps = Object.entries(modifiedTestStepsByKey);
-  for (let i = 0; i < modifiedSteps.length; i++) {
-    const [key, steps] = modifiedSteps[i];
+  for (let i = 0; i < fileAndTestStepToModify.length; i++) {
+    const [key, steps] = fileAndTestStepToModify[i];
+    console.log(`${i + 1}. "${key}": with ${steps?.length} step/s`);
 
     if (steps) {
-      const success = await zephyr.createTestSteps(key, {
-        mode: 'OVERWRITE',
-        items: steps,
-      });
-
-      if (success) {
-        console.info(green(`(OK) Test steps updated for ${key}`));
-      } else {
-        console.warn(red(`! Test steps not updated for ${key}`));
-      }
+      await saveTestSteps(zephyr, key, steps, 'updated');
     }
   }
 }
 
-function throwIfNotFound<T extends { id?: string | number | null }>(
-  type: string,
-  records: T[],
-  key: string,
-  idToCheck?: string | number | null,
-): T | null {
-  if (idToCheck) {
-    const found = findSingle(records, (it) => it.id === idToCheck);
-
-    if (!found) {
-      throw new Error(
-        `  ${key}: ${type} not found with id="${idToCheck}".`,
-      );
-    }
-
-    return found;
-  }
-
-  return null;
-}
-
-async function createFolderIfNeeded(testCase: TestCase, folders: Folder[]): Promise<Folder> {
-  let folder: Folder | null | undefined;
-  if (testCase.folder?.id) {
-    folder = throwIfNotFound('Folder', folders, testCase.key, testCase.folder?.id);
-  }
-
-  if (!folder && testCase.folder?.fullPath) {
-    folder = findSingle(folders, (it) => it.fullPath === testCase.folder.fullPath);
-  }
-
-  if (folder) {
-    return folder;
-  }
-
-  // validate folder info: name
-  if (!testCase.folder?.name) {
-    throw new Error(`  ${testCase.key}: Folder name required.`);
-  }
-
-  // validate parent folder
-  throwIfNotFound('Parent folder', folders, testCase.key, testCase.folder?.parentId);
-
-  // create folder
-  const res = await zephyr.createFolder({
-    name: testCase.folder.name,
-    projectKey,
-    folderType: 'TEST_CASE',
-    parentId: testCase.folder.parentId,
+async function saveTestSteps(
+  zephyr: ZephyrClient,
+  testKey: string,
+  steps: TestSteps,
+  message: string,
+) {
+  const success = await zephyr.createTestSteps(testKey, {
+    mode: 'OVERWRITE',
+    items: steps,
   });
-  return { ...testCase.folder, id: res.id };
+
+  if (success) {
+    console.info(green(`-> Test steps ${message} for ${testKey}`));
+  } else {
+    console.warn(red(`! Test steps not ${message} for ${testKey}`));
+  }
 }

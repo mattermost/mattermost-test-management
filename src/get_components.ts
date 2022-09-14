@@ -4,7 +4,7 @@ import { dataFolderPath, projectKey } from './util/constant.ts';
 import { writeFile } from './util/file.ts';
 import { makeJiraClient } from './util/jira.ts';
 
-const jira = await makeJiraClient();
+const jira = makeJiraClient();
 
 const data = await jira.getComponents(projectKey, 100);
 

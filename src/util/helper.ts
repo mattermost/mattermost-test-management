@@ -1,7 +1,7 @@
-import { crypto, path, walkSync } from '../deps.ts';
+import { crypto, findSingle, path, walkSync } from '../deps.ts';
 
 import { testCasesFolderFullPath } from './constant.ts';
-import { Folder, TestCase } from './types.ts';
+import { Folder, TestCase, TestStep } from './types.ts';
 
 interface CliArgs {
   all: boolean;
@@ -44,14 +44,36 @@ export function wait(ms: number): Promise<any> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export function getFolderByPath(folders: Folder[], fullPath: string) {
-  if (!fullPath) {
-    return null;
+export function getFolderNameAndFullPathById(folders: Folder[], id?: number) {
+  const fullNames: string[] = [];
+  let folderId: number | null | undefined = id;
+  let parentId: number | null | undefined;
+  let root = false;
+  while (!root) {
+    const folder = findSingle(folders, (it) => it.id === folderId);
+    if (!folder) {
+      break;
+    }
+
+    if (!parentId) {
+      parentId = folder.parentId;
+    }
+
+    folderId = folder?.parentId;
+    fullNames.push(folder?.name || 'check_me');
+
+    root = folder.parentId === null;
   }
 
-  return folders.find((f) => f.fullPath === fullPath);
+  fullNames.reverse();
+
+  return {
+    name: fullNames[fullNames.length - 1],
+    fullPath: fullNames.map((name) => sanitizeForSlug(name)).join('/'),
+  };
 }
 
+// todo: remove
 export function getParentFolderById(folders: Folder[], id?: number) {
   if (!id) {
     return null;
@@ -111,14 +133,12 @@ export function sanitizeName(input: string) {
     .trim();
 }
 
-export function getFiles(dir: string) {
+export function getFiles(dir: string, ext: string) {
   const files: string[] = [];
-  let count = 0;
 
   for (const entry of walkSync(dir)) {
     if (!entry.isSymlink && entry.isFile) {
-      if (entry.path.includes('.json')) {
-        count++;
+      if (entry.path.includes(`.${ext}`)) {
         files.push(entry.path);
       }
 
@@ -133,20 +153,9 @@ export function getFiles(dir: string) {
   return files;
 }
 
-export function isFolderPathValid(file: string, fullPath?: string) {
+export function getFolderFullPath(file: string) {
   const fileParts = file.replace(`${testCasesFolderFullPath}/`, '').split('/');
-  const fileBasedFolderPath = fileParts.slice(0, fileParts.length - 1).join('/');
-
-  if (fullPath !== fileBasedFolderPath) {
-    // Log for info
-    console.log(
-      `! "folder.fullPath = ${fullPath}" does not match with actual file location "${
-        fileParts.join('/')
-      }"`,
-    );
-  }
-
-  return fullPath === fileBasedFolderPath;
+  return fileParts.slice(0, fileParts.length - 1).join('/');
 }
 
 export function getHex(text: string): string {
@@ -163,8 +172,61 @@ export function getHashes(testCase: TestCase) {
   delete testCaseCopy.stepsHashed;
   delete testCaseCopy.steps;
 
-  const caseHashed = getHex(JSON.stringify(testCaseCopy));
-  const stepsHashed = testCase.steps ? getHex(JSON.stringify(testCase.steps)) : null;
+  const caseHashed = getHex(reorganizeTestCaseFields(testCase));
+  const stepsHashed = getHex(reorganizeTestStepsFields(testCase.steps));
 
   return [caseHashed, stepsHashed];
+}
+
+function reorganizeTestCaseFields(testCase: TestCase) {
+  return JSON.stringify({
+    id: testCase.id,
+    key: testCase.key,
+    name: testCase.name,
+    createdOn: testCase.createdOn,
+    objective: testCase.objective,
+    precondition: testCase.precondition,
+    estimatedTime: testCase.estimatedTime,
+    labels: testCase.labels,
+    componentName: testCase.componentName,
+    priorityName: testCase.priorityName,
+    statusName: testCase.statusName,
+    folderName: testCase.folderName,
+    customFields: {
+      'Rainforest': testCase.customFields.Rainforest,
+      'Team Ownership': testCase.customFields['Team Ownership'],
+      'Manual Test Environments': testCase.customFields['Manual Test Environments'],
+      'Tags': testCase.customFields.Tags,
+      'Playwright': testCase.customFields.Playwright,
+      'Priority P1 to P4': testCase.customFields['Priority P1 to P4'],
+      'Update notes': testCase.customFields['Update notes'],
+      'Detox': testCase.customFields.Detox,
+      'Cypress': testCase.customFields.Cypress,
+      'MMCTL': testCase.customFields.MMCTL,
+      'Location': testCase.customFields.Location,
+      'Authors': testCase.customFields.Authors,
+      'Last Updated': testCase.customFields['Last Updated'],
+    },
+  }).replaceAll('&nbsp;', ' ');
+}
+
+function reorganizeTestStepsFields(testSteps?: TestStep[] | null) {
+  if (!testSteps) {
+    return '';
+  }
+
+  return JSON.stringify(testSteps.map((step) => {
+    if (step?.inline) {
+      return {
+        inline: {
+          description: step.inline.description,
+          testData: step.inline.testData,
+          expectedResult: step.inline.expectedResult,
+        },
+        testCase: step.testCase,
+      };
+    }
+
+    return step;
+  })).replaceAll('&nbsp;', ' ');
 }

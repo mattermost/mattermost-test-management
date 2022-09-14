@@ -6,15 +6,11 @@
     "get-statuses": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_statuses.ts && deno fmt",
     "get-folders": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_folders.ts && deno fmt",
     "get-test-cases": "rm -rf data/test-cases && deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_test_cases.ts && deno fmt",
-    "to-markdown": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/to_markdown.ts && deno fmt",
     "get-custom-fields": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_custom_fields.ts && deno fmt",
-    "create-folder": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/create_folder.ts && deno fmt",
-    "create-template": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/create_template.ts && deno fmt",
-    "watch": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/watch.ts",
     "validate": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts",
     "validate-all": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts --all && deno fmt",
     "save": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts",
-    "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno task to-markdown && deno lint",
+    "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno lint",
     "check": "deno fmt && deno lint"
   },
   "compilerOptions": {

@@ -6,7 +6,7 @@ import { writeFile } from './util/file.ts';
 import { Folder } from './util/types.ts';
 import { makeZephyrClient } from './util/zephyr.ts';
 
-const zephyr = await makeZephyrClient();
+const zephyr = makeZephyrClient();
 
 const folders = await zephyr.getAllFolders(projectKey, 'TEST_CASE', 0, 100) as Folder[];
 
@@ -27,6 +27,10 @@ console.log(
 const invalidFolderNames: string[] = [];
 
 const folderByParentFolder = folders.reduce<Record<string, string[]>>((acc, folder) => {
+  if (!folder.name) {
+    return acc;
+  }
+
   const parts = folder.fullPath?.split('/');
   const parent = parts?.length === 1 ? 'root' : parts?.slice(0, parts.length - 1).join('/');
 

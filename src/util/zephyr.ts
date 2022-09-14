@@ -58,8 +58,8 @@ export class ZephyrClient {
       precondition: testCase.precondition,
       estimatedTime: testCase.estimatedTime,
       componentId: testCase.component?.id,
-      priorityName: testCase.priority?.name,
-      statusName: testCase.status?.name,
+      priorityName: testCase.priorityName,
+      statusName: testCase.statusName,
       folderId: testCase.folder?.id,
       labels: testCase.labels,
       customFields: {
@@ -100,6 +100,8 @@ export class ZephyrClient {
   // https://support.smartbear.com/zephyr-scale-cloud/api-docs/#tag/Test-Cases/operation/updateTestCase
   // PUT /testcases/{testCaseKey}
   async updateTestCase(testCase: TestCase) {
+    console.log('updateTestCase', testCase.key, testCase.folderName, testCase.folderFullPath);
+    console.log(testCase.folder);
     const body: TestCaseUpdate = {
       id: testCase.id,
       key: testCase.key,
@@ -602,7 +604,7 @@ export type FolderInput = {
 export type CreateResponse = {
   id: number;
   self: string;
-  key?: string;
+  key: string;
 };
 
 export type GetTestStepsResponse = {
