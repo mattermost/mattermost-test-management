@@ -1,6 +1,6 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_folders.ts
 
-import { findSingle } from './deps.ts';
+import { findSingle, sortBy } from './deps.ts';
 import { dataFolderPath, projectKey } from './util/constant.ts';
 import { writeFile } from './util/file.ts';
 import { Folder } from './util/types.ts';
@@ -59,9 +59,16 @@ if (invalidFolderNames.length) {
   invalidFolderNames.forEach((invalidName) => console.log(`  - ${invalidName}`));
 }
 
+const sortedFolderByParent = sortBy(
+  Object.entries(folderByParentFolder).map(([parent, folders]) => {
+    return { parent, folders };
+  }),
+  (it) => it.parent,
+);
+
 // Save data
 console.log(
-  writeFile(`${dataFolderPath}/folder-by-parent.json`, JSON.stringify(folderByParentFolder)),
+  writeFile(`${dataFolderPath}/folder-by-parent.json`, JSON.stringify(sortedFolderByParent)),
 );
 console.log(
   invalidFolderNames.length,

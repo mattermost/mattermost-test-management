@@ -177,13 +177,23 @@ export function validate(all = false) {
   });
 
   if (all) {
+    const sortedTestByFolder = sortBy(
+      Object.entries(testByFolder).map(([folder, tests]) => {
+        return { folder, tests };
+      }),
+      (it) => it.folder,
+    );
+
     // Save data
     console.log(
-      writeFile(`${dataFolderPath}/test-by-folder.json`, JSON.stringify(testByFolder)),
+      writeFile(`${dataFolderPath}/test-by-folder.json`, JSON.stringify(sortedTestByFolder)),
     );
     console.log(
       invalidTestNames.length,
-      writeFile(`${dataFolderPath}/invalid-test-names.json`, JSON.stringify(invalidTestNames)),
+      writeFile(
+        `${dataFolderPath}/invalid-test-names.json`,
+        JSON.stringify(sortBy(invalidTestNames, (it) => it)),
+      ),
     );
 
     // Log empty folder which could be candidate for deletion
