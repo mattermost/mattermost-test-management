@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: 
+- se-prod
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -17,23 +25,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: 
-- se-prod
-
 # Do not change
 id: 2756570
 key: MM-T14
-folder_path: ticket-coverage
 created_on: "2019-08-27T12:51:14Z"
 last_updated: ""
-case_hashed: 7af9c2242de1e362214ebb1be7bebde3c7d66f3e854d2346d29256d09e80a51fbb4ef9546d3ff3962b29d9df7bd8dc09
+case_hashed: c93f23c2b6a4016050f7382beab089cf2597423974ee0a2234ce98452d208b57a4302355ecc4f51c0a2b5e0a88c83454
 steps_hashed: 6909160f43d4764aad26d59f0793e16882e5799a5745ad27b9f12737d60f27c38593e40019df64e90465ee1c7b38e7a1
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T14: Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover
 

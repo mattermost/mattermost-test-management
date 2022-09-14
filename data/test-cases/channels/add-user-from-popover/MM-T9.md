@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Add user to channel from popover
+component: null
+tags: []
+labels: 
+- cy-prod
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,23 +26,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
-location: Add user to channel from popover
-tags: []
-labels: 
-- cy-prod
-
 # Do not change
 id: 2746258
 key: MM-T9
-folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
 last_updated: "2022-09-10T10:54:34Z"
-case_hashed: 85109bfb9eeec1d6752c161ff674579689abc27474fbe6262ccbb973ff5184bd43c8e1af7c546adc1a26944898362a41
+case_hashed: 127439ef9416ad40462fa4af452a357ff582885e4f7895e0682b475d78d6d0a1162e401bcc821724d01c84866e94173b
 steps_hashed: 488625ccb847eb7b7e6af00bd951c5ad8d35c1193b14f03f7bd5bbd5b33429222a460629c5d091685523e8656ef7d3d5
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T9: Add User — Any user (can add users)
 

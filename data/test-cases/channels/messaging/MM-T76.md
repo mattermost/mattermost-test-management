@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: 
+- Never tested
+labels: 
+- ios-only
+- messaging
+
 # (Optional) Test type and tools
 cypress: N/A
 detox: N/A
@@ -17,25 +27,16 @@ rainforest:
 - Mobile
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: 
-- Never tested
-labels: 
-- ios-only
-- messaging
-
 # Do not change
 id: 3736152
 key: MM-T76
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: 1d3f57532fc8728c743129359d72bc9c3891a00b5fff6563338d43634634284fc96ddbcf093685ec3374c99942ea6a16
+case_hashed: 7029677ac3f8573c9ea863ca28f9920c9c07568d47e0e1613f489b7ae8e698a65b58a14bb4c7e6d118d5e48b4b2eb559
 steps_hashed: f8be2d63ac4c32186fbd83644dbdb52f9f737fd697cc2e2bed9953bf82e4c80cce7f31a237894f7a536f00dcaa9086a0
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T76: RN apps: iOS ONLY - If the keyboard is open, tapping outside the message input box should execute actions on other elements
 

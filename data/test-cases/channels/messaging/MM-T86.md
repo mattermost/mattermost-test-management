@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- messaging
+
 # (Optional) Test type and tools
 cypress: Ticket Open
 detox: null
@@ -18,23 +26,16 @@ rainforest:
 manual_test_environments: 
 - Webapp
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Messaging
-tags: []
-labels: 
-- messaging
-
 # Do not change
 id: 3741717
 key: MM-T86
-folder_path: channels/messaging
 created_on: "2019-12-20T16:32:58Z"
 last_updated: ""
-case_hashed: 46dc7650b6a73269de8562c1414aa9bf10445bfdf7c7932721e56cb147063a0d91b77b9796a8181e2be40f021a07e798
+case_hashed: 75d05a50949e9a325acfdd8a56415d8fb630f2d57fdb1d59e8f46845f75578836c012dea9c3403419316601cc49b2059
 steps_hashed: 669de96bd94a7aac634a9086827bb6b14cf13b08334d71e57c4688825ba692cd41f381f096451c512e2d8c0905e41b76
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T86: Consecutive message permalink - timestamp link on consecutive message opens permalink view (non-mobile)
 

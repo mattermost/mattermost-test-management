@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,25 +27,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741720
 key: MM-T89
-folder_path: channels/messaging
 created_on: "2019-12-20T16:32:59Z"
 last_updated: ""
-case_hashed: 73c5978921f29200b62b484fbc1ce2cd18839c0643d01318cf2f048d9ed6818bfe032029c68b274bfe5a52ea8dfd630f
+case_hashed: c9d67f723cd7b4de56020fa6de73a8fc796f58262117adc4e6b8c9c72a2f4fd34f1a36b9e0fdd2d6c482109cce20b83d
 steps_hashed: bf790776b5bbeb7b994a278d65c09318f727812153714dc8dd5a4569ab61091e6d9de7c6960beacbf804c4149f8aaa1f
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T89: An ellipsis indicates the channel header is too long - DM
 

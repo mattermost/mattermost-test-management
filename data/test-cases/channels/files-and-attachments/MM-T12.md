@@ -8,6 +8,18 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Files and Attachments
+component: null
+tags: []
+labels: 
+- Hackfest
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- files-and-attachments
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,27 +29,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Files and Attachments
-tags: []
-labels: 
-- Hackfest
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- files-and-attachments
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 2746624
 key: MM-T12
-folder_path: channels/files-and-attachments
 created_on: "2019-08-27T00:36:47Z"
 last_updated: ""
-case_hashed: 0f409b06943f9aa24cc58e01f5726debe3e3c7fc256e1df13fe284908ecca5e1ee84d0fb8d1d19fe77345423707200a0
+case_hashed: 3c76759b163c96d68ed7b2de2201ff63e30daa3cc3e9099b3a76f7dbcacddd91d2e90608de2f43e766902ac3921f842d
 steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T12: Loading indicator when posting images
 

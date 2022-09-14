@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,25 +28,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741722
 key: MM-T91
-folder_path: channels/messaging
 created_on: "2019-12-20T16:32:59Z"
 last_updated: "2022-09-09T20:49:56Z"
-case_hashed: 382cf28a496b61ab26b6683412462f5dc99fd6c751a57f479ed744e0fa29e5b8f77c18c75ffb02702f03726a3475f219
+case_hashed: 7c2ace3789d013d99e83901565014b1c861d8381e9aa41adc7e857439ba2307cacb00b0cf66092665295f3e0adf0ba0e
 steps_hashed: 349aca556e6c8a7e565d577723a66ce00939d0b96d43fadd7658b16e60c4915cbad42c11345232dbde44e9dc5df30a81
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T91: Replying to an older post by a user that has no content (only file attachments)
 

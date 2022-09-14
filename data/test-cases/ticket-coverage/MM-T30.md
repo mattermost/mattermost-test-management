@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2760799
 key: MM-T30
-folder_path: ticket-coverage
 created_on: "2019-08-28T10:23:48Z"
 last_updated: "2022-09-09T20:39:13Z"
-case_hashed: 1a62c2de7a3e09c2a4c8be807af1f791b287ef68ef5d684dc9e740e91d4567ef78682189c4b3472136bd9e424ba413d4
+case_hashed: 42756d6f85f2b158157cb535d761da60078e58ec47ca3cca6ca797cd2c16a125b5b7f0a1affcfb30509810af3498500f
 steps_hashed: 22902175a1fd54a623cda96b126a25bcf3686b30fa02156ff69dbcf7fc1da29f4632904d9b61128a97f86e60c691673c
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T30: MM-17346 — Regression: Cursor appears as hand but clicking does nothing on link preview
 

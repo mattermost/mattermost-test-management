@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2759120
 key: MM-T24
-folder_path: ticket-coverage
 created_on: "2019-08-27T22:52:09Z"
 last_updated: ""
-case_hashed: c99bb3fc7a02718e5d009957b3f86a30375987c22ba4b203ccb498c76316b182c7935050bf0d8506742687482b275925
+case_hashed: ec779bf542967613f7e1f448cc74283cbcd66e373f2a810293ce1b7e6e9b91879dce3b95bc3ccf4fe6c76e29fcae9000
 steps_hashed: 38e3c9fdf5b32fa75faffc27182ea432bff94563ebe2ae55d185861a62f13657a95b93c790d10bb0f1205b8b129c12f2
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T24: MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page
 

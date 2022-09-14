@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2761313
 key: MM-T33
-folder_path: ticket-coverage
 created_on: "2019-08-28T12:11:41Z"
 last_updated: ""
-case_hashed: 6378a13542edb7777f3f19868afc8f6f132cb68564de384f7b1259256df3648488d63150e45ea47767d8e364df4b75bd
+case_hashed: 3ecf4a5436428f3e952ce22f7af9c6228d7f2878760a94dd685763040898d2957881d0ccb563cf104bb694279da25d6f
 steps_hashed: 5cf24ce1b1f1a0e1f918997ae1e73866adccc0ee500cea7277438b01d9b0179978a4f226391c4f7fba60ffd890d84396
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T33: Invalid channel information in CSV exports
 

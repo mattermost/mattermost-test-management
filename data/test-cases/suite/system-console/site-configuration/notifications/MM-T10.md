@@ -8,6 +8,17 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: System Console
+component: null
+tags: 
+- Cloud N/A
+labels: 
+- Cloud-N/A
+- system-console
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: Ticket Open
 detox: null
@@ -17,26 +28,16 @@ rainforest: []
 manual_test_environments: 
 - Webapp
 
-# (Optional)
-component: null
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
-location: System Console
-tags: 
-- Cloud N/A
-labels: 
-- Cloud-N/A
-- system-console
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 2746386
 key: MM-T10
-folder_path: suite/system-console/site-configuration/notifications
 created_on: "2019-08-26T23:46:53Z"
 last_updated: ""
-case_hashed: b6a6d8fe4ef8e56f045fda41040615a9146c788e9c87c6b417486e97bd10df1c9d93b180fa75a67e70743b1ba87a60ff
+case_hashed: ece0e1e490e22037ad6b060447ab40a44fdc5df4cffc5111caeb25982e391bec45324abca99a87bf6be54e9d8662bda0
 steps_hashed: 1f7bf0cbd8ac439c4b64b8fb07beba93bc9e05a25a665fd7262a418b8c63c477a73ac41e04231b4b5a94b16aa84b9dfa
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T10: Disabling email notifications should not disable email invites
 

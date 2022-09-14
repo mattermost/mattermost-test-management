@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -17,22 +24,16 @@ rainforest: []
 manual_test_environments: 
 - Desktop - macOS
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2761126
 key: MM-T32
-folder_path: ticket-coverage
 created_on: "2019-08-28T11:36:30Z"
 last_updated: ""
-case_hashed: 22df9c1b71549f8a716925bc8120236e8bfef5fecfe367412d0076b363e4bed16ff69c91b6ed1e67358d3f7cc147d938
+case_hashed: d85c6a346ead91713d2c3634548f99546a29c8ccd092e81e3340d8c02e5c5d4d5fcc9fc4e7c0aef399cfaee32e25a149
 steps_hashed: ee1267c727223e42f64e224ccb5c69822ef91c92d59a78ae0b7a9c5d7b0bef2ed100267a8c08cc305d966f1e493c057c
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T32: MM-17441 — Cannot toggle between Safari windows on macOS using (command + `)
 

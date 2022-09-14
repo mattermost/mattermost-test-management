@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,25 +27,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741727
 key: MM-T96
-folder_path: channels/messaging
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
-case_hashed: 61692c20f4ddd2593eeb7558205e2ac4cb073120fce9613fd34794b4ef4251566cd32a24d516abf83f8669530ff3acfc
+case_hashed: 6f90cb970b836ffdfe6766de9f59e015fa820cadd4cab24d0884c84df62897e824ca752635e9a604173fd13b10803e2c
 steps_hashed: 16f6f98ee0fa5acefb8b8d5a1dfd4c813237e71d65aa9bf161c467066a46da34580f9f3848ad660c84fa0dba361b29fa
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T96: Trying to type in middle of text should not send the cursor to end of textbox
 

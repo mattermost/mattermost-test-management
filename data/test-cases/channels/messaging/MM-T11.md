@@ -8,6 +8,15 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- messaging
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: To Do
 detox: null
@@ -17,24 +26,16 @@ rainforest: []
 manual_test_environments: 
 - Desktop
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- messaging
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 8168020
 key: MM-T11
-folder_path: channels/messaging
 created_on: "2020-12-10T17:51:24Z"
 last_updated: "2022-09-09T20:50:00Z"
-case_hashed: c853e21fecfaaafa98f416ad5c662c2a87f3b5705d965f43801ed7bf67cf9500670dd4c05fcb7785f25e636d19a1722e
+case_hashed: cfc26131babb374c5a1fd193a1edcce528b308a9b646dfb7209c6461cd2d4b241c2e5af70d3887c8a266f2fb917a7e5d
 steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f70c0b372c845d7ff1efad100533636
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T11: Open Graph link preview should display animated
 

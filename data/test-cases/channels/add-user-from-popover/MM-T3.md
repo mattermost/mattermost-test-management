@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: []
+labels: 
+- cy-prod
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,23 +26,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Add user to channel from popover
-tags: []
-labels: 
-- cy-prod
-
 # Do not change
 id: 2746252
 key: MM-T3
-folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:54Z"
 last_updated: "2022-09-10T10:54:35Z"
-case_hashed: 25bfccb899d57676ec1bdb96007b3e44ec8f45c2400444ccdeada7acaf5b44f4134af4919a754eae0559a489affd298d
+case_hashed: c1e381aafbba2f22708a9d47e6c9e0e0d9d43a3968db1ba55c73d77520e9ffae8af72d064e03b458409d08ad81579d87
 steps_hashed: 2c72a705ba316a448773f5090e45621354f727272f418c3b55e0ff7857c3e0999265a0b72dee034c734dd16d4de96824
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T3: Add User — Public ON / Private OFF
 

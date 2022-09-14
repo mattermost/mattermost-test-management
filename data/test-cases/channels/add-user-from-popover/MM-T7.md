@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: []
+labels: 
+- cy-prod
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,23 +26,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Add user to channel from popover
-tags: []
-labels: 
-- cy-prod
-
 # Do not change
 id: 2746256
 key: MM-T7
-folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
 last_updated: "2022-09-10T10:54:36Z"
-case_hashed: 39798a73c2ac68e00ef9cd64c70d61fce39a84526c084c40743a50eac4557681203201814a6735bd7a6c748012bd516c
+case_hashed: 4502f0a344e65c40faa02794354be0904b4ff45399c2e0af0578f1bdf225defdbe45e89be2fe0ccbadd12b42600ff725
 steps_hashed: c30deebd362ac55789ac1f9f406f5eae591a7277dc25cfc0e20b3056e49ac217a41285e5f9a7a2f0d61da7b3c17f97b2
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T7: Add User — Team admins (Private only)
 

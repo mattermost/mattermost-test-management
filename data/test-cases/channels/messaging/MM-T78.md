@@ -8,6 +8,14 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- messaging
+
 # (Optional) Test type and tools
 cypress: N/A
 detox: N/A
@@ -17,23 +25,16 @@ rainforest:
 - Mobile
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- messaging
-
 # Do not change
 id: 3736154
 key: MM-T78
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: "2022-09-09T17:57:14Z"
-case_hashed: 2e78d45e083e878d9fec339ef5196d27e3c240ca4add35424e79392b5e83e49c00fbe85b8d3a843d8983c8fc1c73c3a0
+case_hashed: 64f12053a0203cdefc37fe8ec74599bcdd0097c73378a021b58449f51a6a0f6e6e2891ace054d11783dd5eb9289b86f9
 steps_hashed: dc108c4482794be7dfc2d1c0533ab026636d6ede8f60027cf6233a39182a68c1de2b3fa0321a40a7b4977f143763f7f2
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T78: RN apps: 'commented on' line is NOT shown on the post below the 'new messages' line if it is from the same author as the post above the 'new messages' line
 

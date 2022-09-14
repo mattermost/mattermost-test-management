@@ -8,6 +8,15 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: 
+- Cloud N/A
+labels: 
+- cy-prod
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,24 +27,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Add user to channel from popover
-tags: 
-- Cloud N/A
-labels: 
-- cy-prod
-
 # Do not change
 id: 2746251
 key: MM-T2
-folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:54Z"
 last_updated: "2022-09-10T10:54:35Z"
-case_hashed: 9725df319b65b3e1248a5898779c9a518b0f8b09fca0b42faef76fc627fb792a26adf1a618c89cb12cac0bdb6795fbc1
+case_hashed: 8b29a8cf27e82d344c4078b430393ed32b058a10d7afbcf998211826aa14e4494d1fc295dbf56e19f1bdf77a1b06b5aa
 steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T2: Add user — Error if already in channel
 

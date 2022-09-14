@@ -8,6 +8,15 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: []
+labels: 
+- cy-prod
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,24 +27,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Add user to channel from popover
-tags: []
-labels: 
-- cy-prod
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 2746257
 key: MM-T8
-folder_path: channels/add-user-from-popover
 created_on: "2019-08-26T23:03:55Z"
 last_updated: "2022-09-10T10:54:33Z"
-case_hashed: 89e810c210345fa3b5adfb8e90694bd8343a392d3eeb3839c13eca13fa5478381198f7dc66a1eaa4df8a5e35ad5f845c
+case_hashed: e9120e1b7b1605014c33e4398a65660e2d9807cc21bf13f58db8b3e95b1c3d944e6b3a549edc61b3f51892dc3899bad0
 steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T8: Add User — UserA & UserB (not on team)
 

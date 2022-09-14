@@ -8,6 +8,17 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,26 +29,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 3736146
 key: MM-T70
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: 4f603a6837382245e101fa90737dd7bca67280b7f3d18a1d226ed76b1b337f8370db272c2dabbafc6c4c99fae8ed5aab
+case_hashed: a2f371a58323e6bb71721a1235b20fdbd3f20117b8157eed2107f54aa4f939321b20e36f0ce857be71d4ae2cd389515a
 steps_hashed: ac0660560e5a2ffda14b91fe6eafced430ca28e2d28b75e1189960ad9a39ccc20295820c455a2fd5976efee9a3466478
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T70: At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment
 

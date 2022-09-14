@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,25 +28,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3736150
 key: MM-T74
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: a66efba2ae017ae14f1b1508f3e05ab40eff730e7ba1a901aa07bee3371b0e06d26e8725f91f8adbdaa6997c9d1bd08e
+case_hashed: f66acd61ee377143ae03d2ed849ba3995636065731e74cf7dc0757f9f09c537273ee2ea6d2896ec3532ecaf1fa12d397
 steps_hashed: 1d5996966248379fa9d9a6fe20b75887dc775d27b2d7d0521bf94610652a4853fb97f953369741a12fc04090437211d7
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T74: Mobile view: Post options menu (3-dots) is present on a reply post in RHS
 

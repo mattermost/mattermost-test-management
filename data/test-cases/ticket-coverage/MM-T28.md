@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2759609
 key: MM-T28
-folder_path: ticket-coverage
 created_on: "2019-08-28T02:12:57Z"
 last_updated: ""
-case_hashed: e2b935f68b015d3c745845fdb82c45691d8f286cb7aea9ca81de853f0d3e7090652e2eb034aac7415e058d4e969d69a8
+case_hashed: 95011f4a666606e9bd0977cdfa14ecf16488a700261ac5ea37203f821b843fc64685fb17b18339a6d8185420e5c34b24
 steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515cbcab7901eda3d3506c0861c0e8dab2
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T28: MM-17354 — Switching to a channel with unreads cuts off the date indicator if the post is the first one in channel
 

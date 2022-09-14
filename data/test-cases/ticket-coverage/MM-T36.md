@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2763407
 key: MM-T36
-folder_path: ticket-coverage
 created_on: "2019-08-28T16:49:47Z"
 last_updated: ""
-case_hashed: 3473a2cab11acc0c0ffeec2886d39c088b0313b6a0c5bd3af24183d5430a7963ba4466287632a1632c6a5ccaf876ccd9
+case_hashed: 0116f1da28f4599cfc74cefa4da8f29d723f0b0e8976b45d5202bafb49a5458210fc409aeefa2a9888dd18865d85e062
 steps_hashed: de250542d764898510c8d1ece406e2cd41c814388ff6b74b4ec1d131df8f081bcd0fe697e69dadf9a71d8699183be600
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T36: MM-17355 — Channel header text flows on top of channel dropdown menu
 

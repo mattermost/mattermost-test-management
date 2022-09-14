@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,25 +27,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741718
 key: MM-T87
-folder_path: channels/messaging
 created_on: "2019-12-20T16:32:58Z"
 last_updated: ""
-case_hashed: 0935996b034e6997796def1be7da372700305e405f650a1ba58746d6fc51691807e551fa825ab031b19414cca73164db
+case_hashed: bcec422b4ad95a1f88c8366eee02d0ce15924c9ff3b3670746c03f272d29e256feea14d1f530c1c2b7dcdf4cdff21ed6
 steps_hashed: 13acf8b727ece6a6a915a0fced204fdf2316ca89865716e5771268fc38579eb91a9e23583bb8a48b63b096e2e05d6bee
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T87: Text in bullet points is the same size as text above and below it
 

@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- rf-cloud-webapp
+- messaging
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: Ticket Open
 detox: null
@@ -19,25 +29,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Messaging
-tags: []
-labels: 
-- rf-cloud-webapp
-- messaging
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 3736147
 key: MM-T71
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: 268e7b1795273d663483d76a4446a86378f50fbd71fbe8db8b184dc417fa9bc4c09cf00a78b33544f4c22a21090b278f
+case_hashed: cfae9340cb68d03f831b79bf72cee1f861e80481dfa9da0451e4d22c15846572524dc576e4d8b4ccfd597a2fad7a062d
 steps_hashed: a82df0528f936321cb4a7c31b75486a13c3469faf348c525646ff43978e8b65e6a0b1e69f0a055e4cf5d9c3bce3bef90
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T71: Autocomplete highlight should follow mouse hover
 

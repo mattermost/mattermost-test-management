@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,25 +28,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3736149
 key: MM-T73
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: 74dd5e8f106d34b8d10c05ffc3ff93f974e7158672776c93ee701f1867f9b0d29e542a5c6ec823319ce8331d15bd1a13
+case_hashed: 9a779b089a84039335ef0b5f9a4933a64e0e61c8081b911ebb0d2c502243dcd1a47572a87b0def79047849b0e15f6f77
 steps_hashed: d8b056eed3e0dcbef40fe2afcfdac63458504801f23080f9999734c0c885e603eccb67307a78104a8eb5252eb373abf9
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T73: Mobile view: Clicking on airplane icon does not open file attachment modal but sends the message
 

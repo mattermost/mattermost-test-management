@@ -8,6 +8,13 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
 # (Optional) Test type and tools
 cypress: null
 detox: null
@@ -16,22 +23,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: null
-location: Ticket coverage
-tags: []
-labels: []
-
 # Do not change
 id: 2759570
 key: MM-T26
-folder_path: ticket-coverage
 created_on: "2019-08-28T01:56:36Z"
 last_updated: ""
-case_hashed: 1bd86111e641463851280adc6d9853f3fea2e3ec895e01d7cdd4997b1cc2d0b7b3f18abacbc8f52d558b62651c700099
+case_hashed: 7a3012417ff9ea4c52bff0b82e152a33b5d78b5e0de1f1a7e695a0d4d99ee7979af694fac4c37c9b0ae4c12067080478
 steps_hashed: 5747bc143916e1ecef8c6d22a88f2a9a2e8b9a8ac4e5d2abf3b6983539c8feb23547fb411895df2b085befe74b2a5950
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T26: When on preview mode, it does not allow to submit a post from the main post input
 

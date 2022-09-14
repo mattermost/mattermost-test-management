@@ -8,6 +8,17 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- rf-cloud-webapp
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -20,26 +31,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- rf-cloud-webapp
-- messaging
-
 # Do not change
 id: 3741726
 key: MM-T95
-folder_path: channels/emoji-picker
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
-case_hashed: baf47c888ad72c694d792837ba61306313ef550bbc08d5743089d28ef544baf6e27a3e837aee22658771ab0d061cb442
+case_hashed: 5dd3163e4ff2261380daf1239ffd6b4ca6961ff3baa97db71819747b1f2e8272419e78174dc0d6d0b7c21ab06e0933fb
 steps_hashed: c9ba45765ba3f44592fd73035cb6087baafb50b6bbcffedc1805fbcd8f59f6e9c6fb20605ee5cbe1553bfd217c4307b8
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T95: Selecting an emoji from emoji picker should insert it at the cursor position
 

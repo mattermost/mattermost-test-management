@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -18,25 +28,16 @@ rainforest:
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3736153
 key: MM-T77
-folder_path: channels/messaging
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: 772adc24a3ab04a2b2145d860f8f3d9b1f89e9b7da3d7ee52511c44b8aebffb9ffbe40984dbec643a4ba2e720641bf2c
+case_hashed: c839056d44ae34e39caf68367d077d6ae19bfd8c5e03108ead97c943b8454955339412e8512ee8ee7f981256d4466771
 steps_hashed: d2c27c9e2f63dbb9c79a3aa241e37986f4aed3653b04a9f3d253713a0d0e05bf96c3dd8c0641a5b3f15c71140bb243a9
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T77: Consecutive message does not repeat profile info (center and reply thread)
 

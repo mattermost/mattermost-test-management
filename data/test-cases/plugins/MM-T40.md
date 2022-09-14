@@ -8,19 +8,10 @@ authors: ""
 team_ownership: 
 - Integration Frameworks
 
-# (Optional) Test type and tools
-cypress: in Production
-detox: N/A
-mmctl: null
-playwright: null
-rainforest: []
-manual_test_environments: 
-- Automated - No manual tests needed
-
 # (Optional)
-component: null
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: Plugins
+component: null
 tags: 
 - Cloud N/A
 labels: 
@@ -30,15 +21,25 @@ labels:
 - plugins
 - cy-prod
 
+# (Optional) Test type and tools
+cypress: in Production
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
 # Do not change
 id: 2774412
 key: MM-T40
-folder_path: plugins
 created_on: "2019-08-30T01:47:11Z"
 last_updated: "2022-09-09T19:37:08Z"
-case_hashed: a4c8aafe02655ed86c3f174e4ab5001f9331a39365d0d8bdfa502b2a04088ecdbe4cac5356c7bad3703ce658fa679486
+case_hashed: 16330974981ea01c8313d01beaccbe032e35ab9783d32932d8bf69283aa5d70dee715fac2b24541f8a5f9425d2b2b681
 steps_hashed: 5d23035a20f3fb99b21721494b1964e69778be4c82345129eeefae63c494aa9da7cb729f72191c028fa6c72ca1fe9e93
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T40: Plugin remains enabled when upgraded
 

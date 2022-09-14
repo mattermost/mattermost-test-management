@@ -8,6 +8,17 @@ authors: ""
 team_ownership: 
 - QA Platform
 
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Smoke Test
+component: null
+tags: 
+- Smoke test
+labels: 
+- RN_Smoke_Tests
+- smoke-test-folder
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: N/A
 detox: N/A
@@ -18,26 +29,16 @@ rainforest:
 manual_test_environments: 
 - Mobile
 
-# (Optional)
-component: null
-priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
-location: Smoke Test
-tags: 
-- Smoke test
-labels: 
-- RN_Smoke_Tests
-- smoke-test-folder
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 2814840
 key: MM-T43
-folder_path: mobile-app--native-specific-
 created_on: "2019-09-04T21:03:12Z"
 last_updated: "2022-09-10T11:55:02Z"
-case_hashed: b20bd2475448656bbc5c971b2bab0cc78ea3ac24d1b2e92787fa10f56dfac9c32cdfadee08cb87e766f2a510eb51c435
+case_hashed: 0ac2bd8667a38c5a271972f1cf568e008d8de03f9d6f66337f78d650783a4e2d6bc12bd1415e1500c782b20822128e0b
 steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T43: Mobile classic apps: Smoke Tests
 

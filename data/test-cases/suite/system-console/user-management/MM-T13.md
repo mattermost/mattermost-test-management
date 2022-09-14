@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: System Console
+component: null
+tags: []
+labels: 
+- se-prod
+- system-console
+- fix-versions-not-empty-2022cleanup
+
 # (Optional) Test type and tools
 cypress: To Do
 detox: null
@@ -16,25 +26,16 @@ playwright: null
 rainforest: []
 manual_test_environments: []
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: System Console
-tags: []
-labels: 
-- se-prod
-- system-console
-- fix-versions-not-empty-2022cleanup
-
 # Do not change
 id: 2746634
 key: MM-T13
-folder_path: suite/system-console/user-management
 created_on: "2019-08-27T00:41:48Z"
 last_updated: ""
-case_hashed: 02d6f2736dae5549a9bca0c7ec47bcdd5fd42e4910dbe451b39e22a24d8414bfca3ac0ec317c03f98b3d7a82cd8eba42
+case_hashed: f126fe87e4d94c2cd3d32a10efd6ecccbad1a62b47764a2c7b8c846e879585c145e404051e8f9451a0ca8868bb751cc4
 steps_hashed: a39fabddcb7887c189156f8d552940611750c152a95b5f471ca87c338e0a5bbf4bc0dae21dc305bc052ccfa3d7229740
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T13: Option should be hidden to update own email via System Console
 

@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,25 +27,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741719
 key: MM-T88
-folder_path: channels/messaging
 created_on: "2019-12-20T16:32:59Z"
 last_updated: "2022-09-09T17:58:20Z"
-case_hashed: 29825e9f807bf09b705534ce12dc8b0eb6a2e67c6dc427e46453e37c445d4cf768554e2db6650112580da097314a4bc1
+case_hashed: afe77a2024ef5d549b5954871e0a73094414fb61c232363d60da6c197edd3f51bbba6056ac2c87a7aa5f75f3342e5501
 steps_hashed: 1e74fa216a08f2fcc9dc4d4849dff3ae711f7ef9a5265059ac2fab035796ae5382014416da80c0dab68b229566b38119
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T88: An elipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
 

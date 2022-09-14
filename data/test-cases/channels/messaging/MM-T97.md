@@ -8,6 +8,16 @@ authors: ""
 team_ownership: 
 - Channels
 
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
@@ -17,25 +27,16 @@ rainforest: []
 manual_test_environments: 
 - Automated - No manual tests needed
 
-# (Optional)
-component: null
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
-location: Messaging
-tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-
 # Do not change
 id: 3741728
 key: MM-T97
-folder_path: channels/messaging
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
-case_hashed: 712f1b01bd1fee9e06f0380842c067f3d2e7551ff99b1a66a1e356e93d29ca64326e0b346240bec9eb530d930c85379f
+case_hashed: 2d9bf8a66e7a5c64a9aacb610c939bb8906d914ade287c9efc045fb9f11dc2ca44d43ae0982d026029ef847198187c4f
 steps_hashed: 557120eafb3f9f219410112564a6a42abc1e9b2686e44412057b10d14e111e34b5821f613319d35af4f723e50904c596
 ---
+
+<!-- auto-generated based on "key" and "name" -->
 
 ## MM-T97: Open edit modal immediately after making a post
 
