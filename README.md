@@ -27,32 +27,50 @@ If you're interested in shaping this project, please reach out to our community 
 2. __`/src` folder__: Scripts that are used for integrating with our third-party Test Management System either for getting or syncing information.
 
 ## Getting started
-We're using [Deno](https://deno.land/) to run scripts at the `/src` folder. See https://deno.land/#installation for installation.
+There are three ways to get started in contributing to this project.
+1. Highly recommended to [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management) for it provides a fully initialized and readily available environment.
+2. With your local machine upon checking out this repo. You should have [Deno](https://deno.land/) installed in your machine so you could run scripts at the `/src` folder. See https://deno.land/#installation for installation.
+3. If you're contributing for test cases only where it's written in markdown file, you may do so directly via this GiHub repo. See GitHub docs on how to [create new files and submit pull request](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files).
 
-## Getting started if you'd like to contribute with test cases
-1. Checkout this repo and make sure that `Deno` is installed in your local machine.
-2. See test cases at `/data/test-cases` and either create or update a test case.
-3. Each JSON file at `/data/test-cases` represents the source of truth of its corresponding markdown file. Therefore when updating a test case:
-    - Modify the values of the JSON file
-    - Run `deno task watch` to take effect changes into its markdown file.
-    - Once change is final, run `deno task validate` and see if all changes are valid. Fix error as flagged in the terminal.
-4. When creating a test case:
-    - Create a template by running `deno task create-template`. Enter basic information like "Test title", "folder" and/or "folder name".
-    - Run `deno task watch` to take effect changes into its markdown file.
-    - Once change is final, run `deno task validate` and see if all changes are valid. Fix error as flagged in the terminal.
+## Getting started if you're contributing to add or update test cases
+1. See test cases at `/data/test-cases`. Each test case is written in a markdown file in two main sections:\
+a. `Frontmatter` for metadata of a test case where each field is group into required, optional and do not change.\
+b. `Content` for description and steps information.
+2. When creating a test case:\
+a. Copy the basic template at [data/TEST_CASE_TEMPLATE.md](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/TEST_CASE_TEMPLATE.md).
+b. Update the required information from the `Frontmatter` section such as:
+    - `name` - name of the test case
+    - `status` - with default value of `Approved`
+    - `priority` - with default value of `Normal`
+    - `folder` - name of a folder. It should follow the same name of existing folder (e.g. `Channels` for `data/test-cases/channels`) or a slug equivalent of new folder (e.g. `2236 Shiny Feature` for `data/test-cases/channels/2236-shiny-feature`). Note: `2236` is in the format of `YYWW` or a shortened year and week when a feature is introduced.
+    - `authors` - author's GitHub handle (e.g. `@original`)
+    - `team_ownership` - (array) Team name who owns a feature or test case.
+c. Update the content section such as:
+    - `Objective` (optional)
+    - `Precondition` (optional)
+    - `Step` (array, required)
+      - description (required)
+      - `Test Data` (optional)
+      - `Expected` (optional)
+3. When updating a test case:\
+In addition to the same process when creating a new test case, the submitter should append his/her GitHub handle to `authors` field, comma-separated (e.g. `authors: @original,@updater`).
+4. Once change is final, run `deno task validate` and see if all changes are valid. Fix error as flagged in the terminal.
 5. Always run `deno task check` to ensure formatting is correct and no lint error. 
 6. Create a branch and submit changes as pull requests.
 
+> Note: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
 
 ## Getting started if you'd like to contribute with integration
-1. Checkout this repo and make sure that `Deno` is installed in your local machine.
-2. Scripts can be found at `/src` folder.
-3. Integrating Jira and Zephyr Scale requires its tokens. You may set via environment variables or via `.env` file setting values for `ZEPHYR_TOKEN` and `JIRA_PAT`. See their docs on how to get tokens:
-- [Jira Personal Access Token](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html)
+1. Checkout this repo and make sure that `Deno` is installed in your local machine or [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management).
+2. Scripts can be found at `/src` folder and are all written in Typescript.
+3. Integrating Zephyr Scale and Jira requires its tokens. You may set via environment variables or via `.env` config with values for `ZEPHYR_TOKEN` and `JIRA_PAT`. See their docs on how to get tokens:
 - [Zephyr Scale API Access Token](https://support.smartbear.com/zephyr-scale-cloud/docs/rest-api/generating-api-access-tokens.html)
+- [Jira Personal Access Token](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html)
 4. See list of tasks that are available at [deno.jsonc]([here](https://github.com/mattermost/mattermost-test-management/blob/main/deno.jsonc)).
 5. Always run `deno task check` to ensure formatting is correct and no lint error.
 6. Create a branch and submit changes as pull requests.
 
+> Note: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
+
 ## License
-Licensed under Apache License 2.0. Read full text [here](https://github.com/mattermost/mattermost-test-management/blob/main/LICENSE.txt).
+Licensed under Apache License 2.0. Read full text [here](https://github.com/mattermost/mattermost-test-management/blob/main/LICENSE).
