@@ -1,4 +1,4 @@
-import { crypto, findSingle, path, walkSync } from '../deps.ts';
+import { crypto, findSingle, walkSync } from '../deps.ts';
 
 import { testCasesFolderFullPath } from './constant.ts';
 import { Folder, TestCase, TestStep } from './types.ts';
@@ -140,12 +140,6 @@ export function getFiles(dir: string, ext: string) {
     if (!entry.isSymlink && entry.isFile) {
       if (entry.path.includes(`.${ext}`)) {
         files.push(entry.path);
-      }
-
-      let directory = path.dirname(entry.path).substring(dir.length);
-
-      if (!directory) {
-        directory = 'root';
       }
     }
   }

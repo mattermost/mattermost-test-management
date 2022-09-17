@@ -7,6 +7,7 @@
     "get-folders": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_folders.ts && deno fmt",
     "get-test-cases": "rm -rf data/test-cases && deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_test_cases.ts && deno fmt",
     "get-custom-fields": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_custom_fields.ts && deno fmt",
+    "get-manifests": "deno run --allow-run --allow-read=. --allow-write=. --allow-env src/get_manifests.ts && deno fmt",
     "validate": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts",
     "validate-all": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts --all && deno fmt",
     "save": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts",
@@ -19,7 +20,7 @@
   },
   "lint": {
     "files": {
-      "include": ["src/", "data/"],
+      "include": ["src/", "data/", "www/"],
       "exclude": []
     },
     "rules": {
