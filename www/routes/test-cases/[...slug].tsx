@@ -6,7 +6,7 @@ import { frontMatter, gfm } from "../../utils/markdown.ts";
 import { removeFromLast } from "../../utils/utils.ts";
 
 import Header from "../../components/header.tsx";
-import Sidebar from "../../components/sidebar.tsx";
+import Sidebar from "../../islands/sidebar.tsx";
 import Footer from "../../components/footer.tsx";
 import NavigationBar from "../../components/navigation_bar.tsx";
 
@@ -93,7 +93,7 @@ function Main(props: { path: string; page: Page }) {
 function DesktopSidebar(props: { path: string }) {
   return (
     <nav class="w-[16rem] flex-shrink-0 hidden md:block py-8 pr-4 border(r-2 gray-100)">
-      <Sidebar routes={tcManifest} />
+      <Sidebar routes={tcManifest} level={0} />
     </nav>
   );
 }
