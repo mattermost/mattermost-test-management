@@ -6,7 +6,7 @@ import { frontMatter, gfm } from "../../utils/markdown.ts";
 import { removeFromLast } from "../../utils/utils.ts";
 
 import Header from "../../components/header.tsx";
-import Sidebar from "../../components/sidebar.tsx";
+import Sidebar from "../../islands/Sidebar.tsx";
 import Footer from "../../components/footer.tsx";
 import NavigationBar from "../../components/navigation_bar.tsx";
 
@@ -83,17 +83,17 @@ function Main(props: { path: string; page: Page }) {
   return (
     <div class="flex-1">
       <div class="mx-auto max-w-screen-lg px-4 flex gap-6">
-        <DesktopSidebar path={props.path} />
+        <DesktopSidebar pageSlug={props.page.slug} path={props.path} />
         <Content page={props.page} />
       </div>
     </div>
   );
 }
 
-function DesktopSidebar(props: { path: string }) {
+function DesktopSidebar(props: { path: string, pageSlug: string }) {
   return (
     <nav class="w-[16rem] flex-shrink-0 hidden md:block py-8 pr-4 border(r-2 gray-100)">
-      <Sidebar routes={tcManifest} />
+      <Sidebar routes={tcManifest} openPath={props.pageSlug} />
     </nav>
   );
 }

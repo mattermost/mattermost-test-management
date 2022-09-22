@@ -9,6 +9,7 @@ import * as $2 from "./routes/gfm.css.ts";
 import * as $3 from "./routes/index.tsx";
 import * as $4 from "./routes/test-case/[testCaseId].tsx";
 import * as $5 from "./routes/test-cases/[...slug].tsx";
+import * as $$0 from "./islands/Sidebar.tsx";
 
 const manifest = {
   routes: {
@@ -19,7 +20,9 @@ const manifest = {
     "./routes/test-case/[testCaseId].tsx": $4,
     "./routes/test-cases/[...slug].tsx": $5,
   },
-  islands: {},
+  islands: {
+    "./islands/Sidebar.tsx": $$0,
+  },
   baseUrl: import.meta.url,
   config,
 };
