@@ -8,6 +8,7 @@ import { removeFromLast } from "../../utils/utils.ts";
 import Header from "../../components/header.tsx";
 import Sidebar from "../../islands/Sidebar.tsx";
 import Footer from "../../components/footer.tsx";
+import Search from "../../islands/Search.tsx";
 import NavigationBar from "../../components/navigation_bar.tsx";
 
 import tcTOC from "../../../data/test-cases-toc.json" assert { type: "json" };
@@ -93,6 +94,7 @@ function Main(props: { path: string; page: Page }) {
 function DesktopSidebar(props: { path: string, pageSlug: string }) {
   return (
     <nav class="w-[16rem] flex-shrink-0 hidden md:block py-8 pr-4 border(r-2 gray-100)">
+      <Search />
       <Sidebar routes={tcManifest} openPath={props.pageSlug} />
     </nav>
   );

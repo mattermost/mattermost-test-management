@@ -23,5 +23,6 @@ import remarkGfm from 'https://esm.sh/remark-gfm@3';
 import remarkStringify from 'https://esm.sh/remark-stringify@10';
 
 import grayMatter from 'https://esm.sh/gray-matter@4';
+import { Client as esClient } from 'https://deno.land/x/elasticsearch@v7.16.5/mod.ts';
 
-export { grayMatter, rehypeParse, rehypeRemark, remarkGfm, remarkStringify };
+export { esClient, grayMatter, rehypeParse, rehypeRemark, remarkGfm, remarkStringify };
