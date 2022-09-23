@@ -5,7 +5,7 @@ const client = new esClient({
 });
 
 export const handler = {
-    async GET(_req, ctx) {
+    async GET(_req) {
       const url = new URL(_req.url);
       const query = url.searchParams.get('q') || '';
 
