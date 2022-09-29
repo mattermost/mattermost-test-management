@@ -8,6 +8,10 @@ export default function NavigationBar(props: { active: string }) {
       name: "Test Cases",
       href: "/test-cases",
     },
+    {
+      name: "Test Validator",
+      href: "/test-validator",
+    }
   ];
 
   return (

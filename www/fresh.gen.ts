@@ -10,6 +10,7 @@ import * as $3 from "./routes/index.tsx";
 import * as $4 from "./routes/search.ts";
 import * as $5 from "./routes/test-case/[testCaseId].tsx";
 import * as $6 from "./routes/test-cases/[...slug].tsx";
+import * as $7 from "./routes/test-validator.tsx";
 import * as $$0 from "./islands/Search.tsx";
 import * as $$1 from "./islands/Sidebar.tsx";
 
@@ -22,6 +23,7 @@ const manifest = {
     "./routes/search.ts": $4,
     "./routes/test-case/[testCaseId].tsx": $5,
     "./routes/test-cases/[...slug].tsx": $6,
+    "./routes/test-validator.tsx": $7,
   },
   islands: {
     "./islands/Search.tsx": $$0,
