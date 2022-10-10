@@ -8,6 +8,7 @@
       "Create a subscription",
       "Connect figma to figma integration app",
       "Delete a Subscription",
+      "Auth Token Refresh",
       "Check all subscriptions",
       "Subscribe to a file when you are subscribed to a project which contains this file"
     ]
@@ -91,6 +92,7 @@
       "Set up OpsGenie App",
       "OpsGenie command: `/genie alert own`",
       "OpsGenie command: `/genie configure`",
+      "Auth Token Refresh",
       "OpsGenie command: `/genie list alert`",
       "OpsGenie command: `/genie alert close`",
       "OpsGenie command: `/genie alert priority`",
@@ -104,6 +106,7 @@
     "tests": [
       "Display subscription list",
       "Show list of allowed commands",
+      "Auth Token Refresh",
       "List of services",
       "Create new incident",
       "List of incidents",
@@ -137,6 +140,7 @@
       "Set up Trello App",
       "Trello permissions to boards",
       "Creation and manage of Trello Subscriptions",
+      "Auth Token Refresh",
       "Trello command: `Configure`"
     ]
   },
@@ -242,7 +246,10 @@
   { "folder": "calls/mobile", "tests": ["RN apps: Calls Plugin", "RN apps: Calls"] },
   {
     "folder": "channels",
-    "tests": ["Muted channel should not be listed in the Unread section of the Find Channel modal"]
+    "tests": [
+      "Muted channel should not be listed in the Unread section of the Find Channel modal",
+      "Muted channel mentions should not be counted on the Team icon badge"
+    ]
   },
   {
     "folder": "channels/ada-accessibility",
@@ -569,6 +576,7 @@
       "CRT - Delete single reply post on a thread",
       "CRT - Ignore previously set Reply notification settings if CRT is enabled for user",
       "CRT - L12 - Open a followed thread",
+      "RN: Notification badge count for viewing channels and threads",
       "CRT - L13 - Open a followed thread with mention",
       "CRT - thread is auto-followed when user is mentioned and added to channel",
       "CRT - Show guidance at the end of the global threads list",
@@ -581,13 +589,18 @@
   {
     "folder": "channels/command-palette-",
     "tests": [
+      "Command palette: Channels access - Use GoTo to open profile settings",
+      "Command palette: Channels access - Use GoTo to open Notification settings",
       "Command palette: Playbook access - Open Command Palette modal",
+      "Command palette: Channels access - Use GoTo to open User groups",
       "Command palette: Boards access - Open Command Palette modal",
       "Command palette: Channels access - Search for a Message",
       "Command palette: Channels access - Search for Channel",
+      "Command palette: Channels access - Use GoTo to invite people",
       "Command palette: Channels access - Open Command Palette modal",
       "Command palette: Channels access - Use GoTo to set custom status",
-      "Command palette: Channels access - Search for a File"
+      "Command palette: Channels access - Search for a File",
+      "Command palette: Channels access - Use GoTo to open Display settings"
     ]
   },
   {
@@ -687,6 +700,7 @@
       "RN apps: Take a video and post",
       "RN apps: ANDROID ONLY - Can leave team from webapp with mobile app open, and share extension displays error messaging as expected",
       "Image thumbnail - expanded RHS",
+      "Copy content by using “copy to clipboard” button in the file preview modal",
       "Image Previewer: Stay collapsed on refresh",
       "RN apps: ANDROID ONLY - Share extension - Share GIF from keyboard",
       "Upload SVG and post",
@@ -777,6 +791,7 @@
       "CTRL/CMD+K - Unread Channels and input field focus",
       "CTRL/CMD+SHIFT+L - When not to set focus to center channel message box",
       "CTRL/CMD+Shift+ Open emoji picker to react to last message in RHS",
+      "Formatting bar keyboard shortcuts: CMD+ALT+T show/hide formatting options",
       "CTRL/CMD+K: Unreads",
       "SHIFT+UP",
       "CTRL/CMD+K - Open DM using mouse",
@@ -797,6 +812,7 @@
       "CTRL/CMD+SHIFT+L - Set focus to center channel message box (with SEARCH RHS open)",
       "Using CTRL/CMD+K to open Find Channel",
       "CTRL/CMD+Shift+ Do not open if emoji picker is already opened for other message",
+      "Formatting bar keyboard shortcuts: CMD+B bold formatting",
       "CTRL/CMD+K: Open and close",
       ":[character]+TAB",
       "CTRL/CMD+K - Open private channel using arrow keys and Enter",
@@ -831,6 +847,7 @@
       "CTRL/CMD+(forward-slash)",
       "Arrow up key - Edit modal open up for own message of a user",
       "CTRL/CMD+SHIFT+M",
+      "CTRL/CMD+Shift +U should toggle between unreads and all channels",
       "CTRL/CMD+K - Open public channel using arrow keys and Enter, click out of current channel message box first",
       "CTRL/CMD+K - Find GM by matching username, full name, or nickname, even if that name isn't displayed",
       "CTRL/CMD+Shift+. Expand or collapse RHS",
@@ -985,6 +1002,14 @@
       "Forwarding post from private channel",
       "Forwarding post from DM",
       "Forwarding post from GM"
+    ]
+  },
+  {
+    "folder": "channels/message-priority",
+    "tests": [
+      "Message Priority: Urgent message priority",
+      "Message Priority: Standard message priority and system setting",
+      "Message Priority: Important message priority"
     ]
   },
   {
@@ -1428,14 +1453,6 @@
     ]
   },
   {
-    "folder": "channels/post-priority",
-    "tests": [
-      "Message Priority: Urgent message priority",
-      "Message Priority: Standard message priority and system setting",
-      "Message Priority: Important message priority"
-    ]
-  },
-  {
     "folder": "channels/profile-settings",
     "tests": [
       "Email: Can update email address and verify through email notification",
@@ -1775,6 +1792,7 @@
     "folder": "cloud",
     "tests": [
       "Professional — Feature Availability (on-prem)",
+      "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
       "Takes the user through the steps of using the app",
       "Takes the user through the steps of using the app",
       "Starter — Feature Availability (on-prem)",
@@ -1895,6 +1913,7 @@
       "Multiple SKU repackaging — Buying then upgrading through the different packages Starter ➜ Professional ➜ Enterprise",
       "Cloud Trial — Select a product tier during purchase",
       "Cloud Trial — Member Onboarding",
+      "Show 'Contact sales' option for workspaces with Professional-licensed instance",
       "Cloud Trial — Getting Started",
       "Cloud Trial — Billing & Account ➜ Billing History",
       "Cloud Trial prompts"
@@ -1949,7 +1968,7 @@
   {
     "folder": "cloud/signup-trial-and-upgrade",
     "tests": [
-      "Onboarding task list",
+      "Onboarding task list — First Admin",
       "Onboarding Checklist - Explore other tools in platform item",
       "Message Limit: Search notification",
       "Message Limit: center channel notification",
@@ -1957,6 +1976,7 @@
       "Files Limit: Archived file in post",
       "Self-Serve: Downgrade from Professional plan",
       "Start Trial from Invite users screen",
+      "Onboarding task list — Regular user",
       "Ability for end users to notify admin to upgrade workspace",
       "Login option for users creating a duplicate workspace",
       "Members RHS: Regular members can click manage but then can't change users role",
@@ -4046,6 +4066,7 @@
       "Insights - My insights - My top boards",
       "Insight - my insight - Navigate insight using channel switcher",
       "Insights - my Insight - Bots, self-DMs not in active direct messages",
+      "Insights -  My Insights view as an item in the command-k channel switcher",
       "Insights - My insights - Scope Menu Open",
       "Insights - My insights - My top reactions",
       "Insights - My insights - Most active DM",
