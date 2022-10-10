@@ -129,8 +129,8 @@ if (fileAndTestCaseToModify.length) {
   // Log info
   console.log(yellow('Updating test case in Zephyr...'));
 
-  for (let i = 0; i < fileAndTestCaseToCreate.length; i++) {
-    const [file, testCase] = fileAndTestCaseToCreate[i];
+  for (let i = 0; i < fileAndTestCaseToModify.length; i++) {
+    const [file, testCase] = fileAndTestCaseToModify[i];
     // Log info
     console.log(`${i + 1}. "${file}": "${testCase.name}"`);
 
