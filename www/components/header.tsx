@@ -1,4 +1,5 @@
 import Title from "./title.tsx";
+import GoToTestCase from '../islands/GoToTestCase.tsx';
 
 export default function Header() {
   return (
@@ -29,6 +30,7 @@ export default function Header() {
             </path>
           </svg>
         </label>
+        <GoToTestCase />
       </header>
     </div>
   );

@@ -1,9 +1,14 @@
+import Header from '../components/header.tsx';
+import NavigationBar from '../components/navigation_bar.tsx';
+
 export function ServerCodePage(
   props: { serverCode: number; codeDescription: string },
 ) {
   return (
     <>
-      <section>
+      <Header />
+      <NavigationBar />
+      <section class="mt-4">
         <div class="w-full flex justify-center items-center flex-col bg-blue-300">
         </div>
         <div class="text-center">

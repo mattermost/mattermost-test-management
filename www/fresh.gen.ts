@@ -10,8 +10,9 @@ import * as $3 from "./routes/index.tsx";
 import * as $4 from "./routes/search.ts";
 import * as $5 from "./routes/test-case/[testCaseId].tsx";
 import * as $6 from "./routes/test-cases/[...slug].tsx";
-import * as $$0 from "./islands/Search.tsx";
-import * as $$1 from "./islands/Sidebar.tsx";
+import * as $$0 from "./islands/GoToTestCase.tsx";
+import * as $$1 from "./islands/Search.tsx";
+import * as $$2 from "./islands/Sidebar.tsx";
 
 const manifest = {
   routes: {
@@ -24,8 +25,9 @@ const manifest = {
     "./routes/test-cases/[...slug].tsx": $6,
   },
   islands: {
-    "./islands/Search.tsx": $$0,
-    "./islands/Sidebar.tsx": $$1,
+    "./islands/GoToTestCase.tsx": $$0,
+    "./islands/Search.tsx": $$1,
+    "./islands/Sidebar.tsx": $$2,
   },
   baseUrl: import.meta.url,
   config,
