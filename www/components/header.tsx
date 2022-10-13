@@ -1,7 +1,7 @@
 import Title from "./title.tsx";
-import GoToTestCase from '../islands/GoToTestCase.tsx';
+import GoToTestCase from "../islands/GoToTestCase.tsx";
 
-export default function Header() {
+export default function Header(props: { withSearchBar?: boolean }) {
   return (
     <div class="bg-gray-300">
       <header class="mx-auto max-w-screen-lg flex gap-3 justify-between">
@@ -30,7 +30,7 @@ export default function Header() {
             </path>
           </svg>
         </label>
-        <GoToTestCase />
+        {props.withSearchBar && <GoToTestCase />}
       </header>
     </div>
   );

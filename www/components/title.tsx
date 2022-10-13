@@ -7,7 +7,6 @@ export default function Title() {
       >
         <span class="font-light block pb-[1px]">Test Management</span>
       </a>
-      <p class="text(sm gray-700)">Subtitle here</p>
     </>
   );
 }
