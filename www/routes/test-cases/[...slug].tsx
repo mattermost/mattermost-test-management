@@ -71,7 +71,7 @@ export default function TestsPage(props: PageProps<Data>) {
         <link rel="stylesheet" href={`/gfm.css?build=${__FRSH_BUILD_ID}`} />
       </Head>
       <div class="flex flex-col min-h-screen">
-        <Header />
+        <Header withSearchBar={true} />
         <NavigationBar active="/test-cases" />
         <Main path={props.url.pathname} page={props.data.page} />
         <Footer />
@@ -91,7 +91,7 @@ function Main(props: { path: string; page: Page }) {
   );
 }
 
-function DesktopSidebar(props: { path: string, pageSlug: string }) {
+function DesktopSidebar(props: { path: string; pageSlug: string }) {
   return (
     <nav class="w-[16rem] flex-shrink-0 hidden md:block py-8 pr-4 border(r-2 gray-100)">
       <Search />
