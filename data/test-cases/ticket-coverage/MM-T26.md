@@ -1,46 +1,59 @@
 ---
+# (Required) Ensure all values are filled up
+name: "When on preview mode, it does not allow to submit a post from the main post input"
+status: Draft
+priority: Normal
+folder: Ticket coverage
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# Do not change
+id: 2759570
 key: MM-T26
-title: MM-17361 — When on preview mode, it does not allow to submit a post from the main post input
+created_on: "2019-08-28T01:56:36Z"
+last_updated: ""
+case_hashed: 7a3012417ff9ea4c52bff0b82e152a33b5d78b5e0de1f1a7e695a0d4d99ee7979af694fac4c37c9b0ae4c12067080478
+steps_hashed: 5747bc143916e1ecef8c6d22a88f2a9a2e8b9a8ac4e5d2abf3b6983539c8feb23547fb411895df2b085befe74b2a5950
 ---
 
-## MM-T26: MM-17361 — When on preview mode, it does not allow to submit a post from the main post input
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-### Details
+## MM-T26: When on preview mode, it does not allow to submit a post from the main post input
 
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Draft                |
-| Folder   | Ticket coverage      |
-| Created  | 2019-08-28T01:56:36Z |
+---
 
-### Steps
+**Step 1**
 
-<hr/>
+Enter some text in the Center panel and click on the Preview button
+
+**Expected**
+
+Able to send/post new comment in center channel using Enter button
+
+---
 
 **Step 2**
 
-> <article>Enter some text in the Center panel and click on the Preview button</article>
+Enter some text on the RHS and click Preview
 
 **Expected**
 
-> <article>Able to send/post new comment in center channel using Enter button</article>
+- Able to send/post by using Enter or by clicking ‘Add Comment’ button
 
-<hr/>
-
-**Step 3**
-
-> <article>Enter some text on the RHS and click Preview</article>
-
-**Expected**
-
-> <article><ul><li>Able to send/post by using Enter or by clicking ‘Add Comment’ button</li></ul><br><strong>Related bug</strong>: <a href="https://mattermost.atlassian.net/browse/MM-17361" rel="noopener noreferrer" target="_blank">MM-17361</a></article>
-
-<hr/>
-
-### More Info
-
-| Name           | Value           |
-| :------------- | :-------------- |
-| Team Ownership | QA Platform     |
-| Location       | Ticket coverage |
+**Related bug**: [MM-17361](https://mattermost.atlassian.net/browse/MM-17361)

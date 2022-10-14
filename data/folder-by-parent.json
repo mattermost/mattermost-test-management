@@ -1,342 +1,437 @@
-{
-  "root": [
-    "Ticket coverage",
-    "Integrations",
-    "Plugins",
-    "Smoke Tests",
-    "Mobile App (native-specific)",
-    "Desktop App (native-specific)",
-    "mmctl",
-    "Omnibus",
-    "Cloud",
-    "Apps Framework",
-    "Playbooks",
-    "Boards",
-    "Mobile V2",
-    "Calls",
-    "Suite",
-    "Channels"
-  ],
-  "channels": [
-    "Add user from popover",
-    "ADA Accessibility",
-    "Archived Channels",
-    "Channel Settings",
-    "Files and Attachments",
-    "Keyboard Shortcuts",
-    "Messaging",
-    "Multi-Team and DMs",
-    "Scroll",
-    "Search",
-    "Search Date Filter",
-    "Team Settings",
-    "Mark as Unread",
-    "Left Sidebar",
-    "Sidebar",
-    "Channel Info RN Apps",
-    "Channels",
-    "Threads",
-    "Custom Statuses",
-    "Emoji picker",
-    "Collapsed Reply Threads",
-    "Permalink Preview",
-    "Global Drafts",
-    "Settings",
-    "Profile Settings",
-    "Mobile App Settings",
-    "Custom Emoji",
-    "Message Forwarding",
-    "Channel menu",
-    "Edited Post",
-    "Autocomplete"
-  ],
-  "suite": [
-    "AD LDAP",
-    "Auth SSO",
-    "CLI",
-    "License Levels",
-    "Notifications",
-    "OAuth",
-    "Onboarding",
-    "Permissions",
-    "SAML",
-    "Sign In Authentication",
-    "Slack Import",
-    "System Console",
-    "Guest Accounts",
-    "LDAP Group Sync",
-    "Enterprise",
-    "Redirect",
-    "Telemetry",
-    "In Product Notices",
-    "EMM",
-    "Trial License",
-    "Apps Bar",
-    "Custom Groups",
-    "Activity and Insights",
-    "Cloud Freemium Integrations limits"
-  ],
-  "integrations": [
-    "Bot Accounts",
-    "Interactive Dialogs",
-    "Interactive Menus Message Attachments",
-    "Incoming Webhook",
-    "Zapier",
-    "Outgoing Webhook",
-    "Built-in Commands"
-  ],
-  "channels/autocomplete": ["With Elasticsearch", "With Database"],
-  "plugins": [
-    "Jira V2",
-    "NPS Plugin",
-    "Plugin Marketplace",
-    "Jira",
-    "Demo Plugin",
-    "AutoLink",
-    "Custom Attributes",
-    "Welcome Bot",
-    "WebEx",
-    "ToDo",
-    "Splunk",
-    "GitHub",
-    "Circle-CI",
-    "Confluence",
-    "Bitbucket",
-    "GitLab",
-    "Zoom",
-    "MS Teams Calling",
-    "Jitsi",
-    "Plugin Release Tests"
-  ],
-  "suite/system-console": [
-    "Search box",
-    "Reporting",
-    "Main Menu",
-    "User Management",
-    "About",
-    "Any page",
-    "File Sharing and Downloads",
-    "Experimental",
-    "Channel Search and Pagination",
-    "Team Search and Pagination",
-    "Database SQL Logging",
-    "Environment",
-    "Site Configuration",
-    "Compliance",
-    "Integrations",
-    "Channel Listing with Team Name",
-    "Admin Advisor",
-    "Commercial Support"
-  ],
-  "desktop-app--native-specific-": [
-    "Menu Bar",
-    "System Tray Icon",
-    "Server Management",
-    "Permissions",
-    "Deep Linking",
-    "Channel and Team Sidebars",
-    "Relative URLs",
-    "Search box",
-    "Dark mode",
-    "Focus behavior",
-    "Right Click menu options",
-    "Windows and Linux ONLY",
-    "macOS ONLY",
-    "Settings",
-    "Startup",
-    "Dropdown",
-    "Onboarding",
-    "Cypress drafts"
-  ],
-  "suite/system-console/environment": [
-    "Web Server",
-    "Database",
-    "Elasticsearch",
-    "File Storage",
-    "Image Proxy",
-    "SMTP",
-    "Push Notification Server",
-    "High Availability",
-    "Rate Limiting",
-    "Session Lengths",
-    "Performance Monitoring",
-    "Environment - Developer",
-    "Session Length (Extend on Activity)"
-  ],
-  "suite/system-console/site-configuration": [
-    "Customization",
-    "Localization",
-    "Users and Teams",
-    "Notifications",
-    "Announcement Banner",
-    "Emoji",
-    "Posts",
-    "Public Links",
-    "File Sharing and Downloads"
-  ],
-  "suite/system-console/integrations": ["Integration Management", "GIF (Beta)", "CORS"],
-  "suite/system-console/compliance": [
-    "Data Retention Policy",
-    "Compliance Export",
-    "Compliance Monitoring",
-    "Custom Terms of Service"
-  ],
-  "suite/system-console/about": ["Edition and License"],
-  "suite/system-console/reporting": ["Site Statistics", "Team Statistics", "Server Logs"],
-  "suite/system-console/user-management": ["Users"],
-  "suite/guest-accounts": [
-    "Members Invitation Flow",
-    "Guests Invitation Flow",
-    "Guest Experience",
-    "Guest Identification",
-    "Guest SAML LDAP"
-  ],
-  "suite/enterprise": [
-    "Channel Moderation Settings",
-    "Group Mentions",
-    "Team and Channel",
-    "Admin Roles",
-    "OpenId Connect"
-  ],
-  "integrations/bot-accounts": [
-    "User Side UX",
-    "Bot account management",
-    "Admin UI search",
-    "Bot Ownership",
-    "API and using BOTs"
-  ],
-  "integrations/bot-accounts/user-side-ux": [
-    "Viewing BOT Posts",
-    "BOT tags are shown and no status is displayed",
-    "Bot Sorting in Channel List",
-    "Sidebar"
-  ],
-  "integrations/bot-accounts/bot-account-management": ["CRUD testing", "Token CRUD"],
-  "integrations/bot-accounts/admin-ui-search": ["Managing Bot Accounts"],
-  "plugins/plugin-marketplace": ["Import Queue", "MM Apps"],
-  "plugins/jira-v2/miscellaneous": ["Server", "Cloud"],
-  "plugins/jira-v2": ["Jira Server", "Miscellaneous"],
-  "plugins/jira-v2/jira-server": [
-    "Install and Uninstall",
-    "Jira assign",
-    "Jira create",
-    "General Slash commands",
-    "Jira View",
-    "Jira Connect",
-    "Jira Temp",
-    "Jira Attach",
-    "Jira subscriptions"
-  ],
-  "desktop-app--native-specific-/server-management": ["Server Tab Header", "Add Server Modal"],
-  "suite/notifications": ["Toast"],
-  "suite/permissions": ["Team Admin permissions on TE"],
-  "smoke-tests": ["WebApp"],
-  "plugins/jira": ["Jira V3", "Channel", "Jira V3 Migration"],
-  "cloud/automated-tests": ["Onboarding", "System Console"],
-  "cloud": [
-    "Customer Portal",
-    "Cloud Trial",
-    "Automated tests",
-    "WIP",
-    "RHS",
-    "Starter Plan",
-    "Signup Trial and Upgrade"
-  ],
-  "channels/left-sidebar": [
-    "Settings",
-    "Custom Categories",
-    "Unread filter",
-    "UX hover animation alignment",
-    "DMs and GMs",
-    "Favorites"
-  ],
-  "plugins/github": [
-    "Authentication",
-    "General",
-    "Subscriptions",
-    "Notifications",
-    "Sidebar and RHS",
-    "Create and Attach posts",
-    "Setup"
-  ],
-  "suite/enterprise/admin-roles": ["Sub Section"],
-  "channels/custom-statuses": ["Web", "Mobile"],
-  "apps-framework": [
-    "Framework and test apps",
-    "Zendesk",
-    "Service Now",
-    "Trello",
-    "OpsGenie",
-    "PagerDuty"
-  ],
-  "apps-framework/framework-and-test-apps": [
-    "test-app",
-    "http-hello app",
-    "Apps AWS Deployment",
-    "hello oAuth"
-  ],
-  "cloud/customer-portal": ["🚫 Export Compliance", "License generator", "Portal tests"],
-  "cloud/cloud-trial": ["What If"],
-  "cloud/automated-tests/system-console": [
-    "Subscription ❗",
-    "Billing History ❗",
-    "Company Information ❗",
-    "Payment Information ❗"
-  ],
-  "cloud/wip": ["Getting Started", "Tips and Next Steps", "System Console"],
-  "cloud/wip/system-console": ["Billing and Account"],
-  "boards": [
-    "Board creation and set-up",
-    "Personal Dashboard",
-    "Board View",
-    "Card dialog",
-    "Browser Plugin Regression Tests",
-    "MM Desktop App Plugin Regression Tests",
-    "Boards App Regression Tests",
-    "Onboarding Tour",
-    "Permissions",
-    "Integration tests",
-    "Cloud Free"
-  ],
-  "plugins/bitbucket": [
-    "Authentication",
-    "General",
-    "Subscriptions",
-    "Notifications",
-    "Create Issue"
-  ],
-  "apps-framework/framework-and-test-apps/test-app": [
-    "(prev)",
-    "Valid test commands",
-    "Error test commands",
-    "with_input test commands",
-    "Invalid test command",
-    "General",
-    "Embedded tests",
-    "Form test",
-    "Subscribe test"
-  ],
-  "channels/settings": ["Advanced", "Notifications", "Display"],
-  "plugins/gitlab": [
-    "Slash Commands and Setup",
-    "Subscriptions and Notifications",
-    "Sidebar",
-    "Subdomain and Cloud specific tests",
-    "Setup"
-  ],
-  "plugins/zoom": ["General", "oAuth User-managed app", "oAuth Account-level app", "JWT"],
-  "mobile-v2": [
-    "Smoke Test",
-    "Server Login",
-    "Channels",
-    "Messaging",
-    "Threads",
-    "Autocomplete",
-    "Search",
-    "Account"
-  ],
-  "plugins/ms-teams-calling": ["Authentication", "General Functionality"],
-  "suite/activity-and-insights": ["Insights"],
-  "suite/activity-and-insights/insights": ["Team Insights", "My Insights", "Day Range"],
-  "calls": ["Calls", "Mobile"]
-}
+[
+  {
+    "parent": "apps-framework",
+    "folders": [
+      "Figma",
+      "Framework and test apps",
+      "OpsGenie",
+      "PagerDuty",
+      "Service Now",
+      "Trello",
+      "Zendesk"
+    ]
+  },
+  {
+    "parent": "apps-framework/framework-and-test-apps",
+    "folders": ["Apps AWS Deployment", "hello oAuth", "http-hello app", "test-app"]
+  },
+  {
+    "parent": "apps-framework/framework-and-test-apps/test-app",
+    "folders": [
+      "(prev)",
+      "Embedded tests",
+      "Error test commands",
+      "Form test",
+      "General",
+      "Invalid test command",
+      "Subscribe test",
+      "Valid test commands",
+      "with_input test commands"
+    ]
+  },
+  {
+    "parent": "boards",
+    "folders": [
+      "Board creation and set-up",
+      "Board View",
+      "Boards App Regression Tests",
+      "Browser Plugin Regression Tests",
+      "Card dialog",
+      "Cloud Free",
+      "Integration tests",
+      "MM Desktop App Plugin Regression Tests",
+      "Onboarding Tour",
+      "Permissions",
+      "Personal Dashboard"
+    ]
+  },
+  { "parent": "calls", "folders": ["Calls", "Mobile"] },
+  {
+    "parent": "channels",
+    "folders": [
+      "ADA Accessibility",
+      "Add user from popover",
+      "Archived Channels",
+      "Autocomplete",
+      "Channel Info RN Apps",
+      "Channel menu",
+      "Channel Settings",
+      "Channels",
+      "Collapsed Reply Threads",
+      "Command Palette",
+      "Custom Emoji",
+      "Custom Statuses",
+      "Edited Post",
+      "Emoji picker",
+      "Files and Attachments",
+      "Global Drafts",
+      "Keyboard Shortcuts",
+      "Left Sidebar",
+      "Mark as Unread",
+      "Message Forwarding",
+      "Message Priority",
+      "Messaging",
+      "Mobile App Settings",
+      "Multi-Team and DMs",
+      "Permalink Preview",
+      "Profile Settings",
+      "Scroll",
+      "Search",
+      "Search Date Filter",
+      "Settings",
+      "Sidebar",
+      "Team Settings",
+      "Threads"
+    ]
+  },
+  { "parent": "channels/autocomplete", "folders": ["With Database", "With Elasticsearch"] },
+  { "parent": "channels/custom-statuses", "folders": ["Mobile", "Web"] },
+  {
+    "parent": "channels/left-sidebar",
+    "folders": [
+      "Custom Categories",
+      "DMs and GMs",
+      "Favorites",
+      "Settings",
+      "Unread filter",
+      "UX hover animation alignment"
+    ]
+  },
+  { "parent": "channels/settings", "folders": ["Advanced", "Display", "Notifications"] },
+  {
+    "parent": "cloud",
+    "folders": [
+      "Automated tests",
+      "Cloud Trial",
+      "Customer Portal",
+      "RHS",
+      "Signup Trial and Upgrade",
+      "Starter Plan",
+      "WIP"
+    ]
+  },
+  { "parent": "cloud/automated-tests", "folders": ["Onboarding", "System Console"] },
+  {
+    "parent": "cloud/automated-tests/system-console",
+    "folders": [
+      "Billing History ❗",
+      "Company Information ❗",
+      "Payment Information ❗",
+      "Subscription ❗"
+    ]
+  },
+  { "parent": "cloud/cloud-trial", "folders": ["What If"] },
+  {
+    "parent": "cloud/customer-portal",
+    "folders": ["🚫 Export Compliance", "License generator", "Portal tests"]
+  },
+  {
+    "parent": "cloud/wip",
+    "folders": ["Getting Started", "System Console", "Tips and Next Steps"]
+  },
+  { "parent": "cloud/wip/system-console", "folders": ["Billing and Account"] },
+  {
+    "parent": "desktop-app--native-specific-",
+    "folders": [
+      "Channel and Team Sidebars",
+      "Cypress drafts",
+      "Dark mode",
+      "Deep Linking",
+      "Dropdown",
+      "Focus behavior",
+      "macOS ONLY",
+      "Menu Bar",
+      "Onboarding",
+      "Permissions",
+      "Relative URLs",
+      "Right Click menu options",
+      "Search box",
+      "Server Management",
+      "Settings",
+      "Startup",
+      "System Tray Icon",
+      "Windows and Linux ONLY"
+    ]
+  },
+  {
+    "parent": "desktop-app--native-specific-/server-management",
+    "folders": ["Add Server Modal", "Server Tab Header"]
+  },
+  {
+    "parent": "integrations",
+    "folders": [
+      "Bot Accounts",
+      "Built-in Commands",
+      "Incoming Webhook",
+      "Interactive Dialogs",
+      "Interactive Menus Message Attachments",
+      "Outgoing Webhook",
+      "Zapier"
+    ]
+  },
+  {
+    "parent": "integrations/bot-accounts",
+    "folders": [
+      "Admin UI search",
+      "API and using BOTs",
+      "Bot account management",
+      "Bot Ownership",
+      "User Side UX"
+    ]
+  },
+  { "parent": "integrations/bot-accounts/admin-ui-search", "folders": ["Managing Bot Accounts"] },
+  {
+    "parent": "integrations/bot-accounts/bot-account-management",
+    "folders": ["CRUD testing", "Token CRUD"]
+  },
+  {
+    "parent": "integrations/bot-accounts/user-side-ux",
+    "folders": [
+      "Bot Sorting in Channel List",
+      "BOT tags are shown and no status is displayed",
+      "Sidebar",
+      "Viewing BOT Posts"
+    ]
+  },
+  {
+    "parent": "mobile-v2",
+    "folders": [
+      "Account",
+      "Autocomplete",
+      "Channels",
+      "Messaging",
+      "Search",
+      "Server Login",
+      "Smoke Test",
+      "Threads"
+    ]
+  },
+  {
+    "parent": "plugins",
+    "folders": [
+      "AutoLink",
+      "Bitbucket",
+      "Circle-CI",
+      "Confluence",
+      "Custom Attributes",
+      "Demo Plugin",
+      "GitHub",
+      "GitLab",
+      "Jira",
+      "Jira V2",
+      "Jitsi",
+      "Meme",
+      "MS Teams Calling",
+      "NPS Plugin",
+      "Plugin Marketplace",
+      "Plugin Release Tests",
+      "Splunk",
+      "ToDo",
+      "WebEx",
+      "Welcome Bot",
+      "Zoom"
+    ]
+  },
+  {
+    "parent": "plugins/bitbucket",
+    "folders": ["Authentication", "Create Issue", "General", "Notifications", "Subscriptions"]
+  },
+  {
+    "parent": "plugins/github",
+    "folders": [
+      "Authentication",
+      "Create and Attach posts",
+      "General",
+      "Notifications",
+      "Setup",
+      "Sidebar and RHS",
+      "Subscriptions"
+    ]
+  },
+  {
+    "parent": "plugins/gitlab",
+    "folders": [
+      "Setup",
+      "Sidebar",
+      "Slash Commands and Setup",
+      "Subdomain and Cloud specific tests",
+      "Subscriptions and Notifications"
+    ]
+  },
+  { "parent": "plugins/jira", "folders": ["Channel", "Jira V3", "Jira V3 Migration"] },
+  { "parent": "plugins/jira-v2", "folders": ["Jira Server", "Miscellaneous"] },
+  {
+    "parent": "plugins/jira-v2/jira-server",
+    "folders": [
+      "General Slash commands",
+      "Install and Uninstall",
+      "Jira assign",
+      "Jira Attach",
+      "Jira Connect",
+      "Jira create",
+      "Jira subscriptions",
+      "Jira Temp",
+      "Jira View"
+    ]
+  },
+  { "parent": "plugins/jira-v2/miscellaneous", "folders": ["Cloud", "Server"] },
+  { "parent": "plugins/ms-teams-calling", "folders": ["Authentication", "General Functionality"] },
+  { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
+  {
+    "parent": "plugins/zoom",
+    "folders": ["General", "JWT", "oAuth Account-level app", "oAuth User-managed app"]
+  },
+  {
+    "parent": "root",
+    "folders": [
+      "Apps Framework",
+      "Boards",
+      "Calls",
+      "Channels",
+      "Cloud",
+      "Desktop App (native-specific)",
+      "Integrations",
+      "mmctl",
+      "Mobile App (native-specific)",
+      "Mobile V2",
+      "Omnibus",
+      "Playbooks",
+      "Plugins",
+      "Smoke Tests",
+      "Suite",
+      "Ticket coverage"
+    ]
+  },
+  { "parent": "smoke-tests", "folders": ["WebApp"] },
+  {
+    "parent": "suite",
+    "folders": [
+      "Activity and Insights",
+      "AD LDAP",
+      "Apps Bar",
+      "Auth SSO",
+      "CLI",
+      "Cloud Freemium Integrations limits",
+      "Custom Groups",
+      "EMM",
+      "Enterprise",
+      "Guest Accounts",
+      "In Product Notices",
+      "LDAP Group Sync",
+      "License Levels",
+      "Notifications",
+      "OAuth",
+      "Onboarding",
+      "Permissions",
+      "Redirect",
+      "SAML",
+      "Sign In Authentication",
+      "Slack Import",
+      "System Console",
+      "Telemetry",
+      "Trial License"
+    ]
+  },
+  { "parent": "suite/activity-and-insights", "folders": ["Insights"] },
+  {
+    "parent": "suite/activity-and-insights/insights",
+    "folders": ["Day Range", "My Insights", "Team Insights"]
+  },
+  {
+    "parent": "suite/enterprise",
+    "folders": [
+      "Admin Roles",
+      "Channel Moderation Settings",
+      "Group Mentions",
+      "OpenId Connect",
+      "Team and Channel"
+    ]
+  },
+  { "parent": "suite/enterprise/admin-roles", "folders": ["Sub Section"] },
+  {
+    "parent": "suite/guest-accounts",
+    "folders": [
+      "Guest Experience",
+      "Guest Identification",
+      "Guest SAML LDAP",
+      "Guests Invitation Flow",
+      "Members Invitation Flow"
+    ]
+  },
+  { "parent": "suite/notifications", "folders": ["Toast"] },
+  { "parent": "suite/permissions", "folders": ["Team Admin permissions on TE"] },
+  {
+    "parent": "suite/system-console",
+    "folders": [
+      "About",
+      "Admin Advisor",
+      "Any page",
+      "Channel Listing with Team Name",
+      "Channel Search and Pagination",
+      "Commercial Support",
+      "Compliance",
+      "Database SQL Logging",
+      "Environment",
+      "Experimental",
+      "File Sharing and Downloads",
+      "Integrations",
+      "Main Menu",
+      "Reporting",
+      "Search box",
+      "Site Configuration",
+      "Team Search and Pagination",
+      "User Management"
+    ]
+  },
+  { "parent": "suite/system-console/about", "folders": ["Edition and License"] },
+  {
+    "parent": "suite/system-console/compliance",
+    "folders": [
+      "Compliance Export",
+      "Compliance Monitoring",
+      "Custom Terms of Service",
+      "Data Retention Policy"
+    ]
+  },
+  {
+    "parent": "suite/system-console/environment",
+    "folders": [
+      "Database",
+      "Elasticsearch",
+      "Environment - Developer",
+      "File Storage",
+      "High Availability",
+      "Image Proxy",
+      "Performance Monitoring",
+      "Push Notification Server",
+      "Rate Limiting",
+      "Session Length (Extend on Activity)",
+      "Session Lengths",
+      "SMTP",
+      "Web Server"
+    ]
+  },
+  {
+    "parent": "suite/system-console/integrations",
+    "folders": ["CORS", "GIF (Beta)", "Integration Management"]
+  },
+  {
+    "parent": "suite/system-console/reporting",
+    "folders": ["Server Logs", "Site Statistics", "Team Statistics"]
+  },
+  {
+    "parent": "suite/system-console/site-configuration",
+    "folders": [
+      "Announcement Banner",
+      "Customization",
+      "Emoji",
+      "File Sharing and Downloads",
+      "Localization",
+      "Notifications",
+      "Posts",
+      "Public Links",
+      "Users and Teams"
+    ]
+  },
+  { "parent": "suite/system-console/user-management", "folders": ["Users"] }
+]

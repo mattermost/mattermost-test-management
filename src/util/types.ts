@@ -1,4 +1,3 @@
-export type ActionType = 'CREATE' | 'UPDATE';
 export type FolderType = 'TEST_CASE' | 'TEST_PLAN' | 'TEST_CYCLE';
 export type StatusType = 'TEST_CASE' | 'TEST_PLAN' | 'TEST_CYCLE';
 export type TestStepMode = 'APPEND' | 'OVERWRITE';
@@ -20,19 +19,23 @@ export type TestCaseCustomFields = {
 };
 
 export type TestCase = {
-  action?: ActionType;
-  id?: number;
+  id?: number | null;
   key: string;
   name: string;
   createdOn: string | null;
   objective: string | null;
   precondition: string | null;
-  estimatedTime: number | null;
+  estimatedTime?: number | null;
   labels: string[];
-  component: Component | null;
-  priority: Priority;
-  status: Status;
-  folder: Folder;
+  component?: Component | null;
+  componentName?: string | null;
+  priority?: Priority;
+  priorityName?: string | null;
+  status?: Status;
+  statusName?: string | null;
+  folder?: Folder;
+  folderName?: string | null;
+  folderFullPath?: string | null;
   steps?: TestSteps;
   customFields: TestCaseCustomFields;
   project?: Record<string, string>;
@@ -43,19 +46,14 @@ export type TestCase = {
   stepsHashed?: string | null;
 };
 
-export type TestStepCustomFields = {
-  'Fix Versions': string[];
-  'Related ticket(s)': string;
-  'Important notes about this step': string;
-};
+export type KeyPathId = { key: string; path?: string | null; id: number };
 
 export type TestStep = {
   inline: {
-    description: string;
+    description: string | null;
     testData: string | null;
     expectedResult: string | null;
-    customFields: TestStepCustomFields;
-  };
+  } | null;
   testCase: {
     testCaseKey: string;
     self?: string;
@@ -72,17 +70,16 @@ export type Component = {
 };
 
 export type Folder = {
-  action?: ActionType;
   id?: number;
   parentId?: number | null;
-  name?: string;
+  name?: string | null;
   folderType?: string;
   index?: number;
   project?: {
     id: number;
     self: string;
   };
-  fullPath?: string;
+  fullPath: string;
   fullNames?: string[];
   self?: string;
 };

@@ -1,46 +1,62 @@
 ---
+# (Required) Ensure all values are filled up
+name: "RHS fetches messages on socket reconnect when a different channel is in center"
+status: Active
+priority: Low
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 3741725
 key: MM-T94
-title: RHS fetches messages on socket reconnect when a different channel is in center
+created_on: "2019-12-20T16:32:59Z"
+last_updated: ""
+case_hashed: 25bcc56a79a748ccd82abb5a9b096858dee5463521a42166027f5401bf70df39e49f2916f2c2ab5e0d287298fcad8e8e
+steps_hashed: 417c6346f417682ea6dfc12c5564c7dc64fdb02e6a962e06b57c34b2297611cf69aaed99ba58d8ddfe4659cc1d0eb061
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T94: RHS fetches messages on socket reconnect when a different channel is in center
 
-### Details
-
-| Name     | Value                                                |
-| :------- | :--------------------------------------------------- |
-| Priority | Low                                                  |
-| Status   | Active                                               |
-| Folder   | Channels / Messaging                                 |
-| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging |
-| Created  | 2019-12-20T16:32:59Z                                 |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>RHS fetches messages on socket reconnect when a different channel is in center<br />--------------------<br />1. Reply to a post from another test user<br />2. Keep the RHS open but switch to a different channel in the center<br />3. Disconnect from internet<br />4. Have the other test user from step 1) comment on your reply from the RN app<br />5. Re-connect to the internet</article>
+RHS fetches messages on socket reconnect when a different channel is in center\
+\--------------------\
+1\. Reply to a post from another test user\
+2\. Keep the RHS open but switch to a different channel in the center\
+3\. Disconnect from internet\
+4\. Have the other test user from step 1) comment on your reply from the RN app\
+5\. Re-connect to the internet
 
 **Test Data**
 
-> <article>FIXED v5.15 <a href="https://mattermost.atlassian.net/browse/MM-17634" rel="noopener noreferrer" target="_blank">https://mattermost.atlassian.net/browse/MM-17634</a></article>
+FIXED v5.15 <https://mattermost.atlassian.net/browse/MM-17634>
 
 **Expected**
 
-> <article>The post made by the test user during your network disconnect appears in the RHS</article>
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                                        |
-| :----------------------- | :------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                           |
-| Update notes             | 10/28/21 - Lindy - Cannot do this test in RF as VMs cannot be set to off-line via dev tools. |
-| Rainforest               | N/A                                                                                          |
-| Team Ownership           | Channels                                                                                     |
-| Manual Test Environments | Automated - No manual tests needed                                                           |
-| Cypress                  | in Production                                                                                |
-| Location                 | Messaging                                                                                    |
+The post made by the test user during your network disconnect appears in the RHS

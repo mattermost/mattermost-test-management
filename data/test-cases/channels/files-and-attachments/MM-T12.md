@@ -1,50 +1,65 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Loading indicator when posting images"
+status: Active
+priority: Low
+folder: Files and Attachments
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Files and Attachments
+component: null
+tags: []
+labels: 
+- Hackfest
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- files-and-attachments
+- fix-versions-not-empty-2022cleanup
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 2746624
 key: MM-T12
-title: Loading indicator when posting images
+created_on: "2019-08-27T00:36:47Z"
+last_updated: ""
+case_hashed: 3c76759b163c96d68ed7b2de2201ff63e30daa3cc3e9099b3a76f7dbcacddd91d2e90608de2f43e766902ac3921f842d
+steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T12: Loading indicator when posting images
 
-### Details
-
-| Name     | Value                                                                                                        |
-| :------- | :----------------------------------------------------------------------------------------------------------- |
-| Priority | Low                                                                                                          |
-| Status   | Active                                                                                                       |
-| Folder   | Channels / Files and Attachments                                                                             |
-| Labels   | Hackfest,TM4J-Key-Mapped-In-Cypress-Release,cy-prod,files-and-attachments,fix-versions-not-empty-2022cleanup |
-| Created  | 2019-08-27T00:36:47Z                                                                                         |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Loading indicator when posting images<br>–––––––––––––––––––––––––<ol><li>Post an image</li><li>Send another message&nbsp;</li></ol></article>
+Loading indicator when posting images\
+–––––––––––––––––––––––––
+
+1. Post an image
+2. Send another message
+
+_Related ticket(s):_
+
+[Image attachments display loading indicator when receiving a new message — MM-16908](https://mattermost.atlassian.net/browse/MM-16908)
 
 **Test Data**
 
-> <article>You can find test files here: <a href="https://drive.google.com/drive/folders/178D_Tdc8rrZPEEmhtCKT4LlLEW6-v75Y?usp=sharing">https://drive.google.com/drive/folders/178D_Tdc8rrZPEEmhtCKT4LlLEW6-v75Y</a></article>
+You can find test files here: [https://drive.google.com/drive/folders/178D\_Tdc8rrZPEEmhtCKT4LlLEW6-v75Y](https://drive.google.com/drive/folders/178D_Tdc8rrZPEEmhtCKT4LlLEW6-v75Y?usp=sharing)
 
 **Expected**
 
-> <article><ul><li>The image stays visible and <strong>does not</strong> show a loading indicator each time a new post is made.</li></ul></article>
-
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Fix Versions | v5.14 (August 2019) |
-| Related ticket(s) | <a href="https://mattermost.atlassian.net/browse/MM-16908" rel="noopener noreferrer" target="_blank">Image attachments display loading indicator when receiving a new message — MM-16908</a> |
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                              |
-| :----------------------- | :------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?) |
-| Team Ownership           | Channels                                           |
-| Manual Test Environments | Automated - No manual tests needed                 |
-| Cypress                  | in Production                                      |
-| Location                 | Files and Attachments                              |
+- The image stays visible and **does not** show a loading indicator each time a new post is made.

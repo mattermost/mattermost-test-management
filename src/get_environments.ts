@@ -4,7 +4,7 @@ import { dataFolderPath, projectKey } from './util/constant.ts';
 import { writeFile } from './util/file.ts';
 import { makeZephyrClient } from './util/zephyr.ts';
 
-const zephyr = await makeZephyrClient();
+const zephyr = makeZephyrClient();
 
 const data = await zephyr.getAllEnvironments(projectKey, 0, 100);
 

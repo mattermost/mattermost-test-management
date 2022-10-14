@@ -1,16 +1,17 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_test_cases.ts
 
-import { findSingle } from './deps.ts';
+import { findSingle, sortBy } from './deps.ts';
 import {
   dataFolderPath,
-  defaultNoneFolder,
   projectKey,
   testCasesFolderFullPath,
+  tmpDataFolderPath,
 } from './util/constant.ts';
 import { readFile, writeFile } from './util/file.ts';
-import { getHex, getParentFolderById } from './util/helper.ts';
+import { getFolderNameAndFullPathById, getHashes } from './util/helper.ts';
+import { testCaseToMarkdown } from './util/markdown.ts';
 import { sanitizeTestCase, sanitizeTestSteps } from './util/test_case.ts';
-import { Component, Folder, Priority, Status } from './util/types.ts';
+import { Component, Folder, KeyPathId, Priority, Status } from './util/types.ts';
 import { makeZephyrClient } from './util/zephyr.ts';
 
 const components = readFile(`${dataFolderPath}/components.json`) as Component[];
@@ -18,7 +19,7 @@ const folders = readFile(`${dataFolderPath}/folders.json`) as Folder[];
 const priorities = readFile(`${dataFolderPath}/priorities.json`) as Priority[];
 const statuses = readFile(`${dataFolderPath}/statuses.json`) as Status[];
 
-const zephyr = await makeZephyrClient();
+const zephyr = makeZephyrClient();
 
 const testCases = await zephyr.getAllTestCases(projectKey, 0, 1000);
 testCases.forEach((testCase) => {
@@ -26,43 +27,88 @@ testCases.forEach((testCase) => {
 
   if (sanitizedTestCase.component?.id) {
     const component = components.find((c) => c.id === sanitizedTestCase.component?.id);
-    sanitizedTestCase.component.name = component?.name;
+    sanitizedTestCase.componentName = component?.name;
+    delete sanitizedTestCase.component;
+  } else if (sanitizedTestCase.component === null) {
+    sanitizedTestCase.componentName = null;
+    delete sanitizedTestCase.component;
   }
 
   if (sanitizedTestCase.priority?.id) {
-    const priority = priorities.find((p) => p.id === sanitizedTestCase.priority.id);
-    sanitizedTestCase.priority.name = priority?.name;
+    const priority = priorities.find((p) => p.id === sanitizedTestCase.priority?.id);
+    sanitizedTestCase.priorityName = priority?.name;
+    delete sanitizedTestCase.priority;
   }
 
   if (sanitizedTestCase.status?.id) {
-    const status = statuses.find((s) => s.id === sanitizedTestCase.status.id);
-    sanitizedTestCase.status.name = status?.name;
+    const status = statuses.find((s) => s.id === sanitizedTestCase.status?.id);
+    sanitizedTestCase.statusName = status?.name;
+    delete sanitizedTestCase.status;
   }
 
-  const folder = getParentFolderById(folders, sanitizedTestCase.folder?.id) || defaultNoneFolder;
-  sanitizedTestCase.folder = folder;
+  const { name, fullPath } = getFolderNameAndFullPathById(folders, sanitizedTestCase.folder?.id);
+  sanitizedTestCase.folderName = name;
+  sanitizedTestCase.folderFullPath = fullPath;
+  delete sanitizedTestCase.folder;
 });
+
+const testCaseKeyAndPath = testCases.map<KeyPathId>((tc) => ({
+  key: tc.key,
+  path: tc.folderFullPath,
+  id: tc.id || 0,
+}));
+const sortedById = sortBy(testCaseKeyAndPath, (it: KeyPathId) => it.id);
+
+// Save collections of key and path
+console.log(
+  writeFile(
+    `${dataFolderPath}/key-and-path.json`,
+    JSON.stringify(sortedById),
+  ),
+);
 
 const testStepsResponse = await zephyr.loopGetTestSteps(testCases);
 
 for (let i = 0; i < testCases.length; i++) {
   const testCase = testCases[i];
   const stepsResponse = findSingle(testStepsResponse, (it) => it.key === testCase.key);
-  const steps = sanitizeTestSteps(stepsResponse?.steps);
+  testCase.steps = sanitizeTestSteps(stepsResponse?.steps);
 
-  if (!steps) {
+  if (!testCase.steps) {
     // Log test case for info
     console.log(testCase, '! Attention: steps missing that requires fixing.');
   }
 
-  const caseHashed = getHex(JSON.stringify(testCase));
-  const stepsHashed = steps ? getHex(JSON.stringify(steps)) : null;
+  const [caseHashed, stepsHashed] = getHashes(testCase);
 
-  // Save each test case to json file
+  testCase.caseHashed = caseHashed;
+  testCase.stepsHashed = stepsHashed;
+
+  // Save test case to temporary folder
   console.log(
     writeFile(
-      `${testCasesFolderFullPath}/${testCase.folder.fullPath}/${testCase.key}.json`,
-      JSON.stringify({ ...testCase, steps, caseHashed, stepsHashed }),
+      `${tmpDataFolderPath}/${testCase.key}.json`,
+      JSON.stringify(testCase),
     ),
   );
 }
+
+testCases.forEach((testCase) => {
+  // Save test case to markdown file
+  console.log(
+    writeFile(
+      `${testCasesFolderFullPath}/${testCase.folderFullPath}/${testCase.key}.md`,
+      testCaseToMarkdown(testCase, { keyPathIds: testCaseKeyAndPath, fromTmp: true }),
+    ),
+  );
+
+  if (testCase.customFields['Update notes']) {
+    // Save update notes to json file
+    console.log(
+      writeFile(
+        `${testCasesFolderFullPath}/${testCase.folderFullPath}/${testCase.key}.json`,
+        JSON.stringify({ updateNotes: testCase.customFields['Update notes'] }),
+      ),
+    );
+  }
+});

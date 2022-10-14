@@ -1,12 +1,12 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_folders.ts
 
-import { findSingle } from './deps.ts';
+import { findSingle, sortBy } from './deps.ts';
 import { dataFolderPath, projectKey } from './util/constant.ts';
 import { writeFile } from './util/file.ts';
 import { Folder } from './util/types.ts';
 import { makeZephyrClient } from './util/zephyr.ts';
 
-const zephyr = await makeZephyrClient();
+const zephyr = makeZephyrClient();
 
 const folders = await zephyr.getAllFolders(projectKey, 'TEST_CASE', 0, 100) as Folder[];
 
@@ -27,6 +27,10 @@ console.log(
 const invalidFolderNames: string[] = [];
 
 const folderByParentFolder = folders.reduce<Record<string, string[]>>((acc, folder) => {
+  if (!folder.name) {
+    return acc;
+  }
+
   const parts = folder.fullPath?.split('/');
   const parent = parts?.length === 1 ? 'root' : parts?.slice(0, parts.length - 1).join('/');
 
@@ -50,13 +54,21 @@ const folderByParentFolder = folders.reduce<Record<string, string[]>>((acc, fold
 }, { root: [] });
 
 if (invalidFolderNames.length) {
+  // Log info
   console.log('With invalid folder names:');
   invalidFolderNames.forEach((invalidName) => console.log(`  - ${invalidName}`));
 }
 
+const sortedFolderByParent = sortBy(
+  Object.entries(folderByParentFolder).map(([parent, folders]) => {
+    return { parent, folders };
+  }),
+  (it) => it.parent,
+);
+
 // Save data
 console.log(
-  writeFile(`${dataFolderPath}/folder-by-parent.json`, JSON.stringify(folderByParentFolder)),
+  writeFile(`${dataFolderPath}/folder-by-parent.json`, JSON.stringify(sortedFolderByParent)),
 );
 console.log(
   invalidFolderNames.length,

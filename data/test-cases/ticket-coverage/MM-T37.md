@@ -1,36 +1,50 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel"
+status: Draft
+priority: Normal
+folder: Ticket coverage
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional)
+priority_p1_to_p4: null
+location: Ticket coverage
+component: null
+tags: []
+labels: []
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# Do not change
+id: 2765097
 key: MM-T37
-title: MM-17360 — Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel
+created_on: "2019-08-28T17:41:42Z"
+last_updated: ""
+case_hashed: a857e885e196413cefee698d32c60008ee05331c676f2c04700cb387aa4e754080090a88027317bf345cdd01b0540937
+steps_hashed: 7596b5618055e1b9055f4a711df7aa1fd407590c8e78900b89265db5d7fc82c00e9a2699f892cbf9791abd9c867db5a2
 ---
 
-## MM-T37: MM-17360 — Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-### Details
+## MM-T37: Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel
 
-| Name     | Value                |
-| :------- | :------------------- |
-| Priority | Normal               |
-| Status   | Draft                |
-| Folder   | Ticket coverage      |
-| Created  | 2019-08-28T17:41:42Z |
+---
 
-### Steps
+**Step 1**
 
-<hr/>
-
-**Step 2**
-
-> <article><ol><li>Draft a post in any channel and click on "preview"</li><li>Switch to another channel</li></ol></article>
+1. Draft a post in any channel and click on "preview"
+2. Switch to another channel
 
 **Expected**
 
-> <article><ul><li>Able to focus cursor in the text input box and post</li></ul><br><strong>Related bug</strong>: <a href="https://mattermost.atlassian.net/browse/MM-17360" rel="noopener noreferrer" target="_blank">MM-17360</a></article>
+- Able to focus cursor in the text input box and post
 
-<hr/>
-
-### More Info
-
-| Name           | Value           |
-| :------------- | :-------------- |
-| Team Ownership | QA Platform     |
-| Location       | Ticket coverage |
+**Related bug**: [MM-17360](https://mattermost.atlassian.net/browse/MM-17360)

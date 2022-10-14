@@ -1,54 +1,98 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Add User — Public ON / Private OFF"
+status: Active
+priority: Low
+folder: Add user from popover
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: []
+labels: 
+- cy-prod
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 2746252
 key: MM-T3
-title: Add User — Public ON / Private OFF
+created_on: "2019-08-26T23:03:54Z"
+last_updated: "2022-09-10T10:54:35Z"
+case_hashed: c1e381aafbba2f22708a9d47e6c9e0e0d9d43a3968db1ba55c73d77520e9ffae8af72d064e03b458409d08ad81579d87
+steps_hashed: 2c72a705ba316a448773f5090e45621354f727272f418c3b55e0ff7857c3e0999265a0b72dee034c734dd16d4de96824
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T3: Add User — Public ON / Private OFF
 
 **Objective**
 
-> <article><strong>Original test name from testing spreadsheet →&nbsp;</strong>If the user has manage channel member permissions for public OR private channels, show the option in the profile pop-over</article>
+If the user has manage channel member permissions for public OR private channels, show the option in the profile pop-over
 
-**Precondition**
-
-> <article><br><br></article>
-
-### Details
-
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Low                              |
-| Status   | Active                           |
-| Folder   | Channels / Add user from popover |
-| Labels   | cy-prod                          |
-| Created  | 2019-08-26T23:03:54Z             |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Step I:<ol><li>Login as a System Admin</li><li>Click on the Product Switcher menu</li><li>Click System Console</li><li>Navigate to User Management → Permissions → Edit Scheme</li></ol><br />Step II:<ol><li><strong>Check</strong> "Manage Public Channels" and <strong>uncheck</strong> "Manage Private Channels" in the All Members section at the top.</li></ol><br />Step III:<br /><ol><li>Login as a non-admin <strong>Member</strong> to the same server</li><li>Click the name of any user in a public or private channel</li></ol><br />Step IV:<br /><ol><li>Click Add to a channel</li><li>Type in the first few letters of the channel name</li></ol></article>
+Step I:
+
+1. Login as a System Admin
+2. Click on the Product Switcher menu
+3. Click System Console
+4. Navigate to User Management → Permissions → Edit Scheme
+
+Step II:
+
+1. **Check** "Manage Public Channels" and **uncheck** "Manage Private Channels" in the All Members section at the top.
+
+Step III:
+
+1. Login as a non-admin **Member** to the same server
+2. Click the name of any user in a public or private channel
+
+Step IV:
+
+1. Click Add to a channel
+2. Type in the first few letters of the channel name
 
 **Test Data**
 
-> <article>Step I:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566316335687-1566316335686.png" class="fr-fic fr-dii" style="width:138.0px" /><br /><br />Step II:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653231134-1611653231134.png" class="fr-fic fr-dii" /><br /><br />Step III:<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653328349-1611653328349.png" class="fr-fic fr-dii" /><br /><br /><br /></article>
+Step I:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566316335687-1566316335686.png)\
+\
+Step II:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653231134-1611653231134.png)\
+\
+Step III:\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653328349-1611653328349.png)
 
 **Expected**
 
-> <article>After step I:<ul><li>System Scheme settings appear</li></ul><br />After step II:<ul><li>"Manage Public Channels" are <strong>checked/enabled </strong>while "Manage Private Channels" boxes and all sub-settings under them are <strong>un</strong><strong>checked/disabled</strong>.</li></ul><br />After step III:<ul><li>You should see the option to add a user to a channel in the profile pop-up</li></ul><br />After step IV:<ul><li>Private channels will not appear in the autocomplete (even if you are a member of the private channel).</li></ul><br /><br /></article>
+After step I:
 
-<hr/>
+- System Scheme settings appear
 
-### More Info
+After step II:
 
-| Name                     | Value                                                                                                                                                                                                          |
-| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                                                                                                                             |
-| Update notes             | Steve Mudie — Wednesday, February 03, 2021 2:24 PM<br />• Removed from manual pool as Cypress appears to be working as expected<br />–––––––––––––––––––––––––<br />(Saturn) Combined steps to easily automate |
-| Rainforest               | N/A                                                                                                                                                                                                            |
-| Team Ownership           | Channels                                                                                                                                                                                                       |
-| Manual Test Environments | Automated - No manual tests needed                                                                                                                                                                             |
-| Cypress                  | in Production                                                                                                                                                                                                  |
-| Location                 | Add user to channel from popover                                                                                                                                                                               |
+- "Manage Public Channels" are **checked/enabled** while "Manage Private Channels" boxes and all sub-settings under them are **unchecked/disabled**.
+
+After step III:
+
+- You should see the option to add a user to a channel in the profile pop-up
+
+After step IV:
+
+- Private channels will not appear in the autocomplete (even if you are a member of the private channel).

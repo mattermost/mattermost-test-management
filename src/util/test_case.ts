@@ -1,9 +1,9 @@
-import { formatDate } from '../deps.ts';
-import { dataFolderPath, datetimeFormat, testCasesNoneFolder } from './constant.ts';
+import { findSingle, formatDate, red } from '../deps.ts';
+import { changeRequired, dataFolderPath, datetimeFormat } from './constant.ts';
 import { writeFile } from './file.ts';
-// import { newLineRe } from './helper.ts';
+import { htmlToMarkdown, markdownToHtml } from './markdown.ts';
+import { newLineRe } from './helper.ts';
 import {
-  ActionType,
   Component,
   Folder,
   Priority,
@@ -11,41 +11,32 @@ import {
   TestCase,
   TestCaseCustomFields,
   TestStep,
+  TestSteps,
 } from './types.ts';
 
 export function getDefaultCreateTestCase(
   name: string,
-  folder: Folder,
-  priority: Priority,
-  status: Status,
+  priorityName: string,
+  statusName: string,
+  folderName?: string,
 ): TestCase {
   return {
+    id: null,
     key: `MM-TMP${Date.now()}`,
     name,
     createdOn: null,
     objective: null,
     precondition: null,
     estimatedTime: null,
-    component: null,
-    priority: {
-      id: priority.id,
-      name: priority.name,
-    },
-    status: {
-      id: status.id,
-      name: status.name,
-    },
-    folder: {
-      action: folder.action,
-      id: folder.id,
-      name: folder.name,
-      parentId: folder.parentId,
-      fullPath: folder.fullPath,
-      fullNames: folder.fullNames,
-    },
+    componentName: null,
+    priorityName,
+    statusName,
+    folderName,
     labels: [],
     customFields: defaultCreateCustomFields(),
     steps: defaultCreateTestSteps(),
+    caseHashed: null,
+    stepsHashed: null,
   };
 }
 
@@ -53,14 +44,9 @@ function defaultCreateTestSteps() {
   return [
     {
       inline: {
-        description: '[change_me_required]',
+        description: changeRequired,
         testData: null,
-        expectedResult: '[change_me_required]',
-        customFields: {
-          'Fix Versions': [],
-          'Related ticket(s)': '',
-          'Important notes about this step': '',
-        },
+        expectedResult: changeRequired,
       },
       testCase: null,
     },
@@ -148,8 +134,10 @@ export function validateCustomFields(fieldsToValidate: TestCaseCustomFields) {
         fieldValue.map((value) => {
           if (baseValue.options && !baseValue?.options.includes(value)) {
             errorMessage.push(
-              `"customFields" unexpected value of "${value}" for "${baseKey}". Choose one or more of the following, comma-separated: ${
-                baseValue.options.join(' | ')
+              `"customFields.${baseKey}" with unexpected value of ${
+                JSON.stringify(value)
+              }. Choose one or more of the following, comma-separated: ${
+                baseValue.options.map((b) => String(b)).join(' | ')
               }`,
             );
           }
@@ -165,18 +153,15 @@ export function validateCustomFields(fieldsToValidate: TestCaseCustomFields) {
     if (fieldValue === null || typeof fieldValue === 'string') {
       if (baseValue.options.length && !baseValue?.options.includes(fieldValue)) {
         errorMessage.push(
-          `"customFields" unexpected value of "${fieldValue}" for "${baseKey}". Choose one of the following: ${
-            baseValue.options.join(' | ')
+          `"customFields.${baseKey}" unexpected value of "${fieldValue}". Choose one of the following: ${
+            baseValue.options.map((b) => `"${String(b)}"`).join(' | ')
           }`,
         );
       }
     }
   });
 
-  // Log for info
-  errorMessage.forEach((message) => console.log('  !(error)', message));
-
-  return errorMessage.length === 0;
+  return errorMessage;
 }
 
 export function isValidTestSteps(testSteps: TestSteps) {
@@ -189,14 +174,14 @@ export function isValidTestSteps(testSteps: TestSteps) {
   });
 
   // Log for info
-  errorMessage.forEach((message) => console.log('  !(error)', message));
+  errorMessage.forEach((message) => console.log(red('-> (error)'), red(message)));
 
   return errorMessage.length === 0;
 }
 
 function customFieldsValues() {
   const teamOptions = {
-    default: ['QA Platform'],
+    default: [changeRequired],
     options: [
       'Boards',
       'Calls',
@@ -227,7 +212,7 @@ function customFieldsValues() {
 
   return {
     'Rainforest': {
-      default: ['Evaluating'],
+      default: [],
       options: [
         ...toolOptions,
         'Webapp',
@@ -235,6 +220,7 @@ function customFieldsValues() {
         'Cloud',
         'in Production — Desktop',
         'Temporarily Disabled',
+        'Draft',
       ],
     },
     'Team Ownership': teamOptions,
@@ -246,11 +232,11 @@ function customFieldsValues() {
         'Mobile',
         'Desktop',
         'Cloud',
-        'RN: iOS',
-        'RN: Android',
-        'Desktop: Linux',
-        'Desktop: macOS',
-        'Desktop: Win',
+        'RN - iOS',
+        'RN - Android',
+        'Desktop - Linux',
+        'Desktop - macOS',
+        'Desktop - Win',
         'WebApp and Desktop',
         'CLI',
         'Portal',
@@ -273,19 +259,16 @@ function customFieldsValues() {
     'Playwright': { default: null, options: toolOptions },
     'MMCTL': { default: null, options: toolOptions },
     'Location': { default: null, options: [] },
-    'Authors': { default: '@change_to_my_github_handle', options: [] },
+    'Authors': { default: '@' + changeRequired, options: [] },
     'Last Updated': { default: '', options: [] },
   };
 }
 
 type GenericVF = {
-  action?: ActionType;
-  id?: number;
   name?: string;
-  parentId?: number | null;
 };
 
-export function isValidTestCase(
+export function validTestCase(
   testCase: TestCase,
   records: {
     components: Component[];
@@ -293,79 +276,78 @@ export function isValidTestCase(
     priorities: Priority[];
     statuses: Status[];
   },
-): boolean {
+) {
   const errorMessage: string[] = [];
   if (!testCase.name) {
     errorMessage.push(`"name" field required: ${testCase?.name}`);
   }
 
-  // TODO(@saturn): uncomment once all test names are updated without newline
-  // if (!newLineRe.test(testCase.name)) {
-  //   errorMessage.push(`"name" should not have "newline": ${testCase.name}`);
-  // }
-
-  // Log for info
-  errorMessage.forEach((message) => console.log('  !(error)', message));
-  const validTestCase = errorMessage.length === 0;
+  if (newLineRe.test(testCase.name)) {
+    errorMessage.push(`"name" should not have "new line": ${testCase.name}`);
+  }
 
   const validCustomFields = validateCustomFields(testCase.customFields);
-
-  const validComponent = testCase.component == null || isValidField<Component>(
-    records.components,
-    testCase.component,
+  const validComponent = testCase.componentName === null ? [] : isValidField<Component>(
     'components.json',
+    records.components,
+    testCase.componentName,
   );
-
   const validPriority = isValidField<Priority>(
-    records.priorities,
-    testCase.priority,
     'priorities.json',
+    records.priorities,
+    testCase.priorityName,
   );
+  const validStatus = isValidField<Status>('statuses.json', records.statuses, testCase.statusName);
+  const validFolder = isValidFolder('folders.json', records.folders, testCase.folderFullPath);
 
-  const validStatus = isValidField<Status>(records.statuses, testCase.status, 'statuses.json');
-
-  const validFolder = testCase.folder.name === testCasesNoneFolder ||
-    isValidField<Folder>(records.folders, testCase.folder, 'folders.json');
-
-  return validTestCase && validCustomFields && validPriority &&
-    validStatus && validFolder && validComponent;
+  return errorMessage.concat(validCustomFields).concat(validPriority).concat(validStatus).concat(
+    validFolder,
+  ).concat(validComponent);
 }
 
 function isValidField<VF extends GenericVF>(
+  filename: string,
   baseValues: VF[],
-  valueToValidate: VF,
-  field: string,
+  name?: string | null,
 ) {
-  const errorMessage: string[] = [];
+  if (!name) {
+    return [];
+  }
 
-  const found =
-    baseValues.filter((b) => b.id === valueToValidate.id && b.name === valueToValidate.name)[0];
-  if (valueToValidate?.action === 'CREATE') {
-    if (valueToValidate.parentId) {
-      if (!baseValues.filter((b) => b.id === valueToValidate.parentId)[0]) {
-        errorMessage.push(
-          `Parent not found from "${field}: ${JSON.stringify(valueToValidate)}"`,
-        );
-      }
-    }
-  } else if (!found) {
+  const errorMessage: string[] = [];
+  const found = findSingle(baseValues, (it) => it.name === name);
+
+  if (!found) {
     errorMessage.push(
-      `Not found from "${field}: ${JSON.stringify(valueToValidate)}"`,
-    );
-  } else if (!valueToValidate.name) {
-    errorMessage.push(
-      `"name" not found from ${JSON.stringify(valueToValidate)}"`,
-    );
-  } else if (valueToValidate?.parentId !== found?.parentId) {
-    errorMessage.push(
-      `"parentId" not match from "${field}: expect "${valueToValidate.parentId}", actual "${found.parentId}"}"`,
+      `"${name}" not found from "${filename}". Choose one of the following: ${
+        baseValues.map((b) => `"${String(b.name)}"`).join(' | ')
+      }`,
     );
   }
 
-  // Log for info
-  errorMessage.forEach((message) => console.log('  !(error)', message));
+  return errorMessage;
+}
 
-  return errorMessage.length === 0;
+function isValidFolder(
+  filename: string,
+  baseValues: Folder[],
+  fullPath?: string | null,
+) {
+  if (!fullPath) {
+    return [];
+  }
+
+  const errorMessage: string[] = [];
+
+  const found = findSingle(baseValues, (it) => it.fullPath === fullPath);
+
+  if (!found) {
+    errorMessage.push(
+      `"${fullPath}" not found from "${filename}"`,
+    );
+  }
+
+  return errorMessage;
 }
 
 export function saveTestCaseCustomFieldsToFile(customFields: TestCaseCustomFields) {
@@ -392,10 +374,6 @@ export function sanitizeTestCase(testCase: TestCase) {
   delete testCase.owner;
   delete testCase.testScript;
   delete testCase.links;
-  delete testCase.priority?.self;
-  delete testCase.status?.self;
-  delete testCase.folder?.self;
-  delete testCase.component?.self;
 
   return testCase;
 }
@@ -407,5 +385,102 @@ export function sanitizeTestSteps(steps?: TestStep[]) {
     }
 
     return step;
+  }).map((step) => {
+    if (!step.inline) {
+      return step;
+    }
+
+    return {
+      inline: {
+        ...step.inline,
+        description: cycleHtmlMarkdownConversion(step.inline.description),
+        testData: cycleHtmlMarkdownConversion(step.inline.testData),
+        expectedResult: cycleHtmlMarkdownConversion(step.inline.expectedResult),
+      },
+      testCase: step.testCase,
+    };
   });
+}
+
+function cycleHtmlMarkdownConversion(doc: string | null) {
+  return doc ? markdownToHtml(htmlToMarkdown(doc)) : doc;
+}
+
+export function compareTestCase(a: TestCase, b: TestCase) {
+  // Logs for info only
+  if (a.id !== b.id) {
+    throw new Error(`${a.id} !== ${b.id}`);
+  }
+  if (a.key !== b.key) {
+    throw new Error(`${a.key} !== ${b.key}`);
+  }
+  if (a.name !== b.name) {
+    throw new Error(`${a.name} !== ${b.name}`);
+  }
+  if (a.objective !== b.objective) {
+    console.log(red(`${a.key} Objective`));
+    console.log(`"${a.objective}"`, a.objective?.length);
+    console.log(`"${b.objective}"`, b.objective?.length);
+  }
+  if (a.precondition !== b.precondition) {
+    console.log(red(`${a.key} Precondition`));
+    console.log(`"${a.precondition}"`, a.precondition?.length);
+    console.log(`"${b.precondition}"`, b.precondition?.length);
+  }
+  if (a.estimatedTime !== b.estimatedTime) {
+    throw new Error(`${a.estimatedTime} !== ${b.estimatedTime}`);
+  }
+  if (a.labels?.length !== b.labels?.length) {
+    throw new Error(`${a.labels} !== ${b.labels}`);
+  }
+  if (a.componentName !== b.componentName) {
+    throw new Error(`${a.componentName} !== ${b.componentName}`);
+  }
+  if (a.priorityName !== b.priorityName) {
+    throw new Error(`${a.priorityName} !== ${b.priorityName}`);
+  }
+  if (a.statusName !== b.statusName) {
+    throw new Error(`${a.statusName} !== ${b.statusName}`);
+  }
+  if (a.folderName !== b.folderName) {
+    throw new Error(`${a.folderName} !== ${b.folderName}`);
+  }
+  if (a.folderFullPath !== b.folderFullPath) {
+    throw new Error(`${a.folderFullPath} !== ${b.folderFullPath}`);
+  }
+  if (a.caseHashed !== b.caseHashed) {
+    throw new Error(`${a.caseHashed} !== ${b.caseHashed}`);
+  }
+  if (a.stepsHashed !== b.stepsHashed) {
+    throw new Error(`${a.stepsHashed} !== ${b.stepsHashed}`);
+  }
+
+  const aSteps = a.steps;
+  const bSteps = b.steps;
+
+  if (aSteps && bSteps && aSteps.length === bSteps.length) {
+    for (let i = 0; i < aSteps.length; i++) {
+      const aStep = aSteps[i];
+      const bStep = bSteps[i];
+
+      if (aStep.inline === null && aStep.inline !== bStep.inline) {
+        throw new Error(`${aStep.inline} !== ${bStep.inline}`);
+      }
+      if (aStep.inline?.description !== bStep.inline?.description) {
+        console.log(red(`${a.key} Description`));
+        console.log(`"${aStep.inline?.description}"`, aStep.inline?.description?.length);
+        console.log(`"${bStep.inline?.description}"`, bStep.inline?.description?.length);
+      }
+      if (aStep.inline?.testData !== bStep.inline?.testData) {
+        console.log(red(`${a.key} Test Data`));
+        console.log(`"${aStep.inline?.testData}"`);
+        console.log(`"${bStep.inline?.testData}"`);
+      }
+      if (aStep.inline?.expectedResult !== bStep.inline?.expectedResult) {
+        console.log(red(`${a.key} Expected`));
+        console.log(`"${aStep.inline?.expectedResult}"`);
+        console.log(`"${bStep.inline?.expectedResult}"`);
+      }
+    }
+  }
 }

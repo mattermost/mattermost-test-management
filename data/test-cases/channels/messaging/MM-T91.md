@@ -1,46 +1,66 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Replying to an older post by a user that has no content (only file attachments)"
+status: Active
+priority: Low
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 3741722
 key: MM-T91
-title: Replying to an older post by a user that has no content (only file attachments)
+created_on: "2019-12-20T16:32:59Z"
+last_updated: "2022-09-09T20:49:56Z"
+case_hashed: 7c2ace3789d013d99e83901565014b1c861d8381e9aa41adc7e857439ba2307cacb00b0cf66092665295f3e0adf0ba0e
+steps_hashed: 349aca556e6c8a7e565d577723a66ce00939d0b96d43fadd7658b16e60c4915cbad42c11345232dbde44e9dc5df30a81
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T91: Replying to an older post by a user that has no content (only file attachments)
 
 **Precondition**
 
-> <article><strong>**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)**</strong></article>
+**\*\*Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)\*\***
 
-### Details
-
-| Name     | Value                                                |
-| :------- | :--------------------------------------------------- |
-| Priority | Low                                                  |
-| Status   | Active                                               |
-| Folder   | Channels / Messaging                                 |
-| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging |
-| Created  | 2019-12-20T16:32:59Z                                 |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Replying to an older post by a user that has no content (only file attachments)<br>--------------------<br>**Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)**<br><br>1. On a post that has only file attachments, that is at least one day old (and has had subsequent messages posted after it in the channel),<br>2. Click "reply" from [...] menu to reply to a message<br>3. In right hand sidebar, make a reply post<br>4. Send and verify reply appears<br>5. Close the RHS / go back to center channel view</article>
+Replying to an older post by a user that has no content (only file attachments)\
+\--------------------\
+\*\*Test this one on a server that has older data, such as postgres.test or mysql.test if necessary (as opposed to rc.test, e.g. where there may not be older messages)\*\*\
+\
+1\. On a post that has only file attachments, that is at least one day old (and has had subsequent messages posted after it in the channel),\
+2\. Click "reply" from \[...] menu to reply to a message\
+3\. In right hand sidebar, make a reply post\
+4\. Send and verify reply appears\
+5\. Close the RHS / go back to center channel view
 
 **Expected**
 
-> <article>After 5) You should see &quot;Commented on [user]&sbquo;&Auml;&ocirc;s message: [File name 1] plus 1 other file&quot; on the line below your username on the post showing at the bottom of the center panel<br /><br />NOTE: If the post you replied to had only ONE file attached, the &quot;plus 1 other file&quot; part of the &quot;commented on...&quot; line will not show</article>
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                              |
-| :----------------------- | :--------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                 |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 3:10 PM<br>• Removed from manual testing |
-| Rainforest               | N/A                                                                                |
-| Team Ownership           | Channels                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                 |
-| Cypress                  | in Production                                                                      |
-| Location                 | Messaging                                                                          |
+After 5) You should see "Commented on \[user]‚Äôs message: \[File name 1] plus 1 other file" on the line below your username on the post showing at the bottom of the center panel\
+\
+NOTE: If the post you replied to had only ONE file attached, the "plus 1 other file" part of the "commented on..." line will not show

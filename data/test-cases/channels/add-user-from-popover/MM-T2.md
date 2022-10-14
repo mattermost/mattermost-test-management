@@ -1,55 +1,92 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Add user — Error if already in channel"
+status: Active
+priority: Low
+folder: Add user from popover
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+location: Add user to channel from popover
+component: null
+tags: 
+- Cloud N/A
+labels: 
+- cy-prod
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 2746251
 key: MM-T2
-title: Add user — Error if already in channel
+created_on: "2019-08-26T23:03:54Z"
+last_updated: "2022-09-10T10:54:35Z"
+case_hashed: 8b29a8cf27e82d344c4078b430393ed32b058a10d7afbcf998211826aa14e4494d1fc295dbf56e19f1bdf77a1b06b5aa
+steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T2: Add user — Error if already in channel
 
 **Objective**
 
-> <article><strong>Original test name from testing spreadsheet → </strong>If a user tries to add a person to a channel he is already in, there is an error as soon as he selects that channel from the list.</article>
+If a user tries to add a person to a channel he is already in, there is an error as soon as he selects that channel from the list.
 
-**Precondition**
-
-> <article><br><br></article>
-
-### Details
-
-| Name     | Value                            |
-| :------- | :------------------------------- |
-| Priority | Low                              |
-| Status   | Active                           |
-| Folder   | Channels / Add user from popover |
-| Labels   | cy-prod                          |
-| Created  | 2019-08-26T23:03:54Z             |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Add user — Error if already in channel<br />–––––––––––––––––––––––––<br />Step 1:<ol><li>Login as a System Admin</li><li>Click the Product Switcher icon</li><li>Click System Console</li><li>Navigate to User Management → Permissions → Edit Scheme</li></ol><br />Step 2:<ol><li>Click "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top.</li></ol><br />Step 3:<br /><ol><li>Login as a Member to the same server</li><li>Click the name of any user in a public or private channel</li></ol><br />Step 4:<br /><ol><li>Click Add to a channel</li><li>Type in the first few letters of the channel name <strong>you are currently in</strong></li></ol><br />Step 5:<br /><ol><li>Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)</li><li>Click Add</li></ol><strong><br /></strong></article>
+Add user — Error if already in channel\
+–––––––––––––––––––––––––\
+Step 1:
+
+1. Login as a System Admin
+2. Click the Product Switcher icon
+3. Click System Console
+4. Navigate to User Management → Permissions → Edit Scheme
+
+Step 2:
+
+1. Click "Manage Public Channels" and "Manage Private Channels" in the All Members section at the top.
+
+Step 3:
+
+1. Login as a Member to the same server
+2. Click the name of any user in a public or private channel
+
+Step 4:
+
+1. Click Add to a channel
+2. Type in the first few letters of the channel name **you are currently in**
+
+Step 5:
+
+1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
+2. Click Add
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png" style="width:300px" class="fr-fil fr-dib" /><br /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png)
 
 **Expected**
 
-> <article>On step 1, System Scheme settings appear.<br />On step 2, "Manage Public Channels" and "Manage Private Channels" boxes and all sub-settings under them are <strong>checked/enabled</strong>.<br />On step 3, you should see the option to add a user to a channel in the profile pop-up.<br />On step 4, the list filters to match what you've typed.<br />On step 5,<ul><li>Error displays "[name] is already a member of that channel"</li><li>The Add button is unactionable</li></ul></article>
+On step 1, System Scheme settings appear.\
+On step 2, "Manage Public Channels" and "Manage Private Channels" boxes and all sub-settings under them are **checked/enabled**.\
+On step 3, you should see the option to add a user to a channel in the profile pop-up.\
+On step 4, the list filters to match what you've typed.\
+On step 5,
 
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                                                                                                                                                                                                       |
-| :----------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P3 - Deep Functions (Do extensive scenarios work?)                                                                                                                                                                                                          |
-| Update notes             | Steve Mudie — Thursday, December 17, 2020 7:01 PM<br />• Cypress Automation working as expected 🎉<br />• Set Cypress status to ✅ in Production<br />• Removed from relevant Manual Environments<br />• Added link to Cypress code in Traceability tab above |
-| Rainforest               | N/A                                                                                                                                                                                                                                                         |
-| Team Ownership           | Channels                                                                                                                                                                                                                                                    |
-| Manual Test Environments | Automated - No manual tests needed                                                                                                                                                                                                                          |
-| Cypress                  | in Production                                                                                                                                                                                                                                               |
-| Tags                     | Cloud N/A                                                                                                                                                                                                                                                   |
-| Location                 | Add user to channel from popover                                                                                                                                                                                                                            |
+- Error displays `[name] is already a member of that channel`
+- The Add button is unactionable

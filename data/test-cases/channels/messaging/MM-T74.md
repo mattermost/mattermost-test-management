@@ -1,46 +1,59 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Mobile view: Post options menu (3-dots) is present on a reply post in RHS"
+status: Active
+priority: Low
+folder: Messaging
+authors: ""
+team_ownership: 
+- Channels
+
+# (Optional)
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: Messaging
+component: null
+tags: []
+labels: 
+- TM4J-Key-Mapped-In-Cypress-Release
+- cy-prod
+- messaging
+
+# (Optional) Test type and tools
+cypress: in Production
+detox: null
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Automated - No manual tests needed
+
+# Do not change
+id: 3736150
 key: MM-T74
-title: Mobile view: Post options menu (3-dots) is present on a reply post in RHS
+created_on: "2019-12-19T15:28:55Z"
+last_updated: ""
+case_hashed: f66acd61ee377143ae03d2ed849ba3995636065731e74cf7dc0757f9f09c537273ee2ea6d2896ec3532ecaf1fa12d397
+steps_hashed: 1d5996966248379fa9d9a6fe20b75887dc775d27b2d7d0521bf94610652a4853fb97f953369741a12fc04090437211d7
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T74: Mobile view: Post options menu (3-dots) is present on a reply post in RHS
 
-### Details
-
-| Name     | Value                                                |
-| :------- | :--------------------------------------------------- |
-| Priority | Low                                                  |
-| Status   | Active                                               |
-| Folder   | Channels / Messaging                                 |
-| Labels   | TM4J-Key-Mapped-In-Cypress-Release,cy-prod,messaging |
-| Created  | 2019-12-19T15:28:55Z                                 |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article>Mobile view: Post options menu (3-dots) is present on a reply post in RHS<br />--------------------<br />1. On Webapp mobile view, click on reply to an existing post.<br />2. Type a message and click on Add comment.</article>
+Mobile view: Post options menu (3-dots) is present on a reply post in RHS\
+\--------------------\
+1\. On Webapp mobile view, click on reply to an existing post.\
+2\. Type a message and click on Add comment.
 
 **Test Data**
 
-> <article>FIXED v5.15 <a href="https://mattermost.atlassian.net/browse/MM-17409" rel="noopener noreferrer" target="_blank">https://mattermost.atlassian.net/browse/MM-17409</a></article>
+FIXED v5.15 <https://mattermost.atlassian.net/browse/MM-17409>
 
 **Expected**
 
-> <article>After 2) you can still see the 3-dot post options menu visible to the right of your post and clicking on the menu opens it and displays post options</article>
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                              |
-| :----------------------- | :--------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P2 - Core Functions (Do core functions work?)                                      |
-| Update notes             | Steve Mudie — Tuesday, September 22, 2020 2:53 PM<br>• Removed from manual testing |
-| Rainforest               | N/A                                                                                |
-| Team Ownership           | Channels                                                                           |
-| Manual Test Environments | Automated - No manual tests needed                                                 |
-| Cypress                  | in Production                                                                      |
-| Location                 | Messaging                                                                          |
+After 2) you can still see the 3-dot post options menu visible to the right of your post and clicking on the menu opens it and displays post options

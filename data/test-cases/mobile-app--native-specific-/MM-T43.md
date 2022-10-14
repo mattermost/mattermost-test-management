@@ -1,614 +1,756 @@
 ---
+# (Required) Ensure all values are filled up
+name: "Mobile classic apps: Smoke Tests"
+status: Active
+priority: Smoke test
+folder: Mobile App (native-specific)
+authors: ""
+team_ownership: 
+- QA Platform
+
+# (Optional)
+priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
+location: Smoke Test
+component: null
+tags: 
+- Smoke test
+labels: 
+- RN_Smoke_Tests
+- smoke-test-folder
+- fix-versions-not-empty-2022cleanup
+
+# (Optional) Test type and tools
+cypress: N/A
+detox: N/A
+mmctl: null
+playwright: null
+rainforest: 
+- N/A
+manual_test_environments: 
+- Mobile
+
+# Do not change
+id: 2814840
 key: MM-T43
-title: Mobile classic apps: Smoke Tests
+created_on: "2019-09-04T21:03:12Z"
+last_updated: "2022-09-10T11:55:02Z"
+case_hashed: 0ac2bd8667a38c5a271972f1cf568e008d8de03f9d6f66337f78d650783a4e2d6bc12bd1415e1500c782b20822128e0b
+steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
 ---
+
+<!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
 ## MM-T43: Mobile classic apps: Smoke Tests
 
 **Objective**
 
-> <article>These tests cover the very basics of the Mattermost Classic app.<br>It is no longer being updated but is still in use.<br>The last versions released listed below.<ul><li> iOS Version 3.10.3 — Apr 13, 2018</li><li><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566499085070-android-vector-icon-7.png" style="width: 16.0px;" class="fr-fil fr-dii">Android 3.10.3 — May 16, 2018</li></ul></article>
+These tests cover the very basics of the Mattermost Classic app.\
+It is no longer being updated but is still in use.\
+The last versions released listed below.
 
-### Details
+- iOS Version 3.10.3 - Apr 13, 2018
+- Android 3.10.3 - May 16, 2018
 
-| Name     | Value                                                               |
-| :------- | :------------------------------------------------------------------ |
-| Priority | Smoke test                                                          |
-| Status   | Active                                                              |
-| Folder   | Mobile App (native-specific)                                        |
-| Labels   | RN_Smoke_Tests,smoke-test-folder,fix-versions-not-empty-2022cleanup |
-| Created  | 2019-09-04T21:03:12Z                                                |
-
-### Steps
-
-<hr/>
+---
 
 **Step 1**
 
-> <article><ol><li>Enter a server URL and leave a space in what you type in (e.g., https://community .mattermost.com)</li><li>Tap 'Next'</li></ol></article>
+1. Enter a server URL and leave a space in what you type in (e.g., <https://community.mattermost.com>)
+2. Tap 'Next'
+
+_Related ticket(s):_
+
+[iOS Classic app crashes if there is a space in server url — MM-8968](https://mattermost.atlassian.net/browse/MM-8968)
 
 **Expected**
 
-> <article><ul><li>App should not crash</li></ul></article>
+- App should not crash
 
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Fix Versions | v4.8 (March 2018) |
-| Related ticket(s) | <a href="https://mattermost.atlassian.net/browse/MM-8968">iOS Classic app crashes if there is a space in server url — MM-8968</a> |
-
-<hr/>
+---
 
 **Step 2**
 
-> <article><ol><li>Enter a server URL<br />(e.g., https://postgres.test.mattermost.com/)</li><li>Tap Next<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg" style="width:201.0px" class="fr-fil fr-dib" /></li></ol></article>
+1. Enter a server URL
+   \
+   (e.g., <https://postgres.test.mattermost.com/>)
+2. Tap Next
+   \
+   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Connected to server<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg" style="width:239.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Connected to server
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
 
-<hr/>
+---
 
 **Step 3**
 
-> <article><ol><li>Type in email address</li><li>Type in password</li><li>Tap Sign In</li></ol></article>
+1. Type in email address
+2. Type in password
+3. Tap Sign In
 
 **Expected**
 
-> <article>Successfully logged in</article>
+Successfully logged in
 
-<hr/>
+---
 
 **Step 4**
 
-> <article><ol><li>Type in the text field at the bottom of the app</li><li>Tap the send icon<img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png" style="width:17.0px" class="fr-dii" /><br /></li></ol></article>
+1. Type in the text field at the bottom of the app
+2. Tap the send icon![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png)
 
 **Expected**
 
-> <article>Post accepted and added to messages just above text field<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></article>
+Post accepted and added to messages just above text field\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg)
 
-<hr/>
+---
 
 **Step 5**
 
-> <article><ol><li>Tap the … ellipsis menu icon on the message you just posted</li><li>Tap Edit in the modal window that appears<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg" style="width:186.0px" class="fr-fil fr-dib" /></li></ol><br /></article>
+1. Tap the `...` ellipsis menu icon on the message you just posted
+2. Tap Edit in the modal window that appears
+   \
+   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
 
 **Expected**
 
-> <article>Edit Post window appears<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+Edit Post window appears\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg)
 
-<hr/>
+---
 
 **Step 6**
 
-> <article>Tap Cancel</article>
+Tap Cancel
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>No changes made</li></ul></article>
+- Returned to channel
+- No changes made
 
-<hr/>
+---
 
 **Step 7**
 
-> <article><ul><li>Tap the … ellipsis menu icon on the message you just posted again</li><li>Tap Edit in the modal window that appears</li><li>Edit the text</li><li>Tap Save</li></ul></article>
+- Tap the `...` ellipsis menu icon on the message you just posted again
+- Tap Edit in the modal window that appears
+- Edit the text
+- Tap Save
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>Changes accepted and displayed</li><li>Greyed out "(edited)" text below message<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Returned to channel
+- Changes accepted and displayed
+- Greyed out "(edited)" text below message
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
 
-<hr/>
+---
 
 **Step 8**
 
-> <article><ol><li>Click the comment arrow on a post</li></ol></article>
+1. Click the comment arrow on a post
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg" class="fr-fic fr-dii" style="width:176.0px" /><br /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Display changes to message details</li><li>Able to type in text</li></ul></article>
+- Display changes to message details
+- Able to type in text
 
-<hr/>
+---
 
 **Step 9**
 
-> <article><ol><li>Tap Add Comment</li></ol></article>
+1. Tap Add Comment
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg" style="width:185.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Comment added to message thread</li><li>Text box present below last message</li><li>Add comment button greyed out (until new text added)</li></ul></article>
+- Comment added to message thread
+- Text box present below last message
+- Add comment button greyed out (until new text added)
 
-<hr/>
+---
 
 **Step 10**
 
-> <article>Tap &lt; (back) button in top left corner</article>
+Tap < (back) button in top left corner
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>Reply to thread shown most recent post at bottom of screen</li><li>Grey <strong>|</strong> bar to the left of the post indicating it's part of a thread</li></ul></article>
+- Returned to channel
+- Reply to thread shown most recent post at bottom of screen
+- Grey **|** bar to the left of the post indicating it's part of a thread
 
-<hr/>
+---
 
 **Step 11**
 
-> <article><ol><li>Tap 📎 attach icon</li></ol></article>
+1. Tap 📎 attach icon
+
+_Related ticket(s):_
+
+(Won't Fix) [iOS Classic: Tapping paperclip icon does little or nothing — MM-20174](https://mattermost.atlassian.net/browse/MM-20174)
 
 **Test Data**
 
-> <article><strong>iOS</strong><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /><br />Android<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png" style="width:300px" class="fr-fil fr-dib" /></article>
+**iOS** ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg)\
+Android\
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png)
 
 **Expected**
 
-> <article><ul><li> iOS<ul><li>Attachment menu pops up from bottom of screen<ul><li>Take Photo or Video</li><li>Photo Library</li><li>Browse</li></ul></li></ul></li><li>Android<ul><li>Attachment menu appears in middle of screen<ul><li>Camera</li><li>Camcorder</li><li>Voice Recorder</li><li>Documents</li></ul></li></ul></li></ul></article>
+-  iOS
 
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Fix Versions | Won't Fix |
-| Related ticket(s) | (<span style="color:rgb(184, 49, 47)">Won't Fix</span>) <a href="https://mattermost.atlassian.net/browse/MM-20174">iOS Classic: Tapping paperclip icon does little or nothing — MM-20174</a> |
+  - Attachment menu pops up from bottom of screen
 
-<hr/>
+    - Take Photo or Video
+    - Photo Library
+    - Browse
+
+- Android
+
+  - Attachment menu appears in middle of screen
+
+    - Camera
+    - Camcorder
+    - Voice Recorder
+    - Documents
+
+---
 
 **Step 12**
 
-> <article><ul><li> iOS ➜ Tap Cancel</li><li>Android ➜ Tap outside of the modal window</li></ul></article>
+-  iOS ➜ Tap Cancel
+- Android ➜ Tap outside of the modal window
 
 **Expected**
 
-> <article><ul><li>Menu closes</li><li>No changes made</li></ul></article>
+- Menu closes
+- No changes made
 
-<hr/>
+---
 
 **Step 13**
 
-> <article><ol><li>Tap 📎 attach icon again</li><li>Tap Photo Library (Tap Camera icon on Android)</li><li>Browse for photo</li><li>Attach a photo to upload it</li></ol></article>
+1. Tap 📎 attach icon again
+2. Tap Photo Library (Tap Camera icon on Android)
+3. Browse for photo
+4. Attach a photo to upload it
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Upload starts</li><li>Progress bar shows activity</li></ul></article>
+- Upload starts
+- Progress bar shows activity
 
-<hr/>
+---
 
 **Step 14**
 
-> <article><ol><li>Verify image uploaded completely<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png" class="fr-fic fr-dii" style="width:212.0px" /></li><li>Add text if desired</li><li>Tap send icon </li></ol></article>
+1. Verify image uploaded completely
+   \
+   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
+2. Add text if desired
+3. Tap send icon
 
 **Expected**
 
-> <article><ul><li>Image posted<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg" style="width:194.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Image posted
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
 
-<hr/>
+---
 
 **Step 15**
 
-> <article><ol><li>Tap the … ellipsis menu icon on a message</li><li>Tap the Delete button in the modal window that appears<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg" class="fr-fic fr-dii" style="width:174.0px" /></li></ol></article>
+1. Tap the … ellipsis menu icon on a message
+2. Tap the Delete button in the modal window that appears
+   \
+   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
 
 **Expected**
 
-> <article><ul><li>Confirm Comment Delete window appears</li></ul><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+- Confirm Comment Delete window appears
 
-<hr/>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg)
+
+---
 
 **Step 16**
 
-> <article>Tap Cancel</article>
+Tap Cancel
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>No changes made</li></ul></article>
+- Returned to channel
+- No changes made
 
-<hr/>
+---
 
 **Step 17**
 
-> <article><ul><li>Tap the … ellipsis menu icon on a message again</li><li>Tap the Delete button in the modal window that appears</li><li>Tap the Delete button</li></ul></article>
+- Tap the … ellipsis menu icon on a message again
+- Tap the Delete button in the modal window that appears
+- Tap the Delete button
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>Message deleted</li></ul><strong>Note</strong>: Other users can see an empty message where the post was sayng that it has been deleted</article>
+- Returned to channel
+- Message deleted
 
-<hr/>
+**Note**: Other users can see an empty message where the post was saying that it has been deleted
+
+---
 
 **Step 18**
 
-> <article>Tap magnifying glass in top right corner</article>
+Tap magnifying glass in top right corner
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg)
 
 **Expected**
 
-> <article>Search screen with instructions opens</article>
+Search screen with instructions opens
 
-<hr/>
+---
 
 **Step 19**
 
-> <article>Type in search term and tap search on keyboard</article>
+Type in search term and tap search on keyboard
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg" style="width:195.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Search results returned</li><li>Search terms highlighted in posts shown</li><li>Most recent post appears at the top</li><li>Jump buttons on each post to right of reply arrow</li></ul></article>
+- Search results returned
+- Search terms highlighted in posts shown
+- Most recent post appears at the top
+- Jump buttons on each post to right of reply arrow
 
-<hr/>
+---
 
 **Step 20**
 
-> <article>Tap Jump button</article>
+Tap Jump button
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Brought to post</li><li>Post highlighted yellow</li><li>Date of post appears briefly at top then vanishes off screen</li><li>"Click Here to jump to recent messages ?" bar at bottom of screen</li></ul></article>
+- Brought to post
+- Post highlighted yellow
+- Date of post appears briefly at top then vanishes off screen
+- "Click Here to jump to recent messages ?" bar at bottom of screen
 
-<hr/>
+---
 
 **Step 21**
 
-> <article>Tap "Click Here to jump to recent messages ?" bar</article>
+Tap "Click Here to jump to recent messages?" bar
 
 **Expected**
 
-> <article>Returned to most recent post</article>
+Returned to most recent post
 
-<hr/>
+---
 
 **Step 22**
 
-> <article><ol><li>Tap magnifying glass in top right corner again</li><li>Type "Before:" in search field</li></ol></article>
+1. Tap magnifying glass in top right corner again
+2. Type "Before:" in search field
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg)
 
 **Expected**
 
-> <article>Calendar appears</article>
+Calendar appears
 
-<hr/>
+---
 
 **Step 23**
 
-> <article><ol><li>Use arrows to navigate months</li><li>Select date by tapping on it </li></ol></article>
+1. Use arrows to navigate months
+2. Select date by tapping on it
 
 **Expected**
 
-> <article>Date fills in in this format - "Before:2019-07-30"</article>
+Date fills in in this format - "Before:2019-07-30"
 
-<hr/>
+---
 
 **Step 24**
 
-> <article>Tap Search</article>
+Tap Search
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>List of posts that fall before the date appear</li><li>Most recent post at the top</li><li>Jump buttons for each individual search result</li></ul></article>
+- List of posts that fall before the date appear
+- Most recent post at the top
+- Jump buttons for each individual search result
 
-<hr/>
+---
 
 **Step 25**
 
-> <article><ol><li>Tap ☰ menu in top <strong>left</strong> corner</li><li>Tap a different channel</li></ol></article>
+1. Tap ☰ menu in top **left** corner
+2. Tap a different channel
 
 **Expected**
 
-> <article><ul><li>Hamburger menu closes</li><li>Brought to the channel you selected</li></ul></article>
+- Hamburger menu closes
+- Brought to the channel you selected
 
-<hr/>
+---
 
 **Step 26**
 
-> <article><ol><li>Tap ☰ menu in top <strong>right</strong> corner</li><li>Tap "Join another Team"</li></ol></article>
+1. Tap ☰ menu in top **right** corner
+2. Tap "Join another Team"
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg" style="width:196.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Brought to team</li><li>Land in Town Square channel</li></ul></article>
+- Brought to team
+- Land in Town Square channel
 
-<hr/>
+---
 
 **Step 27**
 
-> <article><ol><li>Tap down arrow next to channel name at top</li><li>Tap "Edit Channel Header" in menu that appears</li></ol></article>
+1. Tap down arrow next to channel name at top
+2. Tap "Edit Channel Header" in menu that appears
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg)
 
 **Expected**
 
-> <article>Edit Header screen appears</article>
+Edit Header screen appears
 
-<hr/>
+---
 
 **Step 28**
 
-> <article><ol><li>Type text in field</li><li>Include a properly formatted link<br />[Link example](https://mattermost.com)</li><li>Tap Save in lower right corner</li></ol></article>
+1. Type text in field
+
+2. Include a properly formatted link
+
+   ```
+   [Link example](https://mattermost.com)
+   ```
+
+3. Tap Save in lower right corner
 
 **Expected**
 
-> <article>Returned to channel</article>
+Returned to channel
 
-<hr/>
+---
 
 **Step 29**
 
-> <article><ul><li>Tap down arrow next to channel name at top</li><li>Tap "View Info" in menu that appears</li></ul></article>
+- Tap down arrow next to channel name at top
+- Tap "View Info" in menu that appears
 
 **Expected**
 
-> <article>Able to see header text and link you added/edited</article>
+Able to see header text and link you added/edited
 
-<hr/>
+---
 
 **Step 30**
 
-> <article>Tap the link you placed in the header</article>
+Tap the link you placed in the header
+
+_Related ticket(s):_
+
+- (Won't Fix) [Classic iOS app: Tapping links does nothing — MM-18314](https://mattermost.atlassian.net/browse/MM-18314)
+- (Won't Fix) [iOS Classic: Tapping link in header loads webpage in app without any way to return to channel — MM-20208](https://mattermost.atlassian.net/browse/MM-20208)
 
 **Expected**
 
-> <article>Default browser for your device opens and navigates to the page</article>
+Default browser for your device opens and navigates to the page
 
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Fix Versions | Won't Fix |
-| Related ticket(s) | <ul><li>(<span style="color:rgb(184, 49, 47)">Won't Fix</span>) <a href="https://mattermost.atlassian.net/browse/MM-18314">Classic iOS app: Tapping links does nothing — MM-18314</a></li><li>(<span style="color:rgb(184, 49, 47)">Won't Fix</span>) <a href="https://mattermost.atlassian.net/browse/MM-20208">iOS Classic: Tapping link in header loads webpage in app without any way to return to channel — MM-20208</a></li></ul> |
-
-<hr/>
+---
 
 **Step 31**
 
-> <article><ol><li>Tap the … ellipsis menu icon on the right side of a post</li><li>Tap "Permalink" in the modal window that appears</li></ol></article>
+1. Tap the … ellipsis menu icon on the right side of a post
+2. Tap "Permalink" in the modal window that appears
 
 **Expected**
 
-> <article><ul><li>The Copy Permalink screen appears<ul><li>X in top right corner</li><li>Copy Link Button</li><li>Close button</li></ul></li><li>Permalink text in text field</li></ul></article>
+- The Copy Permalink screen appears
 
-<hr/>
+  - X in top right corner
+  - Copy Link Button
+  - Close button
+
+- Permalink text in text field
+
+---
 
 **Step 32**
 
-> <article>Tap Close</article>
+Tap Close
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>No changes made</li></ul></article>
+- Returned to channel
+- No changes made
 
-<hr/>
+---
 
 **Step 33**
 
-> <article><ol><li>Tap the … ellipsis menu icon on the right side of a post again</li><li>Tap "Permalink" in the modal window that appears</li><li>Tap Copy Link button</li></ol></article>
+1. Tap the `...` ellipsis menu icon on the right side of a post again
+2. Tap "Permalink" in the modal window that appears
+3. Tap Copy Link button
 
 **Expected**
 
-> <article><ul><li>Link copied to clipboard</li><li>'Copy Permalink' window closes</li></ul></article>
+- Link copied to clipboard
+- 'Copy Permalink' window closes
 
-<hr/>
+---
 
 **Step 34**
 
-> <article><ol><li>Navigate to different channel</li><li>Paste link in new post and tap send icon <img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png" class="fr-fic fr-dii" /></li></ol></article>
+1. Navigate to different channel
+2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
+
+_Related ticket(s):_
+
+(Won't Fix) [iOS Classic: Permalink mechanism fails to copy link — MM-20229](https://mattermost.atlassian.net/browse/MM-20229)
 
 **Expected**
 
-> <article>Posted</article>
+Posted
 
-**Step Info**
-| Name | Value |
-| :--- | :--- |
-| Fix Versions | Won't Fix |
-| Related ticket(s) | (<span style="color:rgb(184, 49, 47)">Won't Fix</span>) <a href="https://mattermost.atlassian.net/browse/MM-20229">iOS Classic: Permalink mechanism fails to copy link — MM-20229</a> |
-
-<hr/>
+---
 
 **Step 35**
 
-> <article>Tap link in new post</article>
+Tap link in new post
 
 **Expected**
 
-> <article>Brought to channel with post highlighted</article>
+Brought to channel with post highlighted
 
-<hr/>
+---
 
 **Step 36**
 
-> <article><ol><li>Tap ☰ menu icon in top <strong>right</strong></li><li>Tap Leave Team<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg" class="fr-fic fr-dii" style="width:280.0px" /></li></ol></article>
+1. Tap ☰ menu icon in top **right**
+2. Tap Leave Team
+   \
+   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
 
 **Expected**
 
-> <article><ul><li>Confirmation screen opens<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg" style="width:256.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Confirmation screen opens
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
 
-<hr/>
+---
 
 **Step 37**
 
-> <article><ol><li>Tap No</li></ol></article>
+1. Tap No
 
 **Expected**
 
-> <article><ul><li>Returned to channel</li><li>No changes made</li></ul></article>
+- Returned to channel
+- No changes made
 
-<hr/>
+---
 
 **Step 38**
 
-> <article><ul><li>Tap … ellipsis menu icon in top <strong>right</strong></li><li>Tap Leave Team</li><li>Tap Yes</li></ul></article>
+- Tap … ellipsis menu icon in top **right**
+- Tap Leave Team
+- Tap Yes
 
 **Expected**
 
-> <article><ul><li>Successfully leave team</li><li>Brought to channel in top most team you're still a member of ~or~ brought to list of teams you can join if you're no longer a member of any team</li></ul></article>
+- Successfully leave team
+- Brought to channel in top most team you're still a member of \~or\~ brought to list of teams you can join if you're no longer a member of any team
 
-<hr/>
+---
 
 **Step 39**
 
-> <article><ul><li>Tap ☰ menu in top <strong>right</strong></li><li>Tap Create a New Team<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg" style="width:227.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Tap ☰ menu in top **right**
+- Tap Create a New Team
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>Create new team page appears<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg" style="width:216.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Create new team page appears
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
 
-<hr/>
+---
 
 **Step 40**
 
-> <article><ol><li>Type in a team name</li><li>Tap Next</li></ol></article>
+1. Type in a team name
+2. Tap Next
 
 **Expected**
 
-> <article><ul><li>Team URL page appears<br /><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></li></ul></article>
+- Team URL page appears
+  \
+  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
 
-<hr/>
+---
 
 **Step 41**
 
-> <article><ol><li>Change default name or leave as is</li><li>Tap Finish</li></ol></article>
+1. Change default name or leave as is
+2. Tap Finish
 
 **Expected**
 
-> <article><ul><li>Team created</li><li>Brought to Town Square channel of new team</li></ul></article>
+- Team created
+- Brought to Town Square channel of new team
 
-<hr/>
+---
 
 **Step 42**
 
-> <article><ol><li>Tap ☰ menu  in top <strong>left</strong></li><li>Tap Switch Channels button at bottom of menu</li><li>Start typing "Off"</li></ol></article>
+1. Tap ☰ menu in top **left**
+2. Tap Switch Channels button at bottom of menu
+3. Start typing "Off"
 
 **Expected**
 
-> <article><ul><li>List narrows down as you type to show you matching names</li></ul></article>
+- List narrows down as you type to show you matching names
 
-<hr/>
+---
 
 **Step 43**
 
-> <article>Tap channel name in list</article>
+Tap channel name in list
 
 **Expected**
 
-> <article>Brought to channel</article>
+Brought to channel
 
-<hr/>
+---
 
 **Step 44**
 
-> <article><ol><li>Tap ☰ menu in top <strong>left </strong>again</li><li>Tap Team icon on far left</li></ol></article>
+1. Tap ☰ menu in top **left** again
+2. Tap Team icon on far left
 
 **Expected**
 
-> <article><ul><li>Brought to Team tapped on</li></ul></article>
+- Brought to Team tapped on
 
-<hr/>
+---
 
 **Step 45**
 
-> <article><ol><li>Tap ☰ menu in top <strong>left </strong>again</li><li>Tap + next to Direct Messages in menu</li></ol></article>
+1. Tap ☰ menu in top **left** again
+2. Tap + next to Direct Messages in menu
 
 **Expected**
 
-> <article><ul><li>Direct Messages screen appears</li><li>List of names to choose from in alphabetical order</li></ul></article>
+- Direct Messages screen appears
+- List of names to choose from in alphabetical order
 
-<hr/>
+---
 
 **Step 46**
 
-> <article>Start typing name in text field</article>
+Start typing name in text field
 
 **Expected**
 
-> <article><ul><li>List narrows down as you type showing possible matches</li></ul></article>
+- List narrows down as you type showing possible matches
 
-<hr/>
+---
 
 **Step 47**
 
-> <article><ol><li>Tap on name in list</li></ol></article>
+1. Tap on name in list
 
 **Expected**
 
-> <article><ul><li>Name added to text field</li></ul></article>
+- Name added to text field
 
-<hr/>
+---
 
 **Step 48**
 
-> <article><ol><li>Tap Go button</li></ol></article>
+1. Tap Go button
 
 **Expected**
 
-> <article><ul><li>Brought to new Direct message screen with person named in text field</li></ul></article>
+- Brought to new Direct message screen with person named in text field
 
-<hr/>
+---
 
 **Step 49**
 
-> <article><ol><li>Tap ☰ menu  in top <strong>left </strong>again</li><li>Tap + next to Direct Messages in menu</li><li>Add more than one name to text field</li><li>Tap Go button</li></ol></article>
+1. Tap ☰ menu in top **left** again
+2. Tap + next to Direct Messages in menu
+3. Add more than one name to text field
+4. Tap Go button
 
 **Expected**
 
-> <article><ul><li>Brought to new Group Message screen with names placed in text field on previous screen</li></ul></article>
+- Brought to new Group Message screen with names placed in text field on previous screen
 
-<hr/>
+---
 
 **Step 50**
 
-> <article><ol><li>Tap ☰ menu in top <strong>left</strong> again</li><li>Tap name of public channel</li><li>Tap … ellipsis menu icon next to post in list</li><li>Tap Pin to channel</li></ol></article>
+1. Tap ☰ menu in top **left** again
+2. Tap name of public channel
+3. Tap … ellipsis menu icon next to post in list
+4. Tap Pin to channel
 
 **Test Data**
 
-> <article><img src="https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg" style="width:300.0px" class="fr-fil fr-dib" /></article>
+![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg)
 
 **Expected**
 
-> <article><ul><li>"Pinned" icon appears on the pinned post</li></ul></article>
-
-<hr/>
-
-### More Info
-
-| Name                     | Value                                                                                          |
-| :----------------------- | :--------------------------------------------------------------------------------------------- |
-| Priority P1 to P4        | P4 - Low-Impact (Edge or unsuitable to repeat?)                                                |
-| Update notes             | Lindy Isherwood, October 21, 2020 09:49AM<ul><li>Marked this test N/A for Rainforest</li></ul> |
-| Rainforest               | N/A                                                                                            |
-| Team Ownership           | QA Platform                                                                                    |
-| Manual Test Environments | Mobile                                                                                         |
-| Detox                    | N/A                                                                                            |
-| Cypress                  | N/A                                                                                            |
-| Tags                     | Smoke test                                                                                     |
-| Location                 | Smoke Test                                                                                     |
+- "Pinned" icon appears on the pinned post
