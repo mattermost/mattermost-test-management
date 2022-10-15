@@ -18,7 +18,7 @@ export function validate(all = false) {
   // Log info
   console.log(all ? 'Validating all markdown files...' : 'Validating changes...');
 
-  const markdownFiles = getFiles(testCasesFolderFullPath, 'md');
+  const markdownFiles = sortBy(getFiles(testCasesFolderFullPath, 'md'), (it) => it);
 
   const filesToVerify: Record<string, TestCase> = {};
   markdownFiles.forEach((markdownFile) => {
@@ -179,7 +179,7 @@ export function validate(all = false) {
   if (all) {
     const sortedTestByFolder = sortBy(
       Object.entries(testByFolder).map(([folder, tests]) => {
-        return { folder, tests };
+        return { folder, tests: sortBy(tests, (it) => it) };
       }),
       (it) => it.folder,
     );
