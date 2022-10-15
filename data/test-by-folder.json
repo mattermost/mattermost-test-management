@@ -956,6 +956,7 @@
       "Channel Sidebar Unread Filter > Show only All Unreads when enabled",
       "Channel Sidebar Unread Filter > Don't show archived channels with mentions in All Unreads",
       "Channel Sidebar Unread Filter > Clear filter on refresh",
+      "Channel Sidebar Unread Filter > Continue to show global Threads item when unread filter is enabled",
       "Channel Sidebar Unread Filter > Show Muted with mentions in All Unreads"
     ]
   },
@@ -999,6 +1000,7 @@
     "folder": "channels/message-forwarding",
     "tests": [
       "Forwarding post from public channel",
+      "Forwarding post to new DM",
       "Forwarding post from private channel",
       "Forwarding post from DM",
       "Forwarding post from GM"
@@ -1793,6 +1795,7 @@
     "tests": [
       "Professional — Feature Availability (on-prem)",
       "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
+      "Self Hosted | Alternative payment option in Billing & payment page",
       "Takes the user through the steps of using the app",
       "Takes the user through the steps of using the app",
       "Starter — Feature Availability (on-prem)",
@@ -1802,9 +1805,11 @@
       "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
       "Notify Admin V2 | Verify that Telemetry Actions are tracked when User is making upgrade requests",
       "Notify Admin V2 | Verify User cannot request same feature upgrade until the Set 'Cool-off' period is over",
+      "Gather Intent | Cloud first monthly purchase: Gather intent",
       "Cloud signup — Password requirements",
       "Takes the user through the steps of using the app using the ENTER k",
       "Professional — Feature Availability (Cloud)",
+      "Cloud | Alternative Payment | Verify the UI on payment page when user provides inputs for alternative payment",
       "Notify Admin V2 | System Admin gets notification when user request to upgrade MM features that have reached limit in the current workspace."
     ]
   },
@@ -3165,6 +3170,17 @@
     ]
   },
   {
+    "folder": "plugins/aws-sms",
+    "tests": [
+      "Subscribe to a topic and retrive topic list",
+      "Proper epemeral post is shown when passing in invalid action",
+      "Subscription created successfully",
+      "Setup",
+      "Alerts are delivered for RDS Events",
+      "Alerts for AWS alarms are delivered"
+    ]
+  },
+  {
     "folder": "plugins/bitbucket",
     "tests": [
       "Notifications disabled",
@@ -3285,6 +3301,23 @@
       "Demo plugin rejects posts in the demo channel",
       "Demo plugin user cannot login",
       "Demo plugin - theme"
+    ]
+  },
+  {
+    "folder": "plugins/gifs",
+    "tests": [
+      "By default, there is only the option to preview gifs before sending them",
+      "Force GIF preview before posting (force /gifs):",
+      "gipfy plugin works when no Mattermost server URL is not set",
+      "Gfycat display style can be adjusted.",
+      "Gifs show as links instead of rendering as Gifs",
+      "Cancel works",
+      "Posting a gif",
+      "Search is functional",
+      "Plugin handles it gracefully when you run out of options",
+      "Ephemeral post shown when there are no results",
+      "Shuffle works",
+      "Embeded links for gifs"
     ]
   },
   {
