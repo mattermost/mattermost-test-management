@@ -11,7 +11,7 @@
     "validate": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts",
     "validate-all": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/validate.ts --all && deno fmt",
     "save": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts",
-    "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno lint",
+    "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno task get-manifests && deno lint",
     "check": "deno fmt && deno lint",
     "index-test-cases": "deno run --allow-net --allow-env --allow-read src/index_test_cases.ts"
   },

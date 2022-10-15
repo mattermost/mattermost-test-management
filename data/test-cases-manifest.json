@@ -25,7 +25,8 @@
           {
             "name": "Subscribe to a file when you are subscribed to a project which contains this file",
             "file": "apps-framework/figma/MM-T5164.md"
-          }
+          },
+          { "name": "Auth Token Refresh", "file": "apps-framework/figma/MM-T5183.md" }
         ]
       },
       {
@@ -279,7 +280,8 @@
           {
             "name": "Show only available commands (on execution and `/genie help command)",
             "file": "apps-framework/opsgenie/MM-T5062.md"
-          }
+          },
+          { "name": "Auth Token Refresh", "file": "apps-framework/opsgenie/MM-T5186.md" }
         ]
       },
       {
@@ -311,7 +313,8 @@
           {
             "name": "Subscription alerts from new incident/service",
             "file": "apps-framework/pagerduty/MM-T5075.md"
-          }
+          },
+          { "name": "Auth Token Refresh", "file": "apps-framework/pagerduty/MM-T5185.md" }
         ]
       },
       {
@@ -356,7 +359,8 @@
           {
             "name": "Show only available commands (on execution and Trello help command)",
             "file": "apps-framework/trello/MM-T5047.md"
-          }
+          },
+          { "name": "Auth Token Refresh", "file": "apps-framework/trello/MM-T5187.md" }
         ]
       },
       {
@@ -1737,6 +1741,63 @@
           {
             "name": "CRT: Marking a thread as unread from the threads list should mark only the most recent message as unread",
             "file": "channels/collapsed-reply-threads/MM-T4986.md"
+          },
+          {
+            "name": "RN: Notification badge count for viewing channels and threads",
+            "file": "channels/collapsed-reply-threads/MM-T5182.md"
+          }
+        ]
+      },
+      {
+        "name": "Command Palette",
+        "routes": [
+          {
+            "name": "Command palette: Channels access - Open Command Palette modal",
+            "file": "channels/command-palette/MM-T5165.md"
+          },
+          {
+            "name": "Command palette: Boards access - Open Command Palette modal",
+            "file": "channels/command-palette/MM-T5166.md"
+          },
+          {
+            "name": "Command palette: Playbook access - Open Command Palette modal",
+            "file": "channels/command-palette/MM-T5167.md"
+          },
+          {
+            "name": "Command palette: Channels access - Search for Channel",
+            "file": "channels/command-palette/MM-T5168.md"
+          },
+          {
+            "name": "Command palette: Channels access - Search for a Message",
+            "file": "channels/command-palette/MM-T5169.md"
+          },
+          {
+            "name": "Command palette: Channels access - Search for a File",
+            "file": "channels/command-palette/MM-T5170.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to set custom status",
+            "file": "channels/command-palette/MM-T5171.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to open profile settings",
+            "file": "channels/command-palette/MM-T5173.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to open Display settings",
+            "file": "channels/command-palette/MM-T5174.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to invite people",
+            "file": "channels/command-palette/MM-T5175.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to open User groups",
+            "file": "channels/command-palette/MM-T5176.md"
+          },
+          {
+            "name": "Command palette: Channels access - Use GoTo to open Notification settings",
+            "file": "channels/command-palette/MM-T5177.md"
           }
         ]
       },
@@ -2263,7 +2324,11 @@
             "name": "Upload file with longer name",
             "file": "channels/files-and-attachments/MM-T4386.md"
           },
-          { "name": "Channel files search", "file": "channels/files-and-attachments/MM-T4418.md" }
+          { "name": "Channel files search", "file": "channels/files-and-attachments/MM-T4418.md" },
+          {
+            "name": "Copy content by using “copy to clipboard” button in the file preview modal",
+            "file": "channels/files-and-attachments/MM-T5179.md"
+          }
         ]
       },
       {
@@ -2527,6 +2592,18 @@
           {
             "name": "CTRL/CMD+F search keyboard shortcut",
             "file": "channels/keyboard-shortcuts/MM-T4872.md"
+          },
+          {
+            "name": "Formatting bar keyboard shortcuts: CMD+ALT+T show/hide formatting options",
+            "file": "channels/keyboard-shortcuts/MM-T5180.md"
+          },
+          {
+            "name": "Formatting bar keyboard shortcuts: CMD+B bold formatting",
+            "file": "channels/keyboard-shortcuts/MM-T5181.md"
+          },
+          {
+            "name": "CTRL/CMD+Shift +U should toggle between unreads and all channels",
+            "file": "channels/keyboard-shortcuts/MM-T5192.md"
           }
         ]
       },
@@ -2780,6 +2857,10 @@
               {
                 "name": "Channel Sidebar Unread Filter > Don't show archived channels with mentions in All Unreads",
                 "file": "channels/left-sidebar/unread-filter/MM-T3484.md"
+              },
+              {
+                "name": "Channel Sidebar Unread Filter > Continue to show global Threads item when unread filter is enabled",
+                "file": "channels/left-sidebar/unread-filter/MM-T5208.md"
               }
             ]
           },
@@ -2896,7 +2977,25 @@
             "file": "channels/message-forwarding/MM-T4935.md"
           },
           { "name": "Forwarding post from DM", "file": "channels/message-forwarding/MM-T4936.md" },
-          { "name": "Forwarding post from GM", "file": "channels/message-forwarding/MM-T4937.md" }
+          { "name": "Forwarding post from GM", "file": "channels/message-forwarding/MM-T4937.md" },
+          { "name": "Forwarding post to new DM", "file": "channels/message-forwarding/MM-T5215.md" }
+        ]
+      },
+      {
+        "name": "Message Priority",
+        "routes": [
+          {
+            "name": "Message Priority: Standard message priority and system setting",
+            "file": "channels/message-priority/MM-T5139.md"
+          },
+          {
+            "name": "Message Priority: Important message priority",
+            "file": "channels/message-priority/MM-T5140.md"
+          },
+          {
+            "name": "Message Priority: Urgent message priority",
+            "file": "channels/message-priority/MM-T5142.md"
+          }
         ]
       },
       {
@@ -3967,6 +4066,10 @@
         "file": "channels/MM-T5129.md"
       },
       {
+        "name": "Muted channel mentions should not be counted on the Team icon badge",
+        "file": "channels/MM-T5188.md"
+      },
+      {
         "name": "Mobile App Settings",
         "routes": [
           { "name": "RN apps: View profile", "file": "channels/mobile-app-settings/MM-T2350.md" },
@@ -4354,23 +4457,6 @@
           {
             "name": "Permalink Preview - Nested Preview",
             "file": "channels/permalink-preview/MM-T5091.md"
-          }
-        ]
-      },
-      {
-        "name": "Post Priority",
-        "routes": [
-          {
-            "name": "Message Priority: Standard message priority and system setting",
-            "file": "channels/post-priority/MM-T5139.md"
-          },
-          {
-            "name": "Message Priority: Important message priority",
-            "file": "channels/post-priority/MM-T5140.md"
-          },
-          {
-            "name": "Message Priority: Urgent message priority",
-            "file": "channels/post-priority/MM-T5142.md"
           }
         ]
       },
@@ -5648,6 +5734,10 @@
           },
           { "name": "Cloud Trial prompts", "file": "cloud/cloud-trial/MM-T4422.md" },
           {
+            "name": "Show 'Contact sales' option for workspaces with Professional-licensed instance",
+            "file": "cloud/cloud-trial/MM-T5189.md"
+          },
+          {
             "name": "What If",
             "routes": [
               {
@@ -5810,6 +5900,22 @@
         "file": "cloud/MM-T5099.md"
       },
       {
+        "name": "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
+        "file": "cloud/MM-T5190.md"
+      },
+      {
+        "name": "Cloud | Alternative Payment | Verify the UI on payment page when user provides inputs for alternative payment",
+        "file": "cloud/MM-T5193.md"
+      },
+      {
+        "name": "Self Hosted | Alternative payment option in Billing & payment page",
+        "file": "cloud/MM-T5194.md"
+      },
+      {
+        "name": "Gather Intent | Cloud first monthly purchase: Gather intent",
+        "file": "cloud/MM-T5207.md"
+      },
+      {
         "name": "RHS",
         "routes": [
           { "name": "Channel Info RHS: Admin", "file": "cloud/rhs/MM-T4685.md" },
@@ -5820,7 +5926,10 @@
       {
         "name": "Signup Trial and Upgrade",
         "routes": [
-          { "name": "Onboarding task list", "file": "cloud/signup-trial-and-upgrade/MM-T4870.md" },
+          {
+            "name": "Onboarding task list — First Admin",
+            "file": "cloud/signup-trial-and-upgrade/MM-T4870.md"
+          },
           {
             "name": "Prompt to start trial or upgrade in Custom Groups menu entry",
             "file": "cloud/signup-trial-and-upgrade/MM-T4871.md"
@@ -5884,6 +5993,10 @@
           {
             "name": "Onboarding Checklist - Explore other tools in platform item",
             "file": "cloud/signup-trial-and-upgrade/MM-T5106.md"
+          },
+          {
+            "name": "Onboarding task list — Regular user",
+            "file": "cloud/signup-trial-and-upgrade/MM-T5178.md"
           }
         ]
       },
@@ -8650,6 +8763,23 @@
         ]
       },
       {
+        "name": "aws-sms",
+        "routes": [
+          { "name": "Setup", "file": "plugins/aws-sms/MM-T5209.md" },
+          { "name": "Subscription created successfully", "file": "plugins/aws-sms/MM-T5210.md" },
+          {
+            "name": "Subscribe to a topic and retrive topic list",
+            "file": "plugins/aws-sms/MM-T5211.md"
+          },
+          { "name": "Alerts for AWS alarms are delivered", "file": "plugins/aws-sms/MM-T5212.md" },
+          { "name": "Alerts are delivered for RDS Events", "file": "plugins/aws-sms/MM-T5213.md" },
+          {
+            "name": "Proper epemeral post is shown when passing in invalid action",
+            "file": "plugins/aws-sms/MM-T5214.md"
+          }
+        ]
+      },
+      {
         "name": "Bitbucket",
         "routes": [
           {
@@ -8950,6 +9080,41 @@
             "name": ".demo file has an action available",
             "file": "plugins/demo-plugin/MM-T4316.md"
           }
+        ]
+      },
+      {
+        "name": "Gifs",
+        "routes": [
+          {
+            "name": "gipfy plugin works when no Mattermost server URL is not set",
+            "file": "plugins/gifs/MM-T5195.md"
+          },
+          { "name": "Search is functional", "file": "plugins/gifs/MM-T5196.md" },
+          { "name": "Shuffle works", "file": "plugins/gifs/MM-T5197.md" },
+          { "name": "Cancel works", "file": "plugins/gifs/MM-T5198.md" },
+          { "name": "Posting a gif", "file": "plugins/gifs/MM-T5199.md" },
+          {
+            "name": "Gifs show as links instead of rendering as Gifs",
+            "file": "plugins/gifs/MM-T5200.md"
+          },
+          {
+            "name": "By default, there is only the option to preview gifs before sending them",
+            "file": "plugins/gifs/MM-T5201.md"
+          },
+          {
+            "name": "Ephemeral post shown when there are no results",
+            "file": "plugins/gifs/MM-T5202.md"
+          },
+          {
+            "name": "Plugin handles it gracefully when you run out of options",
+            "file": "plugins/gifs/MM-T5203.md"
+          },
+          { "name": "Gfycat display style can be adjusted.", "file": "plugins/gifs/MM-T5204.md" },
+          {
+            "name": "Force GIF preview before posting (force /gifs):",
+            "file": "plugins/gifs/MM-T5205.md"
+          },
+          { "name": "Embeded links for gifs", "file": "plugins/gifs/MM-T5206.md" }
         ]
       },
       {
@@ -11282,6 +11447,14 @@
                   {
                     "name": "Insights - my Insight - Bots, self-DMs not in active direct messages",
                     "file": "suite/activity-and-insights/insights/my-insights/MM-T5133.md"
+                  },
+                  {
+                    "name": "Insight - my insight - Navigate insight using channel switcher",
+                    "file": "suite/activity-and-insights/insights/my-insights/MM-T5172.md"
+                  },
+                  {
+                    "name": "Insights -  My Insights view as an item in the command-k channel switcher",
+                    "file": "suite/activity-and-insights/insights/my-insights/MM-T5191.md"
                   }
                 ]
               },

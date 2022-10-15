@@ -8,9 +8,18 @@ import { readFile, writeFile } from './util/file.ts';
 import { markdownToTestCase } from './util/markdown.ts';
 import { Folder } from './util/types.ts';
 
+interface Route {
+  key?: string | null;
+  name?: string | null;
+  path?: string;
+  parentPath?: string | null;
+  file?: string | null;
+  routes?: Route[] | null;
+}
+
 const folders = readFile(`${dataFolderPath}/folders.json`) as Folder[];
 const { routes, slugs, toc } = getTestsAndFolders(folders);
-const sortedTestsAndFolders = sortBy(routes, (it) => it.path);
+const sortedTestsAndFolders = sortBy(routes, (it) => it.path || '');
 const manifest = listToTree(sortedTestsAndFolders);
 
 // Save manifest to file
@@ -47,15 +56,18 @@ console.log(
   ),
 );
 
-function listToTree(list) {
-  const map = {};
+function listToTree(list: Route[]) {
+  const map: Record<string, number> = {};
   const roots = [];
 
   for (let i = 0; i < list.length; i += 1) {
     // initialize the routes
-    map[list[i].path] = i;
-    if (!list[i].file) {
-      list[i].routes = [];
+    const route = list[i];
+    if (route?.path) {
+      map[route.path] = i;
+      if (!route.file) {
+        list[i].routes = [];
+      }
     }
   }
 
@@ -67,11 +79,11 @@ function listToTree(list) {
       const parentPath = node.parentPath;
 
       delete node.parentPath;
-      if (!node.path.includes('.md')) {
+      if (!node.path?.includes('.md')) {
         delete node.path;
       }
 
-      list[map[parentPath]].routes.push(node);
+      list[map[parentPath]].routes?.push(node);
     } else {
       roots.push({ name: node.name, heading: true, routes: node.routes });
     }
@@ -80,9 +92,9 @@ function listToTree(list) {
 }
 
 function getTestsAndFolders(folders: Folder[]) {
-  const routes = [];
+  const routes: Route[] = [];
   const slugs = [];
-  const toc: Record<string, { name: string; file: string; slug: string }> = {};
+  const toc: Record<string, { name: string; slug: string }> = {};
 
   for (const entry of walkSync(testCasesFolderFullPath)) {
     if (entry.isSymlink) continue;

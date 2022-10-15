@@ -786,6 +786,10 @@
     "name": "Show list of allowed commands",
     "slug": "apps-framework/pagerduty/mm-t5066"
   },
+  "apps-framework/pagerduty/mm-t5185": {
+    "name": "Auth Token Refresh",
+    "slug": "apps-framework/pagerduty/mm-t5185"
+  },
   "apps-framework/pagerduty/mm-t5067": {
     "name": "List of services",
     "slug": "apps-framework/pagerduty/mm-t5067"
@@ -874,6 +878,10 @@
     "name": "Delete a Subscription",
     "slug": "apps-framework/figma/mm-t5161"
   },
+  "apps-framework/figma/mm-t5183": {
+    "name": "Auth Token Refresh",
+    "slug": "apps-framework/figma/mm-t5183"
+  },
   "apps-framework/figma/mm-t5160": {
     "name": "Check all subscriptions",
     "slug": "apps-framework/figma/mm-t5160"
@@ -958,6 +966,10 @@
     "name": "OpsGenie command: `/genie configure`",
     "slug": "apps-framework/opsgenie/mm-t5049"
   },
+  "apps-framework/opsgenie/mm-t5186": {
+    "name": "Auth Token Refresh",
+    "slug": "apps-framework/opsgenie/mm-t5186"
+  },
   "apps-framework/opsgenie/mm-t5050": {
     "name": "OpsGenie command: `/genie list alert`",
     "slug": "apps-framework/opsgenie/mm-t5050"
@@ -1009,6 +1021,10 @@
   "apps-framework/trello/mm-t5045": {
     "name": "Creation and manage of Trello Subscriptions",
     "slug": "apps-framework/trello/mm-t5045"
+  },
+  "apps-framework/trello/mm-t5187": {
+    "name": "Auth Token Refresh",
+    "slug": "apps-framework/trello/mm-t5187"
   },
   "apps-framework/trello/mm-t5041": {
     "name": "Trello command: `Configure`",
@@ -1830,6 +1846,39 @@
     "name": "Plugins - Enabled (with plugin uploads enabled in config.json) - Zoom",
     "slug": "plugins/mm-t2396"
   },
+  "plugins/gifs/mm-t5201": {
+    "name": "By default, there is only the option to preview gifs before sending them",
+    "slug": "plugins/gifs/mm-t5201"
+  },
+  "plugins/gifs/mm-t5205": {
+    "name": "Force GIF preview before posting (force /gifs):",
+    "slug": "plugins/gifs/mm-t5205"
+  },
+  "plugins/gifs/mm-t5195": {
+    "name": "gipfy plugin works when no Mattermost server URL is not set",
+    "slug": "plugins/gifs/mm-t5195"
+  },
+  "plugins/gifs/mm-t5204": {
+    "name": "Gfycat display style can be adjusted.",
+    "slug": "plugins/gifs/mm-t5204"
+  },
+  "plugins/gifs/mm-t5200": {
+    "name": "Gifs show as links instead of rendering as Gifs",
+    "slug": "plugins/gifs/mm-t5200"
+  },
+  "plugins/gifs/mm-t5198": { "name": "Cancel works", "slug": "plugins/gifs/mm-t5198" },
+  "plugins/gifs/mm-t5199": { "name": "Posting a gif", "slug": "plugins/gifs/mm-t5199" },
+  "plugins/gifs/mm-t5196": { "name": "Search is functional", "slug": "plugins/gifs/mm-t5196" },
+  "plugins/gifs/mm-t5203": {
+    "name": "Plugin handles it gracefully when you run out of options",
+    "slug": "plugins/gifs/mm-t5203"
+  },
+  "plugins/gifs/mm-t5202": {
+    "name": "Ephemeral post shown when there are no results",
+    "slug": "plugins/gifs/mm-t5202"
+  },
+  "plugins/gifs/mm-t5197": { "name": "Shuffle works", "slug": "plugins/gifs/mm-t5197" },
+  "plugins/gifs/mm-t5206": { "name": "Embeded links for gifs", "slug": "plugins/gifs/mm-t5206" },
   "plugins/todo/mm-t4780": {
     "name": "ToDo icon supports the App Bar functionality",
     "slug": "plugins/todo/mm-t4780"
@@ -3258,6 +3307,27 @@
   "plugins/mm-t2437": {
     "name": "?? Should this be something about walltime instead of markdown preview?  Markdown preview is working as expected",
     "slug": "plugins/mm-t2437"
+  },
+  "plugins/aws-sms/mm-t5211": {
+    "name": "Subscribe to a topic and retrive topic list",
+    "slug": "plugins/aws-sms/mm-t5211"
+  },
+  "plugins/aws-sms/mm-t5214": {
+    "name": "Proper epemeral post is shown when passing in invalid action",
+    "slug": "plugins/aws-sms/mm-t5214"
+  },
+  "plugins/aws-sms/mm-t5210": {
+    "name": "Subscription created successfully",
+    "slug": "plugins/aws-sms/mm-t5210"
+  },
+  "plugins/aws-sms/mm-t5209": { "name": "Setup", "slug": "plugins/aws-sms/mm-t5209" },
+  "plugins/aws-sms/mm-t5213": {
+    "name": "Alerts are delivered for RDS Events",
+    "slug": "plugins/aws-sms/mm-t5213"
+  },
+  "plugins/aws-sms/mm-t5212": {
+    "name": "Alerts for AWS alarms are delivered",
+    "slug": "plugins/aws-sms/mm-t5212"
   },
   "playbooks/mm-t4961": { "name": "Create a new public playbook", "slug": "playbooks/mm-t4961" },
   "playbooks/mm-t4971": { "name": "LHS - Navigation", "slug": "playbooks/mm-t4971" },
@@ -4965,6 +5035,14 @@
     "name": "Professional — Feature Availability (on-prem)",
     "slug": "cloud/mm-t4551"
   },
+  "cloud/mm-t5190": {
+    "name": "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
+    "slug": "cloud/mm-t5190"
+  },
+  "cloud/mm-t5194": {
+    "name": "Self Hosted | Alternative payment option in Billing & payment page",
+    "slug": "cloud/mm-t5194"
+  },
   "cloud/mm-t4642": {
     "name": "Takes the user through the steps of using the app",
     "slug": "cloud/mm-t4642"
@@ -5069,6 +5147,10 @@
   "cloud/cloud-trial/mm-t3990": {
     "name": "Cloud Trial — Member Onboarding",
     "slug": "cloud/cloud-trial/mm-t3990"
+  },
+  "cloud/cloud-trial/mm-t5189": {
+    "name": "Show 'Contact sales' option for workspaces with Professional-licensed instance",
+    "slug": "cloud/cloud-trial/mm-t5189"
   },
   "cloud/cloud-trial/mm-t3369": {
     "name": "Cloud Trial — Getting Started",
@@ -5307,7 +5389,7 @@
     "slug": "cloud/mm-t5097"
   },
   "cloud/signup-trial-and-upgrade/mm-t4870": {
-    "name": "Onboarding task list",
+    "name": "Onboarding task list — First Admin",
     "slug": "cloud/signup-trial-and-upgrade/mm-t4870"
   },
   "cloud/signup-trial-and-upgrade/mm-t5106": {
@@ -5337,6 +5419,10 @@
   "cloud/signup-trial-and-upgrade/mm-t4889": {
     "name": "Start Trial from Invite users screen",
     "slug": "cloud/signup-trial-and-upgrade/mm-t4889"
+  },
+  "cloud/signup-trial-and-upgrade/mm-t5178": {
+    "name": "Onboarding task list — Regular user",
+    "slug": "cloud/signup-trial-and-upgrade/mm-t5178"
   },
   "cloud/signup-trial-and-upgrade/mm-t4908": {
     "name": "Ability for end users to notify admin to upgrade workspace",
@@ -5373,6 +5459,10 @@
   "cloud/signup-trial-and-upgrade/mm-t4942": {
     "name": "End user: Enterprise trial details in Product Switcher menu",
     "slug": "cloud/signup-trial-and-upgrade/mm-t4942"
+  },
+  "cloud/mm-t5207": {
+    "name": "Gather Intent | Cloud first monthly purchase: Gather intent",
+    "slug": "cloud/mm-t5207"
   },
   "cloud/mm-t4866": { "name": "Cloud signup — Password requirements", "slug": "cloud/mm-t4866" },
   "cloud/customer-portal/-export-compliance/mm-t3984": {
@@ -5518,6 +5608,10 @@
   "cloud/mm-t4552": {
     "name": "Professional — Feature Availability (Cloud)",
     "slug": "cloud/mm-t4552"
+  },
+  "cloud/mm-t5193": {
+    "name": "Cloud | Alternative Payment | Verify the UI on payment page when user provides inputs for alternative payment",
+    "slug": "cloud/mm-t5193"
   },
   "cloud/mm-t5096": {
     "name": "Notify Admin V2 | System Admin gets notification when user request to upgrade MM features that have reached limit in the current workspace.",
@@ -8070,9 +8164,17 @@
     "name": "Insights - My insights - My top boards",
     "slug": "suite/activity-and-insights/insights/my-insights/mm-t4737"
   },
+  "suite/activity-and-insights/insights/my-insights/mm-t5172": {
+    "name": "Insight - my insight - Navigate insight using channel switcher",
+    "slug": "suite/activity-and-insights/insights/my-insights/mm-t5172"
+  },
   "suite/activity-and-insights/insights/my-insights/mm-t5133": {
     "name": "Insights - my Insight - Bots, self-DMs not in active direct messages",
     "slug": "suite/activity-and-insights/insights/my-insights/mm-t5133"
+  },
+  "suite/activity-and-insights/insights/my-insights/mm-t5191": {
+    "name": "Insights -  My Insights view as an item in the command-k channel switcher",
+    "slug": "suite/activity-and-insights/insights/my-insights/mm-t5191"
   },
   "suite/activity-and-insights/insights/my-insights/mm-t4733": {
     "name": "Insights - My insights - Scope Menu Open",
@@ -11717,6 +11819,10 @@
     "name": "Image thumbnail - expanded RHS",
     "slug": "channels/files-and-attachments/mm-t336"
   },
+  "channels/files-and-attachments/mm-t5179": {
+    "name": "Copy content by using “copy to clipboard” button in the file preview modal",
+    "slug": "channels/files-and-attachments/mm-t5179"
+  },
   "channels/files-and-attachments/mm-t2275": {
     "name": "Image Previewer: Stay collapsed on refresh",
     "slug": "channels/files-and-attachments/mm-t2275"
@@ -12472,18 +12578,6 @@
     "name": "Slow Connection - No matches for user autocomplete (e.g. @username)",
     "slug": "channels/autocomplete/mm-t270"
   },
-  "channels/post-priority/mm-t5142": {
-    "name": "Message Priority: Urgent message priority",
-    "slug": "channels/post-priority/mm-t5142"
-  },
-  "channels/post-priority/mm-t5139": {
-    "name": "Message Priority: Standard message priority and system setting",
-    "slug": "channels/post-priority/mm-t5139"
-  },
-  "channels/post-priority/mm-t5140": {
-    "name": "Message Priority: Important message priority",
-    "slug": "channels/post-priority/mm-t5140"
-  },
   "channels/mobile-app-settings/mm-t294": {
     "name": "RN apps: Custom theme",
     "slug": "channels/mobile-app-settings/mm-t294"
@@ -13136,6 +13230,10 @@
     "name": "Forwarding post from public channel",
     "slug": "channels/message-forwarding/mm-t4934"
   },
+  "channels/message-forwarding/mm-t5215": {
+    "name": "Forwarding post to new DM",
+    "slug": "channels/message-forwarding/mm-t5215"
+  },
   "channels/message-forwarding/mm-t4935": {
     "name": "Forwarding post from private channel",
     "slug": "channels/message-forwarding/mm-t4935"
@@ -13735,6 +13833,10 @@
     "name": "CRT - L12 - Open a followed thread",
     "slug": "channels/collapsed-reply-threads/mm-t4720"
   },
+  "channels/collapsed-reply-threads/mm-t5182": {
+    "name": "RN: Notification badge count for viewing channels and threads",
+    "slug": "channels/collapsed-reply-threads/mm-t5182"
+  },
   "channels/collapsed-reply-threads/mm-t4721": {
     "name": "CRT - L13 - Open a followed thread with mention",
     "slug": "channels/collapsed-reply-threads/mm-t4721"
@@ -13838,6 +13940,58 @@
   "channels/custom-statuses/mobile/mm-t4092": {
     "name": "RN apps: Custom Status Expiry - Editing 'Clear After' Time (mobile)",
     "slug": "channels/custom-statuses/mobile/mm-t4092"
+  },
+  "channels/mm-t5188": {
+    "name": "Muted channel mentions should not be counted on the Team icon badge",
+    "slug": "channels/mm-t5188"
+  },
+  "channels/command-palette/mm-t5173": {
+    "name": "Command palette: Channels access - Use GoTo to open profile settings",
+    "slug": "channels/command-palette/mm-t5173"
+  },
+  "channels/command-palette/mm-t5177": {
+    "name": "Command palette: Channels access - Use GoTo to open Notification settings",
+    "slug": "channels/command-palette/mm-t5177"
+  },
+  "channels/command-palette/mm-t5167": {
+    "name": "Command palette: Playbook access - Open Command Palette modal",
+    "slug": "channels/command-palette/mm-t5167"
+  },
+  "channels/command-palette/mm-t5176": {
+    "name": "Command palette: Channels access - Use GoTo to open User groups",
+    "slug": "channels/command-palette/mm-t5176"
+  },
+  "channels/command-palette/mm-t5166": {
+    "name": "Command palette: Boards access - Open Command Palette modal",
+    "slug": "channels/command-palette/mm-t5166"
+  },
+  "channels/command-palette/mm-t5169": {
+    "name": "Command palette: Channels access - Search for a Message",
+    "slug": "channels/command-palette/mm-t5169"
+  },
+  "channels/command-palette/mm-t5168": {
+    "name": "Command palette: Channels access - Search for Channel",
+    "slug": "channels/command-palette/mm-t5168"
+  },
+  "channels/command-palette/mm-t5175": {
+    "name": "Command palette: Channels access - Use GoTo to invite people",
+    "slug": "channels/command-palette/mm-t5175"
+  },
+  "channels/command-palette/mm-t5165": {
+    "name": "Command palette: Channels access - Open Command Palette modal",
+    "slug": "channels/command-palette/mm-t5165"
+  },
+  "channels/command-palette/mm-t5171": {
+    "name": "Command palette: Channels access - Use GoTo to set custom status",
+    "slug": "channels/command-palette/mm-t5171"
+  },
+  "channels/command-palette/mm-t5170": {
+    "name": "Command palette: Channels access - Search for a File",
+    "slug": "channels/command-palette/mm-t5170"
+  },
+  "channels/command-palette/mm-t5174": {
+    "name": "Command palette: Channels access - Use GoTo to open Display settings",
+    "slug": "channels/command-palette/mm-t5174"
   },
   "channels/threads/mm-t3800": {
     "name": "Thread followed when mentioned",
@@ -14032,6 +14186,10 @@
   "channels/left-sidebar/unread-filter/mm-t3442": {
     "name": "Channel Sidebar Unread Filter > Clear filter on refresh",
     "slug": "channels/left-sidebar/unread-filter/mm-t3442"
+  },
+  "channels/left-sidebar/unread-filter/mm-t5208": {
+    "name": "Channel Sidebar Unread Filter > Continue to show global Threads item when unread filter is enabled",
+    "slug": "channels/left-sidebar/unread-filter/mm-t5208"
   },
   "channels/left-sidebar/unread-filter/mm-t3446": {
     "name": "Channel Sidebar Unread Filter > Show Muted with mentions in All Unreads",
@@ -14672,6 +14830,18 @@
   "channels/channel-info-rn-apps/mm-t2980": {
     "name": "RN apps: Edit channel name",
     "slug": "channels/channel-info-rn-apps/mm-t2980"
+  },
+  "channels/message-priority/mm-t5142": {
+    "name": "Message Priority: Urgent message priority",
+    "slug": "channels/message-priority/mm-t5142"
+  },
+  "channels/message-priority/mm-t5139": {
+    "name": "Message Priority: Standard message priority and system setting",
+    "slug": "channels/message-priority/mm-t5139"
+  },
+  "channels/message-priority/mm-t5140": {
+    "name": "Message Priority: Important message priority",
+    "slug": "channels/message-priority/mm-t5140"
   },
   "channels/ada-accessibility/mm-t1498": {
     "name": "Prevent update on Cancel button",
@@ -16260,6 +16430,10 @@
     "name": "CTRL/CMD+Shift+ Open emoji picker to react to last message in RHS",
     "slug": "channels/keyboard-shortcuts/mm-t4058"
   },
+  "channels/keyboard-shortcuts/mm-t5180": {
+    "name": "Formatting bar keyboard shortcuts: CMD+ALT+T show/hide formatting options",
+    "slug": "channels/keyboard-shortcuts/mm-t5180"
+  },
   "channels/keyboard-shortcuts/mm-t1241": {
     "name": "CTRL/CMD+K: Unreads",
     "slug": "channels/keyboard-shortcuts/mm-t1241"
@@ -16339,6 +16513,10 @@
   "channels/keyboard-shortcuts/mm-t4059": {
     "name": "CTRL/CMD+Shift+ Do not open if emoji picker is already opened for other message",
     "slug": "channels/keyboard-shortcuts/mm-t4059"
+  },
+  "channels/keyboard-shortcuts/mm-t5181": {
+    "name": "Formatting bar keyboard shortcuts: CMD+B bold formatting",
+    "slug": "channels/keyboard-shortcuts/mm-t5181"
   },
   "channels/keyboard-shortcuts/mm-t1240": {
     "name": "CTRL/CMD+K: Open and close",
@@ -16475,6 +16653,10 @@
   "channels/keyboard-shortcuts/mm-t1253": {
     "name": "CTRL/CMD+SHIFT+M",
     "slug": "channels/keyboard-shortcuts/mm-t1253"
+  },
+  "channels/keyboard-shortcuts/mm-t5192": {
+    "name": "CTRL/CMD+Shift +U should toggle between unreads and all channels",
+    "slug": "channels/keyboard-shortcuts/mm-t5192"
   },
   "channels/keyboard-shortcuts/mm-t1243": {
     "name": "CTRL/CMD+K - Open public channel using arrow keys and Enter, click out of current channel message box first",
