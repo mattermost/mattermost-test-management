@@ -1,4 +1,4 @@
-export default function NavigationBar(props: { active: string }) {
+export default function NavigationBar(props: { active?: string }) {
   const items = [
     {
       name: "Home",

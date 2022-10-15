@@ -9,29 +9,32 @@ interface RouteManifest {
 }
 
 function getFilesFromRoutes(routes: RouteManifest[]): string[] {
-  return routes.flatMap(r => {
+  return routes.flatMap((r) => {
     if (r.routes) {
       return getFilesFromRoutes(r.routes);
     }
-    
+
     if (r.file) {
-      return removeFromLast(r.file.toLowerCase(), '.');
+      return removeFromLast(r.file.toLowerCase(), ".");
     }
 
-    return '';
+    return "";
   });
 }
 
 function SidebarSection(
-  props: { manifest: RouteManifest, level: number, openPath: string } 
+  props: { manifest: RouteManifest; level: number; openPath: string },
 ) {
   const { manifest, level, openPath } = props;
   let isCurrentlyOpen = false;
   if (manifest.file) {
-    isCurrentlyOpen = removeFromLast(manifest.file.toLowerCase(), '.') === openPath.toLowerCase();
+    isCurrentlyOpen = removeFromLast(manifest.file.toLowerCase(), ".") ===
+      openPath.toLowerCase();
   }
   if (manifest.routes) {
-    isCurrentlyOpen = getFilesFromRoutes(manifest.routes).includes(openPath.toLowerCase());
+    isCurrentlyOpen = getFilesFromRoutes(manifest.routes).includes(
+      openPath.toLowerCase(),
+    );
   }
 
   const [open, setOpen] = useState(isCurrentlyOpen);
@@ -39,19 +42,26 @@ function SidebarSection(
   const handleClick = (e: MouseEvent) => {
     e.preventDefault();
     setOpen(!open);
-  }
+  };
 
   if (manifest.file) {
     return (
       <ul>
         <li>
           {open && <div>* {manifest.name}</div>}
-          {!open && <a href={`/test-cases/${removeFromLast(manifest.file, ".").toLowerCase()}`}
-            class="text(blue-600 hover:blue-500)">* {manifest.name}
-          </a>}
+          {!open && (
+            <a
+              href={`/test-cases/${
+                removeFromLast(manifest.file, ".").toLowerCase()
+              }`}
+              class="text(blue-600 hover:blue-500)"
+            >
+              * {manifest.name}
+            </a>
+          )}
         </li>
       </ul>
-    )    
+    );
   }
 
   return (
@@ -59,18 +69,22 @@ function SidebarSection(
       <div
         class={`text(gray-900 hover:gray-600) font-bold`}
       >
-        <a href="#" onClick={handleClick}>{open ? "- " : "+ "} {manifest.name}</a>
+        <a href="#" onClick={handleClick}>
+          {open ? "- " : "+ "} {manifest.name}
+        </a>
       </div>
       <div
         class={`${open ? "block" : "hidden"} pl-4 border-l-2 border-gray-400`}
       >
         <ul>
-          {manifest.routes && manifest.routes.map(m => {
-            return <SidebarSection
-                      openPath={openPath}
-                      manifest={m}
-                      level={level + 4}
-                  />
+          {manifest.routes && manifest.routes.map((m) => {
+            return (
+              <SidebarSection
+                openPath={openPath}
+                manifest={m}
+                level={level + 4}
+              />
+            );
           })}
         </ul>
       </div>
@@ -79,11 +93,13 @@ function SidebarSection(
 }
 
 export default function Sidebar(
-  props: { routes: RouteManifest[], openPath: string },
+  props: { routes: RouteManifest[]; openPath: string },
 ) {
   return (
     <>
-      {props.routes.map(r => <SidebarSection openPath={props.openPath} manifest={r} level={0} />)}
+      {props.routes.map((r) => (
+        <SidebarSection openPath={props.openPath} manifest={r} level={0} />
+      ))}
     </>
   );
 }

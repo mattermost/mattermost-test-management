@@ -1,5 +1,5 @@
-import Header from '../components/header.tsx';
-import NavigationBar from '../components/navigation_bar.tsx';
+import Header from "../components/header.tsx";
+import NavigationBar from "../components/navigation_bar.tsx";
 
 export function ServerCodePage(
   props: { serverCode: number; codeDescription: string },
