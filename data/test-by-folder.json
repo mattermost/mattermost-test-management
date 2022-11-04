@@ -81,6 +81,15 @@
     "tests": ["with-input empty-form"]
   },
   {
+    "folder": "apps-framework/google-drive",
+    "tests": [
+      "Google command: `/drive configure`",
+      "Google command: `/drive connect`",
+      "Google command: `/drive create docs`: with share on the channel",
+      "Set up Google App"
+    ]
+  },
+  {
     "folder": "apps-framework/opsgenie",
     "tests": [
       "Auth Token Refresh",
@@ -1807,6 +1816,7 @@
       "Professional — Feature Availability (on-prem)",
       "Self Hosted | Alternative payment option in Billing & payment page",
       "Starter — Feature Availability (on-prem)",
+      "System console | Editions and Licenses | Show license seat count and total activated users",
       "Takes the user through the steps of using the app",
       "Takes the user through the steps of using the app",
       "Takes the user through the steps of using the app using the ENTER k",
@@ -2945,7 +2955,8 @@
       "RN apps: iOS ONLY - Emoji autocomplete vs. autocorrect",
       "RN apps: iOS ONLY - New Style Modals",
       "RN apps: iOS ONLY - Replace — with -- when using a slash command",
-      "RN apps: iOS ONLY - iOS Keyboard Dictation"
+      "RN apps: iOS ONLY - iOS Keyboard Dictation",
+      "Should be able to share a URL invite to the team"
     ]
   },
   {
