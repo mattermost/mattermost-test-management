@@ -41,11 +41,11 @@ steps_hashed: null
 1. Channel A starts as unread
 2. Visit Channel A
     1. Verify channel A becomes read after you viewed it
-4. Switch to channel B
+3. Switch to channel B
     1. Verify Channel A remains read
-6. Mark channel A as unread using alt-left-click on the sidebar channel name item
+4. Mark channel A as unread using alt-left-click on the sidebar channel name item
     1. Verify channel A shows as unread on the sidebar
-8. Switch back to channel A
+5. Switch back to channel A
     1. Verify the New Messages line above the last post (post3)
 
 **Expected**
