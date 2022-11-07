@@ -50,5 +50,5 @@ steps_hashed: null
 
 **Expected**
 
-When marking the channels as unread, the channel should show as unread on the sidebar. When opening a channel that was marked as unread manuually, the New Messages line should appear above the last post in the channel
+When marking the channels as unread, the channel should show as unread on the sidebar. When opening a channel that was marked as unread manually, the New Messages line should appear above the last post in the channel
 
