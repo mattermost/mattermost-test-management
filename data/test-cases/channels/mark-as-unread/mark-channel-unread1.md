@@ -43,7 +43,7 @@ steps_hashed: null
     - Verify channel A becomes read after you viewed it
 3. Switch to channel B
     - Verify Channel A remains read
-4. Mark channel A with the RHS mark as unread option
+4. Mark channel A with the LHS channel item menu option "mark as unread"
     - Verify channel A shows as unread on the sidebar
 5. Switch back to channel A
     - Verify the New Messages line should appear above the last post (post3)
