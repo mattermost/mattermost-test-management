@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "The latest post should appear unread after marking the channel as unread with alt-left-click on channel sidebar item"
+name: "The latest post should appear unread after marking the channel as unread with alt/option+left-click on channel sidebar item"
 status: Active
 priority: Normal
 folder: Mark as Unread
@@ -32,7 +32,7 @@ case_hashed: null
 steps_hashed: null
 ---
 
-## The latest post should appear unread after marking the channel as unread with alt-left-click on channel sidebar item
+## The latest post should appear unread after marking the channel as unread with alt/option+left-click on channel sidebar item
 
 ---
 
@@ -40,14 +40,14 @@ steps_hashed: null
 
 1. Channel A starts as unread
 2. Visit Channel A
-    1. Verify channel A becomes read after you viewed it
+    - Verify channel A becomes read after you viewed it
 3. Switch to channel B
-    1. Verify Channel A remains read
-4. Mark channel A as unread using alt-left-click on the sidebar channel name item
-    1. Verify channel A shows as unread on the sidebar
+    - Verify Channel A remains read
+4. Mark channel A as unread using alt/option+left-click on the sidebar channel name item
+    - Verify channel A shows as unread on the sidebar
 5. Switch back to channel A
-    1. Verify the New Messages line above the last post (post3)
+    - Verify the New Messages line above the last post (post3)
 
 **Expected**
 
-When marking the channels as unread using alt+click, the channel should show as unread on the sidebar and the New Messages line should appear above the last post in the channel.
+When marking the channels as unread using alt/option+left-click, the channel should show as unread on the sidebar and the New Messages line should appear above the last post in the channel.
