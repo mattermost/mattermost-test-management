@@ -1,7 +1,7 @@
 ---
 # (Required) Ensure all values are filled up
 name: "Change Test Title"
-status: Approved
+status: Draft
 priority: Normal
 folder: Change Folder Name
 authors: "@change_required"
