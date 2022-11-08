@@ -62,6 +62,9 @@ Test Steps:
 9. Click on "Complete purchase" button
 10. Verify "updating workspace information" page is shown
 11. On successful purchase, Verify "Added X users more to your license" message is shown, with option buttons to "View Billing"
-    **Expected**
+12. Verify purchase details on "purchase history" page 
 
-Change required.
+**Expected**
+
+Verify the purchase for aditional users was successfull and purchase history page shows details of purchase.
+Details should include Date (date of purchase), Description (License name and annual/pro-rata subscription), Users, Price, Total, Status (purchase status) 
