@@ -1,5 +1,10 @@
 ## Evaluating
+
 <!-- #query page render [[template/cypress]] where status = "Active" and cypress = "Evaluating" order by id asc limit 50 -->
+* [[test-cases/channels/files-and-attachments/MM-T335]] Drag and Drop - Upload file center, upload file RHS (Cypress state: _Evaluating_)
+* [[test-cases/channels/keyboard-shortcuts/MM-T1256]] CTRL/CMD+UP; CTRL/CMD+DOWN (Cypress state: _Evaluating_)
+* [[test-cases/channels/keyboard-shortcuts/MM-T1262]] UP - Switch channel, UP doesn't edit previous channel's post (Cypress state: _Evaluating_)
+* [[test-cases/channels/keyboard-shortcuts/MM-T1263]] UP - Post, switch channel, UP doesn't edit previous channel's post (Cypress state: _Evaluating_)
 * [[test-cases/channels/settings/display/MM-T2099]] Display: Link Previews Collapsed setting defaults link preview post to collapsed (Cypress state: _Evaluating_)
 * [[test-cases/channels/settings/display/MM-T2100]] Display: Link Previews Expanded setting defaults link preview post to expanded (Cypress state: _Evaluating_)
 * [[test-cases/channels/settings/display/MM-T2101]] Display: Link preview should display in center and reply RHS (Cypress state: _Evaluating_)
@@ -46,8 +51,4 @@
 * [[test-cases/plugins/jira-v2/jira-server/install-and-uninstall/MM-T2481]] /jira disconnect (Cypress state: _Evaluating_)
 * [[test-cases/plugins/jira-v2/jira-server/install-and-uninstall/MM-T2482]] /jira install can only be used by admin (Cypress state: _Evaluating_)
 * [[test-cases/plugins/jira-v2/jira-server/install-and-uninstall/MM-T2483]] /jira setup Cloud or Server (Cypress state: _Evaluating_)
-* [[test-cases/plugins/jira-v2/jira-server/install-and-uninstall/MM-T2484]] /jira uninstall (Cypress state: _Evaluating_)
-* [[test-cases/plugins/jira-v2/jira-server/general-slash-commands/MM-T2485]] /jira help (Cypress state: _Evaluating_)
-* [[test-cases/plugins/jira-v2/jira-server/general-slash-commands/MM-T2486]] /jira help with custom help text (Cypress state: _Evaluating_)
-* [[test-cases/plugins/jira-v2/jira-server/jira-create/MM-T2488]] Slash command - Create with description (Cypress state: _Evaluating_)
 <!-- /query -->
