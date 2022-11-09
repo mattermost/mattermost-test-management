@@ -222,6 +222,24 @@
         ]
       },
       {
+        "name": "Google Drive",
+        "routes": [
+          { "name": "Set up Google App", "file": "apps-framework/google-drive/MM-T5217.md" },
+          {
+            "name": "Google command: `/drive configure`",
+            "file": "apps-framework/google-drive/MM-T5218.md"
+          },
+          {
+            "name": "Google command: `/drive connect`",
+            "file": "apps-framework/google-drive/MM-T5219.md"
+          },
+          {
+            "name": "Google command: `/drive create docs`: with share on the channel",
+            "file": "apps-framework/google-drive/MM-T5220.md"
+          }
+        ]
+      },
+      {
         "name": "OpsGenie",
         "routes": [
           { "name": "Set up OpsGenie App", "file": "apps-framework/opsgenie/MM-T5048.md" },
@@ -2962,6 +2980,14 @@
           {
             "name": "Channel is marked as read as soon as user leaves",
             "file": "channels/mark-as-unread/MM-T2924.md"
+          },
+          {
+            "name": "The latest post should appear unread after marking the channel as unread",
+            "file": "channels/mark-as-unread/MM-T5223.md"
+          },
+          {
+            "name": "The latest post should appear unread after marking the channel as unread with alt/option+left-click on channel sidebar item",
+            "file": "channels/mark-as-unread/MM-T5224.md"
           }
         ]
       },
@@ -5911,6 +5937,10 @@
         "file": "cloud/MM-T5207.md"
       },
       {
+        "name": "System console | Editions and Licenses | Show license seat count and total activated users",
+        "file": "cloud/MM-T5222.md"
+      },
+      {
         "name": "RHS",
         "routes": [
           { "name": "Channel Info RHS: Admin", "file": "cloud/rhs/MM-T4685.md" },
@@ -8315,6 +8345,10 @@
       {
         "name": "Mobile classic apps: Smoke Tests",
         "file": "mobile-app--native-specific-/MM-T43.md"
+      },
+      {
+        "name": "Should be able to share a URL invite to the team",
+        "file": "mobile-app--native-specific-/MM-T5221.md"
       }
     ]
   },
