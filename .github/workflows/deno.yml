@@ -17,6 +17,10 @@ on:
 permissions:
   contents: read
 
+env:
+  ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
+  JIRA_PAT: ${{ secrets.JIRA_PAT }}
+
 jobs:
   test:
     runs-on: ubuntu-latest
