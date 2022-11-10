@@ -47,8 +47,9 @@ jobs:
         run: deno task sync
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          default_author: github_actions
-          message: 'chore(data): sync'
-          add: '*.md'
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "username@users.noreply.github.com"
+          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
