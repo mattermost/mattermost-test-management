@@ -44,6 +44,7 @@ Pre-requisites:
 - The workspace can be at the initial, mid or end of its license term
 - Only Admins should be able to add user to current plan (either Professional or Enterprise)
 - if the current license is ending in 60 the expansion option is not shown
+Note: Purchase additional license is only available if the workspace is not in a renewal period.
 
 Test Steps:
 
