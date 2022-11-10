@@ -1951,6 +1951,12 @@
     ]
   },
   {
+    "folder": "cloud/customer-portal/co-term-expansion",
+    "tests": [
+      "For Self-hosted | On Customer Portal payment page | Admins should be able to purchase additional seats for existing license"
+    ]
+  },
+  {
     "folder": "cloud/customer-portal/portal-tests",
     "tests": [
       "CWS — Customer Portal smoke test",
@@ -3046,7 +3052,8 @@
     "tests": [
       "Mobile V2: Search - Pinned Messages",
       "Mobile V2: Search - Recent Mentions",
-      "Mobile V2: Search - Saved Messages"
+      "Mobile V2: Search - Saved Messages",
+      "Mobile V2: Search - Search Messages"
     ]
   },
   {
@@ -3853,6 +3860,80 @@
       "Plugin can be installed from marketplace and enabled",
       "Plugin can be uploaded and enabled",
       "Run tests for Demo Plugin"
+    ]
+  },
+  {
+    "folder": "plugins/service-now",
+    "tests": [
+      "Activation of save button",
+      "Add slash command",
+      "Adding subscriptions through the sidebar",
+      "Connect command of ServiceNow plugin for a local user",
+      "Connect slash command even if the user is already connected.",
+      "Delete option in sidebar",
+      "Delete slash command",
+      "Delete subscription command without the subscription ID",
+      "Deleted subscription should not be visible",
+      "Deleting any subscription from the list as a local user.",
+      "Deleting the subscription from the right hand side bar",
+      "Direct message once the plugin is connected",
+      "Direct message once the plugin is connected but the server is not configured to allow the messages between any users.",
+      "Direct message received to a local user once the plugin is connected",
+      "Disconnect command of ServiceNow plugin for a local user.",
+      "Disconnect slash command even if the user is already disconnected",
+      "Downloading XML file from the sidebar",
+      "Edit option in the sidebar",
+      "Edit slash command",
+      "Edit subscription command without subscription ID",
+      "Editing the subscription from the right hand sidebar",
+      "Help command of ServiceNow plugin for a local user.",
+      "Help slash command for a local user",
+      "Help slash command for system admin",
+      "Installation of ServiceNow plugin",
+      "List slash command",
+      "Message received in right hand sidebar without uploading XML file.",
+      "No notification of the fields altered in the record that were not mentioned in the subscription.",
+      "Opening the right hand sidebar with the ServiceNow plugin",
+      "Presence of plugin in plugin management",
+      "Presenting the notification of the new comment added in the particular record of the record subscription.",
+      "Presenting the notification of the priority changed in the particular record of the record subscription.",
+      "Presenting the notification when any new comment is added to any record of the bulk subscription.",
+      "Presenting the notification when priority is being changed in any record of the bulk subscription.",
+      "Presenting the notification when the assigned to is changed in any record of the bulk subscription.",
+      "Presenting the notification when the assigned to is changed in the particular record of the record subscription.",
+      "Presenting the notification when the assignment group is changed in any record of the bulk subscription.",
+      "Presenting the notification when the assignment group is changed in the particular record of the record subscription.",
+      "Presenting the notification when the state is changed in any record of the bulk subscription.",
+      "Presenting the notification when the state is changed of the particular record of the record subscription.",
+      "Redirection against the allow button on the plugin allowance page.",
+      "Redirection against the correct credentials of developers instance",
+      "Redirection against the deny button on the plugin allowance page.",
+      "Redirection against the wrong credentials of developers instance",
+      "Redirection of the user on a new window after clicking the bulk subscription created",
+      "Redirection of the user on a new window after clicking the record subscription created",
+      "ServiceNow connect window after connect command",
+      "Show all subscriptions button activated",
+      "Show all subscriptions button deactivated",
+      "Subscription add command for a local user.",
+      "Subscription adding against the empty channel field.",
+      "Subscription deleted should not be visible to the normal user",
+      "Subscription edit command for a local user.",
+      "Subscription editing against the empty channel field.",
+      "Subscription list slash command for a local user",
+      "Tooltip of sidebar icon",
+      "Tooltip of the description of subscription",
+      "Working of slash command once the user permission is granted to a local user.",
+      "Working of slash commands for local user when the local user is connected to local user account on ServiceNow.",
+      "Working of slash commands for system admin when the system admin in MM connects to the local user account on ServiceNow.",
+      "Working of slash commands if the plugin is disabled",
+      "Working of slash commands if the plugin is enabled",
+      "Working of slash commands if the plugin is not enabled for a local user.",
+      "Working of slash commands without uploading the XML file as a normal user",
+      "Working of slash commands without uploading the XML file as the system admin",
+      "Working of the disconnect slash command",
+      "Working of the subscription modal against empty record name field",
+      "Working of the subscription modal against the empty record type field.",
+      "Working of the subscription modal against the empty subscription type field."
     ]
   },
   {

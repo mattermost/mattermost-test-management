@@ -5798,6 +5798,15 @@
             ]
           },
           {
+            "name": "Co-term Expansion",
+            "routes": [
+              {
+                "name": "For Self-hosted | On Customer Portal payment page | Admins should be able to purchase additional seats for existing license",
+                "file": "cloud/customer-portal/co-term-expansion/MM-T5295.md"
+              }
+            ]
+          },
+          {
             "name": "Portal tests",
             "routes": [
               {
@@ -8606,7 +8615,8 @@
         "routes": [
           { "name": "Mobile V2: Search - Recent Mentions", "file": "mobile-v2/search/MM-T4909.md" },
           { "name": "Mobile V2: Search - Saved Messages", "file": "mobile-v2/search/MM-T4910.md" },
-          { "name": "Mobile V2: Search - Pinned Messages", "file": "mobile-v2/search/MM-T4918.md" }
+          { "name": "Mobile V2: Search - Pinned Messages", "file": "mobile-v2/search/MM-T4918.md" },
+          { "name": "Mobile V2: Search - Search Messages", "file": "mobile-v2/search/MM-T5294.md" }
         ]
       },
       {
@@ -10807,6 +10817,263 @@
             "file": "plugins/plugin-release-tests/MM-T4923.md"
           },
           { "name": "Plugin Can be Updated", "file": "plugins/plugin-release-tests/MM-T4924.md" }
+        ]
+      },
+      {
+        "name": "Service Now",
+        "routes": [
+          {
+            "name": "Installation of ServiceNow plugin",
+            "file": "plugins/service-now/MM-T5225.md"
+          },
+          {
+            "name": "Presence of plugin in plugin management",
+            "file": "plugins/service-now/MM-T5226.md"
+          },
+          { "name": "Activation of save button", "file": "plugins/service-now/MM-T5227.md" },
+          {
+            "name": "Working of slash commands if the plugin is disabled",
+            "file": "plugins/service-now/MM-T5228.md"
+          },
+          {
+            "name": "Working of slash commands if the plugin is enabled",
+            "file": "plugins/service-now/MM-T5229.md"
+          },
+          {
+            "name": "ServiceNow connect window after connect command",
+            "file": "plugins/service-now/MM-T5230.md"
+          },
+          {
+            "name": "Connect slash command even if the user is already connected.",
+            "file": "plugins/service-now/MM-T5231.md"
+          },
+          {
+            "name": "Working of the disconnect slash command",
+            "file": "plugins/service-now/MM-T5232.md"
+          },
+          {
+            "name": "Disconnect slash command even if the user is already disconnected",
+            "file": "plugins/service-now/MM-T5233.md"
+          },
+          {
+            "name": "Help slash command for system admin",
+            "file": "plugins/service-now/MM-T5234.md"
+          },
+          {
+            "name": "Help slash command for a local user",
+            "file": "plugins/service-now/MM-T5235.md"
+          },
+          {
+            "name": "Direct message once the plugin is connected",
+            "file": "plugins/service-now/MM-T5236.md"
+          },
+          {
+            "name": "Direct message once the plugin is connected but the server is not configured to allow the messages between any users.",
+            "file": "plugins/service-now/MM-T5237.md"
+          },
+          {
+            "name": "Working of slash commands without uploading the XML file as the system admin",
+            "file": "plugins/service-now/MM-T5238.md"
+          },
+          {
+            "name": "Message received in right hand sidebar without uploading XML file.",
+            "file": "plugins/service-now/MM-T5239.md"
+          },
+          {
+            "name": "Working of slash commands without uploading the XML file as a normal user",
+            "file": "plugins/service-now/MM-T5240.md"
+          },
+          {
+            "name": "Downloading XML file from the sidebar",
+            "file": "plugins/service-now/MM-T5241.md"
+          },
+          {
+            "name": "Working of slash commands for system admin when the system admin in MM connects to the local user account on ServiceNow.",
+            "file": "plugins/service-now/MM-T5242.md"
+          },
+          {
+            "name": "Working of slash commands for local user when the local user is connected to local user account on ServiceNow.",
+            "file": "plugins/service-now/MM-T5243.md"
+          },
+          {
+            "name": "Working of slash command once the user permission is granted to a local user.",
+            "file": "plugins/service-now/MM-T5244.md"
+          },
+          {
+            "name": "Redirection against the wrong credentials of developers instance",
+            "file": "plugins/service-now/MM-T5245.md"
+          },
+          {
+            "name": "Redirection against the correct credentials of developers instance",
+            "file": "plugins/service-now/MM-T5246.md"
+          },
+          {
+            "name": "Redirection against the deny button on the plugin allowance page.",
+            "file": "plugins/service-now/MM-T5247.md"
+          },
+          {
+            "name": "Redirection against the allow button on the plugin allowance page.",
+            "file": "plugins/service-now/MM-T5248.md"
+          },
+          { "name": "List slash command", "file": "plugins/service-now/MM-T5249.md" },
+          { "name": "Add slash command", "file": "plugins/service-now/MM-T5250.md" },
+          { "name": "Edit slash command", "file": "plugins/service-now/MM-T5251.md" },
+          { "name": "Delete slash command", "file": "plugins/service-now/MM-T5252.md" },
+          {
+            "name": "Deleted subscription should not be visible",
+            "file": "plugins/service-now/MM-T5253.md"
+          },
+          {
+            "name": "Connect command of ServiceNow plugin for a local user",
+            "file": "plugins/service-now/MM-T5254.md"
+          },
+          {
+            "name": "Direct message received to a local user once the plugin is connected",
+            "file": "plugins/service-now/MM-T5255.md"
+          },
+          {
+            "name": "Disconnect command of ServiceNow plugin for a local user.",
+            "file": "plugins/service-now/MM-T5256.md"
+          },
+          {
+            "name": "Help command of ServiceNow plugin for a local user.",
+            "file": "plugins/service-now/MM-T5257.md"
+          },
+          {
+            "name": "Subscription list slash command for a local user",
+            "file": "plugins/service-now/MM-T5258.md"
+          },
+          {
+            "name": "Subscription add command for a local user.",
+            "file": "plugins/service-now/MM-T5259.md"
+          },
+          {
+            "name": "Subscription edit command for a local user.",
+            "file": "plugins/service-now/MM-T5260.md"
+          },
+          {
+            "name": "Deleting any subscription from the list as a local user.",
+            "file": "plugins/service-now/MM-T5261.md"
+          },
+          {
+            "name": "Subscription deleted should not be visible to the normal user",
+            "file": "plugins/service-now/MM-T5262.md"
+          },
+          {
+            "name": "Working of slash commands if the plugin is not enabled for a local user.",
+            "file": "plugins/service-now/MM-T5263.md"
+          },
+          {
+            "name": "Subscription adding against the empty channel field.",
+            "file": "plugins/service-now/MM-T5264.md"
+          },
+          {
+            "name": "Subscription editing against the empty channel field.",
+            "file": "plugins/service-now/MM-T5265.md"
+          },
+          {
+            "name": "Working of the subscription modal against the empty subscription type field.",
+            "file": "plugins/service-now/MM-T5266.md"
+          },
+          {
+            "name": "Working of the subscription modal against the empty record type field.",
+            "file": "plugins/service-now/MM-T5267.md"
+          },
+          {
+            "name": "Working of the subscription modal against empty record name field",
+            "file": "plugins/service-now/MM-T5268.md"
+          },
+          {
+            "name": "Edit subscription command without subscription ID",
+            "file": "plugins/service-now/MM-T5269.md"
+          },
+          {
+            "name": "Delete subscription command without the subscription ID",
+            "file": "plugins/service-now/MM-T5270.md"
+          },
+          {
+            "name": "Opening the right hand sidebar with the ServiceNow plugin",
+            "file": "plugins/service-now/MM-T5271.md"
+          },
+          { "name": "Tooltip of sidebar icon", "file": "plugins/service-now/MM-T5272.md" },
+          {
+            "name": "Show all subscriptions button activated",
+            "file": "plugins/service-now/MM-T5273.md"
+          },
+          {
+            "name": "Show all subscriptions button deactivated",
+            "file": "plugins/service-now/MM-T5274.md"
+          },
+          {
+            "name": "Adding subscriptions through the sidebar",
+            "file": "plugins/service-now/MM-T5275.md"
+          },
+          { "name": "Delete option in sidebar", "file": "plugins/service-now/MM-T5276.md" },
+          { "name": "Edit option in the sidebar", "file": "plugins/service-now/MM-T5277.md" },
+          {
+            "name": "Deleting the subscription from the right hand side bar",
+            "file": "plugins/service-now/MM-T5278.md"
+          },
+          {
+            "name": "Editing the subscription from the right hand sidebar",
+            "file": "plugins/service-now/MM-T5279.md"
+          },
+          {
+            "name": "Tooltip of the description of subscription",
+            "file": "plugins/service-now/MM-T5280.md"
+          },
+          {
+            "name": "Redirection of the user on a new window after clicking the bulk subscription created",
+            "file": "plugins/service-now/MM-T5281.md"
+          },
+          {
+            "name": "Redirection of the user on a new window after clicking the record subscription created",
+            "file": "plugins/service-now/MM-T5282.md"
+          },
+          {
+            "name": "Presenting the notification of the priority changed in the particular record of the record subscription.",
+            "file": "plugins/service-now/MM-T5283.md"
+          },
+          {
+            "name": "Presenting the notification of the new comment added in the particular record of the record subscription.",
+            "file": "plugins/service-now/MM-T5284.md"
+          },
+          {
+            "name": "Presenting the notification when the assigned to is changed in the particular record of the record subscription.",
+            "file": "plugins/service-now/MM-T5285.md"
+          },
+          {
+            "name": "Presenting the notification when the assignment group is changed in the particular record of the record subscription.",
+            "file": "plugins/service-now/MM-T5286.md"
+          },
+          {
+            "name": "Presenting the notification when the state is changed of the particular record of the record subscription.",
+            "file": "plugins/service-now/MM-T5287.md"
+          },
+          {
+            "name": "Presenting the notification when the state is changed in any record of the bulk subscription.",
+            "file": "plugins/service-now/MM-T5288.md"
+          },
+          {
+            "name": "Presenting the notification when the assignment group is changed in any record of the bulk subscription.",
+            "file": "plugins/service-now/MM-T5289.md"
+          },
+          {
+            "name": "Presenting the notification when the assigned to is changed in any record of the bulk subscription.",
+            "file": "plugins/service-now/MM-T5290.md"
+          },
+          {
+            "name": "Presenting the notification when any new comment is added to any record of the bulk subscription.",
+            "file": "plugins/service-now/MM-T5291.md"
+          },
+          {
+            "name": "Presenting the notification when priority is being changed in any record of the bulk subscription.",
+            "file": "plugins/service-now/MM-T5292.md"
+          },
+          {
+            "name": "No notification of the fields altered in the record that were not mentioned in the subscription.",
+            "file": "plugins/service-now/MM-T5293.md"
+          }
         ]
       },
       {
