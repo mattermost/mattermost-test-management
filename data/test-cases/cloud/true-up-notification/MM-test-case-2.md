@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Display a notice banner only to admins when the instance is in overage users state on Invite Modal."
+name: "System console: Dynamic banner that communicates over-deployment"
 status: Active
 priority: Normal
 folder: True up Notification
@@ -36,7 +36,7 @@ steps_hashed: null
 ---
 
 **Step 1**
-https://mattermost.atlassian.net/browse/MM-47775
+Ref: https://mattermost.atlassian.net/browse/MM-47646
 
 Pre-requisites:
 
@@ -45,11 +45,10 @@ Pre-requisites:
 
 Test:
 
-- Log into workspace with admin credentials
-- Open invite modal. Verify banner is not shown. Close the modal
+- Log into workspace with admin credentials.
 - Create 20 (expect current logged in user) users using /test cmd. Such that the active users above 5% and below 10% threshold.
-- Open invite modal. Verify banner is shown with Yellow color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Notify your Customer Success Manager on your next true-up check". Close the modal.
+- Reload the screen. Verify global banner is shown with blue color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Purchase additional seats to remain compliant." The banner should be dismissible.
 - Create 4 more users (total 25) using /test cmd. Such that the active users above 10% threshold.
-- Open invite modal. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Notify your Customer Success Manager on your next true-up check". Close the modal.
+- Reload the screen. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Purchase additional seats to remain compliant.".
 
 **Expected**
