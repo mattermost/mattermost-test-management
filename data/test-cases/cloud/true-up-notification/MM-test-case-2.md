@@ -50,5 +50,6 @@ Test:
 - Reload the screen. Verify global banner is shown with blue color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Purchase additional seats to remain compliant." The banner should be dismissible.
 - Create 4 more users (total 25) using /test cmd. Such that the active users above 10% threshold.
 - Reload the screen. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Purchase additional seats to remain compliant.".
+- Verify the banner shouldn't appear banner if the admin had previously dismissed it.
 
 **Expected**

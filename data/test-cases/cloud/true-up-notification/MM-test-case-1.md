@@ -51,5 +51,5 @@ Test:
 - Open invite modal. Verify banner is shown with Yellow color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Notify your Customer Success Manager on your next true-up check". Close the modal.
 - Create 4 more users (total 25) using /test cmd. Such that the active users above 10% threshold.
 - Open invite modal. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Notify your Customer Success Manager on your next true-up check". Close the modal.
-
+- Verify the banner shouldn't appear banner if the admin had previously dismissed it.
 **Expected**
