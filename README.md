@@ -37,7 +37,7 @@ There are three ways to get started in contributing to this project.
 a. `Frontmatter` for metadata of a test case where each field is group into required, optional and do not change.\
 b. `Content` for description and steps information.
 2. When creating a test case:\
-a. Copy the basic template at [data/TEST_CASE_TEMPLATE.md](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/TEST_CASE_TEMPLATE.md).
+a. Copy the basic template at [data/TEST_CASE_TEMPLATE.md](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/TEST_CASE_TEMPLATE.md).\
 b. Update the required information from the `Frontmatter` section such as:
     - `name` - name of the test case
     - `status` - with default value of `Approved`
