@@ -44,6 +44,7 @@ Pre-requisites:
 - eg: Assume License has 20 active users limit
 
 Test:
+
 - Log into workspace with admin credentials
 - Open invite modal. Verify banner is not shown. Close the modal
 - Create 20 (expect current logged in user) users using /test cmd. Such that the active users above 5% and below 10% threshold.
@@ -52,4 +53,3 @@ Test:
 - Open invite modal. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats". Close the modal.
 
 **Expected**
-
