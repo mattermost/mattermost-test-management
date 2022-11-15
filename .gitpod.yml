@@ -6,12 +6,21 @@ vscode:
   extensions:
     - "denoland.vscode-deno"
 
+ports:
+  - port: 3333
+    name: Silverbullet
+    onOpen: open-browser
+    visibility: public
+
 tasks:
   - name: Test Management
     init: |
       deno --version
     command: |
       deno task validate-all
+  - name: Run Silver Bullet
+    init: |
+      deno task silverbullet
 
 github:
   prebuilds:

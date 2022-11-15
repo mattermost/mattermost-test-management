@@ -1,0 +1,1 @@
+* [[{{name}}]] {{displayName}} (Cypress state: _{{cypress}}_)

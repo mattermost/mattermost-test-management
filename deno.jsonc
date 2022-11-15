@@ -13,7 +13,8 @@
     "save": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts",
     "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno task get-manifests && deno lint",
     "check": "deno fmt && deno lint",
-    "index-test-cases": "deno run --allow-net --allow-env --allow-read src/index_test_cases.ts"
+    "index-test-cases": "deno run --allow-net --allow-env --allow-read src/index_test_cases.ts",
+    "silverbullet": "deno run -A --unstable https://get.silverbullet.md -p 3333 data"
   },
   "compilerOptions": {
     "allowJs": false,
@@ -33,7 +34,12 @@
   "fmt": {
     "files": {
       "include": ["src/", "data/"],
-      "exclude": []
+      "exclude": [
+        "data/template/",
+        "data/Cypress status.md",
+        "data/Mobile v2.md",
+        "data/Test Cases.md"
+      ]
     },
     "options": {
       "useTabs": false,

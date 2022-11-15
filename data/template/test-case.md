@@ -1,0 +1,1 @@
+* [[{{name}}]] {{displayName}} {{#if tags}}(_Tags:_ {{#each tags}}{{.}}{{/each}}){{/if}}
