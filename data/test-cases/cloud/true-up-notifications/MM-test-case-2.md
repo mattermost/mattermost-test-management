@@ -3,9 +3,10 @@
 name: "System console: Dynamic banner that communicates over-deployment"
 status: Active
 priority: Normal
-folder: True up Notification
+folder: True-up Notifications
 authors: "@yasserfaraazkhan"
-team_ownership: []
+team_ownership: 
+- Self-Serve
 
 # (Optional)
 priority_p1_to_p4: P1 - Smoke Tests (App testable?)
@@ -31,10 +32,6 @@ case_hashed: null
 steps_hashed: null
 ---
 
-## Change Test Title
-
----
-
 **Step 1**
 Ref: https://mattermost.atlassian.net/browse/MM-47646
 
@@ -46,10 +43,10 @@ Pre-requisites:
 Test:
 
 - Log into workspace with admin credentials.
-- Create 20 (expect current logged in user) users using /test cmd. Such that the active users above 5% and below 10% threshold.
+- Create 20 (expect current logged in user) users using `/test` cmd. Such that the active users above 5% and below 10% threshold.
 - Reload the screen. Verify global banner is shown with blue color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Purchase additional seats to remain compliant." The banner should be dismissible.
-- Create 4 more users (total 25) using /test cmd. Such that the active users above 10% threshold.
+- Create 4 more users (total 25) using `/test` cmd. Such that the active users above 10% threshold.
 - Reload the screen. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Purchase additional seats to remain compliant.".
-- Verify the banner shouldn't appear banner if the admin had previously dismissed it.
+- Verify the banner shouldn't appear if the admin had previously dismissed it.
 
 **Expected**

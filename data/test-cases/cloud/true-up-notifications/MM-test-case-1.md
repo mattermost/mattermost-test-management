@@ -3,9 +3,10 @@
 name: "Display a notice banner only to admins when the instance is in overage users state on Invite Modal."
 status: Active
 priority: Normal
-folder: True up Notification
+folder: True-up Notifications
 authors: "@yasserfaraazkhan"
-team_ownership: []
+team_ownership: 
+- Self-Serve
 
 # (Optional)
 priority_p1_to_p4: P1 - Smoke Tests (App testable?)
@@ -31,10 +32,6 @@ case_hashed: null
 steps_hashed: null
 ---
 
-## Change Test Title
-
----
-
 **Step 1**
 https://mattermost.atlassian.net/browse/MM-47775
 
@@ -47,9 +44,9 @@ Test:
 
 - Log into workspace with admin credentials
 - Open invite modal. Verify banner is not shown. Close the modal
-- Create 20 (expect current logged in user) users using /test cmd. Such that the active users above 5% and below 10% threshold.
-- Open invite modal. Verify banner is shown with Yellow color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Notify your Customer Success Manager on your next true-up check". Close the modal.
-- Create 4 more users (total 25) using /test cmd. Such that the active users above 10% threshold.
+- Create 20 (expect current logged in user) users using `/test` cmd. Such that the active users above 5% and below 10% threshold.
+- Open invite modal. Verify banner is shown with yellow color and a message, "Your workspace user count has exceeded your paid license seat count by 1 seat. Notify your Customer Success Manager on your next true-up check". Close the modal.
+- Create 4 more users (total 25) using `/test` cmd. Such that the active users above 10% threshold.
 - Open invite modal. Verify banner is shown with red color and a message, "Your workspace user count has exceeded your paid license seat count by 5 seats. Notify your Customer Success Manager on your next true-up check". Close the modal.
-- Verify the banner shouldn't appear banner if the admin had previously dismissed it.
-**Expected**
+- Verify the banner shouldn't appear if the admin had previously dismissed it.
+  **Expected**
