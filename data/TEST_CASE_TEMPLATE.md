@@ -32,10 +32,6 @@ case_hashed: null
 steps_hashed: null
 ---
 
-## Change Test Title
-
----
-
 **Step 1**
 
 Change required.

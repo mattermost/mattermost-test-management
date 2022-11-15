@@ -2011,6 +2011,13 @@
   },
   { "folder": "cloud/starter-plan", "tests": ["Starter — Restrict team creation"] },
   {
+    "folder": "cloud/true-up-notifications",
+    "tests": [
+      "Display a notice banner only to admins when the instance is in overage users state on Invite Modal.",
+      "System console: Dynamic banner that communicates over-deployment"
+    ]
+  },
+  {
     "folder": "cloud/wip",
     "tests": [
       "Banner changes as the trial gets closer to running out",
