@@ -33,7 +33,13 @@
   },
   "fmt": {
     "files": {
-      "include": ["src/", "data/test-cases"]
+      "include": ["src/", "data/"],
+      "exclude": [
+        "data/template/",
+        "data/Cypress status.md",
+        "data/Mobile v2.md",
+        "data/Test Cases.md"
+      ]
     },
     "options": {
       "useTabs": false,
