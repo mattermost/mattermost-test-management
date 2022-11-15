@@ -40,7 +40,7 @@ Test:
 
 1. Login as **SysAdmin**
 2. Add **UserA**
-3. Logout **SysAdmin**L
+3. Logout **SysAdmin**
 4. Login as **UserA**
 5. DM to **SysAdmin**
 6. Click Profile Popover of **SysAdmin**
