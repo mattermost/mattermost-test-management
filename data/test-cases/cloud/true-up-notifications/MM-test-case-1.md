@@ -37,7 +37,7 @@ https://mattermost.atlassian.net/browse/MM-47775
 
 Pre-requisites:
 
-- Have a workspace with test cloud license that has user less limit for testing purposes
+- Have a workspace with test self-hosted license that has user less limit for testing purposes
 - eg: Assume License has 20 active users limit
 
 Test:
