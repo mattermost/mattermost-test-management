@@ -56,7 +56,7 @@ Steps:
    - Terms
    - Start Date
    - Expiry Date
-4. The email should contails below mentioned Product details,
+4. The email should contain Product details below,
    - Product (eg: Self-Hosted Professional)
    - Users
    - PRICE/USER (ANNUAL)
