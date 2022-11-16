@@ -42,20 +42,20 @@ Pre-requisites:
 - The workspace should be having an active License for X number of users
 - The workspace can be at the initial, mid or end of its license term
 - Only Admins should be able to add user to current plan (either Professional or Enterprise)
-- if the current license is ending in 60 the expansion option is not shown
+- If the current license is ending in 60, the expansion option is not shown
 
 Steps:
 
-1. After a successfull purchase of additional licenses, an email with details of purchase to the Admin.
+1. After a successful purchase of additional licenses, an email with details of purchase is sent to the Admin.
 2. Email subject should be 'Purchase Confirmation - Mattermost Customer Portal'
-3. The email should contails below mentioned Billing attributes,
+3. The email should contain Billing attributes below,
    - Billing address
    - Invoice No
-   - Billed on:
-   - Due on:
-   - Terms:Due
-   - Start Date:
-   - Expiry Date:
+   - Billed on
+   - Due on
+   - Terms
+   - Start Date
+   - Expiry Date
 4. The email should contails below mentioned Product details,
    - Product (eg: Self-Hosted Professional)
    - Users
@@ -68,5 +68,3 @@ Steps:
    - Amount paid
 
 **Expected**
-
-Change required.
