@@ -66,5 +66,3 @@ Steps:
    - Tax
    - Total
    - Amount paid
-
-**Expected**
