@@ -1,14 +1,17 @@
 <!--
 Give the PR a descriptive title following conventional commits - https://www.conventionalcommits.org/en/v1.0.0/
 
-Typical format for test cases:
+Typical format for new test cases:
 ```
 test(feature): general description of tests
+or
+test(test key): update existing test case description
 ```
 
 Example:
 ```
 test(mark as unread): latest post should appear unread after marking the channel as unread in RHS via menu option or shortcut key
+test(MM-T4886): updating step 2 
 ```
 -->
 
