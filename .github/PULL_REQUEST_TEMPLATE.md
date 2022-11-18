@@ -1,7 +1,7 @@
 <!--
 Give the PR a descriptive title following conventional commits - https://www.conventionalcommits.org/en/v1.0.0/
 
-Typical format for new test cases:
+Typical format for test cases:
 ```
 test(feature): general description of tests
 or
