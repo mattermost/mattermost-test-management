@@ -9,9 +9,9 @@ team_ownership:
 - Change Team Name
 
 # (Optional)
-component: null
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: null
+component: null
 tags: []
 labels: []
 
@@ -30,10 +30,6 @@ created_on: null
 last_updated: null
 case_hashed: null
 steps_hashed: null
----
-
-## Change Test Title
-
 ---
 
 **Step 1**
