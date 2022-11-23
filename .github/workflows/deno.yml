@@ -1,0 +1,29 @@
+name: Validate changes
+
+on: pull_request
+
+permissions:
+  contents: read
+
+env:
+  ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
+  JIRA_PAT: ${{ secrets.JIRA_PAT }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v3
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@9db7f66e8e16b5699a514448ce994936c63f0d54
+        with:
+          deno-version: v1.x
+
+      - name: Verify formatting
+        run: deno task check
+
+      - name: Validate changes
+        run: deno task validate
