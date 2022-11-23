@@ -1,18 +1,6 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# This workflow will install Deno then run `deno lint` and `deno test`.
-# For more information see: https://github.com/denoland/setup-deno
-
 name: Validate changes
 
-on: push
-  # push:
-  #   branches: ["main"]
-  # pull_request:
-  #   branches: ["main"]
+on: pull_request
 
 permissions:
   contents: read
@@ -39,18 +27,3 @@ jobs:
 
       - name: Validate changes
         run: deno task validate
-
-      - name: Save changes
-        run: deno task save
-
-      - name: Sync changes
-        run: deno task sync
-
-      - name: Commit changes
-        if: github.event_name == 'push'
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-          git add .
-          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
-          git push
