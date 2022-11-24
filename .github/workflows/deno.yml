@@ -32,27 +32,27 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/add_actions' }}
+        if: ${{ github.event_name == 'push' }} # && github.ref == 'refs/heads/add_actions' }}
         run: deno task save
 
       - name: Run if changes have been detected
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: echo "Changes!"
 
+      - name: Sync changes
+        if: ${{ github.event_name == 'push' }} #  && github.ref == 'refs/heads/add_actions' }}
+        run: deno task sync
+
       - name: Run if no changes have been detected
         if: steps.auto-commit-action.outputs.changes_detected == 'false'
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/add_actions' }}
+        if: ${{ github.event_name == 'push' && github.ref }} #  == 'refs/heads/add_actions' }}
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
           skip_dirty_check: true
-
-      - name: Sync changes
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/add_actions' }}
-        run: deno task sync
 
       # - name: Commit changes
       #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/add_actions' }}
