@@ -341,7 +341,7 @@ function isValidFolder(
 
   const found = findSingle(baseValues, (it) => it.fullPath === fullPath);
 
-  if (!found) {
+  if (found) {
     errorMessage.push(
       `"${fullPath}" not found from "${filename}"`,
     );
