@@ -39,7 +39,7 @@ Ref: <https://mattermost.atlassian.net/browse/MM-48186>
 
 Steps:
 
-1. Login as 2 LDAP users (userA and userB) in an LDAP group.
+1. Login as two LDAP users (userA and userB) in an LDAP group.
 2. Configure the group to sync to a team and a channel.
 3. Have both users leave the channel and the team.
 4. Go to **System Console** > **Users**, go to **userA**, and from the drop down menu select **Reset group-defaulted teams and channels**.
