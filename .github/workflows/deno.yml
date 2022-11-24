@@ -53,6 +53,9 @@ jobs:
           commit_message: "chore(data): Sync"
           add_options: '-u'
           skip_dirty_check: true
+          commit_author: yasserfaraazkhan
+          commit_user_name: yasserfaraazkhan
+          commit_user_email: attitude3cena.yf@gmail.com
 
       # - name: Commit changes
       #   if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/add_actions' }}
