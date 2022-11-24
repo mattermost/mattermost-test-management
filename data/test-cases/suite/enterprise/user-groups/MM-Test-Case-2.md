@@ -3,13 +3,13 @@
 name: "Add popover for user groups"
 status: Active
 priority: Normal
-folder: user groups
+folder: user-groups
 authors: "@furqanmlk"
 team_ownership: 
 - Suite Users
 
 # (Optional)
-priority_p1_to_p4: null
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: enterprise
 component: null
 tags: []
@@ -34,6 +34,7 @@ steps_hashed: null
 ---
 
 **Step 1**
+
 Ref: <https://mattermost.atlassian.net/browse/MM-44347>
 
 Steps:
@@ -47,17 +48,18 @@ Steps:
 7. Type **Name** in Create Group modal.
 8. Add 10 users.
 9. Click **Create Group** button.
-10. Goto **ChannelA**.
+10. Go to **ChannelA**.
 11. Type Group mention and press **enter**.
-12. Click group mention .
+12. Click group mention.
 13. Click group header.
 14. Close group model.
 15. Click group mention again and select any user.
 
 **Expected**
+
 step 10: Following results should be displayed:
 
-- user groups popover should be displayed.
+- User groups popover should be displayed.
 - Group name should be displayed on group name header.
 - **X** icon should be displayed next to group name header.
 - Group mention and total number of group members should be displayed under the group name header.

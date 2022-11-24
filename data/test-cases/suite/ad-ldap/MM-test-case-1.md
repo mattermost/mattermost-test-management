@@ -3,14 +3,14 @@
 name: "Allow admins to re-add a user to all of their default group-teams and channels"
 status: Active
 priority: Normal
-folder: suite
+folder: AD LDAP
 authors: "@furqanmlk"
 team_ownership: 
 - Suite Users
 
 # (Optional)
-priority_p1_to_p4: null
-location: ad-ldap
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+location: suite
 component: null
 tags: []
 labels: 
@@ -34,6 +34,7 @@ steps_hashed: null
 ---
 
 **Step 1**
+
 Ref: <https://mattermost.atlassian.net/browse/MM-48186>
 
 Steps:
@@ -44,5 +45,6 @@ Steps:
 4. Go to **System Console** > **Users**, go to **userA**, and from the drop down menu select **Reset group-defaulted teams and channels**.
 
 **Expected**
+
 step 2: the users should get added to the team and then channel.
-step 4: **userA** should be re-added to the team and the channe and **userB** should not get re-added to the team or the channel.
+step 4: **userA** should be re-added to the team and the channel and **userB** should not get re-added to the team or the channel.

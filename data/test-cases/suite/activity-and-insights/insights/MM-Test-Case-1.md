@@ -3,13 +3,13 @@
 name: "My Insights license change"
 status: Active
 priority: Normal
-folder: insights
+folder: Insights
 authors: "@furqanmlk"
 team_ownership: 
 - Suite Users
 
 # (Optional)
-priority_p1_to_p4: null
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: activity-and-insights
 component: null
 tags: []
@@ -34,6 +34,7 @@ steps_hashed: null
 ---
 
 **Step 1**
+
 Ref: <https://mattermost.atlassian.net/browse/MM-47145>
 
 Steps:
@@ -43,4 +44,5 @@ Steps:
 3. Click **insights** from LHS.
 
 **Expected**
+
 step 3: insights should be displayed.

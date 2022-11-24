@@ -1,15 +1,15 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add max height and overflow to Multiselect"
+name: "Allowing special characters in group name"
 status: Active
 priority: Normal
-folder: user groups
+folder: user-groups
 authors: "@furqanmlk"
 team_ownership: 
 - Suite Users
 
 # (Optional)
-priority_p1_to_p4: null
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: enterprise
 component: null
 tags: []
@@ -34,16 +34,20 @@ steps_hashed: null
 ---
 
 **Step 1**
-Ref: <https://mattermost.atlassian.net/browse/MM-41906>
+
+Ref: <https://mattermost.atlassian.net/browse/MM-46112>
 
 Steps:
 
 1. Login as **SysAdmin**.
-2. Create 10 users.
+2. Create 2 users.
 3. Click **+** icon on LHS.
 4. Click on **Create New User Groups**.
-5. Type **Name** in Create Group modal.
-6. Add 10 users.
+5. Type **Name** "test-group" in Create Group modal.
+6. Add 2 users.
+7. Click Create Group button.
 
 **Expected**
-step 6: Scroll bar should be visible.
+
+step 5: "test-group" should be visible in **Mention**.
+step 7: Group should be created.
