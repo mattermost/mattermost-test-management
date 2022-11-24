@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add popover for user groups"
+name: "Verify popover for user groups"
 status: Active
 priority: Normal
 folder: user-groups
