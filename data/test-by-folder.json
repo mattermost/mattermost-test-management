@@ -1728,7 +1728,17 @@
   },
   {
     "folder": "channels/sidebar",
-    "tests": ["RN apps: Sidebar - Selecting the same channel should close the sidebar"]
+    "tests": [
+      "RN apps: Sidebar - Selecting the same channel should close the sidebar",
+      "Should be able to open channel files, visit the system console and come back without issues",
+      "Should be able to open channel members, visit the system console and come back without issues",
+      "Should be able to open pinned posts, visit the system console and come back without issues",
+      "Should be able to open recent mentions, visit the system console and come back without issues",
+      "Should be able to open saved posts, visit the system console and come back without issues",
+      "Should be able to open search results, visit the system console and come back without issues",
+      "Should be able to open thread reply with CRT, visit the system console and come back without issues",
+      "Should be able to open thread reply, visit the system console and come back without issues"
+    ]
   },
   {
     "folder": "channels/team-settings",
@@ -3721,6 +3731,17 @@
     ]
   },
   {
+    "folder": "plugins/matterpoll",
+    "tests": [
+      "Allow empty string as third option in Modal",
+      "Construct a poll with an emoji",
+      "Construct a poll with flags",
+      "Constructing a poll",
+      "Reading a poll",
+      "Reset button"
+    ]
+  },
+  {
     "folder": "plugins/meme",
     "tests": [
       "Plugin works with no site URL set",
@@ -4186,7 +4207,10 @@
   { "folder": "suite/activity-and-insights", "tests": ["Insight - features intro"] },
   {
     "folder": "suite/activity-and-insights/insights",
-    "tests": ["Insights - available as last channel viewed when switching teams"]
+    "tests": [
+      "Insights - available as last channel viewed when switching teams",
+      "My Insights license change"
+    ]
   },
   {
     "folder": "suite/activity-and-insights/insights/day-range",
@@ -4242,6 +4266,7 @@
       "Adding first/last and nickname attributes back in and syncing returns user's first/last names from LDAP",
       "Adding users in and not-in group to team and channel via API  POST https://selenium.test.mattermost.com/api/v4/teams/{teamid}/members  POST https://selenium.test.mattermost.com/api/v4/channels/{channelid}/members",
       "All account creation methods disabled",
+      "Allow admins to re-add a user to all of their default group-teams and channels",
       "At-mentions: Setup",
       "Can display status of a team or channel, when group-constraint is disabled",
       "Can display status of a team or channel, whether group-constraint is enabled",
@@ -4628,6 +4653,14 @@
       "Search in Team Members Block",
       "Team Members Block for LDAP Group Synced Team",
       "Team Members Block in Team Configuration page"
+    ]
+  },
+  {
+    "folder": "suite/enterprise/user-groups",
+    "tests": [
+      "Add max height and overflow to Multiselect",
+      "Allowing special characters in group name",
+      "Verify popover for user groups"
     ]
   },
   {
