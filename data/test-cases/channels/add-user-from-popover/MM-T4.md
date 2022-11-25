@@ -7,9 +7,9 @@ folder: Add user from popover
 authors: ""
 team_ownership: 
 - Channels
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
-priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Add user to channel from popover
 component: null
 tags: []

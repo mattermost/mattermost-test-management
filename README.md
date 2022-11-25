@@ -45,6 +45,7 @@ b. Update the required information from the `Frontmatter` section such as:
     - `folder` - name of a folder. It should follow the same name of existing folder (e.g. `Channels` for `data/test-cases/channels`) or a slug equivalent of new folder (e.g. `2236 Shiny Feature` for `data/test-cases/channels/2236-shiny-feature`). Note: `2236` is in the format of `YYWW` or a shortened year and week when a feature is introduced.
     - `authors` - author's GitHub handle (e.g. `@original`)
     - `team_ownership` - (array) Team name who owns a feature or test case.
+    - `priority_p1_to_p4` - with default value of `P2 - Core Functions (Do core functions work?)`
 c. Update the content section such as:
     - `Objective` (optional)
     - `Precondition` (optional)
