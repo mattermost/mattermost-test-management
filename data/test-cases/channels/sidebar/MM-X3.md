@@ -3,7 +3,7 @@
 name: "Should be able to open pinned posts, visit the system console and come back without issues"
 status: Active
 priority: Normal
-folder: Channels
+folder: Sidebar
 authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
@@ -14,7 +14,6 @@ location: Sidebar
 component: null
 tags: []
 labels:
-- se-prod
 - channel
 - rhs
 
