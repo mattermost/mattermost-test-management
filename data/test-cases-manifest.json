@@ -10265,6 +10265,20 @@
         ]
       },
       {
+        "name": "Matterpoll",
+        "routes": [
+          { "name": "Constructing a poll", "file": "plugins/matterpoll/MM-T5300.md" },
+          { "name": "Reading a poll", "file": "plugins/matterpoll/MM-T5301.md" },
+          { "name": "Construct a poll with an emoji", "file": "plugins/matterpoll/MM-T5302.md" },
+          { "name": "Construct a poll with flags", "file": "plugins/matterpoll/MM-T5303.md" },
+          { "name": "Reset button", "file": "plugins/matterpoll/MM-T5304.md" },
+          {
+            "name": "Allow empty string as third option in Modal",
+            "file": "plugins/matterpoll/MM-T5305.md"
+          }
+        ]
+      },
+      {
         "name": "Meme",
         "routes": [
           {
@@ -11699,6 +11713,10 @@
                 "file": "suite/activity-and-insights/insights/MM-T4902.md"
               },
               {
+                "name": "My Insights license change",
+                "file": "suite/activity-and-insights/insights/MM-T5306.md"
+              },
+              {
                 "name": "My Insights",
                 "routes": [
                   {
@@ -12290,6 +12308,10 @@
           {
             "name": "System admin permission to modify Admin Filter",
             "file": "suite/ad-ldap/MM-T3720.md"
+          },
+          {
+            "name": "Allow admins to re-add a user to all of their default group-teams and channels",
+            "file": "suite/ad-ldap/MM-T5307.md"
           }
         ]
       },
@@ -13062,6 +13084,23 @@
               {
                 "name": "Check for Filter in Members block of Channel Configuration page",
                 "file": "suite/enterprise/team-and-channel/MM-T3146.md"
+              }
+            ]
+          },
+          {
+            "name": "User Groups",
+            "routes": [
+              {
+                "name": "Add max height and overflow to Multiselect",
+                "file": "suite/enterprise/user-groups/MM-T5308.md"
+              },
+              {
+                "name": "Verify popover for user groups",
+                "file": "suite/enterprise/user-groups/MM-T5309.md"
+              },
+              {
+                "name": "Allowing special characters in group name",
+                "file": "suite/enterprise/user-groups/MM-T5310.md"
               }
             ]
           }

@@ -8,6 +8,10 @@ tmp_data
 .env.test
 .env.*
 
+# deno - ignore for it's throwing error on mismatch intermittently
+deno.lock
+www/deno.lock
+
 # Dev machine
 .DS_Store
 
