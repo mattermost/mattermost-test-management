@@ -4,7 +4,7 @@ name: "Should be able to open channel files, visit the system console and come b
 status: Active
 priority: Normal
 folder: Channels
-authors: ""
+authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
 

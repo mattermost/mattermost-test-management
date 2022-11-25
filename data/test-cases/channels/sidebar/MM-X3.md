@@ -4,7 +4,7 @@ name: "Should be able to open pinned posts, visit the system console and come ba
 status: Active
 priority: Normal
 folder: Channels
-authors: ""
+authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
 

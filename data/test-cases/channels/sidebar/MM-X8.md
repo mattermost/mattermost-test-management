@@ -4,7 +4,7 @@ name: "Should be able to open thread reply with CRT, visit the system console an
 status: Active
 priority: Normal
 folder: Channels
-authors: ""
+authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
 

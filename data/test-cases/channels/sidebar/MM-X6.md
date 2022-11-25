@@ -4,7 +4,7 @@ name: "Should be able to open search results, visit the system console and come 
 status: Active
 priority: Normal
 folder: Channels
-authors: ""
+authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
 

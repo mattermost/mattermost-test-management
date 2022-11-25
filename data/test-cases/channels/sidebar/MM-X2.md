@@ -4,7 +4,7 @@ name: "Should be able to open saved posts, visit the system console and come bac
 status: Active
 priority: Normal
 folder: Channels
-authors: ""
+authors: "@M-ZubairAhmed"
 team_ownership: 
 - Channels
 
