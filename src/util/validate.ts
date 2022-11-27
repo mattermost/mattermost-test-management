@@ -65,7 +65,7 @@ export function validate(all = false) {
       console.log(`${i + 1}.  "${testCaseKey}": ${testSteps?.length} step/s`);
     });
   }
-
+  let errorMessage = false;
   const folders = readFile(`${dataFolderPath}/folders.json`) as Folder[];
   const newFolderByFilePath: Record<string, Folder> = {};
   Object.entries(testCaseToCreate).forEach(([filePath, tc]) => {
@@ -82,6 +82,7 @@ export function validate(all = false) {
             `Folder name mismatched: actual = "${folderFound.name}", expected = "${tc.folderName}"`,
           ),
         );
+        errorMessage = true;
       }
     } else {
       const parentParts = fileFolderPath.split('/');
@@ -216,6 +217,7 @@ export function validate(all = false) {
   }
 
   return {
+    errorMessage,
     foldersToCreate: sortBy(Object.values(newFolderByFilePath), (it) => it.fullPath),
     testCaseToCreate,
     testCaseToModify,

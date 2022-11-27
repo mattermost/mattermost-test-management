@@ -4,4 +4,7 @@ import { getCliArgs } from './util/helper.ts';
 import { validate } from './util/validate.ts';
 
 const args = getCliArgs();
-validate(args.all);
+const { errorMessage } = validate(args.all);
+if (errorMessage) {
+  throw new Error('Not all entries are valid!');
+}
