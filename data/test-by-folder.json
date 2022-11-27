@@ -1728,7 +1728,17 @@
   },
   {
     "folder": "channels/sidebar",
-    "tests": ["RN apps: Sidebar - Selecting the same channel should close the sidebar"]
+    "tests": [
+      "RN apps: Sidebar - Selecting the same channel should close the sidebar",
+      "Should be able to open channel files, visit the system console and come back without issues",
+      "Should be able to open channel members, visit the system console and come back without issues",
+      "Should be able to open pinned posts, visit the system console and come back without issues",
+      "Should be able to open recent mentions, visit the system console and come back without issues",
+      "Should be able to open saved posts, visit the system console and come back without issues",
+      "Should be able to open search results, visit the system console and come back without issues",
+      "Should be able to open thread reply with CRT, visit the system console and come back without issues",
+      "Should be able to open thread reply, visit the system console and come back without issues"
+    ]
   },
   {
     "folder": "channels/team-settings",
