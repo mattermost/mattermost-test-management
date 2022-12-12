@@ -21,8 +21,8 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Verify formatting
-        run: deno task check
+      # - name: Verify formatting
+      #   run: deno task check
 
       # - name: Validate changes
       #   run: deno task validate
@@ -30,6 +30,5 @@ jobs:
       - uses: codespell-project/actions-codespell@master
         with:
           check_filenames: true
-          check_hidden: true
-          path: ./src,./.data
-          ignore_words_list: UserA,UserB,TE,USERA
+          path: data
+          ignore_words_file: .codespell-ignore.txt
