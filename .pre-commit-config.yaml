@@ -15,6 +15,7 @@ repos:
     -   id: codespell
         name: codespell
         description: Checks for common misspellings in text files.
-        entry: codespell --skip="*.js,*.html,*.css,.vscode" --ignore-words=.codespell-ignore.txt
+        args: [--ignore-words=.codespell-ignore.txt]
+        entry: codespell --skip="*.js,*.html,*.css,.vscode" --ignore-words .codespell-ignore.txt readme.md code.py
         language: python
         types: [text]

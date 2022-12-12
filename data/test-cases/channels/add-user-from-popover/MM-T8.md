@@ -1,11 +1,11 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — UserA & UserB (not on team)"
+name: "Add User — users & UserB (not on team)"
 status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Add user to channel from popover
 component: null
 tags: []
-labels: 
+labels:
 - cy-prod
 - fix-versions-not-empty-2022cleanup
 
@@ -22,9 +22,9 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -38,11 +38,11 @@ steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T8: Add User — UserA & UserB (not on team)
+## MM-T8: Add User — users & UserB (not on team)
 
 **Objective**
 
-- If **UserA** has never been a member of the current team, **UserB** should not see "Add to channel" option on **UserA's** profile pop-over
+- If **users** has never been a member of the current team, **UserB** should not see "Add to channel" option on **users's** profile pop-over
 
 **Precondition**
 

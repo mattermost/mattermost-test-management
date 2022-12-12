@@ -1,11 +1,11 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — UserA & UserB (removed from team)"
+name: "Add User — users & UserB (removed from team)"
 status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Add user to channel from popover
 component: null
 tags: []
-labels: 
+labels:
 - cy-prod
 - fix-versions-not-empty-2022cleanup
 
@@ -22,9 +22,9 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -38,11 +38,11 @@ steps_hashed: f48aec372a850c54fc039377bad5359b74fde0b99c45740b74c295532fceca5c95
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T5: Add User — UserA & UserB (removed from team)
+## MM-T5: Add User — users & UserB (removed from team)
 
 **Objective**
 
-If **UserB** has been removed from the current team, **UserA** should not see "Add to channel" option on **UserB's** profile pop-over
+If **UserB** has been removed from the current team, **users** should not see "Add to channel" option on **UserB's** profile pop-over
 
 **Precondition**
 

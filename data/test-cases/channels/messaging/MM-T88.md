@@ -1,11 +1,11 @@
 ---
 # (Required) Ensure all values are filled up
-name: "An elipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header"
+name: "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header"
 status: Active
 priority: Low
 folder: Messaging
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Messaging
 component: null
 tags: []
-labels: 
+labels:
 - TM4J-Key-Mapped-In-Cypress-Release
 - cy-prod
 - messaging
@@ -24,7 +24,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -38,13 +38,13 @@ steps_hashed: 1e74fa216a08f2fcc9dc4d4849dff3ae711f7ef9a5265059ac2fab035796ae5382
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T88: An elipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
+## MM-T88: An ellipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
 
 ---
 
 **Step 1**
 
-An elipsis indicates the channel header is too long - public or private channel\
+An ellipsis indicates the channel header is too long - public or private channel\
 \
 Quote icon displays at beginning of channel header\
 \--------------------\
@@ -62,6 +62,6 @@ newheader newheader newheader newheader newheader newheader newheader newheader 
 
 **Expected**
 
-After 3) you should see the quotation marks displaying in the channel header, and elipses (...) indicating the header is too long to fit across the top of the screen.\
+After 3) you should see the quotation marks displaying in the channel header, and ellipses (...) indicating the header is too long to fit across the top of the screen.\
 \
 Clicking on the channel header should still display it in its entirety.

@@ -5,7 +5,7 @@ status: Draft
 priority: Normal
 folder: Ticket coverage
 authors: ""
-team_ownership: 
+team_ownership:
 - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -45,7 +45,7 @@ steps_hashed: 5cf24ce1b1f1a0e1f918997ae1e73866adccc0ee500cea7277438b01d9b0179978
 
 **Expected**
 
-Able to post succesfully
+Able to post successfully
 
 ---
 
