@@ -31,4 +31,6 @@ jobs:
         uses: codespell-project/actions-codespell@master
         with:
           check_filenames: true
-          exclude_file: .vscode/
+          ignore_words_list: UserA,UserB,TE
+          skip: .git, .vscode
+          path: data,src
