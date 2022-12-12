@@ -24,8 +24,8 @@ jobs:
       - name: Verify formatting
         run: deno task check
 
-      - name: Validate changes
-        run: deno task validate
+      # - name: Validate changes
+      #   run: deno task validate
 
       - uses: codespell-project/actions-codespell@master
         with:
