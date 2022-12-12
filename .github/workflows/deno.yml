@@ -26,3 +26,10 @@ jobs:
 
       - name: Validate changes
         run: deno task validate
+
+      - uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true
+          check_hidden: true
+          path: ./src,./.data
+          ignore_words_list: UserA,UserB,TE,USERA
