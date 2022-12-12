@@ -26,10 +26,3 @@ jobs:
 
       - name: Validate changes
         run: deno task validate
-
-      - name: GitHub Spellcheck
-        uses: codespell-project/actions-codespell@master
-        with:
-          check_filenames: true
-          ignore_words_list: UserA,UserB,TE
-          skip: .git, .vscode
