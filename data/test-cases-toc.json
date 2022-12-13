@@ -1276,9 +1276,21 @@
     "name": "Subscriptions comment created event",
     "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t4589"
   },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5359": {
+    "name": "RHS shows subscription data",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5359"
+  },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5358": {
+    "name": "Connecting via RHS",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5358"
+  },
   "plugins/gitlab/subscriptions-and-notifications/mm-t4590": {
     "name": "Subscription events are aware of labels",
     "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t4590"
+  },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5357": {
+    "name": "Trigger a pipeline start",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5357"
   },
   "plugins/gitlab/subscriptions-and-notifications/mm-t4594": {
     "name": "Delete Subscription",
@@ -1990,6 +2002,158 @@
   "plugins/service-now/mm-t5265": {
     "name": "Subscription editing against the empty channel field.",
     "slug": "plugins/service-now/mm-t5265"
+  },
+  "plugins/service-now/sn-phase2/mm-t5334": {
+    "name": "'/servicenow subscription list me all_channels' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5334"
+  },
+  "plugins/service-now/sn-phase2/mm-t5351": {
+    "name": "Opening of add and view comments modal without permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5351"
+  },
+  "plugins/service-now/sn-phase2/mm-t5341": {
+    "name": "'/servicenow share' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5341"
+  },
+  "plugins/service-now/sn-phase2/mm-t5324": {
+    "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5324"
+  },
+  "plugins/service-now/sn-phase2/mm-t5355": {
+    "name": "Adding Empty comment in the record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5355"
+  },
+  "plugins/service-now/sn-phase2/mm-t5330": {
+    "name": "Selecting a filter",
+    "slug": "plugins/service-now/sn-phase2/mm-t5330"
+  },
+  "plugins/service-now/sn-phase2/mm-t5320": {
+    "name": "Filter options in RHS when clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5320"
+  },
+  "plugins/service-now/sn-phase2/mm-t5345": {
+    "name": "Opening of update state modal without permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5345"
+  },
+  "plugins/service-now/sn-phase2/mm-t5354": {
+    "name": "Cancel option in comments modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5354"
+  },
+  "plugins/service-now/sn-phase2/mm-t5331": {
+    "name": "'/servicenow subscription list' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5331"
+  },
+  "plugins/service-now/sn-phase2/mm-t5321": {
+    "name": "Tooltip of filter icon",
+    "slug": "plugins/service-now/sn-phase2/mm-t5321"
+  },
+  "plugins/service-now/sn-phase2/mm-t5344": {
+    "name": "Opening of update state modal with permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5344"
+  },
+  "plugins/service-now/sn-phase2/mm-t5335": {
+    "name": "'/servicenow subscription list anyone all_channels' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5335"
+  },
+  "plugins/service-now/sn-phase2/mm-t5350": {
+    "name": "Opening of add and view comments modal with permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5350"
+  },
+  "plugins/service-now/sn-phase2/mm-t5340": {
+    "name": "Cancel option in share record modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5340"
+  },
+  "plugins/service-now/sn-phase2/mm-t5325": {
+    "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5325"
+  },
+  "plugins/service-now/sn-phase2/mm-t5338": {
+    "name": "Search and select the ServiceNow record for sharing",
+    "slug": "plugins/service-now/sn-phase2/mm-t5338"
+  },
+  "plugins/service-now/sn-phase2/mm-t5328": {
+    "name": "Hiding the popover when the area outside popover is clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5328"
+  },
+  "plugins/service-now/sn-phase2/mm-t5349": {
+    "name": "Show 'Add and view comments' button of a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5349"
+  },
+  "plugins/service-now/sn-phase2/mm-t5348": {
+    "name": "Cancel option in update state modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5348"
+  },
+  "plugins/service-now/sn-phase2/mm-t5319": {
+    "name": "Filter icon in Right hand side bar of Mattermost",
+    "slug": "plugins/service-now/sn-phase2/mm-t5319"
+  },
+  "plugins/service-now/sn-phase2/mm-t5339": {
+    "name": "Sharing a ServiceNow record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5339"
+  },
+  "plugins/service-now/sn-phase2/mm-t5329": {
+    "name": "Reset button disabled for default filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5329"
+  },
+  "plugins/service-now/sn-phase2/mm-t5332": {
+    "name": "'/servicenow subscription list me' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5332"
+  },
+  "plugins/service-now/sn-phase2/mm-t5322": {
+    "name": "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5322"
+  },
+  "plugins/service-now/sn-phase2/mm-t5347": {
+    "name": "Updating state of a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5347"
+  },
+  "plugins/service-now/sn-phase2/mm-t5336": {
+    "name": "Share button in Right hand side bar of Mattermost server",
+    "slug": "plugins/service-now/sn-phase2/mm-t5336"
+  },
+  "plugins/service-now/sn-phase2/mm-t5353": {
+    "name": "Adding the comment on a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5353"
+  },
+  "plugins/service-now/sn-phase2/mm-t5343": {
+    "name": "Opening of update state modal without uploading the update set",
+    "slug": "plugins/service-now/sn-phase2/mm-t5343"
+  },
+  "plugins/service-now/sn-phase2/mm-t5326": {
+    "name": "Reset button in popover for filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5326"
+  },
+  "plugins/service-now/sn-phase2/mm-t5337": {
+    "name": "Share options in RHS when clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5337"
+  },
+  "plugins/service-now/sn-phase2/mm-t5352": {
+    "name": "Show 'Submit' button in the comment modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5352"
+  },
+  "plugins/service-now/sn-phase2/mm-t5342": {
+    "name": "Show Update state button for a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5342"
+  },
+  "plugins/service-now/sn-phase2/mm-t5327": {
+    "name": "Close button in popover for filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5327"
+  },
+  "plugins/service-now/sn-phase2/mm-t5356": {
+    "name": "No comments present in the record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5356"
+  },
+  "plugins/service-now/sn-phase2/mm-t5333": {
+    "name": "'/servicenow subscription list anyone' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5333"
+  },
+  "plugins/service-now/sn-phase2/mm-t5323": {
+    "name": "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5323"
+  },
+  "plugins/service-now/sn-phase2/mm-t5346": {
+    "name": "Update button disabled until the state is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5346"
   },
   "plugins/service-now/mm-t5289": {
     "name": "Presenting the notification when the assignment group is changed in any record of the bulk subscription.",
