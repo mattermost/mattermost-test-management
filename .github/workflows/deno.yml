@@ -29,6 +29,8 @@ jobs:
 
       - uses: codespell-project/actions-codespell@master
         with:
-          check_filenames: true
+          check_filenames: false
+          check_hidden: false
+          skip: .git/,.vscode/,
           path: data
-          ignore_words_file: .codespell-ignore.txt
+          ignore_words_file: .codespellignore
