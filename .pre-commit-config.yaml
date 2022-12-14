@@ -1,3 +1,14 @@
+# repos:
+# -   repo: https://github.com/pre-commit/pre-commit-hooks
+#     rev: v2.3.0
+#     hooks:
+#     -   id: check-merge-conflict # prevent committing files with merge conflicts
+# -   repo: https://github.com/codespell-project/codespell
+#     rev: v2.1.0
+#     hooks:
+#     -   id: codespell
+#         args: [--ignore-words=.codespellignore]
+
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.3.0
@@ -15,7 +26,6 @@ repos:
     -   id: codespell
         name: codespell
         description: Checks for common misspellings in text files.
-        args: [--ignore-words=.codespell-ignore.txt]
-        entry: codespell --skip="*.js,*.html,*.css,.vscode" --ignore-words .codespell-ignore.txt readme.md code.py
+        entry: codespell --skip="*.js,*.html,*.css,.vscode" --ignore-words .codespellignore readme.md code.py
         language: python
         types: [text]
