@@ -333,7 +333,8 @@ export class ZephyrClient {
 
       // Log for info
       console.log(
-        `List folders, folderType=${folderType}, startAt=${out?.startAt}, total=${out?.total}, next=${out?.next}`,
+        `List folders, folderType=${folderType}, startAt=${out?.startAt}, total=${out
+          ?.total}, next=${out?.next}`,
       );
 
       if (out?.isLast) {
@@ -404,7 +405,8 @@ export class ZephyrClient {
 
       // Log for info
       console.log(
-        `List statuses, statusType=${statusType}, startAt=${out?.startAt}, total=${out?.total}, next=${out?.next}`,
+        `List statuses, statusType=${statusType}, startAt=${out?.startAt}, total=${out
+          ?.total}, next=${out?.next}`,
       );
 
       if (out?.isLast) {

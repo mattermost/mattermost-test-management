@@ -70,17 +70,14 @@ _Related ticket(s):_
 
 **Step 2**
 
-1. Enter a server URL
-   \
+1. Enter a server URL\
    (e.g., <https://postgres.test.mattermost.com/>)
-2. Tap Next
-   \
+2. Tap Next\
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
 
 **Expected**
 
-- Connected to server
-  \
+- Connected to server\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
 
 ---
@@ -112,8 +109,7 @@ Post accepted and added to messages just above text field\
 **Step 5**
 
 1. Tap the `...` ellipsis menu icon on the message you just posted
-2. Tap Edit in the modal window that appears
-   \
+2. Tap Edit in the modal window that appears\
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
 
 **Expected**
@@ -145,8 +141,7 @@ Tap Cancel
 
 - Returned to channel
 - Changes accepted and displayed
-- Greyed out "(edited)" text below message
-  \
+- Greyed out "(edited)" text below message\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
 
 ---
@@ -265,16 +260,14 @@ Android\
 
 **Step 14**
 
-1. Verify image uploaded completely
-   \
+1. Verify image uploaded completely\
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
 2. Add text if desired
 3. Tap send icon
 
 **Expected**
 
-- Image posted
-  \
+- Image posted\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
 
 ---
@@ -282,8 +275,7 @@ Android\
 **Step 15**
 
 1. Tap the … ellipsis menu icon on a message
-2. Tap the Delete button in the modal window that appears
-   \
+2. Tap the Delete button in the modal window that appears\
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
 
 **Expected**
@@ -576,14 +568,12 @@ Brought to channel with post highlighted
 **Step 36**
 
 1. Tap ☰ menu icon in top **right**
-2. Tap Leave Team
-   \
+2. Tap Leave Team\
    ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
 
 **Expected**
 
-- Confirmation screen opens
-  \
+- Confirmation screen opens\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
 
 ---
@@ -615,14 +605,12 @@ Brought to channel with post highlighted
 **Step 39**
 
 - Tap ☰ menu in top **right**
-- Tap Create a New Team
-  \
+- Tap Create a New Team\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
 
 **Expected**
 
-- Create new team page appears
-  \
+- Create new team page appears\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
 
 ---
@@ -634,8 +622,7 @@ Brought to channel with post highlighted
 
 **Expected**
 
-- Team URL page appears
-  \
+- Team URL page appears\
   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
 
 ---

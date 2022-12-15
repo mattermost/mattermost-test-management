@@ -63,8 +63,7 @@ Test this on community-release.mattermost.com
 
 **Expected**
 
-- You should see "Commented on `[bot] "message: Attachment pretext"` on the line below your username on the post showing at the bottom of the center channel
-  \
+- You should see "Commented on `[bot] "message: Attachment pretext"` on the line below your username on the post showing at the bottom of the center channel\
   e.g. `"Commented on Jira's message: [username] created Bug MM-XXXXX"`
 
 **_When you're done testing, please delete your test post_**
