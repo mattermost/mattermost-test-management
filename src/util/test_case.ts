@@ -246,7 +246,6 @@ function customFieldsValues() {
     'Priority P1 to P4': {
       default: 'P2 - Core Functions (Do core functions work?)',
       options: [
-        null,
         'P1 - Smoke Tests (App testable?)',
         'P2 - Core Functions (Do core functions work?)',
         'P3 - Deep Functions (Do extensive scenarios work?)',

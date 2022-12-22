@@ -7,9 +7,9 @@ folder: Ticket coverage
 authors: ""
 team_ownership: 
 - QA Platform
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
-priority_p1_to_p4: null
 location: Ticket coverage
 component: null
 tags: []
@@ -27,8 +27,8 @@ manual_test_environments: []
 id: 2765097
 key: MM-T37
 created_on: "2019-08-28T17:41:42Z"
-last_updated: ""
-case_hashed: a857e885e196413cefee698d32c60008ee05331c676f2c04700cb387aa4e754080090a88027317bf345cdd01b0540937
+last_updated: "2022-12-01T21:17:51Z"
+case_hashed: 8e128c8c610f33e77c88071e23bf9ae595c66793872534717da837ba9ca73684bb1e9e87040e35218fbdd6aa1e659c70
 steps_hashed: 7596b5618055e1b9055f4a711df7aa1fd407590c8e78900b89265db5d7fc82c00e9a2699f892cbf9791abd9c867db5a2
 ---
 

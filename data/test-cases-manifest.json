@@ -5242,6 +5242,38 @@
           {
             "name": "RN apps: Sidebar - Selecting the same channel should close the sidebar",
             "file": "channels/sidebar/MM-T3412.md"
+          },
+          {
+            "name": "Should be able to open recent mentions, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5311.md"
+          },
+          {
+            "name": "Should be able to open saved posts, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5312.md"
+          },
+          {
+            "name": "Should be able to open pinned posts, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5313.md"
+          },
+          {
+            "name": "Should be able to open channel members, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5314.md"
+          },
+          {
+            "name": "Should be able to open channel files, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5315.md"
+          },
+          {
+            "name": "Should be able to open search results, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5316.md"
+          },
+          {
+            "name": "Should be able to open thread reply, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5317.md"
+          },
+          {
+            "name": "Should be able to open thread reply with CRT, visit the system console and come back without issues",
+            "file": "channels/sidebar/MM-T5318.md"
           }
         ]
       },
@@ -9650,6 +9682,18 @@
               {
                 "name": "Pipeline event notifications",
                 "file": "plugins/gitlab/subscriptions-and-notifications/MM-T4637.md"
+              },
+              {
+                "name": "Trigger a pipeline start",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5357.md"
+              },
+              {
+                "name": "Connecting via RHS",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5358.md"
+              },
+              {
+                "name": "RHS shows subscription data",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5359.md"
               }
             ]
           }
@@ -10262,6 +10306,20 @@
           { "name": "Slash command /jitsi settings update", "file": "plugins/jitsi/MM-T4838.md" },
           { "name": "Link expiry on Jitsi Server", "file": "plugins/jitsi/MM-T4839.md" },
           { "name": "Link expiry on Jitsi Cloud", "file": "plugins/jitsi/MM-T4840.md" }
+        ]
+      },
+      {
+        "name": "Matterpoll",
+        "routes": [
+          { "name": "Constructing a poll", "file": "plugins/matterpoll/MM-T5300.md" },
+          { "name": "Reading a poll", "file": "plugins/matterpoll/MM-T5301.md" },
+          { "name": "Construct a poll with an emoji", "file": "plugins/matterpoll/MM-T5302.md" },
+          { "name": "Construct a poll with flags", "file": "plugins/matterpoll/MM-T5303.md" },
+          { "name": "Reset button", "file": "plugins/matterpoll/MM-T5304.md" },
+          {
+            "name": "Allow empty string as third option in Modal",
+            "file": "plugins/matterpoll/MM-T5305.md"
+          }
         ]
       },
       {
@@ -11094,6 +11152,160 @@
           {
             "name": "No notification of the fields altered in the record that were not mentioned in the subscription.",
             "file": "plugins/service-now/MM-T5293.md"
+          },
+          {
+            "name": "SN phase2",
+            "routes": [
+              {
+                "name": "Filter icon in Right hand side bar of Mattermost",
+                "file": "plugins/service-now/sn-phase2/MM-T5319.md"
+              },
+              {
+                "name": "Filter options in RHS when clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5320.md"
+              },
+              {
+                "name": "Tooltip of filter icon",
+                "file": "plugins/service-now/sn-phase2/MM-T5321.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5322.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5323.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5324.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5325.md"
+              },
+              {
+                "name": "Reset button in popover for filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5326.md"
+              },
+              {
+                "name": "Close button in popover for filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5327.md"
+              },
+              {
+                "name": "Hiding the popover when the area outside popover is clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5328.md"
+              },
+              {
+                "name": "Reset button disabled for default filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5329.md"
+              },
+              { "name": "Selecting a filter", "file": "plugins/service-now/sn-phase2/MM-T5330.md" },
+              {
+                "name": "'/servicenow subscription list' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5331.md"
+              },
+              {
+                "name": "'/servicenow subscription list me' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5332.md"
+              },
+              {
+                "name": "'/servicenow subscription list anyone' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5333.md"
+              },
+              {
+                "name": "'/servicenow subscription list me all_channels' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5334.md"
+              },
+              {
+                "name": "'/servicenow subscription list anyone all_channels' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5335.md"
+              },
+              {
+                "name": "Share button in Right hand side bar of Mattermost server",
+                "file": "plugins/service-now/sn-phase2/MM-T5336.md"
+              },
+              {
+                "name": "Share options in RHS when clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5337.md"
+              },
+              {
+                "name": "Search and select the ServiceNow record for sharing",
+                "file": "plugins/service-now/sn-phase2/MM-T5338.md"
+              },
+              {
+                "name": "Sharing a ServiceNow record",
+                "file": "plugins/service-now/sn-phase2/MM-T5339.md"
+              },
+              {
+                "name": "Cancel option in share record modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5340.md"
+              },
+              {
+                "name": "'/servicenow share' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5341.md"
+              },
+              {
+                "name": "Show Update state button for a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5342.md"
+              },
+              {
+                "name": "Opening of update state modal without uploading the update set",
+                "file": "plugins/service-now/sn-phase2/MM-T5343.md"
+              },
+              {
+                "name": "Opening of update state modal with permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5344.md"
+              },
+              {
+                "name": "Opening of update state modal without permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5345.md"
+              },
+              {
+                "name": "Update button disabled until the state is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5346.md"
+              },
+              {
+                "name": "Updating state of a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5347.md"
+              },
+              {
+                "name": "Cancel option in update state modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5348.md"
+              },
+              {
+                "name": "Show 'Add and view comments' button of a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5349.md"
+              },
+              {
+                "name": "Opening of add and view comments modal with permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5350.md"
+              },
+              {
+                "name": "Opening of add and view comments modal without permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5351.md"
+              },
+              {
+                "name": "Show 'Submit' button in the comment modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5352.md"
+              },
+              {
+                "name": "Adding the comment on a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5353.md"
+              },
+              {
+                "name": "Cancel option in comments modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5354.md"
+              },
+              {
+                "name": "Adding Empty comment in the record",
+                "file": "plugins/service-now/sn-phase2/MM-T5355.md"
+              },
+              {
+                "name": "No comments present in the record",
+                "file": "plugins/service-now/sn-phase2/MM-T5356.md"
+              }
+            ]
           }
         ]
       },
@@ -11699,6 +11911,10 @@
                 "file": "suite/activity-and-insights/insights/MM-T4902.md"
               },
               {
+                "name": "My Insights license change",
+                "file": "suite/activity-and-insights/insights/MM-T5306.md"
+              },
+              {
                 "name": "My Insights",
                 "routes": [
                   {
@@ -12290,6 +12506,10 @@
           {
             "name": "System admin permission to modify Admin Filter",
             "file": "suite/ad-ldap/MM-T3720.md"
+          },
+          {
+            "name": "Allow admins to re-add a user to all of their default group-teams and channels",
+            "file": "suite/ad-ldap/MM-T5307.md"
           }
         ]
       },
@@ -13062,6 +13282,23 @@
               {
                 "name": "Check for Filter in Members block of Channel Configuration page",
                 "file": "suite/enterprise/team-and-channel/MM-T3146.md"
+              }
+            ]
+          },
+          {
+            "name": "User Groups",
+            "routes": [
+              {
+                "name": "Add max height and overflow to Multiselect",
+                "file": "suite/enterprise/user-groups/MM-T5308.md"
+              },
+              {
+                "name": "Verify popover for user groups",
+                "file": "suite/enterprise/user-groups/MM-T5309.md"
+              },
+              {
+                "name": "Allowing special characters in group name",
+                "file": "suite/enterprise/user-groups/MM-T5310.md"
               }
             ]
           }

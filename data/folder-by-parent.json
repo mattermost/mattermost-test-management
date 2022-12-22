@@ -224,6 +224,7 @@
       "Jira",
       "Jira V2",
       "Jitsi",
+      "Matterpoll",
       "Meme",
       "MS Teams Calling",
       "NPS Plugin",
@@ -282,6 +283,7 @@
   { "parent": "plugins/jira-v2/miscellaneous", "folders": ["Cloud", "Server"] },
   { "parent": "plugins/ms-teams-calling", "folders": ["Authentication", "General Functionality"] },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
+  { "parent": "plugins/service-now", "folders": ["SN phase2"] },
   {
     "parent": "plugins/zoom",
     "folders": ["General", "JWT", "oAuth Account-level app", "oAuth User-managed app"]
@@ -349,7 +351,8 @@
       "Channel Moderation Settings",
       "Group Mentions",
       "OpenId Connect",
-      "Team and Channel"
+      "Team and Channel",
+      "User Groups"
     ]
   },
   { "parent": "suite/enterprise/admin-roles", "folders": ["Sub Section"] },

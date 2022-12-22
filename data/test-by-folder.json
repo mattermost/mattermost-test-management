@@ -1728,7 +1728,17 @@
   },
   {
     "folder": "channels/sidebar",
-    "tests": ["RN apps: Sidebar - Selecting the same channel should close the sidebar"]
+    "tests": [
+      "RN apps: Sidebar - Selecting the same channel should close the sidebar",
+      "Should be able to open channel files, visit the system console and come back without issues",
+      "Should be able to open channel members, visit the system console and come back without issues",
+      "Should be able to open pinned posts, visit the system console and come back without issues",
+      "Should be able to open recent mentions, visit the system console and come back without issues",
+      "Should be able to open saved posts, visit the system console and come back without issues",
+      "Should be able to open search results, visit the system console and come back without issues",
+      "Should be able to open thread reply with CRT, visit the system console and come back without issues",
+      "Should be able to open thread reply, visit the system console and come back without issues"
+    ]
   },
   {
     "folder": "channels/team-settings",
@@ -3502,6 +3512,7 @@
       "Attempt to subscribe to private repo when the setting is disabled",
       "Close an issue event",
       "Close merge request",
+      "Connecting via RHS",
       "Create an issue event",
       "Create and view webhooks",
       "Delete Subscription",
@@ -3510,10 +3521,12 @@
       "Lock GitLab plugin to a specific group",
       "Merge request event",
       "Pipeline event notifications",
+      "RHS shows subscription data",
       "Subscribe to only one of the features for a private group",
       "Subscription events are aware of labels",
       "Subscriptions comment created event",
       "Tag creation event",
+      "Trigger a pipeline start",
       "Unsubscribe features do not deliver events",
       "Updatre subscription to include features"
     ]
@@ -3718,6 +3731,17 @@
       "Slash command /jitsi settings show",
       "Slash command /jitsi settings update",
       "When naming scheme is set to `ask` user is prompted"
+    ]
+  },
+  {
+    "folder": "plugins/matterpoll",
+    "tests": [
+      "Allow empty string as third option in Modal",
+      "Construct a poll with an emoji",
+      "Construct a poll with flags",
+      "Constructing a poll",
+      "Reading a poll",
+      "Reset button"
     ]
   },
   {
@@ -3943,6 +3967,49 @@
       "Working of the subscription modal against empty record name field",
       "Working of the subscription modal against the empty record type field.",
       "Working of the subscription modal against the empty subscription type field."
+    ]
+  },
+  {
+    "folder": "plugins/service-now/sn-phase2",
+    "tests": [
+      "'/servicenow share' slash command",
+      "'/servicenow subscription list anyone all_channels' slash command",
+      "'/servicenow subscription list anyone' slash command",
+      "'/servicenow subscription list me all_channels' slash command",
+      "'/servicenow subscription list me' slash command",
+      "'/servicenow subscription list' slash command",
+      "Adding Empty comment in the record",
+      "Adding the comment on a record",
+      "Cancel option in comments modal",
+      "Cancel option in share record modal",
+      "Cancel option in update state modal",
+      "Close button in popover for filters",
+      "Filter icon in Right hand side bar of Mattermost",
+      "Filter options in RHS when clicked",
+      "Hiding the popover when the area outside popover is clicked",
+      "No comments present in the record",
+      "Opening of add and view comments modal with permission",
+      "Opening of add and view comments modal without permission",
+      "Opening of update state modal with permission",
+      "Opening of update state modal without permission",
+      "Opening of update state modal without uploading the update set",
+      "Reset button disabled for default filters",
+      "Reset button in popover for filters",
+      "Search and select the ServiceNow record for sharing",
+      "Selecting a filter",
+      "Share button in Right hand side bar of Mattermost server",
+      "Share options in RHS when clicked",
+      "Sharing a ServiceNow record",
+      "Show 'Add and view comments' button of a record",
+      "Show 'Submit' button in the comment modal",
+      "Show Update state button for a record",
+      "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+      "Tooltip of filter icon",
+      "Update button disabled until the state is selected",
+      "Updating state of a record"
     ]
   },
   {
@@ -4186,7 +4253,10 @@
   { "folder": "suite/activity-and-insights", "tests": ["Insight - features intro"] },
   {
     "folder": "suite/activity-and-insights/insights",
-    "tests": ["Insights - available as last channel viewed when switching teams"]
+    "tests": [
+      "Insights - available as last channel viewed when switching teams",
+      "My Insights license change"
+    ]
   },
   {
     "folder": "suite/activity-and-insights/insights/day-range",
@@ -4242,6 +4312,7 @@
       "Adding first/last and nickname attributes back in and syncing returns user's first/last names from LDAP",
       "Adding users in and not-in group to team and channel via API  POST https://selenium.test.mattermost.com/api/v4/teams/{teamid}/members  POST https://selenium.test.mattermost.com/api/v4/channels/{channelid}/members",
       "All account creation methods disabled",
+      "Allow admins to re-add a user to all of their default group-teams and channels",
       "At-mentions: Setup",
       "Can display status of a team or channel, when group-constraint is disabled",
       "Can display status of a team or channel, whether group-constraint is enabled",
@@ -4628,6 +4699,14 @@
       "Search in Team Members Block",
       "Team Members Block for LDAP Group Synced Team",
       "Team Members Block in Team Configuration page"
+    ]
+  },
+  {
+    "folder": "suite/enterprise/user-groups",
+    "tests": [
+      "Add max height and overflow to Multiselect",
+      "Allowing special characters in group name",
+      "Verify popover for user groups"
     ]
   },
   {

@@ -22,15 +22,15 @@ export function testCaseToMarkdown(
 ) {
   const header = `${separator}
 # (Required) Ensure all values are filled up
-name: ${renderString(testCase.name)}
+name: ${renderString(testCase.name.replaceAll('"', '\''))}
 status: ${testCase.statusName}
 priority: ${testCase.priorityName}
 folder: ${testCase.folderName}
 authors: ${renderString(testCase.customFields.Authors)}
 team_ownership: ${renderArray(testCase.customFields['Team Ownership'])}
+priority_p1_to_p4: ${testCase.customFields['Priority P1 to P4']}
 
 # (Optional)
-priority_p1_to_p4: ${testCase.customFields['Priority P1 to P4']}
 location: ${testCase.customFields.Location}
 component: ${testCase.componentName}
 tags: ${renderArray(testCase.customFields.Tags)}

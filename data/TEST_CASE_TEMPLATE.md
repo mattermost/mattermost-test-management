@@ -7,9 +7,9 @@ folder: Change Folder Name
 authors: "@change_required"
 team_ownership: 
 - Change Team Name
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: null
 component: null
 tags: []
