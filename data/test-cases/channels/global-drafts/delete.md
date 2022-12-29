@@ -33,7 +33,7 @@ steps_hashed: null
 ---
 
 **Step 1**
-Draft can be delted
+Draft can be deleted
 
 1. Open Town Square on Team1
 
