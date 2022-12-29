@@ -3041,6 +3041,17 @@
     ]
   },
   {
+    "folder": "mobile-v2/invite-people",
+    "tests": [
+      "Should be able to send email invite",
+      "Should be able to send user invite",
+      "Should handle both sent and not sent invites",
+      "Should not be able to send user invite to user already in team",
+      "Should open the invite screen",
+      "Should show no results item in search list"
+    ]
+  },
+  {
     "folder": "mobile-v2/messaging",
     "tests": [
       "Mobile V2: Messaging - At-Mention",
