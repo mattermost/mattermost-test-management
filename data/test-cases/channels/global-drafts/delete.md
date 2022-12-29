@@ -62,6 +62,7 @@ Draft can be deleted
 - Draft can be deleted
 
 **Step 2**
+
 User can cancel draft deletion
 
 1. Open Town Square on Team1
