@@ -10,7 +10,7 @@ team_ownership:
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
-location: Cloud
+location: Self Hosted
 component: null
 tags: []
 labels: []
