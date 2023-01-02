@@ -58,11 +58,8 @@ Unsuccessful purchase. Due to payment failure.
 
 - The user should be able to see Failure screen in case payment fails
 - Navigate to Billing Screen,
-  - Verify billing details are displayed on the screen.
-  - Total Price of purchase should be displayed
-  - Payment staus should be 'failed' when successful purchase is made
-  - Date of purchase should be displayed
-  - Downloadable PDF link should be present
+  - Verify billing details are not displayed 
+Note: Since this is the first purchase that admin makes, billing screen will not have any data in case purchase failure 
 
 Email Veirfication
 
