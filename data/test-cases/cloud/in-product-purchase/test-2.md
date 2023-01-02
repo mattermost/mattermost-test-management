@@ -45,7 +45,5 @@ Test:
 
 - Follow steps in <test-1.md> to make a purchase.
 - Verify user is able to see Success screen to confirm the purchase.
-- Verify the Users count is updated
-  - User Total active user count is updated on System Console > Edition and License
-  - User Total active user count is updated on team stats page
-  - User Total active user count is updated on Site stats page
+- Go back to Channels
+- From Product switcher option verify user is now able to create User Groups (which is a professional license feature).

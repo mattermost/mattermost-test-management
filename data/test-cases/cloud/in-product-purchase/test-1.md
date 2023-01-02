@@ -39,7 +39,9 @@ steps_hashed: null
 Pre-requisites:
 
 - Have a workspace with test self-hosted currently on free plan.
-- Make sure the instance where feature is being tested had the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
+- Make sure the instance where feature is being tested has the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
+- Instance will also need CloudSettings.CWSURL and CloudSettings.CWSAPIURL.
+  hint: we can use cws-rfqa.test.mattermost.com
 
 Test:
 
@@ -50,6 +52,16 @@ Test:
 - Verify user is navigated to Purchase screen.
 - Verify the various inputs Card details, Organization name, billing adress details.
 - Verify on RHS, admin can enter 'Number of Users' and verify the calculation is displayed accordingly
+    - Verify User cannot make a purchase for users below exisitng Active users count in the system.
+    - Note: Number of users is always greater than or equal to exisitng users
 - Verify the 'Upgrade' is enabled after entering all valid details
 - Click on 'Upgrade' button and verify the purchase successfully goes through.
 - Verify on System Console > Edition and License, the 'Professional' plan is displayed.
+- Verify below fields are displayed with correct value
+
+    START DATE: <License start date>
+    EXPIRES: <License expiration date>
+    USERS: <Number of users license is valid for>
+    ACTIVE USERS: <Active users in the system>
+    EDITION: <License Edition Enterprise or Professional>
+    LICENSE ISSUED: <License issue date and time>

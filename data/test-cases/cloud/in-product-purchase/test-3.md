@@ -43,28 +43,28 @@ Pre-requisites:
 
 Test:
 
-Successfull purchase.
+successful purchase.
 
 - Follow steps in <test-1.md> to make a purchase.
 - Verify user is able to see Success screen to confirm the purchase.
 - Navigate to Billing Screen,
   - Verify billing details are displayed on the screen.
   - Total Price of purchase should be displayed
-  - Payment staus should be 'Paid' when successfull purchase is made
+  - Payment staus should be 'Paid' when successful purchase is made
   - Date of purchase should be displayed
   - Downloadable PDF link should be present
 
-Unsuccessfull purchase. Due to payment failure.
+Unsuccessful purchase. Due to payment failure.
 
 - The user should be able to see Failure screen in case payment fails
 - Navigate to Billing Screen,
   - Verify billing details are displayed on the screen.
   - Total Price of purchase should be displayed
-  - Payment staus should be 'failed' when successfull purchase is made
+  - Payment staus should be 'failed' when successful purchase is made
   - Date of purchase should be displayed
   - Downloadable PDF link should be present
 
 Email Veirfication
 
-- On successfull purchase, the admin should be recieving the email with invoice details.
+- On successful purchase, the admin should be recieving the email with invoice details.
 - Verify the price calculation and user seats displayed in the Email invoice should be same as see in Billing screen

@@ -54,4 +54,4 @@ On successfull purchase, in Stripe,
 On unsuccessfull purchase, due to payment issue, in Stripe,
 
 - Verify that the Charge is not created in users account.
-- Verify the user's subscription is not update to 'professional'
+- Verify the user's subscription is not updated to 'professional'
