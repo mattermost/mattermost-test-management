@@ -784,6 +784,7 @@
   {
     "folder": "channels/global-drafts",
     "tests": [
+      "Delete draft",
       "Global Drafts > Channel Drafts are scoped to current active team",
       "Global Drafts > Display DM & GM drafts across teams",
       "Global Drafts > Drafts section only displays on LHS if there are draft messages",
@@ -3038,6 +3039,17 @@
       "Mobile V2: Channels - Leave Channel",
       "Mobile V2: Channels - Mute and Unmute Channel",
       "Mobile V2: Channels - Unarchive Channel"
+    ]
+  },
+  {
+    "folder": "mobile-v2/invite-people",
+    "tests": [
+      "Should be able to send email invite",
+      "Should be able to send user invite",
+      "Should handle both sent and not sent invites",
+      "Should not be able to send user invite to user already in team",
+      "Should open the invite screen",
+      "Should show no results item in search list"
     ]
   },
   {

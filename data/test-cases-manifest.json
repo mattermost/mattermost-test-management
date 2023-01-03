@@ -2369,7 +2369,8 @@
             "file": "channels/global-drafts/MM-T4412.md"
           },
           { "name": "Global Drafts > Edit draft", "file": "channels/global-drafts/MM-T4413.md" },
-          { "name": "Global Drafts > Send draft", "file": "channels/global-drafts/MM-T4414.md" }
+          { "name": "Global Drafts > Send draft", "file": "channels/global-drafts/MM-T4414.md" },
+          { "name": "Delete draft", "file": "channels/global-drafts/MM-T5366.md" }
         ]
       },
       {
@@ -5197,12 +5198,18 @@
                 "name": "Display Language: Pусский",
                 "file": "channels/settings/display/MM-T2110.md"
               },
-              { "name": "Display Language: 한국어", "file": "channels/settings/display/MM-T2111.md" },
+              {
+                "name": "Display Language: 한국어",
+                "file": "channels/settings/display/MM-T2111.md"
+              },
               {
                 "name": "Display Language: 中文 (繁體)",
                 "file": "channels/settings/display/MM-T2112.md"
               },
-              { "name": "Display Language: 日本語", "file": "channels/settings/display/MM-T2113.md" },
+              {
+                "name": "Display Language: 日本語",
+                "file": "channels/settings/display/MM-T2113.md"
+              },
               {
                 "name": "Display Language: English",
                 "file": "channels/settings/display/MM-T2114.md"
@@ -8574,6 +8581,35 @@
           {
             "name": "Mobile V2: Channels - Convert to Private Channel",
             "file": "mobile-v2/channels/MM-T4972.md"
+          }
+        ]
+      },
+      {
+        "name": "Invite People",
+        "routes": [
+          {
+            "name": "Should open the invite screen",
+            "file": "mobile-v2/invite-people/MM-T5360.md"
+          },
+          {
+            "name": "Should show no results item in search list",
+            "file": "mobile-v2/invite-people/MM-T5361.md"
+          },
+          {
+            "name": "Should be able to send email invite",
+            "file": "mobile-v2/invite-people/MM-T5362.md"
+          },
+          {
+            "name": "Should be able to send user invite",
+            "file": "mobile-v2/invite-people/MM-T5363.md"
+          },
+          {
+            "name": "Should not be able to send user invite to user already in team",
+            "file": "mobile-v2/invite-people/MM-T5364.md"
+          },
+          {
+            "name": "Should handle both sent and not sent invites",
+            "file": "mobile-v2/invite-people/MM-T5365.md"
           }
         ]
       },
