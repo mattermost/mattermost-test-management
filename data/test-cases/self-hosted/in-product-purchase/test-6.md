@@ -48,4 +48,4 @@ Test:
 - Navigate to System Console > Edition and License and verify there are no license existing.
 - Click "View plans", verify pricing modal is displayed.
 - Click the "Upgrade" button for the professional plan.
-- Verify a modal is show to user with message as following, "It appears that your instance is air-gapped, or it may not be connected to the internet. To purchase a license, please visit https://customers.mattermost.com/signup."
+- Verify a modal is shown to the user with message as following, "It appears that your instance is air-gapped, or it may not be connected to the internet. To purchase a license, please visit https://customers.mattermost.com/signup."

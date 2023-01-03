@@ -55,6 +55,6 @@ On successfull purchase, in Stripe,
 On unsuccessfull purchase, due to payment issue, in Stripe,
 (manual)
 
-- Verify if User is created in stripe account.
-- Verify if the newly created user had been charged. (Ideally, in unsuccessful scenario the subscription will not be created)
-- Verify Billings page is not displayed to user.
+- Verify if the User is created in stripe account.
+- Verify if the newly created user has been charged. (Ideally, in unsuccessful scenario the subscription will not be created)
+- Verify Billings page is not displayed to the user.
