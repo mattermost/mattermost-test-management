@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Self-Hosted | Verify License change is propagated throughout application"
+name: "Self-Hosted| Air Gapped Instances | Verify admin should not see purchase modal"
 status: Active
 priority: Normal
 folder: In product purchase
@@ -34,18 +34,18 @@ steps_hashed: null
 
 **Step 1**
 
-<https://mattermost.atlassian.net/browse/MM-47424>
+<https://mattermost.atlassian.net/browse/MM-47860>
 
 Pre-requisites:
 
 - Have a workspace with test self-hosted currently on free plan.
 - Make sure the instance where feature is being tested had the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
-- Instance will also need CloudSettings.CWSURL and CloudSettings.CWSAPIURL.
-  hint: we can use cws-rfqa.test.mattermost.com
+  Note: AIR gapped instances will (or might) not have access to internet.
 
 Test:
 
-- Follow steps in <test-1.md> to make a purchase.
-- Verify user is able to see Success screen to confirm the purchase.
-- Go back to Channels
-- From Product switcher option verify user is now able to create User Groups (which is a professional license feature).
+- Log into workspace with admin credentials.
+- Navigate to System Console > Edition and License and verify there are no license existing.
+- Click "View plans", verify pricing modal is displayed.
+- Click the "Upgrade" button for the professional plan.
+- Verify a modal is show to user with message as following, "It appears that your instance is air-gapped, or it may not be connected to the internet. To purchase a license, please visit https://customers.mattermost.com/signup."

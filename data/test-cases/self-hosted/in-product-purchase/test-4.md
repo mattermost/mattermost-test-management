@@ -47,11 +47,14 @@ Test:
 - Verify user is able to see Success screen to confirm the purchase.
 
 On successfull purchase, in Stripe,
+(manual)
 
-- Verify the subscription details is updated under the customer's account
+- Verify that user is created with subscription and payment details is updated under the customer's account
 - Verify pricing details and successfull purchase on Card is registered
 
 On unsuccessfull purchase, due to payment issue, in Stripe,
 (manual)
-- Verify if User is created in stripe account. 
-- Verify the user's subscription is not updated to 'professional'
+
+- Verify if User is created in stripe account.
+- Verify if the newly created user had been charged. (Ideally, in unsuccessful scenario the subscription will not be created)
+- Verify Billings page is not displayed to user.

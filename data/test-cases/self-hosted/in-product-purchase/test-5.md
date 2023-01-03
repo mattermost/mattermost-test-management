@@ -49,4 +49,4 @@ Test:
 - Navigate to System Console > Edition and License and verify the license details.
 - From the purchase confirmation Email admin recieves, download the license.
 - Navigate to System Console > Edition and upload the license. (Remove the existing license)
-- Verify the License upload is successful and changes are reflected throughout app. 
+- Verify the License upload is successful and changes are reflected throughout app.
