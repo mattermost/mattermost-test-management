@@ -40,6 +40,8 @@ Pre-requisites:
 
 - Have a workspace with test self-hosted currently on free plan.
 - Make sure the instance where feature is being tested had the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
+- Instance will also need CloudSettings.CWSURL and CloudSettings.CWSAPIURL.
+  hint: we can use cws-rfqa.test.mattermost.com
 
 Test:
 
@@ -53,6 +55,7 @@ successful purchase.
   - Payment staus should be 'Paid' when successful purchase is made
   - Date of purchase should be displayed
   - Downloadable PDF link should be present
+  - Verify the details of purchase like Users, Price are same as what we see in 'Edition and License' screen.
 
 Unsuccessful purchase. Due to payment failure.
 

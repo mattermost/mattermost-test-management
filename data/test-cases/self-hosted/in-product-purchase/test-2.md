@@ -40,7 +40,9 @@ Pre-requisites:
 
 - Have a workspace with test self-hosted currently on free plan.
 - Make sure the instance where feature is being tested had the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
-
+- Instance will also need CloudSettings.CWSURL and CloudSettings.CWSAPIURL.
+  hint: we can use cws-rfqa.test.mattermost.com
+  
 Test:
 
 - Follow steps in <test-1.md> to make a purchase.
