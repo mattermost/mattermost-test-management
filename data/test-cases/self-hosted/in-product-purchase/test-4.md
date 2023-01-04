@@ -46,13 +46,13 @@ Test:
 - Follow steps in <test-1.md> to make a purchase.
 - Verify user is able to see Success screen to confirm the purchase.
 
-On successfull purchase, in Stripe,
+On successful purchase, in Stripe,
 (manual)
 
 - Verify that user is created with subscription and payment details is updated under the customer's account
-- Verify pricing details and successfull purchase on Card is registered
+- Verify pricing details and successful purchase on Card is registered
 
-On unsuccessfull purchase, due to payment issue, in Stripe,
+On unsuccessful purchase, due to payment issue, in Stripe,
 (manual)
 
 - Verify if the User is created in stripe account.

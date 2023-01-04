@@ -52,8 +52,8 @@ Test:
 - Verify user is navigated to Purchase screen.
 - Verify the various inputs Card details, Organization name, billing adress details.
 - Verify on RHS, admin can enter 'Number of Users' and verify the calculation is displayed accordingly
-  - Verify User cannot make a purchase for users below exisitng Active users count in the system.
-  - Note: Number of users is always greater than or equal to exisitng users
+  - Verify User cannot make a purchase for users below existing Active users count in the system.
+  - Note: Number of users is always greater than or equal to existing users
 - Verify the 'Upgrade' is enabled after entering all valid details
 - Click on 'Upgrade' button and verify the purchase successfully goes through.
 - Verify on System Console > Edition and License, the 'Professional' plan is displayed.
@@ -65,3 +65,4 @@ Test:
   ACTIVE USERS: <Active users in the system>
   EDITION: <License Edition Enterprise or Professional>
   LICENSE ISSUED: <License issue date and time>
+  COMPANY / ORG: <Organisation Name>

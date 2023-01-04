@@ -42,6 +42,11 @@ Pre-requisites:
 - Make sure the instance where feature is being tested had the feature flag 'ServiceSettings.SelfHostedPurchase' enabled
   Note: AIR gapped instances will (or might) not have access to internet.
 
+Test success criteria:
+
+- Air gapped instances should not be able to successfully contact CWS.
+- Air gapped instances should not load Stripe javascript file needed for doing signup.
+
 Test:
 
 - Log into workspace with admin credentials.
