@@ -4147,6 +4147,17 @@
     ]
   },
   {
+    "folder": "self-hosted/in-product-purchase",
+    "tests": [
+      "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
+      "Self-Hosted | Billing screen is updated with purchase info",
+      "Self-Hosted | Manually apply license after successful in-product purchase",
+      "Self-Hosted | Purchase license using existing admin account",
+      "Self-Hosted | Verify License change is propagated throughout application",
+      "Self-Hosted | Verify Stripe subscription is updated"
+    ]
+  },
+  {
     "folder": "smoke-tests/webapp",
     "tests": [
       "(at) here rec'd when online",

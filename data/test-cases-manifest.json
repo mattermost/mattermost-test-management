@@ -11619,6 +11619,41 @@
     ]
   },
   {
+    "name": "Self-Hosted",
+    "heading": true,
+    "routes": [
+      {
+        "name": "In product purchase",
+        "routes": [
+          {
+            "name": "Self-Hosted | Purchase license using existing admin account",
+            "file": "self-hosted/in-product-purchase/MM-T5367.md"
+          },
+          {
+            "name": "Self-Hosted | Verify License change is propagated throughout application",
+            "file": "self-hosted/in-product-purchase/MM-T5368.md"
+          },
+          {
+            "name": "Self-Hosted | Billing screen is updated with purchase info",
+            "file": "self-hosted/in-product-purchase/MM-T5369.md"
+          },
+          {
+            "name": "Self-Hosted | Verify Stripe subscription is updated",
+            "file": "self-hosted/in-product-purchase/MM-T5370.md"
+          },
+          {
+            "name": "Self-Hosted | Manually apply license after successful in-product purchase",
+            "file": "self-hosted/in-product-purchase/MM-T5371.md"
+          },
+          {
+            "name": "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
+            "file": "self-hosted/in-product-purchase/MM-T5372.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Smoke Tests",
     "heading": true,
     "routes": [
