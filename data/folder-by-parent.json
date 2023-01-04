@@ -298,14 +298,6 @@
       "Channels",
       "Cloud",
       "Desktop App (native-specific)",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
-      "In product purchase",
       "Integrations",
       "mmctl",
       "Mobile App (native-specific)",
@@ -313,11 +305,13 @@
       "Omnibus",
       "Playbooks",
       "Plugins",
+      "Self-Hosted",
       "Smoke Tests",
       "Suite",
       "Ticket coverage"
     ]
   },
+  { "parent": "self-hosted", "folders": ["In product purchase"] },
   { "parent": "smoke-tests", "folders": ["WebApp"] },
   {
     "parent": "suite",
