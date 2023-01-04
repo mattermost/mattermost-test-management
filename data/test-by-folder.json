@@ -784,6 +784,7 @@
   {
     "folder": "channels/global-drafts",
     "tests": [
+      "Delete draft",
       "Global Drafts > Channel Drafts are scoped to current active team",
       "Global Drafts > Display DM & GM drafts across teams",
       "Global Drafts > Drafts section only displays on LHS if there are draft messages",
@@ -3041,6 +3042,17 @@
     ]
   },
   {
+    "folder": "mobile-v2/invite-people",
+    "tests": [
+      "Should be able to send email invite",
+      "Should be able to send user invite",
+      "Should handle both sent and not sent invites",
+      "Should not be able to send user invite to user already in team",
+      "Should open the invite screen",
+      "Should show no results item in search list"
+    ]
+  },
+  {
     "folder": "mobile-v2/messaging",
     "tests": [
       "Mobile V2: Messaging - At-Mention",
@@ -3512,6 +3524,7 @@
       "Attempt to subscribe to private repo when the setting is disabled",
       "Close an issue event",
       "Close merge request",
+      "Connecting via RHS",
       "Create an issue event",
       "Create and view webhooks",
       "Delete Subscription",
@@ -3520,10 +3533,12 @@
       "Lock GitLab plugin to a specific group",
       "Merge request event",
       "Pipeline event notifications",
+      "RHS shows subscription data",
       "Subscribe to only one of the features for a private group",
       "Subscription events are aware of labels",
       "Subscriptions comment created event",
       "Tag creation event",
+      "Trigger a pipeline start",
       "Unsubscribe features do not deliver events",
       "Updatre subscription to include features"
     ]
@@ -3964,6 +3979,49 @@
       "Working of the subscription modal against empty record name field",
       "Working of the subscription modal against the empty record type field.",
       "Working of the subscription modal against the empty subscription type field."
+    ]
+  },
+  {
+    "folder": "plugins/service-now/sn-phase2",
+    "tests": [
+      "'/servicenow share' slash command",
+      "'/servicenow subscription list anyone all_channels' slash command",
+      "'/servicenow subscription list anyone' slash command",
+      "'/servicenow subscription list me all_channels' slash command",
+      "'/servicenow subscription list me' slash command",
+      "'/servicenow subscription list' slash command",
+      "Adding Empty comment in the record",
+      "Adding the comment on a record",
+      "Cancel option in comments modal",
+      "Cancel option in share record modal",
+      "Cancel option in update state modal",
+      "Close button in popover for filters",
+      "Filter icon in Right hand side bar of Mattermost",
+      "Filter options in RHS when clicked",
+      "Hiding the popover when the area outside popover is clicked",
+      "No comments present in the record",
+      "Opening of add and view comments modal with permission",
+      "Opening of add and view comments modal without permission",
+      "Opening of update state modal with permission",
+      "Opening of update state modal without permission",
+      "Opening of update state modal without uploading the update set",
+      "Reset button disabled for default filters",
+      "Reset button in popover for filters",
+      "Search and select the ServiceNow record for sharing",
+      "Selecting a filter",
+      "Share button in Right hand side bar of Mattermost server",
+      "Share options in RHS when clicked",
+      "Sharing a ServiceNow record",
+      "Show 'Add and view comments' button of a record",
+      "Show 'Submit' button in the comment modal",
+      "Show Update state button for a record",
+      "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+      "Tooltip of filter icon",
+      "Update button disabled until the state is selected",
+      "Updating state of a record"
     ]
   },
   {

@@ -22,7 +22,7 @@ export function testCaseToMarkdown(
 ) {
   const header = `${separator}
 # (Required) Ensure all values are filled up
-name: ${renderString(testCase.name)}
+name: ${renderString(testCase.name.replaceAll('"', '\''))}
 status: ${testCase.statusName}
 priority: ${testCase.priorityName}
 folder: ${testCase.folderName}
