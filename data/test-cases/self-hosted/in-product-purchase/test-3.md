@@ -52,7 +52,7 @@ successful purchase.
 - Navigate to Billing Screen,
   - Verify billing details are displayed on the screen.
   - Total Price of purchase should be displayed
-  - Payment staus should be 'Paid' when successful purchase is made
+  - Payment status should be 'Paid' when successful purchase is made
   - Date of purchase should be displayed
   - Downloadable PDF link should be present
   - Verify the details of purchase like Users, Price are same as what we see in 'Edition and License' screen.

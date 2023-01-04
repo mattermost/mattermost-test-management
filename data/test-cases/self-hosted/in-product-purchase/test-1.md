@@ -50,7 +50,7 @@ Test:
 - Click on 'View Plans' button.
 - Click on 'Upgrade' button to purchase 'Professional' plan.
 - Verify user is navigated to Purchase screen.
-- Verify the various inputs Card details, Organization name, billing adress details.
+- Verify the various inputs Card details, Organization name, billing address details.
 - Verify on RHS, admin can enter 'Number of Users' and verify the calculation is displayed accordingly
   - Verify User cannot make a purchase for users below existing Active users count in the system.
   - Note: Number of users is always greater than or equal to existing users

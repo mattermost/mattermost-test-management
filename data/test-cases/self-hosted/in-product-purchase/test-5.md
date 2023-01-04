@@ -47,6 +47,6 @@ Test:
 
 - Follow steps in <test-1.md> to make a purchase.
 - Navigate to System Console > Edition and License and verify the license details.
-- From the purchase confirmation Email admin recieves, download the license.
+- From the purchase confirmation Email admin receives, download the license.
 - Navigate to System Console > Edition and upload the license. (Remove the existing license)
 - Verify the License upload is successful and changes are reflected throughout the app.

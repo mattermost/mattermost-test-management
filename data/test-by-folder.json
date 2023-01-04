@@ -342,8 +342,8 @@
       "Add User — Public ON / Private OFF",
       "Add User — System Admin only",
       "Add User — Team admins (Private only)",
-      "Add User — UserA & UserB (not on team)",
-      "Add User — UserA & UserB (removed from team)",
+      "Add User — User A & UserB (removed from team)",
+      "Add User — users & UserB (not on team)",
       "Add user — Error if already in channel"
     ]
   },
@@ -1049,8 +1049,8 @@
       "Add GM",
       "Added to channel by other user from at-mention (not in channel)",
       "Admin users see proper error message when trying to follow a permalink to a DM between 2 other users",
-      "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
       "An ellipsis indicates the channel header is too long - DM",
+      "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
       "At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment",
       "At-mention: Not in channel (center), have permission to add (public channel)",
       "Autocomplete highlight should follow mouse hover",
@@ -4144,6 +4144,17 @@
       "Launch a meeting by mapping to Zoom App using oAuth",
       "Unmapped user is shown connection link if they try starting a meeting",
       "Zoom includes password in launch link"
+    ]
+  },
+  {
+    "folder": "self-hosted/in-product-purchase",
+    "tests": [
+      "Self-Hosted | Billing screen is updated with purchase info",
+      "Self-Hosted | Manually apply license after successful in-product purchase",
+      "Self-Hosted | Purchase license using existing admin account",
+      "Self-Hosted | Verify License change is propagated throughout application",
+      "Self-Hosted | Verify Stripe subscription is updated",
+      "Self-Hosted| Air Gapped Instances | Verify admin should not see purchase modal"
     ]
   },
   {
