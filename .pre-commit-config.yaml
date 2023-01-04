@@ -1,21 +1,4 @@
-# repos:
-# -   repo: https://github.com/pre-commit/pre-commit-hooks
-#     rev: v2.3.0
-#     hooks:
-#     -   id: check-merge-conflict # prevent committing files with merge conflicts
-# -   repo: https://github.com/codespell-project/codespell
-#     rev: v2.1.0
-#     hooks:
-#     -   id: codespell
-#         args: [--ignore-words=.codespellignore]
-
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
-    hooks:
-    -   id: check-yaml
-    -   id: end-of-file-fixer
-    -   id: trailing-whitespace
 -   repo: https://github.com/psf/black
     rev: 21.12b0
     hooks:
