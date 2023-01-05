@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "An elipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header"
+name: "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header"
 status: Active
 priority: Low
 folder: Messaging
@@ -31,20 +31,20 @@ manual_test_environments:
 id: 3741719
 key: MM-T88
 created_on: "2019-12-20T16:32:59Z"
-last_updated: "2022-09-09T17:58:20Z"
-case_hashed: afe77a2024ef5d549b5954871e0a73094414fb61c232363d60da6c197edd3f51bbba6056ac2c87a7aa5f75f3342e5501
-steps_hashed: 1e74fa216a08f2fcc9dc4d4849dff3ae711f7ef9a5265059ac2fab035796ae5382014416da80c0dab68b229566b38119
+last_updated: "2023-01-05T20:36:04Z"
+case_hashed: 9e8757e889151ff05aca6ee491b03806b387a92da8f74602700e6c0fa55a6e3a37e8b195900620fd26a2f9a3124de721
+steps_hashed: 32aff66fba80f8c863504f91c5b357fdf676bed59199822b8450922673ca15993bd607bf3c0029ac21ad5d3afb51df2f
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T88: An elipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
+## MM-T88: An ellipsis indicates the channel header is too long - public or private channel Quote icon displays at beginning of channel header
 
 ---
 
 **Step 1**
 
-An elipsis indicates the channel header is too long - public or private channel\
+An ellipsis indicates the channel header is too long - public or private channel\
 \
 Quote icon displays at beginning of channel header\
 \--------------------\
@@ -62,6 +62,6 @@ newheader newheader newheader newheader newheader newheader newheader newheader 
 
 **Expected**
 
-After 3) you should see the quotation marks displaying in the channel header, and elipses (...) indicating the header is too long to fit across the top of the screen.\
+After 3) you should see the quotation marks displaying in the channel header, and ellipses (...) indicating the header is too long to fit across the top of the screen.\
 \
 Clicking on the channel header should still display it in its entirety.
