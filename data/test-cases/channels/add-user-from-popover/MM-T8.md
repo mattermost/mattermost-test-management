@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership:
+team_ownership: 
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Add user to channel from popover
 component: null
 tags: []
-labels:
+labels: 
 - cy-prod
 - fix-versions-not-empty-2022cleanup
 
@@ -22,17 +22,17 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest:
+rainforest: 
 - N/A
-manual_test_environments:
+manual_test_environments: 
 - Automated - No manual tests needed
 
 # Do not change
 id: 2746257
 key: MM-T8
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-10T10:54:33Z"
-case_hashed: e9120e1b7b1605014c33e4398a65660e2d9807cc21bf13f58db8b3e95b1c3d944e6b3a549edc61b3f51892dc3899bad0
+last_updated: "2023-01-05T20:36:02Z"
+case_hashed: 91d57b9fdf52b04eb839ff9c6a18e7b27f8336fe0452962a993499115a101fb7c161f8942349e71c7ac9a3a194aae904
 steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---
 
