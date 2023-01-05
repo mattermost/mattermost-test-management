@@ -40,10 +40,10 @@ steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515c
 
 **Step 1**
 
-1. Find a channel with no messages that day. Call it ChannelA
-2. Switch away from ChannelA
-3. Use a secondary account to post enough messages in ChannelA that it fills up your screen
-4. Use a primary account to view ChannelA
+1. Find a channel with no messages that day. Call it Channel A
+2. Switch away from Channel A
+3. Use a secondary account to post enough messages in Channel A that it fills up your screen
+4. Use a primary account to view Channel A
 
 **Test Data**
 

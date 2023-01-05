@@ -74,5 +74,10 @@ There are three ways to get started in contributing to this project.
 6. Create a branch and submit changes as a pull request(s).
     > *Note*: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
 
+## pre-commit hook
+1. GitHub Actions runs [codespell](https://github.com/codespell-project/codespell) over your `data/` folder and will point out any common spelling mistakes in the Pull Request.
+2. Locally there is .pre-commit-config.yml. You can configure as explained here, [precommit](https://pre-commit.com/)
+3. If you want to skip precommit locally, export PRE_COMMIT_ALLOW_NO_CONFIG=1, before running git commit.
+
 ## License
 Licensed under Apache License 2.0. Read the full text [here](https://github.com/mattermost/mattermost-test-management/blob/main/LICENSE).
