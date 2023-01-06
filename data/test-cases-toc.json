@@ -1145,7 +1145,7 @@
     "slug": "plugins/meme/mm-t5137"
   },
   "plugins/meme/mm-t5138": {
-    "name": "Test every new meme added since last relese",
+    "name": "Test every new meme added since last release",
     "slug": "plugins/meme/mm-t5138"
   },
   "plugins/meme/mm-t5134": {
@@ -1153,7 +1153,7 @@
     "slug": "plugins/meme/mm-t5134"
   },
   "plugins/meme/mm-t5135": {
-    "name": "Post a meme with mutiple strings of text",
+    "name": "Post a meme with multiple strings of text",
     "slug": "plugins/meme/mm-t5135"
   },
   "plugins/gitlab/sidebar/mm-t4603": {
@@ -1193,7 +1193,7 @@
     "slug": "plugins/gitlab/slash-commands-and-setup/mm-t4557"
   },
   "plugins/gitlab/slash-commands-and-setup/mm-t4553": {
-    "name": "Install the pluign and create an oAuth application in GitLab",
+    "name": "Install the plugin and create an oAuth application in GitLab",
     "slug": "plugins/gitlab/slash-commands-and-setup/mm-t4553"
   },
   "plugins/gitlab/slash-commands-and-setup/mm-t4556": {
@@ -1276,9 +1276,21 @@
     "name": "Subscriptions comment created event",
     "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t4589"
   },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5359": {
+    "name": "RHS shows subscription data",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5359"
+  },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5358": {
+    "name": "Connecting via RHS",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5358"
+  },
   "plugins/gitlab/subscriptions-and-notifications/mm-t4590": {
     "name": "Subscription events are aware of labels",
     "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t4590"
+  },
+  "plugins/gitlab/subscriptions-and-notifications/mm-t5357": {
+    "name": "Trigger a pipeline start",
+    "slug": "plugins/gitlab/subscriptions-and-notifications/mm-t5357"
   },
   "plugins/gitlab/subscriptions-and-notifications/mm-t4594": {
     "name": "Delete Subscription",
@@ -1318,7 +1330,7 @@
     "slug": "plugins/jitsi/mm-t4840"
   },
   "plugins/jitsi/mm-t4825": {
-    "name": "Create a meeting Mattermost context specific names in public or provate channel",
+    "name": "Create a meeting Mattermost context specific names in public or private channel",
     "slug": "plugins/jitsi/mm-t4825"
   },
   "plugins/jitsi/mm-t4835": {
@@ -1491,7 +1503,7 @@
     "slug": "plugins/jira-v2/miscellaneous/cloud/mm-t2476"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t4500": {
-    "name": "/jira disconnect when no intance is installed",
+    "name": "/jira disconnect when no instance is installed",
     "slug": "plugins/jira-v2/jira-server/general-slash-commands/mm-t4500"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t2486": {
@@ -1499,15 +1511,15 @@
     "slug": "plugins/jira-v2/jira-server/general-slash-commands/mm-t2486"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t4501": {
-    "name": "/jira uninstall when no intance is installed",
+    "name": "/jira uninstall when no instance is installed",
     "slug": "plugins/jira-v2/jira-server/general-slash-commands/mm-t4501"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t4499": {
-    "name": "/jira connect when no intance is installed",
+    "name": "/jira connect when no instance is installed",
     "slug": "plugins/jira-v2/jira-server/general-slash-commands/mm-t4499"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t4502": {
-    "name": "/jira help when no intance is installed",
+    "name": "/jira help when no instance is installed",
     "slug": "plugins/jira-v2/jira-server/general-slash-commands/mm-t4502"
   },
   "plugins/jira-v2/jira-server/general-slash-commands/mm-t2480": {
@@ -1835,7 +1847,7 @@
     "slug": "plugins/custom-attributes/mm-t3560"
   },
   "plugins/custom-attributes/mm-t3570": {
-    "name": "Indivual user can be added to a group",
+    "name": "Individual user can be added to a group",
     "slug": "plugins/custom-attributes/mm-t3570"
   },
   "plugins/custom-attributes/mm-t3561": {
@@ -1859,7 +1871,7 @@
     "slug": "plugins/custom-attributes/mm-t3567"
   },
   "plugins/custom-attributes/mm-t3563": {
-    "name": "LDAP grous can be passed in instaed of user id",
+    "name": "LDAP grous can be passed in instead of user id",
     "slug": "plugins/custom-attributes/mm-t3563"
   },
   "plugins/custom-attributes/mm-t3568": {
@@ -1990,6 +2002,158 @@
   "plugins/service-now/mm-t5265": {
     "name": "Subscription editing against the empty channel field.",
     "slug": "plugins/service-now/mm-t5265"
+  },
+  "plugins/service-now/sn-phase2/mm-t5334": {
+    "name": "'/servicenow subscription list me all_channels' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5334"
+  },
+  "plugins/service-now/sn-phase2/mm-t5351": {
+    "name": "Opening of add and view comments modal without permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5351"
+  },
+  "plugins/service-now/sn-phase2/mm-t5341": {
+    "name": "'/servicenow share' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5341"
+  },
+  "plugins/service-now/sn-phase2/mm-t5324": {
+    "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5324"
+  },
+  "plugins/service-now/sn-phase2/mm-t5355": {
+    "name": "Adding Empty comment in the record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5355"
+  },
+  "plugins/service-now/sn-phase2/mm-t5330": {
+    "name": "Selecting a filter",
+    "slug": "plugins/service-now/sn-phase2/mm-t5330"
+  },
+  "plugins/service-now/sn-phase2/mm-t5320": {
+    "name": "Filter options in RHS when clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5320"
+  },
+  "plugins/service-now/sn-phase2/mm-t5345": {
+    "name": "Opening of update state modal without permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5345"
+  },
+  "plugins/service-now/sn-phase2/mm-t5354": {
+    "name": "Cancel option in comments modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5354"
+  },
+  "plugins/service-now/sn-phase2/mm-t5331": {
+    "name": "'/servicenow subscription list' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5331"
+  },
+  "plugins/service-now/sn-phase2/mm-t5321": {
+    "name": "Tooltip of filter icon",
+    "slug": "plugins/service-now/sn-phase2/mm-t5321"
+  },
+  "plugins/service-now/sn-phase2/mm-t5344": {
+    "name": "Opening of update state modal with permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5344"
+  },
+  "plugins/service-now/sn-phase2/mm-t5335": {
+    "name": "'/servicenow subscription list anyone all_channels' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5335"
+  },
+  "plugins/service-now/sn-phase2/mm-t5350": {
+    "name": "Opening of add and view comments modal with permission",
+    "slug": "plugins/service-now/sn-phase2/mm-t5350"
+  },
+  "plugins/service-now/sn-phase2/mm-t5340": {
+    "name": "Cancel option in share record modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5340"
+  },
+  "plugins/service-now/sn-phase2/mm-t5325": {
+    "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5325"
+  },
+  "plugins/service-now/sn-phase2/mm-t5338": {
+    "name": "Search and select the ServiceNow record for sharing",
+    "slug": "plugins/service-now/sn-phase2/mm-t5338"
+  },
+  "plugins/service-now/sn-phase2/mm-t5328": {
+    "name": "Hiding the popover when the area outside popover is clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5328"
+  },
+  "plugins/service-now/sn-phase2/mm-t5349": {
+    "name": "Show 'Add and view comments' button of a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5349"
+  },
+  "plugins/service-now/sn-phase2/mm-t5348": {
+    "name": "Cancel option in update state modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5348"
+  },
+  "plugins/service-now/sn-phase2/mm-t5319": {
+    "name": "Filter icon in Right hand side bar of Mattermost",
+    "slug": "plugins/service-now/sn-phase2/mm-t5319"
+  },
+  "plugins/service-now/sn-phase2/mm-t5339": {
+    "name": "Sharing a ServiceNow record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5339"
+  },
+  "plugins/service-now/sn-phase2/mm-t5329": {
+    "name": "Reset button disabled for default filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5329"
+  },
+  "plugins/service-now/sn-phase2/mm-t5332": {
+    "name": "'/servicenow subscription list me' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5332"
+  },
+  "plugins/service-now/sn-phase2/mm-t5322": {
+    "name": "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5322"
+  },
+  "plugins/service-now/sn-phase2/mm-t5347": {
+    "name": "Updating state of a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5347"
+  },
+  "plugins/service-now/sn-phase2/mm-t5336": {
+    "name": "Share button in Right hand side bar of Mattermost server",
+    "slug": "plugins/service-now/sn-phase2/mm-t5336"
+  },
+  "plugins/service-now/sn-phase2/mm-t5353": {
+    "name": "Adding the comment on a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5353"
+  },
+  "plugins/service-now/sn-phase2/mm-t5343": {
+    "name": "Opening of update state modal without uploading the update set",
+    "slug": "plugins/service-now/sn-phase2/mm-t5343"
+  },
+  "plugins/service-now/sn-phase2/mm-t5326": {
+    "name": "Reset button in popover for filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5326"
+  },
+  "plugins/service-now/sn-phase2/mm-t5337": {
+    "name": "Share options in RHS when clicked",
+    "slug": "plugins/service-now/sn-phase2/mm-t5337"
+  },
+  "plugins/service-now/sn-phase2/mm-t5352": {
+    "name": "Show 'Submit' button in the comment modal",
+    "slug": "plugins/service-now/sn-phase2/mm-t5352"
+  },
+  "plugins/service-now/sn-phase2/mm-t5342": {
+    "name": "Show Update state button for a record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5342"
+  },
+  "plugins/service-now/sn-phase2/mm-t5327": {
+    "name": "Close button in popover for filters",
+    "slug": "plugins/service-now/sn-phase2/mm-t5327"
+  },
+  "plugins/service-now/sn-phase2/mm-t5356": {
+    "name": "No comments present in the record",
+    "slug": "plugins/service-now/sn-phase2/mm-t5356"
+  },
+  "plugins/service-now/sn-phase2/mm-t5333": {
+    "name": "'/servicenow subscription list anyone' slash command",
+    "slug": "plugins/service-now/sn-phase2/mm-t5333"
+  },
+  "plugins/service-now/sn-phase2/mm-t5323": {
+    "name": "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5323"
+  },
+  "plugins/service-now/sn-phase2/mm-t5346": {
+    "name": "Update button disabled until the state is selected",
+    "slug": "plugins/service-now/sn-phase2/mm-t5346"
   },
   "plugins/service-now/mm-t5289": {
     "name": "Presenting the notification when the assignment group is changed in any record of the bulk subscription.",
@@ -2191,7 +2355,7 @@
     "slug": "plugins/gifs/mm-t5202"
   },
   "plugins/gifs/mm-t5197": { "name": "Shuffle works", "slug": "plugins/gifs/mm-t5197" },
-  "plugins/gifs/mm-t5206": { "name": "Embeded links for gifs", "slug": "plugins/gifs/mm-t5206" },
+  "plugins/gifs/mm-t5206": { "name": "Embedded links for gifs", "slug": "plugins/gifs/mm-t5206" },
   "plugins/todo/mm-t4780": {
     "name": "ToDo icon supports the App Bar functionality",
     "slug": "plugins/todo/mm-t4780"
@@ -2418,7 +2582,7 @@
     "slug": "plugins/github/general/mm-t4194"
   },
   "plugins/github/general/mm-t4190": {
-    "name": "Links to private repos don't show pop over unless you're autheticated",
+    "name": "Links to private repos don't show pop over unless you're authenticated",
     "slug": "plugins/github/general/mm-t4190"
   },
   "plugins/github/general/mm-t4191": {
@@ -2542,7 +2706,7 @@
     "slug": "plugins/github/subscriptions/mm-t4207"
   },
   "plugins/github/subscriptions/mm-t4206": {
-    "name": "Lables can contain specaes",
+    "name": "Labels can contain specaes",
     "slug": "plugins/github/subscriptions/mm-t4206"
   },
   "plugins/github/subscriptions/mm-t4202": {
@@ -2610,7 +2774,7 @@
     "slug": "plugins/github/create-and-attach-posts/mm-t4232"
   },
   "plugins/github/create-and-attach-posts/mm-t4243": {
-    "name": "Creating issue from post authored by unmapped users will refrence MM username",
+    "name": "Creating issue from post authored by unmapped users will reference MM username",
     "slug": "plugins/github/create-and-attach-posts/mm-t4243"
   },
   "plugins/github/create-and-attach-posts/mm-t4236": {
@@ -2630,7 +2794,7 @@
     "slug": "plugins/github/create-and-attach-posts/mm-t4238"
   },
   "plugins/github/authentication/mm-t4179": {
-    "name": "Links in DM link user to the spesific comment",
+    "name": "Links in DM link user to the specific comment",
     "slug": "plugins/github/authentication/mm-t4179"
   },
   "plugins/github/authentication/mm-t4178": {
@@ -2670,11 +2834,11 @@
     "slug": "plugins/github/notifications/mm-t4215"
   },
   "plugins/github/notifications/mm-t4211": {
-    "name": "User receives notfications from public repos only",
+    "name": "User receives notifications from public repos only",
     "slug": "plugins/github/notifications/mm-t4211"
   },
   "plugins/github/notifications/mm-t4210": {
-    "name": "User receives notifcations including from private repos",
+    "name": "User receives notifications including from private repos",
     "slug": "plugins/github/notifications/mm-t4210"
   },
   "plugins/github/notifications/mm-t4214": {
@@ -2727,7 +2891,7 @@
     "slug": "plugins/webex/mm-t3593"
   },
   "plugins/webex/mm-t4132": {
-    "name": "Start a WebEx when CSRF Enfrcement is enabeled",
+    "name": "Start a WebEx when CSRF Enfrcement is enabled",
     "slug": "plugins/webex/mm-t4132"
   },
   "plugins/webex/mm-t3592": {
@@ -2749,7 +2913,7 @@
   },
   "plugins/webex/mm-t3585": { "name": "/webex info", "slug": "plugins/webex/mm-t3585" },
   "plugins/webex/mm-t3594": {
-    "name": "Room can be set to something else and overide email match",
+    "name": "Room can be set to something else and override email match",
     "slug": "plugins/webex/mm-t3594"
   },
   "plugins/webex/mm-t3584": { "name": "/webex help", "slug": "plugins/webex/mm-t3584" },
@@ -2906,7 +3070,7 @@
     "slug": "plugins/plugin-release-tests/mm-t4919"
   },
   "plugins/plugin-release-tests/mm-t4922": {
-    "name": "Plugin can be disabled and reenabled",
+    "name": "Plugin can be disabled and re-enabled",
     "slug": "plugins/plugin-release-tests/mm-t4922"
   },
   "plugins/plugin-release-tests/mm-t4923": {
@@ -2965,7 +3129,7 @@
   },
   "plugins/autolink/mm-t3537": { "name": "Ticket links", "slug": "plugins/autolink/mm-t3537" },
   "plugins/autolink/mm-t3542": {
-    "name": "Mutiple mentions side by side",
+    "name": "Multiple mentions side by side",
     "slug": "plugins/autolink/mm-t3542"
   },
   "plugins/autolink/mm-t3553": {
@@ -3307,7 +3471,7 @@
     "slug": "plugins/bitbucket/create-issue/mm-t4373"
   },
   "plugins/bitbucket/create-issue/mm-t4376": {
-    "name": "Creating issue from post authored by unmapped users will refrence MM username",
+    "name": "Creating issue from post authored by unmapped users will reference MM username",
     "slug": "plugins/bitbucket/create-issue/mm-t4376"
   },
   "plugins/bitbucket/create-issue/mm-t4378": {
@@ -3451,7 +3615,7 @@
     "slug": "plugins/bitbucket/authentication/mm-t4362"
   },
   "plugins/bitbucket/authentication/mm-t4372": {
-    "name": "Post authored by unmapped users will refrence MM username",
+    "name": "Post authored by unmapped users will reference MM username",
     "slug": "plugins/bitbucket/authentication/mm-t4372"
   },
   "plugins/bitbucket/authentication/mm-t4366": {
@@ -3479,11 +3643,11 @@
     "slug": "plugins/bitbucket/notifications/mm-t4355"
   },
   "plugins/bitbucket/notifications/mm-t4354": {
-    "name": "User receives notfications from public repos only",
+    "name": "User receives notifications from public repos only",
     "slug": "plugins/bitbucket/notifications/mm-t4354"
   },
   "plugins/bitbucket/notifications/mm-t4353": {
-    "name": "User receives notifcations including from private repos",
+    "name": "User receives notifications including from private repos",
     "slug": "plugins/bitbucket/notifications/mm-t4353"
   },
   "plugins/bitbucket/notifications/mm-t4357": {
@@ -3622,7 +3786,7 @@
     "slug": "plugins/mm-t2437"
   },
   "plugins/aws-sms/mm-t5211": {
-    "name": "Subscribe to a topic and retrive topic list",
+    "name": "Subscribe to a topic and retrieve topic list",
     "slug": "plugins/aws-sms/mm-t5211"
   },
   "plugins/aws-sms/mm-t5214": {
@@ -3760,7 +3924,7 @@
     "slug": "smoke-tests/webapp/mm-t3026"
   },
   "smoke-tests/webapp/mm-t3077": {
-    "name": "Can change team URL to be diferent from team name during team creation",
+    "name": "Can change team URL to be different from team name during team creation",
     "slug": "smoke-tests/webapp/mm-t3077"
   },
   "smoke-tests/webapp/mm-t3084": {
@@ -4159,6 +4323,30 @@
   "smoke-tests/webapp/mm-t3130": {
     "name": "Words that trigger mentions - username (not case-sensitive)",
     "slug": "smoke-tests/webapp/mm-t3130"
+  },
+  "mobile-v2/invite-people/mm-t5365": {
+    "name": "Should handle both sent and not sent invites",
+    "slug": "mobile-v2/invite-people/mm-t5365"
+  },
+  "mobile-v2/invite-people/mm-t5361": {
+    "name": "Should show no results item in search list",
+    "slug": "mobile-v2/invite-people/mm-t5361"
+  },
+  "mobile-v2/invite-people/mm-t5360": {
+    "name": "Should open the invite screen",
+    "slug": "mobile-v2/invite-people/mm-t5360"
+  },
+  "mobile-v2/invite-people/mm-t5364": {
+    "name": "Should not be able to send user invite to user already in team",
+    "slug": "mobile-v2/invite-people/mm-t5364"
+  },
+  "mobile-v2/invite-people/mm-t5363": {
+    "name": "Should be able to send user invite",
+    "slug": "mobile-v2/invite-people/mm-t5363"
+  },
+  "mobile-v2/invite-people/mm-t5362": {
+    "name": "Should be able to send email invite",
+    "slug": "mobile-v2/invite-people/mm-t5362"
   },
   "mobile-v2/autocomplete/mm-t4883": {
     "name": "Mobile V2: Autocomplete - Edit Post",
@@ -4783,7 +4971,7 @@
     "slug": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts/mm-t1856"
   },
   "integrations/bot-accounts/admin-ui-search/managing-bot-accounts/mm-t1858": {
-    "name": "Seach Active and disabled Bot accounts",
+    "name": "Search Active and disabled Bot accounts",
     "slug": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts/mm-t1858"
   },
   "integrations/bot-accounts/user-side-ux/sidebar/mm-t1836": {
@@ -5554,7 +5742,7 @@
     "slug": "cloud/automated-tests/system-console/subscription-/mm-t4868"
   },
   "cloud/automated-tests/system-console/subscription-/mm-t4134": {
-    "name": "By defualt Paid status should be displayed in the Last Invoice section",
+    "name": "By default Paid status should be displayed in the Last Invoice section",
     "slug": "cloud/automated-tests/system-console/subscription-/mm-t4134"
   },
   "cloud/automated-tests/system-console/subscription-/mm-t4151": {
@@ -9500,7 +9688,7 @@
     "slug": "suite/ad-ldap/mm-t2694"
   },
   "suite/ad-ldap/mm-t2727": {
-    "name": "5. *Case-sensitive email mis-match between LDAP and SAML:*",
+    "name": "5. *Case-sensitive email mismatch between LDAP and SAML:*",
     "slug": "suite/ad-ldap/mm-t2727"
   },
   "suite/ad-ldap/mm-t2824": {
@@ -11456,6 +11644,30 @@
     "name": "Once user trusts an invalid certificate from a server, desktop app should not ask for trust again",
     "slug": "desktop-app--native-specific-/mm-t2631"
   },
+  "self-hosted/in-product-purchase/mm-t5371": {
+    "name": "Self-Hosted | Manually apply license after successful in-product purchase",
+    "slug": "self-hosted/in-product-purchase/mm-t5371"
+  },
+  "self-hosted/in-product-purchase/mm-t5370": {
+    "name": "Self-Hosted | Verify Stripe subscription is updated",
+    "slug": "self-hosted/in-product-purchase/mm-t5370"
+  },
+  "self-hosted/in-product-purchase/mm-t5369": {
+    "name": "Self-Hosted | Billing screen is updated with purchase info",
+    "slug": "self-hosted/in-product-purchase/mm-t5369"
+  },
+  "self-hosted/in-product-purchase/mm-t5368": {
+    "name": "Self-Hosted | Verify License change is propagated throughout application",
+    "slug": "self-hosted/in-product-purchase/mm-t5368"
+  },
+  "self-hosted/in-product-purchase/mm-t5367": {
+    "name": "Self-Hosted | Purchase license using existing admin account",
+    "slug": "self-hosted/in-product-purchase/mm-t5367"
+  },
+  "self-hosted/in-product-purchase/mm-t5372": {
+    "name": "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
+    "slug": "self-hosted/in-product-purchase/mm-t5372"
+  },
   "mobile-app--native-specific-/mm-t3271": {
     "name": "RN apps: Open app via push notification (from background)",
     "slug": "mobile-app--native-specific-/mm-t3271"
@@ -12605,7 +12817,7 @@
     "slug": "channels/team-settings/mm-t2313"
   },
   "channels/team-settings/mm-t2342": {
-    "name": "Team admn cannot add a user to the team if the email domain is enforced and does not match",
+    "name": "Team admin cannot add a user to the team if the email domain is enforced and does not match",
     "slug": "channels/team-settings/mm-t2342"
   },
   "channels/team-settings/mm-t2327": {
@@ -12749,7 +12961,7 @@
     "slug": "channels/scroll/mm-t2376"
   },
   "channels/scroll/mm-t2385": {
-    "name": "Create a post with Image attachment at the very begining of a channel and ensure Expand / Collapse is working correctly",
+    "name": "Create a post with Image attachment at the very beginning of a channel and ensure Expand / Collapse is working correctly",
     "slug": "channels/scroll/mm-t2385"
   },
   "channels/scroll/mm-t2367": { "name": "Compact view", "slug": "channels/scroll/mm-t2367" },
@@ -15533,7 +15745,7 @@
     "slug": "channels/messaging/mm-t3354"
   },
   "channels/messaging/mm-t105": {
-    "name": "Long post with mutiple attachments",
+    "name": "Long post with multiple attachments",
     "slug": "channels/messaging/mm-t105"
   },
   "channels/messaging/mm-t2997": {
@@ -15701,7 +15913,7 @@
     "slug": "channels/messaging/mm-t175"
   },
   "channels/messaging/mm-t217": {
-    "name": "New Message line is visble when open the app from a push notification",
+    "name": "New Message line is visible when open the app from a push notification",
     "slug": "channels/messaging/mm-t217"
   },
   "channels/messaging/mm-t186": {
@@ -15741,7 +15953,7 @@
     "slug": "channels/messaging/mm-t161"
   },
   "channels/messaging/mm-t2179": {
-    "name": "Emojis are jumbo when preceeded or are followed by white space",
+    "name": "Emojis are jumbo when preceded or are followed by white space",
     "slug": "channels/messaging/mm-t2179"
   },
   "channels/messaging/mm-t155": {
@@ -16006,7 +16218,7 @@
     "slug": "channels/messaging/mm-t2225"
   },
   "channels/messaging/mm-t198": {
-    "name": "Emojis preceeded by 4 or more spaces are always treated as markdown",
+    "name": "Emojis preceded by 4 or more spaces are always treated as markdown",
     "slug": "channels/messaging/mm-t198"
   },
   "channels/messaging/mm-t209": {
@@ -16223,7 +16435,7 @@
     "slug": "channels/messaging/mm-t178"
   },
   "channels/messaging/mm-t88": {
-    "name": "An elipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
+    "name": "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
     "slug": "channels/messaging/mm-t88"
   },
   "channels/messaging/mm-t3645": {
@@ -16771,12 +16983,16 @@
     "name": "Global Drafts > Open draft on click",
     "slug": "channels/global-drafts/mm-t4412"
   },
+  "channels/global-drafts/mm-t5366": {
+    "name": "Delete draft",
+    "slug": "channels/global-drafts/mm-t5366"
+  },
   "channels/add-user-from-popover/mm-t4": {
     "name": "Add User — Public OFF / Private ON",
     "slug": "channels/add-user-from-popover/mm-t4"
   },
   "channels/add-user-from-popover/mm-t5": {
-    "name": "Add User — UserA & UserB (removed from team)",
+    "name": "Add User — User A & User B (removed from team)",
     "slug": "channels/add-user-from-popover/mm-t5"
   },
   "channels/add-user-from-popover/mm-t1": {
@@ -16784,7 +17000,7 @@
     "slug": "channels/add-user-from-popover/mm-t1"
   },
   "channels/add-user-from-popover/mm-t8": {
-    "name": "Add User — UserA & UserB (not on team)",
+    "name": "Add User — User A & User B (not on team)",
     "slug": "channels/add-user-from-popover/mm-t8"
   },
   "channels/add-user-from-popover/mm-t9": {

@@ -342,8 +342,8 @@
       "Add User — Public ON / Private OFF",
       "Add User — System Admin only",
       "Add User — Team admins (Private only)",
-      "Add User — UserA & UserB (not on team)",
-      "Add User — UserA & UserB (removed from team)",
+      "Add User — User A & User B (not on team)",
+      "Add User — User A & User B (removed from team)",
       "Add user — Error if already in channel"
     ]
   },
@@ -784,6 +784,7 @@
   {
     "folder": "channels/global-drafts",
     "tests": [
+      "Delete draft",
       "Global Drafts > Channel Drafts are scoped to current active team",
       "Global Drafts > Display DM & GM drafts across teams",
       "Global Drafts > Drafts section only displays on LHS if there are draft messages",
@@ -1048,8 +1049,8 @@
       "Add GM",
       "Added to channel by other user from at-mention (not in channel)",
       "Admin users see proper error message when trying to follow a permalink to a DM between 2 other users",
-      "An elipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
       "An ellipsis indicates the channel header is too long - DM",
+      "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
       "At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment",
       "At-mention: Not in channel (center), have permission to add (public channel)",
       "Autocomplete highlight should follow mouse hover",
@@ -1122,9 +1123,9 @@
       "Emoji reaction - not available on ephemeral message. Save - not available on ephemeral message. Pin - not available on ephemeral message. Timestamp - not a link on ephemeral message. Can close ephemeral message",
       "Emoji reaction - not available on system message. Save - not available on system message. Pin - not available on system message. Can delete your own system message",
       "Emoji reaction - type +:",
-      "Emojis are jumbo when preceeded or are followed by white space",
+      "Emojis are jumbo when preceded or are followed by white space",
       "Emojis are not jumbo when accompanied by text",
-      "Emojis preceeded by 4 or more spaces are always treated as markdown",
+      "Emojis preceded by 4 or more spaces are always treated as markdown",
       "Emojis show as jumbo in main thread - Multi emoji, no text, including unicode and emoticon",
       "Emojis show as jumbo in reply thread",
       "Entire thread appears and scrollable in the RHS",
@@ -1164,7 +1165,7 @@
       "Links with uncommon markdown are displayed correctly",
       "Long post in RHS",
       "Long post with link preview",
-      "Long post with mutiple attachments",
+      "Long post with multiple attachments",
       "Markdown Basics",
       "Markdown Lists",
       "Markdown Tables",
@@ -1191,7 +1192,7 @@
       "Multiple code blocks",
       "Multiple reactions list names of users on hover",
       "Nested angles don't break channel",
-      "New Message line is visble when open the app from a push notification",
+      "New Message line is visible when open the app from a push notification",
       "New message line updates when marking channel as read",
       "No background color on self-made posts",
       "Non-Latin characters in link",
@@ -1532,7 +1533,7 @@
       "Channel that contains a very large amount of external links with preview data load normally",
       "Channel with only a few posts opens at the bottom",
       "Compact view",
-      "Create a post with Image attachment at the very begining of a channel and ensure Expand / Collapse is working correctly",
+      "Create a post with Image attachment at the very beginning of a channel and ensure Expand / Collapse is working correctly",
       "Default images to collapsed",
       "Deleting",
       "Editing a post",
@@ -1783,7 +1784,7 @@
       "Team Name: Special characters",
       "Team Name: Try to save blank field",
       "Team Name: Try to save one-character team name",
-      "Team admn cannot add a user to the team if the email domain is enforced and does not match",
+      "Team admin cannot add a user to the team if the email domain is enforced and does not match",
       "Team icon appears immediately on other user on mobile app and on browser, also: tall or wide images zoom to center and crop, like profile pictures do",
       "Team icon shows active state on click",
       "Team invite link: Cancel out of regenerating",
@@ -1903,7 +1904,7 @@
       "'Upgrade' button should be enabled only after having mandatory fields filled valid data",
       "Annual Subscription | Payment Page | RHS | Customer should be able to add No. Of seats and select 'Monthly' or 'yearly' subscription",
       "Annual Subscription | Pricing Modal | Option for user to Choose Yearly or Monthly subscription.",
-      "By defualt Paid status should be displayed in the Last Invoice section",
+      "By default Paid status should be displayed in the Last Invoice section",
       "Clicking 'Contact support' link should display 'cloud/contact-us?email=[logged in user email address]&name=%20&inquiry=technical' page",
       "Clicking 'Subscribe' button on '/admin-console/billing/subscription' page should display success message",
       "Clicking 'Upgrade' button on '/admin-console/billing/subscription' page should display success message",
@@ -2409,7 +2410,7 @@
       "Enable Bot",
       "Enable Bot Account Creation is False by default",
       "No option to create BOT accounts when Enable Bot Account Creation is set to False.",
-      "Seach Active and disabled Bot accounts"
+      "Search Active and disabled Bot accounts"
     ]
   },
   {
@@ -3041,6 +3042,17 @@
     ]
   },
   {
+    "folder": "mobile-v2/invite-people",
+    "tests": [
+      "Should be able to send email invite",
+      "Should be able to send user invite",
+      "Should handle both sent and not sent invites",
+      "Should not be able to send user invite to user already in team",
+      "Should open the invite screen",
+      "Should show no results item in search list"
+    ]
+  },
+  {
     "folder": "mobile-v2/messaging",
     "tests": [
       "Mobile V2: Messaging - At-Mention",
@@ -3196,7 +3208,7 @@
       "DisableNonWordPrefix': true - Post are edited correctly when Disable word prefix is true",
       "Group mentions",
       "Multiple GitHub links",
-      "Mutiple mentions side by side",
+      "Multiple mentions side by side",
       "Permalinks",
       "Scope is respected on a Link",
       "Single links",
@@ -3213,7 +3225,7 @@
       "Alerts for AWS alarms are delivered",
       "Proper epemeral post is shown when passing in invalid action",
       "Setup",
-      "Subscribe to a topic and retrive topic list",
+      "Subscribe to a topic and retrieve topic list",
       "Subscription created successfully"
     ]
   },
@@ -3238,7 +3250,7 @@
       "Issues are disabled on the project",
       "Lock bitbucket to a Organization",
       "Lock bitbucket to a workspace",
-      "Post authored by unmapped users will refrence MM username",
+      "Post authored by unmapped users will reference MM username",
       "Sidebar - Messages",
       "Sidebar - Open pull requests",
       "Sidebar - Pull requests requiring your review",
@@ -3253,7 +3265,7 @@
       "'Bitbucket' icon correctly points to your instance of BitBucket and not bitbucket.com",
       "Create an issue with a title using the slash command",
       "Created issues are associated to correct bitbucket User",
-      "Creating issue from post authored by unmapped users will refrence MM username",
+      "Creating issue from post authored by unmapped users will reference MM username",
       "Mandatory fields in modal",
       "Scope of repos available (Non Enterprise)"
     ]
@@ -3276,8 +3288,8 @@
     "tests": [
       "@mentions are in PR description",
       "Notification links point to latest comment",
-      "User receives notfications from public repos only",
-      "User receives notifcations including from private repos",
+      "User receives notifications from public repos only",
+      "User receives notifications including from private repos",
       "exclude-org-member hides events from members of an org"
     ]
   },
@@ -3316,8 +3328,8 @@
       "Attribute containing Markdown link",
       "Attribute containing emoji and plain text",
       "Delete Custom",
-      "Indivual user can be added to a group",
-      "LDAP grous can be passed in instaed of user id",
+      "Individual user can be added to a group",
+      "LDAP grous can be passed in instead of user id",
       "LDAPS Groups can be added to Attribute",
       "No attribute",
       "Team membership can grant custom attribute",
@@ -3345,7 +3357,7 @@
     "tests": [
       "By default, there is only the option to preview gifs before sending them",
       "Cancel works",
-      "Embeded links for gifs",
+      "Embedded links for gifs",
       "Ephemeral post shown when there are no results",
       "Force GIF preview before posting (force /gifs):",
       "Gfycat display style can be adjusted.",
@@ -3367,7 +3379,7 @@
       "Connect Private - Subscriprtions",
       "Connect Private by default",
       "Enable private repositories",
-      "Links in DM link user to the spesific comment",
+      "Links in DM link user to the specific comment",
       "Overvie test for webhook being in place"
     ]
   },
@@ -3384,7 +3396,7 @@
       "Create an issue without a preset title using the slash command",
       "Create issue modal can add Labels and Milestones where your group has Write permissions",
       "Create issues modal shows no options to add labels and milestones.",
-      "Creating issue from post authored by unmapped users will refrence MM username",
+      "Creating issue from post authored by unmapped users will reference MM username",
       "Lock GitHub to a Organization",
       "Lock GitHub to a workspace",
       "Post authored by unmapped users will reference MM username",
@@ -3407,7 +3419,7 @@
       "GitHub pop-overs do not show when Mattermost user is not connected to GitHub",
       "GitHub will start and return clear feedback on attempted use if it is misconfigured",
       "HTML comments are omitted from pop-over",
-      "Links to private repos don't show pop over unless you're autheticated",
+      "Links to private repos don't show pop over unless you're authenticated",
       "Notifications disabled",
       "To do list has pop over tooltip",
       "Various pop-overs Look good"
@@ -3422,8 +3434,8 @@
       "Remove user from mute list",
       "Todo Summary Reminder can be enabled and disabled",
       "Todo Summary Reminder can be set to on-change only",
-      "User receives notfications from public repos only",
-      "User receives notifcations including from private repos",
+      "User receives notifications from public repos only",
+      "User receives notifications including from private repos",
       "clear mute list",
       "exclude-org-member hides events from members of an org",
       "exclude-org-member shows events from non-members of an org"
@@ -3462,7 +3474,7 @@
       "Continue to use GitHub username if user is not connected on Mattermost servere",
       "GitHub Posts support code blocks",
       "GitHub Posts support quotes",
-      "Lables can contain specaes",
+      "Labels can contain specaes",
       "Subscribing to PR and Issues",
       "Use Mattermost username instead of GitHub handle if GutHub user is mapped to a Mattermost user on the server"
     ]
@@ -3494,7 +3506,7 @@
       "/gitlab me",
       "/gitlab todo",
       "Connected users see changes to gitlab URL",
-      "Install the pluign and create an oAuth application in GitLab"
+      "Install the plugin and create an oAuth application in GitLab"
     ]
   },
   {
@@ -3512,6 +3524,7 @@
       "Attempt to subscribe to private repo when the setting is disabled",
       "Close an issue event",
       "Close merge request",
+      "Connecting via RHS",
       "Create an issue event",
       "Create and view webhooks",
       "Delete Subscription",
@@ -3520,10 +3533,12 @@
       "Lock GitLab plugin to a specific group",
       "Merge request event",
       "Pipeline event notifications",
+      "RHS shows subscription data",
       "Subscribe to only one of the features for a private group",
       "Subscription events are aware of labels",
       "Subscriptions comment created event",
       "Tag creation event",
+      "Trigger a pipeline start",
       "Unsubscribe features do not deliver events",
       "Updatre subscription to include features"
     ]
@@ -3531,14 +3546,14 @@
   {
     "folder": "plugins/jira-v2/jira-server/general-slash-commands",
     "tests": [
-      "/jira connect when no intance is installed",
-      "/jira disconnect when no intance is installed",
+      "/jira connect when no instance is installed",
+      "/jira disconnect when no instance is installed",
       "/jira help",
-      "/jira help when no intance is installed",
+      "/jira help when no instance is installed",
       "/jira help with custom help text",
       "/jira info",
       "/jira slash command show help text with sample commands",
-      "/jira uninstall when no intance is installed"
+      "/jira uninstall when no instance is installed"
     ]
   },
   {
@@ -3709,7 +3724,7 @@
       "Channel meeting is not available in DMs or GM when set to `ask`",
       "Configure preset to channel then start in a DM or GM",
       "Create a meeting Mattermost context specific names in a DM and GM",
-      "Create a meeting Mattermost context specific names in public or provate channel",
+      "Create a meeting Mattermost context specific names in public or private channel",
       "Create a meeting from Mattermost",
       "Create a meeting with Channel Meeting --> Prefixes the Meeting ID with channel name",
       "Create a meeting with Meeting with UUID",
@@ -3746,8 +3761,8 @@
     "tests": [
       "Plugin works with no site URL set",
       "Post a meme that has a string of text without spaces",
-      "Post a meme with mutiple strings of text",
-      "Test every new meme added since last relese",
+      "Post a meme with multiple strings of text",
+      "Test every new meme added since last release",
       "Try posting a meme that does not exist in the plugin list"
     ]
   },
@@ -3886,7 +3901,7 @@
     "tests": [
       "Install a target plugin (Jira, GitLab or GitHub)",
       "Plugin Can be Updated",
-      "Plugin can be disabled and reenabled",
+      "Plugin can be disabled and re-enabled",
       "Plugin can be installed from marketplace and enabled",
       "Plugin can be uploaded and enabled",
       "Run tests for Demo Plugin"
@@ -3967,6 +3982,49 @@
     ]
   },
   {
+    "folder": "plugins/service-now/sn-phase2",
+    "tests": [
+      "'/servicenow share' slash command",
+      "'/servicenow subscription list anyone all_channels' slash command",
+      "'/servicenow subscription list anyone' slash command",
+      "'/servicenow subscription list me all_channels' slash command",
+      "'/servicenow subscription list me' slash command",
+      "'/servicenow subscription list' slash command",
+      "Adding Empty comment in the record",
+      "Adding the comment on a record",
+      "Cancel option in comments modal",
+      "Cancel option in share record modal",
+      "Cancel option in update state modal",
+      "Close button in popover for filters",
+      "Filter icon in Right hand side bar of Mattermost",
+      "Filter options in RHS when clicked",
+      "Hiding the popover when the area outside popover is clicked",
+      "No comments present in the record",
+      "Opening of add and view comments modal with permission",
+      "Opening of add and view comments modal without permission",
+      "Opening of update state modal with permission",
+      "Opening of update state modal without permission",
+      "Opening of update state modal without uploading the update set",
+      "Reset button disabled for default filters",
+      "Reset button in popover for filters",
+      "Search and select the ServiceNow record for sharing",
+      "Selecting a filter",
+      "Share button in Right hand side bar of Mattermost server",
+      "Share options in RHS when clicked",
+      "Sharing a ServiceNow record",
+      "Show 'Add and view comments' button of a record",
+      "Show 'Submit' button in the comment modal",
+      "Show Update state button for a record",
+      "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+      "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+      "Tooltip of filter icon",
+      "Update button disabled until the state is selected",
+      "Updating state of a record"
+    ]
+  },
+  {
     "folder": "plugins/splunk",
     "tests": [
       "Authenticate your Matternost instance with Slack",
@@ -4011,13 +4069,13 @@
       "/webex info",
       "Join a meeting your hosting and have a guest join",
       "Reset WebEX meeting room",
-      "Room can be set to something else and overide email match",
+      "Room can be set to something else and override email match",
       "Satrt a WebEx meeting in the room of a specific user based on email",
       "Set WebEx room",
       "Start a WebEx",
       "Start a WebEx for a specific meeting room",
       "Start a WebEx on a subpath server",
-      "Start a WebEx when CSRF Enfrcement is enabeled",
+      "Start a WebEx when CSRF Enfrcement is enabled",
       "Start a WebEx with Convert Webex URLs",
       "The room set by 2 different users can overlap",
       "WebEx Room can be derived from a valid email so user does not need to set a room",
@@ -4089,6 +4147,17 @@
     ]
   },
   {
+    "folder": "self-hosted/in-product-purchase",
+    "tests": [
+      "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
+      "Self-Hosted | Billing screen is updated with purchase info",
+      "Self-Hosted | Manually apply license after successful in-product purchase",
+      "Self-Hosted | Purchase license using existing admin account",
+      "Self-Hosted | Verify License change is propagated throughout application",
+      "Self-Hosted | Verify Stripe subscription is updated"
+    ]
+  },
+  {
     "folder": "smoke-tests/webapp",
     "tests": [
       "(at) here rec'd when online",
@@ -4104,7 +4173,7 @@
       "Auth tests; log in using LDAP",
       "Auth tests; log in using Office 365",
       "Auth tests; log in using OneLogin",
-      "Can change team URL to be diferent from team name during team creation",
+      "Can change team URL to be different from team name during team creation",
       "Can open DM channel from member icon list",
       "Channel notifications: Mobile Push",
       "Channel shortlinking - link joins public channel",
@@ -4260,7 +4329,7 @@
       "/inviting someone that is not in a linked group - user has permission to add",
       "/remove or /kick a member who is in the group will fail (on group-constrained private channel)",
       "3. *Deactivate user in SAML, do not delete in LDAP:*",
-      "5. *Case-sensitive email mis-match between LDAP and SAML:*",
+      "5. *Case-sensitive email mismatch between LDAP and SAML:*",
       "AD/LDAP Settings Login field name",
       "ALSO TEST ALL OF THESE ON RN APPS",
       "Adding first/last and nickname attributes back in and syncing returns user's first/last names from LDAP",

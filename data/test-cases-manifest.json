@@ -919,7 +919,7 @@
             "file": "channels/add-user-from-popover/MM-T4.md"
           },
           {
-            "name": "Add User — UserA & UserB (removed from team)",
+            "name": "Add User — User A & User B (removed from team)",
             "file": "channels/add-user-from-popover/MM-T5.md"
           },
           {
@@ -931,7 +931,7 @@
             "file": "channels/add-user-from-popover/MM-T7.md"
           },
           {
-            "name": "Add User — UserA & UserB (not on team)",
+            "name": "Add User — User A & User B (not on team)",
             "file": "channels/add-user-from-popover/MM-T8.md"
           },
           {
@@ -2369,7 +2369,8 @@
             "file": "channels/global-drafts/MM-T4412.md"
           },
           { "name": "Global Drafts > Edit draft", "file": "channels/global-drafts/MM-T4413.md" },
-          { "name": "Global Drafts > Send draft", "file": "channels/global-drafts/MM-T4414.md" }
+          { "name": "Global Drafts > Send draft", "file": "channels/global-drafts/MM-T4414.md" },
+          { "name": "Delete draft", "file": "channels/global-drafts/MM-T5366.md" }
         ]
       },
       {
@@ -3043,7 +3044,10 @@
             "name": "Can `Show More` and `Show Less` on long posts, Markdown in long posts",
             "file": "channels/messaging/MM-T104.md"
           },
-          { "name": "Long post with mutiple attachments", "file": "channels/messaging/MM-T105.md" },
+          {
+            "name": "Long post with multiple attachments",
+            "file": "channels/messaging/MM-T105.md"
+          },
           {
             "name": "Webapp: 'Message too long' warning text",
             "file": "channels/messaging/MM-T106.md"
@@ -3408,7 +3412,7 @@
             "file": "channels/messaging/MM-T197.md"
           },
           {
-            "name": "Emojis preceeded by 4 or more spaces are always treated as markdown",
+            "name": "Emojis preceded by 4 or more spaces are always treated as markdown",
             "file": "channels/messaging/MM-T198.md"
           },
           {
@@ -3580,7 +3584,7 @@
             "file": "channels/messaging/MM-T2169.md"
           },
           {
-            "name": "New Message line is visble when open the app from a push notification",
+            "name": "New Message line is visible when open the app from a push notification",
             "file": "channels/messaging/MM-T217.md"
           },
           {
@@ -3612,7 +3616,7 @@
             "file": "channels/messaging/MM-T2177.md"
           },
           {
-            "name": "Emojis are jumbo when preceeded or are followed by white space",
+            "name": "Emojis are jumbo when preceded or are followed by white space",
             "file": "channels/messaging/MM-T2179.md"
           },
           {
@@ -4041,7 +4045,7 @@
             "file": "channels/messaging/MM-T87.md"
           },
           {
-            "name": "An elipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
+            "name": "An ellipsis indicates the channel header is too long - public or private channel  Quote icon displays at beginning of channel header",
             "file": "channels/messaging/MM-T88.md"
           },
           {
@@ -4709,7 +4713,7 @@
           { "name": "Center Channel Scroll with RHS open", "file": "channels/scroll/MM-T2383.md" },
           { "name": "Text selection", "file": "channels/scroll/MM-T2384.md" },
           {
-            "name": "Create a post with Image attachment at the very begining of a channel and ensure Expand / Collapse is working correctly",
+            "name": "Create a post with Image attachment at the very beginning of a channel and ensure Expand / Collapse is working correctly",
             "file": "channels/scroll/MM-T2385.md"
           },
           {
@@ -5407,7 +5411,7 @@
             "file": "channels/team-settings/MM-T2341.md"
           },
           {
-            "name": "Team admn cannot add a user to the team if the email domain is enforced and does not match",
+            "name": "Team admin cannot add a user to the team if the email domain is enforced and does not match",
             "file": "channels/team-settings/MM-T2342.md"
           },
           {
@@ -5673,7 +5677,7 @@
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T4133.md"
                   },
                   {
-                    "name": "By defualt Paid status should be displayed in the Last Invoice section",
+                    "name": "By default Paid status should be displayed in the Last Invoice section",
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T4134.md"
                   },
                   {
@@ -6832,7 +6836,7 @@
                     "file": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts/MM-T1857.md"
                   },
                   {
-                    "name": "Seach Active and disabled Bot accounts",
+                    "name": "Search Active and disabled Bot accounts",
                     "file": "integrations/bot-accounts/admin-ui-search/managing-bot-accounts/MM-T1858.md"
                   }
                 ]
@@ -8578,6 +8582,35 @@
         ]
       },
       {
+        "name": "Invite People",
+        "routes": [
+          {
+            "name": "Should open the invite screen",
+            "file": "mobile-v2/invite-people/MM-T5360.md"
+          },
+          {
+            "name": "Should show no results item in search list",
+            "file": "mobile-v2/invite-people/MM-T5361.md"
+          },
+          {
+            "name": "Should be able to send email invite",
+            "file": "mobile-v2/invite-people/MM-T5362.md"
+          },
+          {
+            "name": "Should be able to send user invite",
+            "file": "mobile-v2/invite-people/MM-T5363.md"
+          },
+          {
+            "name": "Should not be able to send user invite to user already in team",
+            "file": "mobile-v2/invite-people/MM-T5364.md"
+          },
+          {
+            "name": "Should handle both sent and not sent invites",
+            "file": "mobile-v2/invite-people/MM-T5365.md"
+          }
+        ]
+      },
+      {
         "name": "Messaging",
         "routes": [
           {
@@ -8796,7 +8829,7 @@
             "name": "Autolinks surrounded by brackets or other values",
             "file": "plugins/autolink/MM-T3541.md"
           },
-          { "name": "Mutiple mentions side by side", "file": "plugins/autolink/MM-T3542.md" },
+          { "name": "Multiple mentions side by side", "file": "plugins/autolink/MM-T3542.md" },
           { "name": "WordMatch", "file": "plugins/autolink/MM-T3543.md" },
           {
             "name": "Autolink applies to edited posts when enabled",
@@ -8860,7 +8893,7 @@
           { "name": "Setup", "file": "plugins/aws-sms/MM-T5209.md" },
           { "name": "Subscription created successfully", "file": "plugins/aws-sms/MM-T5210.md" },
           {
-            "name": "Subscribe to a topic and retrive topic list",
+            "name": "Subscribe to a topic and retrieve topic list",
             "file": "plugins/aws-sms/MM-T5211.md"
           },
           { "name": "Alerts for AWS alarms are delivered", "file": "plugins/aws-sms/MM-T5212.md" },
@@ -8934,7 +8967,7 @@
                 "file": "plugins/bitbucket/authentication/MM-T4371.md"
               },
               {
-                "name": "Post authored by unmapped users will refrence MM username",
+                "name": "Post authored by unmapped users will reference MM username",
                 "file": "plugins/bitbucket/authentication/MM-T4372.md"
               }
             ]
@@ -8955,7 +8988,7 @@
                 "file": "plugins/bitbucket/create-issue/MM-T4375.md"
               },
               {
-                "name": "Creating issue from post authored by unmapped users will refrence MM username",
+                "name": "Creating issue from post authored by unmapped users will reference MM username",
                 "file": "plugins/bitbucket/create-issue/MM-T4376.md"
               },
               {
@@ -9005,11 +9038,11 @@
             "name": "Notifications",
             "routes": [
               {
-                "name": "User receives notifcations including from private repos",
+                "name": "User receives notifications including from private repos",
                 "file": "plugins/bitbucket/notifications/MM-T4353.md"
               },
               {
-                "name": "User receives notfications from public repos only",
+                "name": "User receives notifications from public repos only",
                 "file": "plugins/bitbucket/notifications/MM-T4354.md"
               },
               {
@@ -9113,7 +9146,7 @@
           },
           { "name": "No attribute", "file": "plugins/custom-attributes/MM-T3562.md" },
           {
-            "name": "LDAP grous can be passed in instaed of user id",
+            "name": "LDAP grous can be passed in instead of user id",
             "file": "plugins/custom-attributes/MM-T3563.md"
           },
           {
@@ -9138,7 +9171,7 @@
             "file": "plugins/custom-attributes/MM-T3569.md"
           },
           {
-            "name": "Indivual user can be added to a group",
+            "name": "Individual user can be added to a group",
             "file": "plugins/custom-attributes/MM-T3570.md"
           }
         ]
@@ -9206,7 +9239,7 @@
             "name": "Force GIF preview before posting (force /gifs):",
             "file": "plugins/gifs/MM-T5205.md"
           },
-          { "name": "Embeded links for gifs", "file": "plugins/gifs/MM-T5206.md" }
+          { "name": "Embedded links for gifs", "file": "plugins/gifs/MM-T5206.md" }
         ]
       },
       {
@@ -9223,7 +9256,7 @@
                 "file": "plugins/github/authentication/MM-T4178.md"
               },
               {
-                "name": "Links in DM link user to the spesific comment",
+                "name": "Links in DM link user to the specific comment",
                 "file": "plugins/github/authentication/MM-T4179.md"
               },
               {
@@ -9297,7 +9330,7 @@
                 "file": "plugins/github/create-and-attach-posts/MM-T4241.md"
               },
               {
-                "name": "Creating issue from post authored by unmapped users will refrence MM username",
+                "name": "Creating issue from post authored by unmapped users will reference MM username",
                 "file": "plugins/github/create-and-attach-posts/MM-T4243.md"
               },
               {
@@ -9337,7 +9370,7 @@
                 "file": "plugins/github/general/MM-T4189.md"
               },
               {
-                "name": "Links to private repos don't show pop over unless you're autheticated",
+                "name": "Links to private repos don't show pop over unless you're authenticated",
                 "file": "plugins/github/general/MM-T4190.md"
               },
               {
@@ -9371,11 +9404,11 @@
             "name": "Notifications",
             "routes": [
               {
-                "name": "User receives notifcations including from private repos",
+                "name": "User receives notifications including from private repos",
                 "file": "plugins/github/notifications/MM-T4210.md"
               },
               {
-                "name": "User receives notfications from public repos only",
+                "name": "User receives notifications from public repos only",
                 "file": "plugins/github/notifications/MM-T4211.md"
               },
               {
@@ -9496,7 +9529,7 @@
                 "file": "plugins/github/subscriptions/MM-T4205.md"
               },
               {
-                "name": "Lables can contain specaes",
+                "name": "Labels can contain specaes",
                 "file": "plugins/github/subscriptions/MM-T4206.md"
               },
               {
@@ -9566,7 +9599,7 @@
             "name": "Slash Commands and Setup",
             "routes": [
               {
-                "name": "Install the pluign and create an oAuth application in GitLab",
+                "name": "Install the plugin and create an oAuth application in GitLab",
                 "file": "plugins/gitlab/slash-commands-and-setup/MM-T4553.md"
               },
               {
@@ -9682,6 +9715,18 @@
               {
                 "name": "Pipeline event notifications",
                 "file": "plugins/gitlab/subscriptions-and-notifications/MM-T4637.md"
+              },
+              {
+                "name": "Trigger a pipeline start",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5357.md"
+              },
+              {
+                "name": "Connecting via RHS",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5358.md"
+              },
+              {
+                "name": "RHS shows subscription data",
+                "file": "plugins/gitlab/subscriptions-and-notifications/MM-T5359.md"
               }
             ]
           }
@@ -9805,19 +9850,19 @@
                     "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T2490.md"
                   },
                   {
-                    "name": "/jira connect when no intance is installed",
+                    "name": "/jira connect when no instance is installed",
                     "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4499.md"
                   },
                   {
-                    "name": "/jira disconnect when no intance is installed",
+                    "name": "/jira disconnect when no instance is installed",
                     "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4500.md"
                   },
                   {
-                    "name": "/jira uninstall when no intance is installed",
+                    "name": "/jira uninstall when no instance is installed",
                     "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4501.md"
                   },
                   {
-                    "name": "/jira help when no intance is installed",
+                    "name": "/jira help when no instance is installed",
                     "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4502.md"
                   }
                 ]
@@ -10252,7 +10297,7 @@
             "file": "plugins/jitsi/MM-T4824.md"
           },
           {
-            "name": "Create a meeting Mattermost context specific names in public or provate channel",
+            "name": "Create a meeting Mattermost context specific names in public or private channel",
             "file": "plugins/jitsi/MM-T4825.md"
           },
           {
@@ -10318,7 +10363,7 @@
             "file": "plugins/meme/MM-T5134.md"
           },
           {
-            "name": "Post a meme with mutiple strings of text",
+            "name": "Post a meme with multiple strings of text",
             "file": "plugins/meme/MM-T5135.md"
           },
           { "name": "Plugin works with no site URL set", "file": "plugins/meme/MM-T5136.md" },
@@ -10327,7 +10372,7 @@
             "file": "plugins/meme/MM-T5137.md"
           },
           {
-            "name": "Test every new meme added since last relese",
+            "name": "Test every new meme added since last release",
             "file": "plugins/meme/MM-T5138.md"
           }
         ]
@@ -10876,7 +10921,7 @@
             "file": "plugins/plugin-release-tests/MM-T4921.md"
           },
           {
-            "name": "Plugin can be disabled and reenabled",
+            "name": "Plugin can be disabled and re-enabled",
             "file": "plugins/plugin-release-tests/MM-T4922.md"
           },
           {
@@ -11140,6 +11185,160 @@
           {
             "name": "No notification of the fields altered in the record that were not mentioned in the subscription.",
             "file": "plugins/service-now/MM-T5293.md"
+          },
+          {
+            "name": "SN phase2",
+            "routes": [
+              {
+                "name": "Filter icon in Right hand side bar of Mattermost",
+                "file": "plugins/service-now/sn-phase2/MM-T5319.md"
+              },
+              {
+                "name": "Filter options in RHS when clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5320.md"
+              },
+              {
+                "name": "Tooltip of filter icon",
+                "file": "plugins/service-now/sn-phase2/MM-T5321.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch activated and in created by filter option 'anyone' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5322.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch activated and in created by filter option 'me' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5323.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'anyone' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5324.md"
+              },
+              {
+                "name": "Show all subscriptions toggle switch deactivated and in created by filter option 'me' is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5325.md"
+              },
+              {
+                "name": "Reset button in popover for filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5326.md"
+              },
+              {
+                "name": "Close button in popover for filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5327.md"
+              },
+              {
+                "name": "Hiding the popover when the area outside popover is clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5328.md"
+              },
+              {
+                "name": "Reset button disabled for default filters",
+                "file": "plugins/service-now/sn-phase2/MM-T5329.md"
+              },
+              { "name": "Selecting a filter", "file": "plugins/service-now/sn-phase2/MM-T5330.md" },
+              {
+                "name": "'/servicenow subscription list' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5331.md"
+              },
+              {
+                "name": "'/servicenow subscription list me' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5332.md"
+              },
+              {
+                "name": "'/servicenow subscription list anyone' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5333.md"
+              },
+              {
+                "name": "'/servicenow subscription list me all_channels' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5334.md"
+              },
+              {
+                "name": "'/servicenow subscription list anyone all_channels' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5335.md"
+              },
+              {
+                "name": "Share button in Right hand side bar of Mattermost server",
+                "file": "plugins/service-now/sn-phase2/MM-T5336.md"
+              },
+              {
+                "name": "Share options in RHS when clicked",
+                "file": "plugins/service-now/sn-phase2/MM-T5337.md"
+              },
+              {
+                "name": "Search and select the ServiceNow record for sharing",
+                "file": "plugins/service-now/sn-phase2/MM-T5338.md"
+              },
+              {
+                "name": "Sharing a ServiceNow record",
+                "file": "plugins/service-now/sn-phase2/MM-T5339.md"
+              },
+              {
+                "name": "Cancel option in share record modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5340.md"
+              },
+              {
+                "name": "'/servicenow share' slash command",
+                "file": "plugins/service-now/sn-phase2/MM-T5341.md"
+              },
+              {
+                "name": "Show Update state button for a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5342.md"
+              },
+              {
+                "name": "Opening of update state modal without uploading the update set",
+                "file": "plugins/service-now/sn-phase2/MM-T5343.md"
+              },
+              {
+                "name": "Opening of update state modal with permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5344.md"
+              },
+              {
+                "name": "Opening of update state modal without permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5345.md"
+              },
+              {
+                "name": "Update button disabled until the state is selected",
+                "file": "plugins/service-now/sn-phase2/MM-T5346.md"
+              },
+              {
+                "name": "Updating state of a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5347.md"
+              },
+              {
+                "name": "Cancel option in update state modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5348.md"
+              },
+              {
+                "name": "Show 'Add and view comments' button of a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5349.md"
+              },
+              {
+                "name": "Opening of add and view comments modal with permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5350.md"
+              },
+              {
+                "name": "Opening of add and view comments modal without permission",
+                "file": "plugins/service-now/sn-phase2/MM-T5351.md"
+              },
+              {
+                "name": "Show 'Submit' button in the comment modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5352.md"
+              },
+              {
+                "name": "Adding the comment on a record",
+                "file": "plugins/service-now/sn-phase2/MM-T5353.md"
+              },
+              {
+                "name": "Cancel option in comments modal",
+                "file": "plugins/service-now/sn-phase2/MM-T5354.md"
+              },
+              {
+                "name": "Adding Empty comment in the record",
+                "file": "plugins/service-now/sn-phase2/MM-T5355.md"
+              },
+              {
+                "name": "No comments present in the record",
+                "file": "plugins/service-now/sn-phase2/MM-T5356.md"
+              }
+            ]
           }
         ]
       },
@@ -11227,7 +11426,7 @@
             "file": "plugins/webex/MM-T3593.md"
           },
           {
-            "name": "Room can be set to something else and overide email match",
+            "name": "Room can be set to something else and override email match",
             "file": "plugins/webex/MM-T3594.md"
           },
           {
@@ -11241,7 +11440,7 @@
           { "name": "Start a WebEx with Convert Webex URLs", "file": "plugins/webex/MM-T4130.md" },
           { "name": "Start a WebEx on a subpath server", "file": "plugins/webex/MM-T4131.md" },
           {
-            "name": "Start a WebEx when CSRF Enfrcement is enabeled",
+            "name": "Start a WebEx when CSRF Enfrcement is enabled",
             "file": "plugins/webex/MM-T4132.md"
           }
         ]
@@ -11417,6 +11616,41 @@
     ]
   },
   {
+    "name": "Self-Hosted",
+    "heading": true,
+    "routes": [
+      {
+        "name": "In product purchase",
+        "routes": [
+          {
+            "name": "Self-Hosted | Purchase license using existing admin account",
+            "file": "self-hosted/in-product-purchase/MM-T5367.md"
+          },
+          {
+            "name": "Self-Hosted | Verify License change is propagated throughout application",
+            "file": "self-hosted/in-product-purchase/MM-T5368.md"
+          },
+          {
+            "name": "Self-Hosted | Billing screen is updated with purchase info",
+            "file": "self-hosted/in-product-purchase/MM-T5369.md"
+          },
+          {
+            "name": "Self-Hosted | Verify Stripe subscription is updated",
+            "file": "self-hosted/in-product-purchase/MM-T5370.md"
+          },
+          {
+            "name": "Self-Hosted | Manually apply license after successful in-product purchase",
+            "file": "self-hosted/in-product-purchase/MM-T5371.md"
+          },
+          {
+            "name": "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
+            "file": "self-hosted/in-product-purchase/MM-T5372.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Smoke Tests",
     "heading": true,
     "routes": [
@@ -11583,7 +11817,7 @@
             "file": "smoke-tests/webapp/MM-T3076.md"
           },
           {
-            "name": "Can change team URL to be diferent from team name during team creation",
+            "name": "Can change team URL to be different from team name during team creation",
             "file": "smoke-tests/webapp/MM-T3077.md"
           },
           {
@@ -11979,7 +12213,7 @@
             "file": "suite/ad-ldap/MM-T2726.md"
           },
           {
-            "name": "5. *Case-sensitive email mis-match between LDAP and SAML:*",
+            "name": "5. *Case-sensitive email mismatch between LDAP and SAML:*",
             "file": "suite/ad-ldap/MM-T2727.md"
           },
           {

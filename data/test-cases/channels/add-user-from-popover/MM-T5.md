@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — UserA & UserB (removed from team)"
+name: "Add User — User A & User B (removed from team)"
 status: Active
 priority: Low
 folder: Add user from popover
@@ -31,18 +31,18 @@ manual_test_environments:
 id: 2746254
 key: MM-T5
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-10T10:54:32Z"
-case_hashed: 3bd0ca593707a9b8714cdbb240aa0298cb5e97f0173d483917574d56f0607b1992cd0283b3ef84958222e178fa53521f
+last_updated: "2023-01-05T20:36:02Z"
+case_hashed: 16f78fd5afa0962b49020ad1d5f274207cb0b08b7527505524907c649256e08c0f43a000467ad7666a73cbcaca9765d6
 steps_hashed: f48aec372a850c54fc039377bad5359b74fde0b99c45740b74c295532fceca5c952af78e0c17f73c8d07719c0cae4843
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T5: Add User — UserA & UserB (removed from team)
+## MM-T5: Add User — User A & User B (removed from team)
 
 **Objective**
 
-If **UserB** has been removed from the current team, **UserA** should not see "Add to channel" option on **UserB's** profile pop-over
+If **User B** has been removed from the current team, **User A** should not see "Add to channel" option on **User B's** profile pop-over
 
 **Precondition**
 
