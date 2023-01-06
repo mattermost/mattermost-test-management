@@ -29,7 +29,7 @@ key: MM-T28
 created_on: "2019-08-28T02:12:57Z"
 last_updated: "2022-12-01T21:17:45Z"
 case_hashed: faf9b59ee9c049520a64d54a596c640ec621950fe223ae68ad39329bf690982ae1dc38a2b90eff243b800f34093987b1
-steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515cbcab7901eda3d3506c0861c0e8dab2
+steps_hashed: 2c61845c0962b5588c056ca610a3116c642a0aad09da17a2c4f4412637fa2300df22192a3af716b267f4aad14e479c93
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -40,10 +40,10 @@ steps_hashed: 4388f3d74b658e5038ebc983d0b61849764a9f7fbd642c8587fc955e4bdb1a515c
 
 **Step 1**
 
-1. Find a channel with no messages that day. Call it ChannelA
-2. Switch away from ChannelA
-3. Use a secondary account to post enough messages in ChannelA that it fills up your screen
-4. Use a primary account to view ChannelA
+1. Find a channel with no messages that day. Call it Channel A
+2. Switch away from Channel A
+3. Use a secondary account to post enough messages in Channel A that it fills up your screen
+4. Use a primary account to view Channel A
 
 **Test Data**
 

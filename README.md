@@ -42,7 +42,7 @@ There are three ways to get started in contributing to this project.
         - `status` - with the default value of `Approved`
         - `priority` - with the default value of `Normal`
         - `folder` - the name of a folder. It should follow the exact name of an existing folder (e.g. `Channels` for `data/test-cases/channels`) or a slug equivalent of a new folder (e.g. `2236 Shiny Feature` for `data/test-cases/channels/2236-shiny-feature`). 
-            > Note: `2236` is in the format of `YYWW` (shortened year and week) and refers to when a feature is introduced.
+            > *Note*: `2236` is in the format of `YYWW` (shortened year and week) and refers to when a feature is introduced.
         - `authors` - the author's GitHub handle (e.g. `@original`)
         - `team_ownership` - (array) the team name; who owns a feature or test case.
         - `priority_p1_to_p4` - has the default value of `P2 - Core Functions (Do core functions work?)`
@@ -58,7 +58,7 @@ There are three ways to get started in contributing to this project.
 4. Once changes have been made, run `deno task validate` and see if all changes are valid. Fix errors that get flagged in the terminal.
 5. Always run `deno task check` to ensure all formatting is correct and there are no lint errors. 
 6. Create a branch and submit changes as a pull request(s).
-    > Note: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
+    > *Note*: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
 
 ### Getting started - working with integrations
 1. Checkout this repo and make sure that `Deno` is installed on your local machine or [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management).
@@ -69,9 +69,15 @@ There are three ways to get started in contributing to this project.
 4. See a list of tasks that are available at [deno.jsonc](https://github.com/mattermost/mattermost-test-management/blob/main/deno.jsonc). You can also list these tasks using the `deno task` command at the root of the repository.
     - To start up Silver Bullet (SB), run `deno task silverbullet`, then navigate to http://localhost:3333.
     - To start the test management site, navigate into the `www` folder (`cd www`), run `deno task start`, then navigate to http://localhost:8000/.
+        - The search bar in the left-hand-side (LHS) of the Test Cases page requires Elasticsearch to be running and accessible at http://localhost:9200. You can start this by entering the command `docker compose up` in the `www` folder.
 5. Always run `deno task check` to ensure all formatting is correct and there are no lint errors.
 6. Create a branch and submit changes as a pull request(s).
-    > Note: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
+    > *Note*: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
+
+## pre-commit hook
+1. GitHub Actions runs [codespell](https://github.com/codespell-project/codespell) over your `data/` folder and will point out any common spelling mistakes in the Pull Request.
+2. Locally there is .pre-commit-config.yml. You can configure as explained here, [precommit](https://pre-commit.com/)
+3. If you want to skip precommit locally, export PRE_COMMIT_ALLOW_NO_CONFIG=1, before running git commit.
 
 ## License
 Licensed under Apache License 2.0. Read the full text [here](https://github.com/mattermost/mattermost-test-management/blob/main/LICENSE).

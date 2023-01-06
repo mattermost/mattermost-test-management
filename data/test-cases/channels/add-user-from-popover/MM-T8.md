@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — UserA & UserB (not on team)"
+name: "Add User — User A & User B (not on team)"
 status: Active
 priority: Low
 folder: Add user from popover
@@ -31,18 +31,18 @@ manual_test_environments:
 id: 2746257
 key: MM-T8
 created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-10T10:54:33Z"
-case_hashed: e9120e1b7b1605014c33e4398a65660e2d9807cc21bf13f58db8b3e95b1c3d944e6b3a549edc61b3f51892dc3899bad0
+last_updated: "2023-01-05T20:36:02Z"
+case_hashed: 91d57b9fdf52b04eb839ff9c6a18e7b27f8336fe0452962a993499115a101fb7c161f8942349e71c7ac9a3a194aae904
 steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
 
-## MM-T8: Add User — UserA & UserB (not on team)
+## MM-T8: Add User — User A & User B (not on team)
 
 **Objective**
 
-- If **UserA** has never been a member of the current team, **UserB** should not see "Add to channel" option on **UserA's** profile pop-over
+- If User A has never been a member of the current team, **User B** should not see "Add to channel" option on **users's** profile pop-over
 
 **Precondition**
 

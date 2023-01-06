@@ -26,3 +26,13 @@ jobs:
 
       - name: Validate changes
         run: deno task validate
+
+      - name: Validate All
+        run: deno task validate-all
+
+      - name: Check spellings
+        uses: codespell-project/actions-codespell@master
+        with:
+          ignore_words_file: .codespellignore
+          path: data
+

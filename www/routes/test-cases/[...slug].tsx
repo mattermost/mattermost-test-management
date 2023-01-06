@@ -50,8 +50,17 @@ export const handler: Handlers<Data> = {
     if (!entry) {
       return ctx.renderNotFound();
     }
+
+    // Convert test key to uppercase to match naming convention of the actual markdown file
+    const filePath = entry.slug.split("/").map((part, index, arr) => {
+      if (index === arr.length - 1) {
+        return part.toUpperCase();
+      }
+      return part;
+    }).join("/");
+
     const url = new URL(
-      `../../../${testCasesFolderFullPath}/${entry.slug}.md`,
+      `../../../${testCasesFolderFullPath}/${filePath}.md`,
       import.meta.url,
     );
 
