@@ -39,8 +39,6 @@ steps_hashed: null
 Pre-requisites:
 
 - On an Air gapped instance, the True up Review section should be visible 15 days before end of quarter.
-- Customers will have 15 days grace period after end of quarter to submit the report.
-  eg: The review section will be visible on March 16th till April 15th. Once Admin Submits, the section should not be displayed.
 - Have 1 CWS admin account for testing.
 - From an air gapped instance have the encrypted .txt file downloaded.
 
