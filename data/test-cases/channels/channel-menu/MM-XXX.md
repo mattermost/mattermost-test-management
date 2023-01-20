@@ -65,7 +65,7 @@ steps_hashed: null
 
 **Step 4**
 
-1. Make sure there is at least two channels are present in the "Channels" category
+1. Make sure there are at least two channels are present in the "Channels" category
 1. Select both channels
 1. Click on either of channels menu option
 1. Click on the "Move to..." menu item
@@ -73,7 +73,7 @@ steps_hashed: null
 
 **Step 5**
 
-1. Make sure there is at least two DMs are present in the "Direct Messages" category
+1. Make sure there are at least two DMs are present in the "Direct Messages" category
 1. Select both DMs
 1. Click on either of DMs menu option
 1. Click on the "Move to..." menu item
@@ -82,9 +82,9 @@ steps_hashed: null
 **Step 6**
 
 1. Create a custom category in the sidebar
-1. Make sure there is at least a channel, DM and GM are present
+1. Make sure there are at least a channel, DM and GM are present
 1. Select all three channels
-1. Click on either of channels menu option
+1. Click on either of the channels menu options
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category category is displayed
 1. Verify that "Channels" and "Direct Messages" categories are not displayed
