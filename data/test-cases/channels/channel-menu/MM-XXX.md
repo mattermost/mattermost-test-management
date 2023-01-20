@@ -82,7 +82,7 @@ steps_hashed: null
 **Step 6**
 
 1. Create a custom category in the sidebar
-1. Make sure there are at least a channel, DM and GM are present
+1. Make sure there are at least a channel, DM and GM present
 1. Select all three channels
 1. Click on either of the channels menu options
 1. Click on the "Move to..." menu item
