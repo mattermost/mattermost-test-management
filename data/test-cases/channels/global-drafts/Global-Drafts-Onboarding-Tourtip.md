@@ -34,29 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-Global Drafts Onboarding Tour Point
-
-1. Open Town Square on Team1
-
-2. Add some text to the text box e.g. pineapple
-
-   1. Verify global Drafts item is added to LHS
-   2. Verify Global Drafts Onboarding Tour Point is visible with "Not Now" and "View Drafts" buttons
-   3. Verify text "With the new Drafts view, all of your unfinished messages are collected in one place. Return here to read, edit, or send draft messages."
-
-3. Click on View Drafts
-
-   1. Verify global draft inbox opens
-
-**Expected**
-
-- When user starts a draft for the first time, Global Draft LHS item is shown with the onboarding tooltip. Global Drafts Onboarding Tour Point is not shown on subsequent draft creation. 
-
----
-
-**Step 2**
-
-Global Drafts Onboarding Tour Point is only shown once
+Global Drafts Onboarding Tour Point shown for first draft
 
 1. Open Town Square on Team1
 
@@ -76,14 +54,14 @@ Global Drafts Onboarding Tour Point is only shown once
 5. Start a new draft by adding some text to the text box
 
    1. Verify no tooltip on global draft item on the sidebar
-
+   
 **Expected**
 
-- Global Drafts Onboarding Tour Point is not shown on subsequent draft creation. 
+- When user starts a draft for the first time, Global Draft LHS item is shown with the onboarding tooltip. Global Drafts Onboarding Tour Point is not shown on subsequent draft creation. 
 
 ---
 
-**Step 3**
+**Step 2**
 
 User can dismiss Global Drafts Onboarding Tour without viewing Global Drafts inbox
 
