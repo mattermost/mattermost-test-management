@@ -73,7 +73,7 @@ User can dismiss Global Drafts Onboarding Tour without viewing Global Drafts inb
    2. Verify Global Drafts Onboarding Tour Point is visible with "Not Now" and "View Drafts" buttons
    3. Verify text "With the new Drafts view, all of your unfinished messages are collected in one place. Return here to read, edit, or send draft messages."
 
-3. Click on Not Now button on the tour
+3. Click on "Not Now" button on the tour
 
    1. Verify tour tip is dismissed
    2. Verify user remains on the current channel 
