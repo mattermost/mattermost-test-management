@@ -82,9 +82,9 @@ steps_hashed: null
 **Step 6**
 
 1. Create a custom category in the sidebar
-1. Make sure there is a channel, DM and GM present
+1. Make sure there are at least a channel, DM and GM present
 1. Select all three channels
-1. Click on any one of the channel's menu options
+1. Click on either of the channels menu options
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category category is displayed
 1. Verify that "Channels" and "Direct Messages" categories are not displayed
