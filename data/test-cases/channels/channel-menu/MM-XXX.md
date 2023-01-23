@@ -39,52 +39,52 @@ steps_hashed: null
 1. Click on the channel menu option of any channel
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category and "Channels" categories are displayed
-1. Go to the clicked channel
+1. Go to the previously selected channel
 1. Click on the channel header dropdown menu and click on "Move to..."
 1. Verify that "Favorite" category, followed by created custom category and "Channels" categories are displayed
 
 **Step 2**
 
 1. Create a custom category in the sidebar
-1. Click on a DM channel menu option
+1. Click on any DM channel menu option
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category and "Direct Messages" categories are displayed
-1. Go to the clicked DM channel
+1. Go to the previously selected DM channel
 1. Click on the channel header dropdown menu and click on "Move to..."
 1. Verify that "Favorite" category, followed by created custom category and "Direct Messages" categories are displayed
 
 **Step 3**
 
 1. Create a custom category in the sidebar
-1. Click on a GM channel menu option
+1. Click on any GM channel menu option
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category and "Direct Messages" categories are displayed
-1. Go to the clicked GM channel
+1. Go to the previously selected GM channel
 1. Click on the channel header dropdown menu and click on "Move to..."
 1. Verify that "Favorite" category, followed by created custom category and "Direct Messages" categories are displayed
 
 **Step 4**
 
-1. Make sure there is at least two channels are present in the "Channels" category
+1. Make sure there are at least two channels present in the "Channels" category
 1. Select both channels
-1. Click on either of channels menu option
+1. Click on either of the channel's menu options
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by "Channels" categories are displayed and "Direct Messages" category is not displayed
 
 **Step 5**
 
-1. Make sure there is at least two DMs are present in the "Direct Messages" category
+1. Make sure there are at least two DMs present in the "Direct Messages" category
 1. Select both DMs
-1. Click on either of DMs menu option
+1. Click on either of the DM's menu options
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by "Direct Messages" categories are displayed and "Channels" category is not displayed
 
 **Step 6**
 
 1. Create a custom category in the sidebar
-1. Make sure there is at least a channel, DM and GM are present
+1. Make sure there is a channel, DM and GM present
 1. Select all three channels
-1. Click on either of channels menu option
+1. Click on any one of the channel's menu options
 1. Click on the "Move to..." menu item
 1. Verify that "Favorite" category, followed by created custom category category is displayed
 1. Verify that "Channels" and "Direct Messages" categories are not displayed
