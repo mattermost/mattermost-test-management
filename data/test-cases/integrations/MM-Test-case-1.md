@@ -36,14 +36,14 @@ steps_hashed: null
 **Step 1**
 
 1. Login as **sysadmin**
-2. Create **channelA** **channelB** **channelC** **channelD** and **userA** **userB** **userC**
+2. Create **channelA** **channelB** **channelC** **channelD** and **user-A** **user-B** **user-C**
 3. Go to **channelA**
-4. Type /invite **@userA** **@userB**
-5. Type /invite **@userC** **~channelB**
-6. Type /invite **@userA** **u@serB** **@serC** **~channelC** **~chanmelD**
+4. Type /invite **@user-A** **@user-B**
+5. Type /invite **@user-C** **~channelB**
+6. Type /invite **@user-A** **user-B** **user-C** **~channelC** **~chanmelD**
 
 **Expected**
 
-5. **userA** and **userB** should be added in **channelB**
-6. **userC** should be added in **channelB**
-7. **userA** **userB** **userC** should be added in **channelC** **chanmelD**
+5. **user-A** and **user-B** should be added in **channelB**
+6. **user-C** should be added in **channelB**
+7. **user-A** **user-B** **user-C** should be added in **channelC** **chanmelD**

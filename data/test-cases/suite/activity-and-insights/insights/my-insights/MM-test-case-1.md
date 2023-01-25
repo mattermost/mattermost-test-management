@@ -37,7 +37,7 @@ steps_hashed: null
 
 1. Login as **sysadmin**
 2. Create **ChannelA**
-3. Post a messae in **channelA**
+3. Post a message in **channelA**
 4. Add a emoji in posted message
 5. Select **Insight** from LHS
 6. Go to **Top reactions**
