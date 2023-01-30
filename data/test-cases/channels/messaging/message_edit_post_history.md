@@ -61,7 +61,7 @@ Show, restore older versions of a message and click undo in toast
 
 1. Get the last post id
 2. Click the restore button on the first version of the message
-3. COnfirm the resttore
+3. Confirm the restore
 4. Wait for the message to be updated 
 5. Click the undo button on the toast
 6. Wait for the message to be updated 
