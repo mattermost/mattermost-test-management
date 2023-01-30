@@ -41,7 +41,7 @@ Show and restore older versions of a message
 2. Post a message "This is a sample message"
 3. Edit message "This is an edited sample message"
 4. Edit message again to "This is the final version of the sample message"
-5. Open edit history by clicking on edited post link
+5. Open edit history by clicking "`<pencil icon>` Edited" button of the post
 6. Check if the current version of the message is visible
 7. Check if the previous versions of the message are visible and correct in the history
 8. Click the restore button on the first version of the message
