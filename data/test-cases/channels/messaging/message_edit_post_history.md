@@ -65,7 +65,7 @@ Show, restore older versions of a message and click undo in toast
 4. Wait for the message to be updated 
 5. Click the undo button on the toast
 6. Wait for the message to be updated 
-7. Check if the messsage has been updated to the correct version "This is the final version of the sample message"
+7. Check if the message has been updated to the correct version "This is the final version of the sample message"
 
 **Expected**
 
