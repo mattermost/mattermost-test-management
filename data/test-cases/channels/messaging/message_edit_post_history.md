@@ -59,7 +59,7 @@ User can restore previous version of the message from Edit History
 
 Show, restore older versions of a message and click undo in toast
 
-1. Get the last post id
+1. Get the last post
 2. Click the restore button on the first version of the message
 3. Confirm the restore
 4. Wait for the message to be updated 
