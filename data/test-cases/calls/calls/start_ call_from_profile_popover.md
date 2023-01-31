@@ -43,7 +43,7 @@ Call User - Call should start in DM channel
 6. Click on Start a call button, phone icon 
 7. Wait for the call to start
     1. Verify that the call did not start in the current channel
-    2. Verify that DM channel with test user is created
+    2. Verify that DM channel with test user is created on the channel sidebar
     3. Verify that the call started in the DM channel 
 
 
