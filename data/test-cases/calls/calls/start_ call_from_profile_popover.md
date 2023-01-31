@@ -30,6 +30,7 @@ created_on: null
 last_updated: null
 case_hashed: null
 steps_hashed: null
+
 ---
 
 **Step 1**
@@ -45,7 +46,6 @@ Call User - Call should start in DM channel
     1. Verify that the call did not start in the current channel
     2. Verify that DM channel with test user is created on the channel sidebar
     3. Verify that the call started in the DM channel 
-
 
 **Expected**
 
