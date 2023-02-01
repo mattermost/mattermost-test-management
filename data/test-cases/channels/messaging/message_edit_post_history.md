@@ -70,3 +70,18 @@ Show, restore older versions of a message and click undo in toast
 **Expected**
 
 User can cancel restore of the previous version of the message by clicking Undo on the toast.
+
+---
+
+**Step 3**
+
+Edit history should not be available when user lacks edit own posts permissions
+
+1. Login as sysadmin and update edit own posts permissions
+2. Click the edited indicator on the post
+    1. Confirm edit history is not visible
+    
+    
+**Expected**
+
+Edit history is not avaiable when user lacks edit own post permissions 
