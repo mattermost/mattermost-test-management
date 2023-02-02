@@ -5732,11 +5732,11 @@
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T4868.md"
                   },
                   {
-                    "name": "Annual Subscription | Pricing Modal | Option for user to Choose Yearly or Monthly subscription.",
+                    "name": "Monthly subscriptions: In-product banner to switch to annual",
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T5127.md"
                   },
                   {
-                    "name": "Annual Subscription | Payment Page | RHS | Customer should be able to add No. Of seats and select 'Monthly' or 'yearly' subscription",
+                    "name": "Annual Subscription | Payment Page | Customer should be able to change from 'Monthly' or 'yearly' subscription",
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T5128.md"
                   }
                 ]
@@ -8596,7 +8596,7 @@
         "name": "Invite People",
         "routes": [
           {
-            "name": "Should open the invite screen",
+            "name": "Mobile V2: Invite - Copy and share invite link",
             "file": "mobile-v2/invite-people/MM-T5360.md"
           },
           {
@@ -16940,6 +16940,10 @@
             "file": "suite/trial-license/MM-T4035.md"
           }
         ]
+      },
+      {
+        "name": "Work Templates",
+        "routes": [{ "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" }]
       }
     ]
   },
