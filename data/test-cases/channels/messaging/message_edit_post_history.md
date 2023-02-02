@@ -84,4 +84,4 @@ Edit history should not be available when user lacks edit own posts permissions
     
 **Expected**
 
-Edit history is not avaiable when user lacks edit own post permissions 
+Edit history is not available when user lacks edit own post permissions 
