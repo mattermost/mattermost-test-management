@@ -1106,6 +1106,7 @@
       "Edit a message in search results RHS",
       "Edit code block",
       "Edit long message - edit box expands to larger size",
+      "Edit message - post history",
       "Edit non-list to be numbered list",
       "Edit post that has attachment, paste text in middle",
       "Edit post with 'strikethrough' and ensure channel auto-complete closes after second tilde (~~)",
@@ -1904,8 +1905,7 @@
     "tests": [
       "'Subscribe now' navigation and closing of Subscribe window",
       "'Upgrade' button should be enabled only after having mandatory fields filled valid data",
-      "Annual Subscription | Payment Page | RHS | Customer should be able to add No. Of seats and select 'Monthly' or 'yearly' subscription",
-      "Annual Subscription | Pricing Modal | Option for user to Choose Yearly or Monthly subscription.",
+      "Annual Subscription | Payment Page | Customer should be able to change from 'Monthly' or 'yearly' subscription",
       "By default Paid status should be displayed in the Last Invoice section",
       "Clicking 'Contact support' link should display 'cloud/contact-us?email=[logged in user email address]&name=%20&inquiry=technical' page",
       "Clicking 'Subscribe' button on '/admin-console/billing/subscription' page should display success message",
@@ -1915,6 +1915,7 @@
       "Clicking on Download button should download the PDF file in the Last Invoice section",
       "Contact Sales navigation from Subscription screen",
       "Enable/disable 'Subscribe' button in Purchase modal",
+      "Monthly subscriptions: In-product banner to switch to annual",
       "Purchase modal UI check",
       "Subscription page UI check",
       "Subscription page — Limits reached banner",
@@ -3046,11 +3047,11 @@
   {
     "folder": "mobile-v2/invite-people",
     "tests": [
+      "Mobile V2: Invite - Copy and share invite link",
       "Should be able to send email invite",
       "Should be able to send user invite",
       "Should handle both sent and not sent invites",
       "Should not be able to send user invite to user already in team",
-      "Should open the invite screen",
       "Should show no results item in search list"
     ]
   },
@@ -5889,6 +5890,7 @@
     "tests": ["RN apps: Telemetry", "Sidebar - new category telemetry"]
   },
   { "folder": "suite/trial-license", "tests": ["Make Sure All Feature Discoveries Exist"] },
+  { "folder": "suite/work-templates", "tests": ["Create a work template"] },
   {
     "folder": "ticket-coverage",
     "tests": [
