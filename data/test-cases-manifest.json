@@ -628,7 +628,13 @@
     "routes": [
       {
         "name": "Calls",
-        "routes": [{ "name": "Cloud Call Limits", "file": "calls/calls/MM-T4812.md" }]
+        "routes": [
+          { "name": "Cloud Call Limits", "file": "calls/calls/MM-T4812.md" },
+          {
+            "name": "Call User - Call triggered on profile popover starts in the DM with the user",
+            "file": "calls/calls/MM-T5382.md"
+          }
+        ]
       },
       { "name": "Calls UI Functionality - Self-managed", "file": "calls/MM-T4841.md" },
       { "name": "Calls UI Functionality - Cloud", "file": "calls/MM-T4842.md" },

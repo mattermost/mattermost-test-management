@@ -253,7 +253,13 @@
     "folder": "calls",
     "tests": ["Calls UI Functionality - Cloud", "Calls UI Functionality - Self-managed"]
   },
-  { "folder": "calls/calls", "tests": ["Cloud Call Limits"] },
+  {
+    "folder": "calls/calls",
+    "tests": [
+      "Call User - Call triggered on profile popover starts in the DM with the user",
+      "Cloud Call Limits"
+    ]
+  },
   { "folder": "calls/mobile", "tests": ["RN apps: Calls", "RN apps: Calls Plugin"] },
   {
     "folder": "channels",
