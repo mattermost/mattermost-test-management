@@ -44,5 +44,5 @@ steps_hashed: null
 **Expected**
 
 2. Customization page should be displayed
-3. ***Help Link** should be empty
+3. **Help Link** should be empty
 4. **Help Resources** option should not be exist
