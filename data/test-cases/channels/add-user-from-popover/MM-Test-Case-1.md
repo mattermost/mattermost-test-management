@@ -34,8 +34,8 @@ steps_hashed: null
 **Step 1**
 
 1. login as **sysadmin**
-2. Create **userA** and DM
-3. Click **userA** name to launch the profile popover
+2. Create **user-A** and DM
+3. Click **user-A** name to launch the profile popover
 
 **Expected**
 

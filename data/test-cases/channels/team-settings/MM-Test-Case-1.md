@@ -35,9 +35,9 @@ steps_hashed: null
 **Step 1**
 
 1. Login as **sysadmin**
-2. Create **userA** and **userB**
-3. Create **TeamA**
-4. Write down the Email addresses of **userA**, **userB** and **sysadmin** in any text document
+2. Create **user-A** and **user-B**
+3. Create **Team-A**
+4. Write down the Email addresses of **user-A**, **user-B** and **sysadmin** in any text document
 
 - (Example: usera@example.com,userb@example.com OR usera@example.com userb@example.com OR usera@example.com;userb@example.com)
 
@@ -48,6 +48,6 @@ steps_hashed: null
 
 **Expected**
 
-7. Message should be shown for **userA** and **userB**, **This member has been added to the Team.**
+7. Message should be shown for **user-A** and **user-B**, **This member has been added to the team.**
 8. Message should be shown for **sysadmin**, **This person is already a team member**.
-9. **userA** and **userB** should be added in **TeamA**
+9. **user-A** and **user-B** should be added in **Team-A**
