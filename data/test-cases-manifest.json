@@ -628,7 +628,13 @@
     "routes": [
       {
         "name": "Calls",
-        "routes": [{ "name": "Cloud Call Limits", "file": "calls/calls/MM-T4812.md" }]
+        "routes": [
+          { "name": "Cloud Call Limits", "file": "calls/calls/MM-T4812.md" },
+          {
+            "name": "Call User - Call triggered on profile popover starts in the DM with the user",
+            "file": "calls/calls/MM-T5382.md"
+          }
+        ]
       },
       { "name": "Calls UI Functionality - Self-managed", "file": "calls/MM-T4841.md" },
       { "name": "Calls UI Functionality - Cloud", "file": "calls/MM-T4842.md" },
@@ -3997,6 +4003,7 @@
             "name": "RN apps: User disappears from mention autocomplete suggestions as soon as they are deactivated",
             "file": "channels/messaging/MM-T511.md"
           },
+          { "name": "Edit message - post history", "file": "channels/messaging/MM-T5381.md" },
           {
             "name": "At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment",
             "file": "channels/messaging/MM-T70.md"
@@ -5732,11 +5739,11 @@
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T4868.md"
                   },
                   {
-                    "name": "Annual Subscription | Pricing Modal | Option for user to Choose Yearly or Monthly subscription.",
+                    "name": "Monthly subscriptions: In-product banner to switch to annual",
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T5127.md"
                   },
                   {
-                    "name": "Annual Subscription | Payment Page | RHS | Customer should be able to add No. Of seats and select 'Monthly' or 'yearly' subscription",
+                    "name": "Annual Subscription | Payment Page | Customer should be able to change from 'Monthly' or 'yearly' subscription",
                     "file": "cloud/automated-tests/system-console/subscription-/MM-T5128.md"
                   }
                 ]
@@ -8596,11 +8603,11 @@
         "name": "Invite People",
         "routes": [
           {
-            "name": "Should open the invite screen",
+            "name": "Mobile V2: Invite - Copy and share invite link",
             "file": "mobile-v2/invite-people/MM-T5360.md"
           },
           {
-            "name": "Should show no results item in search list",
+            "name": "Mobile V2: Invite - Should show no results item in search list",
             "file": "mobile-v2/invite-people/MM-T5361.md"
           },
           {
@@ -16328,6 +16335,10 @@
                   {
                     "name": "Help (Ask community link setting)",
                     "file": "suite/system-console/site-configuration/customization/MM-T3289.md"
+                  },
+                  {
+                    "name": "Hide Help Resources button when help link is empty",
+                    "file": "suite/system-console/site-configuration/customization/MM-T5383.md"
                   }
                 ]
               },
@@ -16940,6 +16951,10 @@
             "file": "suite/trial-license/MM-T4035.md"
           }
         ]
+      },
+      {
+        "name": "Work Templates",
+        "routes": [{ "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" }]
       }
     ]
   },
