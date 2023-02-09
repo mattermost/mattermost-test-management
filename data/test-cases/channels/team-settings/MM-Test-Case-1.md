@@ -39,7 +39,7 @@ steps_hashed: null
 3. Create **Team-A**
 4. Write down the Email addresses of **user-A**, **user-B** and **sysadmin** in any text document
 
-- (Example: usera@example.com,userb@example.com OR usera@example.com userb@example.com OR usera@example.com;userb@example.com)
+- (Example: user_a@example.com,userb@example.com OR user_b@example.com userb@example.com OR sysadmin@example.com;userb@example.com)
 
 5. Go to **Invite Members** or **Invite People** model
 6. Paste Email addresses from step no:4
