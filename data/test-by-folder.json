@@ -3054,11 +3054,11 @@
     "folder": "mobile-v2/invite-people",
     "tests": [
       "Mobile V2: Invite - Copy and share invite link",
+      "Mobile V2: Invite - Should show no results item in search list",
       "Should be able to send email invite",
       "Should be able to send user invite",
       "Should handle both sent and not sent invites",
-      "Should not be able to send user invite to user already in team",
-      "Should show no results item in search list"
+      "Should not be able to send user invite to user already in team"
     ]
   },
   {
@@ -5711,6 +5711,7 @@
       "Customization: Blank TOS link field (login page)",
       "Customization: Custom Terms and Privacy links in the About modal",
       "Help (Ask community link setting)",
+      "Hide Help Resources button when help link is empty",
       "Localization - Only one available language",
       "Site Name - Main Menu ➜ About and About Modal show custom name"
     ]
