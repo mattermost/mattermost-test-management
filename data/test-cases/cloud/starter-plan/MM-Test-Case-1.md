@@ -35,7 +35,7 @@ steps_hashed: null
 
 1. Create or log into a Cloud Workspace on the Starter plan
 2. Go to **System Console** > OpenID Connect
-3. Select OpenID Connect (other) from the drop down list.
+3. Select OpenID Connect (other) from the drop down list
 
 **Expected**
 
