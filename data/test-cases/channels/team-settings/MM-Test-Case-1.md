@@ -50,4 +50,4 @@ steps_hashed: null
 
 7. Message should be shown for **User A** and **User B**, **This member has been added to the Team.**
 8. Message should be shown for **sysadmin**, **This person is already a team member**.
-9. **userA** and **userB** should be added in **TeamA**
+9. **User A** and **User B** should be added in **Team A**
