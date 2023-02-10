@@ -35,9 +35,9 @@ steps_hashed: null
 **Step 1**
 
 1. Login as **sysadmin**
-2. Create **userA** and **userB**
+2. Create **User A** and **userB**
 3. Create **TeamA**
-4. Write down the Email addresses of **userA**, **userB** and **sysadmin** in any text document
+4. Write down the Email addresses of **User A**, **userB** and **sysadmin** in any text document
 
 - (Example: usera@example.com,userb@example.com OR usera@example.com userb@example.com OR usera@example.com;userb@example.com)
 
