@@ -352,7 +352,8 @@
       "Add User — Team admins (Private only)",
       "Add User — User A & User B (not on team)",
       "Add User — User A & User B (removed from team)",
-      "Add user — Error if already in channel"
+      "Add user — Error if already in channel",
+      "Profile Popover UI"
     ]
   },
   {
@@ -487,7 +488,10 @@
   },
   {
     "folder": "channels/channel-menu",
-    "tests": ["Leave and Archive channel actions display as destructive"]
+    "tests": [
+      "Leave and Archive channel actions display as destructive",
+      "channels/DMs/GMs move to submenus should have appropriate menu items"
+    ]
   },
   {
     "folder": "channels/channel-settings",
@@ -1753,6 +1757,7 @@
   {
     "folder": "channels/team-settings",
     "tests": [
+      "Ability to accept pasting multiple email addresses into the invite modal",
       "Allow anyone to join this team",
       "Cancel out of description edit (value entered)",
       "Cancel out of enabling joining team",
@@ -2031,7 +2036,13 @@
       "Start Trial from Invite users screen"
     ]
   },
-  { "folder": "cloud/starter-plan", "tests": ["Starter — Restrict team creation"] },
+  {
+    "folder": "cloud/starter-plan",
+    "tests": [
+      "'OpenId connect (other)' option is not available for cloud starter",
+      "Starter — Restrict team creation"
+    ]
+  },
   {
     "folder": "cloud/true-up-notifications",
     "tests": [
@@ -2361,6 +2372,7 @@
       "Integration Page titles are bolded",
       "Integration search gives feed back when there are no results.",
       "Integrations Page loads and functions with smaller window size",
+      "Multiple users/channels in invite slash command",
       "Plugin icons show in autocomplete list",
       "Prompting to set status to online from Away",
       "RN apps: Integration attachments - View Jira plugin messages",
@@ -4318,6 +4330,7 @@
       "Insights - My insights - My top reactions",
       "Insights - My insights - Open Time period filter",
       "Insights - My insights - Scope Menu Open",
+      "Insights - My insights - emoji tooltip to Top Reactions",
       "Insights - first time intro popup",
       "Insights - my Insight - Bots, self-DMs not in active direct messages",
       "Insights filters should persist when switching to channels and returning",
@@ -4583,6 +4596,7 @@
       "Custom group - username and mention conflict message",
       "Edit Group Details",
       "Edit Group Details - Error state",
+      "Show number of group members in group autocomplete",
       "User Groups Modal-  Edit Group Details",
       "User Groups Modal-Create Group",
       "User Groups Modal-Group Filter Menu",

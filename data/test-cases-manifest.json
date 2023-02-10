@@ -933,6 +933,7 @@
             "name": "Add User — User A & User B (removed from team)",
             "file": "channels/add-user-from-popover/MM-T5.md"
           },
+          { "name": "Profile Popover UI", "file": "channels/add-user-from-popover/MM-T5384.md" },
           {
             "name": "Add User — Channel admins (Public only)",
             "file": "channels/add-user-from-popover/MM-T6.md"
@@ -1396,6 +1397,10 @@
           {
             "name": "Leave and Archive channel actions display as destructive",
             "file": "channels/channel-menu/MM-T4943.md"
+          },
+          {
+            "name": "channels/DMs/GMs move to submenus should have appropriate menu items",
+            "file": "channels/channel-menu/MM-T5385.md"
           }
         ]
       },
@@ -5490,6 +5495,10 @@
           {
             "name": "User tries to go to archived team",
             "file": "channels/team-settings/MM-T5299.md"
+          },
+          {
+            "name": "Ability to accept pasting multiple email addresses into the invite modal",
+            "file": "channels/team-settings/MM-T5386.md"
           }
         ]
       },
@@ -6099,7 +6108,11 @@
       {
         "name": "Starter Plan",
         "routes": [
-          { "name": "Starter — Restrict team creation", "file": "cloud/starter-plan/MM-T4869.md" }
+          { "name": "Starter — Restrict team creation", "file": "cloud/starter-plan/MM-T4869.md" },
+          {
+            "name": "'OpenId connect (other)' option is not available for cloud starter",
+            "file": "cloud/starter-plan/MM-T5387.md"
+          }
         ]
       },
       {
@@ -7458,6 +7471,10 @@
       { "name": "/autolink list - list all configured links.", "file": "integrations/MM-T3514.md" },
       { "name": "/autolink list by template", "file": "integrations/MM-T3516.md" },
       { "name": "Plugin icons show in autocomplete list", "file": "integrations/MM-T4115.md" },
+      {
+        "name": "Multiple users/channels in invite slash command",
+        "file": "integrations/MM-T5388.md"
+      },
       {
         "name": "Integrations Page loads and functions with smaller window size",
         "file": "integrations/MM-T569.md"
@@ -12091,6 +12108,10 @@
                   {
                     "name": "Insights -  My Insights view as an item in the command-k channel switcher",
                     "file": "suite/activity-and-insights/insights/my-insights/MM-T5191.md"
+                  },
+                  {
+                    "name": "Insights - My insights - emoji tooltip to Top Reactions",
+                    "file": "suite/activity-and-insights/insights/my-insights/MM-T5389.md"
                   }
                 ]
               },
@@ -12906,6 +12927,10 @@
           {
             "name": "Custom group - username and mention conflict message",
             "file": "suite/custom-groups/MM-T4678.md"
+          },
+          {
+            "name": "Show number of group members in group autocomplete",
+            "file": "suite/custom-groups/MM-T5390.md"
           }
         ]
       },
