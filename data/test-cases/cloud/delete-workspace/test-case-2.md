@@ -74,4 +74,4 @@ Instance should be on a Non-Starter Workspace
    - Exploring other solutions.
    - Too expensive
    - Other
-3. Should open Mattermost.com in a new window.
+8. Should open Mattermost.com in a new window.
