@@ -53,10 +53,11 @@ Instance should be on a Non-Starter Workspace
 1. On System Console > Billing & Account > Subscriptions, Click on **Delete Workspace** button.
 2. Click on **Downgrade To Free** button.
 3. Verify user is downgraded to Cloud Free.
-4. Click on **Delete Workspace** button.
-5. Once the survey question is filled, click on **Delete Workspace** button.
-6. Once the workspace is deleted, you will see a success screen stating that the workspace has been deleted.
-7. Click the Go to Mattermost.com button.
+4. User navigates back to System Console > Billing & Account > Subscriptions page.
+5. Click on **Delete Workspace** button.
+6. Once the survey question is filled, click on **Delete Workspace** button.
+7. Once the workspace is deleted, you will see a success screen stating that the workspace has been deleted.
+8. Click the Go to Mattermost.com button.
 
 **Expected**
 
@@ -67,4 +68,10 @@ Instance should be on a Non-Starter Workspace
    - Information about Number of messages, file size and number of boards in current plan.
    - **Downgrade to Free** button should be enabled.
    - **Keep subscription** button
-2. Should open Mattermost.com in a new window.
+2. Should chose 1 option among
+   - Experienced technical issues.
+   - No Longer need Cloud Professional features
+   - Exploring other solutions.
+   - Too expensive
+   - Other
+3. Should open Mattermost.com in a new window.
