@@ -1,4 +1,4 @@
-import { dotEnvConfigSync, formatDate, sortBy } from '../deps.ts';
+import { dotEnvLoadSync, formatDate, sortBy } from '../deps.ts';
 
 import { datetimeFormat, projectId, projectKey, waitTime } from './constant.ts';
 import { getParentFolderById, sliceIntoChunks, wait } from './helper.ts';
@@ -540,7 +540,7 @@ export class ZephyrClient {
 }
 
 export function makeZephyrClient() {
-  dotEnvConfigSync({ export: true });
+  dotEnvLoadSync({ export: true });
   const ZEPHYR_TOKEN = Deno.env.get('ZEPHYR_TOKEN');
 
   return new ZephyrClient(ZEPHYR_TOKEN);

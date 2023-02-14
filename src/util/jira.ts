@@ -1,4 +1,4 @@
-import { dotEnvConfigSync } from '../deps.ts';
+import { dotEnvLoadSync } from '../deps.ts';
 
 import { Component } from './types.ts';
 
@@ -62,7 +62,7 @@ export class JiraClient {
 }
 
 export function makeJiraClient() {
-  dotEnvConfigSync({ export: true });
+  dotEnvLoadSync({ export: true });
   const JIRA_PAT = Deno.env.get('JIRA_PAT');
 
   return new JiraClient(JIRA_PAT);
