@@ -65,13 +65,14 @@ Instance should be on a Non-Starter Workspace
 
 1. Verify a confirmation modal is opened
    - Title: **Are you sure you want to delete?**.
-   - Information about Number of messages, file size and number of boards in current plan.
+   - Information about Number of messages and file size in the current plan.
    - **Downgrade to Free** button should be enabled.
    - **Keep subscription** button
 2. Should chose 1 option among
-   - Experienced technical issues.
-   - No Longer need Cloud Professional features
-   - Exploring other solutions.
-   - Too expensive
+   - No longer found value.
+   - Moving to a different solution.
+   - Created a workspace by mistake.
+   - Moving to hosting my own Mattermost instance (self-hosted).
    - Other
-8. Should open Mattermost.com in a new window.
+     "Other" require more details to be submitted via a text area.
+3. Should open Mattermost.com in a new window.
