@@ -2010,6 +2010,13 @@
     ]
   },
   {
+    "folder": "cloud/delete-workspace",
+    "tests": [
+      "Verify System admin is able to successfully Delete a Workspace on monthly plan",
+      "Verify System admin is able to successfully Downgrade a Non-Starter Workspace"
+    ]
+  },
+  {
     "folder": "cloud/rhs",
     "tests": ["Channel Info RHS: Admin", "Channel Info RHS: User", "Channel Info RHS: ––draft––"]
   },
