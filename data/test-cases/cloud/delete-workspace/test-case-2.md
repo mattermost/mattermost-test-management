@@ -42,7 +42,7 @@ demo Video: https://drive.google.com/file/d/1n6VLGclx_nb6Hr8K-JNLqcg5wOAKt6JL/vi
 
 **Prerequisites:**
 
-1. Make sure its an cloud instance and logged in with System Admin user.
+1. Make sure it is a cloud instance and logged in with System Admin user.
 2. Navigate to System Console > Billing & Account > Subscriptions.
 3. Verify that at the bottom of the screen we can see '<Workspace name >' and **Delete Workspace** button.
    **Note:** Only an instance with monthly subscription plan will have delete button option. i.e Cloud Professional Or Cloud Enterprise
