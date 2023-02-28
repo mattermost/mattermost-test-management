@@ -1,8 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { sortBy } from "../../utils/deps.ts";
+import { extractFrontMatter, gfm, sortBy } from "../../utils/deps.ts";
 import { testCasesFolderFullPath } from "../../utils/constant.ts";
-import { frontMatter, gfm } from "../../utils/markdown.ts";
 import { removeFromLast } from "../../utils/utils.ts";
 
 import Header from "../../components/header.tsx";
@@ -65,7 +64,9 @@ export const handler: Handlers<Data> = {
     );
 
     const fileContent = await Deno.readTextFile(url);
-    const { body, attrs } = frontMatter<Record<string, unknown>>(fileContent);
+    const { body, attrs } = extractFrontMatter<Record<string, unknown>>(
+      fileContent,
+    );
     const page = { ...entry, markdown: body, data: attrs ?? {} };
     const resp = ctx.render({ page });
     return resp;
