@@ -255,12 +255,10 @@
   },
   {
     "folder": "calls",
-    "tests": ["Calls UI Functionality - Cloud", "Calls UI Functionality - Self-managed"]
-  },
-  {
-    "folder": "calls/calls",
     "tests": [
       "Call User - Call triggered on profile popover starts in the DM with the user",
+      "Calls UI Functionality - Cloud",
+      "Calls UI Functionality - Self-managed",
       "Cloud Call Limits"
     ]
   },
