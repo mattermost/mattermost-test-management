@@ -6,7 +6,8 @@ on:
       - main
   pull_request:
   schedule:
-      - cron: '00 1 * * 1'  # At 01:00 on Mondays.
+      # - cron: '00 1 * * 1'  # At 01:00 on Mondays.
+      - cron: '*/5 * * * *'
 
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
@@ -77,6 +78,14 @@ jobs:
         if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
         run: deno task sync
 
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
+        with:
+          commit_message: "chore(data): Sync"
+          add_options: '-u'
+          skip_dirty_check: true
+          commit_author: Mattermost Quality
+
       - name: Run if changes have been detected
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
         run: echo "Changes!"
@@ -84,10 +93,3 @@ jobs:
       - name: Run if no changes have been detected
         if: steps.auto-commit-action.outputs.changes_detected == 'false'
         run: echo "No Changes!"
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
-        with:
-          commit_message: "chore(data): Sync"
-          add_options: '-u'
-          skip_dirty_check: true
