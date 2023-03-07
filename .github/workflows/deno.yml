@@ -58,15 +58,12 @@ jobs:
       - name: Validate changes
         run: deno task validate
 
-      - name: Set env.BRANCH
-        run: echo "BRANCH=$(echo $GITHUB_REF | cut -d'/' -f 3)" >> $GITHUB_ENV
-
       - name: Save changes
-        if: env.BRANCH == 'auto-sync'
+        if: ${GITHUB_REF##*/} == 'auto-sync'
         run: deno task save
 
       - name: Sync changes
-        if: env.BRANCH == 'auto-sync'
+        if: ${GITHUB_REF##*/} == 'auto-sync'
         run: deno task sync
 
       - name: Run if changes have been detected
@@ -78,7 +75,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: env.BRANCH == 'auto-sync'
+        if: ${GITHUB_REF##*/} == 'auto-sync'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
