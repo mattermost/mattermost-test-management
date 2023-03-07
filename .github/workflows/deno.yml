@@ -84,11 +84,3 @@ jobs:
           commit_message: "chore(data): Sync"
           add_options: '-u'
           skip_dirty_check: true
-
-      - name: Run if changes have been detected
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: echo "Changes!"
-
-      - name: Run if no changes have been detected
-        if: steps.auto-commit-action.outputs.changes_detected == 'false'
-        run: echo "No Changes!"
