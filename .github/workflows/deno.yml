@@ -67,7 +67,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/78/merge' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/79/merge' }}
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
