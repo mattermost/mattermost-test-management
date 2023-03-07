@@ -70,15 +70,15 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: ${{ steps.extract_branch.outputs.branch }} == 'main'
+        if: ${{ steps.extract_branch.outputs.branch }} == main
         run: deno task save
 
       - name: Sync changes
-        if: ${{ steps.extract_branch.outputs.branch }} == 'main'
+        if: ${{ steps.extract_branch.outputs.branch }} == main
         run: deno task sync
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ steps.extract_branch.outputs.branch }} == 'main'
+        if: ${{ steps.extract_branch.outputs.branch }} == main
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
