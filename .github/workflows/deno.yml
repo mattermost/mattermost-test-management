@@ -54,11 +54,11 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/22/merge' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/79/merge' }}
         run: deno task save
 
       - name: Sync changes
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/22/merge' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/79/merge' }}
         run: deno task sync
 
       - name: Run if changes have been detected
