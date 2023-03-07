@@ -59,11 +59,11 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: ${ GITHUB_REF_NAME == 'auto-sync' }
+        if: ${GITHUB_REF_NAME} == 'auto-sync'
         run: deno task save
 
       - name: Sync changes
-        if: ${ GITHUB_REF_NAME == 'auto-sync' }
+        if: ${GITHUB_REF_NAME} == 'auto-sync'
         run: deno task sync
 
       - name: Run if changes have been detected
@@ -75,7 +75,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${ GITHUB_REF_NAME == 'auto-sync' }
+        if: ${GITHUB_REF_NAME} == 'auto-sync'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
