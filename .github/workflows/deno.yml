@@ -2,9 +2,6 @@ name: Validate changes
 
 on: pull_request
 
-permissions:
-  contents: write
-
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
@@ -12,7 +9,8 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
@@ -38,7 +36,8 @@ jobs:
 
   auto-sync:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
@@ -75,6 +74,6 @@ jobs:
           commit_message: "chore(data): Sync"
           add_options: '-u'
           skip_dirty_check: true
-          commit_author: yasserfaraazkhan
-          commit_user_name: yasserfaraazkhan
-          commit_user_email: yasser.khan@mattermost.com
+          commit_author: auto-sync-test
+          commit_user_name: auto-sync-test
+          commit_user_email: auto-sync-test@noreply.github.com
