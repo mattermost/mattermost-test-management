@@ -36,3 +36,42 @@ jobs:
           ignore_words_file: .codespellignore
           path: data
 
+  auto-sync:
+      - name: Setup repo
+        uses: actions/checkout@v3
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Verify formatting
+        run: deno task check
+
+      - name: Validate changes
+        run: deno task validate
+
+      - name: Save changes
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/22/merge' }}
+        run: deno task save
+
+      - name: Sync changes
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/22/merge' }}
+        run: deno task sync
+
+      - name: Run if changes have been detected
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: echo "Changes!"
+
+      - name: Run if no changes have been detected
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No Changes!"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/pull/78/merge' }}
+        with:
+          commit_message: "chore(data): Sync"
+          add_options: '-u'
+          skip_dirty_check: true
+          commit_author: yasserfaraazkhan
+          commit_user_name: yasserfaraazkhan
+          commit_user_email: yasser.khan@mattermost.com
