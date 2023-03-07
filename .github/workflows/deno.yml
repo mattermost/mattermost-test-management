@@ -84,7 +84,6 @@ jobs:
           commit_message: "chore(data): Sync"
           add_options: '-u'
           skip_dirty_check: true
-          commit_author: Mattermost Quality
 
       - name: Run if changes have been detected
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
