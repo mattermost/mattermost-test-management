@@ -11,7 +11,6 @@ on:
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
-  BRANCH_NAME: $(git branch --show-current)
 
 jobs:
   test:
@@ -51,6 +50,8 @@ jobs:
 
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v3.x
+        with:
+          prefix: CI_
 
       - uses: denoland/setup-deno@v1
         with:
@@ -62,17 +63,12 @@ jobs:
       - name: Validate changes
         run: deno task validate
 
-      - name: Echo
-        run: |
-          BRANCH=$(git branch --show-current)
-          echo $BRANCH
-
       - name: Save changes
-        if: env.BRANCH_NAME == 'auto-sync'
+        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
         run: deno task save
 
       - name: Sync changes
-        if: env.BRANCH_NAME == 'auto-sync'
+        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
         run: deno task sync
 
       - name: Run if changes have been detected
@@ -84,7 +80,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: env.BRANCH_NAME == 'auto-sync'
+        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
