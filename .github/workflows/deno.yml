@@ -11,7 +11,7 @@ on:
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
-  BRANCH_NAME: ${{ github.head_ref || github.ref_name }} 
+  BRANCH_NAME: $(git branch --show-current)
 
 jobs:
   test:
@@ -64,13 +64,8 @@ jobs:
 
       - name: Echo
         run: |
-          echo '--', ${{ github.ref_name }}
-          echo '--', ${{ github.ref }}
-          echo "${GITHUB_REF#refs/heads/}"
-          echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
-          echo "GITHUB_REF_NAME=$GITHUB_REF_NAME"
-          echo "::set-env name=BRANCH_NAME::$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g')"
-          echo "${BRANCH_NAME}"
+          BRANCH=$(git branch --show-current)
+          echo $BRANCH
 
       - name: Save changes
         if: env.BRANCH_NAME == 'auto-sync'
