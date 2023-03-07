@@ -49,6 +49,9 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v3
 
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v3.x
+
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
@@ -58,6 +61,16 @@ jobs:
 
       - name: Validate changes
         run: deno task validate
+
+      - name: Echo
+        run: |
+          echo '--', ${{ github.ref_name }}
+          echo '--', ${{ github.ref }}
+          echo "${GITHUB_REF#refs/heads/}"
+          echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+          echo "GITHUB_REF_NAME=$GITHUB_REF_NAME"
+          echo "::set-env name=BRANCH_NAME::$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//_/g')"
+          echo "${BRANCH_NAME}"
 
       - name: Save changes
         if: env.BRANCH_NAME == 'auto-sync'
