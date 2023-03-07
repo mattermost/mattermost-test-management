@@ -59,11 +59,11 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/auto-sync' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/merge' }}
         run: deno task save
 
       - name: Sync changes
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/auto-sync' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/merge' }}
         run: deno task sync
 
       - name: Run if changes have been detected
@@ -75,7 +75,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/auto-sync' }}
+        if: ${{ github.event_name == 'pull_request' && github.ref == 'refs/heads/merge' }}
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
