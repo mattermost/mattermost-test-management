@@ -48,10 +48,16 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v3
 
-      - name: Inject slug/short variables
-        uses: rlespinasse/github-slug-action@v3.x
-        with:
-          prefix: CI_
+      - name: Branch used
+        id: extract_branch
+        run: |
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            echo "::set-output name=branch::$(echo ${GITHUB_REF##*/})"
+          elif [[ "${GITHUB_EVENT_NAME}" == "pull_request" ]]; then
+            echo "::set-output name=branch::$(echo $GITHUB_BASE_REF)"
+          else
+            echo "::set-output name=branch::INVALID_EVENT_BRANCH_UNKNOWN"
+          fi
 
       - uses: denoland/setup-deno@v1
         with:
@@ -64,11 +70,11 @@ jobs:
         run: deno task validate
 
       - name: Save changes
-        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
+        if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
         run: deno task save
 
       - name: Sync changes
-        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
+        if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
         run: deno task sync
 
       - name: Run if changes have been detected
@@ -80,7 +86,7 @@ jobs:
         run: echo "No Changes!"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: CI_GITHUB_HEAD_REF_SLUG == 'auto-sync'
+        if: ${{ steps.extract_branch.outputs.branch }} == 'auto-sync'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
