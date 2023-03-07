@@ -37,6 +37,9 @@ jobs:
           path: data
 
   auto-sync:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Setup repo
         uses: actions/checkout@v3
 
