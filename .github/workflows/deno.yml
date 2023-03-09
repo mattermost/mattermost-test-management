@@ -1,9 +1,11 @@
 name: Validate changes
 
-on: pull_request
-
-permissions:
-  contents: read
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
@@ -12,7 +14,8 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
@@ -36,3 +39,21 @@ jobs:
           ignore_words_file: .codespellignore
           path: data
 
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v6
+
+      - name: Save changes
+        if: steps.branch-name.outputs.is_default == 'true'
+        run: deno task save
+
+      - name: Sync changes
+        if: steps.branch-name.outputs.is_default == 'true'
+        run: deno task sync
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        if: steps.branch-name.outputs.is_default == 'true'
+        with:
+          commit_message: "chore(data): Sync"
+          add_options: '-u'
+          skip_dirty_check: true
