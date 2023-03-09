@@ -44,15 +44,15 @@ jobs:
         uses: tj-actions/branch-names@v6
 
       - name: Save changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task save
 
       - name: Sync changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task sync
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
