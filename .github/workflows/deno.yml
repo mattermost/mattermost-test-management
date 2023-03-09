@@ -7,6 +7,7 @@ on:
   pull_request:
   schedule:
       - cron: '00 1 * * 1'
+  workflow_dispatch:
 
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
@@ -16,7 +17,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
@@ -40,14 +41,6 @@ jobs:
           ignore_words_file: .codespellignore
           path: data
 
-  auto-sync:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Setup repo
-        uses: actions/checkout@v3
-
       - name: Branch used
         id: extract_branch
         run: |
@@ -59,26 +52,16 @@ jobs:
             echo "branch=INVALID_EVENT_BRANCH_UNKNOWN" >> $GITHUB_OUTPUT
           fi
 
-      - uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-
-      - name: Verify formatting
-        run: deno task check
-
-      - name: Validate changes
-        run: deno task validate
-
       - name: Save changes
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: ${{ steps.extract_branch.outputs.branch }} == auto-sync
         run: deno task save
 
       - name: Sync changes
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: ${{ steps.extract_branch.outputs.branch }} == auto-sync
         run: deno task sync
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: ${{ steps.extract_branch.outputs.branch }} == auto-sync
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
