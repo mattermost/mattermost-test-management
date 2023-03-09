@@ -43,21 +43,16 @@ jobs:
         id: branch-name
         uses: tj-actions/branch-names@v6
 
-      - name: Current branch name
-        run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-          echo "${{ steps.branch-name.outputs.default_branch }}"
-
       - name: Save changes
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-name.outputs.is_default == 'true'
         run: deno task save
 
       - name: Sync changes
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-name.outputs.is_default == 'true'
         run: deno task sync
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-name.outputs.is_default == 'true'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
