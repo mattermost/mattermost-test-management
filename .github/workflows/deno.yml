@@ -39,27 +39,25 @@ jobs:
           ignore_words_file: .codespellignore
           path: data
 
-      - name: Branch used
-        id: extract_branch
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v6
+
+      - name: Current branch name
         run: |
-          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
-            echo "branch=$(echo ${GITHUB_REF##*/})" >> $GITHUB_OUTPUT
-          elif [[ "${GITHUB_EVENT_NAME}" == "pull_request" ]]; then
-            echo "branch=$(echo $GITHUB_BASE_REF)" >> $GITHUB_OUTPUT
-          else
-            echo "branch=INVALID_EVENT_BRANCH_UNKNOWN" >> $GITHUB_OUTPUT
-          fi
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+          echo "${{ steps.branch-name.outputs.default_branch }}"
 
       - name: Save changes
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task save
 
       - name: Sync changes
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task sync
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ steps.extract_branch.outputs.branch }} == main
+        if: steps.branch-name.outputs.is_default == 'false'
         with:
           commit_message: "chore(data): Sync"
           add_options: '-u'
