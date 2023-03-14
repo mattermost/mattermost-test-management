@@ -38,7 +38,7 @@ Ref Epic: <https://mattermost.atlassian.net/browse/MM-50363>
 
 Pre-requisites:
 
-- Should be a selfhosted instance.
+- Should be a air-gapped selfhosted instance.
 - Should not be in renewal period
 - Should not be a sales-serve
 - Should have crossed the Number of seats
@@ -49,12 +49,4 @@ Test:
 2. Verify Global banner with message indicating Number of Seats crossed and a button with test 'Update seat count'
 3. Verify CTA is shown message with Number of Seats crossed and Clickable like with text 'Update seat count'
 4. Verify a button with text 'Add seats' is displayed in license section.
-5. Verify Clicking on Global banner, CTA link or Add seats button, the purchase modal is opened
-6. Verify the user is able to enter Seat count greater than 0 in the RHS section. The price is Prorated (Seats * remaining months)
-7. Verify the purchase is complete successfully
-8. Verify the license is applied automatically and the banners are not shown
-9. Verify the Billing page shows purchase details
-
-(extra manual)
-10. Verify the purchase email is received with attached licens copy and purchase details
-11. Verify re-uploading license to confirm nothing is broken.
+5. Verify Clicking on Global banner, CTA link or Add seats button, the purchase modal is opened prompt asking user to goto contact sales or manage account from portal

@@ -42,7 +42,7 @@ Pre-requisites:
 - Should not be in renewal period
 - Should not be a sales-serve
 - Should have crossed the Number of seats
-- should not be Airgapped
+- Should not be Airgapped
 
 Test:
 
