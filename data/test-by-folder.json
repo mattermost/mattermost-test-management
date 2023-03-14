@@ -1978,8 +1978,7 @@
     "tests": [
       "Co-term Expansion | Air-gapped instance should prompt customer to navigate to portal when intending to Add seats",
       "Co-term Expansion | Should be successful in adding more seats from within the product",
-      "Co-term Expansion | Should not be available when instance is up for renewal",
-      "Renewal | Should be available to Renew within the product"
+      "Co-term Expansion | Should not be available when instance is up for renewal"
     ]
   },
   {
@@ -2028,6 +2027,10 @@
       "Verify System admin is able to successfully Delete a Workspace on monthly plan",
       "Verify System admin is able to successfully Downgrade a Non-Starter Workspace"
     ]
+  },
+  {
+    "folder": "cloud/in-product-renewal",
+    "tests": ["Renewal | Should be available to Renew within the product"]
   },
   {
     "folder": "cloud/rhs",

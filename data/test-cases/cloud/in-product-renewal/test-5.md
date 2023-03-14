@@ -3,7 +3,7 @@
 name: "Renewal | Should be available to Renew within the product"
 status: Active
 priority: Normal
-folder: Co term expansion
+folder: In-product Renewal
 authors: "@yasserfaraazkhan"
 team_ownership: 
 - Self-Serve
