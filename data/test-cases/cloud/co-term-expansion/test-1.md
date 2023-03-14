@@ -57,5 +57,5 @@ Test:
 9. Verify the Billing page shows purchase details
 
 (extra manual)
-10. Verify the purchase email is received with attached licens copy and purchase details
+10. Verify the purchase email is received with attached license copy and purchase details
 11. Verify re-uploading license to confirm nothing is broken.
