@@ -36,8 +36,6 @@ steps_hashed: null
 
 <https://mattermost.atlassian.net/browse/MM-50746>
 
-Should discard any changes made after cancelling the edit and opening the edit textbox again should display the original message
-
 1. Post a message in a channel
 2. Hit 'arrow-up' to open the edit box
 3. Edit the message
