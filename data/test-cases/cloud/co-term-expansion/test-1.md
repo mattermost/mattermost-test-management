@@ -41,7 +41,6 @@ Pre-requisites:
 - Should be a selfhosted instance.
 - Should not be in renewal period
 - Should not be a sales-serve
-- Should have crossed the Number of seats
 - Should not be Airgapped
 
 Test:
