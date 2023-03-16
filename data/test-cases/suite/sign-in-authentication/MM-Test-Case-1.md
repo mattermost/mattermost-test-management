@@ -53,7 +53,7 @@ Steps:
 13. **Enable sign-in with username** set to **true**
 14. Click **save**
 15. **Enable sign-in with email** set to **false**
-16. **Enable sign-in with username` set to **false**
+16. **Enable sign-in with username** set to **false**
 17. Click **save**
 
 **Expected**
