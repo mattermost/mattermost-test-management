@@ -67,7 +67,7 @@ jobs:
       #   if: steps.branch-name.outputs.is_default == 'false'
       #   uses: peter-evans/create-pull-request@v3
       #   with:
-      #     token: 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 #${{ secrets.GITHUB_TOKEN }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
       #     commit-message: 'Sync(data)'
       #     title: 'Update changes to Test cases'
       #     body: 'Pull request to update data from Zephyr.'
@@ -79,7 +79,7 @@ jobs:
       - name: Run the Action
         uses: devops-infra/action-pull-request@v0.5.5
         with:
-          github_token: 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
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: data-sync
           target_branch: main
           title: My pull request
