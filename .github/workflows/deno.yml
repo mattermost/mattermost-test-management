@@ -78,4 +78,5 @@ jobs:
           commit-message: 'chore(data): Sync'
           committer: mattermost-quality
           author: qa@mattermost.com
-          
+          base: main
+          branch: data-sync
