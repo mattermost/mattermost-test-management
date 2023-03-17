@@ -64,15 +64,12 @@ jobs:
 
 
       - name: Create Pull Request
-        id: cpr
+        if: steps.branch-name.outputs.is_default == 'false'
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.PAT }}
-
-      - name: Enable Pull Request Automerge
-        if: steps.cpr.outputs.pull-request-operation == 'created'
-        uses: peter-evans/enable-pull-request-automerge@v2
-        with:
-          token: ${{ secrets.PAT }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-          merge-method: squash
+          token: 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 #${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Sync(data)"
+          title: "Update changes to Test cases"
+          body: "Pull request to update data from Zephyr."
+          branch: "data-sync"
+          base: "main"
