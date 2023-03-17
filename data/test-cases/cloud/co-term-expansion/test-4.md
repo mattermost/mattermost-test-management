@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Co-term Expansion | Sales-Serve instance should show Contact sales in the Global banner and CTA"
+name: "Co-term Expansion | Sales-Serve instance should show Contact sales in the Global banner, CTA and not show Add seats Option"
 status: Active
 priority: Normal
 folder: Co term expansion
@@ -49,6 +49,7 @@ Test:
 3. Verify CTA is shown message with Number of Seats crossed and Clickable like with text 'Contact Sales'
 4. Verify a button with text 'Add seats' is displayed in license section.
 5. Verify Clicking on Global banner, CTA link or Add seats button, Contact Sales Zendesk form is opened.
+6. Verify that 'Add seats' button is NOT displayed in license section.
 
 (extra manual)
 6. Verify the Zendesk for has pre-filled data like Subject, Email, timezone.
