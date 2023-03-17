@@ -44,19 +44,35 @@ jobs:
         uses: tj-actions/branch-names@v6
 
       - name: Save changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task save
 
       - name: Sync changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task sync
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        if: steps.branch-name.outputs.is_default == 'true'
-        with:
-          commit_message: "chore(data): Sync"
-          add_options: '-u'
-          skip_dirty_check: true
-          commit_user_name: mattermost-quality
-          commit_user_email: qa@mattermost.com
+      # - uses: stefanzweifel/git-auto-commit-action@v4
+      #   if: steps.branch-name.outputs.is_default == 'false'
+      #   with:
+      #     commit_message: "chore(data): Sync"
+      #     create_branch: true
+      #     branch: data-sync
+      #     add_options: '-u'
+      #     skip_dirty_check: true
+      #     commit_user_name: mattermost-quality
+      #     commit_user_email: qa@mattermost.com
 
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        uses: peter-evans/enable-pull-request-automerge@v2
+        with:
+          token: ${{ secrets.PAT }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
