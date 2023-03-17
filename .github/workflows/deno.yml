@@ -79,7 +79,7 @@ jobs:
       - name: Run the Action
         uses: devops-infra/action-pull-request@v0.5.5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           source_branch: data-sync
           target_branch: main
           title: My pull request
