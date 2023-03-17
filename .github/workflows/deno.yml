@@ -68,13 +68,9 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           signoff: false
-
           title: Sync updates
           body: "**Pull request to update data from Zephyr**"
-          reviewer: mattermost-quality
-          assignee: mattermost-quality
           draft: false
-          allow_no_diff: false
           commit-message: 'chore(data): Sync'
           committer: mattermost-quality
           author: qa@mattermost.com
