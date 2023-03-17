@@ -63,15 +63,29 @@ jobs:
       #     commit_user_email: qa@mattermost.com
 
 
-      - name: Create Pull Request
-        if: steps.branch-name.outputs.is_default == 'false'
-        uses: peter-evans/create-pull-request@v3
+      # - name: Create Pull Request
+      #   if: steps.branch-name.outputs.is_default == 'false'
+      #   uses: peter-evans/create-pull-request@v3
+      #   with:
+      #     token: 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 #${{ secrets.GITHUB_TOKEN }}
+      #     commit-message: 'Sync(data)'
+      #     title: 'Update changes to Test cases'
+      #     body: 'Pull request to update data from Zephyr.'
+      #     branch: 'data-sync'
+      #     base: 'main'
+      #     committer: 'mattermost-quality'
+      #     author: 'qa@mattermost.com'
+
+      - name: Run the Action
+        uses: devops-infra/action-pull-request@v0.5.5
         with:
-          token: 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 #${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'Sync(data)'
-          title: 'Update changes to Test cases'
-          body: 'Pull request to update data from Zephyr.'
-          branch: 'data-sync'
-          base: 'main'
-          committer: 'mattermost-quality'
-          author: 'qa@mattermost.com'
+          github_token: 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
+          source_branch: data-sync
+          target_branch: main
+          title: My pull request
+          body: "**Pull request to update data from Zephyr**"
+          reviewer: mattermost-quality
+          assignee: mattermost-quality
+          draft: true
+          get_diff: true
+          allow_no_diff: false
