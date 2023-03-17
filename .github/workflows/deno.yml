@@ -68,8 +68,10 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: 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 #${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Sync(data)"
-          title: "Update changes to Test cases"
-          body: "Pull request to update data from Zephyr."
-          branch: "data-sync"
-          base: "main"
+          commit-message: 'Sync(data)'
+          title: 'Update changes to Test cases'
+          body: 'Pull request to update data from Zephyr.'
+          branch: 'data-sync'
+          base: 'main'
+          committer: 'mattermost-quality'
+          author: 'qa@mattermost.com'
