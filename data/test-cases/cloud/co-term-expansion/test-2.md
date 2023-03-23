@@ -45,7 +45,7 @@ Pre-requisites:
 Test:
 
 1. Login with Admin and Navigate to System Console
-2. Verify Global banner with message indicating Number of Seats crossed and a button with test 'Update seat count'
-3. Verify CTA is shown message with Number of Seats crossed and Clickable like with text 'Update seat count'
-4. Verify a button with text 'Add seats' is displayed in license section.
+2. Verify Global banner with message indicating Number of Seats crossed and a button with text 'Update seat count'
+3. Verify CTA is shown message with Number of Seats crossed and clickable link with text 'Update seat count'
+4. Verify a button with text 'Add seats' is displayed in license section
 5. Verify Clicking on Global banner, CTA link or Add seats button, the purchase modal is opened prompt asking user to goto contact sales or manage account from portal
