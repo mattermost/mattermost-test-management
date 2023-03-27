@@ -64,4 +64,4 @@ Note: This test only addresses the different screens encountered during the onbo
 
 **Expected**
 
-The end result is that the server is in place with any plugins that were selected in step 2 and it's ready to use.
+The end result is that the server is in place with any plugins that were selected in step 2 and it's ready to use it.
