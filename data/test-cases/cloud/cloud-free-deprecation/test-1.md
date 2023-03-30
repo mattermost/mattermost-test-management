@@ -38,7 +38,7 @@ Ref Epic: <https://mattermost.atlassian.net/browse/MM-51411>
 
 Scenario 1: When instance is 90 days (or 60 days or 30 days), successfully upgrade to a paid plan
 
-1. Login with Admin
+1. Login with Admin account
 2. Verify Global Banner with a message 'Cloud Free will be depreicated on MM DD YYY. To keep your workspace, upgrade to a paid plan.'
 3. Navigate to System console > Subscriptions
 4. Verify a CTA is displayed with a message 'Upgrade to a paid plan to keep your workspace'
@@ -55,3 +55,11 @@ Scenario 1: When instance is 90 days (or 60 days or 30 days), successfully upgra
 Scenario 2: When instance is 10 days
 
 1. Repeat above steps but verify that Global banner and CTA now has red background color.
+
+Scenario 3: Dismissed Global Banners should reappear after Admin
+
+1. Login with Admin account
+2. Verify Global Banner with a message 'Cloud Free will be depreicated on MM DD YYY. To keep your workspace, upgrade to a paid plan.'
+3. Dismiss the Banner
+4. Log out and log back in
+5. Verify the Banner is visible to user
