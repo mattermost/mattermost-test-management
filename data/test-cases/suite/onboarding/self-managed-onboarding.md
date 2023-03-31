@@ -52,7 +52,7 @@ Note: This test only addresses the different screens encountered during the onbo
 
 ![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/self-managed-onboarding/onboarding_tools_screen.png)
 
-3. The next step opens up the "Invite your team members" page. Verify that clicking the "Copy Invite" button copies the URL to the clipboard and that clicking "Finish setup" moves you along to the "Launching you workspace now" transition page with an animation playing to idicate that it's not stuck in the process.
+3. The next step opens up the "Invite your team members" page. Verify that clicking the "Copy Invite" button copies the URL to the clipboard and that clicking "Finish setup" moves you along to the "Launching your workspace now" transition page with an animation playing to indicate that it's not stuck in the process.
 
 ![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/self-managed-onboarding/onboarding_invite_screen.png)
 
