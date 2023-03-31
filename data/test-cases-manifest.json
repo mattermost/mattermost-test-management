@@ -475,7 +475,7 @@
         "name": "Boards App Regression Tests",
         "routes": [
           {
-            "name": "Boards App - Create Empty Board and set it up",
+            "name": "Boards - Create Empty Board and set it up",
             "file": "boards/boards-app-regression-tests/MM-T4136.md"
           },
           {
@@ -501,103 +501,115 @@
         ]
       },
       {
-        "name": "Browser Plugin Regression Tests",
+        "name": "Boards In-Product Regression Tests",
         "routes": [
           {
             "name": "Opening a link to a card opens the card",
-            "file": "boards/browser-plugin-regression-tests/MM-T4292.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4292.md"
           },
           {
             "name": "Clicking on a view in the sidebar should open that view",
-            "file": "boards/browser-plugin-regression-tests/MM-T4293.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4293.md"
           },
           {
             "name": "Shared board URL opens the board",
-            "file": "boards/browser-plugin-regression-tests/MM-T4294.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4294.md"
           },
           {
             "name": "Pressing Esc on a URL property does not cause a crash",
-            "file": "boards/browser-plugin-regression-tests/MM-T4295.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4295.md"
           },
           {
             "name": "Sharing Board link without a view selected creates a valid url",
-            "file": "boards/browser-plugin-regression-tests/MM-T4296.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4296.md"
           },
           {
             "name": "Changing views in a shared board should not give 'access denied' error",
-            "file": "boards/browser-plugin-regression-tests/MM-T4297.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4297.md"
           },
           {
             "name": "Editing on original board should not cause websocket error banner on shared board",
-            "file": "boards/browser-plugin-regression-tests/MM-T4298.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4298.md"
           },
           {
             "name": "Card with multiple pages of text should not scroll to the bottom when opened",
-            "file": "boards/browser-plugin-regression-tests/MM-T4299.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4299.md"
           },
           {
             "name": "Opening Boards via App Switcher for the first time should not give 'No workspace' error",
-            "file": "boards/browser-plugin-regression-tests/MM-T4300.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4300.md"
           },
           {
             "name": "Sidebar item hover highlight does not extend outside of the border",
-            "file": "boards/browser-plugin-regression-tests/MM-T4425.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4425.md"
           },
           {
             "name": "Import archive menu item is visible in Global Header > Settings menu",
-            "file": "boards/browser-plugin-regression-tests/MM-T4426.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4426.md"
           },
           {
             "name": "Creating a template from a card should not render the workspace unusable",
-            "file": "boards/browser-plugin-regression-tests/MM-T4428.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4428.md"
           },
           {
             "name": "Can position cursor anywhere in existing card description text",
-            "file": "boards/browser-plugin-regression-tests/MM-T4434.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4434.md"
           },
           {
             "name": "Selecting text in Description field works consistently",
-            "file": "boards/browser-plugin-regression-tests/MM-T4439.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4439.md"
           },
           {
             "name": "Emoji icons on boards do not appear black & white",
-            "file": "boards/browser-plugin-regression-tests/MM-T4440.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4440.md"
           },
           {
             "name": "Card description - links are distinguishable from text",
-            "file": "boards/browser-plugin-regression-tests/MM-T4442.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4442.md"
           },
           {
             "name": "Card links open the card dialog when opened in the same tab",
-            "file": "boards/browser-plugin-regression-tests/MM-T4444.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4444.md"
           },
           {
             "name": "Opening a link to a private board or card shows access denied error",
-            "file": "boards/browser-plugin-regression-tests/MM-T4464.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4464.md"
           },
           {
             "name": "Can activate date picker in Table view",
-            "file": "boards/browser-plugin-regression-tests/MM-T4657.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4657.md"
           },
           {
             "name": "Reordering columns in table view updates calculations row",
-            "file": "boards/browser-plugin-regression-tests/MM-T4673.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4673.md"
           },
           {
             "name": "Undoing 'delete board' restores view and cards",
-            "file": "boards/browser-plugin-regression-tests/MM-T4674.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4674.md"
           },
           {
             "name": "Board title does not truncate if there is sufficient space",
-            "file": "boards/browser-plugin-regression-tests/MM-T4686.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4686.md"
           },
           {
             "name": "Clicking on a Change Notification Card Link opens the card",
-            "file": "boards/browser-plugin-regression-tests/MM-T4687.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4687.md"
           },
           {
             "name": "Table row action-cell (triple dot icon) background color should match theme",
-            "file": "boards/browser-plugin-regression-tests/MM-T4844.md"
+            "file": "boards/boards-in-product-regression-tests/MM-T4844.md"
+          },
+          {
+            "name": "Can select multiple users in 'Person' Property (and remove users)",
+            "file": "boards/boards-in-product-regression-tests/MM-T5401.md"
+          },
+          {
+            "name": "Minimum Public Board Roles",
+            "file": "boards/boards-in-product-regression-tests/MM-T5402.md"
+          },
+          {
+            "name": "Guest Account Support",
+            "file": "boards/boards-in-product-regression-tests/MM-T5405.md"
           }
         ]
       },
@@ -645,6 +657,8 @@
       },
       { "name": "Start and leave a call", "file": "calls/MM-T5399.md" },
       { "name": "Join a call", "file": "calls/MM-T5400.md" },
+      { "name": "Calls - Keyboard Shortcuts (self-managed)", "file": "calls/MM-T5411.md" },
+      { "name": "Calls - Keyboard Shortcuts (Cloud)", "file": "calls/MM-T5412.md" },
       {
         "name": "Mobile",
         "routes": [
@@ -5225,12 +5239,18 @@
                 "name": "Display Language: Pусский",
                 "file": "channels/settings/display/MM-T2110.md"
               },
-              { "name": "Display Language: 한국어", "file": "channels/settings/display/MM-T2111.md" },
+              {
+                "name": "Display Language: 한국어",
+                "file": "channels/settings/display/MM-T2111.md"
+              },
               {
                 "name": "Display Language: 中文 (繁體)",
                 "file": "channels/settings/display/MM-T2112.md"
               },
-              { "name": "Display Language: 日本語", "file": "channels/settings/display/MM-T2113.md" },
+              {
+                "name": "Display Language: 日本語",
+                "file": "channels/settings/display/MM-T2113.md"
+              },
               {
                 "name": "Display Language: English",
                 "file": "channels/settings/display/MM-T2114.md"
@@ -5513,7 +5533,11 @@
           { "name": "Thread followed when mentioned", "file": "channels/threads/MM-T3800.md" },
           { "name": "Unfollow Thread", "file": "channels/threads/MM-T3801.md" },
           { "name": "Followed thread is updated", "file": "channels/threads/MM-T3811.md" },
-          { "name": "Follow message with no replies", "file": "channels/threads/MM-T3816.md" }
+          { "name": "Follow message with no replies", "file": "channels/threads/MM-T3816.md" },
+          {
+            "name": "should auto-scroll to bottom upon pasting long text in reply",
+            "file": "channels/threads/MM-T5413.md"
+          }
         ]
       }
     ]
@@ -5850,6 +5874,27 @@
         ]
       },
       {
+        "name": "Co term expansion",
+        "routes": [
+          {
+            "name": "Co-term Expansion | Should be successful in adding more seats from within the product",
+            "file": "cloud/co-term-expansion/MM-T5406.md"
+          },
+          {
+            "name": "Co-term Expansion | Air-gapped instance should prompt customer to navigate to portal when intending to Add seats",
+            "file": "cloud/co-term-expansion/MM-T5407.md"
+          },
+          {
+            "name": "Co-term Expansion | Should not be available when instance is up for renewal",
+            "file": "cloud/co-term-expansion/MM-T5408.md"
+          },
+          {
+            "name": "Co-term Expansion | Sales-Serve instance should show Contact sales in the Global banner, CTA and not show Add seats Option",
+            "file": "cloud/co-term-expansion/MM-T5409.md"
+          }
+        ]
+      },
+      {
         "name": "Customer Portal",
         "routes": [
           {
@@ -5979,6 +6024,15 @@
           {
             "name": "Verify System admin is able to successfully Downgrade a Non-Starter Workspace",
             "file": "cloud/delete-workspace/MM-T5394.md"
+          }
+        ]
+      },
+      {
+        "name": "In-product Renewal",
+        "routes": [
+          {
+            "name": "Renewal | Should be available to Renew within the product",
+            "file": "cloud/in-product-renewal/MM-T5410.md"
           }
         ]
       },
@@ -8933,7 +8987,12 @@
           {
             "name": "Autolink does not modify posts made by Bot accounts by default",
             "file": "plugins/autolink/MM-T3559.md"
-          }
+          },
+          {
+            "name": "/autolink list <linkref> - list a specific link by name (cloned)",
+            "file": "plugins/autolink/MM-T5403.md"
+          },
+          { "name": "www links do not generate error", "file": "plugins/autolink/MM-T5404.md" }
         ]
       },
       {

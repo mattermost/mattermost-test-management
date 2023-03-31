@@ -203,19 +203,20 @@
     "folder": "boards/boards-app-regression-tests",
     "tests": [
       "Adding a property type of 'person' does not cause 'Uncaught TypeError'",
+      "Boards - Create Empty Board and set it up",
       "Boards App - Create Board from Template",
-      "Boards App - Create Empty Board and set it up",
       "Boards App - Empty Board - Groups",
       "Checking a check-box is saved after re-opening a card",
       "When creating a new card, focus is in the title field of the card"
     ]
   },
   {
-    "folder": "boards/browser-plugin-regression-tests",
+    "folder": "boards/boards-in-product-regression-tests",
     "tests": [
       "Board title does not truncate if there is sufficient space",
       "Can activate date picker in Table view",
       "Can position cursor anywhere in existing card description text",
+      "Can select multiple users in 'Person' Property (and remove users)",
       "Card description - links are distinguishable from text",
       "Card links open the card dialog when opened in the same tab",
       "Card with multiple pages of text should not scroll to the bottom when opened",
@@ -225,7 +226,9 @@
       "Creating a template from a card should not render the workspace unusable",
       "Editing on original board should not cause websocket error banner on shared board",
       "Emoji icons on boards do not appear black & white",
+      "Guest Account Support",
       "Import archive menu item is visible in Global Header > Settings menu",
+      "Minimum Public Board Roles",
       "Opening Boards via App Switcher for the first time should not give 'No workspace' error",
       "Opening a link to a card opens the card",
       "Opening a link to a private board or card shows access denied error",
@@ -257,6 +260,8 @@
     "folder": "calls",
     "tests": [
       "Call User - Call triggered on profile popover starts in the DM with the user",
+      "Calls - Keyboard Shortcuts (Cloud)",
+      "Calls - Keyboard Shortcuts (self-managed)",
       "Calls UI Functionality - Cloud",
       "Calls UI Functionality - Self-managed",
       "Cloud Call Limits",
@@ -1828,7 +1833,8 @@
       "Thread followed when mentioned",
       "Thread followed when participating",
       "Threads: Empty state",
-      "Unfollow Thread"
+      "Unfollow Thread",
+      "should auto-scroll to bottom upon pasting long text in reply"
     ]
   },
   {
@@ -3242,6 +3248,7 @@
       "/autolink enable <linkref> - enable a link",
       "/autolink list - list all configured links.",
       "/autolink list <linkref> - list a specific link by name",
+      "/autolink list <linkref> - list a specific link by name (cloned)",
       "/autolink list <linkref> - list a specific link by patterns",
       "/autolink list by template",
       "/autolink set <linkref> <field> value... - sets a link's field to a value. The entire command line - after is used for the value, unescaped, leading/trailing whitespace trimmed",
@@ -3260,7 +3267,8 @@
       "Single links with multiple entries",
       "Ticket links",
       "WordMatch",
-      "WordMatch - Designate non-syadmin user"
+      "WordMatch - Designate non-syadmin user",
+      "www links do not generate error"
     ]
   },
   {
