@@ -36,7 +36,7 @@ steps_hashed: null
 
 - Verify the functionality of the Self-managed onboarding flow for the person installing the new server.
 
-Note: This test only addresses the different screens encountered during the onboarding and not the actual onboarding steps once the server is up and running. those steps are covered in a different test case.
+Note: This test only addresses the different screens encountered during the onboarding and not the actual onboarding steps once the server is up and running. Those steps are covered in a different test case.
 
 **Precondition**
 
