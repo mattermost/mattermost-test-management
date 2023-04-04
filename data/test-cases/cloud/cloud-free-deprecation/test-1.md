@@ -43,7 +43,7 @@ Scenario 1: When instance is 90 days (or 60 days or 30 days), successfully upgra
 3. Navigate to System console > Subscriptions
 4. Verify a CTA is displayed with a message 'Upgrade to a paid plan to keep your workspace'
 5. Verify `Upgrade` and `Contact Sales` button is clickable
-6. When User clicks on `Contact Sales` button, verify Zendesk form is opened in a new Tab
+6. When User clicks on `Contact Sales` button, verify a new tab opens with `https://mattermost.com/contact-sales/`
 7. Clicks on the `Upgrade` button, verify Plans modal is opened
 8. Click on `Upgrade` button on `Professional` card.
 9. Verify the `Purchase` modal is opened
