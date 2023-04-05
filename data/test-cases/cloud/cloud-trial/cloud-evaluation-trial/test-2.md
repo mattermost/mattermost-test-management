@@ -52,6 +52,11 @@ Scenario 1: Start of trial
 12. On Successful purchase, verify user can see a message
     - `You've now purchased the Professional plan`
     - `Your professional plan is active starting <MM DD, YYYY> until <MM DD, YYYY+1>`
-    - Should be able click on the `Close` button and it should take user to the previous screen 
+    - Should be able click on the `Close` button and it should take user to the previous screen
+13. Verify the Billing Screen has information about purchase
+    - Total Cost
+    - Payment status
+    - Downloadable invoce link
+14. (manual) Verify the user has received Purchase confirmation in email with attached licensed
 
 Note: User can either choose `Professional` or `Enterprise` Plan
