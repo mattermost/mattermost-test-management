@@ -35,7 +35,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Login as **UserA**
+1. Login as **userA**
 2. Copy **https://www.github.com**
 3. Type **Github**
 4. Select a text and paste or press cmd/ctrl+v
