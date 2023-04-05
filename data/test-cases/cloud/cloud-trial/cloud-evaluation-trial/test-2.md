@@ -53,3 +53,5 @@ Scenario 1: Start of trial
     - `You've now purchased the Professional plan`
     - `Your professional plan is active starting <MM DD, YYYY> until <MM DD, YYYY+1>`
     - Should be able click on the `Close` button and it should take user to the previous screen 
+
+Note: User can either choose `Professional` or `Enterprise` Plan
