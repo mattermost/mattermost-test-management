@@ -36,11 +36,11 @@ steps_hashed: null
 
 - Verify the functionality of the Self-managed onboarding flow for the person installing the new server.
 
-Note: This test only addresses the different screens encountered during the onboarding and not the actual onboarding steps once the server is up and running. Those steps are covered in a different test case.
+Note: This test only addresses the different screens encountered during the setup of the server and not the actual onboarding steps once the server is up and running. Those steps are covered in a different test case.
 
 **Precondition**
 
-
+These steps assume that you've installed the server and have created an admin account before proceeeding.
 
 **Step 1**
 
@@ -64,4 +64,4 @@ Note: This test only addresses the different screens encountered during the onbo
 
 **Expected**
 
-The end result is that the server is in place with any plugins that were selected in step 2 and it's ready to use.
+The end result is that the server is in place with a team name that matches the name you provided in the Company name screen (step 1) as well as with any plugins that were selected in step 2 and that it's ready to use.
