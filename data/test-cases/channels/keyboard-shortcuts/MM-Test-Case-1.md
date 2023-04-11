@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Allow CTRL/CMD + K to insert link formatting when text is selected"
+name: "Allow CTRL/CMD + V to insert link formatting when text is selected"
 status: Active
 priority: Low
 folder: Keyboard Shortcuts
