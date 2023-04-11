@@ -39,7 +39,7 @@ steps_hashed: null
 2. Copy **https://www.github.com**
 3. Type **Github** into message or reply input box
 4. Select the text you typed, and paste or press CMD/CTRL+V
-5. Press enter
+5. Press Enter
 
 **Expected**
 
