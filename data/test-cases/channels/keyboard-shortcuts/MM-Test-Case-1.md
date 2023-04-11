@@ -37,7 +37,7 @@ steps_hashed: null
 
 1. Login as **user-1**
 2. Copy **https://www.github.com**
-3. Type **Github**
+3. Type **Github** into message or reply input box
 4. Select a text and paste or press cmd/ctrl+v
 5. Press enter
 
