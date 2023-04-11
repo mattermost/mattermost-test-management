@@ -58,7 +58,7 @@ Steps:
 
 **Expected**
 
-8. **Forgot Password** should be visible
-9. **Forgot Password** should be visible
-10. **Forgot Password** should be visible
-11. **Forgot Password** should not be visible
+8\. **Forgot Password** should be visible
+11\. **Forgot Password** should be visible
+14\. **Forgot Password** should be visible
+17\. **Forgot Password** should not be visible
