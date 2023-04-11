@@ -44,4 +44,4 @@ steps_hashed: null
 **Expected**
 
 3. Format should be as a markdown hyperlink with the selected text
-4. **Github** should be shown as a hyperlink
+4. **Github** should be shown as a hyperlink to https://github.com
