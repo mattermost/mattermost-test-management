@@ -37,6 +37,7 @@ steps_hashed: null
 Ref Epic: <https://mattermost.atlassian.net/browse/MM-51411>
 
 Pre-requisite:
+
 1. Should have an active cloud instance.
 
 Scenario 1: Should not show Cloud Free card in Pricing modal if instance is in Free plan
