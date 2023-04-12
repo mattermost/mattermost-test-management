@@ -54,4 +54,4 @@ Scenario 3: User accessing workspace after 30 days of trial
 1. Verify the message `Your trial has ended` is displayed
 2. Verify `Contact us` and `Host your own instance` buttons are shown
 3. Verify clicking on `Contact us`, user is taken to `mattermost.com/contact-sales` in a new tab
-3. Verify clicking on `Host your own instance`, user is taken to ` mattermost.com/download` in a new tab
+4. Verify clicking on `Host your own instance`, user is taken to `mattermost.com/download` in a new tab
