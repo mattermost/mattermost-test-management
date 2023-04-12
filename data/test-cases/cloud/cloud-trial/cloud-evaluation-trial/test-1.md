@@ -41,7 +41,9 @@ Scenario 1: Start of trial
 1. Create a workspace from `https://portal.test.cloud.mattermost.com/cloud/signup`
 2. Login into the workspace
 3. Verify the Global banner is displaed with the message `Your 30-day Enterprise trial has started! Purchase before MM-DD to keep your workspace.` and `Review your options` button
-4. The Banner should be dissmissable
+4. Click on `Review your options`
+5. Verify pricing modal is opened. The modal should have `Professional` and `Enterprise` cards and have `Purchase` button on both
+6. The Banner should be dissmissable
 
 Scenario 2: Last day of trial
 
@@ -51,3 +53,5 @@ Scenario 3: User accessing workspace after 30 days of trial
 
 1. Verify the message `Your trial has ended` is displayed
 2. Verify `Contact us` and `Host your own instance` buttons are shown
+3. Verify clicking on `Contact us`, user is taken to `mattermost.com/contact-sales` in a new tab
+3. Verify clicking on `Host your own instance`, user is taken to ` mattermost.com/download` in a new tab
