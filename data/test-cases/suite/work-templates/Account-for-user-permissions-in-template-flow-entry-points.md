@@ -47,7 +47,7 @@ These tests are designed to ensure that we're covering all the potential permuta
 
 **All permissions granted:**
 1. As the Admin go to `System Console ➜ User Mangement ➜ Permissions` and verify that `All Members` are allowed to create both public & private channels as well as public & private playbooks. Verify they are also able to create Public Playbooks.
-2. As the User click the `**+**` Plus sign menu at the top of the LHS then click `Create from a template` to open the Work Templates modal
+2. As the User click the `➕` Plus sign menu at the top of the LHS then click `Create from a template` to open the Work Templates modal
 ![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/work-templates/plus_menu.png)
 3. Hover over the `Manage Feature Release` template then click on it
 ![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/work-templates/manage_feature_release.png)
@@ -72,7 +72,7 @@ With either one of the buttons selected you're able to click the `Create` button
 TL;DR version: Disable Private channel creation and ensure that a user can't create Private templates
 
 1. As the Admin go to `System Console ➜ User Mangement ➜ Permissions` and restrict `All Members` from creating private channels
-2. As the User click the `**+**` Plus sign menu at the top of the LHS then click `Create from a template` to open the Work Templates modal
+2. As the User click the `➕` Plus sign menu at the top of the LHS then click `Create from a template` to open the Work Templates modal
 3. Hover over the `Manage Feature Release` template then click on it
 ![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/work-templates/plus_menu.png)
 4. Click the `Next` button 
@@ -88,7 +88,7 @@ TL;DR version: Disable Private channel creation and ensure that a user can't cre
 
 **Step 3**
 
-1. As an admin disabling Public **and** Private channels in the System Scheme removes `Create from a template` from the `**+**` menu
+1. As an admin disabling Public **and** Private channels in the System Scheme removes `Create from a template` from the `➕` menu
 2. Likewise, even if both Public **and** Private channels in the System Scheme are enabled, disabling the ability to create public playbooks will remove `Create from a template` from the `**+**` menu
 
 **Test Data**
