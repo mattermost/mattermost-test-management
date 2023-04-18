@@ -47,7 +47,7 @@ Scenario 1: Start of trial
 
 Scenario 2: Last day of trial
 
-1. The Global banner should display a message `This is the last day of your free trail. Purchase a plan before 11.59pm PT or contact sales` and `Review your options` button
+1. The Global banner should display a message `This is the last day of your free trial. Purchase a plan before 11.59pm PT or contact sales` and `Review your options` button
 
 Scenario 3: User accessing workspace after 30 days of trial
 

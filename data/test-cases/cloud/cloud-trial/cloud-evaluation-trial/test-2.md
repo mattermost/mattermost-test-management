@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Cloud Evaluation Trial | User should be able to purchase a Plan within 30 days trial period"
+name: "Cloud Evaluation Trial | User should be able to purchase a Professional Plan within 30 days trial period"
 status: Active
 priority: Normal
 folder: Cloud Evaluation Trial
@@ -46,8 +46,8 @@ Scenario 1: Start of trial
 6. Verify Purchase modal is opened
 7. Enter Valid Credit card details
 8. Enter Valid Billing Address
-9. Enter Number of seats on the RHS.
-10. Verify the Total Price displayed is correct.
+9. Enter Number of seats on the RHS
+10. Verify the Total Price displayed is correct
 11. Click on `Complete purchase` button.
 12. On Successful purchase, verify user can see a message
     - `You've now purchased the Professional plan`
@@ -59,4 +59,4 @@ Scenario 1: Start of trial
     - Downloadable invoce link
 14. (manual) Verify the user has received Purchase confirmation in email with attached licensed
 
-Note: User can either choose `Professional` or `Enterprise` Plan
+Note: User can only self-serve a `Professional` plan. `Enterprise` card will have `Contact Sales` button
