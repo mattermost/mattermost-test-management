@@ -1889,7 +1889,7 @@
   {
     "folder": "cloud/automated-tests/system-console/billing-history-",
     "tests": [
-      "Finding the default 'Cloud Starter' record in Billing History screen",
+      "Finding the default 'Cloud Free' record in Billing History screen",
       "Pagination should be working while we are searching for any of billing history record",
       "Validating the content of downloaded PDF in the Billing History screen"
     ]
@@ -1945,6 +1945,13 @@
       "Trail tag/label should not be displayed in the main page of subscription menu after subscribing to any of the plan",
       "Upgrade Now button should be displayed in the main page of subscription menu after subscribing to any of the plan",
       "Upgrade button should not be enabled if any one of the Mandatory field is filled invalid data"
+    ]
+  },
+  {
+    "folder": "cloud/cloud-free-deprecation",
+    "tests": [
+      "Cloud Free Deprecation | Cloud Free workspaces that will be deprecated in 90 days (60-30-10-1)",
+      "Cloud Free Deprecation | Pricing Modal changes"
     ]
   },
   {
