@@ -5243,18 +5243,12 @@
                 "name": "Display Language: Pусский",
                 "file": "channels/settings/display/MM-T2110.md"
               },
-              {
-                "name": "Display Language: 한국어",
-                "file": "channels/settings/display/MM-T2111.md"
-              },
+              { "name": "Display Language: 한국어", "file": "channels/settings/display/MM-T2111.md" },
               {
                 "name": "Display Language: 中文 (繁體)",
                 "file": "channels/settings/display/MM-T2112.md"
               },
-              {
-                "name": "Display Language: 日本語",
-                "file": "channels/settings/display/MM-T2113.md"
-              },
+              { "name": "Display Language: 日本語", "file": "channels/settings/display/MM-T2113.md" },
               {
                 "name": "Display Language: English",
                 "file": "channels/settings/display/MM-T2114.md"
@@ -5602,7 +5596,7 @@
                 "name": "Billing History ❗",
                 "routes": [
                   {
-                    "name": "Finding the default 'Cloud Starter' record in Billing History screen",
+                    "name": "Finding the default 'Cloud Free' record in Billing History screen",
                     "file": "cloud/automated-tests/system-console/billing-history-/MM-T4157.md"
                   },
                   {
@@ -5787,6 +5781,19 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Cloud Free Deprecation",
+        "routes": [
+          {
+            "name": "Cloud Free Deprecation | Cloud Free workspaces that will be deprecated in 90 days (60-30-10-1)",
+            "file": "cloud/cloud-free-deprecation/MM-T5417.md"
+          },
+          {
+            "name": "Cloud Free Deprecation | Pricing Modal changes",
+            "file": "cloud/cloud-free-deprecation/MM-T5418.md"
           }
         ]
       },
