@@ -5800,6 +5800,19 @@
       {
         "name": "Cloud Trial",
         "routes": [
+          {
+            "name": "Cloud Evaluation Trial",
+            "routes": [
+              {
+                "name": "Cloud Evaluation Trial | New workspace should start with 30 day Cloud Enterprise trial",
+                "file": "cloud/cloud-trial/cloud-evaluation-trial/MM-T5419.md"
+              },
+              {
+                "name": "Cloud Evaluation Trial | User should be able to purchase a Professional Plan within 30 days trial period",
+                "file": "cloud/cloud-trial/cloud-evaluation-trial/MM-T5420.md"
+              }
+            ]
+          },
           { "name": "Cloud Trial — Getting Started", "file": "cloud/cloud-trial/MM-T3369.md" },
           { "name": "Cloud Trial — Skip Getting Started", "file": "cloud/cloud-trial/MM-T3370.md" },
           {
