@@ -19,9 +19,7 @@ export class JiraClient {
     if (email) {
       this.email = email;
     } else {
-      console.warn(
-        'no email provided. Required email to fetch components from Jira',
-      );
+      throw new Error('no email provided. add `EMAIL=youremail@example.com` in the .env file');
     }
   }
 
