@@ -29,8 +29,7 @@ export class JiraClient {
       const encoder = new TextEncoder();
       const data = encoder.encode(`${this.email}:${this.token}`);
       const base64 = btoa(String.fromCharCode(...new Uint8Array(data)));
-      const authString = `Basic ${base64}`;
-      req.headers.set('Authorization', authString);
+      req.headers.set('Authorization', `Basic ${base64}`);
       req.headers.set('Accept-Language', 'en-US');
     }
     return req;
