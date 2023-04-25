@@ -39,6 +39,7 @@ Epic: <https://mattermost.atlassian.net/browse/MM-51235>
 **Scenario**: Non-Air Gapped Sign-up page
 
 1. Verify User is able to Select the optional check box to 'recieve Mattermost security updates via newsletter'
+2. Verify the email address is entered in the CWS DB table called marketing
 
 **Scenario**: Air Gapped Sign-up page
 
