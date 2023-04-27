@@ -34,11 +34,9 @@ steps_hashed: null
 
 **Objective**
 
-Ensure proper functionality of the LHS Add Channels CTA for users depending upon permission settings\
+Ensure proper functionality of the LHS Add Channels CTA for users depending upon permission settings
 - Permission enabled to create Public and/or Private channels
 - Permission disabled to create Public and Private channels
-
-**Precondition**
 
 ---
 
