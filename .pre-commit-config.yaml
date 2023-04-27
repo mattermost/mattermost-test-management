@@ -9,6 +9,6 @@ repos:
     -   id: codespell
         name: codespell
         description: Checks for common misspellings in text files.
-        entry: codespell --skip="*.js,*.html,*.css,.vscode" --ignore-words .codespellignore readme.md code.py
+        entry: codespell -w --skip="*.js,*.html,*.css,.vscode" --ignore-words .codespellignore readme.md code.py
         language: python
         types: [text]

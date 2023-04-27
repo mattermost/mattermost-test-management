@@ -4,10 +4,15 @@
     "slug": "calls/mm-t5382"
   },
   "calls/mm-t4841": { "name": "Calls UI Functionality - Self-managed", "slug": "calls/mm-t4841" },
+  "calls/mm-t5411": {
+    "name": "Calls - Keyboard Shortcuts (self-managed)",
+    "slug": "calls/mm-t5411"
+  },
   "calls/mm-t5399": { "name": "Start and leave a call", "slug": "calls/mm-t5399" },
   "calls/mm-t5400": { "name": "Join a call", "slug": "calls/mm-t5400" },
   "calls/mobile/mm-t4800": { "name": "RN apps: Calls Plugin", "slug": "calls/mobile/mm-t4800" },
   "calls/mobile/mm-t4799": { "name": "RN apps: Calls", "slug": "calls/mobile/mm-t4799" },
+  "calls/mm-t5412": { "name": "Calls - Keyboard Shortcuts (Cloud)", "slug": "calls/mm-t5412" },
   "calls/mm-t4842": { "name": "Calls UI Functionality - Cloud", "slug": "calls/mm-t4842" },
   "calls/mm-t4812": { "name": "Cloud Call Limits", "slug": "calls/mm-t4812" },
   "mmctl/mm-t3638": { "name": "Channel - Rename", "slug": "mmctl/mm-t3638" },
@@ -3122,6 +3127,10 @@
     "slug": "plugins/autolink/mm-t3551"
   },
   "plugins/autolink/mm-t3534": { "name": "Single links", "slug": "plugins/autolink/mm-t3534" },
+  "plugins/autolink/mm-t5404": {
+    "name": "www links do not generate error",
+    "slug": "plugins/autolink/mm-t5404"
+  },
   "plugins/autolink/mm-t3541": {
     "name": "Autolinks surrounded by brackets or other values",
     "slug": "plugins/autolink/mm-t3541"
@@ -3129,6 +3138,10 @@
   "plugins/autolink/mm-t3556": {
     "name": "Scope is respected on a Link",
     "slug": "plugins/autolink/mm-t3556"
+  },
+  "plugins/autolink/mm-t5403": {
+    "name": "/autolink list <linkref> - list a specific link by name (cloned)",
+    "slug": "plugins/autolink/mm-t5403"
   },
   "plugins/autolink/mm-t3546": {
     "name": "/autolink list - list all configured links.",
@@ -5563,6 +5576,10 @@
     "name": "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
     "slug": "cloud/mm-t5190"
   },
+  "cloud/subscribe-to-news-letter/mm-t5422": {
+    "name": "Subscribe to Security Newletter from signup page",
+    "slug": "cloud/subscribe-to-news-letter/mm-t5422"
+  },
   "cloud/mm-t5194": {
     "name": "Self Hosted | Alternative payment option in Billing & payment page",
     "slug": "cloud/mm-t5194"
@@ -5590,6 +5607,14 @@
   "cloud/mm-t4148": {
     "name": "Takes the user through the steps of using the app using the ENTER key",
     "slug": "cloud/mm-t4148"
+  },
+  "cloud/cloud-free-deprecation/mm-t5417": {
+    "name": "Cloud Free Deprecation | Cloud Free workspaces that will be deprecated in 90 days (60-30-10-1)",
+    "slug": "cloud/cloud-free-deprecation/mm-t5417"
+  },
+  "cloud/cloud-free-deprecation/mm-t5418": {
+    "name": "Cloud Free Deprecation | Pricing Modal changes",
+    "slug": "cloud/cloud-free-deprecation/mm-t5418"
   },
   "cloud/delete-workspace/mm-t5393": {
     "name": "Verify System admin is able to successfully Delete a Workspace on monthly plan",
@@ -5695,6 +5720,14 @@
   "cloud/cloud-trial/mm-t3491": {
     "name": "Cloud Trial — Billing & Account ➜ Billing History",
     "slug": "cloud/cloud-trial/mm-t3491"
+  },
+  "cloud/cloud-trial/cloud-evaluation-trial/mm-t5420": {
+    "name": "Cloud Evaluation Trial | User should be able to purchase a Professional Plan within 30 days trial period",
+    "slug": "cloud/cloud-trial/cloud-evaluation-trial/mm-t5420"
+  },
+  "cloud/cloud-trial/cloud-evaluation-trial/mm-t5419": {
+    "name": "Cloud Evaluation Trial | New workspace should start with 30 day Cloud Enterprise trial",
+    "slug": "cloud/cloud-trial/cloud-evaluation-trial/mm-t5419"
   },
   "cloud/mm-t5099": {
     "name": "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
@@ -5809,7 +5842,7 @@
     "slug": "cloud/automated-tests/system-console/billing-history-/mm-t4158"
   },
   "cloud/automated-tests/system-console/billing-history-/mm-t4157": {
-    "name": "Finding the default 'Cloud Starter' record in Billing History screen",
+    "name": "Finding the default 'Cloud Free' record in Billing History screen",
     "slug": "cloud/automated-tests/system-console/billing-history-/mm-t4157"
   },
   "cloud/automated-tests/system-console/company-information-/mm-t5122": {
@@ -6001,6 +6034,22 @@
     "slug": "cloud/mm-t5207"
   },
   "cloud/mm-t4866": { "name": "Cloud signup — Password requirements", "slug": "cloud/mm-t4866" },
+  "cloud/co-term-expansion/mm-t5407": {
+    "name": "Co-term Expansion | Air-gapped instance should prompt customer to navigate to portal when intending to Add seats",
+    "slug": "cloud/co-term-expansion/mm-t5407"
+  },
+  "cloud/co-term-expansion/mm-t5406": {
+    "name": "Co-term Expansion | Should be successful in adding more seats from within the product",
+    "slug": "cloud/co-term-expansion/mm-t5406"
+  },
+  "cloud/co-term-expansion/mm-t5409": {
+    "name": "Co-term Expansion | Sales-Serve instance should show Contact sales in the Global banner, CTA and not show Add seats Option",
+    "slug": "cloud/co-term-expansion/mm-t5409"
+  },
+  "cloud/co-term-expansion/mm-t5408": {
+    "name": "Co-term Expansion | Should not be available when instance is up for renewal",
+    "slug": "cloud/co-term-expansion/mm-t5408"
+  },
   "cloud/customer-portal/-export-compliance/mm-t3984": {
     "name": "🚫 ECS — Process pending subscriptions",
     "slug": "cloud/customer-portal/-export-compliance/mm-t3984"
@@ -6149,6 +6198,10 @@
     "name": "Takes the user through the steps of using the app using the ENTER k",
     "slug": "cloud/mm-t4644"
   },
+  "cloud/in-product-renewal/mm-t5410": {
+    "name": "Renewal | Should be available to Renew within the product",
+    "slug": "cloud/in-product-renewal/mm-t5410"
+  },
   "cloud/mm-t4552": {
     "name": "Professional — Feature Availability (Cloud)",
     "slug": "cloud/mm-t4552"
@@ -6215,6 +6268,114 @@
     "name": "Scrolls the kanban board when dragging card to edge",
     "slug": "boards/board-view/mm-t4433"
   },
+  "boards/boards-in-product-regression-tests/mm-t4440": {
+    "name": "Emoji icons on boards do not appear black & white",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4440"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4425": {
+    "name": "Sidebar item hover highlight does not extend outside of the border",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4425"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4844": {
+    "name": "Table row action-cell (triple dot icon) background color should match theme",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4844"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4299": {
+    "name": "Card with multiple pages of text should not scroll to the bottom when opened",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4299"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4464": {
+    "name": "Opening a link to a private board or card shows access denied error",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4464"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4444": {
+    "name": "Card links open the card dialog when opened in the same tab",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4444"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4657": {
+    "name": "Can activate date picker in Table view",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4657"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4298": {
+    "name": "Editing on original board should not cause websocket error banner on shared board",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4298"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4434": {
+    "name": "Can position cursor anywhere in existing card description text",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4434"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4673": {
+    "name": "Reordering columns in table view updates calculations row",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4673"
+  },
+  "boards/boards-in-product-regression-tests/mm-t5405": {
+    "name": "Guest Account Support",
+    "slug": "boards/boards-in-product-regression-tests/mm-t5405"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4293": {
+    "name": "Clicking on a view in the sidebar should open that view",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4293"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4300": {
+    "name": "Opening Boards via App Switcher for the first time should not give 'No workspace' error",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4300"
+  },
+  "boards/boards-in-product-regression-tests/mm-t5401": {
+    "name": "Can select multiple users in 'Person' Property (and remove users)",
+    "slug": "boards/boards-in-product-regression-tests/mm-t5401"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4297": {
+    "name": "Changing views in a shared board should not give 'access denied' error",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4297"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4296": {
+    "name": "Sharing Board link without a view selected creates a valid url",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4296"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4292": {
+    "name": "Opening a link to a card opens the card",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4292"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4439": {
+    "name": "Selecting text in Description field works consistently",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4439"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4295": {
+    "name": "Pressing Esc on a URL property does not cause a crash",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4295"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4428": {
+    "name": "Creating a template from a card should not render the workspace unusable",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4428"
+  },
+  "boards/boards-in-product-regression-tests/mm-t5402": {
+    "name": "Minimum Public Board Roles",
+    "slug": "boards/boards-in-product-regression-tests/mm-t5402"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4294": {
+    "name": "Shared board URL opens the board",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4294"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4687": {
+    "name": "Clicking on a Change Notification Card Link opens the card",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4687"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4674": {
+    "name": "Undoing 'delete board' restores view and cards",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4674"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4442": {
+    "name": "Card description - links are distinguishable from text",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4442"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4426": {
+    "name": "Import archive menu item is visible in Global Header > Settings menu",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4426"
+  },
+  "boards/boards-in-product-regression-tests/mm-t4686": {
+    "name": "Board title does not truncate if there is sufficient space",
+    "slug": "boards/boards-in-product-regression-tests/mm-t4686"
+  },
   "boards/cloud-free/mm-t4815": { "name": "Max Views", "slug": "boards/cloud-free/mm-t4815" },
   "boards/cloud-free/mm-t4814": { "name": "Max", "slug": "boards/cloud-free/mm-t4814" },
   "boards/boards-app-regression-tests/mm-t4722": {
@@ -6222,7 +6383,7 @@
     "slug": "boards/boards-app-regression-tests/mm-t4722"
   },
   "boards/boards-app-regression-tests/mm-t4136": {
-    "name": "Boards App - Create Empty Board and set it up",
+    "name": "Boards - Create Empty Board and set it up",
     "slug": "boards/boards-app-regression-tests/mm-t4136"
   },
   "boards/boards-app-regression-tests/mm-t4173": {
@@ -6240,102 +6401,6 @@
   "boards/boards-app-regression-tests/mm-t4443": {
     "name": "Checking a check-box is saved after re-opening a card",
     "slug": "boards/boards-app-regression-tests/mm-t4443"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4440": {
-    "name": "Emoji icons on boards do not appear black & white",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4440"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4425": {
-    "name": "Sidebar item hover highlight does not extend outside of the border",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4425"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4844": {
-    "name": "Table row action-cell (triple dot icon) background color should match theme",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4844"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4299": {
-    "name": "Card with multiple pages of text should not scroll to the bottom when opened",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4299"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4464": {
-    "name": "Opening a link to a private board or card shows access denied error",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4464"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4444": {
-    "name": "Card links open the card dialog when opened in the same tab",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4444"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4657": {
-    "name": "Can activate date picker in Table view",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4657"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4298": {
-    "name": "Editing on original board should not cause websocket error banner on shared board",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4298"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4434": {
-    "name": "Can position cursor anywhere in existing card description text",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4434"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4673": {
-    "name": "Reordering columns in table view updates calculations row",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4673"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4293": {
-    "name": "Clicking on a view in the sidebar should open that view",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4293"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4300": {
-    "name": "Opening Boards via App Switcher for the first time should not give 'No workspace' error",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4300"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4297": {
-    "name": "Changing views in a shared board should not give 'access denied' error",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4297"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4296": {
-    "name": "Sharing Board link without a view selected creates a valid url",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4296"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4292": {
-    "name": "Opening a link to a card opens the card",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4292"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4439": {
-    "name": "Selecting text in Description field works consistently",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4439"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4295": {
-    "name": "Pressing Esc on a URL property does not cause a crash",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4295"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4428": {
-    "name": "Creating a template from a card should not render the workspace unusable",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4428"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4294": {
-    "name": "Shared board URL opens the board",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4294"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4687": {
-    "name": "Clicking on a Change Notification Card Link opens the card",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4687"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4674": {
-    "name": "Undoing 'delete board' restores view and cards",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4674"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4442": {
-    "name": "Card description - links are distinguishable from text",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4442"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4426": {
-    "name": "Import archive menu item is visible in Global Header > Settings menu",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4426"
-  },
-  "boards/browser-plugin-regression-tests/mm-t4686": {
-    "name": "Board title does not truncate if there is sufficient space",
-    "slug": "boards/browser-plugin-regression-tests/mm-t4686"
   },
   "boards/mm-t4279": { "name": "Creating a Board from template", "slug": "boards/mm-t4279" },
   "boards/board-creation-and-set-up/mm-t5396": {
@@ -9261,6 +9326,10 @@
     "name": "Sign In  Forgot password - Email address not on server (but valid)  Focus in login field on login page",
     "slug": "suite/sign-in-authentication/mm-t406"
   },
+  "suite/sign-in-authentication/mm-t5415": {
+    "name": "Verify forgot password link is hidden when email sign-in or username sign-in is disabled",
+    "slug": "suite/sign-in-authentication/mm-t5415"
+  },
   "suite/sign-in-authentication/mm-t416": {
     "name": "RN apps: Pending posts fail when there is no network access and can be re-sent",
     "slug": "suite/sign-in-authentication/mm-t416"
@@ -11111,6 +11180,10 @@
   "suite/onboarding/mm-t4146": {
     "name": "Tips and Next Steps",
     "slug": "suite/onboarding/mm-t4146"
+  },
+  "suite/onboarding/mm-t5414": {
+    "name": "Onboarding flow for newly installed Self-managed server",
+    "slug": "suite/onboarding/mm-t5414"
   },
   "suite/onboarding/mm-t400": {
     "name": "Create account from login page link using email-password",
@@ -14702,6 +14775,10 @@
     "slug": "channels/threads/mm-t3811"
   },
   "channels/threads/mm-t3801": { "name": "Unfollow Thread", "slug": "channels/threads/mm-t3801" },
+  "channels/threads/mm-t5413": {
+    "name": "should auto-scroll to bottom upon pasting long text in reply",
+    "slug": "channels/threads/mm-t5413"
+  },
   "channels/threads/mm-t3797": {
     "name": "No followed threads",
     "slug": "channels/threads/mm-t3797"
@@ -16565,6 +16642,10 @@
     "name": "RN apps: Upper-case and lower-case at-mentions link",
     "slug": "channels/messaging/mm-t169"
   },
+  "channels/messaging/mm-t5416": {
+    "name": "Should discard any changes made after cancelling the edit and opening the edit textbox again should display the original message",
+    "slug": "channels/messaging/mm-t5416"
+  },
   "channels/messaging/mm-t138": {
     "name": "RN apps: Pin and Unpin a post and a reply",
     "slug": "channels/messaging/mm-t138"
@@ -17241,6 +17322,10 @@
   "channels/keyboard-shortcuts/mm-t1225": {
     "name": "CTRL/CMD+K - Open private channel using arrow keys and Enter",
     "slug": "channels/keyboard-shortcuts/mm-t1225"
+  },
+  "channels/keyboard-shortcuts/mm-t5421": {
+    "name": "Allow CTRL/CMD + V to insert link formatting when text is selected",
+    "slug": "channels/keyboard-shortcuts/mm-t5421"
   },
   "channels/keyboard-shortcuts/mm-t4085": {
     "name": "CTRL/CMD+K - Unread Channels and input field focus",
