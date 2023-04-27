@@ -73,7 +73,7 @@ jobs:
           body: "**Pull request to update data from Zephyr**"
           draft: false
           commit-message: 'chore(data): Sync'
-          committer: qa@mattermost.com
+          committer: mattermost-quality
           author: Mattermost Quality <qa@mattermost.com>
           base: main
           branch: data-sync
