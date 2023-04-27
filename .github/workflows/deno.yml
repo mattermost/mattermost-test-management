@@ -10,6 +10,7 @@ on:
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
+  EMAIL: qa@mattermost.com
 
 jobs:
   test:
