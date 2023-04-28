@@ -10,11 +10,7 @@ on:
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
-<<<<<<< HEAD
-  EMAIL: qa@mattermost.com
-=======
   EMAIL: ${{ secrets.EMAIL }}
->>>>>>> origin/add_email_secret
 
 jobs:
   test:
