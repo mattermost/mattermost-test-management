@@ -10,7 +10,11 @@ on:
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
+<<<<<<< HEAD
   EMAIL: qa@mattermost.com
+=======
+  EMAIL: ${{ secrets.EMAIL }}
+>>>>>>> origin/add_email_secret
 
 jobs:
   test:
@@ -52,29 +56,52 @@ jobs:
         if: steps.branch-name.outputs.is_default == 'false'
         run: deno task sync
 
+      - name: Check for Changes
+        id: check-for-changes
+        run: |
+          git fetch
+          if git diff --quiet main..${{ github.ref }}; then
+            echo "::set-output name=changed::false"
+          else
+            echo "::set-output name=changed::true"
+          fi
+
+      - name: Create Pull Request
+        if: ${{ steps.check-for-changes.outputs.changed == 'true' }}
+        run: |
+          curl \
+            -X POST \
+            -H "Authorization: Bearer ${{ secrets.GH_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/mattermost/mattermost-test-management/pulls \
+            -d '{
+                "title": "chore(data): Sync",
+                "body": "Syncing changes from Zephyr",
+                "head": "${{ github.ref }}",
+                "base": "main"
+            }'
+
       # - uses: stefanzweifel/git-auto-commit-action@v4
-      #   if: steps.branch-name.outputs.is_default == 'false'
+      #   if: steps.branch-name.outputs.is_default == 'true'
       #   with:
       #     commit_message: "chore(data): Sync"
-      #     create_branch: true
-      #     branch: data-sync
       #     add_options: '-u'
       #     skip_dirty_check: true
       #     commit_user_name: mattermost-quality
-      #     commit_user_email: qa@mattermost.com
+      #     commit_user_email: ${{ secrets.EMAIL }}
 
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.TOKEN }}
-          signoff: false
-          title: Sync updates
-          body: "**Pull request to update data from Zephyr**"
-          draft: false
-          commit-message: 'chore(data): Sync'
-          committer: Mattermost Quality <qa@mattermost.com>
-          author: Mattermost Quality <qa@mattermost.com>
-          base: main
-          branch: data-sync
-          delete-branch: true
+      # - name: Create Pull Request
+      #   id: cpr
+      #   uses: peter-evans/create-pull-request@v4
+      #   with:
+      #     token: ${{ secrets.TOKEN }}
+      #     signoff: false
+      #     title: Sync updates
+      #     body: "**Pull request to update data from Zephyr**"
+      #     draft: false
+      #     commit-message: 'chore(data): Sync'
+      #     committer: Mattermost Quality <qa@mattermost.com>
+      #     author: Mattermost Quality <qa@mattermost.com>
+      #     base: main
+      #     branch: data-sync
+      #     delete-branch: true
