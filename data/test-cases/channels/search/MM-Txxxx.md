@@ -1,5 +1,5 @@
 # (Required) Ensure all values are filled up
-name: "Channel search returns only 50 results when there are more than 50 channels with similar names"
+name: "Channels: Search - Find channel search returns only 50 results when there are more than 50 channels with similar names"
 status: Active
 priority: Normal
 folder: channels/search
