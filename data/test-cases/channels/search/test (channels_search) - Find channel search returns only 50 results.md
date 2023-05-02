@@ -1,3 +1,4 @@
+---
 # (Required) Ensure all values are filled up
 name: "Channels: Search - Find channel search returns only 50 results when there are more than 50 channels with similar names"
 status: Active
