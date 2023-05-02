@@ -3,7 +3,7 @@
 name: "Channels: Search - Find channel search returns only 50 results when there are more than 50 channels with similar names"
 status: Active
 priority: Normal
-folder: channels/search
+folder: Search
 authors: "lindy65"
 team_ownership: 
 - Web Platform
