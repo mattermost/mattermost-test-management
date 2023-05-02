@@ -203,19 +203,20 @@
     "folder": "boards/boards-app-regression-tests",
     "tests": [
       "Adding a property type of 'person' does not cause 'Uncaught TypeError'",
+      "Boards - Create Empty Board and set it up",
       "Boards App - Create Board from Template",
-      "Boards App - Create Empty Board and set it up",
       "Boards App - Empty Board - Groups",
       "Checking a check-box is saved after re-opening a card",
       "When creating a new card, focus is in the title field of the card"
     ]
   },
   {
-    "folder": "boards/browser-plugin-regression-tests",
+    "folder": "boards/boards-in-product-regression-tests",
     "tests": [
       "Board title does not truncate if there is sufficient space",
       "Can activate date picker in Table view",
       "Can position cursor anywhere in existing card description text",
+      "Can select multiple users in 'Person' Property (and remove users)",
       "Card description - links are distinguishable from text",
       "Card links open the card dialog when opened in the same tab",
       "Card with multiple pages of text should not scroll to the bottom when opened",
@@ -225,7 +226,9 @@
       "Creating a template from a card should not render the workspace unusable",
       "Editing on original board should not cause websocket error banner on shared board",
       "Emoji icons on boards do not appear black & white",
+      "Guest Account Support",
       "Import archive menu item is visible in Global Header > Settings menu",
+      "Minimum Public Board Roles",
       "Opening Boards via App Switcher for the first time should not give 'No workspace' error",
       "Opening a link to a card opens the card",
       "Opening a link to a private board or card shows access denied error",
@@ -257,6 +260,8 @@
     "folder": "calls",
     "tests": [
       "Call User - Call triggered on profile popover starts in the DM with the user",
+      "Calls - Keyboard Shortcuts (Cloud)",
+      "Calls - Keyboard Shortcuts (self-managed)",
       "Calls UI Functionality - Cloud",
       "Calls UI Functionality - Self-managed",
       "Cloud Call Limits",
@@ -548,6 +553,7 @@
       "Create channel and board",
       "Find Channels modal should focus first result",
       "Find Channels modal size and searching",
+      "LHS Add Channels CTA",
       "LHS channel scroll, list should not scroll if channel is still visible",
       "RN apps: ANDROID ONLY - Channel sorting matches the webapp",
       "RN apps: Change channel",
@@ -820,6 +826,7 @@
       "ALT+SHIFT+UP",
       "ALT+UP",
       "Ability to Switch Teams (does not apply on Linux)",
+      "Allow CTRL/CMD + V to insert link formatting when text is selected",
       "Arrow up key - Edit modal open up for own message of a user",
       "Arrow up key - no Edit modal open up if user has not posted any message yet",
       "Browser Back: ALT+LEFT or RIGHT / CMD+[ or ]",
@@ -1323,6 +1330,7 @@
       "Saved parent post:  reply count remains in center channel and is correct",
       "Scrolled to bottom when sending a message",
       "Selecting and copying multiple posts (Unsupported on Safari)",
+      "Should discard any changes made after cancelling the edit and opening the edit textbox again should display the original message",
       "Show single image thumbnail in standard mode",
       "Skin tone emoji",
       "Switching channels in center also changes pinned posts RHS",
@@ -1828,7 +1836,8 @@
       "Thread followed when mentioned",
       "Thread followed when participating",
       "Threads: Empty state",
-      "Unfollow Thread"
+      "Unfollow Thread",
+      "should auto-scroll to bottom upon pasting long text in reply"
     ]
   },
   {
@@ -1882,7 +1891,7 @@
   {
     "folder": "cloud/automated-tests/system-console/billing-history-",
     "tests": [
-      "Finding the default 'Cloud Starter' record in Billing History screen",
+      "Finding the default 'Cloud Free' record in Billing History screen",
       "Pagination should be working while we are searching for any of billing history record",
       "Validating the content of downloaded PDF in the Billing History screen"
     ]
@@ -1941,6 +1950,13 @@
     ]
   },
   {
+    "folder": "cloud/cloud-free-deprecation",
+    "tests": [
+      "Cloud Free Deprecation | Cloud Free workspaces that will be deprecated in 90 days (60-30-10-1)",
+      "Cloud Free Deprecation | Pricing Modal changes"
+    ]
+  },
+  {
     "folder": "cloud/cloud-trial",
     "tests": [
       "Cloud Trial — Billing & Account ➜ Billing History",
@@ -1965,12 +1981,28 @@
     ]
   },
   {
+    "folder": "cloud/cloud-trial/cloud-evaluation-trial",
+    "tests": [
+      "Cloud Evaluation Trial | New workspace should start with 30 day Cloud Enterprise trial",
+      "Cloud Evaluation Trial | User should be able to purchase a Professional Plan within 30 days trial period"
+    ]
+  },
+  {
     "folder": "cloud/cloud-trial/what-if",
     "tests": [
       "Cloud Trial — Purchase a subscription before the trial ends",
       "Cloud Trial — Purchase flow with 3 tiers to choose from",
       "Cloud Trial — Reactivate via separate browser after purchasing subscription from locked screen",
       "Cloud Trial — Smoke test existing Cloud Workspaces to ensure they still work as designed"
+    ]
+  },
+  {
+    "folder": "cloud/co-term-expansion",
+    "tests": [
+      "Co-term Expansion | Air-gapped instance should prompt customer to navigate to portal when intending to Add seats",
+      "Co-term Expansion | Sales-Serve instance should show Contact sales in the Global banner, CTA and not show Add seats Option",
+      "Co-term Expansion | Should be successful in adding more seats from within the product",
+      "Co-term Expansion | Should not be available when instance is up for renewal"
     ]
   },
   {
@@ -2021,6 +2053,10 @@
     ]
   },
   {
+    "folder": "cloud/in-product-renewal",
+    "tests": ["Renewal | Should be available to Renew within the product"]
+  },
+  {
     "folder": "cloud/rhs",
     "tests": ["Channel Info RHS: Admin", "Channel Info RHS: User", "Channel Info RHS: ––draft––"]
   },
@@ -2053,6 +2089,10 @@
       "'OpenId connect (other)' option is not available for cloud starter",
       "Starter — Restrict team creation"
     ]
+  },
+  {
+    "folder": "cloud/subscribe-to-news-letter",
+    "tests": ["Subscribe to Security Newletter from signup page"]
   },
   {
     "folder": "cloud/true-up-notifications",
@@ -3229,6 +3269,7 @@
       "/autolink enable <linkref> - enable a link",
       "/autolink list - list all configured links.",
       "/autolink list <linkref> - list a specific link by name",
+      "/autolink list <linkref> - list a specific link by name (cloned)",
       "/autolink list <linkref> - list a specific link by patterns",
       "/autolink list by template",
       "/autolink set <linkref> <field> value... - sets a link's field to a value. The entire command line - after is used for the value, unescaped, leading/trailing whitespace trimmed",
@@ -3247,7 +3288,8 @@
       "Single links with multiple entries",
       "Ticket links",
       "WordMatch",
-      "WordMatch - Designate non-syadmin user"
+      "WordMatch - Designate non-syadmin user",
+      "www links do not generate error"
     ]
   },
   {
@@ -5157,6 +5199,7 @@
       "Finish Tutorial",
       "Invalidate Pending Email Invitations",
       "Mobile Browser: Team invite links work on mobile after viewing get app page",
+      "Onboarding flow for newly installed Self-managed server",
       "Show desktop app download prompt on first visit to a new server",
       "Tips and Next Steps",
       "Use team invite link to sign up using email and password"
@@ -5300,6 +5343,7 @@
       "Sign In  Forgot password - Email address not on server (but valid)  Focus in login field on login page",
       "Sleep/Wake Computer",
       "Timeout notification will persist",
+      "Verify forgot password link is hidden when email sign-in or username sign-in is disabled",
       "Verify login with email sign-in"
     ]
   },

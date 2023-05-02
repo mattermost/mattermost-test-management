@@ -6,8 +6,9 @@ const base = 'https://mattermost.atlassian.net';
 
 export class JiraClient {
   private token: string | undefined;
+  private email: string | undefined;
 
-  constructor(token?: string) {
+  constructor(token?: string, email?: string) {
     if (token) {
       this.token = token;
     } else {
@@ -15,12 +16,20 @@ export class JiraClient {
         'no token provided, fetching from Jira as an anonymous user',
       );
     }
+    if (email) {
+      this.email = email;
+    } else {
+      throw new Error('no email provided. add `EMAIL=youremail@example.com` in the .env file');
+    }
   }
 
   private _auth(r: Request): Request {
     const req = new Request(r);
     if (this.token) {
-      req.headers.set('Authorization', `Bearer ${this.token}`);
+      const encoder = new TextEncoder();
+      const data = encoder.encode(`${this.email}:${this.token}`);
+      const base64 = btoa(String.fromCharCode(...new Uint8Array(data)));
+      req.headers.set('Authorization', `Basic ${base64}`);
       req.headers.set('Accept-Language', 'en-US');
     }
     return req;
@@ -29,7 +38,6 @@ export class JiraClient {
   private async _doRequest(r: Request): Promise<Response> {
     r = this._auth(r);
     const res = await fetch(r);
-
     return res;
   }
 
@@ -64,8 +72,9 @@ export class JiraClient {
 export function makeJiraClient() {
   dotEnvLoadSync({ export: true });
   const JIRA_PAT = Deno.env.get('JIRA_PAT');
+  const EMAIL = Deno.env.get('EMAIL');
 
-  return new JiraClient(JIRA_PAT);
+  return new JiraClient(JIRA_PAT, EMAIL);
 }
 
 type GetComponentsResponse = Component[] & {
