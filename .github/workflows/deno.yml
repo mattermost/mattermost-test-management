@@ -57,6 +57,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            npm install @octokit/rest
             const title = "chore(data): Sync";
             const body = "Syncing changes from Zephyr";
             const head = "sync-branch";
