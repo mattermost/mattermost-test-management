@@ -5982,7 +5982,14 @@
     "tests": ["RN apps: Telemetry", "Sidebar - new category telemetry"]
   },
   { "folder": "suite/trial-license", "tests": ["Make Sure All Feature Discoveries Exist"] },
-  { "folder": "suite/work-templates", "tests": ["Create a work template"] },
+  {
+    "folder": "suite/work-templates",
+    "tests": [
+      "Create a work template",
+      "Work Templates menu unavailable when ability to create Public & Private channels is disabled",
+      "Work Templates menu unavailable when ability to create Public Playbooks is disabled"
+    ]
+  },
   {
     "folder": "ticket-coverage",
     "tests": [

@@ -17148,7 +17148,17 @@
       },
       {
         "name": "Work Templates",
-        "routes": [{ "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" }]
+        "routes": [
+          { "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" },
+          {
+            "name": "Work Templates menu unavailable when ability to create Public Playbooks is disabled",
+            "file": "suite/work-templates/MM-T5433.md"
+          },
+          {
+            "name": "Work Templates menu unavailable when ability to create Public & Private channels is disabled",
+            "file": "suite/work-templates/MM-T5434.md"
+          }
+        ]
       }
     ]
   },
