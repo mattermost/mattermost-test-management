@@ -48,7 +48,7 @@ This test is designed to ensure that we're covering the conditions that would NO
 
 1. As the Admin, disable Public Playbook creation for `All Members` located in `System Console ➜ User Management ➜ Permissions`
 2. As the regular user, verify that the menu item to create from a template is **not** present in the onboarding task list or the ➕ menu at the top of the LHS
-![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/work-templates/work_templates_not_present.png)
+![](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/work_templates_not_present.png)
 
 **Test Data**
 
