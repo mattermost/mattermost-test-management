@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Global Drafts > Deleted messages by others"
+name: "Global Drafts > Deleted messages"
 status: Active
 priority: Normal
 folder: Global Drafts
 authors: "@m-zubairahmed"
 team_ownership: 
-- ICU
+- Web Platform
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
@@ -65,5 +65,6 @@ steps_hashed: null
 - Delete the root message
 
 **Expected**
+
 - The draft should be removed
 - No Global Draft link should be shown in sidebar
