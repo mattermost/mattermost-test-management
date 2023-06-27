@@ -553,6 +553,7 @@
       "Create channel and board",
       "Find Channels modal should focus first result",
       "Find Channels modal size and searching",
+      "LHS Add Channels CTA",
       "LHS channel scroll, list should not scroll if channel is still visible",
       "RN apps: ANDROID ONLY - Channel sorting matches the webapp",
       "RN apps: Change channel",
@@ -807,6 +808,7 @@
     "tests": [
       "Global Drafts > Channel Drafts are scoped to current active team",
       "Global Drafts > Delete draft",
+      "Global Drafts > Deleted messages",
       "Global Drafts > Display DM & GM drafts across teams",
       "Global Drafts > Drafts section only displays on LHS if there are draft messages",
       "Global Drafts > Edit draft",
@@ -1591,6 +1593,7 @@
       "Arrows move through auto-complete options but do not select",
       "Autocomplete behavior",
       "Autocomplete behavior - keyboard scroll",
+      "Channels: Search - 'Find channel' search returns only 50 results when there are more than 50 channels with similar names",
       "Clicking hashtag returns messages containing that hashtag in RHS",
       "Confirm that search box changes to just an icon / button when decreasing screen size to mid-way between full and mobile view",
       "Elasticsearch should be able to search terms inside links",
@@ -1846,6 +1849,8 @@
       "Cloud signup — Password requirements",
       "Cloud | Alternative Payment | Verify the UI on payment page when user provides inputs for alternative payment",
       "Delinquency | Compelling Admin to update the to previous paid plan or star on freemium",
+      "Expand License | Should be able to expand from Portal with right start & end dates",
+      "Expand License | Should not show annual deprication banner to selected clients",
       "Gather Intent | Cloud first monthly purchase: Gather intent",
       "Maximum Login Attempts",
       "Notify Admin V2 | System Admin gets notification when user request to upgrade MM features that have reached limit in the current workspace.",
@@ -2678,6 +2683,17 @@
       "🔸 08 — Unsuccessful reconnect w/ incorrect secret",
       "🔸 09 — Successful reconnect w/ updated secret",
       "🔸 10 — Delete Zapier"
+    ]
+  },
+  {
+    "folder": "lhs",
+    "tests": [
+      "Placeholder for test: CTRL/CMD+SHIFT+J",
+      "Placeholder for test: Should not be able to rearrange DMs",
+      "Placeholder for test: Should open Apps modal on click of + in category header",
+      "Placeholder for test: Should open Marketplace modal on click of + in category header",
+      "Placeholder for test: Should order DMs alphabetically",
+      "Placeholder for test: Should order DMs based on recent interactions"
     ]
   },
   {
@@ -5967,7 +5983,14 @@
     "tests": ["RN apps: Telemetry", "Sidebar - new category telemetry"]
   },
   { "folder": "suite/trial-license", "tests": ["Make Sure All Feature Discoveries Exist"] },
-  { "folder": "suite/work-templates", "tests": ["Create a work template"] },
+  {
+    "folder": "suite/work-templates",
+    "tests": [
+      "Create a work template",
+      "Work Templates menu unavailable when ability to create Public & Private channels is disabled",
+      "Work Templates menu unavailable when ability to create Public Playbooks is disabled"
+    ]
+  },
   {
     "folder": "ticket-coverage",
     "tests": [

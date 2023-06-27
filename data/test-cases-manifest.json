@@ -1608,6 +1608,7 @@
             "file": "channels/channels/MM-T4056.md"
           },
           { "name": "Create channel and board", "file": "channels/channels/MM-T5141.md" },
+          { "name": "LHS Add Channels CTA", "file": "channels/channels/MM-T5423.md" },
           {
             "name": "RN apps: ANDROID ONLY - Channel sorting matches the webapp",
             "file": "channels/channels/MM-T839.md"
@@ -2411,6 +2412,10 @@
           {
             "name": "Global Drafts > Global Drafts Onboarding Tour Point",
             "file": "channels/global-drafts/MM-T5378.md"
+          },
+          {
+            "name": "Global Drafts > Deleted messages",
+            "file": "channels/global-drafts/MM-T5435.md"
           }
         ]
       },
@@ -4984,7 +4989,11 @@
             "name": "Search for channel in system console using channel ID",
             "file": "channels/search/MM-T4927.md"
           },
-          { "name": "Search bar popup", "file": "channels/search/MM-T4945.md" }
+          { "name": "Search bar popup", "file": "channels/search/MM-T4945.md" },
+          {
+            "name": "Channels: Search - 'Find channel' search returns only 50 results when there are more than 50 channels with similar names",
+            "file": "channels/search/MM-T5424.md"
+          }
         ]
       },
       {
@@ -6115,6 +6124,14 @@
       {
         "name": "System console | Editions and Licenses | Show license seat count and total activated users",
         "file": "cloud/MM-T5222.md"
+      },
+      {
+        "name": "Expand License | Should be able to expand from Portal with right start & end dates",
+        "file": "cloud/MM-T5431.md"
+      },
+      {
+        "name": "Expand License | Should not show annual deprication banner to selected clients",
+        "file": "cloud/MM-T5432.md"
       },
       {
         "name": "RHS",
@@ -7750,6 +7767,33 @@
           { "name": "🔸 10 — Delete Zapier", "file": "integrations/zapier/MM-T655.md" }
         ]
       }
+    ]
+  },
+  {
+    "name": "LHS",
+    "heading": true,
+    "routes": [
+      {
+        "name": "Placeholder for test: Should open Marketplace modal on click of + in category header",
+        "file": "lhs/MM-T5425.md"
+      },
+      {
+        "name": "Placeholder for test: Should open Apps modal on click of + in category header",
+        "file": "lhs/MM-T5426.md"
+      },
+      {
+        "name": "Placeholder for test: Should order DMs based on recent interactions",
+        "file": "lhs/MM-T5427.md"
+      },
+      {
+        "name": "Placeholder for test: Should order DMs alphabetically",
+        "file": "lhs/MM-T5428.md"
+      },
+      {
+        "name": "Placeholder for test: Should not be able to rearrange DMs",
+        "file": "lhs/MM-T5429.md"
+      },
+      { "name": "Placeholder for test: CTRL/CMD+SHIFT+J", "file": "lhs/MM-T5430.md" }
     ]
   },
   {
@@ -17108,7 +17152,17 @@
       },
       {
         "name": "Work Templates",
-        "routes": [{ "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" }]
+        "routes": [
+          { "name": "Create a work template", "file": "suite/work-templates/MM-T5380.md" },
+          {
+            "name": "Work Templates menu unavailable when ability to create Public Playbooks is disabled",
+            "file": "suite/work-templates/MM-T5433.md"
+          },
+          {
+            "name": "Work Templates menu unavailable when ability to create Public & Private channels is disabled",
+            "file": "suite/work-templates/MM-T5434.md"
+          }
+        ]
       }
     ]
   },
