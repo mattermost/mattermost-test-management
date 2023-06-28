@@ -24,7 +24,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: 
-- Mobile
+- Mobile v1
 manual_test_environments: 
 - Automated - No manual tests needed
 
@@ -33,7 +33,7 @@ id: 3736153
 key: MM-T77
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: c839056d44ae34e39caf68367d077d6ae19bfd8c5e03108ead97c943b8454955339412e8512ee8ee7f981256d4466771
+case_hashed: e99e5c9901c8ff33b3fd5278ba9f23f95d5ade39cb53ea0bdcff4665d6e726609154471afdf48f1f64de5b7a63aef984
 steps_hashed: d2c27c9e2f63dbb9c79a3aa241e37986f4aed3653b04a9f3d253713a0d0e05bf96c3dd8c0641a5b3f15c71140bb243a9
 ---
 
