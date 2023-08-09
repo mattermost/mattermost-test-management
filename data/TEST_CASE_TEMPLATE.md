@@ -14,6 +14,7 @@ location: null
 component: null
 tags: []
 labels: []
+tested_by_community: null
 
 # (Optional) Test type and tools
 cypress: null

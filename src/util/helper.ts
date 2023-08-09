@@ -199,6 +199,7 @@ function reorganizeTestCaseFields(testCase: TestCase) {
       'MMCTL': testCase.customFields.MMCTL,
       'Location': testCase.customFields.Location,
       'Authors': testCase.customFields.Authors,
+      'Tested By Contributor': testCase.customFields['Tested By Contributor'],
       'Last Updated': testCase.customFields['Last Updated'],
     },
   }).replaceAll('&nbsp;', ' ');

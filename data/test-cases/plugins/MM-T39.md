@@ -20,6 +20,7 @@ labels:
 - TM4J-Key-Mapped-In-Cypress-Release
 - plugins
 - cy-prod
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -35,7 +36,7 @@ id: 2774322
 key: MM-T39
 created_on: "2019-08-30T01:25:31Z"
 last_updated: "2022-09-09T19:36:48Z"
-case_hashed: 0636960562f3571cc18f92e7307fb972efd7aef95b576be51218d1e1206e0506627e275bbde1f9f0015569ca5ef4830e
+case_hashed: 9a4a39e3b4444fcada2dcd2441fa38ef3cdc3baaa8da343ef8bf890f61b0fbdaa806ffaee03ca8956981f50d7a90e43c
 steps_hashed: 59d10fd3a4f5001c53abb78f7d6d782fc7be9761c7eb2880df676988df8c008e2b177291f0ab88233d2cac93f4855ccd
 ---
 

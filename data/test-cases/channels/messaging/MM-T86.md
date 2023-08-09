@@ -15,6 +15,7 @@ component: null
 tags: []
 labels: 
 - messaging
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: Ticket Open
@@ -31,7 +32,7 @@ id: 3741717
 key: MM-T86
 created_on: "2019-12-20T16:32:58Z"
 last_updated: ""
-case_hashed: 75d05a50949e9a325acfdd8a56415d8fb630f2d57fdb1d59e8f46845f75578836c012dea9c3403419316601cc49b2059
+case_hashed: 46ea188812879f9d5ac7301f9e229979b8fc9f9681830c41b7bc5f5688f9b5201558225cdf3ae376add97d0f8986b063
 steps_hashed: 669de96bd94a7aac634a9086827bb6b14cf13b08334d71e57c4688825ba692cd41f381f096451c512e2d8c0905e41b76
 ---
 

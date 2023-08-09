@@ -19,6 +19,7 @@ labels:
 - cy-prod
 - files-and-attachments
 - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -34,7 +35,7 @@ id: 2746624
 key: MM-T12
 created_on: "2019-08-27T00:36:47Z"
 last_updated: ""
-case_hashed: 3c76759b163c96d68ed7b2de2201ff63e30daa3cc3e9099b3a76f7dbcacddd91d2e90608de2f43e766902ac3921f842d
+case_hashed: ce187c7eaa9591aed06ec0270751b8d298b4bed0a30d9a30c1dc25a00caa01099b7f76b63fcce6b5a881cbd3ffafd538
 steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
 

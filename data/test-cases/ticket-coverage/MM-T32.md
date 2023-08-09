@@ -14,6 +14,7 @@ location: Ticket coverage
 component: null
 tags: []
 labels: []
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: null
@@ -29,7 +30,7 @@ id: 2761126
 key: MM-T32
 created_on: "2019-08-28T11:36:30Z"
 last_updated: "2022-12-01T21:17:48Z"
-case_hashed: 88d914878b27498c6dff3e09dfff33a711c40a29f9b4018af4edb9db8d827d11bc59512624ccb5da90be2583620fb3fc
+case_hashed: 557b774d46963feecd135d9cbfd725d6aaf9db2df08702b048f0186ec2815c948422f9de1a1346045bd0f7c6e73c9696
 steps_hashed: ee1267c727223e42f64e224ccb5c69822ef91c92d59a78ae0b7a9c5d7b0bef2ed100267a8c08cc305d966f1e493c057c
 ---
 

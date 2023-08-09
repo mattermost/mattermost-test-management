@@ -17,6 +17,7 @@ tags:
 labels: 
 - ios-only
 - messaging
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: N/A
@@ -34,7 +35,7 @@ id: 3736152
 key: MM-T76
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: 5408e4fe8aad8b3ccd1ee8d13705982dea9cebc565818ca7a4ada443fea3d5e5d44f6f91a6144f3bb12bf95a157feb44
+case_hashed: b3538648df68c2695ec27b17ba008a19649edac2f944220a18611c056a48f8913e074d40e2a0f19964adf9b75f232596
 steps_hashed: f8be2d63ac4c32186fbd83644dbdb52f9f737fd697cc2e2bed9953bf82e4c80cce7f31a237894f7a536f00dcaa9086a0
 ---
 

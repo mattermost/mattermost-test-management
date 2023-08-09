@@ -54,7 +54,8 @@ There are three ways to get started in contributing to this project.
             - `Test Data` (optional)
             - `Expected` (optional)
 3. When updating a test case:
-    - In addition to the same process when creating a new test case, the submitter should append his/her GitHub handle to `authors` field, comma-separated (e.g. `authors: @original,@updater`).
+    - In addition to the same process when creating a new test case, the submitter should append his/her GitHub handle to `authors` field, comma-separated (e.g. `authors: @original, @updater`).
+    - To indicate that a test case has been tested by a contributor, the submitter should append his/her GitHub handle and date tested (mm-dd-yyy) to optional `tested_by_contributor` field, comma-separated (e.g. `tested_by_contributor: @qa_contributor|08-20-2023, @qa_contributor|10-15-2023`).
 4. Once changes have been made, run `deno task validate` and see if all changes are valid. Fix errors that get flagged in the terminal.
 5. Always run `deno task check` to ensure all formatting is correct and there are no lint errors. 
 6. Create a branch and submit changes as a pull request(s).

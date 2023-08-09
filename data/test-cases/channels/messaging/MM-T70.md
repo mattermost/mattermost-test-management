@@ -18,6 +18,7 @@ labels:
 - cy-prod
 - messaging
 - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -34,7 +35,7 @@ id: 3736146
 key: MM-T70
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: a2f371a58323e6bb71721a1235b20fdbd3f20117b8157eed2107f54aa4f939321b20e36f0ce857be71d4ae2cd389515a
+case_hashed: e4f531b511b318fea25aae1f6ba6a34a29445ebf485f837b573b1df7220a629d7466502d0c122249084077a2b6db881d
 steps_hashed: ac0660560e5a2ffda14b91fe6eafced430ca28e2d28b75e1189960ad9a39ccc20295820c455a2fd5976efee9a3466478
 ---
 

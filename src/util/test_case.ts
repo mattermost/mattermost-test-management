@@ -261,6 +261,7 @@ function customFieldsValues() {
     'MMCTL': { default: null, options: toolOptions },
     'Location': { default: null, options: [] },
     'Authors': { default: '@' + changeRequired, options: [] },
+    'Tested By Contributor': { default: null, options: [] },
     'Last Updated': { default: '', options: [] },
   };
 }
