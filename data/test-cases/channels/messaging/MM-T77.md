@@ -25,6 +25,9 @@ mmctl: null
 playwright: null
 rainforest: 
 - Mobile v1
+- in Production
+- Mobile V2 iOS
+- Mobile V2 Android
 manual_test_environments: 
 - Automated - No manual tests needed
 
@@ -33,7 +36,7 @@ id: 3736153
 key: MM-T77
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: e99e5c9901c8ff33b3fd5278ba9f23f95d5ade39cb53ea0bdcff4665d6e726609154471afdf48f1f64de5b7a63aef984
+case_hashed: eb5d526f1a87db75a3ab34581062110b158a980fca1e9519b8ad581cf996d967474cca1a320ca52d4e43417c36d14a4a
 steps_hashed: d2c27c9e2f63dbb9c79a3aa241e37986f4aed3653b04a9f3d253713a0d0e05bf96c3dd8c0641a5b3f15c71140bb243a9
 ---
 

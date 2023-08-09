@@ -24,7 +24,9 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: 
-- N/A
+- Mobile V2 Android
+- in Production
+- Mobile V2 iOS
 manual_test_environments: 
 - Automated - No manual tests needed
 
@@ -33,7 +35,7 @@ id: 3736148
 key: MM-T72
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: 2d3d0f1426a1b46f97ccb72c5d3233321b6777ac6fc84ac6c36a32a7839ffa58d97d5903d6184117651c2ab5d878fac4
+case_hashed: 3b081183b3fa833dda54e3486d604f79205396c992af4d81ee2eeace265fdf13f3932f2abf8079d505f3d2d4cb914e78
 steps_hashed: d6f7ef25adcaab9d911a3230c2525eba9e2bdb6bcd61f551260ed37d09a2871d3332398b89800092b1a33b8020dc3df2
 ---
 

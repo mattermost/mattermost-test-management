@@ -217,6 +217,8 @@ function customFieldsValues() {
         ...toolOptions,
         'Webapp',
         'Mobile v1',
+        'Mobile V2 Android',
+        'Mobile V2 iOS',
         'Cloud',
         'in Production — Desktop',
         'Temporarily Disabled',

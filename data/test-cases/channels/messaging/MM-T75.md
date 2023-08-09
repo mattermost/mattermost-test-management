@@ -25,6 +25,8 @@ mmctl: null
 playwright: null
 rainforest: 
 - Mobile v1
+- Mobile V2 iOS
+- in Production
 manual_test_environments: []
 
 # Do not change
@@ -32,7 +34,7 @@ id: 3736151
 key: MM-T75
 created_on: "2019-12-19T15:28:55Z"
 last_updated: ""
-case_hashed: 17e03c15e70ab53cfdc41c9c8e26e9d2ff49560e790336fdff555614b80f0fc6fbbd36af8db0b515906087115bf04ac0
+case_hashed: 0dcff7a0c1805e225eddc612b23377efaf5fbf81df1796dc5dd0eee8fdf1bc88b992ecfe8b203f294fd4375bfb6dc707
 steps_hashed: c1fb8dcb45541915e151642115f41e187404ad9cdf79fe0e317a39684d4b12fa8b4eb9d85cac36e3fd20f576d2b3c137
 ---
 
