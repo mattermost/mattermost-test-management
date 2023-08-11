@@ -18,6 +18,7 @@ labels:
 - RN_Smoke_Tests
 - smoke-test-folder
 - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: N/A
@@ -34,7 +35,7 @@ id: 2814840
 key: MM-T43
 created_on: "2019-09-04T21:03:12Z"
 last_updated: "2022-09-10T11:55:02Z"
-case_hashed: 0ac2bd8667a38c5a271972f1cf568e008d8de03f9d6f66337f78d650783a4e2d6bc12bd1415e1500c782b20822128e0b
+case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
 steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
 ---
 

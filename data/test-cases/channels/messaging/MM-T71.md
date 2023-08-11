@@ -17,6 +17,7 @@ labels:
 - rf-cloud-webapp
 - messaging
 - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: Ticket Open
@@ -34,7 +35,7 @@ id: 3736147
 key: MM-T71
 created_on: "2019-12-19T15:28:54Z"
 last_updated: ""
-case_hashed: cfae9340cb68d03f831b79bf72cee1f861e80481dfa9da0451e4d22c15846572524dc576e4d8b4ccfd597a2fad7a062d
+case_hashed: fcaa2b0b548d13b6edcbbd4d62e31842feea002aca3497c8b05e6b65febabb93e3389a34d5158114bcf9e51ccab7863f
 steps_hashed: a82df0528f936321cb4a7c31b75486a13c3469faf348c525646ff43978e8b65e6a0b1e69f0a055e4cf5d9c3bce3bef90
 ---
 

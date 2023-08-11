@@ -18,6 +18,7 @@ labels:
 - cy-prod
 - rf-cloud-webapp
 - messaging
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -36,7 +37,7 @@ id: 3741726
 key: MM-T95
 created_on: "2019-12-20T16:33:00Z"
 last_updated: ""
-case_hashed: 5dd3163e4ff2261380daf1239ffd6b4ca6961ff3baa97db71819747b1f2e8272419e78174dc0d6d0b7c21ab06e0933fb
+case_hashed: 4315e4a72a587c83a504ea1264446ff0eb6903545d321000a8d39d88babff76668faf3c278fce18283fdcab1569930da
 steps_hashed: c9ba45765ba3f44592fd73035cb6087baafb50b6bbcffedc1805fbcd8f59f6e9c6fb20605ee5cbe1553bfd217c4307b8
 ---
 

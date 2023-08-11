@@ -15,6 +15,7 @@ component: null
 tags: []
 labels: 
 - messaging
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: N/A
@@ -32,7 +33,7 @@ id: 3736155
 key: MM-T79
 created_on: "2019-12-19T15:28:56Z"
 last_updated: "2022-09-09T17:57:15Z"
-case_hashed: 9b96093c55b213827677a762ca40213691cb72c0a71bf058c34e10edf08a1372f2f11d1095a06a6dcd8572dba98b79de
+case_hashed: fa3471f6479bc04cc191858cebf13094c1595c6cb260cc827a2317a3b8990eb434ca484a3cc12bfa5a380e46e8c7d2c1
 steps_hashed: 0ddf8b82bf23d0c86d1b40450fd7a8bbf099b1cf6efc33d1da8b1ca8894df749de9336003f24cb1bffa2227c1529795a
 ---
 

@@ -17,6 +17,7 @@ labels:
 - se-prod
 - system-console
 - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: To Do
@@ -31,7 +32,7 @@ id: 2746634
 key: MM-T13
 created_on: "2019-08-27T00:41:48Z"
 last_updated: ""
-case_hashed: f126fe87e4d94c2cd3d32a10efd6ecccbad1a62b47764a2c7b8c846e879585c145e404051e8f9451a0ca8868bb751cc4
+case_hashed: 15eba8b018b7b42b3dc50d5329da942c120c3ad0bef6ad617d6e3843d5d0c6981b9c6deb70223e8d3de58e10278c4c61
 steps_hashed: a39fabddcb7887c189156f8d552940611750c152a95b5f471ca87c338e0a5bbf4bc0dae21dc305bc052ccfa3d7229740
 ---
 

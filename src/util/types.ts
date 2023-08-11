@@ -14,7 +14,8 @@ export type TestCaseCustomFields = {
   'Cypress': string | null;
   'MMCTL': string | null;
   'Location': string | null;
-  'Authors': string | null; // Github handle, comma-separated
+  'Authors': string | null; // Github handle, comma-separated (ex. "@username")
+  'Tested By Contributor': string | null; // Github handle + mm-dd-yyyy, comma-separated (ex. "@username|08-09-2023")
   'Last Updated': string | null;
 };
 

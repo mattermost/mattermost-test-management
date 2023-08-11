@@ -35,6 +35,7 @@ location: ${testCase.customFields.Location}
 component: ${testCase.componentName}
 tags: ${renderArray(testCase.customFields.Tags)}
 labels: ${renderArray(testCase.labels)}
+tested_by_contributor: ${renderString(testCase.customFields['Tested By Contributor'])}
 
 # (Optional) Test type and tools
 cypress: ${testCase.customFields.Cypress}
@@ -343,6 +344,7 @@ export function markdownToTestCase(file: string): TestCase {
       'MMCTL': data.mmctl,
       'Location': data.location,
       'Authors': data.authors,
+      'Tested By Contributor': data.tested_by_contributor,
       'Last Updated': data.last_updated,
     },
     caseHashed: data.case_hashed,
