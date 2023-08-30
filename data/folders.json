@@ -1792,22 +1792,22 @@
     "fullPath": "plugins/jira"
   },
   {
-    "id": 404288,
-    "parentId": 404330,
-    "name": "Jira V2",
-    "index": 5,
+    "id": 9431036,
+    "parentId": 888610,
+    "name": "Jira Cloud",
+    "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2"],
-    "fullPath": "plugins/jira-v2"
+    "fullNames": ["Plugins", "Jira", "Jira Cloud"],
+    "fullPath": "plugins/jira/jira-cloud"
   },
   {
     "id": 733538,
-    "parentId": 404288,
+    "parentId": 888610,
     "name": "Jira Server",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server"],
-    "fullPath": "plugins/jira-v2/jira-server"
+    "fullNames": ["Plugins", "Jira", "Jira Server"],
+    "fullPath": "plugins/jira/jira-server"
   },
   {
     "id": 2118488,
@@ -1815,8 +1815,8 @@
     "name": "General Slash commands",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "General Slash commands"],
-    "fullPath": "plugins/jira-v2/jira-server/general-slash-commands"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "General Slash commands"],
+    "fullPath": "plugins/jira/jira-server/general-slash-commands"
   },
   {
     "id": 733539,
@@ -1824,8 +1824,8 @@
     "name": "Install and Uninstall",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Install and Uninstall"],
-    "fullPath": "plugins/jira-v2/jira-server/install-and-uninstall"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Install and Uninstall"],
+    "fullPath": "plugins/jira/jira-server/install-and-uninstall"
   },
   {
     "id": 733540,
@@ -1833,8 +1833,8 @@
     "name": "Jira assign",
     "index": 3,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira assign"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-assign"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira assign"],
+    "fullPath": "plugins/jira/jira-server/jira-assign"
   },
   {
     "id": 2123139,
@@ -1842,8 +1842,8 @@
     "name": "Jira Attach",
     "index": 6,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Attach"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-attach"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira Attach"],
+    "fullPath": "plugins/jira/jira-server/jira-attach"
   },
   {
     "id": 2119059,
@@ -1851,8 +1851,8 @@
     "name": "Jira Connect",
     "index": 5,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Connect"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-connect"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira Connect"],
+    "fullPath": "plugins/jira/jira-server/jira-connect"
   },
   {
     "id": 733572,
@@ -1860,8 +1860,8 @@
     "name": "Jira create",
     "index": 2,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira create"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-create"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira create"],
+    "fullPath": "plugins/jira/jira-server/jira-create"
   },
   {
     "id": 3160301,
@@ -1869,17 +1869,8 @@
     "name": "Jira subscriptions",
     "index": 7,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira subscriptions"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-subscriptions"
-  },
-  {
-    "id": 2119072,
-    "parentId": 733538,
-    "name": "Jira Temp",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira Temp"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-temp"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira subscriptions"],
+    "fullPath": "plugins/jira/jira-server/jira-subscriptions"
   },
   {
     "id": 2118539,
@@ -1887,17 +1878,26 @@
     "name": "Jira View",
     "index": 4,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Jira Server", "Jira View"],
-    "fullPath": "plugins/jira-v2/jira-server/jira-view"
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Jira View"],
+    "fullPath": "plugins/jira/jira-server/jira-view"
+  },
+  {
+    "id": 9431021,
+    "parentId": 733538,
+    "name": "Multi-instance support",
+    "index": 9,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Jira", "Jira Server", "Multi-instance support"],
+    "fullPath": "plugins/jira/jira-server/multi-instance-support"
   },
   {
     "id": 2118472,
-    "parentId": 404288,
+    "parentId": 888610,
     "name": "Miscellaneous",
     "index": 3,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous"],
-    "fullPath": "plugins/jira-v2/miscellaneous"
+    "fullNames": ["Plugins", "Jira", "Miscellaneous"],
+    "fullPath": "plugins/jira/miscellaneous"
   },
   {
     "id": 733487,
@@ -1905,8 +1905,8 @@
     "name": "Cloud",
     "index": 0,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Cloud"],
-    "fullPath": "plugins/jira-v2/miscellaneous/cloud"
+    "fullNames": ["Plugins", "Jira", "Miscellaneous", "Cloud"],
+    "fullPath": "plugins/jira/miscellaneous/cloud"
   },
   {
     "id": 733486,
@@ -1914,35 +1914,8 @@
     "name": "Server",
     "index": 1,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira V2", "Miscellaneous", "Server"],
-    "fullPath": "plugins/jira-v2/miscellaneous/server"
-  },
-  {
-    "id": 892330,
-    "parentId": 888610,
-    "name": "Channel",
-    "index": 0,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Channel"],
-    "fullPath": "plugins/jira/channel"
-  },
-  {
-    "id": 888624,
-    "parentId": 888610,
-    "name": "Jira V3",
-    "index": 1,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Jira V3"],
-    "fullPath": "plugins/jira/jira-v3"
-  },
-  {
-    "id": 900964,
-    "parentId": 888610,
-    "name": "Jira V3 Migration",
-    "index": 2,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "Jira", "Jira V3 Migration"],
-    "fullPath": "plugins/jira/jira-v3-migration"
+    "fullNames": ["Plugins", "Jira", "Miscellaneous", "Server"],
+    "fullPath": "plugins/jira/miscellaneous/server"
   },
   {
     "id": 2745764,

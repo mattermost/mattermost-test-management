@@ -228,7 +228,6 @@
       "GitHub",
       "GitLab",
       "Jira",
-      "Jira V2",
       "Jitsi",
       "Matterpoll",
       "Meme",
@@ -270,10 +269,9 @@
       "Subscriptions and Notifications"
     ]
   },
-  { "parent": "plugins/jira", "folders": ["Channel", "Jira V3", "Jira V3 Migration"] },
-  { "parent": "plugins/jira-v2", "folders": ["Jira Server", "Miscellaneous"] },
+  { "parent": "plugins/jira", "folders": ["Jira Cloud", "Jira Server", "Miscellaneous"] },
   {
-    "parent": "plugins/jira-v2/jira-server",
+    "parent": "plugins/jira/jira-server",
     "folders": [
       "General Slash commands",
       "Install and Uninstall",
@@ -282,11 +280,11 @@
       "Jira Connect",
       "Jira create",
       "Jira subscriptions",
-      "Jira Temp",
-      "Jira View"
+      "Jira View",
+      "Multi-instance support"
     ]
   },
-  { "parent": "plugins/jira-v2/miscellaneous", "folders": ["Cloud", "Server"] },
+  { "parent": "plugins/jira/miscellaneous", "folders": ["Cloud", "Server"] },
   { "parent": "plugins/ms-teams-calling", "folders": ["Authentication", "General Functionality"] },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },
