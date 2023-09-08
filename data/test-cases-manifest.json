@@ -1288,7 +1288,7 @@
                 "file": "channels/autocomplete/with-elasticsearch/MM-T2510.md"
               },
               {
-                "name": "RN apps: FIND CHANNEL Private channels I don't belong to and channels outside the team are not reflected in the search",
+                "name": "RN apps: FIND CHANNEL Private channels I don't belong to are not reflected in the search",
                 "file": "channels/autocomplete/with-elasticsearch/MM-T2511.md"
               },
               {
@@ -1919,7 +1919,7 @@
             "name": "Mobile",
             "routes": [
               {
-                "name": "RN apps: Setting a custom status (mobile)",
+                "name": "RN apps: Setting a custom status",
                 "file": "channels/custom-statuses/mobile/MM-T3890.md"
               },
               {
@@ -9931,98 +9931,6 @@
         "name": "Jira",
         "routes": [
           {
-            "name": "Jira V3",
-            "routes": [
-              {
-                "name": "Verified Create, attach and subscribe UI when additional instances are installed but not connected",
-                "file": "plugins/jira/jira-v3/MM-T3320.md"
-              },
-              {
-                "name": "A second Jira instance can be installed",
-                "file": "plugins/jira/jira-v3/MM-T3321.md"
-              },
-              {
-                "name": "Verify no '--instance' needed for slash commands when only one instance is connected",
-                "file": "plugins/jira/jira-v3/MM-T3322.md"
-              },
-              {
-                "name": "Connect to a second instance",
-                "file": "plugins/jira/jira-v3/MM-T3323.md"
-              },
-              {
-                "name": "Slash commands work with default instance when no '--instance' is provided",
-                "file": "plugins/jira/jira-v3/MM-T3325.md"
-              },
-              {
-                "name": "Create, attach and subscribe UI show additional instances when they are connected",
-                "file": "plugins/jira/jira-v3/MM-T3336.md"
-              },
-              {
-                "name": "Slash commands work with default instance when no '--instance' is provided",
-                "file": "plugins/jira/jira-v3/MM-T3337.md"
-              },
-              {
-                "name": "Default instance selected as expected in modal",
-                "file": "plugins/jira/jira-v3/MM-T3338.md"
-              },
-              {
-                "name": "Add subscription from multiple Jira instances",
-                "file": "plugins/jira/jira-v3/MM-T3339.md"
-              },
-              {
-                "name": "Subscribe shows only connected instances",
-                "file": "plugins/jira/jira-v3/MM-T3340.md"
-              },
-              {
-                "name": "User can still access subscribe as expected for some instance when they don't have permission on other connected instances",
-                "file": "plugins/jira/jira-v3/MM-T3341.md"
-              },
-              {
-                "name": "For 3+ instances Create, Attach and Subscribe modal correctly shows connected instances only",
-                "file": "plugins/jira/jira-v3/MM-T3342.md"
-              },
-              {
-                "name": "For 3+ instances slash command --instance correctly reflects connected instances only",
-                "file": "plugins/jira/jira-v3/MM-T3343.md"
-              },
-              {
-                "name": "Fresh install a Jira and add a V3 instance when there are no legacy instances and licensing is respected",
-                "file": "plugins/jira/jira-v3/MM-T3344.md"
-              },
-              {
-                "name": "Jira Group permission ignore non legacy instance",
-                "file": "plugins/jira/jira-v3/MM-T3345.md"
-              },
-              {
-                "name": "Default instance works in subscribe modal",
-                "file": "plugins/jira/jira-v3/MM-T3382.md"
-              },
-              { "name": "Set an instance alias", "file": "plugins/jira/jira-v3/MM-T3395.md" },
-              {
-                "name": "Aliased and non-aliased instances are displayed in slash command autocomplete",
-                "file": "plugins/jira/jira-v3/MM-T3396.md"
-              }
-            ]
-          },
-          {
-            "name": "Jira V3 Migration",
-            "routes": [
-              {
-                "name": "Jira V3 Migration for Server instance",
-                "file": "plugins/jira/jira-v3-migration/MM-T3346.md"
-              },
-              {
-                "name": "Jira V3 Migration for Cloud instance",
-                "file": "plugins/jira/jira-v3-migration/MM-T3347.md"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Jira V2",
-        "routes": [
-          {
             "name": "Jira Server",
             "routes": [
               {
@@ -10030,35 +9938,35 @@
                 "routes": [
                   {
                     "name": "/jira slash command show help text with sample commands",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T2480.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T2480.md"
                   },
                   {
                     "name": "/jira help",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T2485.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T2485.md"
                   },
                   {
                     "name": "/jira help with custom help text",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T2486.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T2486.md"
                   },
                   {
                     "name": "/jira info",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T2490.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T2490.md"
                   },
                   {
                     "name": "/jira connect when no instance is installed",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4499.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T4499.md"
                   },
                   {
                     "name": "/jira disconnect when no instance is installed",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4500.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T4500.md"
                   },
                   {
                     "name": "/jira uninstall when no instance is installed",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4501.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T4501.md"
                   },
                   {
                     "name": "/jira help when no instance is installed",
-                    "file": "plugins/jira-v2/jira-server/general-slash-commands/MM-T4502.md"
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T4502.md"
                   }
                 ]
               },
@@ -10067,19 +9975,27 @@
                 "routes": [
                   {
                     "name": "/jira disconnect",
-                    "file": "plugins/jira-v2/jira-server/install-and-uninstall/MM-T2481.md"
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T2481.md"
                   },
                   {
                     "name": "/jira install can only be used by admin",
-                    "file": "plugins/jira-v2/jira-server/install-and-uninstall/MM-T2482.md"
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T2482.md"
                   },
                   {
                     "name": "/jira setup Cloud or Server",
-                    "file": "plugins/jira-v2/jira-server/install-and-uninstall/MM-T2483.md"
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T2483.md"
                   },
                   {
                     "name": "/jira uninstall",
-                    "file": "plugins/jira-v2/jira-server/install-and-uninstall/MM-T2484.md"
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T2484.md"
+                  },
+                  {
+                    "name": "Jira V3 Migration for Server instance",
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T3346.md"
+                  },
+                  {
+                    "name": "Jira V3 Migration for Cloud instance",
+                    "file": "plugins/jira/jira-server/install-and-uninstall/MM-T3347.md"
                   }
                 ]
               },
@@ -10088,39 +10004,39 @@
                 "routes": [
                   {
                     "name": "Jira assign - User name matches exactly",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4489.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4489.md"
                   },
                   {
                     "name": "Jira assign - Partial match returns only one result",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4490.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4490.md"
                   },
                   {
                     "name": "Jira assign - User name returns multiple  matches",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4491.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4491.md"
                   },
                   {
                     "name": "Jira assign - User name returns no matches",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4492.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4492.md"
                   },
                   {
                     "name": "Jira assign - User name is invalid",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4493.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4493.md"
                   },
                   {
                     "name": "Jira assign - Assign via last name",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4494.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4494.md"
                   },
                   {
                     "name": "Jira assign - Issue key is case insensitive",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4495.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4495.md"
                   },
                   {
                     "name": "Jira Unassign works",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4496.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4496.md"
                   },
                   {
                     "name": "Jira Unassign respects permissions",
-                    "file": "plugins/jira-v2/jira-server/jira-assign/MM-T4497.md"
+                    "file": "plugins/jira/jira-server/jira-assign/MM-T4497.md"
                   }
                 ]
               },
@@ -10129,51 +10045,51 @@
                 "routes": [
                   {
                     "name": "Search for text in issue title",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4534.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4534.md"
                   },
                   {
                     "name": "Search for test in issue description",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4535.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4535.md"
                   },
                   {
                     "name": "Search for issue key",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4536.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4536.md"
                   },
                   {
                     "name": "Ensure you can search across multiple projects",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4537.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4537.md"
                   },
                   {
                     "name": "Feedback when there are no results",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4538.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4538.md"
                   },
                   {
                     "name": "Attach comment modal is working",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4539.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4539.md"
                   },
                   {
                     "name": "Attempt to attach a comment to an issue in a project you don't have access to read",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4540.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4540.md"
                   },
                   {
                     "name": "Attempt to attach a comment in a project where you have read-only access",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4541.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4541.md"
                   },
                   {
                     "name": "Attach a file when adding a post to an issue (Attach different file types Images, PDF, Zip)",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4544.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4544.md"
                   },
                   {
                     "name": "Files under 10MB can be attached",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4546.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4546.md"
                   },
                   {
                     "name": "Files over 10MB can be attached",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4547.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4547.md"
                   },
                   {
                     "name": "Attachment fail when attachment has been disabled in Jira",
-                    "file": "plugins/jira-v2/jira-server/jira-attach/MM-T4548.md"
+                    "file": "plugins/jira/jira-server/jira-attach/MM-T4548.md"
                   }
                 ]
               },
@@ -10182,19 +10098,19 @@
                 "routes": [
                   {
                     "name": "Connect to Jira from a browser",
-                    "file": "plugins/jira-v2/jira-server/jira-connect/MM-T2473.md"
+                    "file": "plugins/jira/jira-server/jira-connect/MM-T2473.md"
                   },
                   {
                     "name": "Connect to Jira from Desktop client",
-                    "file": "plugins/jira-v2/jira-server/jira-connect/MM-T4498.md"
+                    "file": "plugins/jira/jira-server/jira-connect/MM-T4498.md"
                   },
                   {
                     "name": "Map User to Jira server",
-                    "file": "plugins/jira-v2/jira-server/jira-connect/MM-T4503.md"
+                    "file": "plugins/jira/jira-server/jira-connect/MM-T4503.md"
                   },
                   {
                     "name": "Revoke button in Jira remove user mapping",
-                    "file": "plugins/jira-v2/jira-server/jira-connect/MM-T4504.md"
+                    "file": "plugins/jira/jira-server/jira-connect/MM-T4504.md"
                   }
                 ]
               },
@@ -10203,139 +10119,139 @@
                 "routes": [
                   {
                     "name": "Slash command - Create with description",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T2488.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T2488.md"
                   },
                   {
                     "name": "Slash command - Create without description",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T2489.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T2489.md"
                   },
                   {
                     "name": "Jira options for attach and create are not visible to sysadmin when clicking on a System Post",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4505.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4505.md"
                   },
                   {
                     "name": "Create is available in on main posts and reply post",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4506.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4506.md"
                   },
                   {
                     "name": "Create option is available in RHS",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4507.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4507.md"
                   },
                   {
                     "name": "Create a Jira issue from a post in a Public Channel",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4508.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4508.md"
                   },
                   {
                     "name": "Create a Jira issue from a post in a Private Channel",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4509.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4509.md"
                   },
                   {
                     "name": "Create a Jira issue from a post in a DM Channel",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4510.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4510.md"
                   },
                   {
                     "name": "Create a Jira issue from a post in a GM Channel",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4511.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4511.md"
                   },
                   {
                     "name": "Can create issue from permalink view",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4512.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4512.md"
                   },
                   {
                     "name": "Create a Bug type Issue",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4513.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4513.md"
                   },
                   {
                     "name": "Create a Story type Issue",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4514.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4514.md"
                   },
                   {
                     "name": "Create a Task type Issue",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4515.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4515.md"
                   },
                   {
                     "name": "Create an Epic type Issue",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4516.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4516.md"
                   },
                   {
                     "name": "Create a Custom type Issue",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4517.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4517.md"
                   },
                   {
                     "name": "Issue description can be edited before you save",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4518.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4518.md"
                   },
                   {
                     "name": "Default fields can be saved correctly",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4519.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4519.md"
                   },
                   {
                     "name": "Create Modal Validation - Tab behavior",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4520.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4520.md"
                   },
                   {
                     "name": "Create Modal Validation - Enter key before Project is set does nothing",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4521.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4521.md"
                   },
                   {
                     "name": "Create Modal Validation -  Validation ensures all mandatory fields have a value including different types of mandatory fields",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4522.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4522.md"
                   },
                   {
                     "name": "Create Modal Validation -  Validation remains functional when switching issue type and project",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4523.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4523.md"
                   },
                   {
                     "name": "Create Modal Validation -  Handle Server side error when an issue cannot be created due to fields being unavailable",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4524.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4524.md"
                   },
                   {
                     "name": "Create Modal Validation -  Handle Server side error when invalid data has been entered",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4525.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4525.md"
                   },
                   {
                     "name": "Create Modal Validation -  Begin creating a ticket with unsupported fields",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4526.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4526.md"
                   },
                   {
                     "name": "Create Modal Validation - Test creating an issue when reporter is set to Required",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4527.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4527.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - Desktop",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4528.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4528.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - Browser",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4529.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4529.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - date field",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4530.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4530.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - check boxes",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4531.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4531.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - labels",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4532.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4532.md"
                   },
                   {
                     "name": "Issue creation with unsupported mandatory field - number field",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4533.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4533.md"
                   },
                   {
                     "name": "Issue Create - Test user cannot create a Jira issue in any projects",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4542.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4542.md"
                   },
                   {
                     "name": "Issue Create - Attach a file when creating an issue (Attach different file types Images, PDF, Zip)",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4543.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4543.md"
                   },
                   {
                     "name": "Issue Create - Files can be attached to Jira comment",
-                    "file": "plugins/jira-v2/jira-server/jira-create/MM-T4545.md"
+                    "file": "plugins/jira/jira-server/jira-create/MM-T4545.md"
                   }
                 ]
               },
@@ -10344,35 +10260,35 @@
                 "routes": [
                   {
                     "name": "Setup a subscription",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4949.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4949.md"
                   },
                   {
                     "name": "When only one subscription exists - Save a subscription without making edits",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4950.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4950.md"
                   },
                   {
                     "name": "Create a subscription",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4951.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4951.md"
                   },
                   {
                     "name": "Name unique within a channel",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4952.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4952.md"
                   },
                   {
                     "name": "Name can be updated",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4954.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4954.md"
                   },
                   {
                     "name": "Edits can be discarded",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4955.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4955.md"
                   },
                   {
                     "name": "Delete a Subscription",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4956.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4956.md"
                   },
                   {
                     "name": "Basic Subscription events",
-                    "file": "plugins/jira-v2/jira-server/jira-subscriptions/MM-T4957.md"
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T4957.md"
                   }
                 ]
               },
@@ -10381,23 +10297,124 @@
                 "routes": [
                   {
                     "name": "/jira view <issue-key> shows the issue info",
-                    "file": "plugins/jira-v2/jira-server/jira-view/MM-T4484.md"
+                    "file": "plugins/jira/jira-server/jira-view/MM-T4484.md"
                   },
                   {
                     "name": "View issue publicly",
-                    "file": "plugins/jira-v2/jira-server/jira-view/MM-T4485.md"
+                    "file": "plugins/jira/jira-server/jira-view/MM-T4485.md"
                   },
                   {
                     "name": "/jira view - issue does not exist",
-                    "file": "plugins/jira-v2/jira-server/jira-view/MM-T4486.md"
+                    "file": "plugins/jira/jira-server/jira-view/MM-T4486.md"
                   },
                   {
                     "name": "/jira view - user does not have permission to view the issue",
-                    "file": "plugins/jira-v2/jira-server/jira-view/MM-T4487.md"
+                    "file": "plugins/jira/jira-server/jira-view/MM-T4487.md"
                   },
                   {
                     "name": "/jira <issue-key> returns help",
-                    "file": "plugins/jira-v2/jira-server/jira-view/MM-T4488.md"
+                    "file": "plugins/jira/jira-server/jira-view/MM-T4488.md"
+                  }
+                ]
+              },
+              {
+                "name": "Multi-instance support",
+                "routes": [
+                  {
+                    "name": "Verified Create, attach and subscribe UI when additional instances are installed but not connected",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3320.md"
+                  },
+                  {
+                    "name": "A second Jira instance can be installed",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3321.md"
+                  },
+                  {
+                    "name": "Verify no '--instance' needed for slash commands when only one instance is connected",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3322.md"
+                  },
+                  {
+                    "name": "Connect to a second instance",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3323.md"
+                  },
+                  {
+                    "name": "Slash commands work with default instance when no '--instance' is provided",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3325.md"
+                  },
+                  {
+                    "name": "Create, attach and subscribe UI show additional instances when they are connected",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3336.md"
+                  },
+                  {
+                    "name": "Slash commands work with default instance when no '--instance' is provided",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3337.md"
+                  },
+                  {
+                    "name": "Default instance selected as expected in modal",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3338.md"
+                  },
+                  {
+                    "name": "Add subscription from multiple Jira instances",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3339.md"
+                  },
+                  {
+                    "name": "Subscribe shows only connected instances",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3340.md"
+                  },
+                  {
+                    "name": "User can still access subscribe as expected for some instance when they don't have permission on other connected instances",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3341.md"
+                  },
+                  {
+                    "name": "For 3+ instances Create, Attach and Subscribe modal correctly shows connected instances only",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3342.md"
+                  },
+                  {
+                    "name": "For 3+ instances slash command --instance correctly reflects connected instances only",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3343.md"
+                  },
+                  {
+                    "name": "Fresh install a Jira and add a V3 instance when there are no legacy instances and licensing is respected",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3344.md"
+                  },
+                  {
+                    "name": "Jira Group permission ignore non legacy instance",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3345.md"
+                  },
+                  {
+                    "name": "Default instance works in subscribe modal",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3382.md"
+                  },
+                  {
+                    "name": "Set an instance alias",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3395.md"
+                  },
+                  {
+                    "name": "Aliased and non-aliased instances are displayed in slash command autocomplete",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T3396.md"
+                  },
+                  {
+                    "name": "Comment notification for the user in MM channel in cloud",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5439.md"
+                  },
+                  {
+                    "name": "Comment notification in DM in cloud",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5440.md"
+                  },
+                  {
+                    "name": "Comment notification in DM by mentioning in cloud",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5441.md"
+                  },
+                  {
+                    "name": "Comment notification for the user in MM for server",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5442.md"
+                  },
+                  {
+                    "name": "Comment notification in DM for server",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5443.md"
+                  },
+                  {
+                    "name": "Comment notification in DM by mentioning for server",
+                    "file": "plugins/jira/jira-server/multi-instance-support/MM-T5444.md"
                   }
                 ]
               }
@@ -10411,31 +10428,31 @@
                 "routes": [
                   {
                     "name": "- Install Jira instance on MM Server",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2472.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2472.md"
                   },
                   {
                     "name": "- Test notification from Jira using Legacy webhook and user",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2474.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2474.md"
                   },
                   {
                     "name": "- Menu Items remain visible in new session",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2475.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2475.md"
                   },
                   {
                     "name": "- Uninstall Jira",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2476.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2476.md"
                   },
                   {
                     "name": "Install a new Jira instance",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2477.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2477.md"
                   },
                   {
                     "name": "Enabling Jira V2 for 1st time uses a BOT account",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2478.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2478.md"
                   },
                   {
                     "name": "Previously Existing non-bot Jira user",
-                    "file": "plugins/jira-v2/miscellaneous/cloud/MM-T2479.md"
+                    "file": "plugins/jira/miscellaneous/cloud/MM-T2479.md"
                   }
                 ]
               },
@@ -10444,27 +10461,27 @@
                 "routes": [
                   {
                     "name": "Attempt to install when no site URL is set",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2466.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2466.md"
                   },
                   {
                     "name": "- Install Jira instance on MM Server",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2467.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2467.md"
                   },
                   {
                     "name": "- Test /jira connect",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2468.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2468.md"
                   },
                   {
                     "name": "- Test notification from Jira using Legacy webhook and user",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2469.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2469.md"
                   },
                   {
                     "name": "- Menu Items remain visible in new session",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2470.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2470.md"
                   },
                   {
                     "name": "- Uninstall Jira",
-                    "file": "plugins/jira-v2/miscellaneous/server/MM-T2471.md"
+                    "file": "plugins/jira/miscellaneous/server/MM-T2471.md"
                   }
                 ]
               }
