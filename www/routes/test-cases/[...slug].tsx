@@ -1,4 +1,4 @@
-import { Head } from "$fresh/runtime.ts";
+import { asset, Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { extractFrontMatter, gfm, sortBy } from "../../utils/deps.ts";
 import { testCasesFolderFullPath } from "../../utils/constant.ts";
@@ -78,7 +78,7 @@ export default function TestsPage(props: PageProps<Data>) {
     <>
       <Head>
         <title>{props.data.page?.name ?? "Not Found"} | Test Management</title>
-        <link rel="stylesheet" href={`/gfm.css?build=${__FRSH_BUILD_ID}`} />
+        <link rel="stylesheet" href={asset("/gfm.css")} />
       </Head>
       <div class="flex flex-col min-h-screen">
         <Header withSearchBar={true} />

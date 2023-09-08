@@ -24,10 +24,8 @@
     "strict": true
   },
   "lint": {
-    "files": {
-      "include": ["src/", "data/", "www/"],
-      "exclude": []
-    },
+    "include": ["src/", "data/", "www/"],
+    "exclude": ["www/_fresh"],
     "rules": {
       "tags": ["recommended"],
       "include": ["ban-untagged-todo, no-unused-vars"],
@@ -35,21 +33,18 @@
     }
   },
   "fmt": {
-    "files": {
-      "include": ["src/", "data/"],
-      "exclude": [
-        "data/template/",
-        "data/Cypress status.md",
-        "data/Mobile v2.md",
-        "data/Test Cases.md"
-      ]
-    },
-    "options": {
-      "useTabs": false,
-      "lineWidth": 100,
-      "indentWidth": 2,
-      "singleQuote": true,
-      "proseWrap": "preserve"
-    }
+    "include": ["src/", "data/"],
+    "exclude": [
+      "data/template/",
+      "data/Cypress status.md",
+      "data/Mobile v2.md",
+      "data/Test Cases.md",
+      "www/_fresh"
+    ],
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "singleQuote": true,
+    "proseWrap": "preserve"
   }
 }
