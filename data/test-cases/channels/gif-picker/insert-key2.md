@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Change Test Title"
+name: "Should search, select and post correct Gif when Gif picker is opened from RHS textbox"
 status: Active
 priority: Normal
 folder: Gif picker
