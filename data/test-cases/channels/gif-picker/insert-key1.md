@@ -35,13 +35,13 @@ steps_hashed: null
 
 **Step 1**
 
-Searching a gif from gif picker and inserting it in the post in the center
-1. Enable Gif picker from Systom console if not enabled
-2. Open a channel and click on Emoji picker icon from message text box in center
-3. Tab to Gif picker
-4. Search a gif
-5. Click on the gif
+Searching for and inserting a GIF from the GIF picker into a post in the center:
+1. If the GIF picker is not enabled, enable it from the System Console.
+2. Open a channel and click on the Emoji picker icon within the message text box in the center.
+3. Navigate to the GIF picker tab.
+4. Perform a search for a GIF.
+5. Click on the any GIF.
 
-**Expected**
-1. Gif picker search should show revelant gifs
-2. Gif should be inserted in the post in the center when clicked on it
+**Expected Results:**
+1. The GIF picker search should display relevant GIFs.
+2. When clicked, the selected GIF should be inserted into the post in the center.

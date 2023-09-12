@@ -35,15 +35,15 @@ steps_hashed: null
 
 **Step 1**
 
-Searching a gif from gif picker and inserting it in the post in the RHS
-1. Enable Gif picker from Systom console if not enabled
+Searching for and inserting a GIF from the GIF picker into a post on the RHS:
+1. If the GIF picker is not enabled, enable it from the System Console.
 1. Open a channel and send a message.
-1. Click reply on the last message to open RHS
-1. Click on Emoji picker icon from message text box in RHS
-1. Tab to Gif picker
-1. Search a gif
-1. Click on the gif
+1. Click the "Reply" button on the last message to open the RHS.
+1. Click on the Emoji picker icon located within the message text box in the RHS.
+1. Navigate to the GIF picker tab.
+1. Perform a search for a GIF.
+1. Click on any GIF.
 
-**Expected**
-1. Gif picker search should show revelant gifs
-1. Gif should be inserted in the post in the RHS when clicked on it
+**Expected Results:**
+1. The GIF picker search should display relevant GIFs.
+1. When clicked, the selected GIF should be inserted into the post on the RHS.
