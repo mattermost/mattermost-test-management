@@ -197,6 +197,7 @@ function customFieldsValues() {
       'Suite Users',
       'Server Platform',
       'Web Platform',
+      'ICU'
     ],
   };
 
