@@ -90,7 +90,12 @@ There are three ways to get started in contributing to this project.
   - or use commas for multiple testing contributions:
   ```diff
   - tested_by_contributor: @qa_contributor|08-20-2023
+
+  // from same contributor 
   + tested_by_contributor: @qa_contributor|08-20-2023,@qa_contributor|10-15-2023
+
+  // from different contributor
+  + tested_by_contributor: @qa_contributor|08-20-2023,@another_qa_contributor|10-15-2023
   ```
 
 ### Getting started - working with integrations
