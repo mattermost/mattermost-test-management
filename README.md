@@ -87,7 +87,7 @@ There are three ways to get started in contributing to this project.
   - tested_by_contributor: null
   + tested_by_contributor: @qa_contributor|08-20-2023
   ```
-  - or use commas for multiple testing contributions.
+  - or use commas for multiple testing contributions:
   ```diff
   - tested_by_contributor: @qa_contributor|08-20-2023
   + tested_by_contributor: @qa_contributor|08-20-2023,@qa_contributor|10-15-2023
