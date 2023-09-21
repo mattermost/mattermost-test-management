@@ -20,7 +20,7 @@ tasks:
       deno task validate-all
   - name: Run Silver Bullet
     init: |
-      deno task silverbullet
+      echo "To run silverbullet, run 'deno task silverbullet'"
 
 github:
   prebuilds:
