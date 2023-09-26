@@ -40,4 +40,4 @@ steps_hashed: null
 4. From the Channel menu, click on 'Convert to Private Channel'.
 5. Verify User can see a pop up, with a heading `Convert to Private Channe` and an alert message `Unable to convert to a channel because group members are part of different teams`.
 
-![Alt text](data/asset/Error_converting_GM.png)
+![Error pop up](data/asset/Error_converting_GM.png)
