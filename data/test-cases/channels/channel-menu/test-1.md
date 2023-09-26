@@ -42,4 +42,4 @@ steps_hashed: null
 6. Verify User can enter a Channel name and Select Team from the dropdown (this dropdown won't appear if the users are in just 1 team).
 7. Click on Create a Private Channel.
 8. Verify the created channel is a Private channel.
-8. Verify the Post is still in the channel after conversion.
+9. Verify the Post is still in the channel after conversion.
