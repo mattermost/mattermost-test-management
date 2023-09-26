@@ -498,7 +498,9 @@
   {
     "folder": "channels/channel-menu",
     "tests": [
+      "Convert a GM to Private channel with users on same team",
       "Leave and Archive channel actions display as destructive",
+      "Throw Error when Converting a GM to Private channel with users from different teams",
       "channels/DMs/GMs move to submenus should have appropriate menu items"
     ]
   },
