@@ -1,7 +1,8 @@
+---
 # (Required) Ensure all values are filled up
 name: "OAuth setup for Jira plugin"
 status: Active
-priority: Medium
+priority: Normal
 folder: Install and Uninstall
 authors: "@AayushChaudhary0001"
 team_ownership: []
@@ -33,8 +34,8 @@ steps_hashed: null
 
 **Step 1**
 
-1. Run the /jira connect command.
-2. Run the /jira instance install cloud-oauth<cloud URL>
+1. Run the `/jira connect` command.
+2. Run the `/jira instance install cloud-oauth <cloud_jira_URL>`
 3. Complete the setup for the Cloud OAuth 2.0.
 
 **Expected**

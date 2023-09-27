@@ -1,7 +1,8 @@
+---
 # (Required) Ensure all values are filled up
 name: "Comment notification for the user"
 status: Active
-priority: Medium
+priority: Normal
 folder: Jira subscriptions
 authors: "@AayushChaudhary0001"
 team_ownership: []

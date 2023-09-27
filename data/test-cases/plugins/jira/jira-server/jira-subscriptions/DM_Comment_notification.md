@@ -1,7 +1,8 @@
+---
 # (Required) Ensure all values are filled up
 name: "Mention comment notification in DM"
 status: Active
-priority: Medium
+priority: Normal
 folder: Jira subscriptions
 authors: "@AayushChaudhary0001"
 team_ownership: []
@@ -38,6 +39,7 @@ steps_hashed: null
 3. Mention the desired user in the comments.
 4. Go back to the connected MM server.
 
+
 **Expected**
 
-The user should get the comment notification in the DM through the Jira bot.
+The user should get the comment notification in the DM through the Jira bot. Also, according to step 2, 

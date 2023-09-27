@@ -1,7 +1,8 @@
+---
 # (Required) Ensure all values are filled up
 name: "Mention comment notification in DM if username contains @"
 status: Active
-priority: Medium
+priority: 
 folder: Jira subscriptions
 authors: "@AayushChaudhary0001"
 team_ownership: []

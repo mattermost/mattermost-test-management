@@ -1,7 +1,8 @@
+---
 # (Required) Ensure all values are filled up
 name: "Disconnect API changed to POST method"
 status: Active
-priority: Medium
+priority: Normal
 folder: Install and Uninstall 
 authors: "@AayushChaudhary0001"
 team_ownership: []
@@ -33,11 +34,18 @@ steps_hashed: null
 
 **Step 1**
 
-1. Run the /jira connect command.
+1. Run the `/jira connect` command.
 2. Click on the allow button.
 3. Copy the link of disconnect button.
-4. Paste it on the postman search bar through the GET method
+4. Paste it on the postman search bar through the GET method.
+
+**Step 2**
+
+1. Run the `/jira connect` command.
+2. Click on the allow button.
+3. Copy the link of disconnect button.
+4. Paste it on a new tab in the browser.
 
 **Expected**
 
-The link should not be found working through the GET method.
+The link should not be found working through the GET method. Also, according to step 2, the link should not be found working on the browser as in browser it always works through GET method.
