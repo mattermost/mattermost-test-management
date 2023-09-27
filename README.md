@@ -3,9 +3,11 @@
 This project was created to increase the quality of Mattermost products by having highly effective, well-thought and well-maintained living test cases through high collaboration and based on industry-accepted best practices.
 
 ## Contributing
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management)
-
-As the [QA Core Team](https://github.com/orgs/mattermost/teams/qa-core-team) is still actively developing this project, it is not yet ready for community contribution. However, feel free to file an issue if you find anything that needs our attention. We will update this section and will announce it in our channels once we are all set to accept contributions. Keep on watching!
+1. Create or update test cases.
+2. Mark test cases as tested by you.
+3. Enhance GitHub and Zephyr Scale integration.
+4. Improve the web application for test cases.
+4. Assist with the Open Test Initiative.
 
 ## Project status and Roadmap
 This project is actively maintained and owned by the [QA Core Team](https://github.com/orgs/mattermost/teams/qa-core-team).
@@ -27,7 +29,24 @@ If you're interested in shaping this project, please reach out to our [community
 
 ## Getting started
 There are three ways to get started in contributing to this project.
-1. It is highly recommended to [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management), for it provides a fully initialized and readily available environment.
+1. It is highly recommended to [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management) for it provides a fully initialized and readily available environment. After opening it, make and submit changes using your forked repository like this:
+    ```bash
+    # Add your forked repository as remote
+    git remote add fork https://github.com/<username>/mattermost-test-management.git
+
+    # Create branch
+    git checkout -b <branch_name>
+
+    # Once ready, push the current branch to your fork
+    git push fork
+
+    # Finally, create a PR directly from GitHub
+    ```
+    > *Note*: In Gitpod, if you forget to do the above, pushing a change or branch to the origin will result in a permission error, like this one:
+    ```bash
+    remote: Permission to mattermost/mattermost-test-management.git denied to <github_handlename>.
+    fatal: unable to access 'https://github.com/mattermost/mattermost-test-management.git/': The requested URL returned error: 403
+    ```
 2. You can also work on your local machine by checking out this repo. Make sure you have [Deno](https://deno.land/) installed on your machine to run scripts in the /src folder. See the [Deno installation docs](https://deno.land/#installation) for more information.
 3. If you're contributing test cases only where they are written in Markdown files, you may do so directly via this GitHub repo. See the GitHub docs on [creating new files and submitting pull requests](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files).
 
@@ -60,6 +79,24 @@ There are three ways to get started in contributing to this project.
 5. Always run `deno task check` to ensure all formatting is correct and there are no lint errors. 
 6. Create a branch and submit changes as a pull request(s).
     > *Note*: It's highly recommended to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for the `title` of the pull request.
+
+### Getting started - marking tests as tested by you as a contributor:
+1. Find test cases at `/data/test-cases`.
+2. Update a test case by adding your GitHub handle and the date (mm-dd-yyyy) when you tested it:
+  ```diff
+  - tested_by_contributor: null
+  + tested_by_contributor: @qa_contributor|08-20-2023
+  ```
+  - or use commas for multiple testing contributions:
+  ```diff
+  - tested_by_contributor: @qa_contributor|08-20-2023
+
+  // from same contributor 
+  + tested_by_contributor: @qa_contributor|08-20-2023,@qa_contributor|10-15-2023
+
+  // from different contributor
+  + tested_by_contributor: @qa_contributor|08-20-2023,@another_qa_contributor|10-15-2023
+  ```
 
 ### Getting started - working with integrations
 1. Checkout this repo and make sure that `Deno` is installed on your local machine or [![open in Gitpod](https://img.shields.io/badge/open%20in-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost-test-management).
