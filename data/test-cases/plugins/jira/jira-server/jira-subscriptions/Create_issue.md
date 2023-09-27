@@ -34,7 +34,7 @@ steps_hashed: null
 **Step 1**
 
 1. Post any new message in the channel.
-2. Click on the create issue option in post menu actions.
+2. Click on the create Jira issue option in post menu actions.
 3. Select any project and fill the following fields.
 4. Change the project afterwards.
 
