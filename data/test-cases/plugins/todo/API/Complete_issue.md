@@ -34,8 +34,8 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the correct authtoken(in Postman) of the correct user.
-2. Provide the correct id(mndatory field) of the Todo comment.
+1. Open the RHS of Todo plugin.
+2. Click on the checkbox of the desired Todo.
 
 **Expected**
 

@@ -34,9 +34,10 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the authtoken(in postman) of the user to whom the Todo is assigned.
-2. Provide the id(mandatory field) of the ToDo from the list of the user to whom the Todo is aasigned.
+1. Open the sent Todo list from the Todo plugin RHS.
+2. Click on the options of any desired Todo.
+3. Click on bumo button.
 
 **Expected**
 
-The desired Todo should get accepted.
+The assigned user should get a reminder notification for the task bumped.

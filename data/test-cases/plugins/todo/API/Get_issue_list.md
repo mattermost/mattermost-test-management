@@ -34,8 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the correct authtoken(in postman) of the user.
-2. Select the params for the Todo list(in/out).
+1. Run the `/todo list` command.
 
 **Expected**
 

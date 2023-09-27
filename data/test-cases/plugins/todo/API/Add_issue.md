@@ -34,8 +34,9 @@ steps_hashed: null
 
 **Step 1**
 
-1. Fill all the mandatory fields of the API body.
-2. Provide the correct authtoken of the user(in postman).
+1. Click on the Add isue button.
+2. Fill all the mandatory fields.
+3. Click on the save button.
 
 **Expected**
 

@@ -34,8 +34,8 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the authtoken(in postman) of the user to whom the Todo is assigned.
-2. Provide the id(mandatory field) of the Todo from the list of the users to whom the ToDo is assigned.
+1. Create an issue from any user's account and assign it to the other user.
+2. Open the Todo RHS and click on "Add to my list" button, or open the Todo bot chat and click on "Add to my list" button in slack attachement.
 
 **Expected**
 

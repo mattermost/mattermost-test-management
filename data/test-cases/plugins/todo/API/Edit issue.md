@@ -34,10 +34,12 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the id(mandatory field) of the desired Todo.
-2. Enter the desired changes in message and description field(mandatory fields).
-3. Provide the correct authtoken(in postman) of the user.
+1. Open the RHS of the Todo plugin.
+2. Open on the menu options of the desired Todo issue.
+3. Click on edit issue.
+4. Fill the required fields and click on save button.
+
 
 **Expected**
 
-The desired Todo should get created.
+The desired Todo should get edited.

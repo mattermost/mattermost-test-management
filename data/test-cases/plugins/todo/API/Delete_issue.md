@@ -34,8 +34,9 @@ steps_hashed: null
 
 **Step 1**
 
-1. Provide the correct authtoken(in postman) of the user.
-2. Fill the mandatory ID field correctly.
+1. Open the Todo plugin RHS.
+2. Open the menu options of the desired todo issue.
+3. Click on delete Todo option.
 
 **Expected**
 
