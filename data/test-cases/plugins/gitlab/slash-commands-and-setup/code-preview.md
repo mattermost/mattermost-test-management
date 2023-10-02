@@ -37,7 +37,7 @@ steps_hashed: null
 1. Ensure _Enable Code Previews:_ is set to Enable for Public Project
 2. Ensure the test user is connected to GitLab
 3. Post a valid code preview link that references one or more lines of code
-   ex: https://gitlab.com/dhaussermann/dkh-public/-/blob/323cdf25b439e9d01bcb139859b39fc4580e65a1/scipt.js#L11-L12
+   ex: https://gitlab.com/dhaussermann/dkh-public/-/blob/323cdf25b439e9d01bcb139859b39fc4580e65a1/script.js#L11-L12
 
 **Expected**
 
