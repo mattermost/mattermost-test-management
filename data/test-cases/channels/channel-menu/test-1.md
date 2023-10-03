@@ -38,8 +38,8 @@ steps_hashed: null
 2. Create a GM channel with users between 2 to 7 from same team.
 3. Post a message.
 4. From the Channel menu, click on 'Convert to Private Channel'.
-5. Verify User can see a pop up, with a heading `Convert to Private Channe` and an alert message `Conversation history will be visible to any channel members`.
-6. Verify User can enter a Channel name and Select Team from the dropdown (this dropdown won't appear if the users are in just 1 team).
+5. Verify user can see a pop up, with a heading `Convert to Private Channel` and an alert message `Conversation history will be visible to any channel members`.
+6. Verify user can enter a Channel name and Select Team from the dropdown (this dropdown won't appear if the users are in just 1 team).
 7. Click on Create a Private Channel.
 8. Verify the created channel is a Private channel.
 9. Verify the Post is still in the channel after conversion.

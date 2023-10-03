@@ -38,6 +38,6 @@ steps_hashed: null
 2. Create 2 teams and have users assigned to them.
 3. Create a GM channel with users between 2 to 7, and they should be from different team.
 4. From the Channel menu, click on 'Convert to Private Channel'.
-5. Verify User can see a pop up, with a heading `Convert to Private Channe` and an alert message `Unable to convert to a channel because group members are part of different teams`.
+5. Verify user can see a pop up, with a heading `Convert to Private Channel` and an alert message `Unable to convert to a channel because group members are part of different teams`.
 
-![Screenshot](/data/asset/Error_converting_GM.png)
+![Screenshot](https://raw.githubusercontent.com/mattermost/mattermost-test-management/main/data/asset/Error_converting_GM.png)
