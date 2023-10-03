@@ -35,10 +35,10 @@ steps_hashed: null
 **Step 1**
 
 1. In Jira, create or locate a target project has a set of security groups associated to it
-2. In matter most select a channel and create a new susbscription
+2. In Mattermost select a channel and create a new subscription
 3. Select the target project from step 1. and add some events
-4. Save the subscirption without adding a filter
-5. In jira trigger an event included in the subsription
+4. Save the subscription without adding a filter
+5. In jira trigger an event included in the subscription
 
 **Expected**
 

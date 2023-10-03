@@ -35,9 +35,9 @@ steps_hashed: null
 **Step 1**
 
 1. In Jira, create or locate a target project that has no security groups associated to it
-2. In matter most select a channel and create a new susbscription
+2. In Mattermost select a channel and create a new subscription
 3. Select the target project from step 1. and add some events
-4. Add a filter and select Secutiy Group
+4. Add a filter and select Security Group
 
 **Expected**
 
