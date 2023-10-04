@@ -34,11 +34,11 @@ steps_hashed: null
 
 **Step 1**
 
-1. In Jira, create or locate a target project has a set of security groups associated to it
+1. In Jira, create or locate a target project that has a set of security groups associated to it
 2. In Mattermost select a channel and create a new subscription
 3. Select the target project from step 1. and add some events
 4. Add one of the the security levels for the project
-5. In jira locate (or create) an issue that is part of the security level selected in the filter above
+5. In Jira locate (or create) an issue that is part of the security level selected in the filter above
 6. For the Jira issue above, trigger an event included in the subscription
 
 **Expected**

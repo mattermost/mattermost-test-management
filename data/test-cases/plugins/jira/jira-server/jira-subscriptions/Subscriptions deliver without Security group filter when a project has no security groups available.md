@@ -38,7 +38,8 @@ steps_hashed: null
 2. In Mattermost select a channel and create a new subscription
 3. Select the target project from step 1. and add some events
 4. Save the subscription without adding a filter
-5. In jira trigger an event included in the subscription
-   **Expected**
+5. In Jira trigger an event included in the subscription
+
+**Expected**
 
 The event is delivered in the channel

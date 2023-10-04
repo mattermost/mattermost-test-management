@@ -43,4 +43,4 @@ steps_hashed: null
 **Expected**
 
 - Above the "approximate SQL" box the text '"security level" is empty' is shown
-- The even is not delivered as there is not security level applied
+- The event is not delivered as there is not security level applied
