@@ -42,4 +42,4 @@ steps_hashed: null
 
 **Expected**
 
-The user should get the comment notification in the DM through the Jira bot. Also, according to step 2, 
+The user should get the comment notification in the DM through the Jira bot. 

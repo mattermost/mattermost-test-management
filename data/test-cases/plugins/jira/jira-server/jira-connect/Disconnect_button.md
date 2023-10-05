@@ -1,9 +1,9 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Comment notification for the user"
+name: "Disconnect button for user"
 status: Active
 priority: Normal
-folder: Jira subscriptions
+folder: Jira Connect
 authors: "@AayushChaudhary0001"
 team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
@@ -34,13 +34,9 @@ steps_hashed: null
 
 **Step 1**
 
-1. Create a subscription on MM for desired project in Jira.
-2. Go to the connected Jira instance.
-3. Open the subscribed Jira board.
-4. Perform any activity(for eg. add any comment) on the desired issue for which the subscription is already created.
-5. Go back to the channel in MM.
+1. Run the `/jira connect` command and connect the user.
+2. On the connection confirmation page, click on the disconnect button. 
 
 **Expected**
 
-The user should get the comment notification in the channel through the Jira bot.
-
+The user should be able to disconnect from the Jira instance.

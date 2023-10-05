@@ -36,7 +36,7 @@ steps_hashed: null
 
 1. Run the `/jira connect` command.
 2. Run the `/jira instance install cloud-oauth <cloud_jira_URL>`
-3. Complete the setup for the Cloud OAuth 2.0.
+3. Continue the steps provided in the direct message from Jira bot and complete the setup of cloud O-Auth 2.0.
 
 **Expected**
 
