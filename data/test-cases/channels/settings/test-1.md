@@ -41,8 +41,9 @@ Scenario: When logged in user posts a phrase
 
 1. Login to mattermost with **User A** account and goto Settings -> Notification modal.
 2. In the `Keywords That Get Highlighted (without notifications)` section, type a test phrases and words. Example: `Testing`, `Testing the keyword highlight without notification feature`.
-3. Open any channel, and post the example phrase.
-4. Verify the Phrase is Highlighted by a yellow background
+3. Press `Tab` or `Comma` and press `Save` button.
+4. Open any channel, and post the example phrase.
+5. Verify the Phrase is Highlighted by a yellow background
 
 Scenario: When Other user posts a phrase.
 
