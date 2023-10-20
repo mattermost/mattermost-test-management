@@ -35,6 +35,10 @@ steps_hashed: null
 
 **Step 1**
 
+Test Data:
+
+- Should have a Professional License
+
 Scenario: Edit a Phrase
 
 1. Login to mattermost account.

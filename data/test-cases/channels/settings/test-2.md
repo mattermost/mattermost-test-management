@@ -35,6 +35,10 @@ steps_hashed: null
 
 **Step 1**
 
+Test Data:
+
+- Should have a Professional License
+
 Scenario: Use `Tab` to add a Phrase as a Keyword to be highlighted.
 
 1. Login to mattermost account and goto Settings -> Notification modal.

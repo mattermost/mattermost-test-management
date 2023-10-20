@@ -35,7 +35,10 @@ steps_hashed: null
 
 **Step 1**
 
-Test Data: have 2 users, **User A**, **User B**
+Test Data:
+
+- Should have a Professional License
+- have 2 users, **User A**, **User B**
 
 Scenario: When logged in user posts a phrase
 
@@ -43,9 +46,10 @@ Scenario: When logged in user posts a phrase
 2. In the `Keywords That Get Highlighted (without notifications)` section, type a test phrases and words. Example: `Testing`, `Testing the keyword highlight without notification feature`.
 3. Press `Tab` or `Comma` and press `Save` button.
 4. Open any channel, and post the example phrase.
-5. Verify the Phrase is Highlighted by a yellow background
+5. Verify the Phrase is Highlighted by a yellow background in the center.
+6. Click on the post and verify the Phrase is Highlighted by a yellow background in the RHS.
 
 Scenario: When Other user posts a phrase.
 
-5. From **User B** account, post the same phrase.
-6. Verify in **User A**'s account that the phrase is highlighted.
+7. From **User B** account, post the same phrase.
+8. Verify in **User A**'s account that the phrase is highlighted.
