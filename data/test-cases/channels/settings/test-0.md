@@ -44,3 +44,9 @@ Scenario: When instance is on a free subscription.
 5. Verify that a modal with title `Highlighted Keywords without notifications with Mattermost Professional` appears.
 6. Click on `Notify Admin` button.
 7. Verify that the button turns grey and is disabled. The button will have text `Notification sent!`
+
+Scenario: When instance is on a Professsional license or an Enterprise Trial license.
+
+1. Login to mattermost and goto Settings -> Notification modal.
+2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
+3. Verify that the Setting is enabled and had `Edit` button.
