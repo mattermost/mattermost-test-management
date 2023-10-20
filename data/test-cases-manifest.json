@@ -5319,7 +5319,11 @@
             "name": "Settings Display Theme - Settings View",
             "file": "channels/settings/MM-T3855.md"
           },
-          { "name": "Display: Click to open threads", "file": "channels/settings/MM-T4379.md" }
+          { "name": "Display: Click to open threads", "file": "channels/settings/MM-T4379.md" },
+          {
+            "name": "Notification sound modal selection should reset when settings canceled",
+            "file": "channels/settings/MM-T5458.md"
+          }
         ]
       },
       {
@@ -8487,7 +8491,7 @@
         "file": "mobile-app--native-specific-/MM-T3236.md"
       },
       {
-        "name": "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well(and/or in combination with in:channel-name)",
+        "name": "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well (and/or in combination with in: a specific channel)",
         "file": "mobile-app--native-specific-/MM-T3237.md"
       },
       {
@@ -9992,6 +9996,14 @@
                   {
                     "name": "/jira help when no instance is installed",
                     "file": "plugins/jira/jira-server/general-slash-commands/MM-T4502.md"
+                  },
+                  {
+                    "name": "Jira about",
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T5455.md"
+                  },
+                  {
+                    "name": "Jira setup",
+                    "file": "plugins/jira/jira-server/general-slash-commands/MM-T5456.md"
                   }
                 ]
               },
@@ -10334,6 +10346,10 @@
                   {
                     "name": "Event delivered in the channel",
                     "file": "plugins/jira/jira-server/jira-subscriptions/MM-T5453.md"
+                  },
+                  {
+                    "name": "Create issue modal",
+                    "file": "plugins/jira/jira-server/jira-subscriptions/MM-T5457.md"
                   }
                 ]
               },
@@ -14546,7 +14562,7 @@
             "file": "suite/notifications/MM-T484.md"
           },
           {
-            "name": "Words that trigger mentions - Channel-wide mentions at-HERE in all caps",
+            "name": "Keywords that trigger notifications - Channel-wide mentions at-HERE in all caps",
             "file": "suite/notifications/MM-T485.md"
           },
           {

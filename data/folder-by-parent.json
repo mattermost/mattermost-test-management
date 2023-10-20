@@ -233,6 +233,7 @@
       "Matterpoll",
       "Meme",
       "MS Teams Calling",
+      "MS Teams sync",
       "NPS Plugin",
       "Plugin Marketplace",
       "Plugin Release Tests",
@@ -287,6 +288,20 @@
   },
   { "parent": "plugins/jira/miscellaneous", "folders": ["Cloud", "Server"] },
   { "parent": "plugins/ms-teams-calling", "folders": ["Authentication", "General Functionality"] },
+  {
+    "parent": "plugins/ms-teams-sync",
+    "folders": [
+      "Attachments",
+      "Mentions",
+      "Message Edit",
+      "Message sync",
+      "Plugin configs",
+      "Reactions",
+      "Replies",
+      "Slash commands",
+      "Text formatting"
+    ]
+  },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },
   {

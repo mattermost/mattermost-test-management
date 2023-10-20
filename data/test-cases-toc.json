@@ -2196,6 +2196,14 @@
     "name": "/jira connect when no instance is installed",
     "slug": "plugins/jira/jira-server/general-slash-commands/mm-t4499"
   },
+  "plugins/jira/jira-server/general-slash-commands/mm-t5455": {
+    "name": "Jira about",
+    "slug": "plugins/jira/jira-server/general-slash-commands/mm-t5455"
+  },
+  "plugins/jira/jira-server/general-slash-commands/mm-t5456": {
+    "name": "Jira setup",
+    "slug": "plugins/jira/jira-server/general-slash-commands/mm-t5456"
+  },
   "plugins/jira/jira-server/general-slash-commands/mm-t4502": {
     "name": "/jira help when no instance is installed",
     "slug": "plugins/jira/jira-server/general-slash-commands/mm-t4502"
@@ -2335,6 +2343,10 @@
   "plugins/jira/jira-server/jira-subscriptions/mm-t4949": {
     "name": "Setup a subscription",
     "slug": "plugins/jira/jira-server/jira-subscriptions/mm-t4949"
+  },
+  "plugins/jira/jira-server/jira-subscriptions/mm-t5457": {
+    "name": "Create issue modal",
+    "slug": "plugins/jira/jira-server/jira-subscriptions/mm-t5457"
   },
   "plugins/jira/jira-server/jira-subscriptions/mm-t5453": {
     "name": "Event delivered in the channel",
@@ -11014,7 +11026,7 @@
     "slug": "suite/notifications/mm-t495"
   },
   "suite/notifications/mm-t485": {
-    "name": "Words that trigger mentions - Channel-wide mentions at-HERE in all caps",
+    "name": "Keywords that trigger notifications - Channel-wide mentions at-HERE in all caps",
     "slug": "suite/notifications/mm-t485"
   },
   "suite/notifications/mm-t567": {
@@ -12310,7 +12322,7 @@
     "slug": "mobile-app--native-specific-/mm-t3242"
   },
   "mobile-app--native-specific-/mm-t3237": {
-    "name": "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well(and/or in combination with in:channel-name)",
+    "name": "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well (and/or in combination with in: a specific channel)",
     "slug": "mobile-app--native-specific-/mm-t3237"
   },
   "mobile-app--native-specific-/mm-t3266": {
@@ -12580,6 +12592,10 @@
   "channels/settings/mm-t305": {
     "name": "Deprecate? Changes to Settings are not saved when user does not click on Save button",
     "slug": "channels/settings/mm-t305"
+  },
+  "channels/settings/mm-t5458": {
+    "name": "Notification sound modal selection should reset when settings canceled",
+    "slug": "channels/settings/mm-t5458"
   },
   "channels/settings/mm-t4379": {
     "name": "Display: Click to open threads",

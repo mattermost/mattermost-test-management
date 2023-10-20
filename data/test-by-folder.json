@@ -1703,7 +1703,9 @@
       "Highlight Keywords without notifications | Should highlight pharases set by logged in user",
       "Highlight Keywords without notifications | Verify if the Highlight Feature is working previously posted messages",
       "Settings Display Theme - Settings View",
-      "Verify Highlight Keywords without notifications is available only for Professional license"
+      "Verify Highlight Keywords without notifications is available only for Professional license",
+      "Notification sound modal selection should reset when settings canceled",
+      "Settings Display Theme - Settings View"
     ]
   },
   {
@@ -3061,7 +3063,7 @@
       "RN apps: Reply from a push notification",
       "RN apps: Save a message from channel post list",
       "RN apps: Scroll up in channel with long history",
-      "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well(and/or in combination with in:channel-name)",
+      "RN apps: Search on channel, select from autocomplete, search in combination with a text string as well (and/or in combination with in: a specific channel)",
       "RN apps: Search on sender, select from autocomplete, reply from search results",
       "RN apps: Search on text, jump to result",
       "RN apps: Set status",
@@ -3656,7 +3658,9 @@
       "/jira help with custom help text",
       "/jira info",
       "/jira slash command show help text with sample commands",
-      "/jira uninstall when no instance is installed"
+      "/jira uninstall when no instance is installed",
+      "Jira about",
+      "Jira setup"
     ]
   },
   {
@@ -3754,6 +3758,7 @@
     "tests": [
       "Basic Subscription events",
       "Create a subscription",
+      "Create issue modal",
       "Delete a Subscription",
       "Edits can be discarded",
       "Event delivered as the security group matches",
@@ -5132,6 +5137,7 @@
       "Email Notifications No Batching - Mentions and DMs while away",
       "Email Notifications No Batching - Never",
       "Generic email notifications also show timestamp",
+      "Keywords that trigger notifications - Channel-wide mentions at-HERE in all caps",
       "Mobile Push Notifications - DND",
       "Mobile Push Notifications - Fails to send reply from notification when not online",
       "Mobile Push Notifications - Notification clears after reading the message on desktop",
@@ -5191,7 +5197,6 @@
       "User does not miss notifications after replying from notification bar",
       "Users with the same firstname in their username should not get a mention when one of them leaves a channel",
       "Words that trigger mentions - @-icon still shows mentions list if all triggers deselected",
-      "Words that trigger mentions - Channel-wide mentions at-HERE in all caps",
       "Words that trigger mentions - Deselect channel-wide mentions",
       "Words that trigger mentions - Deselect username",
       "Words that trigger mentions - Deselect username, still get mention when added to private channel",
