@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User Login | Verify Highlight Keywords without notifications is available only for Professional license"
+name: "Admin Login | Verify Highlight Keywords without notifications is available only for Professional license"
 status: Active
 priority: Normal
 folder: Settings
@@ -37,16 +37,10 @@ steps_hashed: null
 
 Scenario: When instance is on a free subscription.
 
-1. Login to mattermost with Non-Admin account and goto Settings -> Notification modal.
+1. Login to mattermost with Admin account and goto Settings -> Notification modal.
 2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
 3. Verify that the Setting is disabled and we see `Professional` tag indication it is available on upgrading the instance to Professional license.
 4. Click on the Professional tag.
 5. Verify that a modal with title `Highlighted Keywords without notifications with Mattermost Professional` appears.
-6. Click on `Notify Admin` button.
-7. Verify that the button turns grey and is disabled. The button will have text `Notification sent!`
-
-Scenario: When instance is on a Professsional, Enterprise license or an Enterprise Trial license.
-
-1. Login to mattermost and goto Settings -> Notification modal.
-2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
-3. Verify that the Setting is enabled and had `Edit` button.
+6. Click on `View Plans` button.
+7. Verify that the pricing modal is opened.
