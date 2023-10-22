@@ -39,7 +39,7 @@ Scenario: When instance is on a free subscription.
 
 1. Login to mattermost with Non-Admin account and goto Settings -> Notification modal.
 2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
-3. Verify that the Setting is disabled and we see `Professional` tag indication it is available on upgrading the instance to Professional license.
+3. Verify that the Setting is disabled and we see `Professional` tag indicating it is available after upgrading the instance to Professional license.
 4. Click on the Professional tag.
 5. Verify that a modal with title `Highlighted Keywords without notifications with Mattermost Professional` appears.
 6. Click on `Notify Admin` button.
