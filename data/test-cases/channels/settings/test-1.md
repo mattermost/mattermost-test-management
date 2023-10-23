@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Highlight Keywords without notifications | Should highlight pharases set by logged in user"
+name: "Highlight Keywords without notifications | Should highlight phrases set by logged in user"
 status: Active
 priority: Normal
 folder: Settings
