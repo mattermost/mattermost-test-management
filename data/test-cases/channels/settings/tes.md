@@ -44,3 +44,9 @@ Scenario: When instance is on a free subscription.
 5. Verify that a modal with title `Highlighted Keywords without notifications with Mattermost Professional` appears.
 6. Click on `View Plans` button.
 7. Verify that the pricing modal is opened.
+
+Scenario: When instance is on a Professsional, Enterprise license or an Enterprise Trial license.
+
+1. Login to mattermost with Admin account and goto Settings -> Notification modal.
+2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
+3. Verify that the Setting is enabled and has `Edit` button.

@@ -49,4 +49,4 @@ Scenario: When instance is on a Professsional, Enterprise license or an Enterpri
 
 1. Login to mattermost and goto Settings -> Notification modal.
 2. Scroll to `Keywords That Get Highlighted (without notifications)` section.
-3. Verify that the Setting is enabled and had `Edit` button.
+3. Verify that the Setting is enabled and has `Edit` button.
