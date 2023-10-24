@@ -48,6 +48,8 @@ Scenario: When logged in user posts a phrase
 4. Open any channel, and post the example phrase.
 5. Verify the Phrase is Highlighted by a yellow background in the center.
 6. Click on the post and verify the Phrase is Highlighted by a yellow background in the RHS.
+7. Click on the `Recent Mentions` on the global header.
+8. Verify the Keyword is not mention in the RHS.
 
 Scenario: When Other user posts a phrase.
 
