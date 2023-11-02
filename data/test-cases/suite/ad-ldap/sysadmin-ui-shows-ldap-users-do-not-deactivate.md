@@ -36,9 +36,9 @@ steps_hashed: null
 **Step 1**
 
 1. Login as an Admin and locate a user that is managed by LDAP
-2. In the system console navigate to _Users_ and loacyte the user on the list
+2. In the system console navigate to _Users_ and locate the user on the list
 3. Select the _Member_ drop down
 
 **Expected**
 
-The Deactivate option is greyed out and there is text velow explaining that the user is "Managed by LDAP"
+The Deactivate option is grayed out and there is text below explaining that the user is "Managed by LDAP"
