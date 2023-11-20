@@ -5,8 +5,7 @@ status: Active
 priority: Normal
 folder: Message edit
 authors: "@AayushChaudhary0001"
-team_ownership: 
-- Change Team Name
+team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
