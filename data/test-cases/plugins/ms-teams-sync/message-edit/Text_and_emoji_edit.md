@@ -40,4 +40,4 @@ steps_hashed: null
 
 **Expected**
 
-The desired message should be edited and updated on the Teams side as well.
+The desired message should be edited and updated on the MS Teams side as well.
