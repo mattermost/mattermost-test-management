@@ -47,6 +47,6 @@ Test Setup:
 
 Steps:
 
-1. On the mobile.
+1. In the mobile.
 2. Click on the notification received.
 3. Verify user is taken to Error screen showing `The channel you're requesting is private or does not exist.`
