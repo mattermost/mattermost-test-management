@@ -35,7 +35,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Login into mattermost.
+1. Login into mattermost mobile.
 2. Create a GM channel with users between 2 to 7 from different teams.
 3. Post a message.
 4. From the Channel menu, click on 'Convert to Private Channel'.
