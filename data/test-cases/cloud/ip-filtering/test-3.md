@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "IP Filtering | Add IP Filtering Rule in System console"
+name: "IP Filtering | Restore workspace from portal if the workspace is blocked"
 status: Active
 priority: Normal
 folder: IP Filtering
@@ -40,14 +40,17 @@ Test prerequisites:
 - Create a workspace and leave it in Enterprise Trial license from https://portal.test.cloud.mattermost.com/
 - In Split.io Enable `CloudIPFiltering` feature flag for all test environments.
 
-Scenario 1: Should be able to save a rule with current IP address.
-
 1. Login with admin credentials.
 2. Navigate to System Console > Site Configuration > IP Filtering.
 3. Toggle to enable the `Enable IP Filtering` settings.
 4. Click on `Add rule`.
 5. Enter `Name of the rule`.
-6. Enter the `IP address`.
+6. Enter the `IP address` other than the current IP address.
 7. Click `Save Button` on the Add IP Filter modal.
 8. Click `Save Button` on the IP Filter feature page.
 9. Click on `Yes, apply changes` to review and confirm the IP Filtering rule added.
+10. Verify the workspace is not accessible. (we should be seeing 403 error).
+11. Log into portal with the workspace admin credentials
+12. Navigate to IP filtering section.
+13. Verify the `Disbale IP Filtering` is enabled and Click on it.
+14. Verify the workspace is accessible now.
