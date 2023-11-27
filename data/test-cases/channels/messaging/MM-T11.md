@@ -47,8 +47,7 @@ steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f
 Open Graph link preview should display animated\
 –––––––––––––––––––––––––
 
-1. Post the link below in a channel
-   \
+1. Post the link below in a channel\
    <https://giphy.com/gifs/afv-funny-fail-3o85xET02JdV8TQuwU>
 
 _Related ticket(s):_
