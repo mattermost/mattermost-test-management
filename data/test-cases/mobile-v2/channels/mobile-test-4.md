@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify Error message is shown when uer opens GM notification after GM is converted to channel and the user is removed"
+name: "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed"
 status: Active
 priority: Normal
 folder: Channels
