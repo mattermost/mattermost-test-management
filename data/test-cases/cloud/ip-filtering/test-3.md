@@ -52,5 +52,5 @@ Test prerequisites:
 10. Verify the workspace is not accessible. (we should be seeing 403 error).
 11. Log into portal with the workspace admin credentials
 12. Navigate to IP filtering section.
-13. Verify the `Disbale IP Filtering` is enabled and Click on it.
+13. Verify the `Disable IP Filtering` is enabled and Click on it.
 14. Verify the workspace is accessible now.
