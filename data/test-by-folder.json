@@ -2078,6 +2078,15 @@
     "tests": ["Renewal | Should be available to Renew within the product"]
   },
   {
+    "folder": "cloud/ip-filtering",
+    "tests": [
+      "IP Filtering feature is available for Enterprise license and Enterprise trial license",
+      "IP Filtering | Add IP Filtering rule in System Console",
+      "IP Filtering | Email notification when IP Filtering rule is added",
+      "IP Filtering | Restore workspace from portal if the workspace is blocked"
+    ]
+  },
+  {
     "folder": "cloud/rhs",
     "tests": ["Channel Info RHS: Admin", "Channel Info RHS: User", "Channel Info RHS: ––draft––"]
   },
