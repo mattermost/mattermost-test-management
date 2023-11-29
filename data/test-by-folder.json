@@ -3138,6 +3138,7 @@
   {
     "folder": "mobile-v2/channels",
     "tests": [
+      "Convert a GM to a Private channel with users on same team",
       "Mobile V2: Channels - Archive Channel",
       "Mobile V2: Channels - Browse Channels",
       "Mobile V2: Channels - Channel Info",
@@ -3151,7 +3152,11 @@
       "Mobile V2: Channels - Find Channels",
       "Mobile V2: Channels - Leave Channel",
       "Mobile V2: Channels - Mute and Unmute Channel",
-      "Mobile V2: Channels - Unarchive Channel"
+      "Mobile V2: Channels - Unarchive Channel",
+      "Verify Error message is displayed while converting a GM with users on from different teams to a Private channel",
+      "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed",
+      "Verify error message is displayed while Converting a GM with users on from different teams to a Private channel",
+      "Verify opening GM notification after GM is converted to channel by other user"
     ]
   },
   {
