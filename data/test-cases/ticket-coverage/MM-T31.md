@@ -42,8 +42,7 @@ steps_hashed: 231e1fc0252e4ecc27b2ce1edc5f37f2320e0f21f0cfdfb29b538ef831d36ed494
 **Step 1**
 
 1. Register a new account using a long email address such as "my.name+somethingreallylong\@mattermost.com" (or similar)
-2. Toggle Google Chrome Device Emulation
-   \
+2. Toggle Google Chrome Device Emulation\
    **Windows**:\
    CTRL+Shift+I\
    then\
