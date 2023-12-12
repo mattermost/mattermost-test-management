@@ -10887,6 +10887,186 @@
         ]
       },
       {
+        "name": "MS Teams sync",
+        "routes": [
+          {
+            "name": "attachments-sync",
+            "routes": [
+              {
+                "name": "Allowed size of attachment on MM",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5475.md"
+              },
+              {
+                "name": "Send multiple attachments",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5476.md"
+              },
+              {
+                "name": "Not allowed size of attachment on MM",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5477.md"
+              },
+              {
+                "name": "Send GIF attachment",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5478.md"
+              },
+              {
+                "name": "Send embedded image",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5479.md"
+              }
+            ]
+          },
+          {
+            "name": "Mentions",
+            "routes": [
+              {
+                "name": "Mention all users in the linked channel or GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5480.md"
+              },
+              {
+                "name": "Mention multiple users in the linked channel or GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5481.md"
+              },
+              {
+                "name": "Mention a single user in the linked channel or DM/GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5482.md"
+              }
+            ]
+          },
+          {
+            "name": "Message Edit",
+            "routes": [
+              {
+                "name": "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5483.md"
+              },
+              {
+                "name": "Editing text and emoji from MM to Teams",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5484.md"
+              },
+              {
+                "name": "Editing text and emoji from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5485.md"
+              }
+            ]
+          },
+          {
+            "name": "Message sync",
+            "routes": [
+              {
+                "name": "Message sync from MM to MS Teams",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5486.md"
+              },
+              {
+                "name": "Message deleted from MS MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5487.md"
+              },
+              {
+                "name": "Message from non-connected user",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5488.md"
+              },
+              {
+                "name": "Order of posts from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5489.md"
+              },
+              {
+                "name": "Message sync from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5490.md"
+              }
+            ]
+          },
+          {
+            "name": "Slash commands",
+            "routes": [
+              {
+                "name": "Connect user slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5491.md"
+              },
+              {
+                "name": "Disconnect user slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5492.md"
+              },
+              {
+                "name": "Link channel slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5493.md"
+              },
+              {
+                "name": "Promote slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5494.md"
+              },
+              {
+                "name": "Show slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5495.md"
+              },
+              {
+                "name": "Show-links slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5496.md"
+              },
+              {
+                "name": "Unlink channel slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5497.md"
+              },
+              {
+                "name": "Connect-bot slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5498.md"
+              },
+              {
+                "name": "Disconnect-bot account slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5499.md"
+              }
+            ]
+          },
+          {
+            "name": "Text formatting",
+            "routes": [
+              {
+                "name": "Formatting text as code snippet",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5500.md"
+              },
+              {
+                "name": "Formatting text as headings",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5501.md"
+              },
+              {
+                "name": "Formatting text as links",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5502.md"
+              },
+              {
+                "name": "Formatting text with markdown",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5503.md"
+              },
+              {
+                "name": "Formatting text with bold, italics and strikethrough features",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5504.md"
+              }
+            ]
+          },
+          {
+            "name": "thread-replies",
+            "routes": [
+              {
+                "name": "Replying with an attachment of allowed size on MM to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5505.md"
+              },
+              {
+                "name": "Delete a reply to a message on MS Teams",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5506.md"
+              },
+              {
+                "name": "Edit a reply to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5507.md"
+              },
+              {
+                "name": "Replying with an attachment of greater size than the allowed size on MM to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5508.md"
+              },
+              {
+                "name": "Replying to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5509.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "NPS Plugin",
         "routes": [
           {
