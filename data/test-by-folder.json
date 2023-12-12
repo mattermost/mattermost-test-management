@@ -3924,6 +3924,76 @@
     ]
   },
   {
+    "folder": "plugins/ms-teams-sync/attachments-sync",
+    "tests": [
+      "Allowed size of attachment on MM",
+      "Not allowed size of attachment on MM",
+      "Send GIF attachment",
+      "Send embedded image",
+      "Send multiple attachments"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/mentions",
+    "tests": [
+      "Mention a single user in the linked channel or DM/GM",
+      "Mention all users in the linked channel or GM",
+      "Mention multiple users in the linked channel or GM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-edit",
+    "tests": [
+      "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+      "Editing text and emoji from MM to Teams",
+      "Editing text and emoji from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-sync",
+    "tests": [
+      "Message deleted from MS MS Teams to MM",
+      "Message from non-connected user",
+      "Message sync from MM to MS Teams",
+      "Message sync from MS Teams to MM",
+      "Order of posts from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/slash-commands",
+    "tests": [
+      "Connect user slash command",
+      "Connect-bot slash command",
+      "Disconnect user slash command",
+      "Disconnect-bot account slash command",
+      "Link channel slash command",
+      "Promote slash command",
+      "Show slash command",
+      "Show-links slash command",
+      "Unlink channel slash command"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/text-formatting",
+    "tests": [
+      "Formatting text as code snippet",
+      "Formatting text as headings",
+      "Formatting text as links",
+      "Formatting text with bold, italics and strikethrough features",
+      "Formatting text with markdown"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/thread-replies",
+    "tests": [
+      "Delete a reply to a message on MS Teams",
+      "Edit a reply to a message",
+      "Replying to a message",
+      "Replying with an attachment of allowed size on MM to a message",
+      "Replying with an attachment of greater size than the allowed size on MM to a message"
+    ]
+  },
+  {
     "folder": "plugins/nps-plugin",
     "tests": [
       "Admin notification when survey is scheduled",
