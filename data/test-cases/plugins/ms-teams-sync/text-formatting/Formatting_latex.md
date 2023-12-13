@@ -58,7 +58,7 @@ $X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{
 
    `Using dollar sign to format: $\cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]$`
 
-3. View post in linked channel in MS Teams
+2. View post in linked channel in MS Teams
 
 **Expected**
 
