@@ -67,4 +67,4 @@ Steps:
 1. Log into mattermost with User A. Create a GM with 3 users example: User A, User B and User C.
 2. Post a message in the GM channel.
 3. Hover on the post and click on the dot menu to see message actions.
-4. `Move Thread` option should not be show to the user.
+4. `Move Thread` option should not be shown to the user.

@@ -1400,7 +1400,12 @@
   },
   {
     "folder": "channels/move-threads",
-    "tests": ["Move a post Private channel", "Move a post from DM", "Move a post from GM"]
+    "tests": [
+      "Move a post from DM",
+      "Move a post from GM",
+      "Move a post from Private channel",
+      "Move a post if user's email ending in this domain to move threads"
+    ]
   },
   {
     "folder": "channels/multi-team-and-dms",

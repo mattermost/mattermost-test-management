@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Move a post Private channel"
+name: "Move a post from Private channel"
 status: Active
 priority: Normal
 folder: Move Threads
@@ -67,7 +67,7 @@ Steps:
 1. Log into mattermost with User A. Create a Private channel `Private Test Channel` with 3 users example: User A, User B and User C.
 2. Post a message in the Private channel.
 3. Hover on the post and click on the dot menu to see message actions.
-4. `Move Thread` option should not be show to the user.
+4. `Move Thread` option should not be shown to the user.
 
 Scenario 3: Should not be able to Move root post other Private Channel in which current user has no access.
 
@@ -82,13 +82,12 @@ Steps:
 1. Log into mattermost with User A. Create a Private channel `Private Test Channel` with 3 users example: User A, User B and User C.
 2. Post a message in the Private channel.
 3. Hover on the post and click on the dot menu to see message actions.
-4. `Move Thread` option should not be show to the user.
+4. Click on `Move Thread` option.
 5. Verify a pop up with `Move thread` header appears.
 6. Verify User A is not seeing `New Private test Channel` in the Drop Down
-
 7. Login as User B.
 8. Go to the `Private Test Channel`.
 9. Move the thread to `New Private test Channel`.
 10. Verify the thread is moved and system message is displayed with the link to `New Private test Channel`.
 11. Try to access the link to `New Private test Channel` in new tab.
-12. Verify the Team not found error is displayed.
+12. Verify error message `Permalink belongs to a deleted message or to a channel to which you do not have access.` is displayed.
