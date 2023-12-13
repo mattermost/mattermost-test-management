@@ -48,4 +48,22 @@ X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N
 
 Until further notice this is known and expected behavior:
 - LaTeX does not render properly on MS Teams side; just appears as a text block
-- LaTeX renders properly on Mattermost side
+- LaTeX renders properly on Mattermost side, e.g.:
+
+$X_k = \sum_{n=0}^{2N-1} x_n \cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]$
+
+**Step 2**
+
+1. In a linked channel, post the following LaTeX-formatted text from Mattermost side (dollar sign before and following the LaTeX portion):
+
+   `Using dollar sign to format: $\cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]$`
+
+3. View post in linked channel in MS Teams
+
+**Expected**
+
+Until further notice this is known and expected behavior:
+- LaTeX does not render properly on MS Teams side; just appears as text
+- LaTeX renders properly on Mattermost side, e.g.:
+
+  Using dollar sign to format: $\cos \left[\frac{\pi}{N} \left(n+\frac{1}{2}+\frac{N}{2}\right) \left(k+\frac{1}{2}\right) \right]$
