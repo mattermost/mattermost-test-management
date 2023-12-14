@@ -4232,6 +4232,29 @@
         ]
       },
       {
+        "name": "Move Threads",
+        "routes": [
+          {
+            "name": "Move a post from Private channel",
+            "file": "channels/move-threads/MM-T5511.md"
+          },
+          { "name": "Move a post from DM", "file": "channels/move-threads/MM-T5512.md" },
+          {
+            "name": "Move a post if user's email ending is in the domain to move threads",
+            "file": "channels/move-threads/MM-T5513.md"
+          },
+          { "name": "Move a post from GM", "file": "channels/move-threads/MM-T5514.md" },
+          {
+            "name": "Move a post from one team to another",
+            "file": "channels/move-threads/MM-T5515.md"
+          },
+          {
+            "name": "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size",
+            "file": "channels/move-threads/MM-T5516.md"
+          }
+        ]
+      },
+      {
         "name": "Multi-Team and DMs",
         "routes": [
           {
