@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Move a post if user's email ending is in the domain to move threads"
+name: "Move a post from one team to another"
 status: Active
 priority: Normal
 folder: Move Threads
@@ -35,34 +35,27 @@ steps_hashed: null
 
 **Step 1**
 
+Scenario 1: Move root post from one team's public channel to another team's public channel
+
 Test Setup:
 
 1. Feature flag `moveThreadsEnabled` should be enabled.
-2. Enable `Enable Moving Threads From Direct Message Channels` option from the System Console > Move thread.
-3. Under `Allowed Email Domain` add `mattermost.com`
-4. Have 1 user with mattermost.com domain, let's say User A
-5. Have 1 user with gmail.com domain, lets say User B.
-
-Scenario 1: Move a root post from a channel
-
-Steps:
-
-1. Log into mattermost with User A.
-2. Post a message in the DM channel with User B.
-3. Hover on the post and click on the dot menu to see message actions.
-4. Click on `Move Thread` option.
-5. Verify a pop up with `Move thread` header appears.
-6. Select the channel from `Select channel or people` dropdown.
-7. Click on `Move` button.
-8. Verify the post appears in the new channel.
-9. Navigate to previous channel from where the thread was moved.
-10. Verify a system message `A thread with N messages has been moved: http://<instance-name>/<team-name>/pl/<channel-id>` is shown.
-
-Scenario 2: Should not be able to Move root post from a the Channel
+2. Enable `Enable Moving Threads To Different Teams` option from the System Console > Move thread.
+3. Create 2 teams Team 1 and Team 2.
+4. In Team 1, add User A, User B and User C.
+5. In Team 2, add User B and User C.
 
 Steps:
 
 1. Log into mattermost with User B.
-2. Post a message in the DM channel.
+2. Post a message in the Team 1's public channel.
 3. Hover on the post and click on the dot menu to see message actions.
-4. `Move Thread` option should not be shown to the user.
+4. Click on `Move Thread` option.
+5. Verify a pop up with `Move thread` header appears.
+6. Select the channel from Team 2 in the `Select channel or people` dropdown.
+7. Click on `Move` button.
+8. Verify the post appears in the new channel.
+9. Navigate to previous channel from where the thread was moved.
+10. Verify a system message `A thread with N messages has been moved: http://<instance-name>/<team-name>/pl/<channel-id>` is shown.
+11. Log into mattermost with User A.
+12. Verify User A can see the system message that reads `This thread was moved from another channel`.
