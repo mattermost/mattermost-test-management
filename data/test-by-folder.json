@@ -1399,6 +1399,17 @@
     ]
   },
   {
+    "folder": "channels/move-threads",
+    "tests": [
+      "Move a post from DM",
+      "Move a post from GM",
+      "Move a post from Private channel",
+      "Move a post from one team to another",
+      "Move a post if user's email ending is in the domain to move threads",
+      "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size"
+    ]
+  },
+  {
     "folder": "channels/multi-team-and-dms",
     "tests": [
       "Add or open direct message from profile info in channel",
