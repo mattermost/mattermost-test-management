@@ -1,0 +1,42 @@
+---
+# (Required) Ensure all values are filled up
+name: "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected."
+status: Active
+priority: Normal
+folder: Mute unmute
+authors: "@yasserfaraazkhan"
+team_ownership: 
+- ICU
+priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+
+# (Optional)
+location: null
+component: null
+tags: []
+labels: []
+tested_by_contributor: null
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# Do not change
+id: null
+key: null
+created_on: null
+last_updated: null
+case_hashed: null
+steps_hashed: null
+---
+
+**Step 1**
+
+1. Connect Mattermost account.
+2. Navigate to a DM/GM or synced channel.
+3. Manually mute the channel.
+4. Verify that it reflects in the settings and mutes the channel.
+5. Unmute the channel and confirm it is unmuted.
