@@ -4383,6 +4383,13 @@
     ]
   },
   {
+    "folder": "self-hosted/user-limits",
+    "tests": [
+      "Mattermost Enterprise and Team Edition should show global banner when instance has active users more than 10,000",
+      "Mattermost Enterprise and Team Edition should show global banner with warning message when instance has active users between 9001-9999"
+    ]
+  },
+  {
     "folder": "smoke-tests/webapp",
     "tests": [
       "(at) here rec'd when online",
