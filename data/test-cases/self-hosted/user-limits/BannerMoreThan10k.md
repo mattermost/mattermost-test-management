@@ -49,11 +49,15 @@ Scenario: When user is running enterprise edition
 1. Login into Free instance running Enterprise edition.
 2. Add a new user to the instance to make total active user to 10000.
 3. Verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
-4. Add Professional/Enterprise license to the instance.
-5. Verify the global banner is not showing up.
+4. Navigate to System Console > Edition and License page.
+5. Verify a section with header `Upgrade to Mattermost Professional or Mattermost Enterprise` is shown in red background.
+6. Add Professional/Enterprise license to the instance.
+7. Verify the global banner is not showing up.
 
 Scenario: When user is running team edition
 
 1. Login into Free instance running Team edition.
 2. Add a new user to the instance to make total active user to 10000.
 3. Verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
+4. Navigate to System Console > Edition and License page.
+5. Verify a section with header `Upgrade to Mattermost Professional or Mattermost Enterprise` is shown in red background.
