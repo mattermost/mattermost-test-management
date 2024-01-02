@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Mattermost Enterprise and Team Edition should show global banner when instance has active users more than 10,000"
+name: "Mattermost Enterprise and Team Edition should show a non dismissable global banner when instance has active users more than 10,000"
 status: Active
 priority: Normal
 folder: User limits
@@ -47,15 +47,13 @@ Steps:
 Scenario: When user is running enterprise edition
 
 1. Login into Free instance running Enterprise edition.
-2. Verify no global banner is displayed in channel and system console page.
-3. Add a new user to the instance to make total active user to 10000.
-4. Verify a global banner Red should be displayed a message saying "Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost."
-5. Add Professional/Enterprise license to the instance.
-6. Verify the global banner is not showing up.
+2. Add a new user to the instance to make total active user to 10000.
+3. Verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
+4. Add Professional/Enterprise license to the instance.
+5. Verify the global banner is not showing up.
 
 Scenario: When user is running team edition
 
 1. Login into Free instance running Team edition.
-2. Verify no global banner is displayed in channel and system console page.
-3. Add a new user to the instance to make total active user to 10000.
-4. Verify a global banner Red should be displayed a message saying "Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost."
+2. Add a new user to the instance to make total active user to 10000.
+3. Verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.

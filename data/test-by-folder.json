@@ -4385,8 +4385,9 @@
   {
     "folder": "self-hosted/user-limits",
     "tests": [
-      "Mattermost Enterprise and Team Edition should show global banner when instance has active users more than 10,000",
-      "Mattermost Enterprise and Team Edition should show global banner with warning message when instance has active users between 9001-9999"
+      "Mattermost Enterprise and Team Edition should show a dismissable global banner with warning message when instance has active users between 500-9000",
+      "Mattermost Enterprise and Team Edition should show a dismissable global banner with warning message when instance has active users between 9001-9999",
+      "Mattermost Enterprise and Team Edition should show a non dismissable global banner when instance has active users more than 10,000"
     ]
   },
   {
