@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Confirm that selecting "MS Teams" as the primary platform auto-mutes all DMs/GMs and synced channels."
+name: "Confirm that selecting MS Teams as the primary platform auto-mutes all DMs/GMs and synced channels."
 status: Active
 priority: Normal
 folder: Mute unmute
