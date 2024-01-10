@@ -48,10 +48,8 @@ Steps:
 2. Verify a red global banner should be displayed with a message saying `Your user count is close to the maximum user limit. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
 3. Click on `Contact sales` button.
 4. Verify a popup with heading `Looks like you do not have access to the internet` is displayed.
-5. Add Professional/Enterprise license to the instance.
-6. Verify the global banner is not showing up.
 
 **Scenario**: When instance is running on an Enterprise edition with license
 
-1. Login into Free instance running Enterprise edition with 10,000 users.
-2. Verify the banner is not displayed when user crosses maximum user limit.
+1. Login into instance running Enterprise edition with 10,000 users.
+2. Refresh the app and verify the banner is not displayed when user crosses maximum user limit.
