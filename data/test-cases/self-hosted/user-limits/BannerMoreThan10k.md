@@ -44,7 +44,7 @@ Prerequisites:
 
 Steps:
 
-Scenario: When user is running enterprise edition
+**Scenario**: When user is running Enterprise edition
 
 1. Login into Free instance running Enterprise edition.
 2. Add a new user to the instance to make total active user to 10000.
@@ -53,7 +53,7 @@ Scenario: When user is running enterprise edition
 5. Add Professional/Enterprise license to the instance.
 6. Verify the global banner is not showing up.
 
-Scenario: When user is running team edition
+**Scenario**: When user is running Team edition
 
 1. Login into Free instance running Team edition.
 2. Add a new user to the instance to make total active user to 10000.
