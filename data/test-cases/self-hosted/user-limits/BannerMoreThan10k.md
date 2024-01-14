@@ -41,20 +41,34 @@ Prerequisites:
    `/cloud create test-limits --image mattermostdevelopment/mattermost-enterprise-edition --license te`
 2. Have 1 Free instance running Team edition with 9999 users.
 3. Have 1 admin account.
+4. Have 1 Free instance running Enterprise edition with 10k users.
+5. Have 1 Free instance running Team edition with 10k users.
 
 Steps:
 
-**Scenario**: When user is running Enterprise edition
+**Scenario**: When user is running Enterprise edition.
 
 1. Login into Free instance running Enterprise edition.
 2. Add a new user to the instance to make total active user to 10000.
-3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
+3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.
 4. Navigate to System Console > Edition and License page.
 5. Add Professional/Enterprise license to the instance.
 6. Verify the global banner is not showing up.
 
-**Scenario**: When user is running Team edition
+**Scenario**: When user is running Team edition.
 
 1. Login into Free instance running Team edition.
 2. Add a new user to the instance to make total active user to 10000.
-3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
+3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.
+
+**Scenario**: When user is running Enterprise edition with server version <=v9.4 to v9.5
+
+1. Login into Free instance running Enterprise edition with server version 9.4.
+2. Verify a global banner is displayed with a message saying `A new version of Mattermost is available. Refresh the app now`.
+3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.
+
+**Scenario**: When user is running Team edition with server version <=v9.4 to v9.5
+
+1. Login into Free instance running Team edition.
+2. Verify a global banner is displayed with a message saying `A new version of Mattermost is available. Refresh the app now`.
+3. Refresh the app and verify a Red global banner should be displayed with a message saying `Your user count exceeds the maximum users allowed. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.

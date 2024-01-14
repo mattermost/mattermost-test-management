@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Airgapped instance should show banner and a popup when admin clicks on contact sales"
+name: "Airgapped instance should show global banner and Learn more button"
 status: Active
 priority: Normal
 folder: User limits
@@ -45,9 +45,9 @@ Steps:
 **Scenario**: When instance is running on an Enterprise edition without license
 
 1. Login into Free instance running Enterprise edition with 10,000 users.
-2. Verify a red global banner should be displayed with a message saying `Your user count is close to the maximum user limit. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
-3. Click on `Contact sales` button.
-4. Verify a popup with heading `Looks like you do not have access to the internet` is displayed.
+2. Verify a red global banner should be displayed with a message saying `Your user count is close to the maximum user limit. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.
+3. Click on `Learn More` button.
+4. Verify a new window is opened pointing to the link `https://mattermost.com/pl/error-code-error-user-limits-exceeded`.
 
 **Scenario**: When instance is running on an Enterprise edition with license
 
@@ -57,6 +57,6 @@ Steps:
 **Scenario**: When user is running Team edition
 
 1. Login into instance running Team edition with 10,000 users.
-2. Verify a red global banner should be displayed with a message saying `Your user count is close to the maximum user limit. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Contact sales` button.
-3. Click on `Contact sales` button.
-4. Verify a popup with heading `Looks like you do not have access to the internet` is displayed.
+2. Verify a red global banner should be displayed with a message saying `Your user count is close to the maximum user limit. Upgrade to Mattermost Professional or Mattermost Enterprise to continue using Mattermost.`. There should also be a `Learn more` button.
+3. Click on `Learn More` button.
+4. Verify a new window is opened pointing to the link `https://mattermost.com/pl/error-code-error-user-limits-exceeded`.
