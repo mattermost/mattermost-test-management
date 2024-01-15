@@ -1399,6 +1399,17 @@
     ]
   },
   {
+    "folder": "channels/move-threads",
+    "tests": [
+      "Move a post from DM",
+      "Move a post from GM",
+      "Move a post from Private channel",
+      "Move a post from one team to another",
+      "Move a post if user's email ending is in the domain to move threads",
+      "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size"
+    ]
+  },
+  {
     "folder": "channels/multi-team-and-dms",
     "tests": [
       "Add or open direct message from profile info in channel",
@@ -3924,6 +3935,77 @@
     ]
   },
   {
+    "folder": "plugins/ms-teams-sync/attachments-sync",
+    "tests": [
+      "Allowed size of attachment on MM",
+      "Not allowed size of attachment on MM",
+      "Send GIF attachment",
+      "Send embedded image",
+      "Send multiple attachments"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/mentions",
+    "tests": [
+      "Mention a single user in the linked channel or DM/GM",
+      "Mention all users in the linked channel or GM",
+      "Mention multiple users in the linked channel or GM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-edit",
+    "tests": [
+      "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+      "Editing text and emoji from MM to Teams",
+      "Editing text and emoji from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-sync",
+    "tests": [
+      "Message deleted from MS MS Teams to MM",
+      "Message from non-connected user",
+      "Message sync from MM to MS Teams",
+      "Message sync from MS Teams to MM",
+      "Order of posts from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/slash-commands",
+    "tests": [
+      "Connect user slash command",
+      "Connect-bot slash command",
+      "Disconnect user slash command",
+      "Disconnect-bot account slash command",
+      "Link channel slash command",
+      "Promote slash command",
+      "Show slash command",
+      "Show-links slash command",
+      "Unlink channel slash command"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/text-formatting",
+    "tests": [
+      "Formatting text as code snippet",
+      "Formatting text as headings",
+      "Formatting text as links",
+      "Formatting text with bold, italics and strikethrough features",
+      "Formatting text with markdown",
+      "LaTeX formatting currently not expected to render on MS Teams side"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/thread-replies",
+    "tests": [
+      "Delete a reply to a message on MS Teams",
+      "Edit a reply to a message",
+      "Replying to a message",
+      "Replying with an attachment of allowed size on MM to a message",
+      "Replying with an attachment of greater size than the allowed size on MM to a message"
+    ]
+  },
+  {
     "folder": "plugins/nps-plugin",
     "tests": [
       "Admin notification when survey is scheduled",
@@ -4577,6 +4659,7 @@
       "Switch Email to AD/LDAP: Incorrect password",
       "System admin permission to modify Admin Filter",
       "System admin removed from constrained channel on sync (but not its non-constrained parent team)",
+      "System console user list shows that deactivate option is not available for LDAP users",
       "Team invite link or a team invite token for a group-constrained team only works for group members - LDAP signin",
       "Team invite link or a team invite token for a group-constrained team only works for group members - email signin",
       "Test Ranged Retrieval of Attribute Values",
