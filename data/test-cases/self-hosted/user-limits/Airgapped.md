@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Airgapped instance should show global banner and Learn more button"
+name: "Air-gapped instance should show global banner and Learn more button"
 status: Active
 priority: Normal
 folder: User limits
@@ -37,7 +37,7 @@ steps_hashed: null
 
 Prerequisites:
 
-1. Have 1 Free instance running Enterprise edition with 10,000 users running as an airgapped instance
+1. Have 1 Free instance running Enterprise edition with 10,000 users running as an Air-gapped instance
 2. Have 1 admin account.
 
 Steps:
