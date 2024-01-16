@@ -10401,6 +10401,10 @@
     "name": "Adding users in and not-in group to team and channel via API  POST https://selenium.test.mattermost.com/api/v4/teams/{teamid}/members  POST https://selenium.test.mattermost.com/api/v4/channels/{channelid}/members",
     "slug": "suite/ad-ldap/mm-t2819"
   },
+  "suite/ad-ldap/mm-t5517": {
+    "name": "System console user list shows that deactivate option is not available for LDAP users",
+    "slug": "suite/ad-ldap/mm-t5517"
+  },
   "suite/ad-ldap/mm-t2809": {
     "name": "/inviting someone that is not in a linked group - user does not have permission to add",
     "slug": "suite/ad-ldap/mm-t2809"
@@ -12076,6 +12080,14 @@
   "self-hosted/true-up-support/mm-t5373": {
     "name": "Verify True up metrics is shared when Telemetry is off on a Non-air gapped instance",
     "slug": "self-hosted/true-up-support/mm-t5373"
+  },
+  "self-hosted/user-limits/mm-t5518": {
+    "name": "Air-gapped instance should show global banner and Learn more button",
+    "slug": "self-hosted/user-limits/mm-t5518"
+  },
+  "self-hosted/user-limits/mm-t5519": {
+    "name": "Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
+    "slug": "self-hosted/user-limits/mm-t5519"
   },
   "self-hosted/in-product-purchase/mm-t5371": {
     "name": "Self-Hosted | Manually apply license after successful in-product purchase",
