@@ -1,6 +1,6 @@
 import { HandlerContext } from "$fresh/server.ts";
 
-import tcKeyAndPath from "../../../data/key-and-path.json" assert {
+import tcKeyAndPath from "../../../data/key-and-path.json" with {
   type: "json",
 };
 
