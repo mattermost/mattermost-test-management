@@ -4399,6 +4399,13 @@
     ]
   },
   {
+    "folder": "self-hosted/user-limits",
+    "tests": [
+      "Air-gapped instance should show global banner and Learn more button",
+      "Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000"
+    ]
+  },
+  {
     "folder": "smoke-tests/webapp",
     "tests": [
       "(at) here rec'd when online",
