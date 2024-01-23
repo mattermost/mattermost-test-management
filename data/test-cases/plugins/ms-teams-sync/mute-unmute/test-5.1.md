@@ -44,7 +44,7 @@ Steps:
 1. Log into Mattermost with admin account.
 2. Navigate to System Console > Plugin management and select MSTeams Sync plugin.
 3. Scroll to Update end user settings.
-4. Search for User A in the search box.
+4. Search for User A in the search box. (this can be 1 user or Bulk)
 5. Select Mattermost as platform from the dropdown.
 6. Click on Update settings button.
 7. Log into Mattermost with User A account.
