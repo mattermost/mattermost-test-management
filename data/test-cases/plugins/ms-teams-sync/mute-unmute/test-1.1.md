@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify that the user is prompted to choose their primary platform (Mattermost or MS Teams) during the initial account connection"
+name: "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeamss) during the initial account connection"
 status: Active
 priority: Normal
 folder: Mute unmute
@@ -37,3 +37,6 @@ steps_hashed: null
 
 1. Connect Mattermost account.
 2. Observe the screen to confirm that the user is prompted with the question about their primary platform.
+3. Choose Mattermost and click on `Continue` button.
+4. Go to User Settings > MSTeams settings section.
+5. Confirm 'Mattermost' is selected as the primary platform.

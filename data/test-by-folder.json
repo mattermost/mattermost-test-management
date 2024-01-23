@@ -3973,17 +3973,16 @@
   {
     "folder": "plugins/ms-teams-sync/mute-unmute",
     "tests": [
+      "Admin can change the primary platform on behalf of a user.",
       "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
-      "Confirm that auto-mute DMs/GMs and synced channels setting can be toggled in user settings.",
       "Confirm that channels are muted when a channel becomes linked.",
       "Confirm that channels are muted when a user joins a linked channel",
       "Confirm that channels are unmuted when a channel becomes unlinked.",
-      "Confirm that channels are unmuted when the user turns off auto-mute from user settings.",
       "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
-      "Confirm that selecting MS Teams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+      "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
       "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
       "Confirm that users can change their primary platform setting in their account settings",
-      "Verify that the user is prompted to choose their primary platform (Mattermost or MS Teams) during the initial account connection"
+      "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeamss) during the initial account connection"
     ]
   },
   {

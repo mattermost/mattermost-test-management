@@ -35,7 +35,20 @@ steps_hashed: null
 
 **Step 1**
 
-1. Connect Mattermost account.
-2. Navigate to account settings.
-3. Change the primary platform setting.
+**Scenario**: User has selected Mattermost as the primary platform.
+
+1. Log into Mattermost account.
+2. Go to User Settings > MSTeams settings section.
+3. Change the primary platform setting to Mattermost.
 4. Verify that the setting is successfully updated.
+5. Log into your MSTeams app and send a message in the synced channel or DM/GM.
+6. Verify that on Mattermost, the user successfully receives the notification ping for the DMs/GMs and synced channels that are unmuted on the Mattermost app.
+
+**Scenario**: User has selected MSTeams as the primary platform.
+
+1. Log into Mattermost account.
+2. Go to User Settings > MSTeams settings section.
+3. Change the primary platform setting to MSTeams.
+4. Verify that the setting is successfully updated.
+5. Log into your MSTeams app and send a message in the synced channel or DM/GM.
+6. Verify that on Mattermost, the user does not not get notification ping for the DMs/GMs and synced channels that are muted on the Mattermost app.

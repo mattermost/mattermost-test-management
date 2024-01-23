@@ -35,6 +35,9 @@ steps_hashed: null
 
 **Step 1**
 
+**Scenario**: User has selected MSTeams as primary platform
+
 1. Connect Mattermost account.
 2. Join a linked channel.
-3. Verify that the channel is muted.
+3. Log into your MSTeams app and send a message in linked channel.
+4. Verify that on Mattermost, the user does not not get notification ping for the DMs/GMs and synced channels that are muted on the Mattermost app.

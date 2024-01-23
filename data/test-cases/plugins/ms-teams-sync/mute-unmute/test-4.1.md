@@ -35,6 +35,8 @@ steps_hashed: null
 
 **Step 1**
 
+**Scenario**: User has selected MSTeams as primary platform
+
 1. Connect Mattermost account.
-2. Unlink a channel.
-3. Verify that the channel is unmuted.
+2. Unlink a channel using slash command `/msteams-sync unlink <msteams-teams-id> <msteams-channel-id>`.
+3. Verify that the channel unlinked and is showing unmuted in the channel's `View info` in the RHS.

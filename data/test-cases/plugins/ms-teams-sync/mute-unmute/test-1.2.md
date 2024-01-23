@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Confirm that selecting MS Teams as the primary platform auto-mutes all DMs/GMs and synced channels."
+name: "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels."
 status: Active
 priority: Normal
 folder: Mute unmute
@@ -36,5 +36,8 @@ steps_hashed: null
 **Step 1**
 
 1. Connect Mattermost account.
-2. Choose "MS Teams" as the primary platform.
-3. Verify that DMs/GMs and synced channels are muted.
+2. Choose "MSTeamss" as the primary platform and click on `Continue` button.
+3. Go to User Settings > MSTeams settings section.
+4. Confirm 'Mattermost' is selected as the primary platform.
+5. Log into your MSTeams app and send a message in the synced channel or DM/GM.
+6. Verify that on Mattermost, the user does not not get notification ping for the DMs/GMs and synced channels that are muted on the Mattermost app.
