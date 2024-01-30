@@ -70,3 +70,18 @@ Scenario: Start an Enterprise trial.
 4. Start a Enterprise trial.
 5. Navigate back to `Users` in User Management.
 6. Verify that the Export functionality is now available.
+
+Scenario: Export Data for different durations
+
+1. Login into mattermost with admin account.
+2. Navigate to System Console > Users.
+3. Under `Duration` on the top right side, select `Last 30 days`.
+4. Click on `Export` button
+5. Verify the Admin receives a message from system-bot stating `You've started an export of user data for the last 30 days. When the export is complete, a CSV file will be delivered to you in this direct message.`
+
+Note:
+| Duration | Message |
+| ---------------| ------------- |
+| All time | You've started an export of user data for all time |
+| previous month | You've started an export of user data for the previous month |
+| last 6 months | You've started an export of user data for the last 6 months |
