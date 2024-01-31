@@ -48,10 +48,13 @@ Steps:
 3. In the first column, click on the user name.
 4. Verify the User Configuration page is opened.
 
-Scenario:
+Scenario: Admin can verify user actions available.
 
 Steps:
 
 1. Login into mattermost with admin account.
 2. Navigate to System Console > Users.
-3.
+3. Search for `sysadmin`.
+4. In the actions Column, verify the Role `System admin` is displayed.
+5. Click on the role.
+6. Verify admin can see a various actions available like, Deactivate, Manage Roles, Manage Team, Reset Password, Update Email, Remove Sessions.
