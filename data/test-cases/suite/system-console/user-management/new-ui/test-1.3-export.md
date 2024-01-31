@@ -76,10 +76,14 @@ Scenario: Export Data for different durations
 1. Login into mattermost with admin account.
 2. Navigate to System Console > Users.
 3. Under `Duration` on the top right side, select `Last 30 days`.
-4. Click on `Export` button
+4. Click on `Export` button.
 5. Verify the Admin receives a message from system-bot stating `You've started an export of user data for the last 30 days. When the export is complete, a CSV file will be delivered to you in this direct message.`
+6. Download the `.csv` received in system-bot DM.
+7. Verify User can see data in below headers
 
-Note:
+   Id, Username, Email, CreateAt, Name, Roles, LastLogin, LastStatusAt, LastPostDate, DaysActive, TotalPosts
+
+Note: System Bot messages for different duration exports.
 | Duration | Message |
 | ---------------| ------------- |
 | All time | You've started an export of user data for all time |

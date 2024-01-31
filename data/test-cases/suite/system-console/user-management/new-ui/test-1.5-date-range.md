@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Ability to view User Profiles in User management section"
+name: "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options"
 status: Active
 priority: Normal
 folder: New UI
@@ -39,19 +39,11 @@ Test requirements:
 
 1. Have an instance with server version >= 9.6.
 
-Scenario: Admin can open user profile from the User management page.
-
 Steps:
 
 1. Login into mattermost with admin account.
 2. Navigate to System Console > Users.
-3. In the first column, click on the user name.
-4. Verify the User Configuration page is opened.
-
-Scenario:
-
-Steps:
-
-1. Login into mattermost with admin account.
-2. Navigate to System Console > Users.
-3.
+3. Verify the default Duration is `All time`.
+4. From the Duration dropdown, select `Last 30 days`.
+5. Verify the date in the Last Post, Days Active, Messages Posted columns reflect the applied date filter.
+6. Repeat Step 4 and 5, for different Duration options like, `Previous month`, `Last 6 months`.

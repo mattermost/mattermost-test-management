@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Ability to search by test and apply filters"
+name: "Ability to search by text and apply filters"
 status: Active
 priority: Normal
 folder: New UI
@@ -57,7 +57,20 @@ Scenario: Search by applying Role Filter
 2. Navigate to System Console > Users.
 3. Click on Filters button
 4. From the Role dropdown select `System Admin` role.
-5. Verify the search result contains current user in the search results.
-6. Click on Filters button.
-7. From the Role dropdown select `Member` role.
-8. Verify the search result contains only users with role Member.
+5. Click on Apply
+6. Verify the search result contains current user in the search results.
+7. Click on Filters button.
+8. From the Role dropdown select `Member` role.
+9. Verify the search result contains only users with role Member.
+
+Scenario: Search by applying Status Filter
+
+1. Login into mattermost with admin account.
+2. Navigate to System Console > Users.
+3. Click on Filters button
+4. From the Status dropdown select `Deactivated users` status.
+5. Click on Apply
+6. Verify the search result contains only Deactivated users in the search results.
+7. Click on Filters button.
+8. From the Status dropdown select `Active` status.
+9. Verify the search result contains only Active users in the search results.
