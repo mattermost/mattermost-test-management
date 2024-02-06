@@ -5312,7 +5312,7 @@
       "Send Desktop Notifications - Click notification from other team, public or private channel",
       "Send Desktop Notifications - For all activity with apostrophe, emoji, and markdown in notification",
       "Send Desktop Notifications - Never",
-      "Send Desktop Notifications - Only mentions and DMs",
+      "Send Desktop Notifications - Only mentions, DMs and group messages",
       "Team sidebar > team icon appearance and badge count",
       "Two mobile 'in-app' (while app is open) notifications received in quick succession display one after one the other",
       "User does not miss notifications after replying from notification bar",
@@ -6100,6 +6100,17 @@
       "User whose role was changed to team admin sees appropriate main menu option",
       "Verify Correct Authentication Method is shown for Email, SAML, LDAP, MFA users",
       "When deactivating users in the System Console, email address should not disappear"
+    ]
+  },
+  {
+    "folder": "suite/system-console/user-management/new-ui",
+    "tests": [
+      "Ability to Export Data after upgrading to Professional license",
+      "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+      "Ability to Sort the columns and view only desired columns",
+      "Ability to search by text and apply filters",
+      "Ability to view User Profiles in User management section",
+      "Display alert in User management page for MySQL instance"
     ]
   },
   {
