@@ -36,7 +36,7 @@ steps_hashed: null
 **Step 1**
 
 1. Connect Mattermost account.
-2. Choose "MSTeamss" as the primary platform and click on `Continue` button.
+2. Choose "MSTeams" as the primary platform and click on `Continue` button.
 3. Go to User Settings > MSTeams settings section.
 4. Confirm 'Mattermost' is selected as the primary platform.
 5. Log into your MSTeams app and send a message in the synced channel or DM/GM.

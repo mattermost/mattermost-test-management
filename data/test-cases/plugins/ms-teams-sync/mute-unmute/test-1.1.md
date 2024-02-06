@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeamss) during the initial account connection"
+name: "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection"
 status: Active
 priority: Normal
 folder: Mute unmute
