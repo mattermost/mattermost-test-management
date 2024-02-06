@@ -14891,7 +14891,7 @@
             "file": "suite/notifications/MM-T493.md"
           },
           {
-            "name": "Send Desktop Notifications - Only mentions and DMs",
+            "name": "Send Desktop Notifications - Only mentions, DMs and group messages",
             "file": "suite/notifications/MM-T494.md"
           },
           {
@@ -17421,6 +17421,35 @@
               {
                 "name": "Verify Correct Authentication Method is shown for Email, SAML, LDAP, MFA users",
                 "file": "suite/system-console/user-management/MM-T953.md"
+              },
+              {
+                "name": "New UI",
+                "routes": [
+                  {
+                    "name": "Ability to view User Profiles in User management section",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5520.md"
+                  },
+                  {
+                    "name": "Ability to search by text and apply filters",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5521.md"
+                  },
+                  {
+                    "name": "Ability to Export Data after upgrading to Professional license",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5522.md"
+                  },
+                  {
+                    "name": "Ability to Sort the columns and view only desired columns",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5523.md"
+                  },
+                  {
+                    "name": "Display alert in User management page for MySQL instance",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5524.md"
+                  },
+                  {
+                    "name": "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5525.md"
+                  }
+                ]
               },
               {
                 "name": "Users",
