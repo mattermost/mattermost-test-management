@@ -11001,6 +11001,51 @@
             ]
           },
           {
+            "name": "Mute unmute",
+            "routes": [
+              {
+                "name": "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5527.md"
+              },
+              {
+                "name": "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5528.md"
+              },
+              {
+                "name": "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5529.md"
+              },
+              {
+                "name": "Confirm that users can change their primary platform setting in their account settings",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5530.md"
+              },
+              {
+                "name": "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5531.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a user joins a linked channel",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5532.md"
+              },
+              {
+                "name": "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5533.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a channel becomes linked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5534.md"
+              },
+              {
+                "name": "Confirm that channels are unmuted when a channel becomes unlinked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5535.md"
+              },
+              {
+                "name": "Admin can change the primary platform on behalf of a user.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5536.md"
+              }
+            ]
+          },
+          {
             "name": "Slash commands",
             "routes": [
               {
