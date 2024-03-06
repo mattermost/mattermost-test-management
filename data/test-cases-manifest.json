@@ -4232,6 +4232,29 @@
         ]
       },
       {
+        "name": "Move Threads",
+        "routes": [
+          {
+            "name": "Move a post from Private channel",
+            "file": "channels/move-threads/MM-T5511.md"
+          },
+          { "name": "Move a post from DM", "file": "channels/move-threads/MM-T5512.md" },
+          {
+            "name": "Move a post if user's email ending is in the domain to move threads",
+            "file": "channels/move-threads/MM-T5513.md"
+          },
+          { "name": "Move a post from GM", "file": "channels/move-threads/MM-T5514.md" },
+          {
+            "name": "Move a post from one team to another",
+            "file": "channels/move-threads/MM-T5515.md"
+          },
+          {
+            "name": "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size",
+            "file": "channels/move-threads/MM-T5516.md"
+          }
+        ]
+      },
+      {
         "name": "Multi-Team and DMs",
         "routes": [
           {
@@ -4559,6 +4582,10 @@
           {
             "name": "Permalink Preview - Nested Preview",
             "file": "channels/permalink-preview/MM-T5091.md"
+          },
+          {
+            "name": "Non-channel-admin users can use message links in private channels",
+            "file": "channels/permalink-preview/MM-T5526.md"
           }
         ]
       },
@@ -6129,6 +6156,27 @@
           {
             "name": "Renewal | Should be available to Renew within the product",
             "file": "cloud/in-product-renewal/MM-T5410.md"
+          }
+        ]
+      },
+      {
+        "name": "IP Filtering",
+        "routes": [
+          {
+            "name": "IP Filtering feature is available for Enterprise license and Enterprise trial license",
+            "file": "cloud/ip-filtering/MM-T5466.md"
+          },
+          {
+            "name": "IP Filtering | Add IP Filtering rule in System Console",
+            "file": "cloud/ip-filtering/MM-T5467.md"
+          },
+          {
+            "name": "IP Filtering | Restore workspace from portal if the workspace is blocked",
+            "file": "cloud/ip-filtering/MM-T5468.md"
+          },
+          {
+            "name": "IP Filtering | Email notification when IP Filtering rule is added",
+            "file": "cloud/ip-filtering/MM-T5469.md"
           }
         ]
       },
@@ -8821,6 +8869,26 @@
           {
             "name": "Mobile V2: Channels - Convert to Private Channel",
             "file": "mobile-v2/channels/MM-T4972.md"
+          },
+          {
+            "name": "Convert a GM to a Private channel with users on same team",
+            "file": "mobile-v2/channels/MM-T5470.md"
+          },
+          {
+            "name": "Verify error message is displayed while Converting a GM with users on from different teams to a Private channel",
+            "file": "mobile-v2/channels/MM-T5471.md"
+          },
+          {
+            "name": "Verify opening GM notification after GM is converted to channel by other user",
+            "file": "mobile-v2/channels/MM-T5472.md"
+          },
+          {
+            "name": "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed",
+            "file": "mobile-v2/channels/MM-T5473.md"
+          },
+          {
+            "name": "Verify Error message is displayed while converting a GM with users on from different teams to a Private channel",
+            "file": "mobile-v2/channels/MM-T5474.md"
           }
         ]
       },
@@ -10846,6 +10914,235 @@
         ]
       },
       {
+        "name": "MS Teams sync",
+        "routes": [
+          {
+            "name": "attachments-sync",
+            "routes": [
+              {
+                "name": "Allowed size of attachment on MM",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5475.md"
+              },
+              {
+                "name": "Send multiple attachments",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5476.md"
+              },
+              {
+                "name": "Not allowed size of attachment on MM",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5477.md"
+              },
+              {
+                "name": "Send GIF attachment",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5478.md"
+              },
+              {
+                "name": "Send embedded image",
+                "file": "plugins/ms-teams-sync/attachments-sync/MM-T5479.md"
+              }
+            ]
+          },
+          {
+            "name": "Mentions",
+            "routes": [
+              {
+                "name": "Mention all users in the linked channel or GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5480.md"
+              },
+              {
+                "name": "Mention multiple users in the linked channel or GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5481.md"
+              },
+              {
+                "name": "Mention a single user in the linked channel or DM/GM",
+                "file": "plugins/ms-teams-sync/mentions/MM-T5482.md"
+              }
+            ]
+          },
+          {
+            "name": "Message Edit",
+            "routes": [
+              {
+                "name": "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5483.md"
+              },
+              {
+                "name": "Editing text and emoji from MM to Teams",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5484.md"
+              },
+              {
+                "name": "Editing text and emoji from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-edit/MM-T5485.md"
+              }
+            ]
+          },
+          {
+            "name": "Message sync",
+            "routes": [
+              {
+                "name": "Message sync from MM to MS Teams",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5486.md"
+              },
+              {
+                "name": "Message deleted from MS MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5487.md"
+              },
+              {
+                "name": "Message from non-connected user",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5488.md"
+              },
+              {
+                "name": "Order of posts from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5489.md"
+              },
+              {
+                "name": "Message sync from MS Teams to MM",
+                "file": "plugins/ms-teams-sync/message-sync/MM-T5490.md"
+              }
+            ]
+          },
+          {
+            "name": "Mute unmute",
+            "routes": [
+              {
+                "name": "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5527.md"
+              },
+              {
+                "name": "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5528.md"
+              },
+              {
+                "name": "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5529.md"
+              },
+              {
+                "name": "Confirm that users can change their primary platform setting in their account settings",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5530.md"
+              },
+              {
+                "name": "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5531.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a user joins a linked channel",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5532.md"
+              },
+              {
+                "name": "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5533.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a channel becomes linked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5534.md"
+              },
+              {
+                "name": "Confirm that channels are unmuted when a channel becomes unlinked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5535.md"
+              },
+              {
+                "name": "Admin can change the primary platform on behalf of a user.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5536.md"
+              }
+            ]
+          },
+          {
+            "name": "Slash commands",
+            "routes": [
+              {
+                "name": "Connect user slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5491.md"
+              },
+              {
+                "name": "Disconnect user slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5492.md"
+              },
+              {
+                "name": "Link channel slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5493.md"
+              },
+              {
+                "name": "Promote slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5494.md"
+              },
+              {
+                "name": "Show slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5495.md"
+              },
+              {
+                "name": "Show-links slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5496.md"
+              },
+              {
+                "name": "Unlink channel slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5497.md"
+              },
+              {
+                "name": "Connect-bot slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5498.md"
+              },
+              {
+                "name": "Disconnect-bot account slash command",
+                "file": "plugins/ms-teams-sync/slash-commands/MM-T5499.md"
+              }
+            ]
+          },
+          {
+            "name": "Text formatting",
+            "routes": [
+              {
+                "name": "Formatting text as code snippet",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5500.md"
+              },
+              {
+                "name": "Formatting text as headings",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5501.md"
+              },
+              {
+                "name": "Formatting text as links",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5502.md"
+              },
+              {
+                "name": "Formatting text with markdown",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5503.md"
+              },
+              {
+                "name": "Formatting text with bold, italics and strikethrough features",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5504.md"
+              },
+              {
+                "name": "LaTeX formatting currently not expected to render on MS Teams side",
+                "file": "plugins/ms-teams-sync/text-formatting/MM-T5510.md"
+              }
+            ]
+          },
+          {
+            "name": "thread-replies",
+            "routes": [
+              {
+                "name": "Replying with an attachment of allowed size on MM to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5505.md"
+              },
+              {
+                "name": "Delete a reply to a message on MS Teams",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5506.md"
+              },
+              {
+                "name": "Edit a reply to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5507.md"
+              },
+              {
+                "name": "Replying with an attachment of greater size than the allowed size on MM to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5508.md"
+              },
+              {
+                "name": "Replying to a message",
+                "file": "plugins/ms-teams-sync/thread-replies/MM-T5509.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "NPS Plugin",
         "routes": [
           {
@@ -11976,6 +12273,19 @@
             "file": "self-hosted/true-up-support/MM-T5375.md"
           }
         ]
+      },
+      {
+        "name": "User limits",
+        "routes": [
+          {
+            "name": "Air-gapped instance should show global banner and Learn more button",
+            "file": "self-hosted/user-limits/MM-T5518.md"
+          },
+          {
+            "name": "Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
+            "file": "self-hosted/user-limits/MM-T5519.md"
+          }
+        ]
       }
     ]
   },
@@ -12911,6 +13221,10 @@
           {
             "name": "Allow admins to re-add a user to all of their default group-teams and channels",
             "file": "suite/ad-ldap/MM-T5307.md"
+          },
+          {
+            "name": "System console user list shows that deactivate option is not available for LDAP users",
+            "file": "suite/ad-ldap/MM-T5517.md"
           }
         ]
       },
@@ -14626,7 +14940,7 @@
             "file": "suite/notifications/MM-T493.md"
           },
           {
-            "name": "Send Desktop Notifications - Only mentions and DMs",
+            "name": "Send Desktop Notifications - Only mentions, DMs and group messages",
             "file": "suite/notifications/MM-T494.md"
           },
           {
@@ -17156,6 +17470,35 @@
               {
                 "name": "Verify Correct Authentication Method is shown for Email, SAML, LDAP, MFA users",
                 "file": "suite/system-console/user-management/MM-T953.md"
+              },
+              {
+                "name": "New UI",
+                "routes": [
+                  {
+                    "name": "Ability to view User Profiles in User management section",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5520.md"
+                  },
+                  {
+                    "name": "Ability to search by text and apply filters",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5521.md"
+                  },
+                  {
+                    "name": "Ability to Export Data after upgrading to Professional license",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5522.md"
+                  },
+                  {
+                    "name": "Ability to Sort the columns and view only desired columns",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5523.md"
+                  },
+                  {
+                    "name": "Display alert in User management page for MySQL instance",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5524.md"
+                  },
+                  {
+                    "name": "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5525.md"
+                  }
+                ]
               },
               {
                 "name": "Users",
