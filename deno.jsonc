@@ -1,5 +1,5 @@
 {
-  "tasks": {
+  "tasks-test": {
     "get-components": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_components.ts && deno fmt",
     "get-environments": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_environments.ts && deno fmt",
     "get-priorities": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_priorities.ts && deno fmt",
