@@ -35,7 +35,7 @@ steps_hashed: null
 **Step 1**
 
 1. Remove a reaction from the message in the linked channel or DM/GM on MM.
-2. Navigate to the linked channel or DM/GM on MS Teams. 
+2. Navigate to the linked channel or DM/GM on MS Teams.
 
 **Step 2**
 

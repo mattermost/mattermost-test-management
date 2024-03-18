@@ -34,7 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Any error occured while connecting the user to their MS Teams account.
+1. Any error occurred while connecting the user to their MS Teams account.
 
 **Expected**
 

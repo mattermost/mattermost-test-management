@@ -50,4 +50,4 @@ steps_hashed: null
 
 The desired channel should be unlinked and the RHS of MS Teams sync plugin should get updated with a toast message regarding the successful unlinking.
 After step 2, the `Unlink channel` dialog should close and the RHS of MS Teams sync plugin should persist its state.
-After step 3, the `List of linked channels` should be empty and the user should be able to see the `Link a channel` button in the RHS of the MS Teams sync plugin on MM. 
+After step 3, the `List of linked channels` should be empty and the user should be able to see the `Link a channel` button in the RHS of the MS Teams sync plugin on MM.

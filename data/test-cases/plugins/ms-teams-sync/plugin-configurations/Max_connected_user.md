@@ -35,28 +35,27 @@ steps_hashed: null
 **Step 1**
 
 1. Set the desired limit in `Max Connected Users` option in the plugin settings on MM.
-2. When the count of users (connected atleast once) is less than the set limit then connect the new user to MS Teams on MM using the `/msteams-sync connect` command.
+2. When the count of users (connected at least once) is less than the set limit then connect the new user to MS Teams on MM using the `/msteams-sync connect` command.
 
 **Step 2**
 
 1. Set the desired limit in `Max Connected Users` option in the plugin settings on MM.
-2. When the count of users (connected atleast once) is equal to the set limit then edit and decrease the limit of `Max Connected Users` option in the plugin settings on MM.
+2. When the count of users (connected at least once) is equal to the set limit then edit and decrease the limit of `Max Connected Users` option in the plugin settings on MM.
 
 **Step 3**
 
 1. Set the desired limit in `Max Connected Users` option in the plugin settings on MM.
-2. When the count of users (connected atleast once) is equal to the set limit then disconnect a user.
+2. When the count of users (connected at least once) is equal to the set limit then disconnect a user.
 3. Connect a new user to MS Teams on MM using the `/msteams-sync connect` command.
 
 **Step 4**
 
 1. Set the desired limit in `Max Connected Users` option in the plugin settings on MM.
-2. When the count of users (connected atleast once) is equal to the set limit then connect a new user to MS teams on MM using the `/msteams-sync connect` command.
-
+2. When the count of users (connected at least once) is equal to the set limit then connect a new user to MS teams on MM using the `/msteams-sync connect` command.
 
 **Expected**
 
 The new user should be able to connect to their MS Teams account.
-After step 2, any of the connected or non-connected users(connected atleast once) should not get affected.
+After step 2, any of the connected or non-connected users(connected at least once) should not get affected.
 After step 3, the new user should not be able to connect to their MS Teams account.
 After step 4, the new user should not be able to connect to their MS Teams account.

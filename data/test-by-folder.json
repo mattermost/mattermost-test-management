@@ -3987,6 +3987,23 @@
     ]
   },
   {
+    "folder": "plugins/ms-teams-sync/plugin-configurations",
+    "tests": [
+      "Auto promotion of remote user on MM",
+      "Buffer size for streaming the file",
+      "Certificate based subscriptions on MM",
+      "Download report from plugin configurations",
+      "Enabled teams on MM",
+      "Enforce connected account page",
+      "Maximum connected users",
+      "Maximum download size allowed at one time",
+      "Message in prompt interval to connect the account in DM/GM",
+      "Syncing DM and GM messages",
+      "Syncing guest users on MM",
+      "Syncing users on MM"
+    ]
+  },
+  {
     "folder": "plugins/ms-teams-sync/slash-commands",
     "tests": [
       "Connect user slash command",
@@ -4019,6 +4036,37 @@
       "Replying to a message",
       "Replying with an attachment of allowed size on MM to a message",
       "Replying with an attachment of greater size than the allowed size on MM to a message"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/ui-integration",
+    "tests": [
+      "Error while connecting a user through RHS",
+      "Error while linking a channel on MM",
+      "Error while unlinking a channel on MM",
+      "Hovering over a row in the linked channel list",
+      "Infinite scroll in the list of linked channels in RHS",
+      "Linking a channel on MM",
+      "List of linked channels in RHS",
+      "RHS design with respect to enabling and disabling App bar",
+      "Searching the linked channel in the list",
+      "Tooltip on hovering over the linked channel details.",
+      "Unlinking a channel on MM",
+      "Updated RHS after connecting a user to their MS Teams account on MM",
+      "Updated RHS after disconnecting a user from MS Teams account on MM",
+      "Updated RHS after disconnecting a user from MS Teams account on MM",
+      "Updated RHS with respect to slash commands",
+      "Updates in the list of linked channels with slash commands"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/user-reactions",
+    "tests": [
+      "Add a reaction on the message",
+      "Multiple reactions on a message",
+      "Reactions from a disconnected account",
+      "Remove reaction from a message",
+      "Update reaction on a message"
     ]
   },
   {

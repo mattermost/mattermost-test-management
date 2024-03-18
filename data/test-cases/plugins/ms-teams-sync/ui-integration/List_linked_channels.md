@@ -45,6 +45,7 @@ steps_hashed: null
 1. Click on the MS Teams sync icon in the app bar or channel header to open the RHS when there are no MM channels linked to the MS Teams channel.
 
 **Step 4**
+
 1. Disconnect the user on MM from the RHS or using slash command `/msteams-sync disconnect`.
 2. Click on the MS Teams sync icon in the app bar or channel header to open the RHS when there are MM channels linked to the MS Teams channel
 

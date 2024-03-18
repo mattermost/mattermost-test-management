@@ -42,7 +42,6 @@ steps_hashed: null
 1. Set the `Automatically Promote Synthetic Users` option to `false`, `Synthetic User Auth Service` option to `SAML` or `AD/LDAP` and `Synthetic User Auth Data` option to `ID` or `Mail` or `User Principal Name` when the `sync user` job is enabled in the plugin settings on MM.
 2. Login through SSO on MM platform from a remote user.
 
-
 **Expected**
 
 The user should be promoted and get logged-in to their account on MM.

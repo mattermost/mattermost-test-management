@@ -44,8 +44,8 @@ steps_hashed: null
 **Step 3**
 
 1. Set the time in `Sync user` option in the plugin settings on MM.
-2. Deativate a user on MS Teams after it is synced.
-3. Navigate to `users` in the system console on MM 
+2. Deactivate a user on MS Teams after it is synced.
+3. Navigate to `users` in the system console on MM
 
 **Expected**
 

@@ -34,7 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Click on the `Download report` button in the plugin settings on MM. 
+1. Click on the `Download report` button in the plugin settings on MM.
 2. Open the downloaded file.
 
 **Expected**
