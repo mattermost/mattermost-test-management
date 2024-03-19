@@ -45,19 +45,60 @@ jobs:
         uses: tj-actions/branch-names@v6
 
       - name: Save changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task save
 
       - name: Sync changes
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: deno task sync
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        if: steps.branch-name.outputs.is_default == 'true'
+      - name: Create PR
+        uses: actions/github-script@v4
         with:
-          commit_message: "chore(data): Sync"
-          add_options: '-u'
-          skip_dirty_check: true
-          commit_user_name: mattermost-quality
-          commit_user_email: ${{ secrets.EMAIL }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            npm install @octokit/rest
+            const title = "chore(data): Sync";
+            const body = "Syncing changes from Zephyr";
+            const head = "sync-branch";
+            const base = "main";
+            const octokit = require("@octokit/rest")();
+            octokit.authenticate({
+              type: "token",
+              token: process.env.GITHUB_TOKEN,
+            });
+            const { data: pr } = await octokit.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              head,
+              base,
+            });
+            console.log(`Created PR #${pr.number}: ${pr.html_url}`);
 
+    
+      # - uses: stefanzweifel/git-auto-commit-action@v4
+      #   if: steps.branch-name.outputs.is_default == 'true'
+      #   with:
+      #     commit_message: "chore(data): Sync"
+      #     add_options: '-u'
+      #     skip_dirty_check: true
+      #     commit_user_name: mattermost-quality
+      #     commit_user_email: ${{ secrets.EMAIL }}
+
+      # - name: Create Pull Request
+      #   id: cpr
+      #   uses: peter-evans/create-pull-request@v4
+      #   with:
+      #     token: ${{ secrets.TOKEN }}
+      #     signoff: false
+      #     title: Sync updates
+      #     body: "**Pull request to update data from Zephyr**"
+      #     draft: false
+      #     commit-message: 'chore(data): Sync'
+      #     committer: Mattermost Quality <qa@mattermost.com>
+      #     author: Mattermost Quality <qa@mattermost.com>
+      #     base: main
+      #     branch: data-sync
+      #     delete-branch: true
