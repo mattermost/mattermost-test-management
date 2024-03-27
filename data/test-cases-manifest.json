@@ -2010,6 +2010,10 @@
           {
             "name": "Closing RHS should not close edited post in centre channel",
             "file": "channels/edited-post/MM-T4967.md"
+          },
+          {
+            "name": "View message edit history and restore previous versions",
+            "file": "channels/edited-post/MM-T5537.md"
           }
         ]
       },
@@ -6923,10 +6927,6 @@
         "name": "Settings",
         "routes": [
           {
-            "name": "Keyboard Shortcuts in Settings Page",
-            "file": "desktop-app--native-specific-/settings/MM-T1288.md"
-          },
-          {
             "name": "Windows or Linux - Start app on login",
             "file": "desktop-app--native-specific-/settings/MM-T4392.md"
           },
@@ -11046,6 +11046,59 @@
             ]
           },
           {
+            "name": "plugin-configurations",
+            "routes": [
+              {
+                "name": "Auto promotion of remote user on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5538.md"
+              },
+              {
+                "name": "Buffer size for streaming the file",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5539.md"
+              },
+              {
+                "name": "Certificate based subscriptions on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5540.md"
+              },
+              {
+                "name": "Download report from plugin configurations",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5541.md"
+              },
+              {
+                "name": "Enabled teams on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5542.md"
+              },
+              {
+                "name": "Enforce connected account page",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5543.md"
+              },
+              {
+                "name": "Maximum connected users",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5544.md"
+              },
+              {
+                "name": "Maximum download size allowed at one time",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5545.md"
+              },
+              {
+                "name": "Message in prompt interval to connect the account in DM/GM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5546.md"
+              },
+              {
+                "name": "Syncing DM and GM messages",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5547.md"
+              },
+              {
+                "name": "Syncing guest users on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5548.md"
+              },
+              {
+                "name": "Syncing users on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5549.md"
+              }
+            ]
+          },
+          {
             "name": "Slash commands",
             "routes": [
               {
@@ -11137,6 +11190,100 @@
               {
                 "name": "Replying to a message",
                 "file": "plugins/ms-teams-sync/thread-replies/MM-T5509.md"
+              }
+            ]
+          },
+          {
+            "name": "ui-integration",
+            "routes": [
+              {
+                "name": "Updated RHS after connecting a user to their MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5550.md"
+              },
+              {
+                "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5551.md"
+              },
+              {
+                "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5552.md"
+              },
+              {
+                "name": "Error while linking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5553.md"
+              },
+              {
+                "name": "Error while unlinking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5554.md"
+              },
+              {
+                "name": "Error while connecting a user through RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5555.md"
+              },
+              {
+                "name": "Hovering over a row in the linked channel list",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5556.md"
+              },
+              {
+                "name": "Linking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5557.md"
+              },
+              {
+                "name": "List of linked channels in RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5558.md"
+              },
+              {
+                "name": "RHS design with respect to enabling and disabling App bar",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5559.md"
+              },
+              {
+                "name": "Infinite scroll in the list of linked channels in RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5560.md"
+              },
+              {
+                "name": "Searching the linked channel in the list",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5561.md"
+              },
+              {
+                "name": "Updated RHS with respect to slash commands",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5562.md"
+              },
+              {
+                "name": "Updates in the list of linked channels with slash commands",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5563.md"
+              },
+              {
+                "name": "Tooltip on hovering over the linked channel details.",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5564.md"
+              },
+              {
+                "name": "Unlinking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5565.md"
+              }
+            ]
+          },
+          {
+            "name": "user-reactions",
+            "routes": [
+              {
+                "name": "Add a reaction on the message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5566.md"
+              },
+              {
+                "name": "Reactions from a disconnected account",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5567.md"
+              },
+              {
+                "name": "Multiple reactions on a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5568.md"
+              },
+              {
+                "name": "Remove reaction from a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5569.md"
+              },
+              {
+                "name": "Update reaction on a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5570.md"
               }
             ]
           }
@@ -12282,8 +12429,12 @@
             "file": "self-hosted/user-limits/MM-T5518.md"
           },
           {
-            "name": "Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
+            "name": "Unlicensed Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
             "file": "self-hosted/user-limits/MM-T5519.md"
+          },
+          {
+            "name": "Unlicensed Enterprise and Team Edition should not be able to create or signup new users when instance already has 11,000 users",
+            "file": "self-hosted/user-limits/MM-T5571.md"
           }
         ]
       }
