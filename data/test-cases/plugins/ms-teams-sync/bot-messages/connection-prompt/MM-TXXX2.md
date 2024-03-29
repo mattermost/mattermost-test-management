@@ -43,4 +43,4 @@ Send a direct message to a user who has chosen Mattermost as their primary platf
 
 **Expected**
 
-Very no ephemeral message displayed in chat, as there is no need to connect to Microsoft Teams.
+Verify no ephemeral message displayed in chat, as there is no need to connect to Microsoft Teams.

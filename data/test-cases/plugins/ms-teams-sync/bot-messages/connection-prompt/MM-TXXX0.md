@@ -43,7 +43,7 @@ Send a direct message to a remote user (e.g. `@msteams_user`)
 
 **Expected**
 
-Very ephemeral message displayed in chat:
+Verify ephemeral message displayed in chat:
 
 > Some users in this conversation rely on Microsoft Teams to receive your messages, but your account isn't connected. _Click here to connect your account_.
 

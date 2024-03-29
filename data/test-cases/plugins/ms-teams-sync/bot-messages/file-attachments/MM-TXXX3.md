@@ -47,6 +47,6 @@ Send a group message with a file attachment to a remote user (e.g. `@msteams_use
 
 **Expected**
 
-Very message displayed in chat:
+Verify message displayed in chat:
 
 > Attachments sent from Mattermost aren't yet delivered to Microsoft Teams.

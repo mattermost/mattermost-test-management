@@ -47,6 +47,6 @@ Send a direct message with a file attachment to a user who has chosen Teams as t
 
 **Expected**
 
-Very message displayed in chat:
+Verify message displayed in chat:
 
 > Attachments sent from Mattermost aren't yet delivered to Microsoft Teams.

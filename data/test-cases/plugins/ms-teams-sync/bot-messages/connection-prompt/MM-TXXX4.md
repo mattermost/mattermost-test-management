@@ -43,7 +43,7 @@ Send a group message to a user who has chosen Teams as their primary platform an
 
 **Expected**
 
-Very ephemeral message displayed in chat:
+Verify ephemeral message displayed in chat:
 
 > Some users in this conversation rely on Microsoft Teams to receive your messages, but your account isn't connected. _Click here to connect your account_.
 

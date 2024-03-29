@@ -43,4 +43,4 @@ Send a group message to two users who have chosen chosen Mattermost as their pri
 
 **Expected**
 
-Very no ephemeral message displayed in chat, as there is no need to connect to Microsoft Teams.
+Verify no ephemeral message displayed in chat, as there is no need to connect to Microsoft Teams.
