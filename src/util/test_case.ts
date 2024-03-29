@@ -191,6 +191,7 @@ function customFieldsValues() {
       'Growth',
       'Integration Frameworks',
       'Mobile Platform',
+      'MS Teams',
       'Playbooks',
       'QA Platform',
       'Self-Serve',
