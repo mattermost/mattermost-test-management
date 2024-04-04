@@ -33,11 +33,11 @@ case_hashed: null
 steps_hashed: null
 ---
 
-**Step 1**
+**Precondition**
 
 Disconnect from MS Teams, if necessary, via `/msteams disconnect`.
 
-**Step 2**
+**Step 1**
 
 Send a group message to a remote user (e.g. `@msteams_user`) and a user who has chosen Mattermost as their primary platform (or simply not connected to Teams).
 

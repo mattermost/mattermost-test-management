@@ -33,15 +33,12 @@ case_hashed: null
 steps_hashed: null
 ---
 
+**Precondition**
+
+- Disable synchronization of file attachments. (Set `syncfileattachments` to `false` in plugin configuration.)
+- Connect to MS Teams.
+
 **Step 1**
-
-Disable synchronization of file attachments. (Set `syncfileattachments` to `false` in plugin configuration.)
-
-**Step 2**
-
-Connect to MS Teams.
-
-**Step 3**
 
 Send a group message with a file attachment to a remote user (e.g. `@msteams_user`) and a user who has chosen Mattermost as their primary platform (or simply not connected to Teams).
 
