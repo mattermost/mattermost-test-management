@@ -3948,6 +3948,28 @@
     ]
   },
   {
+    "folder": "plugins/ms-teams-sync/bot-messages/connection-prompt",
+    "tests": [
+      "Connection prompt in direct message with Mattermost primary user",
+      "Connection prompt in direct message with Teams primary user",
+      "Connection prompt in direct message with remote user",
+      "Connection prompt in group message with one Teams primary user",
+      "Connection prompt in group message with one remote user",
+      "Connection prompt in group message with only Mattermost primary users"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/bot-messages/file-attachments",
+    "tests": [
+      "File attachment warning when disabled and sending to a Teams primary user",
+      "File attachment warning when disabled and sending to a group message with one Teams primary user",
+      "File attachment warning when disabled and sending to a group message with one remote user",
+      "File attachment warning when disabled and sending to a remote user",
+      "No file attachment warning when disabled and sending to a Mattermost primary user",
+      "No file attachment warning when disabled and sending to a group message with only Mattermost primary users"
+    ]
+  },
+  {
     "folder": "plugins/ms-teams-sync/mentions",
     "tests": [
       "Mention a single user in the linked channel or DM/GM",
