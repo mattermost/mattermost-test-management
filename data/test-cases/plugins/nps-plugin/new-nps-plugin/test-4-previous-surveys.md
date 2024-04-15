@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User Surveys | Survey cadence"
+name: "User Surveys | Previously launched surveys"
 status: Active
 priority: Normal
 folder: New nps plugin
@@ -35,14 +35,13 @@ steps_hashed: null
 
 **Step 1**
 
-Scenario 1: Verify Admin can chose Date and time to send the survey.
+Scenario 1: Previously launched Survey should be listed in the plugins page
 
-Steps:
+Set-up:
 
 1. Login as an Sysadmin user.
 2. Navigate to the System Console > Plugins > User surveys settings page.
-3. For `Send next Survey at`, verify the default date is 30 days from current date and the default time will be 09:00.
-4. Set Future Date and Time.
-5. Save the settings.
-6. Login with users account.
-7. Verify that the user has received the survey.
+3. Previous survey's should have Start and End date of the survey.
+4. Previous survey's should have NPS score if the survey has ended.
+5. Previously launched survey but currently active should have a button `End Survey` button.
+6. Should be able to download the Survey responses.

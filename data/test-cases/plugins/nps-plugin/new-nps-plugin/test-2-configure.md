@@ -65,3 +65,11 @@ Steps:
 3. Enter an invalid value (less than 5 or greater than 30) in the "Survey Duration" field.
 4. Save the changes.
 5. Verify that an error message is displayed indicating the value is outside the allowed range.
+
+Scenario 4: Verify User cannot post response for an Expired Survey.
+
+Prerequisite: Admin should have launched a survey that expires after 30 days.
+
+1. Login to User's account.
+2. Open Feedback bot's DM.
+3. Verify a message is displayed syaing `Survey expired on <Month> <Day>, <Year>`.

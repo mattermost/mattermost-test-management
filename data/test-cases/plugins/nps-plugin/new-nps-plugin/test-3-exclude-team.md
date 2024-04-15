@@ -59,7 +59,7 @@ Steps:
 
 1. Login as an Sysadmin user.
 2. Navigate to the System Console > Plugins > User surveys settings page.
-3. Exclude Team A and launch a survey
+3. Exclude Only Team A and launch a survey
 
 Expected:
 
@@ -69,7 +69,7 @@ Expected:
 
 4. Login as an Sysadmin user.
 5. Navigate to the System Console > Plugins > User surveys settings page.
-6. Exclude Team B and launch a survey
+6. Exclude Only Team B and launch a survey
 
 Expected:
 
@@ -78,9 +78,8 @@ Expected:
 
 7. Login as an Sysadmin user.
 8. Navigate to the System Console > Plugins > User surveys settings page.
-9. Exclude Team C and launch a survey
+9. Exclude Only Team C and launch a survey
 
 Expected:
 
 - Login into User 1's, User 2's and User 3's account and verify survey is not received.
-- Login into User 3's account and verify survey is received.
