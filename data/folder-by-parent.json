@@ -295,6 +295,7 @@
     "parent": "plugins/ms-teams-sync",
     "folders": [
       "attachments-sync",
+      "Bot messages",
       "Mentions",
       "Message Edit",
       "Message sync",
@@ -306,6 +307,10 @@
       "ui-integration",
       "user-reactions"
     ]
+  },
+  {
+    "parent": "plugins/ms-teams-sync/bot-messages",
+    "folders": ["connection-prompt", "file-attachments"]
   },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },

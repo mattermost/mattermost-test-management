@@ -10942,6 +10942,69 @@
             ]
           },
           {
+            "name": "Bot messages",
+            "routes": [
+              {
+                "name": "connection-prompt",
+                "routes": [
+                  {
+                    "name": "Connection prompt in direct message with remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5572.md"
+                  },
+                  {
+                    "name": "Connection prompt in direct message with Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5573.md"
+                  },
+                  {
+                    "name": "Connection prompt in direct message with Mattermost primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5574.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with one remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5575.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with one Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5576.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with only Mattermost primary users",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5577.md"
+                  }
+                ]
+              },
+              {
+                "name": "file-attachments",
+                "routes": [
+                  {
+                    "name": "File attachment warning when disabled and sending to a remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5578.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5579.md"
+                  },
+                  {
+                    "name": "No file attachment warning when disabled and sending to a Mattermost primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5580.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a group message with one remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5581.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a group message with one Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5582.md"
+                  },
+                  {
+                    "name": "No file attachment warning when disabled and sending to a group message with only Mattermost primary users",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5583.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Mentions",
             "routes": [
               {

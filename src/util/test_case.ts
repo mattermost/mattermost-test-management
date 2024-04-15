@@ -183,21 +183,27 @@ function customFieldsValues() {
   const teamOptions = {
     default: [changeRequired],
     options: [
+      'ABC',
       'Boards',
       'Calls',
       'Channels',
+      'Cloud Platform',
+      'Customer Reliability Engineering',
       'Data Eng',
+      'Deployment Engineering',
       'Desktop Platform',
       'Growth',
+      'ICU',
       'Integration Frameworks',
       'Mobile Platform',
+      'MS Teams',
       'Playbooks',
       'QA Platform',
       'Self-Serve',
       'Suite Users',
       'Server Platform',
       'Web Platform',
-      'ICU',
+      'XYZ',
     ],
   };
 
