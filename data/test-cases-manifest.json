@@ -2010,6 +2010,10 @@
           {
             "name": "Closing RHS should not close edited post in centre channel",
             "file": "channels/edited-post/MM-T4967.md"
+          },
+          {
+            "name": "View message edit history and restore previous versions",
+            "file": "channels/edited-post/MM-T5537.md"
           }
         ]
       },
@@ -4582,6 +4586,10 @@
           {
             "name": "Permalink Preview - Nested Preview",
             "file": "channels/permalink-preview/MM-T5091.md"
+          },
+          {
+            "name": "Non-channel-admin users can use message links in private channels",
+            "file": "channels/permalink-preview/MM-T5526.md"
           }
         ]
       },
@@ -6918,10 +6926,6 @@
       {
         "name": "Settings",
         "routes": [
-          {
-            "name": "Keyboard Shortcuts in Settings Page",
-            "file": "desktop-app--native-specific-/settings/MM-T1288.md"
-          },
           {
             "name": "Windows or Linux - Start app on login",
             "file": "desktop-app--native-specific-/settings/MM-T4392.md"
@@ -10938,6 +10942,69 @@
             ]
           },
           {
+            "name": "Bot messages",
+            "routes": [
+              {
+                "name": "connection-prompt",
+                "routes": [
+                  {
+                    "name": "Connection prompt in direct message with remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5572.md"
+                  },
+                  {
+                    "name": "Connection prompt in direct message with Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5573.md"
+                  },
+                  {
+                    "name": "Connection prompt in direct message with Mattermost primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5574.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with one remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5575.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with one Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5576.md"
+                  },
+                  {
+                    "name": "Connection prompt in group message with only Mattermost primary users",
+                    "file": "plugins/ms-teams-sync/bot-messages/connection-prompt/MM-T5577.md"
+                  }
+                ]
+              },
+              {
+                "name": "file-attachments",
+                "routes": [
+                  {
+                    "name": "File attachment warning when disabled and sending to a remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5578.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5579.md"
+                  },
+                  {
+                    "name": "No file attachment warning when disabled and sending to a Mattermost primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5580.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a group message with one remote user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5581.md"
+                  },
+                  {
+                    "name": "File attachment warning when disabled and sending to a group message with one Teams primary user",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5582.md"
+                  },
+                  {
+                    "name": "No file attachment warning when disabled and sending to a group message with only Mattermost primary users",
+                    "file": "plugins/ms-teams-sync/bot-messages/file-attachments/MM-T5583.md"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "Mentions",
             "routes": [
               {
@@ -10993,6 +11060,104 @@
               {
                 "name": "Message sync from MS Teams to MM",
                 "file": "plugins/ms-teams-sync/message-sync/MM-T5490.md"
+              }
+            ]
+          },
+          {
+            "name": "Mute unmute",
+            "routes": [
+              {
+                "name": "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5527.md"
+              },
+              {
+                "name": "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5528.md"
+              },
+              {
+                "name": "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5529.md"
+              },
+              {
+                "name": "Confirm that users can change their primary platform setting in their account settings",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5530.md"
+              },
+              {
+                "name": "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5531.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a user joins a linked channel",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5532.md"
+              },
+              {
+                "name": "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5533.md"
+              },
+              {
+                "name": "Confirm that channels are muted when a channel becomes linked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5534.md"
+              },
+              {
+                "name": "Confirm that channels are unmuted when a channel becomes unlinked.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5535.md"
+              },
+              {
+                "name": "Admin can change the primary platform on behalf of a user.",
+                "file": "plugins/ms-teams-sync/mute-unmute/MM-T5536.md"
+              }
+            ]
+          },
+          {
+            "name": "plugin-configurations",
+            "routes": [
+              {
+                "name": "Auto promotion of remote user on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5538.md"
+              },
+              {
+                "name": "Buffer size for streaming the file",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5539.md"
+              },
+              {
+                "name": "Certificate based subscriptions on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5540.md"
+              },
+              {
+                "name": "Download report from plugin configurations",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5541.md"
+              },
+              {
+                "name": "Enabled teams on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5542.md"
+              },
+              {
+                "name": "Enforce connected account page",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5543.md"
+              },
+              {
+                "name": "Maximum connected users",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5544.md"
+              },
+              {
+                "name": "Maximum download size allowed at one time",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5545.md"
+              },
+              {
+                "name": "Message in prompt interval to connect the account in DM/GM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5546.md"
+              },
+              {
+                "name": "Syncing DM and GM messages",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5547.md"
+              },
+              {
+                "name": "Syncing guest users on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5548.md"
+              },
+              {
+                "name": "Syncing users on MM",
+                "file": "plugins/ms-teams-sync/plugin-configurations/MM-T5549.md"
               }
             ]
           },
@@ -11088,6 +11253,100 @@
               {
                 "name": "Replying to a message",
                 "file": "plugins/ms-teams-sync/thread-replies/MM-T5509.md"
+              }
+            ]
+          },
+          {
+            "name": "ui-integration",
+            "routes": [
+              {
+                "name": "Updated RHS after connecting a user to their MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5550.md"
+              },
+              {
+                "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5551.md"
+              },
+              {
+                "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5552.md"
+              },
+              {
+                "name": "Error while linking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5553.md"
+              },
+              {
+                "name": "Error while unlinking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5554.md"
+              },
+              {
+                "name": "Error while connecting a user through RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5555.md"
+              },
+              {
+                "name": "Hovering over a row in the linked channel list",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5556.md"
+              },
+              {
+                "name": "Linking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5557.md"
+              },
+              {
+                "name": "List of linked channels in RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5558.md"
+              },
+              {
+                "name": "RHS design with respect to enabling and disabling App bar",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5559.md"
+              },
+              {
+                "name": "Infinite scroll in the list of linked channels in RHS",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5560.md"
+              },
+              {
+                "name": "Searching the linked channel in the list",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5561.md"
+              },
+              {
+                "name": "Updated RHS with respect to slash commands",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5562.md"
+              },
+              {
+                "name": "Updates in the list of linked channels with slash commands",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5563.md"
+              },
+              {
+                "name": "Tooltip on hovering over the linked channel details.",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5564.md"
+              },
+              {
+                "name": "Unlinking a channel on MM",
+                "file": "plugins/ms-teams-sync/ui-integration/MM-T5565.md"
+              }
+            ]
+          },
+          {
+            "name": "user-reactions",
+            "routes": [
+              {
+                "name": "Add a reaction on the message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5566.md"
+              },
+              {
+                "name": "Reactions from a disconnected account",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5567.md"
+              },
+              {
+                "name": "Multiple reactions on a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5568.md"
+              },
+              {
+                "name": "Remove reaction from a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5569.md"
+              },
+              {
+                "name": "Update reaction on a message",
+                "file": "plugins/ms-teams-sync/user-reactions/MM-T5570.md"
               }
             ]
           }
@@ -12233,8 +12492,12 @@
             "file": "self-hosted/user-limits/MM-T5518.md"
           },
           {
-            "name": "Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
+            "name": "Unlicensed Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
             "file": "self-hosted/user-limits/MM-T5519.md"
+          },
+          {
+            "name": "Unlicensed Enterprise and Team Edition should not be able to create or signup new users when instance already has 11,000 users",
+            "file": "self-hosted/user-limits/MM-T5571.md"
           }
         ]
       }
@@ -13473,6 +13736,10 @@
           {
             "name": "Show number of group members in group autocomplete",
             "file": "suite/custom-groups/MM-T5390.md"
+          },
+          {
+            "name": "Viewing and Unarchiving Custom Groups",
+            "file": "suite/custom-groups/MM-T5584.md"
           }
         ]
       },
@@ -14222,7 +14489,7 @@
                 "file": "suite/guest-accounts/guest-identification/MM-T1418.md"
               },
               {
-                "name": "Deactivating a Guest removes 'This channel has guests' message from channel header",
+                "name": "Deactivating a Guest removes 'Channel has guests' message from channel header",
                 "file": "suite/guest-accounts/guest-identification/MM-T1419.md"
               },
               {
@@ -14891,7 +15158,7 @@
             "file": "suite/notifications/MM-T493.md"
           },
           {
-            "name": "Send Desktop Notifications - Only mentions and DMs",
+            "name": "Send Desktop Notifications - Only mentions, DMs and group messages",
             "file": "suite/notifications/MM-T494.md"
           },
           {
@@ -17421,6 +17688,35 @@
               {
                 "name": "Verify Correct Authentication Method is shown for Email, SAML, LDAP, MFA users",
                 "file": "suite/system-console/user-management/MM-T953.md"
+              },
+              {
+                "name": "New UI",
+                "routes": [
+                  {
+                    "name": "Ability to view User Profiles in User management section",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5520.md"
+                  },
+                  {
+                    "name": "Ability to search by text and apply filters",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5521.md"
+                  },
+                  {
+                    "name": "Ability to Export Data after upgrading to Professional license",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5522.md"
+                  },
+                  {
+                    "name": "Ability to Sort the columns and view only desired columns",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5523.md"
+                  },
+                  {
+                    "name": "Display alert in User management page for MySQL instance",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5524.md"
+                  },
+                  {
+                    "name": "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+                    "file": "suite/system-console/user-management/new-ui/MM-T5525.md"
+                  }
+                ]
               },
               {
                 "name": "Users",

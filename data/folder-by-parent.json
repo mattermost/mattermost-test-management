@@ -294,18 +294,23 @@
   {
     "parent": "plugins/ms-teams-sync",
     "folders": [
-      "Attachments",
       "attachments-sync",
+      "Bot messages",
       "Mentions",
       "Message Edit",
       "Message sync",
-      "Plugin configs",
-      "Reactions",
-      "Replies",
+      "Mute unmute",
+      "plugin-configurations",
       "Slash commands",
       "Text formatting",
-      "thread-replies"
+      "thread-replies",
+      "ui-integration",
+      "user-reactions"
     ]
+  },
+  {
+    "parent": "plugins/ms-teams-sync/bot-messages",
+    "folders": ["connection-prompt", "file-attachments"]
   },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },
@@ -471,5 +476,5 @@
       "Users and Teams"
     ]
   },
-  { "parent": "suite/system-console/user-management", "folders": ["Users"] }
+  { "parent": "suite/system-console/user-management", "folders": ["New UI", "Users"] }
 ]
