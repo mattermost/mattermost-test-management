@@ -54,6 +54,6 @@ Steps:
 5. Go to System Console > Teams > Team B.
 6. Add User 1 to Team B.
 7. Log into User 1's account.
-8. Verify that User 1 receives the Survey. 
+8. Verify that User 1 receives the Survey.
 
 Note: The plugin caches user-team membership for 2 hours. If a user was in excluded team, then the team membership check result was cached and is only re-checked after 2 hours. Until 2 hours, the cached result is used.
