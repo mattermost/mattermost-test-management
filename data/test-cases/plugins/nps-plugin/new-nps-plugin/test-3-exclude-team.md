@@ -46,7 +46,7 @@ Steps:
 5. Save the changes.
 6. Verify that the fields displays team names to be excluded.
 
-Scenario 2: Verify the user does not receive survey if part of team that's excluded.
+Scenario 2: Verify the user does not receive survey if user is part of team that's excluded.
 
 Set-up:
 
