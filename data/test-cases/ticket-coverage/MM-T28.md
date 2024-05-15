@@ -30,7 +30,7 @@ key: MM-T28
 created_on: "2019-08-28T02:12:57Z"
 last_updated: "2022-12-01T21:17:45Z"
 case_hashed: 0d51084eb99d4fd8c49dcf6c20f16acbbdc4cfa0f16723bad43b44521b8ad34705d9b41354928a8a42a1d6b8e97d984c
-steps_hashed: 2c61845c0962b5588c056ca610a3116c642a0aad09da17a2c4f4412637fa2300df22192a3af716b267f4aad14e479c93
+steps_hashed: fda9e0cbc434f6ec79612c2af4a913e76bf71466e98f38fe2bcc32a6df985b59b182cd30ee40003ac3cb195d398f375f
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -48,7 +48,7 @@ steps_hashed: 2c61845c0962b5588c056ca610a3116c642a0aad09da17a2c4f4412637fa2300df
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566960235728-Image+Pasted+at+2019-7-26+12-57.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566960235728-Image+Pasted+at+2019-7-26+12-57.png)
 
 **Expected**
 

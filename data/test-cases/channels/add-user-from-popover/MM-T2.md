@@ -34,7 +34,7 @@ key: MM-T2
 created_on: "2019-08-26T23:03:54Z"
 last_updated: "2022-09-10T10:54:35Z"
 case_hashed: d178ef4fcff484e849e2ae0d90e4e8e24421e1afc4a56d332ede19c3c2e7663835c175b9462145e75e39008cd38f8644
-steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
+steps_hashed: 5b1653d6560cdcb4cbe9afed9323c7e30281214b4974a1de6bb52d441a997ca6cafe511243da0e78e56a8503b9fdb0d8
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -79,7 +79,7 @@ Step 5:
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png)
 
 **Expected**
 
