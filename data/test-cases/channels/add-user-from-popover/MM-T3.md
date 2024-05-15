@@ -33,7 +33,7 @@ key: MM-T3
 created_on: "2019-08-26T23:03:54Z"
 last_updated: "2022-09-10T10:54:35Z"
 case_hashed: 46b5ed3fc424aa53e96bb59939739facdbcff577768ec9bf48b87a5642440022c64d607fd6e533861094e3e1d27f51bc
-steps_hashed: 2c72a705ba316a448773f5090e45621354f727272f418c3b55e0ff7857c3e0999265a0b72dee034c734dd16d4de96824
+steps_hashed: c35ecfbcf28df728f9036ac69ade2f3c0370ce52cdd81d5e85ee914d4c342ab372578a44930725bf2ea301f458eb4b77
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -72,13 +72,13 @@ Step IV:
 **Test Data**
 
 Step I:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566316335687-1566316335686.png)\
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566316335687-1566316335686.png)\
 \
 Step II:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653231134-1611653231134.png)\
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653231134-1611653231134.png)\
 \
 Step III:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653328349-1611653328349.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653328349-1611653328349.png)
 
 **Expected**
 

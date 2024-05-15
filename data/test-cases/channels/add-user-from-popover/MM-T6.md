@@ -33,7 +33,7 @@ key: MM-T6
 created_on: "2019-08-26T23:03:55Z"
 last_updated: "2022-09-10T10:54:34Z"
 case_hashed: 1abd0744ff42438625a5862bc9891ba46f2172a4afbac6c9d9cd40c61209caeff071bb74f0d794bbcddfe3432f876ab3
-steps_hashed: c4c18adb41276afe1b9f3148241e3d220ecb101851084e8fa827f4cf3c029a80e797ab8a0491da9844c0613d2d2fe6fb
+steps_hashed: 0dab11019d0c6b4c8c9ab5e234e1860d2126c91a3fa6cf2f9220544ad182bb57bfe7d470ccfa81f6f8cb33d69a464f5b
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -84,14 +84,14 @@ _Related ticket(s):_
 
 **Test Data**
 
-Step I:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
+Step I:![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
 \
 \
-Step II:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
+Step II:![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
 \
-Step III:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
+Step III:![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
 \
-Step IV:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
+Step IV:![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
 
 **Expected**
 
