@@ -44,3 +44,4 @@ Scenario 1: Download and verify the survey data.
 5. Verify a zip file having responses.csv and metadata.json files is downloaded.
 6. Open the metadata.json file.
 7. Verify the value of `nps_score`, `receipt_count`, `response_count` in the json is same as seen on UI.
+8. Verify the responses.csv contains `User ID`, `Submitted date`, NPS Questions and Textual questions as column headers.
