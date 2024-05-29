@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User Surveys | Survey cadence"
+name: "User Surveys | Admin should be able to download the responses of a Survey"
 status: Active
 priority: Normal
 folder: New nps plugin
@@ -35,16 +35,12 @@ steps_hashed: null
 
 **Step 1**
 
-Scenario 1: Verify Admin can chose Date and time to send the survey.
-
-Steps:
+Scenario 1: Download and verify the survey data.
 
 1. Login as an Sysadmin user.
 2. Navigate to the System Console > Plugins > User surveys settings page.
-3. For `Send next Survey at`, verify the default date is 30 days from current date and the default time will be 09:00.
-4. Set Future Date and Time.
-5. Verify the Admin can see the Launch date and time in the header, `Next survey scheduled for <Time> UTC on <Month> <Day>`.
-6. Verify the Admin can see Expiry date and time in the header, `Expires on <Month> <Day>, <Year> `
-7. Save the settings.
-8. Login with users account.
-9. Verify that the user has received the survey.
+3. Previous survey's should have `Export responses` button.
+4. Click on `Export responses` button.
+5. Verify a zip file having responses.csv and metadata.json files is downloaded.
+6. Open the metadata.json file.
+7. Verify the value of `nps_score`, `receipt_count`, `response_count` in the json is same as seen on UI.

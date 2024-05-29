@@ -37,8 +37,6 @@ steps_hashed: null
 
 Scenario 1: Previously launched Survey should be listed in the plugins page
 
-Set-up:
-
 1. Login as an Sysadmin user.
 2. Navigate to the System Console > Plugins > User surveys settings page.
 3. Previous survey's should have Start and End date of the survey.
