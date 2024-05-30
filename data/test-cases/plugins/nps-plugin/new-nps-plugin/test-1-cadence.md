@@ -44,7 +44,7 @@ Steps:
 3. For `Send next Survey at`, verify the default date is 30 days from current date and the default time will be 09:00.
 4. Set Future Date and Time.
 5. Verify the Admin can see the Launch date and time in the header, `Next survey scheduled for <Time> UTC on <Month> <Day>`.
-6. Verify the Admin can see Expiry date and time in the header, `Expires on <Month> <Day>, <Year> `
+6. Verify the Admin can see Expiry date and time in the header, `Expires on <Month> <Day>, <Year>`
 7. Save the settings.
 8. Login with users account.
 9. Verify that the user has received the survey.

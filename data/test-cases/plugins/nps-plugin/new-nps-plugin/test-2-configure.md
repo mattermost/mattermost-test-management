@@ -51,9 +51,9 @@ Steps:
 2. Navigate to the System Console > Plugins > User surveys settings page.
 3. Launch a survey for current Day. For example, set time to Current day, 12:00 UTC
 4. Verify a Survey is received from the Feedback Bot.
-5. In the Survey Settings, configure another survey to be launched on the same day.  For example, set time to Current day, 12:30 UTC
+5. In the Survey Settings, configure another survey to be launched on the same day. For example, set time to Current day, 12:30 UTC
 6. Verify Feedback bot does not prompt to a new survey.
-7. In the Survey Settings, Update the survey time to launch a survey.  For example, set time to Current day, 12:30 UTC
+7. In the Survey Settings, Update the survey time to launch a survey. For example, set time to Current day, 12:30 UTC
 8. End the Current Active Survey.
 9. Verify the Feedback bot prompts to new feedback survey.
 
