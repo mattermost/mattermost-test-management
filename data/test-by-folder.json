@@ -2137,7 +2137,7 @@
   },
   {
     "folder": "cloud/subscribe-to-news-letter",
-    "tests": ["Subscribe to Security Newletter from signup page"]
+    "tests": ["Subscribe to Security Newsletter from signup page"]
   },
   {
     "folder": "cloud/true-up-notifications",
@@ -4112,6 +4112,16 @@
       "No error after logging out",
       "Verify that users can change the submitted NPS score",
       "Verify the NPS plugin is pre-installed and enabled on Mattermost v5.12 and above"
+    ]
+  },
+  {
+    "folder": "plugins/nps-plugin/new-nps-plugin",
+    "tests": [
+      "User Surveys | Configure Survey Duration",
+      "User Surveys | Exclude Team from survey",
+      "User Surveys | Previously launched surveys",
+      "User Surveys | Survey cadence",
+      "User Surveys | When a user is transitioned from excluded teams to included teams, they should receive a user survey."
     ]
   },
   {
