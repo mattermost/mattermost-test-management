@@ -14,13 +14,13 @@ location: null
 component: null
 tags: []
 labels: []
-tested_by_contributor: null
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
-cypress: null
-detox: null
-mmctl: null
-playwright: null
+cypress: N/A
+detox: N/A
+mmctl: N/A
+playwright: N/A
 rainforest: []
 manual_test_environments: []
 
