@@ -659,6 +659,7 @@
       { "name": "Join a call", "file": "calls/MM-T5400.md" },
       { "name": "Calls - Keyboard Shortcuts (self-managed)", "file": "calls/MM-T5411.md" },
       { "name": "Calls - Keyboard Shortcuts (Cloud)", "file": "calls/MM-T5412.md" },
+      { "name": "Calls - Slash Commands", "file": "calls/MM-T5587.md" },
       {
         "name": "Mobile",
         "routes": [
@@ -11415,7 +11416,33 @@
             "name": "Check that the plugin doesn't reply to the autoresponder and end up in a loop",
             "file": "plugins/nps-plugin/MM-T2363.md"
           },
-          { "name": "No error after logging out", "file": "plugins/nps-plugin/MM-T2364.md" }
+          { "name": "No error after logging out", "file": "plugins/nps-plugin/MM-T2364.md" },
+          {
+            "name": "New NPS Plugin",
+            "routes": [
+              { "name": "Survey cadence", "file": "plugins/nps-plugin/new-nps-plugin/MM-T5588.md" },
+              {
+                "name": "Configure survey duration",
+                "file": "plugins/nps-plugin/new-nps-plugin/MM-T5589.md"
+              },
+              {
+                "name": "Exclude team from survey",
+                "file": "plugins/nps-plugin/new-nps-plugin/MM-T5590.md"
+              },
+              {
+                "name": "Should receive a survey when a user is transitioned from excluded to included teams",
+                "file": "plugins/nps-plugin/new-nps-plugin/MM-T5591.md"
+              },
+              {
+                "name": "Previously launched surveys",
+                "file": "plugins/nps-plugin/new-nps-plugin/MM-T5592.md"
+              },
+              {
+                "name": "Admin should be able to download the responses of a survey",
+                "file": "plugins/nps-plugin/new-nps-plugin/MM-T5593.md"
+              }
+            ]
+          }
         ]
       },
       {
@@ -15296,7 +15323,7 @@
           },
           { "name": "Mobile Push Notifications - DND", "file": "suite/notifications/MM-T532.md" },
           {
-            "name": "RN apps: Mobile Push Notifications - Never",
+            "name": "RN apps: Mobile Push Notifications - Nothing",
             "file": "suite/notifications/MM-T533.md"
           },
           {

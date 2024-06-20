@@ -262,6 +262,7 @@
       "Call User - Call triggered on profile popover starts in the DM with the user",
       "Calls - Keyboard Shortcuts (Cloud)",
       "Calls - Keyboard Shortcuts (self-managed)",
+      "Calls - Slash Commands",
       "Calls UI Functionality - Cloud",
       "Calls UI Functionality - Self-managed",
       "Cloud Call Limits",
@@ -4117,11 +4118,12 @@
   {
     "folder": "plugins/nps-plugin/new-nps-plugin",
     "tests": [
-      "User Surveys | Configure Survey Duration",
-      "User Surveys | Exclude Team from survey",
-      "User Surveys | Previously launched surveys",
-      "User Surveys | Survey cadence",
-      "User Surveys | When a user is transitioned from excluded teams to included teams, they should receive a user survey."
+      "Admin should be able to download the responses of a survey",
+      "Configure survey duration",
+      "Exclude team from survey",
+      "Previously launched surveys",
+      "Should receive a survey when a user is transitioned from excluded to included teams",
+      "Survey cadence"
     ]
   },
   {
@@ -5373,7 +5375,7 @@
       "RN apps: Channel Mobile Notifications - Never",
       "RN apps: Channel Mobile Notifications Options",
       "RN apps: Mobile Push Notifications -  Online, offline, away (mentions and DMs)",
-      "RN apps: Mobile Push Notifications - Never",
+      "RN apps: Mobile Push Notifications - Nothing",
       "RN apps: Notifications - Mention badges",
       "RN apps: Push Notifications `@` *is* included before Username",
       "RN apps: Push NotificationsNo `@` before Nickname or Firstname/Lastname",
