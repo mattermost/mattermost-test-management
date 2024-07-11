@@ -54,3 +54,4 @@ steps_hashed: null
 5. Verify that a confirmation pop-up with the title `Manage User A's Settings` appears.
 6. Click on the `Manage User Settings` button.
 7. Verify that User A's settings modal is displayed.
+8. Verify the modal has a label `Admin mode`.

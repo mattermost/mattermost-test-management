@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Admin should be able to see the User's settings on a licensed instance"
+name: "User with System Manager or User manager role and edit access to user management can Manage User settings"
 status: Active
 priority: Normal
 folder: Admin Control User Settings 
@@ -54,6 +54,8 @@ steps_hashed: null
 5. Verify that a confirmation pop-up with the title `Manage User A's Settings` appears.
 6. Click on the `Manage User Settings` button.
 7. Verify that User A's settings modal is displayed.
+8. Verify the modal has a label `Admin mode`.
+
 
 ### Scenario: Users with roles `System manager` or `User manager` can see the `Manage User Settings` option on a Professional/Enterprise edition.
 
@@ -70,3 +72,4 @@ steps_hashed: null
 10. Verify that a confirmation pop-up with the title `Manage User B's Settings` appears.
 11. Click on the `Manage User Settings` button.
 12. Verify that User B's settings modal is displayed.
+13. Verify the modal has a label `Admin mode`.
