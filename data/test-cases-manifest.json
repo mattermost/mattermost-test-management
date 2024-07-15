@@ -17649,6 +17649,19 @@
             "name": "User Management",
             "routes": [
               {
+                "name": "Admin Control User Settings",
+                "routes": [
+                  {
+                    "name": "Admin should be able to see the User's settings on a licensed instance",
+                    "file": "suite/system-console/user-management/admin-control-user-settings/MM-T5596.md"
+                  },
+                  {
+                    "name": "User with System Manager or User manager role and edit access to user management can Manage User settings",
+                    "file": "suite/system-console/user-management/admin-control-user-settings/MM-T5597.md"
+                  }
+                ]
+              },
+              {
                 "name": "Option should be hidden to update own email via System Console",
                 "file": "suite/system-console/user-management/MM-T13.md"
               },
@@ -17944,6 +17957,10 @@
       {
         "name": "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
         "file": "zephyr-reflect-ai-testing/MM-T5594.md"
+      },
+      {
+        "name": "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)",
+        "file": "zephyr-reflect-ai-testing/MM-T5595.md"
       }
     ]
   }
