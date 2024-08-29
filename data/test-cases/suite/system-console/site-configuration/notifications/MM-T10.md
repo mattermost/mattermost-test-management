@@ -5,16 +5,16 @@ status: Active
 priority: Normal
 folder: Notifications
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: System Console
 component: null
-tags: 
+tags:
 - Cloud N/A
-labels: 
+labels:
 - Cloud-N/A
 - system-console
 - fix-versions-not-empty-2022cleanup
@@ -26,7 +26,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
+manual_test_environments:
 - Webapp
 
 # Do not change
