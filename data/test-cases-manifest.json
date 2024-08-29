@@ -1373,6 +1373,70 @@
         ]
       },
       {
+        "name": "Bookmarks Bar",
+        "routes": [
+          {
+            "name": "Bookmark Bar is NOT shown on FREE Edition",
+            "file": "channels/bookmarks-bar/MM-T5599.md"
+          },
+          {
+            "name": "Bookmarks Bar IS shown on Enterprise and Professional licensed servers",
+            "file": "channels/bookmarks-bar/MM-T5600.md"
+          },
+          {
+            "name": "Bookmarks Bar appears below the channel header even if you don't have any bookmarks",
+            "file": "channels/bookmarks-bar/MM-T5601.md"
+          },
+          { "name": "Add a bookmark link", "file": "channels/bookmarks-bar/MM-T5602.md" },
+          { "name": "Add a bookmark file", "file": "channels/bookmarks-bar/MM-T5603.md" },
+          {
+            "name": "As soon as the user enters a link/file, the favicon image is displayed and the bookmark title is automatically filled",
+            "file": "channels/bookmarks-bar/MM-T5604.md"
+          },
+          {
+            "name": "A fallback bookmark icon is used If no favicon is found for the link/file added",
+            "file": "channels/bookmarks-bar/MM-T5605.md"
+          },
+          {
+            "name": "Change the favicon icon of a bookmark",
+            "file": "channels/bookmarks-bar/MM-T5606.md"
+          },
+          {
+            "name": "Revert favicon from emoji to default favicon",
+            "file": "channels/bookmarks-bar/MM-T5607.md"
+          },
+          {
+            "name": "Add a bookmark with an invalid link/URL",
+            "file": "channels/bookmarks-bar/MM-T5608.md"
+          },
+          {
+            "name": "Bookmark bar displays correctly below the channel header when other banners are present",
+            "file": "channels/bookmarks-bar/MM-T5609.md"
+          },
+          { "name": "Edit a bookmark", "file": "channels/bookmarks-bar/MM-T5610.md" },
+          {
+            "name": "Open a bookmark URL/link (External and Internal links)",
+            "file": "channels/bookmarks-bar/MM-T5611.md"
+          },
+          {
+            "name": "Scrollbar appears when bookmarks bar view in channel is at it's limit",
+            "file": "channels/bookmarks-bar/MM-T5612.md"
+          },
+          {
+            "name": "Bookmark files are searchable and display in Search Result 'Files' in the RHS",
+            "file": "channels/bookmarks-bar/MM-T5613.md"
+          },
+          {
+            "name": "Files from deleted FILE-type bookmarks are no longer searchable / displayed in Search results",
+            "file": "channels/bookmarks-bar/MM-T5614.md"
+          },
+          {
+            "name": "Only users with 'manage bookmark' permissions can add, edit, delete or re-order bookmarks",
+            "file": "channels/bookmarks-bar/MM-T5615.md"
+          }
+        ]
+      },
+      {
         "name": "Channel Info RN Apps",
         "routes": [
           {
@@ -2671,7 +2735,10 @@
             "file": "channels/keyboard-shortcuts/MM-T4608.md"
           },
           { "name": "CTRL/CMD+. (period)", "file": "channels/keyboard-shortcuts/MM-T4692.md" },
-          { "name": "CTRL/CMD+(forward-slash)", "file": "channels/keyboard-shortcuts/MM-T4693.md" },
+          {
+            "name": "CTRL/CMD + SHIFT + (backslash)",
+            "file": "channels/keyboard-shortcuts/MM-T4693.md"
+          },
           {
             "name": "CTRL/CMD+SHIFT+I - Toggle Channel Info RHS",
             "file": "channels/keyboard-shortcuts/MM-T4775.md"
@@ -8337,7 +8404,7 @@
     "heading": true,
     "routes": [
       {
-        "name": "(Tablet iPad) System Console",
+        "name": "(Tablet iPad) System Console can scroll",
         "file": "mobile-app--native-specific-/MM-T2943.md"
       },
       {
@@ -8387,7 +8454,10 @@
       { "name": "RN apps: Log in - LDAP", "file": "mobile-app--native-specific-/MM-T3180.md" },
       { "name": "RN apps: Log in - MFA", "file": "mobile-app--native-specific-/MM-T3181.md" },
       { "name": "RN apps: Log in - SAML SSO", "file": "mobile-app--native-specific-/MM-T3182.md" },
-      { "name": "RN apps: Log in - OAuth SSO", "file": "mobile-app--native-specific-/MM-T3183.md" },
+      {
+        "name": "RN apps: Log in - OpenID SSO (formerly OAuth)",
+        "file": "mobile-app--native-specific-/MM-T3183.md"
+      },
       {
         "name": "RN apps: Display channels list",
         "file": "mobile-app--native-specific-/MM-T3184.md"
@@ -8707,7 +8777,8 @@
       {
         "name": "Should be able to share a URL invite to the team",
         "file": "mobile-app--native-specific-/MM-T5221.md"
-      }
+      },
+      { "name": "iPad sanity check", "file": "mobile-app--native-specific-/MM-T5616.md" }
     ]
   },
   {
@@ -11592,7 +11663,7 @@
                 "file": "plugins/plugin-marketplace/import-queue/MM-T1981.md"
               },
               {
-                "name": "Installing multiple plugins from Marketplace installs all plugins successfully",
+                "name": "Verify the expected pre-packaged plugins from Marketplace install successfully",
                 "file": "plugins/plugin-marketplace/import-queue/MM-T1982.md"
               },
               {
@@ -12527,7 +12598,7 @@
             "file": "self-hosted/user-limits/MM-T5518.md"
           },
           {
-            "name": "Unlicensed Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000",
+            "name": "Unlicensed Enterprise and Team Edition should show a non-dismissible global banner when instance has active users more than 10,000",
             "file": "self-hosted/user-limits/MM-T5519.md"
           },
           {
@@ -13775,7 +13846,8 @@
           {
             "name": "Viewing and Unarchiving Custom Groups",
             "file": "suite/custom-groups/MM-T5584.md"
-          }
+          },
+          { "name": "Invite Custom Group to Channel", "file": "suite/custom-groups/MM-T5598.md" }
         ]
       },
       {
@@ -17089,7 +17161,7 @@
                 "name": "Announcement Banner",
                 "routes": [
                   {
-                    "name": "Dismissing an Expiring Licence Banner on top of non-dismissabile and dismissable banner does not cause overlap in the UI",
+                    "name": "Dismissing an Expiring License Banner on top of non-dismissible and dismissible banner does not cause overlap in the UI",
                     "file": "suite/system-console/site-configuration/announcement-banner/MM-T1126.md"
                   },
                   {
@@ -17117,11 +17189,11 @@
                     "file": "suite/system-console/site-configuration/announcement-banner/MM-T1132.md"
                   },
                   {
-                    "name": "Announcement Banner - Non-dismissable does not overlap content",
+                    "name": "Announcement Banner - Non-dismissible does not overlap content",
                     "file": "suite/system-console/site-configuration/announcement-banner/MM-T1133.md"
                   },
                   {
-                    "name": "Announcement Banner - Non-dismissable truncates long text",
+                    "name": "Announcement Banner - Non-dismissible truncates long text",
                     "file": "suite/system-console/site-configuration/announcement-banner/MM-T1134.md"
                   },
                   {

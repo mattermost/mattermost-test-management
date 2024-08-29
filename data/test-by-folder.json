@@ -483,6 +483,28 @@
     ]
   },
   {
+    "folder": "channels/bookmarks-bar",
+    "tests": [
+      "A fallback bookmark icon is used If no favicon is found for the link/file added",
+      "Add a bookmark file",
+      "Add a bookmark link",
+      "Add a bookmark with an invalid link/URL",
+      "As soon as the user enters a link/file, the favicon image is displayed and the bookmark title is automatically filled",
+      "Bookmark Bar is NOT shown on FREE Edition",
+      "Bookmark bar displays correctly below the channel header when other banners are present",
+      "Bookmark files are searchable and display in Search Result 'Files' in the RHS",
+      "Bookmarks Bar IS shown on Enterprise and Professional licensed servers",
+      "Bookmarks Bar appears below the channel header even if you don't have any bookmarks",
+      "Change the favicon icon of a bookmark",
+      "Edit a bookmark",
+      "Files from deleted FILE-type bookmarks are no longer searchable / displayed in Search results",
+      "Only users with 'manage bookmark' permissions can add, edit, delete or re-order bookmarks",
+      "Open a bookmark URL/link (External and Internal links)",
+      "Revert favicon from emoji to default favicon",
+      "Scrollbar appears when bookmarks bar view in channel is at it's limit"
+    ]
+  },
+  {
     "folder": "channels/channel-info-rn-apps",
     "tests": [
       "RN apps: Add whitespace to channel name",
@@ -845,7 +867,7 @@
       "Arrow up key - no Edit modal open up if user has not posted any message yet",
       "Browser Back: ALT+LEFT or RIGHT / CMD+[ or ]",
       "CTRL+/ and CMD+/ and /shortcuts",
-      "CTRL/CMD+(forward-slash)",
+      "CTRL/CMD + SHIFT + (backslash)",
       "CTRL/CMD+. (period)",
       "CTRL/CMD+A - open settings in desktop and mobile view",
       "CTRL/CMD+B and CTRL/CMD+I",
@@ -3008,7 +3030,7 @@
   {
     "folder": "mobile-app--native-specific-",
     "tests": [
-      "(Tablet iPad) System Console",
+      "(Tablet iPad) System Console can scroll",
       "(Tablet) Advanced - Ctrl-Enter (post text box)",
       "ADD TEST/S FOR SEARCH WITH DATE FILTERS",
       "ADD TESTS FOR Settings - Display - Timezone",
@@ -3064,7 +3086,7 @@
       "RN apps: Log in - Email / password",
       "RN apps: Log in - LDAP",
       "RN apps: Log in - MFA",
-      "RN apps: Log in - OAuth SSO",
+      "RN apps: Log in - OpenID SSO (formerly OAuth)",
       "RN apps: Log in - SAML SSO",
       "RN apps: Log in user who is on no teams",
       "RN apps: Log out",
@@ -3112,7 +3134,8 @@
       "RN apps: iOS ONLY - New Style Modals",
       "RN apps: iOS ONLY - Replace — with -- when using a slash command",
       "RN apps: iOS ONLY - iOS Keyboard Dictation",
-      "Should be able to share a URL invite to the team"
+      "Should be able to share a URL invite to the team",
+      "iPad sanity check"
     ]
   },
   {
@@ -4155,7 +4178,6 @@
       "Enabling Marketplace on desktop app properly saves configuration on web app",
       "Error banner does not overlap / conflict with Marketplace text",
       "Installed plugins show correctly in System Console > Plugins and Plugin Management",
-      "Installing multiple plugins from Marketplace installs all plugins successfully",
       "Installing plugins from System Console reflects correctly on Marketplace",
       "Local-only plugin search",
       "Marketplace URL field cannot store empty string",
@@ -4197,6 +4219,7 @@
       "Uninstalling from System Console correctly displays the plugin status in “All Plugins” tab",
       "Uninstalling from System Console correctly reflects the plugin status in “Installed” tab",
       "Verify Plugin Interface",
+      "Verify the expected pre-packaged plugins from Marketplace install successfully",
       "When no plugin is installed, “Install Plugins” in “Installed” tab redirects to “All Plugins” tab",
       "“Configure” button redirects to the plugin’s config page in System Console",
       "“Configure” button works correctly for all installed plugins in “Installed” tab",
@@ -4489,7 +4512,7 @@
     "tests": [
       "Air-gapped instance should show global banner and Learn more button",
       "Unlicensed Enterprise and Team Edition should not be able to create or signup new users when instance already has 11,000 users",
-      "Unlicensed Enterprise and Team Edition should show a non-dismissable global banner when instance has active users more than 10,000"
+      "Unlicensed Enterprise and Team Edition should show a non-dismissible global banner when instance has active users more than 10,000"
     ]
   },
   {
@@ -4903,6 +4926,7 @@
       "Custom group - username and mention conflict message",
       "Edit Group Details",
       "Edit Group Details - Error state",
+      "Invite Custom Group to Channel",
       "Show number of group members in group autocomplete",
       "User Groups Modal-  Edit Group Details",
       "User Groups Modal-Create Group",
@@ -6006,13 +6030,13 @@
       "Announcement Banner - Dismissible banner shows long text truncated",
       "Announcement Banner - False with text entered does not display a banner",
       "Announcement Banner - Multiple teams",
-      "Announcement Banner - Non-dismissable does not overlap content",
-      "Announcement Banner - Non-dismissable truncates long text",
+      "Announcement Banner - Non-dismissible does not overlap content",
+      "Announcement Banner - Non-dismissible truncates long text",
       "Announcement Banner - One user doesn't dismiss it for another user",
       "Announcement Banner - Other user sees dismissed banner come back with new text",
       "Announcement Banner - True but no text does not display a banner",
       "Channel header popover with banner present",
-      "Dismissing an Expiring Licence Banner on top of non-dismissabile and dismissable banner does not cause overlap in the UI"
+      "Dismissing an Expiring License Banner on top of non-dismissible and dismissible banner does not cause overlap in the UI"
     ]
   },
   {
