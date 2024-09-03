@@ -46,7 +46,7 @@ Install Across Different Server Setups
 The plugin should install and uninstall without any issues across different server setups, including:
 - Server Editions: Free and Enterprise
 - Licensing: With or without a license
-- Hosting: Self-hosted or Cloud
+- Hosting: Self-hosted only, Cloud does not allow plugin upload
 - Deployment: Single-server or High-Availability setup
 
 The plugin should perform its intended functionality (removing attachments) correctly without errors or unexpected behavior.
