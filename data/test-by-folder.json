@@ -3344,6 +3344,21 @@
     ]
   },
   {
+    "folder": "plugins/attachment-remover",
+    "tests": [
+      "Attachment Removal from Posts Without Text",
+      "Attachment Removal with Time Limit",
+      "Installation and uninstallation of the Attachments Remover Plugin",
+      "Permission-Based Attachment Removal",
+      "Remove Attachments from Posts",
+      "Remove Attachments via Slash Command",
+      "Verify 'Remove Attachments' Post Option Availability",
+      "Verify Attachment Removal Across Supported Databases",
+      "Verify Attachment Removal Across Supported File Storage Systems",
+      "Verify Attachment Removal from Search and Channel Files"
+    ]
+  },
+  {
     "folder": "plugins/autolink",
     "tests": [
       "/autolink add <name> - add a new link, named",
