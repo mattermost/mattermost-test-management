@@ -41,12 +41,12 @@ steps_hashed: null
 2\. Enable /test commands\
 3\. Open any channel\ 
 4\. Create posts that are older than 1 hour ex: */test posts range=10 time=1726147464000* (based on you current time)\
-5\. Make some post that are not back dated  ex: */test posts range=10*\
+5\. Make some post that are not backdated  ex: */test posts range=10*\
 6\. Navigate to *Data Retention* in the system console\
 7\. Set a global policy to have all posts deleted within 1 hour\
 8\. Click *Run Deletion Job Now* to run data retention job\
 9\. Ensure the job completes successfully\
-10\. Retunr to the user side and refresh the webapp OR login again in a new browser session
+10\. Return to the user side and refresh the webapp OR login again in a new browser session
 
 **Expected**
 
