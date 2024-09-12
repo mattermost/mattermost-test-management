@@ -40,7 +40,7 @@ steps_hashed: null
 1\. Login as System Admin\
 2\. Enable /test commands\
 3\. Open any channel\
-4\. Create posts that are older than 1 hour ex: _/test posts images=3 time=1726147464000_ (based on you current time)\
+4\. Create posts that are older than 1 hour ex: _/test posts images=3 time=1726147464000_ (based on you current time) but less than 1 day old\
 5\. Make some post that are not backdated ex: _/test posts images=3_\
 6\. Navigate to _Data Retention_ in the system console\
 7\. Set a global policy to have all attachments deleted within 1 hour\
