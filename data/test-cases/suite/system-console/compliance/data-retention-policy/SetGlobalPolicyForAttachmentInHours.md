@@ -1,7 +1,7 @@
 ---
 # (Required) Ensure all values are filled up
 name: "Set global policy for messages in hours"
-status: Approved
+status: Active
 priority: Normal
 folder: Data Retention Policy
 authors: "@DHaussermann"
