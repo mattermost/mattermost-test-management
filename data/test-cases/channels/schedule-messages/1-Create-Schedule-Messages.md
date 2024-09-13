@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify User can schedule a message in DM/GM/Channel"
+name: "Verify User can create a scheduled message in DM/GM/Channel"
 status: Active
 priority: Normal
 folder: Schedule Messages
@@ -84,3 +84,18 @@ Steps:
    - If its a DM then the Modal should show time on which user will receive the message. Example: `<Day> at <time> for Username`.
 6. Click on `See all scheduled messages`.
 7. Verify use is taken to Scheduled tab and can see the Scheduled message.
+
+### Scenario 5: Able to schedule a message within a Threaded message
+
+1. Log into User's account.
+2. Create a threaded post in a Channel.
+3. Open the thread on the RHS.
+4. Schedule a message.
+5. Verify user can see a message saying `You have <#Number> scheduled message. <link> See all <link>`
+6. Goto Threads page.
+7. Open the thread where above message is scheduled.
+8. Verify user can see on of the below message
+   - If the message is scheduled for today, show “Messages scheduled for today at 3:00 PM.”
+   - If the message is scheduled for the next day, show “Messages scheduled for tomorrow at 3:00 PM.”
+   - If the message is scheduled within a week, show “Message scheduled for Monday at 3:00 PM.”
+   - If the message is scheduled >= 1 week, show “Message scheduled for Oct 16 at 3:00 PM.”
