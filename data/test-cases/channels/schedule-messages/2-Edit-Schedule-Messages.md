@@ -61,8 +61,6 @@ Steps:
 3. Hover on the message you want to edit.
 4. Click on `Reschedule` icon.
 5. Verify a Modal is opened.
-6. Update the date and time.
+6. Update the date and time to something in future.
 7. Click on Save button.
-8. Verify the Scheduled message time is updated.
-
-### Scenario 3:
+8. Verify the Scheduled message time is updated to a future date.

@@ -49,6 +49,7 @@ Steps:
 4. Verify the Error message is on the top of the list.
 5. Verify there is a Header `<number> of your scheduled drafts cannot be sent`.
 6. Verify the User can see Error message `You’re not a member anymore of the channel.`.
+7. Verify the message has a tag `Not in the channel` in red alert.
 
 ### Scenario 2: Should not send message if Channel is Archived.
 
@@ -56,6 +57,7 @@ Steps:
 2. Archive the channel where a message was scheduled to be sent.
 3. Goto Scheduled Tab in Drafts page.
 4. Verify the User can see Error message `Channel is archived`.
+5. Verify the message has a tag `Channel is archived` in red alert.
 
 ### Scenario 3: Should not send message if Channel is Read-only.
 
@@ -65,8 +67,17 @@ Steps:
 4. Log into User's account.
 5. Goto Scheduled Tab in Drafts page.
 6. Verify the User can see Error message `Channel is now read only`.
+7. Verify the message has a tag `Channel is read only` in red alert.
 
-### Scenario 4: Verify LHS Count displayed when scheduled message fails to be sent.
+### Scenario 4: Should not send message if User is removed from a Private Channel.
+
+1. Log into User's account.
+2. Leave the Private channel where User had some scheduled messages.
+3. Goto Scheduled Tab in Drafts page.
+4. Verify the message has a tag `Not in the channel` in red alert.
+5. Verify the User can see `No Channel` in the Channels section.
+
+### Scenario 5: Verify LHS Count displayed when scheduled message fails to be sent.
 
 1. Log into User's account.
 2. Verify there is no error icon near Drafts on the LHS
