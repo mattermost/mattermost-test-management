@@ -55,3 +55,5 @@ Steps:
 1. Log into User's account.
 2. Simulate server outage for a longer time period when the message was scheduled.
 3. Verify that the message is not sent to the channel.
+4. Hover on the message.
+5. Verify User only gets option to Copy text and Delete option.
