@@ -37,17 +37,21 @@ steps_hashed: null
 **Step 1**
 
 1. Post a thread, retrieve its root post ID, and execute the slash command `/deleterootpost <root_post_id>`.
+2. After successfully deleting the root post, run the slash command again using the same deleted root post ID: `/deleterootpost <root_post_id>`.
 
 **Expected**
 
 - No autocompletion is available when typing `/deleterootpost`.
 - A dialog appears with the header `Delete Root Post` and the message `Are you sure you want to delete this post? The thread will remain.`, along with `Cancel` and `Delete` buttons.
-- Selecting `Cancel` keeps the attachment intact.
+- Selecting `Cancel` leaves the post unchanged.
 - Selecting `Delete` successfully deletes the root post provided all deletion conditions are met. Otherwise, a system message appears in the channel indicating the reason for failure, such as:
   - `Can't delete root post: Invalid post ID` if `root_post_id` is not valid.
   - `Can't delete root post: Post does not exist` if `root_post_id` cannot be found.
   - `Can't delete root post: Not authorized` if the user has no permission.
   - `Can't delete root post: Post is too old to edit` if the edit time limit has expired.
+- After the root post is successfully deleted, executing the slash command again with the same (deleted) root post ID should:
+  - Not trigger the `Delete Root Post` dialog.
+  - Display a system message stating that the root post has already been deleted.
 
 **Step 2**
 
