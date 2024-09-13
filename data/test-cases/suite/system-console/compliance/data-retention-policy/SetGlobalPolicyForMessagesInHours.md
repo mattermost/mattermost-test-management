@@ -22,7 +22,7 @@ detox: N/A
 mmctl: N/A
 playwright: N/A
 rainforest: []
-manual_test_environments: []
+manual_test_environments:
 - Webapp
 - Desktop
 
