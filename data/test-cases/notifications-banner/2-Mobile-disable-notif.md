@@ -40,7 +40,7 @@ steps_hashed: null
 Steps:
 
 1. Log into User's account on Mobile app.
-2. Deny the Notifications persmission.
+2. Deny the Notifications permission.
 3. Verify the banner is shown on the Channel list screen saying `Notifications disabled` and a `Settings` button.
 4. Click on Settings button.
 5. Verify the Settings page is opened. There should be an alert tag saying `Permission required`.
