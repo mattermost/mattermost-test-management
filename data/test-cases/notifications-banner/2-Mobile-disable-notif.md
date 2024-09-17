@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Disabled notification on Mobile app"
+name: "Enable/Disabled notification on Mobile app"
 status: Active
 priority: Normal
 folder: Notifications Banner
