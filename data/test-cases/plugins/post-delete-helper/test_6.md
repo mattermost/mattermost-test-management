@@ -7,7 +7,7 @@ folder: Post Delete Helper
 authors: "@saturninoabril"
 team_ownership:
 - Deployment Eng
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Plugins
