@@ -55,8 +55,7 @@ Steps:
 
 Steps:
 
-1.
-   1. Log into User's account.
+1. Log into User's account.
 2. Goto `Scheduled` tab under drafts page.
 3. Hover on the message you want to edit.
 4. Click on `Reschedule` icon.

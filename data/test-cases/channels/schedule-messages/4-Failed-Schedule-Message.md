@@ -37,7 +37,7 @@ steps_hashed: null
 
 Prerequisites:
 
-1. Should have scheduled messages in a DM/GM/Channel.
+1. Should have scheduled messages as root post in a DM/GM/Channel.
 
 ### Scenario 1: Should not send message if User is not in the Channel anymore.
 
@@ -87,3 +87,25 @@ Steps:
 6. Goto Scheduled Tab in Drafts page.
 7. Hoven on the Failed message and delete it.
 8. Verify the Error message is not shown on the LHS anymore.
+
+### Scenario 6: Verify Schedule message fails if the root post is moved to Private channel on the same team.
+
+1. Log into User A's account and create a Root post in a channel.
+2. Reply to the root post with some messages.
+3. Log into User B's account and create a threaded schedule message to the root post.
+4. From User A's account, Using **Move Threads** feature, move the root post to a private Channel where User B is not a member.
+5. Log into User B's account.
+6. Goto Scheduled messages tab.
+7. Verify the message has a tag `Not in the channel` in red alert.
+8. Verify the User can see `No Channel` in the Channels section.
+
+### Scenario 7: Verify Schedule message fails if the root post is moved to another team channel.
+
+1. Log into User A's account and create a Root post in a channel.
+2. Reply to the root post with some messages.
+3. Log into User B's account and create a threaded schedule message to the root post.
+4. From User A's account, Using **Move Threads** feature, move the root post to another Team where User B is not a member.
+5. Log into User B's account.
+6. Goto Scheduled messages tab.
+7. Verify the message has a tag `Not in the channel` in red alert.
+8. Verify the User can see `No Channel` in the Channels section.
