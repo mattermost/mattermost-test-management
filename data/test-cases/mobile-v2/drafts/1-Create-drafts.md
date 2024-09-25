@@ -35,6 +35,8 @@ steps_hashed: null
 
 **Step 1**
 
+### Scenario 1: Able to create a draft on mobile
+
 Steps:
 
 1. Log into user's account on a Mobile device.
@@ -47,3 +49,11 @@ Steps:
 8. Verify the attachments are visible.
 9. Click on the Message.
 10. Verify if the user is taken to the DM/GM/Channel where the draft message was first typed.
+
+### Scenario 2: Able to create draft messages on multiple server
+
+1. Add multiple serves to the mobile app. Example: Server 1 and Server 2.
+2. Log into Server 1 and create draft messages on that server.
+3. Log into Server 2 and create draft messages on that server.
+4. Delete Server 2 configuration.
+5. Verify in Server 1 has the same relevant drafts created on it.

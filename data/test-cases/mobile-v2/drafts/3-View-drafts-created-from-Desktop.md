@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Cannot view Drafts created on the Desktop or Browser"
+name: "The drafts created on mobile cannot be seen on Desktop app or when logged in Browser"
 status: Active
 priority: Normal
 folder: Drafts
@@ -53,7 +53,14 @@ Steps:
 3. Log into user's account on a Mobile device.
 4. Verify the draft created on Browser is not visible.
 
-### Scenario 3: Able to scroll through the long list of drafts on the mobile
+### Scenario 3: Drafts created on mobile do not appear in desktop or browser
+
+1. Log into user's account on a Mobile device.
+2. Create a draft message in any channel.
+3. Use browser to log into web app or log into desktop app.
+4. Verify the drafts created on mobile does not appear in the desktop app or browser.
+
+### Scenario 4: Able to scroll through the long list of drafts on the mobile
 
 1. Log into user's account on a mobile device.
 2. Go to any DM/GM/Channel and type a message but dont send it.

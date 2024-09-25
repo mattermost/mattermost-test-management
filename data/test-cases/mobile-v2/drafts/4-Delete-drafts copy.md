@@ -37,11 +37,9 @@ steps_hashed: null
 
 Test Set-up:
 
-1. Have some drafts already created.
+1. Have some drafts already created on mobile.
 
 ### Scenario 1: Able to delete drafts on mobile app.
-
-Steps:
 
 1. Log into user's account on a Mobile device.
 2. Go to drafts page.
@@ -54,7 +52,17 @@ Steps:
 
 ### Scenario 2: Verify the deleted draft does not appear in Desktop/Browser
 
+Steps:
+
 1. Delete a draft on mobile.
 2. Log into Desktop app or Browser using same user account used in mobile.
 3. Go to Drafts page.
 4. Verify the deleted draft does not appear.
+
+### Scenario 3: Verify drafts created on mobile get purged when user deletes the server.
+
+Steps:
+
+1. Delete the server where drafts were created.
+2. Log in the same server using the same user account.
+3. Verify the Drafts page is empty.
