@@ -56,8 +56,8 @@ Steps:
 1. Log into User's account.
 2. Archive the channel where a message was scheduled to be sent.
 3. Go to Scheduled tab in Drafts page.
-4. Verify the User can see Error message `CHANNEL IS ARCHIEVED`.
-5. Verify the message has a tag `CHANNEL IS ARCHIEVED` in red alert.
+4. Verify the User can see Error message `CHANNEL IS ARCHIVED`.
+5. Verify the message has a tag `CHANNEL IS ARCHIVED` in red alert.
 
 ### Scenario 3: Should not send message if Channel is Read-only.
 
