@@ -7,7 +7,7 @@ folder: Schedule Messages
 authors: "@yasserfaraazkhan"
 team_ownership:
 - ICU
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: null
@@ -44,7 +44,7 @@ Prerequisites:
 Steps:
 
 1. Log into User's account.
-2. Goto `Scheduled` tab under drafts page.
+2. Go to `Scheduled` tab under Drafts page.
 3. Hover on the message you want to edit.
 4. Click on `Edit` icon.
 5. Update the post text.
@@ -56,7 +56,7 @@ Steps:
 Steps:
 
 1. Log into User's account.
-2. Goto `Scheduled` tab under drafts page.
+2. Go to `Scheduled` tab under Drafts page.
 3. Hover on the message you want to edit.
 4. Click on `Reschedule` icon.
 5. Verify a Modal is opened.

@@ -1,13 +1,13 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify User can remove scheduled setting from the Scheduled message"
+name: "Verify User can remove scheduled setting from a scheduled message"
 status: Active
 priority: Normal
 folder: Schedule Messages
 authors: "@yasserfaraazkhan"
 team_ownership:
 - ICU
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: null
@@ -40,14 +40,14 @@ steps_hashed: null
 Steps:
 
 1. Log into User's account.
-2. Goto Scheduled tab.
+2. Go to Scheduled tab.
 3. Verify the Draft is created and has channel name and date of creation.
 4. Hover on the Draft.
 5. Click on the Schedule icon.
 6. Verify a modal to select Date and time appears.
 7. Select a Future date and click on `Schedule` button.
 8. Verify the message is not seen under Drafts tab.
-9. Goto Scheduled tab.
+9. Go to Scheduled tab.
 10. Verify the Scheduled message appears on the top.
-11. GOto the DM/GM/Channel where the draft was created.
+11. Go to the DM/GM/Channel where the draft was created.
 12. Verify the message post is not typed in the text box.

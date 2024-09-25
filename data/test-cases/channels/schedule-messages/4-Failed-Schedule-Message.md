@@ -1,13 +1,13 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify User can identify the cases for Failed scheduled message"
+name: "Verify User can identify the cases for failed scheduled message"
 status: Active
 priority: Normal
 folder: Schedule Messages
 authors: "@yasserfaraazkhan"
 team_ownership:
 - ICU
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: null
@@ -45,36 +45,36 @@ Steps:
 
 1. Log into User's account.
 2. Leave the channel where a message was scheduled to be sent.
-3. Goto Scheduled Tab in Drafts page.
+3. Go to Scheduled tab in Drafts page.
 4. Verify the Error message is on the top of the list.
 5. Verify there is a Header `<number> of your scheduled drafts cannot be sent`.
 6. Verify the User can see Error message `You’re not a member anymore of the channel.`.
-7. Verify the message has a tag `Not in the channel` in red alert.
+7. Verify the message has a tag `NOT IN THE CHANNEL` in red alert.
 
 ### Scenario 2: Should not send message if Channel is Archived.
 
 1. Log into User's account.
 2. Archive the channel where a message was scheduled to be sent.
-3. Goto Scheduled Tab in Drafts page.
-4. Verify the User can see Error message `Channel is archived`.
-5. Verify the message has a tag `Channel is archived` in red alert.
+3. Go to Scheduled tab in Drafts page.
+4. Verify the User can see Error message `CHANNEL IS ARCHIEVED`.
+5. Verify the message has a tag `CHANNEL IS ARCHIEVED` in red alert.
 
 ### Scenario 3: Should not send message if Channel is Read-only.
 
 1. Log into Admin's account.
-2. Goto Channel settings.
+2. Go to Channel settings.
 3. Disable `Create Posts` permission for the channel.
 4. Log into User's account.
-5. Goto Scheduled Tab in Drafts page.
-6. Verify the User can see Error message `Channel is now read only`.
-7. Verify the message has a tag `Channel is read only` in red alert.
+5. Go to Scheduled tab in Drafts page.
+6. Verify the User can see Error message `CHANNEL IS READ-ONLY`.
+7. Verify the message has a tag `CHANNEL IS READ-ONLY` in red alert.
 
 ### Scenario 4: Should not send message if User is removed from a Private Channel.
 
 1. Log into User's account.
 2. Leave the Private channel where User had some scheduled messages.
-3. Goto Scheduled Tab in Drafts page.
-4. Verify the message has a tag `Not in the channel` in red alert.
+3. Go to Scheduled tab in Drafts page.
+4. Verify the message has a tag `NOT IN THE CHANNEL` in red alert.
 5. Verify the User can see `No Channel` in the Channels section.
 
 ### Scenario 5: Verify LHS Count displayed when scheduled message fails to be sent.
@@ -84,28 +84,28 @@ Steps:
 3. Leave the channel where a message was scheduled to be sent.
 4. Verify the user can see Error icon in red color.
 5. Hover on the Icon a tooltip saying `One of your scheduled drafts cannot be sent`.
-6. Goto Scheduled Tab in Drafts page.
-7. Hoven on the Failed message and delete it.
+6. Go to Scheduled tab in Drafts page.
+7. Hover on the Failed message and delete it.
 8. Verify the Error message is not shown on the LHS anymore.
 
 ### Scenario 6: Verify Schedule message fails if the root post is moved to Private channel on the same team.
 
 1. Log into User A's account and create a Root post in a channel.
 2. Reply to the root post with some messages.
-3. Log into User B's account and create a threaded schedule message to the root post.
+3. Log into User B's account and create a threaded scheduled message on the root post.
 4. From User A's account, Using **Move Threads** feature, move the root post to a private Channel where User B is not a member.
 5. Log into User B's account.
-6. Goto Scheduled messages tab.
-7. Verify the message has a tag `Not in the channel` in red alert.
+6. Go to Scheduled messages tab.
+7. Verify the message has a tag `NOT IN THE CHANNEL` in red alert.
 8. Verify the User can see `No Channel` in the Channels section.
 
-### Scenario 7: Verify Schedule message fails if the root post is moved to another team channel.
+### Scenario 7: Verify Schedule message fails if the root post is moved to another team.
 
 1. Log into User A's account and create a Root post in a channel.
 2. Reply to the root post with some messages.
-3. Log into User B's account and create a threaded schedule message to the root post.
+3. Log into User B's account and create a threaded scheduled message on the root post.
 4. From User A's account, Using **Move Threads** feature, move the root post to another Team where User B is not a member.
 5. Log into User B's account.
-6. Goto Scheduled messages tab.
-7. Verify the message has a tag `Not in the channel` in red alert.
+6. Go to Scheduled messages tab.
+7. Verify the message has a tag `NOT IN THE CHANNEL` in red alert.
 8. Verify the User can see `No Channel` in the Channels section.
