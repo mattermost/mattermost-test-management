@@ -71,7 +71,7 @@ Steps:
 13. Expand "Desktop and mobile notification section".
 14. Verify "Desktop notifications permission was denied" message is visible. A buttons with text "Enable desktop notifications" and "How to enable notifications" are visible.
 
-### Scenario: User Deny's the desktop notifications on Browsers Chrome/Safari/Firefox
+### Scenario: User Deny's the desktop notifications on Browsers Chrome/Safari/Firefox/Edge
 
 Steps:
 
