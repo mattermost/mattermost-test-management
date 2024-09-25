@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Enable Desktop notification on Window/Mac Desktop app"
+name: "Enable Desktop notification on Window/Mac/Ubuntu Desktop app"
 status: Active
 priority: Normal
 folder: Notifications Banner
@@ -52,7 +52,7 @@ Steps:
 11. Open Settings modal. Expand "Desktop and mobile notification section".
 12. Verify "Desktop notifications aren’t enabled" message is not visible anymore.
 
-### Scenario: User Deny's the desktop notifications on WINDOWS or MAC OS
+### Scenario: User Deny's the desktop notifications on WINDOWS / MAC / Ubuntu OS
 
 Steps:
 
@@ -71,7 +71,7 @@ Steps:
 13. Expand "Desktop and mobile notification section".
 14. Verify "Desktop notifications permission was denied" message is visible. A buttons with text "Enable desktop notifications" and "How to enable notifications" are visible.
 
-### Scenario: User Deny's the desktop notifications on Browser
+### Scenario: User Deny's the desktop notifications on Browsers Chrome/Safari/Firefox
 
 Steps:
 
