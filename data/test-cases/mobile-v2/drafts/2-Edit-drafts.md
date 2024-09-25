@@ -39,7 +39,7 @@ Steps:
 
 1. Log into user's account on a Mobile device.
 2. Verify there is no Draft option seen in the channel list screen.
-3. Goto any DM/GM/Channel and type a message (with or without attachments) but dont send it.
+3. Go to any DM/GM/Channel and type a message (with or without attachments) but dont send it.
 4. Navigate back to the channel list.
 5. Verify the draft option is shown. Click on Drafts.
 6. Verify the typed message is shown.
@@ -47,4 +47,4 @@ Steps:
 8. Long press on the Draft message.
 9. Verify option to Edit, Send Draft and Delete pops up.
 10. Click on Edit option.
-11.
+11. Verify th user is take to the DM/GM/Channel where the draft was created.

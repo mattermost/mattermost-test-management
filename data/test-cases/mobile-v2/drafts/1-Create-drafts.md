@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Create Drafts on mobile app"
+name: "Create drafts on mobile app"
 status: Active
 priority: Normal
 folder: Drafts
@@ -39,7 +39,7 @@ Steps:
 
 1. Log into user's account on a Mobile device.
 2. Verify there is no Draft option seen in the channel list screen.
-3. Goto any DM/GM/Channel and type a message (with or without attachments) but dont send it.
+3. Go to any DM/GM/Channel and type a message (with or without attachments) but dont send it.
 4. Navigate back to the channel list.
 5. Verify the draft option is shown. Click on Drafts.
 6. Verify the typed message is shown.
