@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User can generate test notification from a browser and verify on the Desktop and Mobile app"
+name: "MAC OS | User can generate test notification from a browser and verify on the Desktop and Mobile app"
 status: Active
 priority: Normal
 folder: Notification Test Tool
@@ -59,3 +59,27 @@ Prerequisite:
 4. Click on `Send a test notification`.
 5. Verify the notification is not received on the Browser and Desktop.
 6. Verify the notification is received on the mobile app.
+
+### Scenario 3: User can customize notification permissions at the system level (Mac OS).
+
+1. Log into the Mattermost desktop app.
+2. Open System Preferences > Notifications on macOS.
+3. Set Mattermost notifications to Allow.
+4. In the Mattermost app, go to Settings > Notifications.
+5. Click on Send a test notification.
+6. Verify a system pop-up notification is visible.
+7. Verify the notification is also available in the macOS Notification Center.
+8. Change Mattermost notification settings in macOS to Do Not Disturb.
+9. Click Send a test notification again.
+10. Verify no notification pop-up is visible on browser and desktop app.
+
+### Scenario 4: Browser notifications are disabled (Mac OS).
+
+1. Open Chrome or Safari.
+2. Log into the server.
+3. Ensure browser notification permissions for Mattermost are disabled.
+4. Go to Settings > Notifications in Mattermost.
+5. Click Send a test notification.
+6. Verify no notification is received in the browser or system.
+7. Enable notifications via Browser Settings > Privacy and Security > Notifications.
+8. Test again to ensure the browser pop-up appears.
