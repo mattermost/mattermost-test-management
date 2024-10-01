@@ -50,16 +50,7 @@ Test Set-up:
 7. Go to the DM/GM/Channel where the draft was created.
 8. Verify the post textbox does not have the draft message
 
-### Scenario 2: Verify the deleted draft does not appear in Desktop/Browser
-
-Steps:
-
-1. Delete a draft on mobile.
-2. Log into Desktop app or Browser using same user account used in mobile.
-3. Go to Drafts page.
-4. Verify the deleted draft does not appear.
-
-### Scenario 3: Verify drafts created on mobile get purged when user deletes the server.
+### Scenario 2: Verify drafts created on mobile get purged when user deletes the server.
 
 Steps:
 

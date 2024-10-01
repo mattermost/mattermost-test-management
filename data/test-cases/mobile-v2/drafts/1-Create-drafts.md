@@ -57,3 +57,10 @@ Steps:
 3. Log into Server 2 and create draft messages on that server.
 4. Delete Server 2 configuration.
 5. Verify in Server 1 has the same relevant drafts created on it.
+
+### Scenario 3: Able to create draft when app is offline
+
+1. On the mobile device, Turn the Internet connection off.
+2. Create drafts in any Channel/DM.
+3. Click on Drafts link from channel list screen.
+4. Verify the Draft message is visible.
