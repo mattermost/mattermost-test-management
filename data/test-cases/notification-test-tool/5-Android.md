@@ -71,10 +71,13 @@ Steps:
 ### Scenario 3: Notifications are limited by Do Not Disturb (DND) mode on mobile apps (iOS and Android).
 
 Initial Setup:
-Log into Mattermost on iOS and Android apps, and the desktop app.
+
+1. Log into Mattermost on iOS and Android apps, and the desktop app.
+
 Steps:
-Enable Do Not Disturb mode in iOS and Android OS settings.
-In the Mattermost mobile app, send a notification (mention or DM).
-Verify that no notifications are received on the mobile apps.
-Verify that notifications are still received on the desktop app.
-Disable DND mode on mobile apps and retest to ensure notifications are received.
+
+1. Enable Do Not Disturb mode in iOS and Android OS settings.
+2. In the Mattermost mobile app, send a notification (mention or DM).
+3. Verify that no notifications are received on the mobile apps.
+4. Verify that notifications are still received on the desktop app.
+5. Disable DND mode on mobile apps and retest to ensure notifications are received.

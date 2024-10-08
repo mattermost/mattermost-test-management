@@ -46,7 +46,10 @@ Prerequisite:
 3. In Mattermost, go to Settings > Notifications.
 4. Click Send a test notification.
 5. Verify the notification appears in the GNOME or KDE notification area.
-6. Disable notifications in Ubuntu settings and retest to ensure the notification is not displayed.
+6. Disable notifications in Ubuntu settings.
+7. Send a Test Notification again.
+8. Verify no notification is shown on the system.
+9. (on mobile app) If user has logged in mobile app. they should receive a mobile notification.
 
 ### Scenario 2: Browser notifications in Firefox (Ubuntu).
 

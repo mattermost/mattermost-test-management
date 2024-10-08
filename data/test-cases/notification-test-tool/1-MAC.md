@@ -72,6 +72,7 @@ Prerequisite:
 8. Change Mattermost notification settings in macOS to Do Not Disturb.
 9. Click Send a test notification again.
 10. Verify no notification pop-up is visible on browser and desktop app.
+11. (On mobile app) If user has logged in mobile app. they should receive a mobile notification.
 
 ### Scenario 4: Browser notifications are disabled (Mac OS).
 

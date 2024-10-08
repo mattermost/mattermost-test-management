@@ -39,7 +39,7 @@ Prerequisite:
 
 1. Log in to Browser, Mobile and desktop using 1 user account.
 
-### Scenario 5: System-level notifications (Windows 10/11).
+### Scenario 1: System-level notifications (Windows 10/11).
 
 1. Log into the Mattermost desktop app.
 2. Go to Settings > Notifications in Mattermost and enable notifications.
@@ -47,12 +47,16 @@ Prerequisite:
 4. Ensure notifications for Mattermost are enabled.
 5. Click Send a test notification.
 6. Verify the notification appears in the Windows Action Center.
-7. Disable Mattermost notifications in Windows system settings and test again to ensure no notification is shown.
+7. Disable Mattermost notifications in Windows system settings.
+8. Send a Test Notification again.
+9. Verify no notification is shown on the system.
+10. (on mobile app) If user has logged in mobile app. they should receive a mobile notification.
 
-### Scenario 6: Focus Assist (Windows).
+### Scenario 2: Focus Assist (Windows).
 
 1. Log into the server on the desktop app or a browser.
 2. Enable Focus Assist in Windows settings.
 3. Go to Settings > Notifications in Mattermost.
 4. Click Send a test notification.
 5. Verify that the desktop app does not show notifications during Focus Assist mode but receives them when it is disabled.
+6. (on mobile app) If user has logged in mobile app. they should receive a mobile notification.
