@@ -5,7 +5,7 @@ status: Active
 priority: Normal
 folder: Messaging
 authors: ""
-team_ownership:
+team_ownership: 
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Messaging
 component: null
 tags: []
-labels:
+labels: 
 - messaging
 - fix-versions-not-empty-2022cleanup
 tested_by_contributor: ""
@@ -24,7 +24,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments:
+manual_test_environments: 
 - Desktop
 
 # Do not change

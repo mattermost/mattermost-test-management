@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Messaging
 authors: ""
-team_ownership:
+team_ownership: 
 - Channels
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 location: Messaging
 component: null
 tags: []
-labels:
+labels: 
 - rf-cloud-webapp
 - messaging
 - fix-versions-not-empty-2022cleanup
@@ -24,10 +24,10 @@ cypress: Ticket Open
 detox: null
 mmctl: null
 playwright: null
-rainforest:
+rainforest: 
 - Webapp
 - in Production
-manual_test_environments:
+manual_test_environments: 
 - Automated - No manual tests needed
 
 # Do not change
