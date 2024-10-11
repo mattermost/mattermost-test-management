@@ -8890,7 +8890,7 @@
             "file": "mobile-v2/channels/MM-T4729.md"
           },
           {
-            "name": "Mobile V2: Channels - Create Direct Message",
+            "name": "Mobile V2: Channels - Create Direct Message DM and GM",
             "file": "mobile-v2/channels/MM-T4730.md"
           },
           {
@@ -8957,6 +8957,19 @@
             "name": "Verify Error message is displayed while converting a GM with users on from different teams to a Private channel",
             "file": "mobile-v2/channels/MM-T5474.md"
           }
+        ]
+      },
+      {
+        "name": "Drafts",
+        "routes": [
+          { "name": "Create drafts on mobile app", "file": "mobile-v2/drafts/MM-T5635.md" },
+          { "name": "Edit Drafts on mobile app", "file": "mobile-v2/drafts/MM-T5636.md" },
+          {
+            "name": "The drafts created on mobile cannot be seen on Desktop app or when logged in Browser",
+            "file": "mobile-v2/drafts/MM-T5637.md"
+          },
+          { "name": "Delete drafts on mobile app", "file": "mobile-v2/drafts/MM-T5638.md" },
+          { "name": "Send Drafts on mobile app", "file": "mobile-v2/drafts/MM-T5639.md" }
         ]
       },
       {
@@ -9152,6 +9165,36 @@
             "file": "mobile-v2/threads/MM-T4810.md"
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Notification Test Tool",
+    "heading": true,
+    "routes": [
+      {
+        "name": "MAC OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+        "file": "notification-test-tool/MM-T5629.md"
+      },
+      {
+        "name": "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+        "file": "notification-test-tool/MM-T5630.md"
+      },
+      {
+        "name": "LINUX OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+        "file": "notification-test-tool/MM-T5631.md"
+      },
+      {
+        "name": "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+        "file": "notification-test-tool/MM-T5632.md"
+      },
+      {
+        "name": "Android app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+        "file": "notification-test-tool/MM-T5633.md"
+      },
+      {
+        "name": "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
+        "file": "notification-test-tool/MM-T5634.md"
       }
     ]
   },

@@ -3194,7 +3194,7 @@
       "Mobile V2: Channels - Channel Post List",
       "Mobile V2: Channels - Convert to Private Channel",
       "Mobile V2: Channels - Create Channel and Edit Channel Header",
-      "Mobile V2: Channels - Create Direct Message",
+      "Mobile V2: Channels - Create Direct Message DM and GM",
       "Mobile V2: Channels - Edit Channel",
       "Mobile V2: Channels - Favorite and Unfavorite Channel",
       "Mobile V2: Channels - Find Channels",
@@ -3205,6 +3205,16 @@
       "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed",
       "Verify error message is displayed while Converting a GM with users on from different teams to a Private channel",
       "Verify opening GM notification after GM is converted to channel by other user"
+    ]
+  },
+  {
+    "folder": "mobile-v2/drafts",
+    "tests": [
+      "Create drafts on mobile app",
+      "Delete drafts on mobile app",
+      "Edit Drafts on mobile app",
+      "Send Drafts on mobile app",
+      "The drafts created on mobile cannot be seen on Desktop app or when logged in Browser"
     ]
   },
   {
@@ -3282,6 +3292,17 @@
       "Mobile V2: Threads - Open Thread in Channel",
       "Mobile V2: Threads - Reply to Thread",
       "Mobile V2: Threads - Save and Unsave Thread"
+    ]
+  },
+  {
+    "folder": "notification-test-tool",
+    "tests": [
+      "Android app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+      "LINUX OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "MAC OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
+      "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app"
     ]
   },
   {
