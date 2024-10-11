@@ -33,7 +33,7 @@ key: MM-T13
 created_on: "2019-08-27T00:41:48Z"
 last_updated: ""
 case_hashed: 15eba8b018b7b42b3dc50d5329da942c120c3ad0bef6ad617d6e3843d5d0c6981b9c6deb70223e8d3de58e10278c4c61
-steps_hashed: a39fabddcb7887c189156f8d552940611750c152a95b5f471ca87c338e0a5bbf4bc0dae21dc305bc052ccfa3d7229740
+steps_hashed: 4629b768fe41dfe0b96570eb0f3c49d620c67cb5b67488064ae009720ea98954bce8f40abbd8a765a9fe5f495e59223e
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -58,7 +58,7 @@ _Related ticket(s):_
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566866937276-2019-08-26_20-48-35.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566866937276-2019-08-26_20-48-35.png)
 
 **Expected**
 

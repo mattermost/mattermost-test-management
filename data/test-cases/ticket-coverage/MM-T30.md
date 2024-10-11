@@ -43,8 +43,7 @@ steps_hashed: 22902175a1fd54a623cda96b126a25bcf3686b30fa02156ff69dbcf7fc1da29f46
 
 1. Navigate to ☰ menu → Account Settings → Display → Website Link Previews
 2. Toggle it ON and Save
-3. Post a link such as <https://docs.google.com/document/d/1TAmx70_7E6aVX4mq_2lmo63RaAWoPLubcaiNyB0a_iU/edit>
-   \
+3. Post a link such as <https://docs.google.com/document/d/1TAmx70_7E6aVX4mq_2lmo63RaAWoPLubcaiNyB0a_iU/edit>\
    or\
    <https://www.bbc.com/sport/football/49109527>
 4. Hover over the preview image

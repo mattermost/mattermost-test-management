@@ -341,7 +341,7 @@
     "id": 404268,
     "parentId": 3142963,
     "name": "ADA Accessibility",
-    "index": 1,
+    "index": 0,
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "ADA Accessibility"],
     "fullPath": "channels/ada-accessibility"
@@ -350,7 +350,7 @@
     "id": 399627,
     "parentId": 3142963,
     "name": "Add user from popover",
-    "index": 2,
+    "index": 1,
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Add user from popover"],
     "fullPath": "channels/add-user-from-popover"
@@ -390,6 +390,15 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Autocomplete", "With Elasticsearch"],
     "fullPath": "channels/autocomplete/with-elasticsearch"
+  },
+  {
+    "id": 15442891,
+    "parentId": 3142963,
+    "name": "Bookmarks Bar",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Bookmarks Bar"],
+    "fullPath": "channels/bookmarks-bar"
   },
   {
     "id": 981324,
@@ -440,7 +449,7 @@
     "id": 3729862,
     "parentId": 3142963,
     "name": "Command Palette",
-    "index": 32,
+    "index": 33,
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Command Palette"],
     "fullPath": "channels/command-palette"
@@ -512,7 +521,7 @@
     "id": 9626528,
     "parentId": 3142963,
     "name": "Gif picker",
-    "index": 33,
+    "index": 34,
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Gif picker"],
     "fullPath": "channels/gif-picker"
@@ -620,7 +629,7 @@
     "id": 3535410,
     "parentId": 3142963,
     "name": "Message Priority",
-    "index": 31,
+    "index": 32,
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Message Priority"],
     "fullPath": "channels/message-priority"
@@ -642,6 +651,15 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Channels", "Mobile App Settings"],
     "fullPath": "channels/mobile-app-settings"
+  },
+  {
+    "id": 11389750,
+    "parentId": 3142963,
+    "name": "Move Threads",
+    "index": 35,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Channels", "Move Threads"],
+    "fullPath": "channels/move-threads"
   },
   {
     "id": 404295,
@@ -939,6 +957,15 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Cloud", "In-product Renewal"],
     "fullPath": "cloud/in-product-renewal"
+  },
+  {
+    "id": 10907761,
+    "parentId": 883991,
+    "name": "IP Filtering",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Cloud", "IP Filtering"],
+    "fullPath": "cloud/ip-filtering"
   },
   {
     "id": 2359297,
@@ -1522,6 +1549,15 @@
     "fullPath": "mobile-v2/threads"
   },
   {
+    "id": 18063074,
+    "parentId": null,
+    "name": "Notification Test Tool",
+    "index": 20,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Notification Test Tool"],
+    "fullPath": "notification-test-tool"
+  },
+  {
     "id": 821856,
     "parentId": null,
     "name": "Omnibus",
@@ -1549,6 +1585,15 @@
     "fullPath": "plugins"
   },
   {
+    "id": 16766292,
+    "parentId": 404330,
+    "name": "Attachment Remover",
+    "index": 26,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Attachment Remover"],
+    "fullPath": "plugins/attachment-remover"
+  },
+  {
     "id": 1054381,
     "parentId": 404330,
     "name": "AutoLink",
@@ -1561,7 +1606,7 @@
     "id": 4370651,
     "parentId": 404330,
     "name": "aws-sms",
-    "index": 21,
+    "index": 22,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "aws-sms"],
     "fullPath": "plugins/aws-sms"
@@ -1570,7 +1615,7 @@
     "id": 1907969,
     "parentId": 404330,
     "name": "Bitbucket",
-    "index": 14,
+    "index": 15,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Bitbucket"],
     "fullPath": "plugins/bitbucket"
@@ -1621,10 +1666,19 @@
     "fullPath": "plugins/bitbucket/subscriptions"
   },
   {
+    "id": 11058747,
+    "parentId": 404330,
+    "name": "Bulk Invite",
+    "index": 7,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "Bulk Invite"],
+    "fullPath": "plugins/bulk-invite"
+  },
+  {
     "id": 1260737,
     "parentId": 404330,
     "name": "Circle-CI",
-    "index": 12,
+    "index": 13,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Circle-CI"],
     "fullPath": "plugins/circle-ci"
@@ -1633,7 +1687,7 @@
     "id": 1277063,
     "parentId": 404330,
     "name": "Confluence",
-    "index": 13,
+    "index": 14,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Confluence"],
     "fullPath": "plugins/confluence"
@@ -1660,7 +1714,7 @@
     "id": 4269256,
     "parentId": 404330,
     "name": "Gifs",
-    "index": 20,
+    "index": 21,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Gifs"],
     "fullPath": "plugins/gifs"
@@ -1669,7 +1723,7 @@
     "id": 1194686,
     "parentId": 404330,
     "name": "GitHub",
-    "index": 11,
+    "index": 12,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "GitHub"],
     "fullPath": "plugins/github"
@@ -1741,7 +1795,7 @@
     "id": 2139765,
     "parentId": 404330,
     "name": "GitLab",
-    "index": 15,
+    "index": 16,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "GitLab"],
     "fullPath": "plugins/gitlab"
@@ -1930,7 +1984,7 @@
     "id": 2745764,
     "parentId": 404330,
     "name": "Jitsi",
-    "index": 18,
+    "index": 19,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Jitsi"],
     "fullPath": "plugins/jitsi"
@@ -1939,7 +1993,7 @@
     "id": 6617780,
     "parentId": 404330,
     "name": "Matterpoll",
-    "index": 23,
+    "index": 24,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Matterpoll"],
     "fullPath": "plugins/matterpoll"
@@ -1948,7 +2002,7 @@
     "id": 3534845,
     "parentId": 404330,
     "name": "Meme",
-    "index": 19,
+    "index": 20,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Meme"],
     "fullPath": "plugins/meme"
@@ -1957,7 +2011,7 @@
     "id": 2382033,
     "parentId": 404330,
     "name": "MS Teams Calling",
-    "index": 17,
+    "index": 18,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "MS Teams Calling"],
     "fullPath": "plugins/ms-teams-calling"
@@ -1984,19 +2038,46 @@
     "id": 10041062,
     "parentId": 404330,
     "name": "MS Teams sync",
-    "index": 24,
+    "index": 25,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "MS Teams sync"],
     "fullPath": "plugins/ms-teams-sync"
   },
   {
-    "id": 10043049,
+    "id": 11355926,
     "parentId": 10041062,
-    "name": "Attachments",
-    "index": 4,
+    "name": "attachments-sync",
+    "index": 9,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "MS Teams sync", "Attachments"],
-    "fullPath": "plugins/ms-teams-sync/attachments"
+    "fullNames": ["Plugins", "MS Teams sync", "attachments-sync"],
+    "fullPath": "plugins/ms-teams-sync/attachments-sync"
+  },
+  {
+    "id": 13607876,
+    "parentId": 10041062,
+    "name": "Bot messages",
+    "index": 11,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "Bot messages"],
+    "fullPath": "plugins/ms-teams-sync/bot-messages"
+  },
+  {
+    "id": 13607878,
+    "parentId": 13607876,
+    "name": "connection-prompt",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "Bot messages", "connection-prompt"],
+    "fullPath": "plugins/ms-teams-sync/bot-messages/connection-prompt"
+  },
+  {
+    "id": 13607879,
+    "parentId": 13607876,
+    "name": "file-attachments",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "Bot messages", "file-attachments"],
+    "fullPath": "plugins/ms-teams-sync/bot-messages/file-attachments"
   },
   {
     "id": 10043326,
@@ -2026,31 +2107,22 @@
     "fullPath": "plugins/ms-teams-sync/message-sync"
   },
   {
-    "id": 10043335,
+    "id": 12525153,
     "parentId": 10041062,
-    "name": "Plugin configs",
-    "index": 7,
+    "name": "Mute unmute",
+    "index": 11,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "MS Teams sync", "Plugin configs"],
-    "fullPath": "plugins/ms-teams-sync/plugin-configs"
+    "fullNames": ["Plugins", "MS Teams sync", "Mute unmute"],
+    "fullPath": "plugins/ms-teams-sync/mute-unmute"
   },
   {
-    "id": 10043046,
+    "id": 13249031,
     "parentId": 10041062,
-    "name": "Reactions",
-    "index": 3,
+    "name": "plugin-configurations",
+    "index": 12,
     "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "MS Teams sync", "Reactions"],
-    "fullPath": "plugins/ms-teams-sync/reactions"
-  },
-  {
-    "id": 10043337,
-    "parentId": 10041062,
-    "name": "Replies",
-    "index": 8,
-    "folderType": "TEST_CASE",
-    "fullNames": ["Plugins", "MS Teams sync", "Replies"],
-    "fullPath": "plugins/ms-teams-sync/replies"
+    "fullNames": ["Plugins", "MS Teams sync", "plugin-configurations"],
+    "fullPath": "plugins/ms-teams-sync/plugin-configurations"
   },
   {
     "id": 10041066,
@@ -2071,6 +2143,33 @@
     "fullPath": "plugins/ms-teams-sync/text-formatting"
   },
   {
+    "id": 11355927,
+    "parentId": 10041062,
+    "name": "thread-replies",
+    "index": 10,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "thread-replies"],
+    "fullPath": "plugins/ms-teams-sync/thread-replies"
+  },
+  {
+    "id": 13249032,
+    "parentId": 10041062,
+    "name": "ui-integration",
+    "index": 13,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "ui-integration"],
+    "fullPath": "plugins/ms-teams-sync/ui-integration"
+  },
+  {
+    "id": 13249033,
+    "parentId": 10041062,
+    "name": "user-reactions",
+    "index": 14,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "MS Teams sync", "user-reactions"],
+    "fullPath": "plugins/ms-teams-sync/user-reactions"
+  },
+  {
     "id": 404297,
     "parentId": 404330,
     "name": "NPS Plugin",
@@ -2078,6 +2177,15 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "NPS Plugin"],
     "fullPath": "plugins/nps-plugin"
+  },
+  {
+    "id": 14741662,
+    "parentId": 404297,
+    "name": "New NPS Plugin",
+    "index": 0,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Plugins", "NPS Plugin", "New NPS Plugin"],
+    "fullPath": "plugins/nps-plugin/new-nps-plugin"
   },
   {
     "id": 632425,
@@ -2119,7 +2227,7 @@
     "id": 5505591,
     "parentId": 404330,
     "name": "Service Now",
-    "index": 22,
+    "index": 23,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Service Now"],
     "fullPath": "plugins/service-now"
@@ -2137,7 +2245,7 @@
     "id": 1177276,
     "parentId": 404330,
     "name": "Splunk",
-    "index": 10,
+    "index": 11,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Splunk"],
     "fullPath": "plugins/splunk"
@@ -2146,7 +2254,7 @@
     "id": 1054414,
     "parentId": 404330,
     "name": "ToDo",
-    "index": 9,
+    "index": 10,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "ToDo"],
     "fullPath": "plugins/todo"
@@ -2155,7 +2263,7 @@
     "id": 1054405,
     "parentId": 404330,
     "name": "WebEx",
-    "index": 8,
+    "index": 9,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "WebEx"],
     "fullPath": "plugins/webex"
@@ -2164,7 +2272,7 @@
     "id": 1054401,
     "parentId": 404330,
     "name": "Welcome Bot",
-    "index": 7,
+    "index": 8,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Welcome Bot"],
     "fullPath": "plugins/welcome-bot"
@@ -2173,7 +2281,7 @@
     "id": 2157120,
     "parentId": 404330,
     "name": "Zoom",
-    "index": 16,
+    "index": 17,
     "folderType": "TEST_CASE",
     "fullNames": ["Plugins", "Zoom"],
     "fullPath": "plugins/zoom"
@@ -2249,6 +2357,15 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Self-Hosted", "True up support"],
     "fullPath": "self-hosted/true-up-support"
+  },
+  {
+    "id": 11816964,
+    "parentId": 7194245,
+    "name": "User limits",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Self-Hosted", "User limits"],
+    "fullPath": "self-hosted/user-limits"
   },
   {
     "id": 404339,
@@ -3097,6 +3214,24 @@
     "fullPath": "suite/system-console/user-management"
   },
   {
+    "id": 15372553,
+    "parentId": 538610,
+    "name": "Admin Control User Settings",
+    "index": 2,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "User Management", "Admin Control User Settings"],
+    "fullPath": "suite/system-console/user-management/admin-control-user-settings"
+  },
+  {
+    "id": 12311001,
+    "parentId": 538610,
+    "name": "New UI",
+    "index": 1,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Suite", "System Console", "User Management", "New UI"],
+    "fullPath": "suite/system-console/user-management/new-ui"
+  },
+  {
     "id": 570073,
     "parentId": 538610,
     "name": "Users",
@@ -3140,5 +3275,14 @@
     "folderType": "TEST_CASE",
     "fullNames": ["Ticket coverage"],
     "fullPath": "ticket-coverage"
+  },
+  {
+    "id": 15004982,
+    "parentId": null,
+    "name": "Zephyr Reflect AI Testing",
+    "index": 19,
+    "folderType": "TEST_CASE",
+    "fullNames": ["Zephyr Reflect AI Testing"],
+    "fullPath": "zephyr-reflect-ai-testing"
   }
 ]

@@ -36,7 +36,7 @@ key: MM-T43
 created_on: "2019-09-04T21:03:12Z"
 last_updated: "2022-09-10T11:55:02Z"
 case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
-steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
+steps_hashed: 218a38d9d819fdcb85b919805cac9336690eacc6a6f146e43bde504f95535513c8387c9663a038ba6801361423417fc0
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -71,18 +71,15 @@ _Related ticket(s):_
 
 **Step 2**
 
-1. Enter a server URL
-   \
+1. Enter a server URL\
    (e.g., <https://postgres.test.mattermost.com/>)
-2. Tap Next
-   \
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
+2. Tap Next\
+   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
 
 **Expected**
 
-- Connected to server
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
+- Connected to server\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
 
 ---
 
@@ -101,26 +98,25 @@ Successfully logged in
 **Step 4**
 
 1. Type in the text field at the bottom of the app
-2. Tap the send icon![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png)
+2. Tap the send icon![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png)
 
 **Expected**
 
 Post accepted and added to messages just above text field\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg)
 
 ---
 
 **Step 5**
 
 1. Tap the `...` ellipsis menu icon on the message you just posted
-2. Tap Edit in the modal window that appears
-   \
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
+2. Tap Edit in the modal window that appears\
+   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
 
 **Expected**
 
 Edit Post window appears\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg)
 
 ---
 
@@ -146,9 +142,8 @@ Tap Cancel
 
 - Returned to channel
 - Changes accepted and displayed
-- Greyed out "(edited)" text below message
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
+- Greyed out "(edited)" text below message\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
 
 ---
 
@@ -158,7 +153,7 @@ Tap Cancel
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg)
 
 **Expected**
 
@@ -173,7 +168,7 @@ Tap Cancel
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg)
 
 **Expected**
 
@@ -189,7 +184,7 @@ Tap < (back) button in top left corner
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg)
 
 **Expected**
 
@@ -209,9 +204,9 @@ _Related ticket(s):_
 
 **Test Data**
 
-**iOS** ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg)\
+**iOS** ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg)\
 Android\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png)
 
 **Expected**
 
@@ -255,7 +250,7 @@ Android\
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg)
 
 **Expected**
 
@@ -266,32 +261,29 @@ Android\
 
 **Step 14**
 
-1. Verify image uploaded completely
-   \
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
+1. Verify image uploaded completely\
+   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
 2. Add text if desired
 3. Tap send icon
 
 **Expected**
 
-- Image posted
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
+- Image posted\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
 
 ---
 
 **Step 15**
 
 1. Tap the … ellipsis menu icon on a message
-2. Tap the Delete button in the modal window that appears
-   \
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
+2. Tap the Delete button in the modal window that appears\
+   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
 
 **Expected**
 
 - Confirm Comment Delete window appears
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg)
 
 ---
 
@@ -327,7 +319,7 @@ Tap magnifying glass in top right corner
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg)
 
 **Expected**
 
@@ -341,7 +333,7 @@ Type in search term and tap search on keyboard
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg)
 
 **Expected**
 
@@ -358,7 +350,7 @@ Tap Jump button
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg)
 
 **Expected**
 
@@ -386,7 +378,7 @@ Returned to most recent post
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg)
 
 **Expected**
 
@@ -411,7 +403,7 @@ Tap Search
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg)
 
 **Expected**
 
@@ -440,7 +432,7 @@ Tap Search
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg)
 
 **Expected**
 
@@ -456,7 +448,7 @@ Tap Search
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg)
 
 **Expected**
 
@@ -552,7 +544,7 @@ Tap Close
 **Step 34**
 
 1. Navigate to different channel
-2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
+2. Paste link in new post and tap send icon ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
 
 _Related ticket(s):_
 
@@ -577,15 +569,13 @@ Brought to channel with post highlighted
 **Step 36**
 
 1. Tap ☰ menu icon in top **right**
-2. Tap Leave Team
-   \
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
+2. Tap Leave Team\
+   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
 
 **Expected**
 
-- Confirmation screen opens
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
+- Confirmation screen opens\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
 
 ---
 
@@ -616,15 +606,13 @@ Brought to channel with post highlighted
 **Step 39**
 
 - Tap ☰ menu in top **right**
-- Tap Create a New Team
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
+- Tap Create a New Team\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
 
 **Expected**
 
-- Create new team page appears
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
+- Create new team page appears\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
 
 ---
 
@@ -635,9 +623,8 @@ Brought to channel with post highlighted
 
 **Expected**
 
-- Team URL page appears
-  \
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
+- Team URL page appears\
+  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
 
 ---
 
@@ -750,7 +737,7 @@ Start typing name in text field
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg)
 
 **Expected**
 

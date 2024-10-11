@@ -262,6 +262,7 @@
       "Call User - Call triggered on profile popover starts in the DM with the user",
       "Calls - Keyboard Shortcuts (Cloud)",
       "Calls - Keyboard Shortcuts (self-managed)",
+      "Calls - Slash Commands",
       "Calls UI Functionality - Cloud",
       "Calls UI Functionality - Self-managed",
       "Cloud Call Limits",
@@ -482,6 +483,28 @@
     ]
   },
   {
+    "folder": "channels/bookmarks-bar",
+    "tests": [
+      "A fallback bookmark icon is used If no favicon is found for the link/file added",
+      "Add a bookmark file",
+      "Add a bookmark link",
+      "Add a bookmark with an invalid link/URL",
+      "As soon as the user enters a link/file, the favicon image is displayed and the bookmark title is automatically filled",
+      "Bookmark Bar is NOT shown on FREE Edition",
+      "Bookmark bar displays correctly below the channel header when other banners are present",
+      "Bookmark files are searchable and display in Search Result 'Files' in the RHS",
+      "Bookmarks Bar IS shown on Enterprise and Professional licensed servers",
+      "Bookmarks Bar appears below the channel header even if you don't have any bookmarks",
+      "Change the favicon icon of a bookmark",
+      "Edit a bookmark",
+      "Files from deleted FILE-type bookmarks are no longer searchable / displayed in Search results",
+      "Only users with 'manage bookmark' permissions can add, edit, delete or re-order bookmarks",
+      "Open a bookmark URL/link (External and Internal links)",
+      "Revert favicon from emoji to default favicon",
+      "Scrollbar appears when bookmarks bar view in channel is at it's limit"
+    ]
+  },
+  {
     "folder": "channels/channel-info-rn-apps",
     "tests": [
       "RN apps: Add whitespace to channel name",
@@ -691,7 +714,10 @@
   },
   {
     "folder": "channels/edited-post",
-    "tests": ["Closing RHS should not close edited post in centre channel"]
+    "tests": [
+      "Closing RHS should not close edited post in centre channel",
+      "View message edit history and restore previous versions"
+    ]
   },
   {
     "folder": "channels/emoji-picker",
@@ -841,7 +867,7 @@
       "Arrow up key - no Edit modal open up if user has not posted any message yet",
       "Browser Back: ALT+LEFT or RIGHT / CMD+[ or ]",
       "CTRL+/ and CMD+/ and /shortcuts",
-      "CTRL/CMD+(forward-slash)",
+      "CTRL/CMD + SHIFT + (backslash)",
       "CTRL/CMD+. (period)",
       "CTRL/CMD+A - open settings in desktop and mobile view",
       "CTRL/CMD+B and CTRL/CMD+I",
@@ -1261,7 +1287,6 @@
       "Properly handle Saved Posts",
       "RHS correctly scrolls to the bottom when a thread is open and when user types in the comment box",
       "RHS fetches messages on socket reconnect when a different channel is in center",
-      "RHS reply thread that has been scrolled up should not automatically scroll down after receiving a new message",
       "RHS should NOT show Saved Posts and Recent Mentions in a PRIVATE channel the user was removed from",
       "RHS shows flagged posts across channels",
       "RN apps: 'Reply' option is available in long-press menu on posts",
@@ -1399,6 +1424,17 @@
     ]
   },
   {
+    "folder": "channels/move-threads",
+    "tests": [
+      "Move a post from DM",
+      "Move a post from GM",
+      "Move a post from Private channel",
+      "Move a post from one team to another",
+      "Move a post if user's email ending is in the domain to move threads",
+      "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size"
+    ]
+  },
+  {
     "folder": "channels/multi-team-and-dms",
     "tests": [
       "Add or open direct message from profile info in channel",
@@ -1474,6 +1510,7 @@
     "tests": [
       "DM Permalink preview",
       "GM Permalink preview",
+      "Non-channel-admin users can use message links in private channels",
       "Permalink Preview - Compliance Export",
       "Permalink Preview - DM permalink to public/private channel",
       "Permalink Preview - DM’s",
@@ -1696,11 +1733,18 @@
   {
     "folder": "channels/settings",
     "tests": [
+      "Admin Login | Verify Highlight Keywords without notifications is available only for Professional license",
       "Custom Theme - Sidebar Styles",
       "Deprecate? Changes to Settings are not saved when user does not click on Save button",
       "Display: Click to open threads",
+      "Highlight Keywords without notifications | Should be able to add a long phrase and word by pressing Tab or Comma",
+      "Highlight Keywords without notifications | Should highlight pharases set by logged in user",
+      "Highlight Keywords without notifications | Should highlight phrases set by logged in user",
+      "Highlight Keywords without notifications | Verify if the Highlight Feature is working previously posted messages",
       "Notification sound modal selection should reset when settings canceled",
-      "Settings Display Theme - Settings View"
+      "Settings Display Theme - Settings View",
+      "User Login | Verify Highlight Keywords without notifications is available only for Professional license",
+      "Verify Highlight Keywords without notifications is available only for Professional license"
     ]
   },
   {
@@ -2071,6 +2115,15 @@
     "tests": ["Renewal | Should be available to Renew within the product"]
   },
   {
+    "folder": "cloud/ip-filtering",
+    "tests": [
+      "IP Filtering feature is available for Enterprise license and Enterprise trial license",
+      "IP Filtering | Add IP Filtering rule in System Console",
+      "IP Filtering | Email notification when IP Filtering rule is added",
+      "IP Filtering | Restore workspace from portal if the workspace is blocked"
+    ]
+  },
+  {
     "folder": "cloud/rhs",
     "tests": ["Channel Info RHS: Admin", "Channel Info RHS: User", "Channel Info RHS: ––draft––"]
   },
@@ -2106,7 +2159,7 @@
   },
   {
     "folder": "cloud/subscribe-to-news-letter",
-    "tests": ["Subscribe to Security Newletter from signup page"]
+    "tests": ["Subscribe to Security Newsletter from signup page"]
   },
   {
     "folder": "cloud/true-up-notifications",
@@ -2329,7 +2382,6 @@
   {
     "folder": "desktop-app--native-specific-/settings",
     "tests": [
-      "Keyboard Shortcuts in Settings Page",
       "Setting (Linux) Leave app running in notification area when application window is closed",
       "Setting (Mac or Linux) - Save Tray Icon",
       "Setting (Windows and Linux) - Flash app taskbar icon when a new message is received",
@@ -2413,7 +2465,6 @@
       "Autolink: Group mentions",
       "Autolink: Multiple GitHub links",
       "Autolink: Permalinks",
-      "Autolink: Single links",
       "Autolink: Single links",
       "Autolink: Single links with multiple entries",
       "Autolink: Ticket links",
@@ -2977,7 +3028,7 @@
   {
     "folder": "mobile-app--native-specific-",
     "tests": [
-      "(Tablet iPad) System Console",
+      "(Tablet iPad) System Console can scroll",
       "(Tablet) Advanced - Ctrl-Enter (post text box)",
       "ADD TEST/S FOR SEARCH WITH DATE FILTERS",
       "ADD TESTS FOR Settings - Display - Timezone",
@@ -3033,7 +3084,7 @@
       "RN apps: Log in - Email / password",
       "RN apps: Log in - LDAP",
       "RN apps: Log in - MFA",
-      "RN apps: Log in - OAuth SSO",
+      "RN apps: Log in - OpenID SSO (formerly OAuth)",
       "RN apps: Log in - SAML SSO",
       "RN apps: Log in user who is on no teams",
       "RN apps: Log out",
@@ -3081,7 +3132,8 @@
       "RN apps: iOS ONLY - New Style Modals",
       "RN apps: iOS ONLY - Replace — with -- when using a slash command",
       "RN apps: iOS ONLY - iOS Keyboard Dictation",
-      "Should be able to share a URL invite to the team"
+      "Should be able to share a URL invite to the team",
+      "iPad sanity check"
     ]
   },
   {
@@ -3122,6 +3174,7 @@
   {
     "folder": "mobile-v2/channels",
     "tests": [
+      "Convert a GM to a Private channel with users on same team",
       "Mobile V2: Channels - Archive Channel",
       "Mobile V2: Channels - Browse Channels",
       "Mobile V2: Channels - Channel Info",
@@ -3135,7 +3188,11 @@
       "Mobile V2: Channels - Find Channels",
       "Mobile V2: Channels - Leave Channel",
       "Mobile V2: Channels - Mute and Unmute Channel",
-      "Mobile V2: Channels - Unarchive Channel"
+      "Mobile V2: Channels - Unarchive Channel",
+      "Verify Error message is displayed while converting a GM with users on from different teams to a Private channel",
+      "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed",
+      "Verify error message is displayed while Converting a GM with users on from different teams to a Private channel",
+      "Verify opening GM notification after GM is converted to channel by other user"
     ]
   },
   {
@@ -3216,6 +3273,17 @@
     ]
   },
   {
+    "folder": "notification-test-tool",
+    "tests": [
+      "Android app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+      "LINUX OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "MAC OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
+      "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+      "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app"
+    ]
+  },
+  {
     "folder": "omnibus",
     "tests": [
       "Backup and restore",
@@ -3283,6 +3351,21 @@
       "Uploading the same plugin twice prompts to overwrite",
       "Zoom icon and surrounding elements display as expected in mobile/tablet view",
       "Zoom plugin can start meetings (test on community-release.mattermost.com)"
+    ]
+  },
+  {
+    "folder": "plugins/attachment-remover",
+    "tests": [
+      "Attachment Removal from Posts Without Text",
+      "Attachment Removal with Time Limit",
+      "Installation and uninstallation of the Attachments Remover Plugin",
+      "Permission-Based Attachment Removal",
+      "Remove Attachments from Posts",
+      "Remove Attachments via Slash Command",
+      "Verify 'Remove Attachments' Post Option Availability",
+      "Verify Attachment Removal Across Supported Databases",
+      "Verify Attachment Removal Across Supported File Storage Systems",
+      "Verify Attachment Removal from Search and Channel Files"
     ]
   },
   {
@@ -3815,7 +3898,8 @@
       "- Uninstall Jira",
       "Enabling Jira V2 for 1st time uses a BOT account",
       "Install a new Jira instance",
-      "Previously Existing non-bot Jira user"
+      "Previously Existing non-bot Jira user",
+      "Tooltip over link is showing correct ticket information on the Jira cloud instance"
     ]
   },
   {
@@ -3826,7 +3910,8 @@
       "- Test /jira connect",
       "- Test notification from Jira using Legacy webhook and user",
       "- Uninstall Jira",
-      "Attempt to install when no site URL is set"
+      "Attempt to install when no site URL is set",
+      "Tooltip over link is showing correct ticket information on the Jira server instance"
     ]
   },
   {
@@ -3903,6 +3988,162 @@
     ]
   },
   {
+    "folder": "plugins/ms-teams-sync/attachments-sync",
+    "tests": [
+      "Allowed size of attachment on MM",
+      "Not allowed size of attachment on MM",
+      "Send GIF attachment",
+      "Send embedded image",
+      "Send multiple attachments"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/bot-messages/connection-prompt",
+    "tests": [
+      "Connection prompt in direct message with Mattermost primary user",
+      "Connection prompt in direct message with Teams primary user",
+      "Connection prompt in direct message with remote user",
+      "Connection prompt in group message with one Teams primary user",
+      "Connection prompt in group message with one remote user",
+      "Connection prompt in group message with only Mattermost primary users"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/bot-messages/file-attachments",
+    "tests": [
+      "File attachment warning when disabled and sending to a Teams primary user",
+      "File attachment warning when disabled and sending to a group message with one Teams primary user",
+      "File attachment warning when disabled and sending to a group message with one remote user",
+      "File attachment warning when disabled and sending to a remote user",
+      "No file attachment warning when disabled and sending to a Mattermost primary user",
+      "No file attachment warning when disabled and sending to a group message with only Mattermost primary users"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/mentions",
+    "tests": [
+      "Mention a single user in the linked channel or DM/GM",
+      "Mention all users in the linked channel or GM",
+      "Mention multiple users in the linked channel or GM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-edit",
+    "tests": [
+      "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+      "Editing text and emoji from MM to Teams",
+      "Editing text and emoji from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/message-sync",
+    "tests": [
+      "Message deleted from MS MS Teams to MM",
+      "Message from non-connected user",
+      "Message sync from MM to MS Teams",
+      "Message sync from MS Teams to MM",
+      "Order of posts from MS Teams to MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/mute-unmute",
+    "tests": [
+      "Admin can change the primary platform on behalf of a user.",
+      "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
+      "Confirm that channels are muted when a channel becomes linked.",
+      "Confirm that channels are muted when a user joins a linked channel",
+      "Confirm that channels are unmuted when a channel becomes unlinked.",
+      "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
+      "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+      "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
+      "Confirm that users can change their primary platform setting in their account settings",
+      "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/plugin-configurations",
+    "tests": [
+      "Auto promotion of remote user on MM",
+      "Buffer size for streaming the file",
+      "Certificate based subscriptions on MM",
+      "Download report from plugin configurations",
+      "Enabled teams on MM",
+      "Enforce connected account page",
+      "Maximum connected users",
+      "Maximum download size allowed at one time",
+      "Message in prompt interval to connect the account in DM/GM",
+      "Syncing DM and GM messages",
+      "Syncing guest users on MM",
+      "Syncing users on MM"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/slash-commands",
+    "tests": [
+      "Connect user slash command",
+      "Connect-bot slash command",
+      "Disconnect user slash command",
+      "Disconnect-bot account slash command",
+      "Link channel slash command",
+      "Promote slash command",
+      "Show slash command",
+      "Show-links slash command",
+      "Unlink channel slash command"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/text-formatting",
+    "tests": [
+      "Formatting text as code snippet",
+      "Formatting text as headings",
+      "Formatting text as links",
+      "Formatting text with bold, italics and strikethrough features",
+      "Formatting text with markdown",
+      "LaTeX formatting currently not expected to render on MS Teams side"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/thread-replies",
+    "tests": [
+      "Delete a reply to a message on MS Teams",
+      "Edit a reply to a message",
+      "Replying to a message",
+      "Replying with an attachment of allowed size on MM to a message",
+      "Replying with an attachment of greater size than the allowed size on MM to a message"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/ui-integration",
+    "tests": [
+      "Error while connecting a user through RHS",
+      "Error while linking a channel on MM",
+      "Error while unlinking a channel on MM",
+      "Hovering over a row in the linked channel list",
+      "Infinite scroll in the list of linked channels in RHS",
+      "Linking a channel on MM",
+      "List of linked channels in RHS",
+      "RHS design with respect to enabling and disabling App bar",
+      "Searching the linked channel in the list",
+      "Tooltip on hovering over the linked channel details.",
+      "Unlinking a channel on MM",
+      "Updated RHS after connecting a user to their MS Teams account on MM",
+      "Updated RHS after disconnecting a user from MS Teams account on MM",
+      "Updated RHS after disconnecting a user from MS Teams account on MM",
+      "Updated RHS with respect to slash commands",
+      "Updates in the list of linked channels with slash commands"
+    ]
+  },
+  {
+    "folder": "plugins/ms-teams-sync/user-reactions",
+    "tests": [
+      "Add a reaction on the message",
+      "Multiple reactions on a message",
+      "Reactions from a disconnected account",
+      "Remove reaction from a message",
+      "Update reaction on a message"
+    ]
+  },
+  {
     "folder": "plugins/nps-plugin",
     "tests": [
       "Admin notification when survey is scheduled",
@@ -3919,6 +4160,17 @@
       "No error after logging out",
       "Verify that users can change the submitted NPS score",
       "Verify the NPS plugin is pre-installed and enabled on Mattermost v5.12 and above"
+    ]
+  },
+  {
+    "folder": "plugins/nps-plugin/new-nps-plugin",
+    "tests": [
+      "Admin should be able to download the responses of a survey",
+      "Configure survey duration",
+      "Exclude team from survey",
+      "Previously launched surveys",
+      "Should receive a survey when a user is transitioned from excluded to included teams",
+      "Survey cadence"
     ]
   },
   {
@@ -3950,7 +4202,6 @@
       "Enabling Marketplace on desktop app properly saves configuration on web app",
       "Error banner does not overlap / conflict with Marketplace text",
       "Installed plugins show correctly in System Console > Plugins and Plugin Management",
-      "Installing multiple plugins from Marketplace installs all plugins successfully",
       "Installing plugins from System Console reflects correctly on Marketplace",
       "Local-only plugin search",
       "Marketplace URL field cannot store empty string",
@@ -3992,6 +4243,7 @@
       "Uninstalling from System Console correctly displays the plugin status in “All Plugins” tab",
       "Uninstalling from System Console correctly reflects the plugin status in “Installed” tab",
       "Verify Plugin Interface",
+      "Verify the expected pre-packaged plugins from Marketplace install successfully",
       "When no plugin is installed, “Install Plugins” in “Installed” tab redirects to “All Plugins” tab",
       "“Configure” button redirects to the plugin’s config page in System Console",
       "“Configure” button works correctly for all installed plugins in “Installed” tab",
@@ -4280,6 +4532,14 @@
     ]
   },
   {
+    "folder": "self-hosted/user-limits",
+    "tests": [
+      "Air-gapped instance should show global banner and Learn more button",
+      "Unlicensed Enterprise and Team Edition should not be able to create or signup new users when instance already has 11,000 users",
+      "Unlicensed Enterprise and Team Edition should show a non-dismissible global banner when instance has active users more than 10,000"
+    ]
+  },
+  {
     "folder": "smoke-tests/webapp",
     "tests": [
       "(at) here rec'd when online",
@@ -4556,6 +4816,7 @@
       "Switch Email to AD/LDAP: Incorrect password",
       "System admin permission to modify Admin Filter",
       "System admin removed from constrained channel on sync (but not its non-constrained parent team)",
+      "System console user list shows that deactivate option is not available for LDAP users",
       "Team invite link or a team invite token for a group-constrained team only works for group members - LDAP signin",
       "Team invite link or a team invite token for a group-constrained team only works for group members - email signin",
       "Test Ranged Retrieval of Attribute Values",
@@ -4689,6 +4950,7 @@
       "Custom group - username and mention conflict message",
       "Edit Group Details",
       "Edit Group Details - Error state",
+      "Invite Custom Group to Channel",
       "Show number of group members in group autocomplete",
       "User Groups Modal-  Edit Group Details",
       "User Groups Modal-Create Group",
@@ -4699,7 +4961,8 @@
       "User Groups Modal-View Group",
       "View Group Modal-Remove User",
       "View Group modal -  Add People",
-      "View Group modal - Group Option Menu"
+      "View Group modal - Group Option Menu",
+      "Viewing and Unarchiving Custom Groups"
     ]
   },
   {
@@ -4882,7 +5145,7 @@
       "Check Permission Schemes with E10 License",
       "Check Previous button on successful/failed invites",
       "Confirmation Modal when Guest Access is disabled",
-      "Deactivating a Guest removes 'This channel has guests' message from channel header",
+      "Deactivating a Guest removes 'Channel has guests' message from channel header",
       "Default Permissions to Invite Guests",
       "Disable Guest Accounts Feature",
       "Don't show guest badge for DM's in search",
@@ -5160,7 +5423,7 @@
       "RN apps: Channel Mobile Notifications - Never",
       "RN apps: Channel Mobile Notifications Options",
       "RN apps: Mobile Push Notifications -  Online, offline, away (mentions and DMs)",
-      "RN apps: Mobile Push Notifications - Never",
+      "RN apps: Mobile Push Notifications - Nothing",
       "RN apps: Notifications - Mention badges",
       "RN apps: Push Notifications `@` *is* included before Username",
       "RN apps: Push NotificationsNo `@` before Nickname or Firstname/Lastname",
@@ -5186,7 +5449,7 @@
       "Send Desktop Notifications - Click notification from other team, public or private channel",
       "Send Desktop Notifications - For all activity with apostrophe, emoji, and markdown in notification",
       "Send Desktop Notifications - Never",
-      "Send Desktop Notifications - Only mentions and DMs",
+      "Send Desktop Notifications - Only mentions, DMs and group messages",
       "Team sidebar > team icon appearance and badge count",
       "Two mobile 'in-app' (while app is open) notifications received in quick succession display one after one the other",
       "User does not miss notifications after replying from notification bar",
@@ -5552,7 +5815,7 @@
       "Assign Global Policy = 10 days & Custom = 5 days to channels",
       "Assign Global Policy = 5 days & Custom Policy = 10 days  to channels",
       "Assign Global Policy = 5 days & Custom Policy = None to Teams",
-      "Assign Global Policy = 5 days & Custom Policy = None to Teams",
+      "Assign Global Policy = 5 days & Custom Policy = None to Teams with multi-channels",
       "Assign Global Policy = Forever & Custom Policy = 1 year to channels",
       "Assign Global Policy = Forever & Custom Policy = 10 days to channels",
       "Assign Global Policy = Forever & Custom Policy = 5 days to Teams",
@@ -5568,6 +5831,8 @@
       "Policies Count",
       "Search Team",
       "Search channel in policy",
+      "Set global policy for attachments in hours",
+      "Set global policy for messages in hours",
       "Show Policy",
       "Show Policy Teams information",
       "Total channels in policy",
@@ -5791,13 +6056,13 @@
       "Announcement Banner - Dismissible banner shows long text truncated",
       "Announcement Banner - False with text entered does not display a banner",
       "Announcement Banner - Multiple teams",
-      "Announcement Banner - Non-dismissable does not overlap content",
-      "Announcement Banner - Non-dismissable truncates long text",
+      "Announcement Banner - Non-dismissible does not overlap content",
+      "Announcement Banner - Non-dismissible truncates long text",
       "Announcement Banner - One user doesn't dismiss it for another user",
       "Announcement Banner - Other user sees dismissed banner come back with new text",
       "Announcement Banner - True but no text does not display a banner",
       "Channel header popover with banner present",
-      "Dismissing an Expiring Licence Banner on top of non-dismissabile and dismissable banner does not cause overlap in the UI"
+      "Dismissing an Expiring License Banner on top of non-dismissible and dismissible banner does not cause overlap in the UI"
     ]
   },
   {
@@ -5977,6 +6242,24 @@
     ]
   },
   {
+    "folder": "suite/system-console/user-management/admin-control-user-settings",
+    "tests": [
+      "Admin should be able to see the User's settings on a licensed instance",
+      "User with System Manager or User manager role and edit access to user management can Manage User settings"
+    ]
+  },
+  {
+    "folder": "suite/system-console/user-management/new-ui",
+    "tests": [
+      "Ability to Export Data after upgrading to Professional license",
+      "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+      "Ability to Sort the columns and view only desired columns",
+      "Ability to search by text and apply filters",
+      "Ability to view User Profiles in User management section",
+      "Display alert in User management page for MySQL instance"
+    ]
+  },
+  {
     "folder": "suite/system-console/user-management/users",
     "tests": [
       "User - Demoting to guest should remove Team/Channel Admin permission",
@@ -6035,6 +6318,13 @@
       "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover",
       "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
       "When on preview mode, it does not allow to submit a post from the main post input"
+    ]
+  },
+  {
+    "folder": "zephyr-reflect-ai-testing",
+    "tests": [
+      "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
+      "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)"
     ]
   }
 ]

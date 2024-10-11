@@ -33,7 +33,7 @@ key: MM-T11
 created_on: "2020-12-10T17:51:24Z"
 last_updated: "2022-09-09T20:50:00Z"
 case_hashed: 65adb60dde2bfa3b32d35217c200aa4ef3b28d8991f260c33bdba75e5d4d5296fe771826d457f8b252d3bba60a7c5ff9
-steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f70c0b372c845d7ff1efad100533636
+steps_hashed: 9c6f5f78fa6a97fff8798daf130e96d68b4b0680bf3fc98341a991d1e2a8d2551607c134cb1c0db0bfa3171018766674
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -47,8 +47,7 @@ steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f
 Open Graph link preview should display animated\
 –––––––––––––––––––––––––
 
-1. Post the link below in a channel
-   \
+1. Post the link below in a channel\
    <https://giphy.com/gifs/afv-funny-fail-3o85xET02JdV8TQuwU>
 
 _Related ticket(s):_
@@ -62,7 +61,7 @@ A reference to the old testing spreadsheet was made on the bug ticket.\
 
 **Test Data**
 
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1607622760486-Screen+Shot+2020-12-10+at+9.51.47+AM.png)
+![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1607622760486-Screen+Shot+2020-12-10+at+9.51.47+AM.png)
 
 **Expected**
 

@@ -10,6 +10,7 @@
   },
   "calls/mm-t5399": { "name": "Start and leave a call", "slug": "calls/mm-t5399" },
   "calls/mm-t5400": { "name": "Join a call", "slug": "calls/mm-t5400" },
+  "calls/mm-t5587": { "name": "Calls - Slash Commands", "slug": "calls/mm-t5587" },
   "calls/mobile/mm-t4800": { "name": "RN apps: Calls Plugin", "slug": "calls/mobile/mm-t4800" },
   "calls/mobile/mm-t4799": { "name": "RN apps: Calls", "slug": "calls/mobile/mm-t4799" },
   "calls/mm-t5412": { "name": "Calls - Keyboard Shortcuts (Cloud)", "slug": "calls/mm-t5412" },
@@ -2071,6 +2072,46 @@
     "name": "If plugins fail to start, they can be disabled",
     "slug": "plugins/mm-t2391"
   },
+  "plugins/attachment-remover/mm-t5619": {
+    "name": "Remove Attachments from Posts",
+    "slug": "plugins/attachment-remover/mm-t5619"
+  },
+  "plugins/attachment-remover/mm-t5618": {
+    "name": "Verify 'Remove Attachments' Post Option Availability",
+    "slug": "plugins/attachment-remover/mm-t5618"
+  },
+  "plugins/attachment-remover/mm-t5623": {
+    "name": "Verify Attachment Removal from Search and Channel Files",
+    "slug": "plugins/attachment-remover/mm-t5623"
+  },
+  "plugins/attachment-remover/mm-t5617": {
+    "name": "Installation and uninstallation of the Attachments Remover Plugin",
+    "slug": "plugins/attachment-remover/mm-t5617"
+  },
+  "plugins/attachment-remover/mm-t5622": {
+    "name": "Attachment Removal from Posts Without Text",
+    "slug": "plugins/attachment-remover/mm-t5622"
+  },
+  "plugins/attachment-remover/mm-t5626": {
+    "name": "Verify Attachment Removal Across Supported Databases",
+    "slug": "plugins/attachment-remover/mm-t5626"
+  },
+  "plugins/attachment-remover/mm-t5621": {
+    "name": "Attachment Removal with Time Limit",
+    "slug": "plugins/attachment-remover/mm-t5621"
+  },
+  "plugins/attachment-remover/mm-t5625": {
+    "name": "Verify Attachment Removal Across Supported File Storage Systems",
+    "slug": "plugins/attachment-remover/mm-t5625"
+  },
+  "plugins/attachment-remover/mm-t5624": {
+    "name": "Remove Attachments via Slash Command",
+    "slug": "plugins/attachment-remover/mm-t5624"
+  },
+  "plugins/attachment-remover/mm-t5620": {
+    "name": "Permission-Based Attachment Removal",
+    "slug": "plugins/attachment-remover/mm-t5620"
+  },
   "plugins/demo-plugin/mm-t2404": {
     "name": "Demo plugin - Crash and restart",
     "slug": "plugins/demo-plugin/mm-t2404"
@@ -2115,6 +2156,370 @@
     "name": "Demo plugin - theme",
     "slug": "plugins/demo-plugin/mm-t2403"
   },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5545": {
+    "name": "Maximum download size allowed at one time",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5545"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5541": {
+    "name": "Download report from plugin configurations",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5541"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5540": {
+    "name": "Certificate based subscriptions on MM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5540"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5544": {
+    "name": "Maximum connected users",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5544"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5543": {
+    "name": "Enforce connected account page",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5543"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5547": {
+    "name": "Syncing DM and GM messages",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5547"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5546": {
+    "name": "Message in prompt interval to connect the account in DM/GM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5546"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5542": {
+    "name": "Enabled teams on MM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5542"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5549": {
+    "name": "Syncing users on MM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5549"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5538": {
+    "name": "Auto promotion of remote user on MM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5538"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5539": {
+    "name": "Buffer size for streaming the file",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5539"
+  },
+  "plugins/ms-teams-sync/plugin-configurations/mm-t5548": {
+    "name": "Syncing guest users on MM",
+    "slug": "plugins/ms-teams-sync/plugin-configurations/mm-t5548"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5504": {
+    "name": "Formatting text with bold, italics and strikethrough features",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5504"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5500": {
+    "name": "Formatting text as code snippet",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5500"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5510": {
+    "name": "LaTeX formatting currently not expected to render on MS Teams side",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5510"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5501": {
+    "name": "Formatting text as headings",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5501"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5502": {
+    "name": "Formatting text as links",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5502"
+  },
+  "plugins/ms-teams-sync/text-formatting/mm-t5503": {
+    "name": "Formatting text with markdown",
+    "slug": "plugins/ms-teams-sync/text-formatting/mm-t5503"
+  },
+  "plugins/ms-teams-sync/mentions/mm-t5482": {
+    "name": "Mention a single user in the linked channel or DM/GM",
+    "slug": "plugins/ms-teams-sync/mentions/mm-t5482"
+  },
+  "plugins/ms-teams-sync/mentions/mm-t5481": {
+    "name": "Mention multiple users in the linked channel or GM",
+    "slug": "plugins/ms-teams-sync/mentions/mm-t5481"
+  },
+  "plugins/ms-teams-sync/mentions/mm-t5480": {
+    "name": "Mention all users in the linked channel or GM",
+    "slug": "plugins/ms-teams-sync/mentions/mm-t5480"
+  },
+  "plugins/ms-teams-sync/attachments-sync/mm-t5475": {
+    "name": "Allowed size of attachment on MM",
+    "slug": "plugins/ms-teams-sync/attachments-sync/mm-t5475"
+  },
+  "plugins/ms-teams-sync/attachments-sync/mm-t5476": {
+    "name": "Send multiple attachments",
+    "slug": "plugins/ms-teams-sync/attachments-sync/mm-t5476"
+  },
+  "plugins/ms-teams-sync/attachments-sync/mm-t5477": {
+    "name": "Not allowed size of attachment on MM",
+    "slug": "plugins/ms-teams-sync/attachments-sync/mm-t5477"
+  },
+  "plugins/ms-teams-sync/attachments-sync/mm-t5478": {
+    "name": "Send GIF attachment",
+    "slug": "plugins/ms-teams-sync/attachments-sync/mm-t5478"
+  },
+  "plugins/ms-teams-sync/attachments-sync/mm-t5479": {
+    "name": "Send embedded image",
+    "slug": "plugins/ms-teams-sync/attachments-sync/mm-t5479"
+  },
+  "plugins/ms-teams-sync/thread-replies/mm-t5505": {
+    "name": "Replying with an attachment of allowed size on MM to a message",
+    "slug": "plugins/ms-teams-sync/thread-replies/mm-t5505"
+  },
+  "plugins/ms-teams-sync/thread-replies/mm-t5506": {
+    "name": "Delete a reply to a message on MS Teams",
+    "slug": "plugins/ms-teams-sync/thread-replies/mm-t5506"
+  },
+  "plugins/ms-teams-sync/thread-replies/mm-t5507": {
+    "name": "Edit a reply to a message",
+    "slug": "plugins/ms-teams-sync/thread-replies/mm-t5507"
+  },
+  "plugins/ms-teams-sync/thread-replies/mm-t5508": {
+    "name": "Replying with an attachment of greater size than the allowed size on MM to a message",
+    "slug": "plugins/ms-teams-sync/thread-replies/mm-t5508"
+  },
+  "plugins/ms-teams-sync/thread-replies/mm-t5509": {
+    "name": "Replying to a message",
+    "slug": "plugins/ms-teams-sync/thread-replies/mm-t5509"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5499": {
+    "name": "Disconnect-bot account slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5499"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5498": {
+    "name": "Connect-bot slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5498"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5493": {
+    "name": "Link channel slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5493"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5497": {
+    "name": "Unlink channel slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5497"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5496": {
+    "name": "Show-links slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5496"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5492": {
+    "name": "Disconnect user slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5492"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5495": {
+    "name": "Show slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5495"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5491": {
+    "name": "Connect user slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5491"
+  },
+  "plugins/ms-teams-sync/slash-commands/mm-t5494": {
+    "name": "Promote slash command",
+    "slug": "plugins/ms-teams-sync/slash-commands/mm-t5494"
+  },
+  "plugins/ms-teams-sync/message-sync/mm-t5489": {
+    "name": "Order of posts from MS Teams to MM",
+    "slug": "plugins/ms-teams-sync/message-sync/mm-t5489"
+  },
+  "plugins/ms-teams-sync/message-sync/mm-t5488": {
+    "name": "Message from non-connected user",
+    "slug": "plugins/ms-teams-sync/message-sync/mm-t5488"
+  },
+  "plugins/ms-teams-sync/message-sync/mm-t5487": {
+    "name": "Message deleted from MS MS Teams to MM",
+    "slug": "plugins/ms-teams-sync/message-sync/mm-t5487"
+  },
+  "plugins/ms-teams-sync/message-sync/mm-t5486": {
+    "name": "Message sync from MM to MS Teams",
+    "slug": "plugins/ms-teams-sync/message-sync/mm-t5486"
+  },
+  "plugins/ms-teams-sync/message-sync/mm-t5490": {
+    "name": "Message sync from MS Teams to MM",
+    "slug": "plugins/ms-teams-sync/message-sync/mm-t5490"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5555": {
+    "name": "Error while connecting a user through RHS",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5555"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5561": {
+    "name": "Searching the linked channel in the list",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5561"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5565": {
+    "name": "Unlinking a channel on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5565"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5551": {
+    "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5551"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5564": {
+    "name": "Tooltip on hovering over the linked channel details.",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5564"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5550": {
+    "name": "Updated RHS after connecting a user to their MS Teams account on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5550"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5554": {
+    "name": "Error while unlinking a channel on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5554"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5560": {
+    "name": "Infinite scroll in the list of linked channels in RHS",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5560"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5553": {
+    "name": "Error while linking a channel on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5553"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5557": {
+    "name": "Linking a channel on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5557"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5563": {
+    "name": "Updates in the list of linked channels with slash commands",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5563"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5556": {
+    "name": "Hovering over a row in the linked channel list",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5556"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5562": {
+    "name": "Updated RHS with respect to slash commands",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5562"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5552": {
+    "name": "Updated RHS after disconnecting a user from MS Teams account on MM",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5552"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5559": {
+    "name": "RHS design with respect to enabling and disabling App bar",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5559"
+  },
+  "plugins/ms-teams-sync/ui-integration/mm-t5558": {
+    "name": "List of linked channels in RHS",
+    "slug": "plugins/ms-teams-sync/ui-integration/mm-t5558"
+  },
+  "plugins/ms-teams-sync/user-reactions/mm-t5570": {
+    "name": "Update reaction on a message",
+    "slug": "plugins/ms-teams-sync/user-reactions/mm-t5570"
+  },
+  "plugins/ms-teams-sync/user-reactions/mm-t5567": {
+    "name": "Reactions from a disconnected account",
+    "slug": "plugins/ms-teams-sync/user-reactions/mm-t5567"
+  },
+  "plugins/ms-teams-sync/user-reactions/mm-t5566": {
+    "name": "Add a reaction on the message",
+    "slug": "plugins/ms-teams-sync/user-reactions/mm-t5566"
+  },
+  "plugins/ms-teams-sync/user-reactions/mm-t5569": {
+    "name": "Remove reaction from a message",
+    "slug": "plugins/ms-teams-sync/user-reactions/mm-t5569"
+  },
+  "plugins/ms-teams-sync/user-reactions/mm-t5568": {
+    "name": "Multiple reactions on a message",
+    "slug": "plugins/ms-teams-sync/user-reactions/mm-t5568"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5575": {
+    "name": "Connection prompt in group message with one remote user",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5575"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5574": {
+    "name": "Connection prompt in direct message with Mattermost primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5574"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5577": {
+    "name": "Connection prompt in group message with only Mattermost primary users",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5577"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5573": {
+    "name": "Connection prompt in direct message with Teams primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5573"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5572": {
+    "name": "Connection prompt in direct message with remote user",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5572"
+  },
+  "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5576": {
+    "name": "Connection prompt in group message with one Teams primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/connection-prompt/mm-t5576"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5582": {
+    "name": "File attachment warning when disabled and sending to a group message with one Teams primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5582"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5583": {
+    "name": "No file attachment warning when disabled and sending to a group message with only Mattermost primary users",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5583"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5580": {
+    "name": "No file attachment warning when disabled and sending to a Mattermost primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5580"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5581": {
+    "name": "File attachment warning when disabled and sending to a group message with one remote user",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5581"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5579": {
+    "name": "File attachment warning when disabled and sending to a Teams primary user",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5579"
+  },
+  "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5578": {
+    "name": "File attachment warning when disabled and sending to a remote user",
+    "slug": "plugins/ms-teams-sync/bot-messages/file-attachments/mm-t5578"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5530": {
+    "name": "Confirm that users can change their primary platform setting in their account settings",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5530"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5534": {
+    "name": "Confirm that channels are muted when a channel becomes linked.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5534"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5535": {
+    "name": "Confirm that channels are unmuted when a channel becomes unlinked.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5535"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5531": {
+    "name": "Confirm that muting/unmuting DMs/GMs and synced channels individually works as expected.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5531"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5536": {
+    "name": "Admin can change the primary platform on behalf of a user.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5536"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5532": {
+    "name": "Confirm that channels are muted when a user joins a linked channel",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5532"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5533": {
+    "name": "Confirm that DMs/GMs and synced channels are muted when a user creates a DM/GM channel.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5533"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5527": {
+    "name": "Verify that the user is prompted to choose their primary platform (Mattermost or MSTeams) during the initial account connection",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5527"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5528": {
+    "name": "Confirm that selecting MSTeams as the primary platform auto-mutes all DMs/GMs and synced channels.",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5528"
+  },
+  "plugins/ms-teams-sync/mute-unmute/mm-t5529": {
+    "name": "Confirm that selecting Mattermost as the primary platform does not auto-mute DMs/GMs and synced channels",
+    "slug": "plugins/ms-teams-sync/mute-unmute/mm-t5529"
+  },
+  "plugins/ms-teams-sync/message-edit/mm-t5483": {
+    "name": "Editing mentioned user from MM to MS Teams and MS Teams to MM",
+    "slug": "plugins/ms-teams-sync/message-edit/mm-t5483"
+  },
+  "plugins/ms-teams-sync/message-edit/mm-t5485": {
+    "name": "Editing text and emoji from MS Teams to MM",
+    "slug": "plugins/ms-teams-sync/message-edit/mm-t5485"
+  },
+  "plugins/ms-teams-sync/message-edit/mm-t5484": {
+    "name": "Editing text and emoji from MM to Teams",
+    "slug": "plugins/ms-teams-sync/message-edit/mm-t5484"
+  },
   "plugins/mm-t2428": { "name": "Plugins Management - Remove", "slug": "plugins/mm-t2428" },
   "plugins/mm-t3426": {
     "name": "Hashtags stlil work with demo plugin enabled",
@@ -2135,6 +2540,10 @@
   "plugins/jira/miscellaneous/server/mm-t2470": {
     "name": "- Menu Items remain visible in new session",
     "slug": "plugins/jira/miscellaneous/server/mm-t2470"
+  },
+  "plugins/jira/miscellaneous/server/mm-t5586": {
+    "name": "Tooltip over link is showing correct ticket information on the Jira server instance",
+    "slug": "plugins/jira/miscellaneous/server/mm-t5586"
   },
   "plugins/jira/miscellaneous/server/mm-t2469": {
     "name": "- Test notification from Jira using Legacy webhook and user",
@@ -2167,6 +2576,10 @@
   "plugins/jira/miscellaneous/cloud/mm-t2478": {
     "name": "Enabling Jira V2 for 1st time uses a BOT account",
     "slug": "plugins/jira/miscellaneous/cloud/mm-t2478"
+  },
+  "plugins/jira/miscellaneous/cloud/mm-t5585": {
+    "name": "Tooltip over link is showing correct ticket information on the Jira cloud instance",
+    "slug": "plugins/jira/miscellaneous/cloud/mm-t5585"
   },
   "plugins/jira/miscellaneous/cloud/mm-t2477": {
     "name": "Install a new Jira instance",
@@ -3323,7 +3736,7 @@
     "slug": "plugins/plugin-marketplace/import-queue/mm-t1945"
   },
   "plugins/plugin-marketplace/import-queue/mm-t1982": {
-    "name": "Installing multiple plugins from Marketplace installs all plugins successfully",
+    "name": "Verify the expected pre-packaged plugins from Marketplace install successfully",
     "slug": "plugins/plugin-marketplace/import-queue/mm-t1982"
   },
   "plugins/plugin-marketplace/import-queue/mm-t1961": {
@@ -3746,6 +4159,30 @@
     "name": "Notification links point to latest comment",
     "slug": "plugins/bitbucket/notifications/mm-t4356"
   },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5588": {
+    "name": "Survey cadence",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5588"
+  },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5589": {
+    "name": "Configure survey duration",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5589"
+  },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5592": {
+    "name": "Previously launched surveys",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5592"
+  },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5593": {
+    "name": "Admin should be able to download the responses of a survey",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5593"
+  },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5590": {
+    "name": "Exclude team from survey",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5590"
+  },
+  "plugins/nps-plugin/new-nps-plugin/mm-t5591": {
+    "name": "Should receive a survey when a user is transitioned from excluded to included teams",
+    "slug": "plugins/nps-plugin/new-nps-plugin/mm-t5591"
+  },
   "plugins/nps-plugin/mm-t2364": {
     "name": "No error after logging out",
     "slug": "plugins/nps-plugin/mm-t2364"
@@ -3911,6 +4348,30 @@
     "slug": "playbooks/mm-t4683"
   },
   "playbooks/mm-t4973": { "name": "LHS - Favorites", "slug": "playbooks/mm-t4973" },
+  "notification-test-tool/mm-t5629": {
+    "name": "MAC OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+    "slug": "notification-test-tool/mm-t5629"
+  },
+  "notification-test-tool/mm-t5633": {
+    "name": "Android app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+    "slug": "notification-test-tool/mm-t5633"
+  },
+  "notification-test-tool/mm-t5632": {
+    "name": "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
+    "slug": "notification-test-tool/mm-t5632"
+  },
+  "notification-test-tool/mm-t5631": {
+    "name": "LINUX OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+    "slug": "notification-test-tool/mm-t5631"
+  },
+  "notification-test-tool/mm-t5634": {
+    "name": "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
+    "slug": "notification-test-tool/mm-t5634"
+  },
+  "notification-test-tool/mm-t5630": {
+    "name": "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
+    "slug": "notification-test-tool/mm-t5630"
+  },
   "ticket-coverage/mm-t32": {
     "name": "MM-17441 — Cannot toggle between Safari windows on macOS using (command + `)",
     "slug": "ticket-coverage/mm-t32"
@@ -4720,13 +5181,33 @@
     "name": "Mobile V2: Channels - Channel List",
     "slug": "mobile-v2/channels/mm-t4728"
   },
+  "mobile-v2/channels/mm-t5470": {
+    "name": "Convert a GM to a Private channel with users on same team",
+    "slug": "mobile-v2/channels/mm-t5470"
+  },
+  "mobile-v2/channels/mm-t5474": {
+    "name": "Verify Error message is displayed while converting a GM with users on from different teams to a Private channel",
+    "slug": "mobile-v2/channels/mm-t5474"
+  },
   "mobile-v2/channels/mm-t4729": {
     "name": "Mobile V2: Channels - Browse Channels",
     "slug": "mobile-v2/channels/mm-t4729"
   },
+  "mobile-v2/channels/mm-t5471": {
+    "name": "Verify error message is displayed while Converting a GM with users on from different teams to a Private channel",
+    "slug": "mobile-v2/channels/mm-t5471"
+  },
+  "mobile-v2/channels/mm-t5472": {
+    "name": "Verify opening GM notification after GM is converted to channel by other user",
+    "slug": "mobile-v2/channels/mm-t5472"
+  },
   "mobile-v2/channels/mm-t4928": {
     "name": "Mobile V2: Channels - Channel Info",
     "slug": "mobile-v2/channels/mm-t4928"
+  },
+  "mobile-v2/channels/mm-t5473": {
+    "name": "Verify Error message is shown when user opens GM notification after GM is converted to channel and the user is removed",
+    "slug": "mobile-v2/channels/mm-t5473"
   },
   "mobile-v2/channels/mm-t4929": {
     "name": "Mobile V2: Channels - Favorite and Unfavorite Channel",
@@ -5448,7 +5929,6 @@
     "name": "Show custom slash command in autocomplete",
     "slug": "integrations/mm-t703"
   },
-  "integrations/mm-t3503": { "name": "Autolink: Single links", "slug": "integrations/mm-t3503" },
   "integrations/mm-t570": {
     "name": "Integration Page titles are bolded",
     "slug": "integrations/mm-t570"
@@ -5637,7 +6117,7 @@
     "slug": "cloud/mm-t5190"
   },
   "cloud/subscribe-to-news-letter/mm-t5422": {
-    "name": "Subscribe to Security Newletter from signup page",
+    "name": "Subscribe to Security Newsletter from signup page",
     "slug": "cloud/subscribe-to-news-letter/mm-t5422"
   },
   "cloud/mm-t5194": {
@@ -5792,6 +6272,22 @@
   "cloud/cloud-trial/cloud-evaluation-trial/mm-t5419": {
     "name": "Cloud Evaluation Trial | New workspace should start with 30 day Cloud Enterprise trial",
     "slug": "cloud/cloud-trial/cloud-evaluation-trial/mm-t5419"
+  },
+  "cloud/ip-filtering/mm-t5466": {
+    "name": "IP Filtering feature is available for Enterprise license and Enterprise trial license",
+    "slug": "cloud/ip-filtering/mm-t5466"
+  },
+  "cloud/ip-filtering/mm-t5467": {
+    "name": "IP Filtering | Add IP Filtering rule in System Console",
+    "slug": "cloud/ip-filtering/mm-t5467"
+  },
+  "cloud/ip-filtering/mm-t5468": {
+    "name": "IP Filtering | Restore workspace from portal if the workspace is blocked",
+    "slug": "cloud/ip-filtering/mm-t5468"
+  },
+  "cloud/ip-filtering/mm-t5469": {
+    "name": "IP Filtering | Email notification when IP Filtering rule is added",
+    "slug": "cloud/ip-filtering/mm-t5469"
   },
   "cloud/mm-t5099": {
     "name": "Notify Admin V2 | Verify various type of upgrade messages admin receives when workspace users make different upgrade requests",
@@ -6615,6 +7111,10 @@
     "name": "User Groups Modal-Group List Menu",
     "slug": "suite/custom-groups/mm-t4662"
   },
+  "suite/custom-groups/mm-t5598": {
+    "name": "Invite Custom Group to Channel",
+    "slug": "suite/custom-groups/mm-t5598"
+  },
   "suite/custom-groups/mm-t4666": {
     "name": "User Groups Modal-Create Group",
     "slug": "suite/custom-groups/mm-t4666"
@@ -6646,6 +7146,10 @@
   "suite/custom-groups/mm-t4669": {
     "name": "View Group Modal-Remove User",
     "slug": "suite/custom-groups/mm-t4669"
+  },
+  "suite/custom-groups/mm-t5584": {
+    "name": "Viewing and Unarchiving Custom Groups",
+    "slug": "suite/custom-groups/mm-t5584"
   },
   "suite/custom-groups/mm-t4664": {
     "name": "View Group modal - Group Option Menu",
@@ -6839,6 +7343,10 @@
     "name": "Convert Days into Year in Global Data Retention Policy",
     "slug": "suite/system-console/compliance/data-retention-policy/mm-t4019"
   },
+  "suite/system-console/compliance/data-retention-policy/mm-t5628": {
+    "name": "Set global policy for messages in hours",
+    "slug": "suite/system-console/compliance/data-retention-policy/mm-t5628"
+  },
   "suite/system-console/compliance/data-retention-policy/mm-t1163": {
     "name": "Data Retention - Run Job disabled if set to indefinite",
     "slug": "suite/system-console/compliance/data-retention-policy/mm-t1163"
@@ -6850,6 +7358,10 @@
   "suite/system-console/compliance/data-retention-policy/mm-t4018": {
     "name": "Number of Teams in Policy",
     "slug": "suite/system-console/compliance/data-retention-policy/mm-t4018"
+  },
+  "suite/system-console/compliance/data-retention-policy/mm-t5627": {
+    "name": "Set global policy for attachments in hours",
+    "slug": "suite/system-console/compliance/data-retention-policy/mm-t5627"
   },
   "suite/system-console/compliance/data-retention-policy/mm-t4013": {
     "name": "Total channels in policy",
@@ -6916,7 +7428,7 @@
     "slug": "suite/system-console/compliance/data-retention-policy/mm-t4096"
   },
   "suite/system-console/compliance/data-retention-policy/mm-t4101": {
-    "name": "Assign Global Policy = 5 days & Custom Policy = None to Teams",
+    "name": "Assign Global Policy = 5 days & Custom Policy = None to Teams with multi-channels",
     "slug": "suite/system-console/compliance/data-retention-policy/mm-t4101"
   },
   "suite/system-console/compliance/data-retention-policy/mm-t4010": {
@@ -7572,7 +8084,7 @@
     "slug": "suite/system-console/site-configuration/file-sharing-and-downloads/mm-t1147"
   },
   "suite/system-console/site-configuration/announcement-banner/mm-t1133": {
-    "name": "Announcement Banner - Non-dismissable does not overlap content",
+    "name": "Announcement Banner - Non-dismissible does not overlap content",
     "slug": "suite/system-console/site-configuration/announcement-banner/mm-t1133"
   },
   "suite/system-console/site-configuration/announcement-banner/mm-t1127": {
@@ -7580,7 +8092,7 @@
     "slug": "suite/system-console/site-configuration/announcement-banner/mm-t1127"
   },
   "suite/system-console/site-configuration/announcement-banner/mm-t1126": {
-    "name": "Dismissing an Expiring Licence Banner on top of non-dismissabile and dismissable banner does not cause overlap in the UI",
+    "name": "Dismissing an Expiring License Banner on top of non-dismissible and dismissible banner does not cause overlap in the UI",
     "slug": "suite/system-console/site-configuration/announcement-banner/mm-t1126"
   },
   "suite/system-console/site-configuration/announcement-banner/mm-t1132": {
@@ -7612,7 +8124,7 @@
     "slug": "suite/system-console/site-configuration/announcement-banner/mm-t1130"
   },
   "suite/system-console/site-configuration/announcement-banner/mm-t1134": {
-    "name": "Announcement Banner - Non-dismissable truncates long text",
+    "name": "Announcement Banner - Non-dismissible truncates long text",
     "slug": "suite/system-console/site-configuration/announcement-banner/mm-t1134"
   },
   "suite/system-console/site-configuration/notifications/mm-t1107": {
@@ -8091,6 +8603,14 @@
     "name": "Manage Users on Server - User filter works and clears",
     "slug": "suite/system-console/user-management/mm-t915"
   },
+  "suite/system-console/user-management/admin-control-user-settings/mm-t5596": {
+    "name": "Admin should be able to see the User's settings on a licensed instance",
+    "slug": "suite/system-console/user-management/admin-control-user-settings/mm-t5596"
+  },
+  "suite/system-console/user-management/admin-control-user-settings/mm-t5597": {
+    "name": "User with System Manager or User manager role and edit access to user management can Manage User settings",
+    "slug": "suite/system-console/user-management/admin-control-user-settings/mm-t5597"
+  },
   "suite/system-console/user-management/users/mm-t3898": {
     "name": "User - Demoting to guest should remove Team/Channel Admin permission",
     "slug": "suite/system-console/user-management/users/mm-t3898"
@@ -8178,6 +8698,30 @@
   "suite/system-console/user-management/mm-t920": {
     "name": "User status can filter to just system admins",
     "slug": "suite/system-console/user-management/mm-t920"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5520": {
+    "name": "Ability to view User Profiles in User management section",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5520"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5524": {
+    "name": "Display alert in User management page for MySQL instance",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5524"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5525": {
+    "name": "Ability to Filter Last Post, Days Active, Messages Posted columns by applying various date filter options",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5525"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5521": {
+    "name": "Ability to search by text and apply filters",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5521"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5522": {
+    "name": "Ability to Export Data after upgrading to Professional license",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5522"
+  },
+  "suite/system-console/user-management/new-ui/mm-t5523": {
+    "name": "Ability to Sort the columns and view only desired columns",
+    "slug": "suite/system-console/user-management/new-ui/mm-t5523"
   },
   "suite/system-console/mm-t1216": {
     "name": "Webapp: Can change Android App Download Link setting",
@@ -10221,6 +10765,10 @@
     "name": "Adding users in and not-in group to team and channel via API  POST https://selenium.test.mattermost.com/api/v4/teams/{teamid}/members  POST https://selenium.test.mattermost.com/api/v4/channels/{channelid}/members",
     "slug": "suite/ad-ldap/mm-t2819"
   },
+  "suite/ad-ldap/mm-t5517": {
+    "name": "System console user list shows that deactivate option is not available for LDAP users",
+    "slug": "suite/ad-ldap/mm-t5517"
+  },
   "suite/ad-ldap/mm-t2809": {
     "name": "/inviting someone that is not in a linked group - user does not have permission to add",
     "slug": "suite/ad-ldap/mm-t2809"
@@ -10670,7 +11218,7 @@
     "slug": "suite/guest-accounts/guest-identification/mm-t1373"
   },
   "suite/guest-accounts/guest-identification/mm-t1419": {
-    "name": "Deactivating a Guest removes 'This channel has guests' message from channel header",
+    "name": "Deactivating a Guest removes 'Channel has guests' message from channel header",
     "slug": "suite/guest-accounts/guest-identification/mm-t1419"
   },
   "suite/guest-accounts/guest-identification/mm-t1390": {
@@ -10918,7 +11466,7 @@
     "slug": "suite/notifications/mm-t556"
   },
   "suite/notifications/mm-t533": {
-    "name": "RN apps: Mobile Push Notifications - Never",
+    "name": "RN apps: Mobile Push Notifications - Nothing",
     "slug": "suite/notifications/mm-t533"
   },
   "suite/notifications/mm-t562": {
@@ -10934,7 +11482,7 @@
     "slug": "suite/notifications/mm-t527"
   },
   "suite/notifications/mm-t494": {
-    "name": "Send Desktop Notifications - Only mentions and DMs",
+    "name": "Send Desktop Notifications - Only mentions, DMs and group messages",
     "slug": "suite/notifications/mm-t494"
   },
   "suite/notifications/toast/mm-t4069": {
@@ -11356,10 +11904,6 @@
   "desktop-app--native-specific-/settings/mm-t4396": {
     "name": "Setting (Windows and Mac) - Show red badge on taskbar icon to indicate unread messages",
     "slug": "desktop-app--native-specific-/settings/mm-t4396"
-  },
-  "desktop-app--native-specific-/settings/mm-t1288": {
-    "name": "Keyboard Shortcuts in Settings Page",
-    "slug": "desktop-app--native-specific-/settings/mm-t1288"
   },
   "desktop-app--native-specific-/settings/mm-t4397": {
     "name": "Setting - Check spelling",
@@ -11897,6 +12441,18 @@
     "name": "Verify True up metrics is shared when Telemetry is off on a Non-air gapped instance",
     "slug": "self-hosted/true-up-support/mm-t5373"
   },
+  "self-hosted/user-limits/mm-t5571": {
+    "name": "Unlicensed Enterprise and Team Edition should not be able to create or signup new users when instance already has 11,000 users",
+    "slug": "self-hosted/user-limits/mm-t5571"
+  },
+  "self-hosted/user-limits/mm-t5518": {
+    "name": "Air-gapped instance should show global banner and Learn more button",
+    "slug": "self-hosted/user-limits/mm-t5518"
+  },
+  "self-hosted/user-limits/mm-t5519": {
+    "name": "Unlicensed Enterprise and Team Edition should show a non-dismissible global banner when instance has active users more than 10,000",
+    "slug": "self-hosted/user-limits/mm-t5519"
+  },
   "self-hosted/in-product-purchase/mm-t5371": {
     "name": "Self-Hosted | Manually apply license after successful in-product purchase",
     "slug": "self-hosted/in-product-purchase/mm-t5371"
@@ -11920,6 +12476,14 @@
   "self-hosted/in-product-purchase/mm-t5372": {
     "name": "Self-Hosted | Air Gapped Instances | Verify admin should not see purchase modal",
     "slug": "self-hosted/in-product-purchase/mm-t5372"
+  },
+  "zephyr-reflect-ai-testing/mm-t5594": {
+    "name": "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
+    "slug": "zephyr-reflect-ai-testing/mm-t5594"
+  },
+  "zephyr-reflect-ai-testing/mm-t5595": {
+    "name": "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)",
+    "slug": "zephyr-reflect-ai-testing/mm-t5595"
   },
   "mobile-app--native-specific-/mm-t3271": {
     "name": "RN apps: Open app via push notification (from background)",
@@ -12105,6 +12669,10 @@
     "name": "RN apps: Log in - Email / password",
     "slug": "mobile-app--native-specific-/mm-t3179"
   },
+  "mobile-app--native-specific-/mm-t5616": {
+    "name": "iPad sanity check",
+    "slug": "mobile-app--native-specific-/mm-t5616"
+  },
   "mobile-app--native-specific-/mm-t2988": {
     "name": "RN apps: Deep link in mobile",
     "slug": "mobile-app--native-specific-/mm-t2988"
@@ -12190,7 +12758,7 @@
     "slug": "mobile-app--native-specific-/mm-t3212"
   },
   "mobile-app--native-specific-/mm-t3183": {
-    "name": "RN apps: Log in - OAuth SSO",
+    "name": "RN apps: Log in - OpenID SSO (formerly OAuth)",
     "slug": "mobile-app--native-specific-/mm-t3183"
   },
   "mobile-app--native-specific-/mm-t3243": {
@@ -12286,7 +12854,7 @@
     "slug": "mobile-app--native-specific-/mm-t3186"
   },
   "mobile-app--native-specific-/mm-t2943": {
-    "name": "(Tablet iPad) System Console",
+    "name": "(Tablet iPad) System Console can scroll",
     "slug": "mobile-app--native-specific-/mm-t2943"
   },
   "mobile-app--native-specific-/mm-t3196": {
@@ -12453,13 +13021,37 @@
     "name": "Advanced - Scroll position when viewing an unread channel",
     "slug": "channels/settings/advanced/mm-t4873"
   },
+  "channels/settings/mm-t5460": {
+    "name": "Highlight Keywords without notifications | Should highlight pharases set by logged in user",
+    "slug": "channels/settings/mm-t5460"
+  },
   "channels/settings/mm-t3855": {
     "name": "Settings Display Theme - Settings View",
     "slug": "channels/settings/mm-t3855"
   },
+  "channels/settings/mm-t5464": {
+    "name": "User Login | Verify Highlight Keywords without notifications is available only for Professional license",
+    "slug": "channels/settings/mm-t5464"
+  },
+  "channels/settings/mm-t5465": {
+    "name": "Highlight Keywords without notifications | Should highlight phrases set by logged in user",
+    "slug": "channels/settings/mm-t5465"
+  },
+  "channels/settings/mm-t5461": {
+    "name": "Highlight Keywords without notifications | Should be able to add a long phrase and word by pressing Tab or Comma",
+    "slug": "channels/settings/mm-t5461"
+  },
   "channels/settings/mm-t3853": {
     "name": "Custom Theme - Sidebar Styles",
     "slug": "channels/settings/mm-t3853"
+  },
+  "channels/settings/mm-t5462": {
+    "name": "Highlight Keywords without notifications | Verify if the Highlight Feature is working previously posted messages",
+    "slug": "channels/settings/mm-t5462"
+  },
+  "channels/settings/mm-t5463": {
+    "name": "Admin Login | Verify Highlight Keywords without notifications is available only for Professional license",
+    "slug": "channels/settings/mm-t5463"
   },
   "channels/settings/display/mm-t2109": {
     "name": "Display Language: Türkçe",
@@ -12600,6 +13192,14 @@
   "channels/settings/mm-t4379": {
     "name": "Display: Click to open threads",
     "slug": "channels/settings/mm-t4379"
+  },
+  "channels/settings/mm-t5459": {
+    "name": "Verify Highlight Keywords without notifications is available only for Professional license",
+    "slug": "channels/settings/mm-t5459"
+  },
+  "channels/edited-post/mm-t5537": {
+    "name": "View message edit history and restore previous versions",
+    "slug": "channels/edited-post/mm-t5537"
   },
   "channels/edited-post/mm-t4967": {
     "name": "Closing RHS should not close edited post in centre channel",
@@ -13559,6 +14159,10 @@
   "channels/permalink-preview/mm-t4302": {
     "name": "Permalink Preview - Short Text - Hover Post",
     "slug": "channels/permalink-preview/mm-t4302"
+  },
+  "channels/permalink-preview/mm-t5526": {
+    "name": "Non-channel-admin users can use message links in private channels",
+    "slug": "channels/permalink-preview/mm-t5526"
   },
   "channels/permalink-preview/mm-t4326": {
     "name": "Permalink Preview - DM permalink to public/private channel",
@@ -15533,6 +16137,74 @@
     "name": "Negative after: filter",
     "slug": "channels/search-date-filter/mm-t609"
   },
+  "channels/bookmarks-bar/mm-t5609": {
+    "name": "Bookmark bar displays correctly below the channel header when other banners are present",
+    "slug": "channels/bookmarks-bar/mm-t5609"
+  },
+  "channels/bookmarks-bar/mm-t5599": {
+    "name": "Bookmark Bar is NOT shown on FREE Edition",
+    "slug": "channels/bookmarks-bar/mm-t5599"
+  },
+  "channels/bookmarks-bar/mm-t5608": {
+    "name": "Add a bookmark with an invalid link/URL",
+    "slug": "channels/bookmarks-bar/mm-t5608"
+  },
+  "channels/bookmarks-bar/mm-t5603": {
+    "name": "Add a bookmark file",
+    "slug": "channels/bookmarks-bar/mm-t5603"
+  },
+  "channels/bookmarks-bar/mm-t5613": {
+    "name": "Bookmark files are searchable and display in Search Result 'Files' in the RHS",
+    "slug": "channels/bookmarks-bar/mm-t5613"
+  },
+  "channels/bookmarks-bar/mm-t5607": {
+    "name": "Revert favicon from emoji to default favicon",
+    "slug": "channels/bookmarks-bar/mm-t5607"
+  },
+  "channels/bookmarks-bar/mm-t5606": {
+    "name": "Change the favicon icon of a bookmark",
+    "slug": "channels/bookmarks-bar/mm-t5606"
+  },
+  "channels/bookmarks-bar/mm-t5602": {
+    "name": "Add a bookmark link",
+    "slug": "channels/bookmarks-bar/mm-t5602"
+  },
+  "channels/bookmarks-bar/mm-t5612": {
+    "name": "Scrollbar appears when bookmarks bar view in channel is at it's limit",
+    "slug": "channels/bookmarks-bar/mm-t5612"
+  },
+  "channels/bookmarks-bar/mm-t5605": {
+    "name": "A fallback bookmark icon is used If no favicon is found for the link/file added",
+    "slug": "channels/bookmarks-bar/mm-t5605"
+  },
+  "channels/bookmarks-bar/mm-t5615": {
+    "name": "Only users with 'manage bookmark' permissions can add, edit, delete or re-order bookmarks",
+    "slug": "channels/bookmarks-bar/mm-t5615"
+  },
+  "channels/bookmarks-bar/mm-t5601": {
+    "name": "Bookmarks Bar appears below the channel header even if you don't have any bookmarks",
+    "slug": "channels/bookmarks-bar/mm-t5601"
+  },
+  "channels/bookmarks-bar/mm-t5611": {
+    "name": "Open a bookmark URL/link (External and Internal links)",
+    "slug": "channels/bookmarks-bar/mm-t5611"
+  },
+  "channels/bookmarks-bar/mm-t5600": {
+    "name": "Bookmarks Bar IS shown on Enterprise and Professional licensed servers",
+    "slug": "channels/bookmarks-bar/mm-t5600"
+  },
+  "channels/bookmarks-bar/mm-t5610": {
+    "name": "Edit a bookmark",
+    "slug": "channels/bookmarks-bar/mm-t5610"
+  },
+  "channels/bookmarks-bar/mm-t5604": {
+    "name": "As soon as the user enters a link/file, the favicon image is displayed and the bookmark title is automatically filled",
+    "slug": "channels/bookmarks-bar/mm-t5604"
+  },
+  "channels/bookmarks-bar/mm-t5614": {
+    "name": "Files from deleted FILE-type bookmarks are no longer searchable / displayed in Search results",
+    "slug": "channels/bookmarks-bar/mm-t5614"
+  },
   "channels/channel-settings/mm-t859": {
     "name": "Join/leave messages (including combined): Usernames are links, open profile popovers",
     "slug": "channels/channel-settings/mm-t859"
@@ -15740,6 +16412,30 @@
   "channels/message-priority/mm-t5140": {
     "name": "Message Priority: Important message priority",
     "slug": "channels/message-priority/mm-t5140"
+  },
+  "channels/move-threads/mm-t5514": {
+    "name": "Move a post from GM",
+    "slug": "channels/move-threads/mm-t5514"
+  },
+  "channels/move-threads/mm-t5511": {
+    "name": "Move a post from Private channel",
+    "slug": "channels/move-threads/mm-t5511"
+  },
+  "channels/move-threads/mm-t5515": {
+    "name": "Move a post from one team to another",
+    "slug": "channels/move-threads/mm-t5515"
+  },
+  "channels/move-threads/mm-t5512": {
+    "name": "Move a post from DM",
+    "slug": "channels/move-threads/mm-t5512"
+  },
+  "channels/move-threads/mm-t5516": {
+    "name": "Should be able to move a threaded post less than or equal to the Max Thread Count Move Size",
+    "slug": "channels/move-threads/mm-t5516"
+  },
+  "channels/move-threads/mm-t5513": {
+    "name": "Move a post if user's email ending is in the domain to move threads",
+    "slug": "channels/move-threads/mm-t5513"
   },
   "channels/ada-accessibility/mm-t1498": {
     "name": "Prevent update on Cancel button",
@@ -16433,10 +17129,6 @@
   "channels/messaging/mm-t2204": {
     "name": "@ autocomplete from within edit modal",
     "slug": "channels/messaging/mm-t2204"
-  },
-  "channels/messaging/mm-t1663": {
-    "name": "RHS reply thread that has been scrolled up should not automatically scroll down after receiving a new message",
-    "slug": "channels/messaging/mm-t1663"
   },
   "channels/messaging/mm-t1441": {
     "name": "RN apps: Markdown table with text that wraps",
@@ -17565,7 +18257,7 @@
     "slug": "channels/keyboard-shortcuts/mm-t1267"
   },
   "channels/keyboard-shortcuts/mm-t4693": {
-    "name": "CTRL/CMD+(forward-slash)",
+    "name": "CTRL/CMD + SHIFT + (backslash)",
     "slug": "channels/keyboard-shortcuts/mm-t4693"
   },
   "channels/keyboard-shortcuts/mm-t1236": {

@@ -54,6 +54,7 @@
       "Add user from popover",
       "Archived Channels",
       "Autocomplete",
+      "Bookmarks Bar",
       "Channel Info RN Apps",
       "Channel menu",
       "Channel Settings",
@@ -74,6 +75,7 @@
       "Message Priority",
       "Messaging",
       "Mobile App Settings",
+      "Move Threads",
       "Multi-Team and DMs",
       "Permalink Preview",
       "Profile Settings",
@@ -110,6 +112,7 @@
       "Customer Portal",
       "Delete Workspace",
       "In-product Renewal",
+      "IP Filtering",
       "RHS",
       "Signup Trial and Upgrade",
       "Starter Plan",
@@ -218,9 +221,11 @@
   {
     "parent": "plugins",
     "folders": [
+      "Attachment Remover",
       "AutoLink",
       "aws-sms",
       "Bitbucket",
+      "Bulk Invite",
       "Circle-CI",
       "Confluence",
       "Custom Attributes",
@@ -291,17 +296,25 @@
   {
     "parent": "plugins/ms-teams-sync",
     "folders": [
-      "Attachments",
+      "attachments-sync",
+      "Bot messages",
       "Mentions",
       "Message Edit",
       "Message sync",
-      "Plugin configs",
-      "Reactions",
-      "Replies",
+      "Mute unmute",
+      "plugin-configurations",
       "Slash commands",
-      "Text formatting"
+      "Text formatting",
+      "thread-replies",
+      "ui-integration",
+      "user-reactions"
     ]
   },
+  {
+    "parent": "plugins/ms-teams-sync/bot-messages",
+    "folders": ["connection-prompt", "file-attachments"]
+  },
+  { "parent": "plugins/nps-plugin", "folders": ["New NPS Plugin"] },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },
   {
@@ -322,6 +335,7 @@
       "mmctl",
       "Mobile App (native-specific)",
       "Mobile V2",
+      "Notification Test Tool",
       "Omnibus",
       "Playbooks",
       "Plugins",
@@ -329,10 +343,11 @@
       "Self-Hosted",
       "Smoke Tests",
       "Suite",
-      "Ticket coverage"
+      "Ticket coverage",
+      "Zephyr Reflect AI Testing"
     ]
   },
-  { "parent": "self-hosted", "folders": ["In product purchase", "True up support"] },
+  { "parent": "self-hosted", "folders": ["In product purchase", "True up support", "User limits"] },
   { "parent": "smoke-tests", "folders": ["WebApp"] },
   {
     "parent": "suite",
@@ -466,5 +481,8 @@
       "Users and Teams"
     ]
   },
-  { "parent": "suite/system-console/user-management", "folders": ["Users"] }
+  {
+    "parent": "suite/system-console/user-management",
+    "folders": ["Admin Control User Settings", "New UI", "Users"]
+  }
 ]
