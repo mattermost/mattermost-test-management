@@ -52,3 +52,4 @@ Steps:
 11. Verify the Scheduled message appears on the top.
 12. Go to the DM/GM/Channel where the draft was created.
 13. Verify the message post is not typed in the text box.
+14. Verify the `Message Scheduled for ..` is updated in the channel.
