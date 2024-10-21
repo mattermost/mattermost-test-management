@@ -5,16 +5,16 @@ status: Active
 priority: Smoke test
 folder: Mobile App (native-specific)
 authors: ""
-team_ownership: 
+team_ownership:
 - QA Platform
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
 location: Smoke Test
 component: null
-tags: 
+tags:
 - Smoke test
-labels: 
+labels:
 - RN_Smoke_Tests
 - smoke-test-folder
 - fix-versions-not-empty-2022cleanup
@@ -25,9 +25,9 @@ cypress: N/A
 detox: N/A
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Mobile
 
 # Do not change

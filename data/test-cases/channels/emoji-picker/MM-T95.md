@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Emoji picker
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 location: Messaging
 component: null
 tags: []
-labels: 
+labels:
 - TM4J-Key-Mapped-In-Cypress-Release
 - cy-prod
 - rf-cloud-webapp
@@ -25,11 +25,11 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - Webapp
 - Cloud
 - in Production
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change

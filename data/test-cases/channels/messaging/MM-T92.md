@@ -5,16 +5,16 @@ status: Active
 priority: Low
 folder: Messaging
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Messaging
 component: null
-tags: 
+tags:
 - Never tested
-labels: 
+labels:
 - No-Automated-Executions
 - TM4J-Key-Missing-In-Cypress
 - messaging
@@ -26,9 +26,9 @@ cypress: Update
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Desktop
 
 # Do not change
