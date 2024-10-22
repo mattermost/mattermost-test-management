@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -14,7 +14,7 @@ location: Add user to channel from popover
 component: null
 tags:
 - Cloud N/A
-labels: 
+labels:
 - cy-prod
 tested_by_contributor: ""
 
@@ -23,7 +23,7 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
 manual_test_environments:
 - Automated - No manual tests needed

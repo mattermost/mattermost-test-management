@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Messaging
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -14,7 +14,7 @@ location: Messaging
 component: null
 tags:
 - Never tested
-labels: 
+labels:
 - ios-only
 - messaging
 tested_by_contributor: ""
@@ -24,7 +24,7 @@ cypress: N/A
 detox: N/A
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - Mobile v1
 - Mobile V2 iOS
 - in Production

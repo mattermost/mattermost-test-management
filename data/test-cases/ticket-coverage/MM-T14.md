@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Ticket coverage
 authors: ""
-team_ownership: 
+team_ownership:
 - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Ticket coverage
 component: null
 tags: []
-labels: 
+labels:
 - se-prod
 tested_by_contributor: ""
 

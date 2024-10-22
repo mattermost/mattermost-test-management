@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Messaging
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 location: Messaging
 component: null
 tags: []
-labels: 
+labels:
 - No-Automated-Executions
 - messaging
 - cy-rep-missing-or-skipped
@@ -24,7 +24,7 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - Evaluating
 manual_test_environments:
 - Automated - No manual tests needed
