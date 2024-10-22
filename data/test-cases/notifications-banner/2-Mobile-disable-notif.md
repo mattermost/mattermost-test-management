@@ -1,13 +1,13 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Enable/Disabled notification on Mobile app"
+name: "Enable/Disable notification on Mobile app"
 status: Active
 priority: Normal
 folder: Notifications Banner
 authors: "@yasserfaraazkhan"
 team_ownership:
 - ICU
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: null

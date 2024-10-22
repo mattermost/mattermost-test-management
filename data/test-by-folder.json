@@ -3287,13 +3287,6 @@
     ]
   },
   {
-    "folder": "notifications-banner",
-    "tests": [
-      "Enable Desktop notification on Window/Mac/Ubuntu Desktop app",
-      "Enable/Disabled notification on Mobile app"
-    ]
-  },
-  {
     "folder": "notification-test-tool",
     "tests": [
       "Android app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app",
@@ -3302,6 +3295,13 @@
       "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
       "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
       "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app"
+    ]
+  },
+  {
+    "folder": "notifications-banner",
+    "tests": [
+      "Enable Desktop notification on Window/Mac/Ubuntu Desktop app",
+      "Enable/Disable notification on Mobile app"
     ]
   },
   {

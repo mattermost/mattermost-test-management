@@ -7,7 +7,7 @@ folder: Notifications Banner
 authors: "@yasserfaraazkhan"
 team_ownership:
 - ICU
-priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: null
@@ -35,7 +35,7 @@ steps_hashed: null
 
 **Step 1**
 
-### Scenario: User Enable's the desktop notifications
+### Scenario: User Enables the desktop notifications
 
 Steps:
 
@@ -52,7 +52,7 @@ Steps:
 11. Open Settings modal. Expand "Desktop and mobile notification section".
 12. Verify "Desktop notifications aren’t enabled" message is not visible anymore.
 
-### Scenario: User Deny's the desktop notifications on WINDOWS / MAC / Ubuntu OS
+### Scenario: User Denies the desktop notifications on WINDOWS / MAC / Ubuntu OS
 
 Steps:
 
@@ -64,14 +64,14 @@ Steps:
 6. Verify a confirmation pop up is shown with message `Mattermost(<Instance link>)  would like to send you notifications.`.
 7. **Deny** the notifications permissions.
 8. Receive a notification ping from another user.
-9. Verify the notification pop-up are not seen.
+9. Verify the notification pop-up is not seen.
 10. Verify the Global banner is not visible anymore.
 11. Open Settings modal.
 12. Verify a Alert tag is visible, saying "Permission required".
-13. Expand "Desktop and mobile notification section".
+13. Expand "Desktop and mobile notification" section.
 14. Verify "Desktop notifications permission was denied" message is visible. A buttons with text "Enable desktop notifications" and "How to enable notifications" are visible.
 
-### Scenario: User Deny's the desktop notifications on Browsers Chrome/Safari/Firefox/Edge
+### Scenario: User Denies the desktop notifications on Browsers Chrome/Safari/Firefox/Edge
 
 Steps:
 
