@@ -1,4 +1,6 @@
-import { dotEnvLoadSync, formatDate, sortBy } from '../deps.ts';
+import { sortBy } from '@std/collections';
+import { format as formatDate } from '@std/datetime';
+import { loadSync as dotEnvLoadSync } from '@std/dotenv';
 
 import { datetimeFormat, projectId, projectKey, waitTime } from './constant.ts';
 import { getParentFolderById, sliceIntoChunks, wait } from './helper.ts';

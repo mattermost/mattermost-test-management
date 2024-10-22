@@ -1,4 +1,5 @@
-import { findSingle, green, red, sortBy, yellow } from '../deps.ts';
+import { findSingle, sortBy } from '@std/collections';
+import { green, red, yellow } from '@std/fmt/colors';
 
 import { dataFolderPath, testCasesFolderFullPath } from './constant.ts';
 import { readFile, writeFile } from './file.ts';
