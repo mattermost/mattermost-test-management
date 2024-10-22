@@ -12,7 +12,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 # (Optional)
 location: Messaging
 component: null
-tags: 
+tags:
 - Never tested
 labels: 
 - No-Automated-Executions
@@ -28,7 +28,7 @@ mmctl: null
 playwright: null
 rainforest: 
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Desktop
 
 # Do not change

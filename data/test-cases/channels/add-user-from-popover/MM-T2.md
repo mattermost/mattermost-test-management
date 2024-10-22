@@ -12,7 +12,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 # (Optional)
 location: Add user to channel from popover
 component: null
-tags: 
+tags:
 - Cloud N/A
 labels: 
 - cy-prod
@@ -25,7 +25,7 @@ mmctl: null
 playwright: null
 rainforest: 
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
