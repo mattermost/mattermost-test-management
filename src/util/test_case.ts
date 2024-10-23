@@ -1,4 +1,7 @@
-import { findSingle, formatDate, red } from '../deps.ts';
+import { findSingle } from '@std/collections';
+import { format as formatDate } from '@std/datetime';
+import { red } from '@std/fmt/colors';
+
 import { changeRequired, dataFolderPath, datetimeFormat } from './constant.ts';
 import { writeFile } from './file.ts';
 import { htmlToMarkdown, markdownToHtml } from './markdown.ts';

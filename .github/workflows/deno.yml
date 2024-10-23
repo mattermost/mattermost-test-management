@@ -14,16 +14,16 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     steps:
       - name: Setup repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
-      - uses: denoland/setup-deno@v1
+      - uses: denoland/setup-deno@4606d5cc6fb3f673efd4f594850e3f4b3e9d29cd # v2.0.0
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Verify formatting
         run: deno task check
@@ -31,11 +31,11 @@ jobs:
       - name: Validate changes
         run: deno task validate
 
-      - name: Validate All
+      - name: Validate all
         run: deno task validate-all
 
       - name: Check spellings
-        uses: codespell-project/actions-codespell@master
+        uses: codespell-project/actions-codespell@406322ec52dd7b488e48c1c4b82e2a8b3a1bf630 # v2.1
         with:
           ignore_words_file: .codespellignore
           path: data
