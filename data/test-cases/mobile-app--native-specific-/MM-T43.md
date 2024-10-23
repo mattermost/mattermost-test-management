@@ -5,16 +5,16 @@ status: Active
 priority: Smoke test
 folder: Mobile App (native-specific)
 authors: ""
-team_ownership: 
+team_ownership:
 - QA Platform
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
 location: Smoke Test
 component: null
-tags: 
+tags:
 - Smoke test
-labels: 
+labels:
 - RN_Smoke_Tests
 - smoke-test-folder
 - fix-versions-not-empty-2022cleanup
@@ -25,9 +25,9 @@ cypress: N/A
 detox: N/A
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Mobile
 
 # Do not change
@@ -36,7 +36,7 @@ key: MM-T43
 created_on: "2019-09-04T21:03:12Z"
 last_updated: "2022-09-10T11:55:02Z"
 case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
-steps_hashed: 218a38d9d819fdcb85b919805cac9336690eacc6a6f146e43bde504f95535513c8387c9663a038ba6801361423417fc0
+steps_hashed: b3709c1392681dc0b815e30241977d11eea812dbaa4e8309ddc3472408c0ee3887097446bc9d74664fecd28832bdb2e3
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -459,13 +459,10 @@ Edit Header screen appears
 **Step 28**
 
 1. Type text in field
-
 2. Include a properly formatted link
-
    ```
    [Link example](https://mattermost.com)
    ```
-
 3. Tap Save in lower right corner
 
 **Expected**

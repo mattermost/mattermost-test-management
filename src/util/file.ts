@@ -1,4 +1,4 @@
-import { ensureFileSync } from '../deps.ts';
+import { ensureFileSync } from '@std/fs';
 
 export function writeFile(path: string, data: string): string {
   try {

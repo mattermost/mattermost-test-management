@@ -1,7 +1,8 @@
-import { esClient } from './deps.ts';
+import { Client as esClient } from 'npm:@elastic/elasticsearch';
+import grayMatter from 'npm:gray-matter';
+
 import { getFiles } from './util/helper.ts';
 import { testCasesFolderFullPath } from './util/constant.ts';
-import { grayMatter } from './deps.ts';
 
 const INDEX_NAME = 'test-cases';
 
@@ -27,12 +28,14 @@ const testCases = getFiles(testCasesFolderFullPath, 'md');
 
 for (const tc of testCases) {
   const { content, data } = grayMatter.read(tc);
-  await client.documents.index({
-    target: INDEX_NAME,
-    _id: data.id,
-    body: {
+  delete data.last_updated;
+
+  await client.index({
+    index: INDEX_NAME,
+    id: data.id,
+    document: {
       content,
-      ...data,
+      ...Object.fromEntries(Object.entries(data).filter(([_, v]) => v != null || v !== '')),
     },
   });
 }

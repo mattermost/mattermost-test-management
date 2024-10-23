@@ -1,7 +1,7 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env src/get_manifests.ts
 
-import { sortBy } from 'https://deno.land/std@0.154.0/collections/sort_by.ts';
-import { findSingle, walkSync } from './deps.ts';
+import { findSingle, sortBy } from '@std/collections';
+import { walkSync } from '@std/fs';
 
 import { dataFolderPath, testCasesFolderFullPath } from './util/constant.ts';
 import { readFile, writeFile } from './util/file.ts';
