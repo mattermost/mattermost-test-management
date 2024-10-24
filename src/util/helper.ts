@@ -1,4 +1,6 @@
-import { crypto, findSingle, walkSync } from '../deps.ts';
+import { findSingle } from '@std/collections';
+import { crypto } from '@std/crypto';
+import { walkSync } from '@std/fs';
 
 import { testCasesFolderFullPath } from './constant.ts';
 import { Folder, TestCase, TestStep } from './types.ts';
