@@ -10,7 +10,7 @@ team_ownership:
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
-location: null
+location: Messaging
 component: null
 tags: []
 labels: []
