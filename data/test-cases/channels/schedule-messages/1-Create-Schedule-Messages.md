@@ -120,3 +120,14 @@ Steps:
 4. Choose a pre-defined Date from the options.
 5. Go to Scheduled tab.
 6. Verify the newly scheduled message is visible with attachments in the Scheduled tab.
+
+### Scenario 8: Able to see User's timezome in the DM Channel when scheduling a message
+
+1. Log into User's account.
+2. Open a DM with User B.
+3. Verify User B's timezone is shown before post text box.
+4. Schedule a message dropdown.
+5. Verify below the options `Tomorrow at`, `Monday at` the User B's time is also displayed.
+6. Click on `Choose a custom time`.
+7. Select Date and time.
+8. Verify the User B's timezone is displayed on the schedule message modal.
