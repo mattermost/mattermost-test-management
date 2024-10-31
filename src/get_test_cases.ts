@@ -1,6 +1,6 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_test_cases.ts
+import { findSingle, sortBy } from '@std/collections';
 
-import { findSingle, sortBy } from './deps.ts';
 import {
   dataFolderPath,
   projectKey,

@@ -1597,6 +1597,18 @@
     ]
   },
   {
+    "folder": "channels/schedule-messages",
+    "tests": [
+      "Verify User can Delete a scheduled message in DM/GM/Channel",
+      "Verify User can Edit a scheduled message in DM/GM/Channel",
+      "Verify User can create a scheduled message from the Drafts Page",
+      "Verify User can create a scheduled message in DM/GM/Channel",
+      "Verify User can identify the cases for failed scheduled message",
+      "Verify User can remove scheduled setting from a scheduled message",
+      "Verify if the Failed scheduled message is sent out after server recovered from an outage issue"
+    ]
+  },
+  {
     "folder": "channels/scroll",
     "tests": [
       "Aspect Ratio is preserved in RHS",
@@ -3295,6 +3307,13 @@
       "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
       "WIN OS | User can generate test notification from a browser and verify on the Desktop and Mobile app",
       "iOS app | User can generate test notification from mobile app and verify on the Browser and Desktop and Mobile app"
+    ]
+  },
+  {
+    "folder": "notifications-banner",
+    "tests": [
+      "Enable Desktop notification on Window/Mac/Ubuntu Desktop app",
+      "Enable/Disable notification on Mobile app"
     ]
   },
   {

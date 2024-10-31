@@ -11,7 +11,7 @@ export default function GoToTestCase() {
 
   const handleSubmit = (e: Event) => {
     e.preventDefault();
-    window.location.href = `/test-case/${value}`;
+    globalThis.location.href = `/test-case/${value}`;
   };
 
   return (

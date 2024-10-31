@@ -4836,6 +4836,39 @@
         ]
       },
       {
+        "name": "Schedule Messages",
+        "routes": [
+          {
+            "name": "Verify User can create a scheduled message in DM/GM/Channel",
+            "file": "channels/schedule-messages/MM-T5643.md"
+          },
+          {
+            "name": "Verify User can Edit a scheduled message in DM/GM/Channel",
+            "file": "channels/schedule-messages/MM-T5644.md"
+          },
+          {
+            "name": "Verify User can Delete a scheduled message in DM/GM/Channel",
+            "file": "channels/schedule-messages/MM-T5645.md"
+          },
+          {
+            "name": "Verify User can identify the cases for failed scheduled message",
+            "file": "channels/schedule-messages/MM-T5646.md"
+          },
+          {
+            "name": "Verify if the Failed scheduled message is sent out after server recovered from an outage issue",
+            "file": "channels/schedule-messages/MM-T5647.md"
+          },
+          {
+            "name": "Verify User can create a scheduled message from the Drafts Page",
+            "file": "channels/schedule-messages/MM-T5648.md"
+          },
+          {
+            "name": "Verify User can remove scheduled setting from a scheduled message",
+            "file": "channels/schedule-messages/MM-T5649.md"
+          }
+        ]
+      },
+      {
         "name": "Scroll",
         "routes": [
           {
@@ -9204,6 +9237,20 @@
       {
         "name": "Verify System Admin Cannot access Test notification from `Manage User's setting` option in User management",
         "file": "notification-test-tool/MM-T5634.md"
+      }
+    ]
+  },
+  {
+    "name": "Notifications Banner",
+    "heading": true,
+    "routes": [
+      {
+        "name": "Enable Desktop notification on Window/Mac/Ubuntu Desktop app",
+        "file": "notifications-banner/MM-T5641.md"
+      },
+      {
+        "name": "Enable/Disable notification on Mobile app",
+        "file": "notifications-banner/MM-T5642.md"
       }
     ]
   },
