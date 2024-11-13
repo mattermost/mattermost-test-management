@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Verify User can Copy scheduled message contents"
+name: "Verify User can see most recent time used in the Send button dropdown option"
 status: Active
 priority: Normal
 folder: Schedule Messages
@@ -33,7 +33,7 @@ case_hashed: null
 steps_hashed: null
 ---
 
-### Scenario 1: Able to copy the contents of a scheduled message.
+### Scenario 1: Able to see most recent custom time when scheduling a message
 
 Steps:
 
@@ -41,9 +41,8 @@ Steps:
 2. Type a message in the GM/Channel post text box.
 3. Click on the Dropdown beside Send button.
 4. Click on `Choose a custom time`.
-5. Click On `Schedule` button with the default date and time of scheduled post.
-6. Go to Scheduled tab and verify the messages appears.
-7. Hover on the scheduled message.
-8. Click on `Copy` icon.
-9. Go to the channel and paste the copied content as a message.
-10. Verify the Scheduled message content and recent posted message content are same.
+5. Choose a future date and time.
+6. Click on scehdule button.
+7. Verify the message is scehduled.
+8. Compose another schedule message and click on the Dropdown beside Send button.
+9. Verify the user can see the recent custom Date and time used to schedule.
