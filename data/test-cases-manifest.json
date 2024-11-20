@@ -4836,35 +4836,47 @@
         ]
       },
       {
-        "name": "Schedule Messages",
+        "name": "Scheduled Messages",
         "routes": [
           {
             "name": "Verify User can create a scheduled message in DM/GM/Channel",
-            "file": "channels/schedule-messages/MM-T5643.md"
+            "file": "channels/scheduled-messages/MM-T5643.md"
           },
           {
             "name": "Verify User can Edit a scheduled message in DM/GM/Channel",
-            "file": "channels/schedule-messages/MM-T5644.md"
+            "file": "channels/scheduled-messages/MM-T5644.md"
           },
           {
             "name": "Verify User can Delete a scheduled message in DM/GM/Channel",
-            "file": "channels/schedule-messages/MM-T5645.md"
+            "file": "channels/scheduled-messages/MM-T5645.md"
           },
           {
             "name": "Verify User can identify the cases for failed scheduled message",
-            "file": "channels/schedule-messages/MM-T5646.md"
+            "file": "channels/scheduled-messages/MM-T5646.md"
           },
           {
             "name": "Verify if the Failed scheduled message is sent out after server recovered from an outage issue",
-            "file": "channels/schedule-messages/MM-T5647.md"
+            "file": "channels/scheduled-messages/MM-T5647.md"
           },
           {
             "name": "Verify User can create a scheduled message from the Drafts Page",
-            "file": "channels/schedule-messages/MM-T5648.md"
+            "file": "channels/scheduled-messages/MM-T5648.md"
           },
           {
             "name": "Verify User can remove scheduled setting from a scheduled message",
-            "file": "channels/schedule-messages/MM-T5649.md"
+            "file": "channels/scheduled-messages/MM-T5649.md"
+          },
+          {
+            "name": "Verify User can Copy scheduled message contents",
+            "file": "channels/scheduled-messages/MM-T5650.md"
+          },
+          {
+            "name": "Verify User can see most recent time used in the Send button dropdown option",
+            "file": "channels/scheduled-messages/MM-T5651.md"
+          },
+          {
+            "name": "Verify User schedule a message in a shared channel",
+            "file": "channels/scheduled-messages/MM-T5652.md"
           }
         ]
       },
