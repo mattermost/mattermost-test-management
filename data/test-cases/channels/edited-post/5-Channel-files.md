@@ -44,3 +44,20 @@ Steps:
 5. Restore the version of the post that does not have the attachment.
 6. Verify the post is updated. The files are not visible to other users.
 7. Verify the Channel files do not have the attachment anymore.
+
+### Scenario 1: Verify the User deleted files are not accessible by Sysadmin through file's public link.
+
+Preconditions:
+
+- Enable Public link to the files.
+
+Steps:
+
+1. Verify the attachment is visible in Channel files.
+2. Navigate to a post that was edited with new attachments.
+3. Copy the public link of the files and past it in the channel.
+4. Edit the Post and remove attachments.
+5. Verify the post is updated. The files are not visible to other users.
+6. Verify the Channel files do not have the attachment anymore.
+7. Click on the public file link shared in the channel.
+8. Verify User and System admin both see File not found error.

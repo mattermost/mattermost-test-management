@@ -37,18 +37,17 @@ steps_hashed: null
 
 Steps:
 
-1. Navigate to a channel post.
+1. Navigate to a Channel/Gm/DM where current user has a post to edit.
 2. Click the "Edit" option in the post actions menu.
 3. Use the "Attach" button (paperclip icon) to upload a file.
 4. Save the edited post.
 5. Verify the attachment is visible.
-6. Verify a `Added today` label is shown.
 
 ### Scenario 2: User should be able to drag and drop attachments while editing a post.
 
 Steps:
 
-1. Navigate to a channel post.
+1. Navigate to a Channel/Gm/DM where current user has a post to edit.
 2. Click the "Edit" option in the post actions menu.
 3. Drag and drop a file into the editable area.
 4. Verify the attachment is visible.
@@ -57,7 +56,7 @@ Steps:
 
 Steps:
 
-1. Navigate to a threaded post in a channel.
+1. Navigate to a Channel/Gm/DM where current user has a threaded post to edit.
 2. Click the "Edit" option in the post actions menu.
 3. Use the "Attach" button (paperclip icon) to upload a file or drag and drop a file into the editable area.
 4. Save the edited post.

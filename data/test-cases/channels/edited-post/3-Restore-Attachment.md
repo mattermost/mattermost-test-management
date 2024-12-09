@@ -57,6 +57,7 @@ Steps:
 4. Restore the version of the post that does not have the attachment.
 5. Verify the post is updated. The files are not visible to other users.
 6. Verify the file public link shows a file not found error.
+   - From Admin account, verify the file public link shows a file not found error.
 
 ### Scenario 3: Verify the files do not show under Channel files.
 

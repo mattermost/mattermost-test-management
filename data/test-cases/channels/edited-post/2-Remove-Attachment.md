@@ -39,13 +39,11 @@ Preconditions: A post with at least one attachment exists.
 
 Steps:
 
-1. Navigate to a post with an attachment.
+1. Navigate to a Channel/Gm/DM where current user has a post with attachment to edit.
 2. Click "Edit" in the post actions menu.
 3. Remove the attachment by clicking the delete icon (X) on the attachment thumbnail.
 4. Verify a confirmation modal pops up.
 5. Click on the `Delete` button.
 6. Save the edited post.
 7. Verify the attachment is not visible.
-8. Verify a message `Attachment deleted` is shown.
-   - If multiple attachments are deleted, the message should indicate `<Number of> attachments deleted`.
-9. Hover on the label, and verify a tooltip with attachment names is displayed.
+8. Hover on the label, and verify a tooltip with attachment names is displayed.
