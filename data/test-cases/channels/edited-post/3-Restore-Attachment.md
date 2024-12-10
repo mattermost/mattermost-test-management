@@ -45,7 +45,7 @@ Steps:
 4. Restore the version of the post that does not have the attachment.
 5. Verify the post is updated. The files are not visible to other users.
 
-### Scenario 2: Verify public links do not work.
+### Scenario 2: Verify public links do not work once the retention policy date is passed.
 
 Preconditions: A post with at least one attachment exists. Enable Public link for the attachment.
 
@@ -71,7 +71,7 @@ Steps:
 6. Verify the post is updated. The files are not visible to other users.
 7. Verify the Channel files do not have the attachment anymore.
 
-### Scenario 4: Verify user can see an alert when Data retention is enabled.
+### Scenario 4: Verify user cannot see the post and file in the edit history if the data retension policy date has past.
 
 Preconditions:
 
@@ -82,6 +82,4 @@ Preconditions:
 Steps:
 
 1. Navigate to the post and open the Edit version panel.
-2. Hover on the version that is past the retention day set.
-3. Verify an alert icon is visible with a tooltip saying `<attachment name> was deleted and cannot be restored due to Data retention policies`.
-4. Verify the user can restore a post but not the attachment files.
+2. Verify the user cannot see the post and files of an edit version beyoud data retention date.
