@@ -55,7 +55,7 @@ Steps:
 
 1. Verify the attachment is visible in Channel files.
 2. Navigate to a post that was edited with new attachments.
-3. Copy the public link of the files and past it in the channel.
+3. Copy the public link of the files and paste it in the channel.
 4. Edit the Post and remove attachments.
 5. Verify the post is updated. The files are not visible to other users.
 6. Verify the Channel files do not have the attachment anymore.

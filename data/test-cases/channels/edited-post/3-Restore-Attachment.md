@@ -71,7 +71,7 @@ Steps:
 6. Verify the post is updated. The files are not visible to other users.
 7. Verify the Channel files do not have the attachment anymore.
 
-### Scenario 4: Verify user cannot see the post and file in the edit history if the data retension policy date has past.
+### Scenario 4: Verify user cannot see the post and file in the edit history if the data retention policy date has past.
 
 Preconditions:
 
@@ -82,4 +82,4 @@ Preconditions:
 Steps:
 
 1. Navigate to the post and open the Edit version panel.
-2. Verify the user cannot see the post and files of an edit version beyoud data retention date.
+2. Verify the user cannot see the post and files of an edit version beyond data retention date.
