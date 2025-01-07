@@ -321,7 +321,7 @@ export function markdownToTestCase(file: string): TestCase {
     objective: objective,
     precondition: precondition,
     estimatedTime: null,
-    labels:data.labels,
+    labels: data.labels,
     componentName: data.component,
     priorityName: data.priority,
     statusName: data.status,
