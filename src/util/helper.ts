@@ -183,7 +183,7 @@ function reorganizeTestCaseFields(testCase: TestCase) {
     objective: testCase.objective,
     precondition: testCase.precondition,
     estimatedTime: testCase.estimatedTime,
-    labels:testCase.labels,
+    labels: testCase.labels,
     componentName: testCase.componentName,
     priorityName: testCase.priorityName,
     statusName: testCase.statusName,

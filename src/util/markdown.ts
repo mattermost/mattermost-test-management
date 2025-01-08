@@ -24,14 +24,14 @@ status: ${testCase.statusName}
 priority: ${testCase.priorityName}
 folder: ${testCase.folderName}
 authors: ${renderString(testCase.customFields.Authors)}
-team_ownership:${renderArray(testCase.customFields['Team Ownership'])}
+team_ownership: ${renderArray(testCase.customFields['Team Ownership'])}
 priority_p1_to_p4: ${testCase.customFields['Priority P1 to P4']}
 
 # (Optional)
 location: ${testCase.customFields.Location}
 component: ${testCase.componentName}
-tags:${renderArray(testCase.customFields.Tags)}
-labels:${renderArray(testCase.labels)}
+tags: ${renderArray(testCase.customFields.Tags)}
+labels: ${renderArray(testCase.labels)}
 tested_by_contributor: ${renderString(testCase.customFields['Tested By Contributor'])}
 
 # (Optional) Test type and tools
@@ -39,8 +39,8 @@ cypress: ${testCase.customFields.Cypress}
 detox: ${testCase.customFields.Detox}
 mmctl: ${testCase.customFields.MMCTL}
 playwright: ${testCase.customFields.Playwright}
-rainforest:${renderArray(testCase.customFields.Rainforest)}
-manual_test_environments:${renderArray(testCase.customFields['Manual Test Environments'])}
+rainforest: ${renderArray(testCase.customFields.Rainforest)}
+manual_test_environments: ${renderArray(testCase.customFields['Manual Test Environments'])}
 
 # Do not change
 id: ${testCase.id || null}
@@ -321,7 +321,7 @@ export function markdownToTestCase(file: string): TestCase {
     objective: objective,
     precondition: precondition,
     estimatedTime: null,
-    labels:data.labels,
+    labels: data.labels,
     componentName: data.component,
     priorityName: data.priority,
     statusName: data.status,

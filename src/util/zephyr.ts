@@ -63,7 +63,7 @@ export class ZephyrClient {
       priorityName: testCase.priorityName,
       statusName: testCase.statusName,
       folderId: testCase.folder?.id,
-      labels:testCase.labels,
+      labels: testCase.labels,
       customFields: {
         ...testCase.customFields,
         'Last Updated': formatDate(new Date(), datetimeFormat),
@@ -111,7 +111,7 @@ export class ZephyrClient {
       objective: testCase.objective,
       precondition: testCase.precondition,
       estimatedTime: testCase.estimatedTime,
-      labels:testCase.labels,
+      labels: testCase.labels,
       component: testCase.component,
       priority: { id: testCase.priority.id },
       status: { id: testCase.status.id },
@@ -580,7 +580,7 @@ export type TestCaseUpdate = {
   objective?: string | null;
   precondition?: string | null;
   estimatedTime?: number | null;
-  labels:string[];
+  labels: string[];
   component?: { id: number } | null;
   priority: { id: number };
   status: { id: number };

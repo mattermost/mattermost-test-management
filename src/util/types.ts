@@ -27,7 +27,7 @@ export type TestCase = {
   objective: string | null;
   precondition: string | null;
   estimatedTime?: number | null;
-  labels:string[];
+  labels: string[];
   component?: Component | null;
   componentName?: string | null;
   priority?: Priority;
