@@ -3223,6 +3223,7 @@
     "folder": "mobile-v2/drafts",
     "tests": [
       "Create drafts on mobile app",
+      "Create drafts on mobile app with Post Priority",
       "Delete drafts on mobile app",
       "Edit Drafts on mobile app",
       "Send Drafts on mobile app",
@@ -3238,6 +3239,20 @@
       "Should be able to send user invite",
       "Should handle both sent and not sent invites",
       "Should not be able to send user invite to user already in team"
+    ]
+  },
+  {
+    "folder": "mobile-v2/ipad-specific",
+    "tests": [
+      "Verify Enter key functionality with hardware keyboard",
+      "Verify call layout consistency on orientation change",
+      "Verify content scroll behavior on input focus with hardware keyboard",
+      "Verify layout behavior in split-screen mode",
+      "Verify modal closure by tapping outside",
+      "Verify navigation behavior when resizing the app",
+      "Verify the functionality of server icon tap",
+      "Verify the visibility of message priority action buttons",
+      "Verify visibility of call controls in landscape mode"
     ]
   },
   {
@@ -5255,7 +5270,7 @@
       "Back and Close buttons are clickable after the user has typed in an email address",
       "If guest accounts is not enabled, the option to invite guests is removed from the invitation flow",
       "Invite Guest via Email containing upper case letters",
-      "Invite Guests - Add Public and Private channels",
+      "Invite Guests - Add Public and Private channels https://app.rainforestqa.com/tests/447816",
       "Invite Guests - Custom Message",
       "Invite Guests - Existing Guest not on the team",
       "Invite Guests - Existing Member not on the team",
