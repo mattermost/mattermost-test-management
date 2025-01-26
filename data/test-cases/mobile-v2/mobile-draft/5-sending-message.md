@@ -41,18 +41,22 @@ Positive Scenarios
 
 **Step 2**
 
-### Scenario 2: Verify notifications or status updates after successful sending.
+### Scenario 2: Verify scheduled message info in the channel is updated after successfully sending message.
 
 **Step 3**
 
 ### Scenario 3: Validate that the message is removed from the "Scheduled" tab after being sent.
 
-Negative Scenarios
-
 **Step 4**
 
-### Scenario 4: Test behavior when the app is in the background or closed at the scheduled time.
+### Scenario 4: Validate that user can long press on a scheduled message and send it before its scheduled time.
+
+Negative Scenarios
 
 **Step 5**
 
-### Scenario 5: Simulate a failed sending scenario (e.g., network issues).
+### Scenario 5: Test behavior when the app is in the background or closed at the scheduled time.
+
+**Step 6**
+
+### Scenario 6: Simulate a failed sending scenario (e.g., network issues).

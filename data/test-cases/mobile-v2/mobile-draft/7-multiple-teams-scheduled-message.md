@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Rescheduled messages in mobile."
+name: "Schedule messages in different teams"
 status: Active
 priority: Normal
 folder: Mobile Draft
@@ -37,12 +37,4 @@ steps_hashed: null
 
 Positive Scenarios
 
-### Scenario 1: Verify the "Reschedule" action allows selecting a new time.
-
-**Step 2**
-
-### Scenario 2: Confirm the updated time is displayed correctly after rescheduling.
-
-**Step 3**
-
-### Scenario 3: Validate the confirmation message after successful rescheduling.
+### Scenario 1: Verify Scheduled messages are displayed only in the team channels they are created.

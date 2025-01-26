@@ -49,7 +49,7 @@ Positive Scenarios
 
 **Step 4**
 
-### Scenario 4: Verify tapping on a scheduled message opens the edit view.
+### Scenario 4: Verify long-press on a scheduled message opens the edit view.
 
 Negative Scenarios
 

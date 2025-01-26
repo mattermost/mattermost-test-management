@@ -47,12 +47,12 @@ Positive Scenarios
 
 ### Scenario 3: Confirm the message is no longer visible in the "Scheduled" tab after deletion.
 
-Negative Scenarios
-
 **Step 4**
 
-### Scenario 4: Test behavior when deleting a message during network interruptions.
+### Scenario 4: Verify scheduled message info in the channel is updated after successfully sending message.
+
+Negative Scenarios
 
 **Step 5**
 
-### Scenario 5: Attempt to delete a message that was already sent or canceled.
+### Scenario 5: Test behavior when deleting a message during network interruptions.
