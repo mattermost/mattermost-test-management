@@ -108,7 +108,6 @@ if (fileAndTestCaseToCreate.length) {
 
     const folder = findSingle(folders, (it) => it.fullPath === testCase.folderFullPath);
     const res = await zephyr.createTestCase({ ...testCase, folder });
-    console.log('****************', res);
     const createdTestCase = { ...testCase, id: res.id, key: res.key };
     testCases.push(createdTestCase);
 
