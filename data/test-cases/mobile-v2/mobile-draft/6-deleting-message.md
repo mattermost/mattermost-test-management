@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Deleting a scheduled messages in mobile."
+name: "Deleting a scheduled message"
 status: Active
 priority: Normal
 folder: Mobile Draft
@@ -46,6 +46,9 @@ Positive Scenarios
 **Step 3**
 
 ### Scenario 3: Confirm the message is no longer visible in the "Scheduled" tab after deletion.
+
+- Verify the scheduled message count is decreased.
+- Verify the on the Channle's page the scheduled message count is decreased.
 
 **Step 4**
 

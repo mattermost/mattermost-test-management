@@ -37,7 +37,13 @@ steps_hashed: null
 
 Positive Scenarios
 
-### Scenario 1: Verify the "Reschedule" action allows selecting a new time.
+### Scenario 1: Verify the "Reschedule" action allows selecting a new date and time.
+
+1. Open the message options and select "Reschedule".
+2. Choose a new date from the date picker.
+3. Select a new time from the time picker.
+4. Confirm the rescheduling action.
+5. Verify that the message displays the newly selected date and time.
 
 **Step 2**
 

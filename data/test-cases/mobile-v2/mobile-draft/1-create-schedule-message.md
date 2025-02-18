@@ -53,7 +53,7 @@ Positive Scenarios
 
 **Step 5**
 
-### Scenario 5: Verify the confirmation message appears after successfully scheduling a message.
+### Scenario 5: Verify the confirmation message e.g. "1 scheduled post in the channel" appears after successfully scheduling a message.
 
 Negative Scenarios
 
@@ -63,12 +63,8 @@ Negative Scenarios
 
 **Step 7**
 
-### Scenario 7: Try to schedule a message without selecting a time (expect an error or disabled button).
+### Scenario 7: Test invalid time inputs (e.g., past dates, invalid time format).
 
 **Step 8**
 
-### Scenario 8: Test invalid time inputs (e.g., past dates, invalid time format).
-
-**Step 9**
-
-### Scenario 9: Verify behavior when the device is offline during scheduling.
+### Scenario 8: Verify behavior when the device is offline during scheduling.

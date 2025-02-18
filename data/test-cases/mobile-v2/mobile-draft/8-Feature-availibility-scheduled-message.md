@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Sending scheduled messages in mobile."
+name: "Schedule Messages Availibity on Licensed instances"
 status: Active
 priority: Normal
 folder: Mobile Draft
@@ -37,22 +37,10 @@ steps_hashed: null
 
 Positive Scenarios
 
-### Scenario 1: Ensure a scheduled message is sent automatically at the specified time.
+### Scenario 1: Verify Scheduled messages are not available for servers without a license.
 
 **Step 2**
 
-### Scenario 2: Verify scheduled message info in the channel is updated after successfully sending message.
-
-**Step 3**
-
-### Scenario 3: Validate that the message is removed from the "Scheduled" tab after being sent.
-
-**Step 4**
-
-### Scenario 4: Validate that user can long press on a scheduled message and send it before its scheduled time.
-
 Negative Scenarios
 
-**Step 5**
-
-### Scenario 5: Simulate a failed sending scenario (e.g., network issues).
+### Scenario 2: Verify Scheduled messages are not available when connecting to an older server that doesn't have Scheduled Messages feature. Server versions less than v10.3

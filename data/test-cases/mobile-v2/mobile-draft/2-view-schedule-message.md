@@ -39,6 +39,9 @@ Positive Scenarios
 
 ### Scenario 1: Ensure the "Drafts" page displays all scheduled messages.
 
+- Verify the scheduled messages displayed are from the current team.
+- Verify changing teams will display scheduled messages from that team's Channel/DM/GM.
+
 **Step 2**
 
 ### Scenario 2: Validate scheduled messages are sorted chronologically.
