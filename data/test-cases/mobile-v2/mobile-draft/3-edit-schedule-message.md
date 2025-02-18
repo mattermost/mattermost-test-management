@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Edit Scheduled message created."
+name: "User should be able to edit a scheduled message"
 status: Active
 priority: Normal
 folder: Mobile Draft

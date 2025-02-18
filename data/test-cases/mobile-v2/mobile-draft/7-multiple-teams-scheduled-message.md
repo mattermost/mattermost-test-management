@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Schedule messages in different teams"
+name: "User should be able to Schedule messages in different teams"
 status: Active
 priority: Normal
 folder: Mobile Draft

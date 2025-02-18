@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Deleting a scheduled message"
+name: "User should be able to delete a scheduled message"
 status: Active
 priority: Normal
 folder: Mobile Draft

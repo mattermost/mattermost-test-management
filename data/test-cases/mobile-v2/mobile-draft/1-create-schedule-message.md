@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Create Scheduled message in a Channel."
+name: "User should be able to create a scheduled message in a Channel."
 status: Active
 priority: Normal
 folder: Mobile Draft

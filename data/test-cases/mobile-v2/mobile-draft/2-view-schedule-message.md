@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "View Scheduled message created."
+name: "User should be able to view scheduled message"
 status: Active
 priority: Normal
 folder: Mobile Draft

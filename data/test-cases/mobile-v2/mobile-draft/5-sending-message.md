@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Sending scheduled messages in mobile."
+name: "User should be able to send a scheduled message"
 status: Active
 priority: Normal
 folder: Mobile Draft

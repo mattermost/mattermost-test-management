@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Schedule Messages Availibity on Licensed instances"
+name: "User should be able to verify scheduled message feature is available on Licensed instances"
 status: Active
 priority: Normal
 folder: Mobile Draft

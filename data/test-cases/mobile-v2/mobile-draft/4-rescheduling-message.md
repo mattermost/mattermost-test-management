@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Rescheduled messages in mobile."
+name: "User should be able to reschedule message"
 status: Active
 priority: Normal
 folder: Mobile Draft
