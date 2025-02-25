@@ -1433,6 +1433,10 @@
           {
             "name": "Only users with 'manage bookmark' permissions can add, edit, delete or re-order bookmarks",
             "file": "channels/bookmarks-bar/MM-T5615.md"
+          },
+          {
+            "name": "Cannot add, edit, reorder or delete bookmarks in an archived channel",
+            "file": "channels/bookmarks-bar/MM-T5725.md"
           }
         ]
       },
@@ -4164,6 +4168,7 @@
             "name": "Should handle mention counts correctly when marking a thread as unread and unfollowing it",
             "file": "channels/messaging/MM-T5671.md"
           },
+          { "name": "Post with Buttons (Theme Check)", "file": "channels/messaging/MM-T5672.md" },
           {
             "name": "At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment",
             "file": "channels/messaging/MM-T70.md"
@@ -9215,6 +9220,43 @@
           {
             "name": "Mobile V2: Messaging - Markdown Latex",
             "file": "mobile-v2/messaging/MM-T4900.md"
+          }
+        ]
+      },
+      {
+        "name": "Mobile Draft",
+        "routes": [
+          {
+            "name": "User should be able to create a scheduled message in a Channel.",
+            "file": "mobile-v2/mobile-draft/MM-T5726.md"
+          },
+          {
+            "name": "User should be able to view scheduled message",
+            "file": "mobile-v2/mobile-draft/MM-T5727.md"
+          },
+          {
+            "name": "User should be able to edit a scheduled message",
+            "file": "mobile-v2/mobile-draft/MM-T5728.md"
+          },
+          {
+            "name": "User should be able to reschedule message",
+            "file": "mobile-v2/mobile-draft/MM-T5729.md"
+          },
+          {
+            "name": "User should be able to send a scheduled message",
+            "file": "mobile-v2/mobile-draft/MM-T5730.md"
+          },
+          {
+            "name": "User should be able to delete a scheduled message",
+            "file": "mobile-v2/mobile-draft/MM-T5731.md"
+          },
+          {
+            "name": "User should be able to Schedule messages in different teams",
+            "file": "mobile-v2/mobile-draft/MM-T5732.md"
+          },
+          {
+            "name": "User should be able to verify scheduled message feature is available on Licensed instances",
+            "file": "mobile-v2/mobile-draft/MM-T5733.md"
           }
         ]
       },
