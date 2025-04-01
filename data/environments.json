@@ -14,9 +14,9 @@
     "name": "Browser in mobile view (narrow)",
     "description": "Use Developer mode on a desktop web browser to simulate a mobile sized view"
   },
-  { "id": 460076, "name": "Chrome", "description": "" },
+  { "id": 460076, "name": "Chrome", "description": null },
   { "id": 460078, "name": "Desktop app", "description": "Mac or Windows Mattermost desktop app" },
-  { "id": 460079, "name": "Firefox", "description": "" },
+  { "id": 460079, "name": "Firefox", "description": null },
   {
     "id": 460080,
     "name": "Firefox (in compact mode)",
@@ -38,9 +38,9 @@
     "name": "Chrome (dark theme)",
     "description": "Main menu → Account Settings → Display, select Mattermost Dark"
   },
-  { "id": 589377, "name": "Browser or Desktop app", "description": "" },
-  { "id": 590616, "name": "Safari", "description": "" },
-  { "id": 647401, "name": "Edge (on Windows)", "description": "" },
+  { "id": 589377, "name": "Browser or Desktop app", "description": null },
+  { "id": 590616, "name": "Safari", "description": null },
+  { "id": 647401, "name": "Edge (on Windows)", "description": null },
   {
     "id": 804406,
     "name": "Windows 10",
@@ -56,9 +56,9 @@
     "name": "Linux",
     "description": "Mostly used for Desktop app tests but also occasionally used for specific OS tests"
   },
-  { "id": 804798, "name": "Catalina", "description": "" },
-  { "id": 804970, "name": "macOS Mojave", "description": "" },
-  { "id": 804971, "name": "Windows 7", "description": "" },
+  { "id": 804798, "name": "Catalina", "description": null },
+  { "id": 804970, "name": "macOS Mojave", "description": null },
+  { "id": 804971, "name": "Windows 7", "description": null },
   { "id": 815005, "name": "iPadOS", "description": "Like an iPhone… only bigger" },
   {
     "id": 1014337,
@@ -228,8 +228,8 @@
     "name": "v1.43 May 2021 — 📱 Mobile app",
     "description": "Manual tests for v1.43 (May 2021) release"
   },
-  { "id": 1209354, "name": "v5.34 April 2021 — Browser or Desktop app", "description": "" },
-  { "id": 1209355, "name": "v5.35 May 2021 — Browser or Desktop app", "description": "" },
+  { "id": 1209354, "name": "v5.34 April 2021 — Browser or Desktop app", "description": null },
+  { "id": 1209355, "name": "v5.35 May 2021 — Browser or Desktop app", "description": null },
   {
     "id": 1223106,
     "name": "🚢 Portal (May 20)",
@@ -251,11 +251,15 @@
     "description": "(deprecated) Production Cypress test for Chrome browser against release with E20 license"
   },
   { "id": 1253678, "name": "ESR", "description": "esr.test.mattermost.com" },
-  { "id": 1253732, "name": "v1.44 June 2021 — 📱 Mobile app", "description": "" },
-  { "id": 1253733, "name": "v1.44 June 2021 — 📱 Mobile app (🤖 Android ONLY)", "description": "" },
-  { "id": 1253734, "name": "v1.44 June 2021 — 📱 Mobile app (🍎 iOS ONLY)", "description": "" },
-  { "id": 1265361, "name": "🚢 Portal (June 17) v2.10.3", "description": "" },
-  { "id": 1394738, "name": "🚢 Portal v2.11.0 (15 July, 2021)", "description": "" },
+  { "id": 1253732, "name": "v1.44 June 2021 — 📱 Mobile app", "description": null },
+  {
+    "id": 1253733,
+    "name": "v1.44 June 2021 — 📱 Mobile app (🤖 Android ONLY)",
+    "description": null
+  },
+  { "id": 1253734, "name": "v1.44 June 2021 — 📱 Mobile app (🍎 iOS ONLY)", "description": null },
+  { "id": 1265361, "name": "🚢 Portal (June 17) v2.10.3", "description": null },
+  { "id": 1394738, "name": "🚢 Portal v2.11.0 (15 July, 2021)", "description": null },
   {
     "id": 1430736,
     "name": "🚢 Portal v2.12.0 (August 5, 2021)",
@@ -266,18 +270,18 @@
     "name": "🚢 Portal v2.13.0 (August 24, 2021)",
     "description": "Fix for admins to generate licenses lower than 10 seats MM-36546"
   },
-  { "id": 1488235, "name": "☁️ Cloud (September 30)", "description": "" },
+  { "id": 1488235, "name": "☁️ Cloud (September 30)", "description": null },
   { "id": 1533194, "name": "🚢 Portal (September 16)", "description": "v2.13.2" },
-  { "id": 1570161, "name": "🚢 Portal v2.14.0 (September 29, 2021)", "description": "" },
-  { "id": 1599787, "name": "🚢 Portal v2.15.0 (October 12, 2021)", "description": "" },
+  { "id": 1570161, "name": "🚢 Portal v2.14.0 (September 29, 2021)", "description": null },
+  { "id": 1599787, "name": "🚢 Portal v2.15.0 (October 12, 2021)", "description": null },
   {
     "id": 1614710,
     "name": "🚢 Portal v2.15.1 (October 19, 2021)",
     "description": "Remove Enterprise pricing and self-serve option for on-prem and cloud purchases MM-39294"
   },
   { "id": 1644901, "name": "🚢 Portal v2.16.0 (October 28, 2021)", "description": "" },
-  { "id": 1650388, "name": "☁️ Cloud (November 10)", "description": "" },
-  { "id": 1650389, "name": "☁️ Cloud (November 24)", "description": "" },
+  { "id": 1650388, "name": "☁️ Cloud (November 10)", "description": null },
+  { "id": 1650389, "name": "☁️ Cloud (November 24)", "description": null },
   {
     "id": 1663385,
     "name": "🚢 Portal v2.16.1 (November 2021)",
@@ -351,7 +355,7 @@
     "name": "🚢 Portal v2.21.3 March 3, 2022",
     "description": "MM-42124, MM-41760, MM-42001, MM-41583 & MM-41566"
   },
-  { "id": 1936973, "name": "🚢 Portal v2.21.4 March 10, 2022", "description": "" },
+  { "id": 1936973, "name": "🚢 Portal v2.21.4 March 10, 2022", "description": null },
   {
     "id": 1995132,
     "name": "🚢 Portal v2.22.0 March 24, 2022",
@@ -378,9 +382,9 @@
     "description": "MM-42579, MM-43755, MM-42950, MM-43952, MM-44677 & MM-43445"
   },
   { "id": 2412864, "name": "🚢 Portal v2.26 (29 June 2022)", "description": "MM-44335 & MM-44350" },
-  { "id": 2484553, "name": "🚢 Portal v2.26.1", "description": "" },
-  { "id": 2524911, "name": "🚢 Portal v2.26.2 (21 July 2022)", "description": "" },
-  { "id": 2545127, "name": "🚢 Portal v2.26.3 (27 July 2022)", "description": "" },
+  { "id": 2484553, "name": "🚢 Portal v2.26.1", "description": null },
+  { "id": 2524911, "name": "🚢 Portal v2.26.2 (21 July 2022)", "description": null },
+  { "id": 2545127, "name": "🚢 Portal v2.26.3 (27 July 2022)", "description": null },
   { "id": 2634804, "name": "🚢 Portal v2.27.0 (15 August 2022)", "description": "" },
   { "id": 2669600, "name": "Cloud 8/25/22 -> v7.3", "description": "" },
   { "id": 2694450, "name": "Cloud 9/01/22 -> v7.3", "description": "" },
