@@ -201,6 +201,7 @@ function customFieldsValues() {
       'Server Platform',
       'Suite Users',
       'Web Platform',
+      'Workflows',
       'XYZ',
     ],
   };
