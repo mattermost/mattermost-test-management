@@ -8163,6 +8163,38 @@
     "name": "Customization Blank Privacy hides the link",
     "slug": "suite/system-console/site-configuration/customization/mm-t1035"
   },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/mm-t5746": {
+    "name": "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/mm-t5746"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/mm-t5745": {
+    "name": "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/mm-t5745"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5749": {
+    "name": "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5749"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5748": {
+    "name": "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5748"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5747": {
+    "name": "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5747"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5752": {
+    "name": "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5752"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5751": {
+    "name": "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5751"
+  },
+  "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5750": {
+    "name": "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
+    "slug": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/mm-t5750"
+  },
   "suite/system-console/site-configuration/emoji/mm-t1137": {
     "name": "Customization Emoji - false",
     "slug": "suite/system-console/site-configuration/emoji/mm-t1137"
@@ -18515,6 +18547,102 @@
   "channels/keyboard-shortcuts/mm-t1246": {
     "name": "CTRL/CMD+K - @ at beginning of username",
     "slug": "channels/keyboard-shortcuts/mm-t1246"
+  },
+  "channels/channel-banner/mm-t5759": {
+    "name": "Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+    "slug": "channels/channel-banner/mm-t5759"
+  },
+  "channels/channel-banner/mm-t5738": {
+    "name": "Channel banner text input supports basic markdown",
+    "slug": "channels/channel-banner/mm-t5738"
+  },
+  "channels/channel-banner/mm-t5739": {
+    "name": "Channel banner text input supports emoji",
+    "slug": "channels/channel-banner/mm-t5739"
+  },
+  "channels/channel-banner/mm-t5758": {
+    "name": "Channel banner text is truncated if it exceeds the available width and a tooltip shows the full text on hover",
+    "slug": "channels/channel-banner/mm-t5758"
+  },
+  "channels/channel-banner/mm-t5743": {
+    "name": "Error displays when channel banner is enabled but text field is left blank ",
+    "slug": "channels/channel-banner/mm-t5743"
+  },
+  "channels/channel-banner/mm-t5753": {
+    "name": "Default channel banner color is #DDDDDD",
+    "slug": "channels/channel-banner/mm-t5753"
+  },
+  "channels/channel-banner/mm-t5736": {
+    "name": "Channel banner default state is `disabled`",
+    "slug": "channels/channel-banner/mm-t5736"
+  },
+  "channels/channel-banner/mm-t5763": {
+    "name": "Mobile: Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+    "slug": "channels/channel-banner/mm-t5763"
+  },
+  "channels/channel-banner/mm-t5757": {
+    "name": "Channel banner appears as a horizontal bar at the top of the center channel",
+    "slug": "channels/channel-banner/mm-t5757"
+  },
+  "channels/channel-banner/mm-t5762": {
+    "name": "Channel banner remains pinned at the top as the user scrolls through the channel content",
+    "slug": "channels/channel-banner/mm-t5762"
+  },
+  "channels/channel-banner/mm-t5756": {
+    "name": "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
+    "slug": "channels/channel-banner/mm-t5756"
+  },
+  "channels/channel-banner/mm-t5742": {
+    "name": "Error displays when channel banner text exceeds the character limit",
+    "slug": "channels/channel-banner/mm-t5742"
+  },
+  "channels/channel-banner/mm-t5737": {
+    "name": "Channel banner text input accepts plain text",
+    "slug": "channels/channel-banner/mm-t5737"
+  },
+  "channels/channel-banner/mm-t5761": {
+    "name": "Mobile: Channel banner text is truncated if it exceeds the available width",
+    "slug": "channels/channel-banner/mm-t5761"
+  },
+  "channels/channel-banner/mm-t5755": {
+    "name": "Channel banner and text colors do not change if the user’s display theme changes",
+    "slug": "channels/channel-banner/mm-t5755"
+  },
+  "channels/channel-banner/mm-t5741": {
+    "name": "Channel banner does not render more complex markdown",
+    "slug": "channels/channel-banner/mm-t5741"
+  },
+  "channels/channel-banner/mm-t5765": {
+    "name": "Only admins can configure a channel banner",
+    "slug": "channels/channel-banner/mm-t5765"
+  },
+  "channels/channel-banner/mm-t5734": {
+    "name": "Channel banner can be enabled from Channel Settings > Settings",
+    "slug": "channels/channel-banner/mm-t5734"
+  },
+  "channels/channel-banner/mm-t5740": {
+    "name": "Links in channel banner are clickable",
+    "slug": "channels/channel-banner/mm-t5740"
+  },
+  "channels/channel-banner/mm-t5764": {
+    "name": "Channel banner text color changes automatically to ensure adequate contrast against the background color",
+    "slug": "channels/channel-banner/mm-t5764"
+  },
+  "channels/channel-banner/mm-t5735": {
+    "name": "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
+    "slug": "channels/channel-banner/mm-t5735"
+  },
+  "channels/channel-banner/mm-t5744": {
+    "name": "Channel banner color can be set using a HEX color code input",
+    "slug": "channels/channel-banner/mm-t5744"
+  },
+  "channels/channel-banner/mm-t5760": {
+    "name": "Mobile: Channel banner displays at the top of the channel with a single row of text ",
+    "slug": "channels/channel-banner/mm-t5760"
+  },
+  "channels/channel-banner/mm-t5754": {
+    "name": "Channel banner color picker functions correctly",
+    "slug": "channels/channel-banner/mm-t5754"
   },
   "channels/channels/mm-t3989": {
     "name": "Slow Typing test",

@@ -1441,6 +1441,107 @@
         ]
       },
       {
+        "name": "Channel Banner",
+        "routes": [
+          {
+            "name": "Channel banner can be enabled from Channel Settings > Settings",
+            "file": "channels/channel-banner/MM-T5734.md"
+          },
+          {
+            "name": "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
+            "file": "channels/channel-banner/MM-T5735.md"
+          },
+          {
+            "name": "Channel banner default state is `disabled`",
+            "file": "channels/channel-banner/MM-T5736.md"
+          },
+          {
+            "name": "Channel banner text input accepts plain text",
+            "file": "channels/channel-banner/MM-T5737.md"
+          },
+          {
+            "name": "Channel banner text input supports basic markdown",
+            "file": "channels/channel-banner/MM-T5738.md"
+          },
+          {
+            "name": "Channel banner text input supports emoji",
+            "file": "channels/channel-banner/MM-T5739.md"
+          },
+          {
+            "name": "Links in channel banner are clickable",
+            "file": "channels/channel-banner/MM-T5740.md"
+          },
+          {
+            "name": "Channel banner does not render more complex markdown",
+            "file": "channels/channel-banner/MM-T5741.md"
+          },
+          {
+            "name": "Error displays when channel banner text exceeds the character limit",
+            "file": "channels/channel-banner/MM-T5742.md"
+          },
+          {
+            "name": "Error displays when channel banner is enabled but text field is left blank ",
+            "file": "channels/channel-banner/MM-T5743.md"
+          },
+          {
+            "name": "Channel banner color can be set using a HEX color code input",
+            "file": "channels/channel-banner/MM-T5744.md"
+          },
+          {
+            "name": "Default channel banner color is #DDDDDD",
+            "file": "channels/channel-banner/MM-T5753.md"
+          },
+          {
+            "name": "Channel banner color picker functions correctly",
+            "file": "channels/channel-banner/MM-T5754.md"
+          },
+          {
+            "name": "Channel banner and text colors do not change if the user’s display theme changes",
+            "file": "channels/channel-banner/MM-T5755.md"
+          },
+          {
+            "name": "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
+            "file": "channels/channel-banner/MM-T5756.md"
+          },
+          {
+            "name": "Channel banner appears as a horizontal bar at the top of the center channel",
+            "file": "channels/channel-banner/MM-T5757.md"
+          },
+          {
+            "name": "Channel banner text is truncated if it exceeds the available width and a tooltip shows the full text on hover",
+            "file": "channels/channel-banner/MM-T5758.md"
+          },
+          {
+            "name": "Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+            "file": "channels/channel-banner/MM-T5759.md"
+          },
+          {
+            "name": "Mobile: Channel banner displays at the top of the channel with a single row of text ",
+            "file": "channels/channel-banner/MM-T5760.md"
+          },
+          {
+            "name": "Mobile: Channel banner text is truncated if it exceeds the available width",
+            "file": "channels/channel-banner/MM-T5761.md"
+          },
+          {
+            "name": "Channel banner remains pinned at the top as the user scrolls through the channel content",
+            "file": "channels/channel-banner/MM-T5762.md"
+          },
+          {
+            "name": "Mobile: Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+            "file": "channels/channel-banner/MM-T5763.md"
+          },
+          {
+            "name": "Channel banner text color changes automatically to ensure adequate contrast against the background color",
+            "file": "channels/channel-banner/MM-T5764.md"
+          },
+          {
+            "name": "Only admins can configure a channel banner",
+            "file": "channels/channel-banner/MM-T5765.md"
+          }
+        ]
+      },
+      {
         "name": "Channel Info RN Apps",
         "routes": [
           {
@@ -17752,6 +17853,53 @@
                   {
                     "name": "Public Links disabled",
                     "file": "suite/system-console/site-configuration/public-links/MM-T1146.md"
+                  }
+                ]
+              },
+              {
+                "name": "System Properties (Custom Profile Attributes)",
+                "routes": [
+                  {
+                    "name": "System Console",
+                    "routes": [
+                      {
+                        "name": "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5745.md"
+                      },
+                      {
+                        "name": "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5746.md"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "WebApp & Desktop App",
+                    "routes": [
+                      {
+                        "name": "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5747.md"
+                      },
+                      {
+                        "name": "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5748.md"
+                      },
+                      {
+                        "name": "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5749.md"
+                      },
+                      {
+                        "name": "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5750.md"
+                      },
+                      {
+                        "name": "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5751.md"
+                      },
+                      {
+                        "name": "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5752.md"
+                      }
+                    ]
                   }
                 ]
               },

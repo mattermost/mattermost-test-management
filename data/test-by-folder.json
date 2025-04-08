@@ -506,6 +506,35 @@
     ]
   },
   {
+    "folder": "channels/channel-banner",
+    "tests": [
+      "Channel banner and text colors do not change if the user’s display theme changes",
+      "Channel banner appears as a horizontal bar at the top of the center channel",
+      "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
+      "Channel banner can be enabled from Channel Settings > Settings",
+      "Channel banner color can be set using a HEX color code input",
+      "Channel banner color picker functions correctly",
+      "Channel banner default state is `disabled`",
+      "Channel banner does not render more complex markdown",
+      "Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+      "Channel banner remains pinned at the top as the user scrolls through the channel content",
+      "Channel banner text color changes automatically to ensure adequate contrast against the background color",
+      "Channel banner text input accepts plain text",
+      "Channel banner text input supports basic markdown",
+      "Channel banner text input supports emoji",
+      "Channel banner text is truncated if it exceeds the available width and a tooltip shows the full text on hover",
+      "Default channel banner color is #DDDDDD",
+      "Error displays when channel banner is enabled but text field is left blank",
+      "Error displays when channel banner text exceeds the character limit",
+      "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
+      "Links in channel banner are clickable",
+      "Mobile: Channel banner displays at the top of the channel with a single row of text",
+      "Mobile: Channel banner legible when displayed with server-wide announcement, bookmarks bar",
+      "Mobile: Channel banner text is truncated if it exceeds the available width",
+      "Only admins can configure a channel banner"
+    ]
+  },
+  {
     "folder": "channels/channel-info-rn-apps",
     "tests": [
       "RN apps: Add whitespace to channel name",
@@ -6227,6 +6256,24 @@
   {
     "folder": "suite/system-console/site-configuration/public-links",
     "tests": ["Public Link Salt - Regenerate", "Public Links disabled"]
+  },
+  {
+    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
+    "tests": [
+      "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
+      "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly"
+    ]
+  },
+  {
+    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
+    "tests": [
+      "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+      "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
+      "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
+      "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
+      "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
+      "User profile pop-over is scrollable and bottom bar in pop-over is locked in place"
+    ]
   },
   {
     "folder": "suite/system-console/site-configuration/users-and-teams",
