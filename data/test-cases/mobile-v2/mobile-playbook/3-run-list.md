@@ -6,7 +6,7 @@ priority: Normal
 folder: Mobile Playbook
 authors: "@yasserfaraazkhan"
 team_ownership:
-- Core Features team
+- Core Features
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
