@@ -56,10 +56,6 @@ _Related ticket(s):_
 
 [Unclear error message when attempting to update own email via System Console — MM-16727](https://mattermost.atlassian.net/browse/MM-16727)
 
-**Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566866937276-2019-08-26_20-48-35.png)
-
 **Expected**
 
 - The option to change your email address should **not** be present

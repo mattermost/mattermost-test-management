@@ -73,13 +73,11 @@ _Related ticket(s):_
 
 1. Enter a server URL\
    (e.g., <https://postgres.test.mattermost.com/>)
-2. Tap Next\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
+2. Tap Next
 
 **Expected**
 
-- Connected to server\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
+- Connected to server
 
 ---
 
@@ -98,12 +96,11 @@ Successfully logged in
 **Step 4**
 
 1. Type in the text field at the bottom of the app
-2. Tap the send icon![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png)
+2. Tap the send icon
 
 **Expected**
 
 Post accepted and added to messages just above text field\
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg)
 
 ---
 
@@ -111,12 +108,10 @@ Post accepted and added to messages just above text field\
 
 1. Tap the `...` ellipsis menu icon on the message you just posted
 2. Tap Edit in the modal window that appears\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
 
 **Expected**
 
 Edit Post window appears\
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg)
 
 ---
 
@@ -143,7 +138,6 @@ Tap Cancel
 - Returned to channel
 - Changes accepted and displayed
 - Greyed out "(edited)" text below message\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
 
 ---
 
@@ -152,8 +146,6 @@ Tap Cancel
 1. Click the comment arrow on a post
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg)
 
 **Expected**
 
@@ -168,8 +160,6 @@ Tap Cancel
 
 **Test Data**
 
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg)
-
 **Expected**
 
 - Comment added to message thread
@@ -183,8 +173,6 @@ Tap Cancel
 Tap < (back) button in top left corner
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg)
 
 **Expected**
 
@@ -204,9 +192,8 @@ _Related ticket(s):_
 
 **Test Data**
 
-**iOS** ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg)\
+**iOS**\
 Android\
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png)
 
 **Expected**
 
@@ -250,8 +237,6 @@ Android\
 
 **Test Data**
 
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg)
-
 **Expected**
 
 - Upload starts
@@ -262,14 +247,13 @@ Android\
 **Step 14**
 
 1. Verify image uploaded completely\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
+
 2. Add text if desired
 3. Tap send icon
 
 **Expected**
 
 - Image posted\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
 
 ---
 
@@ -277,13 +261,10 @@ Android\
 
 1. Tap the … ellipsis menu icon on a message
 2. Tap the Delete button in the modal window that appears\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
 
 **Expected**
 
 - Confirm Comment Delete window appears
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg)
 
 ---
 
@@ -319,8 +300,6 @@ Tap magnifying glass in top right corner
 
 **Test Data**
 
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg)
-
 **Expected**
 
 Search screen with instructions opens
@@ -332,8 +311,6 @@ Search screen with instructions opens
 Type in search term and tap search on keyboard
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg)
 
 **Expected**
 
@@ -349,8 +326,6 @@ Type in search term and tap search on keyboard
 Tap Jump button
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg)
 
 **Expected**
 
@@ -378,8 +353,6 @@ Returned to most recent post
 
 **Test Data**
 
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg)
-
 **Expected**
 
 Calendar appears
@@ -402,8 +375,6 @@ Date fills in in this format - "Before:2019-07-30"
 Tap Search
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg)
 
 **Expected**
 
@@ -432,8 +403,6 @@ Tap Search
 
 **Test Data**
 
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg)
-
 **Expected**
 
 - Brought to team
@@ -447,8 +416,6 @@ Tap Search
 2. Tap "Edit Channel Header" in menu that appears
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg)
 
 **Expected**
 
@@ -541,7 +508,7 @@ Tap Close
 **Step 34**
 
 1. Navigate to different channel
-2. Paste link in new post and tap send icon ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
+2. Paste link in new post and tap send icon
 
 _Related ticket(s):_
 
@@ -567,12 +534,10 @@ Brought to channel with post highlighted
 
 1. Tap ☰ menu icon in top **right**
 2. Tap Leave Team\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
 
 **Expected**
 
 - Confirmation screen opens\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
 
 ---
 
@@ -604,12 +569,10 @@ Brought to channel with post highlighted
 
 - Tap ☰ menu in top **right**
 - Tap Create a New Team\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
 
 **Expected**
 
 - Create new team page appears\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
 
 ---
 
@@ -621,7 +584,6 @@ Brought to channel with post highlighted
 **Expected**
 
 - Team URL page appears\
-  ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
 
 ---
 
@@ -733,8 +695,6 @@ Start typing name in text field
 4. Tap Pin to channel
 
 **Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg)
 
 **Expected**
 

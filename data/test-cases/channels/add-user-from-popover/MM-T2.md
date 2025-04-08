@@ -77,10 +77,6 @@ Step 5:
 1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 2. Click Add
 
-**Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png)
-
 **Expected**
 
 On step 1, System Scheme settings appear.\
