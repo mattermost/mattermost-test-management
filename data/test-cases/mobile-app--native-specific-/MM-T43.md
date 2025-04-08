@@ -36,7 +36,7 @@ key: MM-T43
 created_on: "2019-09-04T21:03:12Z"
 last_updated: "2022-09-10T11:55:02Z"
 case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
-steps_hashed: b3709c1392681dc0b815e30241977d11eea812dbaa4e8309ddc3472408c0ee3887097446bc9d74664fecd28832bdb2e3
+steps_hashed: 444672a5ed48ab50ec507d22980cf168adf9fca5d36baed49d93984e71621c6b3e6816c7e8addc300b61cc9dd8b66827
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -100,18 +100,18 @@ Successfully logged in
 
 **Expected**
 
-Post accepted and added to messages just above text field\
+Post accepted and added to messages just above text field\\
 
 ---
 
 **Step 5**
 
 1. Tap the `...` ellipsis menu icon on the message you just posted
-2. Tap Edit in the modal window that appears\
+2. Tap Edit in the modal window that appears\\
 
 **Expected**
 
-Edit Post window appears\
+Edit Post window appears\\
 
 ---
 
@@ -137,15 +137,13 @@ Tap Cancel
 
 - Returned to channel
 - Changes accepted and displayed
-- Greyed out "(edited)" text below message\
+- Greyed out "(edited)" text below message\\
 
 ---
 
 **Step 8**
 
 1. Click the comment arrow on a post
-
-**Test Data**
 
 **Expected**
 
@@ -158,8 +156,6 @@ Tap Cancel
 
 1. Tap Add Comment
 
-**Test Data**
-
 **Expected**
 
 - Comment added to message thread
@@ -171,8 +167,6 @@ Tap Cancel
 **Step 10**
 
 Tap < (back) button in top left corner
-
-**Test Data**
 
 **Expected**
 
@@ -193,7 +187,7 @@ _Related ticket(s):_
 **Test Data**
 
 **iOS**\
-Android\
+Android\\
 
 **Expected**
 
@@ -235,8 +229,6 @@ Android\
 3. Browse for photo
 4. Attach a photo to upload it
 
-**Test Data**
-
 **Expected**
 
 - Upload starts
@@ -246,21 +238,22 @@ Android\
 
 **Step 14**
 
-1. Verify image uploaded completely\
+1. Verify image uploaded completely\\
 
 2. Add text if desired
+
 3. Tap send icon
 
 **Expected**
 
-- Image posted\
+- Image posted\\
 
 ---
 
 **Step 15**
 
 1. Tap the … ellipsis menu icon on a message
-2. Tap the Delete button in the modal window that appears\
+2. Tap the Delete button in the modal window that appears\\
 
 **Expected**
 
@@ -298,8 +291,6 @@ Tap Cancel
 
 Tap magnifying glass in top right corner
 
-**Test Data**
-
 **Expected**
 
 Search screen with instructions opens
@@ -309,8 +300,6 @@ Search screen with instructions opens
 **Step 19**
 
 Type in search term and tap search on keyboard
-
-**Test Data**
 
 **Expected**
 
@@ -324,8 +313,6 @@ Type in search term and tap search on keyboard
 **Step 20**
 
 Tap Jump button
-
-**Test Data**
 
 **Expected**
 
@@ -351,8 +338,6 @@ Returned to most recent post
 1. Tap magnifying glass in top right corner again
 2. Type "Before:" in search field
 
-**Test Data**
-
 **Expected**
 
 Calendar appears
@@ -373,8 +358,6 @@ Date fills in in this format - "Before:2019-07-30"
 **Step 24**
 
 Tap Search
-
-**Test Data**
 
 **Expected**
 
@@ -401,8 +384,6 @@ Tap Search
 1. Tap ☰ menu in top **right** corner
 2. Tap "Join another Team"
 
-**Test Data**
-
 **Expected**
 
 - Brought to team
@@ -414,8 +395,6 @@ Tap Search
 
 1. Tap down arrow next to channel name at top
 2. Tap "Edit Channel Header" in menu that appears
-
-**Test Data**
 
 **Expected**
 
@@ -533,11 +512,11 @@ Brought to channel with post highlighted
 **Step 36**
 
 1. Tap ☰ menu icon in top **right**
-2. Tap Leave Team\
+2. Tap Leave Team\\
 
 **Expected**
 
-- Confirmation screen opens\
+- Confirmation screen opens\\
 
 ---
 
@@ -568,11 +547,11 @@ Brought to channel with post highlighted
 **Step 39**
 
 - Tap ☰ menu in top **right**
-- Tap Create a New Team\
+- Tap Create a New Team\\
 
 **Expected**
 
-- Create new team page appears\
+- Create new team page appears\\
 
 ---
 
@@ -583,7 +562,7 @@ Brought to channel with post highlighted
 
 **Expected**
 
-- Team URL page appears\
+- Team URL page appears\\
 
 ---
 
@@ -693,8 +672,6 @@ Start typing name in text field
 2. Tap name of public channel
 3. Tap … ellipsis menu icon next to post in list
 4. Tap Pin to channel
-
-**Test Data**
 
 **Expected**
 
