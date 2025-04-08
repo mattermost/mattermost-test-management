@@ -190,6 +190,7 @@ function customFieldsValues() {
       'Boards',
       'Calls',
       'Channels',
+      'Core Features',
       'Deployment Eng',
       'Growth',
       'ICU',
