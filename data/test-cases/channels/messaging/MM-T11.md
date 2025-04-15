@@ -59,10 +59,6 @@ _Important notes about this step:_
 A reference to the old testing spreadsheet was made on the bug ticket.\
 <https://docs.google.com/spreadsheets/d/1gW7i8uF3jd5wuHd5mJ7UdBQsMFVZwHKMXE7WOtlDa0k/edit#gid=1473839219&amp;range=C36>
 
-**Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1607622760486-Screen+Shot+2020-12-10+at+9.51.47+AM.png)
-
 **Expected**
 
 A preview of the animation should appear in the post

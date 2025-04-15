@@ -48,8 +48,7 @@ Consecutive message permalink - timestamp link on consecutive message opens perm
 –––––––––––––––––––––––––
 
 1. Post two consecutive messages in the center channel
-2. Click on the timestamp to the left of the second message in the center channel (hover your mouse to the left to reveal it)\
-   ![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1594390964662-1594390964661.png)
+2. Click on the timestamp to the left of the second message in the center channel (hover your mouse to the left to reveal it)
 
 **Expected**
 

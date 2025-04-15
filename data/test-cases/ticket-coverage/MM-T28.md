@@ -46,10 +46,6 @@ steps_hashed: fda9e0cbc434f6ec79612c2af4a913e76bf71466e98f38fe2bcc32a6df985b59b1
 3. Use a secondary account to post enough messages in Channel A that it fills up your screen
 4. Use a primary account to view Channel A
 
-**Test Data**
-
-![](https://cloudfront.tm4j.smartbear.com/tenant/ad722c15-e2a6-3788-82f3-92f99221f446/project/10302/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566960235728-Image+Pasted+at+2019-7-26+12-57.png)
-
 **Expected**
 
 - Date indicator not cut off
