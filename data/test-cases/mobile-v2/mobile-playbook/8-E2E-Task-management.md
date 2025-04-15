@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "E2E- Accessing Run and Status Transitions"
+name: "E2E- Task Management - User should be able to update assigned tasks"
 status: Active
 priority: Normal
 folder: Mobile Playbook
