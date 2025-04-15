@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "E2E- Accessing Playbook via Channel"
+name: "E2E- Accessing Run and Status Transitions"
 status: Active
 priority: Normal
 folder: Mobile Playbook
@@ -41,19 +41,12 @@ Prerequisites:
 
 Steps:
 
-1. On Mobile app, open the channel
-2. Verify the Playbook Run appears on the Channel header
-3. Click on the Icon
-4. Verify the Playbook runs page opens
-
-**Step 2**
-
-Test accessing runs via channel info menu
-
-Steps:
-
-1. Click on channel header to open Channel info screen
-2. Verify `Playbook runs` option is displayed.
-3. Verify Number of runs is displayed.
-4. Click on the Playbook option.
-5. Verify the Playbook runs page opens
+1. On Mobile app, open the channel.
+2. Verify the Playbook Run appears on the Channel header.
+3. Click on the Icon.
+4. Verify the Playbook runs page opens.
+5. Click on Playbook option.
+6. Verify the `In progress` and `Finished` tabs are displayed.
+7. Expand an `In progress` playbook.
+8. Check off all the task status indicators.
+9. Verify if Run is finished and the Playbook moves from In progress tab to Finished.
