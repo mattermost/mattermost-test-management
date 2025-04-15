@@ -2087,6 +2087,31 @@
         ]
       },
       {
+        "name": "Custom Profile Attributes",
+        "routes": [
+          {
+            "name": "Editing Custom Profile Attributes",
+            "file": "channels/custom-profile-attributes/MM-T5768.md"
+          },
+          {
+            "name": "Clearing Custom Profile Attributes",
+            "file": "channels/custom-profile-attributes/MM-T5769.md"
+          },
+          {
+            "name": "Cancelling Changes to Custom Profile Attributes",
+            "file": "channels/custom-profile-attributes/MM-T5770.md"
+          },
+          {
+            "name": "Editing Phone and URL Type Custom Profile Attributes",
+            "file": "channels/custom-profile-attributes/MM-T5771.md"
+          },
+          {
+            "name": "URL Validation in Custom Profile Attributes",
+            "file": "channels/custom-profile-attributes/MM-T5772.md"
+          }
+        ]
+      },
+      {
         "name": "Custom Statuses",
         "routes": [
           {
@@ -9358,6 +9383,10 @@
           {
             "name": "User should be able to verify scheduled message feature is available on Licensed instances",
             "file": "mobile-v2/mobile-draft/MM-T5733.md"
+          },
+          {
+            "name": "User should be able to create a scheduled message under a threaded post.",
+            "file": "mobile-v2/mobile-draft/MM-T5767.md"
           }
         ]
       },
@@ -17869,6 +17898,10 @@
                       {
                         "name": "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
                         "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5746.md"
+                      },
+                      {
+                        "name": "Re-ordering properties in the System Console, re-orders them in the user's profile screen and profile pop-over",
+                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5766.md"
                       }
                     ]
                   },
