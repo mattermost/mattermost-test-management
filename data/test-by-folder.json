@@ -711,6 +711,16 @@
     ]
   },
   {
+    "folder": "channels/custom-profile-attributes",
+    "tests": [
+      "Cancelling Changes to Custom Profile Attributes",
+      "Clearing Custom Profile Attributes",
+      "Editing Custom Profile Attributes",
+      "Editing Phone and URL Type Custom Profile Attributes",
+      "URL Validation in Custom Profile Attributes"
+    ]
+  },
+  {
     "folder": "channels/custom-statuses",
     "tests": ["Clear Status 'x' Button to Status Dropdown Menu"]
   },
@@ -3320,6 +3330,7 @@
     "tests": [
       "User should be able to Schedule messages in different teams",
       "User should be able to create a scheduled message in a Channel.",
+      "User should be able to create a scheduled message under a threaded post.",
       "User should be able to delete a scheduled message",
       "User should be able to edit a scheduled message",
       "User should be able to reschedule message",
@@ -6261,6 +6272,7 @@
     "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
     "tests": [
       "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
+      "Re-ordering properties in the System Console, re-orders them in the user's profile screen and profile pop-over",
       "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly"
     ]
   },
