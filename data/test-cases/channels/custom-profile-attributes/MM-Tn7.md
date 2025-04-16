@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Update Custom Profile Attributes When Changed"
+name: "Verify Phone and URL Attributes Are Clickable in Profile Popover"
 status: Active
 priority: Normal
 folder: Custom Profile Attributes
@@ -36,32 +36,28 @@ steps_hashed: null
 **Precondition**
 
 1. A test server with valid license to support 'Custom Profile Attributes'
-2. Admin has created custom profile attributes (Department, Location, Title, etc.)
-3. Test user has values set for custom profile attributes:
-   - Department: Engineering
-   - Location: Remote
+2. Admin has created custom profile attributes including:
+   - Phone (phone type field with value "555-123-4567")
+   - Website (URL type field with value "https://example.com")
+3. Test user has values set for these custom profile attributes
 4. User is a member of a channel
 
 ---
 
 **Step 1**
 
-Verify that custom profile attributes are updated correctly when changed and the changes are reflected in the profile popover.
+Verify that phone and URL type custom profile attributes are clickable in the profile popover.
 
 1. Login as the test user
 2. Go to a channel where the user is a member
 3. Post a message to make the user visible in the channel
 4. Open the profile popover for the user's post
-5. Verify the current attribute values are displayed correctly
-6. Close the profile popover
-7. Update the user's custom profile attributes:
-   - Change Department from "Engineering" to "Product"
-   - Change Location from "Remote" to "Office"
-8. Open the profile popover again
+5. Check that the Phone attribute is displayed as a clickable link
+6. Check that the Website attribute is displayed as a clickable link
 
 **Expected**
 
-- Updated custom profile attributes are displayed correctly in the profile popover
-- Department shows the new value "Product"
-- Location shows the new value "Office"
-- Non-updated attributes still display their original values correctly
+- The Phone attribute value is displayed as a clickable link with the tel: protocol (tel:555-123-4567)
+- The Website attribute value is displayed as a clickable link with the https: protocol (https://example.com)
+- Hovering over these links shows they are clickable (e.g., cursor changes to pointer)
+- The links are properly formatted and functional

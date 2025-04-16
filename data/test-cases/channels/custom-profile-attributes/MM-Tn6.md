@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Do Not Display Custom Profile Attributes If None Exist"
+name: "Display Phone and URL Type Custom Profile Attributes Correctly"
 status: Active
 priority: Normal
 folder: Custom Profile Attributes
@@ -36,23 +36,26 @@ steps_hashed: null
 **Precondition**
 
 1. A test server with valid license to support 'Custom Profile Attributes'
-2. Admin has created custom profile attributes (Department, Location, Title, Phone, Website)
-3. A user exists who has no values set for any custom profile attributes
-4. Two user accounts exist and are members of the same channel
+2. Admin has created custom profile attributes including:
+   - Phone (phone type field with value "555-123-4567")
+   - Website (URL type field with value "https://example.com")
+3. Test user has values set for these custom profile attributes
+4. User is a member of a channel
 
 ---
 
 **Step 1**
 
-Verify that custom profile attributes are not displayed in the profile popover if the user has no values set.
+Verify that phone and URL type custom profile attributes are displayed correctly in the profile popover.
 
-1. Login as a user with no custom profile attribute values
+1. Login as the test user
 2. Go to a channel where the user is a member
 3. Post a message to make the user visible in the channel
 4. Open the profile popover for the user's post
 
 **Expected**
 
-- No custom profile attributes are displayed in the profile popover
-- The profile popover displays only standard user information (username, status, etc.)
-- The absence of custom attributes doesn't affect the overall appearance of the popover
+- Phone attribute displays correctly with the value "555-123-4567"
+- Website attribute displays correctly with the value "https://example.com"
+- Both specialized attribute types are formatted appropriately
+- Values are displayed with the correct formatting for their data type
