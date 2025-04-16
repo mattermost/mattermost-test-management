@@ -85,13 +85,11 @@ This test case verifies that users can view and manage tasks within an active pl
 
 **Step 4**
 
-1. Test task filtering or sorting options (if available)
 2. Test offline behavior by enabling airplane mode
 3. Try to complete a task while offline
 
 **Expected**
 
-- Filtering/sorting options work correctly
 - In offline mode, previously loaded tasks are still visible
 - Task completion while offline is queued and synced when back online
 - Appropriate offline indicators and status messages are shown

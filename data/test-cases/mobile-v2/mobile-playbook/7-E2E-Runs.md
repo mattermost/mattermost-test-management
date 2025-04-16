@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "E2E- Accessing Run and Status Transitions"
+name: "[E2E] Accessing Run and Status Transitions"
 status: Active
 priority: Normal
 folder: Mobile Playbook

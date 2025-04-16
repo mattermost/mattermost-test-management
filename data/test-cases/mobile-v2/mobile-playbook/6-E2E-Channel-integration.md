@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "E2E- Accessing Playbook via Channel"
+name: "[E2E] Accessing Playbook via Channel"
 status: Active
 priority: Normal
 folder: Mobile Playbook

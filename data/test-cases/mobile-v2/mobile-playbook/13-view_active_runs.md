@@ -74,24 +74,20 @@ Observe the UI elements and information displayed for active runs
 
 1. Pull down to refresh the list of runs
 2. Tap on one of the active runs
-3. Test filtering options if available (filter by status, owner, etc.)
 
 **Expected**
 
 - The refresh action works correctly and updates the list
 - Tapping on a run navigates to the run details screen
 - The run details screen shows comprehensive information about the selected run
-- Filtering options work correctly and show appropriate results
 
 **Step 4**
 
-1. Test search functionality for runs (if available)
-2. Test offline behavior by enabling airplane mode
-3. Test with a large number of runs to verify performance
+1. Test offline behavior by enabling airplane mode
+2. Test with a large number of runs to verify performance
 
 **Expected**
 
-- Search functionality works correctly for finding specific runs
 - In offline mode, previously loaded runs are still visible with appropriate offline indicators
 - Performance remains good even with many runs in the list
 - Scrolling and navigation remain smooth

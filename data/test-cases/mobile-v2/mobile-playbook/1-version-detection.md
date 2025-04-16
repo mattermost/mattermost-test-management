@@ -35,6 +35,10 @@ steps_hashed: null
 
 **Step 1**
 
-1. Verify compatibility with previous Playbook versions.
+**Scenario 1:**
 
-2. Test older Server version from new mobile app that has Playbook changes.
+1. User should upload the playbooks plugin on a fresh Server and Verify the functionality on the mobile.
+
+**Scenario 2:**
+
+1. User should upgrade a server form 10.7.0 to the latest and Verify the functionality on the mobile.

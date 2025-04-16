@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "E2E- should not show Playbook when there's no in progress runs"
+name: "[E2E] should not show Playbook when there's no in progress runs"
 status: Active
 priority: Normal
 folder: Mobile Playbook

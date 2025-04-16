@@ -45,7 +45,7 @@ This test case verifies that users can view the list of playbooks on mobile devi
 **Step 1**
 
 1. Login to a Mattermost server on a mobile device
-2. Tap on the hamburger menu to open the left sidebar
+2. Open the channel with playbooks.
 3. Tap on "Playbooks" option
 
 **Expected**

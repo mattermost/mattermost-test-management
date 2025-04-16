@@ -46,7 +46,7 @@ This test case verifies the navigation flow and UI elements of the Playbooks fea
 **Step 1**
 
 1. Login to a Mattermost server on a mobile device
-2. Tap on the hamburger menu to open the left sidebar
+2. Open the channel with playbooks.
 3. Verify the "Playbooks" option is visible and tap on it
 
 **Expected**
@@ -60,17 +60,15 @@ This test case verifies the navigation flow and UI elements of the Playbooks fea
 
 Test navigation between different sections of the Playbooks feature
 
-1. Navigate between "Playbooks" and "Runs" tabs (if applicable)
-2. Use the back button to return to previous screens
-3. Navigate from playbook details back to the list
-4. Test the app's behavior when receiving notifications while in Playbooks screens
+1. Use the back button to return to previous screens
+2. Navigate from playbook details back to the list
+3. Test the app's behavior when receiving notifications while in Playbooks screens
 
 **Expected**
 
 - Navigation between sections works smoothly
 - Back navigation functions correctly
 - UI state is preserved appropriately when navigating
-- Notifications are handled properly without disrupting the Playbooks experience
 
 **Step 3**
 
