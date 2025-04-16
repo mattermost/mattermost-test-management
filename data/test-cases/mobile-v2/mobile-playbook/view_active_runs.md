@@ -3,17 +3,17 @@
 name: "[E2E] View Active Runs on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
+- Core Features
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "runs", "e2e"]
-labels: ["mobile", "playbooks", "automation-candidate"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies that users can view their active playbook runs on mobile devices.
 
 ## Precondition
+
 - User has a Mattermost account with access to active playbook runs
 - At least one playbook run is in progress
 - Mobile app is installed and configured

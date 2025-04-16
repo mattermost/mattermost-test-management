@@ -3,17 +3,17 @@
 name: "[E2E] View Playbook Details on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
+- Core Features
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "details", "e2e"]
-labels: ["mobile", "playbooks", "automation-candidate"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies that users can view detailed information about a specific playbook on mobile devices.
 
 ## Precondition
+
 - User has a Mattermost account with access to multiple playbooks
 - At least one playbook has a complete set of details (description, steps, etc.)
 - Mobile app is installed and configured

@@ -3,17 +3,17 @@
 name: "Run Playbook on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
-priority_p1_to_p4: P1 - High Impact (Core functionality, data integrity)
+- Core Features
+priority_p1_to_p4: P1 - Smoke Tests (App testable?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "run"]
-labels: ["mobile", "playbooks", "manual-only"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies that users can start a new run of a playbook from the mobile app.
 
 ## Precondition
+
 - User has a Mattermost account with permissions to run playbooks
 - At least one playbook is available to run
 - User has permissions to create channels or access existing channels
@@ -85,6 +86,7 @@ Verify the playbook run has been created correctly
 **Step 4**
 
 Test edge cases:
+
 1. Try to run a playbook with an extremely long name
 2. Try to run a playbook while offline (airplane mode)
 3. Try to run a playbook and cancel midway through the setup process

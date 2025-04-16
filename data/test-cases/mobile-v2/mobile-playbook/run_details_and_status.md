@@ -3,17 +3,17 @@
 name: "Run Details and Status Updates on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
+- Core Features
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "run-details"]
-labels: ["mobile", "playbooks", "manual-only"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies that users can view detailed information about a playbook run and update its status on mobile devices.
 
 ## Precondition
+
 - User has a Mattermost account with access to an active playbook run
 - User has permissions to update the run status
 - Mobile app is installed and configured

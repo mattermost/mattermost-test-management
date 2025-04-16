@@ -3,17 +3,17 @@
 name: "[E2E] Manage Run Tasks on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
-priority_p1_to_p4: P1 - High Impact (Core functionality, data integrity)
+- Core Features
+priority_p1_to_p4: P1 - Smoke Tests (App testable?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "tasks", "e2e"]
-labels: ["mobile", "playbooks", "automation-candidate"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies that users can view and manage tasks within an active playbook run on mobile devices.
 
 ## Precondition
+
 - User has a Mattermost account with access to an active playbook run
 - The playbook run has multiple tasks in different states
 - Mobile app is installed and configured

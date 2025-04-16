@@ -3,17 +3,17 @@
 name: "Playbooks Navigation and UI on Mobile"
 status: Active
 priority: Normal
-folder: Mobile Playbooks
-authors: "@mobile-qa"
+folder: Mobile Playbook
+authors: "@yasserfaraazkhan"
 team_ownership:
-- Mobile
+- Core Features
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Mobile
-component: Playbooks
-tags: ["mobile", "playbooks", "ui", "accessibility"]
-labels: ["mobile", "playbooks", "ui", "manual-only"]
+component: null
+tags: []
+labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
@@ -38,6 +38,7 @@ steps_hashed: null
 This test case verifies the navigation flow and UI elements of the Playbooks feature on mobile devices.
 
 ## Precondition
+
 - User has a Mattermost account with access to playbooks
 - Mobile app is installed and configured
 - Test on both iOS and Android devices if possible
