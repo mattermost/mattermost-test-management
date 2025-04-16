@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "View Active Runs on Mobile"
+name: "[E2E] View Active Runs on Mobile"
 status: Active
 priority: Normal
 folder: Mobile Playbooks
@@ -12,13 +12,13 @@ priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 # (Optional)
 location: Mobile
 component: Playbooks
-tags: ["mobile", "playbooks"]
-labels: ["mobile", "playbooks"]
+tags: ["mobile", "playbooks", "runs", "e2e"]
+labels: ["mobile", "playbooks", "automation-candidate"]
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: N/A
-detox: N/A
+detox: Update
 mmctl: N/A
 playwright: N/A
 rainforest: []
@@ -37,6 +37,11 @@ steps_hashed: null
 
 This test case verifies that users can view their active playbook runs on mobile devices.
 
+## Precondition
+- User has a Mattermost account with access to active playbook runs
+- At least one playbook run is in progress
+- Mobile app is installed and configured
+
 **Step 1**
 
 1. Login to a Mattermost server on a mobile device
@@ -48,6 +53,7 @@ This test case verifies that users can view their active playbook runs on mobile
 - The screen switches to show active playbook runs
 - Active runs are displayed in a list format
 - Each run shows relevant information (name, status, etc.)
+- If no active runs exist, an appropriate empty state message is shown
 
 **Step 2**
 
@@ -55,17 +61,36 @@ Observe the UI elements and information displayed for active runs
 
 **Expected**
 
-- Each run item shows the run name
-- Status indicators are visible for each run
+- Each run item shows:
+  - Run name
+  - Status indicators (in progress, overdue, etc.)
+  - Timestamp information (created, last updated)
+  - Owner/participant information
 - The list is organized in a logical manner (e.g., by recency or status)
+- Any filtering or sorting options are functional
 
 **Step 3**
 
 1. Pull down to refresh the list of runs
 2. Tap on one of the active runs
+3. Test filtering options if available (filter by status, owner, etc.)
 
 **Expected**
 
 - The refresh action works correctly and updates the list
 - Tapping on a run navigates to the run details screen
 - The run details screen shows comprehensive information about the selected run
+- Filtering options work correctly and show appropriate results
+
+**Step 4**
+
+1. Test search functionality for runs (if available)
+2. Test offline behavior by enabling airplane mode
+3. Test with a large number of runs to verify performance
+
+**Expected**
+
+- Search functionality works correctly for finding specific runs
+- In offline mode, previously loaded runs are still visible with appropriate offline indicators
+- Performance remains good even with many runs in the list
+- Scrolling and navigation remain smooth

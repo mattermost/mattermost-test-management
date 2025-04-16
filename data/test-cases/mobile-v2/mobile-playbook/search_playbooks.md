@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Search Playbooks on Mobile"
+name: "[E2E] Search Playbooks on Mobile"
 status: Active
 priority: Normal
 folder: Mobile Playbooks
@@ -12,13 +12,13 @@ priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 # (Optional)
 location: Mobile
 component: Playbooks
-tags: ["mobile", "playbooks"]
-labels: ["mobile", "playbooks"]
+tags: ["mobile", "playbooks", "search", "e2e"]
+labels: ["mobile", "playbooks", "automation-candidate"]
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: N/A
-detox: N/A
+detox: Update
 mmctl: N/A
 playwright: N/A
 rainforest: []
@@ -37,6 +37,11 @@ steps_hashed: null
 
 This test case verifies that users can search for playbooks on mobile devices.
 
+## Precondition
+- User has a Mattermost account with access to multiple playbooks with different names
+- At least one playbook contains special characters in its name
+- Mobile app is installed and configured
+
 **Step 1**
 
 1. Login to a Mattermost server on a mobile device
@@ -47,6 +52,7 @@ This test case verifies that users can search for playbooks on mobile devices.
 
 - The search bar becomes active
 - The keyboard appears for input
+- Any placeholder text is appropriate and visible
 
 **Step 2**
 
@@ -58,6 +64,7 @@ This test case verifies that users can search for playbooks on mobile devices.
 - The list filters in real-time as you type
 - Only playbooks matching the search term are displayed
 - If the search term matches part of a playbook title or description, that playbook is shown
+- Search is case-insensitive
 
 **Step 3**
 
@@ -68,3 +75,18 @@ This test case verifies that users can search for playbooks on mobile devices.
 
 - When the search is cleared, all accessible playbooks are shown again
 - When a non-matching term is entered, an appropriate "No results found" message is displayed
+- There is a way to clear the search term (X button or similar)
+
+**Step 4**
+
+1. Test search with special characters and edge cases:
+   - Search with emoji
+   - Search with special characters (@, #, %, etc.)
+   - Search with very long terms
+   - Search with leading/trailing spaces
+
+**Expected**
+
+- Search handles special characters appropriately
+- No crashes or unexpected behavior with edge cases
+- Leading/trailing spaces are trimmed from search terms
