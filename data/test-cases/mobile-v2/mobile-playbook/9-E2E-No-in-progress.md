@@ -39,15 +39,47 @@ Prerequisites:
 
 - Create few Playbook in a channel from Web/Desktop
 - Mark the Playbook complete.
+- Have no active playbooks in the channel.
 
 Steps:
 
 1. On Mobile app, open the channel.
 2. Verify the Playbook Run doesn not appears on the Channel header.
 3. Click on `...` menu.
-4. Verify the bottom page also does not s.
+4. Verify the bottom page shows the Playbook options. But the count is Zero.
 5. Click on Playbook option.
-6. Verify the `In progress` and `Finished` tabs are displayed.
-7. Expand an `In progress` playbook.
-8. Check off all the task status indicators.
-9. Verify if Run is finished and the Playbook moves from In progress tab to Finished.
+6. Verify the user is take to `Finished` list of playboks directly.
+7. Expand the `Finished` playbook.
+8. Verify the user cannot Check off the assigned task.
+
+---
+
+**Step 2**
+
+Prerequisites:
+
+- Ensure there are no Playbook runs (In-progress or Finished) in the channel.
+
+Steps:
+
+1. On Mobile app, open the channel.
+2. Verify the Playbook Run icon button does not appear on the Channel header.
+3. Click on `...` menu.
+4. Verify the "Playbook runs" menu item is hidden.
+
+---
+
+**Step 3**
+
+Prerequisites:
+
+- Create a Playbook run in the channel from Web/Desktop.
+- Ensure the user is not a participant in the run.
+
+Steps:
+
+1. On Mobile app, open the channel.
+2. Verify the Playbook Run icon button does not appear on the Channel header.
+3. Click on `...` menu.
+4. Verify the "Playbook runs" menu item is hidden.
+5. Verify the run is not counted in the number of in-progress runs for the user.
