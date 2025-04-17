@@ -4,7 +4,7 @@ name: "Calls Plugin - Call Control Keyboard Shortcuts"
 status: Active
 priority: Normal
 folder: Calls
-authors: "@DHaussermann"
+authors: "DHaussermann"
 team_ownership:
 - Calls
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
