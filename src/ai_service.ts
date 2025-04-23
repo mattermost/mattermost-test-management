@@ -22,16 +22,18 @@ export class AIService {
   /**
    * Generate test scenarios from PDF content
    * @param pdfContent The extracted text content from the PDF
+   * @param extensive Whether to generate extensive test scenarios
    * @returns Array of test case data
    */
-  public async generateTestScenarios(pdfContent: string): Promise<TestCaseData[]> {
+  public async generateTestScenarios(pdfContent: string, extensive = false): Promise<TestCaseData[]> {
     if (!this.isAvailable()) {
       console.warn("AI service not available: No API key found. Set ANTHROPIC_API_KEY environment variable.");
       return [];
     }
 
     try {
-      const prompt = this.createTestScenarioPrompt(pdfContent);
+      console.log(`Generating ${extensive ? "extensive" : "standard"} test scenarios...`);
+      const prompt = this.createTestScenarioPrompt(pdfContent, extensive);
       const response = await this.callAI(prompt);
       return this.parseAIResponse(response);
     } catch (error) {
@@ -42,9 +44,12 @@ export class AIService {
 
   /**
    * Create a prompt for the AI to generate test scenarios
+   * @param pdfContent The content of the PDF
+   * @param extensive Whether to generate extensive test scenarios
+   * @returns The prompt for the AI
    */
-  private createTestScenarioPrompt(pdfContent: string): string {
-    return `
+  private createTestScenarioPrompt(pdfContent: string, extensive = false): string {
+    const basePrompt = `
 You are a QA expert who creates detailed test cases from specifications.
 
 Here is a product specification document:
@@ -63,13 +68,17 @@ Format your response as a JSON array where each object has these properties:
 - objective: The test objective
 - precondition: Any preconditions (or null if none)
 - steps: An array of objects with "description" and "expected" properties
+- test_type: Either "manual" or "automated" to indicate if this test can be automated
+`;
 
+    const standardExample = `
 Example format:
 [
   {
     "name": "Test Scenario Title",
     "objective": "Verify that...",
     "precondition": "User is logged in and...",
+    "test_type": "manual",
     "steps": [
       {
         "description": "Navigate to...",
@@ -85,6 +94,64 @@ Example format:
 
 Focus on creating detailed, actionable test cases that cover the key functionality described in the specification.
 `;
+
+    const extensivePrompt = `
+I need you to generate an extensive set of test scenarios that thoroughly cover all aspects of the specification. For each feature or functionality mentioned:
+
+1. Create positive test cases that verify the feature works as expected
+2. Create negative test cases that verify proper error handling
+3. Create edge case test cases that test boundary conditions
+4. Create accessibility test cases where applicable
+5. Create performance test cases where applicable
+
+For each test case, clearly indicate whether it should be:
+- "automated": Can be automated with end-to-end testing tools
+- "manual": Requires manual testing due to complexity, subjective evaluation, or other factors
+
+Example format:
+[
+  {
+    "name": "Verify Channel Header Icon Button Appears When Runs Exist",
+    "objective": "Verify that the channel header icon button appears when there are in-progress runs linked to a channel",
+    "precondition": "User is logged in and there is at least one in-progress run linked to the channel",
+    "test_type": "automated",
+    "steps": [
+      {
+        "description": "Navigate to a channel with an in-progress run",
+        "expected": "The channel loads successfully"
+      },
+      {
+        "description": "Observe the channel header",
+        "expected": "The Playbook runs icon button is visible in the channel header with a count indicating the number of in-progress runs"
+      }
+    ]
+  },
+  {
+    "name": "Verify UI Responsiveness on Various Mobile Screen Sizes",
+    "objective": "Verify that the UI elements adapt properly to different mobile screen sizes",
+    "precondition": "The app is installed on devices with different screen sizes",
+    "test_type": "manual",
+    "steps": [
+      {
+        "description": "Open the app on a small phone (e.g., iPhone SE)",
+        "expected": "All UI elements are properly visible and accessible"
+      },
+      {
+        "description": "Open the app on a large phone (e.g., iPhone Pro Max)",
+        "expected": "The UI takes advantage of the larger screen while maintaining usability"
+      },
+      {
+        "description": "Open the app on a tablet",
+        "expected": "The UI optimizes the layout for the tablet screen size"
+      }
+    ]
+  }
+]
+
+Generate at least 15-20 test scenarios to thoroughly cover the specification.
+`;
+
+    return basePrompt + (extensive ? extensivePrompt : standardExample);
   }
 
   /**
@@ -142,7 +209,8 @@ Focus on creating detailed, actionable test cases that cover the key functionali
         name: scenario.name,
         objective: scenario.objective,
         precondition: scenario.precondition,
-        steps: scenario.steps
+        steps: scenario.steps,
+        test_type: scenario.test_type || "manual" // Default to manual if not specified
       }));
     } catch (error) {
       console.error("Error parsing AI response:", error);

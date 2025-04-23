@@ -13,6 +13,7 @@ export interface TestCaseData {
   objective?: string;
   precondition?: string;
   steps?: { description: string; expected: string }[];
+  test_type?: "manual" | "automated";
 }
 
 /**
@@ -64,6 +65,12 @@ export function generateTestCase(data: TestCaseData, outputDir: string = "data/t
     steps_hashed: "null",
   };
 
+  // Determine automation tools based on test_type
+  const isAutomated = data.test_type === "automated";
+  const cypress = isAutomated ? "To be implemented" : "N/A";
+  const playwright = isAutomated ? "To be implemented" : "N/A";
+  const detox = isAutomated && data.name.toLowerCase().includes("mobile") ? "To be implemented" : "N/A";
+  
   // Create front matter
   let content = `---
 # (Required) Ensure all values are filled up
@@ -84,12 +91,12 @@ labels: ${testCase.labels}
 tested_by_contributor: ${testCase.tested_by_contributor}
 
 # (Optional) Test type and tools
-cypress: ${testCase.cypress}
-detox: ${testCase.detox}
+cypress: ${isAutomated ? cypress : "N/A"}
+detox: ${isAutomated ? detox : "N/A"}
 mmctl: ${testCase.mmctl}
-playwright: ${testCase.playwright}
+playwright: ${isAutomated ? playwright : "N/A"}
 rainforest: ${testCase.rainforest}
-manual_test_environments: ${testCase.manual_test_environments}
+manual_test_environments: ${!isAutomated ? '["Mobile"]' : "[]"}
 
 # Do not change
 id: ${testCase.id}
@@ -99,6 +106,8 @@ last_updated: ${testCase.last_updated}
 case_hashed: ${testCase.case_hashed}
 steps_hashed: ${testCase.steps_hashed}
 ---
+
+${data.test_type === "automated" ? "**This is an automated test case**" : "**This is a manual test case**"}
 
 `;
 

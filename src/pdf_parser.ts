@@ -134,9 +134,10 @@ export function identifyTestCases(textContent: string): TestCaseData[] {
  * Main function to extract test cases from a PDF
  * @param pdfPath Path to the PDF file
  * @param useAI Whether to use AI for test case generation
+ * @param extensive Whether to generate extensive test scenarios
  * @returns Array of test case data
  */
-export async function extractTestCasesFromPDF(pdfPath: string, useAI = true): Promise<TestCaseData[]> {
+export async function extractTestCasesFromPDF(pdfPath: string, useAI = true, extensive = false): Promise<TestCaseData[]> {
   // Extract text from the PDF
   const textContent = await extractTextFromPDF(pdfPath);
   
@@ -144,8 +145,8 @@ export async function extractTestCasesFromPDF(pdfPath: string, useAI = true): Pr
   if (useAI) {
     const aiService = new AIService();
     if (aiService.isAvailable()) {
-      console.log("Using AI to generate test scenarios...");
-      const aiTestCases = await aiService.generateTestScenarios(textContent);
+      console.log(`Using AI to generate ${extensive ? "extensive" : "standard"} test scenarios...`);
+      const aiTestCases = await aiService.generateTestScenarios(textContent, extensive);
       
       if (aiTestCases.length > 0) {
         console.log(`AI generated ${aiTestCases.length} test scenarios`);

@@ -10,17 +10,19 @@ import { parse } from "https://deno.land/std/flags/mod.ts";
 async function main() {
   const args = parse(Deno.args, {
     string: ["pdf", "output", "summary"],
-    boolean: ["help", "ai", "no-ai"],
+    boolean: ["help", "ai", "no-ai", "extensive"],
     alias: {
       p: "pdf",
       o: "output",
       s: "summary",
       h: "help",
-      a: "ai"
+      a: "ai",
+      e: "extensive"
     },
     default: {
       output: "data/test-cases",
-      ai: true
+      ai: true,
+      extensive: false
     }
   });
   
@@ -43,11 +45,15 @@ OPTIONS:
   -s, --summary=<text>   Generate a test case from a text summary
   -a, --ai               Use AI to generate test scenarios (default: true)
       --no-ai            Disable AI-powered test generation
+  -e, --extensive        Generate extensive test scenarios with automated/manual differentiation
   -h, --help             Show this help message
 
 EXAMPLES:
   # Generate test cases from a PDF file using AI
   deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf
+
+  # Generate extensive test cases with automated/manual differentiation
+  deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive
 
   # Generate test cases without using AI
   deno run --allow-read --allow-write src/cli/generate_tests.ts -p spec-file.pdf --no-ai
@@ -67,7 +73,7 @@ EXAMPLES:
     // Generate from PDF
     if (args.pdf) {
       console.log(`Generating test cases from PDF: ${args.pdf}`);
-      testCases = await extractTestCasesFromPDF(args.pdf, args.ai);
+      testCases = await extractTestCasesFromPDF(args.pdf, args.ai, args.extensive);
     } 
     // Generate from summary
     else if (args.summary) {

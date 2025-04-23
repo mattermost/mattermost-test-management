@@ -50,3 +50,21 @@ To use the AI-powered test generation:
    ```
 
 The AI will analyze the PDF content and generate comprehensive test scenarios with detailed steps and expected results.
+
+### Extensive Test Generation
+
+For more thorough test coverage, use the `--extensive` flag to generate a comprehensive set of test cases that include:
+
+- Positive test cases
+- Negative test cases
+- Edge cases
+- Accessibility tests
+- Performance tests
+
+Each test case will be marked as either "automated" (can be automated with end-to-end testing tools) or "manual" (requires manual testing).
+
+```bash
+deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive
+```
+
+This will generate more test cases with clear differentiation between those that can be automated and those that require manual testing.
