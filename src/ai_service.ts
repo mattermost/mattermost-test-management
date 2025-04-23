@@ -23,9 +23,10 @@ export class AIService {
    * Generate test scenarios from PDF content
    * @param pdfContent The extracted text content from the PDF
    * @param extensive Whether to generate extensive test scenarios
+   * @param maxTests Maximum number of tests to generate
    * @returns Array of test case data
    */
-  public async generateTestScenarios(pdfContent: string, extensive = false): Promise<TestCaseData[]> {
+  public async generateTestScenarios(pdfContent: string, extensive = false, maxTests = 10): Promise<TestCaseData[]> {
     if (!this.isAvailable()) {
       console.warn("AI service not available: No API key found. Set ANTHROPIC_API_KEY environment variable.");
       return [];
@@ -33,9 +34,12 @@ export class AIService {
 
     try {
       console.log(`Generating ${extensive ? "extensive" : "standard"} test scenarios...`);
-      const prompt = this.createTestScenarioPrompt(pdfContent, extensive);
+      const prompt = this.createTestScenarioPrompt(pdfContent, extensive, maxTests);
       const response = await this.callAI(prompt);
-      return this.parseAIResponse(response);
+      const scenarios = this.parseAIResponse(response);
+      
+      // Limit the number of scenarios to maxTests
+      return scenarios.slice(0, maxTests);
     } catch (error) {
       console.error("Error generating test scenarios:", error);
       return [];
@@ -46,9 +50,10 @@ export class AIService {
    * Create a prompt for the AI to generate test scenarios
    * @param pdfContent The content of the PDF
    * @param extensive Whether to generate extensive test scenarios
+   * @param maxTests Maximum number of tests to generate
    * @returns The prompt for the AI
    */
-  private createTestScenarioPrompt(pdfContent: string, extensive = false): string {
+  private createTestScenarioPrompt(pdfContent: string, extensive = false, maxTests = 10): string {
     const basePrompt = `
 You are a QA expert who creates detailed test cases from specifications.
 
@@ -148,7 +153,7 @@ Example format:
   }
 ]
 
-Generate at least 15-20 test scenarios to thoroughly cover the specification.
+IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specification. Do not generate more than ${maxTests} test scenarios.
 `;
 
     return basePrompt + (extensive ? extensivePrompt : standardExample);

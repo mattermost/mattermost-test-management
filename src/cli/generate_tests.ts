@@ -9,7 +9,7 @@ import { parse } from "https://deno.land/std/flags/mod.ts";
  */
 async function main() {
   const args = parse(Deno.args, {
-    string: ["pdf", "output", "summary"],
+    string: ["pdf", "output", "summary", "max-tests"],
     boolean: ["help", "ai", "no-ai", "extensive"],
     alias: {
       p: "pdf",
@@ -17,12 +17,14 @@ async function main() {
       s: "summary",
       h: "help",
       a: "ai",
-      e: "extensive"
+      e: "extensive",
+      m: "max-tests"
     },
     default: {
       output: "data/test-cases",
       ai: true,
-      extensive: false
+      extensive: false,
+      "max-tests": "10"
     }
   });
   
@@ -46,6 +48,7 @@ OPTIONS:
   -a, --ai               Use AI to generate test scenarios (default: true)
       --no-ai            Disable AI-powered test generation
   -e, --extensive        Generate extensive test scenarios with automated/manual differentiation
+  -m, --max-tests=<num>  Maximum number of tests to generate (default: 10)
   -h, --help             Show this help message
 
 EXAMPLES:
@@ -54,6 +57,9 @@ EXAMPLES:
 
   # Generate extensive test cases with automated/manual differentiation
   deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive
+
+  # Generate extensive test cases with a limit of 5 tests
+  deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive --max-tests=5
 
   # Generate test cases without using AI
   deno run --allow-read --allow-write src/cli/generate_tests.ts -p spec-file.pdf --no-ai
@@ -73,7 +79,8 @@ EXAMPLES:
     // Generate from PDF
     if (args.pdf) {
       console.log(`Generating test cases from PDF: ${args.pdf}`);
-      testCases = await extractTestCasesFromPDF(args.pdf, args.ai, args.extensive);
+      const maxTests = parseInt(args["max-tests"], 10);
+      testCases = await extractTestCasesFromPDF(args.pdf, args.ai, args.extensive, maxTests);
     } 
     // Generate from summary
     else if (args.summary) {

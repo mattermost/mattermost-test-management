@@ -67,4 +67,10 @@ Each test case will be marked as either "automated" (can be automated with end-t
 deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive
 ```
 
+By default, this will generate up to 10 test cases. You can limit the number of test cases using the `--max-tests` option:
+
+```bash
+deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf --extensive --max-tests=5
+```
+
 This will generate more test cases with clear differentiation between those that can be automated and those that require manual testing.
