@@ -10,17 +10,24 @@ import { parse } from "https://deno.land/std/flags/mod.ts";
 async function main() {
   const args = parse(Deno.args, {
     string: ["pdf", "output", "summary"],
-    boolean: ["help"],
+    boolean: ["help", "ai", "no-ai"],
     alias: {
       p: "pdf",
       o: "output",
       s: "summary",
-      h: "help"
+      h: "help",
+      a: "ai"
     },
     default: {
-      output: "data/test-cases"
+      output: "data/test-cases",
+      ai: true
     }
   });
+  
+  // Handle --no-ai flag
+  if (args["no-ai"]) {
+    args.ai = false;
+  }
 
   // Show help
   if (args.help || (!args.pdf && !args.summary)) {
@@ -34,11 +41,16 @@ OPTIONS:
   -p, --pdf=<file>       Path to the PDF specification file
   -o, --output=<dir>     Output directory for test cases (default: data/test-cases)
   -s, --summary=<text>   Generate a test case from a text summary
+  -a, --ai               Use AI to generate test scenarios (default: true)
+      --no-ai            Disable AI-powered test generation
   -h, --help             Show this help message
 
 EXAMPLES:
-  # Generate test cases from a PDF file
-  deno run --allow-read --allow-write src/cli/generate_tests.ts -p spec-file.pdf
+  # Generate test cases from a PDF file using AI
+  deno run --allow-read --allow-write --allow-env --allow-net src/cli/generate_tests.ts -p spec-file.pdf
+
+  # Generate test cases without using AI
+  deno run --allow-read --allow-write src/cli/generate_tests.ts -p spec-file.pdf --no-ai
 
   # Generate a test case from a summary
   deno run --allow-read --allow-write src/cli/generate_tests.ts -s "Test mobile navigation"
@@ -55,7 +67,7 @@ EXAMPLES:
     // Generate from PDF
     if (args.pdf) {
       console.log(`Generating test cases from PDF: ${args.pdf}`);
-      testCases = await extractTestCasesFromPDF(args.pdf);
+      testCases = await extractTestCasesFromPDF(args.pdf, args.ai);
     } 
     // Generate from summary
     else if (args.summary) {

@@ -7,6 +7,7 @@
  */
 
 import { TestCaseData } from "./generate_test_cases.ts";
+import { AIService } from "./ai_service.ts";
 
 /**
  * Extracts text content from a PDF file
@@ -132,13 +133,33 @@ export function identifyTestCases(textContent: string): TestCaseData[] {
 /**
  * Main function to extract test cases from a PDF
  * @param pdfPath Path to the PDF file
+ * @param useAI Whether to use AI for test case generation
  * @returns Array of test case data
  */
-export async function extractTestCasesFromPDF(pdfPath: string): Promise<TestCaseData[]> {
+export async function extractTestCasesFromPDF(pdfPath: string, useAI = true): Promise<TestCaseData[]> {
   // Extract text from the PDF
   const textContent = await extractTextFromPDF(pdfPath);
   
-  // Identify test cases from the text content
+  // Try to use AI for test case generation if enabled
+  if (useAI) {
+    const aiService = new AIService();
+    if (aiService.isAvailable()) {
+      console.log("Using AI to generate test scenarios...");
+      const aiTestCases = await aiService.generateTestScenarios(textContent);
+      
+      if (aiTestCases.length > 0) {
+        console.log(`AI generated ${aiTestCases.length} test scenarios`);
+        return aiTestCases;
+      }
+      
+      console.log("AI generation failed or returned no scenarios, falling back to pattern matching");
+    } else {
+      console.log("AI service not available, using pattern matching for test case extraction");
+    }
+  }
+  
+  // Fall back to pattern matching if AI is disabled or failed
+  console.log("Using pattern matching to identify test scenarios...");
   const testCases = identifyTestCases(textContent);
   
   return testCases;

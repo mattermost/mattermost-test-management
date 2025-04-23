@@ -22,14 +22,28 @@ export interface TestCaseData {
  * @returns The path to the created file
  */
 export function generateTestCase(data: TestCaseData, outputDir: string = "data/test-cases"): string {
+  // Extract product/feature name from test case name if possible
+  const featureMatch = data.name.match(/^(Test |Verify |Check )?(.*?)( -|:)/i);
+  const featureName = featureMatch ? featureMatch[2].trim() : "Mobile App";
+  
+  // Determine folder based on test name
+  let folderName = "Mobile";
+  if (data.name.toLowerCase().includes("playbook")) {
+    folderName = "Playbooks";
+  } else if (data.name.toLowerCase().includes("channel")) {
+    folderName = "Channels";
+  } else if (data.name.toLowerCase().includes("run")) {
+    folderName = "Playbook Runs";
+  }
+  
   // Set default values
   const testCase = {
     name: data.name,
     status: data.status || "Active",
     priority: data.priority || "Normal",
-    folder: data.folder || "Change Folder Name",
-    authors: data.authors || "@change_required",
-    team_ownership: data.team_ownership || ["Change Team Name"],
+    folder: data.folder || folderName,
+    authors: data.authors || "@qa-team",
+    team_ownership: data.team_ownership || ["Mobile", "Playbooks"],
     priority_p1_to_p4: data.priority_p1_to_p4 || "P2 - Core Functions (Do core functions work?)",
     location: "null",
     component: "null",
