@@ -39,9 +39,9 @@ deno run --allow-read --allow-write src/cli/generate_tests.ts -p spec-file.pdf -
 
 To use the AI-powered test generation:
 
-1. Set your OpenAI API key as an environment variable:
+1. Set your Anthropic API key as an environment variable:
    ```bash
-   export OPENAI_API_KEY=your-api-key
+   export ANTHROPIC_API_KEY=your-api-key
    ```
 
 2. Run the tool with the `--ai` flag (enabled by default):

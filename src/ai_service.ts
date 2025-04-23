@@ -5,11 +5,11 @@ import { TestCaseData } from "./generate_test_cases.ts";
  */
 export class AIService {
   private apiKey: string | null = null;
-  private apiEndpoint = "https://api.openai.com/v1/chat/completions";
+  private apiEndpoint = "https://api.anthropic.com/v1/messages";
   
   constructor() {
     // Try to load API key from environment
-    this.apiKey = Deno.env.get("OPENAI_API_KEY") || null;
+    this.apiKey = Deno.env.get("ANTHROPIC_API_KEY") || null;
   }
 
   /**
@@ -26,7 +26,7 @@ export class AIService {
    */
   public async generateTestScenarios(pdfContent: string): Promise<TestCaseData[]> {
     if (!this.isAvailable()) {
-      console.warn("AI service not available: No API key found. Set OPENAI_API_KEY environment variable.");
+      console.warn("AI service not available: No API key found. Set ANTHROPIC_API_KEY environment variable.");
       return [];
     }
 
@@ -99,15 +99,13 @@ Focus on creating detailed, actionable test cases that cover the key functionali
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${this.apiKey}`
+        "x-api-key": this.apiKey,
+        "anthropic-version": "2023-06-01"
       },
       body: JSON.stringify({
-        model: "gpt-4",
+        model: "claude-3-opus-20240229",
+        max_tokens: 4000,
         messages: [
-          {
-            role: "system",
-            content: "You are a QA expert who creates detailed test cases from specifications."
-          },
           {
             role: "user",
             content: prompt
@@ -123,7 +121,7 @@ Focus on creating detailed, actionable test cases that cover the key functionali
     }
 
     const data = await response.json();
-    return data.choices[0].message.content;
+    return data.content[0].text;
   }
 
   /**
