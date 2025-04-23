@@ -202,20 +202,109 @@ Generate at least 15-20 test scenarios to thoroughly cover the specification.
         throw new Error("No JSON array found in response");
       }
       
-      const jsonStr = jsonMatch[0];
-      const scenarios = JSON.parse(jsonStr);
+      let jsonStr = jsonMatch[0];
       
-      return scenarios.map((scenario: any) => ({
-        name: scenario.name,
-        objective: scenario.objective,
-        precondition: scenario.precondition,
-        steps: scenario.steps,
-        test_type: scenario.test_type || "manual" // Default to manual if not specified
-      }));
+      // Try to clean up the JSON string before parsing
+      try {
+        // First attempt to parse as is
+        const scenarios = JSON.parse(jsonStr);
+        return this.mapScenarios(scenarios);
+      } catch (parseError) {
+        console.log("Initial JSON parse failed, attempting to clean up the JSON");
+        
+        // Try to fix common JSON issues
+        // Replace any trailing commas in arrays or objects
+        jsonStr = jsonStr.replace(/,\s*([}\]])/g, '$1');
+        
+        // Fix unescaped quotes within strings
+        jsonStr = this.fixUnescapedQuotes(jsonStr);
+        
+        // Try parsing again
+        const scenarios = JSON.parse(jsonStr);
+        return this.mapScenarios(scenarios);
+      }
     } catch (error) {
       console.error("Error parsing AI response:", error);
       console.log("Raw response:", response);
-      return [];
+      
+      // Fallback: try to extract individual test cases
+      try {
+        return this.extractTestCasesManually(response);
+      } catch (fallbackError) {
+        console.error("Fallback extraction also failed:", fallbackError);
+        return [];
+      }
     }
+  }
+  
+  /**
+   * Map scenario objects to TestCaseData objects
+   */
+  private mapScenarios(scenarios: any[]): TestCaseData[] {
+    return scenarios.map((scenario: any) => ({
+      name: scenario.name || "Untitled Test Case",
+      objective: scenario.objective || null,
+      precondition: scenario.precondition || null,
+      steps: Array.isArray(scenario.steps) ? scenario.steps : [],
+      test_type: scenario.test_type || "manual" // Default to manual if not specified
+    }));
+  }
+  
+  /**
+   * Fix unescaped quotes within JSON strings
+   */
+  private fixUnescapedQuotes(jsonStr: string): string {
+    // This is a simplified approach - a more robust solution would use a proper JSON parser
+    let inString = false;
+    let result = '';
+    let i = 0;
+    
+    while (i < jsonStr.length) {
+      const char = jsonStr[i];
+      
+      if (char === '"' && (i === 0 || jsonStr[i-1] !== '\\')) {
+        inString = !inString;
+        result += char;
+      } else if (inString && char === '"' && jsonStr[i-1] !== '\\') {
+        // Escape unescaped quotes within strings
+        result += '\\' + char;
+      } else {
+        result += char;
+      }
+      
+      i++;
+    }
+    
+    return result;
+  }
+  
+  /**
+   * Extract test cases manually as a fallback method
+   */
+  private extractTestCasesManually(response: string): TestCaseData[] {
+    const testCases: TestCaseData[] = [];
+    
+    // Look for patterns that might indicate test cases
+    const nameMatches = response.match(/["']name["']\s*:\s*["']([^"']+)["']/g);
+    
+    if (nameMatches && nameMatches.length > 0) {
+      // Extract at least the names to create basic test cases
+      nameMatches.forEach(match => {
+        const name = match.replace(/["']name["']\s*:\s*["']([^"']+)["']/, '$1');
+        testCases.push({
+          name: name,
+          objective: "Extracted from AI response",
+          steps: [
+            {
+              description: "Perform the test steps according to the specification",
+              expected: "The feature works as expected"
+            }
+          ],
+          test_type: "manual"
+        });
+      });
+    }
+    
+    return testCases;
   }
 }
