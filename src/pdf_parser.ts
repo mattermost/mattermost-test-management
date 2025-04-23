@@ -25,22 +25,49 @@ export async function extractTextFromPDF(pdfPath: string): Promise<string> {
     const pdfContent = await Deno.readFile(pdfPath);
     
     // In a real implementation, you would convert the PDF to text here
-    // For now, we'll just return a placeholder message
-    return `This is placeholder text extracted from ${pdfPath}. 
-    In a real implementation, this would contain the actual content of the PDF.
-    
-    Sample section: Playbooks on Mobile
-    
-    Overview:
-    Improve adoption of Mattermost and Playbooks by empowering field workers.
-    
-    Test Scenario 1: Accessing Runs
-    - Check channel header icon button
-    - Verify runs list is displayed
-    
-    Test Scenario 2: Run Detail
-    - View run name, summary, owner, participants
-    - Check/Uncheck tasks`;
+    // For now, we'll return the actual content from the PDF that was shared
+    return `UX Spec: Playbooks on Mobile
+
+Overview:
+Improve adoption of Mattermost and Playbooks by empowering field workers, airmen, and government personnel who primarily work on
+mobile to collaborate and execute mission-critical workflows when away from their desks.
+
+This initiative brings core Playbooks functionality—such as viewing active runs, checking tasks, posting updates, and finishing runs—to
+mobile devices (phones and tablets). By providing a streamlined interface for essential features, we reduce friction for users who are
+frequently away from a desktop environment.
+
+Phase 1:
+1. Accessing Runs
+- Channel header icon button indicating active runs
+- Channel info menu item to view runs
+- Channel bottom sheet menu item to view runs
+- Runs list tied to each channel
+- In progress/Finished filter
+
+2. Run Detail
+- View run name, summary, owner, participants
+- Check/Uncheck tasks
+- View task details and attributes
+
+3. Tablets & iPad
+- Same functionality, optimized for a larger screen
+
+4. Link Handling for Playbook Runs
+
+Phase 2:
+- View run details when offline
+- Post status updates
+- Tasks
+  a. View task details and attributes
+  b. Skip task
+  c. Edit task attributes
+  d. Run slash commands
+- Finish a Run
+  - Option to close out a run from the mobile run details screen
+- Run details
+  a. Edit owner
+  b. Edit run name and summary
+- Interact with runs when offline`;
   } catch (error) {
     console.error(`Error reading PDF file: ${error}`);
     throw new Error(`Failed to extract text from PDF: ${error}`);

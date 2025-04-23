@@ -57,7 +57,7 @@ export class AIService {
     const basePrompt = `
 You are a QA expert who creates detailed test cases from specifications.
 
-Here is a product specification document:
+Here is a product specification document for a mobile app feature called "Playbooks on Mobile":
 ---
 ${pdfContent}
 ---
@@ -101,7 +101,7 @@ Focus on creating detailed, actionable test cases that cover the key functionali
 `;
 
     const extensivePrompt = `
-I need you to generate an extensive set of test scenarios that thoroughly cover all aspects of the specification. For each feature or functionality mentioned:
+I need you to generate an extensive set of test scenarios that thoroughly cover all aspects of the Playbooks on Mobile specification. For each feature or functionality mentioned:
 
 1. Create positive test cases that verify the feature works as expected
 2. Create negative test cases that verify proper error handling
@@ -109,8 +109,16 @@ I need you to generate an extensive set of test scenarios that thoroughly cover 
 4. Create accessibility test cases where applicable
 5. Create performance test cases where applicable
 
+Focus on the key features from the specification:
+- Channel header icon button for active runs
+- Runs list with filtering
+- Run details view
+- Task checking/unchecking
+- Tablet/iPad support
+- Link handling
+
 For each test case, clearly indicate whether it should be:
-- "automated": Can be automated with end-to-end testing tools
+- "automated": Can be automated with end-to-end testing tools (like Detox for mobile)
 - "manual": Requires manual testing due to complexity, subjective evaluation, or other factors
 
 Example format:
@@ -153,7 +161,7 @@ Example format:
   }
 ]
 
-IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specification. Do not generate more than ${maxTests} test scenarios.
+IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specification. Make sure to include both automated and manual test cases. Do not generate more than ${maxTests} test scenarios.
 `;
 
     return basePrompt + (extensive ? extensivePrompt : standardExample);
@@ -167,33 +175,40 @@ IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specificatio
       throw new Error("API key not configured");
     }
 
-    const response = await fetch(this.apiEndpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": this.apiKey,
-        "anthropic-version": "2023-06-01"
-      },
-      body: JSON.stringify({
-        model: "claude-3-opus-20240229",
-        max_tokens: 4000,
-        messages: [
-          {
-            role: "user",
-            content: prompt
-          }
-        ],
-        temperature: 0.7
-      })
-    });
+    try {
+      console.log("Calling Claude AI API...");
+      const response = await fetch(this.apiEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-api-key": this.apiKey,
+          "anthropic-version": "2023-06-01"
+        },
+        body: JSON.stringify({
+          model: "claude-3-opus-20240229",
+          max_tokens: 4000,
+          messages: [
+            {
+              role: "user",
+              content: prompt
+            }
+          ],
+          temperature: 0.7,
+          system: "You are a QA expert who creates detailed test cases from specifications. Always return valid JSON."
+        })
+      });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`AI API error: ${response.status} ${errorText}`);
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`AI API error: ${response.status} ${errorText}`);
+      }
+
+      const data = await response.json();
+      return data.content[0].text;
+    } catch (error) {
+      console.error("Error calling Claude AI:", error);
+      throw new Error(`Failed to call Claude AI: ${error.message}`);
     }
-
-    const data = await response.json();
-    return data.content[0].text;
   }
 
   /**
@@ -201,10 +216,13 @@ IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specificatio
    */
   private parseAIResponse(response: string): TestCaseData[] {
     try {
+      console.log("Parsing AI response...");
+      
       // Extract JSON from the response (in case there's additional text)
       const jsonMatch = response.match(/\[[\s\S]*\]/);
       if (!jsonMatch) {
-        throw new Error("No JSON array found in response");
+        console.warn("No JSON array found in response, attempting to create fallback test cases");
+        return this.extractTestCasesManually(response);
       }
       
       let jsonStr = jsonMatch[0];
@@ -224,9 +242,19 @@ IMPORTANT: Generate exactly ${maxTests} test scenarios to cover the specificatio
         // Fix unescaped quotes within strings
         jsonStr = this.fixUnescapedQuotes(jsonStr);
         
-        // Try parsing again
-        const scenarios = JSON.parse(jsonStr);
-        return this.mapScenarios(scenarios);
+        // Remove any control characters
+        jsonStr = jsonStr.replace(/[\x00-\x1F\x7F-\x9F]/g, '');
+        
+        try {
+          // Try parsing again
+          const scenarios = JSON.parse(jsonStr);
+          return this.mapScenarios(scenarios);
+        } catch (secondParseError) {
+          console.log("Second JSON parse attempt failed, trying more aggressive cleanup");
+          
+          // More aggressive cleanup - try to extract individual test cases
+          return this.extractTestCasesManually(response);
+        }
       }
     } catch (error) {
       console.error("Error parsing AI response:", error);

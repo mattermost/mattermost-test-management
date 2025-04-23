@@ -27,14 +27,28 @@ export function generateTestCase(data: TestCaseData, outputDir: string = "data/t
   const featureMatch = data.name.match(/^(Test |Verify |Check )?(.*?)( -|:)/i);
   const featureName = featureMatch ? featureMatch[2].trim() : "Mobile App";
   
-  // Determine folder based on test name
+  // Determine folder based on test name and type
   let folderName = "Mobile";
-  if (data.name.toLowerCase().includes("playbook")) {
-    folderName = "Playbooks";
-  } else if (data.name.toLowerCase().includes("channel")) {
-    folderName = "Channels";
-  } else if (data.name.toLowerCase().includes("run")) {
-    folderName = "Playbook Runs";
+  if (data.test_type === "automated") {
+    if (data.name.toLowerCase().includes("playbook")) {
+      folderName = "Automated/Playbooks";
+    } else if (data.name.toLowerCase().includes("channel")) {
+      folderName = "Automated/Channels";
+    } else if (data.name.toLowerCase().includes("run")) {
+      folderName = "Automated/Playbook Runs";
+    } else {
+      folderName = "Automated/Mobile";
+    }
+  } else {
+    if (data.name.toLowerCase().includes("playbook")) {
+      folderName = "Manual/Playbooks";
+    } else if (data.name.toLowerCase().includes("channel")) {
+      folderName = "Manual/Channels";
+    } else if (data.name.toLowerCase().includes("run")) {
+      folderName = "Manual/Playbook Runs";
+    } else {
+      folderName = "Manual/Mobile";
+    }
   }
   
   // Set default values
