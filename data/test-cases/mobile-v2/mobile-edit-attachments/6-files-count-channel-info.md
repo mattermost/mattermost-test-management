@@ -49,7 +49,7 @@ Steps:
 8. Click on Files.
 9. Verify Users can view the file in the list.
 
-Scenario 2: Verify Users can NOT view the file in the Channel Info.
+Scenario 2: Verify Users cannot view the file in the Channel Info.
 
 Steps:
 

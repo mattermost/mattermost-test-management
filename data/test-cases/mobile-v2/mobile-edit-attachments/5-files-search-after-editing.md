@@ -48,7 +48,7 @@ Steps:
 7. Search for the file name.
 8. Verify the file name appears in the search list
 
-Scenario 2: Verify Users can NOT search the file after Editing a post to remove it.
+Scenario 2: Verify Users cannot search the file after Editing a post to remove it.
 
 Steps:
 
@@ -58,4 +58,4 @@ Steps:
 4. Verify the files is remove from the post in the channel.
 5. Go to search page.
 6. Search for the file name.
-7. Verify the file name does not appears in the search list.
+7. Verify the file name does not appear in the search list.

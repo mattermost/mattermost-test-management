@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User should see and error message if more than 10 files are uploaded"
+name: "User should see an error message if more than 10 files are uploaded"
 status: Active
 priority: Normal
 folder: Mobile Edit Attachments
