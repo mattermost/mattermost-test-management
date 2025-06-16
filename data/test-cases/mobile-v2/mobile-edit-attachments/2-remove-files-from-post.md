@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Remove Files from a message"
+name: "Remove Files from a post"
 status: Active
 priority: Normal
 folder: Mobile Edit Attachments

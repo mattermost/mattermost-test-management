@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "User should verify the file appears Channel files"
+name: "User should verify the file appears in the Channel files"
 status: Active
 priority: Normal
 folder: Mobile Edit Attachments
