@@ -3347,6 +3347,17 @@
     ]
   },
   {
+    "folder": "mobile-v2/mobile-edit-attachments",
+    "tests": [
+      "Add Files to a post",
+      "Remove Files from a message",
+      "User should not be able to upload files if the setting 'Allow File Uploads on Mobile' is disabled",
+      "User should see and error message if more than 10 files are uploaded",
+      "User should verify the file appears Channel files",
+      "User should verify the file appears in the search list after editing"
+    ]
+  },
+  {
     "folder": "mobile-v2/search",
     "tests": [
       "Mobile V2: Search - Pinned Messages",
