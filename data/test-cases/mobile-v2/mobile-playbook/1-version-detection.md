@@ -46,4 +46,3 @@ steps_hashed: null
 **Scenario 3:**
 
 1. User should be on a server with Playbooks version 2.2.0 and should not see Playbooks on mobile.
-
