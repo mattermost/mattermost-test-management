@@ -3350,11 +3350,30 @@
     "folder": "mobile-v2/mobile-edit-attachments",
     "tests": [
       "Add Files to a post",
-      "Remove Files from a message",
+      "Remove Files from a post",
       "User should not be able to upload files if the setting 'Allow File Uploads on Mobile' is disabled",
-      "User should see and error message if more than 10 files are uploaded",
-      "User should verify the file appears Channel files",
+      "User should see an error message if more than 10 files are uploaded",
+      "User should verify the file appears in the Channel files",
       "User should verify the file appears in the search list after editing"
+    ]
+  },
+  {
+    "folder": "mobile-v2/mobile-playbook",
+    "tests": [
+      "Channel Integration and accessing Playbook",
+      "Error States & Edge Cases",
+      "Playbooks Navigation and UI on Mobile",
+      "Run Details View",
+      "Run Details and Status Updates on Mobile",
+      "Runs List Functionality",
+      "Version Detection & Compatibility",
+      "[E2E] Accessing Playbook via Channel",
+      "[E2E] Accessing Run and Status Transitions",
+      "[E2E] Manage Run Tasks on Mobile",
+      "[E2E] View Active Runs on Mobile",
+      "[E2E] View Playbook Details on Mobile",
+      "[E2E] View Playbooks List on Mobile",
+      "[E2E] should not show Playbook when there's no in progress runs"
     ]
   },
   {
