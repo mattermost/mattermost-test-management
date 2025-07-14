@@ -10,7 +10,7 @@ team_ownership:
 priority_p1_to_p4: P1 - Smoke Tests (App testable?)
 
 # (Optional)
-location: Mobile
+location: Messaging
 component: null
 tags: []
 labels: []
