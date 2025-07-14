@@ -38,7 +38,7 @@ steps_hashed: null
 1. Verify channel header icon appears only when active runs exist.
 2. Confirm channel header icon is hidden when no active runs exist.
 3. Test icon visibility updates in real-time when run status changes.
-4. Verify channel info section contains Playbook runs item when appropriate.
+4. Verify channel info section contains Playbook runs item when we have Active Playbook runs.
 5. Verify the channel header and the bottom sheet shows the count of active playbooks.
 6. Test count display accuracy on menu items.
 7. Verify the Channel info or quick actions menu items always go to the playbook runs list.

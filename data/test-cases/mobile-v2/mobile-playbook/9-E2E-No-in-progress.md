@@ -37,8 +37,8 @@ steps_hashed: null
 
 Prerequisites:
 
-- Create few Playbook in a channel from Web/Desktop
-- Mark the Playbook complete.
+- Start a few Playbook runs in a channel from Web/Desktop
+- Mark the Playbook run as complete in Web.
 - Have no active playbooks in the channel.
 
 Steps:

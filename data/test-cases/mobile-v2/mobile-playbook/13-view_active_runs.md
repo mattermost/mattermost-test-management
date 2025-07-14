@@ -47,7 +47,8 @@ This test case verifies that users can view their active playbook runs on mobile
 
 1. Login to a Mattermost server on a mobile device
 2. Navigate to the Playbooks screen
-3. Tap on the "Runs" tab or equivalent navigation element
+3. Tap on the "Runs" tab
+4. User should see List of active Playbook runs.
 
 **Expected**
 

@@ -42,3 +42,8 @@ steps_hashed: null
 **Scenario 2:**
 
 1. User should upgrade a server form 10.7.0 to the latest and Verify the functionality on the mobile.
+
+**Scenario 3:**
+
+1. User should be on a server with Playbooks version 2.2.0 and should not see Playbooks on mobile.
+

@@ -67,14 +67,14 @@ This test case verifies that users can view and manage tasks within an active pl
 
 - Task status changes to completed
 - Visual indicators update appropriately (checkmark, color change, etc.)
-- If applicable, run progress indicators update to reflect the completed task
+- Run progress indicators at the top of the section is updated to reflect the completed task.
 - Any notifications or messages related to task completion are triggered
 
 **Step 3**
 
 1. Tap on a completed task
 2. Mark it as incomplete
-3. Assign a task to yourself or another user (if applicable)
+3. Assign a task to yourself or another user (if applicable) from Web/ Desktop.
 
 **Expected**
 
@@ -92,4 +92,3 @@ This test case verifies that users can view and manage tasks within an active pl
 
 - In offline mode, previously loaded tasks are still visible
 - Task completion while offline is queued and synced when back online
-- Appropriate offline indicators and status messages are shown

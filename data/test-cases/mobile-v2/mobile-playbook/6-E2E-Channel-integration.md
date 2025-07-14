@@ -37,7 +37,7 @@ steps_hashed: null
 
 Prerequisites:
 
-- Create few Playbook in a channel from Web/Desktop
+- Start a few Playbook runs in a channel from Web/Desktop
 
 Steps:
 

@@ -98,5 +98,3 @@ This test case verifies that users can view detailed information about a playboo
 
 - Run completion process works correctly
 - In offline mode, previously loaded run details are still visible
-- Status updates while offline are queued and synced when back online
-- Appropriate offline indicators and error messages are shown
