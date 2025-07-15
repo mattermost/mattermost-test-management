@@ -60,6 +60,7 @@ Verify immediate member sync when access rules are saved
 
 - Rule save triggers immediate channel membership sync
 - Users who no longer meet criteria are removed from channel immediately
-- Users who meet criteria remain in channel
+- Users who still meet criteria remain in channel
+- If auto-add is enabled for the policy, users who newly meet criteria are added to channel
 - Channel member list updates in real-time
 - Admin who created rule remains in channel (due to self-exclusion prevention)
