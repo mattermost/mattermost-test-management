@@ -51,9 +51,9 @@ Detection of conflicting access rules
 2. Open Channel Settings > Access Control tab
 3. Create first rule: Department = Engineering
 4. Attempt to create conflicting rule: Department = Sales
-5. Verify system detects impossible combination (user cannot be in two departments)
-6. Check for warning message about conflicting rules
-7. Try to save and verify save is prevented or warning is shown
+5. Try to save and verify save is prevented or warning is shown
+6. Verify system detects impossible combination (user cannot be in two departments)
+7. Check for warning message about conflicting rules
 8. Test with non-conflicting rules on different attributes
 
 **Expected**
