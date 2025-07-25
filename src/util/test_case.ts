@@ -193,6 +193,7 @@ function customFieldsValues() {
       'Deployment Eng',
       'Growth',
       'ICU',
+      'Information Control',
       'Integration Frameworks',
       'MS Teams',
       'Playbooks',

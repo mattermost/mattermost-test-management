@@ -279,6 +279,47 @@
     ]
   },
   {
+    "folder": "channels/abac-attribute-based-access/abac-channel-admin",
+    "tests": [
+      "Auto-Add Toggle Functionality in Channel",
+      "Basic Access Rule Creation",
+      "Channel Access Rule Removal",
+      "Channel Access Rule Self-Exclusion Prevention",
+      "Channel Access Rule Validation",
+      "Channel Access Rule Validation and Security",
+      "Conflicting Channel Access Rules Detection",
+      "Global Policy Display in Channel Access Control",
+      "Immediate Member Sync on Rule Save",
+      "Prevent Loss of Unsaved Changes to Channel Access Rules",
+      "Preview Results of Access Rule",
+      "Visibility of Access Control tab in Channel Settings"
+    ]
+  },
+  {
+    "folder": "channels/abac-attribute-based-access/abac-system-admin",
+    "tests": [
+      "Add attribute-based policy to a channel from Channel Configuration page",
+      "Attribute-based access policy cannot be deleted if it is applied to any channels",
+      "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, with auto-add)",
+      "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, without auto-add)",
+      "Attribute-based access policy created using Advanced Mode, with complex rules structure, controls access as specified",
+      "Attribute-based access policy that uses all the attribute types, including multi-select with multiple values, controls access as specified (multiple attributes, `= is`, with auto-add)",
+      "Attribute-based access policy using operator variations in Simple mode controls access as specified (one attribute, various operators, with auto-add)",
+      "Channel cannot use attribute-based policies if it is already constrained by LDAP group sync",
+      "Editing existing access policy to add another attribute applies access control as specified (with auto-add)",
+      "Editing existing access policy to remove one of the rules applies access control as specified (with auto-add)",
+      "Editing value of existing attribute-based access policy applies access control as specified (without auto-add)",
+      "LDAP sync does not change the value of an attribute or its effect if a non-LDAP user had a value for it before it was set to sync with LDAP",
+      "LDAP sync: User can be added to channel by admin after editing qualifying attribute and syncing to their profile (auto-add false)",
+      "LDAP sync: User is auto-added to channel when qualifying attribute syncs to their profile (auto-add true)",
+      "LDAP sync: User is removed from channel after required attribute is removed from their LDAP account and synced (auto-add true or auto-add false)",
+      "System admin can enable or disable system-wide attribute-based access",
+      "User can be added to channel by system admin after a qualifying attribute is added to their profile (auto-add false)",
+      "User is auto-added to channel when a qualifying attribute is added to their profile (auto-add true)",
+      "User is auto-removed from channel when required attribute is removed from their user profile (auto-add true and auto-add false)"
+    ]
+  },
+  {
     "folder": "channels/ada-accessibility",
     "tests": [
       "Accessibility support for Custom statuses",

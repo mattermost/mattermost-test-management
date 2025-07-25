@@ -64,4 +64,5 @@ Verify system prevents Channel Admin from excluding themselves
 - Once rule is corrected to include admin, save succeeds
 
 **Notes**
+
 - What if an admin's attributes change after they set the policy, making them excluded from the channel after the fact?
