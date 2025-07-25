@@ -711,23 +711,6 @@
     ]
   },
   {
-    "folder": "channels/custom-profile-attributes",
-    "tests": [
-      "Always Display Custom Profile Attributes With Visibility Set to Always",
-      "Cancelling Changes to Custom Profile Attributes",
-      "Clearing Custom Profile Attributes",
-      "Display Custom Profile Attributes in Profile Popover",
-      "Display Phone and URL Type Custom Profile Attributes Correctly",
-      "Do Not Display Custom Profile Attributes If None Exist",
-      "Editing Custom Profile Attributes",
-      "Editing Phone and URL Type Custom Profile Attributes",
-      "Hide Custom Profile Attributes When Visibility Is Set to Hidden",
-      "URL Validation in Custom Profile Attributes",
-      "Update Custom Profile Attributes When Changed",
-      "Verify Phone and URL Attributes Are Clickable in Profile Popover"
-    ]
-  },
-  {
     "folder": "channels/custom-statuses",
     "tests": ["Clear Status 'x' Button to Status Dropdown Menu"]
   },
@@ -3355,6 +3338,33 @@
       "User should see an error message if more than 10 files are uploaded",
       "User should verify the file appears in the Channel files",
       "User should verify the file appears in the search list after editing"
+    ]
+  },
+  {
+    "folder": "mobile-v2/mobile-permalink",
+    "tests": [
+      "Attachment with Presentation File",
+      "Attachment with Text File",
+      "Converted Channel Preview",
+      "DM Permalink Shared Externally",
+      "DM/Private Channel Internal Visibility",
+      "Deleted Original Post",
+      "Edited Original Post Update",
+      "Guest Without Access",
+      "Image Attachment Preview",
+      "Important Priority Tag",
+      "Large Post Preview",
+      "Link Preview with Hidden Image",
+      "Long-Press Interaction",
+      "Multiple Attachments Preview",
+      "Permalink Height Limit",
+      "Private Channel Permalink Shared Externally",
+      "Public Channel Permalink Visibility",
+      "Single Image in Preview",
+      "Three or More Images in Preview",
+      "Truncated Text Preview",
+      "Two Images in Preview",
+      "Urgent Priority Tag"
     ]
   },
   {
@@ -6304,25 +6314,6 @@
   {
     "folder": "suite/system-console/site-configuration/public-links",
     "tests": ["Public Link Salt - Regenerate", "Public Links disabled"]
-  },
-  {
-    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
-    "tests": [
-      "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
-      "Re-ordering properties in the System Console, re-orders them in the user's profile screen and profile pop-over",
-      "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly"
-    ]
-  },
-  {
-    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "tests": [
-      "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
-      "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
-      "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
-      "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
-      "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
-      "User profile pop-over is scrollable and bottom bar in pop-over is locked in place"
-    ]
   },
   {
     "folder": "suite/system-console/site-configuration/users-and-teams",
