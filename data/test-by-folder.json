@@ -281,15 +281,23 @@
   {
     "folder": "channels/abac-attribute-based-access/abac-channel-admin",
     "tests": [
+      "ABAC Channel Access Rules Disabled with Active Group Sync",
+      "ABAC and LDAP Group Sync Coexistence",
+      "Auto-Add Behavior with ABAC and LDAP Group Sync",
       "Auto-Add Toggle Functionality in Channel",
       "Basic Access Rule Creation",
       "Channel Access Rule Removal",
       "Channel Access Rule Self-Exclusion Prevention",
       "Channel Access Rule Validation",
       "Channel Access Rule Validation and Security",
+      "Channel Access Rules Test Results with Group Sync Context",
+      "Channel Settings UI with ABAC and LDAP Group Sync",
+      "Conflict Resolution Between ABAC and LDAP",
       "Conflicting Channel Access Rules Detection",
       "Global Policy Display in Channel Access Control",
+      "Group Sync Disable with Active ABAC Channel Rules",
       "Immediate Member Sync on Rule Save",
+      "Member Removal Priority Between ABAC and LDAP Group Sync",
       "Prevent Loss of Unsaved Changes to Channel Access Rules",
       "Preview Results of Access Rule",
       "Visibility of Access Control tab in Channel Settings"
@@ -551,7 +559,6 @@
     "tests": [
       "Channel banner and text colors do not change if the user’s display theme changes",
       "Channel banner appears as a horizontal bar at the top of the center channel",
-      "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
       "Channel banner can be enabled from Channel Settings > Settings",
       "Channel banner color can be set using a HEX color code input",
       "Channel banner color picker functions correctly",
@@ -567,7 +574,6 @@
       "Default channel banner color is #DDDDDD",
       "Error displays when channel banner is enabled but text field is left blank",
       "Error displays when channel banner text exceeds the character limit",
-      "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
       "Links in channel banner are clickable",
       "Mobile: Channel banner displays at the top of the channel with a single row of text",
       "Mobile: Channel banner legible when displayed with server-wide announcement, bookmarks bar",
@@ -749,23 +755,6 @@
       "Recently used custom emoji, when is deleted should be removed from recent category of emoji picker and quick reactions",
       "User can't add custom emoji with the same name as a system one",
       "Windows: Custom emoji don't overlap"
-    ]
-  },
-  {
-    "folder": "channels/custom-profile-attributes",
-    "tests": [
-      "Always Display Custom Profile Attributes With Visibility Set to Always",
-      "Cancelling Changes to Custom Profile Attributes",
-      "Clearing Custom Profile Attributes",
-      "Display Custom Profile Attributes in Profile Popover",
-      "Display Phone and URL Type Custom Profile Attributes Correctly",
-      "Do Not Display Custom Profile Attributes If None Exist",
-      "Editing Custom Profile Attributes",
-      "Editing Phone and URL Type Custom Profile Attributes",
-      "Hide Custom Profile Attributes When Visibility Is Set to Hidden",
-      "URL Validation in Custom Profile Attributes",
-      "Update Custom Profile Attributes When Changed",
-      "Verify Phone and URL Attributes Are Clickable in Profile Popover"
     ]
   },
   {
@@ -1175,6 +1164,7 @@
   {
     "folder": "channels/message-priority",
     "tests": [
+      "Deleted messages should remove post priority label",
       "Message Priority: Important message priority",
       "Message Priority: Standard message priority and system setting",
       "Message Priority: Urgent message priority"
@@ -1742,7 +1732,7 @@
   {
     "folder": "channels/search",
     "tests": [
-      "'in:[channel name]' search shows both the channel name and channel ID (in brackets)",
+      "'in:[channel name]' search shows both the new display name and original channel handle",
       "/search slash command  Search for :emoji name: returns post containing that emoji",
       "@ icon displays @-mentions of current user:  - Public channel - DM - GM  @ icon does not display @channel messages",
       "@ recent mention search  `x` to clear search term",
@@ -1781,7 +1771,6 @@
       "Quotes cause exact phrase search",
       "RN apps: Empty Recent Mentions",
       "RN apps: Empty search state for emoji picker",
-      "RN apps: Focus does not stay in search box after a search",
       "RN apps: Hashtag search while in 'reply thread' of search results",
       "RN apps: Hashtags",
       "Search 'in:[username]' returns results in DMs / GMs",
@@ -2006,6 +1995,36 @@
       "Threads: Empty state",
       "Unfollow Thread",
       "should auto-scroll to bottom upon pasting long text in reply"
+    ]
+  },
+  {
+    "folder": "channels/user-attributes/mobile",
+    "tests": ["RN Apps: User Attributes - UI and UX"]
+  },
+  {
+    "folder": "channels/user-attributes/system-console",
+    "tests": [
+      "Can add, edit and delete attributes in the System Console (attribute name capped at 40 characters)",
+      "Re-ordering attributes in the System Console, re-orders them in the user's profile screen and profile pop-over",
+      "User Attributes is listed in System Console > SYSTEM ATTRIBUTES and UI displays properly"
+    ]
+  },
+  {
+    "folder": "channels/user-attributes/webapp---desktop-app",
+    "tests": [
+      "Always Display User Attributes With Visibility Set to Always",
+      "Attributes are shown in the user profile pop-over in the same order that they are listed in the System Console",
+      "Attributes are shown in the user profile settings in the same order that they are listed in the System Console",
+      "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+      "Display Phone and URL Type User Attributes Correctly",
+      "Do Not Display User Attributes If None Exist",
+      "Editing Phone and URL Type User Attributes",
+      "Hide User Attributes When Visibility Is Set to Hidden",
+      "Long attribute names and descriptions are displayed correctly in a user's Profile Settings screen",
+      "No crash if user is editing a user attribute at the same time as the System Admin is deleting it in the System Console",
+      "URL Validation in User Attributes",
+      "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
+      "Verify Phone and URL Attributes Are Clickable in Profile Popover"
     ]
   },
   {
@@ -3388,12 +3407,43 @@
     ]
   },
   {
+    "folder": "mobile-v2/mobile-edit-attachments",
+    "tests": [
+      "Add Files to a post",
+      "Remove Files from a post",
+      "User should not be able to upload files if the setting 'Allow File Uploads on Mobile' is disabled",
+      "User should see an error message if more than 10 files are uploaded",
+      "User should verify the file appears in the Channel files",
+      "User should verify the file appears in the search list after editing"
+    ]
+  },
+  {
+    "folder": "mobile-v2/mobile-playbook",
+    "tests": [
+      "Channel Integration and accessing Playbook",
+      "Error States & Edge Cases",
+      "Playbooks Navigation and UI on Mobile",
+      "Run Details View",
+      "Run Details and Status Updates on Mobile",
+      "Runs List Functionality",
+      "Version Detection & Compatibility",
+      "[E2E] Accessing Playbook via Channel",
+      "[E2E] Accessing Run and Status Transitions",
+      "[E2E] Manage Run Tasks on Mobile",
+      "[E2E] View Active Runs on Mobile",
+      "[E2E] View Playbook Details on Mobile",
+      "[E2E] View Playbooks List on Mobile",
+      "[E2E] should not show Playbook when there's no in progress runs"
+    ]
+  },
+  {
     "folder": "mobile-v2/search",
     "tests": [
       "Mobile V2: Search - Pinned Messages",
       "Mobile V2: Search - Recent Mentions",
       "Mobile V2: Search - Saved Messages",
-      "Mobile V2: Search - Search Messages"
+      "Mobile V2: Search - Search Messages",
+      "RN apps: Focus does not stay in search box after a search"
     ]
   },
   {
@@ -6317,25 +6367,6 @@
     "tests": ["Public Link Salt - Regenerate", "Public Links disabled"]
   },
   {
-    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
-    "tests": [
-      "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
-      "Re-ordering properties in the System Console, re-orders them in the user's profile screen and profile pop-over",
-      "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly"
-    ]
-  },
-  {
-    "folder": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "tests": [
-      "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
-      "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
-      "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
-      "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
-      "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
-      "User profile pop-over is scrollable and bottom bar in pop-over is locked in place"
-    ]
-  },
-  {
     "folder": "suite/system-console/site-configuration/users-and-teams",
     "tests": [
       "'Allow users to view archived channels' is set to true by default",
@@ -6479,6 +6510,18 @@
     ]
   },
   {
+    "folder": "teams/cross-team-search",
+    "tests": [
+      "Channel Filter 'in:' Reset",
+      "Cross-team Search UI - Dark Theme",
+      "Edge Case Scenarios",
+      "RN Apps: Cross-team Search UI/UX and Functionality",
+      "Team Picker Drop-down Autocomplete Functionality",
+      "Team Picker Drop-down Functionality",
+      "Team Picker Drop-down UI/UX"
+    ]
+  },
+  {
     "folder": "ticket-coverage",
     "tests": [
       "Edit a post and post it from preview",
@@ -6499,13 +6542,6 @@
       "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover",
       "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
       "When on preview mode, it does not allow to submit a post from the main post input"
-    ]
-  },
-  {
-    "folder": "zephyr-reflect-ai-testing",
-    "tests": [
-      "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
-      "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)"
     ]
   }
 ]

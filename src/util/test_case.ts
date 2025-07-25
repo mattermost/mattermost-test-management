@@ -192,6 +192,7 @@ function customFieldsValues() {
       'Channels',
       'Deployment Eng',
       'Growth',
+      'Core Features',
       'ICU',
       'Information Control',
       'Integration Frameworks',

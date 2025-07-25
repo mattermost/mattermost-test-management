@@ -674,6 +674,177 @@
     "heading": true,
     "routes": [
       {
+        "name": "ABAC Attribute-based access",
+        "routes": [
+          {
+            "name": "ABAC Channel Admin",
+            "routes": [
+              {
+                "name": "Visibility of Access Control tab in Channel Settings",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5807.md"
+              },
+              {
+                "name": "Prevent Loss of Unsaved Changes to Channel Access Rules",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5808.md"
+              },
+              {
+                "name": "Channel Access Rule Removal",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5809.md"
+              },
+              {
+                "name": "Channel Access Rule Validation and Security",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5810.md"
+              },
+              {
+                "name": "Basic Access Rule Creation",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5811.md"
+              },
+              {
+                "name": "Preview Results of Access Rule",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5812.md"
+              },
+              {
+                "name": "Auto-Add Toggle Functionality in Channel",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5813.md"
+              },
+              {
+                "name": "Channel Access Rule Self-Exclusion Prevention",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5814.md"
+              },
+              {
+                "name": "Global Policy Display in Channel Access Control",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5815.md"
+              },
+              {
+                "name": "Channel Access Rule Validation",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5816.md"
+              },
+              {
+                "name": "Immediate Member Sync on Rule Save",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5817.md"
+              },
+              {
+                "name": "Conflicting Channel Access Rules Detection",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5818.md"
+              },
+              {
+                "name": "ABAC Channel Access Rules Disabled with Active Group Sync",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5819.md"
+              },
+              {
+                "name": "ABAC and LDAP Group Sync Coexistence",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5820.md"
+              },
+              {
+                "name": "Auto-Add Behavior with ABAC and LDAP Group Sync",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5821.md"
+              },
+              {
+                "name": "Channel Access Rules Test Results with Group Sync Context",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5822.md"
+              },
+              {
+                "name": "Channel Settings UI with ABAC and LDAP Group Sync",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5823.md"
+              },
+              {
+                "name": "Conflict Resolution Between ABAC and LDAP",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5824.md"
+              },
+              {
+                "name": "Group Sync Disable with Active ABAC Channel Rules",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5825.md"
+              },
+              {
+                "name": "Member Removal Priority Between ABAC and LDAP Group Sync",
+                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5826.md"
+              }
+            ]
+          },
+          {
+            "name": "ABAC System Admin",
+            "routes": [
+              {
+                "name": "System admin can enable or disable system-wide attribute-based access",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5782.md"
+              },
+              {
+                "name": "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, without auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5783.md"
+              },
+              {
+                "name": "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, with auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5784.md"
+              },
+              {
+                "name": "Attribute-based access policy that uses all the attribute types, including multi-select with multiple values, controls access as specified (multiple attributes, `= is`, with auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5785.md"
+              },
+              {
+                "name": "Attribute-based access policy using operator variations in Simple mode controls access as specified (one attribute, various operators, with auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5786.md"
+              },
+              {
+                "name": "Attribute-based access policy created using Advanced Mode, with complex rules structure, controls access as specified",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5787.md"
+              },
+              {
+                "name": "Add attribute-based policy to a channel from Channel Configuration page",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5788.md"
+              },
+              {
+                "name": "Channel cannot use attribute-based policies if it is already constrained by LDAP group sync",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5789.md"
+              },
+              {
+                "name": "Editing value of existing attribute-based access policy applies access control as specified (without auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5790.md"
+              },
+              {
+                "name": "Editing existing access policy to add another attribute applies access control as specified (with auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5791.md"
+              },
+              {
+                "name": "Editing existing access policy to remove one of the rules applies access control as specified (with auto-add)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5792.md"
+              },
+              {
+                "name": "Attribute-based access policy cannot be deleted if it is applied to any channels",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5793.md"
+              },
+              {
+                "name": "User is auto-added to channel when a qualifying attribute is added to their profile (auto-add true)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5794.md"
+              },
+              {
+                "name": "User can be added to channel by system admin after a qualifying attribute is added to their profile (auto-add false)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5795.md"
+              },
+              {
+                "name": "User is auto-removed from channel when required attribute is removed from their user profile (auto-add true and auto-add false)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5796.md"
+              },
+              {
+                "name": "LDAP sync: User is auto-added to channel when qualifying attribute syncs to their profile (auto-add true)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5797.md"
+              },
+              {
+                "name": "LDAP sync: User can be added to channel by admin after editing qualifying attribute and syncing to their profile (auto-add false)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5798.md"
+              },
+              {
+                "name": "LDAP sync: User is removed from channel after required attribute is removed from their LDAP account and synced (auto-add true or auto-add false)",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5799.md"
+              },
+              {
+                "name": "LDAP sync does not change the value of an attribute or its effect if a non-LDAP user had a value for it before it was set to sync with LDAP",
+                "file": "channels/abac-attribute-based-access/abac-system-admin/MM-T5800.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "ADA Accessibility",
         "routes": [
           {
@@ -1448,10 +1619,6 @@
             "file": "channels/channel-banner/MM-T5734.md"
           },
           {
-            "name": "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
-            "file": "channels/channel-banner/MM-T5735.md"
-          },
-          {
             "name": "Channel banner default state is `disabled`",
             "file": "channels/channel-banner/MM-T5736.md"
           },
@@ -1498,10 +1665,6 @@
           {
             "name": "Channel banner and text colors do not change if the user’s display theme changes",
             "file": "channels/channel-banner/MM-T5755.md"
-          },
-          {
-            "name": "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
-            "file": "channels/channel-banner/MM-T5756.md"
           },
           {
             "name": "Channel banner appears as a horizontal bar at the top of the center channel",
@@ -2084,59 +2247,6 @@
             "file": "channels/custom-emoji/MM-T4463.md"
           },
           { "name": "Custom emoji - webp file", "file": "channels/custom-emoji/MM-T4890.md" }
-        ]
-      },
-      {
-        "name": "Custom Profile Attributes",
-        "routes": [
-          {
-            "name": "Editing Custom Profile Attributes",
-            "file": "channels/custom-profile-attributes/MM-T5768.md"
-          },
-          {
-            "name": "Clearing Custom Profile Attributes",
-            "file": "channels/custom-profile-attributes/MM-T5769.md"
-          },
-          {
-            "name": "Cancelling Changes to Custom Profile Attributes",
-            "file": "channels/custom-profile-attributes/MM-T5770.md"
-          },
-          {
-            "name": "Editing Phone and URL Type Custom Profile Attributes",
-            "file": "channels/custom-profile-attributes/MM-T5771.md"
-          },
-          {
-            "name": "URL Validation in Custom Profile Attributes",
-            "file": "channels/custom-profile-attributes/MM-T5772.md"
-          },
-          {
-            "name": "Display Custom Profile Attributes in Profile Popover",
-            "file": "channels/custom-profile-attributes/MM-T5773.md"
-          },
-          {
-            "name": "Do Not Display Custom Profile Attributes If None Exist",
-            "file": "channels/custom-profile-attributes/MM-T5774.md"
-          },
-          {
-            "name": "Update Custom Profile Attributes When Changed",
-            "file": "channels/custom-profile-attributes/MM-T5775.md"
-          },
-          {
-            "name": "Hide Custom Profile Attributes When Visibility Is Set to Hidden",
-            "file": "channels/custom-profile-attributes/MM-T5776.md"
-          },
-          {
-            "name": "Always Display Custom Profile Attributes With Visibility Set to Always",
-            "file": "channels/custom-profile-attributes/MM-T5777.md"
-          },
-          {
-            "name": "Display Phone and URL Type Custom Profile Attributes Correctly",
-            "file": "channels/custom-profile-attributes/MM-T5778.md"
-          },
-          {
-            "name": "Verify Phone and URL Attributes Are Clickable in Profile Popover",
-            "file": "channels/custom-profile-attributes/MM-T5779.md"
-          }
         ]
       },
       {
@@ -3347,6 +3457,10 @@
           {
             "name": "Message Priority: Urgent message priority",
             "file": "channels/message-priority/MM-T5142.md"
+          },
+          {
+            "name": "Deleted messages should remove post priority label",
+            "file": "channels/message-priority/MM-T5780.md"
           }
         ]
       },
@@ -5145,7 +5259,7 @@
         "name": "Search",
         "routes": [
           {
-            "name": "'in:[channel name]' search shows both the channel name and channel ID (in brackets)",
+            "name": "'in:[channel name]' search shows both the new display name and original channel handle",
             "file": "channels/search/MM-T1449.md"
           },
           { "name": "Autocomplete behavior", "file": "channels/search/MM-T1450.md" },
@@ -5283,10 +5397,6 @@
           },
           { "name": "Search hashtags from mentions", "file": "channels/search/MM-T360.md" },
           { "name": "Search hashtags from Saved Messages", "file": "channels/search/MM-T361.md" },
-          {
-            "name": "RN apps: Focus does not stay in search box after a search",
-            "file": "channels/search/MM-T366.md"
-          },
           {
             "name": "Search box at wider widths (as opposed to search icon) Can click top nav buttons when focus is in search box",
             "file": "channels/search/MM-T367.md"
@@ -5938,6 +6048,94 @@
           {
             "name": "should auto-scroll to bottom upon pasting long text in reply",
             "file": "channels/threads/MM-T5413.md"
+          }
+        ]
+      },
+      {
+        "name": "User Attributes",
+        "routes": [
+          {
+            "name": "Mobile",
+            "routes": [
+              {
+                "name": "RN Apps: User Attributes - UI and UX",
+                "file": "channels/user-attributes/mobile/MM-T5781.md"
+              }
+            ]
+          },
+          {
+            "name": "System Console",
+            "routes": [
+              {
+                "name": "User Attributes is listed in System Console > SYSTEM ATTRIBUTES and UI displays properly",
+                "file": "channels/user-attributes/system-console/MM-T5745.md"
+              },
+              {
+                "name": "Can add, edit and delete attributes in the System Console (attribute name capped at 40 characters)",
+                "file": "channels/user-attributes/system-console/MM-T5746.md"
+              },
+              {
+                "name": "Re-ordering attributes in the System Console, re-orders them in the user's profile screen and profile pop-over",
+                "file": "channels/user-attributes/system-console/MM-T5766.md"
+              }
+            ]
+          },
+          {
+            "name": "WebApp & Desktop App",
+            "routes": [
+              {
+                "name": "Attributes are shown in the user profile settings in the same order that they are listed in the System Console",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5747.md"
+              },
+              {
+                "name": "Long attribute names and descriptions are displayed correctly in a user's Profile Settings screen",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5748.md"
+              },
+              {
+                "name": "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5749.md"
+              },
+              {
+                "name": "No crash if user is editing a user attribute at the same time as the System Admin is deleting it in the System Console",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5750.md"
+              },
+              {
+                "name": "Attributes are shown in the user profile pop-over in the same order that they are listed in the System Console",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5751.md"
+              },
+              {
+                "name": "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5752.md"
+              },
+              {
+                "name": "Editing Phone and URL Type User Attributes",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5771.md"
+              },
+              {
+                "name": "URL Validation in User Attributes",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5772.md"
+              },
+              {
+                "name": "Do Not Display User Attributes If None Exist",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5774.md"
+              },
+              {
+                "name": "Hide User Attributes When Visibility Is Set to Hidden",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5776.md"
+              },
+              {
+                "name": "Always Display User Attributes With Visibility Set to Always",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5777.md"
+              },
+              {
+                "name": "Display Phone and URL Type User Attributes Correctly",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5778.md"
+              },
+              {
+                "name": "Verify Phone and URL Attributes Are Clickable in Profile Popover",
+                "file": "channels/user-attributes/webapp---desktop-app/MM-T5779.md"
+              }
+            ]
           }
         ]
       }
@@ -9419,8 +9617,93 @@
         ]
       },
       {
+        "name": "Mobile Edit Attachments",
+        "routes": [
+          {
+            "name": "Add Files to a post",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5828.md"
+          },
+          {
+            "name": "Remove Files from a post",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5829.md"
+          },
+          {
+            "name": "User should not be able to upload files if the setting 'Allow File Uploads on Mobile' is disabled",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5830.md"
+          },
+          {
+            "name": "User should see an error message if more than 10 files are uploaded",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5831.md"
+          },
+          {
+            "name": "User should verify the file appears in the search list after editing",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5832.md"
+          },
+          {
+            "name": "User should verify the file appears in the Channel files",
+            "file": "mobile-v2/mobile-edit-attachments/MM-T5833.md"
+          }
+        ]
+      },
+      {
+        "name": "Mobile Playbook",
+        "routes": [
+          {
+            "name": "Version Detection & Compatibility",
+            "file": "mobile-v2/mobile-playbook/MM-T5834.md"
+          },
+          {
+            "name": "[E2E] Manage Run Tasks on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5835.md"
+          },
+          {
+            "name": "Playbooks Navigation and UI on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5836.md"
+          },
+          {
+            "name": "Run Details and Status Updates on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5837.md"
+          },
+          {
+            "name": "[E2E] View Active Runs on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5838.md"
+          },
+          {
+            "name": "[E2E] View Playbook Details on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5839.md"
+          },
+          {
+            "name": "[E2E] View Playbooks List on Mobile",
+            "file": "mobile-v2/mobile-playbook/MM-T5840.md"
+          },
+          {
+            "name": "Channel Integration and accessing Playbook",
+            "file": "mobile-v2/mobile-playbook/MM-T5841.md"
+          },
+          { "name": "Runs List Functionality", "file": "mobile-v2/mobile-playbook/MM-T5842.md" },
+          { "name": "Run Details View", "file": "mobile-v2/mobile-playbook/MM-T5843.md" },
+          { "name": "Error States & Edge Cases", "file": "mobile-v2/mobile-playbook/MM-T5844.md" },
+          {
+            "name": "[E2E] Accessing Playbook via Channel",
+            "file": "mobile-v2/mobile-playbook/MM-T5845.md"
+          },
+          {
+            "name": "[E2E] Accessing Run and Status Transitions",
+            "file": "mobile-v2/mobile-playbook/MM-T5846.md"
+          },
+          {
+            "name": "[E2E] should not show Playbook when there's no in progress runs",
+            "file": "mobile-v2/mobile-playbook/MM-T5847.md"
+          }
+        ]
+      },
+      {
         "name": "Search",
         "routes": [
+          {
+            "name": "RN apps: Focus does not stay in search box after a search",
+            "file": "mobile-v2/search/MM-T366.md"
+          },
           { "name": "Mobile V2: Search - Recent Mentions", "file": "mobile-v2/search/MM-T4909.md" },
           { "name": "Mobile V2: Search - Saved Messages", "file": "mobile-v2/search/MM-T4910.md" },
           { "name": "Mobile V2: Search - Pinned Messages", "file": "mobile-v2/search/MM-T4918.md" },
@@ -17914,57 +18197,6 @@
                 ]
               },
               {
-                "name": "System Properties (Custom Profile Attributes)",
-                "routes": [
-                  {
-                    "name": "System Console",
-                    "routes": [
-                      {
-                        "name": "System Properties is listed in System Console > SITE CONFIGURATION and UI displays properly",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5745.md"
-                      },
-                      {
-                        "name": "Can add, edit and delete properties in the System Console (property name capped at 40 characters)",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5746.md"
-                      },
-                      {
-                        "name": "Re-ordering properties in the System Console, re-orders them in the user's profile screen and profile pop-over",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console/MM-T5766.md"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "WebApp & Desktop App",
-                    "routes": [
-                      {
-                        "name": "Properties are shown in the user profile settings in the same order that they are listed in the System Console",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5747.md"
-                      },
-                      {
-                        "name": "Long property names and descriptions are displayed correctly in a user's Profile Settings screen",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5748.md"
-                      },
-                      {
-                        "name": "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5749.md"
-                      },
-                      {
-                        "name": "No crash if user is editing a custom profile attribute at the same time as the System Admin is deleting it in the System Console",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5750.md"
-                      },
-                      {
-                        "name": "Properties are shown in the user profile pop-over in the same order that they are listed in the System Console",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5751.md"
-                      },
-                      {
-                        "name": "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
-                        "file": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app/MM-T5752.md"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Users and Teams",
                 "routes": [
                   {
@@ -18447,6 +18679,36 @@
     ]
   },
   {
+    "name": "Teams",
+    "heading": true,
+    "routes": [
+      {
+        "name": "Cross-team Search",
+        "routes": [
+          { "name": "Team Picker Drop-down UI/UX", "file": "teams/cross-team-search/MM-T5801.md" },
+          {
+            "name": "Team Picker Drop-down Autocomplete Functionality",
+            "file": "teams/cross-team-search/MM-T5802.md"
+          },
+          {
+            "name": "Team Picker Drop-down Functionality",
+            "file": "teams/cross-team-search/MM-T5803.md"
+          },
+          { "name": "Channel Filter 'in:' Reset", "file": "teams/cross-team-search/MM-T5804.md" },
+          { "name": "Edge Case Scenarios", "file": "teams/cross-team-search/MM-T5805.md" },
+          {
+            "name": "Cross-team Search UI - Dark Theme",
+            "file": "teams/cross-team-search/MM-T5806.md"
+          },
+          {
+            "name": "RN Apps: Cross-team Search UI/UX and Functionality",
+            "file": "teams/cross-team-search/MM-T5827.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Ticket coverage",
     "heading": true,
     "routes": [
@@ -18506,20 +18768,6 @@
       {
         "name": "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
         "file": "ticket-coverage/MM-T37.md"
-      }
-    ]
-  },
-  {
-    "name": "Zephyr Reflect AI Testing",
-    "heading": true,
-    "routes": [
-      {
-        "name": "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
-        "file": "zephyr-reflect-ai-testing/MM-T5594.md"
-      },
-      {
-        "name": "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)",
-        "file": "zephyr-reflect-ai-testing/MM-T5595.md"
       }
     ]
   }

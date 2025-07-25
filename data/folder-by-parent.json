@@ -50,6 +50,7 @@
   {
     "parent": "channels",
     "folders": [
+      "ABAC Attribute-based access",
       "ADA Accessibility",
       "Add user from popover",
       "Archived Channels",
@@ -63,7 +64,6 @@
       "Collapsed Reply Threads",
       "Command Palette",
       "Custom Emoji",
-      "Custom Profile Attributes",
       "Custom Statuses",
       "Edited Post",
       "Emoji picker",
@@ -88,8 +88,13 @@
       "Settings",
       "Sidebar",
       "Team Settings",
-      "Threads"
+      "Threads",
+      "User Attributes"
     ]
+  },
+  {
+    "parent": "channels/abac-attribute-based-access",
+    "folders": ["ABAC Channel Admin", "ABAC System Admin"]
   },
   { "parent": "channels/autocomplete", "folders": ["With Database", "With Elasticsearch"] },
   { "parent": "channels/custom-statuses", "folders": ["Mobile", "Web"] },
@@ -105,6 +110,10 @@
     ]
   },
   { "parent": "channels/settings", "folders": ["Advanced", "Display", "Notifications"] },
+  {
+    "parent": "channels/user-attributes",
+    "folders": ["Mobile", "System Console", "WebApp & Desktop App"]
+  },
   {
     "parent": "cloud",
     "folders": [
@@ -219,6 +228,8 @@
       "iPad specific",
       "Messaging",
       "Mobile Draft",
+      "Mobile Edit Attachments",
+      "Mobile Playbook",
       "Search",
       "Server Login",
       "Smoke Test",
@@ -351,8 +362,8 @@
       "Self-Hosted",
       "Smoke Tests",
       "Suite",
-      "Ticket coverage",
-      "Zephyr Reflect AI Testing"
+      "Teams",
+      "Ticket coverage"
     ]
   },
   { "parent": "self-hosted", "folders": ["In product purchase", "True up support", "User limits"] },
@@ -486,16 +497,12 @@
       "Notifications",
       "Posts",
       "Public Links",
-      "System Properties (Custom Profile Attributes)",
       "Users and Teams"
     ]
   },
   {
-    "parent": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-",
-    "folders": ["Mobile", "System Console", "WebApp & Desktop App"]
-  },
-  {
     "parent": "suite/system-console/user-management",
     "folders": ["Admin Control User Settings", "New UI", "Users"]
-  }
+  },
+  { "parent": "teams", "folders": ["Cross-team Search"] }
 ]
