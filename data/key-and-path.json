@@ -255,7 +255,7 @@
   { "key": "MM-T358", "path": "channels/search", "id": 3877460 },
   { "key": "MM-T359", "path": "channels/search", "id": 3877461 },
   { "key": "MM-T360", "path": "channels/search", "id": 3877462 },
-  { "key": "MM-T366", "path": "channels/search", "id": 3877468 },
+  { "key": "MM-T366", "path": "mobile-v2/search", "id": 3877468 },
   { "key": "MM-T367", "path": "channels/search", "id": 3877469 },
   { "key": "MM-T369", "path": "channels/search", "id": 3877471 },
   { "key": "MM-T370", "path": "channels/search", "id": 3877472 },
@@ -6246,8 +6246,6 @@
   { "key": "MM-T5592", "path": "plugins/nps-plugin/new-nps-plugin", "id": 165527622 },
   { "key": "MM-T5593", "path": "plugins/nps-plugin/new-nps-plugin", "id": 165527624 },
   { "key": "MM-T459", "path": "channels/multi-team-and-dms", "id": 166213894 },
-  { "key": "MM-T5594", "path": "zephyr-reflect-ai-testing", "id": 166214131 },
-  { "key": "MM-T5595", "path": "zephyr-reflect-ai-testing", "id": 168707708 },
   {
     "key": "MM-T5596",
     "path": "suite/system-console/user-management/admin-control-user-settings",
@@ -6351,7 +6349,6 @@
   { "key": "MM-T5732", "path": "mobile-v2/mobile-draft", "id": 227440596 },
   { "key": "MM-T5733", "path": "mobile-v2/mobile-draft", "id": 227440598 },
   { "key": "MM-T5734", "path": "channels/channel-banner", "id": 227916244 },
-  { "key": "MM-T5735", "path": "channels/channel-banner", "id": 227916377 },
   { "key": "MM-T5736", "path": "channels/channel-banner", "id": 227916459 },
   { "key": "MM-T5737", "path": "channels/channel-banner", "id": 227916885 },
   { "key": "MM-T5738", "path": "channels/channel-banner", "id": 227917072 },
@@ -6361,50 +6358,17 @@
   { "key": "MM-T5742", "path": "channels/channel-banner", "id": 227918668 },
   { "key": "MM-T5743", "path": "channels/channel-banner", "id": 227919446 },
   { "key": "MM-T5744", "path": "channels/channel-banner", "id": 227919500 },
-  {
-    "key": "MM-T5745",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
-    "id": 228297014
-  },
-  {
-    "key": "MM-T5746",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
-    "id": 228517341
-  },
-  {
-    "key": "MM-T5747",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 228525197
-  },
-  {
-    "key": "MM-T5748",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 229406779
-  },
-  {
-    "key": "MM-T5749",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 229613613
-  },
-  {
-    "key": "MM-T5750",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 229862094
-  },
-  {
-    "key": "MM-T5751",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 230219014
-  },
-  {
-    "key": "MM-T5752",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/webapp---desktop-app",
-    "id": 230444903
-  },
+  { "key": "MM-T5745", "path": "channels/user-attributes/system-console", "id": 228297014 },
+  { "key": "MM-T5746", "path": "channels/user-attributes/system-console", "id": 228517341 },
+  { "key": "MM-T5747", "path": "channels/user-attributes/webapp---desktop-app", "id": 228525197 },
+  { "key": "MM-T5748", "path": "channels/user-attributes/webapp---desktop-app", "id": 229406779 },
+  { "key": "MM-T5749", "path": "channels/user-attributes/webapp---desktop-app", "id": 229613613 },
+  { "key": "MM-T5750", "path": "channels/user-attributes/webapp---desktop-app", "id": 229862094 },
+  { "key": "MM-T5751", "path": "channels/user-attributes/webapp---desktop-app", "id": 230219014 },
+  { "key": "MM-T5752", "path": "channels/user-attributes/webapp---desktop-app", "id": 230444903 },
   { "key": "MM-T5753", "path": "channels/channel-banner", "id": 230879342 },
   { "key": "MM-T5754", "path": "channels/channel-banner", "id": 230882391 },
   { "key": "MM-T5755", "path": "channels/channel-banner", "id": 230882426 },
-  { "key": "MM-T5756", "path": "channels/channel-banner", "id": 230882565 },
   { "key": "MM-T5757", "path": "channels/channel-banner", "id": 230882787 },
   { "key": "MM-T5758", "path": "channels/channel-banner", "id": 230883291 },
   { "key": "MM-T5759", "path": "channels/channel-banner", "id": 230883379 },
@@ -6414,22 +6378,237 @@
   { "key": "MM-T5763", "path": "channels/channel-banner", "id": 230884400 },
   { "key": "MM-T5764", "path": "channels/channel-banner", "id": 230884456 },
   { "key": "MM-T5765", "path": "channels/channel-banner", "id": 230884561 },
-  {
-    "key": "MM-T5766",
-    "path": "suite/system-console/site-configuration/system-properties--custom-profile-attributes-/system-console",
-    "id": 233165996
-  },
+  { "key": "MM-T5766", "path": "channels/user-attributes/system-console", "id": 233165996 },
   { "key": "MM-T5767", "path": "mobile-v2/mobile-draft", "id": 233837645 },
-  { "key": "MM-T5768", "path": "channels/custom-profile-attributes", "id": 234220340 },
-  { "key": "MM-T5769", "path": "channels/custom-profile-attributes", "id": 234220341 },
-  { "key": "MM-T5770", "path": "channels/custom-profile-attributes", "id": 234220343 },
-  { "key": "MM-T5771", "path": "channels/custom-profile-attributes", "id": 234220344 },
-  { "key": "MM-T5772", "path": "channels/custom-profile-attributes", "id": 234220345 },
-  { "key": "MM-T5773", "path": "channels/custom-profile-attributes", "id": 234337298 },
-  { "key": "MM-T5774", "path": "channels/custom-profile-attributes", "id": 234337303 },
-  { "key": "MM-T5775", "path": "channels/custom-profile-attributes", "id": 234337307 },
-  { "key": "MM-T5776", "path": "channels/custom-profile-attributes", "id": 234337313 },
-  { "key": "MM-T5777", "path": "channels/custom-profile-attributes", "id": 234337317 },
-  { "key": "MM-T5778", "path": "channels/custom-profile-attributes", "id": 234337322 },
-  { "key": "MM-T5779", "path": "channels/custom-profile-attributes", "id": 234337327 }
+  { "key": "MM-T5771", "path": "channels/user-attributes/webapp---desktop-app", "id": 234220344 },
+  { "key": "MM-T5772", "path": "channels/user-attributes/webapp---desktop-app", "id": 234220345 },
+  { "key": "MM-T5774", "path": "channels/user-attributes/webapp---desktop-app", "id": 234337303 },
+  { "key": "MM-T5776", "path": "channels/user-attributes/webapp---desktop-app", "id": 234337313 },
+  { "key": "MM-T5777", "path": "channels/user-attributes/webapp---desktop-app", "id": 234337317 },
+  { "key": "MM-T5778", "path": "channels/user-attributes/webapp---desktop-app", "id": 234337322 },
+  { "key": "MM-T5779", "path": "channels/user-attributes/webapp---desktop-app", "id": 234337327 },
+  { "key": "MM-T5780", "path": "channels/message-priority", "id": 234339961 },
+  { "key": "MM-T5781", "path": "channels/user-attributes/mobile", "id": 236145736 },
+  {
+    "key": "MM-T5782",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239112010
+  },
+  {
+    "key": "MM-T5783",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239113248
+  },
+  {
+    "key": "MM-T5784",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239116530
+  },
+  {
+    "key": "MM-T5785",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239116836
+  },
+  {
+    "key": "MM-T5786",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239117039
+  },
+  {
+    "key": "MM-T5787",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239117476
+  },
+  {
+    "key": "MM-T5788",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239120174
+  },
+  {
+    "key": "MM-T5789",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239120925
+  },
+  {
+    "key": "MM-T5790",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239123515
+  },
+  {
+    "key": "MM-T5791",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239124062
+  },
+  {
+    "key": "MM-T5792",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239124424
+  },
+  {
+    "key": "MM-T5793",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239124665
+  },
+  {
+    "key": "MM-T5794",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239259589
+  },
+  {
+    "key": "MM-T5795",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239261859
+  },
+  {
+    "key": "MM-T5796",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239262026
+  },
+  {
+    "key": "MM-T5797",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239265312
+  },
+  {
+    "key": "MM-T5798",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239265667
+  },
+  {
+    "key": "MM-T5799",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239266559
+  },
+  {
+    "key": "MM-T5800",
+    "path": "channels/abac-attribute-based-access/abac-system-admin",
+    "id": 239357619
+  },
+  { "key": "MM-T5801", "path": "teams/cross-team-search", "id": 243121541 },
+  { "key": "MM-T5802", "path": "teams/cross-team-search", "id": 243423785 },
+  { "key": "MM-T5803", "path": "teams/cross-team-search", "id": 243778457 },
+  { "key": "MM-T5804", "path": "teams/cross-team-search", "id": 243785442 },
+  { "key": "MM-T5805", "path": "teams/cross-team-search", "id": 244110971 },
+  { "key": "MM-T5806", "path": "teams/cross-team-search", "id": 244156833 },
+  {
+    "key": "MM-T5807",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538266
+  },
+  {
+    "key": "MM-T5808",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538267
+  },
+  {
+    "key": "MM-T5809",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538268
+  },
+  {
+    "key": "MM-T5810",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538269
+  },
+  {
+    "key": "MM-T5811",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538270
+  },
+  {
+    "key": "MM-T5812",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538271
+  },
+  {
+    "key": "MM-T5813",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538272
+  },
+  {
+    "key": "MM-T5814",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538273
+  },
+  {
+    "key": "MM-T5815",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538274
+  },
+  {
+    "key": "MM-T5816",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538275
+  },
+  {
+    "key": "MM-T5817",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538276
+  },
+  {
+    "key": "MM-T5818",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538277
+  },
+  {
+    "key": "MM-T5819",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538279
+  },
+  {
+    "key": "MM-T5820",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538280
+  },
+  {
+    "key": "MM-T5821",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538281
+  },
+  {
+    "key": "MM-T5822",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538282
+  },
+  {
+    "key": "MM-T5823",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538283
+  },
+  {
+    "key": "MM-T5824",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538285
+  },
+  {
+    "key": "MM-T5825",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538287
+  },
+  {
+    "key": "MM-T5826",
+    "path": "channels/abac-attribute-based-access/abac-channel-admin",
+    "id": 244538288
+  },
+  { "key": "MM-T5827", "path": "teams/cross-team-search", "id": 245984755 },
+  { "key": "MM-T5828", "path": "mobile-v2/mobile-edit-attachments", "id": 248269271 },
+  { "key": "MM-T5829", "path": "mobile-v2/mobile-edit-attachments", "id": 248269272 },
+  { "key": "MM-T5830", "path": "mobile-v2/mobile-edit-attachments", "id": 248269273 },
+  { "key": "MM-T5831", "path": "mobile-v2/mobile-edit-attachments", "id": 248269274 },
+  { "key": "MM-T5832", "path": "mobile-v2/mobile-edit-attachments", "id": 248269275 },
+  { "key": "MM-T5833", "path": "mobile-v2/mobile-edit-attachments", "id": 248269277 },
+  { "key": "MM-T5834", "path": "mobile-v2/mobile-playbook", "id": 248288126 },
+  { "key": "MM-T5835", "path": "mobile-v2/mobile-playbook", "id": 248291622 },
+  { "key": "MM-T5836", "path": "mobile-v2/mobile-playbook", "id": 248291623 },
+  { "key": "MM-T5837", "path": "mobile-v2/mobile-playbook", "id": 248291624 },
+  { "key": "MM-T5838", "path": "mobile-v2/mobile-playbook", "id": 248291626 },
+  { "key": "MM-T5839", "path": "mobile-v2/mobile-playbook", "id": 248291629 },
+  { "key": "MM-T5840", "path": "mobile-v2/mobile-playbook", "id": 248291631 },
+  { "key": "MM-T5841", "path": "mobile-v2/mobile-playbook", "id": 248291634 },
+  { "key": "MM-T5842", "path": "mobile-v2/mobile-playbook", "id": 248291636 },
+  { "key": "MM-T5843", "path": "mobile-v2/mobile-playbook", "id": 248291637 },
+  { "key": "MM-T5844", "path": "mobile-v2/mobile-playbook", "id": 248291640 },
+  { "key": "MM-T5845", "path": "mobile-v2/mobile-playbook", "id": 248291644 },
+  { "key": "MM-T5846", "path": "mobile-v2/mobile-playbook", "id": 248291645 },
+  { "key": "MM-T5847", "path": "mobile-v2/mobile-playbook", "id": 248291646 }
 ]

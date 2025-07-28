@@ -279,6 +279,55 @@
     ]
   },
   {
+    "folder": "channels/abac-attribute-based-access/abac-channel-admin",
+    "tests": [
+      "ABAC Channel Access Rules Disabled with Active Group Sync",
+      "ABAC and LDAP Group Sync Coexistence",
+      "Auto-Add Behavior with ABAC and LDAP Group Sync",
+      "Auto-Add Toggle Functionality in Channel",
+      "Basic Access Rule Creation",
+      "Channel Access Rule Removal",
+      "Channel Access Rule Self-Exclusion Prevention",
+      "Channel Access Rule Validation",
+      "Channel Access Rule Validation and Security",
+      "Channel Access Rules Test Results with Group Sync Context",
+      "Channel Settings UI with ABAC and LDAP Group Sync",
+      "Conflict Resolution Between ABAC and LDAP",
+      "Conflicting Channel Access Rules Detection",
+      "Global Policy Display in Channel Access Control",
+      "Group Sync Disable with Active ABAC Channel Rules",
+      "Immediate Member Sync on Rule Save",
+      "Member Removal Priority Between ABAC and LDAP Group Sync",
+      "Prevent Loss of Unsaved Changes to Channel Access Rules",
+      "Preview Results of Access Rule",
+      "Visibility of Access Control tab in Channel Settings"
+    ]
+  },
+  {
+    "folder": "channels/abac-attribute-based-access/abac-system-admin",
+    "tests": [
+      "Add attribute-based policy to a channel from Channel Configuration page",
+      "Attribute-based access policy cannot be deleted if it is applied to any channels",
+      "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, with auto-add)",
+      "Attribute-based access policy created in System Console controls access as specified (one attribute, `= is`, without auto-add)",
+      "Attribute-based access policy created using Advanced Mode, with complex rules structure, controls access as specified",
+      "Attribute-based access policy that uses all the attribute types, including multi-select with multiple values, controls access as specified (multiple attributes, `= is`, with auto-add)",
+      "Attribute-based access policy using operator variations in Simple mode controls access as specified (one attribute, various operators, with auto-add)",
+      "Channel cannot use attribute-based policies if it is already constrained by LDAP group sync",
+      "Editing existing access policy to add another attribute applies access control as specified (with auto-add)",
+      "Editing existing access policy to remove one of the rules applies access control as specified (with auto-add)",
+      "Editing value of existing attribute-based access policy applies access control as specified (without auto-add)",
+      "LDAP sync does not change the value of an attribute or its effect if a non-LDAP user had a value for it before it was set to sync with LDAP",
+      "LDAP sync: User can be added to channel by admin after editing qualifying attribute and syncing to their profile (auto-add false)",
+      "LDAP sync: User is auto-added to channel when qualifying attribute syncs to their profile (auto-add true)",
+      "LDAP sync: User is removed from channel after required attribute is removed from their LDAP account and synced (auto-add true or auto-add false)",
+      "System admin can enable or disable system-wide attribute-based access",
+      "User can be added to channel by system admin after a qualifying attribute is added to their profile (auto-add false)",
+      "User is auto-added to channel when a qualifying attribute is added to their profile (auto-add true)",
+      "User is auto-removed from channel when required attribute is removed from their user profile (auto-add true and auto-add false)"
+    ]
+  },
+  {
     "folder": "channels/ada-accessibility",
     "tests": [
       "Accessibility support for Custom statuses",
@@ -510,7 +559,6 @@
     "tests": [
       "Channel banner and text colors do not change if the user’s display theme changes",
       "Channel banner appears as a horizontal bar at the top of the center channel",
-      "Channel banner can be disabled from Channel Settings > Settings and settings are preserved",
       "Channel banner can be enabled from Channel Settings > Settings",
       "Channel banner color can be set using a HEX color code input",
       "Channel banner color picker functions correctly",
@@ -526,7 +574,6 @@
       "Default channel banner color is #DDDDDD",
       "Error displays when channel banner is enabled but text field is left blank",
       "Error displays when channel banner text exceeds the character limit",
-      "Error message '' displays (or Save button is disabled?) when channel banner is enabled but the color field is cleared and no color is selected",
       "Links in channel banner are clickable",
       "Mobile: Channel banner displays at the top of the channel with a single row of text",
       "Mobile: Channel banner legible when displayed with server-wide announcement, bookmarks bar",
@@ -1117,6 +1164,7 @@
   {
     "folder": "channels/message-priority",
     "tests": [
+      "Deleted messages should remove post priority label",
       "Message Priority: Important message priority",
       "Message Priority: Standard message priority and system setting",
       "Message Priority: Urgent message priority"
@@ -1684,7 +1732,7 @@
   {
     "folder": "channels/search",
     "tests": [
-      "'in:[channel name]' search shows both the channel name and channel ID (in brackets)",
+      "'in:[channel name]' search shows both the new display name and original channel handle",
       "/search slash command  Search for :emoji name: returns post containing that emoji",
       "@ icon displays @-mentions of current user:  - Public channel - DM - GM  @ icon does not display @channel messages",
       "@ recent mention search  `x` to clear search term",
@@ -1723,7 +1771,6 @@
       "Quotes cause exact phrase search",
       "RN apps: Empty Recent Mentions",
       "RN apps: Empty search state for emoji picker",
-      "RN apps: Focus does not stay in search box after a search",
       "RN apps: Hashtag search while in 'reply thread' of search results",
       "RN apps: Hashtags",
       "Search 'in:[username]' returns results in DMs / GMs",
@@ -1948,6 +1995,36 @@
       "Threads: Empty state",
       "Unfollow Thread",
       "should auto-scroll to bottom upon pasting long text in reply"
+    ]
+  },
+  {
+    "folder": "channels/user-attributes/mobile",
+    "tests": ["RN Apps: User Attributes - UI and UX"]
+  },
+  {
+    "folder": "channels/user-attributes/system-console",
+    "tests": [
+      "Can add, edit and delete attributes in the System Console (attribute name capped at 40 characters)",
+      "Re-ordering attributes in the System Console, re-orders them in the user's profile screen and profile pop-over",
+      "User Attributes is listed in System Console > SYSTEM ATTRIBUTES and UI displays properly"
+    ]
+  },
+  {
+    "folder": "channels/user-attributes/webapp---desktop-app",
+    "tests": [
+      "Always Display User Attributes With Visibility Set to Always",
+      "Attributes are shown in the user profile pop-over in the same order that they are listed in the System Console",
+      "Attributes are shown in the user profile settings in the same order that they are listed in the System Console",
+      "Clicking 'Cancel' does not save the edit in user's Profile settings screen",
+      "Display Phone and URL Type User Attributes Correctly",
+      "Do Not Display User Attributes If None Exist",
+      "Editing Phone and URL Type User Attributes",
+      "Hide User Attributes When Visibility Is Set to Hidden",
+      "Long attribute names and descriptions are displayed correctly in a user's Profile Settings screen",
+      "No crash if user is editing a user attribute at the same time as the System Admin is deleting it in the System Console",
+      "URL Validation in User Attributes",
+      "User profile pop-over is scrollable and bottom bar in pop-over is locked in place",
+      "Verify Phone and URL Attributes Are Clickable in Profile Popover"
     ]
   },
   {
@@ -3395,7 +3472,8 @@
       "Mobile V2: Search - Pinned Messages",
       "Mobile V2: Search - Recent Mentions",
       "Mobile V2: Search - Saved Messages",
-      "Mobile V2: Search - Search Messages"
+      "Mobile V2: Search - Search Messages",
+      "RN apps: Focus does not stay in search box after a search"
     ]
   },
   {
@@ -6462,6 +6540,18 @@
     ]
   },
   {
+    "folder": "teams/cross-team-search",
+    "tests": [
+      "Channel Filter 'in:' Reset",
+      "Cross-team Search UI - Dark Theme",
+      "Edge Case Scenarios",
+      "RN Apps: Cross-team Search UI/UX and Functionality",
+      "Team Picker Drop-down Autocomplete Functionality",
+      "Team Picker Drop-down Functionality",
+      "Team Picker Drop-down UI/UX"
+    ]
+  },
+  {
     "folder": "ticket-coverage",
     "tests": [
       "Edit a post and post it from preview",
@@ -6482,13 +6572,6 @@
       "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover",
       "Unable to type in any other channel after leaving a draft post in preview mode in one channel then switching to another channel",
       "When on preview mode, it does not allow to submit a post from the main post input"
-    ]
-  },
-  {
-    "folder": "zephyr-reflect-ai-testing",
-    "tests": [
-      "[Zephyr Reflect AI testing] Group Messaging: Add first user (cloned)",
-      "[Zephyr Reflect AI testing] Username changes when viewed by other user (cloned)"
     ]
   }
 ]
