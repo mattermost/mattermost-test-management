@@ -42,7 +42,7 @@ jobs:
 
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v6
+        uses: tj-actions/branch-names@v9
 
       - name: Save changes
         if: steps.branch-name.outputs.is_default == 'true'
