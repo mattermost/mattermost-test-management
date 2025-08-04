@@ -23,7 +23,7 @@ mmctl: N/A
 playwright: N/A
 rainforest: []
 manual_test_environments:
-- Desktop App
+- Desktop
 
 # Do not change
 id: null

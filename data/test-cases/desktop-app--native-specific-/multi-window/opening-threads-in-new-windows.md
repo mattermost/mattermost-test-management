@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Opening RHS plugin content in new windows"
+name: "Opening threads in new windows"
 status: Active
 priority: Normal
 folder: Multi Window
@@ -23,7 +23,7 @@ mmctl: N/A
 playwright: N/A
 rainforest: []
 manual_test_environments:
-- Desktop App
+- Desktop
 
 # Do not change
 id: null
@@ -34,26 +34,24 @@ case_hashed: null
 steps_hashed: null
 ---
 
-Example Plugins to be opened in new Window.
-
-**Step 1: Open Playbook Run in a new window**
+**Step 1: Open thread in a new window from the RHS**
 
 1. Open the Mattermost desktop app.
-2. Start a Playbook Run.
-3. In the RHS, click on the "three dots" menu.
+2. Open a channel and click on a thread to open it in the RHS.
+3. Click on the "three dots" menu in the RHS header.
 4. Select "Open in New Window".
 
 **Expected**
 
-A new window should open with the Playbook Run's content.
+A new window should open with the selected thread's content. The window should have the title "Thread: {Channel name} - {Team name}".
 
-**Step 2: Open Copilot in a new window**
+**Step 2: Open thread in a new window from the Threads view**
 
 1. Open the Mattermost desktop app.
-2. Open Copilot in the RHS.
-3. Click on the "three dots" menu.
+2. Click on the "Threads" button in the left sidebar.
+3. Click on the "three dots" menu next to a thread.
 4. Select "Open in New Window".
 
 **Expected**
 
-A new window should open with the Copilot content.
+A new window should open with the selected thread's content. The window should have the title "Thread: {Channel name} - {Team name}".

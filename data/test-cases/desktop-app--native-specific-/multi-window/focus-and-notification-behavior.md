@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Drag and drop between windows"
+name: "Focus and notification behavior"
 status: Active
 priority: Normal
 folder: Multi Window
@@ -23,7 +23,7 @@ mmctl: N/A
 playwright: N/A
 rainforest: []
 manual_test_environments:
-- Desktop App
+- Desktop
 
 # Do not change
 id: null
@@ -34,20 +34,20 @@ case_hashed: null
 steps_hashed: null
 ---
 
-**Step 1: Dragging text**
-
-1. Open two channels in separate windows.
-2. Drag a piece of text from one window to the other.
-
-**Expected**
-
-The text should be copied to the other window.
-
-**Step 2: Dragging a file**
+**Step 1: Focus on a window**
 
 1. Open a channel in a new window.
-2. Drag a file from your computer onto the new window.
+2. Click on the main window.
 
 **Expected**
 
-The file should be uploaded to the channel.
+The main window should come to the front.
+
+**Step 2: Notifications**
+
+1. Open a channel in a new window.
+2. Receive a notification in that channel.
+
+**Expected**
+
+A notification should appear. Clicking on the notification should bring the corresponding window to the front.
