@@ -85,11 +85,11 @@ jobs:
           BRANCH_NAME=ci/update-after-merge-$(date +%s)
           git checkout -b $BRANCH_NAME
           git add .
-          git commit -m "Chore: Data Sync after merge to main"
+          git commit -m "chore: data sync after merge to main"
           git push origin $BRANCH_NAME
 
           gh pr create \
-            --title "Chore: Data Sync after merge to main" \
+            --title "chore: data sync after merge to main" \
             --body "Auto-generated PR to commit results of \`deno task save\` and \`deno task sync\`" \
             --head "$BRANCH_NAME" \
             --base main
