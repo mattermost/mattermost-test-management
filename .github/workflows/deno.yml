@@ -6,6 +6,9 @@ on:
       - main
   pull_request:
   workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1' # Every Monday at 08:00 UTC
+    - cron: '0 8 * * 5' # Every Friday at 08:00 UTC
 
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
@@ -41,7 +44,8 @@ jobs:
           path: data
 
   post-merge-sync:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: >-
+      ((github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'schedule')
     runs-on: ubuntu-22.04
     permissions:
       contents: write
