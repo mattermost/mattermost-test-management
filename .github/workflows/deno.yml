@@ -10,6 +10,10 @@ on:
     - cron: '0 8 * * 1' # Every Monday at 08:00 UTC
     - cron: '0 8 * * 5' # Every Friday at 08:00 UTC
 
+permissions:
+  contents: write
+  pull-requests: write
+  
 env:
   ZEPHYR_TOKEN: ${{ secrets.ZEPHYR_TOKEN }}
   JIRA_PAT: ${{ secrets.JIRA_PAT }}
