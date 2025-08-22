@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add slash command for setting default Jira instance"
+name: "Add slash command for setting default jira instance"
 status: Active
 priority: Normal
 folder: Multi-instance support
@@ -9,7 +9,7 @@ team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)    
 
 # (Optional)
-location: Jira
+location: jira
 component: null
 tags: 
 - Never tested
@@ -39,29 +39,29 @@ steps_hashed: null
 
 _**Step 1**_
 
-1. Connect more than one Jira instance to Mattermost.
-2. Type /jira instance default jiraURL in the message box.
+1. Connect more than one `jira` instance to Mattermost.
+2. Type `/jira instance default jiraURL` in the message box.
 3. Press enter to run the command.
 
 
 _**Expected**_
 
-1. The user should receive a confirmation that the default Jira instance has been set.
-2. The confirmation message should clearly mention the selected jiraURL.
+1. The user should receive a confirmation that the default `jira` instance has been set.
+2. The confirmation message should clearly mention the selected `jiraURL`.
 
 
 ---
 
 **Step 2**
 
-1. Connect multiple Jira instances to Mattermost.
-2. Type /jira instance default invalidURL in the message box.
+1. Connect multiple `jira` instances to Mattermost.
+2. Type `/jira instance default invalidURL` in the message box.
 3. Press enter to run the command.
 
 
 **Expected**
 
-1. The user should see an error message clearly indicating that the requested Jira instance could not be found.
+1. The user should see an error message clearly indicating that the requested `jira` instance could not be found.
 2. The error should display the invalid instance for clarity.
 
 
@@ -69,20 +69,33 @@ _**Expected**_
 
 **Step 3**
 
-1. Type /jira instance default instance-URL in the message box without connecting the account.
+1. Type `/jira instance default instance-URL` in the message box without connecting the account.
 2. Press enter to run the command.
 
 **Expected**
 
-The user should get an error message saying the account is not connected to Jira, with a suggestion to use /jira connect
+The user should get an error message saying the account is not connected to `jira`, with a suggestion to use `/jira connect`.
 ---
 
 **Step 4**
 
-1. Connect multiple Jira instances to Mattermost.
-2. Set one instance (e.g., jiraURL1) as the default using /jira instance default jiraURL1.
-3. Again, type /jira instance default jiraURL2 with another connected instance.
+1. Connect multiple `jira` instances to Mattermost.
+2. Set one instance (e.g., jiraURL1) as the default using `/jira instance default jiraURL1`.
+3. Again, type `/jira instance default jiraURL2` with another connected instance.
 4. Press enter to run the command.
 
 **Expected**
 
+The user should get a confirmation that the default `jira` instance has been successfully added with clearly mentioning the newly selected `jiraURL2`
+
+---
+
+**Step 5**
+
+1. Connect multiple `jira` instances to Mattermost.
+2. Type `/jira instance default` without adding any URL.
+3. Press enter to run the command.
+
+**Expected**
+
+The user should see an error message saying Please specify the `jira` instance URL.
