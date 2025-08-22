@@ -35,7 +35,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Connect your Mattermost account to your GitHub account and create a subscription for pulls in any channel.
+1. Connect your Mattermost account to your `GitHub` account and create a `subscription` for `pulls` in any channel.
 2. Keep the setting for draft PR notifications disabled.
 3. Create a draft Pull Request from GitHub in the connected repository.
 4. Check the Mattermost channel where subscription is created.
