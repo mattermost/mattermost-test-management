@@ -73,11 +73,11 @@ The user should see the Zoom Bot confirmation message with options to create a n
 2. In a channel, run the slash command `/zoom start`.
 3. Join the meeting.
 4. Without ending the meeting, run `/zoom start` again in the same channel.
-5. Click on the `join existing meeting`
+5. Click on the `join existing meeting`.
 
 **Expected**
 
-The user should get added to the existing zoom meeting
+The user should get added to the existing zoom meeting.
 
 **Step 5**
 
@@ -85,8 +85,8 @@ The user should get added to the existing zoom meeting
 2. In a channel, run the slash command `/zoom start`.
 3. Join the meeting.
 4. Without ending the meeting, run `/zoom start` again in the same channel.
-5. Click on the `create new meeting`
+5. Click on the `create new meeting`.
 
 **Expected**
 
-The user should 
+The user should be joined to the new zoom meeting.
