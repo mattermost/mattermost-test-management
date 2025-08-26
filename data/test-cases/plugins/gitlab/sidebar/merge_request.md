@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Merge request message is rendered properly in the RHS of gitlab on MM"
+name: "Merge request message is rendered properly in the RHS"
 status: Active
 priority: Normal
 folder: Sidebar
@@ -38,6 +38,10 @@ steps_hashed: null
 2. Navigate to MM and click on the `To-do list` icon in the LHS menu on MM.
 3. Check the desired member access request in the RHS of `To-do list` on MM.
 
+**Expected**
+
+The member access request to the desired public project/group should be shown with proper description of the request and in proper UI in the RHS of Gitlab on MM.
+
 **Step 2**
 
 1. Accept or reject any desired member access request on Gitlab.
@@ -46,5 +50,4 @@ steps_hashed: null
 
 **Expected**
 
-The member access request to the desired public project/group should be shown with proper description of the request and in proper UI in the RHS of Gitlab on MM.
-After step 2, the desired member access request should be removed from the `To-do list` in RHS of Gitlab on MM.
+The desired member access request should be removed from the `To-do list` in RHS of Gitlab on MM.
