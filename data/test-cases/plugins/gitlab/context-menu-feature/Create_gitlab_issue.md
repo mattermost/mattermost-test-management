@@ -35,7 +35,7 @@ steps_hashed: null
 **Step 1**
 
 1. Hover cursor over a user message and click on the `message-actions` then select `Create Gitlab Issue` on MM.
-2. In the `Create Gitlab Issue` modal, select and enter the details as per the requiement for the issue and click on `Submit` button on MM.
+2. In the `Create Gitlab Issue` modal, select and enter the details as per the requirement for the issue and click on `Submit` button on MM.
 3. Navigate to the issues in the selected project on Gitlab.
 
 **Expected**
@@ -45,7 +45,7 @@ The issue should be created for the selected project on Gitlab.
 **Step 2**
 
 1. Hover cursor over a user message and click on the `message-actions` then select `Create Gitlab Issue` on MM.
-2. In the `Create Gitlab Issue` modal, select and enter the details as per the requiement for the issue and then remove the selected project in the modal on MM.
+2. In the `Create Gitlab Issue` modal, select and enter the details as per the requirement for the issue and then remove the selected project in the modal on MM.
 
 **Expected**
 
