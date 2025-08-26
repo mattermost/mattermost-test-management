@@ -34,7 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Connect you MM account to your Jira account.
+1. Connect your MM account to your Jira account.
 2. In the desired channel or DM/GM run the slash command `/jira subscribe` or `/jira subscribe edit` on MM.
 3. Click on the `Create Subscription` button in the `Jira subscriptions` page on MM.
 4. Select and enter the desired details in the fields `Subscription Name`, `Project`, `Events` and `Issue Type`.
@@ -85,7 +85,7 @@ The user should be able to edit the desired subscription on MM.
 
 **Step 6**
 
-1. Connect you MM account to your Jira account.
+1. Connect your MM account to your Jira account.
 2. In the desired channel or DM/GM run the slash command `/jira subscribe` or `/jira subscribe edit` on MM.
 3. Click on the `Create Subscription` button in the `Jira subscriptions` page on MM.
 4. Select and enter the desired details in the fields `Subscription Name`, `Project`, `Events` and `Issue Type` in the `Jira subscriptions` page on MM.
