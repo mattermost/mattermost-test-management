@@ -1,9 +1,9 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add comment to a gitlab issue from the `Attach to GitLab Issue` option in the context menu on MM."
+name: "Add comment to a GitLab issue from the `Attach to GitLab Issue` option in the context menu"
 status: Active
 priority: Normal
-folder: Context-menu-feature
+folder: Context menu feature
 authors: "@arush-vashishtha"
 team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)

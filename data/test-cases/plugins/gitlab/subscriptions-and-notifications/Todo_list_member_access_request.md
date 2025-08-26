@@ -3,7 +3,7 @@
 name: "Member access request in the todo list after entering the `/gitlab todo` slash command."
 status: Active
 priority: Normal
-folder: Subscriptions-and-notifications
+folder: Subscriptions and notifications
 authors: "@arush-vashishtha"
 team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
@@ -34,7 +34,7 @@ steps_hashed: null
 
 **Step 1**
 
-1. Create a `member access request` from a different user to any one of your desired public project/group on gitlab.
+1. Create a `member access request` from a different user to any one of your desired public project/group on Gitlab.
 2. Navigate to the desired channel or DM/GM on MM and enter the slash command `/gitlab todo`.
 
 **Expected**
