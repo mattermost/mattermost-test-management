@@ -34,20 +34,20 @@ steps_hashed: null
 
 **Step 1**
 
-1. Generate a access request to your desired public project/group from another user on Gitlab.
+1. Generate a access request to your desired public project/group from another user on GitLab.
 2. Navigate to MM and click on the `To-do list` icon in the LHS menu on MM.
 3. Check the desired member access request in the RHS of `To-do list` on MM.
 
 **Expected**
 
-The member access request to the desired public project/group should be shown with proper description of the request and in proper UI in the RHS of Gitlab on MM.
+The member access request to the desired public project/group should be shown with proper description of the request and in proper UI in the RHS of GitLab on MM.
 
 **Step 2**
 
-1. Accept or reject any desired member access request on Gitlab.
+1. Accept or reject any desired member access request on GitLab.
 2. Navigate to MM and click on the `To-do list` icon in the LHS menu on MM.
 3. Check the desired member access request in the RHS of `To-do list` on MM.
 
 **Expected**
 
-The desired member access request should be removed from the `To-do list` in RHS of Gitlab on MM.
+The desired member access request should be removed from the `To-do list` in RHS of GitLab on MM.

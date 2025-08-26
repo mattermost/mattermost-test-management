@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Refresh the sidebar after revoking the application from Gitlab."
+name: "Refresh the sidebar after revoking the application from GitLab."
 status: Active
 priority: Normal
 folder: Sidebar
@@ -36,28 +36,28 @@ steps_hashed: null
 
 1. Revoke the OAuth token for your app from the connected GitLab account.
 2. Navigate to MM and click on the refresh button in the LHS of GitLab.
-3. Open the DM from Gitlab bot.
+3. Open the DM from GitLab bot.
 
 **Expected**
 
-All the Gitlab icons in the LHS should be removed and the user should get a message in the DM from Gitlab bot that their account has been disconnected on MM.
+All the GitLab icons in the LHS should be removed and the user should get a message in the DM from GitLab bot that their account has been disconnected on MM.
 
 **Step 2**
 
 1. Revoke the OAuth token for your app from the connected GitLab account.
 2. Navigate to MM and refresh the page.
-3. Open the DM from Gitlab bot.
+3. Open the DM from GitLab bot.
 
 **Expected**
 
-All the Gitlab icons in the LHS should be removed and the user should get a message in the DM from Gitlab bot that their account has been disconnected on MM.
+All the GitLab icons in the LHS should be removed and the user should get a message in the DM from GitLab bot that their account has been disconnected on MM.
 
 **Step 3**
 
 1. Revoke the OAuth token for your app from the connected GitLab account.
 2. Navigate to MM and enter any slash command that fetches the data from GitLab.
-3. Open the DM from Gitlab bot.
+3. Open the DM from GitLab bot.
 
 **Expected**
 
-All the Gitlab icons in the LHS should be removed and the user should get a message in the DM from Gitlab bot that their account has been disconnected on MM. 
+All the GitLab icons in the LHS should be removed and the user should get a message in the DM from GitLab bot that their account has been disconnected on MM. 
