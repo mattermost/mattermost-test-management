@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Message in the channel or DM/GM on MM regarding the event for reopening a PR on the github"
+name: "Message in the channel or DM/GM regarding the event for reopening a PR on the GitHub"
 status: Active
 priority: Normal
 folder: Subscriptions
@@ -35,8 +35,8 @@ steps_hashed: null
 **Step 1**
 
 1. Enter the slash command `/github subscription add <repo or organization> --feature pulls` in any desired channel or DM/GM and create subscription for the desired repo or organization on MM.
-2. Create and close a PR or close any existing PR in the subscribed desired repository or in any repository of the subscribed desired organization on Github.
-3. Reopen the closed PR on Github and navigate to the subscribed channel or DM/GM on MM.
+2. Create and close a PR or close any existing PR in the subscribed desired repository or in any repository of the subscribed desired organization on GitHub.
+3. Reopen the closed PR on GitHub and navigate to the subscribed channel or DM/GM on MM.
 
 **Expected**
 
