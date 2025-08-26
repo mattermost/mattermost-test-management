@@ -5,7 +5,7 @@ status: Active
 priority: Normal
 folder: Messaging
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Messaging
 component: null
 tags: []
-labels: 
+labels:
 - messaging
 - fix-versions-not-empty-2022cleanup
 tested_by_contributor: ""
@@ -24,7 +24,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
+manual_test_environments:
 - Desktop
 
 # Do not change
@@ -33,7 +33,7 @@ key: MM-T11
 created_on: "2020-12-10T17:51:24Z"
 last_updated: "2022-09-09T20:50:00Z"
 case_hashed: 65adb60dde2bfa3b32d35217c200aa4ef3b28d8991f260c33bdba75e5d4d5296fe771826d457f8b252d3bba60a7c5ff9
-steps_hashed: 1ce7d06d4ce74b55b7d2680bf2c647a7ba257821b9db085af99a2d7ca295d3a83f70c0b372c845d7ff1efad100533636
+steps_hashed: 642b03f2737a8881b55258f1af3d14b8b700596ff859fd187d34c3af17e7df9fd5223a5cfde8503063cc2d6174c4b695
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -58,10 +58,6 @@ _Important notes about this step:_
 
 A reference to the old testing spreadsheet was made on the bug ticket.\
 <https://docs.google.com/spreadsheets/d/1gW7i8uF3jd5wuHd5mJ7UdBQsMFVZwHKMXE7WOtlDa0k/edit#gid=1473839219&amp;range=C36>
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1607622760486-Screen+Shot+2020-12-10+at+9.51.47+AM.png)
 
 **Expected**
 

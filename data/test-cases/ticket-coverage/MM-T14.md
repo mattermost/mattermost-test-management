@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Ticket coverage
 authors: ""
-team_ownership: 
+team_ownership:
 - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Ticket coverage
 component: null
 tags: []
-labels: 
+labels:
 - se-prod
 tested_by_contributor: ""
 
@@ -23,7 +23,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -32,7 +32,7 @@ key: MM-T14
 created_on: "2019-08-27T12:51:14Z"
 last_updated: "2022-12-01T21:17:41Z"
 case_hashed: 824536b693d5a62432c58ac246f47fbbb5be9e4e0e9ba928782bd8f8da7e74163fda16ac1515ca1e03242eef9f4864a2
-steps_hashed: 6909160f43d4764aad26d59f0793e16882e5799a5745ad27b9f12737d60f27c38593e40019df64e90465ee1c7b38e7a1
+steps_hashed: a199ee8da254135a45b19c8c93e8a9b4e7c08ce7871c3e56d31f7fcb127cf68dce2befdb91c448a8612a0522be29d7d8
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -49,10 +49,6 @@ steps_hashed: 6909160f43d4764aad26d59f0793e16882e5799a5745ad27b9f12737d60f27c385
 _Related ticket(s):_
 
 [Tooltip for Remove profile picture/remove team icon appears when opening the edit section — MM-17581](https://mattermost.atlassian.net/browse/MM-17581)
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566920989921-2019-08-27_11-47-33.png)
 
 **Expected**
 

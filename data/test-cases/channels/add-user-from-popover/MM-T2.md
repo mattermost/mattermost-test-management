@@ -5,16 +5,16 @@ status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Add user to channel from popover
 component: null
-tags: 
+tags:
 - Cloud N/A
-labels: 
+labels:
 - cy-prod
 tested_by_contributor: ""
 
@@ -23,9 +23,9 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -34,7 +34,7 @@ key: MM-T2
 created_on: "2019-08-26T23:03:54Z"
 last_updated: "2022-09-10T10:54:35Z"
 case_hashed: d178ef4fcff484e849e2ae0d90e4e8e24421e1afc4a56d332ede19c3c2e7663835c175b9462145e75e39008cd38f8644
-steps_hashed: d07b606c189287eef3820d35d85a0dc76123f1e8fd2ed749040fc2a5f420fc225b26bab9bc162654c4c9a29e77b29a3f
+steps_hashed: 1e088f1a70771c260b9393f4092b5244bd2bdc715f8f12f7814514a15bd8196f7bd56e41a2a44efe31eab284dc997285
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -76,10 +76,6 @@ Step 5:
 
 1. Select the channel with your mouse - or scroll with the arrow keys and hit the ↵ (enter key)
 2. Click Add
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1599469997351-1599469997351.png)
 
 **Expected**
 
