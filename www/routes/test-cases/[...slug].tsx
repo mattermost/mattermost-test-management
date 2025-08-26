@@ -10,11 +10,11 @@ import Footer from "../../components/footer.tsx";
 import Search from "../../islands/Search.tsx";
 import NavigationBar from "../../components/navigation_bar.tsx";
 
-import tcTOC from "../../../data/test-cases-toc.json" assert { type: "json" };
-import tcManifest from "../../../data/test-cases-manifest.json" assert {
+import tcTOC from "../../../data/test-cases-toc.json" with { type: "json" };
+import tcManifest from "../../../data/test-cases-manifest.json" with {
   type: "json",
 };
-import tcFolders from "../../../data/test-cases-folders.json" assert {
+import tcFolders from "../../../data/test-cases-folders.json" with {
   type: "json",
 };
 
