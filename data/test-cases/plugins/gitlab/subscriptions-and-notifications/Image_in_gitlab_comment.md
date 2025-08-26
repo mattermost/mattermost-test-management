@@ -3,7 +3,7 @@
 name: "Image attachment properly shown in the comment notification."
 status: Active
 priority: Normal
-folder: Subscriptions-and-notifications
+folder: Subscriptions and notifications
 authors: "@arush-vashishtha"
 team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
@@ -39,6 +39,10 @@ steps_hashed: null
 3. Navigate to the subscribed repository on Gitlab and add an image in the comments to any desired `issue` or `merge request` on Gitlab.
 4. Navigate to the desired channel or DM/GM on MM.
 
+**Expected**
+
+The comment notification in the desired channel or DM/GM on MM should show the proper image attached to the desired `issue` or `merge request` on Gitlab.
+
 **Step 2**
 
 1. Connect your MM account to Gitlab account.
@@ -48,5 +52,4 @@ steps_hashed: null
 
 **Expected**
 
-The comment notification in the desired channel or DM/GM on MM should show the proper image attached to the desired `issue` or `merge request` on Gitlab.
-After step 2, the comment notification in the desired channel or DM/GM on MM should show the proper embedded image in the comment on desired `issue` or `merge reuest` on Gitlab.
+The comment notification in the desired channel or DM/GM on MM should show the proper embedded image in the comment on desired `issue` or `merge request` on Gitlab.
