@@ -5,16 +5,16 @@ status: Active
 priority: Low
 folder: Plugins
 authors: ""
-team_ownership: 
+team_ownership:
 - Integration Frameworks
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: Plugins
 component: null
-tags: 
+tags:
 - Cloud N/A
-labels: 
+labels:
 - E2E-1
 - Cloud-N/A
 - TM4J-Key-Mapped-In-Cypress-Release
@@ -28,7 +28,7 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change

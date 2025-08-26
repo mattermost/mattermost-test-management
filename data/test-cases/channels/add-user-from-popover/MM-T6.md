@@ -5,7 +5,7 @@ status: Active
 priority: Low
 folder: Add user from popover
 authors: ""
-team_ownership: 
+team_ownership:
 - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
@@ -13,7 +13,7 @@ priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 location: Add user to channel from popover
 component: null
 tags: []
-labels: 
+labels:
 - cy-prod
 tested_by_contributor: ""
 
@@ -22,9 +22,9 @@ cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
+rainforest:
 - N/A
-manual_test_environments: 
+manual_test_environments:
 - Automated - No manual tests needed
 
 # Do not change
@@ -33,7 +33,7 @@ key: MM-T6
 created_on: "2019-08-26T23:03:55Z"
 last_updated: "2022-09-10T10:54:34Z"
 case_hashed: 1abd0744ff42438625a5862bc9891ba46f2172a4afbac6c9d9cd40c61209caeff071bb74f0d794bbcddfe3432f876ab3
-steps_hashed: c4c18adb41276afe1b9f3148241e3d220ecb101851084e8fa827f4cf3c029a80e797ab8a0491da9844c0613d2d2fe6fb
+steps_hashed: 7431ac6172c283f44a5e0db4444657e0d5a8971949231bb6ebe3f1a0e8377565ffce887dcaf16b73f19ea186bc1ed5ad
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -81,17 +81,6 @@ Step VI:
 _Related ticket(s):_
 
 (Cannot reproduce) [Channel admin able to see Private channels when adding member via popover (even though permission is disabled) — MM-25914](https://mattermost.atlassian.net/browse/MM-25914)
-
-**Test Data**
-
-Step I:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566326710871-1566326710871.png)\
-\
-\
-Step II:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652593330-1611652593330.png)\
-\
-Step III:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652682464-1611652682464.png)\
-\
-Step IV:![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611652766162-1611652766162.png)
 
 **Expected**
 

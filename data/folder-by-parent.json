@@ -50,10 +50,13 @@
   {
     "parent": "channels",
     "folders": [
+      "ABAC Attribute-based access",
       "ADA Accessibility",
       "Add user from popover",
       "Archived Channels",
       "Autocomplete",
+      "Bookmarks Bar",
+      "Channel Banner",
       "Channel Info RN Apps",
       "Channel menu",
       "Channel Settings",
@@ -78,14 +81,20 @@
       "Multi-Team and DMs",
       "Permalink Preview",
       "Profile Settings",
+      "Scheduled Messages",
       "Scroll",
       "Search",
       "Search Date Filter",
       "Settings",
       "Sidebar",
       "Team Settings",
-      "Threads"
+      "Threads",
+      "User Attributes"
     ]
+  },
+  {
+    "parent": "channels/abac-attribute-based-access",
+    "folders": ["ABAC Channel Admin", "ABAC System Admin"]
   },
   { "parent": "channels/autocomplete", "folders": ["With Database", "With Elasticsearch"] },
   { "parent": "channels/custom-statuses", "folders": ["Mobile", "Web"] },
@@ -101,6 +110,10 @@
     ]
   },
   { "parent": "channels/settings", "folders": ["Advanced", "Display", "Notifications"] },
+  {
+    "parent": "channels/user-attributes",
+    "folders": ["Mobile", "System Console", "WebApp & Desktop App"]
+  },
   {
     "parent": "cloud",
     "folders": [
@@ -149,6 +162,7 @@
       "Deep Linking",
       "Dropdown",
       "Focus behavior",
+      "Landing Page",
       "macOS ONLY",
       "Menu Bar",
       "Onboarding",
@@ -209,8 +223,14 @@
       "Account",
       "Autocomplete",
       "Channels",
+      "Drafts",
       "Invite People",
+      "iPad specific",
       "Messaging",
+      "Mobile Draft",
+      "Mobile Edit Attachments",
+      "Mobile Permalink",
+      "Mobile Playbook",
       "Search",
       "Server Login",
       "Smoke Test",
@@ -220,6 +240,7 @@
   {
     "parent": "plugins",
     "folders": [
+      "Attachment Remover",
       "AutoLink",
       "aws-sms",
       "Bitbucket",
@@ -294,19 +315,25 @@
   {
     "parent": "plugins/ms-teams-sync",
     "folders": [
-      "Attachments",
       "attachments-sync",
+      "Bot messages",
       "Mentions",
       "Message Edit",
       "Message sync",
-      "Plugin configs",
-      "Reactions",
-      "Replies",
+      "Mute unmute",
+      "plugin-configurations",
       "Slash commands",
       "Text formatting",
-      "thread-replies"
+      "thread-replies",
+      "ui-integration",
+      "user-reactions"
     ]
   },
+  {
+    "parent": "plugins/ms-teams-sync/bot-messages",
+    "folders": ["connection-prompt", "file-attachments"]
+  },
+  { "parent": "plugins/nps-plugin", "folders": ["New NPS Plugin"] },
   { "parent": "plugins/plugin-marketplace", "folders": ["Import Queue", "MM Apps"] },
   { "parent": "plugins/service-now", "folders": ["SN phase2"] },
   {
@@ -327,6 +354,8 @@
       "mmctl",
       "Mobile App (native-specific)",
       "Mobile V2",
+      "Notification Test Tool",
+      "Notifications Banner",
       "Omnibus",
       "Playbooks",
       "Plugins",
@@ -334,10 +363,11 @@
       "Self-Hosted",
       "Smoke Tests",
       "Suite",
+      "Teams",
       "Ticket coverage"
     ]
   },
-  { "parent": "self-hosted", "folders": ["In product purchase", "True up support"] },
+  { "parent": "self-hosted", "folders": ["In product purchase", "True up support", "User limits"] },
   { "parent": "smoke-tests", "folders": ["WebApp"] },
   {
     "parent": "suite",
@@ -471,5 +501,9 @@
       "Users and Teams"
     ]
   },
-  { "parent": "suite/system-console/user-management", "folders": ["Users"] }
+  {
+    "parent": "suite/system-console/user-management",
+    "folders": ["Admin Control User Settings", "New UI", "Users"]
+  },
+  { "parent": "teams", "folders": ["Cross-team Search"] }
 ]

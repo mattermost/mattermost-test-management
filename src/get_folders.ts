@@ -1,6 +1,6 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_folders.ts
 
-import { findSingle, sortBy } from './deps.ts';
+import { findSingle, sortBy } from '@std/collections';
 import { dataFolderPath, projectKey } from './util/constant.ts';
 import { writeFile } from './util/file.ts';
 import { Folder } from './util/types.ts';
