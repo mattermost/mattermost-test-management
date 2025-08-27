@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Test cases for marking confidential setting as secret"
+name: "Marking confidential setting as secret"
 status: Active
 priority: Normal
 folder: Jira Connect
