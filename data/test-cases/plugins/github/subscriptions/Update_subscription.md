@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Overwrite the existing subscriptions to a github repo or organization in MM channel"
+name: "Overwrite the existing subscriptions to a GitHub repo or organization"
 status: Active
 priority: Normal
 folder: Subscriptions

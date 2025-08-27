@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "An ephemeral post in the chat when the webhook is not found on the github side."
+name: "An ephemeral message chat when no webhook found in GitHub"
 status: Active
 priority: Normal
 folder: Subscriptions
@@ -39,4 +39,4 @@ steps_hashed: null
 
 **Expected**
 
-The user will get an ephemeral message regarding `no webhook was found for the desired repository or organization` along with the successfull subscription message in the desired channel or DM/GM on MM.
+The user will get an ephemeral message regarding `no webhook was found for the desired repository or organization` along with the successful subscription message in the desired channel or DM/GM on MM.
