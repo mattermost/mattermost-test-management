@@ -59,19 +59,19 @@ Notification should appear in Mattermost for the `Issue` with `Label 1` and the 
 1. Connect GitLab account with Mattermost.
 2. Subscribe to a `repository` using `/gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2"`.
 3. Create an `Issue` in GitLab with `Label 1` only.
-4. Create a Merge Request in GitLab with Label 1 only.
+4. Create a `Merge Request` in GitLab with `Label 1` only.
 
 **Expected**
 
-Notification should appear in Mattermost because at least one matching label (Label 1) is present.
+Notification should appear in Mattermost because at least one matching `label (Label 1)` is present.
 
 **Step 4**
 
 1. Connect GitLab account with Mattermost.
-2. Subscribe to a repository using /gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2".
-3. Create an Issue in GitLab with Label 1 and an additional Unsubscribed Label.
-4. Create a Merge Request in GitLab with Label 2 and an additional Unsubscribed Label.
+2. Subscribe to a `repository` using `/gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2"`.
+3. Create an `Issue` in GitLab with `Label 1` and an additional `Unsubscribed Label`.
+4. Create a `Merge Request` in GitLab with `Label 2` and an additional `Unsubscribed Label`.
 
 **Expected**
 
-Notification should appear in Mattermost for both the Issue and the Merge Request, since at least one matching subscribed label (Label 1 or Label 2) is present, even if other unsubscribed labels are included.
+Notification should appear in Mattermost for both the `Issue` and the `Merge Request`, since at least one matching `subscribed label (Label 1 or Label 2)` is present, even if other `unsubscribed labels` are included.
