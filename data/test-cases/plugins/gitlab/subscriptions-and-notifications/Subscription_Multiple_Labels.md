@@ -35,30 +35,30 @@ steps_hashed: null
 **Step 1**
 
 1. Connect GitLab account with Mattermost.
-2. Subscribe to a repository using /gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1".
-3. Create an Issue in GitLab with Label 1.
-4. Create a Merge Request in GitLab with Label 1.
+2. Subscribe to a `repository` using `/gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1"`.
+3. Create an `Issue` in GitLab with `Label 1`.
+4. Create a `Merge Request` in GitLab with `Label 1`.
 
 **Expected**
 
-Notification should appear in Mattermost for both the Issue and the Merge Request containing Label 1.
+Notification should appear in Mattermost for both the `Issue` and the `Merge Request` containing Label 1.
 
 **Step 2**
 
 1. Connect GitLab account with Mattermost.
-2. Subscribe to a repository using /gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2".
-3. Create an Issue in GitLab with Label 1.
-4. Create a Merge Request in GitLab with Label 2.
+2. Subscribe to a `repository` using `/gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2"`.
+3. Create an `Issue` in GitLab with `Label 1`.
+4. Create a `Merge Request` in GitLab with `Label 2`.
 
 **Expected**
 
-Notification should appear in Mattermost for the Issue with Label 1 and the Merge Request with Label 2.
+Notification should appear in Mattermost for the `Issue` with `Label 1` and the `Merge Request` with `Label 2`.
 
 **Step 3**
 
 1. Connect GitLab account with Mattermost.
-2. Subscribe to a repository using /gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2".
-3. Create an Issue in GitLab with Label 1 only.
+2. Subscribe to a `repository` using `/gitlab subscriptions add my-group/my-proj issues,merges,label:"Label 1",label:"Label 2"`.
+3. Create an `Issue` in GitLab with `Label 1` only.
 4. Create a Merge Request in GitLab with Label 1 only.
 
 **Expected**
