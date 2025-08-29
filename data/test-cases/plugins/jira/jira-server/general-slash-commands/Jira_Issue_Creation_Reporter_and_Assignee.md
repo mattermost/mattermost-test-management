@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Jira `Issue` creation with `reporter` and `assignee`"
+name: "Jira Issue creation with reporter and assignee"
 status: Active
 priority: Normal
 folder: General Slash commands
