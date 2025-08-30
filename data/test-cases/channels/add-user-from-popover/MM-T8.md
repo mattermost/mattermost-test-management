@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — User A & User B (not on team)"
+name: 'Add User — User A & User B (not on team)'
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,9 +14,9 @@ location: Add user to channel from popover
 component: null
 tags: []
 labels:
-- cy-prod
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+  - cy-prod
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -24,15 +24,15 @@ detox: null
 mmctl: null
 playwright: null
 rainforest:
-- N/A
+  - N/A
 manual_test_environments:
-- Automated - No manual tests needed
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 2746257
 key: MM-T8
-created_on: "2019-08-26T23:03:55Z"
-last_updated: "2023-01-05T20:36:02Z"
+created_on: '2019-08-26T23:03:55Z'
+last_updated: '2023-01-05T20:36:02Z'
 case_hashed: d3cbe6dc72a1129b0933a0e2dc57e19d18e5987252e45a52ea29a50eeffc5178b35bd4d045d373eea5d92e45c91b3d5a
 steps_hashed: a683d0d652148eb10a1499fbdf87aa747e7b4beaeb4ba05c253fd9e0eb4660898f36a0ad736636a179dc9b7d50b89b4d
 ---

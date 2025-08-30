@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — System Admin only"
+name: 'Add User — System Admin only'
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,8 +14,8 @@ location: Add user to channel from popover
 component: null
 tags: []
 labels:
-- cy-prod
-tested_by_contributor: ""
+  - cy-prod
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -23,15 +23,15 @@ detox: null
 mmctl: null
 playwright: null
 rainforest:
-- N/A
+  - N/A
 manual_test_environments:
-- Automated - No manual tests needed
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 5618902
 key: MM-T1
-created_on: "2020-06-03T07:26:59Z"
-last_updated: "2022-09-10T10:54:33Z"
+created_on: '2020-06-03T07:26:59Z'
+last_updated: '2022-09-10T10:54:33Z'
 case_hashed: 2e2cb2eea3af84de67f7c7ef4646772da38b10b7d1b1c5f3eb0e89f2909727554293487475e1617aaa239410442896d1
 steps_hashed: 93c651c4c3636026faad484ce8f8f6083176aef85942234d0885a63a8a3e2b1e705db69ad52d7ee2ad1031c1de353b16
 ---

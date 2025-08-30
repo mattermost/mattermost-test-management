@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — Public ON / Private OFF"
+name: 'Add User — Public ON / Private OFF'
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,8 +14,8 @@ location: Add user to channel from popover
 component: null
 tags: []
 labels:
-- cy-prod
-tested_by_contributor: ""
+  - cy-prod
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -23,15 +23,15 @@ detox: null
 mmctl: null
 playwright: null
 rainforest:
-- N/A
+  - N/A
 manual_test_environments:
-- Automated - No manual tests needed
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 2746252
 key: MM-T3
-created_on: "2019-08-26T23:03:54Z"
-last_updated: "2022-09-10T10:54:35Z"
+created_on: '2019-08-26T23:03:54Z'
+last_updated: '2022-09-10T10:54:35Z'
 case_hashed: 46b5ed3fc424aa53e96bb59939739facdbcff577768ec9bf48b87a5642440022c64d607fd6e533861094e3e1d27f51bc
 steps_hashed: b827c8bed1abf39d28c7ac8a79d4734f99ac651b0ae5a5f711633ad923544983ed0ab2d9c5ba4375fea5c11e5ff73896
 ---

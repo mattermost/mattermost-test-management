@@ -45,7 +45,16 @@ export class ZephyrClient {
 
   private async _doRequest(r: Request): Promise<Response> {
     r = this._auth(r);
+    const requestClone = r.clone();
     const res = await fetch(r);
+
+    if (!res.ok) {
+      console.error('Request body:', await requestClone.text());
+      const error = await res.json();
+      console.error('Error:', error);
+      throw new Error(`Zephyr API request failed: ${error.message}`);
+    }
+
     return res;
   }
 

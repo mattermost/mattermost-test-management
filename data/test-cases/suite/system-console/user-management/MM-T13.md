@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Option should be hidden to update own email via System Console"
+name: 'Option should be hidden to update own email via System Console'
 status: Active
 priority: Normal
 folder: User Management
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,10 +14,10 @@ location: System Console
 component: null
 tags: []
 labels:
-- se-prod
-- system-console
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+  - se-prod
+  - system-console
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: To Do
@@ -30,8 +30,8 @@ manual_test_environments: []
 # Do not change
 id: 2746634
 key: MM-T13
-created_on: "2019-08-27T00:41:48Z"
-last_updated: ""
+created_on: '2019-08-27T00:41:48Z'
+last_updated: ''
 case_hashed: 15eba8b018b7b42b3dc50d5329da942c120c3ad0bef6ad617d6e3843d5d0c6981b9c6deb70223e8d3de58e10278c4c61
 steps_hashed: e9cc57ec7cad653894eb12044bdbc79c43c998634b0dde1e6d7ce68b52cf2cc191f306287fd37ede56044993d341c081
 ---
