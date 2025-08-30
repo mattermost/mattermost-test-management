@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "MM-17338 — Setting Require Email Verification to true will break the admin console"
+name: 'MM-17338 — Setting Require Email Verification to true will break the admin console'
 status: Draft
 priority: Normal
 folder: Ticket coverage
-authors: ""
+authors: ''
 team_ownership:
-- QA Platform
+  - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,7 +14,7 @@ location: Ticket coverage
 component: null
 tags: []
 labels: []
-tested_by_contributor: ""
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: null
@@ -27,8 +27,8 @@ manual_test_environments: []
 # Do not change
 id: 2760595
 key: MM-T29
-created_on: "2019-08-28T09:49:50Z"
-last_updated: "2022-12-01T21:17:45Z"
+created_on: '2019-08-28T09:49:50Z'
+last_updated: '2022-12-01T21:17:45Z'
 case_hashed: 98b823e5730e303c171a65bfa0af095a0df0f500d7afd0da69187551e35af52af659612ae5660e7da6a875c04a5a9a44
 steps_hashed: 7f17ab0f8ca8d4e50646c9ef8da6d9dc3ff63da8a7631f2411ee2ef1506d75b117c613980f55048f2f842fdc3d760ba5
 ---

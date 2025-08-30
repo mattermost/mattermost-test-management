@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Loading indicator when posting images"
+name: 'Loading indicator when posting images'
 status: Active
 priority: Low
 folder: Files and Attachments
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,12 +14,12 @@ location: Files and Attachments
 component: null
 tags: []
 labels:
-- Hackfest
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- files-and-attachments
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+  - Hackfest
+  - TM4J-Key-Mapped-In-Cypress-Release
+  - cy-prod
+  - files-and-attachments
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -28,13 +28,13 @@ mmctl: null
 playwright: null
 rainforest: []
 manual_test_environments:
-- Automated - No manual tests needed
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 2746624
 key: MM-T12
-created_on: "2019-08-27T00:36:47Z"
-last_updated: ""
+created_on: '2019-08-27T00:36:47Z'
+last_updated: ''
 case_hashed: ce187c7eaa9591aed06ec0270751b8d298b4bed0a30d9a30c1dc25a00caa01099b7f76b63fcce6b5a881cbd3ffafd538
 steps_hashed: 3c148f1657492486b12e4e43821cb0d5da112bd12d709ac003cfffa2273b4b01b6aa82c5b173ab18cd1a3318289d4508
 ---
