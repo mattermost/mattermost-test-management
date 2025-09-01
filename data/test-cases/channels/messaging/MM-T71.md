@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Autocomplete highlight should follow mouse hover'
+name: "Autocomplete highlight should follow mouse hover"
 status: Active
 priority: Low
 folder: Messaging
-authors: ''
+authors: ""
 team_ownership:
-  - Channels
+- Channels
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
@@ -14,10 +14,10 @@ location: Messaging
 component: null
 tags: []
 labels:
-  - rf-cloud-webapp
-  - messaging
-  - fix-versions-not-empty-2022cleanup
-tested_by_contributor: ''
+- rf-cloud-webapp
+- messaging
+- fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: Ticket Open
@@ -25,16 +25,16 @@ detox: null
 mmctl: null
 playwright: null
 rainforest:
-  - Webapp
-  - in Production
+- Webapp
+- in Production
 manual_test_environments:
-  - Automated - No manual tests needed
+- Automated - No manual tests needed
 
-  # Do not change
+# Do not change
 id: 3736147
 key: MM-T71
-created_on: '2019-12-19T15:28:54Z'
-last_updated: ''
+created_on: "2019-12-19T15:28:54Z"
+last_updated: ""
 case_hashed: fcaa2b0b548d13b6edcbbd4d62e31842feea002aca3497c8b05e6b65febabb93e3389a34d5158114bcf9e51ccab7863f
 steps_hashed: a82df0528f936321cb4a7c31b75486a13c3469faf348c525646ff43978e8b65e6a0b1e69f0a055e4cf5d9c3bce3bef90
 ---

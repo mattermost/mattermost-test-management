@@ -4,9 +4,9 @@ name: "RN apps: 'commented on' line is NOT shown on the post below the 'new mess
 status: Active
 priority: Low
 folder: Messaging
-authors: ''
+authors: ""
 team_ownership:
-  - Channels
+- Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,8 +14,8 @@ location: Messaging
 component: null
 tags: []
 labels:
-  - messaging
-tested_by_contributor: ''
+- messaging
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: N/A
@@ -23,16 +23,16 @@ detox: N/A
 mmctl: null
 playwright: null
 rainforest:
-  - Mobile v1
-  - Mobile V2 Android
-  - in Production
+- Mobile v1
+- Mobile V2 Android
+- in Production
 manual_test_environments: []
 
 # Do not change
 id: 3736155
 key: MM-T79
-created_on: '2019-12-19T15:28:56Z'
-last_updated: '2022-09-09T17:57:15Z'
+created_on: "2019-12-19T15:28:56Z"
+last_updated: "2022-09-09T17:57:15Z"
 case_hashed: fa3471f6479bc04cc191858cebf13094c1595c6cb260cc827a2317a3b8990eb434ca484a3cc12bfa5a380e46e8c7d2c1
 steps_hashed: 0ddf8b82bf23d0c86d1b40450fd7a8bbf099b1cf6efc33d1da8b1ca8894df749de9336003f24cb1bffa2227c1529795a
 ---

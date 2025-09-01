@@ -1,24 +1,24 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Mobile classic apps: Smoke Tests'
+name: "Mobile classic apps: Smoke Tests"
 status: Active
 priority: Smoke test
 folder: Mobile App (native-specific)
-authors: ''
+authors: ""
 team_ownership:
-  - QA Platform
+- QA Platform
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
 location: Smoke Test
 component: null
 tags:
-  - Smoke test
+- Smoke test
 labels:
-  - RN_Smoke_Tests
-  - smoke-test-folder
-  - fix-versions-not-empty-2022cleanup
-tested_by_contributor: ''
+- RN_Smoke_Tests
+- smoke-test-folder
+- fix-versions-not-empty-2022cleanup
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: N/A
@@ -26,15 +26,15 @@ detox: N/A
 mmctl: null
 playwright: null
 rainforest:
-  - N/A
+- N/A
 manual_test_environments:
-  - Mobile
+- Mobile
 
-  # Do not change
+# Do not change
 id: 2814840
 key: MM-T43
-created_on: '2019-09-04T21:03:12Z'
-last_updated: '2022-09-10T11:55:02Z'
+created_on: "2019-09-04T21:03:12Z"
+last_updated: "2022-09-10T11:55:02Z"
 case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
 steps_hashed: aade578bea0d76ea4d9c57135d1f207f9136a0f31d483e48c937da0529e54d064c6132386cbcb11232bf5b226da49471
 ---
