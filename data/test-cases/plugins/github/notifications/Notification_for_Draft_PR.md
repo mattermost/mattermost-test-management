@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Getting notifications on MM for draft `Pull Request`s from GitHub"
+name: "Getting notifications on Mattermost for draft `Pull Request`s from GitHub"
 status: Active
 priority: Normal
 folder: Notifications
@@ -56,7 +56,7 @@ The user should not receive any notification in Mattermost when a draft `Pull Re
 
 **Expected**
 
-The user should get a complete notification in Mattermost with details about the `Pull Request`.
+The user should get a complete notification in Mattermost with details about the `Pull Request` like `labels`, `Assignees`, `Reviewers` and description.
 
 **Step 3**
 
@@ -68,7 +68,7 @@ The user should get a complete notification in Mattermost with details about the
 
 **Expected**
 
-The user should get a notification in Mattermost with limited details for the draft `Pull Request`.
+The user should get a notification in Mattermost with limited details for the draft `Pull Request` like `Pull Request` name and creator's name only.
 
 **Step 4**
 
@@ -80,7 +80,7 @@ The user should get a notification in Mattermost with limited details for the dr
 
 **Expected**
 
-The user should get a complete notification in Mattermost with all details when the draft `Pull Request` is marked as ready for review.
+The user should get a complete notification in Mattermost with all details like `labels`, `Assignees`, `Reviewers` and description when the draft `Pull Request` is marked as ready for review.
 
 **Step 5**
 
@@ -92,4 +92,31 @@ The user should get a complete notification in Mattermost with all details when 
 
 **Expected**
 
-The user should get a complete notification in Mattermost with all details for the normal `Pull Request`.
+The user should get a complete notification in Mattermost with all details for the normal `Pull Request` like `labels`, `Assignees`, `Reviewers` and description.
+
+
+**Step 6**
+
+1. Connect your Mattermost account to your `GitHub` account and create a `subscription` for `Pull Request` in any channel.
+2. Keep the draft `Pull Request` notification setting disabled.
+3. Create a draft `Pull Request` in the connected repository.
+4. Close the draft `Pull Request`.
+5. Reopen the same draft `Pull Request`.
+6. Navigate to the Mattermost channel where the `subscription` is created.
+
+**Expected**
+
+The user should receive a notification in Mattermost only for the closing and reopening of the draft `Pull Request` with limited details like `Pull Request` name and creator's name only. No notification should appear when the draft `Pull Request` is initially created.
+
+**Step 7**
+
+1. Connect your Mattermost account to your GitHub account and create a subscription for Pull Request in any channel.
+2. Enable the draft Pull Request notification setting.
+3. Create a draft Pull Request in the connected repository.
+4. Close the draft Pull Request.
+5. Reopen the same draft Pull Request.
+6. Navigate to the Mattermost channel where the subscription is created.
+
+**Expected**
+
+The user should receive notifications in Mattermost for the creation, closing, and reopening of the draft `Pull Request` with limited details like `Pull Request` name and creator's name only .
