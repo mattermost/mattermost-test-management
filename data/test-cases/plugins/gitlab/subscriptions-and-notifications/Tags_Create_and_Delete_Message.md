@@ -36,45 +36,31 @@ steps_hashed: null
 
 **Step 1**
 
-1. Setup `gitlab` plugin and connect to the user.
-2. Create a `subscription` for a `gitlab` repository.
-3. Create a new `tag` in the subscribed `gitlab` repository.
+1. Setup GitLab plugin and connect to the user.
+2. Create a `subscription` for a GitLab repository.
+3. Create a new `tag` in the subscribed GitLab repository.
 
 **Expected**
-1. The user should see a message in the Mattermost subscribed channel when a `tag` is created in the subscribed `gitlab` repository.
-2. The user should see the message text as `Tag created by <username>` along with the `tag` name.
+User should see a message in the Mattermost channel when a `tag` is created in the subscribed GitLab repository, displaying `Tag created by <username>` along with the `tag` name.
 
 **Step 2**
 
-1. Setup `gitlab` plugin and connect to the user.
-2. Create a `subscription` for a `gitlab` repository.
-3. Delete a `tag` from the subscribed `gitlab` repository.
+1. Setup GitLab plugin and connect to the user.
+2. Create a `subscription` for a GitLab repository.
+3. Delete a `tag` from the subscribed GitLab repository.
 
 **Expected**
 
-1. The user should see a message in the Mattermost subscribed channel when a `tag` is deleted in the subscribed `gitlab` repository.
-2. The user should see the message text as `Tag deleted by <username>` along with the `tag` name.
+User should see a message in the Mattermost channel when a `tag` is deleted in the subscribed GitLab repository, displaying `Tag deleted by <username>` along with the `tag` name.
 
 **Step 3**
 
-1. Setup `gitlab` plugin and connect to the user.
-2. Create a `subscription` for a `gitlab` repository.
-3. Create a new `tag` in the subscribed `gitlab` repository.
+1. Setup GitLab plugin and connect to the user.
+2. Create a `subscription` for a GitLab repository.
+3. Create a new `tag` in the subscribed GitLab repository.
 4. Click on the hyperlinked `tag` name in the `subscription` message in the Mattermost subscribed channel.
 
 
 **Expected**
 
-1. The user should see the `tag` name displayed as a hyperlink in the `subscription` message in the Mattermost subscribed channel.
-2. The user should be redirected to the `tag detail page` in the subscribed `gitlab` repository upon clicking the `tag` name displayed in the `subscription` message.
-
-**Step 4**
-
-1. Setup `gitlab` plugin and connect to the user.
-2. Create a `subscription` for a `gitlab` repository.
-3. Delete a `tag` from the subscribed `gitlab` repository.
-4. Click on the hyperlinked `tag` name in the `subscription` message in the Mattermost subscribed channel.
-
-**Expected**
-
-The user should be redirected to a 404 page upon clicking the `tag` name displayed in the `subscription` message.
+For a newly created `tag`, the `tag` name in the subscription message should appear as a hyperlink, and clicking it should redirect the user to the `tag` detail page in the subscribed GitLab repository.
