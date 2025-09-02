@@ -37,87 +37,99 @@ steps_hashed: null
 ---
 
 **Step 1**
-1. Connect your Mattermost account to your `GitHub` account.
-2. Open any channel where the `GitHub` plugin is installed.
-3. Type the command `/github` default-repo get.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+3. Type the command `/github default-repo get`.
 
 
 **Expected**
-The user should see a message from the bot saying that no default repository is currently set for this channel.
-
+The `GitHub` bot should display a message in the same channel or DM/GM saying that no default repository is currently set.
 
 **Step 2**
 
-1. In the same channel, type the command `/github default-repo set owner/repo`.
-2. Observe the confirmation message that appears from the bot.
-3. Type `/github default-repo get` again after setting.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+3. Type the command `/github default-repo set owner/repo`.
+4. Observe the confirmation message that appears from the bot.
+5. Type `/github default-repo get` again after setting the default repo.
 
 
 **Expected**
-1. The user should see a confirmation message saying the default repo has been set to `owner/repo` for this channel.
-2. When the user run the get command, the same repository should appear as the default.
+The `GitHub` bot should confirm that the default repository is set to `owner/repo` and the `get` command should show `owner/repo` as the default.
 
 **Step 3**
-1. Stay in the same channel after setting the default repo.
-2. Type the command `/github issue create`.
-3. Wait for the `issue creation modal` to appear.
-4. Navigate to the repository field inside the modal.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+3. Type `/github default-repo set owner/repo` and set the default repo.
+4. Type the command `/github issue create`.
+5. Wait for the `issue creation modal` to appear.
+6. Navigate to the repository field inside the modal.
 
 
 **Expected**
 
-1. The `issue creation modal` should open with the repository owner/repo already pre-selected.
-2. The user should not need to manually select the repo.
+The `issue creation modal` should open with the repository owner/repo already pre-selected.
 
 **Step 4**
 
-1. In the same channel, type /github default-repo set new-owner/new-repo.
-2. Check the confirmation message from the bot.
-3. Run `/github default-repo get` again.
-4. Run `/github issue create` once more to test.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+3. Type `/github default-repo set owner/repo` and set the default repo.
+4. Type `/github default-repo set owner/repo` again and set the default repo again with `new-owner/new-repo`.
+4. Run `/github default-repo get`.
+5. Run `/github issue create`.
 
 
 **Expected**
-1. The user should see a message confirming that the default repo has been set to `new-owner/new-repo`.
-2. The `get` command should now show the new repo as the default.
-3. When opening the `issue modal`, the new repository should already be selected.
+The `GitHub` bot should confirm that the default repository is set to `new-owner/new-repo`, the get command should show the same, and the issue creation modal should open with `new-owner/new-repo` preselected.
 
 
 **Step 5**
 
-1. In the channel, type /github default-repo unset.
-2. Observe the confirmation message that appears from the bot.
-3. Run `/github default-repo get` after unsetting.
-4. Run `/github issue create` again.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+3. Type `/github default-repo unset`.
+4. Observe the confirmation message that appears from the bot.
+5. Run `/github default-repo get` after unsetting.
+6. Run `/github issue create` and check the repository field in the modal.
 
 
 **Expected**
 
-1. The user  should see a message confirming that the default repository has been unset successfully.
-2. The get command should now show that no default repository is set for this channel.
-3. When opening the `issue modal`, no repository should be pre-selected and the user should pick one manually.
+The `GitHub` bot should confirm that the default repository has been `unset`, the `get` command should show that no default repository is `set`, and the issue creation modal should open without any repository preselected.
 
 
 **Step 6**
 
-1. In the same channel, type `/github default-repo set invalid-repo name`.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Open any channel or DM/GM.
+1. Type `/github default-repo set invalid-repo name`.
 2. Wait for the bot response.
 3. Run `/github default-repo get` after this attempt.
 
 **Expected**
 
-1. The bot should return an error message saying Error occurred while getting github repository details.
-2. The `get` command should confirm that no default repository is set.
+The `GitHub` bot should show an error message about failing to fetch repository details, and the `get` command should confirm that no default repository is `set`.
 
 **Step 7**
 
-1. Go to Channel A and run `/github default-repo` set `owner/repo`.
-2. Confirm by running `/github default-repo` get in Channel A.
-3. Switch to Channel B where no repo is set.
-4. Run `/github default-repo` get in Channel B.
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. Go to Channel A and run `/github default-repo` set `owner/repo`.
+3. Confirm by running `/github default-repo` get in Channel A.
+4. Switch to Channel B where no repo is set.
+5. Run `/github default-repo` get in Channel B.
 
 
 **Expected**
-1. In Channel A, the default repo should be shown as `owner/repo`.
-2. In Channel B, the response should say no default repository is set for this channel.
+The `GitHub` bot should show `owner/repo` as the default repository in `Channel A`, while in `Channel B` it should show that no default repository is `set`.
 
+**Step 7**
+
+1. Connect your Mattermost account to `GitHub` using `/github connect`.
+2. In Team A, open any channel or DM/GM and set the default repository using `/github default-repo set owner/repo`.
+3. Run `/github default-repo get` in the same place to confirm.
+4. Switch to Team B, open any channel or DM/GM, and run `/github default-repo get`.
+
+**Expected**
+
+The GitHub bot should show `owner/repo` as the default repository in Team A, while in Team B it should show that no default repository is `set`.
