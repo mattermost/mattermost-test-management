@@ -1,40 +1,40 @@
 ---
 # (Required) Ensure all values are filled up
-name: "At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment"
+name: 'At-mention user autocomplete is legible when it overlaps with channel header when drafting a long message containing a file attachment'
 status: Active
 priority: Low
 folder: Messaging
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
 location: Messaging
 component: null
 tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+labels:
+  - TM4J-Key-Mapped-In-Cypress-Release
+  - cy-prod
+  - messaging
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Automated - No manual tests needed
+rainforest:
+  - N/A
+manual_test_environments:
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 3736146
 key: MM-T70
-created_on: "2019-12-19T15:28:54Z"
-last_updated: ""
+created_on: '2019-12-19T15:28:54Z'
+last_updated: ''
 case_hashed: e4f531b511b318fea25aae1f6ba6a34a29445ebf485f837b573b1df7220a629d7466502d0c122249084077a2b6db881d
 steps_hashed: ac0660560e5a2ffda14b91fe6eafced430ca28e2d28b75e1189960ad9a39ccc20295820c455a2fd5976efee9a3466478
 ---

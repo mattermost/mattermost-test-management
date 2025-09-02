@@ -1,41 +1,41 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Replying to an older bot post that has some attachment pretext before the message attachment"
+name: 'Replying to an older bot post that has some attachment pretext before the message attachment'
 status: Active
 priority: Low
 folder: Messaging
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Messaging
 component: null
-tags: 
-- Never tested
-labels: 
-- No-Automated-Executions
-- TM4J-Key-Missing-In-Cypress
-- messaging
-- cy-rep-missing-or-skipped
-tested_by_contributor: ""
+tags:
+  - Never tested
+labels:
+  - No-Automated-Executions
+  - TM4J-Key-Missing-In-Cypress
+  - messaging
+  - cy-rep-missing-or-skipped
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: Update
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Desktop
+rainforest:
+  - N/A
+manual_test_environments:
+  - Desktop
 
-# Do not change
+  # Do not change
 id: 3741723
 key: MM-T92
-created_on: "2019-12-20T16:32:59Z"
-last_updated: "2022-09-10T11:32:40Z"
+created_on: '2019-12-20T16:32:59Z'
+last_updated: '2022-09-10T11:32:40Z'
 case_hashed: e2024e982eb8f7f2ea212397cd5470d0fa2d55bb58ccef89cc4d0735a7bf6c75b0cae4839f6bdc7bd9b650829b22f3e9
 steps_hashed: af69362debd9fed1d923799f7a99a4d7862cd80ae109ffbbe4f3ce1047ce211135120cd44ddd64bddbe4df6016969140
 ---
