@@ -1,42 +1,42 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Mobile classic apps: Smoke Tests"
+name: 'Mobile classic apps: Smoke Tests'
 status: Active
 priority: Smoke test
 folder: Mobile App (native-specific)
-authors: ""
-team_ownership: 
-- QA Platform
+authors: ''
+team_ownership:
+  - QA Platform
 priority_p1_to_p4: P4 - Low-Impact (Edge or unsuitable to repeat?)
 
 # (Optional)
 location: Smoke Test
 component: null
-tags: 
-- Smoke test
-labels: 
-- RN_Smoke_Tests
-- smoke-test-folder
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+tags:
+  - Smoke test
+labels:
+  - RN_Smoke_Tests
+  - smoke-test-folder
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: N/A
 detox: N/A
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Mobile
+rainforest:
+  - N/A
+manual_test_environments:
+  - Mobile
 
-# Do not change
+  # Do not change
 id: 2814840
 key: MM-T43
-created_on: "2019-09-04T21:03:12Z"
-last_updated: "2022-09-10T11:55:02Z"
+created_on: '2019-09-04T21:03:12Z'
+last_updated: '2022-09-10T11:55:02Z'
 case_hashed: 89face77f171af4c163e5f2330405087132790209ba3643b8453acd12fbeeb52128f04dcfce56f6e16fef822dc6d71b2
-steps_hashed: 180edb08bdc92c7f26a5285cb0619a750dd7c018481f6801fe8de816793be337677d907d6e58a4a328d6b457bb51daf9
+steps_hashed: aade578bea0d76ea4d9c57135d1f207f9136a0f31d483e48c937da0529e54d064c6132386cbcb11232bf5b226da49471
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -73,13 +73,11 @@ _Related ticket(s):_
 
 1. Enter a server URL\
    (e.g., <https://postgres.test.mattermost.com/>)
-2. Tap Next\
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500141330-IMG_F26D67517BE4-1.jpeg)
+2. Tap Next
 
 **Expected**
 
-- Connected to server\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500302289-IMG_202ADF4ECC6A-1.jpeg)
+- Connected to server
 
 ---
 
@@ -98,25 +96,22 @@ Successfully logged in
 **Step 4**
 
 1. Type in the text field at the bottom of the app
-2. Tap the send icon![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566500663382-img_542962.png)
+2. Tap the send icon
 
 **Expected**
 
-Post accepted and added to messages just above text field\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502837444-IMG_9AB043E85E61-1.jpeg)
+Post accepted and added to messages just above text field\\
 
 ---
 
 **Step 5**
 
 1. Tap the `...` ellipsis menu icon on the message you just posted
-2. Tap Edit in the modal window that appears\
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502238854-IMG_9AB043E85E61-1.jpeg)
+2. Tap Edit in the modal window that appears\\
 
 **Expected**
 
-Edit Post window appears\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502311395-IMG_FE43ED3BD3E2-1.jpeg)
+Edit Post window appears\\
 
 ---
 
@@ -142,18 +137,13 @@ Tap Cancel
 
 - Returned to channel
 - Changes accepted and displayed
-- Greyed out "(edited)" text below message\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566502654744-IMG_172F6998EB68-1.jpeg)
+- Greyed out "(edited)" text below message\\
 
 ---
 
 **Step 8**
 
 1. Click the comment arrow on a post
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503715986-IMG_3F77DF1E9855-1.jpeg)
 
 **Expected**
 
@@ -166,10 +156,6 @@ Tap Cancel
 
 1. Tap Add Comment
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566503867659-IMG_DBE98BA172CD-1.jpeg)
-
 **Expected**
 
 - Comment added to message thread
@@ -181,10 +167,6 @@ Tap Cancel
 **Step 10**
 
 Tap < (back) button in top left corner
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505212370-IMG_47BFFED04451-1.jpeg)
 
 **Expected**
 
@@ -204,9 +186,8 @@ _Related ticket(s):_
 
 **Test Data**
 
-**iOS** ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505712344-IMG_51DCA569D815-1.jpeg)\
-Android\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1567694206613-Screenshot_2019-09-05-10-30-56.png)
+**iOS**\
+Android\\
 
 **Expected**
 
@@ -248,10 +229,6 @@ Android\
 3. Browse for photo
 4. Attach a photo to upload it
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566505921915-IMG_C4DA603FD69C-1.jpeg)
-
 **Expected**
 
 - Upload starts
@@ -261,29 +238,26 @@ Android\
 
 **Step 14**
 
-1. Verify image uploaded completely\
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506128337-1566506128337.png)
+1. Verify image uploaded completely\\
+
 2. Add text if desired
+
 3. Tap send icon
 
 **Expected**
 
-- Image posted\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566506181604-IMG_4069B2DBE272-1.jpeg)
+- Image posted\\
 
 ---
 
 **Step 15**
 
 1. Tap the … ellipsis menu icon on a message
-2. Tap the Delete button in the modal window that appears\
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508156709-1566508156709.jpeg)
+2. Tap the Delete button in the modal window that appears\\
 
 **Expected**
 
 - Confirm Comment Delete window appears
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566508186516-IMG_CF62DD2B4375-1.jpeg)
 
 ---
 
@@ -317,10 +291,6 @@ Tap Cancel
 
 Tap magnifying glass in top right corner
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509126567-IMG_A57B5C5D3D37-1.jpeg)
-
 **Expected**
 
 Search screen with instructions opens
@@ -330,10 +300,6 @@ Search screen with instructions opens
 **Step 19**
 
 Type in search term and tap search on keyboard
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509440692-IMG_A0B456C2074C-1.jpeg)
 
 **Expected**
 
@@ -347,10 +313,6 @@ Type in search term and tap search on keyboard
 **Step 20**
 
 Tap Jump button
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509658149-IMG_734AF3402788-1.jpeg)
 
 **Expected**
 
@@ -376,10 +338,6 @@ Returned to most recent post
 1. Tap magnifying glass in top right corner again
 2. Type "Before:" in search field
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566509987024-IMG_F966312CC934-1.jpeg)
-
 **Expected**
 
 Calendar appears
@@ -400,10 +358,6 @@ Date fills in in this format - "Before:2019-07-30"
 **Step 24**
 
 Tap Search
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510409706-IMG_2E70B6BEC340-1.jpeg)
 
 **Expected**
 
@@ -430,10 +384,6 @@ Tap Search
 1. Tap ☰ menu in top **right** corner
 2. Tap "Join another Team"
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510688707-IMG_B845F62B3652-1.jpeg)
-
 **Expected**
 
 - Brought to team
@@ -446,10 +396,6 @@ Tap Search
 1. Tap down arrow next to channel name at top
 2. Tap "Edit Channel Header" in menu that appears
 
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566510845929-IMG_BCF171906E27-1.jpeg)
-
 **Expected**
 
 Edit Header screen appears
@@ -459,13 +405,10 @@ Edit Header screen appears
 **Step 28**
 
 1. Type text in field
-
 2. Include a properly formatted link
-
    ```
    [Link example](https://mattermost.com)
    ```
-
 3. Tap Save in lower right corner
 
 **Expected**
@@ -544,7 +487,7 @@ Tap Close
 **Step 34**
 
 1. Navigate to different channel
-2. Paste link in new post and tap send icon ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516716377-1566516716376.png)
+2. Paste link in new post and tap send icon
 
 _Related ticket(s):_
 
@@ -569,13 +512,11 @@ Brought to channel with post highlighted
 **Step 36**
 
 1. Tap ☰ menu icon in top **right**
-2. Tap Leave Team\
-   ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566516931797-1566516931797.jpeg)
+2. Tap Leave Team\\
 
 **Expected**
 
-- Confirmation screen opens\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517034461-IMG_655E0B2EB4AC-1.jpeg)
+- Confirmation screen opens\\
 
 ---
 
@@ -606,13 +547,11 @@ Brought to channel with post highlighted
 **Step 39**
 
 - Tap ☰ menu in top **right**
-- Tap Create a New Team\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517284839-IMG_7A84BBE4C810-1.jpeg)
+- Tap Create a New Team\\
 
 **Expected**
 
-- Create new team page appears\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517481180-IMG_72644B3B7AC2-1.jpeg)
+- Create new team page appears\\
 
 ---
 
@@ -623,8 +562,7 @@ Brought to channel with post highlighted
 
 **Expected**
 
-- Team URL page appears\
-  ![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566517656799-IMG_7B448816C181-1.jpeg)
+- Team URL page appears\\
 
 ---
 
@@ -734,10 +672,6 @@ Start typing name in text field
 2. Tap name of public channel
 3. Tap … ellipsis menu icon next to post in list
 4. Tap Pin to channel
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566518442299-IMG_BAD68A3384E2-1.jpeg)
 
 **Expected**
 

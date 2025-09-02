@@ -1,23 +1,23 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Option should be hidden to update own email via System Console"
+name: 'Option should be hidden to update own email via System Console'
 status: Active
 priority: Normal
 folder: User Management
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: System Console
 component: null
 tags: []
-labels: 
-- se-prod
-- system-console
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+labels:
+  - se-prod
+  - system-console
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: To Do
@@ -30,10 +30,10 @@ manual_test_environments: []
 # Do not change
 id: 2746634
 key: MM-T13
-created_on: "2019-08-27T00:41:48Z"
-last_updated: ""
+created_on: '2019-08-27T00:41:48Z'
+last_updated: ''
 case_hashed: 15eba8b018b7b42b3dc50d5329da942c120c3ad0bef6ad617d6e3843d5d0c6981b9c6deb70223e8d3de58e10278c4c61
-steps_hashed: a39fabddcb7887c189156f8d552940611750c152a95b5f471ca87c338e0a5bbf4bc0dae21dc305bc052ccfa3d7229740
+steps_hashed: e9cc57ec7cad653894eb12044bdbc79c43c998634b0dde1e6d7ce68b52cf2cc191f306287fd37ede56044993d341c081
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -55,10 +55,6 @@ Option should be hidden to update own email via System Console\
 _Related ticket(s):_
 
 [Unclear error message when attempting to update own email via System Console — MM-16727](https://mattermost.atlassian.net/browse/MM-16727)
-
-**Test Data**
-
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566866937276-2019-08-26_20-48-35.png)
 
 **Expected**
 

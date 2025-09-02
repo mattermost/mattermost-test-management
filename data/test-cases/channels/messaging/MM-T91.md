@@ -1,39 +1,39 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Replying to an older post by a user that has no content (only file attachments)"
+name: 'Replying to an older post by a user that has no content (only file attachments)'
 status: Active
 priority: Low
 folder: Messaging
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Messaging
 component: null
 tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-tested_by_contributor: ""
+labels:
+  - TM4J-Key-Mapped-In-Cypress-Release
+  - cy-prod
+  - messaging
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Automated - No manual tests needed
+rainforest:
+  - N/A
+manual_test_environments:
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 3741722
 key: MM-T91
-created_on: "2019-12-20T16:32:59Z"
-last_updated: "2022-09-09T20:49:56Z"
+created_on: '2019-12-20T16:32:59Z'
+last_updated: '2022-09-09T20:49:56Z'
 case_hashed: 99e84d64677e274409726aef912e40e26bb5a8dae98a90a5fc8a8a5a08e82fd999fdb5cf2cedee6a593b10a03b7f3ab1
 steps_hashed: 349aca556e6c8a7e565d577723a66ce00939d0b96d43fadd7658b16e60c4915cbad42c11345232dbde44e9dc5df30a81
 ---

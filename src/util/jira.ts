@@ -1,4 +1,4 @@
-import { dotEnvLoadSync } from '../deps.ts';
+import { loadSync as dotEnvLoadSync } from '@std/dotenv';
 
 import { Component } from './types.ts';
 

@@ -1,39 +1,39 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — Public OFF / Private ON"
+name: 'Add User — Public OFF / Private ON'
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Add user to channel from popover
 component: null
 tags: []
-labels: 
-- cy-prod
-tested_by_contributor: ""
+labels:
+  - cy-prod
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Automated - No manual tests needed
+rainforest:
+  - N/A
+manual_test_environments:
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 2746253
 key: MM-T4
-created_on: "2019-08-26T23:03:54Z"
-last_updated: "2022-09-10T10:54:32Z"
+created_on: '2019-08-26T23:03:54Z'
+last_updated: '2022-09-10T10:54:32Z'
 case_hashed: afdd3b21e2dc37ccb5080df7f78c3d6d074edfb61bbd6ce26f8341b44d5053e02604f9414efc376bb2abf285a005422a
-steps_hashed: 1351d13e2a1bd7d8783463e4a3effd47f717b0cdc53fe2dee34568b669926981c419553a714738a406d88ab72d44a737
+steps_hashed: 6e6759fa6f25bf738d7ebb1bde85c7ba817b1a2ab73372c589518a097cb2f80e008bf318740ad2eaab4a56aece8f4c81
 ---
 
 <!-- (Auto-generated) Based on frontmatter's "key" and "name" -->
@@ -68,17 +68,6 @@ Step IV:
 
 1. Click Add to a channel
 2. Type in the first few letters of the channel name
-
-**Test Data**
-
-Step I:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1566319668503-1566319668503.png)\
-\
-Step II:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653822603-1611653822603.png)\
-\
-Step III:\
-![](https://smartbear-tm4j-prod-us-west-2-attachment-rich-text.s3.us-west-2.amazonaws.com/embedded-f3277290f945470c4add5d21ef3dc7ca7b74388fc7152bfb6b99ae58c66a95a8-1611653867342-1611653867342.png)
 
 **Expected**
 
