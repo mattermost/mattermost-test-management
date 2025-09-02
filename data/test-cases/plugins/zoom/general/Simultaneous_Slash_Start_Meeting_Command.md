@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Simultaneous slash Start Meeting command.md"
+name: "Add support for simultaneous /start meeting command"
 status: Draft
 priority: Normal
 folder: General
@@ -36,57 +36,57 @@ steps_hashed: null
 
 **Step 1**
 
-1. Connect your Zoom account to Mattermost.
-2. In a channel, run the slash command `/zoom start`.
-3. End the meeting within 30 seconds.
-4. Run `/zoom start` again in the same channel.
+1. Connect your `Zoom` account to Mattermost.
+2. In any channel or DM/GM, run the slash command `/zoom start`.
+3. End the meeting within 30 seconds by clicking `End Meeting for All` in `Zoom`.
+4. In the same channel or DM/GM where the `/zoom start` command was first run, run `/zoom start` again.
 
 **Expected**
 
-The user should not see the Zoom Bot confirmation message. A new Zoom meeting should start directly.
+A new `Zoom` meeting should start directly.
 
 **Step 2**
 
-1. Connect your Zoom account to Mattermost.
-2. In a channel, run the slash command `/zoom start`.
-3. Keep the meeting running for more than 30 seconds, then end it.
-4. Run `/zoom start` again in the same channel.
+1. Connect your `Zoom` account to Mattermost.
+2. In any channel or DM/GM, run the slash command `/zoom start`.
+3. Keep the meeting running for more than 30 seconds, then end it by clicking `End Meeting for All` in `Zoom`.
+4. In the same channel or DM/GM where the `/zoom start` command was first run, run `/zoom start` again.
 
 **Expected**
 
-The user should not see the Zoom Bot confirmation message. A new Zoom meeting should start directly.
+A new `Zoom` meeting should start directly.
 
 **Step 3**
 
-1. Connect your Zoom account to Mattermost.
-2. In a channel, run the slash command `/zoom start`.
+1. Connect your `Zoom` account to Mattermost.
+2. In any channel or DM/GM, run the slash command `/zoom start`.
 3. Join the meeting.
-4. Without ending the meeting, run `/zoom start` again in the same channel.
+4. Without ending the meeting, run `/zoom start` again in the same channel or DM/GM where the `/zoom start` command was first run.
 
 **Expected**
 
-The user should see the Zoom Bot confirmation message with options to create a new meeting or join the existing one.
+The user should see the `Zoom` Bot message with two buttons `Create New Meeting` and `Join Existing Meeting`.
 
 **Step 4**
 
-1. Connect your Zoom account to Mattermost.
-2. In a channel, run the slash command `/zoom start`.
+1. Connect your `Zoom` account to Mattermost.
+2. In any channel or DM/GM, run the slash command `/zoom start`.
 3. Join the meeting.
-4. Without ending the meeting, run `/zoom start` again in the same channel.
-5. Click on the `join existing meeting`.
+4. Without ending the meeting, run `/zoom start` again in the same channel or DM/GM where the `/zoom start` command was first run.
+5. In the `Zoom` Bot message, click `Join Existing Meeting`.
 
 **Expected**
 
-The user should get added to the existing zoom meeting.
+The user should be added to the existing `Zoom` meeting.
 
 **Step 5**
 
-1. Connect your Zoom account to Mattermost.
-2. In a channel, run the slash command `/zoom start`.
+1. Connect your `Zoom` account to Mattermost.
+2. In any channel or DM/GM, run the slash command `/zoom start`.
 3. Join the meeting.
-4. Without ending the meeting, run `/zoom start` again in the same channel.
-5. Click on the `create new meeting`.
+4. Without ending the meeting, run `/zoom start` again in the same channel or DM/GM where the `/zoom start` command was first run.
+5. In the `Zoom` Bot message, click `Create New Meeting`.
 
 **Expected**
 
-The user should be joined to the new zoom meeting.
+The user should be added to a new `Zoom` meeting.
