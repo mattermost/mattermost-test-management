@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover'
+name: "Tooltip for Remove profile picture/remove team icon should not appear when opening the edit section, without hover"
 status: Active
 priority: Low
 folder: Ticket coverage
-authors: ''
+authors: ""
 team_ownership:
-  - QA Platform
+- QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,8 +14,8 @@ location: Ticket coverage
 component: null
 tags: []
 labels:
-  - se-prod
-tested_by_contributor: ''
+- se-prod
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: null
@@ -24,13 +24,13 @@ mmctl: null
 playwright: null
 rainforest: []
 manual_test_environments:
-  - Automated - No manual tests needed
+- Automated - No manual tests needed
 
-  # Do not change
+# Do not change
 id: 2756570
 key: MM-T14
-created_on: '2019-08-27T12:51:14Z'
-last_updated: '2022-12-01T21:17:41Z'
+created_on: "2019-08-27T12:51:14Z"
+last_updated: "2022-12-01T21:17:41Z"
 case_hashed: 824536b693d5a62432c58ac246f47fbbb5be9e4e0e9ba928782bd8f8da7e74163fda16ac1515ca1e03242eef9f4864a2
 steps_hashed: a199ee8da254135a45b19c8c93e8a9b4e7c08ce7871c3e56d31f7fcb127cf68dce2befdb91c448a8612a0522be29d7d8
 ---

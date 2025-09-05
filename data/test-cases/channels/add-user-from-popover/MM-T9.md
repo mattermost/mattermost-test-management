@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Add User — Any user (can add users)'
+name: "Add User — Any user (can add users)"
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ''
+authors: ""
 team_ownership:
-  - Channels
+- Channels
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
@@ -14,8 +14,8 @@ location: Add user to channel from popover
 component: null
 tags: []
 labels:
-  - cy-prod
-tested_by_contributor: ''
+- cy-prod
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -23,15 +23,15 @@ detox: null
 mmctl: null
 playwright: null
 rainforest:
-  - N/A
+- N/A
 manual_test_environments:
-  - Automated - No manual tests needed
+- Automated - No manual tests needed
 
-  # Do not change
+# Do not change
 id: 2746258
 key: MM-T9
-created_on: '2019-08-26T23:03:55Z'
-last_updated: '2022-09-10T10:54:34Z'
+created_on: "2019-08-26T23:03:55Z"
+last_updated: "2022-09-10T10:54:34Z"
 case_hashed: ecd3dae0791a58c2d5213013cdf073d301249e2b1ca0775ec8df3edd080e2961476f479f35b54b25c30e25db5c2271e4
 steps_hashed: 488625ccb847eb7b7e6af00bd951c5ad8d35c1193b14f03f7bd5bbd5b33429222a460629c5d091685523e8656ef7d3d5
 ---
