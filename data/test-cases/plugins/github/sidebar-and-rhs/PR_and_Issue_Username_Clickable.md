@@ -61,13 +61,3 @@ The username should be a clickable hyperlink. Clicking it should open the user's
 **Expected**
 
 The username should be a clickable hyperlink. Clicking it should open the user's `GitHub` profile in a new browser tab.
-
-**Step 4**
-
-1. Setup `GitHub` plugin in Mattermost.
-2. Click on `Unread Messages` from the notification counter in the left sidebar.
-3. Observe the usernames displayed at the bottom of the in the `RHS`.
-
-**Expected**
-
-The username should be a clickable hyperlink. Clicking it should open the user's `GitHub` profile in a new browser tab.
