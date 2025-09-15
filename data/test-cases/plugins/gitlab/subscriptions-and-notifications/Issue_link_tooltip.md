@@ -76,7 +76,7 @@ The user should not get `tooltip` on MM for the non-existing `issues` on Gitlab.
 1. Copy the link of any desired `issue` on Gitlab and paste it in any desired channel or DM/GM on MM.
 2. Edit the details of the desired `issue` on Gitlab.
 3. Navigate to MM and refresh the page.
-4. Hover over the link of the desired `issue` in the desired channel or DM/GM on MM.
+4. Hover the cursor over the link of the desired `issue` in the desired channel or DM/GM on MM.
 
 **Expected**
 

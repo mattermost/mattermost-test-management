@@ -46,7 +46,7 @@ The user should be able to verify the details of the created `merge request` in 
 
 1. After step 1, close the created `merge request` on Gitlab.
 2. Navigate to MM and refresh the page.
-3. Hover the cursor the link of the closed `merge request` on MM.
+3. Hover the cursor over the link of the closed `merge request` on MM.
 
 **Expected**
 
@@ -64,19 +64,19 @@ The user should be able to verify `tooltip` on MM for the `merged request` on Gi
 
 **Step 4**
 
-1. Crete a link for a non existing `merge request` on Gitlab and paste it in any desired channel or DM/GM on MM.
+1. Crete a link for a non-existing `merge request` on Gitlab and paste it in any desired channel or DM/GM on MM.
 2. Hover the cursor over the link of the `merge request` on MM.
 
 **Expected**
 
-The user should not get `tooltip` on MM for the non existing `merge request` on Gitlab.
+The user should not get `tooltip` on MM for the non-existing `merge request` on Gitlab.
 
 **Step 5**
 
 1. Copy the link of any desired `merge request` on Gitlab and paste it in any desired channel or DM/GM on MM.
 2. Edit the details of the desired `merge request` on Gitlab.
 3. Navigate to MM and refresh the page.
-4. Hover over the link of the desired `merge request` in the desired channel or DM/GM on MM.
+4. Hover the cursor over the link of the desired `merge request` in the desired channel or DM/GM on MM.
 
 **Expected**
 
