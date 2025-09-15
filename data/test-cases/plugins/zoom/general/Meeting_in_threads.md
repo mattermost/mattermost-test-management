@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Create a Zoom meeting in the threads on MM."
+name: "Create a meeting on the threads view"
 status: Active
 priority: Normal
 folder: General
@@ -34,13 +34,13 @@ steps_hashed: null
 
 **Step 1**
 
-1. Connect the Zoom account to you MM account.
+1. Connect the Zoom account to your MM account.
 2. Enable the Collapsed Reply Threads(CRT) in the system console on MM and open the `threads` from the LHS on MM.
-3. Select any desried thread from the list of `followed threads` and run the slash command `/zoom start <meeting topic>` in the thread on MM.
+3. Select any desired thread from the list of `followed threads` and run the slash command `/zoom start <meeting topic>` in the thread on MM.
 
 **Expected**
 
-The slack attachment for new Zoom meeting should get generated in the desired thread on MM.
+The message attachment for the new Zoom meeting should get generated in the desired thread on MM.
 
 **Step 2**
 
@@ -50,7 +50,7 @@ The slack attachment for new Zoom meeting should get generated in the desired th
 
 **Expected**
 
-The slack attachment for new Zoom meeting should get generated in the desired thread on MM.
+The message attachment for the new Zoom meeting should get generated in the desired thread on MM.
 
 **Step 3**
 
@@ -60,4 +60,4 @@ The slack attachment for new Zoom meeting should get generated in the desired th
 
 **Expected**
 
-The slack attachment for Zoom meeting to `Create new meeting` or `Join existing meeting` should get generated in the desired thread on MM. 
+The message attachment for the Zoom meeting to `Create new meeting` or `Join existing meeting` should get generated in the desired thread on MM. 
