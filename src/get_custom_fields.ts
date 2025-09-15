@@ -1,6 +1,7 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/get_custom_fields.ts
 
-import { distinct } from './deps.ts';
+import { distinct } from '@std/collections';
+
 import { projectKey } from './util/constant.ts';
 import { saveTestCaseCustomFieldsToFile } from './util/test_case.ts';
 import { TestCaseCustomFields } from './util/types.ts';

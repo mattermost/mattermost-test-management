@@ -13,14 +13,10 @@
     "save": "deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts",
     "sync": "deno task get-components && deno task get-environments && deno task get-priorities && deno task get-statuses && deno task get-folders && deno task get-test-cases && deno task validate-all && deno task get-manifests && deno lint",
     "check": "deno fmt && deno lint",
-    "index-test-cases": "deno run --allow-net --allow-env --allow-read src/index_test_cases.ts",
-    "silverbullet": "deno run -A --unstable https://get.silverbullet.md -p 3333 data",
-    "esm:add": "deno run -A https://esm.sh/v106 add",
-    "esm:update": "deno run -A https://esm.sh/v106 update",
-    "esm:remove": "deno run -A https://esm.sh/v106 remove"
+    "index-test-cases": "deno run --allow-net --allow-sys --allow-env --allow-read src/index_test_cases.ts",
+    "silverbullet": "deno run -A --unstable https://get.silverbullet.md -p 3333 data"
   },
   "compilerOptions": {
-    "allowJs": false,
     "strict": true
   },
   "lint": {
@@ -46,5 +42,22 @@
     "indentWidth": 2,
     "singleQuote": true,
     "proseWrap": "preserve"
+  },
+  "imports": {
+    "@std/collections": "jsr:@std/collections@1.0.8",
+    "@std/crypto": "jsr:@std/crypto@1.0.3",
+    "@std/datetime": "jsr:@std/datetime@0.225.2",
+    "@std/dotenv": "jsr:@std/dotenv@0.225.2",
+    "@std/fmt": "jsr:@std/fmt@1.0.2",
+    "@std/fs": "jsr:@std/fs@1.0.4",
+    "npm:@elastic/elasticsearch": "npm:@elastic/elasticsearch@8.15.1",
+    "npm:gray-matter": "npm:gray-matter@4.0.3",
+    "npm:micromark": "npm:micromark@4.0.0",
+    "npm:micromark-extension-gfm": "npm:micromark-extension-gfm@3.0.0",
+    "npm:rehype-parse": "npm:rehype-parse@9.0.1",
+    "npm:rehype-remark": "npm:rehype-remark@10.0.0",
+    "npm:remark-gfm": "npm:remark-gfm@4.0.0",
+    "npm:remark-stringify": "npm:remark-stringify@11.0.0",
+    "npm:unified": "npm:unified@11.0.5"
   }
 }
