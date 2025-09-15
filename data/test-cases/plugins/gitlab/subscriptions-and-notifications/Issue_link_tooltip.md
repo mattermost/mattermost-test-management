@@ -46,7 +46,7 @@ The user should be able to verify the details of the created `issue` in the `too
 
 1. After step 1, close the created `issue` on Gitlab.
 2. Navigate to MM and refresh the page.
-3. Hover the cursor the link of the closed `issue` on MM.
+3. Hover the cursor over the link of the closed `issue` on MM.
 
 **Expected**
 
@@ -54,7 +54,7 @@ The user should be able to verify the symbol for the closed `issue` in the `tool
 
 **Step 3**
 
-1. Delete any desired `issue` on Gitlab whose link exist in any desired channel or DM/GM on MM.
+1. Delete any desired `issue` on Gitlab whose link exists in any desired channel or DM/GM on MM.
 2. Navigate to MM and refresh the page.
 3. Hover the cursor over the link of the deleted `issue` on MM.
 
@@ -64,12 +64,12 @@ The user should not get `tooltip` on MM for the deleted `issues` on Gitlab.
 
 **Step 4**
 
-1. Enter a link of a non existing `issue` on Gitlab and paste it in any desired channel or DM/GM on MM.
+1. Enter a link of a non-existing `issue` on Gitlab and paste it in any desired channel or DM/GM on MM.
 2. Hover the cursor over the link of the `issue` on MM.
 
 **Expected**
 
-The user should not get `tooltip` on MM for the non existing `issues` on Gitlab.
+The user should not get `tooltip` on MM for the non-existing `issues` on Gitlab.
 
 **Step 5**
 
