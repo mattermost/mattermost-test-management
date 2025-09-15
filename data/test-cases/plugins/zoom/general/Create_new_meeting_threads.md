@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: "New meeting is being created after clicking `Create new meeting` in the threads view. "
+name: "Creating another new meeting on threads view "
 status: Active
 priority: Normal
 folder: General
@@ -38,9 +38,9 @@ steps_hashed: null
 2. Enable the CRT from the settings on MM and open the threads from the LHS on MM.
 3. Select any desired thread from the `followed threads` list on MM.
 4. Set the zoom setting to `Personal Meeting ID` for meeting using the slash command `/zoom settings`.
-5. Create a meeting in the desired thread using either the slash command `/zoom start<meeting topic>` or clicking on the zoom icon in the app bar on MM.
-6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start<meeting topic>` or clicking on the zoom icon in the app bar on MM.
-7. Click on the `Create new meeting` option in the slack attahcment in the desired thread.
+5. Create a meeting in the desired thread using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
+6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
+7. Click on the `Create new meeting` option in the message attachment in the desired thread.
 
 **Expected**
 
@@ -52,9 +52,9 @@ The user should get directed to the existing meeting on the Zoom.
 2. Enable the CRT from the settings on MM and open the threads from the LHS on MM.
 3. Select any desired thread from the `followed threads` list on MM.
 4. Set the zoom setting to `Unique Meeting ID` for meeting using the slash command `/zoom settings`.
-5. Create a meeting in the desired thread using either the slash command `/zoom start<meeting topic>` or clicking on the zoom icon in the app bar on MM.
-6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start<meeting topic>` or clicking on the zoom icon in the app bar on MM.
-7. Click on the `Create new meeting` option in the slack attahcment in the desired thread.
+5. Create a meeting in the desired thread using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
+6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
+7. Click on the `Create new meeting` option in the message attachment in the desired thread.
 
 **Expected**
 
@@ -67,17 +67,17 @@ The user should get directed to a new meeting on Zoom.
 3. Select any desired thread from the `followed threads` list on MM.
 4. Set the zoom setting to `Ask every time` for meeting using the slash command `/zoom settings`.
 5. Create a meeting in the desired thread using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
-6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start<meeting topic>` or clicking on the zoom icon in the app bar on MM.
-7. Click on the `Create new meeting` option in the slack attahcment in the desired thread.
+6. Navigate to the desired thread without ending the meeting and again create a meeting using either the slash command `/zoom start <meeting topic>` or clicking on the zoom icon in the app bar on MM.
+7. Click on the `Create new meeting` option in the message attachment in the desired thread.
 
 **Expected**
 
-The user should get the slack attachment regarding to choose the type of meeting in the desired thread on MM.
+The user should get the message attachment for choosing the type of meeting in the desired thread on MM.
 
 **Step 4**
 
 1. After step 1, again navigate to the desired thread on MM.
-2. Click on the `Create new meeting` option on the existing slack attachment in the desired thread.
+2. Click on the `Create new meeting` option on the existing message attachment in the desired thread.
 
 **Expected**
 
@@ -86,7 +86,7 @@ The user should get redirected to the existing meeting on Zoom.
 **Step 5**
 
 1. After step 2, again navigate to the desired thread on MM.
-2. Click on the `Create new meeting` option on the existing slack attachment in the desired thread.
+2. Click on the `Create new meeting` option on the existing message attachment in the desired thread.
 
 **Expected**
 
