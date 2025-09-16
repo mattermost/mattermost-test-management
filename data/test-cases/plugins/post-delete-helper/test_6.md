@@ -31,7 +31,6 @@ created_on: null
 last_updated: null
 case_hashed: null
 steps_hashed: null
-
 ---
 
 **Step 1**
@@ -60,7 +59,6 @@ steps_hashed: null
 **Expected**
 
 - The `Delete Root Post` dialog should not appear, and the post should not be deleted, as the root post has no replies.
-
 
 **Step 3**
 

@@ -4097,6 +4097,7 @@
       "Name can be updated",
       "Name unique within a channel",
       "No options are available in security groups",
+      "Projects list pagination and sorting",
       "Setup a subscription",
       "When only one subscription exists - Save a subscription without making edits"
     ]
@@ -4523,6 +4524,17 @@
     ]
   },
   {
+    "folder": "plugins/post-delete-helper",
+    "tests": [
+      "Delete Root Post via Slash Command",
+      "Delete a root post",
+      "Installation and uninstallation of the Post Delete Helper Plugin",
+      "Permission-Based Root Post Deletion",
+      "Root Post Deletion with Time Limit",
+      "Verify 'Remove root post' Post Option Availability"
+    ]
+  },
+  {
     "folder": "plugins/service-now",
     "tests": [
       "Activation of save button",
@@ -4728,6 +4740,7 @@
       "Launch a meeting via slash command with a connected user",
       "Launch works for both Icon and slash command",
       "Launch works for both Icon and slash command on a subpath server",
+      "New meeting is being created after clicking `Create new meeting` in the threads view.",
       "Plugin channel header tooltip",
       "Start a Zoom meeting in DM",
       "Start a Zoom meeting in public channel",

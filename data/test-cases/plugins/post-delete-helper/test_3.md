@@ -31,15 +31,16 @@ created_on: null
 last_updated: null
 case_hashed: null
 steps_hashed: null
-
 ---
 
 **Step 1**
 
 1. Post a root message with one or more replies. A root post could be:
+
 - with or without attachments
 - with or without reactions
 - with attachment only and without message
+
 2. Verify that the "Remove root post" option is visible in the root post's menu.
 3. Select "Remove root post".
 

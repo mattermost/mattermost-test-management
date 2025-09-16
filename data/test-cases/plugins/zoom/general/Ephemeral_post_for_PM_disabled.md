@@ -68,7 +68,7 @@ The user should not receive any ephemeral message and the message attachment to 
 1. Go to your Zoom settings and disable `Personal Meeting ID` on Zoom.
 2. Navigate to MM and open threads from the LHS.
 3. Open any desired thread from the `Followed threads` list and run the slash command `/zoom settings` and select `Yes` to use `Use your Personal Meeting ID` on MM.
-5. Create a new meeting in the desired thread by running the slash command `/zoom start <meeting topic>` on MM.
+4. Create a new meeting in the desired thread by running the slash command `/zoom start <meeting topic>` on MM.
 
 **Expected**
 

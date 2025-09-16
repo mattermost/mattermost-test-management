@@ -31,7 +31,6 @@ created_on: null
 last_updated: null
 case_hashed: null
 steps_hashed: null
-
 ---
 
 **Step 1**
