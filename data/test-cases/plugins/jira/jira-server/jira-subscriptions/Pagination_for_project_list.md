@@ -16,7 +16,7 @@ labels: []
 tested_by_contributor: null
 
 # (Optional) Test type and tools
-cypress: null
+cypress: "N/A"
 detox: null
 mmctl: null
 playwright: null
