@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Open Graph link preview should display animated"
+name: 'Open Graph link preview should display animated'
 status: Active
 priority: Normal
 folder: Messaging
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,9 +14,9 @@ location: Messaging
 component: null
 tags: []
 labels:
-- messaging
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+  - messaging
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: To Do
@@ -25,13 +25,13 @@ mmctl: null
 playwright: null
 rainforest: []
 manual_test_environments:
-- Desktop
+  - Desktop
 
-# Do not change
+  # Do not change
 id: 8168020
 key: MM-T11
-created_on: "2020-12-10T17:51:24Z"
-last_updated: "2022-09-09T20:50:00Z"
+created_on: '2020-12-10T17:51:24Z'
+last_updated: '2022-09-09T20:50:00Z'
 case_hashed: 65adb60dde2bfa3b32d35217c200aa4ef3b28d8991f260c33bdba75e5d4d5296fe771826d457f8b252d3bba60a7c5ff9
 steps_hashed: 642b03f2737a8881b55258f1af3d14b8b700596ff859fd187d34c3af17e7df9fd5223a5cfde8503063cc2d6174c4b695
 ---

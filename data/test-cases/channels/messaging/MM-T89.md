@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "An ellipsis indicates the channel header is too long - DM"
+name: 'An ellipsis indicates the channel header is too long - DM'
 status: Active
 priority: Low
 folder: Messaging
-authors: ""
+authors: ''
 team_ownership:
-- Channels
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,10 +14,10 @@ location: Messaging
 component: null
 tags: []
 labels:
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-tested_by_contributor: ""
+  - TM4J-Key-Mapped-In-Cypress-Release
+  - cy-prod
+  - messaging
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
@@ -26,13 +26,13 @@ mmctl: null
 playwright: null
 rainforest: []
 manual_test_environments:
-- Automated - No manual tests needed
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 3741720
 key: MM-T89
-created_on: "2019-12-20T16:32:59Z"
-last_updated: ""
+created_on: '2019-12-20T16:32:59Z'
+last_updated: ''
 case_hashed: f1555eef1767d024265f855c2af6ca220cef15b12d85ab3eab74c1526ee63d3b2b3ef999e1d4b3a3a7f185af3c6d4031
 steps_hashed: bf790776b5bbeb7b994a278d65c09318f727812153714dc8dd5a4569ab61091e6d9de7c6960beacbf804c4149f8aaa1f
 ---

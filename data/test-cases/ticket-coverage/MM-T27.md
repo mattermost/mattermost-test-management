@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "MM-17460 — Remove focus trap"
+name: 'MM-17460 — Remove focus trap'
 status: Draft
 priority: Normal
 folder: Ticket coverage
-authors: ""
+authors: ''
 team_ownership:
-- QA Platform
+  - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,7 +14,7 @@ location: Ticket coverage
 component: null
 tags: []
 labels: []
-tested_by_contributor: ""
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: null
@@ -27,8 +27,8 @@ manual_test_environments: []
 # Do not change
 id: 2759608
 key: MM-T27
-created_on: "2019-08-28T02:06:28Z"
-last_updated: "2022-12-01T21:17:45Z"
+created_on: '2019-08-28T02:06:28Z'
+last_updated: '2022-12-01T21:17:45Z'
 case_hashed: 0ff243ee2600e2bed9bfdb18f734636c8fff02dd9a9a9161473935613372b323202c7f9a31b5ca6f3d435d9dd9a6fe3c
 steps_hashed: 2790462f52ab07c97736e456695ac79d7a7c533fdd3f0c3065ff18ea803f4d68de1a1fe6a2537bf6bb3ba8876f5923a4
 ---
