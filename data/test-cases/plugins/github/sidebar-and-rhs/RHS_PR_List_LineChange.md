@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Showing Line Change Count in RHS PR List'
+name: 'Showing line change count in RHS PR list'
 status: Active
 priority: Normal
 folder: Sidebar and RHS
