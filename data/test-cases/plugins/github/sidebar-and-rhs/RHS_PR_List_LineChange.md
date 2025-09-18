@@ -9,27 +9,27 @@ team_ownership: []
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
-location: Plugins
+location: null
 component: null
 tags: []
 labels: []
 tested_by_contributor: ''
 
 # (Optional) Test type and tools
-cypress: N/A
-detox: N/A
-mmctl: N/A
-playwright: To Do
+cypress: null
+detox: null
+mmctl: null
+playwright: null
 rainforest: []
 manual_test_environments: []
 
 # Do not change
-id: N/A
-key: N/A
-created_on: N/A
-last_updated: N/A
-case_hashed: N/A
-steps_hashed: N/A
+id: null
+key: null
+created_on: null
+last_updated: null
+case_hashed: null
+steps_hashed: null
 ---
 
 **Step 1**
