@@ -41,7 +41,7 @@ steps_hashed: null
 
 **Expected**
 
-TThe subscription should be created successfully, and a confirmation message should be displayed in the subscribed channel, DM or GM. No errors or panics should appear in the server logs.
+The subscription should be created successfully, and a confirmation message should be displayed in the subscribed channel, DM or GM. No errors or panics should appear in the server logs.
 
 **Step 2**
 
