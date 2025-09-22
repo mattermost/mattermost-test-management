@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page'
+name: "MM-16632 — Mobile Web App View: non-mobile view Search Options popover appears on top of mobile view page"
 status: Draft
 priority: Normal
 folder: Ticket coverage
-authors: ''
+authors: ""
 team_ownership:
-  - QA Platform
+- QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,7 +14,7 @@ location: Ticket coverage
 component: null
 tags: []
 labels: []
-tested_by_contributor: ''
+tested_by_contributor: ""
 
 # (Optional) Test type and tools
 cypress: null
@@ -27,8 +27,8 @@ manual_test_environments: []
 # Do not change
 id: 2759120
 key: MM-T24
-created_on: '2019-08-27T22:52:09Z'
-last_updated: '2022-12-01T21:17:43Z'
+created_on: "2019-08-27T22:52:09Z"
+last_updated: "2022-12-01T21:17:43Z"
 case_hashed: 32647bd6261b2c69bdfea9f3bbc9865f1ae401f8dda02c6d6502a50e6538bbd4ed43cda779e75212c47e922d4df4adbc
 steps_hashed: 38e3c9fdf5b32fa75faffc27182ea432bff94563ebe2ae55d185861a62f13657a95b93c790d10bb0f1205b8b129c12f2
 ---
