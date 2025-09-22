@@ -69,3 +69,21 @@ The window should close.
 **Expected**
 
 The app should quit.
+
+**Step 5: Opening a new tab using keyboard shortcuts**
+
+1. After logging in go to a channel. e.g Off-topic
+2. Press `Ctl + T` on Windows to open a new tab or `Cmd + T` on Macbook.
+
+**Expected**
+
+A new Tab should be opened with Off-topic channel
+
+**Step 6: Opening a new window using keyboard shortcuts**
+
+1. After logging in go to a channel. e.g Off-topic
+2. Press `Ctl + N` on Windows to open a new tab or `Cmd + N` on Macbook.
+
+**Expected**
+
+A new window should be opened with Off-topic channel

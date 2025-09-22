@@ -50,4 +50,4 @@ The main window should come to the front.
 
 **Expected**
 
-A notification should appear. Clicking on the notification should bring the corresponding window to the front.
+A notification should appear. Clicking on the notification should go to the main window.

@@ -66,6 +66,8 @@ The tab should close.
 **Step 4: Main tab for a server cannot be closed**
 
 1. Right-click on the main tab for a server.
+2. Hover over the tab and verify the `x` is not displayed.
+3. Press `Cmd + W` or `Ctl + W` to ensue the tab and window is not closed.
 
 **Expected**
 
