@@ -66,7 +66,7 @@ The subscription should be successfully created for the repository.
 
 Setup `GitHub` with Mattermost.
 Configure organizations in Org Lock in the `GitHub` plugin settings via the System Console.
-Run the slash command `/github subscriptions add owner/repo` for a repository thats not present in the org lock in any channel, DM, or GM.
+Run the slash command `/github subscriptions add owner/repo` for a repository that's not present in the org lock in any channel, DM, or GM.
 
 **Expected**
 
@@ -106,7 +106,7 @@ The default repository should be successfully set for all configured organizatio
 
 1. Setup `GitHub` with Mattermost.
 2. Configure organizations in the `GitHub` plugin settings via the System Console.
-3. Run the slash command `/github subscriptions default owner/repo` for a repository thats not present in the org lock in any channel, DM, or GM.
+3. Run the slash command `/github subscriptions default owner/repo` for a repository that's not present in the org lock in any channel, DM, or GM.
 
 **Expected**
 
