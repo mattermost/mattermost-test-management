@@ -62,7 +62,7 @@ The issue should be successfully created in the selected repository. The reposit
 **Step 3**
 
 1. Setup `GitHub` with Mattermost.
-2. Configure Org Lock with a mix of valid organizations and one invalid organization.
+2. Configure Org Lock with a mix of valid organizations and one or more invalid organizations.
 3. Post a message in any channel, DM, or GM.
 4. Open the message actions menu for the posted message.
 5. Click `Attach to GitHub Issue`.
@@ -75,7 +75,7 @@ The post should be successfully attached to the selected issue. Only issues from
 **Step 4**
 
 1. Setup `GitHub` with Mattermost.
-2. Configure Org Lock with a mix of valid organizations and one invalid organization.
+2. Configure Org Lock with a mix of valid organizations and one or more invalid organizations.
 3. Post a message in any channel, DM, or GM.
 4. Open the message actions menu for the posted message.
 5. Click `Create GitHub Issue`.
@@ -101,7 +101,7 @@ No issues or repositories should be listed. The user should not be able to attac
 **Step 6**
 
 1. Setup `GitHub` with Mattermost.
-Leave Org Lock blank in the plugin configuration.
+2. Leave Org Lock blank in the plugin configuration.
 3. Post a message in any channel, DM, or GM.
 4. Open the message actions menu for the posted message.
 5. Click `Attach to GitHub Issue` and select a repository from the dropdown.
