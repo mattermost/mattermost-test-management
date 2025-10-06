@@ -36,7 +36,8 @@ steps_hashed: null
 **Step 1**
 
 1. Ensure that the Jira plugin is not configured with any instance.
-2. Navigate to the Jira plugin configuration.
+2. Navigate to system console.
+3. Navigate to the Jira plugin configuration.
 
 **Expected**
 
@@ -45,38 +46,40 @@ The confidential settings such as `Webhook Secret`, `At Rest Encryption Key` and
 
 **Step 2**
 
-1. Setup the Jira plugin for the instance by running the command `/jira setup` in any channel or DM/GM and follow the instructions shown by the Jira bot.
+1. Setup the Jira plugin for any instance by running the command `/jira setup` in any channel or DM/GM and follow the instructions shown by the Jira bot.
 2. After setting up the instance, configure the `webhook` by running the command `/jira webhook`.
-3. Navigate to the Jira plugin configuration.
+3. Navigate to system console.
+4. Navigate to the Jira plugin configuration.
 
 **Expected**
 
-The confidential settings such as `Webhook Secret`and `At Rest Encryption Key` should not be directly visible as a text. Instead a string of `*` should be displayed.
+The confidential settings such as `Webhook Secret`and `At Rest Encryption Key` should not be directly visible as a text. Instead, a string of `*` should be displayed.
 
 **Step 3**
 
-1. Setup the `Admin API Token` in the plugin configuration of Jira.
-2. Refresh the Jira plugin configuration page after step 1.
+1. Navigate to system console.
+2. Setup the `Admin API Token` in the plugin configuration of Jira.
+3. Refresh the Jira plugin configuration page after saving the `Admin API Token`.
 
 **Expected**
 
 The `Admin API Token` field should display a string of `*` instead of the actual secret.
 
 **Step 4**
-
-1. Navigate to the Jira plugin configuration.
-2. Copy the `secret` of any confidential setting.
-3. Paste the copied `secret` anywhere.
+1. Navigate to system console.
+2. Navigate to the Jira plugin configuration.
+3. Copy the value of any confidential setting.
+4. Paste the copied value anywhere.
 
 **Expected**
 
 The pasted content should display a string of `*` instead of the actual secret.
 
 **Step 5**
-
-1. Navigate to the Jira plugin configuration.
-2. Click on the `Regenerate` button below the `At Rest Encryption Key`.
-3. Save the changes and reload the page.
+1. Navigate to system console.
+2. Navigate to the Jira plugin configuration.
+3. Click on the `Regenerate` button below the `At Rest Encryption Key` field.
+4. Save the changes and reload the page.
 
 **Expected**
 
