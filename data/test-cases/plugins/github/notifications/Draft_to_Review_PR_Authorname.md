@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Author name display in Draft Pull Request to ready to review subscription'
+name: 'Author name display in draft PR to ready to review subscription'
 status: Active
 priority: Normal
 folder: Notifications
@@ -35,7 +35,7 @@ steps_hashed: null
 **Step 1**
 
 1. Connect two separate `GitHub` accounts, referred to as User A and User B, to Mattermost.
-2. Create a subscription for a `GitHub` repository that is accessible to both users in any channel or DM or GM.
+2. Create a subscription for a `GitHub` repository that is accessible to both users in any channel or DM/GM.
 3. Using User B, create a new `Pull Request` in the subscribed repository and mark it as `Draft`.
 4. Using User A, change the state of the same `Pull Request` from `Draft` to `Ready for review`.
 
@@ -46,7 +46,7 @@ The subscription message should display `#new-pull-request by User B` as the aut
 **Step 2**
 
 1. Connect a single `GitHub` account to Mattermost.
-2. Create a subscription for a `GitHub` repository that is accessible to the user in any channel or DM or GM
+2. Create a subscription for a `GitHub` repository that is accessible to the user in any channel or DM/GM.
 3. Create a new `Pull Request` in the subscribed repository and mark it as `Draft`.
 4. Change the state of the same `Pull Request` from `Draft` to `Ready for review`.
 
