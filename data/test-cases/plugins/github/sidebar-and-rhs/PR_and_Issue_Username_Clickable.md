@@ -1,6 +1,6 @@
 ---
 # (Required) Ensure all values are filled up
-name: 'Username clickable in RHS for PRs and Issues'
+name: 'Added test cases to verify clickable usernames in RHS for PRs and Issues'
 status: Active
 priority: Normal
 folder: Sidebar and RHS
