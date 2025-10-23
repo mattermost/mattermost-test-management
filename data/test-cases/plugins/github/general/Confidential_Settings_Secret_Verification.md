@@ -71,3 +71,15 @@ The confidential values should still remain functional, and the fields should be
 **Expected**
 
 The masked value `*********` should not be copied as the actual confidential value.
+
+**Step 5**
+
+1. Navigate to `Plugin Management` in the `System Console`.
+2. Remove the existing `GitHub` plugin from the list.
+3. Re-upload the `GitHub` plugin.
+4. After successful upload, enable the `GitHub` plugin.
+5. Navigate to `GitHub` plugin configuration in the `System Console`.
+
+**Expected**
+
+All confidential fields should remain masked as `*********` and continue to function correctly after the plugin is removed and re-uploaded, ensuring that sensitive data stays securely stored.
