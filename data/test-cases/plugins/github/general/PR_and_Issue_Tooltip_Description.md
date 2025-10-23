@@ -99,3 +99,29 @@ The `tooltip` should trim the `PR` description and should not display the `See m
 **Expected**
 
 The `tooltip` should trim the `Issue` description and should not display the `See more` link.
+
+**Step 7**
+
+1. Connect your `GitHub` account with Mattermost.
+2. Subscribe to a `GitHub` repository in any channel, DM, or GM.
+3. Create a `PR` in the subscribed repository with a description.
+4. Verify that hovering over the `PR` link in the subscribed channel, DM, or GM shows the description.
+5. Update the `PR` description in the `GitHub` repository.
+6. Return to the subscribed channel and hover over the same `PR` link again.
+
+**Expected**
+
+The tooltip should now display the updated `PR` description, reflecting the latest changes made on `GitHub`. The previous description should no longer appear.
+
+**Step 7**
+
+1. Connect your `GitHub` account with Mattermost.
+2. Subscribe to a `GitHub` repository in any channel, DM, or GM.
+3. Create an `Issue` in the subscribed repository with an initial description.
+4. Verify that hovering over the `Issue` link in the subscribed channel, DM, or GM shows the description.
+5. Update the `Issue` description in the `GitHub` repository.
+6. Return to the subscribed channel and hover over the same `Issue` link again.
+
+**Expected**
+
+The tooltip should display the updated `Issue` description, reflecting the latest changes made on `GitHub`. The previous description should no longer be shown.
