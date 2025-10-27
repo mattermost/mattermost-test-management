@@ -35,8 +35,8 @@ steps_hashed: null
 **Step 1**
 
 1. Connect your GitHub account to Mattermost.
-2. Subscribe to a `repository`.
-3. Perform different actions on a `PR` in the subscribed `repository` (open, close, reopen, merge).
+2. Subscribe to a `repository` in any channel or DM by running the slash command `/github subscriptions add [owner/repo]`.
+3. Perform different actions (open, close, reopen, merge the PR) on a `PR` in the subscribed `repository`.
 4. In Mattermost, check the corresponding `PR` notification and hover over the `PR` name to open the `tooltip`.
 
 **Expected**
@@ -46,8 +46,8 @@ The author’s name will be displayed in the `tooltip` for all `PR` states and h
 **Step 2**
 
 1. Connect your GitHub account to Mattermost.
-2. Subscribe to a `repository`.
-3. Perform different actions on an `Issue` in the subscribed `repository` (open, close, reopen).
+2. Subscribe to a `repository` in any channel or DM by running the slash command `/github subscriptions add [owner/repo]`.
+3. Perform different actions (open, close, reopen the issue) on an `Issue` in the subscribed `repository`.
 4. In Mattermost, check the corresponding `Issue` notification and hover over the `Issue` name to open the `tooltip`.
 
 **Expected**
