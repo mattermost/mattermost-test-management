@@ -1,6 +1,7 @@
 // deno run --allow-run --allow-read=. --allow-write=. --allow-env --allow-net src/save.ts
 
-import { findSingle, green, red, yellow } from './deps.ts';
+import { findSingle } from '@std/collections';
+import { green, red, yellow } from '@std/fmt/colors';
 
 import { projectKey } from './util/constant.ts';
 import { getFolderFullPath } from './util/helper.ts';

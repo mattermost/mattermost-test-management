@@ -1,4 +1,7 @@
-import { findSingle, formatDate, red } from '../deps.ts';
+import { findSingle } from '@std/collections';
+import { format as formatDate } from '@std/datetime';
+import { red } from '@std/fmt/colors';
+
 import { changeRequired, dataFolderPath, datetimeFormat } from './constant.ts';
 import { writeFile } from './file.ts';
 import { htmlToMarkdown, markdownToHtml } from './markdown.ts';
@@ -183,21 +186,26 @@ function customFieldsValues() {
   const teamOptions = {
     default: [changeRequired],
     options: [
+      'ABC',
       'Boards',
       'Calls',
       'Channels',
-      'Data Eng',
-      'Desktop Platform',
+      'Core Features',
+      'Deployment Eng',
       'Growth',
+      'Core Features',
+      'ICU',
+      'Information Control',
       'Integration Frameworks',
-      'Mobile Platform',
+      'MS Teams',
       'Playbooks',
       'QA Platform',
       'Self-Serve',
-      'Suite Users',
       'Server Platform',
+      'Suite Users',
       'Web Platform',
-      'ICU',
+      'Workflows',
+      'XYZ',
     ],
   };
 
