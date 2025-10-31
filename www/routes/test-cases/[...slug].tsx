@@ -10,11 +10,11 @@ import Footer from "../../components/footer.tsx";
 import Search from "../../islands/Search.tsx";
 import NavigationBar from "../../components/navigation_bar.tsx";
 
-import tcTOC from "../../../data/test-cases-toc.json" assert { type: "json" };
-import tcManifest from "../../../data/test-cases-manifest.json" assert {
+import tcTOC from "../../../data/test-cases-toc.json" with { type: "json" };
+import tcManifest from "../../../data/test-cases-manifest.json" with {
   type: "json",
 };
-import tcFolders from "../../../data/test-cases-folders.json" assert {
+import tcFolders from "../../../data/test-cases-folders.json" with {
   type: "json",
 };
 
@@ -81,7 +81,7 @@ export default function TestsPage(props: PageProps<Data>) {
         <link rel="stylesheet" href={asset("/gfm.css")} />
       </Head>
       <div class="flex flex-col min-h-screen">
-        <Header withSearchBar={true} />
+        <Header withSearchBar />
         <NavigationBar active="/test-cases" />
         <Main path={props.url.pathname} page={props.data.page} />
         <Footer />
@@ -143,7 +143,7 @@ function ForwardBackButtons(props: { slug: string }) {
     <div class="mt-8 flex flex(col md:row) gap-4">
       {previous && (
         <a href={`/test-cases/${previous.slug}`} class={`${button} text-left`}>
-          <span class={upper}>{"←"} Previous</span>
+          <span class={upper}>"← Previous"</span>
           <span class={lower}>
             <span class={category}>
               {previous.slug ? `${folders[previousFolder]}: ` : ""}
@@ -154,7 +154,7 @@ function ForwardBackButtons(props: { slug: string }) {
       )}
       {next && (
         <a href={`/test-cases/${next.slug}`} class={`${button} text-right`}>
-          <span class={upper}>Next {"→"}</span>
+          <span class={upper}>Next →"</span>
           <span class={lower}>
             <span class={category}>
               {next.slug ? `${folders[nextFolder]}: ` : ""}

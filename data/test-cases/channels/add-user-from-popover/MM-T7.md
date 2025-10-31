@@ -1,37 +1,37 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Add User — Team admins (Private only)"
+name: 'Add User — Team admins (Private only)'
 status: Active
 priority: Low
 folder: Add user from popover
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Add user to channel from popover
 component: null
 tags: []
-labels: 
-- cy-prod
-tested_by_contributor: ""
+labels:
+  - cy-prod
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Automated - No manual tests needed
+rainforest:
+  - N/A
+manual_test_environments:
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 2746256
 key: MM-T7
-created_on: "2019-08-26T23:03:55Z"
-last_updated: "2022-09-10T10:54:36Z"
+created_on: '2019-08-26T23:03:55Z'
+last_updated: '2022-09-10T10:54:36Z'
 case_hashed: 4b47ea3d722c73acf4baafd6c6275a272ab0bfbb2249010903bad9fe485324a0e62607ad0f6f49f5bbe40b59920c76eb
 steps_hashed: c30deebd362ac55789ac1f9f406f5eae591a7277dc25cfc0e20b3056e49ac217a41285e5f9a7a2f0d61da7b3c17f97b2
 ---

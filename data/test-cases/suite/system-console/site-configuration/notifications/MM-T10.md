@@ -1,24 +1,24 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Disabling email notifications should not disable email invites"
+name: 'Disabling email notifications should not disable email invites'
 status: Active
 priority: Normal
 folder: Notifications
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P2 - Core Functions (Do core functions work?)
 
 # (Optional)
 location: System Console
 component: null
-tags: 
-- Cloud N/A
-labels: 
-- Cloud-N/A
-- system-console
-- fix-versions-not-empty-2022cleanup
-tested_by_contributor: ""
+tags:
+  - Cloud N/A
+labels:
+  - Cloud-N/A
+  - system-console
+  - fix-versions-not-empty-2022cleanup
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: Ticket Open
@@ -26,14 +26,14 @@ detox: null
 mmctl: null
 playwright: null
 rainforest: []
-manual_test_environments: 
-- Webapp
+manual_test_environments:
+  - Webapp
 
-# Do not change
+  # Do not change
 id: 2746386
 key: MM-T10
-created_on: "2019-08-26T23:46:53Z"
-last_updated: ""
+created_on: '2019-08-26T23:46:53Z'
+last_updated: ''
 case_hashed: 20281e60f3ea07628d3c625b71a2c8245041a7626fc6e1377be572a24d6ba1eda196f7a9d8b9a319cafa3355b3e179b9
 steps_hashed: 1f7bf0cbd8ac439c4b64b8fb07beba93bc9e05a25a665fd7262a418b8c63c477a73ac41e04231b4b5a94b16aa84b9dfa
 ---

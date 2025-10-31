@@ -62,7 +62,7 @@ export default function Search() {
       {results.length > 0 && !closed &&
         (
           <div ref={ref} class="border p-4 absolute bg-white">
-            {results.map((r) => <SearchResult name={r.name} id={r.id} />)}
+            {results.map((r) => <SearchResult key={r.id} name={r.name} id={r.id} />)}
           </div>
         )}
     </form>

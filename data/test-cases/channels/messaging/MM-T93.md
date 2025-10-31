@@ -1,39 +1,39 @@
 ---
 # (Required) Ensure all values are filled up
-name: "Replying to an older bot post that has no post content and no attachment pretext"
+name: 'Replying to an older bot post that has no post content and no attachment pretext'
 status: Active
 priority: Low
 folder: Messaging
-authors: ""
-team_ownership: 
-- Channels
+authors: ''
+team_ownership:
+  - Channels
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
 location: Messaging
 component: null
 tags: []
-labels: 
-- TM4J-Key-Mapped-In-Cypress-Release
-- cy-prod
-- messaging
-tested_by_contributor: ""
+labels:
+  - TM4J-Key-Mapped-In-Cypress-Release
+  - cy-prod
+  - messaging
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: in Production
 detox: null
 mmctl: null
 playwright: null
-rainforest: 
-- N/A
-manual_test_environments: 
-- Automated - No manual tests needed
+rainforest:
+  - N/A
+manual_test_environments:
+  - Automated - No manual tests needed
 
-# Do not change
+  # Do not change
 id: 3741724
 key: MM-T93
-created_on: "2019-12-20T16:32:59Z"
-last_updated: "2022-09-10T11:32:41Z"
+created_on: '2019-12-20T16:32:59Z'
+last_updated: '2022-09-10T11:32:41Z'
 case_hashed: a67697b46eee8df0937d4f4c66c548b896b6c06c2097a85ef1b9926af779c345da6748e895e23dd43bc80a90263edee9
 steps_hashed: 013d3d3ee0a3b85b8ae200f51be15fb6b9bbecee8a830a86b10884a9b0b279d6e7e568ae72fb04228de43af661599c6c
 ---

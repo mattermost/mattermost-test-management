@@ -1,15 +1,12 @@
-import {
-  findSingle,
-  gfm,
-  gfmHtml,
-  grayMatter,
-  micromark,
-  rehypeParse,
-  rehypeRemark,
-  remarkGfm,
-  remarkStringify,
-  unified,
-} from '../deps.ts';
+import { findSingle } from '@std/collections';
+import grayMatter from 'npm:gray-matter';
+import { micromark } from 'npm:micromark';
+import { gfm, gfmHtml } from 'npm:micromark-extension-gfm';
+import rehypeParse from 'npm:rehype-parse';
+import rehypeRemark from 'npm:rehype-remark';
+import remarkGfm from 'npm:remark-gfm';
+import remarkStringify from 'npm:remark-stringify';
+import { unified } from 'npm:unified';
 
 import { separator, testCasesFolderFullPath, tmpDataFolderPath } from './constant.ts';
 import { readFile } from './file.ts';
@@ -22,7 +19,7 @@ export function testCaseToMarkdown(
 ) {
   const header = `${separator}
 # (Required) Ensure all values are filled up
-name: ${renderString(testCase.name.replaceAll('"', '\''))}
+name: ${renderString(testCase.name.replaceAll('"', "'"))}
 status: ${testCase.statusName}
 priority: ${testCase.priorityName}
 folder: ${testCase.folderName}

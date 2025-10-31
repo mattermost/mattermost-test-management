@@ -1,12 +1,12 @@
 ---
 # (Required) Ensure all values are filled up
-name: "MM-17515 — Mobile browser view: A long email address is not fully visible in Profile Settings"
+name: 'MM-17515 — Mobile browser view: A long email address is not fully visible in Profile Settings'
 status: Draft
 priority: Normal
 folder: Ticket coverage
-authors: ""
-team_ownership: 
-- QA Platform
+authors: ''
+team_ownership:
+  - QA Platform
 priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
 
 # (Optional)
@@ -14,7 +14,7 @@ location: Ticket coverage
 component: null
 tags: []
 labels: []
-tested_by_contributor: ""
+tested_by_contributor: ''
 
 # (Optional) Test type and tools
 cypress: null
@@ -27,8 +27,8 @@ manual_test_environments: []
 # Do not change
 id: 2760831
 key: MM-T31
-created_on: "2019-08-28T10:40:52Z"
-last_updated: "2022-12-01T21:17:46Z"
+created_on: '2019-08-28T10:40:52Z'
+last_updated: '2022-12-01T21:17:46Z'
 case_hashed: 1262816651179f32ff20f5d0ead29ab8a3bb2a996aa03898182af3d413858d3113aefba731796726dff9e2c03c7825dd
 steps_hashed: 231e1fc0252e4ecc27b2ce1edc5f37f2320e0f21f0cfdfb29b538ef831d36ed49471d9e2a31f3c46d5d4dc476c36c57d
 ---
@@ -42,8 +42,7 @@ steps_hashed: 231e1fc0252e4ecc27b2ce1edc5f37f2320e0f21f0cfdfb29b538ef831d36ed494
 **Step 1**
 
 1. Register a new account using a long email address such as "my.name+somethingreallylong\@mattermost.com" (or similar)
-2. Toggle Google Chrome Device Emulation
-   \
+2. Toggle Google Chrome Device Emulation\
    **Windows**:\
    CTRL+Shift+I\
    then\
