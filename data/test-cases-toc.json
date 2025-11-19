@@ -638,6 +638,98 @@
     "name": "Omnibus: General Mattermost smoke tests",
     "slug": "omnibus/mm-t3394"
   },
+  "easy-login/mm-t5899": {
+    "name": "New guest user can find out how to install Mm apps by clicking links from Easy Login invitation email",
+    "slug": "easy-login/mm-t5899"
+  },
+  "easy-login/mm-t5898": {
+    "name": "New guest user with desktop / mobile app installed can join and view server in-app from Easy Login link from invitation email",
+    "slug": "easy-login/mm-t5898"
+  },
+  "easy-login/mm-t5900": {
+    "name": "New guest user can join and view server by clicking link from Easy Login invitation email, after installing Mm mobile / desktop apps",
+    "slug": "easy-login/mm-t5900"
+  },
+  "easy-login/mm-t5910": {
+    "name": "MFA cannot be set to Enforced on a server that has Easy Login enabled",
+    "slug": "easy-login/mm-t5910"
+  },
+  "easy-login/mm-t5897": {
+    "name": "New guest user can join server by clicking Easy Login link from invitation email (in browser)",
+    "slug": "easy-login/mm-t5897"
+  },
+  "easy-login/mm-t5904": {
+    "name": "Easy Login token can be used only once",
+    "slug": "easy-login/mm-t5904"
+  },
+  "easy-login/mm-t5914": {
+    "name": "Guest accounts created using Easy Login respect any whitelisted domain configuration that is set on the server",
+    "slug": "easy-login/mm-t5914"
+  },
+  "easy-login/mm-t5905": {
+    "name": "If another user is already logged in when Easy Login link is clicked, request is ignored and current session continues",
+    "slug": "easy-login/mm-t5905"
+  },
+  "easy-login/mm-t5915": {
+    "name": "Re-validate email/username field if user changes their input, and do not display password field if user uses Easy Login",
+    "slug": "easy-login/mm-t5915"
+  },
+  "easy-login/mm-t5901": {
+    "name": "New guest user joins only the specified channels after clicking Easy Login link from invitation email",
+    "slug": "easy-login/mm-t5901"
+  },
+  "easy-login/mm-t5911": {
+    "name": "With Easy Login enabled, a user who does not use Easy Login can log in using their auth method by entering their email address or clicking SSO button",
+    "slug": "easy-login/mm-t5911"
+  },
+  "easy-login/mm-t5896": {
+    "name": "Admin can invite guest to join using Easy Login link sent via email",
+    "slug": "easy-login/mm-t5896"
+  },
+  "easy-login/mm-t5906": {
+    "name": "Email address is validated when admin invites guest to join using Easy Login",
+    "slug": "easy-login/mm-t5906"
+  },
+  "easy-login/mm-t5916": {
+    "name": "Existing Easy Login user can enter email address to receive an email with Easy Login link",
+    "slug": "easy-login/mm-t5916"
+  },
+  "easy-login/mm-t5902": {
+    "name": "Existing Easy Login user can enter username to receive an email with Easy Login link",
+    "slug": "easy-login/mm-t5902"
+  },
+  "easy-login/mm-t5912": {
+    "name": "Guest user who joins by using an Easy Login link is assigned a username that derives from their email address (string before the `@`, plus random number if needed to make it unique)",
+    "slug": "easy-login/mm-t5912"
+  },
+  "easy-login/mm-t5903": {
+    "name": "Easy Login token expires after 5 minutes",
+    "slug": "easy-login/mm-t5903"
+  },
+  "easy-login/mm-t5913": {
+    "name": "User can use Easy Login to join and log in to server that uses a subpath",
+    "slug": "easy-login/mm-t5913"
+  },
+  "easy-login/mm-t5907": {
+    "name": "Invalid Easy Login link shows error, and user can request new link",
+    "slug": "easy-login/mm-t5907"
+  },
+  "easy-login/mm-t5917": {
+    "name": "Easy Login user should not see editable password field in Profile > Security",
+    "slug": "easy-login/mm-t5917"
+  },
+  "easy-login/mm-t5908": {
+    "name": "Admin can enable and disable Easy Login in System Console and state is reflected in guest invite flow and login page",
+    "slug": "easy-login/mm-t5908"
+  },
+  "easy-login/mm-t5918": {
+    "name": "On a server with email verification required, an Easy Login user's email address is set to `verified` when they click the invite link to log in",
+    "slug": "easy-login/mm-t5918"
+  },
+  "easy-login/mm-t5909": {
+    "name": "Easy Login user is shown and required to agree to custom terms of service when set",
+    "slug": "easy-login/mm-t5909"
+  },
   "apps-framework/framework-and-test-apps/test-app/valid-test-commands/mm-t4790": {
     "name": "Valid navigate-external",
     "slug": "apps-framework/framework-and-test-apps/test-app/valid-test-commands/mm-t4790"
@@ -4362,6 +4454,18 @@
   "plugins/aws-sms/mm-t5212": {
     "name": "Alerts for AWS alarms are delivered",
     "slug": "plugins/aws-sms/mm-t5212"
+  },
+  "ai-assisted-test/mm-t5927": {
+    "name": "Enable content flagging and configure common reviewers",
+    "slug": "ai-assisted-test/mm-t5927"
+  },
+  "ai-assisted-test/mm-t5928": {
+    "name": "Configure additional settings with flagging reasons and comment requirements",
+    "slug": "ai-assisted-test/mm-t5928"
+  },
+  "ai-assisted-test/mm-t5929": {
+    "name": "Should be able to change threads with arrow keys",
+    "slug": "ai-assisted-test/mm-t5929"
   },
   "playbooks/mm-t4961": { "name": "Create a new public playbook", "slug": "playbooks/mm-t4961" },
   "playbooks/mm-t4971": { "name": "LHS - Navigation", "slug": "playbooks/mm-t4971" },
@@ -13274,7 +13378,7 @@
     "slug": "mobile-app--native-specific-/mm-t3256"
   },
   "mobile-app--native-specific-/mm-t3262": {
-    "name": "RN apps: Advanced Settings - Delete Documents & Data works as expected",
+    "name": "RN apps: Advanced Settings - Delete Local Files works as expected",
     "slug": "mobile-app--native-specific-/mm-t3262"
   },
   "mobile-app--native-specific-/mm-t3233": {
@@ -14676,10 +14780,6 @@
     "name": "LDAP sync: User is removed from channel after required attribute is removed from their LDAP account and synced (auto-add true or auto-add false)",
     "slug": "channels/abac-attribute-based-access/abac-system-admin/mm-t5799"
   },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5825": {
-    "name": "Group Sync Disable with Active ABAC Channel Rules",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5825"
-  },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5811": {
     "name": "Basic Access Rule Creation",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5811"
@@ -14688,17 +14788,9 @@
     "name": "Global Policy Display in Channel Access Control",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5815"
   },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5821": {
-    "name": "Auto-Add Behavior with ABAC and LDAP Group Sync",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5821"
-  },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5814": {
     "name": "Channel Access Rule Self-Exclusion Prevention",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5814"
-  },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5820": {
-    "name": "ABAC and LDAP Group Sync Coexistence",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5820"
   },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5824": {
     "name": "Conflict Resolution Between ABAC and LDAP",
@@ -14712,10 +14804,6 @@
     "name": "Immediate Member Sync on Rule Save",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5817"
   },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5823": {
-    "name": "Channel Settings UI with ABAC and LDAP Group Sync",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5823"
-  },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5807": {
     "name": "Visibility of Access Control tab in Channel Settings",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5807"
@@ -14724,10 +14812,6 @@
     "name": "Auto-Add Toggle Functionality in Channel",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5813"
   },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5826": {
-    "name": "Member Removal Priority Between ABAC and LDAP Group Sync",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5826"
-  },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5812": {
     "name": "Preview Results of Access Rule",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5812"
@@ -14735,14 +14819,6 @@
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5816": {
     "name": "Channel Access Rule Validation",
     "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5816"
-  },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5822": {
-    "name": "Channel Access Rules Test Results with Group Sync Context",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5822"
-  },
-  "channels/abac-attribute-based-access/abac-channel-admin/mm-t5819": {
-    "name": "ABAC Channel Access Rules Disabled with Active Group Sync",
-    "slug": "channels/abac-attribute-based-access/abac-channel-admin/mm-t5819"
   },
   "channels/abac-attribute-based-access/abac-channel-admin/mm-t5809": {
     "name": "Channel Access Rule Removal",

@@ -1,5 +1,13 @@
 [
   {
+    "folder": "ai-assisted-test",
+    "tests": [
+      "Configure additional settings with flagging reasons and comment requirements",
+      "Enable content flagging and configure common reviewers",
+      "Should be able to change threads with arrow keys"
+    ]
+  },
+  {
     "folder": "apps-framework/figma",
     "tests": [
       "Auth Token Refresh",
@@ -281,23 +289,16 @@
   {
     "folder": "channels/abac-attribute-based-access/abac-channel-admin",
     "tests": [
-      "ABAC Channel Access Rules Disabled with Active Group Sync",
-      "ABAC and LDAP Group Sync Coexistence",
-      "Auto-Add Behavior with ABAC and LDAP Group Sync",
       "Auto-Add Toggle Functionality in Channel",
       "Basic Access Rule Creation",
       "Channel Access Rule Removal",
       "Channel Access Rule Self-Exclusion Prevention",
       "Channel Access Rule Validation",
       "Channel Access Rule Validation and Security",
-      "Channel Access Rules Test Results with Group Sync Context",
-      "Channel Settings UI with ABAC and LDAP Group Sync",
       "Conflict Resolution Between ABAC and LDAP",
       "Conflicting Channel Access Rules Detection",
       "Global Policy Display in Channel Access Control",
-      "Group Sync Disable with Active ABAC Channel Rules",
       "Immediate Member Sync on Rule Save",
-      "Member Removal Priority Between ABAC and LDAP Group Sync",
       "Prevent Loss of Unsaved Changes to Channel Access Rules",
       "Preview Results of Access Rule",
       "Visibility of Access Control tab in Channel Settings"
@@ -2571,6 +2572,34 @@
     ]
   },
   {
+    "folder": "easy-login",
+    "tests": [
+      "Admin can enable and disable Easy Login in System Console and state is reflected in guest invite flow and login page",
+      "Admin can invite guest to join using Easy Login link sent via email",
+      "Easy Login token can be used only once",
+      "Easy Login token expires after 5 minutes",
+      "Easy Login user is shown and required to agree to custom terms of service when set",
+      "Easy Login user should not see editable password field in Profile > Security",
+      "Email address is validated when admin invites guest to join using Easy Login",
+      "Existing Easy Login user can enter email address to receive an email with Easy Login link",
+      "Existing Easy Login user can enter username to receive an email with Easy Login link",
+      "Guest accounts created using Easy Login respect any whitelisted domain configuration that is set on the server",
+      "Guest user who joins by using an Easy Login link is assigned a username that derives from their email address (string before the `@`, plus random number if needed to make it unique)",
+      "If another user is already logged in when Easy Login link is clicked, request is ignored and current session continues",
+      "Invalid Easy Login link shows error, and user can request new link",
+      "MFA cannot be set to Enforced on a server that has Easy Login enabled",
+      "New guest user can find out how to install Mm apps by clicking links from Easy Login invitation email",
+      "New guest user can join and view server by clicking link from Easy Login invitation email, after installing Mm mobile / desktop apps",
+      "New guest user can join server by clicking Easy Login link from invitation email (in browser)",
+      "New guest user joins only the specified channels after clicking Easy Login link from invitation email",
+      "New guest user with desktop / mobile app installed can join and view server in-app from Easy Login link from invitation email",
+      "On a server with email verification required, an Easy Login user's email address is set to `verified` when they click the invite link to log in",
+      "Re-validate email/username field if user changes their input, and do not display password field if user uses Easy Login",
+      "User can use Easy Login to join and log in to server that uses a subpath",
+      "With Easy Login enabled, a user who does not use Easy Login can log in using their auth method by entering their email address or clicking SSO button"
+    ]
+  },
+  {
     "folder": "integrations",
     "tests": [
       "/ autocomplete list can scroll",
@@ -3191,7 +3220,7 @@
       "RN apps: Add or open direct message from profile info in reply thread",
       "RN apps: Add user to private channel",
       "RN apps: Add direct message from '+'",
-      "RN apps: Advanced Settings - Delete Documents & Data works as expected",
+      "RN apps: Advanced Settings - Delete Local Files works as expected",
       "RN apps: Archive public or private channel",
       "RN apps: Change channel",
       "RN apps: Channel mute - mentions and unreads",

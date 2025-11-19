@@ -1,5 +1,23 @@
 [
   {
+    "name": "AI Assisted Test",
+    "heading": true,
+    "routes": [
+      {
+        "name": "Enable content flagging and configure common reviewers",
+        "file": "ai-assisted-test/MM-T5927.md"
+      },
+      {
+        "name": "Configure additional settings with flagging reasons and comment requirements",
+        "file": "ai-assisted-test/MM-T5928.md"
+      },
+      {
+        "name": "Should be able to change threads with arrow keys",
+        "file": "ai-assisted-test/MM-T5929.md"
+      }
+    ]
+  },
+  {
     "name": "Apps Framework",
     "heading": true,
     "routes": [
@@ -728,36 +746,8 @@
                 "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5818.md"
               },
               {
-                "name": "ABAC Channel Access Rules Disabled with Active Group Sync",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5819.md"
-              },
-              {
-                "name": "ABAC and LDAP Group Sync Coexistence",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5820.md"
-              },
-              {
-                "name": "Auto-Add Behavior with ABAC and LDAP Group Sync",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5821.md"
-              },
-              {
-                "name": "Channel Access Rules Test Results with Group Sync Context",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5822.md"
-              },
-              {
-                "name": "Channel Settings UI with ABAC and LDAP Group Sync",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5823.md"
-              },
-              {
                 "name": "Conflict Resolution Between ABAC and LDAP",
                 "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5824.md"
-              },
-              {
-                "name": "Group Sync Disable with Active ABAC Channel Rules",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5825.md"
-              },
-              {
-                "name": "Member Removal Priority Between ABAC and LDAP Group Sync",
-                "file": "channels/abac-attribute-based-access/abac-channel-admin/MM-T5826.md"
               }
             ]
           },
@@ -7595,6 +7585,98 @@
     ]
   },
   {
+    "name": "Easy Login",
+    "heading": true,
+    "routes": [
+      {
+        "name": "Admin can invite guest to join using Easy Login link sent via email",
+        "file": "easy-login/MM-T5896.md"
+      },
+      {
+        "name": "New guest user can join server by clicking Easy Login link from invitation email (in browser)",
+        "file": "easy-login/MM-T5897.md"
+      },
+      {
+        "name": "New guest user with desktop / mobile app installed can join and view server in-app from Easy Login link from invitation email",
+        "file": "easy-login/MM-T5898.md"
+      },
+      {
+        "name": "New guest user can find out how to install Mm apps by clicking links from Easy Login invitation email",
+        "file": "easy-login/MM-T5899.md"
+      },
+      {
+        "name": "New guest user can join and view server by clicking link from Easy Login invitation email, after installing Mm mobile / desktop apps",
+        "file": "easy-login/MM-T5900.md"
+      },
+      {
+        "name": "New guest user joins only the specified channels after clicking Easy Login link from invitation email",
+        "file": "easy-login/MM-T5901.md"
+      },
+      {
+        "name": "Existing Easy Login user can enter username to receive an email with Easy Login link",
+        "file": "easy-login/MM-T5902.md"
+      },
+      { "name": "Easy Login token expires after 5 minutes", "file": "easy-login/MM-T5903.md" },
+      { "name": "Easy Login token can be used only once", "file": "easy-login/MM-T5904.md" },
+      {
+        "name": "If another user is already logged in when Easy Login link is clicked, request is ignored and current session continues",
+        "file": "easy-login/MM-T5905.md"
+      },
+      {
+        "name": "Email address is validated when admin invites guest to join using Easy Login",
+        "file": "easy-login/MM-T5906.md"
+      },
+      {
+        "name": "Invalid Easy Login link shows error, and user can request new link",
+        "file": "easy-login/MM-T5907.md"
+      },
+      {
+        "name": "Admin can enable and disable Easy Login in System Console and state is reflected in guest invite flow and login page",
+        "file": "easy-login/MM-T5908.md"
+      },
+      {
+        "name": "Easy Login user is shown and required to agree to custom terms of service when set",
+        "file": "easy-login/MM-T5909.md"
+      },
+      {
+        "name": "MFA cannot be set to Enforced on a server that has Easy Login enabled",
+        "file": "easy-login/MM-T5910.md"
+      },
+      {
+        "name": "With Easy Login enabled, a user who does not use Easy Login can log in using their auth method by entering their email address or clicking SSO button",
+        "file": "easy-login/MM-T5911.md"
+      },
+      {
+        "name": "Guest user who joins by using an Easy Login link is assigned a username that derives from their email address (string before the `@`, plus random number if needed to make it unique)",
+        "file": "easy-login/MM-T5912.md"
+      },
+      {
+        "name": "User can use Easy Login to join and log in to server that uses a subpath",
+        "file": "easy-login/MM-T5913.md"
+      },
+      {
+        "name": "Guest accounts created using Easy Login respect any whitelisted domain configuration that is set on the server",
+        "file": "easy-login/MM-T5914.md"
+      },
+      {
+        "name": "Re-validate email/username field if user changes their input, and do not display password field if user uses Easy Login",
+        "file": "easy-login/MM-T5915.md"
+      },
+      {
+        "name": "Existing Easy Login user can enter email address to receive an email with Easy Login link",
+        "file": "easy-login/MM-T5916.md"
+      },
+      {
+        "name": "Easy Login user should not see editable password field in Profile > Security",
+        "file": "easy-login/MM-T5917.md"
+      },
+      {
+        "name": "On a server with email verification required, an Easy Login user's email address is set to `verified` when they click the invite link to log in",
+        "file": "easy-login/MM-T5918.md"
+      }
+    ]
+  },
+  {
     "name": "Integrations",
     "heading": true,
     "routes": [
@@ -9196,7 +9278,7 @@
         "file": "mobile-app--native-specific-/MM-T3261.md"
       },
       {
-        "name": "RN apps: Advanced Settings - Delete Documents & Data works as expected",
+        "name": "RN apps: Advanced Settings - Delete Local Files works as expected",
         "file": "mobile-app--native-specific-/MM-T3262.md"
       },
       { "name": "RN apps: About Mattermost", "file": "mobile-app--native-specific-/MM-T3264.md" },
