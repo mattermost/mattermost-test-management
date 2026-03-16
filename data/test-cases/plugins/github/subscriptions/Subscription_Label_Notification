@@ -1,0 +1,94 @@
+---
+# (Required) Ensure all values are filled up
+name: 'Subscription `label` notifications'
+status: Active
+priority: Normal
+folder: Subscriptions
+authors: '@arush-vashishtha'
+team_ownership: []
+priority_p1_to_p4: P3 - Deep Functions (Do extensive scenarios work?)
+
+# (Optional)
+location: null
+component: null
+tags: []
+`labels`: []
+tested_by_contributor: ''
+
+# (Optional) Test type and tools
+cypress: null
+detox: null
+mmctl: null
+playwright: null
+rainforest: []
+manual_test_environments: []
+
+# Do not change
+id: null
+key: null
+created_on: null
+last_updated: null
+case_hashed: null
+steps_hashed: null
+---
+
+
+**Step 1**
+
+1. Setup the `GitHub` plugin in Mattermost.
+2. Open any channel or DM/GM in Mattermost.
+3. Create a subscription of a repository without any `label`.
+4. Create a new `Issue` or `Pull Request` in `GitHub` under that repository.
+5. Go back to the channel or DM/GM in Mattermost where the subscription was created.
+
+**Expected**
+
+The user should receive a notification for the created `Issue` or `Pull Request` in the channel or DM/GM where the subscription was set.
+
+**Step 2**
+
+1. Setup the `GitHub` plugin in Mattermost.
+2. Open any channel or DM/GM in Mattermost.
+3. Create a subscription of a repository with a `label`.
+4. Create a new `Issue` or `Pull Request` in `GitHub` with that same `label`.
+5. Go back to the channel or DM/GM in Mattermost where the subscription was created.
+
+**Expected**
+
+The user should get a notification about the new `Issue` or `Pull Request` created and should mention the subscribed `label`
+
+**Step 3**
+
+1. Setup the `GitHub` plugin in Mattermost.
+2. Open any channel or DM/GM in Mattermost.
+3. Create a subscription of a repository with a `label`.
+4. Create a new `Issue` or `Pull Request` in `GitHub` with a different `label`.
+5. Go back to the channel or DM/GM in Mattermost where the subscription was created.
+
+**Expected**
+
+The user should not get any notification because the created `Issue` or `Pull Request` does not include the subscribed `label`.
+
+**Step 4**
+
+1. Setup the `GitHub` plugin in Mattermost.
+2. Open any channel or DM/GM in Mattermost.
+3. Create a subscription of a repository with a `label`.
+4. Create a new `Issue` or `Pull Request` in `GitHub` with multiple `labels`, including the subscribed `label`.
+5. Go back to the channel or DM/GM in Mattermost where the subscription was created.
+
+**Expected**
+
+The user should get a notification about the new `Issue` or `Pull Request`. The notification should mention the subscribed `label`, while the labels should also appear in the `labels` list in the notification.
+
+**Step 5**
+
+1. Setup the `GitHub` plugin in Mattermost.
+2. Open any channel or DM/GM in Mattermost.
+3. Create a subscription of a repository with a `label`.
+4. Create a new `Issue` or `Pull Request` in `GitHub` with no `labels` assigned.
+5. Go back to the channel or DM/GM in Mattermost where the subscription was created.
+
+**Expected**
+
+The user should not get any notification because the `Issue` or Pull `Request` does not have the subscribed label.
